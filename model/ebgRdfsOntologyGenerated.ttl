@@ -1,0 +1,174 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov: <http://www.w3.org/ns/regorg#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix ebg: <http://data.eubusinessgraph.eu/> .
+
+<http://data.eubusinessgraph.eu/ontology#> a owl:Ontology;
+   dcterms:title "euBusinessGraph vocabulary";
+   dcterms:modified "2017-07-11"^^xsd:date;
+   vann:preferredNamespaceUri "http://data.eubusinessgraph.eu/ontology#";
+   vann:preferredNamespacePrefix "ebg";
+   foaf:homepage <http://data.eubusinessgraph.eu>;
+   dcterms:created "2017-07-11"^^xsd:date;
+   dcterms:type <http://purl.org/adms/assettype/Ontology>;
+   dcterms:status <http://purl.org/adms/status/UnderDevelopment>.
+
+rov:RegisteredOrganization a rdfs:Class .
+rov:RegisteredOrganization skos:definition "an organization that gains legal entity status by the act of registration. Compare to org:FormalOrganization
+ that applies to any legal entity, including those created by other legal means. Registered organizations are distinct from
+ the broader concept of organizations, groups or, in some jurisdictions, sole traders. Many organizations exist that are
+not legal entities yet to the outside world they have staff, hierarchies, locations etc. Other organizations exist that are
+ an umbrella for several legal entities (universities are often good examples of this) [rov:]
+A legal person or structure that is organized under the laws of any jurisdiction [lei-elf:]" .
+rov:RegisteredOrganization skos:example "Examples include, without limitation [lei-elf:]: all financial intermediaries, banks and finance companies,
+all entities that issue equity, debt or other 
+securities for other capital structures, all entities listed on an exchange,  all entities that trade stock or debt, investment
+vehicles, including mutual funds, pension funds and alternative investment vehicles constituted as corporate entities or
+collective investment agreements (including umbrella funds as well as funds under an umbrella structure, hedge funds,
+private equity funds, etc.), all entities under the purview of a financial regulator and their affiliates, subsidiaries and
+holding companies, counterparties to financial transactions." .
+
+ebg:DataItem a rdfs:Class .
+
+ebg:isPubliclyTraded a rdf:Property, owl:DatatypeProperty .
+ebg:isPubliclyTraded schema:domainIncludes rov:RegisteredOrganization .
+ebg:isPubliclyTraded schema:rangeIncludes xsd:boolean .
+ebg:isPubliclyTraded skos:definition "Whether the company is publicly traded (listed at a stock exchange) [ebg:]" .
+
+ebg:orgStatus a rdf:Property, owl:DatatypeProperty .
+ebg:orgStatus schema:domainIncludes rov:RegisteredOrganization .
+ebg:orgStatus schema:rangeIncludes xsd:string .
+ebg:orgStatus skos:scopeNote "There is no globally accepted list of company states.
+For Inactive, some look at hard evidence (the company has been deregistered), others at a long period of
+inactivity (dormant). Because of this, a user cannot assume that Active and Inactive are opposites." .
+ebg:orgStatus skos:definition "Flag that identifies whether a company is active or not [ebg:]. The operational and/or legal 
+registration status of the entity [lei:]" .
+ebg:orgStatus skos:examples "'insolvent', 'bankrupt', 'in receivership': likely to mean slightly different things with different
+legal implications in different jurisdictions [rov:] 'Normal Activity': does appear to have cross-border
+usefulness and this should be used in preference to terms like 'trading' or 'operating' [rov:] 'Actively trading'
+vs 'Dormant' vs 'Unregistered' could be considered the 3 main divisions of Status" .
+ebg:orgStatus skos:rules "A Best Practice for recording status levels is to use the relevant jurisdiction's terms
+and to encode these in a SKOS Concept Scheme. [rov:]" .
+
+schema:foundingDate a rdf:Property, owl:DatatypeProperty .
+schema:foundingDate schema:domainIncludes rov:RegisteredOrganization .
+schema:foundingDate schema:rangeIncludes xsd:date .
+schema:foundingDate skos:example "2010-11-18"^^xsd:date .
+
+ebg:juristiction a rdf:Property, owl:DatatypeProperty .
+ebg:juristiction schema:domainIncludes rov:RegisteredOrganization .
+ebg:juristiction schema:rangeIncludes xsd:string .
+
+ebg:newsFeed a rdf:Property, owl:DatatypeProperty .
+ebg:newsFeed schema:domainIncludes rov:RegisteredOrganization .
+ebg:newsFeed schema:rangeIncludes xsd:anyURI .
+
+schema:availableLanguage a rdf:Property, owl:DatatypeProperty .
+schema:availableLanguage schema:domainIncludes rov:RegisteredOrganization .
+schema:availableLanguage schema:rangeIncludes xsd:string .
+schema:availableLanguage skos:definition "Languages used by the organization" .
+schema:availableLanguage skos:scopeNote "Deduced from languages appearing in web resources related to the organisation" .
+schema:availableLanguage skos:example "it" .
+
+schema:dissolutionDate a rdf:Property, owl:DatatypeProperty .
+schema:dissolutionDate schema:domainIncludes rov:RegisteredOrganization .
+schema:dissolutionDate schema:rangeIncludes xsd:date .
+schema:dissolutionDate skos:definition "Date when the organization was dissolved or removed from register" .
+schema:dissolutionDate skos:example "2010-11"^^xsd:gYearMonth .
+
+ebg:about a rdf:Property, owl:ObjectProperty .
+ebg:about schema:domainIncludes rov:RegisteredOrganization .
+ebg:about schema:rangeIncludes ebg:DataItem .
+
+ebg:providedCompanyData a rdf:Property, owl:ObjectProperty .
+ebg:providedCompanyData schema:domainIncludes rov:RegisteredOrganization .
+ebg:providedCompanyData schema:rangeIncludes ebg:DataItem .
+
+rov:orgStatus a rdf:Property, owl:DatatypeProperty .
+rov:orgStatus schema:domainIncludes rov:RegisteredOrganization .
+rov:orgStatus schema:rangeIncludes skos:Concept .
+rov:orgStatus skos:definition "Company Type (Legal Form of the entity)" .
+rov:orgStatus skos:scopeNote "There is no agreed set of company types that crosses borders [rov:]. After examination,
+EBG concluded there is no chance to \"standardize\" some shared super-types across jurisdictions. This said,
+each jurisdiction will have a limited set of recognized company types and these should be expressed in a
+consistent manner in a SKOS Concept Scheme [rov:] The types may form a hierarchy, but each company
+can have maximum one value. Eg for Italy: Società Di Capitale > Società a responsabilità limitata [ebg:]" .
+
+ebg:orgTypeText a rdf:Property, owl:DatatypeProperty .
+ebg:orgTypeText schema:domainIncludes rov:RegisteredOrganization .
+ebg:orgTypeText schema:rangeIncludes rdf:langString .
+ebg:orgTypeText skos:scopeNote "Because of the difficulties of standardizing Type lookup, we include a free text field" .
+ebg:orgTypeText skos:definition "Current entity status as reported by a national company register" .
+ebg:orgTypeText skos:rules "include valid language tag (see [iana:] for list)" .
+ebg:orgTypeText skos:example "Private Limited Company"@en .
+
+ebg:license a rdf:Property, owl:DatatypeProperty .
+ebg:license schema:domainIncludes ebg:DataItem .
+ebg:license schema:rangeIncludes xsd:string .
+
+ebg:certifiedEmailAddress a rdf:Property, owl:DatatypeProperty .
+ebg:certifiedEmailAddress schema:domainIncludes rov:RegisteredOrganization .
+ebg:certifiedEmailAddress schema:rangeIncludes xsd:string .
+
+skos:altLabel a rdf:Property, owl:DatatypeProperty .
+skos:altLabel schema:domainIncludes rov:RegisteredOrganization .
+skos:altLabel schema:rangeIncludes rdfs:Literal .
+skos:altLabel skos:scopeNote "Sometimes (e.g., when the legal name is very long) people refer to a
+company using a different, informal version [ebg:]. Some jurisdictions recognize
+concepts such as a trading name or alternative forms of a legal entity's name [rov:]" .
+skos:altLabel skos:definition "Informal/popular name of the company (also called Trading As) [ebg:]" .
+skos:altLabel skos:rules "Do not emit such name if it's equal to the legal name [ebg:]. 
+Do not use this property to record translations of the primary legal name [rov:]. 
+Provide a valid language tag if possible (see [iana:] for a list).
+Don't allow leading, trailing and two consecutive spaces." .
+skos:altLabel skos:example "OpenCorporates"@en .
+
+ebg:wikipedia a rdf:Property, owl:DatatypeProperty .
+ebg:wikipedia schema:domainIncludes rov:RegisteredOrganization .
+ebg:wikipedia schema:rangeIncludes xsd:anyURI .
+
+ebg:website a rdf:Property, owl:DatatypeProperty .
+ebg:website schema:domainIncludes rov:RegisteredOrganization .
+ebg:website schema:rangeIncludes xsd:anyURI .
+
+ebg:propertyName a rdf:Property, owl:DatatypeProperty .
+ebg:propertyName schema:domainIncludes ebg:DataItem .
+ebg:propertyName schema:rangeIncludes xsd:string .
+
+ebg:isPublic a rdf:Property, owl:DatatypeProperty .
+ebg:isPublic schema:domainIncludes rov:RegisteredOrganization .
+ebg:isPublic schema:rangeIncludes xsd:boolean .
+ebg:isPublic skos:definition "Whether this is a public sector or publicly owned organisation" .
+
+rov:orgActivity a rdf:Property, owl:DatatypeProperty .
+rov:orgActivity schema:domainIncludes rov:RegisteredOrganization .
+rov:orgActivity schema:rangeIncludes skos:Concept .
+rov:orgActivity skos:definition "Economic activity of the organization." .
+rov:orgActivity skos:scopeNote "Recorded using a controlled vocabulary, the preferred one is EC NACE 2. More detailed
+national classifications are also useful, e.g. IT ATECO, UK SIC, BG NKID." .
+
+rov:legalName a rdf:Property, owl:DatatypeProperty .
+rov:legalName schema:domainIncludes rov:RegisteredOrganization .
+rov:legalName schema:rangeIncludes rdfs:Literal .
+rov:legalName skos:definition "The legal name of the business, i.e. official name of the company [ebg:]" .
+rov:legalName skos:scopeNote "Provide a legal language tag (see [iana:] for a list), even if you need to guess
+(e.g. if the company comes from the Italian register then the language is probably @it). 
+Don't allow leading, trailing and two consecutive spaces." .
+rov:legalName skos:example "Ontotext"@en .
+
+locn:location a rdf:Property, owl:DatatypeProperty .
+locn:location schema:domainIncludes rov:RegisteredOrganization .
+locn:location schema:rangeIncludes dcterms:Location .
+
+locn:address a rdf:Property, owl:DatatypeProperty .
+locn:address schema:domainIncludes rov:RegisteredOrganization .
+locn:address schema:rangeIncludes locn:Address .

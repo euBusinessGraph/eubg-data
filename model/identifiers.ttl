@@ -1,0 +1,108 @@
+<http://data.eubusinessgraph.eu/company/uk/2176594>
+  a rov:RegisteredOrganization;
+  puml:label "Company with official UK ID";
+  rov:registration <http://data.eubusinessgraph.eu/company/uk/2176594/identifier/uk/CompaniesHouse>;
+  adms:identifier <http://data.eubusinessgraph.eu/company/uk/2176594/identifier/OpenCorporates>.
+
+<http://data.eubusinessgraph.eu/company/uk/2176594/identifier/uk/CompaniesHouse>
+  a adms:Identifier;
+  skos:notation "7444723"^^<http://data.eubusinessgraph.eu/register/uk/CompaniesHouse>;
+  dct:creator <http://data.eubusinessgraph.eu/register/uk/CompaniesHouse>.
+
+<http://data.eubusinessgraph.eu/register/uk/CompaniesHouse>
+  a fibo-fbc-fct-breg:BusinessRegistry;
+  schema:name "UK Companies House company register"@it;
+  schema:url <http://companieshouse.gov.uk>;
+  ebg:urlTemplate "https://beta.companieshouse.gov.uk/company/{}";
+  # TODO: http://data.companieshouse.gov.uk/doc/company/{}, eg http://data.companieshouse.gov.uk/doc/company/06368740
+  fibo-be-le-lp:isOrganizedIn <http://data.eubusinessgraph.eu/country/uk>.
+
+<http://data.eubusinessgraph.eu/company/uk/2176594/identifier/OpenCorporates>
+  a adms:Identifier;
+  skos:notation "gb/07444723"^^<http://data.eubusinessgraph.eu/register/OpenCorporates>;
+  dct:creator <http://data.eubusinessgraph.eu/register/OpenCorporates>.
+
+<http://data.eubusinessgraph.eu/register/OpenCorporates>
+  a fibo-fbc-fct-breg:BusinessRegistry;
+  schema:name "OpenCorporates companies";
+  ebg:urlTemplate "https://opencorporates.com/id/companies/{}".
+
+<http://data.eubusinessgraph.eu/company/atoka/6da785b3adf2>
+  a rov:RegisteredOrganization;
+  puml:label "Company we don't know the official ID of";
+  adms:identifier <http://data.eubusinessgraph.eu/company/atoka/6da785b3adf2/identifier/Atoka>;
+  adms:identifier <http://data.eubusinessgraph.eu/company/atoka/6da785b3adf2/identifier/it/REA>.
+
+<http://data.eubusinessgraph.eu/company/atoka/6da785b3adf2/identifier/it/REA>
+  a adms:Identifier;
+  skos:notation "TN210089"^^<http://data.eubusinessgraph.eu/register/it/REA>;
+  dct:creator <http://data.eubusinessgraph.eu/register/it/REA/TN>.
+
+<http://data.eubusinessgraph.eu/register/it/REA/TN>
+  a fibo-fbc-fct-breg:BusinessRegistry;
+  schema:name "Repertorio Economico Amministrativo - TN"@it;
+  dct:isPartOf <http://data.eubusinessgraph.eu/register/it/REA>.
+
+<http://data.eubusinessgraph.eu/register/it/REA>
+  a fibo-fbc-fct-breg:BusinessRegistry;
+  schema:name "Repertorio Economico Amministrativo"@it;
+  fibo-be-le-lp:isOrganizedIn <http://data.eubusinessgraph.eu/country/it>.
+
+<http://data.eubusinessgraph.eu/company/atoka/6da785b3adf2/identifier/Atoka>
+  a adms:Identifier;
+  skos:notation "6da785b3adf2"^^<http://data.eubusinessgraph.eu/register/Atoka>;
+  dct:creator <http://data.eubusinessgraph.eu/register/Atoka>.
+
+<http://data.eubusinessgraph.eu/register/Atoka>
+  a fibo-fbc-fct-breg:BusinessRegistry;
+  schema:name "atoka.it company information";
+  schema:url <http://atoka.io>;
+  ebg:urlTemplate "https://atoka.io/en/azienda/-/{}/".
+
+<http://data.eubusinessgraph.eu/company/no/974760673>
+  a rov:RegisteredOrganization;
+  puml:label "Company with official NO ID";
+  rov:registration <http://data.eubusinessgraph.eu/company/no/974760673/identifier/no/BrReg>.
+
+<http://data.eubusinessgraph.eu/company/no/974760673/identifier/no/BrReg>
+  a adms:Identifier;
+  skos:notation "974760673"^^<http://data.eubusinessgraph.eu/register/no/BrReg>;
+  dct:creator <http://data.eubusinessgraph.eu/register/no/BrReg>.
+
+<http://data.eubusinessgraph.eu/register/no/BrReg>
+  a fibo-fbc-fct-breg:BusinessRegistry;
+  schema:name "NO Brønnøysundregistrene - companies"@no;
+  schema:url <http://data.brreg.no>;
+  ebg:urlTemplate "http://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}";
+  ebg:dataUrlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}";
+  fibo-be-le-lp:isOrganizedIn <http://data.eubusinessgraph.eu/country/no>.
+
+<http://data.eubusinessgraph.eu/country/it>
+  a lcc-cr:Country, fibo-fnd-law-jur:Jurisdiction;
+  schema:name "Italy"@en, "Italia"@it, "Italia"@no.
+
+<http://data.eubusinessgraph.eu/country/no>
+  a lcc-cr:Country, fibo-fnd-law-jur:Jurisdiction;
+  schema:name "Norway"@en, "Norvegia"@it, "Norge"@no.
+
+<http://data.eubusinessgraph.eu/country/uk>
+  a lcc-cr:Country, fibo-fnd-law-jur:Jurisdiction;
+  schema:name "United Kingdom"@en, "Regno Unito"@it, "Storbritannia"@no.
+
+## TODO: use http://iatistandard.org/202/codelists/OrganisationRegistrationAgency/, and extend it (email of 20 May 2017)
+# <http://data.eubusinessgraph.eu/company/uk/2176594/identifier/uk/CompaniesHouse>
+#   a adms:Identifier;
+#   skos:notation "7444723"^^<http://data.eubusinessgraph.eu/register/GB-COH>;
+#   dct:creator <http://data.eubusinessgraph.eu/register/uk/CompaniesHouse>;
+#   adms:schemeAgency "GB-COH".
+
+# <http://data.eubusinessgraph.eu/register/GB-COH>
+#   a fibo-fbc-fct-breg:BusinessRegistry;
+#   schema:name "UK Companies House company register"@en;
+#   dc:identifier "GB-COH".
+
+
+
+###################
+
+schema:url a puml:InlineProperty.

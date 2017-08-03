@@ -1,0 +1,73 @@
+<company/BG/123456> a rov:RegisteredOrganization;
+  rov:legalName "Онтотекст АД"@bg;
+  skos:altLabel "Ontotext"@en;
+  schema:url <http://ontotext.com>;
+  rov:registration <company/BG/123456/id>;
+  adms:identifier <company/BG/123456/id/OCORP>.
+
+<company/BG/123456/id> a adms:Identifier;
+  puml:label "official registration of ONTO in BGTR";
+  skos:notation "123456";
+  dct:creator <register/BG>.
+
+<company/BG/123456/id/OCORP> a adms:Identifier;
+  puml:label "Registration of ONTO in OCORP\n(when it ingests BG TR)";
+  skos:notation "bg/123456";
+  dct:creator <company/GB/07444723>. # OCORP  
+
+<register/BG> a ebg:Register;
+  dc:identifier "BG";
+  rov:legalName "Търговски регистър"@bg;
+  skos:prefLabel "BG Commercial Register"@en;
+  skos:altLabel "BG Commercial Register"@en;
+  schema:url <http://www.brra.bg/Default.ra>;
+  adms:identifier <register/BG/id/RAL>.
+
+<register/BG/id/RAL> a adms:Identifier;
+  skos:notation "RA000065";
+  dct:creator <register/RAL>.
+
+<company/GB/07444723> a rov:RegisteredOrganization, ebg:Register;
+  dc:identifier "OCORP";
+  rov:legalName "Chrinon Ltd"@en;
+  skos:prefLabel "OpenCorporates"@en;
+  skos:altLabel "OpenCorporates"@en;
+  schema:url <http://opencorporates.com>;
+  rov:registration <company/GB/07444723/id>;
+  adms:identifier <company/GB/07444723/id/OCORP>.
+
+<company/GB/07444723/id> a adms:Identifier;
+  puml:label "official registration of OCORP in COH";
+  skos:notation "07444723";
+  dct:creator <register/GB>.
+  
+<company/GB/07444723/id/OCORP> a adms:Identifier;
+  puml:label "self-registration of OCORP in OCORP";
+  skos:notation "gb/07444723";
+  dct:creator <company/GB/07444723>. # OCORP
+
+<register/GB> a ebg:Register;
+  dc:identifier "GB";
+  skos:prefLabel "GB Companies House"@en;
+  schema:url <http://www.companieshouse.gov.uk>;
+  adms:identifier <register/GB/id/RAL/RA000586>, <register/GB/id/RAL/RA000587>. # two more
+
+<register/GB/id/RAL/RA000586> a adms:Identifier;
+  skos:notation "RA000586";
+  dct:creator <register/RAL>;
+  rdfs:label "GB COH - Northern Ireland".
+  
+<register/GB/id/RAL/RA000587> a adms:Identifier;
+  skos:notation "RA000586";
+  dct:creator <register/RAL>;
+  rdfs:label "GB COH - Scotland".
+
+<register/RAL> a ebg:Register;
+  dc:identifier "RAL";
+  skos:prefLabel "Registration Authorities List"@en;
+  skos:altLabel "GLEI RAL";
+  schema:url <https://www.gleif.org/en/about-lei/gleif-registration-authorities-list>.
+
+schema:url a puml:InlineProperty.
+<company/GB/07444723/id/OCORP> puml:up <company/GB/07444723>.
+<company/BG/123456/id/OCORP>   puml:up <company/GB/07444723>.

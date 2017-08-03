@@ -1,0 +1,97 @@
+<company/(co)/(id)> a rov:RegisteredOrganization;
+  rov:legalName "(legal_name)"@lang;
+  skos:altLabel "(trade_name)"@lang;
+  rov:orgType <status/(co)/(type)>;
+  ebg:orgTypeText "(legal_form)"@lang;
+  ebg:isStartup "(is_startup)"^^xsd:boolean;
+  ebg:isStateOwned "(is_state_owned)"^^xsd:boolean;
+  ebg:isPubliclyTraded "(is_publicly_traded)"^^xsd:boolean;
+  rov:orgStatus <status/(prov_code)/(status)>;
+  rov:orgActivity <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace1)>, <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>;
+  schema:foundingDate "(founding_date)"^^xsd:date;
+  schema:dissolutionDate "(dissolution_date)"^^xsd:date;
+  schema:availableLanguage "(web_language)";
+  schema:url <http://website>;
+  schema:sameAs <http://wikipedia>;
+  schema:email <mailto:certified_email>;
+  sioc:feed <http://news_blog_feed>;
+  dbo:jurisdiction "(co)";
+  org:hasRegisteredSite <company/(co)/(id)/address>;
+  org:hasSite <company/(co)/(id)/address/(n)>;
+  rov:registration <company/(co)/(id)/id>;
+  adms:identifier <company/(co)/(id)/id/(prov_code)>.
+
+<company/(co)/(id)/address> a org:Site, locn:Address;
+  org:siteAddress        <company/(co)/(id)/address>;
+  locn:fullAddress       "(full_address)";
+  locn:adminUnitL1       <http://nuts.geovocab.org/id/(co)>;
+  locn:adminUnitL2       <http://nuts.geovocab.org/id/(co)(macro)>;
+  ebg:adminUnitL3        <http://nuts.geovocab.org/id/(co)(macro)(reg)>;
+  ebg:adminUnitL4        <http://nuts.geovocab.org/id/(co)(macro)(reg)(prov)>;
+  ebg:adminUnitL5        <lau/(co)/(lau1)>;
+  ebg:adminUnitL6        <lau/(co)/(lau2)>;                                    
+  locn:postName          "(settlement)";
+  locn:addressArea       "(neighbourhood)";
+  locn:thoroughfare      "(street_address)";
+  locn:locatorDesignator "(street_number)";
+  locn:postCode          "(postal_code)";
+  locn:poBox             "(postal_office_box)";
+  schema:geo             <company/(co)/(id)/address/geo>.
+
+<company/(co)/(id)/id> a adms:Identifier;
+  skos:notation "(id)";
+  dct:creator <register/(co)>;
+  dct:issued "(reg_date)"^^xsd:date.
+
+<company/(co)/(id)/id/(prov_code)> a adms:Identifier;
+  skos:notation "(id1)";
+  dct:creator <register/(prov_code)>;
+  dct:issued "(reg1_date)"^^xsd:date.
+
+<company/(co)/(id)/address/geo> a schema:GeoCoordinates;
+  schema:latitude "(lat)"^^xsd:decimal;
+  schema:longitude "(long)"^^xsd:decimal;
+  ebg:geoResolution <precision/(level)>.
+
+<company/(co)/(id)/address/(n)> a org:Site, locn:Address;
+  org:siteAddress <company/(co)/(id)/address/(n)>;
+  puml:label "Same data as registered site/address".
+
+<http://estatwrap.ontologycentral.com/dic/nace_r2#(nace1)>
+  puml:label "Top-level NACE classification\nMandatory if available".
+
+<http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>
+  puml:label "Detailed NACE classification\n (down to national level). Optional".
+
+<register/(co)> a ebg:Register;
+  skos:prefLabel "(register_name)";
+  puml:label "Official national register";
+  adms:identifier <register/(co)/id/RAL/(RA_code)>.
+
+<register/(prov_code)> a ebg:Register;
+  dc:identifier "(prov_code)";
+  skos:prefLabel "(provider_name)";
+  puml:label "Other identifier issuer".
+
+<register/(co)/id/RAL/(RA_code)> a adms:Identifier;
+  skos:notation "(RA_code)";
+  dct:creator <register/RAL>.
+
+####################
+<company/(co)/(id)> puml:dashed <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>.
+rov:orgActivity puml:arrow puml:up.
+
+<http://news_blog_feed>                               a puml:Inline.
+<http://nuts.geovocab.org/id/(co)(macro)(reg)(prov)>  a puml:Inline.
+<http://nuts.geovocab.org/id/(co)(macro)(reg)>        a puml:Inline.
+<http://nuts.geovocab.org/id/(co)(macro)>             a puml:Inline.
+<http://nuts.geovocab.org/id/(co)>                    a puml:Inline.
+<http://wikipedia>                                    a puml:Inline.
+<http://website>                                      a puml:Inline.
+<lau/(co)/(lau1)>                                     a puml:Inline.
+<lau/(co)/(lau2)>                                     a puml:Inline.
+<mailto:certified_email>                              a puml:Inline.
+<precision/(level)>                                   a puml:Inline.
+<status/(co)/(type)>                                  a puml:Inline.
+<status/(prov_code)/(status)>                         a puml:Inline.
+<register/RAL>                                        a puml:Inline.

@@ -1,0 +1,1 @@
+tarql nace.tarql nace-201706.csv > nace.ttl

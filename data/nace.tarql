@@ -1,0 +1,24 @@
+prefix ebg:  <http://data.businessgraph.io/ontology#> 
+prefix nace: <http://data.businessgraph.io/nace/>
+prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+construct {
+  ?uri a skos:Concept; skos:inScheme nace:; 
+    skos:notation ?Code; skos:broader ?parent;
+  ebg:order ?order; ebg:level ?level;
+  skos:prefLabel ?description; skos:scopeNote ?includes;
+  ebg:exclusionNote ?excludes.
+  # omitted: ?Reference_to_ISIC_Rev._4
+} where {
+  bind(uri(concat(str(nace:),?Code)) as ?uri)
+  bind(uri(concat(str(nace:),?Parent)) as ?parent)
+  bind(strdt(?Order,xsd:integer) as ?order)
+  bind(strdt(?Level,xsd:integer) as ?level)
+  bind(strlang(?Description,"en") as ?description)
+  bind(if(bound(?Rulings),concat(?This_item_includes," ",?Rulings),?This_item_includes) as ?includes1)
+  bind(if(bound(?This_item_also_includes),concat(?includes1," ",?This_item_also_includes),?includes1) as ?includes2)
+  bind(strlang(?includes2,"en") as ?includes)
+  bind(strlang(?This_item_excludes,"en") as ?excludes)
+}
