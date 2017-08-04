@@ -2,15 +2,15 @@
   rov:legalName "Онтотекст АД"@bg;
   skos:altLabel "Ontotext"@en;
   schema:url <http://ontotext.com>;
-  rov:registration <company/BG/123456/id>;
-  adms:identifier <company/BG/123456/id/OCORP>.
+  rov:registration <company/BG/200356710/id>;
+  adms:identifier <company/BG/200356710/id/OCORP>.
 
-<company/BG/123456/id> a adms:Identifier;
+<company/BG/200356710/id> a adms:Identifier;
   puml:label "official registration of ONTO in BGTR";
   skos:notation "123456";
   dct:creator <register/BG>.
 
-<company/BG/123456/id/OCORP> a adms:Identifier;
+<company/BG/200356710/id/OCORP> a adms:Identifier;
   puml:label "Registration of ONTO in OCORP\n(when it ingests BG TR)";
   skos:notation "bg/123456";
   dct:creator <company/GB/07444723>. # OCORP  
@@ -69,5 +69,5 @@
   schema:url <https://www.gleif.org/en/about-lei/gleif-registration-authorities-list>.
 
 schema:url a puml:InlineProperty.
-<company/GB/07444723/id/OCORP> puml:up <company/GB/07444723>.
-<company/BG/123456/id/OCORP>   puml:up <company/GB/07444723>.
+<company/GB/07444723/id/OCORP>  puml:up <company/GB/07444723>.
+<company/BG/200356710/id/OCORP> puml:up <company/GB/07444723>.
