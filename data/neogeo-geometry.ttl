@@ -1,0 +1,375 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix : <http://geovocab.org/geometry#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@base <http://geovocab.org/geometry> .
+
+<http://geovocab.org/geometry> rdf:type owl:Ontology ;
+                               
+                               rdfs:label "NeoGeo Geometry Ontology" ;
+
+			       owl:imports <http://geovocab.org/mappings/geometry> ;
+                               
+                               rdfs:comment "A vocabulary for describing geographical regions in RDF. $Id: geometry.ttl 97 2012-04-16 12:46:18Z jmsalas@gmail.com $" .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+vs:term_status rdf:type owl:AnnotationProperty .
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  Geometry
+
+:Geometry rdf:type owl:Class ;
+          
+          rdfs:label "Geometry" ;
+          
+          vs:term_status "testing" ;
+          
+          rdfs:comment "Super-class grouping all geometrical representations (also ones in non-RDF formats, such as KML, GML, WKT...)." .
+
+
+
+###  GeometryCollection
+
+:GeometryCollection rdf:type owl:Class ;
+                    
+                    rdfs:label "Geometry Collection" ;
+                    
+                    rdfs:subClassOf :Geometry ;
+                    
+                    vs:term_status "unstable" ;
+                    
+                    rdfs:comment "Super-class grouping all composite geometrical representations." .
+
+
+###  Bounding Box
+
+:BoundingBox rdf:type owl:Class ;
+            
+             rdfs:label "Bounding Box" ;
+            
+             rdfs:subClassOf :Geometry ;
+            
+             rdfs:comment "Represents a bounding box composed by four line segments." ;
+            
+             vs:term_status "unstable" .
+
+
+###  LineString
+
+:LineString rdf:type owl:Class ;
+            
+            rdfs:label "LineString" ;
+            
+            rdfs:subClassOf :Geometry ;
+            
+            rdfs:comment "Represents a series of points connected by straight lines." ;
+            
+            vs:term_status "unstable" .
+
+
+
+###  LinearRing
+
+:LinearRing rdf:type owl:Class ;
+            
+            rdfs:label "LinearRing" ;
+            
+            rdfs:subClassOf :LineString ;
+            
+            vs:term_status "unstable" ;
+            
+            rdfs:comment "Represents a series of points connected by straight lines, which form a closed shape. Last point must be the same as the first point." .
+
+
+
+###  MultiLineString
+
+:MultiLineString rdf:type owl:Class ;
+                 
+                 rdfs:label "MultiLineString" ;
+                 
+                 rdfs:subClassOf :GeometryCollection ;
+                 
+                 vs:term_status "unstable" ;
+                 
+                 rdfs:comment "Describes a geometric shape composed of several LineString resources." .
+
+
+
+###  MultiPoint
+
+:MultiPoint rdf:type owl:Class ;
+            
+            rdfs:label "MultiPoint" ;
+            
+            rdfs:subClassOf :GeometryCollection ;
+            
+            rdfs:comment "Describes a collection of Point resources, which define a resource's geometric representation." ;
+            
+            vs:term_status "unstable" .
+
+
+
+###  MultiPolygon
+
+:MultiPolygon rdf:type owl:Class ;
+              
+              rdfs:label "MultiPolygon" ;
+              
+              rdfs:subClassOf :GeometryCollection ;
+              
+              vs:term_status "unstable" ;
+              
+              rdfs:comment "Describes a geometric shape composed of several Polygon resources." .
+
+
+
+###  Polygon
+
+:Polygon rdf:type owl:Class ;
+         
+         rdfs:label "Polygon" ;
+         
+         rdfs:subClassOf :Geometry ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :exterior ;
+                                                            owl:onClass :LinearRing ;
+                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :interior ;
+                                                            owl:someValuesFrom :LinearRing
+                                                          ] ;
+         
+         rdfs:comment "A closed area defined by an exterior boundary, and optionally one or more interior boundaries." ;
+         
+         vs:term_status "unstable" .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+
+geo:Point rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Point" .
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  boundary
+
+:boundary rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "boundary" ;
+          
+          vs:term_status "unstable" ;
+          
+          rdfs:comment "Super-property that groups all properties defining a polygon's boundaries." ;
+          
+          rdfs:range :LinearRing ;
+          
+          rdfs:domain :Polygon .
+
+
+
+###  exterior
+
+:exterior rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "exterior" ;
+          
+          rdfs:comment "Defines a polygon's outer boundary." ;
+          
+          vs:term_status "unstable" ;
+          
+          rdfs:range :LinearRing ;
+          
+          rdfs:domain :Polygon ;
+          
+          rdfs:subPropertyOf :boundary .
+
+
+
+###  geometry
+
+:geometry rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "geometry" ;
+          
+          vs:term_status "testing" ;
+          
+          rdfs:comment "Relates a resource to its geometric shape." ;
+          
+          rdfs:range :Geometry .
+
+
+
+###  interior
+
+:interior rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "interior" ;
+          
+          rdfs:comment "Defines an polygon's boundary within its outer boundary, i.e. a polygon with 'holes' in it." ;
+          
+          vs:term_status "unstable" ;
+          
+          rdfs:range :LinearRing ;
+          
+          rdfs:domain :Polygon ;
+          
+          rdfs:subPropertyOf :boundary .
+
+
+
+###  lineStringMember
+
+:lineStringMember rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:label "LineString member" ;
+                  
+                  vs:term_status "unstable" ;
+                  
+                  rdfs:comment "Links a LineString simple geometry to a MultiLineString composite geometry." ;
+                  
+                  rdfs:range :LineString ;
+                  
+                  rdfs:domain :MultiLineString .
+
+
+
+###  partOf
+
+:partOf rdf:type owl:ObjectProperty ;
+        
+        rdfs:label "part of" ;
+        
+        vs:term_status "unstable" ;
+        
+        rdfs:comment "Relates a point to a geometric shape's boundary." ;
+        
+        rdfs:range :LineString ;
+        
+        rdfs:domain geo:Point .
+
+
+
+###  pointMember
+
+:pointMember rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Point member" ;
+             
+             rdfs:comment "Links a Point simple geometry to a MultiPoint composite Geometry." ;
+             
+             vs:term_status "unstable" ;
+             
+             rdfs:domain :MultiPoint ;
+             
+             rdfs:range geo:Point .
+
+
+
+###  polygonMember
+
+:polygonMember rdf:type owl:ObjectProperty ;
+               
+               rdfs:label "Polygon member" ;
+               
+               vs:term_status "unstable" ;
+               
+               rdfs:comment "Links a Polygon simple geometry to a MultiPolygon composite geometry." ;
+               
+               rdfs:domain :MultiPolygon ;
+               
+               rdfs:range :Polygon .
+
+
+
+###  posList
+
+:posList rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "position list" ;
+         
+         rdfs:comment "Relates a LineString or LinearRing to the points that define them." ;
+         
+         vs:term_status "unstable" ;
+         
+         rdfs:domain :LineString .
+
+
+###  bbox
+
+:bbox rdf:type owl:ObjectProperty ;
+         
+      rdfs:label "bounding box" ;
+         
+      rdfs:comment "Relates a Geometry to its Bounding Box." ;
+         
+      vs:term_status "unstable" ;
+         
+      rdfs:domain :Geometry ;
+
+      rdfs:range :BoundingBox .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://geovocab.org/geometry#asWKT
+
+:asWKT rdf:type owl:DatatypeProperty ;
+                                    
+       rdfs:label "As WKT" ;
+                                    
+       rdfs:comment "WKT serialization of the geometry." ;
+                                    
+       vs:term_status "deprecated" .
+
+
+###  http://geovocab.org/geometry#resolution
+
+:resolution rdf:type owl:DatatypeProperty ;
+                                    
+       rdfs:label "Resolution" ;
+                                    
+       rdfs:comment "Resolution of the represented geometry object (expressed in meters)." ;
+                                    
+       vs:term_status "unstable" .
+
+###  Generated by the OWL API (version 3.2.3.22702) http://owlapi.sourceforge.net
+

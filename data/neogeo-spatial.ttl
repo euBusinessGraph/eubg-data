@@ -1,0 +1,366 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix : <http://geovocab.org/spatial#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://geovocab.org/spatial> .
+
+<http://geovocab.org/spatial> rdf:type owl:Ontology ;
+                              
+                              rdfs:label "NeoGeo Spatial Ontology" ;
+
+			      owl:imports <http://geovocab.org/mappings/spatial> ;
+                              
+                              rdfs:comment "A vocabulary for describing topological relations between features. $Id: spatial.ttl 96 2012-02-08 18:09:34Z non88sense@gmail.com $" .
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://geovocab.org/spatial#Feature
+
+:Feature rdf:type owl:Class ;
+         
+         rdfs:label "Feature" ;
+
+	  vs:term_status "testing" ;
+         
+         rdfs:comment "A geographical feature, capable of holding spatial relations." .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://geovocab.org/spatial#C
+
+:C rdf:type owl:ObjectProperty ,
+            owl:SymmetricProperty ;
+
+   rdfs:label "connects with" ;
+   
+   rdfs:comment """Relation C(x,y), read as 'x is connected with y'. This relation holds when two regions share a common point. It is the primitive relation
+				in the RCC theory.""" ;
+			
+   vs:term_status "testing" ;
+   
+   rdfs:range :Feature ;
+   
+   rdfs:domain :Feature .
+
+
+
+###  http://geovocab.org/spatial#DC
+
+:DC rdf:type owl:ObjectProperty ,
+             owl:SymmetricProperty ;
+    
+    rdfs:label "disconnected from" ;
+    
+    rdfs:comment """Relation DC(x,y), read as 'x is disconnected from y'. In order to prevent an exponential growth of triples when handling large
+				  amounts of data, a closed world assumption may also be possible. More precisely, by considering not explicitely connected regions as discrete
+				  regions. Moreover, discrete regions, which are not explicitely labeled as externally connected, would be considered disconnected from
+				  each other.""" ;
+	
+	vs:term_status "testing" ;
+    
+    rdfs:subPropertyOf :DR ;
+    
+    rdfs:range :Feature ;
+    
+    rdfs:domain :Feature .
+
+
+
+###  http://geovocab.org/spatial#DR
+
+:DR rdf:type owl:ObjectProperty ,
+             owl:SymmetricProperty ;
+    
+    rdfs:label "discrete from" ;
+    
+    rdfs:comment """Relation DR(x,y), read as 'x is discrete from y'. In order to prevent an exponential growth of triples when handling large
+				  amounts of data, a closed world assumption may also be possible. More precisely, by considering not explicitely connected regions as discrete
+				  regions. Moreover, discrete regions, which are not explicitely labeled as externally connected, would be considered disconnected from
+				  each other.""" ;
+				  
+	vs:term_status "testing" ;
+    
+    rdfs:domain :Feature ;
+    
+    rdfs:range :Feature .
+
+
+
+###  http://geovocab.org/spatial#EC
+
+:EC rdf:type owl:ObjectProperty ,
+             owl:SymmetricProperty ;
+    
+    rdfs:label "externally connected with" ;
+    
+    rdfs:comment """Relation EC(x,y), read as 'x is externally connected with y'. This relation holds, when the two regions share at least
+						 one common point of their borders, but share no points of their interiors, i.e. they do not overlap.""" ;
+						 
+	vs:term_status "testing" ;
+    
+    rdfs:subPropertyOf :C ,
+                       :DR ;
+    
+    rdfs:range :Feature ;
+    
+    rdfs:domain :Feature .
+
+
+
+###  http://geovocab.org/spatial#EQ
+
+:EQ rdf:type owl:ObjectProperty ,
+             owl:SymmetricProperty ,
+             owl:TransitiveProperty ;
+    
+    rdfs:label "equals" ;
+    
+    rdfs:comment """Relation x=y, read as 'x is identical with y'. This relation holds when two regions are spatially co-located.""" ;
+		
+	vs:term_status "testing" ;
+    
+    rdfs:range :Feature ;
+    
+    rdfs:domain :Feature ;
+    
+    rdfs:subPropertyOf :P ,
+                       :Pi .
+
+
+
+###  http://geovocab.org/spatial#NTPP
+
+:NTPP rdf:type owl:ObjectProperty ,
+               owl:TransitiveProperty ;
+      
+      rdfs:label "is non-tangential proper part of" ;
+      
+      rdfs:comment """Relation NTPP(x,y), read as 'x is a non-tangential proper part of y'. This relation holds, whenever a region x is 
+							 labeled as a proper part of a region y, and they do not share common point in their borders.""" ;
+							 
+	  vs:term_status "testing" ;
+      
+      rdfs:domain :Feature ;
+      
+      rdfs:range :Feature ;
+      
+      rdfs:subPropertyOf :PP .
+
+
+
+###  http://geovocab.org/spatial#NTPPi
+
+:NTPPi rdf:type owl:ObjectProperty ,
+                owl:TransitiveProperty ;
+       
+       rdfs:label "non tangentially properly contains" ;
+       
+       rdfs:comment "Relation NTPPi(x,y), read as 'x non-tangentially properly contains y'. Inverse of the NTPP(x,y) relation." ;
+	   
+	   vs:term_status "testing" ;
+       
+       rdfs:domain :Feature ;
+       
+       rdfs:range :Feature ;
+       
+       owl:inverseOf :NTPP ;
+       
+       rdfs:subPropertyOf :PPi .
+
+
+
+###  http://geovocab.org/spatial#O
+
+:O rdf:type owl:ObjectProperty ,
+            owl:SymmetricProperty ;
+   
+   rdfs:label "overlaps" ;
+   
+   rdfs:comment "Relation O(x,y), read as 'x overlaps y'. A region x overlaps a region y, if they share at least one common point of their interiors." ;
+   
+   vs:term_status "testing" ;
+   
+   rdfs:subPropertyOf :C ;
+   
+   rdfs:domain :Feature ;
+   
+   rdfs:range :Feature .
+
+
+
+###  http://geovocab.org/spatial#P
+
+:P rdf:type owl:ObjectProperty ,
+            owl:TransitiveProperty ;
+   
+   rdfs:label "is part of" ;
+   
+   rdfs:comment "Relation P(x,y), read as 'x is a part of y', holds whenever the region x is contained within the borders of the region y." ;
+   
+   vs:term_status "testing" ;
+   
+   rdfs:range :Feature ;
+   
+   rdfs:domain :Feature ;
+   
+   rdfs:subPropertyOf :O ;
+   
+   owl:inverseOf :Pi .
+
+
+
+###  http://geovocab.org/spatial#PO
+
+:PO rdf:type owl:ObjectProperty ,
+             owl:SymmetricProperty ;
+    
+    rdfs:label "partially overlaps" ;
+    
+    rdfs:comment """Relation PO(x,y), read as 'x partially overlaps y'. A region x overlaps a region y, if they share at least one common point of their 
+				   interiors, and one does not contain the other within its borders.""" ;
+				   
+	vs:term_status "testing" ;
+    
+    rdfs:range :Feature ;
+    
+    rdfs:domain :Feature ;
+    
+    rdfs:subPropertyOf :O .
+
+
+
+###  http://geovocab.org/spatial#PP
+
+:PP rdf:type owl:ObjectProperty ,
+             owl:TransitiveProperty ;
+    
+    rdfs:label "is proper part of" ;
+    
+    rdfs:comment """Relation PP(x,y), read as 'x is a proper part of y', means that the region x is contained within the borders of the 
+				region y, and region y is not contained within the borders of the region y, which means they are not equals.""" ;
+				
+	vs:term_status "testing" ;
+    
+    rdfs:range :Feature ;
+    
+    rdfs:domain :Feature ;
+    
+    rdfs:subPropertyOf :P ;
+    
+    owl:inverseOf :PPi .
+
+
+
+###  http://geovocab.org/spatial#PPi
+
+:PPi rdf:type owl:ObjectProperty ,
+              owl:TransitiveProperty ;
+     
+     rdfs:label "properly contains" ;
+     
+     rdfs:comment "Relation PPi(x,y), read as 'x properly contains y'. Inverse of the PP(x,y) relation." ;
+	 
+	 vs:term_status "testing" ;
+     
+     rdfs:domain :Feature ;
+     
+     rdfs:range :Feature ;
+     
+     rdfs:subPropertyOf :Pi .
+
+
+
+###  http://geovocab.org/spatial#Pi
+
+:Pi rdf:type owl:ObjectProperty ,
+             owl:TransitiveProperty ;
+    
+    rdfs:label "contains" ;
+    
+    rdfs:comment "Relation Pi(x,y), read as 'x contains y'. Inverse of the P(x,y) relation." ;
+	
+	vs:term_status "testing" ;
+    
+    rdfs:domain :Feature ;
+    
+    rdfs:range :Feature ;
+    
+    rdfs:subPropertyOf :O .
+
+
+
+###  http://geovocab.org/spatial#TPP
+
+:TPP rdf:type owl:ObjectProperty ,
+              owl:TransitiveProperty ;
+     
+     rdfs:label "is tangential proper part of" ;
+     
+     rdfs:comment """Relation TPP(x,y), read as 'x is a tangential proper part of y'. This relation holds, whenever a region x is 
+						  labeled as a proper part of a region y, and they share at least one common point in their borders, which means that they are
+						  externally connected.""" ;
+						  
+	 vs:term_status "testing" ;
+     
+     rdfs:domain :Feature ;
+     
+     rdfs:range :Feature ;
+     
+     rdfs:subPropertyOf :PP .
+
+
+
+###  http://geovocab.org/spatial#TPPi
+
+:TPPi rdf:type owl:ObjectProperty ,
+               owl:TransitiveProperty ;
+      
+      rdfs:label "tangentially properly contains" ;
+      
+      rdfs:comment "Relation TPPi(x,y), read as 'x tangentially properly contains y'. Inverse of the TPP(x,y) relation." ;
+	  
+	  vs:term_status "testing" ;
+      
+      rdfs:range :Feature ;
+      
+      rdfs:domain :Feature ;
+      
+      rdfs:subPropertyOf :PPi ;
+      
+      owl:inverseOf :TPP .
+
+
+
+###  http://geovocab.org/spatial#inconsistentWith
+
+:inconsistentWith rdf:type owl:ObjectProperty ,
+                           owl:SymmetricProperty;
+						  
+				  rdfs:label "inconsistent with" ;
+				  
+				  rdfs:comment """Although this relation is not a part of the RCC theory, it has been introduced in order to detect relations between regions
+								which are inconsistent with the RCC axioms.""" ;
+
+				  vs:term_status "unstable" .
+
+
+
+
+
+###  Generated by the OWL API (version 3.2.2.1782) http://owlapi.sourceforge.net
+
