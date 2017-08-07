@@ -9,6 +9,7 @@
   rov:orgStatus <status/(prov_code)/(status)>;
   rov:orgActivity <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace1)>, <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>;
   schema:foundingDate "(founding_date)"^^xsd:date;
+  ebg:registrationDate "(registration_date)"^^xsd:date;
   schema:dissolutionDate "(dissolution_date)"^^xsd:date;
   schema:availableLanguage "(web_language)";
   schema:url <http://website>;
