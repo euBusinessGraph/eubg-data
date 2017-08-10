@@ -1,4 +1,4 @@
-# Own prefixes
+#### Own prefixes
 @base                      <http://data.businessgraph.io/>.
 @prefix ebg:               <http://data.businessgraph.io/ontology#> .
 @prefix nace:              <http://data.businessgraph.io/nace/>.
@@ -7,7 +7,7 @@
 #@prefix ebg-reg:           <http://data.businessgraph.io/register/> .
 #@prefix ebg-comp:          <http://data.businessgraph.io/company/>  .
 
-# External prefixes
+##### External prefixes
 @prefix adms:    <http://www.w3.org/ns/adms#> .
 @prefix dbo:     <http://dbpedia.org/ontology/>.
 @prefix dc:      <http://purl.org/dc/elements/1.1/>.
@@ -28,7 +28,7 @@
 @prefix spatial: <http://geovocab.org/spatial#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
-# Unused prefixes
+#### Unused prefixes
 @prefix c4n:               <http://vocab.deri.ie/c4n#> .
 @prefix fibo-be-le-lp:     <http://www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LegalPersons/> .
 @prefix fibo-fbc-fct-breg: <http://www.omg.org/spec/EDMC-FIBO/FBC/FunctionalEntities/BusinessRegistries/> .
