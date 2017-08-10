@@ -1,197 +1,206 @@
-# Classes
-skos:Concept a rdfs:Class .
 
-rov:RegisteredOrganization a rdfs:Class .
+#### Generated Classes
+
+adms:Identifier a rdfs:Class .
 
 ebg:DataItem a rdfs:Class .
-
-schema:GeoCoordinates a rdfs:Class .
 
 ebg:Register a rdfs:Class .
 
 locn:Address a rdfs:Class .
 
-adms:Identifier a rdfs:Class .
+ramon:NUTSRegion a rdfs:Class .
 
-# Properties
-ebg:isPubliclyTraded a rdf:Property, owl:DatatypeProperty .
-ebg:isPubliclyTraded schema:domainIncludes rov:RegisteredOrganization .
-ebg:isPubliclyTraded schema:rangeIncludes xsd:boolean .
+rov:RegisteredOrganization a rdfs:Class .
 
-rov:orgStatus a owl:ObjectProperty .
-rov:orgStatus schema:domainIncludes rov:RegisteredOrganization .
-rov:orgStatus schema:rangeIncludes skos:Concept .
+schema:GeoCoordinates a rdfs:Class .
 
-ebg:adminUnitL4 a owl:ObjectProperty .
-ebg:adminUnitL4 schema:domainIncludes locn:Address .
-ebg:adminUnitL4 schema:rangeIncludes skos:Concept .
+skos:Concept a rdfs:Class .
 
-locn:adminUnitL1 a owl:ObjectProperty .
-locn:adminUnitL1 schema:domainIncludes locn:Address .
-locn:adminUnitL1 schema:rangeIncludes skos:Concept .
 
-dct:creator a owl:ObjectProperty .
-dct:creator schema:domainIncludes adms:Identifier .
-dct:creator schema:rangeIncludes ebg:Register .
+#### Generated Properties
 
-dbo:juristiction a rdf:Property, owl:DatatypeProperty .
-dbo:juristiction schema:domainIncludes rov:RegisteredOrganization .
-dbo:juristiction schema:rangeIncludes xsd:string .
+dct:creator a owl:ObjectProperty;
+  schema:domainIncludes adms:Identifier;
+  schema:rangeIncludes ebg:Register .
 
-schema:foundingDate a rdf:Property, owl:DatatypeProperty .
-schema:foundingDate schema:domainIncludes rov:RegisteredOrganization .
-schema:foundingDate schema:rangeIncludes xsd:date .
+dct:issued a owl:DatatypeProperty;
+  schema:domainIncludes adms:Identifier;
+  schema:rangeIncludes xsd:date .
 
-ebg:orgTypeText a rdf:Property, owl:DatatypeProperty .
-ebg:orgTypeText schema:domainIncludes rov:RegisteredOrganization .
-ebg:orgTypeText schema:rangeIncludes rdf:langString .
+skos:notation a owl:ObjectProperty;
+  schema:domainIncludes adms:Identifier .
 
-rov:registration a owl:ObjectProperty .
-rov:registration schema:domainIncludes rov:RegisteredOrganization .
-rov:registration schema:rangeIncludes adms:Identifier .
+ebg:license a owl:DatatypeProperty;
+  schema:domainIncludes ebg:DataItem;
+  schema:rangeIncludes xsd:string .
 
-sioc:feed a owl:ObjectProperty .
-sioc:feed schema:domainIncludes rov:RegisteredOrganization .
+ebg:propertyName a owl:DatatypeProperty;
+  schema:domainIncludes ebg:DataItem;
+  schema:rangeIncludes xsd:string .
 
-schema:dissolutionDate a rdf:Property, owl:DatatypeProperty .
-schema:dissolutionDate schema:domainIncludes rov:RegisteredOrganization .
-schema:dissolutionDate schema:rangeIncludes xsd:date .
+dc:identifier a owl:DatatypeProperty;
+  schema:domainIncludes ebg:Register;
+  schema:rangeIncludes rdfs:Literal .
 
-skos:notation a owl:ObjectProperty .
-skos:notation schema:domainIncludes adms:Identifier .
+skos:prefLabel a owl:DatatypeProperty;
+  schema:domainIncludes ebg:Register;
+  schema:rangeIncludes rdfs:Literal .
 
-ebg:about a owl:ObjectProperty .
-ebg:about schema:domainIncludes rov:RegisteredOrganization .
-ebg:about schema:rangeIncludes ebg:DataItem .
+ebg:adminUnitL3 a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes ramon:NUTSRegion .
 
-schema:availableLanguage a rdf:Property, owl:DatatypeProperty .
-schema:availableLanguage schema:domainIncludes rov:RegisteredOrganization .
-schema:availableLanguage schema:rangeIncludes xsd:string .
+ebg:adminUnitL4 a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes ramon:NUTSRegion .
 
-org:hasSite a owl:ObjectProperty .
-org:hasSite schema:domainIncludes rov:RegisteredOrganization .
-org:hasSite schema:rangeIncludes locn:Address .
+ebg:adminUnitL5 a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes skos:Concept .
 
-ebg:providedCompanyData a owl:ObjectProperty .
-ebg:providedCompanyData schema:domainIncludes rov:RegisteredOrganization .
-ebg:providedCompanyData schema:rangeIncludes ebg:DataItem .
+ebg:adminUnitL6 a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes skos:Concept .
 
-rov:orgType a owl:ObjectProperty .
-rov:orgType schema:domainIncludes rov:RegisteredOrganization .
-rov:orgType schema:rangeIncludes skos:Concept .
+locn:addressArea a owl:DatatypeProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes rdfs:Literal .
 
-org:hasRegisteredSite a owl:ObjectProperty .
-org:hasRegisteredSite schema:domainIncludes rov:RegisteredOrganization .
-org:hasRegisteredSite schema:rangeIncludes locn:Address .
+locn:adminUnitL1 a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes ramon:NUTSRegion .
 
-ebg:license a rdf:Property, owl:DatatypeProperty .
-ebg:license schema:domainIncludes ebg:DataItem .
-ebg:license schema:rangeIncludes xsd:string .
+locn:adminUnitL2 a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes ramon:NUTSRegion .
 
-locn:fullAddress a rdf:Property, owl:DatatypeProperty .
-locn:fullAddress schema:domainIncludes locn:Address .
-locn:fullAddress schema:rangeIncludes xsd:string .
+locn:fullAddress a owl:DatatypeProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes xsd:string .
 
-ebg:adminUnitL3 a owl:ObjectProperty .
-ebg:adminUnitL3 schema:domainIncludes locn:Address .
-ebg:adminUnitL3 schema:rangeIncludes skos:Concept .
+locn:poBox a owl:DatatypeProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes rdfs:Literal .
 
-schema:email a rdf:Property, owl:DatatypeProperty .
-schema:email schema:domainIncludes rov:RegisteredOrganization .
-schema:email schema:rangeIncludes rdfs:Literal .
+locn:postName a owl:DatatypeProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes rdf:langString .
 
-skos:altLabel a rdf:Property, owl:DatatypeProperty .
-skos:altLabel schema:domainIncludes rov:RegisteredOrganization .
-skos:altLabel schema:rangeIncludes rdf:langString .
+locn:throughfare a owl:DatatypeProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes xsd:string .
 
-skos:prefLabel a rdf:Property, owl:DatatypeProperty .
-skos:prefLabel schema:domainIncludes rov:RegisteredOrganization .
-skos:prefLabel schema:rangeIncludes rdf:langString .
+schema:geo a owl:ObjectProperty;
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes schema:GeoCoordinates .
 
-ebg:adminUnitL5 a owl:ObjectProperty .
-ebg:adminUnitL5 schema:domainIncludes locn:Address .
-ebg:adminUnitL5 schema:rangeIncludes skos:Concept .
+adms:identifier a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes adms:Identifier .
 
-schema:latitude a rdf:Property, owl:DatatypeProperty .
-schema:latitude schema:domainIncludes schema:GeoCoordinates .
-schema:latitude schema:rangeIncludes xsd:decimal .
+dbo:juristiction a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:string .
 
-locn:poBox a rdf:Property, owl:DatatypeProperty .
-locn:poBox schema:domainIncludes locn:Address .
-locn:poBox schema:rangeIncludes rdfs:Literal .
+ebg:about a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes ebg:DataItem .
 
-schema:url a rdf:Property, owl:DatatypeProperty .
-schema:url schema:domainIncludes rov:RegisteredOrganization .
-schema:url schema:rangeIncludes xsd:anyURI .
+ebg:isPubliclyTraded a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:boolean .
 
-schema:sameAs a rdf:Property, owl:DatatypeProperty .
-schema:sameAs schema:domainIncludes rov:RegisteredOrganization .
-schema:sameAs schema:rangeIncludes xsd:anyURI .
+ebg:isStartup a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:boolean .
 
-ebg:isStartup a rdf:Property, owl:DatatypeProperty .
-ebg:isStartup schema:domainIncludes rov:RegisteredOrganization .
-ebg:isStartup schema:rangeIncludes xsd:boolean .
+ebg:isStateOwned a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:boolean .
 
-locn:addressArea a rdf:Property, owl:DatatypeProperty .
-locn:addressArea schema:domainIncludes locn:Address .
-locn:addressArea schema:rangeIncludes rdfs:Literal .
+ebg:orgStatusText a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes rdf:langString .
 
-ebg:propertyName a rdf:Property, owl:DatatypeProperty .
-ebg:propertyName schema:domainIncludes ebg:DataItem .
-ebg:propertyName schema:rangeIncludes xsd:string .
+ebg:orgTypeText a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes rdf:langString .
 
-ebg:adminUnitL6 a owl:ObjectProperty .
-ebg:adminUnitL6 schema:domainIncludes locn:Address .
-ebg:adminUnitL6 schema:rangeIncludes skos:Concept .
+ebg:providedCompanyData a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes ebg:DataItem .
 
-adms:identifier a owl:ObjectProperty .
-adms:identifier schema:domainIncludes rov:RegisteredOrganization .
-adms:identifier schema:rangeIncludes adms:Identifier .
+org:hasRegisteredSite a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes locn:Address .
 
-rov:orgActivity a owl:ObjectProperty .
-rov:orgActivity schema:domainIncludes rov:RegisteredOrganization .
-rov:orgActivity schema:rangeIncludes skos:Concept .
+org:hasSite a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes locn:Address .
 
-rov:legalName a rdf:Property, owl:DatatypeProperty .
-rov:legalName schema:domainIncludes rov:RegisteredOrganization .
-rov:legalName schema:rangeIncludes rdf:langString .
+rov:legalName a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes rdf:langString .
 
-dc:identifier a rdf:Property, owl:DatatypeProperty .
-dc:identifier schema:domainIncludes ebg:Register .
-dc:identifier schema:rangeIncludes rdfs:Literal .
+rov:orgActivity a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes skos:Concept .
 
-skos:prefLabel a rdf:Property, owl:DatatypeProperty .
-skos:prefLabel schema:domainIncludes ebg:Register .
-skos:prefLabel schema:rangeIncludes rdfs:Literal .
+rov:orgStatus a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization .
 
-locn:adminUnitL2 a owl:ObjectProperty .
-locn:adminUnitL2 schema:domainIncludes locn:Address .
-locn:adminUnitL2 schema:rangeIncludes skos:Concept .
+rov:orgType a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization .
 
-schema:longitude a rdf:Property, owl:DatatypeProperty .
-schema:longitude schema:domainIncludes schema:GeoCoordinates .
-schema:longitude schema:rangeIncludes xsd:decimal .
+rov:registration a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes adms:Identifier .
 
-locn:throughfare a rdf:Property, owl:DatatypeProperty .
-locn:throughfare schema:domainIncludes locn:Address .
-locn:throughfare schema:rangeIncludes xsd:string .
+schema:availableLanguage a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:string .
 
-ebg:geoResolution a owl:ObjectProperty .
-ebg:geoResolution schema:domainIncludes schema:GeoCoordinates .
-ebg:geoResolution schema:rangeIncludes skos:Concept .
+schema:dissolutionDate a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:date .
 
-locn:postName a rdf:Property, owl:DatatypeProperty .
-locn:postName schema:domainIncludes locn:Address .
-locn:postName schema:rangeIncludes rdf:langString .
+schema:email a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes rdfs:Literal .
 
-dct:issued a rdf:Property, owl:DatatypeProperty .
-dct:issued schema:domainIncludes adms:Identifier .
-dct:issued schema:rangeIncludes xsd:date .
+schema:foundingDate a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:date .
 
-schema:geo a owl:ObjectProperty .
-schema:geo schema:domainIncludes locn:Address .
-schema:geo schema:rangeIncludes schema:GeoCoordinates .
+schema:sameAs a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:anyURI .
 
-ebg:isStateOwned a rdf:Property, owl:DatatypeProperty .
-ebg:isStateOwned schema:domainIncludes rov:RegisteredOrganization .
-ebg:isStateOwned schema:rangeIncludes xsd:boolean .
+schema:url a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes xsd:anyURI .
+
+sioc:feed a owl:ObjectProperty;
+  schema:domainIncludes rov:RegisteredOrganization .
+
+skos:altLabel a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes rdf:langString .
+
+skos:prefLabel a owl:DatatypeProperty;
+  schema:domainIncludes rov:RegisteredOrganization;
+  schema:rangeIncludes rdf:langString .
+
+ebg:geoResolution a owl:ObjectProperty;
+  schema:domainIncludes schema:GeoCoordinates;
+  schema:rangeIncludes skos:Concept .
+
+schema:latitude a owl:DatatypeProperty;
+  schema:domainIncludes schema:GeoCoordinates;
+  schema:rangeIncludes xsd:decimal .
+
+schema:longitude a owl:DatatypeProperty;
+  schema:domainIncludes schema:GeoCoordinates;
+  schema:rangeIncludes xsd:decimal .
+
