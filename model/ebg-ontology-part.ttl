@@ -13,7 +13,7 @@ ebg: a owl:Ontology;
   dct:publisher <http://businessgraph.io>.
 
 
-##### Concept Schemes
+#### Concept Schemes
 
 nace: a skos:ConceptScheme;
   rdfs:isDefinedBy ebg: ;
