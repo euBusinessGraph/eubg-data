@@ -6,8 +6,8 @@
   ebg:isStartup "(is_startup)"^^xsd:boolean;
   ebg:isStateOwned "(is_state_owned)"^^xsd:boolean;
   ebg:isPubliclyTraded "(is_publicly_traded)"^^xsd:boolean;
-  rov:orgStatus <status/(prov_code)/(status)>;
-  rov:orgActivity <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace1)>, <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>;
+  rov:orgStatus <status/(provider)/(status)>;
+  rov:orgActivity <http://data.businessgraph.io/nace/(nace1)>, <http://data.businessgraph.io/nace/(nace5)>;
   schema:foundingDate "(founding_date)"^^xsd:date;
   schema:dissolutionDate "(dissolution_date)"^^xsd:date;
   schema:availableLanguage "(web_language)";
@@ -19,7 +19,7 @@
   org:hasRegisteredSite <company/(co)/(id)/address>;
   org:hasSite <company/(co)/(id)/address/(n)>;
   rov:registration <company/(co)/(id)/id>;
-  adms:identifier <company/(co)/(id)/id/(prov_code)>.
+  adms:identifier <company/(co)/(id)/id/(provider)>.
 
 <company/(co)/(id)/address> a org:Site, locn:Address;
   org:siteAddress        <company/(co)/(id)/address>;
@@ -43,9 +43,9 @@
   dct:creator <register/(co)>;
   dct:issued "(reg_date)"^^xsd:date.
 
-<company/(co)/(id)/id/(prov_code)> a adms:Identifier;
+<company/(co)/(id)/id/(provider)> a adms:Identifier;
   skos:notation "(id1)";
-  dct:creator <register/(prov_code)>;
+  dct:creator <register/(provider)>;
   dct:issued "(reg1_date)"^^xsd:date.
 
 <company/(co)/(id)/address/geo> a schema:GeoCoordinates;
@@ -57,10 +57,10 @@
   org:siteAddress <company/(co)/(id)/address/(n)>;
   puml:label "Same data as registered site/address".
 
-<http://estatwrap.ontologycentral.com/dic/nace_r2#(nace1)>
+<http://data.businessgraph.io/nace/(nace1)>
   puml:label "Top-level NACE classification\nMandatory if available".
 
-<http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>
+<http://data.businessgraph.io/nace/(nace5)>
   puml:label "Detailed NACE classification\n (down to national level). Optional".
 
 <register/(co)> a ebg:Register;
@@ -68,8 +68,8 @@
   puml:label "Official national register";
   adms:identifier <register/(co)/id/RAL/(RA_code)>.
 
-<register/(prov_code)> a ebg:Register;
-  dc:identifier "(prov_code)";
+<register/(provider)> a ebg:Register;
+  dc:identifier "(provider)";
   skos:prefLabel "(provider_name)";
   puml:label "Other identifier issuer".
 
@@ -78,7 +78,7 @@
   dct:creator <register/RAL>.
 
 ####################
-<company/(co)/(id)> puml:dashed <http://estatwrap.ontologycentral.com/dic/nace_r2#(nace5)>.
+<company/(co)/(id)> puml:dashed-up <http://data.businessgraph.io/nace/(nace5)>.
 rov:orgActivity puml:arrow puml:up.
 
 <http://news_blog_feed>                               a puml:Inline.
@@ -93,5 +93,5 @@ rov:orgActivity puml:arrow puml:up.
 <mailto:certified_email>                              a puml:Inline.
 <precision/(level)>                                   a puml:Inline.
 <status/(co)/(type)>                                  a puml:Inline.
-<status/(prov_code)/(status)>                         a puml:Inline.
+<status/(provider)/(status)>                          a puml:Inline.
 <register/RAL>                                        a puml:Inline.
