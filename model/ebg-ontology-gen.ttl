@@ -1,19 +1,24 @@
+
 #### Generated Classes
 
 adms:Identifier a rdfs:Class;
   rdfs:label "Identifier";
   skos:definition "Identifier (skos:notation) of a company by some issuing agency/register (dct:creator)." .
 
-ebg:CompanyDataProperty a rdfs:Class;
-  rdfs:label "Company data property";
-  skos:definition "A data property about a company which is provided by a data provider (which is also a company)." .
+ebg:DataProperty a rdfs:Class;
+  rdfs:label "Data property";
+  skos:definition "A potential data property which may be provided about a company by a business register." .
 
 ebg:Register a rdfs:Class;
-  skos:scopeNote "Many agencies keep several registries, eg http://www.registryagency.bg keeps: Trade Register http://brra.bg for companies,  Bulstat Register http://www.bulstat.bg/ for other entities. But for now we don't represent the registration agency separately from the register.";
-  skos:scopeNote "Since registers are also Registered Organizations, we can use the same URLs and can/should record similar descriptive information, eg label, website, identifiers, etc.";
+  rdfs:subClassOf rov:RegisteredOrganization;
   rdfs:label "Register";
   skos:definition "A business or other company register, and the associated agency.";
-  rdfs:subClassOf "rov:RegisteredOrganization" .
+  skos:scopeNote "Many agencies keep several registries, eg http://www.registryagency.bg keeps: Trade Register http://brra.bg for companies,  Bulstat Register http://www.bulstat.bg/ for other entities. But for now we don't represent the registration agency separately from the register.";
+  skos:scopeNote "Since registers are also Registered Organizations, we can use the same URLs and can/should record similar descriptive information, eg label, website, identifiers, etc." .
+
+ebg:companyDataProperty a rdfs:Class;
+  rdfs:label "Company data property";
+  skos:definition "A data property about a company which is provided by a business register." .
 
 locn:Address a rdfs:Class;
   skos:label "Address";
@@ -48,13 +53,6 @@ dct:creator a owl:ObjectProperty;
   skos:definition "Agency that issued the identifier, and register that holds it.";
   skos:scopeNote "Scope note: In many countries there is a single registry although in others, such as Spain and Germany, multiple registries exist. [rov:]" .
 
-dct:issued a owl:DatatypeProperty;
-  schema:domainIncludes adms:Identifier ;
-  schema:rangeIncludes xsd:date;
-  rdfs:label "Issued on";
-  skos:definition "When was the identifier issued.";
-  skos:scopeNote "This may or may not be the same as the Incorporation Date. Even for the official registration, the two dates may differ, depending on business rules." .
-
 skos:notation a owl:DatatypeProperty;
   schema:domainIncludes adms:Identifier ;
   schema:rangeIncludes rdfs:Literal;
@@ -62,23 +60,22 @@ skos:notation a owl:DatatypeProperty;
   skos:definition "Literal value of the identifier.";
   skos:scopeNote "Should not include leading, trailing and consecutive spaces, to facilitate exact match." .
 
-ebg:about a owl:ObjectProperty;
-  schema:domainIncludes ebg:CompanyDataProperty;
-  schema:rangeIncludes rov:RegisteredOrganization;
-  rdfs:label "About";
-  skos:definition "The company about which the data property is provided." .
+dct:issued a owl:DatatypeProperty;
+  schema:domainIncludes adms:Identifier ;
+  schema:rangeIncludes xsd:date;
+  rdfs:label "Issued on";
+  skos:definition "When was the identifier issued.";
+  skos:scopeNote "This may or may not be the same as the Incorporation Date. Even for the official registration, the two dates may differ, depending on business rules." .
 
-ebg:license a owl:DatatypeProperty;
-  schema:domainIncludes ebg:CompanyDataProperty ;
-  schema:rangeIncludes xsd:string;
-  rdfs:label "License";
-  skos:definition "The license under which the data property is provided by the company data provider." .
+ebg:propertyDescription a owl:ObjectProperty;
+  schema:domainIncludes ebg:DataProperty ;
+  rdfs:label "Data property description";
+  skos:definition "The description of the data property (about a company) which is provided by a business register." .
 
-ebg:propertyName a owl:DatatypeProperty;
-  schema:domainIncludes ebg:CompanyDataProperty ;
-  schema:rangeIncludes xsd:string;
-  rdfs:label "Company data property name";
-  skos:definition "The name of the data property which is provided by a compny data provider." .
+ebg:propertyName a owl:ObjectProperty;
+  schema:domainIncludes ebg:DataProperty ;
+  rdfs:label "Data property name";
+  skos:definition "The name of the data property (about a company) which is provided by a business register." .
 
 dc:identifier a owl:DatatypeProperty;
   schema:domainIncludes ebg:Register ;
@@ -87,9 +84,39 @@ dc:identifier a owl:DatatypeProperty;
   skos:definition "Short code identifying the register. Used as the last URL part for identifiers issued by this register.";
   skos:scopeNote "For official registers, we use the jurisdiction code (e.g. 'BG', 'GB'). For others, we use a short mnemonic code: upper-case for company registers (e.g. 'OCORP', 'SDATI', 'RAL', 'EU', 'BRIS'), mixed-case for social network registers (eg 'Twitter', 'Facebook')." .
 
+ebg:companyDataProperties a owl:ObjectProperty;
+  schema:domainIncludes ebg:Register;
+  schema:rangeIncludes ebg:companyDataProperty;
+  rdfs:label "Provided company data property";
+  skos:definition "All company data properties about specific companies that are provided by a business register." .
+
+ebg:dataProperties a owl:ObjectProperty;
+  schema:domainIncludes ebg:Register;
+  schema:rangeIncludes ebg:DataProperty;
+  rdfs:label "Provided data properties";
+  skos:definition "All potential company data properties about companies that are provided by a business register." .
+
 skos:prefLabel a owl:DatatypeProperty;
   schema:domainIncludes ebg:Register ;
   schema:rangeIncludes rdfs:Literal .
+
+ebg:about a owl:ObjectProperty;
+  schema:domainIncludes ebg:companyDataProperty;
+  schema:rangeIncludes rov:RegisteredOrganization;
+  rdfs:label "About";
+  skos:definition "The company about which the data property is provided." .
+
+ebg:dataProperty a owl:ObjectProperty;
+  schema:domainIncludes ebg:companyDataProperty;
+  schema:rangeIncludes ebg:DataProperty;
+  rdfs:label "Company data property name";
+  skos:definition "The name of the data property which is provided by a compny data provider." .
+
+ebg:license a owl:DatatypeProperty;
+  schema:domainIncludes ebg:companyDataProperty ;
+  schema:rangeIncludes xsd:string;
+  rdfs:label "License";
+  skos:definition "The license under which the data property is provided by the company data provider." .
 
 ebg:adminUnitL3 a owl:ObjectProperty;
   schema:domainIncludes locn:Address;
@@ -249,12 +276,6 @@ ebg:orgTypeText a owl:DatatypeProperty;
   skos:example "Private Limited Company"@en;
   skos:example "Дружество с ограничена отговорност"@bg;
   skos:example "Società a responsabilità limitata"@it .
-
-ebg:provides a owl:ObjectProperty;
-  schema:domainIncludes rov:RegisteredOrganization;
-  schema:rangeIncludes ebg:CompanyDataProperty;
-  rdfs:label "Provided company data property";
-  skos:definition "All company data properties that are provided by a company data provider (which is also a Company)." .
 
 org:hasRegisteredSite a owl:ObjectProperty;
   schema:domainIncludes rov:RegisteredOrganization;
