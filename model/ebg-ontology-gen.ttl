@@ -174,6 +174,15 @@ locn:fullAddress a owl:DatatypeProperty;
   skos:example "Aston House, Cornwall Avenue, London N3 1LF, UK";
   skos:example "Via Belenzani 19, 38122, Trento" .
 
+locn:locatorDesignator a owl:DatatypeProperty;
+  schema:domainIncludes locn:Address ;
+  schema:rangeIncludes rdfs:Literal;
+  skos:scopeNote "Not likely to appear separately, but we have Coordinate resolution corresponding to this field.";
+  rdfs:label "Street number";
+  skos:definition "Street number and/or building name.";
+  skos:example "47A";
+  skos:example "Polygraphia Office Center, floor 4" .
+
 locn:poBox a owl:DatatypeProperty;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes rdfs:Literal;
