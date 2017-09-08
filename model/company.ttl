@@ -8,6 +8,7 @@
   ebg:isPubliclyTraded "(is_publicly_traded)"^^xsd:boolean;
   rov:orgStatus <status/(provider)/(status)>;
   rov:orgActivity <http://data.businessgraph.io/nace/(nace1)>, <http://data.businessgraph.io/nace/(nace5)>;
+  ebg:orgActivityText "(activity)"@lang;
   schema:foundingDate "(founding_date)"^^xsd:date;
   schema:dissolutionDate "(dissolution_date)"^^xsd:date;
   schema:availableLanguage "(web_language)";
