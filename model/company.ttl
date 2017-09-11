@@ -94,7 +94,7 @@ rov:orgActivity puml:arrow puml:up.
 <lau/(co)/(lau1)>                                     a puml:Inline.
 <lau/(co)/(lau2)>                                     a puml:Inline.
 <mailto:certified_email>                              a puml:Inline.
-<precision/(level)>                                   a puml:Inline.
+<resolution/(level)>                                  a puml:Inline.
 <status/(co)/(type)>                                  a puml:Inline.
 <status/(provider)/(status)>                          a puml:Inline.
 <register/RAL>                                        a puml:Inline.
