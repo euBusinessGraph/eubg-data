@@ -1,0 +1,12 @@
+#select ?LAU1_NAT_CODE ?LAU2_NAT_CODE (count(?CHANGE) as ?num)  {} 
+#group by ?LAU1_NAT_CODE ?LAU2_NAT_CODE
+#having (?num > 1)
+
+#select DISTINCT ?POP {}
+select ?LAU1_NAT_CODE ?NAME_2_LAT ?MAX ?POP {
+    {
+        select ?LAU1_NAT_CODE (max(?POP) as ?MAX) {}
+        group by ?LAU1_NAT_CODE
+    }
+#    filter(?max = ?POP)
+} 

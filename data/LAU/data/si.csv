@@ -1,0 +1,213 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+SI043,01,001,no,Ajdovščina,Ajdovščina,19047,245233520
+SI031,36,002,no,Beltinci,Beltinci,8261,62247680
+SI042,44,003,no,Bled,Bled,8035,72288010
+SI042,44,004,no,Bohinj,Bohinj,5139,333725360
+SI041,60,005,no,Borovnica,Borovnica,4275,42316220
+SI043,55,006,no,Bovec,Bovec,3124,367323940
+SI043,37,007,no,Brda,Brda,5659,71966440
+SI041,24,008,no,Brezovica,Brezovica,11974,91170750
+SI036,02,009,no,Brežice,Brežice,24254,268112880
+SI031,36,010,no,Tišina,Tišina,4039,38815020
+SI034,03,011,no,Celje,Celje,49077,94904910
+SI042,18,012,no,Cerklje na Gorenjskem,Cerklje na Gorenjskem,7506,78038570
+SI038,04,013,no,Cerknica,Cerknica,11402,240950690
+SI043,11,014,no,Cerkno,Cerkno,4644,131542790
+SI031,22,015,no,Črenšovci,Črenšovci,4002,33692630
+SI033,45,016,no,Črna na Koroškem,Črna na Koroškem,3337,155961130
+SI037,05,017,no,Črnomelj,Črnomelj,14407,339659120
+SI032,42,018,no,Destrnik,Destrnik,2539,34354150
+SI044,48,019,no,Divača,Divača,3955,145045870
+SI041,09,020,no,Dobrepolje,Dobrepolje,3898,103147950
+SI041,24,021,no,Dobrova - Polhov Gradec,Dobrova - Polhov Gradec,7582,117479630
+SI041,24,022,no,Dol pri Ljubljani,Dol pri Ljubljani,5934,33281400
+SI041,06,023,no,Domžale,Domžale,35278,72297680
+SI032,42,024,no,Dornava,Dornava,2882,28401060
+SI033,07,025,no,Dravograd,Dravograd,8885,105000790
+SI032,64,026,no,Duplek,Duplek,6726,39983390
+SI042,53,027,no,Gorenja vas - Poljane,Gorenja vas - Poljane,7429,153251070
+SI032,42,028,31/01/2015,Gorišnica,Gorišnica,3978,29100580
+SI031,08,029,no,Gornja Radgona,Gornja Radgona,8467,74601930
+SI034,35,030,no,Gornji Grad,Gornji Grad,2547,90095470
+SI031,36,031,no,Gornji Petrovci,Gornji Petrovci,2057,66844050
+SI041,09,032,no,Grosuplje,Grosuplje,20059,133794420
+SI031,36,033,no,Šalovci,Šalovci,1437,58159920
+SI035,10,034,no,Hrastnik,Hrastnik,9316,58576680
+SI044,48,035,no,Hrpelje - Kozina,Hrpelje - Kozina,4366,194937440
+SI043,11,036,no,Idrija,Idrija,11927,293633970
+SI041,24,037,no,Ig,Ig,7163,98779020
+SI038,12,038,no,Ilirska Bistrica,Ilirska Bistrica,13594,480011570
+SI041,09,039,no,Ivančna Gorica,Ivančna Gorica,16182,227007470
+SI044,13,040,no,Izola,Isola,15962,28561420
+SI042,14,041,no,Jesenice,Jesenice,20858,75837940
+SI032,42,042,no,Juršinci,Juršinci,2356,36256930
+SI041,15,043,no,Kamnik,Kamnik,29362,265635090
+SI043,37,044,no,Kanal,Kanal,5431,146531480
+SI032,42,045,no,Kidričevo,Kidričevo,6449,71504680
+SI043,55,046,no,Kobarid,Kobarid,4121,192626170
+SI031,22,047,no,Kobilje,Kobilje,574,19735620
+SI037,16,048,no,Kočevje,Kočevje,16005,555385710
+SI044,48,049,no,Komen,Komen,3518,102717460
+SI044,17,050,no,Koper,Capodistria,51045,303152510
+SI034,54,051,no,Kozje,Kozje,3092,89689780
+SI042,18,052,no,Kranj,Kranj,56115,150913280
+SI042,14,053,no,Kranjska Gora,Kranjska Gora,5294,256312320
+SI036,19,054,no,Krško,Krško,25884,286528770
+SI032,65,055,no,Kungota,Kungota,4761,48986700
+SI031,36,056,no,Kuzma,Kuzma,1582,22852030
+SI034,20,057,no,Laško,Laško,13156,197460250
+SI032,21,058,no,Lenart,Lenart,8275,62103410
+SI031,22,059,no,Lendava,Lendva,10538,122940040
+SI035,23,060,no,Litija,Litija,15099,221378900
+SI041,24,061,no,Ljubljana,Ljubljana,288307,274986470
+SI034,35,062,no,Ljubno,Ljubno,2604,78908330
+SI031,29,063,no,Ljutomer,Ljutomer,11491,107235840
+SI041,30,064,no,Logatec,Logatec,13752,173108410
+SI038,04,065,no,Loška dolina,Loška dolina,3857,166826520
+SI037,46,066,no,Loški Potok,Loški Potok,1866,134497830
+SI034,35,067,no,Luče,Luče,1495,109450400
+SI041,06,068,no,Lukovica,Lukovica,5731,74904140
+SI032,42,069,no,Majšperk,Majšperk,3986,72783570
+SI032,64,070,no,Maribor,Maribor,111832,147466570
+SI041,24,071,no,Medvode,Medvode,16032,77593730
+SI041,06,072,no,Mengeš,Mengeš,7708,22437620
+SI037,34,073,no,Metlika,Metlika,8382,108871560
+SI033,45,074,no,Mežica,Mežica,3599,26447430
+SI043,37,075,no,Miren - Kostanjevica,Miren - Kostanjevica,4825,62783880
+SI033,49,076,no,Mislinja,Mislinja,4577,112167240
+SI041,06,077,no,Moravče,Moravče,5271,61375510
+SI031,36,078,no,Moravske Toplice,Moravske Toplice,5847,144462570
+SI034,35,079,no,Mozirje,Mozirje,4056,53534760
+SI031,36,080,no,Murska Sobota,Murska Sobota,18924,64433850
+SI033,43,081,no,Muta,Muta,3364,38770840
+SI042,18,082,no,Naklo,Naklo,5283,28289400
+SI034,35,083,no,Nazarje,Nazarje,2582,43404040
+SI043,37,084,no,Nova Gorica,Nova Gorica,31798,279491450
+SI037,38,085,no,Novo mesto,Novo mesto,36503,235710370
+SI031,22,086,no,Odranci,Odranci,1637,6934510
+SI032,39,087,no,Ormož,Ormož,12316,141563840
+SI037,16,088,no,Osilnica,Osilnica,372,36223890
+SI032,65,089,no,Pesnica,Pesnica,7391,75844870
+SI044,40,090,no,Piran,Pirano,17829,44581670
+SI038,41,091,no,Pivka,Pivka,6064,223250770
+SI034,54,092,no,Podčetrtek,Podčetrtek,3325,60559880
+SI033,43,093,no,Podvelka,Podvelka,2371,103884170
+SI038,41,094,no,Postojna,Postojna,16068,269867510
+SI042,18,095,no,Preddvor,Preddvor,3582,86961370
+SI032,42,096,no,Ptuj,Ptuj,23129,66656000
+SI031,36,097,no,Puconci,Puconci,5990,107658500
+SI032,64,098,no,Rače - Fram,Rače - Fram,7105,51240740
+SI036,20,099,no,Radeče,Radeče,4279,51969510
+SI031,08,100,no,Radenci,Radenci,5138,34121680
+SI033,43,101,no,Radlje ob Dravi,Radlje ob Dravi,6215,93933560
+SI042,44,102,no,Radovljica,Radovljica,18816,118706460
+SI033,45,103,no,Ravne na Koroškem,Ravne na Koroškem,11342,63448930
+SI037,46,104,no,Ribnica,Ribnica,9347,153637290
+SI031,36,105,no,Rogašovci,Rogašovci,3111,40147020
+SI034,54,106,no,Rogaška Slatina,Rogaška Slatina,10958,71545370
+SI034,54,107,no,Rogatec,Rogatec,3093,39557820
+SI032,68,108,no,Ruše,Ruše,7150,60814850
+SI037,05,109,no,Semič,Semič,3780,146659280
+SI036,47,110,no,Sevnica,Sevnica,17510,272172170
+SI044,48,111,no,Sežana,Sežana,13160,217400560
+SI033,49,112,no,Slovenj Gradec,Slovenj Gradec,16720,173693740
+SI032,50,113,no,Slovenska Bistrica,Slovenska Bistrica,25413,260079900
+SI034,51,114,no,Slovenske Konjice,Slovenske Konjice,14623,97841170
+SI032,64,115,no,Starše,Starše,4072,33965640
+SI031,08,116,no,Sveti Jurij ob Ščavnici,Sveti Jurij ob Ščavnici,2863,51323450
+SI042,18,117,no,Šenčur,Šenčur,8580,40276250
+SI032,65,118,no,Šentilj,Šentilj,8339,65010970
+SI037,38,119,no,Šentjernej,Šentjernej,6993,95986440
+SI034,52,120,no,Šentjur ,Šentjur ,18990,222258910
+SI037,38,121,no,Škocjan,Škocjan,3236,60445400
+SI042,53,122,no,Škofja Loka,Škofja Loka,22927,146010000
+SI041,24,123,no,Škofljica,Škofljica,10618,43292540
+SI034,54,124,no,Šmarje pri Jelšah,Šmarje pri Jelšah,10260,107702460
+SI034,59,125,no,Šmartno ob Paki,Šmartno ob Paki,3240,18152300
+SI034,59,126,no,Šoštanj,Šoštanj,8705,95585260
+SI034,03,127,no,Štore,Štore,4239,28147570
+SI043,55,128,no,Tolmin,Tolmin,11281,382330670
+SI035,56,129,no,Trbovlje,Trbovlje,16339,58038480
+SI037,57,130,no,Trebnje,Trebnje,12354,163324490
+SI042,58,131,no,Tržič,Tržič,14872,155371490
+SI031,22,132,no,Turnišče,Turnišče,3263,23844000
+SI034,59,133,no,Velenje,Velenje,32747,83495180
+SI041,24,134,no,Velike Lašče,Velike Lašče,4264,103184850
+SI032,42,135,no,Videm,Videm,5481,79986540
+SI043,01,136,no,Vipava,Vipava,5605,107406970
+SI034,51,137,no,Vitanje,Vitanje,2269,59384200
+SI041,24,138,no,Vodice,Vodice,4804,31383250
+SI034,03,139,no,Vojnik,Vojnik,8685,75266670
+SI041,60,140,no,Vrhnika,Vrhnika,16848,115560910
+SI033,43,141,no,Vuzenica,Vuzenica,2687,50103890
+SI035,61,142,12/11/2015,Zagorje ob Savi,Zagorje ob Savi,16650,147142200
+SI032,42,143,no,Zavrč,Zavrč,1722,19329510
+SI034,51,144,no,Zreče,Zreče,6395,67039290
+SI042,53,146,no,Železniki,Železniki,6705,163742330
+SI042,53,147,no,Žiri,Žiri,4870,49218820
+SI032,21,148,no,Benedikt,Benedikt,2491,24138490
+SI036,54,149,no,Bistrica ob Sotli,Bistrica ob Sotli,1365,31136310
+SI038,04,150,no,Bloke,Bloke,1538,75071660
+SI034,62,151,no,Braslovče,Braslovče,5473,54980560
+SI031,36,152,no,Cankova,Cankova,1814,30583310
+SI032,21,153,no,Cerkvenjak,Cerkvenjak,2044,24529360
+SI034,52,154,no,Dobje,Dobje,981,17493130
+SI034,03,155,no,Dobrna,Dobrna,2192,31660890
+SI031,22,156,no,Dobrovnik,Dobronak,1277,31117530
+SI037,38,157,no,Dolenjske Toplice,Dolenjske Toplice,3407,110213310
+SI031,36,158,no,Grad,Grad,2166,37391020
+SI032,42,159,no,Hajdina,Hajdina,3712,21817110
+SI032,64,160,no,Hoče - Slivnica,Hoče - Slivnica,11273,53710480
+SI031,36,161,no,Hodoš,Hodos,375,18120220
+SI041,24,162,no,Horjul,Horjul,2970,32549610
+SI042,18,163,no,Jezersko,Jezersko,624,68809090
+SI041,15,164,no,Komenda,Komenda,6001,24063590
+SI037,16,165,no,Kostel,Kostel,641,56085820
+SI031,29,166,no,Križevci,Križevci,3618,46245030
+SI032,68,167,no,Lovrenc na Pohorju,Lovrenc na Pohorju,3088,84433030
+SI032,42,168,31/01/2015,Markovci,Markovci,4011,29838740
+SI032,64,169,no,Miklavž na Dravskem polju,Miklavž na Dravskem polju,6525,12538600
+SI037,38,170,no,Mirna Peč,Mirna Peč,2911,48040800
+SI032,50,171,no,Oplotnica,Oplotnica,4076,33151390
+SI032,42,172,no,Podlehnik,Podlehnik,1818,45979920
+SI034,62,173,no,Polzela,Polzela,6135,34005350
+SI034,62,174,no,Prebold,Prebold,5007,40632390
+SI033,45,175,no,Prevalje,Prevalje,6763,58071620
+SI031,29,176,no,Razkrižje,Razkrižje,1278,9821640
+SI033,43,177,no,Ribnica na Pohorju,Ribnica na Pohorju,1180,59315960
+SI032,68,178,no,Selnica ob Dravi,Selnica ob Dravi,4522,64466460
+SI037,46,179,no,Sodražica,Sodražica,2186,49476300
+SI034,35,180,no,Solčava,Solčava,514,102754990
+SI032,21,181,no,Sveta Ana,Sveta Ana,2319,37155450
+SI032,42,182,no,Sveti Andraž v Slov. goricah,Sveti Andraž v Slov. goricah,1160,17604710
+SI043,37,183,no,Šempeter - Vrtojba,Šempeter - Vrtojba,6279,14949670
+SI034,62,184,no,Tabor,Tabor,1645,34812410
+SI032,42,185,no,Trnovska vas,Trnovska vas,1341,22890100
+SI041,06,186,no,Trzin,Trzin,3889,8616090
+SI031,22,187,no,Velika Polana,Velika Polana,1449,18668000
+SI031,29,188,no,Veržej,Veržej,1299,12020070
+SI034,62,189,12/11/2015,Vransko,Vransko,2599,53337650
+SI034,62,190,no,Žalec,Žalec,21306,117102640
+SI032,42,191,no,Žetale,Žetale,1301,38025520
+SI042,14,192,no,Žirovnica,Žirovnica,4381,42580760
+SI037,38,193,no,Žužemberk,Žužemberk,4592,164338450
+SI041,23,194,no,Šmartno pri Litiji,Šmartno pri Litiji,5515,94886510
+SI031,08,195,no,Apače,Apače,3581,53502480
+SI032,42,196,no,Cirkulane,Cirkulane,2287,32067960
+SI036,19,197,no,Kostanjevica na Krki,Kostanjevica na Krki,2419,58328100
+SI032,50,198,no,Makole,Makole,2039,36937430
+SI037,57,199,no,Mokronog - Trebelno,Mokronog - Trebelno,3032,73390990
+SI032,50,200,no,Poljčane,Poljčane,4421,37499730
+SI043,37,201,no,Renče - Vogrsko,Renče - Vogrsko,4323,29468300
+SI032,39,202,no,Središče ob Dravi,Središče ob Dravi,2042,32737600
+SI037,38,203,no,Straža,Straža,3821,28530410
+SI032,21,204,no,Sveta Trojica v Slov. goricah,Sveta Trojica v Slov. goricah,2054,25911070
+SI032,39,205,no,Sveti Tomaž,Sveti Tomaž,2051,38090770
+SI037,38,206,no,Šmarješke Toplice,Šmarješke Toplice,3293,34226340
+SI042,44,207,no,Gorje,Gorje,2822,116218360
+SI041,60,208,no,Log - Dragomer,Log - Dragomer,3606,11039190
+SI034,35,209,no,Rečica ob Savinji,Rečica ob Savinji,2328,30107760
+SI032,21,210,no,Sveti Jurij v Slov. goricah,Sveti Jurij v Slov. goricah,2076,30712080
+SI037,57,211,no,Šentrupert,Šentrupert,2923,49081000
+SI037,57,212,no,Mirna,Mirna,2515,31308180
+SI044,17,213,no,Ankaran,Ancarano,3235,8048700

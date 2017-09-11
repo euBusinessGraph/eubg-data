@@ -1,0 +1,120 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+LV006,n.a.,0010000,no,Rīga,Rīga,638784,303753288
+LV005,n.a.,0050000,no,Daugavpils,Daugavpils,85286,72346985
+LV009,n.a.,0090000,no,Jelgava,Jelgava,57045,60498184
+LV009,n.a.,0110000,no,Jēkabpils,Jēkabpils,22722,25453757
+LV007,n.a.,0130000,no,Jūrmala,Jūrmala,49305,101246031
+LV003,n.a.,0170000,no,Liepāja,Liepāja,70499,67998465
+LV005,n.a.,0210000,no,Rēzekne,Rēzekne,28745,17510335
+LV008,n.a.,0250000,no,Valmiera,Valmiera,23230,19348071
+LV003,n.a.,0270000,no,Ventspils,Ventspils,35914,57859438
+LV009,n.a.,0320200,no,Aizkraukles novads,Aizkraukles novads,8406,102183865
+LV009,n.a.,0321000,no,Jaunjelgavas novads,Jaunjelgavas novads,5508,684213604
+LV009,n.a.,0321400,no,Pļaviņu novads,Pļaviņu novads,5278,375796919
+LV009,n.a.,0326100,no,Kokneses novads,Kokneses novads,5202,360553058
+LV009,n.a.,0327100,no,Neretas novads,Neretas novads,3642,644666897
+LV009,n.a.,0328200,no,Skrīveru novads,Skrīveru novads,3458,105381149
+LV008,n.a.,0360200,no,Alūksnes novads,Alūksnes novads,15352,1698464611
+LV008,n.a.,0360800,no,Apes novads,Apes novads,3525,544931786
+LV005,n.a.,0380200,no,Balvu novads,Balvu novads,12687,1045240060
+LV005,n.a.,0381600,no,Viļakas novads,Viļakas novads,5007,640781618
+LV005,n.a.,0384400,no,Baltinavas novads,Baltinavas novads,1062,186385933
+LV005,n.a.,0387500,no,Rugāju novads,Rugāju novads,2234,514918413
+LV009,n.a.,0400200,no,Bauskas novads,Bauskas novads,23891,785966933
+LV009,n.a.,0406400,no,Iecavas novads,Iecavas novads,8599,311865388
+LV009,n.a.,0407700,no,Rundāles novads,Rundāles novads,3487,231210597
+LV009,n.a.,0409500,no,Vecumnieku novads,Vecumnieku novads,8263,844201548
+LV008,n.a.,0420200,no,Cēsu novads,Cēsu novads,16757,172880821
+LV008,n.a.,0421200,no,Līgatnes novads,Līgatnes novads,3412,167492421
+LV008,n.a.,0424701,no,Amatas novads,Amatas novads,5370,745369359
+LV008,n.a.,0425700,no,Jaunpiebalgas novads,Jaunpiebalgas novads,2209,251159061
+LV008,n.a.,0427300,no,Priekuļu novads,Priekuļu novads,7965,301483204
+LV008,n.a.,0427500,no,Pārgaujas novads,Pārgaujas novads,3827,486185529
+LV008,n.a.,0427700,no,Raunas novads,Raunas novads,3172,308847438
+LV008,n.a.,0429300,no,Vecpiebalgas novads,Vecpiebalgas novads,3861,541888905
+LV005,n.a.,0440200,no,Daugavpils novads,Daugavpils novads,22194,1875786734
+LV005,n.a.,0440801,no,Ilūkstes novads,Ilūkstes novads,7206,647232283
+LV009,n.a.,0460200,no,Dobeles novads,Dobeles novads,20498,887899026
+LV009,n.a.,0460800,no,Auces novads,Auces novads,6595,516600207
+LV009,n.a.,0468900,no,Tērvetes novads,Tērvetes novads,3389,223618707
+LV008,n.a.,0500200,no,Gulbenes novads,Gulbenes novads,21223,1871847183
+LV009,n.a.,0540200,no,Jelgavas novads,Jelgavas novads,22948,1316897065
+LV009,n.a.,0546701,no,Ozolnieku novads,Ozolnieku novads,9721,285918452
+LV009,n.a.,0560200,no,Jēkabpils novads,Jēkabpils novads,4682,905320579
+LV009,n.a.,0560800,no,Aknīstes novads ,Aknīstes novads ,2766,284596041
+LV009,n.a.,0561800,no,Viesītes novads,Viesītes novads,3802,650777376
+LV009,n.a.,0566900,no,Krustpils novads,Krustpils novads,5834,811431525
+LV009,n.a.,0568700,no,Salas novads,Salas novads,3599,317165727
+LV005,n.a.,0600202,no,Krāslavas novads,Krāslavas novads,15423,1079322778
+LV005,n.a.,0601000,no,Dagdas novads,Dagdas novads,7444,949683411
+LV005,n.a.,0604300,no,Aglonas novads,Aglonas novads,3572,392581827
+LV003,n.a.,0620200,no,Kuldīgas novads,Kuldīgas novads,23492,1756692777
+LV003,n.a.,0621200,no,Skrundas novads,Skrundas novads,4919,556673952
+LV003,n.a.,0624200,no,Alsungas novads,Alsungas novads,1380,190847536
+LV003,n.a.,0640600,no,Aizputes novads,Aizputes novads,8658,639926463
+LV003,n.a.,0640801,no,Durbes novads,Durbes novads,2776,320376936
+LV003,n.a.,0641000,no,Grobiņas novads,Grobiņas novads,8745,489901500
+LV003,n.a.,0641401,no,Pāvilostas novads,Pāvilostas novads,2664,515026809
+LV003,n.a.,0641600,no,Priekules novads,Priekules novads,5412,519741160
+LV003,n.a.,0647900,no,Nīcas novads,Nīcas novads,3342,350850565
+LV003,n.a.,0648500,no,Rucavas novads,Rucavas novads,1661,448159619
+LV003,n.a.,0649300,no,Vaiņodes novads,Vaiņodes novads,2430,306831651
+LV007,n.a.,0660200,no,Limbažu novads,Limbažu novads,16869,1170382914
+LV007,n.a.,0661000,no,Alojas novads ,Alojas novads ,4868,630957096
+LV007,n.a.,0661400,no,Salacgrīvas novads,Salacgrīvas novads,7818,637535702
+LV005,n.a.,0680200,no,Ludzas novads,Ludzas novads,12941,965356252
+LV005,n.a.,0681000,no,Kārsavas novads,Kārsavas novads,5667,628408666
+LV005,n.a.,0681801,no,Zilupes novads,Zilupes novads,3014,309069988
+LV005,n.a.,0684901,no,Ciblas novads,Ciblas novads,2661,510099382
+LV008,n.a.,0700200,no,Madonas novads,Madonas novads,23444,2159430554
+LV008,n.a.,0700800,no,Cesvaines novads,Cesvaines novads,2568,190313670
+LV008,n.a.,0701400,no,Lubānas novads,Lubānas novads,2364,347041838
+LV008,n.a.,0701800,no,Varakļānu novads,Varakļānu novads,3258,277915651
+LV008,n.a.,0705500,no,Ērgļu novads,Ērgļu novads,2885,378923885
+LV007,n.a.,0740202,no,Ogres novads,Ogres novads,34028,990480710
+LV007,n.a.,0740600,no,Ikšķiles novads,Ikšķiles novads,9451,130597652
+LV007,n.a.,0741001,no,Ķeguma novads,Ķeguma novads,5466,491588590
+LV007,n.a.,0741401,no,Lielvārdes novads,Lielvārdes novads,9993,225460475
+LV005,n.a.,0760202,no,Preiļu novads,Preiļu novads,9754,363958738
+LV005,n.a.,0761201,no,Līvānu novads,Līvānu novads,11424,622384466
+LV005,n.a.,0766300,no,Riebiņu novads,Riebiņu novads,5092,629740327
+LV005,n.a.,0769101,no,Vārkavas novads,Vārkavas novads,1968,287674256
+LV005,n.a.,0780200,no,Rēzeknes novads,Rēzeknes novads,26707,2524553526
+LV005,n.a.,0781800,no,Viļānu novads,Viļānu novads,5895,286809802
+LV007,n.a.,0800600,no,Baldones novads,Baldones novads,5434,178897246
+LV007,n.a.,0800800,no,Ķekavas novads,Ķekavas novads,22942,275181020
+LV007,n.a.,0801000,no,Olaines novads,Olaines novads,19769,298311236
+LV007,n.a.,0801200,no,Salaspils novads,Salaspils novads,22384,122734171
+LV007,n.a.,0801400,no,Saulkrastu novads,Saulkrastu novads,5752,47687906
+LV007,n.a.,0801601,no,Siguldas novads,Siguldas novads,17341,360870917
+LV007,n.a.,0801800,no,Inčukalna novads,Inčukalna novads,7715,111744384
+LV007,n.a.,0804400,no,Ādažu novads,Ādažu novads,10618,162531904
+LV007,n.a.,0804900,no,Babītes novads,Babītes novads,9954,243225991
+LV007,n.a.,0805200,no,Carnikavas novads,Carnikavas novads,6975,80583140
+LV007,n.a.,0806000,no,Garkalnes novads,Garkalnes novads,8102,152375825
+LV007,n.a.,0806900,no,Krimuldas novads,Krimuldas novads,5134,341022037
+LV007,n.a.,0807400,no,Mālpils novads,Mālpils novads,3474,220683990
+LV007,n.a.,0807600,no,Mārupes novads,Mārupes novads,18835,103758448
+LV007,n.a.,0808400,no,Ropažu novads,Ropažu novads,6687,324728824
+LV007,n.a.,0809200,no,Sējas novads,Sējas novads,2242,229950931
+LV007,n.a.,0809600,no,Stopiņu novads,Stopiņu novads,10366,53420926
+LV003,n.a.,0840200,no,Saldus novads,Saldus novads,23645,1681912308
+LV003,n.a.,0840601,no,Brocēnu novads,Brocēnu novads,5687,496254488
+LV003,n.a.,0880200,no,Talsu novads,Talsu novads,28947,1762800293
+LV003,n.a.,0885100,no,Dundagas novads,Dundagas novads,3971,676043109
+LV003,n.a.,0887600,no,Mērsraga novads,Mērsraga novads,1554,109464700
+LV003,n.a.,0888301,no,Rojas novads,Rojas novads,3749,200835440
+LV007,n.a.,0900200,no,Tukuma novads,Tukuma novads,28726,1194357858
+LV007,n.a.,0901201,no,Kandavas novads,Kandavas novads,8332,648571833
+LV007,n.a.,0905100,no,Engures novads,Engures novads,7232,396200708
+LV007,n.a.,0905700,no,Jaunpils novads,Jaunpils novads,2347,209300325
+LV008,n.a.,0940200,no,Valkas novads,Valkas novads,8267,908399675
+LV008,n.a.,0941600,no,Smiltenes novads,Smiltenes novads,12473,946851380
+LV008,n.a.,0941800,no,Strenču novads ,Strenču novads ,3214,375306737
+LV008,n.a.,0960200,no,Kocēnu novads,Kocēnu novads,6090,498527315
+LV008,n.a.,0961000,no,Mazsalacas novads,Mazsalacas novads,3145,417139607
+LV008,n.a.,0961600,no,Rūjienas novads,Rūjienas novads,5151,352573720
+LV008,n.a.,0964700,no,Beverīnas novads,Beverīnas novads,3158,300507233
+LV008,n.a.,0967101,no,Burtnieku novads,Burtnieku novads,8059,702158198
+LV008,n.a.,0967300,no,Naukšēnu novads,Naukšēnu novads,1820,280494009
+LV003,n.a.,0980200,no,Ventspils novads,Ventspils novads,11452,2457602519
