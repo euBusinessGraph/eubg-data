@@ -1,0 +1,143 @@
+ebgsh:Company CLOSED {
+  IRI /^http://data.businessgraph.io/company/[A-Z]{2}/.+/
+  a [rov:RegisteredOrganization];
+  rov:legalName            (xsd:string OR rdf:langString) AND NOT (/^ | $| {2}/) +;
+  skos:prefLabel           (xsd:string OR rdf:langString) AND NOT (/^ | $| {2}/) {1};
+  skos:altLabel            (xsd:string OR rdf:langString) AND NOT (/^ | $| {2}/) *;
+  rov:orgType              IRI <type/>~ ?;
+  ebg:orgTypeText          rdfs:langString ?;
+  ebg:isStartup            xsd:boolean ?;
+  ebg:isStateOwned         xsd:boolean ?;
+  ebg:isPubliclyTraded     xsd:boolean ?;
+  rov:orgStatus            IRI <status/>~ ?;
+  ebg:orgStatusText        rdfs:langString ?;
+  rov:orgActivity          IRI nace:~ *;
+  ebg:orgActivityText      rdfs:langString ?;
+  schema:foundingDate      (xsd:date OR xsd:gYearMonth OR xsd:gYear) ?;
+  schema:dissolutionDate   (xsd:date OR xsd:gYearMonth OR xsd:gYear) ?;
+  schema:availableLanguage xsd:string ?;
+  schema:url               IRI *;
+  schema:sameAs            IRI *;
+  schema:email             IRI <mailto:>~ *;
+  sioc:feed                IRI *;
+  dbo:jurisdiction         xsd:string /^[A-Z]{2}$/;
+  org:hasRegisteredSite    @ebgsh:Address ?;
+  org:hasSite              @ebgsh:Address *;
+  rov:registration         @ebgsh:Identifier {1};
+  adms:identifier          @ebgsh:Identifier *
+}
+
+ebgsh:Address CLOSED {
+  IRI /^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?/
+  a [org:Site]; a [locn:Address];
+  org:siteAddress          ebg:AddressShape;
+  locn:fullAddress         (xsd:string OR rdf:langString) ?;
+  locn:adminUnitL1         IRI nuts:~ @ebgsh:NUTS0 {1};
+  locn:adminUnitL2         IRI nuts:~ @ebgsh:NUTS1 ?;
+  ebg:adminUnitL3          IRI nuts:~ @ebgsh:NUTS2 ?;
+  ebg:adminUnitL4          IRI nuts:~ @ebgsh:NUTS3 ?;
+  ebg:adminUnitL5          IRI lau:~  @ebgsh:LAU1 ?;
+  ebg:adminUnitL6          IRI lau:~  @ebgsh:LAU2 ?;
+  locn:postName            (rdf:langString OR xsd:string) ?;
+  locn:addressArea         (rdf:langString OR xsd:string) ?;
+  locn:thoroughfare        (rdf:langString OR xsd:string) ?;
+  locn:locatorDesignator   xsd:string ?;
+  locn:postCode            xsd:string ?;
+  locn:poBox               xsd:string ?;
+  schema:geo               @ebgsh:GeoCoordinates ?
+}
+
+ebgsh:NUTS0 CLOSED {
+  IRI /http://nuts.geovocab.org/id/[A-Z]{2}$/;
+  a [ramon:NUTSRegion] ;
+  rdfs:label               xsd:string;
+  ramon:name               xsd:string;
+  ramon:code               xsd:string /[A-Z]{2}/;
+  ramon:level              [0];
+}
+
+ebgsh:NUTS1 CLOSED {
+  IRI /http://nuts.geovocab.org/id/[A-Z]{2}[0-9]$/;
+  a [ramon:NUTSRegion] ;
+  rdfs:label               xsd:string;
+  ramon:name               xsd:string;
+  ramon:code               xsd:string /^[A-Z]{2}[0-9]$/;
+  ramon:level              [1];
+  spatial:PP               @ebgsh:NUTS0.
+}
+
+ebgsh:NUTS2 CLOSED {
+  IRI /http://nuts.geovocab.org/id/[A-Z]{2}[0-9]{2}$/;
+  a [ramon:NUTSRegion] ;
+  rdfs:label               xsd:string;
+  ramon:name               xsd:string;
+  ramon:code               xsd:string /^[A-Z]{2}[0-9]{2}$/;
+  ramon:level              [2];
+  spatial:PP               @ebgsh:NUTS1.
+}
+
+ebgsh:NUTS3 CLOSED {
+  IRI /http://nuts.geovocab.org/id/[A-Z]{2}[0-9]{3}$/;
+  a [ramon:NUTSRegion] ;
+  rdfs:label               xsd:string;
+  ramon:code               xsd:string /^[A-Z]{2}[0-9]{3}$/;
+  ramon:name               xsd:string;
+  ramon:level              [3];
+  spatial:PP               @ebgsh:NUTS2.
+}
+
+ebgsh:LAU1 CLOSED {
+  IRI /^http://data.businessgraph.io/lau/[A-Z]{2}-.+/;
+  a [ebg:LAURegion];
+  void:inDataset           [lau:];
+  rdfs:label               xsd:string;
+  ramon:name               rdf:langString +;
+  ramon:code               xsd:string /^[A-Z]{2}-.+/;
+  ramon:level              [4];
+  spatial:PP               @ebgsh:NUTS3.
+}
+
+ebgsh:LAU2 CLOSED {
+  IRI /^http://data.businessgraph.io/lau/[A-Z]{2}-.+/;
+  a [ebg:LAURegion];
+  void:inDataset           [lau:];
+  rdfs:label               xsd:string;
+  ramon:name               rdf:langString +;
+  ramon:code               xsd:string /^[A-Z]{2}-.+/;
+  ramon:level              [5];
+  spatial:PP               @ebgsh:LAU1.
+  dbo:populationTotal      xsd:integer ?;
+  dbo:areaTotal            xsd:integer ?
+}
+
+ebgsh:GeoCoordinates CLOSED {
+  IRI /^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?/geo$/
+  a [schema:GeoCoordinates];
+  schema:latitude          (xsd:decimal OR xsd:string) {1};
+  schema:longitude         (xsd:decimal OR xsd:string) {1};
+  ebg:geoResolution        IRI <resolution/>~ {1}
+}
+
+ebgsh:Identifier CLOSED {
+  IRI /^http://data.businessgraph.io/company/[A-Z]{2}/.+/id(/[A-Z]+)?/
+  a [adms:Identifier];
+  skos:notation            xsd:string {1};
+  dct:creator              IRI <register/>~ {1};
+  dct:issued               xsd:date ?
+}
+
+# TODO:
+# - geoResolution should be correlated to the presence of Address fields of increasing detail
+# - rov:registration ebgsh:IdentifierMain where:
+#ebgsh:IdentifierMain {
+#  ebgsh:Identifier AND
+#  IRI /^http://data.businessgraph.io/company/[A-Z]{2}/.+/id$/
+#  dct:creator              IRI /^http://data.businessgraph.io/register/[A-Z]{2}$/ {1};
+# - NUTS0..3 and LAU1..2 require external SPARQL access, so maybe we should have a simple and a complex version
+
+# How to state that:
+# - Subsidiary IRIs (Address, Identifier...) should start with the IRI of the owning Company
+# - org:siteAddress should be a self-link
+# - dbo:jurisdiction should be correlated to ebgsh:IdentifierMain.dct:creator
+# - for ebgsh:LAU*, rdfs:label should start with ramon:code
+# - for ebgsh:LAU*, ramon:code should be the same as in the IRI

@@ -1,0 +1,31 @@
+shape ebgsh:Company -> rov:RegisteredOrganization {
+  closed=true
+  nodeKind=IRI
+  pattern="^http://data.businessgraph.io/company/[A-Z]{2}/.+/"
+  rdf:type                 rov:RegisteredOrganization .
+  rov:legalName            xsd:string|rdf:langString !pattern="^ | $| {2}" [1..*] .
+  skos:prefLabel           xsd:string|rdf:langString !pattern="^ | $| {2}" [1..1] .
+  skos:altLabel            xsd:string|rdf:langString !pattern="^ | $| {2}" [0..*] .
+  rov:orgType              IRI pattern="^http://data.businessgraph.io/type/.+" [0..1] .
+  ebg:orgTypeText          rdfs:langString [0..1] .
+  ebg:isStartup            xsd:boolean [0..1] .
+  ebg:isStateOwned         xsd:boolean [0..1] .
+  ebg:isPubliclyTraded     xsd:boolean [0..1] .
+  rov:orgStatus            IRI pattern="^http://data.businessgraph.io/status/.+" [0..1] .
+  ebg:orgStatusText        rdfs:langString [0..1] .
+  rov:orgActivity          IRI pattern="^http://data.businessgraph.io/nace/.+" .
+  ebg:orgActivityText      rdfs:langString [0..1] .
+  schema:foundingDate      xsd:date|xsd:gYearMonth|xsd:gYear [0..1] .
+  schema:dissolutionDate   xsd:date|xsd:gYearMonth|xsd:gYear [0..1] .
+  schema:availableLanguage xsd:string [0..1] .
+  schema:url               IRI .
+  schema:sameAs            IRI .
+  schema:email             IRI pattern="^mailto:.+" .
+  sioc:feed                IRI .
+  dbo:jurisdiction         xsd:string pattern="^[A-Z]{2}$" .
+  org:hasRegisteredSite    @ebgsh:Address [0..1] .
+  org:hasSite              @ebgsh:Address .
+  rov:registration         @ebgsh:Identifier [1..1] .
+  adms:identifier          @ebgsh:Identifier .
+}
+

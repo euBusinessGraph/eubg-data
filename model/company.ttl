@@ -1,12 +1,14 @@
 <company/(co)/(id)> a rov:RegisteredOrganization;
   rov:legalName "(legal_name)"@lang;
+  skos:prefLabel "(legal_name)"@lang;
   skos:altLabel "(trade_name)"@lang;
-  rov:orgType <status/(co)/(type)>;
+  rov:orgType <type/(co)/(type)>;
   ebg:orgTypeText "(legal_form)"@lang;
   ebg:isStartup "(is_startup)"^^xsd:boolean;
   ebg:isStateOwned "(is_state_owned)"^^xsd:boolean;
   ebg:isPubliclyTraded "(is_publicly_traded)"^^xsd:boolean;
   rov:orgStatus <status/(provider)/(status)>;
+  ebg:orgStatusText "(status)"@lang;
   rov:orgActivity <http://data.businessgraph.io/nace/(nace1)>, <http://data.businessgraph.io/nace/(nace5)>;
   ebg:orgActivityText "(activity)"@lang;
   schema:foundingDate "(founding_date)"^^xsd:date;
@@ -51,8 +53,8 @@
 
 <company/(co)/(id)/address/geo> a schema:GeoCoordinates;
   schema:latitude "(lat)"^^xsd:decimal;
-  schema:longitude "(long)"^^xsd:decimal;
-  ebg:geoResolution <precision/(level)>.
+  schema:longitude "(lon)"^^xsd:decimal;
+  ebg:geoResolution <resolution/(level)>.
 
 <company/(co)/(id)/address/(n)> a org:Site, locn:Address;
   org:siteAddress <company/(co)/(id)/address/(n)>;
