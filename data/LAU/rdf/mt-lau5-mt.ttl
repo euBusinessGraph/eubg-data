@@ -1,0 +1,1234 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:MT-MT01101  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Umilissima"@en ;
+        rdfs:label           "MT01101 Citta' Umilissima" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valletta"@mt ;
+        dbo:populationTotal  5744 ;
+        dbo:areaTotal        840981 ;
+        ramon:code           "MT01101" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01103  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Vittoriosa"@en ;
+        rdfs:label           "MT01103 Citta' Vittoriosa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Birgu"@mt ;
+        dbo:populationTotal  2506 ;
+        dbo:areaTotal        524472 ;
+        ramon:code           "MT01103" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01104  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Invicta"@en ;
+        rdfs:label           "MT01104 Citta' Invicta" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Isla"@mt ;
+        dbo:populationTotal  2739 ;
+        dbo:areaTotal        159823 ;
+        ramon:code           "MT01104" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01105  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Cospicua"@en ;
+        rdfs:label           "MT01105 Citta' Cospicua" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bormla"@mt ;
+        dbo:populationTotal  5238 ;
+        dbo:areaTotal        907853 ;
+        ramon:code           "MT01105" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01108  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Hompesch"@en ;
+        rdfs:label           "MT01108 Citta' Hompesch" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħaż-Żabbar"@mt ;
+        dbo:populationTotal  14995 ;
+        dbo:areaTotal        5349343 ;
+        ramon:code           "MT01108" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01117  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Fgura"@en ;
+        rdfs:label           "MT01117 Fgura" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Fgura"@mt ;
+        dbo:populationTotal  11715 ;
+        dbo:areaTotal        1142706 ;
+        ramon:code           "MT01117" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01118  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Floriana"@en ;
+        rdfs:label           "MT01118 Floriana" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Furjana"@mt ;
+        dbo:populationTotal  2020 ;
+        dbo:areaTotal        943432 ;
+        ramon:code           "MT01118" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01129  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kalkara"@en ;
+        rdfs:label           "MT01129 Kalkara" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Kalkara"@mt ;
+        dbo:populationTotal  2989 ;
+        dbo:areaTotal        1758936 ;
+        ramon:code           "MT01129" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01133  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Luqa"@en ;
+        rdfs:label           "MT01133 Luqa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Luqa"@mt ;
+        dbo:populationTotal  5781 ;
+        dbo:areaTotal        6724748 ;
+        ramon:code           "MT01133" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01134  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Marsa"@en ;
+        rdfs:label           "MT01134 Marsa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Marsa"@mt ;
+        dbo:populationTotal  5417 ;
+        dbo:areaTotal        2756263 ;
+        ramon:code           "MT01134" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01145  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Paola"@en ;
+        rdfs:label           "MT01145 Paola" ;
+        void:inDataset       lau: ;
+        ramon:name           "Paola"@mt ;
+        dbo:populationTotal  8267 ;
+        dbo:areaTotal        2497489 ;
+        ramon:code           "MT01145" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01157  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Santa Luċija"@en ;
+        rdfs:label           "MT01157 Santa Luċija" ;
+        void:inDataset       lau: ;
+        ramon:name           "Santa Luċija"@mt ;
+        dbo:populationTotal  3004 ;
+        dbo:areaTotal        722354 ;
+        ramon:code           "MT01157" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01162  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tarxien"@en ;
+        rdfs:label           "MT01162 Tarxien" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Tarxien"@mt ;
+        dbo:populationTotal  8612 ;
+        dbo:areaTotal        877011 ;
+        ramon:code           "MT01162" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01165  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Xgħajra"@en ;
+        rdfs:label           "MT01165 Xgħajra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ix-Xgħajra"@mt ;
+        dbo:populationTotal  1653 ;
+        dbo:areaTotal        965565 ;
+        ramon:code           "MT01165" ;
+        spatial:PP           lau:MT-MT011 ;
+        ramon:level          5 .
+
+lau:MT-MT011  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01206  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Pinto"@en ;
+        rdfs:label           "MT01206 Citta' Pinto" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Qormi"@mt ;
+        dbo:populationTotal  16507 ;
+        dbo:areaTotal        5029875 ;
+        ramon:code           "MT01206" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01214  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Birkirkara"@en ;
+        rdfs:label           "MT01214 Birkirkara" ;
+        void:inDataset       lau: ;
+        ramon:name           "Birkirkara"@mt ;
+        dbo:populationTotal  22306 ;
+        dbo:areaTotal        2742235 ;
+        ramon:code           "MT01214" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01221  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Gżira"@en ;
+        rdfs:label           "MT01221 Gżira" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Gżira"@mt ;
+        dbo:populationTotal  7666 ;
+        dbo:areaTotal        972219 ;
+        ramon:code           "MT01221" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01227  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ħamrun"@en ;
+        rdfs:label           "MT01227 Ħamrun" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Ħamrun"@mt ;
+        dbo:populationTotal  9057 ;
+        dbo:areaTotal        1053754 ;
+        ramon:code           "MT01227" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01241  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Msida"@en ;
+        rdfs:label           "MT01241 Msida" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Imsida"@mt ;
+        dbo:populationTotal  8622 ;
+        dbo:areaTotal        1699707 ;
+        ramon:code           "MT01241" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01246  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pembroke"@en ;
+        rdfs:label           "MT01246 Pembroke" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pembroke"@mt ;
+        dbo:populationTotal  3642 ;
+        dbo:areaTotal        2302712 ;
+        ramon:code           "MT01246" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01247  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pieta'"@en ;
+        rdfs:label           "MT01247 Pieta'" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tal-Pieta'"@mt ;
+        dbo:populationTotal  4082 ;
+        dbo:areaTotal        451660 ;
+        ramon:code           "MT01247" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01252  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "San Ġiljan"@en ;
+        rdfs:label           "MT01252 San Ġiljan" ;
+        void:inDataset       lau: ;
+        ramon:name           "San Ġiljan"@mt ;
+        dbo:populationTotal  9151 ;
+        dbo:areaTotal        1608904 ;
+        ramon:code           "MT01252" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01253  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "San Ġwann"@en ;
+        rdfs:label           "MT01253 San Ġwann" ;
+        void:inDataset       lau: ;
+        ramon:name           "San Ġwann"@mt ;
+        dbo:populationTotal  12563 ;
+        dbo:areaTotal        2617466 ;
+        ramon:code           "MT01253" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01258  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Santa Venera"@en ;
+        rdfs:label           "MT01258 Santa Venera" ;
+        void:inDataset       lau: ;
+        ramon:name           "Santa Venera"@mt ;
+        dbo:populationTotal  6993 ;
+        dbo:areaTotal        905798 ;
+        ramon:code           "MT01258" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01259  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sliema"@en ;
+        rdfs:label           "MT01259 Sliema" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tas-Sliema"@mt ;
+        dbo:populationTotal  15079 ;
+        dbo:areaTotal        1295996 ;
+        ramon:code           "MT01259" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01260  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Swieqi"@en ;
+        rdfs:label           "MT01260 Swieqi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Is-Swieqi"@mt ;
+        dbo:populationTotal  10244 ;
+        dbo:areaTotal        3053000 ;
+        ramon:code           "MT01260" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01261  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ta' Xbiex"@en ;
+        rdfs:label           "MT01261 Ta' Xbiex" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ta' Xbiex"@mt ;
+        dbo:populationTotal  1599 ;
+        dbo:areaTotal        291943 ;
+        ramon:code           "MT01261" ;
+        spatial:PP           lau:MT-MT012 ;
+        ramon:level          5 .
+
+lau:MT-MT012  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01310  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Beland"@en ;
+        rdfs:label           "MT01310 Citta' Beland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Iż-Żejtun"@mt ;
+        dbo:populationTotal  11358 ;
+        dbo:areaTotal        5367370 ;
+        ramon:code           "MT01310" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01315  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Birżebbuġa"@en ;
+        rdfs:label           "MT01315 Birżebbuġa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Birżebbuġa"@mt ;
+        dbo:populationTotal  12104 ;
+        dbo:areaTotal        9214623 ;
+        ramon:code           "MT01315" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01320  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Gudja"@en ;
+        rdfs:label           "MT01320 Gudja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Gudja"@mt ;
+        dbo:populationTotal  3085 ;
+        dbo:areaTotal        2250139 ;
+        ramon:code           "MT01320" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01326  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Għaxaq"@en ;
+        rdfs:label           "MT01326 Għaxaq" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Għaxaq"@mt ;
+        dbo:populationTotal  4701 ;
+        dbo:areaTotal        3851221 ;
+        ramon:code           "MT01326" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01331  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kirkop"@en ;
+        rdfs:label           "MT01331 Kirkop" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Kirkop"@mt ;
+        dbo:populationTotal  2345 ;
+        dbo:areaTotal        1140803 ;
+        ramon:code           "MT01331" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01335  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Marsaskala"@en ;
+        rdfs:label           "MT01335 Marsaskala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Marsaskala"@mt ;
+        dbo:populationTotal  11807 ;
+        dbo:areaTotal        5376186 ;
+        ramon:code           "MT01335" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01336  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Marsaxlokk"@en ;
+        rdfs:label           "MT01336 Marsaxlokk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Marsaxlokk"@mt ;
+        dbo:populationTotal  3462 ;
+        dbo:areaTotal        4714331 ;
+        ramon:code           "MT01336" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01340  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mqabba"@en ;
+        rdfs:label           "MT01340 Mqabba" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Imqabba"@mt ;
+        dbo:populationTotal  3305 ;
+        dbo:areaTotal        2602727 ;
+        ramon:code           "MT01340" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01349  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Qrendi"@en ;
+        rdfs:label           "MT01349 Qrendi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Qrendi"@mt ;
+        dbo:populationTotal  2722 ;
+        dbo:areaTotal        4904386 ;
+        ramon:code           "MT01349" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01351  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Safi"@en ;
+        rdfs:label           "MT01351 Safi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Safi"@mt ;
+        dbo:populationTotal  2147 ;
+        dbo:areaTotal        2283579 ;
+        ramon:code           "MT01351" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01367  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Żurrieq"@en ;
+        rdfs:label           "MT01367 Żurrieq" ;
+        void:inDataset       lau: ;
+        ramon:name           "Iż-Żurrieq"@mt ;
+        dbo:populationTotal  10541 ;
+        dbo:areaTotal        8456515 ;
+        ramon:code           "MT01367" ;
+        spatial:PP           lau:MT-MT013 ;
+        ramon:level          5 .
+
+lau:MT-MT013  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01402  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Notabile"@en ;
+        rdfs:label           "MT01402 Citta' Notabile" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Imdina"@mt ;
+        dbo:populationTotal  236 ;
+        dbo:areaTotal        885165 ;
+        ramon:code           "MT01402" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01407  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Rohan"@en ;
+        rdfs:label           "MT01407 Citta' Rohan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħaż-Żebbuġ"@mt ;
+        dbo:populationTotal  11755 ;
+        dbo:areaTotal        8659844 ;
+        ramon:code           "MT01407" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01409  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Ferdinand"@en ;
+        rdfs:label           "MT01409 Citta' Ferdinand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Is-Siġġiewi"@mt ;
+        dbo:populationTotal  8425 ;
+        dbo:areaTotal        19880617 ;
+        ramon:code           "MT01409" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01412  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Attard"@en ;
+        rdfs:label           "MT01412 Attard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħ'Attard"@mt ;
+        dbo:populationTotal  10888 ;
+        dbo:areaTotal        6638777 ;
+        ramon:code           "MT01412" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01413  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Balzan"@en ;
+        rdfs:label           "MT01413 Balzan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Balzan"@mt ;
+        dbo:populationTotal  4545 ;
+        dbo:areaTotal        596924 ;
+        ramon:code           "MT01413" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01416  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Dingli"@en ;
+        rdfs:label           "MT01416 Dingli" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħad-Dingli"@mt ;
+        dbo:populationTotal  3642 ;
+        dbo:areaTotal        5665595 ;
+        ramon:code           "MT01416" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01428  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Iklin"@en ;
+        rdfs:label           "MT01428 Iklin" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Iklin"@mt ;
+        dbo:populationTotal  3243 ;
+        dbo:areaTotal        1726336 ;
+        ramon:code           "MT01428" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01432  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lija"@en ;
+        rdfs:label           "MT01432 Lija" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Lija"@mt ;
+        dbo:populationTotal  3106 ;
+        dbo:areaTotal        1095424 ;
+        ramon:code           "MT01432" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01450  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rabat (Malta)"@en ;
+        rdfs:label           "MT01450 Rabat (Malta)" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ir-Rabat"@mt ;
+        dbo:populationTotal  11308 ;
+        dbo:areaTotal        26599210 ;
+        ramon:code           "MT01450" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01468  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mtarfa"@en ;
+        rdfs:label           "MT01468 Mtarfa" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Imtarfa"@mt ;
+        dbo:populationTotal  2612 ;
+        dbo:areaTotal        724656 ;
+        ramon:code           "MT01468" ;
+        spatial:PP           lau:MT-MT014 ;
+        ramon:level          5 .
+
+lau:MT-MT014  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01524  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Għargħur"@en ;
+        rdfs:label           "MT01524 Għargħur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ħal Għargħur"@mt ;
+        dbo:populationTotal  2721 ;
+        dbo:areaTotal        2015935 ;
+        ramon:code           "MT01524" ;
+        spatial:PP           lau:MT-MT015 ;
+        ramon:level          5 .
+
+lau:MT-MT015  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01537  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mellieħa"@en ;
+        rdfs:label           "MT01537 Mellieħa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Mellieħa"@mt ;
+        dbo:populationTotal  9031 ;
+        dbo:areaTotal        22644390 ;
+        ramon:code           "MT01537" ;
+        spatial:PP           lau:MT-MT015 ;
+        ramon:level          5 .
+
+lau:MT-MT015  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01538  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mġarr"@en ;
+        rdfs:label           "MT01538 Mġarr" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Imġarr"@mt ;
+        dbo:populationTotal  3585 ;
+        dbo:areaTotal        16120338 ;
+        ramon:code           "MT01538" ;
+        spatial:PP           lau:MT-MT015 ;
+        ramon:level          5 .
+
+lau:MT-MT015  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01539  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mosta"@en ;
+        rdfs:label           "MT01539 Mosta" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Mosta"@mt ;
+        dbo:populationTotal  20038 ;
+        dbo:areaTotal        6778015 ;
+        ramon:code           "MT01539" ;
+        spatial:PP           lau:MT-MT015 ;
+        ramon:level          5 .
+
+lau:MT-MT015  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01544  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Naxxar"@en ;
+        rdfs:label           "MT01544 Naxxar" ;
+        void:inDataset       lau: ;
+        ramon:name           "In-Naxxar"@mt ;
+        dbo:populationTotal  13534 ;
+        dbo:areaTotal        11571380 ;
+        ramon:code           "MT01544" ;
+        spatial:PP           lau:MT-MT015 ;
+        ramon:level          5 .
+
+lau:MT-MT015  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT01555  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "San Pawl Il-Baħar"@en ;
+        rdfs:label           "MT01555 San Pawl Il-Baħar" ;
+        void:inDataset       lau: ;
+        ramon:name           "San Pawl Il-Baħar"@mt ;
+        dbo:populationTotal  18001 ;
+        dbo:areaTotal        14528091 ;
+        ramon:code           "MT01555" ;
+        spatial:PP           lau:MT-MT015 ;
+        ramon:level          5 .
+
+lau:MT-MT015  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT001 .
+
+lau:MT-MT02611  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Citta' Victoria"@en ;
+        rdfs:label           "MT02611 Citta' Victoria" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ir-Rabat, Għawdex"@mt ;
+        dbo:populationTotal  6298 ;
+        dbo:areaTotal        2898555 ;
+        ramon:code           "MT02611" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02619  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Fontana"@en ;
+        rdfs:label           "MT02619 Fontana" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Fontana"@mt ;
+        dbo:populationTotal  897 ;
+        dbo:areaTotal        473702 ;
+        ramon:code           "MT02619" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02622  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Għajnsielem and Comino"@en ;
+        rdfs:label           "MT02622 Għajnsielem and Comino" ;
+        void:inDataset       lau: ;
+        ramon:name           "Għajnsielem and Comino"@mt ;
+        dbo:populationTotal  2715 ;
+        dbo:areaTotal        7176193 ;
+        ramon:code           "MT02622" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02623  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Għarb"@en ;
+        rdfs:label           "MT02623 Għarb" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Għarb"@mt ;
+        dbo:populationTotal  1248 ;
+        dbo:areaTotal        4633356 ;
+        ramon:code           "MT02623" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02625  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Għasri"@en ;
+        rdfs:label           "MT02625 Għasri" ;
+        void:inDataset       lau: ;
+        ramon:name           "L-Għasri"@mt ;
+        dbo:populationTotal  429 ;
+        dbo:areaTotal        5004763 ;
+        ramon:code           "MT02625" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02630  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kerċem"@en ;
+        rdfs:label           "MT02630 Kerċem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ta' Kerċem"@mt ;
+        dbo:populationTotal  1771 ;
+        dbo:areaTotal        5494022 ;
+        ramon:code           "MT02630" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02642  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Munxar"@en ;
+        rdfs:label           "MT02642 Munxar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Munxar"@mt ;
+        dbo:populationTotal  1100 ;
+        dbo:areaTotal        2823285 ;
+        ramon:code           "MT02642" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02643  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Nadur"@en ;
+        rdfs:label           "MT02643 Nadur" ;
+        void:inDataset       lau: ;
+        ramon:name           "In-Nadur"@mt ;
+        dbo:populationTotal  4021 ;
+        dbo:areaTotal        7174466 ;
+        ramon:code           "MT02643" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02648  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Qala"@en ;
+        rdfs:label           "MT02648 Qala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Il-Qala"@mt ;
+        dbo:populationTotal  1857 ;
+        dbo:areaTotal        5858314 ;
+        ramon:code           "MT02648" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02654  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "San Lawrenz"@en ;
+        rdfs:label           "MT02654 San Lawrenz" ;
+        void:inDataset       lau: ;
+        ramon:name           "San Lawrenz"@mt ;
+        dbo:populationTotal  637 ;
+        dbo:areaTotal        3572717 ;
+        ramon:code           "MT02654" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02656  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sannat"@en ;
+        rdfs:label           "MT02656 Sannat" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ta' Sannat"@mt ;
+        dbo:populationTotal  1886 ;
+        dbo:areaTotal        3849186 ;
+        ramon:code           "MT02656" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02663  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Xagħra"@en ;
+        rdfs:label           "MT02663 Xagħra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ix-Xagħra"@mt ;
+        dbo:populationTotal  4015 ;
+        dbo:areaTotal        7624233 ;
+        ramon:code           "MT02663" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02664  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Xewkija"@en ;
+        rdfs:label           "MT02664 Xewkija" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ix-Xewkija"@mt ;
+        dbo:populationTotal  3180 ;
+        dbo:areaTotal        4527101 ;
+        ramon:code           "MT02664" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .
+
+lau:MT-MT02666  rdf:type     ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Żebbuġ (Gozo)"@en ;
+        rdfs:label           "MT02666 Żebbuġ (Gozo)" ;
+        void:inDataset       lau: ;
+        ramon:name           "Iż-Żebbuġ"@mt ;
+        dbo:populationTotal  1911 ;
+        dbo:areaTotal        7557976 ;
+        ramon:code           "MT02666" ;
+        spatial:PP           lau:MT-MT026 ;
+        ramon:level          5 .
+
+lau:MT-MT026  rdf:type  ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:MT002 .

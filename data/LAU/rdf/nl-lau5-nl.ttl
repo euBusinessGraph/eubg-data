@@ -1,0 +1,4297 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:NL-GM0003  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0003 Appingedam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Appingedam"@nl ;
+        dbo:populationTotal  12001 ;
+        dbo:areaTotal        24581059 ;
+        ramon:code           "GM0003" ;
+        spatial:PP           nuts:NL112 ;
+        ramon:level          5 .
+
+lau:NL-GM0005  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0005 Bedum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bedum"@nl ;
+        dbo:populationTotal  10433 ;
+        dbo:areaTotal        44956421 ;
+        ramon:code           "GM0005" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0007  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0007 Bellingwedde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bellingwedde"@nl ;
+        dbo:populationTotal  8971 ;
+        dbo:areaTotal        110088936 ;
+        ramon:code           "GM0007" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
+
+lau:NL-GM0009  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0009 Ten Boer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ten Boer"@nl ;
+        dbo:populationTotal  7352 ;
+        dbo:areaTotal        45729675 ;
+        ramon:code           "GM0009" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0010  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0010 Delfzijl" ;
+        void:inDataset       lau: ;
+        ramon:name           "Delfzijl"@nl ;
+        dbo:populationTotal  25068 ;
+        dbo:areaTotal        227499236 ;
+        ramon:code           "GM0010" ;
+        spatial:PP           nuts:NL112 ;
+        ramon:level          5 .
+
+lau:NL-GM0014  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0014 Groningen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Groningen"@nl ;
+        dbo:populationTotal  200952 ;
+        dbo:areaTotal        83783437 ;
+        ramon:code           "GM0014" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0015  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0015 Grootegast" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grootegast"@nl ;
+        dbo:populationTotal  12155 ;
+        dbo:areaTotal        87735563 ;
+        ramon:code           "GM0015" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0017  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0017 Haren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haren"@nl ;
+        dbo:populationTotal  19076 ;
+        dbo:areaTotal        50731605 ;
+        ramon:code           "GM0017" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0018  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0018 Hoogezand-Sappemeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hoogezand-Sappemeer"@nl ;
+        dbo:populationTotal  34177 ;
+        dbo:areaTotal        72990790 ;
+        ramon:code           "GM0018" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0022  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0022 Leek" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leek"@nl ;
+        dbo:populationTotal  19536 ;
+        dbo:areaTotal        64284273 ;
+        ramon:code           "GM0022" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0024  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0024 Loppersum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Loppersum"@nl ;
+        dbo:populationTotal  10042 ;
+        dbo:areaTotal        111989194 ;
+        ramon:code           "GM0024" ;
+        spatial:PP           nuts:NL112 ;
+        ramon:level          5 .
+
+lau:NL-GM0025  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0025 Marum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Marum"@nl ;
+        dbo:populationTotal  10305 ;
+        dbo:areaTotal        64890524 ;
+        ramon:code           "GM0025" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0034  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0034 Almere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Almere"@nl ;
+        dbo:populationTotal  198145 ;
+        dbo:areaTotal        248766091 ;
+        ramon:code           "GM0034" ;
+        spatial:PP           nuts:NL230 ;
+        ramon:level          5 .
+
+lau:NL-GM0037  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0037 Stadskanaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stadskanaal"@nl ;
+        dbo:populationTotal  32621 ;
+        dbo:areaTotal        119944106 ;
+        ramon:code           "GM0037" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
+
+lau:NL-GM0040  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0040 Slochteren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Slochteren"@nl ;
+        dbo:populationTotal  15698 ;
+        dbo:areaTotal        158866174 ;
+        ramon:code           "GM0040" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0047  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0047 Veendam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Veendam"@nl ;
+        dbo:populationTotal  27467 ;
+        dbo:areaTotal        78678839 ;
+        ramon:code           "GM0047" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
+
+lau:NL-GM0048  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0048 Vlagtwedde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vlagtwedde"@nl ;
+        dbo:populationTotal  16422 ;
+        dbo:areaTotal        170556626 ;
+        ramon:code           "GM0048" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
+
+lau:NL-GM0050  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0050 Zeewolde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zeewolde"@nl ;
+        dbo:populationTotal  22113 ;
+        dbo:areaTotal        268858791 ;
+        ramon:code           "GM0050" ;
+        spatial:PP           nuts:NL230 ;
+        ramon:level          5 .
+
+lau:NL-GM0053  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0053 Winsum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Winsum"@nl ;
+        dbo:populationTotal  13633 ;
+        dbo:areaTotal        102532174 ;
+        ramon:code           "GM0053" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0056  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0056 Zuidhorn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zuidhorn"@nl ;
+        dbo:populationTotal  18794 ;
+        dbo:areaTotal        128373181 ;
+        ramon:code           "GM0056" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM0058  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0058 Dongeradeel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dongeradeel"@nl ;
+        dbo:populationTotal  23932 ;
+        dbo:areaTotal        266918772 ;
+        ramon:code           "GM0058" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0059  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0059 Achtkarspelen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Achtkarspelen"@nl ;
+        dbo:populationTotal  28007 ;
+        dbo:areaTotal        103980832 ;
+        ramon:code           "GM0059" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0060  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0060 Ameland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ameland"@nl ;
+        dbo:populationTotal  3611 ;
+        dbo:areaTotal        268498685 ;
+        ramon:code           "GM0060" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0063  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0063 het Bildt" ;
+        void:inDataset       lau: ;
+        ramon:name           "het Bildt"@nl ;
+        dbo:populationTotal  10525 ;
+        dbo:areaTotal        116481918 ;
+        ramon:code           "GM0063" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0070  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0070 Franekeradeel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Franekeradeel"@nl ;
+        dbo:populationTotal  20265 ;
+        dbo:areaTotal        109173640 ;
+        ramon:code           "GM0070" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0072  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0072 Harlingen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Harlingen"@nl ;
+        dbo:populationTotal  15813 ;
+        dbo:areaTotal        387667545 ;
+        ramon:code           "GM0072" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0074  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0074 Heerenveen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heerenveen"@nl ;
+        dbo:populationTotal  50290 ;
+        dbo:areaTotal        198165257 ;
+        ramon:code           "GM0074" ;
+        spatial:PP           nuts:NL123 ;
+        ramon:level          5 .
+
+lau:NL-GM0079  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0079 Kollumerland en Nieuwkruisland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kollumerland en Nieuwkruisland"@nl ;
+        dbo:populationTotal  12811 ;
+        dbo:areaTotal        116350036 ;
+        ramon:code           "GM0079" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0080  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0080 Leeuwarden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leeuwarden"@nl ;
+        dbo:populationTotal  107897 ;
+        dbo:areaTotal        170230418 ;
+        ramon:code           "GM0080" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0081  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0081 Leeuwarderadeel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leeuwarderadeel"@nl ;
+        dbo:populationTotal  10175 ;
+        dbo:areaTotal        41461242 ;
+        ramon:code           "GM0081" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0085  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0085 Ooststellingwerf" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ooststellingwerf"@nl ;
+        dbo:populationTotal  25571 ;
+        dbo:areaTotal        226112548 ;
+        ramon:code           "GM0085" ;
+        spatial:PP           nuts:NL123 ;
+        ramon:level          5 .
+
+lau:NL-GM0086  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0086 Opsterland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Opsterland"@nl ;
+        dbo:populationTotal  29830 ;
+        dbo:areaTotal        227641537 ;
+        ramon:code           "GM0086" ;
+        spatial:PP           nuts:NL123 ;
+        ramon:level          5 .
+
+lau:NL-GM0088  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0088 Schiermonnikoog" ;
+        void:inDataset       lau: ;
+        ramon:name           "Schiermonnikoog"@nl ;
+        dbo:populationTotal  919 ;
+        dbo:areaTotal        199065480 ;
+        ramon:code           "GM0088" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0090  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0090 Smallingerland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Smallingerland"@nl ;
+        dbo:populationTotal  55439 ;
+        dbo:areaTotal        126174966 ;
+        ramon:code           "GM0090" ;
+        spatial:PP           nuts:NL123 ;
+        ramon:level          5 .
+
+lau:NL-GM0093  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0093 Terschelling" ;
+        void:inDataset       lau: ;
+        ramon:name           "Terschelling"@nl ;
+        dbo:populationTotal  4870 ;
+        dbo:areaTotal        673986592 ;
+        ramon:code           "GM0093" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0096  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0096 Vlieland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vlieland"@nl ;
+        dbo:populationTotal  1083 ;
+        dbo:areaTotal        315801167 ;
+        ramon:code           "GM0096" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0098  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0098 Weststellingwerf" ;
+        void:inDataset       lau: ;
+        ramon:name           "Weststellingwerf"@nl ;
+        dbo:populationTotal  25520 ;
+        dbo:areaTotal        228446187 ;
+        ramon:code           "GM0098" ;
+        spatial:PP           nuts:NL123 ;
+        ramon:level          5 .
+
+lau:NL-GM0106  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0106 Assen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Assen"@nl ;
+        dbo:populationTotal  67061 ;
+        dbo:areaTotal        83451748 ;
+        ramon:code           "GM0106" ;
+        spatial:PP           nuts:NL131 ;
+        ramon:level          5 .
+
+lau:NL-GM0109  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0109 Coevorden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Coevorden"@nl ;
+        dbo:populationTotal  35381 ;
+        dbo:areaTotal        299690096 ;
+        ramon:code           "GM0109" ;
+        spatial:PP           nuts:NL132 ;
+        ramon:level          5 .
+
+lau:NL-GM0114  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0114 Emmen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Emmen"@nl ;
+        dbo:populationTotal  107584 ;
+        dbo:areaTotal        346259108 ;
+        ramon:code           "GM0114" ;
+        spatial:PP           nuts:NL132 ;
+        ramon:level          5 .
+
+lau:NL-GM0118  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0118 Hoogeveen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hoogeveen"@nl ;
+        dbo:populationTotal  55240 ;
+        dbo:areaTotal        129249620 ;
+        ramon:code           "GM0118" ;
+        spatial:PP           nuts:NL133 ;
+        ramon:level          5 .
+
+lau:NL-GM0119  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0119 Meppel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meppel"@nl ;
+        dbo:populationTotal  32794 ;
+        dbo:areaTotal        57027704 ;
+        ramon:code           "GM0119" ;
+        spatial:PP           nuts:NL133 ;
+        ramon:level          5 .
+
+lau:NL-GM0140  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0140 Littenseradiel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Littenseradiel"@nl ;
+        dbo:populationTotal  10833 ;
+        dbo:areaTotal        132643236 ;
+        ramon:code           "GM0140" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0141  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0141 Almelo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Almelo"@nl ;
+        dbo:populationTotal  72425 ;
+        dbo:areaTotal        69406297 ;
+        ramon:code           "GM0141" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0147  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0147 Borne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Borne"@nl ;
+        dbo:populationTotal  22343 ;
+        dbo:areaTotal        26164537 ;
+        ramon:code           "GM0147" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0148  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0148 Dalfsen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dalfsen"@nl ;
+        dbo:populationTotal  27916 ;
+        dbo:areaTotal        166518037 ;
+        ramon:code           "GM0148" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM0150  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0150 Deventer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Deventer"@nl ;
+        dbo:populationTotal  98869 ;
+        dbo:areaTotal        134334810 ;
+        ramon:code           "GM0150" ;
+        spatial:PP           nuts:NL212 ;
+        ramon:level          5 .
+
+lau:NL-GM0153  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0153 Enschede" ;
+        void:inDataset       lau: ;
+        ramon:name           "Enschede"@nl ;
+        dbo:populationTotal  158351 ;
+        dbo:areaTotal        142724067 ;
+        ramon:code           "GM0153" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0158  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0158 Haaksbergen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haaksbergen"@nl ;
+        dbo:populationTotal  24332 ;
+        dbo:areaTotal        105499578 ;
+        ramon:code           "GM0158" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0160  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0160 Hardenberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hardenberg"@nl ;
+        dbo:populationTotal  59687 ;
+        dbo:areaTotal        317150454 ;
+        ramon:code           "GM0160" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM0163  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0163 Hellendoorn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hellendoorn"@nl ;
+        dbo:populationTotal  35651 ;
+        dbo:areaTotal        138993335 ;
+        ramon:code           "GM0163" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0164  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0164 Hengelo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hengelo"@nl ;
+        dbo:populationTotal  81075 ;
+        dbo:areaTotal        61830563 ;
+        ramon:code           "GM0164" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0166  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0166 Kampen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kampen"@nl ;
+        dbo:populationTotal  51950 ;
+        dbo:areaTotal        161788919 ;
+        ramon:code           "GM0166" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM0168  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0168 Losser" ;
+        void:inDataset       lau: ;
+        ramon:name           "Losser"@nl ;
+        dbo:populationTotal  22444 ;
+        dbo:areaTotal        99621434 ;
+        ramon:code           "GM0168" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0171  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0171 Noordoostpolder" ;
+        void:inDataset       lau: ;
+        ramon:name           "Noordoostpolder"@nl ;
+        dbo:populationTotal  46439 ;
+        dbo:areaTotal        595424754 ;
+        ramon:code           "GM0171" ;
+        spatial:PP           nuts:NL230 ;
+        ramon:level          5 .
+
+lau:NL-GM0173  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0173 Oldenzaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oldenzaal"@nl ;
+        dbo:populationTotal  32110 ;
+        dbo:areaTotal        21952701 ;
+        ramon:code           "GM0173" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0175  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0175 Ommen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ommen"@nl ;
+        dbo:populationTotal  17696 ;
+        dbo:areaTotal        182012654 ;
+        ramon:code           "GM0175" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM0177  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0177 Raalte" ;
+        void:inDataset       lau: ;
+        ramon:name           "Raalte"@nl ;
+        dbo:populationTotal  36700 ;
+        dbo:areaTotal        172290458 ;
+        ramon:code           "GM0177" ;
+        spatial:PP           nuts:NL212 ;
+        ramon:level          5 .
+
+lau:NL-GM0180  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0180 Staphorst" ;
+        void:inDataset       lau: ;
+        ramon:name           "Staphorst"@nl ;
+        dbo:populationTotal  16544 ;
+        dbo:areaTotal        135693601 ;
+        ramon:code           "GM0180" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM0183  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0183 Tubbergen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tubbergen"@nl ;
+        dbo:populationTotal  21120 ;
+        dbo:areaTotal        147441414 ;
+        ramon:code           "GM0183" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0184  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0184 Urk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Urk"@nl ;
+        dbo:populationTotal  19987 ;
+        dbo:areaTotal        109910287 ;
+        ramon:code           "GM0184" ;
+        spatial:PP           nuts:NL230 ;
+        ramon:level          5 .
+
+lau:NL-GM0189  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0189 Wierden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wierden"@nl ;
+        dbo:populationTotal  23952 ;
+        dbo:areaTotal        95388421 ;
+        ramon:code           "GM0189" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM0193  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0193 Zwolle" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zwolle"@nl ;
+        dbo:populationTotal  124896 ;
+        dbo:areaTotal        119364079 ;
+        ramon:code           "GM0193" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM0196  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0196 Rijnwaarden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rijnwaarden"@nl ;
+        dbo:populationTotal  10866 ;
+        dbo:areaTotal        48106718 ;
+        ramon:code           "GM0196" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0197  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0197 Aalten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aalten"@nl ;
+        dbo:populationTotal  26912 ;
+        dbo:areaTotal        97053772 ;
+        ramon:code           "GM0197" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM0200  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0200 Apeldoorn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Apeldoorn"@nl ;
+        dbo:populationTotal  159025 ;
+        dbo:areaTotal        341146793 ;
+        ramon:code           "GM0200" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0202  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0202 Arnhem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Arnhem"@nl ;
+        dbo:populationTotal  153818 ;
+        dbo:areaTotal        101543360 ;
+        ramon:code           "GM0202" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0203  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0203 Barneveld" ;
+        void:inDataset       lau: ;
+        ramon:name           "Barneveld"@nl ;
+        dbo:populationTotal  55441 ;
+        dbo:areaTotal        176659564 ;
+        ramon:code           "GM0203" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0209  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0209 Beuningen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Beuningen"@nl ;
+        dbo:populationTotal  25289 ;
+        dbo:areaTotal        47089890 ;
+        ramon:code           "GM0209" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0213  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0213 Brummen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Brummen"@nl ;
+        dbo:populationTotal  20938 ;
+        dbo:areaTotal        85012195 ;
+        ramon:code           "GM0213" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM0214  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0214 Buren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Buren"@nl ;
+        dbo:populationTotal  26202 ;
+        dbo:areaTotal        142921842 ;
+        ramon:code           "GM0214" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0216  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0216 Culemborg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Culemborg"@nl ;
+        dbo:populationTotal  27644 ;
+        dbo:areaTotal        31143694 ;
+        ramon:code           "GM0216" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0221  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0221 Doesburg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Doesburg"@nl ;
+        dbo:populationTotal  11336 ;
+        dbo:areaTotal        12958308 ;
+        ramon:code           "GM0221" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0222  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0222 Doetinchem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Doetinchem"@nl ;
+        dbo:populationTotal  56827 ;
+        dbo:areaTotal        79655570 ;
+        ramon:code           "GM0222" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM0225  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0225 Druten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Druten"@nl ;
+        dbo:populationTotal  18407 ;
+        dbo:areaTotal        42457473 ;
+        ramon:code           "GM0225" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0226  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0226 Duiven" ;
+        void:inDataset       lau: ;
+        ramon:name           "Duiven"@nl ;
+        dbo:populationTotal  25433 ;
+        dbo:areaTotal        35187885 ;
+        ramon:code           "GM0226" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0228  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0228 Ede" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ede"@nl ;
+        dbo:populationTotal  112427 ;
+        dbo:areaTotal        318620424 ;
+        ramon:code           "GM0228" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0230  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0230 Elburg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Elburg"@nl ;
+        dbo:populationTotal  22929 ;
+        dbo:areaTotal        65908363 ;
+        ramon:code           "GM0230" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0232  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0232 Epe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Epe"@nl ;
+        dbo:populationTotal  32282 ;
+        dbo:areaTotal        157372018 ;
+        ramon:code           "GM0232" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0233  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0233 Ermelo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ermelo"@nl ;
+        dbo:populationTotal  26507 ;
+        dbo:areaTotal        87326276 ;
+        ramon:code           "GM0233" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0236  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0236 Geldermalsen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Geldermalsen"@nl ;
+        dbo:populationTotal  26346 ;
+        dbo:areaTotal        101727846 ;
+        ramon:code           "GM0236" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0243  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0243 Harderwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Harderwijk"@nl ;
+        dbo:populationTotal  45966 ;
+        dbo:areaTotal        48270177 ;
+        ramon:code           "GM0243" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0244  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0244 Hattem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hattem"@nl ;
+        dbo:populationTotal  11890 ;
+        dbo:areaTotal        24155744 ;
+        ramon:code           "GM0244" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0246  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0246 Heerde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heerde"@nl ;
+        dbo:populationTotal  18556 ;
+        dbo:areaTotal        80420537 ;
+        ramon:code           "GM0246" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0252  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0252 Heumen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heumen"@nl ;
+        dbo:populationTotal  16360 ;
+        dbo:areaTotal        41535889 ;
+        ramon:code           "GM0252" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0262  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0262 Lochem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lochem"@nl ;
+        dbo:populationTotal  33333 ;
+        dbo:areaTotal        215942010 ;
+        ramon:code           "GM0262" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM0263  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0263 Maasdriel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Maasdriel"@nl ;
+        dbo:populationTotal  24084 ;
+        dbo:areaTotal        75462009 ;
+        ramon:code           "GM0263" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0267  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0267 Nijkerk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nijkerk"@nl ;
+        dbo:populationTotal  41199 ;
+        dbo:areaTotal        72040269 ;
+        ramon:code           "GM0267" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0268  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0268 Nijmegen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nijmegen"@nl ;
+        dbo:populationTotal  172064 ;
+        dbo:areaTotal        57599179 ;
+        ramon:code           "GM0268" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0269  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0269 Oldebroek" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oldebroek"@nl ;
+        dbo:populationTotal  23104 ;
+        dbo:areaTotal        98835318 ;
+        ramon:code           "GM0269" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0273  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0273 Putten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Putten"@nl ;
+        dbo:populationTotal  24516 ;
+        dbo:areaTotal        87502678 ;
+        ramon:code           "GM0273" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0274  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0274 Renkum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Renkum"@nl ;
+        dbo:populationTotal  31254 ;
+        dbo:areaTotal        47233271 ;
+        ramon:code           "GM0274" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0275  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0275 Rheden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rheden"@nl ;
+        dbo:populationTotal  43824 ;
+        dbo:areaTotal        84348205 ;
+        ramon:code           "GM0275" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0277  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0277 Rozendaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rozendaal"@nl ;
+        dbo:populationTotal  1498 ;
+        dbo:areaTotal        27919889 ;
+        ramon:code           "GM0277" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0279  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0279 Scherpenzeel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Scherpenzeel"@nl ;
+        dbo:populationTotal  9529 ;
+        dbo:areaTotal        13814847 ;
+        ramon:code           "GM0279" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0281  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0281 Tiel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tiel"@nl ;
+        dbo:populationTotal  41510 ;
+        dbo:areaTotal        35512546 ;
+        ramon:code           "GM0281" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0285  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0285 Voorst" ;
+        void:inDataset       lau: ;
+        ramon:name           "Voorst"@nl ;
+        dbo:populationTotal  23984 ;
+        dbo:areaTotal        126468691 ;
+        ramon:code           "GM0285" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0289  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0289 Wageningen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wageningen"@nl ;
+        dbo:populationTotal  37837 ;
+        dbo:areaTotal        32359865 ;
+        ramon:code           "GM0289" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0293  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0293 Westervoort" ;
+        void:inDataset       lau: ;
+        ramon:name           "Westervoort"@nl ;
+        dbo:populationTotal  15001 ;
+        dbo:areaTotal        7838999 ;
+        ramon:code           "GM0293" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0294  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0294 Winterswijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Winterswijk"@nl ;
+        dbo:populationTotal  28939 ;
+        dbo:areaTotal        138817749 ;
+        ramon:code           "GM0294" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM0296  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0296 Wijchen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wijchen"@nl ;
+        dbo:populationTotal  40814 ;
+        dbo:areaTotal        69563658 ;
+        ramon:code           "GM0296" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0297  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0297 Zaltbommel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zaltbommel"@nl ;
+        dbo:populationTotal  27543 ;
+        dbo:areaTotal        89042926 ;
+        ramon:code           "GM0297" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0299  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0299 Zevenaar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zevenaar"@nl ;
+        dbo:populationTotal  32269 ;
+        dbo:areaTotal        57997641 ;
+        ramon:code           "GM0299" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM0301  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0301 Zutphen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zutphen"@nl ;
+        dbo:populationTotal  46997 ;
+        dbo:areaTotal        42934421 ;
+        ramon:code           "GM0301" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM0302  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0302 Nunspeet" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nunspeet"@nl ;
+        dbo:populationTotal  26835 ;
+        dbo:areaTotal        129533095 ;
+        ramon:code           "GM0302" ;
+        spatial:PP           nuts:NL221 ;
+        ramon:level          5 .
+
+lau:NL-GM0303  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0303 Dronten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dronten"@nl ;
+        dbo:populationTotal  40592 ;
+        dbo:areaTotal        423894658 ;
+        ramon:code           "GM0303" ;
+        spatial:PP           nuts:NL230 ;
+        ramon:level          5 .
+
+lau:NL-GM0304  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0304 Neerijnen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Neerijnen"@nl ;
+        dbo:populationTotal  12122 ;
+        dbo:areaTotal        72903388 ;
+        ramon:code           "GM0304" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0307  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0307 Amersfoort" ;
+        void:inDataset       lau: ;
+        ramon:name           "Amersfoort"@nl ;
+        dbo:populationTotal  153602 ;
+        dbo:areaTotal        63860765 ;
+        ramon:code           "GM0307" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0308  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0308 Baarn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Baarn"@nl ;
+        dbo:populationTotal  24521 ;
+        dbo:areaTotal        33006228 ;
+        ramon:code           "GM0308" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0310  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0310 De Bilt" ;
+        void:inDataset       lau: ;
+        ramon:name           "De Bilt"@nl ;
+        dbo:populationTotal  42375 ;
+        dbo:areaTotal        67130787 ;
+        ramon:code           "GM0310" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0312  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0312 Bunnik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bunnik"@nl ;
+        dbo:populationTotal  14773 ;
+        dbo:areaTotal        37569139 ;
+        ramon:code           "GM0312" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0313  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0313 Bunschoten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bunschoten"@nl ;
+        dbo:populationTotal  20823 ;
+        dbo:areaTotal        34813416 ;
+        ramon:code           "GM0313" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0317  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0317 Eemnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eemnes"@nl ;
+        dbo:populationTotal  8877 ;
+        dbo:areaTotal        33702939 ;
+        ramon:code           "GM0317" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0321  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0321 Houten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Houten"@nl ;
+        dbo:populationTotal  48765 ;
+        dbo:areaTotal        58985522 ;
+        ramon:code           "GM0321" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0327  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0327 Leusden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leusden"@nl ;
+        dbo:populationTotal  29309 ;
+        dbo:areaTotal        58893057 ;
+        ramon:code           "GM0327" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0331  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0331 Lopik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lopik"@nl ;
+        dbo:populationTotal  14156 ;
+        dbo:areaTotal        78978950 ;
+        ramon:code           "GM0331" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0335  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0335 Montfoort" ;
+        void:inDataset       lau: ;
+        ramon:name           "Montfoort"@nl ;
+        dbo:populationTotal  13783 ;
+        dbo:areaTotal        38202586 ;
+        ramon:code           "GM0335" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0339  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0339 Renswoude" ;
+        void:inDataset       lau: ;
+        ramon:name           "Renswoude"@nl ;
+        dbo:populationTotal  5051 ;
+        dbo:areaTotal        18510998 ;
+        ramon:code           "GM0339" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0340  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0340 Rhenen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rhenen"@nl ;
+        dbo:populationTotal  19400 ;
+        dbo:areaTotal        43756513 ;
+        ramon:code           "GM0340" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0342  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0342 Soest" ;
+        void:inDataset       lau: ;
+        ramon:name           "Soest"@nl ;
+        dbo:populationTotal  45487 ;
+        dbo:areaTotal        46432001 ;
+        ramon:code           "GM0342" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0344  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0344 Utrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Utrecht"@nl ;
+        dbo:populationTotal  338967 ;
+        dbo:areaTotal        99207318 ;
+        ramon:code           "GM0344" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0345  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0345 Veenendaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Veenendaal"@nl ;
+        dbo:populationTotal  63816 ;
+        dbo:areaTotal        19724167 ;
+        ramon:code           "GM0345" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0351  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0351 Woudenberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Woudenberg"@nl ;
+        dbo:populationTotal  12550 ;
+        dbo:areaTotal        36822053 ;
+        ramon:code           "GM0351" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0352  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0352 Wijk bij Duurstede" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wijk bij Duurstede"@nl ;
+        dbo:populationTotal  23384 ;
+        dbo:areaTotal        50403976 ;
+        ramon:code           "GM0352" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0353  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0353 IJsselstein" ;
+        void:inDataset       lau: ;
+        ramon:name           "IJsselstein"@nl ;
+        dbo:populationTotal  34101 ;
+        dbo:areaTotal        21680241 ;
+        ramon:code           "GM0353" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0355  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0355 Zeist" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zeist"@nl ;
+        dbo:populationTotal  62258 ;
+        dbo:areaTotal        48650812 ;
+        ramon:code           "GM0355" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0356  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0356 Nieuwegein" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nieuwegein"@nl ;
+        dbo:populationTotal  61749 ;
+        dbo:areaTotal        25646427 ;
+        ramon:code           "GM0356" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0358  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0358 Aalsmeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aalsmeer"@nl ;
+        dbo:populationTotal  31299 ;
+        dbo:areaTotal        32286067 ;
+        ramon:code           "GM0358" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0361  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0361 Alkmaar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alkmaar"@nl ;
+        dbo:populationTotal  107615 ;
+        dbo:areaTotal        117346486 ;
+        ramon:code           "GM0361" ;
+        ramon:level          5 .
+
+lau:NL-GM0362  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0362 Amstelveen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Amstelveen"@nl ;
+        dbo:populationTotal  88602 ;
+        dbo:areaTotal        44081482 ;
+        ramon:code           "GM0362" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0363  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0363 Amsterdam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Amsterdam"@nl ;
+        dbo:populationTotal  833624 ;
+        dbo:areaTotal        219491742 ;
+        ramon:code           "GM0363" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0370  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0370 Beemster" ;
+        void:inDataset       lau: ;
+        ramon:name           "Beemster"@nl ;
+        dbo:populationTotal  8958 ;
+        dbo:areaTotal        72067164 ;
+        ramon:code           "GM0370" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0373  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0373 Bergen (NH.)" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bergen (NH.)"@nl ;
+        dbo:populationTotal  29943 ;
+        dbo:areaTotal        120230580 ;
+        ramon:code           "GM0373" ;
+        spatial:PP           nuts:NL322 ;
+        ramon:level          5 .
+
+lau:NL-GM0375  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0375 Beverwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Beverwijk"@nl ;
+        dbo:populationTotal  40318 ;
+        dbo:areaTotal        20086771 ;
+        ramon:code           "GM0375" ;
+        spatial:PP           nuts:NL323 ;
+        ramon:level          5 .
+
+lau:NL-GM0376  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0376 Blaricum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Blaricum"@nl ;
+        dbo:populationTotal  9622 ;
+        dbo:areaTotal        15562769 ;
+        ramon:code           "GM0376" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM0377  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0377 Bloemendaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bloemendaal"@nl ;
+        dbo:populationTotal  22296 ;
+        dbo:areaTotal        45227553 ;
+        ramon:code           "GM0377" ;
+        spatial:PP           nuts:NL324 ;
+        ramon:level          5 .
+
+lau:NL-GM0383  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0383 Castricum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Castricum"@nl ;
+        dbo:populationTotal  34604 ;
+        dbo:areaTotal        60403488 ;
+        ramon:code           "GM0383" ;
+        spatial:PP           nuts:NL323 ;
+        ramon:level          5 .
+
+lau:NL-GM0384  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0384 Diemen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Diemen"@nl ;
+        dbo:populationTotal  26840 ;
+        dbo:areaTotal        14037208 ;
+        ramon:code           "GM0384" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0385  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0385 Edam-Volendam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Edam-Volendam"@nl ;
+        dbo:populationTotal  35465 ;
+        dbo:areaTotal        79995998 ;
+        ramon:code           "GM0385" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0388  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0388 Enkhuizen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Enkhuizen"@nl ;
+        dbo:populationTotal  18455 ;
+        dbo:areaTotal        116246507 ;
+        ramon:code           "GM0388" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0392  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0392 Haarlem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haarlem"@nl ;
+        dbo:populationTotal  158140 ;
+        dbo:areaTotal        32091235 ;
+        ramon:code           "GM0392" ;
+        spatial:PP           nuts:NL324 ;
+        ramon:level          5 .
+
+lau:NL-GM0393  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0393 Haarlemmerliede en Spaarnwoude" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haarlemmerliede en Spaarnwoude"@nl ;
+        dbo:populationTotal  5578 ;
+        dbo:areaTotal        21187618 ;
+        ramon:code           "GM0393" ;
+        spatial:PP           nuts:NL324 ;
+        ramon:level          5 .
+
+lau:NL-GM0394  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0394 Haarlemmermeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haarlemmermeer"@nl ;
+        dbo:populationTotal  144518 ;
+        dbo:areaTotal        185125404 ;
+        ramon:code           "GM0394" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0396  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0396 Heemskerk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heemskerk"@nl ;
+        dbo:populationTotal  39299 ;
+        dbo:areaTotal        31679529 ;
+        ramon:code           "GM0396" ;
+        spatial:PP           nuts:NL323 ;
+        ramon:level          5 .
+
+lau:NL-GM0397  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0397 Heemstede" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heemstede"@nl ;
+        dbo:populationTotal  26766 ;
+        dbo:areaTotal        9644213 ;
+        ramon:code           "GM0397" ;
+        spatial:PP           nuts:NL324 ;
+        ramon:level          5 .
+
+lau:NL-GM0398  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0398 Heerhugowaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heerhugowaard"@nl ;
+        dbo:populationTotal  53927 ;
+        dbo:areaTotal        39991608 ;
+        ramon:code           "GM0398" ;
+        spatial:PP           nuts:NL322 ;
+        ramon:level          5 .
+
+lau:NL-GM0399  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0399 Heiloo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heiloo"@nl ;
+        dbo:populationTotal  22689 ;
+        dbo:areaTotal        19013662 ;
+        ramon:code           "GM0399" ;
+        spatial:PP           nuts:NL322 ;
+        ramon:level          5 .
+
+lau:NL-GM0400  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0400 Den Helder" ;
+        void:inDataset       lau: ;
+        ramon:name           "Den Helder"@nl ;
+        dbo:populationTotal  56275 ;
+        dbo:areaTotal        178799883 ;
+        ramon:code           "GM0400" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0402  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0402 Hilversum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hilversum"@nl ;
+        dbo:populationTotal  87830 ;
+        dbo:areaTotal        46348608 ;
+        ramon:code           "GM0402" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM0405  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0405 Hoorn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hoorn"@nl ;
+        dbo:populationTotal  72172 ;
+        dbo:areaTotal        53455153 ;
+        ramon:code           "GM0405" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0406  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0406 Huizen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Huizen"@nl ;
+        dbo:populationTotal  41373 ;
+        dbo:areaTotal        23322803 ;
+        ramon:code           "GM0406" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM0415  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0415 Landsmeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Landsmeer"@nl ;
+        dbo:populationTotal  10977 ;
+        dbo:areaTotal        26504138 ;
+        ramon:code           "GM0415" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0416  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0416 Langedijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Langedijk"@nl ;
+        dbo:populationTotal  27447 ;
+        dbo:areaTotal        27029327 ;
+        ramon:code           "GM0416" ;
+        spatial:PP           nuts:NL322 ;
+        ramon:level          5 .
+
+lau:NL-GM0417  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0417 Laren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Laren"@nl ;
+        dbo:populationTotal  10956 ;
+        dbo:areaTotal        12411360 ;
+        ramon:code           "GM0417" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM0420  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0420 Medemblik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Medemblik"@nl ;
+        dbo:populationTotal  43725 ;
+        dbo:areaTotal        257561716 ;
+        ramon:code           "GM0420" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0431  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0431 Oostzaan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oostzaan"@nl ;
+        dbo:populationTotal  9504 ;
+        dbo:areaTotal        16075517 ;
+        ramon:code           "GM0431" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0432  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0432 Opmeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Opmeer"@nl ;
+        dbo:populationTotal  11336 ;
+        dbo:areaTotal        41943396 ;
+        ramon:code           "GM0432" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0437  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0437 Ouder-Amstel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ouder-Amstel"@nl ;
+        dbo:populationTotal  13411 ;
+        dbo:areaTotal        25782332 ;
+        ramon:code           "GM0437" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0439  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0439 Purmerend" ;
+        void:inDataset       lau: ;
+        ramon:name           "Purmerend"@nl ;
+        dbo:populationTotal  79889 ;
+        dbo:areaTotal        24559851 ;
+        ramon:code           "GM0439" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0441  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0441 Schagen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Schagen"@nl ;
+        dbo:populationTotal  46159 ;
+        dbo:areaTotal        187280778 ;
+        ramon:code           "GM0441" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0448  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0448 Texel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Texel"@nl ;
+        dbo:populationTotal  13574 ;
+        dbo:areaTotal        463156582 ;
+        ramon:code           "GM0448" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0450  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0450 Uitgeest" ;
+        void:inDataset       lau: ;
+        ramon:name           "Uitgeest"@nl ;
+        dbo:populationTotal  13360 ;
+        dbo:areaTotal        22290554 ;
+        ramon:code           "GM0450" ;
+        spatial:PP           nuts:NL323 ;
+        ramon:level          5 .
+
+lau:NL-GM0451  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0451 Uithoorn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Uithoorn"@nl ;
+        dbo:populationTotal  29181 ;
+        dbo:areaTotal        19419053 ;
+        ramon:code           "GM0451" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0453  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0453 Velsen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Velsen"@nl ;
+        dbo:populationTotal  67448 ;
+        dbo:areaTotal        63171173 ;
+        ramon:code           "GM0453" ;
+        spatial:PP           nuts:NL323 ;
+        ramon:level          5 .
+
+lau:NL-GM0457  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0457 Weesp" ;
+        void:inDataset       lau: ;
+        ramon:name           "Weesp"@nl ;
+        dbo:populationTotal  18572 ;
+        dbo:areaTotal        24160716 ;
+        ramon:code           "GM0457" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM0473  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0473 Zandvoort" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zandvoort"@nl ;
+        dbo:populationTotal  16792 ;
+        dbo:areaTotal        43970715 ;
+        ramon:code           "GM0473" ;
+        spatial:PP           nuts:NL324 ;
+        ramon:level          5 .
+
+lau:NL-GM0479  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0479 Zaanstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zaanstad"@nl ;
+        dbo:populationTotal  152466 ;
+        dbo:areaTotal        83235284 ;
+        ramon:code           "GM0479" ;
+        spatial:PP           nuts:NL325 ;
+        ramon:level          5 .
+
+lau:NL-GM0482  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0482 Alblasserdam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alblasserdam"@nl ;
+        dbo:populationTotal  19955 ;
+        dbo:areaTotal        10060081 ;
+        ramon:code           "GM0482" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0484  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0484 Alphen aan den Rijn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alphen aan den Rijn"@nl ;
+        dbo:populationTotal  107960 ;
+        dbo:areaTotal        132495870 ;
+        ramon:code           "GM0484" ;
+        spatial:PP           nuts:NL338 ;
+        ramon:level          5 .
+
+lau:NL-GM0489  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0489 Barendrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Barendrecht"@nl ;
+        dbo:populationTotal  47861 ;
+        dbo:areaTotal        21730585 ;
+        ramon:code           "GM0489" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0498  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0498 Drechterland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Drechterland"@nl ;
+        dbo:populationTotal  19400 ;
+        dbo:areaTotal        80587927 ;
+        ramon:code           "GM0498" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0501  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0501 Brielle" ;
+        void:inDataset       lau: ;
+        ramon:name           "Brielle"@nl ;
+        dbo:populationTotal  16640 ;
+        dbo:areaTotal        31143268 ;
+        ramon:code           "GM0501" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0502  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0502 Capelle aan den IJssel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Capelle aan den IJssel"@nl ;
+        dbo:populationTotal  66486 ;
+        dbo:areaTotal        15399974 ;
+        ramon:code           "GM0502" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0503  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0503 Delft" ;
+        void:inDataset       lau: ;
+        ramon:name           "Delft"@nl ;
+        dbo:populationTotal  101034 ;
+        dbo:areaTotal        24062232 ;
+        ramon:code           "GM0503" ;
+        spatial:PP           nuts:NL333 ;
+        ramon:level          5 .
+
+lau:NL-GM0505  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0505 Dordrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dordrecht"@nl ;
+        dbo:populationTotal  118801 ;
+        dbo:areaTotal        99467484 ;
+        ramon:code           "GM0505" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0512  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0512 Gorinchem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gorinchem"@nl ;
+        dbo:populationTotal  35260 ;
+        dbo:areaTotal        21932313 ;
+        ramon:code           "GM0512" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0513  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0513 Gouda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gouda"@nl ;
+        dbo:populationTotal  71189 ;
+        dbo:areaTotal        18113363 ;
+        ramon:code           "GM0513" ;
+        spatial:PP           nuts:NL338 ;
+        ramon:level          5 .
+
+lau:NL-GM0518  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0518 's-Gravenhage" ;
+        void:inDataset       lau: ;
+        ramon:name           "'s-Gravenhage"@nl ;
+        dbo:populationTotal  519988 ;
+        dbo:areaTotal        98133569 ;
+        ramon:code           "GM0518" ;
+        spatial:PP           nuts:NL332 ;
+        ramon:level          5 .
+
+lau:NL-GM0523  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0523 Hardinxveld-Giessendam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hardinxveld-Giessendam"@nl ;
+        dbo:populationTotal  17774 ;
+        dbo:areaTotal        19354826 ;
+        ramon:code           "GM0523" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0530  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0530 Hellevoetsluis" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hellevoetsluis"@nl ;
+        dbo:populationTotal  38634 ;
+        dbo:areaTotal        46265686 ;
+        ramon:code           "GM0530" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0531  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0531 Hendrik-Ido-Ambacht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hendrik-Ido-Ambacht"@nl ;
+        dbo:populationTotal  29408 ;
+        dbo:areaTotal        11900763 ;
+        ramon:code           "GM0531" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0532  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0532 Stede Broec" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stede Broec"@nl ;
+        dbo:populationTotal  21493 ;
+        dbo:areaTotal        16370719 ;
+        ramon:code           "GM0532" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM0534  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0534 Hillegom" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hillegom"@nl ;
+        dbo:populationTotal  21089 ;
+        dbo:areaTotal        13465591 ;
+        ramon:code           "GM0534" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0537  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0537 Katwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Katwijk"@nl ;
+        dbo:populationTotal  64239 ;
+        dbo:areaTotal        31146532 ;
+        ramon:code           "GM0537" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0542  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0542 Krimpen aan den IJssel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Krimpen aan den IJssel"@nl ;
+        dbo:populationTotal  29054 ;
+        dbo:areaTotal        8949064 ;
+        ramon:code           "GM0542" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0545  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0545 Leerdam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leerdam"@nl ;
+        dbo:populationTotal  20711 ;
+        dbo:areaTotal        34421889 ;
+        ramon:code           "GM0545" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0546  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0546 Leiden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leiden"@nl ;
+        dbo:populationTotal  122561 ;
+        dbo:areaTotal        23270262 ;
+        ramon:code           "GM0546" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0547  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0547 Leiderdorp" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leiderdorp"@nl ;
+        dbo:populationTotal  26968 ;
+        dbo:areaTotal        12275656 ;
+        ramon:code           "GM0547" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0553  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0553 Lisse" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lisse"@nl ;
+        dbo:populationTotal  22606 ;
+        dbo:areaTotal        16054143 ;
+        ramon:code           "GM0553" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0556  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0556 Maassluis" ;
+        void:inDataset       lau: ;
+        ramon:name           "Maassluis"@nl ;
+        dbo:populationTotal  32292 ;
+        dbo:areaTotal        10124599 ;
+        ramon:code           "GM0556" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0569  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0569 Nieuwkoop" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nieuwkoop"@nl ;
+        dbo:populationTotal  27433 ;
+        dbo:areaTotal        91162774 ;
+        ramon:code           "GM0569" ;
+        spatial:PP           nuts:NL338 ;
+        ramon:level          5 .
+
+lau:NL-GM0575  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0575 Noordwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Noordwijk"@nl ;
+        dbo:populationTotal  25760 ;
+        dbo:areaTotal        51516964 ;
+        ramon:code           "GM0575" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0576  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0576 Noordwijkerhout" ;
+        void:inDataset       lau: ;
+        ramon:name           "Noordwijkerhout"@nl ;
+        dbo:populationTotal  16140 ;
+        dbo:areaTotal        23420414 ;
+        ramon:code           "GM0576" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0579  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0579 Oegstgeest" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oegstgeest"@nl ;
+        dbo:populationTotal  23209 ;
+        dbo:areaTotal        7967206 ;
+        ramon:code           "GM0579" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0584  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0584 Oud-Beijerland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oud-Beijerland"@nl ;
+        dbo:populationTotal  23851 ;
+        dbo:areaTotal        19608575 ;
+        ramon:code           "GM0584" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0585  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0585 Binnenmaas" ;
+        void:inDataset       lau: ;
+        ramon:name           "Binnenmaas"@nl ;
+        dbo:populationTotal  28771 ;
+        dbo:areaTotal        75574418 ;
+        ramon:code           "GM0585" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0588  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0588 Korendijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Korendijk"@nl ;
+        dbo:populationTotal  10825 ;
+        dbo:areaTotal        100472885 ;
+        ramon:code           "GM0588" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0589  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0589 Oudewater" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oudewater"@nl ;
+        dbo:populationTotal  10049 ;
+        dbo:areaTotal        40101337 ;
+        ramon:code           "GM0589" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0590  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0590 Papendrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Papendrecht"@nl ;
+        dbo:populationTotal  32248 ;
+        dbo:areaTotal        10789958 ;
+        ramon:code           "GM0590" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0597  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0597 Ridderkerk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ridderkerk"@nl ;
+        dbo:populationTotal  45097 ;
+        dbo:areaTotal        25262860 ;
+        ramon:code           "GM0597" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0599  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0599 Rotterdam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rotterdam"@nl ;
+        dbo:populationTotal  629606 ;
+        dbo:areaTotal        324162972 ;
+        ramon:code           "GM0599" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0603  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0603 Rijswijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rijswijk"@nl ;
+        dbo:populationTotal  49328 ;
+        dbo:areaTotal        14488091 ;
+        ramon:code           "GM0603" ;
+        spatial:PP           nuts:NL332 ;
+        ramon:level          5 .
+
+lau:NL-GM0606  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0606 Schiedam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Schiedam"@nl ;
+        dbo:populationTotal  77108 ;
+        dbo:areaTotal        19857485 ;
+        ramon:code           "GM0606" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0610  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0610 Sliedrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sliedrecht"@nl ;
+        dbo:populationTotal  24968 ;
+        dbo:areaTotal        14014162 ;
+        ramon:code           "GM0610" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0611  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0611 Cromstrijen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Cromstrijen"@nl ;
+        dbo:populationTotal  12755 ;
+        dbo:areaTotal        70326434 ;
+        ramon:code           "GM0611" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0613  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0613 Albrandswaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Albrandswaard"@nl ;
+        dbo:populationTotal  24985 ;
+        dbo:areaTotal        23755797 ;
+        ramon:code           "GM0613" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0614  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0614 Westvoorne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Westvoorne"@nl ;
+        dbo:populationTotal  14197 ;
+        dbo:areaTotal        97483548 ;
+        ramon:code           "GM0614" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0617  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0617 Strijen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Strijen"@nl ;
+        dbo:populationTotal  8766 ;
+        dbo:areaTotal        57703071 ;
+        ramon:code           "GM0617" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0620  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0620 Vianen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vianen"@nl ;
+        dbo:populationTotal  19513 ;
+        dbo:areaTotal        42389123 ;
+        ramon:code           "GM0620" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0622  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0622 Vlaardingen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vlaardingen"@nl ;
+        dbo:populationTotal  71808 ;
+        dbo:areaTotal        26691378 ;
+        ramon:code           "GM0622" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM0626  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0626 Voorschoten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Voorschoten"@nl ;
+        dbo:populationTotal  25211 ;
+        dbo:areaTotal        11559446 ;
+        ramon:code           "GM0626" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0627  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0627 Waddinxveen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Waddinxveen"@nl ;
+        dbo:populationTotal  26072 ;
+        dbo:areaTotal        29396576 ;
+        ramon:code           "GM0627" ;
+        spatial:PP           nuts:NL338 ;
+        ramon:level          5 .
+
+lau:NL-GM0629  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0629 Wassenaar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wassenaar"@nl ;
+        dbo:populationTotal  25885 ;
+        dbo:areaTotal        62404982 ;
+        ramon:code           "GM0629" ;
+        spatial:PP           nuts:NL332 ;
+        ramon:level          5 .
+
+lau:NL-GM0632  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0632 Woerden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Woerden"@nl ;
+        dbo:populationTotal  51161 ;
+        dbo:areaTotal        92923080 ;
+        ramon:code           "GM0632" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0637  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0637 Zoetermeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zoetermeer"@nl ;
+        dbo:populationTotal  124107 ;
+        dbo:areaTotal        37051003 ;
+        ramon:code           "GM0637" ;
+        spatial:PP           nuts:NL332 ;
+        ramon:level          5 .
+
+lau:NL-GM0638  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0638 Zoeterwoude" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zoeterwoude"@nl ;
+        dbo:populationTotal  8119 ;
+        dbo:areaTotal        21958026 ;
+        ramon:code           "GM0638" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM0642  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0642 Zwijndrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zwijndrecht"@nl ;
+        dbo:populationTotal  44454 ;
+        dbo:areaTotal        22774743 ;
+        ramon:code           "GM0642" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0654  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0654 Borsele" ;
+        void:inDataset       lau: ;
+        ramon:name           "Borsele"@nl ;
+        dbo:populationTotal  22612 ;
+        dbo:areaTotal        194515630 ;
+        ramon:code           "GM0654" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0664  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0664 Goes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Goes"@nl ;
+        dbo:populationTotal  37207 ;
+        dbo:areaTotal        101915194 ;
+        ramon:code           "GM0664" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0668  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0668 West Maas en Waal" ;
+        void:inDataset       lau: ;
+        ramon:name           "West Maas en Waal"@nl ;
+        dbo:populationTotal  18693 ;
+        dbo:areaTotal        85209117 ;
+        ramon:code           "GM0668" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0677  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0677 Hulst" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hulst"@nl ;
+        dbo:populationTotal  27372 ;
+        dbo:areaTotal        251820452 ;
+        ramon:code           "GM0677" ;
+        spatial:PP           nuts:NL341 ;
+        ramon:level          5 .
+
+lau:NL-GM0678  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0678 Kapelle" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kapelle"@nl ;
+        dbo:populationTotal  12639 ;
+        dbo:areaTotal        49625275 ;
+        ramon:code           "GM0678" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0687  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0687 Middelburg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Middelburg"@nl ;
+        dbo:populationTotal  47873 ;
+        dbo:areaTotal        53039598 ;
+        ramon:code           "GM0687" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0689  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0689 Giessenlanden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Giessenlanden"@nl ;
+        dbo:populationTotal  14544 ;
+        dbo:areaTotal        65107506 ;
+        ramon:code           "GM0689" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0703  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0703 Reimerswaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Reimerswaal"@nl ;
+        dbo:populationTotal  22265 ;
+        dbo:areaTotal        242417230 ;
+        ramon:code           "GM0703" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0707  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0707 Zederik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zederik"@nl ;
+        dbo:populationTotal  13718 ;
+        dbo:areaTotal        76501806 ;
+        ramon:code           "GM0707" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM0715  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0715 Terneuzen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Terneuzen"@nl ;
+        dbo:populationTotal  54657 ;
+        dbo:areaTotal        317755749 ;
+        ramon:code           "GM0715" ;
+        spatial:PP           nuts:NL341 ;
+        ramon:level          5 .
+
+lau:NL-GM0716  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0716 Tholen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tholen"@nl ;
+        dbo:populationTotal  25421 ;
+        dbo:areaTotal        254004781 ;
+        ramon:code           "GM0716" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0717  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0717 Veere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Veere"@nl ;
+        dbo:populationTotal  21960 ;
+        dbo:areaTotal        206624969 ;
+        ramon:code           "GM0717" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0718  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0718 Vlissingen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vlissingen"@nl ;
+        dbo:populationTotal  44451 ;
+        dbo:areaTotal        344835168 ;
+        ramon:code           "GM0718" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM0733  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0733 Lingewaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lingewaal"@nl ;
+        dbo:populationTotal  11112 ;
+        dbo:areaTotal        54490166 ;
+        ramon:code           "GM0733" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM0736  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0736 De Ronde Venen" ;
+        void:inDataset       lau: ;
+        ramon:name           "De Ronde Venen"@nl ;
+        dbo:populationTotal  42576 ;
+        dbo:areaTotal        116979238 ;
+        ramon:code           "GM0736" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM0737  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0737 Tytsjerksteradiel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tytsjerksteradiel"@nl ;
+        dbo:populationTotal  32077 ;
+        dbo:areaTotal        161405571 ;
+        ramon:code           "GM0737" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM0738  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0738 Aalburg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aalburg"@nl ;
+        dbo:populationTotal  13038 ;
+        dbo:areaTotal        53174009 ;
+        ramon:code           "GM0738" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0743  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0743 Asten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Asten"@nl ;
+        dbo:populationTotal  16580 ;
+        dbo:areaTotal        71339258 ;
+        ramon:code           "GM0743" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0744  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0744 Baarle-Nassau" ;
+        void:inDataset       lau: ;
+        ramon:name           "Baarle-Nassau"@nl ;
+        dbo:populationTotal  6611 ;
+        dbo:areaTotal        76285123 ;
+        ramon:code           "GM0744" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0748  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0748 Bergen op Zoom" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bergen op Zoom"@nl ;
+        dbo:populationTotal  66237 ;
+        dbo:areaTotal        93127917 ;
+        ramon:code           "GM0748" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0753  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0753 Best" ;
+        void:inDataset       lau: ;
+        ramon:name           "Best"@nl ;
+        dbo:populationTotal  28976 ;
+        dbo:areaTotal        35100687 ;
+        ramon:code           "GM0753" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0755  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0755 Boekel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Boekel"@nl ;
+        dbo:populationTotal  10254 ;
+        dbo:areaTotal        34516110 ;
+        ramon:code           "GM0755" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0756  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0756 Boxmeer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Boxmeer"@nl ;
+        dbo:populationTotal  28465 ;
+        dbo:areaTotal        113843005 ;
+        ramon:code           "GM0756" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0757  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0757 Boxtel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Boxtel"@nl ;
+        dbo:populationTotal  30406 ;
+        dbo:areaTotal        64846133 ;
+        ramon:code           "GM0757" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0758  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0758 Breda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Breda"@nl ;
+        dbo:populationTotal  181611 ;
+        dbo:areaTotal        128680442 ;
+        ramon:code           "GM0758" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0762  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0762 Deurne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Deurne"@nl ;
+        dbo:populationTotal  31878 ;
+        dbo:areaTotal        118355776 ;
+        ramon:code           "GM0762" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0765  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0765 Pekela" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pekela"@nl ;
+        dbo:populationTotal  12641 ;
+        dbo:areaTotal        50204906 ;
+        ramon:code           "GM0765" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
+
+lau:NL-GM0766  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0766 Dongen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dongen"@nl ;
+        dbo:populationTotal  25413 ;
+        dbo:areaTotal        29739737 ;
+        ramon:code           "GM0766" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0770  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0770 Eersel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eersel"@nl ;
+        dbo:populationTotal  18551 ;
+        dbo:areaTotal        83325783 ;
+        ramon:code           "GM0770" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0772  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0772 Eindhoven" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eindhoven"@nl ;
+        dbo:populationTotal  224755 ;
+        dbo:areaTotal        88873990 ;
+        ramon:code           "GM0772" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0777  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0777 Etten-Leur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Etten-Leur"@nl ;
+        dbo:populationTotal  42832 ;
+        dbo:areaTotal        55921294 ;
+        ramon:code           "GM0777" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0779  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0779 Geertruidenberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Geertruidenberg"@nl ;
+        dbo:populationTotal  21630 ;
+        dbo:areaTotal        29639809 ;
+        ramon:code           "GM0779" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0784  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0784 Gilze en Rijen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gilze en Rijen"@nl ;
+        dbo:populationTotal  26152 ;
+        dbo:areaTotal        65664672 ;
+        ramon:code           "GM0784" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0785  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0785 Goirle" ;
+        void:inDataset       lau: ;
+        ramon:name           "Goirle"@nl ;
+        dbo:populationTotal  23111 ;
+        dbo:areaTotal        42352311 ;
+        ramon:code           "GM0785" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0786  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0786 Grave" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grave"@nl ;
+        dbo:populationTotal  12643 ;
+        dbo:areaTotal        28032978 ;
+        ramon:code           "GM0786" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0788  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0788 Haaren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haaren"@nl ;
+        dbo:populationTotal  13570 ;
+        dbo:areaTotal        58560350 ;
+        ramon:code           "GM0788" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0794  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0794 Helmond" ;
+        void:inDataset       lau: ;
+        ramon:name           "Helmond"@nl ;
+        dbo:populationTotal  90127 ;
+        dbo:areaTotal        54752516 ;
+        ramon:code           "GM0794" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0796  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0796 's-Hertogenbosch" ;
+        void:inDataset       lau: ;
+        ramon:name           "'s-Hertogenbosch"@nl ;
+        dbo:populationTotal  151608 ;
+        dbo:areaTotal        118074864 ;
+        ramon:code           "GM0796" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0797  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0797 Heusden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heusden"@nl ;
+        dbo:populationTotal  43274 ;
+        dbo:areaTotal        81219439 ;
+        ramon:code           "GM0797" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0798  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0798 Hilvarenbeek" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hilvarenbeek"@nl ;
+        dbo:populationTotal  15164 ;
+        dbo:areaTotal        96507471 ;
+        ramon:code           "GM0798" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0809  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0809 Loon op Zand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Loon op Zand"@nl ;
+        dbo:populationTotal  22929 ;
+        dbo:areaTotal        50711554 ;
+        ramon:code           "GM0809" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0815  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0815 Mill en Sint Hubert" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mill en Sint Hubert"@nl ;
+        dbo:populationTotal  10801 ;
+        dbo:areaTotal        53174083 ;
+        ramon:code           "GM0815" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0820  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0820 Nuenen, Gerwen en Nederwetten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nuenen, Gerwen en Nederwetten"@nl ;
+        dbo:populationTotal  22763 ;
+        dbo:areaTotal        33943543 ;
+        ramon:code           "GM0820" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0823  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0823 Oirschot" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oirschot"@nl ;
+        dbo:populationTotal  18199 ;
+        dbo:areaTotal        102844864 ;
+        ramon:code           "GM0823" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0824  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0824 Oisterwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oisterwijk"@nl ;
+        dbo:populationTotal  25835 ;
+        dbo:areaTotal        65126831 ;
+        ramon:code           "GM0824" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0826  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0826 Oosterhout" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oosterhout"@nl ;
+        dbo:populationTotal  54018 ;
+        dbo:areaTotal        73086769 ;
+        ramon:code           "GM0826" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0828  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0828 Oss" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oss"@nl ;
+        dbo:populationTotal  90003 ;
+        dbo:areaTotal        170929379 ;
+        ramon:code           "GM0828" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0840  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0840 Rucphen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rucphen"@nl ;
+        dbo:populationTotal  22276 ;
+        dbo:areaTotal        64475179 ;
+        ramon:code           "GM0840" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0844  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0844 Schijndel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Schijndel"@nl ;
+        dbo:populationTotal  23625 ;
+        dbo:areaTotal        41660854 ;
+        ramon:code           "GM0844" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0845  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0845 Sint-Michielsgestel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sint-Michielsgestel"@nl ;
+        dbo:populationTotal  28403 ;
+        dbo:areaTotal        59336206 ;
+        ramon:code           "GM0845" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0846  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0846 Sint-Oedenrode" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sint-Oedenrode"@nl ;
+        dbo:populationTotal  17896 ;
+        dbo:areaTotal        64936104 ;
+        ramon:code           "GM0846" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0847  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0847 Someren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Someren"@nl ;
+        dbo:populationTotal  18914 ;
+        dbo:areaTotal        81500588 ;
+        ramon:code           "GM0847" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0848  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0848 Son en Breugel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Son en Breugel"@nl ;
+        dbo:populationTotal  16425 ;
+        dbo:areaTotal        26506822 ;
+        ramon:code           "GM0848" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0851  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0851 Steenbergen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Steenbergen"@nl ;
+        dbo:populationTotal  23477 ;
+        dbo:areaTotal        159141883 ;
+        ramon:code           "GM0851" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0852  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0852 Waterland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Waterland"@nl ;
+        dbo:populationTotal  17304 ;
+        dbo:areaTotal        115661252 ;
+        ramon:code           "GM0852" ;
+        spatial:PP           nuts:NL326 ;
+        ramon:level          5 .
+
+lau:NL-GM0855  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0855 Tilburg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tilburg"@nl ;
+        dbo:populationTotal  212941 ;
+        dbo:areaTotal        119154985 ;
+        ramon:code           "GM0855" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0856  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0856 Uden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Uden"@nl ;
+        dbo:populationTotal  41247 ;
+        dbo:areaTotal        67531797 ;
+        ramon:code           "GM0856" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0858  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0858 Valkenswaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valkenswaard"@nl ;
+        dbo:populationTotal  30262 ;
+        dbo:areaTotal        56501691 ;
+        ramon:code           "GM0858" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0860  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0860 Veghel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Veghel"@nl ;
+        dbo:populationTotal  38078 ;
+        dbo:areaTotal        78921878 ;
+        ramon:code           "GM0860" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0861  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0861 Veldhoven" ;
+        void:inDataset       lau: ;
+        ramon:name           "Veldhoven"@nl ;
+        dbo:populationTotal  44317 ;
+        dbo:areaTotal        31926856 ;
+        ramon:code           "GM0861" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0865  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0865 Vught" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vught"@nl ;
+        dbo:populationTotal  25973 ;
+        dbo:areaTotal        34435547 ;
+        ramon:code           "GM0865" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM0866  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0866 Waalre" ;
+        void:inDataset       lau: ;
+        ramon:name           "Waalre"@nl ;
+        dbo:populationTotal  17023 ;
+        dbo:areaTotal        22663853 ;
+        ramon:code           "GM0866" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM0867  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0867 Waalwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Waalwijk"@nl ;
+        dbo:populationTotal  47021 ;
+        dbo:areaTotal        67646237 ;
+        ramon:code           "GM0867" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0870  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0870 Werkendam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Werkendam"@nl ;
+        dbo:populationTotal  26527 ;
+        dbo:areaTotal        121764478 ;
+        ramon:code           "GM0870" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0873  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0873 Woensdrecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Woensdrecht"@nl ;
+        dbo:populationTotal  21682 ;
+        dbo:areaTotal        91970097 ;
+        ramon:code           "GM0873" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0874  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0874 Woudrichem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Woudrichem"@nl ;
+        dbo:populationTotal  14518 ;
+        dbo:areaTotal        51704460 ;
+        ramon:code           "GM0874" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM0879  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0879 Zundert" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zundert"@nl ;
+        dbo:populationTotal  21488 ;
+        dbo:areaTotal        121207155 ;
+        ramon:code           "GM0879" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM0880  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0880 Wormerland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wormerland"@nl ;
+        dbo:populationTotal  15664 ;
+        dbo:areaTotal        45175279 ;
+        ramon:code           "GM0880" ;
+        spatial:PP           nuts:NL325 ;
+        ramon:level          5 .
+
+lau:NL-GM0881  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0881 Onderbanken" ;
+        void:inDataset       lau: ;
+        ramon:name           "Onderbanken"@nl ;
+        dbo:populationTotal  7869 ;
+        dbo:areaTotal        21243683 ;
+        ramon:code           "GM0881" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0882  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0882 Landgraaf" ;
+        void:inDataset       lau: ;
+        ramon:name           "Landgraaf"@nl ;
+        dbo:populationTotal  37465 ;
+        dbo:areaTotal        24665402 ;
+        ramon:code           "GM0882" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0888  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0888 Beek" ;
+        void:inDataset       lau: ;
+        ramon:name           "Beek"@nl ;
+        dbo:populationTotal  16068 ;
+        dbo:areaTotal        21033749 ;
+        ramon:code           "GM0888" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0889  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0889 Beesel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Beesel"@nl ;
+        dbo:populationTotal  13388 ;
+        dbo:areaTotal        29154112 ;
+        ramon:code           "GM0889" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM0893  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0893 Bergen (L.)" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bergen (L.)"@nl ;
+        dbo:populationTotal  13090 ;
+        dbo:areaTotal        108495099 ;
+        ramon:code           "GM0893" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM0899  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0899 Brunssum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Brunssum"@nl ;
+        dbo:populationTotal  28448 ;
+        dbo:areaTotal        17338108 ;
+        ramon:code           "GM0899" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0907  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0907 Gennep" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gennep"@nl ;
+        dbo:populationTotal  17085 ;
+        dbo:areaTotal        50423075 ;
+        ramon:code           "GM0907" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM0917  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0917 Heerlen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heerlen"@nl ;
+        dbo:populationTotal  87406 ;
+        dbo:areaTotal        45529897 ;
+        ramon:code           "GM0917" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0928  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0928 Kerkrade" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kerkrade"@nl ;
+        dbo:populationTotal  46023 ;
+        dbo:areaTotal        22152896 ;
+        ramon:code           "GM0928" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0935  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0935 Maastricht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Maastricht"@nl ;
+        dbo:populationTotal  122533 ;
+        dbo:areaTotal        60128005 ;
+        ramon:code           "GM0935" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0938  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0938 Meerssen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meerssen"@nl ;
+        dbo:populationTotal  19040 ;
+        dbo:areaTotal        27695656 ;
+        ramon:code           "GM0938" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0944  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0944 Mook en Middelaar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mook en Middelaar"@nl ;
+        dbo:populationTotal  7755 ;
+        dbo:areaTotal        18810516 ;
+        ramon:code           "GM0944" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM0946  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0946 Nederweert" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nederweert"@nl ;
+        dbo:populationTotal  16793 ;
+        dbo:areaTotal        101782072 ;
+        ramon:code           "GM0946" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM0951  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0951 Nuth" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nuth"@nl ;
+        dbo:populationTotal  15425 ;
+        dbo:areaTotal        33128752 ;
+        ramon:code           "GM0951" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0957  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0957 Roermond" ;
+        void:inDataset       lau: ;
+        ramon:name           "Roermond"@nl ;
+        dbo:populationTotal  57010 ;
+        dbo:areaTotal        71050925 ;
+        ramon:code           "GM0957" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM0962  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0962 Schinnen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Schinnen"@nl ;
+        dbo:populationTotal  12960 ;
+        dbo:areaTotal        24117168 ;
+        ramon:code           "GM0962" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0965  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0965 Simpelveld" ;
+        void:inDataset       lau: ;
+        ramon:name           "Simpelveld"@nl ;
+        dbo:populationTotal  10741 ;
+        dbo:areaTotal        16029947 ;
+        ramon:code           "GM0965" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0971  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0971 Stein" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stein"@nl ;
+        dbo:populationTotal  25064 ;
+        dbo:areaTotal        22799788 ;
+        ramon:code           "GM0971" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0981  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0981 Vaals" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vaals"@nl ;
+        dbo:populationTotal  9632 ;
+        dbo:areaTotal        23898054 ;
+        ramon:code           "GM0981" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0983  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0983 Venlo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Venlo"@nl ;
+        dbo:populationTotal  100371 ;
+        dbo:areaTotal        128991281 ;
+        ramon:code           "GM0983" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM0984  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0984 Venray" ;
+        void:inDataset       lau: ;
+        ramon:name           "Venray"@nl ;
+        dbo:populationTotal  43291 ;
+        dbo:areaTotal        165001832 ;
+        ramon:code           "GM0984" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM0986  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0986 Voerendaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Voerendaal"@nl ;
+        dbo:populationTotal  12482 ;
+        dbo:areaTotal        31521109 ;
+        ramon:code           "GM0986" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0988  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0988 Weert" ;
+        void:inDataset       lau: ;
+        ramon:name           "Weert"@nl ;
+        dbo:populationTotal  49100 ;
+        dbo:areaTotal        105535698 ;
+        ramon:code           "GM0988" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM0994  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0994 Valkenburg aan de Geul" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valkenburg aan de Geul"@nl ;
+        dbo:populationTotal  16518 ;
+        dbo:areaTotal        36924173 ;
+        ramon:code           "GM0994" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM0995  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM0995 Lelystad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lelystad"@nl ;
+        dbo:populationTotal  76792 ;
+        dbo:areaTotal        765452441 ;
+        ramon:code           "GM0995" ;
+        spatial:PP           nuts:NL230 ;
+        ramon:level          5 .
+
+lau:NL-GM1507  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1507 Horst aan de Maas" ;
+        void:inDataset       lau: ;
+        ramon:name           "Horst aan de Maas"@nl ;
+        dbo:populationTotal  41675 ;
+        dbo:areaTotal        191916832 ;
+        ramon:code           "GM1507" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM1509  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1509 Oude IJsselstreek" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oude IJsselstreek"@nl ;
+        dbo:populationTotal  39657 ;
+        dbo:areaTotal        137952278 ;
+        ramon:code           "GM1509" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM1525  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1525 Teylingen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Teylingen"@nl ;
+        dbo:populationTotal  36013 ;
+        dbo:areaTotal        33486977 ;
+        ramon:code           "GM1525" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM1581  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1581 Utrechtse Heuvelrug" ;
+        void:inDataset       lau: ;
+        ramon:name           "Utrechtse Heuvelrug"@nl ;
+        dbo:populationTotal  48506 ;
+        dbo:areaTotal        133940604 ;
+        ramon:code           "GM1581" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM1586  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1586 Oost Gelre" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oost Gelre"@nl ;
+        dbo:populationTotal  29537 ;
+        dbo:areaTotal        110116612 ;
+        ramon:code           "GM1586" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM1598  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1598 Koggenland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Koggenland"@nl ;
+        dbo:populationTotal  22471 ;
+        dbo:areaTotal        84083919 ;
+        ramon:code           "GM1598" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM1621  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1621 Lansingerland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lansingerland"@nl ;
+        dbo:populationTotal  59035 ;
+        dbo:areaTotal        56373544 ;
+        ramon:code           "GM1621" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM1640  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1640 Leudal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leudal"@nl ;
+        dbo:populationTotal  36140 ;
+        dbo:areaTotal        164905117 ;
+        ramon:code           "GM1640" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM1641  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1641 Maasgouw" ;
+        void:inDataset       lau: ;
+        ramon:name           "Maasgouw"@nl ;
+        dbo:populationTotal  23757 ;
+        dbo:areaTotal        58117107 ;
+        ramon:code           "GM1641" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM1651  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1651 Eemsmond" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eemsmond"@nl ;
+        dbo:populationTotal  15815 ;
+        dbo:areaTotal        543348425 ;
+        ramon:code           "GM1651" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM1652  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1652 Gemert-Bakel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gemert-Bakel"@nl ;
+        dbo:populationTotal  29647 ;
+        dbo:areaTotal        123338787 ;
+        ramon:code           "GM1652" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1655  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1655 Halderberge" ;
+        void:inDataset       lau: ;
+        ramon:name           "Halderberge"@nl ;
+        dbo:populationTotal  29531 ;
+        dbo:areaTotal        75214852 ;
+        ramon:code           "GM1655" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM1658  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1658 Heeze-Leende" ;
+        void:inDataset       lau: ;
+        ramon:name           "Heeze-Leende"@nl ;
+        dbo:populationTotal  15650 ;
+        dbo:areaTotal        105044830 ;
+        ramon:code           "GM1658" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1659  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1659 Laarbeek" ;
+        void:inDataset       lau: ;
+        ramon:name           "Laarbeek"@nl ;
+        dbo:populationTotal  21965 ;
+        dbo:areaTotal        56166124 ;
+        ramon:code           "GM1659" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1663  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1663 De Marne" ;
+        void:inDataset       lau: ;
+        ramon:name           "De Marne"@nl ;
+        dbo:populationTotal  10101 ;
+        dbo:areaTotal        240328312 ;
+        ramon:code           "GM1663" ;
+        spatial:PP           nuts:NL113 ;
+        ramon:level          5 .
+
+lau:NL-GM1667  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1667 Reusel-De Mierden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Reusel-De Mierden"@nl ;
+        dbo:populationTotal  12811 ;
+        dbo:areaTotal        78663280 ;
+        ramon:code           "GM1667" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1669  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1669 Roerdalen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Roerdalen"@nl ;
+        dbo:populationTotal  20686 ;
+        dbo:areaTotal        88785636 ;
+        ramon:code           "GM1669" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM1674  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1674 Roosendaal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Roosendaal"@nl ;
+        dbo:populationTotal  76960 ;
+        dbo:areaTotal        107164546 ;
+        ramon:code           "GM1674" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM1676  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1676 Schouwen-Duiveland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Schouwen-Duiveland"@nl ;
+        dbo:populationTotal  33735 ;
+        dbo:areaTotal        488207500 ;
+        ramon:code           "GM1676" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM1680  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1680 Aa en Hunze" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aa en Hunze"@nl ;
+        dbo:populationTotal  25243 ;
+        dbo:areaTotal        278875353 ;
+        ramon:code           "GM1680" ;
+        spatial:PP           nuts:NL131 ;
+        ramon:level          5 .
+
+lau:NL-GM1681  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1681 Borger-Odoorn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Borger-Odoorn"@nl ;
+        dbo:populationTotal  25371 ;
+        dbo:areaTotal        277891504 ;
+        ramon:code           "GM1681" ;
+        spatial:PP           nuts:NL132 ;
+        ramon:level          5 .
+
+lau:NL-GM1684  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1684 Cuijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Cuijk"@nl ;
+        dbo:populationTotal  24608 ;
+        dbo:areaTotal        57068549 ;
+        ramon:code           "GM1684" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM1685  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1685 Landerd" ;
+        void:inDataset       lau: ;
+        ramon:name           "Landerd"@nl ;
+        dbo:populationTotal  15303 ;
+        dbo:areaTotal        70706532 ;
+        ramon:code           "GM1685" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM1690  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1690 De Wolden" ;
+        void:inDataset       lau: ;
+        ramon:name           "De Wolden"@nl ;
+        dbo:populationTotal  23722 ;
+        dbo:areaTotal        226345330 ;
+        ramon:code           "GM1690" ;
+        spatial:PP           nuts:NL133 ;
+        ramon:level          5 .
+
+lau:NL-GM1695  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1695 Noord-Beveland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Noord-Beveland"@nl ;
+        dbo:populationTotal  7421 ;
+        dbo:areaTotal        121511155 ;
+        ramon:code           "GM1695" ;
+        spatial:PP           nuts:NL342 ;
+        ramon:level          5 .
+
+lau:NL-GM1696  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1696 Wijdemeren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Wijdemeren"@nl ;
+        dbo:populationTotal  23275 ;
+        dbo:areaTotal        76360330 ;
+        ramon:code           "GM1696" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM1699  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1699 Noordenveld" ;
+        void:inDataset       lau: ;
+        ramon:name           "Noordenveld"@nl ;
+        dbo:populationTotal  31039 ;
+        dbo:areaTotal        205290539 ;
+        ramon:code           "GM1699" ;
+        spatial:PP           nuts:NL131 ;
+        ramon:level          5 .
+
+lau:NL-GM1700  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1700 Twenterand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Twenterand"@nl ;
+        dbo:populationTotal  33846 ;
+        dbo:areaTotal        108135020 ;
+        ramon:code           "GM1700" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM1701  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1701 Westerveld" ;
+        void:inDataset       lau: ;
+        ramon:name           "Westerveld"@nl ;
+        dbo:populationTotal  18940 ;
+        dbo:areaTotal        282739159 ;
+        ramon:code           "GM1701" ;
+        spatial:PP           nuts:NL133 ;
+        ramon:level          5 .
+
+lau:NL-GM1702  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1702 Sint Anthonis" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sint Anthonis"@nl ;
+        dbo:populationTotal  11594 ;
+        dbo:areaTotal        99756916 ;
+        ramon:code           "GM1702" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM1705  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1705 Lingewaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lingewaard"@nl ;
+        dbo:populationTotal  45950 ;
+        dbo:areaTotal        69142790 ;
+        ramon:code           "GM1705" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM1706  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1706 Cranendonck" ;
+        void:inDataset       lau: ;
+        ramon:name           "Cranendonck"@nl ;
+        dbo:populationTotal  20660 ;
+        dbo:areaTotal        78050094 ;
+        ramon:code           "GM1706" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1708  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1708 Steenwijkerland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Steenwijkerland"@nl ;
+        dbo:populationTotal  43333 ;
+        dbo:areaTotal        321590562 ;
+        ramon:code           "GM1708" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM1709  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1709 Moerdijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Moerdijk"@nl ;
+        dbo:populationTotal  36762 ;
+        dbo:areaTotal        184025323 ;
+        ramon:code           "GM1709" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM1711  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1711 Echt-Susteren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Echt-Susteren"@nl ;
+        dbo:populationTotal  31943 ;
+        dbo:areaTotal        104619185 ;
+        ramon:code           "GM1711" ;
+        spatial:PP           nuts:NL422 ;
+        ramon:level          5 .
+
+lau:NL-GM1714  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1714 Sluis" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sluis"@nl ;
+        dbo:populationTotal  23639 ;
+        dbo:areaTotal        307164052 ;
+        ramon:code           "GM1714" ;
+        spatial:PP           nuts:NL341 ;
+        ramon:level          5 .
+
+lau:NL-GM1719  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1719 Drimmelen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Drimmelen"@nl ;
+        dbo:populationTotal  26815 ;
+        dbo:areaTotal        119427597 ;
+        ramon:code           "GM1719" ;
+        spatial:PP           nuts:NL411 ;
+        ramon:level          5 .
+
+lau:NL-GM1721  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1721 Bernheze" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bernheze"@nl ;
+        dbo:populationTotal  29880 ;
+        dbo:areaTotal        90405788 ;
+        ramon:code           "GM1721" ;
+        spatial:PP           nuts:NL413 ;
+        ramon:level          5 .
+
+lau:NL-GM1722  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1722 Ferwerderadiel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ferwerderadiel"@nl ;
+        dbo:populationTotal  8701 ;
+        dbo:areaTotal        133181781 ;
+        ramon:code           "GM1722" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM1723  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1723 Alphen-Chaam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alphen-Chaam"@nl ;
+        dbo:populationTotal  9924 ;
+        dbo:areaTotal        93521120 ;
+        ramon:code           "GM1723" ;
+        spatial:PP           nuts:NL412 ;
+        ramon:level          5 .
+
+lau:NL-GM1724  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1724 Bergeijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bergeijk"@nl ;
+        dbo:populationTotal  18253 ;
+        dbo:areaTotal        101753719 ;
+        ramon:code           "GM1724" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1728  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1728 Bladel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bladel"@nl ;
+        dbo:populationTotal  19966 ;
+        dbo:areaTotal        75623312 ;
+        ramon:code           "GM1728" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1729  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1729 Gulpen-Wittem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gulpen-Wittem"@nl ;
+        dbo:populationTotal  14508 ;
+        dbo:areaTotal        73360503 ;
+        ramon:code           "GM1729" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM1730  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1730 Tynaarlo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tynaarlo"@nl ;
+        dbo:populationTotal  32804 ;
+        dbo:areaTotal        147698650 ;
+        ramon:code           "GM1730" ;
+        spatial:PP           nuts:NL131 ;
+        ramon:level          5 .
+
+lau:NL-GM1731  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1731 Midden-Drenthe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Midden-Drenthe"@nl ;
+        dbo:populationTotal  33450 ;
+        dbo:areaTotal        345873832 ;
+        ramon:code           "GM1731" ;
+        spatial:PP           nuts:NL131 ;
+        ramon:level          5 .
+
+lau:NL-GM1734  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1734 Overbetuwe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Overbetuwe"@nl ;
+        dbo:populationTotal  47002 ;
+        dbo:areaTotal        115084135 ;
+        ramon:code           "GM1734" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM1735  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1735 Hof van Twente" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hof van Twente"@nl ;
+        dbo:populationTotal  34881 ;
+        dbo:areaTotal        215409429 ;
+        ramon:code           "GM1735" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM1740  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1740 Neder-Betuwe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Neder-Betuwe"@nl ;
+        dbo:populationTotal  23049 ;
+        dbo:areaTotal        67461074 ;
+        ramon:code           "GM1740" ;
+        spatial:PP           nuts:NL224 ;
+        ramon:level          5 .
+
+lau:NL-GM1742  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1742 Rijssen-Holten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rijssen-Holten"@nl ;
+        dbo:populationTotal  37875 ;
+        dbo:areaTotal        94377338 ;
+        ramon:code           "GM1742" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM1771  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1771 Geldrop-Mierlo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Geldrop-Mierlo"@nl ;
+        dbo:populationTotal  38893 ;
+        dbo:areaTotal        31387314 ;
+        ramon:code           "GM1771" ;
+        spatial:PP           nuts:NL414 ;
+        ramon:level          5 .
+
+lau:NL-GM1773  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1773 Olst-Wijhe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Olst-Wijhe"@nl ;
+        dbo:populationTotal  17886 ;
+        dbo:areaTotal        118369442 ;
+        ramon:code           "GM1773" ;
+        spatial:PP           nuts:NL212 ;
+        ramon:level          5 .
+
+lau:NL-GM1774  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1774 Dinkelland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dinkelland"@nl ;
+        dbo:populationTotal  26120 ;
+        dbo:areaTotal        176826821 ;
+        ramon:code           "GM1774" ;
+        spatial:PP           nuts:NL213 ;
+        ramon:level          5 .
+
+lau:NL-GM1783  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1783 Westland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Westland"@nl ;
+        dbo:populationTotal  104960 ;
+        dbo:areaTotal        90736415 ;
+        ramon:code           "GM1783" ;
+        spatial:PP           nuts:NL333 ;
+        ramon:level          5 .
+
+lau:NL-GM1842  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1842 Midden-Delfland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Midden-Delfland"@nl ;
+        dbo:populationTotal  18873 ;
+        dbo:areaTotal        49378741 ;
+        ramon:code           "GM1842" ;
+        spatial:PP           nuts:NL333 ;
+        ramon:level          5 .
+
+lau:NL-GM1859  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1859 Berkelland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Berkelland"@nl ;
+        dbo:populationTotal  44437 ;
+        dbo:areaTotal        260532257 ;
+        ramon:code           "GM1859" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM1876  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1876 Bronckhorst" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bronckhorst"@nl ;
+        dbo:populationTotal  36510 ;
+        dbo:areaTotal        286424043 ;
+        ramon:code           "GM1876" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM1883  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1883 Sittard-Geleen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sittard-Geleen"@nl ;
+        dbo:populationTotal  93555 ;
+        dbo:areaTotal        80584402 ;
+        ramon:code           "GM1883" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM1884  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1884 Kaag en Braassem" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kaag en Braassem"@nl ;
+        dbo:populationTotal  26108 ;
+        dbo:areaTotal        72239336 ;
+        ramon:code           "GM1884" ;
+        spatial:PP           nuts:NL337 ;
+        ramon:level          5 .
+
+lau:NL-GM1891  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1891 Dantumadiel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dantumadiel"@nl ;
+        dbo:populationTotal  19015 ;
+        dbo:areaTotal        87527004 ;
+        ramon:code           "GM1891" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM1892  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1892 Zuidplas" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zuidplas"@nl ;
+        dbo:populationTotal  40937 ;
+        dbo:areaTotal        64050037 ;
+        ramon:code           "GM1892" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM1894  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1894 Peel en Maas" ;
+        void:inDataset       lau: ;
+        ramon:name           "Peel en Maas"@nl ;
+        dbo:populationTotal  43316 ;
+        dbo:areaTotal        161352546 ;
+        ramon:code           "GM1894" ;
+        spatial:PP           nuts:NL421 ;
+        ramon:level          5 .
+
+lau:NL-GM1895  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1895 Oldambt" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oldambt"@nl ;
+        dbo:populationTotal  38228 ;
+        dbo:areaTotal        295959728 ;
+        ramon:code           "GM1895" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
+
+lau:NL-GM1896  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1896 Zwartewaterland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Zwartewaterland"@nl ;
+        dbo:populationTotal  22278 ;
+        dbo:areaTotal        87856893 ;
+        ramon:code           "GM1896" ;
+        spatial:PP           nuts:NL211 ;
+        ramon:level          5 .
+
+lau:NL-GM1900  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1900 Súdwest-Fryslân" ;
+        void:inDataset       lau: ;
+        ramon:name           "Súdwest-Fryslân"@nl ;
+        dbo:populationTotal  84048 ;
+        dbo:areaTotal        838712354 ;
+        ramon:code           "GM1900" ;
+        spatial:PP           nuts:NL122 ;
+        ramon:level          5 .
+
+lau:NL-GM1901  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1901 Bodegraven-Reeuwijk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bodegraven-Reeuwijk"@nl ;
+        dbo:populationTotal  33451 ;
+        dbo:areaTotal        88639506 ;
+        ramon:code           "GM1901" ;
+        spatial:PP           nuts:NL338 ;
+        ramon:level          5 .
+
+lau:NL-GM1903  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1903 Eijsden-Margraten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eijsden-Margraten"@nl ;
+        dbo:populationTotal  25123 ;
+        dbo:areaTotal        78411793 ;
+        ramon:code           "GM1903" ;
+        spatial:PP           nuts:NL423 ;
+        ramon:level          5 .
+
+lau:NL-GM1904  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1904 Stichtse Vecht" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stichtse Vecht"@nl ;
+        dbo:populationTotal  64061 ;
+        dbo:areaTotal        106819254 ;
+        ramon:code           "GM1904" ;
+        spatial:PP           nuts:NL310 ;
+        ramon:level          5 .
+
+lau:NL-GM1908  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1908 Menameradiel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Menameradiel"@nl ;
+        dbo:populationTotal  13543 ;
+        dbo:areaTotal        70031987 ;
+        ramon:code           "GM1908" ;
+        spatial:PP           nuts:NL121 ;
+        ramon:level          5 .
+
+lau:NL-GM1911  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1911 Hollands Kroon" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hollands Kroon"@nl ;
+        dbo:populationTotal  47546 ;
+        dbo:areaTotal        662196740 ;
+        ramon:code           "GM1911" ;
+        spatial:PP           nuts:NL321 ;
+        ramon:level          5 .
+
+lau:NL-GM1916  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1916 Leidschendam-Voorburg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leidschendam-Voorburg"@nl ;
+        dbo:populationTotal  74223 ;
+        dbo:areaTotal        35618151 ;
+        ramon:code           "GM1916" ;
+        spatial:PP           nuts:NL332 ;
+        ramon:level          5 .
+
+lau:NL-GM1924  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1924 Goeree-Overflakkee" ;
+        void:inDataset       lau: ;
+        ramon:name           "Goeree-Overflakkee"@nl ;
+        dbo:populationTotal  48321 ;
+        dbo:areaTotal        422347879 ;
+        ramon:code           "GM1924" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM1926  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1926 Pijnacker-Nootdorp" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pijnacker-Nootdorp"@nl ;
+        dbo:populationTotal  51894 ;
+        dbo:areaTotal        38616282 ;
+        ramon:code           "GM1926" ;
+        spatial:PP           nuts:NL332 ;
+        ramon:level          5 .
+
+lau:NL-GM1927  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1927 Molenwaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Molenwaard"@nl ;
+        dbo:populationTotal  29067 ;
+        dbo:areaTotal        126476586 ;
+        ramon:code           "GM1927" ;
+        spatial:PP           nuts:NL33A ;
+        ramon:level          5 .
+
+lau:NL-GM1930  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1930 Nissewaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nissewaard"@nl ;
+        dbo:populationTotal  85293 ;
+        dbo:areaTotal        98730211 ;
+        ramon:code           "GM1930" ;
+        spatial:PP           nuts:NL339 ;
+        ramon:level          5 .
+
+lau:NL-GM1931  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1931 Krimpenerwaard" ;
+        void:inDataset       lau: ;
+        ramon:name           "Krimpenerwaard"@nl ;
+        dbo:populationTotal  54653 ;
+        dbo:areaTotal        161308725 ;
+        ramon:code           "GM1931" ;
+        ramon:level          5 .
+
+lau:NL-GM1940  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1940 De Fryske Marren" ;
+        void:inDataset       lau: ;
+        ramon:name           "De Fryske Marren"@nl ;
+        dbo:populationTotal  51265 ;
+        dbo:areaTotal        549103151 ;
+        ramon:code           "GM1940" ;
+        ramon:level          5 .
+
+lau:NL-GM1942  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1942 Gooise Meren" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gooise Meren"@nl ;
+        dbo:populationTotal  56696 ;
+        dbo:areaTotal        75215063 ;
+        ramon:code           "GM1942" ;
+        spatial:PP           nuts:NL327 ;
+        ramon:level          5 .
+
+lau:NL-GM1945  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1945 Berg en Dal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Berg en Dal"@nl ;
+        dbo:populationTotal  34574 ;
+        dbo:areaTotal        93309868 ;
+        ramon:code           "GM1945" ;
+        spatial:PP           nuts:NL226 ;
+        ramon:level          5 .
+
+lau:NL-GM1955  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1955 Montferland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Montferland"@nl ;
+        dbo:populationTotal  35173 ;
+        dbo:areaTotal        106637313 ;
+        ramon:code           "GM1955" ;
+        spatial:PP           nuts:NL225 ;
+        ramon:level          5 .
+
+lau:NL-GM1987  rdf:type      ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "GM1987 Menterwolde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Menterwolde"@nl ;
+        dbo:populationTotal  12233 ;
+        dbo:areaTotal        81623909 ;
+        ramon:code           "GM1987" ;
+        spatial:PP           nuts:NL111 ;
+        ramon:level          5 .
