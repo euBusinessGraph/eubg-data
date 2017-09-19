@@ -1,0 +1,1528 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:PL-3183612  ramon:name  "Nisko"@en ;
+        ramon:code  "PL-3183612" ;
+        rdfs:label  "PL-3183612 Nisko" .
+
+lau:PL-3183611  ramon:name  "Mielec"@en ;
+        ramon:code  "PL-3183611" ;
+        rdfs:label  "PL-3183611 Mielec" .
+
+lau:PL-1143006  ramon:name  "Grójec"@en ;
+        ramon:code  "PL-1143006" ;
+        rdfs:label  "PL-1143006 Grójec" .
+
+lau:PL-5020365  ramon:name  "Wałbrzych"@en ;
+        ramon:code  "PL-5020365" ;
+        rdfs:label  "PL-5020365 Wałbrzych" .
+
+lau:PL-3183618  ramon:name  "Stalowa Wola"@en ;
+        ramon:code  "PL-3183618" ;
+        rdfs:label  "PL-3183618 Stalowa Wola" .
+
+lau:PL-2122161  ramon:name  "Kraków"@en ;
+        ramon:code  "PL-2122161" ;
+        rdfs:label  "PL-2122161 Kraków" .
+
+lau:PL-4305963  ramon:name  "Leszno"@en ;
+        ramon:code  "PL-4305963" ;
+        rdfs:label  "PL-4305963 Leszno" .
+
+lau:PL-6285608  ramon:name  "Kętrzyn"@en ;
+        ramon:code  "PL-6285608" ;
+        rdfs:label  "PL-6285608 Kętrzyn" .
+
+lau:PL-6285609  ramon:name  "Lidzbark Warmiński"@en ;
+        ramon:code  "PL-6285609" ;
+        rdfs:label  "PL-6285609 Lidzbark Warmiński" .
+
+lau:PL-4306264  ramon:name  "Poznań"@en ;
+        ramon:code  "PL-4306264" ;
+        rdfs:label  "PL-4306264 Poznań" .
+
+lau:PL-6285601  ramon:name  "Bartoszyce"@en ;
+        ramon:code  "PL-6285601" ;
+        rdfs:label  "PL-6285601 Bartoszyce" .
+
+lau:PL-4326604  ramon:name  "Goleniów"@en ;
+        ramon:code  "PL-4326604" ;
+        rdfs:label  "PL-4326604 Goleniów" .
+
+lau:PL-4326605  ramon:name  "Gryfice"@en ;
+        ramon:code  "PL-4326605" ;
+        rdfs:label  "PL-4326605 Gryfice" .
+
+lau:PL-3183361  ramon:name  "Krosno"@en ;
+        ramon:code  "PL-3183361" ;
+        rdfs:label  "PL-3183361 Krosno" .
+
+lau:PL-4326607  ramon:name  "Kamień Pomorski"@en ;
+        ramon:code  "PL-4326607" ;
+        rdfs:label  "PL-4326607 Kamień Pomorski" .
+
+lau:PL-5163211  ramon:name  "Strzelce Opolskie"@en ;
+        ramon:code  "PL-5163211" ;
+        rdfs:label  "PL-5163211 Strzelce Opolskie" .
+
+lau:PL-1101716  ramon:name  "Tomaszów Mazowiecki"@en ;
+        ramon:code  "PL-1101716" ;
+        rdfs:label  "PL-1101716 Tomaszów Mazowiecki" .
+
+lau:PL-1101712  ramon:name  "Radomsko"@en ;
+        ramon:code  "PL-1101712" ;
+        rdfs:label  "PL-1101712 Radomsko" .
+
+lau:PL-1101710  ramon:name  "Sulejów"@en ;
+        ramon:code  "PL-1101710" ;
+        rdfs:label  "PL-1101710 Sulejów" .
+
+lau:PL-3061214  ramon:name  "Puławy"@en ;
+        ramon:code  "PL-3061214" ;
+        rdfs:label  "PL-3061214 Puławy" .
+
+lau:PL-3061216  ramon:name  "Ryki"@en ;
+        ramon:code  "PL-3061216" ;
+        rdfs:label  "PL-3061216 Ryki" .
+
+lau:PL-3061211  ramon:name  "Łuków"@en ;
+        ramon:code  "PL-3061211" ;
+        rdfs:label  "PL-3061211 Łuków" .
+
+lau:PL-3061212  ramon:name  "Opole Lubelskie"@en ;
+        ramon:code  "PL-3061212" ;
+        rdfs:label  "PL-3061212 Opole Lubelskie" .
+
+lau:PL-6224112  ramon:name  "Słupsk"@en ;
+        ramon:code  "PL-6224112" ;
+        rdfs:label  "PL-6224112 Słupsk" .
+
+lau:PL-6040717  ramon:name  "Wąbrzeźno"@en ;
+        ramon:code  "PL-6040717" ;
+        rdfs:label  "PL-6040717 Wąbrzeźno" .
+
+lau:PL-6040712  ramon:name  "Rypin"@en ;
+        ramon:code  "PL-6040712" ;
+        rdfs:label  "PL-6040712 Rypin" .
+
+lau:PL-3203912  ramon:name  "Suwałki"@en ;
+        ramon:code  "PL-3203912" ;
+        rdfs:label  "PL-3203912 Suwałki" .
+
+lau:PL-6224207  ramon:name  "Kwidzyn"@en ;
+        ramon:code  "PL-6224207" ;
+        rdfs:label  "PL-6224207 Kwidzyn" .
+
+lau:PL-6040661  ramon:name  "Bydgoszcz"@en ;
+        ramon:code  "PL-6040661" ;
+        rdfs:label  "PL-6040661 Bydgoszcz" .
+
+lau:PL-6040663  ramon:name  "Toruń"@en ;
+        ramon:code  "PL-6040663" ;
+        rdfs:label  "PL-6040663 Toruń" .
+
+lau:PL-6224364  ramon:name  "Sopot"@en ;
+        ramon:code  "PL-6224364" ;
+        rdfs:label  "PL-6224364 Sopot" .
+
+lau:PL-6224361  ramon:name  "Gdańsk"@en ;
+        ramon:code  "PL-6224361" ;
+        rdfs:label  "PL-6224361 Gdańsk" .
+
+lau:PL-6224362  ramon:name  "Gdynia"@en ;
+        ramon:code  "PL-6224362" ;
+        rdfs:label  "PL-6224362 Gdynia" .
+
+lau:PL-4306031  ramon:name  "Złotów"@en ;
+        ramon:code  "PL-4306031" ;
+        rdfs:label  "PL-4306031 Złotów" .
+
+lau:PL-6285415  ramon:name  "Ostróda"@en ;
+        ramon:code  "PL-6285415" ;
+        rdfs:label  "PL-6285415 Ostróda" .
+
+lau:PL-6285412  ramon:name  "Nowe Miasto Lubawskie"@en ;
+        ramon:code  "PL-6285412" ;
+        rdfs:label  "PL-6285412 Nowe Miasto Lubawskie" .
+
+lau:PL-3203909  ramon:name  "Sejny"@en ;
+        ramon:code  "PL-3203909" ;
+        rdfs:label  "PL-3203909 Sejny" .
+
+lau:PL-6224108  ramon:name  "Lębork"@en ;
+        ramon:code  "PL-6224108" ;
+        rdfs:label  "PL-6224108 Lębork" .
+
+lau:PL-6224101  ramon:name  "Bytów"@en ;
+        ramon:code  "PL-6224101" ;
+        rdfs:label  "PL-6224101 Bytów" .
+
+lau:PL-6285461  ramon:name  "Elbląg"@en ;
+        ramon:code  "PL-6285461" ;
+        rdfs:label  "PL-6285461 Elbląg" .
+
+lau:PL-3061004  ramon:name  "Hrubieszów"@en ;
+        ramon:code  "PL-3061004" ;
+        rdfs:label  "PL-3061004 Hrubieszów" .
+
+lau:PL-2244863  ramon:name  "Chorzów"@en ;
+        ramon:code  "PL-2244863" ;
+        rdfs:label  "PL-2244863 Chorzów" .
+
+lau:PL-3061006  ramon:name  "Krasnystaw"@en ;
+        ramon:code  "PL-3061006" ;
+        rdfs:label  "PL-3061006 Krasnystaw" .
+
+lau:PL-3061003  ramon:name  "Chełm"@en ;
+        ramon:code  "PL-3061003" ;
+        rdfs:label  "PL-3061003 Chełm" .
+
+lau:PL-3061002  ramon:name  "Biłgoraj"@en ;
+        ramon:code  "PL-3061002" ;
+        rdfs:label  "PL-3061002 Biłgoraj" .
+
+lau:PL-2244869  ramon:name  "Katowice"@en ;
+        ramon:code  "PL-2244869" ;
+        rdfs:label  "PL-2244869 Katowice" .
+
+lau:PL-3183321  ramon:name  "Lesko"@en ;
+        ramon:code  "PL-3183321" ;
+        rdfs:label  "PL-3183321 Lesko" .
+
+lau:PL-4305929  ramon:name  "Wolsztyn"@en ;
+        ramon:code  "PL-4305929" ;
+        rdfs:label  "PL-4305929 Wolsztyn" .
+
+lau:PL-4326606  ramon:name  "Gryfino"@en ;
+        ramon:code  "PL-4326606" ;
+        rdfs:label  "PL-4326606 Gryfino" .
+
+lau:PL-4305922  ramon:name  "Rawicz"@en ;
+        ramon:code  "PL-4305922" ;
+        rdfs:label  "PL-4305922 Rawicz" .
+
+lau:PL-2245108  ramon:name  "Mikołów"@en ;
+        ramon:code  "PL-2245108" ;
+        rdfs:label  "PL-2245108 Mikołów" .
+
+lau:PL-2244915  ramon:name  "Wodzisław Śląski"@en ;
+        ramon:code  "PL-2244915" ;
+        rdfs:label  "PL-2244915 Wodzisław Śląski" .
+
+lau:PL-2244911  ramon:name  "Racibórz"@en ;
+        ramon:code  "PL-2244911" ;
+        rdfs:label  "PL-2244911 Racibórz" .
+
+lau:PL-2244912  ramon:name  "Czerwionka-Leszczyny"@en ;
+        ramon:code  "PL-2244912" ;
+        rdfs:label  "PL-2244912 Czerwionka-Leszczyny" .
+
+lau:PL-1143005  ramon:name  "Grodzisk Mazowiecki"@en ;
+        ramon:code  "PL-1143005" ;
+        rdfs:label  "PL-1143005 Grodzisk Mazowiecki" .
+
+lau:PL-4305810  ramon:name  "Ślesin"@en ;
+        ramon:code  "PL-4305810" ;
+        rdfs:label  "PL-4305810 Ślesin" .
+
+lau:PL-5020319  ramon:name  "Świdnica"@en ;
+        ramon:code  "PL-5020319" ;
+        rdfs:label  "PL-5020319 Świdnica" .
+
+lau:PL-4081462  ramon:name  "Zielona Góra"@en ;
+        ramon:code  "PL-4081462" ;
+        rdfs:label  "PL-4081462 Zielona Góra" .
+
+lau:PL-2122404  ramon:name  "Dąbrowa Tarnowska"@en ;
+        ramon:code  "PL-2122404" ;
+        rdfs:label  "PL-2122404 Dąbrowa Tarnowska" .
+
+lau:PL-2122402  ramon:name  "Brzesko"@en ;
+        ramon:code  "PL-2122402" ;
+        rdfs:label  "PL-2122402 Brzesko" .
+
+lau:PL-1142730  ramon:name  "Szydłowiec"@en ;
+        ramon:code  "PL-1142730" ;
+        rdfs:label  "PL-1142730 Szydłowiec" .
+
+lau:PL-1142736  ramon:name  "Zwoleń"@en ;
+        ramon:code  "PL-1142736" ;
+        rdfs:label  "PL-1142736 Zwoleń" .
+
+lau:PL-4081303  ramon:name  "Międzyrzecz"@en ;
+        ramon:code  "PL-4081303" ;
+        rdfs:label  "PL-4081303 Międzyrzecz" .
+
+lau:PL-4081301  ramon:name  "Kostrzyn nad Odrą"@en ;
+        ramon:code  "PL-4081301" ;
+        rdfs:label  "PL-4081301 Kostrzyn nad Odrą" .
+
+lau:PL-4081307  ramon:name  "Sulęcin"@en ;
+        ramon:code  "PL-4081307" ;
+        rdfs:label  "PL-4081307 Sulęcin" .
+
+lau:PL-4081306  ramon:name  "Drezdenko"@en ;
+        ramon:code  "PL-4081306" ;
+        rdfs:label  "PL-4081306 Drezdenko" .
+
+lau:PL-4081305  ramon:name  "Słubice"@en ;
+        ramon:code  "PL-4081305" ;
+        rdfs:label  "PL-4081305 Słubice" .
+
+lau:PL-6040818  ramon:name  "Brześć Kujawski"@en ;
+        ramon:code  "PL-6040818" ;
+        rdfs:label  "PL-6040818 Brześć Kujawski" .
+
+lau:PL-6040811  ramon:name  "Piotrków Kujawski"@en ;
+        ramon:code  "PL-6040811" ;
+        rdfs:label  "PL-6040811 Piotrków Kujawski" .
+
+lau:PL-2244461  ramon:name  "Bielsko-Biała"@en ;
+        ramon:code  "PL-2244461" ;
+        rdfs:label  "PL-2244461 Bielsko-Biała" .
+
+lau:PL-4326418  ramon:name  "Łobez"@en ;
+        ramon:code  "PL-4326418" ;
+        rdfs:label  "PL-4326418 Łobez" .
+
+lau:PL-4326415  ramon:name  "Szczecinek"@en ;
+        ramon:code  "PL-4326415" ;
+        rdfs:label  "PL-4326415 Szczecinek" .
+
+lau:PL-4326301  ramon:name  "Białogard"@en ;
+        ramon:code  "PL-4326301" ;
+        rdfs:label  "PL-4326301 Białogard" .
+
+lau:PL-4326417  ramon:name  "Wałcz"@en ;
+        ramon:code  "PL-4326417" ;
+        rdfs:label  "PL-4326417 Wałcz" .
+
+lau:PL-1147164  ramon:name  "Siedlce"@en ;
+        ramon:code  "PL-1147164" ;
+        rdfs:label  "PL-1147164 Siedlce" .
+
+lau:PL-4326410  ramon:name  "Dębno"@en ;
+        ramon:code  "PL-4326410" ;
+        rdfs:label  "PL-4326410 Dębno" .
+
+lau:PL-4326412  ramon:name  "Pyrzyce"@en ;
+        ramon:code  "PL-4326412" ;
+        rdfs:label  "PL-4326412 Pyrzyce" .
+
+lau:PL-4326416  ramon:name  "Połczyn-Zdrój"@en ;
+        ramon:code  "PL-4326416" ;
+        rdfs:label  "PL-4326416 Połczyn-Zdrój" .
+
+lau:PL-4306019  ramon:name  "Piła"@en ;
+        ramon:code  "PL-4306019" ;
+        rdfs:label  "PL-4306019 Piła" .
+
+lau:PL-2122262  ramon:name  "Nowy Sącz"@en ;
+        ramon:code  "PL-2122262" ;
+        rdfs:label  "PL-2122262 Nowy Sącz" .
+
+lau:PL-4081412  ramon:name  "Wschowa"@en ;
+        ramon:code  "PL-4081412" ;
+        rdfs:label  "PL-4081412 Wschowa" .
+
+lau:PL-4081411  ramon:name  "Żary"@en ;
+        ramon:code  "PL-4081411" ;
+        rdfs:label  "PL-4081411 Żary" .
+
+lau:PL-4081410  ramon:name  "Żagań"@en ;
+        ramon:code  "PL-4081410" ;
+        rdfs:label  "PL-4081410 Żagań" .
+
+lau:PL-3265205  ramon:name  "Końskie"@en ;
+        ramon:code  "PL-3265205" ;
+        rdfs:label  "PL-3265205 Końskie" .
+
+lau:PL-3265204  ramon:name  "Piekoszów"@en ;
+        ramon:code  "PL-3265204" ;
+        rdfs:label  "PL-3265204 Piekoszów" .
+
+lau:PL-3265207  ramon:name  "Ostrowiec Świętokrzyski"@en ;
+        ramon:code  "PL-3265207" ;
+        rdfs:label  "PL-3265207 Ostrowiec Świętokrzyski" .
+
+lau:PL-2244664  ramon:name  "Częstochowa"@en ;
+        ramon:code  "PL-2244664" ;
+        rdfs:label  "PL-2244664 Częstochowa" .
+
+lau:PL-6040864  ramon:name  "Włocławek"@en ;
+        ramon:code  "PL-6040864" ;
+        rdfs:label  "PL-6040864 Włocławek" .
+
+lau:PL-3183462  ramon:name  "Przemyśl"@en ;
+        ramon:code  "PL-3183462" ;
+        rdfs:label  "PL-3183462 Przemyśl" .
+
+lau:PL-4326562  ramon:name  "Szczecin"@en ;
+        ramon:code  "PL-4326562" ;
+        rdfs:label  "PL-4326562 Szczecin" .
+
+lau:PL-3183506  ramon:name  "Kolbuszowa"@en ;
+        ramon:code  "PL-3183506" ;
+        rdfs:label  "PL-3183506 Kolbuszowa" .
+
+lau:PL-2244507  ramon:name  "Lubliniec"@en ;
+        ramon:code  "PL-2244507" ;
+        rdfs:label  "PL-2244507 Lubliniec" .
+
+lau:PL-1101915  ramon:name  "Skierniewice"@en ;
+        ramon:code  "PL-1101915" ;
+        rdfs:label  "PL-1101915 Skierniewice" .
+
+lau:PL-1101913  ramon:name  "Rawa Mazowiecka"@en ;
+        ramon:code  "PL-1101913" ;
+        rdfs:label  "PL-1101913 Rawa Mazowiecka" .
+
+lau:PL-2244766  ramon:name  "Gliwice"@en ;
+        ramon:code  "PL-2244766" ;
+        rdfs:label  "PL-2244766 Gliwice" .
+
+lau:PL-2245068  ramon:name  "Jaworzno"@en ;
+        ramon:code  "PL-2245068" ;
+        rdfs:label  "PL-2245068 Jaworzno" .
+
+lau:PL-2245065  ramon:name  "Dąbrowa Górnicza"@en ;
+        ramon:code  "PL-2245065" ;
+        rdfs:label  "PL-2245065 Dąbrowa Górnicza" .
+
+lau:PL-2122205  ramon:name  "Gorlice"@en ;
+        ramon:code  "PL-2122205" ;
+        rdfs:label  "PL-2122205 Gorlice" .
+
+lau:PL-2122207  ramon:name  "Limanowa"@en ;
+        ramon:code  "PL-2122207" ;
+        rdfs:label  "PL-2122207 Limanowa" .
+
+lau:PL-5163102  ramon:name  "Głubczyce"@en ;
+        ramon:code  "PL-5163102" ;
+        rdfs:label  "PL-5163102 Głubczyce" .
+
+lau:PL-5163101  ramon:name  "Brzeg"@en ;
+        ramon:code  "PL-5163101" ;
+        rdfs:label  "PL-5163101 Brzeg" .
+
+lau:PL-5163107  ramon:name  "Nysa"@en ;
+        ramon:code  "PL-5163107" ;
+        rdfs:label  "PL-5163107 Nysa" .
+
+lau:PL-5163106  ramon:name  "Namysłów"@en ;
+        ramon:code  "PL-5163106" ;
+        rdfs:label  "PL-5163106 Namysłów" .
+
+lau:PL-6285404  ramon:name  "Pasłęk"@en ;
+        ramon:code  "PL-6285404" ;
+        rdfs:label  "PL-6285404 Pasłęk" .
+
+lau:PL-1142513  ramon:name  "Mława"@en ;
+        ramon:code  "PL-1142513" ;
+        rdfs:label  "PL-1142513 Mława" .
+
+lau:PL-3183603  ramon:name  "Dębica"@en ;
+        ramon:code  "PL-3183603" ;
+        rdfs:label  "PL-3183603 Dębica" .
+
+lau:PL-3183608  ramon:name  "Nowa Sarzyna"@en ;
+        ramon:code  "PL-3183608" ;
+        rdfs:label  "PL-3183608 Nowa Sarzyna" .
+
+lau:PL-4305913  ramon:name  "Włoszakowice"@en ;
+        ramon:code  "PL-4305913" ;
+        rdfs:label  "PL-4305913 Włoszakowice" .
+
+lau:PL-4305911  ramon:name  "Kościan"@en ;
+        ramon:code  "PL-4305911" ;
+        rdfs:label  "PL-4305911 Kościan" .
+
+lau:PL-4305915  ramon:name  "Nowy Tomyśl"@en ;
+        ramon:code  "PL-4305915" ;
+        rdfs:label  "PL-4305915 Nowy Tomyśl" .
+
+lau:PL-4305914  ramon:name  "Międzychód"@en ;
+        ramon:code  "PL-4305914" ;
+        rdfs:label  "PL-4305914 Międzychód" .
+
+lau:PL-5020216  ramon:name  "Polkowice"@en ;
+        ramon:code  "PL-5020216" ;
+        rdfs:label  "PL-5020216 Polkowice" .
+
+lau:PL-5020211  ramon:name  "Lubin"@en ;
+        ramon:code  "PL-5020211" ;
+        rdfs:label  "PL-5020211 Lubin" .
+
+lau:PL-5020302  ramon:name  "Dzierżoniów"@en ;
+        ramon:code  "PL-5020302" ;
+        rdfs:label  "PL-5020302 Dzierżoniów" .
+
+lau:PL-5163208  ramon:name  "Olesno"@en ;
+        ramon:code  "PL-5163208" ;
+        rdfs:label  "PL-5163208 Olesno" .
+
+lau:PL-5163209  ramon:name  "Ozimek"@en ;
+        ramon:code  "PL-5163209" ;
+        rdfs:label  "PL-5163209 Ozimek" .
+
+lau:PL-5163203  ramon:name  "Kędzierzyn-Koźle"@en ;
+        ramon:code  "PL-5163203" ;
+        rdfs:label  "PL-5163203 Kędzierzyn-Koźle" .
+
+lau:PL-5163204  ramon:name  "Kluczbork"@en ;
+        ramon:code  "PL-5163204" ;
+        rdfs:label  "PL-5163204 Kluczbork" .
+
+lau:PL-5163205  ramon:name  "Krapkowice"@en ;
+        ramon:code  "PL-5163205" ;
+        rdfs:label  "PL-5163205 Krapkowice" .
+
+lau:PL-1101762  ramon:name  "Piotrków Trybunalski"@en ;
+        ramon:code  "PL-1101762" ;
+        rdfs:label  "PL-1101762 Piotrków Trybunalski" .
+
+lau:PL-6040702  ramon:name  "Brodnica"@en ;
+        ramon:code  "PL-6040702" ;
+        rdfs:label  "PL-6040702 Brodnica" .
+
+lau:PL-6040706  ramon:name  "Grudziądz"@en ;
+        ramon:code  "PL-6040706" ;
+        rdfs:label  "PL-6040706 Grudziądz" .
+
+lau:PL-6040704  ramon:name  "Chełmno"@en ;
+        ramon:code  "PL-6040704" ;
+        rdfs:label  "PL-6040704 Chełmno" .
+
+lau:PL-6040705  ramon:name  "Golub-Dobrzyń"@en ;
+        ramon:code  "PL-6040705" ;
+        rdfs:label  "PL-6040705 Golub-Dobrzyń" .
+
+lau:PL-1143018  ramon:name  "Piaseczno"@en ;
+        ramon:code  "PL-1143018" ;
+        rdfs:label  "PL-1143018 Piaseczno" .
+
+lau:PL-4305827  ramon:name  "Turek"@en ;
+        ramon:code  "PL-4305827" ;
+        rdfs:label  "PL-4305827 Turek" .
+
+lau:PL-4305823  ramon:name  "Słupca"@en ;
+        ramon:code  "PL-4305823" ;
+        rdfs:label  "PL-4305823 Słupca" .
+
+lau:PL-6046719  ramon:name  "Żnin"@en ;
+        ramon:code  "PL-6046719" ;
+        rdfs:label  "PL-6046719 Żnin" .
+
+lau:PL-6046710  ramon:name  "Nakło nad Notecią"@en ;
+        ramon:code  "PL-6046710" ;
+        rdfs:label  "PL-6046710 Nakło nad Notecią" .
+
+lau:PL-3203904  ramon:name  "Grajewo"@en ;
+        ramon:code  "PL-3203904" ;
+        rdfs:label  "PL-3203904 Grajewo" .
+
+lau:PL-3203901  ramon:name  "Augustów"@en ;
+        ramon:code  "PL-3203901" ;
+        rdfs:label  "PL-3203901 Augustów" .
+
+lau:PL-3203908  ramon:name  "Mońki"@en ;
+        ramon:code  "PL-3203908" ;
+        rdfs:label  "PL-3203908 Mońki" .
+
+lau:PL-3203862  ramon:name  "Łomża"@en ;
+        ramon:code  "PL-3203862" ;
+        rdfs:label  "PL-3203862 Łomża" .
+
+lau:PL-3061163  ramon:name  "Lublin"@en ;
+        ramon:code  "PL-3061163" ;
+        rdfs:label  "PL-3061163 Lublin" .
+
+lau:PL-6224213  ramon:name  "Starogard Gdański"@en ;
+        ramon:code  "PL-6224213" ;
+        rdfs:label  "PL-6224213 Starogard Gdański" .
+
+lau:PL-6224214  ramon:name  "Tczew"@en ;
+        ramon:code  "PL-6224214" ;
+        rdfs:label  "PL-6224214 Tczew" .
+
+lau:PL-6224216  ramon:name  "Sztum"@en ;
+        ramon:code  "PL-6224216" ;
+        rdfs:label  "PL-6224216 Sztum" .
+
+lau:PL-6285506  ramon:name  "Giżycko"@en ;
+        ramon:code  "PL-6285506" ;
+        rdfs:label  "PL-6285506 Giżycko" .
+
+lau:PL-1101811  ramon:name  "Poddębice"@en ;
+        ramon:code  "PL-1101811" ;
+        rdfs:label  "PL-1101811 Poddębice" .
+
+lau:PL-1101814  ramon:name  "Sieradz"@en ;
+        ramon:code  "PL-1101814" ;
+        rdfs:label  "PL-1101814 Sieradz" .
+
+lau:PL-1101817  ramon:name  "Wieluń"@en ;
+        ramon:code  "PL-1101817" ;
+        rdfs:label  "PL-1101817 Wieluń" .
+
+lau:PL-1101819  ramon:name  "Zduńska Wola"@en ;
+        ramon:code  "PL-1101819" ;
+        rdfs:label  "PL-1101819 Zduńska Wola" .
+
+lau:PL-1101818  ramon:name  "Wieruszów"@en ;
+        ramon:code  "PL-1101818" ;
+        rdfs:label  "PL-1101818 Wieruszów" .
+
+lau:PL-6285407  ramon:name  "Iława"@en ;
+        ramon:code  "PL-6285407" ;
+        rdfs:label  "PL-6285407 Iława" .
+
+lau:PL-6285402  ramon:name  "Braniewo"@en ;
+        ramon:code  "PL-6285402" ;
+        rdfs:label  "PL-6285402 Braniewo" .
+
+lau:PL-6285403  ramon:name  "Działdowo"@en ;
+        ramon:code  "PL-6285403" ;
+        rdfs:label  "PL-6285403 Działdowo" .
+
+lau:PL-1101508  ramon:name  "Pabianice"@en ;
+        ramon:code  "PL-1101508" ;
+        rdfs:label  "PL-1101508 Pabianice" .
+
+lau:PL-1101506  ramon:name  "Koluszki"@en ;
+        ramon:code  "PL-1101506" ;
+        rdfs:label  "PL-1101506 Koluszki" .
+
+lau:PL-1147110  ramon:name  "Łosice"@en ;
+        ramon:code  "PL-1147110" ;
+        rdfs:label  "PL-1147110 Łosice" .
+
+lau:PL-4306116  ramon:name  "Oborniki"@en ;
+        ramon:code  "PL-4306116" ;
+        rdfs:label  "PL-4306116 Oborniki" .
+
+lau:PL-2244876  ramon:name  "Świętochłowice"@en ;
+        ramon:code  "PL-2244876" ;
+        rdfs:label  "PL-2244876 Świętochłowice" .
+
+lau:PL-3061018  ramon:name  "Tomaszów Lubelski"@en ;
+        ramon:code  "PL-3061018" ;
+        rdfs:label  "PL-3061018 Tomaszów Lubelski" .
+
+lau:PL-2244872  ramon:name  "Ruda Śląska"@en ;
+        ramon:code  "PL-2244872" ;
+        rdfs:label  "PL-2244872 Ruda Śląska" .
+
+lau:PL-2244870  ramon:name  "Mysłowice"@en ;
+        ramon:code  "PL-2244870" ;
+        rdfs:label  "PL-2244870 Mysłowice" .
+
+lau:PL-4305720  ramon:name  "Pleszew"@en ;
+        ramon:code  "PL-4305720" ;
+        rdfs:label  "PL-4305720 Pleszew" .
+
+lau:PL-2245114  ramon:name  "Bieruń"@en ;
+        ramon:code  "PL-2245114" ;
+        rdfs:label  "PL-2245114 Bieruń" .
+
+lau:PL-2245110  ramon:name  "Pszczyna"@en ;
+        ramon:code  "PL-2245110" ;
+        rdfs:label  "PL-2245110 Pszczyna" .
+
+lau:PL-5020101  ramon:name  "Bolesławiec"@en ;
+        ramon:code  "PL-5020101" ;
+        rdfs:label  "PL-5020101 Bolesławiec" .
+
+lau:PL-5020105  ramon:name  "Jawor"@en ;
+        ramon:code  "PL-5020105" ;
+        rdfs:label  "PL-5020105 Jawor" .
+
+lau:PL-5020107  ramon:name  "Kamienna Góra"@en ;
+        ramon:code  "PL-5020107" ;
+        rdfs:label  "PL-5020107 Kamienna Góra" .
+
+lau:PL-5020106  ramon:name  "Kowary"@en ;
+        ramon:code  "PL-5020106" ;
+        rdfs:label  "PL-5020106 Kowary" .
+
+lau:PL-4326309  ramon:name  "Sianów"@en ;
+        ramon:code  "PL-4326309" ;
+        rdfs:label  "PL-4326309 Sianów" .
+
+lau:PL-4326308  ramon:name  "Kołobrzeg"@en ;
+        ramon:code  "PL-4326308" ;
+        rdfs:label  "PL-4326308 Kołobrzeg" .
+
+lau:PL-3203761  ramon:name  "Białystok"@en ;
+        ramon:code  "PL-3203761" ;
+        rdfs:label  "PL-3203761 Białystok" .
+
+lau:PL-1147027  ramon:name  "Sierpc"@en ;
+        ramon:code  "PL-1147027" ;
+        rdfs:label  "PL-1147027 Sierpc" .
+
+lau:PL-6224005  ramon:name  "Żukowo"@en ;
+        ramon:code  "PL-6224005" ;
+        rdfs:label  "PL-6224005 Żukowo" .
+
+lau:PL-6224004  ramon:name  "Pruszcz Gdański"@en ;
+        ramon:code  "PL-6224004" ;
+        rdfs:label  "PL-6224004 Pruszcz Gdański" .
+
+lau:PL-4306028  ramon:name  "Wągrowiec"@en ;
+        ramon:code  "PL-4306028" ;
+        rdfs:label  "PL-4306028 Wągrowiec" .
+
+lau:PL-6227206  ramon:name  "Kościerzyna"@en ;
+        ramon:code  "PL-6227206" ;
+        rdfs:label  "PL-6227206 Kościerzyna" .
+
+lau:PL-6227202  ramon:name  "Chojnice"@en ;
+        ramon:code  "PL-6227202" ;
+        rdfs:label  "PL-6227202 Chojnice" .
+
+lau:PL-6227203  ramon:name  "Człuchów"@en ;
+        ramon:code  "PL-6227203" ;
+        rdfs:label  "PL-6227203 Człuchów" .
+
+lau:PL-4305862  ramon:name  "Konin"@en ;
+        ramon:code  "PL-4305862" ;
+        rdfs:label  "PL-4305862 Konin" .
+
+lau:PL-2122009  ramon:name  "Myślenice"@en ;
+        ramon:code  "PL-2122009" ;
+        rdfs:label  "PL-2122009 Myślenice" .
+
+lau:PL-3061062  ramon:name  "Chełm"@en ;
+        ramon:code  "PL-3061062" ;
+        rdfs:label  "PL-3061062 Chełm" .
+
+lau:PL-2244705  ramon:name  "Knurów"@en ;
+        ramon:code  "PL-2244705" ;
+        rdfs:label  "PL-2244705 Knurów" .
+
+lau:PL-2244973  ramon:name  "Rybnik"@en ;
+        ramon:code  "PL-2244973" ;
+        rdfs:label  "PL-2244973 Rybnik" .
+
+lau:PL-5020321  ramon:name  "Boguszów-Gorce"@en ;
+        ramon:code  "PL-5020321" ;
+        rdfs:label  "PL-5020321 Boguszów-Gorce" .
+
+lau:PL-6285662  ramon:name  "Olsztyn"@en ;
+        ramon:code  "PL-6285662" ;
+        rdfs:label  "PL-6285662 Olsztyn" .
+
+lau:PL-1143032  ramon:name  "Łomianki"@en ;
+        ramon:code  "PL-1143032" ;
+        rdfs:label  "PL-1143032 Łomianki" .
+
+lau:PL-4326663  ramon:name  "Świnoujście"@en ;
+        ramon:code  "PL-4326663" ;
+        rdfs:label  "PL-4326663 Świnoujście" .
+
+lau:PL-4306126  ramon:name  "Śrem"@en ;
+        ramon:code  "PL-4306126" ;
+        rdfs:label  "PL-4306126 Śrem" .
+
+lau:PL-5020204  ramon:name  "Góra"@en ;
+        ramon:code  "PL-5020204" ;
+        rdfs:label  "PL-5020204 Góra" .
+
+lau:PL-1142725  ramon:name  "Pionki"@en ;
+        ramon:code  "PL-1142725" ;
+        rdfs:label  "PL-1142725 Pionki" .
+
+lau:PL-2244874  ramon:name  "Siemianowice Śląskie"@en ;
+        ramon:code  "PL-2244874" ;
+        rdfs:label  "PL-2244874 Siemianowice Śląskie" .
+
+lau:PL-2122303  ramon:name  "Chrzanów"@en ;
+        ramon:code  "PL-2122303" ;
+        rdfs:label  "PL-2122303 Chrzanów" .
+
+lau:PL-6040801  ramon:name  "Aleksandrów Kujawski"@en ;
+        ramon:code  "PL-6040801" ;
+        rdfs:label  "PL-6040801 Aleksandrów Kujawski" .
+
+lau:PL-2244979  ramon:name  "Żory"@en ;
+        ramon:code  "PL-2244979" ;
+        rdfs:label  "PL-2244979 Żory" .
+
+lau:PL-4326402  ramon:name  "Choszczno"@en ;
+        ramon:code  "PL-4326402" ;
+        rdfs:label  "PL-4326402 Choszczno" .
+
+lau:PL-4326403  ramon:name  "Drawsko Pomorskie"@en ;
+        ramon:code  "PL-4326403" ;
+        rdfs:label  "PL-4326403 Drawsko Pomorskie" .
+
+lau:PL-2244571  ramon:name  "Piekary Śląskie"@en ;
+        ramon:code  "PL-2244571" ;
+        rdfs:label  "PL-2244571 Piekary Śląskie" .
+
+lau:PL-4081404  ramon:name  "Nowa Sól"@en ;
+        ramon:code  "PL-4081404" ;
+        rdfs:label  "PL-4081404 Nowa Sól" .
+
+lau:PL-4081402  ramon:name  "Krosno Odrzańskie"@en ;
+        ramon:code  "PL-4081402" ;
+        rdfs:label  "PL-4081402 Krosno Odrzańskie" .
+
+lau:PL-4081408  ramon:name  "Świebodzin"@en ;
+        ramon:code  "PL-4081408" ;
+        rdfs:label  "PL-4081408 Świebodzin" .
+
+lau:PL-4081409  ramon:name  "Sulechów"@en ;
+        ramon:code  "PL-4081409" ;
+        rdfs:label  "PL-4081409 Sulechów" .
+
+lau:PL-3265309  ramon:name  "Sandomierz"@en ;
+        ramon:code  "PL-3265309" ;
+        rdfs:label  "PL-3265309 Sandomierz" .
+
+lau:PL-3265210  ramon:name  "Skarżysko-Kamienna"@en ;
+        ramon:code  "PL-3265210" ;
+        rdfs:label  "PL-3265210 Skarżysko-Kamienna" .
+
+lau:PL-3265211  ramon:name  "Starachowice"@en ;
+        ramon:code  "PL-3265211" ;
+        rdfs:label  "PL-3265211 Starachowice" .
+
+lau:PL-3183519  ramon:name  "Strzyżów"@en ;
+        ramon:code  "PL-3183519" ;
+        rdfs:label  "PL-3183519 Strzyżów" .
+
+lau:PL-2244403  ramon:name  "Cieszyn"@en ;
+        ramon:code  "PL-2244403" ;
+        rdfs:label  "PL-2244403 Cieszyn" .
+
+lau:PL-2244402  ramon:name  "Czechowice-Dziedzice"@en ;
+        ramon:code  "PL-2244402" ;
+        rdfs:label  "PL-2244402 Czechowice-Dziedzice" .
+
+lau:PL-3183510  ramon:name  "Łańcut"@en ;
+        ramon:code  "PL-3183510" ;
+        rdfs:label  "PL-3183510 Łańcut" .
+
+lau:PL-1142611  ramon:name  "Maków Mazowiecki"@en ;
+        ramon:code  "PL-1142611" ;
+        rdfs:label  "PL-1142611 Maków Mazowiecki" .
+
+lau:PL-1142616  ramon:name  "Ostrów Mazowiecka"@en ;
+        ramon:code  "PL-1142616" ;
+        rdfs:label  "PL-1142616 Ostrów Mazowiecka" .
+
+lau:PL-3183515  ramon:name  "Ropczyce"@en ;
+        ramon:code  "PL-3183515" ;
+        rdfs:label  "PL-3183515 Ropczyce" .
+
+lau:PL-3183516  ramon:name  "Trzebownisko"@en ;
+        ramon:code  "PL-3183516" ;
+        rdfs:label  "PL-3183516 Trzebownisko" .
+
+lau:PL-1142615  ramon:name  "Kadzidło"@en ;
+        ramon:code  "PL-1142615" ;
+        rdfs:label  "PL-1142615 Kadzidło" .
+
+lau:PL-3060901  ramon:name  "Międzyrzec Podlaski"@en ;
+        ramon:code  "PL-3060901" ;
+        rdfs:label  "PL-3060901 Międzyrzec Podlaski" .
+
+lau:PL-1147019  ramon:name  "Stara Biała"@en ;
+        ramon:code  "PL-1147019" ;
+        rdfs:label  "PL-1147019 Stara Biała" .
+
+lau:PL-3061117  ramon:name  "Świdnik"@en ;
+        ramon:code  "PL-3061117" ;
+        rdfs:label  "PL-3061117 Świdnik" .
+
+lau:PL-1142865  ramon:name  "Warszawa"@en ;
+        ramon:code  "PL-1142865" ;
+        rdfs:label  "PL-1142865 Warszawa" .
+
+lau:PL-3061110  ramon:name  "Łęczna"@en ;
+        ramon:code  "PL-3061110" ;
+        rdfs:label  "PL-3061110 Łęczna" .
+
+lau:PL-4305761  ramon:name  "Kalisz"@en ;
+        ramon:code  "PL-4305761" ;
+        rdfs:label  "PL-4305761 Kalisz" .
+
+lau:PL-2245016  ramon:name  "Zawiercie"@en ;
+        ramon:code  "PL-2245016" ;
+        rdfs:label  "PL-2245016 Zawiercie" .
+
+lau:PL-5163110  ramon:name  "Prudnik"@en ;
+        ramon:code  "PL-5163110" ;
+        rdfs:label  "PL-5163110 Prudnik" .
+
+lau:PL-1142502  ramon:name  "Ciechanów"@en ;
+        ramon:code  "PL-1142502" ;
+        rdfs:label  "PL-1142502 Ciechanów" .
+
+lau:PL-3265261  ramon:name  "Kielce"@en ;
+        ramon:code  "PL-3265261" ;
+        rdfs:label  "PL-3265261 Kielce" .
+
+lau:PL-1147062  ramon:name  "Płock"@en ;
+        ramon:code  "PL-1147062" ;
+        rdfs:label  "PL-1147062 Płock" .
+
+lau:PL-1142914  ramon:name  "Nowy Dwór Mazowiecki"@en ;
+        ramon:code  "PL-1142914" ;
+        rdfs:label  "PL-1142914 Nowy Dwór Mazowiecki" .
+
+lau:PL-1142917  ramon:name  "Otwock"@en ;
+        ramon:code  "PL-1142917" ;
+        rdfs:label  "PL-1142917 Otwock" .
+
+lau:PL-6224163  ramon:name  "Słupsk"@en ;
+        ramon:code  "PL-6224163" ;
+        rdfs:label  "PL-6224163 Słupsk" .
+
+lau:PL-1142661  ramon:name  "Ostrołęka"@en ;
+        ramon:code  "PL-1142661" ;
+        rdfs:label  "PL-1142661 Ostrołęka" .
+
+lau:PL-1142912  ramon:name  "Mińsk Mazowiecki"@en ;
+        ramon:code  "PL-1142912" ;
+        rdfs:label  "PL-1142912 Mińsk Mazowiecki" .
+
+lau:PL-1147129  ramon:name  "Sokołów Podlaski"@en ;
+        ramon:code  "PL-1147129" ;
+        rdfs:label  "PL-1147129 Sokołów Podlaski" .
+
+lau:PL-5020209  ramon:name  "Chojnów"@en ;
+        ramon:code  "PL-5020209" ;
+        rdfs:label  "PL-5020209 Chojnów" .
+
+lau:PL-4305904  ramon:name  "Gostyń"@en ;
+        ramon:code  "PL-4305904" ;
+        rdfs:label  "PL-4305904 Gostyń" .
+
+lau:PL-4305905  ramon:name  "Grodzisk Wielkopolski"@en ;
+        ramon:code  "PL-4305905" ;
+        rdfs:label  "PL-4305905 Grodzisk Wielkopolski" .
+
+lau:PL-5020203  ramon:name  "Głogów"@en ;
+        ramon:code  "PL-5020203" ;
+        rdfs:label  "PL-5020203 Głogów" .
+
+lau:PL-4306121  ramon:name  "Swarzędz"@en ;
+        ramon:code  "PL-4306121" ;
+        rdfs:label  "PL-4306121 Swarzędz" .
+
+lau:PL-3061020  ramon:name  "Zamość"@en ;
+        ramon:code  "PL-3061020" ;
+        rdfs:label  "PL-3061020 Zamość" .
+
+lau:PL-1147126  ramon:name  "Siedlce"@en ;
+        ramon:code  "PL-1147126" ;
+        rdfs:label  "PL-1147126 Siedlce" .
+
+lau:PL-4306125  ramon:name  "Środa Wielkopolska"@en ;
+        ramon:code  "PL-4306125" ;
+        rdfs:label  "PL-4306125 Środa Wielkopolska" .
+
+lau:PL-4306124  ramon:name  "Szamotuły"@en ;
+        ramon:code  "PL-4306124" ;
+        rdfs:label  "PL-4306124 Szamotuły" .
+
+lau:PL-1142763  ramon:name  "Radom"@en ;
+        ramon:code  "PL-1142763" ;
+        rdfs:label  "PL-1142763 Radom" .
+
+lau:PL-6046814  ramon:name  "Świecie"@en ;
+        ramon:code  "PL-6046814" ;
+        rdfs:label  "PL-6046814 Świecie" .
+
+lau:PL-6046816  ramon:name  "Tuchola"@en ;
+        ramon:code  "PL-6046816" ;
+        rdfs:label  "PL-6046816 Tuchola" .
+
+lau:PL-6046813  ramon:name  "Sępólno Krajeńskie"@en ;
+        ramon:code  "PL-6046813" ;
+        rdfs:label  "PL-6046813 Sępólno Krajeńskie" .
+
+lau:PL-2126915  ramon:name  "Maków Podhalański"@en ;
+        ramon:code  "PL-2126915" ;
+        rdfs:label  "PL-2126915 Maków Podhalański" .
+
+lau:PL-2126917  ramon:name  "Zakopane"@en ;
+        ramon:code  "PL-2126917" ;
+        rdfs:label  "PL-2126917 Zakopane" .
+
+lau:PL-2126911  ramon:name  "Nowy Targ"@en ;
+        ramon:code  "PL-2126911" ;
+        rdfs:label  "PL-2126911 Nowy Targ" .
+
+lau:PL-4305830  ramon:name  "Września"@en ;
+        ramon:code  "PL-4305830" ;
+        rdfs:label  "PL-4305830 Września" .
+
+lau:PL-4081361  ramon:name  "Gorzów Wielkopolski"@en ;
+        ramon:code  "PL-4081361" ;
+        rdfs:label  "PL-4081361 Gorzów Wielkopolski" .
+
+lau:PL-6046709  ramon:name  "Mogilno"@en ;
+        ramon:code  "PL-6046709" ;
+        rdfs:label  "PL-6046709 Mogilno" .
+
+lau:PL-6046707  ramon:name  "Inowrocław"@en ;
+        ramon:code  "PL-6046707" ;
+        rdfs:label  "PL-6046707 Inowrocław" .
+
+lau:PL-2122019  ramon:name  "Wieliczka"@en ;
+        ramon:code  "PL-2122019" ;
+        rdfs:label  "PL-2122019 Wieliczka" .
+
+lau:PL-2122014  ramon:name  "Proszowice"@en ;
+        ramon:code  "PL-2122014" ;
+        rdfs:label  "PL-2122014 Proszowice" .
+
+lau:PL-6040603  ramon:name  "Koronowo"@en ;
+        ramon:code  "PL-6040603" ;
+        rdfs:label  "PL-6040603 Koronowo" .
+
+lau:PL-3183414  ramon:name  "Przeworsk"@en ;
+        ramon:code  "PL-3183414" ;
+        rdfs:label  "PL-3183414 Przeworsk" .
+
+lau:PL-3183413  ramon:name  "Żurawica"@en ;
+        ramon:code  "PL-3183413" ;
+        rdfs:label  "PL-3183413 Żurawica" .
+
+lau:PL-3265313  ramon:name  "Włoszczowa"@en ;
+        ramon:code  "PL-3265313" ;
+        rdfs:label  "PL-3265313 Włoszczowa" .
+
+lau:PL-3265312  ramon:name  "Staszów"@en ;
+        ramon:code  "PL-3265312" ;
+        rdfs:label  "PL-3265312 Staszów" .
+
+lau:PL-6040762  ramon:name  "Grudziądz"@en ;
+        ramon:code  "PL-6040762" ;
+        rdfs:label  "PL-6040762 Grudziądz" .
+
+lau:PL-1101809  ramon:name  "Działoszyn"@en ;
+        ramon:code  "PL-1101809" ;
+        rdfs:label  "PL-1101809 Działoszyn" .
+
+lau:PL-1101803  ramon:name  "Łask"@en ;
+        ramon:code  "PL-1101803" ;
+        rdfs:label  "PL-1101803 Łask" .
+
+lau:PL-3203807  ramon:name  "Łomża"@en ;
+        ramon:code  "PL-3203807" ;
+        rdfs:label  "PL-3203807 Łomża" .
+
+lau:PL-3203806  ramon:name  "Kolno"@en ;
+        ramon:code  "PL-3203806" ;
+        rdfs:label  "PL-3203806 Kolno" .
+
+lau:PL-3203805  ramon:name  "Hajnówka"@en ;
+        ramon:code  "PL-3203805" ;
+        rdfs:label  "PL-3203805 Hajnówka" .
+
+lau:PL-3203803  ramon:name  "Bielsk Podlaski"@en ;
+        ramon:code  "PL-3203803" ;
+        rdfs:label  "PL-3203803 Bielsk Podlaski" .
+
+lau:PL-1142622  ramon:name  "Przasnysz"@en ;
+        ramon:code  "PL-1142622" ;
+        rdfs:label  "PL-1142622 Przasnysz" .
+
+lau:PL-3183563  ramon:name  "Rzeszów"@en ;
+        ramon:code  "PL-3183563" ;
+        rdfs:label  "PL-3183563 Rzeszów" .
+
+lau:PL-3061064  ramon:name  "Zamość"@en ;
+        ramon:code  "PL-3061064" ;
+        rdfs:label  "PL-3061064 Zamość" .
+
+lau:PL-1143038  ramon:name  "Żyrardów"@en ;
+        ramon:code  "PL-1143038" ;
+        rdfs:label  "PL-1143038 Żyrardów" .
+
+lau:PL-6285505  ramon:name  "Ełk"@en ;
+        ramon:code  "PL-6285505" ;
+        rdfs:label  "PL-6285505 Ełk" .
+
+lau:PL-2244967  ramon:name  "Jastrzębie-Zdrój"@en ;
+        ramon:code  "PL-2244967" ;
+        rdfs:label  "PL-2244967 Jastrzębie-Zdrój" .
+
+lau:PL-4305712  ramon:name  "Krotoszyn"@en ;
+        ramon:code  "PL-4305712" ;
+        rdfs:label  "PL-4305712 Krotoszyn" .
+
+lau:PL-4305717  ramon:name  "Ostrów Wielkopolski"@en ;
+        ramon:code  "PL-4305717" ;
+        rdfs:label  "PL-4305717 Ostrów Wielkopolski" .
+
+lau:PL-5020324  ramon:name  "Ząbkowice Śląskie"@en ;
+        ramon:code  "PL-5020324" ;
+        rdfs:label  "PL-5020324 Ząbkowice Śląskie" .
+
+lau:PL-3183305  ramon:name  "Jasło"@en ;
+        ramon:code  "PL-3183305" ;
+        rdfs:label  "PL-3183305 Jasło" .
+
+lau:PL-4305718  ramon:name  "Ostrzeszów"@en ;
+        ramon:code  "PL-4305718" ;
+        rdfs:label  "PL-4305718 Ostrzeszów" .
+
+lau:PL-3183307  ramon:name  "Rymanów"@en ;
+        ramon:code  "PL-3183307" ;
+        rdfs:label  "PL-3183307 Rymanów" .
+
+lau:PL-3183301  ramon:name  "Ustrzyki Dolne"@en ;
+        ramon:code  "PL-3183301" ;
+        rdfs:label  "PL-3183301 Ustrzyki Dolne" .
+
+lau:PL-3183302  ramon:name  "Brzozów"@en ;
+        ramon:code  "PL-3183302" ;
+        rdfs:label  "PL-3183302 Brzozów" .
+
+lau:PL-4326313  ramon:name  "Darłowo"@en ;
+        ramon:code  "PL-4326313" ;
+        rdfs:label  "PL-4326313 Darłowo" .
+
+lau:PL-3203711  ramon:name  "Sokółka"@en ;
+        ramon:code  "PL-3203711" ;
+        rdfs:label  "PL-3203711 Sokółka" .
+
+lau:PL-5020112  ramon:name  "Lwówek Śląski"@en ;
+        ramon:code  "PL-5020112" ;
+        rdfs:label  "PL-5020112 Lwówek Śląski" .
+
+lau:PL-5020110  ramon:name  "Lubań"@en ;
+        ramon:code  "PL-5020110" ;
+        rdfs:label  "PL-5020110 Lubań" .
+
+lau:PL-1101963  ramon:name  "Skierniewice"@en ;
+        ramon:code  "PL-1101963" ;
+        rdfs:label  "PL-1101963 Skierniewice" .
+
+lau:PL-1142537  ramon:name  "Żuromin"@en ;
+        ramon:code  "PL-1142537" ;
+        rdfs:label  "PL-1142537 Żuromin" .
+
+lau:PL-6224015  ramon:name  "Wejherowo"@en ;
+        ramon:code  "PL-6224015" ;
+        rdfs:label  "PL-6224015 Wejherowo" .
+
+lau:PL-6224010  ramon:name  "Nowy Dwór Gdański"@en ;
+        ramon:code  "PL-6224010" ;
+        rdfs:label  "PL-6224010 Nowy Dwór Gdański" .
+
+lau:PL-6224011  ramon:name  "Puck"@en ;
+        ramon:code  "PL-6224011" ;
+        rdfs:label  "PL-6224011 Puck" .
+
+lau:PL-3183664  ramon:name  "Tarnobrzeg"@en ;
+        ramon:code  "PL-3183664" ;
+        rdfs:label  "PL-3183664 Tarnobrzeg" .
+
+lau:PL-6285611  ramon:name  "Nidzica"@en ;
+        ramon:code  "PL-6285611" ;
+        rdfs:label  "PL-6285611 Nidzica" .
+
+lau:PL-6285610  ramon:name  "Mrągowo"@en ;
+        ramon:code  "PL-6285610" ;
+        rdfs:label  "PL-6285610 Mrągowo" .
+
+lau:PL-1143028  ramon:name  "Sochaczew"@en ;
+        ramon:code  "PL-1143028" ;
+        rdfs:label  "PL-1143028 Sochaczew" .
+
+lau:PL-6285614  ramon:name  "Biskupiec"@en ;
+        ramon:code  "PL-6285614" ;
+        rdfs:label  "PL-6285614 Biskupiec" .
+
+lau:PL-6285617  ramon:name  "Szczytno"@en ;
+        ramon:code  "PL-6285617" ;
+        rdfs:label  "PL-6285617 Szczytno" .
+
+lau:PL-1143021  ramon:name  "Pruszków"@en ;
+        ramon:code  "PL-1143021" ;
+        rdfs:label  "PL-1143021 Pruszków" .
+
+lau:PL-4326611  ramon:name  "Police"@en ;
+        ramon:code  "PL-4326611" ;
+        rdfs:label  "PL-4326611 Police" .
+
+lau:PL-2122463  ramon:name  "Tarnów"@en ;
+        ramon:code  "PL-2122463" ;
+        rdfs:label  "PL-2122463 Tarnów" .
+
+lau:PL-4326614  ramon:name  "Stargard*"@en ;
+        ramon:code  "PL-4326614" ;
+        rdfs:label  "PL-4326614 Stargard*" .
+
+lau:PL-4326361  ramon:name  "Koszalin"@en ;
+        ramon:code  "PL-4326361" ;
+        rdfs:label  "PL-4326361 Koszalin" .
+
+lau:PL-5163261  ramon:name  "Opole"@en ;
+        ramon:code  "PL-5163261" ;
+        rdfs:label  "PL-5163261 Opole" .
+
+lau:PL-3061207  ramon:name  "Kraśnik"@en ;
+        ramon:code  "PL-3061207" ;
+        rdfs:label  "PL-3061207 Kraśnik" .
+
+lau:PL-3061205  ramon:name  "Janów Lubelski"@en ;
+        ramon:code  "PL-3061205" ;
+        rdfs:label  "PL-3061205 Janów Lubelski" .
+
+lau:PL-5020422  ramon:name  "Wołów"@en ;
+        ramon:code  "PL-5020422" ;
+        rdfs:label  "PL-5020422 Wołów" .
+
+lau:PL-5020423  ramon:name  "Długołęka"@en ;
+        ramon:code  "PL-5020423" ;
+        rdfs:label  "PL-5020423 Długołęka" .
+
+lau:PL-5020420  ramon:name  "Trzebnica"@en ;
+        ramon:code  "PL-5020420" ;
+        rdfs:label  "PL-5020420 Trzebnica" .
+
+lau:PL-1101701  ramon:name  "Bełchatów"@en ;
+        ramon:code  "PL-1101701" ;
+        rdfs:label  "PL-1101701 Bełchatów" .
+
+lau:PL-1101707  ramon:name  "Opoczno"@en ;
+        ramon:code  "PL-1101707" ;
+        rdfs:label  "PL-1101707 Opoczno" .
+
+lau:PL-2244562  ramon:name  "Bytom"@en ;
+        ramon:code  "PL-2244562" ;
+        rdfs:label  "PL-2244562 Bytom" .
+
+lau:PL-2244417  ramon:name  "Żywiec"@en ;
+        ramon:code  "PL-2244417" ;
+        rdfs:label  "PL-2244417 Żywiec" .
+
+lau:PL-1142723  ramon:name  "Przysucha"@en ;
+        ramon:code  "PL-1142723" ;
+        rdfs:label  "PL-1142723 Przysucha" .
+
+lau:PL-3060919  ramon:name  "Włodawa"@en ;
+        ramon:code  "PL-3060919" ;
+        rdfs:label  "PL-3060919 Włodawa" .
+
+lau:PL-3060913  ramon:name  "Parczew"@en ;
+        ramon:code  "PL-3060913" ;
+        rdfs:label  "PL-3060913 Parczew" .
+
+lau:PL-3060915  ramon:name  "Radzyń Podlaski"@en ;
+        ramon:code  "PL-3060915" ;
+        rdfs:label  "PL-3060915 Radzyń Podlaski" .
+
+lau:PL-3061108  ramon:name  "Lubartów"@en ;
+        ramon:code  "PL-3061108" ;
+        rdfs:label  "PL-3061108 Lubartów" .
+
+lau:PL-3061109  ramon:name  "Niemce"@en ;
+        ramon:code  "PL-3061109" ;
+        rdfs:label  "PL-3061109 Niemce" .
+
+lau:PL-1147004  ramon:name  "Gostynin"@en ;
+        ramon:code  "PL-1147004" ;
+        rdfs:label  "PL-1147004 Gostynin" .
+
+lau:PL-4306001  ramon:name  "Chodzież"@en ;
+        ramon:code  "PL-4306001" ;
+        rdfs:label  "PL-4306001 Chodzież" .
+
+lau:PL-4306002  ramon:name  "Trzcianka"@en ;
+        ramon:code  "PL-4306002" ;
+        rdfs:label  "PL-4306002 Trzcianka" .
+
+lau:PL-2245001  ramon:name  "Będzin"@en ;
+        ramon:code  "PL-2245001" ;
+        rdfs:label  "PL-2245001 Będzin" .
+
+lau:PL-1101902  ramon:name  "Kutno"@en ;
+        ramon:code  "PL-1101902" ;
+        rdfs:label  "PL-1101902 Kutno" .
+
+lau:PL-1142908  ramon:name  "Legionowo"@en ;
+        ramon:code  "PL-1142908" ;
+        rdfs:label  "PL-1142908 Legionowo" .
+
+lau:PL-5020564  ramon:name  "Wrocław"@en ;
+        ramon:code  "PL-5020564" ;
+        rdfs:label  "PL-5020564 Wrocław" .
+
+lau:PL-1142903  ramon:name  "Garwolin"@en ;
+        ramon:code  "PL-1142903" ;
+        rdfs:label  "PL-1142903 Garwolin" .
+
+lau:PL-3183620  ramon:name  "Nowa Dęba"@en ;
+        ramon:code  "PL-3183620" ;
+        rdfs:label  "PL-3183620 Nowa Dęba" .
+
+lau:PL-2122318  ramon:name  "Andrychów"@en ;
+        ramon:code  "PL-2122318" ;
+        rdfs:label  "PL-2122318 Andrychów" .
+
+lau:PL-1147133  ramon:name  "Łochów"@en ;
+        ramon:code  "PL-1147133" ;
+        rdfs:label  "PL-1147133 Łochów" .
+
+lau:PL-2122312  ramon:name  "Olkusz"@en ;
+        ramon:code  "PL-2122312" ;
+        rdfs:label  "PL-2122312 Olkusz" .
+
+lau:PL-2122313  ramon:name  "Oświęcim"@en ;
+        ramon:code  "PL-2122313" ;
+        rdfs:label  "PL-2122313 Oświęcim" .
+
+lau:PL-5020126  ramon:name  "Złotoryja"@en ;
+        ramon:code  "PL-5020126" ;
+        rdfs:label  "PL-5020126 Złotoryja" .
+
+lau:PL-5020125  ramon:name  "Zgorzelec"@en ;
+        ramon:code  "PL-5020125" ;
+        rdfs:label  "PL-5020125 Zgorzelec" .
+
+lau:PL-1101661  ramon:name  "Łódź"@en ;
+        ramon:code  "PL-1101661" ;
+        rdfs:label  "PL-1101661 Łódź" .
+
+lau:PL-2244604  ramon:name  "Mykanów"@en ;
+        ramon:code  "PL-2244604" ;
+        rdfs:label  "PL-2244604 Mykanów" .
+
+lau:PL-2244606  ramon:name  "Kłobuck"@en ;
+        ramon:code  "PL-2244606" ;
+        rdfs:label  "PL-2244606 Kłobuck" .
+
+lau:PL-5020308  ramon:name  "Kłodzko"@en ;
+        ramon:code  "PL-5020308" ;
+        rdfs:label  "PL-5020308 Kłodzko" .
+
+lau:PL-2244609  ramon:name  "Myszków"@en ;
+        ramon:code  "PL-2244609" ;
+        rdfs:label  "PL-2244609 Myszków" .
+
+lau:PL-4305809  ramon:name  "Koło"@en ;
+        ramon:code  "PL-4305809" ;
+        rdfs:label  "PL-4305809 Koło" .
+
+lau:PL-2122416  ramon:name  "Tarnów"@en ;
+        ramon:code  "PL-2122416" ;
+        rdfs:label  "PL-2122416 Tarnów" .
+
+lau:PL-4305803  ramon:name  "Gniezno"@en ;
+        ramon:code  "PL-4305803" ;
+        rdfs:label  "PL-4305803 Gniezno" .
+
+lau:PL-5020262  ramon:name  "Legnica"@en ;
+        ramon:code  "PL-5020262" ;
+        rdfs:label  "PL-5020262 Legnica" .
+
+lau:PL-1142707  ramon:name  "Kozienice"@en ;
+        ramon:code  "PL-1142707" ;
+        rdfs:label  "PL-1142707 Kozienice" .
+
+lau:PL-1142701  ramon:name  "Białobrzegi"@en ;
+        ramon:code  "PL-1142701" ;
+        rdfs:label  "PL-1142701 Białobrzegi" .
+
+lau:PL-1142709  ramon:name  "Lipsko"@en ;
+        ramon:code  "PL-1142709" ;
+        rdfs:label  "PL-1142709 Lipsko" .
+
+lau:PL-2122008  ramon:name  "Miechów"@en ;
+        ramon:code  "PL-2122008" ;
+        rdfs:label  "PL-2122008 Miechów" .
+
+lau:PL-3203963  ramon:name  "Suwałki"@en ;
+        ramon:code  "PL-3203963" ;
+        rdfs:label  "PL-3203963 Suwałki" .
+
+lau:PL-6040808  ramon:name  "Lipno"@en ;
+        ramon:code  "PL-6040808" ;
+        rdfs:label  "PL-6040808 Lipno" .
+
+lau:PL-2122001  ramon:name  "Bochnia"@en ;
+        ramon:code  "PL-2122001" ;
+        rdfs:label  "PL-2122001 Bochnia" .
+
+lau:PL-2122006  ramon:name  "Skawina"@en ;
+        ramon:code  "PL-2122006" ;
+        rdfs:label  "PL-2122006 Skawina" .
+
+lau:PL-3265308  ramon:name  "Pińczów"@en ;
+        ramon:code  "PL-3265308" ;
+        rdfs:label  "PL-3265308 Pińczów" .
+
+lau:PL-6040615  ramon:name  "Lubicz"@en ;
+        ramon:code  "PL-6040615" ;
+        rdfs:label  "PL-6040615 Lubicz" .
+
+lau:PL-3183404  ramon:name  "Jarosław"@en ;
+        ramon:code  "PL-3183404" ;
+        rdfs:label  "PL-3183404 Jarosław" .
+
+lau:PL-3265306  ramon:name  "Opatów"@en ;
+        ramon:code  "PL-3265306" ;
+        rdfs:label  "PL-3265306 Opatów" .
+
+lau:PL-3183409  ramon:name  "Lubaczów"@en ;
+        ramon:code  "PL-3183409" ;
+        rdfs:label  "PL-3183409 Lubaczów" .
+
+lau:PL-3265301  ramon:name  "Busko-Zdrój"@en ;
+        ramon:code  "PL-3265301" ;
+        rdfs:label  "PL-3265301 Busko-Zdrój" .
+
+lau:PL-3265302  ramon:name  "Jędrzejów"@en ;
+        ramon:code  "PL-3265302" ;
+        rdfs:label  "PL-3265302 Jędrzejów" .
+
+lau:PL-3265303  ramon:name  "Kazimierza Wielka"@en ;
+        ramon:code  "PL-3265303" ;
+        rdfs:label  "PL-3265303 Kazimierza Wielka" .
+
+lau:PL-2244513  ramon:name  "Tarnowskie Góry"@en ;
+        ramon:code  "PL-2244513" ;
+        rdfs:label  "PL-2244513 Tarnowskie Góry" .
+
+lau:PL-5020418  ramon:name  "Środa Śląska"@en ;
+        ramon:code  "PL-5020418" ;
+        rdfs:label  "PL-5020418 Środa Śląska" .
+
+lau:PL-5020417  ramon:name  "Strzelin"@en ;
+        ramon:code  "PL-5020417" ;
+        rdfs:label  "PL-5020417 Strzelin" .
+
+lau:PL-5020415  ramon:name  "Oława"@en ;
+        ramon:code  "PL-5020415" ;
+        rdfs:label  "PL-5020415 Oława" .
+
+lau:PL-5020414  ramon:name  "Oleśnica"@en ;
+        ramon:code  "PL-5020414" ;
+        rdfs:label  "PL-5020414 Oleśnica" .
+
+lau:PL-5020413  ramon:name  "Milicz"@en ;
+        ramon:code  "PL-5020413" ;
+        rdfs:label  "PL-5020413 Milicz" .
+
+lau:PL-6224209  ramon:name  "Malbork"@en ;
+        ramon:code  "PL-6224209" ;
+        rdfs:label  "PL-6224209 Malbork" .
+
+lau:PL-5020161  ramon:name  "Jelenia Góra"@en ;
+        ramon:code  "PL-5020161" ;
+        rdfs:label  "PL-5020161 Jelenia Góra" .
+
+lau:PL-1101521  ramon:name  "Brzeziny"@en ;
+        ramon:code  "PL-1101521" ;
+        rdfs:label  "PL-1101521 Brzeziny" .
+
+lau:PL-1101520  ramon:name  "Zgierz"@en ;
+        ramon:code  "PL-1101520" ;
+        rdfs:label  "PL-1101520 Zgierz" .
+
+lau:PL-3203814  ramon:name  "Zambrów"@en ;
+        ramon:code  "PL-3203814" ;
+        rdfs:label  "PL-3203814 Zambrów" .
+
+lau:PL-3203810  ramon:name  "Siemiatycze"@en ;
+        ramon:code  "PL-3203810" ;
+        rdfs:label  "PL-3203810 Siemiatycze" .
+
+lau:PL-3203813  ramon:name  "Wysokie Mazowieckie"@en ;
+        ramon:code  "PL-3203813" ;
+        rdfs:label  "PL-3203813 Wysokie Mazowieckie" .
+
+lau:PL-1142635  ramon:name  "Wyszków"@en ;
+        ramon:code  "PL-1142635" ;
+        rdfs:label  "PL-1142635 Wyszków" .
+
+lau:PL-3060961  ramon:name  "Biała Podlaska"@en ;
+        ramon:code  "PL-3060961" ;
+        rdfs:label  "PL-3060961 Biała Podlaska" .
+
+lau:PL-6285513  ramon:name  "Olecko"@en ;
+        ramon:code  "PL-6285513" ;
+        rdfs:label  "PL-6285513 Olecko" .
+
+lau:PL-1101905  ramon:name  "Łowicz"@en ;
+        ramon:code  "PL-1101905" ;
+        rdfs:label  "PL-1101905 Łowicz" .
+
+lau:PL-1101904  ramon:name  "Łęczyca"@en ;
+        ramon:code  "PL-1101904" ;
+        rdfs:label  "PL-1101904 Łęczyca" .
+
+lau:PL-6285516  ramon:name  "Pisz"@en ;
+        ramon:code  "PL-6285516" ;
+        rdfs:label  "PL-6285516 Pisz" .
+
+lau:PL-2244778  ramon:name  "Zabrze"@en ;
+        ramon:code  "PL-2244778" ;
+        rdfs:label  "PL-2244778 Zabrze" .
+
+lau:PL-6285518  ramon:name  "Gołdap"@en ;
+        ramon:code  "PL-6285518" ;
+        rdfs:label  "PL-6285518 Gołdap" .
+
+lau:PL-6285519  ramon:name  "Węgorzewo"@en ;
+        ramon:code  "PL-6285519" ;
+        rdfs:label  "PL-6285519 Węgorzewo" .
+
+lau:PL-2245075  ramon:name  "Sosnowiec"@en ;
+        ramon:code  "PL-2245075" ;
+        rdfs:label  "PL-2245075 Sosnowiec" .
+
+lau:PL-4305708  ramon:name  "Kępno"@en ;
+        ramon:code  "PL-4305708" ;
+        rdfs:label  "PL-4305708 Kępno" .
+
+lau:PL-4305706  ramon:name  "Jarocin"@en ;
+        ramon:code  "PL-4305706" ;
+        rdfs:label  "PL-4305706 Jarocin" .
+
+lau:PL-4305707  ramon:name  "Opatówek"@en ;
+        ramon:code  "PL-4305707" ;
+        rdfs:label  "PL-4305707 Opatówek" .
+
+lau:PL-2122210  ramon:name  "Chełmiec"@en ;
+        ramon:code  "PL-2122210" ;
+        rdfs:label  "PL-2122210 Chełmiec" .
+
+lau:PL-3183317  ramon:name  "Sanok"@en ;
+        ramon:code  "PL-3183317" ;
+        rdfs:label  "PL-3183317 Sanok" .
+
+lau:PL-2245177  ramon:name  "Tychy"@en ;
+        ramon:code  "PL-2245177" ;
+        rdfs:label  "PL-2245177 Tychy" .
+
+lau:PL-3203702  ramon:name  "Łapy"@en ;
+        ramon:code  "PL-3203702" ;
+        rdfs:label  "PL-3203702 Łapy" .
+
+lau:PL-1142934  ramon:name  "Wołomin"@en ;
+        ramon:code  "PL-1142934" ;
+        rdfs:label  "PL-1142934 Wołomin" .
+
+lau:PL-1142524  ramon:name  "Pułtusk"@en ;
+        ramon:code  "PL-1142524" ;
+        rdfs:label  "PL-1142524 Pułtusk" .
+
+lau:PL-1142520  ramon:name  "Płońsk"@en ;
+        ramon:code  "PL-1142520" ;
+        rdfs:label  "PL-1142520 Płońsk" .

@@ -21,6 +21,11 @@ nuts:FI ramon:code "FI" .
 nuts:FI ngeo:geometry nuts:FI_geometry .
 
 ```
+# Run scripts
+```bash
+bash loop.sh convert-lau1.tarql ../codes.tsv ../data/LAU1/ ../rdf/ lau4
+bash loop.sh convert.tarql ../codes.tsv ../data/ ../rdf/ lau5 ","
+```
 # LAU 1 
 LAU 1 is the same as NUTS3 for these countries:
 * AT
@@ -227,6 +232,5 @@ For DK LAU1+LAU2 seem to make uniq ID
 * POP - numeric, blanks: "n.a.", "", make regex filter only digits
 * AREA - same as POP
 
-# TODO
-TODO Add langtag for local names
+
 

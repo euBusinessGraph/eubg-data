@@ -1,0 +1,324 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:SK-605  ramon:name  "Krupina"@en ;
+        ramon:code  "SK-605" ;
+        rdfs:label  "SK-605 Krupina" .
+
+lau:SK-308  ramon:name  "Púchov"@en ;
+        ramon:code  "SK-308" ;
+        rdfs:label  "SK-308 Púchov" .
+
+lau:SK-607  ramon:name  "Poltár"@en ;
+        ramon:code  "SK-607" ;
+        rdfs:label  "SK-607 Poltár" .
+
+lau:SK-606  ramon:name  "Lučenec"@en ;
+        ramon:code  "SK-606" ;
+        rdfs:label  "SK-606 Lučenec" .
+
+lau:SK-601  ramon:name  "Banská Bystrica"@en ;
+        ramon:code  "SK-601" ;
+        rdfs:label  "SK-601 Banská Bystrica" .
+
+lau:SK-709  ramon:name  "Snina"@en ;
+        ramon:code  "SK-709" ;
+        rdfs:label  "SK-709 Snina" .
+
+lau:SK-603  ramon:name  "Brezno"@en ;
+        ramon:code  "SK-603" ;
+        rdfs:label  "SK-603 Brezno" .
+
+lau:SK-602  ramon:name  "Banská Štiavnica"@en ;
+        ramon:code  "SK-602" ;
+        rdfs:label  "SK-602 Banská Štiavnica" .
+
+lau:SK-704  ramon:name  "Levoča"@en ;
+        ramon:code  "SK-704" ;
+        rdfs:label  "SK-704 Levoča" .
+
+lau:SK-705  ramon:name  "Medzilaborce"@en ;
+        ramon:code  "SK-705" ;
+        rdfs:label  "SK-705 Medzilaborce" .
+
+lau:SK-706  ramon:name  "Poprad"@en ;
+        ramon:code  "SK-706" ;
+        rdfs:label  "SK-706 Poprad" .
+
+lau:SK-707  ramon:name  "Prešov"@en ;
+        ramon:code  "SK-707" ;
+        rdfs:label  "SK-707 Prešov" .
+
+lau:SK-609  ramon:name  "Rimavská Sobota"@en ;
+        ramon:code  "SK-609" ;
+        rdfs:label  "SK-609 Rimavská Sobota" .
+
+lau:SK-701  ramon:name  "Bardejov"@en ;
+        ramon:code  "SK-701" ;
+        rdfs:label  "SK-701 Bardejov" .
+
+lau:SK-702  ramon:name  "Humenné"@en ;
+        ramon:code  "SK-702" ;
+        rdfs:label  "SK-702 Humenné" .
+
+lau:SK-703  ramon:name  "Kežmarok"@en ;
+        ramon:code  "SK-703" ;
+        rdfs:label  "SK-703 Kežmarok" .
+
+lau:SK-608  ramon:name  "Revúca"@en ;
+        ramon:code  "SK-608" ;
+        rdfs:label  "SK-608 Revúca" .
+
+lau:SK-708  ramon:name  "Sabinov"@en ;
+        ramon:code  "SK-708" ;
+        rdfs:label  "SK-708 Sabinov" .
+
+lau:SK-305  ramon:name  "Partizánske"@en ;
+        ramon:code  "SK-305" ;
+        rdfs:label  "SK-305 Partizánske" .
+
+lau:SK-613  ramon:name  "Žiar nad Hronom"@en ;
+        ramon:code  "SK-613" ;
+        rdfs:label  "SK-613 Žiar nad Hronom" .
+
+lau:SK-304  ramon:name  "Nové Mesto nad Váhom"@en ;
+        ramon:code  "SK-304" ;
+        rdfs:label  "SK-304 Nové Mesto nad Váhom" .
+
+lau:SK-508  ramon:name  "Ružomberok"@en ;
+        ramon:code  "SK-508" ;
+        rdfs:label  "SK-508 Ružomberok" .
+
+lau:SK-604  ramon:name  "Detva"@en ;
+        ramon:code  "SK-604" ;
+        rdfs:label  "SK-604 Detva" .
+
+lau:SK-407  ramon:name  "Zlaté Moravce"@en ;
+        ramon:code  "SK-407" ;
+        rdfs:label  "SK-407 Zlaté Moravce" .
+
+lau:SK-406  ramon:name  "Topoľčany"@en ;
+        ramon:code  "SK-406" ;
+        rdfs:label  "SK-406 Topoľčany" .
+
+lau:SK-405  ramon:name  "Šaľa"@en ;
+        ramon:code  "SK-405" ;
+        rdfs:label  "SK-405 Šaľa" .
+
+lau:SK-404  ramon:name  "Nové Zámky"@en ;
+        ramon:code  "SK-404" ;
+        rdfs:label  "SK-404 Nové Zámky" .
+
+lau:SK-403  ramon:name  "Nitra"@en ;
+        ramon:code  "SK-403" ;
+        rdfs:label  "SK-403 Nitra" .
+
+lau:SK-402  ramon:name  "Levice"@en ;
+        ramon:code  "SK-402" ;
+        rdfs:label  "SK-402 Levice" .
+
+lau:SK-401  ramon:name  "Komárno"@en ;
+        ramon:code  "SK-401" ;
+        rdfs:label  "SK-401 Komárno" .
+
+lau:SK-509  ramon:name  "Turčianske Teplice"@en ;
+        ramon:code  "SK-509" ;
+        rdfs:label  "SK-509 Turčianske Teplice" .
+
+lau:SK-810  ramon:name  "Spišská Nová Ves"@en ;
+        ramon:code  "SK-810" ;
+        rdfs:label  "SK-810 Spišská Nová Ves" .
+
+lau:SK-811  ramon:name  "Trebišov"@en ;
+        ramon:code  "SK-811" ;
+        rdfs:label  "SK-811 Trebišov" .
+
+lau:SK-504  ramon:name  "Kysucké Nové Mesto"@en ;
+        ramon:code  "SK-504" ;
+        rdfs:label  "SK-504 Kysucké Nové Mesto" .
+
+lau:SK-505  ramon:name  "Liptovský Mikuláš"@en ;
+        ramon:code  "SK-505" ;
+        rdfs:label  "SK-505 Liptovský Mikuláš" .
+
+lau:SK-502  ramon:name  "Čadca"@en ;
+        ramon:code  "SK-502" ;
+        rdfs:label  "SK-502 Čadca" .
+
+lau:SK-302  ramon:name  "Dubnica nad Váhom"@en ;
+        ramon:code  "SK-302" ;
+        rdfs:label  "SK-302 Dubnica nad Váhom" .
+
+lau:SK-501  ramon:name  "Bytča"@en ;
+        ramon:code  "SK-501" ;
+        rdfs:label  "SK-501 Bytča" .
+
+lau:SK-201  ramon:name  "Dunajská Streda"@en ;
+        ramon:code  "SK-201" ;
+        rdfs:label  "SK-201 Dunajská Streda" .
+
+lau:SK-309  ramon:name  "Trenčín"@en ;
+        ramon:code  "SK-309" ;
+        rdfs:label  "SK-309 Trenčín" .
+
+lau:SK-203  ramon:name  "Hlohovec"@en ;
+        ramon:code  "SK-203" ;
+        rdfs:label  "SK-203 Hlohovec" .
+
+lau:SK-202  ramon:name  "Sereď"@en ;
+        ramon:code  "SK-202" ;
+        rdfs:label  "SK-202 Sereď" .
+
+lau:SK-205  ramon:name  "Senica"@en ;
+        ramon:code  "SK-205" ;
+        rdfs:label  "SK-205 Senica" .
+
+lau:SK-204  ramon:name  "Piešťany"@en ;
+        ramon:code  "SK-204" ;
+        rdfs:label  "SK-204 Piešťany" .
+
+lau:SK-207  ramon:name  "Trnava"@en ;
+        ramon:code  "SK-207" ;
+        rdfs:label  "SK-207 Trnava" .
+
+lau:SK-206  ramon:name  "Skalica"@en ;
+        ramon:code  "SK-206" ;
+        rdfs:label  "SK-206 Skalica" .
+
+lau:SK-612  ramon:name  "Nová Baňa"@en ;
+        ramon:code  "SK-612" ;
+        rdfs:label  "SK-612 Nová Baňa" .
+
+lau:SK-301  ramon:name  "Bánovce nad Bebravou"@en ;
+        ramon:code  "SK-301" ;
+        rdfs:label  "SK-301 Bánovce nad Bebravou" .
+
+lau:SK-610  ramon:name  "Veľký Krtíš"@en ;
+        ramon:code  "SK-610" ;
+        rdfs:label  "SK-610 Veľký Krtíš" .
+
+lau:SK-611  ramon:name  "Zvolen"@en ;
+        ramon:code  "SK-611" ;
+        rdfs:label  "SK-611 Zvolen" .
+
+lau:SK-713  ramon:name  "Vranov nad Topľou"@en ;
+        ramon:code  "SK-713" ;
+        rdfs:label  "SK-713 Vranov nad Topľou" .
+
+lau:SK-712  ramon:name  "Svidník"@en ;
+        ramon:code  "SK-712" ;
+        rdfs:label  "SK-712 Svidník" .
+
+lau:SK-711  ramon:name  "Stropkov"@en ;
+        ramon:code  "SK-711" ;
+        rdfs:label  "SK-711 Stropkov" .
+
+lau:SK-307  ramon:name  "Prievidza"@en ;
+        ramon:code  "SK-307" ;
+        rdfs:label  "SK-307 Prievidza" .
+
+lau:SK-506  ramon:name  "Martin"@en ;
+        ramon:code  "SK-506" ;
+        rdfs:label  "SK-506 Martin" .
+
+lau:SK-108  ramon:name  "Senec"@en ;
+        ramon:code  "SK-108" ;
+        rdfs:label  "SK-108 Senec" .
+
+lau:SK-306  ramon:name  "Považská Bystrica"@en ;
+        ramon:code  "SK-306" ;
+        rdfs:label  "SK-306 Považská Bystrica" .
+
+lau:SK-507  ramon:name  "Námestovo"@en ;
+        ramon:code  "SK-507" ;
+        rdfs:label  "SK-507 Námestovo" .
+
+lau:SK-102  ramon:name  "Bratislava - urban part Ružinov"@en ;
+        ramon:code  "SK-102" ;
+        rdfs:label  "SK-102 Bratislava - urban part Ružinov" .
+
+lau:SK-103  ramon:name  "Bratislava - urban part Nové Mesto"@en ;
+        ramon:code  "SK-103" ;
+        rdfs:label  "SK-103 Bratislava - urban part Nové Mesto" .
+
+lau:SK-101  ramon:name  "Bratislava - urban part Staré Mesto"@en ;
+        ramon:code  "SK-101" ;
+        rdfs:label  "SK-101 Bratislava - urban part Staré Mesto" .
+
+lau:SK-106  ramon:name  "Malacky"@en ;
+        ramon:code  "SK-106" ;
+        rdfs:label  "SK-106 Malacky" .
+
+lau:SK-107  ramon:name  "Pezinok"@en ;
+        ramon:code  "SK-107" ;
+        rdfs:label  "SK-107 Pezinok" .
+
+lau:SK-104  ramon:name  "Bratislava - urban part Karlova Ves"@en ;
+        ramon:code  "SK-104" ;
+        rdfs:label  "SK-104 Bratislava - urban part Karlova Ves" .
+
+lau:SK-105  ramon:name  "Bratislava - urban part Petržalka"@en ;
+        ramon:code  "SK-105" ;
+        rdfs:label  "SK-105 Bratislava - urban part Petržalka" .
+
+lau:SK-802  ramon:name  "Košice - urban part Sídlisko Ťahanovce"@en ;
+        ramon:code  "SK-802" ;
+        rdfs:label  "SK-802 Košice - urban part Sídlisko Ťahanovce" .
+
+lau:SK-803  ramon:name  "Košice - urban part Západ"@en ;
+        ramon:code  "SK-803" ;
+        rdfs:label  "SK-803 Košice - urban part Západ" .
+
+lau:SK-503  ramon:name  "Dolný Kubín"@en ;
+        ramon:code  "SK-503" ;
+        rdfs:label  "SK-503 Dolný Kubín" .
+
+lau:SK-809  ramon:name  "Sobrance"@en ;
+        ramon:code  "SK-809" ;
+        rdfs:label  "SK-809 Sobrance" .
+
+lau:SK-808  ramon:name  "Rožňava"@en ;
+        ramon:code  "SK-808" ;
+        rdfs:label  "SK-808 Rožňava" .
+
+lau:SK-303  ramon:name  "Myjava"@en ;
+        ramon:code  "SK-303" ;
+        rdfs:label  "SK-303 Myjava" .
+
+lau:SK-710  ramon:name  "Stará Ľubovňa"@en ;
+        ramon:code  "SK-710" ;
+        rdfs:label  "SK-710 Stará Ľubovňa" .
+
+lau:SK-511  ramon:name  "Žilina"@en ;
+        ramon:code  "SK-511" ;
+        rdfs:label  "SK-511 Žilina" .
+
+lau:SK-510  ramon:name  "Tvrdošín"@en ;
+        ramon:code  "SK-510" ;
+        rdfs:label  "SK-510 Tvrdošín" .
+
+lau:SK-801  ramon:name  "Gelnica"@en ;
+        ramon:code  "SK-801" ;
+        rdfs:label  "SK-801 Gelnica" .
+
+lau:SK-807  ramon:name  "Michalovce"@en ;
+        ramon:code  "SK-807" ;
+        rdfs:label  "SK-807 Michalovce" .
+
+lau:SK-806  ramon:name  "Moldava nad Bodvou"@en ;
+        ramon:code  "SK-806" ;
+        rdfs:label  "SK-806 Moldava nad Bodvou" .
+
+lau:SK-805  ramon:name  "Košice - urban part Nad jazerom"@en ;
+        ramon:code  "SK-805" ;
+        rdfs:label  "SK-805 Košice - urban part Nad jazerom" .
+
+lau:SK-804  ramon:name  "Košice - urban part Dargovských hrdinov"@en ;
+        ramon:code  "SK-804" ;
+        rdfs:label  "SK-804 Košice - urban part Dargovských hrdinov" .

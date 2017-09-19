@@ -1,0 +1,68 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:EE-0049  ramon:name  "Jõgeva"@en ;
+        ramon:code  "EE-0049" ;
+        rdfs:label  "EE-0049 Jõgeva" .
+
+lau:EE-0059  ramon:name  "Rakvere"@en ;
+        ramon:code  "EE-0059" ;
+        rdfs:label  "EE-0059 Rakvere" .
+
+lau:EE-0039  ramon:name  "Hiiu"@en ;
+        ramon:code  "EE-0039" ;
+        rdfs:label  "EE-0039 Hiiu" .
+
+lau:EE-0070  ramon:name  "Rapla"@en ;
+        ramon:code  "EE-0070" ;
+        rdfs:label  "EE-0070 Rapla" .
+
+lau:EE-0057  ramon:name  "Haapsalu"@en ;
+        ramon:code  "EE-0057" ;
+        rdfs:label  "EE-0057 Haapsalu" .
+
+lau:EE-0037  ramon:name  "Tallinn"@en ;
+        ramon:code  "EE-0037" ;
+        rdfs:label  "EE-0037 Tallinn" .
+
+lau:EE-0044  ramon:name  "Narva"@en ;
+        ramon:code  "EE-0044" ;
+        rdfs:label  "EE-0044 Narva" .
+
+lau:EE-0067  ramon:name  "Pärnu"@en ;
+        ramon:code  "EE-0067" ;
+        rdfs:label  "EE-0067 Pärnu" .
+
+lau:EE-0065  ramon:name  "Põlva"@en ;
+        ramon:code  "EE-0065" ;
+        rdfs:label  "EE-0065 Põlva" .
+
+lau:EE-0074  ramon:name  "Kuressaare"@en ;
+        ramon:code  "EE-0074" ;
+        rdfs:label  "EE-0074 Kuressaare" .
+
+lau:EE-0084  ramon:name  "Viljandi"@en ;
+        ramon:code  "EE-0084" ;
+        rdfs:label  "EE-0084 Viljandi" .
+
+lau:EE-0078  ramon:name  "Tartu"@en ;
+        ramon:code  "EE-0078" ;
+        rdfs:label  "EE-0078 Tartu" .
+
+lau:EE-0086  ramon:name  "Võru"@en ;
+        ramon:code  "EE-0086" ;
+        rdfs:label  "EE-0086 Võru" .
+
+lau:EE-0051  ramon:name  "Türi"@en ;
+        ramon:code  "EE-0051" ;
+        rdfs:label  "EE-0051 Türi" .
+
+lau:EE-0082  ramon:name  "Valga"@en ;
+        ramon:code  "EE-0082" ;
+        rdfs:label  "EE-0082 Valga" .

@@ -10,14 +10,15 @@ prefix lau:                 <http://data.businessgraph.io/lau/>
 
 construct {
     ?lau1_ ramon:name     ?latin_name;
-           ramon:name     ?NAME1;
-           ramon:code     ?CODE ;
+           ramon:name     ?native_name;
+           ramon:code     ?lau1_base ;
            rdfs:label     ?label1;
 } WHERE {
     BIND("http://data.businessgraph.io/lau/" as ?base)
+    BIND(CONCAT(UCASE("{country}"), "-", ?LAU1) as ?lau1_base)
     BIND(IF(?LAU1 = "n.a." || ?LAU1 = "" || ?LAU1 = "no", 
             ?undef,
-            URI(CONCAT(?base, UCASE("{country}"), "-", ?LAU1))) as ?lau1_)
+            URI(CONCAT(?base, ?lau1_base))) as ?lau1_)
 
     BIND(IF(?NAME2 = "",
             ?undef,
@@ -27,6 +28,6 @@ construct {
             ?undef,
             strlang(?NAME1, "{language}")) as ?native_name)
 
-    BIND(concat(?LAU1, " ", IF(BOUND(?latin_name), ?latin_name, ?NAME_1)) as ?label1)
+    BIND(concat(?lau1_base, " ", IF(BOUND(?latin_name), ?latin_name, ?NAME_1)) as ?label1)
 }
 

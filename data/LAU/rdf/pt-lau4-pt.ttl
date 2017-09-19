@@ -1,0 +1,1240 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:PT-1304  ramon:name  "Rio Tinto"@en ;
+        ramon:code  "PT-1304" ;
+        rdfs:label  "PT-1304 Rio Tinto" .
+
+lau:PT-1305  ramon:name  "União das freguesias de Cristelos, Boim e Ordem"@en ;
+        ramon:code  "PT-1305" ;
+        rdfs:label  "PT-1305 União das freguesias de Cristelos, Boim e Ordem" .
+
+lau:PT-1306  ramon:name  "Cidade da Maia"@en ;
+        ramon:code  "PT-1306" ;
+        rdfs:label  "PT-1306 Cidade da Maia" .
+
+lau:PT-1307  ramon:name  "Marco"@en ;
+        ramon:code  "PT-1307" ;
+        rdfs:label  "PT-1307 Marco" .
+
+lau:PT-1301  ramon:name  "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão"@en ;
+        ramon:code  "PT-1301" ;
+        rdfs:label  "PT-1301 União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão" .
+
+lau:PT-1302  ramon:name  "União das freguesias de Campelo e Ovil"@en ;
+        ramon:code  "PT-1302" ;
+        rdfs:label  "PT-1302 União das freguesias de Campelo e Ovil" .
+
+lau:PT-1303  ramon:name  "União das freguesias de Margaride (Santa Eulália), Várzea, Lagares, Varziela e Moure"@en ;
+        ramon:code  "PT-1303" ;
+        rdfs:label  "PT-1303 União das freguesias de Margaride (Santa Eulália), Várzea, Lagares, Varziela e Moure" .
+
+lau:PT-1818  ramon:name  "União das freguesias de Sernancelhe e Sarzeda"@en ;
+        ramon:code  "PT-1818" ;
+        rdfs:label  "PT-1818 União das freguesias de Sernancelhe e Sarzeda" .
+
+lau:PT-1308  ramon:name  "União das freguesias de São Mamede de Infesta e Senhora da Hora"@en ;
+        ramon:code  "PT-1308" ;
+        rdfs:label  "PT-1308 União das freguesias de São Mamede de Infesta e Senhora da Hora" .
+
+lau:PT-1309  ramon:name  "Paços de Ferreira"@en ;
+        ramon:code  "PT-1309" ;
+        rdfs:label  "PT-1309 Paços de Ferreira" .
+
+lau:PT-1512  ramon:name  "Setúbal (São Sebastião)"@en ;
+        ramon:code  "PT-1512" ;
+        rdfs:label  "PT-1512 Setúbal (São Sebastião)" .
+
+lau:PT-1815  ramon:name  "União das freguesias de São João da Pesqueira e Várzea de Trevões"@en ;
+        ramon:code  "PT-1815" ;
+        rdfs:label  "PT-1815 União das freguesias de São João da Pesqueira e Várzea de Trevões" .
+
+lau:PT-1610  ramon:name  "União das freguesias de Vila Nova de Cerveira e Lovelhe"@en ;
+        ramon:code  "PT-1610" ;
+        rdfs:label  "PT-1610 União das freguesias de Vila Nova de Cerveira e Lovelhe" .
+
+lau:PT-3103  ramon:name  "Santo António"@en ;
+        ramon:code  "PT-3103" ;
+        rdfs:label  "PT-3103 Santo António" .
+
+lau:PT-4701  ramon:name  "Horta (Matriz)"@en ;
+        ramon:code  "PT-4701" ;
+        rdfs:label  "PT-4701 Horta (Matriz)" .
+
+lau:PT-1404  ramon:name  "Alpiarça"@en ;
+        ramon:code  "PT-1404" ;
+        rdfs:label  "PT-1404 Alpiarça" .
+
+lau:PT-1409  ramon:name  "União das freguesias de Coruche, Fajarda e Erra"@en ;
+        ramon:code  "PT-1409" ;
+        rdfs:label  "PT-1409 União das freguesias de Coruche, Fajarda e Erra" .
+
+lau:PT-1408  ramon:name  "Santa Margarida da Coutada"@en ;
+        ramon:code  "PT-1408" ;
+        rdfs:label  "PT-1408 Santa Margarida da Coutada" .
+
+lau:PT-4301  ramon:name  "São Mateus da Calheta"@en ;
+        ramon:code  "PT-4301" ;
+        rdfs:label  "PT-4301 São Mateus da Calheta" .
+
+lau:PT-0309  ramon:name  "Póvoa de Lanhoso (Nossa Senhora do Amparo)"@en ;
+        ramon:code  "PT-0309" ;
+        rdfs:label  "PT-0309 Póvoa de Lanhoso (Nossa Senhora do Amparo)" .
+
+lau:PT-0308  ramon:name  "Creixomil"@en ;
+        ramon:code  "PT-0308" ;
+        rdfs:label  "PT-0308 Creixomil" .
+
+lau:PT-0307  ramon:name  "Fafe"@en ;
+        ramon:code  "PT-0307" ;
+        rdfs:label  "PT-0307 Fafe" .
+
+lau:PT-0306  ramon:name  "União das freguesias de Esposende, Marinhas e Gandra"@en ;
+        ramon:code  "PT-0306" ;
+        rdfs:label  "PT-0306 União das freguesias de Esposende, Marinhas e Gandra" .
+
+lau:PT-0305  ramon:name  "União das freguesias de Britelo, Gémeos e Ourilhe"@en ;
+        ramon:code  "PT-0305" ;
+        rdfs:label  "PT-0305 União das freguesias de Britelo, Gémeos e Ourilhe" .
+
+lau:PT-0304  ramon:name  "União das freguesias de Refojos de Basto, Outeiro e Painzela"@en ;
+        ramon:code  "PT-0304" ;
+        rdfs:label  "PT-0304 União das freguesias de Refojos de Basto, Outeiro e Painzela" .
+
+lau:PT-0303  ramon:name  "Braga (São Vítor)"@en ;
+        ramon:code  "PT-0303" ;
+        rdfs:label  "PT-0303 Braga (São Vítor)" .
+
+lau:PT-0302  ramon:name  "Arcozelo"@en ;
+        ramon:code  "PT-0302" ;
+        rdfs:label  "PT-0302 Arcozelo" .
+
+lau:PT-0301  ramon:name  "União das freguesias de Ferreiros, Prozelo e Besteiros"@en ;
+        ramon:code  "PT-0301" ;
+        rdfs:label  "PT-0301 União das freguesias de Ferreiros, Prozelo e Besteiros" .
+
+lau:PT-1317  ramon:name  "União das freguesias de Mafamude e Vilar do Paraíso"@en ;
+        ramon:code  "PT-1317" ;
+        rdfs:label  "PT-1317 União das freguesias de Mafamude e Vilar do Paraíso" .
+
+lau:PT-1316  ramon:name  "Vila do Conde"@en ;
+        ramon:code  "PT-1316" ;
+        rdfs:label  "PT-1316 Vila do Conde" .
+
+lau:PT-1315  ramon:name  "Ermesinde"@en ;
+        ramon:code  "PT-1315" ;
+        rdfs:label  "PT-1315 Ermesinde" .
+
+lau:PT-1314  ramon:name  "União das freguesias de Santo Tirso, Couto (Santa Cristina e São Miguel) e Burgães"@en ;
+        ramon:code  "PT-1314" ;
+        rdfs:label  "PT-1314 União das freguesias de Santo Tirso, Couto (Santa Cristina e São Miguel) e Burgães" .
+
+lau:PT-1313  ramon:name  "União das freguesias da Póvoa de Varzim, Beiriz e Argivai"@en ;
+        ramon:code  "PT-1313" ;
+        rdfs:label  "PT-1313 União das freguesias da Póvoa de Varzim, Beiriz e Argivai" .
+
+lau:PT-1312  ramon:name  "Paranhos"@en ;
+        ramon:code  "PT-1312" ;
+        rdfs:label  "PT-1312 Paranhos" .
+
+lau:PT-1311  ramon:name  "Penafiel"@en ;
+        ramon:code  "PT-1311" ;
+        rdfs:label  "PT-1311 Penafiel" .
+
+lau:PT-1310  ramon:name  "Paredes"@en ;
+        ramon:code  "PT-1310" ;
+        rdfs:label  "PT-1310 Paredes" .
+
+lau:PT-1013  ramon:name  "Pedrógão Grande"@en ;
+        ramon:code  "PT-1013" ;
+        rdfs:label  "PT-1013 Pedrógão Grande" .
+
+lau:PT-1318  ramon:name  "União das freguesias de Bougado (São Martinho e Santiago)"@en ;
+        ramon:code  "PT-1318" ;
+        rdfs:label  "PT-1318 União das freguesias de Bougado (São Martinho e Santiago)" .
+
+lau:PT-1014  ramon:name  "Peniche"@en ;
+        ramon:code  "PT-1014" ;
+        rdfs:label  "PT-1014 Peniche" .
+
+lau:PT-1709  ramon:name  "União das freguesias de Ribeira de Pena (Salvador) e Santo Aleixo de Além-Tâmega"@en ;
+        ramon:code  "PT-1709" ;
+        rdfs:label  "PT-1709 União das freguesias de Ribeira de Pena (Salvador) e Santo Aleixo de Além-Tâmega" .
+
+lau:PT-1015  ramon:name  "Pombal"@en ;
+        ramon:code  "PT-1015" ;
+        rdfs:label  "PT-1015 Pombal" .
+
+lau:PT-1403  ramon:name  "Almeirim"@en ;
+        ramon:code  "PT-1403" ;
+        rdfs:label  "PT-1403 Almeirim" .
+
+lau:PT-1016  ramon:name  "Porto de Mós - São João Baptista e São Pedro"@en ;
+        ramon:code  "PT-1016" ;
+        rdfs:label  "PT-1016 Porto de Mós - São João Baptista e São Pedro" .
+
+lau:PT-1701  ramon:name  "Alijó"@en ;
+        ramon:code  "PT-1701" ;
+        rdfs:label  "PT-1701 Alijó" .
+
+lau:PT-1702  ramon:name  "Boticas e Granja"@en ;
+        ramon:code  "PT-1702" ;
+        rdfs:label  "PT-1702 Boticas e Granja" .
+
+lau:PT-1703  ramon:name  "Santa Maria Maior"@en ;
+        ramon:code  "PT-1703" ;
+        rdfs:label  "PT-1703 Santa Maria Maior" .
+
+lau:PT-1704  ramon:name  "Mesão Frio (Santo André)"@en ;
+        ramon:code  "PT-1704" ;
+        rdfs:label  "PT-1704 Mesão Frio (Santo André)" .
+
+lau:PT-1705  ramon:name  "São Cristóvão de Mondim de Basto"@en ;
+        ramon:code  "PT-1705" ;
+        rdfs:label  "PT-1705 São Cristóvão de Mondim de Basto" .
+
+lau:PT-1407  ramon:name  "União das freguesias da Chamusca e Pinheiro Grande"@en ;
+        ramon:code  "PT-1407" ;
+        rdfs:label  "PT-1407 União das freguesias da Chamusca e Pinheiro Grande" .
+
+lau:PT-1707  ramon:name  "Murça"@en ;
+        ramon:code  "PT-1707" ;
+        rdfs:label  "PT-1707 Murça" .
+
+lau:PT-1708  ramon:name  "União das freguesias de Peso da Régua e Godim"@en ;
+        ramon:code  "PT-1708" ;
+        rdfs:label  "PT-1708 União das freguesias de Peso da Régua e Godim" .
+
+lau:PT-1010  ramon:name  "Marinha Grande"@en ;
+        ramon:code  "PT-1010" ;
+        rdfs:label  "PT-1010 Marinha Grande" .
+
+lau:PT-1821  ramon:name  "União das freguesias de Tondela e Nandufe"@en ;
+        ramon:code  "PT-1821" ;
+        rdfs:label  "PT-1821 União das freguesias de Tondela e Nandufe" .
+
+lau:PT-1820  ramon:name  "União das freguesias de Tarouca e Dálvares"@en ;
+        ramon:code  "PT-1820" ;
+        rdfs:label  "PT-1820 União das freguesias de Tarouca e Dálvares" .
+
+lau:PT-1823  ramon:name  "Viseu"@en ;
+        ramon:code  "PT-1823" ;
+        rdfs:label  "PT-1823 Viseu" .
+
+lau:PT-1011  ramon:name  "Nazaré"@en ;
+        ramon:code  "PT-1011" ;
+        rdfs:label  "PT-1011 Nazaré" .
+
+lau:PT-0602  ramon:name  "União das freguesias de Cantanhede e Pocariça"@en ;
+        ramon:code  "PT-0602" ;
+        rdfs:label  "PT-0602 União das freguesias de Cantanhede e Pocariça" .
+
+lau:PT-0603  ramon:name  "Santo António dos Olivais"@en ;
+        ramon:code  "PT-0603" ;
+        rdfs:label  "PT-0603 Santo António dos Olivais" .
+
+lau:PT-0601  ramon:name  "Arganil"@en ;
+        ramon:code  "PT-0601" ;
+        rdfs:label  "PT-0601 Arganil" .
+
+lau:PT-0606  ramon:name  "Góis"@en ;
+        ramon:code  "PT-0606" ;
+        rdfs:label  "PT-0606 Góis" .
+
+lau:PT-0607  ramon:name  "União das freguesias de Lousã e Vilarinho"@en ;
+        ramon:code  "PT-0607" ;
+        rdfs:label  "PT-0607 União das freguesias de Lousã e Vilarinho" .
+
+lau:PT-0604  ramon:name  "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova"@en ;
+        ramon:code  "PT-0604" ;
+        rdfs:label  "PT-0604 União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova" .
+
+lau:PT-0605  ramon:name  "Buarcos e São Julião"@en ;
+        ramon:code  "PT-0605" ;
+        rdfs:label  "PT-0605 Buarcos e São Julião" .
+
+lau:PT-1410  ramon:name  "Nossa Senhora de Fátima"@en ;
+        ramon:code  "PT-1410" ;
+        rdfs:label  "PT-1410 Nossa Senhora de Fátima" .
+
+lau:PT-1402  ramon:name  "União das freguesias de Alcanena e Vila Moreira"@en ;
+        ramon:code  "PT-1402" ;
+        rdfs:label  "PT-1402 União das freguesias de Alcanena e Vila Moreira" .
+
+lau:PT-0608  ramon:name  "Mira"@en ;
+        ramon:code  "PT-0608" ;
+        rdfs:label  "PT-0608 Mira" .
+
+lau:PT-0612  ramon:name  "Pampilhosa da Serra"@en ;
+        ramon:code  "PT-0612" ;
+        rdfs:label  "PT-0612 Pampilhosa da Serra" .
+
+lau:PT-1414  ramon:name  "Rio Maior"@en ;
+        ramon:code  "PT-1414" ;
+        rdfs:label  "PT-1414 Rio Maior" .
+
+lau:PT-1415  ramon:name  "União das freguesias de Salvaterra de Magos e Foros de Salvaterra"@en ;
+        ramon:code  "PT-1415" ;
+        rdfs:label  "PT-1415 União das freguesias de Salvaterra de Magos e Foros de Salvaterra" .
+
+lau:PT-1416  ramon:name  "União das freguesias de Santarém (Marvila), Santa Iria da Ribeira de Santarém, Santarém (São Salvador) e Santarém (São Nicolau)"@en ;
+        ramon:code  "PT-1416" ;
+        rdfs:label  "PT-1416 União das freguesias de Santarém (Marvila), Santa Iria da Ribeira de Santarém, Santarém (São Salvador) e Santarém (São Nicolau)" .
+
+lau:PT-1417  ramon:name  "Sardoal"@en ;
+        ramon:code  "PT-1417" ;
+        rdfs:label  "PT-1417 Sardoal" .
+
+lau:PT-0112  ramon:name  "Murtosa"@en ;
+        ramon:code  "PT-0112" ;
+        rdfs:label  "PT-0112 Murtosa" .
+
+lau:PT-0113  ramon:name  "União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail"@en ;
+        ramon:code  "PT-0113" ;
+        rdfs:label  "PT-0113 União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail" .
+
+lau:PT-0110  ramon:name  "Ílhavo (São Salvador)"@en ;
+        ramon:code  "PT-0110" ;
+        rdfs:label  "PT-0110 Ílhavo (São Salvador)" .
+
+lau:PT-0111  ramon:name  "União das freguesias da Mealhada, Ventosa do Bairro e Antes"@en ;
+        ramon:code  "PT-0111" ;
+        rdfs:label  "PT-0111 União das freguesias da Mealhada, Ventosa do Bairro e Antes" .
+
+lau:PT-0116  ramon:name  "São João da Madeira"@en ;
+        ramon:code  "PT-0116" ;
+        rdfs:label  "PT-0116 São João da Madeira" .
+
+lau:PT-0117  ramon:name  "Sever do Vouga"@en ;
+        ramon:code  "PT-0117" ;
+        rdfs:label  "PT-0117 Sever do Vouga" .
+
+lau:PT-0114  ramon:name  "Oiã"@en ;
+        ramon:code  "PT-0114" ;
+        rdfs:label  "PT-0114 Oiã" .
+
+lau:PT-0115  ramon:name  "União das freguesias de Ovar, São João, Arada e São Vicente de Pereira Jusã"@en ;
+        ramon:code  "PT-0115" ;
+        rdfs:label  "PT-0115 União das freguesias de Ovar, São João, Arada e São Vicente de Pereira Jusã" .
+
+lau:PT-0118  ramon:name  "União das freguesias de Vagos e Santo António"@en ;
+        ramon:code  "PT-0118" ;
+        rdfs:label  "PT-0118 União das freguesias de Vagos e Santo António" .
+
+lau:PT-0119  ramon:name  "São Pedro de Castelões"@en ;
+        ramon:code  "PT-0119" ;
+        rdfs:label  "PT-0119 São Pedro de Castelões" .
+
+lau:PT-1812  ramon:name  "União das freguesias de Penedono e Granja"@en ;
+        ramon:code  "PT-1812" ;
+        rdfs:label  "PT-1812 União das freguesias de Penedono e Granja" .
+
+lau:PT-4401  ramon:name  "Santa Cruz da Graciosa"@en ;
+        ramon:code  "PT-4401" ;
+        rdfs:label  "PT-4401 Santa Cruz da Graciosa" .
+
+lau:PT-1401  ramon:name  "União das freguesias de Abrantes (São Vicente e São João) e Alferrarede"@en ;
+        ramon:code  "PT-1401" ;
+        rdfs:label  "PT-1401 União das freguesias de Abrantes (São Vicente e São João) e Alferrarede" .
+
+lau:PT-4202  ramon:name  "Nordeste"@en ;
+        ramon:code  "PT-4202" ;
+        rdfs:label  "PT-4202 Nordeste" .
+
+lau:PT-4203  ramon:name  "Ponta Delgada (São Pedro)"@en ;
+        ramon:code  "PT-4203" ;
+        rdfs:label  "PT-4203 Ponta Delgada (São Pedro)" .
+
+lau:PT-1822  ramon:name  "União das freguesias de Vila Nova de Paiva, Alhais e Fráguas"@en ;
+        ramon:code  "PT-1822" ;
+        rdfs:label  "PT-1822 União das freguesias de Vila Nova de Paiva, Alhais e Fráguas" .
+
+lau:PT-1406  ramon:name  "União das freguesias do Cartaxo e Vale da Pinta"@en ;
+        ramon:code  "PT-1406" ;
+        rdfs:label  "PT-1406 União das freguesias do Cartaxo e Vale da Pinta" .
+
+lau:PT-1819  ramon:name  "Tabuaço"@en ;
+        ramon:code  "PT-1819" ;
+        rdfs:label  "PT-1819 Tabuaço" .
+
+lau:PT-4205  ramon:name  "Rabo de Peixe"@en ;
+        ramon:code  "PT-4205" ;
+        rdfs:label  "PT-4205 Rabo de Peixe" .
+
+lau:PT-1713  ramon:name  "Vila Pouca de Aguiar"@en ;
+        ramon:code  "PT-1713" ;
+        rdfs:label  "PT-1713 Vila Pouca de Aguiar" .
+
+lau:PT-1418  ramon:name  "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais"@en ;
+        ramon:code  "PT-1418" ;
+        rdfs:label  "PT-1418 União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais" .
+
+lau:PT-1711  ramon:name  "União das freguesias de Lobrigos (São Miguel e São João Baptista) e Sanhoane"@en ;
+        ramon:code  "PT-1711" ;
+        rdfs:label  "PT-1711 União das freguesias de Lobrigos (São Miguel e São João Baptista) e Sanhoane" .
+
+lau:PT-1710  ramon:name  "Sabrosa"@en ;
+        ramon:code  "PT-1710" ;
+        rdfs:label  "PT-1710 Sabrosa" .
+
+lau:PT-1807  ramon:name  "Moimenta da Beira"@en ;
+        ramon:code  "PT-1807" ;
+        rdfs:label  "PT-1807 Moimenta da Beira" .
+
+lau:PT-1419  ramon:name  "União das freguesias de Torres Novas (São Pedro), Lapas e Ribeira Branca"@en ;
+        ramon:code  "PT-1419" ;
+        rdfs:label  "PT-1419 União das freguesias de Torres Novas (São Pedro), Lapas e Ribeira Branca" .
+
+lau:PT-0912  ramon:name  "União das freguesias de Seia, São Romão e Lapa dos Dinheiros"@en ;
+        ramon:code  "PT-0912" ;
+        rdfs:label  "PT-0912 União das freguesias de Seia, São Romão e Lapa dos Dinheiros" .
+
+lau:PT-0913  ramon:name  "União das freguesias de Trancoso (São Pedro e Santa Maria) e Souto Maior"@en ;
+        ramon:code  "PT-0913" ;
+        rdfs:label  "PT-0913 União das freguesias de Trancoso (São Pedro e Santa Maria) e Souto Maior" .
+
+lau:PT-0910  ramon:name  "Pinhel"@en ;
+        ramon:code  "PT-0910" ;
+        rdfs:label  "PT-0910 Pinhel" .
+
+lau:PT-0911  ramon:name  "União das freguesias do Sabugal e Aldeia de Santo António"@en ;
+        ramon:code  "PT-0911" ;
+        rdfs:label  "PT-0911 União das freguesias do Sabugal e Aldeia de Santo António" .
+
+lau:PT-0914  ramon:name  "Vila Nova de Foz Côa"@en ;
+        ramon:code  "PT-0914" ;
+        rdfs:label  "PT-0914 Vila Nova de Foz Côa" .
+
+lau:PT-0206  ramon:name  "União das freguesias de Castro Verde e Casével"@en ;
+        ramon:code  "PT-0206" ;
+        rdfs:label  "PT-0206 União das freguesias de Castro Verde e Casével" .
+
+lau:PT-0207  ramon:name  "Cuba"@en ;
+        ramon:code  "PT-0207" ;
+        rdfs:label  "PT-0207 Cuba" .
+
+lau:PT-0204  ramon:name  "Barrancos"@en ;
+        ramon:code  "PT-0204" ;
+        rdfs:label  "PT-0204 Barrancos" .
+
+lau:PT-0205  ramon:name  "União das freguesias de Beja (Santiago Maior e São João Baptista)"@en ;
+        ramon:code  "PT-0205" ;
+        rdfs:label  "PT-0205 União das freguesias de Beja (Santiago Maior e São João Baptista)" .
+
+lau:PT-0202  ramon:name  "União das freguesias de Almodôvar e Graça dos Padrões"@en ;
+        ramon:code  "PT-0202" ;
+        rdfs:label  "PT-0202 União das freguesias de Almodôvar e Graça dos Padrões" .
+
+lau:PT-0203  ramon:name  "Alvito"@en ;
+        ramon:code  "PT-0203" ;
+        rdfs:label  "PT-0203 Alvito" .
+
+lau:PT-0201  ramon:name  "União das freguesias de Aljustrel e Rio de Moinhos"@en ;
+        ramon:code  "PT-0201" ;
+        rdfs:label  "PT-0201 União das freguesias de Aljustrel e Rio de Moinhos" .
+
+lau:PT-0615  ramon:name  "Soure"@en ;
+        ramon:code  "PT-0615" ;
+        rdfs:label  "PT-0615 Soure" .
+
+lau:PT-0614  ramon:name  "União das freguesias de São Miguel, Santa Eufémia e Rabaçal"@en ;
+        ramon:code  "PT-0614" ;
+        rdfs:label  "PT-0614 União das freguesias de São Miguel, Santa Eufémia e Rabaçal" .
+
+lau:PT-0617  ramon:name  "Poiares (Santo André)"@en ;
+        ramon:code  "PT-0617" ;
+        rdfs:label  "PT-0617 Poiares (Santo André)" .
+
+lau:PT-0616  ramon:name  "Tábua"@en ;
+        ramon:code  "PT-0616" ;
+        rdfs:label  "PT-0616 Tábua" .
+
+lau:PT-0611  ramon:name  "União das freguesias de Oliveira do Hospital e São Paio de Gramaços"@en ;
+        ramon:code  "PT-0611" ;
+        rdfs:label  "PT-0611 União das freguesias de Oliveira do Hospital e São Paio de Gramaços" .
+
+lau:PT-0610  ramon:name  "Arazede"@en ;
+        ramon:code  "PT-0610" ;
+        rdfs:label  "PT-0610 Arazede" .
+
+lau:PT-0208  ramon:name  "União das freguesias de Ferreira do Alentejo e Canhestros"@en ;
+        ramon:code  "PT-0208" ;
+        rdfs:label  "PT-0208 União das freguesias de Ferreira do Alentejo e Canhestros" .
+
+lau:PT-0209  ramon:name  "Mértola"@en ;
+        ramon:code  "PT-0209" ;
+        rdfs:label  "PT-0209 Mértola" .
+
+lau:PT-1421  ramon:name  "Fátima"@en ;
+        ramon:code  "PT-1421" ;
+        rdfs:label  "PT-1421 Fátima" .
+
+lau:PT-3108  ramon:name  "Caniço"@en ;
+        ramon:code  "PT-3108" ;
+        rdfs:label  "PT-3108 Caniço" .
+
+lau:PT-0109  ramon:name  "União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo"@en ;
+        ramon:code  "PT-0109" ;
+        rdfs:label  "PT-0109 União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo" .
+
+lau:PT-0108  ramon:name  "União das freguesias de Beduído e Veiros"@en ;
+        ramon:code  "PT-0108" ;
+        rdfs:label  "PT-0108 União das freguesias de Beduído e Veiros" .
+
+lau:PT-1420  ramon:name  "Vila Nova da Barquinha"@en ;
+        ramon:code  "PT-1420" ;
+        rdfs:label  "PT-1420 Vila Nova da Barquinha" .
+
+lau:PT-0105  ramon:name  "União das freguesias de Glória e Vera Cruz"@en ;
+        ramon:code  "PT-0105" ;
+        rdfs:label  "PT-0105 União das freguesias de Glória e Vera Cruz" .
+
+lau:PT-0104  ramon:name  "União das freguesias de Arouca e Burgo"@en ;
+        ramon:code  "PT-0104" ;
+        rdfs:label  "PT-0104 União das freguesias de Arouca e Burgo" .
+
+lau:PT-0107  ramon:name  "União das freguesias de Anta e Guetim"@en ;
+        ramon:code  "PT-0107" ;
+        rdfs:label  "PT-0107 União das freguesias de Anta e Guetim" .
+
+lau:PT-0106  ramon:name  "União das freguesias de Sobrado e Bairros"@en ;
+        ramon:code  "PT-0106" ;
+        rdfs:label  "PT-0106 União das freguesias de Sobrado e Bairros" .
+
+lau:PT-0101  ramon:name  "União das freguesias de Águeda e Borralha"@en ;
+        ramon:code  "PT-0101" ;
+        rdfs:label  "PT-0101 União das freguesias de Águeda e Borralha" .
+
+lau:PT-0103  ramon:name  "União das freguesias de Arcos e Mogofores"@en ;
+        ramon:code  "PT-0103" ;
+        rdfs:label  "PT-0103 União das freguesias de Arcos e Mogofores" .
+
+lau:PT-0102  ramon:name  "Albergaria-a-Velha e Valmaior"@en ;
+        ramon:code  "PT-0102" ;
+        rdfs:label  "PT-0102 Albergaria-a-Velha e Valmaior" .
+
+lau:PT-0905  ramon:name  "Fornos de Algodres"@en ;
+        ramon:code  "PT-0905" ;
+        rdfs:label  "PT-0905 Fornos de Algodres" .
+
+lau:PT-0904  ramon:name  "Figueira de Castelo Rodrigo"@en ;
+        ramon:code  "PT-0904" ;
+        rdfs:label  "PT-0904 Figueira de Castelo Rodrigo" .
+
+lau:PT-0907  ramon:name  "Guarda"@en ;
+        ramon:code  "PT-0907" ;
+        rdfs:label  "PT-0907 Guarda" .
+
+lau:PT-0906  ramon:name  "Gouveia"@en ;
+        ramon:code  "PT-0906" ;
+        rdfs:label  "PT-0906 Gouveia" .
+
+lau:PT-0901  ramon:name  "União das freguesias de Aguiar da Beira e Coruche"@en ;
+        ramon:code  "PT-0901" ;
+        rdfs:label  "PT-0901 União das freguesias de Aguiar da Beira e Coruche" .
+
+lau:PT-0903  ramon:name  "União das freguesias de Celorico (São Pedro e Santa Maria) e Vila Boa do Mondego"@en ;
+        ramon:code  "PT-0903" ;
+        rdfs:label  "PT-0903 União das freguesias de Celorico (São Pedro e Santa Maria) e Vila Boa do Mondego" .
+
+lau:PT-0902  ramon:name  "Vilar Formoso"@en ;
+        ramon:code  "PT-0902" ;
+        rdfs:label  "PT-0902 Vilar Formoso" .
+
+lau:PT-3109  ramon:name  "Santana"@en ;
+        ramon:code  "PT-3109" ;
+        rdfs:label  "PT-3109 Santana" .
+
+lau:PT-0909  ramon:name  "Mêda, Outeiro de Gatos e Fonte Longa"@en ;
+        ramon:code  "PT-0909" ;
+        rdfs:label  "PT-0909 Mêda, Outeiro de Gatos e Fonte Longa" .
+
+lau:PT-0908  ramon:name  "Manteigas (São Pedro)"@en ;
+        ramon:code  "PT-0908" ;
+        rdfs:label  "PT-0908 Manteigas (São Pedro)" .
+
+lau:PT-0609  ramon:name  "Miranda do Corvo"@en ;
+        ramon:code  "PT-0609" ;
+        rdfs:label  "PT-0609 Miranda do Corvo" .
+
+lau:PT-4201  ramon:name  "Lagoa (Nossa Senhora do Rosário)"@en ;
+        ramon:code  "PT-4201" ;
+        rdfs:label  "PT-4201 Lagoa (Nossa Senhora do Rosário)" .
+
+lau:PT-1411  ramon:name  "Ferreira do Zêzere"@en ;
+        ramon:code  "PT-1411" ;
+        rdfs:label  "PT-1411 Ferreira do Zêzere" .
+
+lau:PT-1808  ramon:name  "União das freguesias de Mortágua, Vale de Remígio, Cortegaça e Almaça"@en ;
+        ramon:code  "PT-1808" ;
+        rdfs:label  "PT-1808 União das freguesias de Mortágua, Vale de Remígio, Cortegaça e Almaça" .
+
+lau:PT-0510  ramon:name  "Vila de Rei"@en ;
+        ramon:code  "PT-0510" ;
+        rdfs:label  "PT-0510 Vila de Rei" .
+
+lau:PT-0511  ramon:name  "Vila Velha de Ródão"@en ;
+        ramon:code  "PT-0511" ;
+        rdfs:label  "PT-0511 Vila Velha de Ródão" .
+
+lau:PT-0211  ramon:name  "São Teotónio"@en ;
+        ramon:code  "PT-0211" ;
+        rdfs:label  "PT-0211 São Teotónio" .
+
+lau:PT-0210  ramon:name  "União das freguesias de Moura (Santo Agostinho e São João Baptista) e Santo Amador"@en ;
+        ramon:code  "PT-0210" ;
+        rdfs:label  "PT-0210 União das freguesias de Moura (Santo Agostinho e São João Baptista) e Santo Amador" .
+
+lau:PT-0213  ramon:name  "União das freguesias de Serpa (Salvador e Santa Maria)"@en ;
+        ramon:code  "PT-0213" ;
+        rdfs:label  "PT-0213 União das freguesias de Serpa (Salvador e Santa Maria)" .
+
+lau:PT-0212  ramon:name  "Ourique"@en ;
+        ramon:code  "PT-0212" ;
+        rdfs:label  "PT-0212 Ourique" .
+
+lau:PT-0214  ramon:name  "Vidigueira"@en ;
+        ramon:code  "PT-0214" ;
+        rdfs:label  "PT-0214 Vidigueira" .
+
+lau:PT-1009  ramon:name  "União das freguesias de Leiria, Pousos, Barreira e Cortes"@en ;
+        ramon:code  "PT-1009" ;
+        rdfs:label  "PT-1009 União das freguesias de Leiria, Pousos, Barreira e Cortes" .
+
+lau:PT-1008  ramon:name  "União das freguesias de Figueiró dos Vinhos e Bairradas"@en ;
+        ramon:code  "PT-1008" ;
+        rdfs:label  "PT-1008 União das freguesias de Figueiró dos Vinhos e Bairradas" .
+
+lau:PT-1007  ramon:name  "União das freguesias de Castanheira de Pêra e Coentral"@en ;
+        ramon:code  "PT-1007" ;
+        rdfs:label  "PT-1007 União das freguesias de Castanheira de Pêra e Coentral" .
+
+lau:PT-1006  ramon:name  "União das freguesias de Caldas da Rainha - Nossa Senhora do Pópulo, Coto e São Gregório"@en ;
+        ramon:code  "PT-1006" ;
+        rdfs:label  "PT-1006 União das freguesias de Caldas da Rainha - Nossa Senhora do Pópulo, Coto e São Gregório" .
+
+lau:PT-1005  ramon:name  "União das freguesias do Bombarral e Vale Covo"@en ;
+        ramon:code  "PT-1005" ;
+        rdfs:label  "PT-1005 União das freguesias do Bombarral e Vale Covo" .
+
+lau:PT-1004  ramon:name  "Batalha"@en ;
+        ramon:code  "PT-1004" ;
+        rdfs:label  "PT-1004 Batalha" .
+
+lau:PT-1003  ramon:name  "Ansião"@en ;
+        ramon:code  "PT-1003" ;
+        rdfs:label  "PT-1003 Ansião" .
+
+lau:PT-1002  ramon:name  "Alvaiázere"@en ;
+        ramon:code  "PT-1002" ;
+        rdfs:label  "PT-1002 Alvaiázere" .
+
+lau:PT-1001  ramon:name  "Benedita"@en ;
+        ramon:code  "PT-1001" ;
+        rdfs:label  "PT-1001 Benedita" .
+
+lau:PT-4206  ramon:name  "Ponta Garça"@en ;
+        ramon:code  "PT-4206" ;
+        rdfs:label  "PT-4206 Ponta Garça" .
+
+lau:PT-4901  ramon:name  "Corvo"@en ;
+        ramon:code  "PT-4901" ;
+        rdfs:label  "PT-4901 Corvo" .
+
+lau:PT-1412  ramon:name  "Golegã"@en ;
+        ramon:code  "PT-1412" ;
+        rdfs:label  "PT-1412 Golegã" .
+
+lau:PT-1813  ramon:name  "Resende"@en ;
+        ramon:code  "PT-1813" ;
+        rdfs:label  "PT-1813 Resende" .
+
+lau:PT-1405  ramon:name  "Samora Correia"@en ;
+        ramon:code  "PT-1405" ;
+        rdfs:label  "PT-1405 Samora Correia" .
+
+lau:PT-4101  ramon:name  "Vila do Porto"@en ;
+        ramon:code  "PT-4101" ;
+        rdfs:label  "PT-4101 Vila do Porto" .
+
+lau:PT-1824  ramon:name  "União das freguesias de Vouzela e Paços de Vilharigues"@en ;
+        ramon:code  "PT-1824" ;
+        rdfs:label  "PT-1824 União das freguesias de Vouzela e Paços de Vilharigues" .
+
+lau:PT-1706  ramon:name  "União das freguesias de Meixedo e Padornelos"@en ;
+        ramon:code  "PT-1706" ;
+        rdfs:label  "PT-1706 União das freguesias de Meixedo e Padornelos" .
+
+lau:PT-0509  ramon:name  "Sertã"@en ;
+        ramon:code  "PT-0509" ;
+        rdfs:label  "PT-0509 Sertã" .
+
+lau:PT-0508  ramon:name  "União das freguesias de Proença-a-Nova e Peral"@en ;
+        ramon:code  "PT-0508" ;
+        rdfs:label  "PT-0508 União das freguesias de Proença-a-Nova e Peral" .
+
+lau:PT-1413  ramon:name  "União das freguesias de Mação, Penhascoso e Aboboreira"@en ;
+        ramon:code  "PT-1413" ;
+        rdfs:label  "PT-1413 União das freguesias de Mação, Penhascoso e Aboboreira" .
+
+lau:PT-4801  ramon:name  "Lajes das Flores"@en ;
+        ramon:code  "PT-4801" ;
+        rdfs:label  "PT-4801 Lajes das Flores" .
+
+lau:PT-0501  ramon:name  "União das freguesias de Belmonte e Colmeal da Torre"@en ;
+        ramon:code  "PT-0501" ;
+        rdfs:label  "PT-0501 União das freguesias de Belmonte e Colmeal da Torre" .
+
+lau:PT-0503  ramon:name  "União das freguesias de Covilhã e Canhoso"@en ;
+        ramon:code  "PT-0503" ;
+        rdfs:label  "PT-0503 União das freguesias de Covilhã e Canhoso" .
+
+lau:PT-0502  ramon:name  "Castelo Branco"@en ;
+        ramon:code  "PT-0502" ;
+        rdfs:label  "PT-0502 Castelo Branco" .
+
+lau:PT-0505  ramon:name  "União das freguesias de Idanha-a-Nova e Alcafozes"@en ;
+        ramon:code  "PT-0505" ;
+        rdfs:label  "PT-0505 União das freguesias de Idanha-a-Nova e Alcafozes" .
+
+lau:PT-0504  ramon:name  "União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo"@en ;
+        ramon:code  "PT-0504" ;
+        rdfs:label  "PT-0504 União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo" .
+
+lau:PT-0507  ramon:name  "Penamacor"@en ;
+        ramon:code  "PT-0507" ;
+        rdfs:label  "PT-0507 Penamacor" .
+
+lau:PT-0506  ramon:name  "Oleiros-Amieira"@en ;
+        ramon:code  "PT-0506" ;
+        rdfs:label  "PT-0506 Oleiros-Amieira" .
+
+lau:PT-1502  ramon:name  "Alcochete"@en ;
+        ramon:code  "PT-1502" ;
+        rdfs:label  "PT-1502 Alcochete" .
+
+lau:PT-1503  ramon:name  "União das freguesias de Almada, Cova da Piedade, Pragal e Cacilhas"@en ;
+        ramon:code  "PT-1503" ;
+        rdfs:label  "PT-1503 União das freguesias de Almada, Cova da Piedade, Pragal e Cacilhas" .
+
+lau:PT-1501  ramon:name  "União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana"@en ;
+        ramon:code  "PT-1501" ;
+        rdfs:label  "PT-1501 União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana" .
+
+lau:PT-1506  ramon:name  "União das freguesias de Baixa da Banheira e Vale da Amoreira"@en ;
+        ramon:code  "PT-1506" ;
+        rdfs:label  "PT-1506 União das freguesias de Baixa da Banheira e Vale da Amoreira" .
+
+lau:PT-1507  ramon:name  "União das freguesias de Montijo e Afonsoeiro"@en ;
+        ramon:code  "PT-1507" ;
+        rdfs:label  "PT-1507 União das freguesias de Montijo e Afonsoeiro" .
+
+lau:PT-1504  ramon:name  "União das freguesias de Alto do Seixalinho, Santo André e Verderena"@en ;
+        ramon:code  "PT-1504" ;
+        rdfs:label  "PT-1504 União das freguesias de Alto do Seixalinho, Santo André e Verderena" .
+
+lau:PT-1505  ramon:name  "União das freguesias de Grândola e Santa Margarida da Serra"@en ;
+        ramon:code  "PT-1505" ;
+        rdfs:label  "PT-1505 União das freguesias de Grândola e Santa Margarida da Serra" .
+
+lau:PT-1508  ramon:name  "Pinhal Novo"@en ;
+        ramon:code  "PT-1508" ;
+        rdfs:label  "PT-1508 Pinhal Novo" .
+
+lau:PT-1509  ramon:name  "Santo André"@en ;
+        ramon:code  "PT-1509" ;
+        rdfs:label  "PT-1509 Santo André" .
+
+lau:PT-3106  ramon:name  "Porto Moniz"@en ;
+        ramon:code  "PT-3106" ;
+        rdfs:label  "PT-3106 Porto Moniz" .
+
+lau:PT-4204  ramon:name  "Povoação"@en ;
+        ramon:code  "PT-4204" ;
+        rdfs:label  "PT-4204 Povoação" .
+
+lau:PT-1212  ramon:name  "União das freguesias de Espírito Santo, Nossa Senhora da Graça e São Simão"@en ;
+        ramon:code  "PT-1212" ;
+        rdfs:label  "PT-1212 União das freguesias de Espírito Santo, Nossa Senhora da Graça e São Simão" .
+
+lau:PT-1213  ramon:name  "União das freguesias de Ponte de Sor, Tramaga e Vale de Açor"@en ;
+        ramon:code  "PT-1213" ;
+        rdfs:label  "PT-1213 União das freguesias de Ponte de Sor, Tramaga e Vale de Açor" .
+
+lau:PT-1210  ramon:name  "São Salvador da Aramenha"@en ;
+        ramon:code  "PT-1210" ;
+        rdfs:label  "PT-1210 São Salvador da Aramenha" .
+
+lau:PT-1211  ramon:name  "Monforte"@en ;
+        ramon:code  "PT-1211" ;
+        rdfs:label  "PT-1211 Monforte" .
+
+lau:PT-1214  ramon:name  "União das freguesias da Sé e São Lourenço"@en ;
+        ramon:code  "PT-1214" ;
+        rdfs:label  "PT-1214 União das freguesias da Sé e São Lourenço" .
+
+lau:PT-1215  ramon:name  "Sousel"@en ;
+        ramon:code  "PT-1215" ;
+        rdfs:label  "PT-1215 Sousel" .
+
+lau:PT-1806  ramon:name  "União das freguesias de Mangualde, Mesquitela e Cunha Alta"@en ;
+        ramon:code  "PT-1806" ;
+        rdfs:label  "PT-1806 União das freguesias de Mangualde, Mesquitela e Cunha Alta" .
+
+lau:PT-1805  ramon:name  "Lamego (Almacave e Sé)"@en ;
+        ramon:code  "PT-1805" ;
+        rdfs:label  "PT-1805 Lamego (Almacave e Sé)" .
+
+lau:PT-0613  ramon:name  "Lorvão"@en ;
+        ramon:code  "PT-0613" ;
+        rdfs:label  "PT-0613 Lorvão" .
+
+lau:PT-3105  ramon:name  "Ponta do Sol"@en ;
+        ramon:code  "PT-3105" ;
+        rdfs:label  "PT-3105 Ponta do Sol" .
+
+lau:PT-1804  ramon:name  "Cinfães"@en ;
+        ramon:code  "PT-1804" ;
+        rdfs:label  "PT-1804 Cinfães" .
+
+lau:PT-1714  ramon:name  "Vila Real"@en ;
+        ramon:code  "PT-1714" ;
+        rdfs:label  "PT-1714 Vila Real" .
+
+lau:PT-1202  ramon:name  "Assunção"@en ;
+        ramon:code  "PT-1202" ;
+        rdfs:label  "PT-1202 Assunção" .
+
+lau:PT-4602  ramon:name  "Madalena"@en ;
+        ramon:code  "PT-4602" ;
+        rdfs:label  "PT-4602 Madalena" .
+
+lau:PT-4603  ramon:name  "São Roque do Pico"@en ;
+        ramon:code  "PT-4603" ;
+        rdfs:label  "PT-4603 São Roque do Pico" .
+
+lau:PT-4601  ramon:name  "Lajes do Pico"@en ;
+        ramon:code  "PT-4601" ;
+        rdfs:label  "PT-4601 Lajes do Pico" .
+
+lau:PT-0808  ramon:name  "Quarteira"@en ;
+        ramon:code  "PT-0808" ;
+        rdfs:label  "PT-0808 Quarteira" .
+
+lau:PT-0809  ramon:name  "Monchique"@en ;
+        ramon:code  "PT-0809" ;
+        rdfs:label  "PT-0809 Monchique" .
+
+lau:PT-3201  ramon:name  "Porto Santo"@en ;
+        ramon:code  "PT-3201" ;
+        rdfs:label  "PT-3201 Porto Santo" .
+
+lau:PT-0804  ramon:name  "Castro Marim"@en ;
+        ramon:code  "PT-0804" ;
+        rdfs:label  "PT-0804 Castro Marim" .
+
+lau:PT-0805  ramon:name  "União das freguesias de Faro (Sé e São Pedro)"@en ;
+        ramon:code  "PT-0805" ;
+        rdfs:label  "PT-0805 União das freguesias de Faro (Sé e São Pedro)" .
+
+lau:PT-0806  ramon:name  "União das freguesias de Lagoa e Carvoeiro"@en ;
+        ramon:code  "PT-0806" ;
+        rdfs:label  "PT-0806 União das freguesias de Lagoa e Carvoeiro" .
+
+lau:PT-0807  ramon:name  "São Gonçalo de Lagos"@en ;
+        ramon:code  "PT-0807" ;
+        rdfs:label  "PT-0807 São Gonçalo de Lagos" .
+
+lau:PT-0801  ramon:name  "Albufeira e Olhos de Água"@en ;
+        ramon:code  "PT-0801" ;
+        rdfs:label  "PT-0801 Albufeira e Olhos de Água" .
+
+lau:PT-0802  ramon:name  "União das freguesias de Alcoutim e Pereiro"@en ;
+        ramon:code  "PT-0802" ;
+        rdfs:label  "PT-0802 União das freguesias de Alcoutim e Pereiro" .
+
+lau:PT-0803  ramon:name  "Aljezur"@en ;
+        ramon:code  "PT-0803" ;
+        rdfs:label  "PT-0803 Aljezur" .
+
+lau:PT-1106  ramon:name  "Lumiar"@en ;
+        ramon:code  "PT-1106" ;
+        rdfs:label  "PT-1106 Lumiar" .
+
+lau:PT-1107  ramon:name  "União das freguesias de Santa Iria de Azoia, São João da Talha e Bobadela"@en ;
+        ramon:code  "PT-1107" ;
+        rdfs:label  "PT-1107 União das freguesias de Santa Iria de Azoia, São João da Talha e Bobadela" .
+
+lau:PT-1104  ramon:name  "União das freguesias do Cadaval e Pêro Moniz"@en ;
+        ramon:code  "PT-1104" ;
+        rdfs:label  "PT-1104 União das freguesias do Cadaval e Pêro Moniz" .
+
+lau:PT-1105  ramon:name  "União das freguesias de Cascais e Estoril"@en ;
+        ramon:code  "PT-1105" ;
+        rdfs:label  "PT-1105 União das freguesias de Cascais e Estoril" .
+
+lau:PT-1102  ramon:name  "Arruda dos Vinhos"@en ;
+        ramon:code  "PT-1102" ;
+        rdfs:label  "PT-1102 Arruda dos Vinhos" .
+
+lau:PT-1103  ramon:name  "Azambuja"@en ;
+        ramon:code  "PT-1103" ;
+        rdfs:label  "PT-1103 Azambuja" .
+
+lau:PT-1101  ramon:name  "União das freguesias de Carregado e Cadafais"@en ;
+        ramon:code  "PT-1101" ;
+        rdfs:label  "PT-1101 União das freguesias de Carregado e Cadafais" .
+
+lau:PT-1513  ramon:name  "Sines"@en ;
+        ramon:code  "PT-1513" ;
+        rdfs:label  "PT-1513 Sines" .
+
+lau:PT-1511  ramon:name  "Quinta do Conde"@en ;
+        ramon:code  "PT-1511" ;
+        rdfs:label  "PT-1511 Quinta do Conde" .
+
+lau:PT-1510  ramon:name  "Amora"@en ;
+        ramon:code  "PT-1510" ;
+        rdfs:label  "PT-1510 Amora" .
+
+lau:PT-1108  ramon:name  "União das freguesias de Lourinhã e Atalaia"@en ;
+        ramon:code  "PT-1108" ;
+        rdfs:label  "PT-1108 União das freguesias de Lourinhã e Atalaia" .
+
+lau:PT-1109  ramon:name  "Mafra"@en ;
+        ramon:code  "PT-1109" ;
+        rdfs:label  "PT-1109 Mafra" .
+
+lau:PT-1209  ramon:name  "União das freguesias de Gavião e Atalaia"@en ;
+        ramon:code  "PT-1209" ;
+        rdfs:label  "PT-1209 União das freguesias de Gavião e Atalaia" .
+
+lau:PT-1208  ramon:name  "Fronteira"@en ;
+        ramon:code  "PT-1208" ;
+        rdfs:label  "PT-1208 Fronteira" .
+
+lau:PT-1205  ramon:name  "Santa Maria da Devesa"@en ;
+        ramon:code  "PT-1205" ;
+        rdfs:label  "PT-1205 Santa Maria da Devesa" .
+
+lau:PT-1204  ramon:name  "Nossa Senhora da Expectação"@en ;
+        ramon:code  "PT-1204" ;
+        rdfs:label  "PT-1204 Nossa Senhora da Expectação" .
+
+lau:PT-1207  ramon:name  "Assunção, Ajuda, Salvador e Santo Ildefonso"@en ;
+        ramon:code  "PT-1207" ;
+        rdfs:label  "PT-1207 Assunção, Ajuda, Salvador e Santo Ildefonso" .
+
+lau:PT-1206  ramon:name  "União das freguesias de Crato e Mártires, Flor da Rosa e Vale do Peso"@en ;
+        ramon:code  "PT-1206" ;
+        rdfs:label  "PT-1206 União das freguesias de Crato e Mártires, Flor da Rosa e Vale do Peso" .
+
+lau:PT-1201  ramon:name  "Alter do Chão"@en ;
+        ramon:code  "PT-1201" ;
+        rdfs:label  "PT-1201 Alter do Chão" .
+
+lau:PT-3107  ramon:name  "Ribeira Brava"@en ;
+        ramon:code  "PT-3107" ;
+        rdfs:label  "PT-3107 Ribeira Brava" .
+
+lau:PT-1203  ramon:name  "Avis"@en ;
+        ramon:code  "PT-1203" ;
+        rdfs:label  "PT-1203 Avis" .
+
+lau:PT-1012  ramon:name  "Santa Maria, São Pedro e Sobral da Lagoa"@en ;
+        ramon:code  "PT-1012" ;
+        rdfs:label  "PT-1012 Santa Maria, São Pedro e Sobral da Lagoa" .
+
+lau:PT-1608  ramon:name  "União das freguesias de Valença, Cristelo Covo e Arão"@en ;
+        ramon:code  "PT-1608" ;
+        rdfs:label  "PT-1608 União das freguesias de Valença, Cristelo Covo e Arão" .
+
+lau:PT-1809  ramon:name  "Nelas"@en ;
+        ramon:code  "PT-1809" ;
+        rdfs:label  "PT-1809 Nelas" .
+
+lau:PT-3110  ramon:name  "São Vicente"@en ;
+        ramon:code  "PT-3110" ;
+        rdfs:label  "PT-3110 São Vicente" .
+
+lau:PT-1606  ramon:name  "União das freguesias de Ponte da Barca, Vila Nova de Muía e Paço Vedro de Magalhães"@en ;
+        ramon:code  "PT-1606" ;
+        rdfs:label  "PT-1606 União das freguesias de Ponte da Barca, Vila Nova de Muía e Paço Vedro de Magalhães" .
+
+lau:PT-1814  ramon:name  "União das freguesias de Santa Comba Dão e Couto do Mosteiro"@en ;
+        ramon:code  "PT-1814" ;
+        rdfs:label  "PT-1814 União das freguesias de Santa Comba Dão e Couto do Mosteiro" .
+
+lau:PT-0401  ramon:name  "Alfândega da Fé"@en ;
+        ramon:code  "PT-0401" ;
+        rdfs:label  "PT-0401 Alfândega da Fé" .
+
+lau:PT-0402  ramon:name  "União das freguesias de Sé, Santa Maria e Meixedo"@en ;
+        ramon:code  "PT-0402" ;
+        rdfs:label  "PT-0402 União das freguesias de Sé, Santa Maria e Meixedo" .
+
+lau:PT-0403  ramon:name  "Carrazeda de Ansiães"@en ;
+        ramon:code  "PT-0403" ;
+        rdfs:label  "PT-0403 Carrazeda de Ansiães" .
+
+lau:PT-0404  ramon:name  "União das freguesias de Freixo de Espada à Cinta e Mazouco"@en ;
+        ramon:code  "PT-0404" ;
+        rdfs:label  "PT-0404 União das freguesias de Freixo de Espada à Cinta e Mazouco" .
+
+lau:PT-0405  ramon:name  "Macedo de Cavaleiros"@en ;
+        ramon:code  "PT-0405" ;
+        rdfs:label  "PT-0405 Macedo de Cavaleiros" .
+
+lau:PT-0406  ramon:name  "Miranda do Douro"@en ;
+        ramon:code  "PT-0406" ;
+        rdfs:label  "PT-0406 Miranda do Douro" .
+
+lau:PT-0407  ramon:name  "Mirandela"@en ;
+        ramon:code  "PT-0407" ;
+        rdfs:label  "PT-0407 Mirandela" .
+
+lau:PT-0408  ramon:name  "União das freguesias de Mogadouro, Valverde, Vale de Porco e Vilar de Rei"@en ;
+        ramon:code  "PT-0408" ;
+        rdfs:label  "PT-0408 União das freguesias de Mogadouro, Valverde, Vale de Porco e Vilar de Rei" .
+
+lau:PT-0409  ramon:name  "Torre de Moncorvo"@en ;
+        ramon:code  "PT-0409" ;
+        rdfs:label  "PT-0409 Torre de Moncorvo" .
+
+lau:PT-0815  ramon:name  "Sagres"@en ;
+        ramon:code  "PT-0815" ;
+        rdfs:label  "PT-0815 Sagres" .
+
+lau:PT-0814  ramon:name  "União das freguesias de Tavira (Santa Maria e Santiago)"@en ;
+        ramon:code  "PT-0814" ;
+        rdfs:label  "PT-0814 União das freguesias de Tavira (Santa Maria e Santiago)" .
+
+lau:PT-0813  ramon:name  "Silves"@en ;
+        ramon:code  "PT-0813" ;
+        rdfs:label  "PT-0813 Silves" .
+
+lau:PT-0812  ramon:name  "São Brás de Alportel"@en ;
+        ramon:code  "PT-0812" ;
+        rdfs:label  "PT-0812 São Brás de Alportel" .
+
+lau:PT-0811  ramon:name  "Portimão"@en ;
+        ramon:code  "PT-0811" ;
+        rdfs:label  "PT-0811 Portimão" .
+
+lau:PT-0810  ramon:name  "Quelfes"@en ;
+        ramon:code  "PT-0810" ;
+        rdfs:label  "PT-0810 Quelfes" .
+
+lau:PT-1111  ramon:name  "Algueirão-Mem Martins"@en ;
+        ramon:code  "PT-1111" ;
+        rdfs:label  "PT-1111 Algueirão-Mem Martins" .
+
+lau:PT-1110  ramon:name  "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias"@en ;
+        ramon:code  "PT-1110" ;
+        rdfs:label  "PT-1110 União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias" .
+
+lau:PT-1113  ramon:name  "Santa Maria, São Pedro e Matacães"@en ;
+        ramon:code  "PT-1113" ;
+        rdfs:label  "PT-1113 Santa Maria, São Pedro e Matacães" .
+
+lau:PT-1112  ramon:name  "Santo Quintino"@en ;
+        ramon:code  "PT-1112" ;
+        rdfs:label  "PT-1112 Santo Quintino" .
+
+lau:PT-1115  ramon:name  "Mina de Água"@en ;
+        ramon:code  "PT-1115" ;
+        rdfs:label  "PT-1115 Mina de Água" .
+
+lau:PT-1114  ramon:name  "União das freguesias de Póvoa de Santa Iria e Forte da Casa"@en ;
+        ramon:code  "PT-1114" ;
+        rdfs:label  "PT-1114 União das freguesias de Póvoa de Santa Iria e Forte da Casa" .
+
+lau:PT-1116  ramon:name  "Odivelas"@en ;
+        ramon:code  "PT-1116" ;
+        rdfs:label  "PT-1116 Odivelas" .
+
+lau:PT-0710  ramon:name  "Redondo"@en ;
+        ramon:code  "PT-0710" ;
+        rdfs:label  "PT-0710 Redondo" .
+
+lau:PT-0711  ramon:name  "Reguengos de Monsaraz"@en ;
+        ramon:code  "PT-0711" ;
+        rdfs:label  "PT-0711 Reguengos de Monsaraz" .
+
+lau:PT-0712  ramon:name  "Vendas Novas"@en ;
+        ramon:code  "PT-0712" ;
+        rdfs:label  "PT-0712 Vendas Novas" .
+
+lau:PT-0713  ramon:name  "Viana do Alentejo"@en ;
+        ramon:code  "PT-0713" ;
+        rdfs:label  "PT-0713 Viana do Alentejo" .
+
+lau:PT-0714  ramon:name  "Nossa Senhora da Conceição e São Bartolomeu"@en ;
+        ramon:code  "PT-0714" ;
+        rdfs:label  "PT-0714 Nossa Senhora da Conceição e São Bartolomeu" .
+
+lau:PT-4302  ramon:name  "Praia da Vitória (Santa Cruz)"@en ;
+        ramon:code  "PT-4302" ;
+        rdfs:label  "PT-4302 Praia da Vitória (Santa Cruz)" .
+
+lau:PT-1712  ramon:name  "Valpaços e Sanfins"@en ;
+        ramon:code  "PT-1712" ;
+        rdfs:label  "PT-1712 Valpaços e Sanfins" .
+
+lau:PT-4802  ramon:name  "Santa Cruz das Flores"@en ;
+        ramon:code  "PT-4802" ;
+        rdfs:label  "PT-4802 Santa Cruz das Flores" .
+
+lau:PT-3101  ramon:name  "Arco da Calheta"@en ;
+        ramon:code  "PT-3101" ;
+        rdfs:label  "PT-3101 Arco da Calheta" .
+
+lau:PT-1816  ramon:name  "União das freguesias de São Pedro do Sul, Várzea e Baiões"@en ;
+        ramon:code  "PT-1816" ;
+        rdfs:label  "PT-1816 União das freguesias de São Pedro do Sul, Várzea e Baiões" .
+
+lau:PT-0703  ramon:name  "Borba (Matriz)"@en ;
+        ramon:code  "PT-0703" ;
+        rdfs:label  "PT-0703 Borba (Matriz)" .
+
+lau:PT-1817  ramon:name  "Sátão"@en ;
+        ramon:code  "PT-1817" ;
+        rdfs:label  "PT-1817 Sátão" .
+
+lau:PT-4501  ramon:name  "Calheta"@en ;
+        ramon:code  "PT-4501" ;
+        rdfs:label  "PT-4501 Calheta" .
+
+lau:PT-4502  ramon:name  "Velas (São Jorge)"@en ;
+        ramon:code  "PT-4502" ;
+        rdfs:label  "PT-4502 Velas (São Jorge)" .
+
+lau:PT-1810  ramon:name  "União das freguesias de Oliveira de Frades, Souto de Lafões e Sejães"@en ;
+        ramon:code  "PT-1810" ;
+        rdfs:label  "PT-1810 União das freguesias de Oliveira de Frades, Souto de Lafões e Sejães" .
+
+lau:PT-1811  ramon:name  "Ínsua"@en ;
+        ramon:code  "PT-1811" ;
+        rdfs:label  "PT-1811 Ínsua" .
+
+lau:PT-1609  ramon:name  "União das freguesias de Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela"@en ;
+        ramon:code  "PT-1609" ;
+        rdfs:label  "PT-1609 União das freguesias de Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela" .
+
+lau:PT-0412  ramon:name  "Vinhais"@en ;
+        ramon:code  "PT-0412" ;
+        rdfs:label  "PT-0412 Vinhais" .
+
+lau:PT-0411  ramon:name  "Vimioso"@en ;
+        ramon:code  "PT-0411" ;
+        rdfs:label  "PT-0411 Vimioso" .
+
+lau:PT-0410  ramon:name  "União das freguesias de Vila Flor e Nabo"@en ;
+        ramon:code  "PT-0410" ;
+        rdfs:label  "PT-0410 União das freguesias de Vila Flor e Nabo" .
+
+lau:PT-1803  ramon:name  "Castro Daire"@en ;
+        ramon:code  "PT-1803" ;
+        rdfs:label  "PT-1803 Castro Daire" .
+
+lau:PT-1802  ramon:name  "Carregal do Sal"@en ;
+        ramon:code  "PT-1802" ;
+        rdfs:label  "PT-1802 Carregal do Sal" .
+
+lau:PT-1801  ramon:name  "Armamar"@en ;
+        ramon:code  "PT-1801" ;
+        rdfs:label  "PT-1801 Armamar" .
+
+lau:PT-3102  ramon:name  "Câmara de Lobos"@en ;
+        ramon:code  "PT-3102" ;
+        rdfs:label  "PT-3102 Câmara de Lobos" .
+
+lau:PT-1601  ramon:name  "União das freguesias de Arcos de Valdevez (Salvador), Vila Fonche e Parada"@en ;
+        ramon:code  "PT-1601" ;
+        rdfs:label  "PT-1601 União das freguesias de Arcos de Valdevez (Salvador), Vila Fonche e Parada" .
+
+lau:PT-0707  ramon:name  "Mora"@en ;
+        ramon:code  "PT-0707" ;
+        rdfs:label  "PT-0707 Mora" .
+
+lau:PT-1603  ramon:name  "União das freguesias de Vila e Roussas"@en ;
+        ramon:code  "PT-1603" ;
+        rdfs:label  "PT-1603 União das freguesias de Vila e Roussas" .
+
+lau:PT-1602  ramon:name  "Vila Praia de Âncora"@en ;
+        ramon:code  "PT-1602" ;
+        rdfs:label  "PT-1602 Vila Praia de Âncora" .
+
+lau:PT-1605  ramon:name  "União das freguesias de Paredes de Coura e Resende"@en ;
+        ramon:code  "PT-1605" ;
+        rdfs:label  "PT-1605 União das freguesias de Paredes de Coura e Resende" .
+
+lau:PT-1604  ramon:name  "União das freguesias de Monção e Troviscoso"@en ;
+        ramon:code  "PT-1604" ;
+        rdfs:label  "PT-1604 União das freguesias de Monção e Troviscoso" .
+
+lau:PT-1607  ramon:name  "Arca e Ponte de Lima"@en ;
+        ramon:code  "PT-1607" ;
+        rdfs:label  "PT-1607 Arca e Ponte de Lima" .
+
+lau:PT-0706  ramon:name  "União das freguesias de Nossa Senhora da Vila, Nossa Senhora do Bispo e Silveiras"@en ;
+        ramon:code  "PT-0706" ;
+        rdfs:label  "PT-0706 União das freguesias de Nossa Senhora da Vila, Nossa Senhora do Bispo e Silveiras" .
+
+lau:PT-3104  ramon:name  "Machico"@en ;
+        ramon:code  "PT-3104" ;
+        rdfs:label  "PT-3104 Machico" .
+
+lau:PT-0709  ramon:name  "Portel"@en ;
+        ramon:code  "PT-0709" ;
+        rdfs:label  "PT-0709 Portel" .
+
+lau:PT-0708  ramon:name  "Mourão"@en ;
+        ramon:code  "PT-0708" ;
+        rdfs:label  "PT-0708 Mourão" .
+
+lau:PT-0705  ramon:name  "União das freguesias de Malagueira e Horta das Figueiras"@en ;
+        ramon:code  "PT-0705" ;
+        rdfs:label  "PT-0705 União das freguesias de Malagueira e Horta das Figueiras" .
+
+lau:PT-0816  ramon:name  "Vila Real de Santo António"@en ;
+        ramon:code  "PT-0816" ;
+        rdfs:label  "PT-0816 Vila Real de Santo António" .
+
+lau:PT-0314  ramon:name  "União das freguesias de Caldas de Vizela (São Miguel e São João)"@en ;
+        ramon:code  "PT-0314" ;
+        rdfs:label  "PT-0314 União das freguesias de Caldas de Vizela (São Miguel e São João)" .
+
+lau:PT-0702  ramon:name  "Arraiolos"@en ;
+        ramon:code  "PT-0702" ;
+        rdfs:label  "PT-0702 Arraiolos" .
+
+lau:PT-0701  ramon:name  "União das freguesias de Alandroal (Nossa Senhora da Conceição), São Brás dos Matos (Mina do Bugalho) e Juromenha (Nossa Senhora do Loreto)"@en ;
+        ramon:code  "PT-0701" ;
+        rdfs:label  "PT-0701 União das freguesias de Alandroal (Nossa Senhora da Conceição), São Brás dos Matos (Mina do Bugalho) e Juromenha (Nossa Senhora do Loreto)" .
+
+lau:PT-0704  ramon:name  "União das freguesias de Estremoz (Santa Maria e Santo André)"@en ;
+        ramon:code  "PT-0704" ;
+        rdfs:label  "PT-0704 União das freguesias de Estremoz (Santa Maria e Santo André)" .
+
+lau:PT-0310  ramon:name  "Vilar da Veiga"@en ;
+        ramon:code  "PT-0310" ;
+        rdfs:label  "PT-0310 Vilar da Veiga" .
+
+lau:PT-0311  ramon:name  "Vieira do Minho"@en ;
+        ramon:code  "PT-0311" ;
+        rdfs:label  "PT-0311 Vieira do Minho" .
+
+lau:PT-0312  ramon:name  "União das freguesias de Vila Nova de Famalicão e Calendário"@en ;
+        ramon:code  "PT-0312" ;
+        rdfs:label  "PT-0312 União das freguesias de Vila Nova de Famalicão e Calendário" .
+
+lau:PT-0313  ramon:name  "Vila Verde e Barbudo"@en ;
+        ramon:code  "PT-0313" ;
+        rdfs:label  "PT-0313 Vila Verde e Barbudo" .

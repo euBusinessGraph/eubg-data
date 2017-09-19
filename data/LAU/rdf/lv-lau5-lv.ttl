@@ -12,1427 +12,1427 @@
 lau:LV-0010000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rīga"@en ;
-        rdfs:label           "0010000 Rīga" ;
+        rdfs:label           "LV-0010000 Rīga" ;
         void:inDataset       lau: ;
         ramon:name           "Rīga"@lv ;
         dbo:populationTotal  638784 ;
         dbo:areaTotal        303753288 ;
-        ramon:code           "0010000" ;
+        ramon:code           "LV-0010000" ;
         spatial:PP           nuts:LV006 ;
         ramon:level          5 .
 
 lau:LV-0050000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Daugavpils"@en ;
-        rdfs:label           "0050000 Daugavpils" ;
+        rdfs:label           "LV-0050000 Daugavpils" ;
         void:inDataset       lau: ;
         ramon:name           "Daugavpils"@lv ;
         dbo:populationTotal  85286 ;
         dbo:areaTotal        72346985 ;
-        ramon:code           "0050000" ;
+        ramon:code           "LV-0050000" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0090000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jelgava"@en ;
-        rdfs:label           "0090000 Jelgava" ;
+        rdfs:label           "LV-0090000 Jelgava" ;
         void:inDataset       lau: ;
         ramon:name           "Jelgava"@lv ;
         dbo:populationTotal  57045 ;
         dbo:areaTotal        60498184 ;
-        ramon:code           "0090000" ;
+        ramon:code           "LV-0090000" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0110000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jēkabpils"@en ;
-        rdfs:label           "0110000 Jēkabpils" ;
+        rdfs:label           "LV-0110000 Jēkabpils" ;
         void:inDataset       lau: ;
         ramon:name           "Jēkabpils"@lv ;
         dbo:populationTotal  22722 ;
         dbo:areaTotal        25453757 ;
-        ramon:code           "0110000" ;
+        ramon:code           "LV-0110000" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0130000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jūrmala"@en ;
-        rdfs:label           "0130000 Jūrmala" ;
+        rdfs:label           "LV-0130000 Jūrmala" ;
         void:inDataset       lau: ;
         ramon:name           "Jūrmala"@lv ;
         dbo:populationTotal  49305 ;
         dbo:areaTotal        101246031 ;
-        ramon:code           "0130000" ;
+        ramon:code           "LV-0130000" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0170000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Liepāja"@en ;
-        rdfs:label           "0170000 Liepāja" ;
+        rdfs:label           "LV-0170000 Liepāja" ;
         void:inDataset       lau: ;
         ramon:name           "Liepāja"@lv ;
         dbo:populationTotal  70499 ;
         dbo:areaTotal        67998465 ;
-        ramon:code           "0170000" ;
+        ramon:code           "LV-0170000" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0210000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rēzekne"@en ;
-        rdfs:label           "0210000 Rēzekne" ;
+        rdfs:label           "LV-0210000 Rēzekne" ;
         void:inDataset       lau: ;
         ramon:name           "Rēzekne"@lv ;
         dbo:populationTotal  28745 ;
         dbo:areaTotal        17510335 ;
-        ramon:code           "0210000" ;
+        ramon:code           "LV-0210000" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0250000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Valmiera"@en ;
-        rdfs:label           "0250000 Valmiera" ;
+        rdfs:label           "LV-0250000 Valmiera" ;
         void:inDataset       lau: ;
         ramon:name           "Valmiera"@lv ;
         dbo:populationTotal  23230 ;
         dbo:areaTotal        19348071 ;
-        ramon:code           "0250000" ;
+        ramon:code           "LV-0250000" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0270000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ventspils"@en ;
-        rdfs:label           "0270000 Ventspils" ;
+        rdfs:label           "LV-0270000 Ventspils" ;
         void:inDataset       lau: ;
         ramon:name           "Ventspils"@lv ;
         dbo:populationTotal  35914 ;
         dbo:areaTotal        57859438 ;
-        ramon:code           "0270000" ;
+        ramon:code           "LV-0270000" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0320200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Aizkraukles novads"@en ;
-        rdfs:label           "0320200 Aizkraukles novads" ;
+        rdfs:label           "LV-0320200 Aizkraukles novads" ;
         void:inDataset       lau: ;
         ramon:name           "Aizkraukles novads"@lv ;
         dbo:populationTotal  8406 ;
         dbo:areaTotal        102183865 ;
-        ramon:code           "0320200" ;
+        ramon:code           "LV-0320200" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0321000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jaunjelgavas novads"@en ;
-        rdfs:label           "0321000 Jaunjelgavas novads" ;
+        rdfs:label           "LV-0321000 Jaunjelgavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Jaunjelgavas novads"@lv ;
         dbo:populationTotal  5508 ;
         dbo:areaTotal        684213604 ;
-        ramon:code           "0321000" ;
+        ramon:code           "LV-0321000" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0321400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pļaviņu novads"@en ;
-        rdfs:label           "0321400 Pļaviņu novads" ;
+        rdfs:label           "LV-0321400 Pļaviņu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Pļaviņu novads"@lv ;
         dbo:populationTotal  5278 ;
         dbo:areaTotal        375796919 ;
-        ramon:code           "0321400" ;
+        ramon:code           "LV-0321400" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0326100  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kokneses novads"@en ;
-        rdfs:label           "0326100 Kokneses novads" ;
+        rdfs:label           "LV-0326100 Kokneses novads" ;
         void:inDataset       lau: ;
         ramon:name           "Kokneses novads"@lv ;
         dbo:populationTotal  5202 ;
         dbo:areaTotal        360553058 ;
-        ramon:code           "0326100" ;
+        ramon:code           "LV-0326100" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0327100  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Neretas novads"@en ;
-        rdfs:label           "0327100 Neretas novads" ;
+        rdfs:label           "LV-0327100 Neretas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Neretas novads"@lv ;
         dbo:populationTotal  3642 ;
         dbo:areaTotal        644666897 ;
-        ramon:code           "0327100" ;
+        ramon:code           "LV-0327100" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0328200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skrīveru novads"@en ;
-        rdfs:label           "0328200 Skrīveru novads" ;
+        rdfs:label           "LV-0328200 Skrīveru novads" ;
         void:inDataset       lau: ;
         ramon:name           "Skrīveru novads"@lv ;
         dbo:populationTotal  3458 ;
         dbo:areaTotal        105381149 ;
-        ramon:code           "0328200" ;
+        ramon:code           "LV-0328200" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0360200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alūksnes novads"@en ;
-        rdfs:label           "0360200 Alūksnes novads" ;
+        rdfs:label           "LV-0360200 Alūksnes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Al��ksnes novads"@lv ;
         dbo:populationTotal  15352 ;
         dbo:areaTotal        1698464611 ;
-        ramon:code           "0360200" ;
+        ramon:code           "LV-0360200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0360800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Apes novads"@en ;
-        rdfs:label           "0360800 Apes novads" ;
+        rdfs:label           "LV-0360800 Apes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Apes novads"@lv ;
         dbo:populationTotal  3525 ;
         dbo:areaTotal        544931786 ;
-        ramon:code           "0360800" ;
+        ramon:code           "LV-0360800" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0380200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Balvu novads"@en ;
-        rdfs:label           "0380200 Balvu novads" ;
+        rdfs:label           "LV-0380200 Balvu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Balvu novads"@lv ;
         dbo:populationTotal  12687 ;
         dbo:areaTotal        1045240060 ;
-        ramon:code           "0380200" ;
+        ramon:code           "LV-0380200" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0381600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Viļakas novads"@en ;
-        rdfs:label           "0381600 Viļakas novads" ;
+        rdfs:label           "LV-0381600 Viļakas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Viļakas novads"@lv ;
         dbo:populationTotal  5007 ;
         dbo:areaTotal        640781618 ;
-        ramon:code           "0381600" ;
+        ramon:code           "LV-0381600" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0384400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Baltinavas novads"@en ;
-        rdfs:label           "0384400 Baltinavas novads" ;
+        rdfs:label           "LV-0384400 Baltinavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Baltinavas novads"@lv ;
         dbo:populationTotal  1062 ;
         dbo:areaTotal        186385933 ;
-        ramon:code           "0384400" ;
+        ramon:code           "LV-0384400" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0387500  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rugāju novads"@en ;
-        rdfs:label           "0387500 Rugāju novads" ;
+        rdfs:label           "LV-0387500 Rugāju novads" ;
         void:inDataset       lau: ;
         ramon:name           "Rugāju novads"@lv ;
         dbo:populationTotal  2234 ;
         dbo:areaTotal        514918413 ;
-        ramon:code           "0387500" ;
+        ramon:code           "LV-0387500" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0400200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bauskas novads"@en ;
-        rdfs:label           "0400200 Bauskas novads" ;
+        rdfs:label           "LV-0400200 Bauskas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Bauskas novads"@lv ;
         dbo:populationTotal  23891 ;
         dbo:areaTotal        785966933 ;
-        ramon:code           "0400200" ;
+        ramon:code           "LV-0400200" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0406400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Iecavas novads"@en ;
-        rdfs:label           "0406400 Iecavas novads" ;
+        rdfs:label           "LV-0406400 Iecavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Iecavas novads"@lv ;
         dbo:populationTotal  8599 ;
         dbo:areaTotal        311865388 ;
-        ramon:code           "0406400" ;
+        ramon:code           "LV-0406400" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0407700  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rundāles novads"@en ;
-        rdfs:label           "0407700 Rundāles novads" ;
+        rdfs:label           "LV-0407700 Rundāles novads" ;
         void:inDataset       lau: ;
         ramon:name           "Rundāles novads"@lv ;
         dbo:populationTotal  3487 ;
         dbo:areaTotal        231210597 ;
-        ramon:code           "0407700" ;
+        ramon:code           "LV-0407700" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0409500  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vecumnieku novads"@en ;
-        rdfs:label           "0409500 Vecumnieku novads" ;
+        rdfs:label           "LV-0409500 Vecumnieku novads" ;
         void:inDataset       lau: ;
         ramon:name           "Vecumnieku novads"@lv ;
         dbo:populationTotal  8263 ;
         dbo:areaTotal        844201548 ;
-        ramon:code           "0409500" ;
+        ramon:code           "LV-0409500" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0420200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cēsu novads"@en ;
-        rdfs:label           "0420200 Cēsu novads" ;
+        rdfs:label           "LV-0420200 Cēsu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Cēsu novads"@lv ;
         dbo:populationTotal  16757 ;
         dbo:areaTotal        172880821 ;
-        ramon:code           "0420200" ;
+        ramon:code           "LV-0420200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0421200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Līgatnes novads"@en ;
-        rdfs:label           "0421200 Līgatnes novads" ;
+        rdfs:label           "LV-0421200 Līgatnes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Līgatnes novads"@lv ;
         dbo:populationTotal  3412 ;
         dbo:areaTotal        167492421 ;
-        ramon:code           "0421200" ;
+        ramon:code           "LV-0421200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0424701  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Amatas novads"@en ;
-        rdfs:label           "0424701 Amatas novads" ;
+        rdfs:label           "LV-0424701 Amatas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Amatas novads"@lv ;
         dbo:populationTotal  5370 ;
         dbo:areaTotal        745369359 ;
-        ramon:code           "0424701" ;
+        ramon:code           "LV-0424701" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0425700  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jaunpiebalgas novads"@en ;
-        rdfs:label           "0425700 Jaunpiebalgas novads" ;
+        rdfs:label           "LV-0425700 Jaunpiebalgas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Jaunpiebalgas novads"@lv ;
         dbo:populationTotal  2209 ;
         dbo:areaTotal        251159061 ;
-        ramon:code           "0425700" ;
+        ramon:code           "LV-0425700" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0427300  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Priekuļu novads"@en ;
-        rdfs:label           "0427300 Priekuļu novads" ;
+        rdfs:label           "LV-0427300 Priekuļu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Priekuļu novads"@lv ;
         dbo:populationTotal  7965 ;
         dbo:areaTotal        301483204 ;
-        ramon:code           "0427300" ;
+        ramon:code           "LV-0427300" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0427500  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pārgaujas novads"@en ;
-        rdfs:label           "0427500 Pārgaujas novads" ;
+        rdfs:label           "LV-0427500 Pārgaujas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Pārgaujas novads"@lv ;
         dbo:populationTotal  3827 ;
         dbo:areaTotal        486185529 ;
-        ramon:code           "0427500" ;
+        ramon:code           "LV-0427500" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0427700  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Raunas novads"@en ;
-        rdfs:label           "0427700 Raunas novads" ;
+        rdfs:label           "LV-0427700 Raunas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Raunas novads"@lv ;
         dbo:populationTotal  3172 ;
         dbo:areaTotal        308847438 ;
-        ramon:code           "0427700" ;
+        ramon:code           "LV-0427700" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0429300  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vecpiebalgas novads"@en ;
-        rdfs:label           "0429300 Vecpiebalgas novads" ;
+        rdfs:label           "LV-0429300 Vecpiebalgas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Vecpiebalgas novads"@lv ;
         dbo:populationTotal  3861 ;
         dbo:areaTotal        541888905 ;
-        ramon:code           "0429300" ;
+        ramon:code           "LV-0429300" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0440200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Daugavpils novads"@en ;
-        rdfs:label           "0440200 Daugavpils novads" ;
+        rdfs:label           "LV-0440200 Daugavpils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Daugavpils novads"@lv ;
         dbo:populationTotal  22194 ;
         dbo:areaTotal        1875786734 ;
-        ramon:code           "0440200" ;
+        ramon:code           "LV-0440200" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0440801  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ilūkstes novads"@en ;
-        rdfs:label           "0440801 Ilūkstes novads" ;
+        rdfs:label           "LV-0440801 Ilūkstes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ilūkstes novads"@lv ;
         dbo:populationTotal  7206 ;
         dbo:areaTotal        647232283 ;
-        ramon:code           "0440801" ;
+        ramon:code           "LV-0440801" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0460200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dobeles novads"@en ;
-        rdfs:label           "0460200 Dobeles novads" ;
+        rdfs:label           "LV-0460200 Dobeles novads" ;
         void:inDataset       lau: ;
         ramon:name           "Dobeles novads"@lv ;
         dbo:populationTotal  20498 ;
         dbo:areaTotal        887899026 ;
-        ramon:code           "0460200" ;
+        ramon:code           "LV-0460200" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0460800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Auces novads"@en ;
-        rdfs:label           "0460800 Auces novads" ;
+        rdfs:label           "LV-0460800 Auces novads" ;
         void:inDataset       lau: ;
         ramon:name           "Auces novads"@lv ;
         dbo:populationTotal  6595 ;
         dbo:areaTotal        516600207 ;
-        ramon:code           "0460800" ;
+        ramon:code           "LV-0460800" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0468900  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tērvetes novads"@en ;
-        rdfs:label           "0468900 Tērvetes novads" ;
+        rdfs:label           "LV-0468900 Tērvetes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Tērvetes novads"@lv ;
         dbo:populationTotal  3389 ;
         dbo:areaTotal        223618707 ;
-        ramon:code           "0468900" ;
+        ramon:code           "LV-0468900" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0500200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gulbenes novads"@en ;
-        rdfs:label           "0500200 Gulbenes novads" ;
+        rdfs:label           "LV-0500200 Gulbenes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Gulbenes novads"@lv ;
         dbo:populationTotal  21223 ;
         dbo:areaTotal        1871847183 ;
-        ramon:code           "0500200" ;
+        ramon:code           "LV-0500200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0540200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jelgavas novads"@en ;
-        rdfs:label           "0540200 Jelgavas novads" ;
+        rdfs:label           "LV-0540200 Jelgavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Jelgavas novads"@lv ;
         dbo:populationTotal  22948 ;
         dbo:areaTotal        1316897065 ;
-        ramon:code           "0540200" ;
+        ramon:code           "LV-0540200" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0546701  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ozolnieku novads"@en ;
-        rdfs:label           "0546701 Ozolnieku novads" ;
+        rdfs:label           "LV-0546701 Ozolnieku novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ozolnieku novads"@lv ;
         dbo:populationTotal  9721 ;
         dbo:areaTotal        285918452 ;
-        ramon:code           "0546701" ;
+        ramon:code           "LV-0546701" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0560200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jēkabpils novads"@en ;
-        rdfs:label           "0560200 Jēkabpils novads" ;
+        rdfs:label           "LV-0560200 Jēkabpils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Jēkabpils novads"@lv ;
         dbo:populationTotal  4682 ;
         dbo:areaTotal        905320579 ;
-        ramon:code           "0560200" ;
+        ramon:code           "LV-0560200" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0560800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Aknīstes novads "@en ;
-        rdfs:label           "0560800 Aknīstes novads " ;
+        rdfs:label           "LV-0560800 Aknīstes novads " ;
         void:inDataset       lau: ;
         ramon:name           "Aknīstes novads "@lv ;
         dbo:populationTotal  2766 ;
         dbo:areaTotal        284596041 ;
-        ramon:code           "0560800" ;
+        ramon:code           "LV-0560800" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0561800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Viesītes novads"@en ;
-        rdfs:label           "0561800 Viesītes novads" ;
+        rdfs:label           "LV-0561800 Viesītes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Viesītes novads"@lv ;
         dbo:populationTotal  3802 ;
         dbo:areaTotal        650777376 ;
-        ramon:code           "0561800" ;
+        ramon:code           "LV-0561800" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0566900  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Krustpils novads"@en ;
-        rdfs:label           "0566900 Krustpils novads" ;
+        rdfs:label           "LV-0566900 Krustpils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Krustpils novads"@lv ;
         dbo:populationTotal  5834 ;
         dbo:areaTotal        811431525 ;
-        ramon:code           "0566900" ;
+        ramon:code           "LV-0566900" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0568700  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Salas novads"@en ;
-        rdfs:label           "0568700 Salas novads" ;
+        rdfs:label           "LV-0568700 Salas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Salas novads"@lv ;
         dbo:populationTotal  3599 ;
         dbo:areaTotal        317165727 ;
-        ramon:code           "0568700" ;
+        ramon:code           "LV-0568700" ;
         spatial:PP           nuts:LV009 ;
         ramon:level          5 .
 
 lau:LV-0600202  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Krāslavas novads"@en ;
-        rdfs:label           "0600202 Krāslavas novads" ;
+        rdfs:label           "LV-0600202 Krāslavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Krāslavas novads"@lv ;
         dbo:populationTotal  15423 ;
         dbo:areaTotal        1079322778 ;
-        ramon:code           "0600202" ;
+        ramon:code           "LV-0600202" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0601000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dagdas novads"@en ;
-        rdfs:label           "0601000 Dagdas novads" ;
+        rdfs:label           "LV-0601000 Dagdas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Dagdas novads"@lv ;
         dbo:populationTotal  7444 ;
         dbo:areaTotal        949683411 ;
-        ramon:code           "0601000" ;
+        ramon:code           "LV-0601000" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0604300  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Aglonas novads"@en ;
-        rdfs:label           "0604300 Aglonas novads" ;
+        rdfs:label           "LV-0604300 Aglonas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Aglonas novads"@lv ;
         dbo:populationTotal  3572 ;
         dbo:areaTotal        392581827 ;
-        ramon:code           "0604300" ;
+        ramon:code           "LV-0604300" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0620200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuldīgas novads"@en ;
-        rdfs:label           "0620200 Kuldīgas novads" ;
+        rdfs:label           "LV-0620200 Kuldīgas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Kuldīgas novads"@lv ;
         dbo:populationTotal  23492 ;
         dbo:areaTotal        1756692777 ;
-        ramon:code           "0620200" ;
+        ramon:code           "LV-0620200" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0621200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skrundas novads"@en ;
-        rdfs:label           "0621200 Skrundas novads" ;
+        rdfs:label           "LV-0621200 Skrundas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Skrundas novads"@lv ;
         dbo:populationTotal  4919 ;
         dbo:areaTotal        556673952 ;
-        ramon:code           "0621200" ;
+        ramon:code           "LV-0621200" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0624200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alsungas novads"@en ;
-        rdfs:label           "0624200 Alsungas novads" ;
+        rdfs:label           "LV-0624200 Alsungas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Alsungas novads"@lv ;
         dbo:populationTotal  1380 ;
         dbo:areaTotal        190847536 ;
-        ramon:code           "0624200" ;
+        ramon:code           "LV-0624200" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0640600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Aizputes novads"@en ;
-        rdfs:label           "0640600 Aizputes novads" ;
+        rdfs:label           "LV-0640600 Aizputes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Aizputes novads"@lv ;
         dbo:populationTotal  8658 ;
         dbo:areaTotal        639926463 ;
-        ramon:code           "0640600" ;
+        ramon:code           "LV-0640600" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0640801  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Durbes novads"@en ;
-        rdfs:label           "0640801 Durbes novads" ;
+        rdfs:label           "LV-0640801 Durbes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Durbes novads"@lv ;
         dbo:populationTotal  2776 ;
         dbo:areaTotal        320376936 ;
-        ramon:code           "0640801" ;
+        ramon:code           "LV-0640801" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0641000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Grobiņas novads"@en ;
-        rdfs:label           "0641000 Grobiņas novads" ;
+        rdfs:label           "LV-0641000 Grobiņas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Grobiņas novads"@lv ;
         dbo:populationTotal  8745 ;
         dbo:areaTotal        489901500 ;
-        ramon:code           "0641000" ;
+        ramon:code           "LV-0641000" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0641401  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pāvilostas novads"@en ;
-        rdfs:label           "0641401 Pāvilostas novads" ;
+        rdfs:label           "LV-0641401 Pāvilostas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Pāvilostas novads"@lv ;
         dbo:populationTotal  2664 ;
         dbo:areaTotal        515026809 ;
-        ramon:code           "0641401" ;
+        ramon:code           "LV-0641401" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0641600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Priekules novads"@en ;
-        rdfs:label           "0641600 Priekules novads" ;
+        rdfs:label           "LV-0641600 Priekules novads" ;
         void:inDataset       lau: ;
         ramon:name           "Priekules novads"@lv ;
         dbo:populationTotal  5412 ;
         dbo:areaTotal        519741160 ;
-        ramon:code           "0641600" ;
+        ramon:code           "LV-0641600" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0647900  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nīcas novads"@en ;
-        rdfs:label           "0647900 Nīcas novads" ;
+        rdfs:label           "LV-0647900 Nīcas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Nīcas novads"@lv ;
         dbo:populationTotal  3342 ;
         dbo:areaTotal        350850565 ;
-        ramon:code           "0647900" ;
+        ramon:code           "LV-0647900" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0648500  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rucavas novads"@en ;
-        rdfs:label           "0648500 Rucavas novads" ;
+        rdfs:label           "LV-0648500 Rucavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Rucavas novads"@lv ;
         dbo:populationTotal  1661 ;
         dbo:areaTotal        448159619 ;
-        ramon:code           "0648500" ;
+        ramon:code           "LV-0648500" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0649300  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vaiņodes novads"@en ;
-        rdfs:label           "0649300 Vaiņodes novads" ;
+        rdfs:label           "LV-0649300 Vaiņodes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Vaiņodes novads"@lv ;
         dbo:populationTotal  2430 ;
         dbo:areaTotal        306831651 ;
-        ramon:code           "0649300" ;
+        ramon:code           "LV-0649300" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0660200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Limbažu novads"@en ;
-        rdfs:label           "0660200 Limbažu novads" ;
+        rdfs:label           "LV-0660200 Limbažu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Limbažu novads"@lv ;
         dbo:populationTotal  16869 ;
         dbo:areaTotal        1170382914 ;
-        ramon:code           "0660200" ;
+        ramon:code           "LV-0660200" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0661000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alojas novads "@en ;
-        rdfs:label           "0661000 Alojas novads " ;
+        rdfs:label           "LV-0661000 Alojas novads " ;
         void:inDataset       lau: ;
         ramon:name           "Alojas novads "@lv ;
         dbo:populationTotal  4868 ;
         dbo:areaTotal        630957096 ;
-        ramon:code           "0661000" ;
+        ramon:code           "LV-0661000" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0661400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Salacgrīvas novads"@en ;
-        rdfs:label           "0661400 Salacgrīvas novads" ;
+        rdfs:label           "LV-0661400 Salacgrīvas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Salacgrīvas novads"@lv ;
         dbo:populationTotal  7818 ;
         dbo:areaTotal        637535702 ;
-        ramon:code           "0661400" ;
+        ramon:code           "LV-0661400" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0680200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ludzas novads"@en ;
-        rdfs:label           "0680200 Ludzas novads" ;
+        rdfs:label           "LV-0680200 Ludzas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ludzas novads"@lv ;
         dbo:populationTotal  12941 ;
         dbo:areaTotal        965356252 ;
-        ramon:code           "0680200" ;
+        ramon:code           "LV-0680200" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0681000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kārsavas novads"@en ;
-        rdfs:label           "0681000 Kārsavas novads" ;
+        rdfs:label           "LV-0681000 Kārsavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Kārsavas novads"@lv ;
         dbo:populationTotal  5667 ;
         dbo:areaTotal        628408666 ;
-        ramon:code           "0681000" ;
+        ramon:code           "LV-0681000" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0681801  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Zilupes novads"@en ;
-        rdfs:label           "0681801 Zilupes novads" ;
+        rdfs:label           "LV-0681801 Zilupes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Zilupes novads"@lv ;
         dbo:populationTotal  3014 ;
         dbo:areaTotal        309069988 ;
-        ramon:code           "0681801" ;
+        ramon:code           "LV-0681801" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0684901  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ciblas novads"@en ;
-        rdfs:label           "0684901 Ciblas novads" ;
+        rdfs:label           "LV-0684901 Ciblas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ciblas novads"@lv ;
         dbo:populationTotal  2661 ;
         dbo:areaTotal        510099382 ;
-        ramon:code           "0684901" ;
+        ramon:code           "LV-0684901" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0700200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Madonas novads"@en ;
-        rdfs:label           "0700200 Madonas novads" ;
+        rdfs:label           "LV-0700200 Madonas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Madonas novads"@lv ;
         dbo:populationTotal  23444 ;
         dbo:areaTotal        2159430554 ;
-        ramon:code           "0700200" ;
+        ramon:code           "LV-0700200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0700800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cesvaines novads"@en ;
-        rdfs:label           "0700800 Cesvaines novads" ;
+        rdfs:label           "LV-0700800 Cesvaines novads" ;
         void:inDataset       lau: ;
         ramon:name           "Cesvaines novads"@lv ;
         dbo:populationTotal  2568 ;
         dbo:areaTotal        190313670 ;
-        ramon:code           "0700800" ;
+        ramon:code           "LV-0700800" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0701400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lubānas novads"@en ;
-        rdfs:label           "0701400 Lubānas novads" ;
+        rdfs:label           "LV-0701400 Lubānas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Lubānas novads"@lv ;
         dbo:populationTotal  2364 ;
         dbo:areaTotal        347041838 ;
-        ramon:code           "0701400" ;
+        ramon:code           "LV-0701400" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0701800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Varakļānu novads"@en ;
-        rdfs:label           "0701800 Varakļānu novads" ;
+        rdfs:label           "LV-0701800 Varakļānu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Varakļānu novads"@lv ;
         dbo:populationTotal  3258 ;
         dbo:areaTotal        277915651 ;
-        ramon:code           "0701800" ;
+        ramon:code           "LV-0701800" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0705500  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ērgļu novads"@en ;
-        rdfs:label           "0705500 Ērgļu novads" ;
+        rdfs:label           "LV-0705500 Ērgļu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ērgļu novads"@lv ;
         dbo:populationTotal  2885 ;
         dbo:areaTotal        378923885 ;
-        ramon:code           "0705500" ;
+        ramon:code           "LV-0705500" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0740202  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ogres novads"@en ;
-        rdfs:label           "0740202 Ogres novads" ;
+        rdfs:label           "LV-0740202 Ogres novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ogres novads"@lv ;
         dbo:populationTotal  34028 ;
         dbo:areaTotal        990480710 ;
-        ramon:code           "0740202" ;
+        ramon:code           "LV-0740202" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0740600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ikšķiles novads"@en ;
-        rdfs:label           "0740600 Ikšķiles novads" ;
+        rdfs:label           "LV-0740600 Ikšķiles novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ikšķiles novads"@lv ;
         dbo:populationTotal  9451 ;
         dbo:areaTotal        130597652 ;
-        ramon:code           "0740600" ;
+        ramon:code           "LV-0740600" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0741001  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ķeguma novads"@en ;
-        rdfs:label           "0741001 Ķeguma novads" ;
+        rdfs:label           "LV-0741001 Ķeguma novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ķeguma novads"@lv ;
         dbo:populationTotal  5466 ;
         dbo:areaTotal        491588590 ;
-        ramon:code           "0741001" ;
+        ramon:code           "LV-0741001" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0741401  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lielvārdes novads"@en ;
-        rdfs:label           "0741401 Lielvārdes novads" ;
+        rdfs:label           "LV-0741401 Lielvārdes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Lielvārdes novads"@lv ;
         dbo:populationTotal  9993 ;
         dbo:areaTotal        225460475 ;
-        ramon:code           "0741401" ;
+        ramon:code           "LV-0741401" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0760202  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Preiļu novads"@en ;
-        rdfs:label           "0760202 Preiļu novads" ;
+        rdfs:label           "LV-0760202 Preiļu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Preiļu novads"@lv ;
         dbo:populationTotal  9754 ;
         dbo:areaTotal        363958738 ;
-        ramon:code           "0760202" ;
+        ramon:code           "LV-0760202" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0761201  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Līvānu novads"@en ;
-        rdfs:label           "0761201 Līvānu novads" ;
+        rdfs:label           "LV-0761201 Līvānu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Līvānu novads"@lv ;
         dbo:populationTotal  11424 ;
         dbo:areaTotal        622384466 ;
-        ramon:code           "0761201" ;
+        ramon:code           "LV-0761201" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0766300  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Riebiņu novads"@en ;
-        rdfs:label           "0766300 Riebiņu novads" ;
+        rdfs:label           "LV-0766300 Riebiņu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Riebiņu novads"@lv ;
         dbo:populationTotal  5092 ;
         dbo:areaTotal        629740327 ;
-        ramon:code           "0766300" ;
+        ramon:code           "LV-0766300" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0769101  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vārkavas novads"@en ;
-        rdfs:label           "0769101 Vārkavas novads" ;
+        rdfs:label           "LV-0769101 Vārkavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Vārkavas novads"@lv ;
         dbo:populationTotal  1968 ;
         dbo:areaTotal        287674256 ;
-        ramon:code           "0769101" ;
+        ramon:code           "LV-0769101" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0780200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rēzeknes novads"@en ;
-        rdfs:label           "0780200 Rēzeknes novads" ;
+        rdfs:label           "LV-0780200 Rēzeknes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Rēzeknes novads"@lv ;
         dbo:populationTotal  26707 ;
         dbo:areaTotal        2524553526 ;
-        ramon:code           "0780200" ;
+        ramon:code           "LV-0780200" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0781800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Viļānu novads"@en ;
-        rdfs:label           "0781800 Viļānu novads" ;
+        rdfs:label           "LV-0781800 Viļānu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Viļānu novads"@lv ;
         dbo:populationTotal  5895 ;
         dbo:areaTotal        286809802 ;
-        ramon:code           "0781800" ;
+        ramon:code           "LV-0781800" ;
         spatial:PP           nuts:LV005 ;
         ramon:level          5 .
 
 lau:LV-0800600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Baldones novads"@en ;
-        rdfs:label           "0800600 Baldones novads" ;
+        rdfs:label           "LV-0800600 Baldones novads" ;
         void:inDataset       lau: ;
         ramon:name           "Baldones novads"@lv ;
         dbo:populationTotal  5434 ;
         dbo:areaTotal        178897246 ;
-        ramon:code           "0800600" ;
+        ramon:code           "LV-0800600" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0800800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ķekavas novads"@en ;
-        rdfs:label           "0800800 Ķekavas novads" ;
+        rdfs:label           "LV-0800800 Ķekavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ķekavas novads"@lv ;
         dbo:populationTotal  22942 ;
         dbo:areaTotal        275181020 ;
-        ramon:code           "0800800" ;
+        ramon:code           "LV-0800800" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0801000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Olaines novads"@en ;
-        rdfs:label           "0801000 Olaines novads" ;
+        rdfs:label           "LV-0801000 Olaines novads" ;
         void:inDataset       lau: ;
         ramon:name           "Olaines novads"@lv ;
         dbo:populationTotal  19769 ;
         dbo:areaTotal        298311236 ;
-        ramon:code           "0801000" ;
+        ramon:code           "LV-0801000" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0801200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Salaspils novads"@en ;
-        rdfs:label           "0801200 Salaspils novads" ;
+        rdfs:label           "LV-0801200 Salaspils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Salaspils novads"@lv ;
         dbo:populationTotal  22384 ;
         dbo:areaTotal        122734171 ;
-        ramon:code           "0801200" ;
+        ramon:code           "LV-0801200" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0801400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Saulkrastu novads"@en ;
-        rdfs:label           "0801400 Saulkrastu novads" ;
+        rdfs:label           "LV-0801400 Saulkrastu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Saulkrastu novads"@lv ;
         dbo:populationTotal  5752 ;
         dbo:areaTotal        47687906 ;
-        ramon:code           "0801400" ;
+        ramon:code           "LV-0801400" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0801601  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Siguldas novads"@en ;
-        rdfs:label           "0801601 Siguldas novads" ;
+        rdfs:label           "LV-0801601 Siguldas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Siguldas novads"@lv ;
         dbo:populationTotal  17341 ;
         dbo:areaTotal        360870917 ;
-        ramon:code           "0801601" ;
+        ramon:code           "LV-0801601" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0801800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Inčukalna novads"@en ;
-        rdfs:label           "0801800 Inčukalna novads" ;
+        rdfs:label           "LV-0801800 Inčukalna novads" ;
         void:inDataset       lau: ;
         ramon:name           "Inčukalna novads"@lv ;
         dbo:populationTotal  7715 ;
         dbo:areaTotal        111744384 ;
-        ramon:code           "0801800" ;
+        ramon:code           "LV-0801800" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0804400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ādažu novads"@en ;
-        rdfs:label           "0804400 Ādažu novads" ;
+        rdfs:label           "LV-0804400 Ādažu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ādažu novads"@lv ;
         dbo:populationTotal  10618 ;
         dbo:areaTotal        162531904 ;
-        ramon:code           "0804400" ;
+        ramon:code           "LV-0804400" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0804900  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Babītes novads"@en ;
-        rdfs:label           "0804900 Babītes novads" ;
+        rdfs:label           "LV-0804900 Babītes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Babītes novads"@lv ;
         dbo:populationTotal  9954 ;
         dbo:areaTotal        243225991 ;
-        ramon:code           "0804900" ;
+        ramon:code           "LV-0804900" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0805200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Carnikavas novads"@en ;
-        rdfs:label           "0805200 Carnikavas novads" ;
+        rdfs:label           "LV-0805200 Carnikavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Carnikavas novads"@lv ;
         dbo:populationTotal  6975 ;
         dbo:areaTotal        80583140 ;
-        ramon:code           "0805200" ;
+        ramon:code           "LV-0805200" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0806000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Garkalnes novads"@en ;
-        rdfs:label           "0806000 Garkalnes novads" ;
+        rdfs:label           "LV-0806000 Garkalnes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Garkalnes novads"@lv ;
         dbo:populationTotal  8102 ;
         dbo:areaTotal        152375825 ;
-        ramon:code           "0806000" ;
+        ramon:code           "LV-0806000" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0806900  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Krimuldas novads"@en ;
-        rdfs:label           "0806900 Krimuldas novads" ;
+        rdfs:label           "LV-0806900 Krimuldas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Krimuldas novads"@lv ;
         dbo:populationTotal  5134 ;
         dbo:areaTotal        341022037 ;
-        ramon:code           "0806900" ;
+        ramon:code           "LV-0806900" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0807400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mālpils novads"@en ;
-        rdfs:label           "0807400 Mālpils novads" ;
+        rdfs:label           "LV-0807400 Mālpils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Mālpils novads"@lv ;
         dbo:populationTotal  3474 ;
         dbo:areaTotal        220683990 ;
-        ramon:code           "0807400" ;
+        ramon:code           "LV-0807400" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0807600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mārupes novads"@en ;
-        rdfs:label           "0807600 Mārupes novads" ;
+        rdfs:label           "LV-0807600 Mārupes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Mārupes novads"@lv ;
         dbo:populationTotal  18835 ;
         dbo:areaTotal        103758448 ;
-        ramon:code           "0807600" ;
+        ramon:code           "LV-0807600" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0808400  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ropažu novads"@en ;
-        rdfs:label           "0808400 Ropažu novads" ;
+        rdfs:label           "LV-0808400 Ropažu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ropažu novads"@lv ;
         dbo:populationTotal  6687 ;
         dbo:areaTotal        324728824 ;
-        ramon:code           "0808400" ;
+        ramon:code           "LV-0808400" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0809200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sējas novads"@en ;
-        rdfs:label           "0809200 Sējas novads" ;
+        rdfs:label           "LV-0809200 Sējas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Sējas novads"@lv ;
         dbo:populationTotal  2242 ;
         dbo:areaTotal        229950931 ;
-        ramon:code           "0809200" ;
+        ramon:code           "LV-0809200" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0809600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Stopiņu novads"@en ;
-        rdfs:label           "0809600 Stopiņu novads" ;
+        rdfs:label           "LV-0809600 Stopiņu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Stopiņu novads"@lv ;
         dbo:populationTotal  10366 ;
         dbo:areaTotal        53420926 ;
-        ramon:code           "0809600" ;
+        ramon:code           "LV-0809600" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0840200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Saldus novads"@en ;
-        rdfs:label           "0840200 Saldus novads" ;
+        rdfs:label           "LV-0840200 Saldus novads" ;
         void:inDataset       lau: ;
         ramon:name           "Saldus novads"@lv ;
         dbo:populationTotal  23645 ;
         dbo:areaTotal        1681912308 ;
-        ramon:code           "0840200" ;
+        ramon:code           "LV-0840200" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0840601  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Brocēnu novads"@en ;
-        rdfs:label           "0840601 Brocēnu novads" ;
+        rdfs:label           "LV-0840601 Brocēnu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Brocēnu novads"@lv ;
         dbo:populationTotal  5687 ;
         dbo:areaTotal        496254488 ;
-        ramon:code           "0840601" ;
+        ramon:code           "LV-0840601" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0880200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Talsu novads"@en ;
-        rdfs:label           "0880200 Talsu novads" ;
+        rdfs:label           "LV-0880200 Talsu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Talsu novads"@lv ;
         dbo:populationTotal  28947 ;
         dbo:areaTotal        1762800293 ;
-        ramon:code           "0880200" ;
+        ramon:code           "LV-0880200" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0885100  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dundagas novads"@en ;
-        rdfs:label           "0885100 Dundagas novads" ;
+        rdfs:label           "LV-0885100 Dundagas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Dundagas novads"@lv ;
         dbo:populationTotal  3971 ;
         dbo:areaTotal        676043109 ;
-        ramon:code           "0885100" ;
+        ramon:code           "LV-0885100" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0887600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mērsraga novads"@en ;
-        rdfs:label           "0887600 Mērsraga novads" ;
+        rdfs:label           "LV-0887600 Mērsraga novads" ;
         void:inDataset       lau: ;
         ramon:name           "Mērsraga novads"@lv ;
         dbo:populationTotal  1554 ;
         dbo:areaTotal        109464700 ;
-        ramon:code           "0887600" ;
+        ramon:code           "LV-0887600" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0888301  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rojas novads"@en ;
-        rdfs:label           "0888301 Rojas novads" ;
+        rdfs:label           "LV-0888301 Rojas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Rojas novads"@lv ;
         dbo:populationTotal  3749 ;
         dbo:areaTotal        200835440 ;
-        ramon:code           "0888301" ;
+        ramon:code           "LV-0888301" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .
 
 lau:LV-0900200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tukuma novads"@en ;
-        rdfs:label           "0900200 Tukuma novads" ;
+        rdfs:label           "LV-0900200 Tukuma novads" ;
         void:inDataset       lau: ;
         ramon:name           "Tukuma novads"@lv ;
         dbo:populationTotal  28726 ;
         dbo:areaTotal        1194357858 ;
-        ramon:code           "0900200" ;
+        ramon:code           "LV-0900200" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0901201  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kandavas novads"@en ;
-        rdfs:label           "0901201 Kandavas novads" ;
+        rdfs:label           "LV-0901201 Kandavas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Kandavas novads"@lv ;
         dbo:populationTotal  8332 ;
         dbo:areaTotal        648571833 ;
-        ramon:code           "0901201" ;
+        ramon:code           "LV-0901201" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0905100  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Engures novads"@en ;
-        rdfs:label           "0905100 Engures novads" ;
+        rdfs:label           "LV-0905100 Engures novads" ;
         void:inDataset       lau: ;
         ramon:name           "Engures novads"@lv ;
         dbo:populationTotal  7232 ;
         dbo:areaTotal        396200708 ;
-        ramon:code           "0905100" ;
+        ramon:code           "LV-0905100" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0905700  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jaunpils novads"@en ;
-        rdfs:label           "0905700 Jaunpils novads" ;
+        rdfs:label           "LV-0905700 Jaunpils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Jaunpils novads"@lv ;
         dbo:populationTotal  2347 ;
         dbo:areaTotal        209300325 ;
-        ramon:code           "0905700" ;
+        ramon:code           "LV-0905700" ;
         spatial:PP           nuts:LV007 ;
         ramon:level          5 .
 
 lau:LV-0940200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Valkas novads"@en ;
-        rdfs:label           "0940200 Valkas novads" ;
+        rdfs:label           "LV-0940200 Valkas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Valkas novads"@lv ;
         dbo:populationTotal  8267 ;
         dbo:areaTotal        908399675 ;
-        ramon:code           "0940200" ;
+        ramon:code           "LV-0940200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0941600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Smiltenes novads"@en ;
-        rdfs:label           "0941600 Smiltenes novads" ;
+        rdfs:label           "LV-0941600 Smiltenes novads" ;
         void:inDataset       lau: ;
         ramon:name           "Smiltenes novads"@lv ;
         dbo:populationTotal  12473 ;
         dbo:areaTotal        946851380 ;
-        ramon:code           "0941600" ;
+        ramon:code           "LV-0941600" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0941800  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Strenču novads "@en ;
-        rdfs:label           "0941800 Strenču novads " ;
+        rdfs:label           "LV-0941800 Strenču novads " ;
         void:inDataset       lau: ;
         ramon:name           "Strenču novads "@lv ;
         dbo:populationTotal  3214 ;
         dbo:areaTotal        375306737 ;
-        ramon:code           "0941800" ;
+        ramon:code           "LV-0941800" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0960200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kocēnu novads"@en ;
-        rdfs:label           "0960200 Kocēnu novads" ;
+        rdfs:label           "LV-0960200 Kocēnu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Kocēnu novads"@lv ;
         dbo:populationTotal  6090 ;
         dbo:areaTotal        498527315 ;
-        ramon:code           "0960200" ;
+        ramon:code           "LV-0960200" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0961000  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mazsalacas novads"@en ;
-        rdfs:label           "0961000 Mazsalacas novads" ;
+        rdfs:label           "LV-0961000 Mazsalacas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Mazsalacas novads"@lv ;
         dbo:populationTotal  3145 ;
         dbo:areaTotal        417139607 ;
-        ramon:code           "0961000" ;
+        ramon:code           "LV-0961000" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0961600  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rūjienas novads"@en ;
-        rdfs:label           "0961600 Rūjienas novads" ;
+        rdfs:label           "LV-0961600 Rūjienas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Rūjienas novads"@lv ;
         dbo:populationTotal  5151 ;
         dbo:areaTotal        352573720 ;
-        ramon:code           "0961600" ;
+        ramon:code           "LV-0961600" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0964700  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Beverīnas novads"@en ;
-        rdfs:label           "0964700 Beverīnas novads" ;
+        rdfs:label           "LV-0964700 Beverīnas novads" ;
         void:inDataset       lau: ;
         ramon:name           "Beverīnas novads"@lv ;
         dbo:populationTotal  3158 ;
         dbo:areaTotal        300507233 ;
-        ramon:code           "0964700" ;
+        ramon:code           "LV-0964700" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0967101  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Burtnieku novads"@en ;
-        rdfs:label           "0967101 Burtnieku novads" ;
+        rdfs:label           "LV-0967101 Burtnieku novads" ;
         void:inDataset       lau: ;
         ramon:name           "Burtnieku novads"@lv ;
         dbo:populationTotal  8059 ;
         dbo:areaTotal        702158198 ;
-        ramon:code           "0967101" ;
+        ramon:code           "LV-0967101" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0967300  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Naukšēnu novads"@en ;
-        rdfs:label           "0967300 Naukšēnu novads" ;
+        rdfs:label           "LV-0967300 Naukšēnu novads" ;
         void:inDataset       lau: ;
         ramon:name           "Naukšēnu novads"@lv ;
         dbo:populationTotal  1820 ;
         dbo:areaTotal        280494009 ;
-        ramon:code           "0967300" ;
+        ramon:code           "LV-0967300" ;
         spatial:PP           nuts:LV008 ;
         ramon:level          5 .
 
 lau:LV-0980200  rdf:type     ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ventspils novads"@en ;
-        rdfs:label           "0980200 Ventspils novads" ;
+        rdfs:label           "LV-0980200 Ventspils novads" ;
         void:inDataset       lau: ;
         ramon:name           "Ventspils novads"@lv ;
         dbo:populationTotal  11452 ;
         dbo:areaTotal        2457602519 ;
-        ramon:code           "0980200" ;
+        ramon:code           "LV-0980200" ;
         spatial:PP           nuts:LV003 ;
         ramon:level          5 .

@@ -1,0 +1,206 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:DK-217  ramon:code  "DK-217" .
+
+lau:DK-210  ramon:code  "DK-210" .
+
+lau:DK-760  ramon:code  "DK-760" .
+
+lau:DK-766  ramon:code  "DK-766" .
+
+lau:DK-661  ramon:code  "DK-661" .
+
+lau:DK-219  ramon:code  "DK-219" .
+
+lau:DK-492  ramon:code  "DK-492" .
+
+lau:DK-573  ramon:code  "DK-573" .
+
+lau:DK-540  ramon:code  "DK-540" .
+
+lau:DK-340  ramon:code  "DK-340" .
+
+lau:DK-400  ramon:code  "DK-400" .
+
+lau:DK-810  ramon:code  "DK-810" .
+
+lau:DK-813  ramon:code  "DK-813" .
+
+lau:DK-665  ramon:code  "DK-665" .
+
+lau:DK-671  ramon:code  "DK-671" .
+
+lau:DK-710  ramon:code  "DK-710" .
+
+lau:DK-260  ramon:code  "DK-260" .
+
+lau:DK-330  ramon:code  "DK-330" .
+
+lau:DK-265  ramon:code  "DK-265" .
+
+lau:DK-269  ramon:code  "DK-269" .
+
+lau:DK-410  ramon:code  "DK-410" .
+
+lau:DK-411  ramon:code  "DK-411" .
+
+lau:DK-530  ramon:code  "DK-530" .
+
+lau:DK-825  ramon:code  "DK-825" .
+
+lau:DK-370  ramon:code  "DK-370" .
+
+lau:DK-820  ramon:code  "DK-820" .
+
+lau:DK-376  ramon:code  "DK-376" .
+
+lau:DK-706  ramon:code  "DK-706" .
+
+lau:DK-707  ramon:code  "DK-707" .
+
+lau:DK-190  ramon:code  "DK-190" .
+
+lau:DK-270  ramon:code  "DK-270" .
+
+lau:DK-390  ramon:code  "DK-390" .
+
+lau:DK-250  ramon:code  "DK-250" .
+
+lau:DK-791  ramon:code  "DK-791" .
+
+lau:DK-420  ramon:code  "DK-420" .
+
+lau:DK-360  ramon:code  "DK-360" .
+
+lau:DK-580  ramon:code  "DK-580" .
+
+lau:DK-440  ramon:code  "DK-440" .
+
+lau:DK-306  ramon:code  "DK-306" .
+
+lau:DK-240  ramon:code  "DK-240" .
+
+lau:DK-101  ramon:code  "DK-101" .
+
+lau:DK-851  ramon:code  "DK-851" .
+
+lau:DK-846  ramon:code  "DK-846" .
+
+lau:DK-787  ramon:code  "DK-787" .
+
+lau:DK-840  ramon:code  "DK-840" .
+
+lau:DK-849  ramon:code  "DK-849" .
+
+lau:DK-510  ramon:code  "DK-510" .
+
+lau:DK-430  ramon:code  "DK-430" .
+
+lau:DK-740  ramon:code  "DK-740" .
+
+lau:DK-621  ramon:code  "DK-621" .
+
+lau:DK-450  ramon:code  "DK-450" .
+
+lau:DK-336  ramon:code  "DK-336" .
+
+lau:DK-607  ramon:code  "DK-607" .
+
+lau:DK-575  ramon:code  "DK-575" .
+
+lau:DK-259  ramon:code  "DK-259" .
+
+lau:DK-253  ramon:code  "DK-253" .
+
+lau:DK-175  ramon:code  "DK-175" .
+
+lau:DK-173  ramon:code  "DK-173" .
+
+lau:DK-746  ramon:code  "DK-746" .
+
+lau:DK-183  ramon:code  "DK-183" .
+
+lau:DK-730  ramon:code  "DK-730" .
+
+lau:DK-187  ramon:code  "DK-187" .
+
+lau:DK-185  ramon:code  "DK-185" .
+
+lau:DK-630  ramon:code  "DK-630" .
+
+lau:DK-751  ramon:code  "DK-751" .
+
+lau:DK-756  ramon:code  "DK-756" .
+
+lau:DK-561  ramon:code  "DK-561" .
+
+lau:DK-563  ramon:code  "DK-563" .
+
+lau:DK-461  ramon:code  "DK-461" .
+
+lau:DK-316  ramon:code  "DK-316" .
+
+lau:DK-169  ramon:code  "DK-169" .
+
+lau:DK-165  ramon:code  "DK-165" .
+
+lau:DK-167  ramon:code  "DK-167" .
+
+lau:DK-223  ramon:code  "DK-223" .
+
+lau:DK-161  ramon:code  "DK-161" .
+
+lau:DK-163  ramon:code  "DK-163" .
+
+lau:DK-860  ramon:code  "DK-860" .
+
+lau:DK-727  ramon:code  "DK-727" .
+
+lau:DK-151  ramon:code  "DK-151" .
+
+lau:DK-741  ramon:code  "DK-741" .
+
+lau:DK-153  ramon:code  "DK-153" .
+
+lau:DK-155  ramon:code  "DK-155" .
+
+lau:DK-157  ramon:code  "DK-157" .
+
+lau:DK-159  ramon:code  "DK-159" .
+
+lau:DK-550  ramon:code  "DK-550" .
+
+lau:DK-230  ramon:code  "DK-230" .
+
+lau:DK-657  ramon:code  "DK-657" .
+
+lau:DK-320  ramon:code  "DK-320" .
+
+lau:DK-326  ramon:code  "DK-326" .
+
+lau:DK-329  ramon:code  "DK-329" .
+
+lau:DK-201  ramon:code  "DK-201" .
+
+lau:DK-147  ramon:code  "DK-147" .
+
+lau:DK-773  ramon:code  "DK-773" .
+
+lau:DK-779  ramon:code  "DK-779" .
+
+lau:DK-615  ramon:code  "DK-615" .
+
+lau:DK-482  ramon:code  "DK-482" .
+
+lau:DK-480  ramon:code  "DK-480" .
+
+lau:DK-350  ramon:code  "DK-350" .
+
+lau:DK-479  ramon:code  "DK-479" .

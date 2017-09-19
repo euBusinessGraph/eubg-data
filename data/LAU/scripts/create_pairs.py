@@ -10,8 +10,8 @@ with open(out, "w") as out_f:
     with open(inp) as f:
         reader = csv.reader(f, delimiter=',', quotechar='"')
         for row in reader:
-            if row[1] not in needed_codes:
+            if row[0].strip() not in needed_codes:
                 continue
-            for lang in row[3].split(","):
-                out_f.write(row[1] + "\t" + lang + "\n")
+            for lang in row[1].split(","):
+                out_f.write(row[0].strip() + "\t" + lang.strip() + "\n")
 

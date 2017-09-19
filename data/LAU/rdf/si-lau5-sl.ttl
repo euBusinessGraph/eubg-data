@@ -12,12 +12,12 @@
 lau:SI-001  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ajdovščina"@en ;
-        rdfs:label           "001 Ajdovščina" ;
+        rdfs:label           "SI-001 Ajdovščina" ;
         void:inDataset       lau: ;
         ramon:name           "Ajdovščina"@sl ;
         dbo:populationTotal  19047 ;
         dbo:areaTotal        245233520 ;
-        ramon:code           "001" ;
+        ramon:code           "SI-001" ;
         spatial:PP           lau:SI-01 ;
         ramon:level          5 .
 
@@ -30,12 +30,12 @@ lau:SI-01  rdf:type     ebg:LAURegion ;
 lau:SI-002  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Beltinci"@en ;
-        rdfs:label           "002 Beltinci" ;
+        rdfs:label           "SI-002 Beltinci" ;
         void:inDataset       lau: ;
         ramon:name           "Beltinci"@sl ;
         dbo:populationTotal  8261 ;
         dbo:areaTotal        62247680 ;
-        ramon:code           "002" ;
+        ramon:code           "SI-002" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -48,12 +48,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-003  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bled"@en ;
-        rdfs:label           "003 Bled" ;
+        rdfs:label           "SI-003 Bled" ;
         void:inDataset       lau: ;
         ramon:name           "Bled"@sl ;
         dbo:populationTotal  8035 ;
         dbo:areaTotal        72288010 ;
-        ramon:code           "003" ;
+        ramon:code           "SI-003" ;
         spatial:PP           lau:SI-44 ;
         ramon:level          5 .
 
@@ -66,12 +66,12 @@ lau:SI-44  rdf:type     ebg:LAURegion ;
 lau:SI-004  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bohinj"@en ;
-        rdfs:label           "004 Bohinj" ;
+        rdfs:label           "SI-004 Bohinj" ;
         void:inDataset       lau: ;
         ramon:name           "Bohinj"@sl ;
         dbo:populationTotal  5139 ;
         dbo:areaTotal        333725360 ;
-        ramon:code           "004" ;
+        ramon:code           "SI-004" ;
         spatial:PP           lau:SI-44 ;
         ramon:level          5 .
 
@@ -84,12 +84,12 @@ lau:SI-44  rdf:type     ebg:LAURegion ;
 lau:SI-005  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Borovnica"@en ;
-        rdfs:label           "005 Borovnica" ;
+        rdfs:label           "SI-005 Borovnica" ;
         void:inDataset       lau: ;
         ramon:name           "Borovnica"@sl ;
         dbo:populationTotal  4275 ;
         dbo:areaTotal        42316220 ;
-        ramon:code           "005" ;
+        ramon:code           "SI-005" ;
         spatial:PP           lau:SI-60 ;
         ramon:level          5 .
 
@@ -102,12 +102,12 @@ lau:SI-60  rdf:type     ebg:LAURegion ;
 lau:SI-006  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bovec"@en ;
-        rdfs:label           "006 Bovec" ;
+        rdfs:label           "SI-006 Bovec" ;
         void:inDataset       lau: ;
         ramon:name           "Bovec"@sl ;
         dbo:populationTotal  3124 ;
         dbo:areaTotal        367323940 ;
-        ramon:code           "006" ;
+        ramon:code           "SI-006" ;
         spatial:PP           lau:SI-55 ;
         ramon:level          5 .
 
@@ -120,12 +120,12 @@ lau:SI-55  rdf:type     ebg:LAURegion ;
 lau:SI-007  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Brda"@en ;
-        rdfs:label           "007 Brda" ;
+        rdfs:label           "SI-007 Brda" ;
         void:inDataset       lau: ;
         ramon:name           "Brda"@sl ;
         dbo:populationTotal  5659 ;
         dbo:areaTotal        71966440 ;
-        ramon:code           "007" ;
+        ramon:code           "SI-007" ;
         spatial:PP           lau:SI-37 ;
         ramon:level          5 .
 
@@ -138,12 +138,12 @@ lau:SI-37  rdf:type     ebg:LAURegion ;
 lau:SI-008  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Brezovica"@en ;
-        rdfs:label           "008 Brezovica" ;
+        rdfs:label           "SI-008 Brezovica" ;
         void:inDataset       lau: ;
         ramon:name           "Brezovica"@sl ;
         dbo:populationTotal  11974 ;
         dbo:areaTotal        91170750 ;
-        ramon:code           "008" ;
+        ramon:code           "SI-008" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -156,12 +156,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-009  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Brežice"@en ;
-        rdfs:label           "009 Brežice" ;
+        rdfs:label           "SI-009 Brežice" ;
         void:inDataset       lau: ;
         ramon:name           "Brežice"@sl ;
         dbo:populationTotal  24254 ;
         dbo:areaTotal        268112880 ;
-        ramon:code           "009" ;
+        ramon:code           "SI-009" ;
         spatial:PP           lau:SI-02 ;
         ramon:level          5 .
 
@@ -174,12 +174,12 @@ lau:SI-02  rdf:type     ebg:LAURegion ;
 lau:SI-010  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tišina"@en ;
-        rdfs:label           "010 Tišina" ;
+        rdfs:label           "SI-010 Tišina" ;
         void:inDataset       lau: ;
         ramon:name           "Tišina"@sl ;
         dbo:populationTotal  4039 ;
         dbo:areaTotal        38815020 ;
-        ramon:code           "010" ;
+        ramon:code           "SI-010" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -192,12 +192,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-011  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Celje"@en ;
-        rdfs:label           "011 Celje" ;
+        rdfs:label           "SI-011 Celje" ;
         void:inDataset       lau: ;
         ramon:name           "Celje"@sl ;
         dbo:populationTotal  49077 ;
         dbo:areaTotal        94904910 ;
-        ramon:code           "011" ;
+        ramon:code           "SI-011" ;
         spatial:PP           lau:SI-03 ;
         ramon:level          5 .
 
@@ -210,12 +210,12 @@ lau:SI-03  rdf:type     ebg:LAURegion ;
 lau:SI-012  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cerklje na Gorenjskem"@en ;
-        rdfs:label           "012 Cerklje na Gorenjskem" ;
+        rdfs:label           "SI-012 Cerklje na Gorenjskem" ;
         void:inDataset       lau: ;
         ramon:name           "Cerklje na Gorenjskem"@sl ;
         dbo:populationTotal  7506 ;
         dbo:areaTotal        78038570 ;
-        ramon:code           "012" ;
+        ramon:code           "SI-012" ;
         spatial:PP           lau:SI-18 ;
         ramon:level          5 .
 
@@ -228,12 +228,12 @@ lau:SI-18  rdf:type     ebg:LAURegion ;
 lau:SI-013  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cerknica"@en ;
-        rdfs:label           "013 Cerknica" ;
+        rdfs:label           "SI-013 Cerknica" ;
         void:inDataset       lau: ;
         ramon:name           "Cerknica"@sl ;
         dbo:populationTotal  11402 ;
         dbo:areaTotal        240950690 ;
-        ramon:code           "013" ;
+        ramon:code           "SI-013" ;
         spatial:PP           lau:SI-04 ;
         ramon:level          5 .
 
@@ -246,12 +246,12 @@ lau:SI-04  rdf:type     ebg:LAURegion ;
 lau:SI-014  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cerkno"@en ;
-        rdfs:label           "014 Cerkno" ;
+        rdfs:label           "SI-014 Cerkno" ;
         void:inDataset       lau: ;
         ramon:name           "Cerkno"@sl ;
         dbo:populationTotal  4644 ;
         dbo:areaTotal        131542790 ;
-        ramon:code           "014" ;
+        ramon:code           "SI-014" ;
         spatial:PP           lau:SI-11 ;
         ramon:level          5 .
 
@@ -264,12 +264,12 @@ lau:SI-11  rdf:type     ebg:LAURegion ;
 lau:SI-015  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Črenšovci"@en ;
-        rdfs:label           "015 Črenšovci" ;
+        rdfs:label           "SI-015 Črenšovci" ;
         void:inDataset       lau: ;
         ramon:name           "Črenšovci"@sl ;
         dbo:populationTotal  4002 ;
         dbo:areaTotal        33692630 ;
-        ramon:code           "015" ;
+        ramon:code           "SI-015" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -282,12 +282,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-016  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Črna na Koroškem"@en ;
-        rdfs:label           "016 Črna na Koroškem" ;
+        rdfs:label           "SI-016 Črna na Koroškem" ;
         void:inDataset       lau: ;
         ramon:name           "Črna na Koroškem"@sl ;
         dbo:populationTotal  3337 ;
         dbo:areaTotal        155961130 ;
-        ramon:code           "016" ;
+        ramon:code           "SI-016" ;
         spatial:PP           lau:SI-45 ;
         ramon:level          5 .
 
@@ -300,12 +300,12 @@ lau:SI-45  rdf:type     ebg:LAURegion ;
 lau:SI-017  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Črnomelj"@en ;
-        rdfs:label           "017 Črnomelj" ;
+        rdfs:label           "SI-017 Črnomelj" ;
         void:inDataset       lau: ;
         ramon:name           "Črnomelj"@sl ;
         dbo:populationTotal  14407 ;
         dbo:areaTotal        339659120 ;
-        ramon:code           "017" ;
+        ramon:code           "SI-017" ;
         spatial:PP           lau:SI-05 ;
         ramon:level          5 .
 
@@ -318,12 +318,12 @@ lau:SI-05  rdf:type     ebg:LAURegion ;
 lau:SI-018  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Destrnik"@en ;
-        rdfs:label           "018 Destrnik" ;
+        rdfs:label           "SI-018 Destrnik" ;
         void:inDataset       lau: ;
         ramon:name           "Destrnik"@sl ;
         dbo:populationTotal  2539 ;
         dbo:areaTotal        34354150 ;
-        ramon:code           "018" ;
+        ramon:code           "SI-018" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -336,12 +336,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-019  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Divača"@en ;
-        rdfs:label           "019 Divača" ;
+        rdfs:label           "SI-019 Divača" ;
         void:inDataset       lau: ;
         ramon:name           "Divača"@sl ;
         dbo:populationTotal  3955 ;
         dbo:areaTotal        145045870 ;
-        ramon:code           "019" ;
+        ramon:code           "SI-019" ;
         spatial:PP           lau:SI-48 ;
         ramon:level          5 .
 
@@ -354,12 +354,12 @@ lau:SI-48  rdf:type     ebg:LAURegion ;
 lau:SI-020  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dobrepolje"@en ;
-        rdfs:label           "020 Dobrepolje" ;
+        rdfs:label           "SI-020 Dobrepolje" ;
         void:inDataset       lau: ;
         ramon:name           "Dobrepolje"@sl ;
         dbo:populationTotal  3898 ;
         dbo:areaTotal        103147950 ;
-        ramon:code           "020" ;
+        ramon:code           "SI-020" ;
         spatial:PP           lau:SI-09 ;
         ramon:level          5 .
 
@@ -372,12 +372,12 @@ lau:SI-09  rdf:type     ebg:LAURegion ;
 lau:SI-021  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dobrova - Polhov Gradec"@en ;
-        rdfs:label           "021 Dobrova - Polhov Gradec" ;
+        rdfs:label           "SI-021 Dobrova - Polhov Gradec" ;
         void:inDataset       lau: ;
         ramon:name           "Dobrova - Polhov Gradec"@sl ;
         dbo:populationTotal  7582 ;
         dbo:areaTotal        117479630 ;
-        ramon:code           "021" ;
+        ramon:code           "SI-021" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -390,12 +390,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-022  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dol pri Ljubljani"@en ;
-        rdfs:label           "022 Dol pri Ljubljani" ;
+        rdfs:label           "SI-022 Dol pri Ljubljani" ;
         void:inDataset       lau: ;
         ramon:name           "Dol pri Ljubljani"@sl ;
         dbo:populationTotal  5934 ;
         dbo:areaTotal        33281400 ;
-        ramon:code           "022" ;
+        ramon:code           "SI-022" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -408,12 +408,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-023  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Domžale"@en ;
-        rdfs:label           "023 Domžale" ;
+        rdfs:label           "SI-023 Domžale" ;
         void:inDataset       lau: ;
         ramon:name           "Domžale"@sl ;
         dbo:populationTotal  35278 ;
         dbo:areaTotal        72297680 ;
-        ramon:code           "023" ;
+        ramon:code           "SI-023" ;
         spatial:PP           lau:SI-06 ;
         ramon:level          5 .
 
@@ -426,12 +426,12 @@ lau:SI-06  rdf:type     ebg:LAURegion ;
 lau:SI-024  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dornava"@en ;
-        rdfs:label           "024 Dornava" ;
+        rdfs:label           "SI-024 Dornava" ;
         void:inDataset       lau: ;
         ramon:name           "Dornava"@sl ;
         dbo:populationTotal  2882 ;
         dbo:areaTotal        28401060 ;
-        ramon:code           "024" ;
+        ramon:code           "SI-024" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -444,12 +444,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-025  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dravograd"@en ;
-        rdfs:label           "025 Dravograd" ;
+        rdfs:label           "SI-025 Dravograd" ;
         void:inDataset       lau: ;
         ramon:name           "Dravograd"@sl ;
         dbo:populationTotal  8885 ;
         dbo:areaTotal        105000790 ;
-        ramon:code           "025" ;
+        ramon:code           "SI-025" ;
         spatial:PP           lau:SI-07 ;
         ramon:level          5 .
 
@@ -462,12 +462,12 @@ lau:SI-07  rdf:type     ebg:LAURegion ;
 lau:SI-026  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Duplek"@en ;
-        rdfs:label           "026 Duplek" ;
+        rdfs:label           "SI-026 Duplek" ;
         void:inDataset       lau: ;
         ramon:name           "Duplek"@sl ;
         dbo:populationTotal  6726 ;
         dbo:areaTotal        39983390 ;
-        ramon:code           "026" ;
+        ramon:code           "SI-026" ;
         spatial:PP           lau:SI-64 ;
         ramon:level          5 .
 
@@ -480,12 +480,12 @@ lau:SI-64  rdf:type     ebg:LAURegion ;
 lau:SI-027  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gorenja vas - Poljane"@en ;
-        rdfs:label           "027 Gorenja vas - Poljane" ;
+        rdfs:label           "SI-027 Gorenja vas - Poljane" ;
         void:inDataset       lau: ;
         ramon:name           "Gorenja vas - Poljane"@sl ;
         dbo:populationTotal  7429 ;
         dbo:areaTotal        153251070 ;
-        ramon:code           "027" ;
+        ramon:code           "SI-027" ;
         spatial:PP           lau:SI-53 ;
         ramon:level          5 .
 
@@ -498,12 +498,12 @@ lau:SI-53  rdf:type     ebg:LAURegion ;
 lau:SI-028  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gorišnica"@en ;
-        rdfs:label           "028 Gorišnica" ;
+        rdfs:label           "SI-028 Gorišnica" ;
         void:inDataset       lau: ;
         ramon:name           "Gorišnica"@sl ;
         dbo:populationTotal  3978 ;
         dbo:areaTotal        29100580 ;
-        ramon:code           "028" ;
+        ramon:code           "SI-028" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -516,12 +516,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-029  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gornja Radgona"@en ;
-        rdfs:label           "029 Gornja Radgona" ;
+        rdfs:label           "SI-029 Gornja Radgona" ;
         void:inDataset       lau: ;
         ramon:name           "Gornja Radgona"@sl ;
         dbo:populationTotal  8467 ;
         dbo:areaTotal        74601930 ;
-        ramon:code           "029" ;
+        ramon:code           "SI-029" ;
         spatial:PP           lau:SI-08 ;
         ramon:level          5 .
 
@@ -534,12 +534,12 @@ lau:SI-08  rdf:type     ebg:LAURegion ;
 lau:SI-030  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gornji Grad"@en ;
-        rdfs:label           "030 Gornji Grad" ;
+        rdfs:label           "SI-030 Gornji Grad" ;
         void:inDataset       lau: ;
         ramon:name           "Gornji Grad"@sl ;
         dbo:populationTotal  2547 ;
         dbo:areaTotal        90095470 ;
-        ramon:code           "030" ;
+        ramon:code           "SI-030" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -552,12 +552,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-031  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gornji Petrovci"@en ;
-        rdfs:label           "031 Gornji Petrovci" ;
+        rdfs:label           "SI-031 Gornji Petrovci" ;
         void:inDataset       lau: ;
         ramon:name           "Gornji Petrovci"@sl ;
         dbo:populationTotal  2057 ;
         dbo:areaTotal        66844050 ;
-        ramon:code           "031" ;
+        ramon:code           "SI-031" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -570,12 +570,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-032  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Grosuplje"@en ;
-        rdfs:label           "032 Grosuplje" ;
+        rdfs:label           "SI-032 Grosuplje" ;
         void:inDataset       lau: ;
         ramon:name           "Grosuplje"@sl ;
         dbo:populationTotal  20059 ;
         dbo:areaTotal        133794420 ;
-        ramon:code           "032" ;
+        ramon:code           "SI-032" ;
         spatial:PP           lau:SI-09 ;
         ramon:level          5 .
 
@@ -588,12 +588,12 @@ lau:SI-09  rdf:type     ebg:LAURegion ;
 lau:SI-033  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šalovci"@en ;
-        rdfs:label           "033 Šalovci" ;
+        rdfs:label           "SI-033 Šalovci" ;
         void:inDataset       lau: ;
         ramon:name           "Šalovci"@sl ;
         dbo:populationTotal  1437 ;
         dbo:areaTotal        58159920 ;
-        ramon:code           "033" ;
+        ramon:code           "SI-033" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -606,12 +606,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-034  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hrastnik"@en ;
-        rdfs:label           "034 Hrastnik" ;
+        rdfs:label           "SI-034 Hrastnik" ;
         void:inDataset       lau: ;
         ramon:name           "Hrastnik"@sl ;
         dbo:populationTotal  9316 ;
         dbo:areaTotal        58576680 ;
-        ramon:code           "034" ;
+        ramon:code           "SI-034" ;
         spatial:PP           lau:SI-10 ;
         ramon:level          5 .
 
@@ -624,12 +624,12 @@ lau:SI-10  rdf:type     ebg:LAURegion ;
 lau:SI-035  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hrpelje - Kozina"@en ;
-        rdfs:label           "035 Hrpelje - Kozina" ;
+        rdfs:label           "SI-035 Hrpelje - Kozina" ;
         void:inDataset       lau: ;
         ramon:name           "Hrpelje - Kozina"@sl ;
         dbo:populationTotal  4366 ;
         dbo:areaTotal        194937440 ;
-        ramon:code           "035" ;
+        ramon:code           "SI-035" ;
         spatial:PP           lau:SI-48 ;
         ramon:level          5 .
 
@@ -642,12 +642,12 @@ lau:SI-48  rdf:type     ebg:LAURegion ;
 lau:SI-036  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Idrija"@en ;
-        rdfs:label           "036 Idrija" ;
+        rdfs:label           "SI-036 Idrija" ;
         void:inDataset       lau: ;
         ramon:name           "Idrija"@sl ;
         dbo:populationTotal  11927 ;
         dbo:areaTotal        293633970 ;
-        ramon:code           "036" ;
+        ramon:code           "SI-036" ;
         spatial:PP           lau:SI-11 ;
         ramon:level          5 .
 
@@ -660,12 +660,12 @@ lau:SI-11  rdf:type     ebg:LAURegion ;
 lau:SI-037  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ig"@en ;
-        rdfs:label           "037 Ig" ;
+        rdfs:label           "SI-037 Ig" ;
         void:inDataset       lau: ;
         ramon:name           "Ig"@sl ;
         dbo:populationTotal  7163 ;
         dbo:areaTotal        98779020 ;
-        ramon:code           "037" ;
+        ramon:code           "SI-037" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -678,12 +678,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-038  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ilirska Bistrica"@en ;
-        rdfs:label           "038 Ilirska Bistrica" ;
+        rdfs:label           "SI-038 Ilirska Bistrica" ;
         void:inDataset       lau: ;
         ramon:name           "Ilirska Bistrica"@sl ;
         dbo:populationTotal  13594 ;
         dbo:areaTotal        480011570 ;
-        ramon:code           "038" ;
+        ramon:code           "SI-038" ;
         spatial:PP           lau:SI-12 ;
         ramon:level          5 .
 
@@ -696,12 +696,12 @@ lau:SI-12  rdf:type     ebg:LAURegion ;
 lau:SI-039  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ivančna Gorica"@en ;
-        rdfs:label           "039 Ivančna Gorica" ;
+        rdfs:label           "SI-039 Ivančna Gorica" ;
         void:inDataset       lau: ;
         ramon:name           "Ivančna Gorica"@sl ;
         dbo:populationTotal  16182 ;
         dbo:areaTotal        227007470 ;
-        ramon:code           "039" ;
+        ramon:code           "SI-039" ;
         spatial:PP           lau:SI-09 ;
         ramon:level          5 .
 
@@ -714,12 +714,12 @@ lau:SI-09  rdf:type     ebg:LAURegion ;
 lau:SI-040  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Isola"@en ;
-        rdfs:label           "040 Isola" ;
+        rdfs:label           "SI-040 Isola" ;
         void:inDataset       lau: ;
         ramon:name           "Izola"@sl ;
         dbo:populationTotal  15962 ;
         dbo:areaTotal        28561420 ;
-        ramon:code           "040" ;
+        ramon:code           "SI-040" ;
         spatial:PP           lau:SI-13 ;
         ramon:level          5 .
 
@@ -732,12 +732,12 @@ lau:SI-13  rdf:type     ebg:LAURegion ;
 lau:SI-041  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jesenice"@en ;
-        rdfs:label           "041 Jesenice" ;
+        rdfs:label           "SI-041 Jesenice" ;
         void:inDataset       lau: ;
         ramon:name           "Jesenice"@sl ;
         dbo:populationTotal  20858 ;
         dbo:areaTotal        75837940 ;
-        ramon:code           "041" ;
+        ramon:code           "SI-041" ;
         spatial:PP           lau:SI-14 ;
         ramon:level          5 .
 
@@ -750,12 +750,12 @@ lau:SI-14  rdf:type     ebg:LAURegion ;
 lau:SI-042  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Juršinci"@en ;
-        rdfs:label           "042 Juršinci" ;
+        rdfs:label           "SI-042 Juršinci" ;
         void:inDataset       lau: ;
         ramon:name           "Juršinci"@sl ;
         dbo:populationTotal  2356 ;
         dbo:areaTotal        36256930 ;
-        ramon:code           "042" ;
+        ramon:code           "SI-042" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -768,12 +768,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-043  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kamnik"@en ;
-        rdfs:label           "043 Kamnik" ;
+        rdfs:label           "SI-043 Kamnik" ;
         void:inDataset       lau: ;
         ramon:name           "Kamnik"@sl ;
         dbo:populationTotal  29362 ;
         dbo:areaTotal        265635090 ;
-        ramon:code           "043" ;
+        ramon:code           "SI-043" ;
         spatial:PP           lau:SI-15 ;
         ramon:level          5 .
 
@@ -786,12 +786,12 @@ lau:SI-15  rdf:type     ebg:LAURegion ;
 lau:SI-044  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kanal"@en ;
-        rdfs:label           "044 Kanal" ;
+        rdfs:label           "SI-044 Kanal" ;
         void:inDataset       lau: ;
         ramon:name           "Kanal"@sl ;
         dbo:populationTotal  5431 ;
         dbo:areaTotal        146531480 ;
-        ramon:code           "044" ;
+        ramon:code           "SI-044" ;
         spatial:PP           lau:SI-37 ;
         ramon:level          5 .
 
@@ -804,12 +804,12 @@ lau:SI-37  rdf:type     ebg:LAURegion ;
 lau:SI-045  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kidričevo"@en ;
-        rdfs:label           "045 Kidričevo" ;
+        rdfs:label           "SI-045 Kidričevo" ;
         void:inDataset       lau: ;
         ramon:name           "Kidričevo"@sl ;
         dbo:populationTotal  6449 ;
         dbo:areaTotal        71504680 ;
-        ramon:code           "045" ;
+        ramon:code           "SI-045" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -822,12 +822,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-046  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kobarid"@en ;
-        rdfs:label           "046 Kobarid" ;
+        rdfs:label           "SI-046 Kobarid" ;
         void:inDataset       lau: ;
         ramon:name           "Kobarid"@sl ;
         dbo:populationTotal  4121 ;
         dbo:areaTotal        192626170 ;
-        ramon:code           "046" ;
+        ramon:code           "SI-046" ;
         spatial:PP           lau:SI-55 ;
         ramon:level          5 .
 
@@ -840,12 +840,12 @@ lau:SI-55  rdf:type     ebg:LAURegion ;
 lau:SI-047  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kobilje"@en ;
-        rdfs:label           "047 Kobilje" ;
+        rdfs:label           "SI-047 Kobilje" ;
         void:inDataset       lau: ;
         ramon:name           "Kobilje"@sl ;
         dbo:populationTotal  574 ;
         dbo:areaTotal        19735620 ;
-        ramon:code           "047" ;
+        ramon:code           "SI-047" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -858,12 +858,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-048  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kočevje"@en ;
-        rdfs:label           "048 Kočevje" ;
+        rdfs:label           "SI-048 Kočevje" ;
         void:inDataset       lau: ;
         ramon:name           "Kočevje"@sl ;
         dbo:populationTotal  16005 ;
         dbo:areaTotal        555385710 ;
-        ramon:code           "048" ;
+        ramon:code           "SI-048" ;
         spatial:PP           lau:SI-16 ;
         ramon:level          5 .
 
@@ -876,12 +876,12 @@ lau:SI-16  rdf:type     ebg:LAURegion ;
 lau:SI-049  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Komen"@en ;
-        rdfs:label           "049 Komen" ;
+        rdfs:label           "SI-049 Komen" ;
         void:inDataset       lau: ;
         ramon:name           "Komen"@sl ;
         dbo:populationTotal  3518 ;
         dbo:areaTotal        102717460 ;
-        ramon:code           "049" ;
+        ramon:code           "SI-049" ;
         spatial:PP           lau:SI-48 ;
         ramon:level          5 .
 
@@ -894,12 +894,12 @@ lau:SI-48  rdf:type     ebg:LAURegion ;
 lau:SI-050  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Capodistria"@en ;
-        rdfs:label           "050 Capodistria" ;
+        rdfs:label           "SI-050 Capodistria" ;
         void:inDataset       lau: ;
         ramon:name           "Koper"@sl ;
         dbo:populationTotal  51045 ;
         dbo:areaTotal        303152510 ;
-        ramon:code           "050" ;
+        ramon:code           "SI-050" ;
         spatial:PP           lau:SI-17 ;
         ramon:level          5 .
 
@@ -912,12 +912,12 @@ lau:SI-17  rdf:type     ebg:LAURegion ;
 lau:SI-051  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kozje"@en ;
-        rdfs:label           "051 Kozje" ;
+        rdfs:label           "SI-051 Kozje" ;
         void:inDataset       lau: ;
         ramon:name           "Kozje"@sl ;
         dbo:populationTotal  3092 ;
         dbo:areaTotal        89689780 ;
-        ramon:code           "051" ;
+        ramon:code           "SI-051" ;
         spatial:PP           lau:SI-54 ;
         ramon:level          5 .
 
@@ -930,12 +930,12 @@ lau:SI-54  rdf:type     ebg:LAURegion ;
 lau:SI-052  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kranj"@en ;
-        rdfs:label           "052 Kranj" ;
+        rdfs:label           "SI-052 Kranj" ;
         void:inDataset       lau: ;
         ramon:name           "Kranj"@sl ;
         dbo:populationTotal  56115 ;
         dbo:areaTotal        150913280 ;
-        ramon:code           "052" ;
+        ramon:code           "SI-052" ;
         spatial:PP           lau:SI-18 ;
         ramon:level          5 .
 
@@ -948,12 +948,12 @@ lau:SI-18  rdf:type     ebg:LAURegion ;
 lau:SI-053  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kranjska Gora"@en ;
-        rdfs:label           "053 Kranjska Gora" ;
+        rdfs:label           "SI-053 Kranjska Gora" ;
         void:inDataset       lau: ;
         ramon:name           "Kranjska Gora"@sl ;
         dbo:populationTotal  5294 ;
         dbo:areaTotal        256312320 ;
-        ramon:code           "053" ;
+        ramon:code           "SI-053" ;
         spatial:PP           lau:SI-14 ;
         ramon:level          5 .
 
@@ -966,12 +966,12 @@ lau:SI-14  rdf:type     ebg:LAURegion ;
 lau:SI-054  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Krško"@en ;
-        rdfs:label           "054 Krško" ;
+        rdfs:label           "SI-054 Krško" ;
         void:inDataset       lau: ;
         ramon:name           "Krško"@sl ;
         dbo:populationTotal  25884 ;
         dbo:areaTotal        286528770 ;
-        ramon:code           "054" ;
+        ramon:code           "SI-054" ;
         spatial:PP           lau:SI-19 ;
         ramon:level          5 .
 
@@ -984,12 +984,12 @@ lau:SI-19  rdf:type     ebg:LAURegion ;
 lau:SI-055  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kungota"@en ;
-        rdfs:label           "055 Kungota" ;
+        rdfs:label           "SI-055 Kungota" ;
         void:inDataset       lau: ;
         ramon:name           "Kungota"@sl ;
         dbo:populationTotal  4761 ;
         dbo:areaTotal        48986700 ;
-        ramon:code           "055" ;
+        ramon:code           "SI-055" ;
         spatial:PP           lau:SI-65 ;
         ramon:level          5 .
 
@@ -1002,12 +1002,12 @@ lau:SI-65  rdf:type     ebg:LAURegion ;
 lau:SI-056  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuzma"@en ;
-        rdfs:label           "056 Kuzma" ;
+        rdfs:label           "SI-056 Kuzma" ;
         void:inDataset       lau: ;
         ramon:name           "Kuzma"@sl ;
         dbo:populationTotal  1582 ;
         dbo:areaTotal        22852030 ;
-        ramon:code           "056" ;
+        ramon:code           "SI-056" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -1020,12 +1020,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-057  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Laško"@en ;
-        rdfs:label           "057 Laško" ;
+        rdfs:label           "SI-057 Laško" ;
         void:inDataset       lau: ;
         ramon:name           "Laško"@sl ;
         dbo:populationTotal  13156 ;
         dbo:areaTotal        197460250 ;
-        ramon:code           "057" ;
+        ramon:code           "SI-057" ;
         spatial:PP           lau:SI-20 ;
         ramon:level          5 .
 
@@ -1038,12 +1038,12 @@ lau:SI-20  rdf:type     ebg:LAURegion ;
 lau:SI-058  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lenart"@en ;
-        rdfs:label           "058 Lenart" ;
+        rdfs:label           "SI-058 Lenart" ;
         void:inDataset       lau: ;
         ramon:name           "Lenart"@sl ;
         dbo:populationTotal  8275 ;
         dbo:areaTotal        62103410 ;
-        ramon:code           "058" ;
+        ramon:code           "SI-058" ;
         spatial:PP           lau:SI-21 ;
         ramon:level          5 .
 
@@ -1056,12 +1056,12 @@ lau:SI-21  rdf:type     ebg:LAURegion ;
 lau:SI-059  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lendva"@en ;
-        rdfs:label           "059 Lendva" ;
+        rdfs:label           "SI-059 Lendva" ;
         void:inDataset       lau: ;
         ramon:name           "Lendava"@sl ;
         dbo:populationTotal  10538 ;
         dbo:areaTotal        122940040 ;
-        ramon:code           "059" ;
+        ramon:code           "SI-059" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -1074,12 +1074,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-060  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Litija"@en ;
-        rdfs:label           "060 Litija" ;
+        rdfs:label           "SI-060 Litija" ;
         void:inDataset       lau: ;
         ramon:name           "Litija"@sl ;
         dbo:populationTotal  15099 ;
         dbo:areaTotal        221378900 ;
-        ramon:code           "060" ;
+        ramon:code           "SI-060" ;
         spatial:PP           lau:SI-23 ;
         ramon:level          5 .
 
@@ -1092,12 +1092,12 @@ lau:SI-23  rdf:type     ebg:LAURegion ;
 lau:SI-061  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ljubljana"@en ;
-        rdfs:label           "061 Ljubljana" ;
+        rdfs:label           "SI-061 Ljubljana" ;
         void:inDataset       lau: ;
         ramon:name           "Ljubljana"@sl ;
         dbo:populationTotal  288307 ;
         dbo:areaTotal        274986470 ;
-        ramon:code           "061" ;
+        ramon:code           "SI-061" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -1110,12 +1110,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-062  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ljubno"@en ;
-        rdfs:label           "062 Ljubno" ;
+        rdfs:label           "SI-062 Ljubno" ;
         void:inDataset       lau: ;
         ramon:name           "Ljubno"@sl ;
         dbo:populationTotal  2604 ;
         dbo:areaTotal        78908330 ;
-        ramon:code           "062" ;
+        ramon:code           "SI-062" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -1128,12 +1128,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-063  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ljutomer"@en ;
-        rdfs:label           "063 Ljutomer" ;
+        rdfs:label           "SI-063 Ljutomer" ;
         void:inDataset       lau: ;
         ramon:name           "Ljutomer"@sl ;
         dbo:populationTotal  11491 ;
         dbo:areaTotal        107235840 ;
-        ramon:code           "063" ;
+        ramon:code           "SI-063" ;
         spatial:PP           lau:SI-29 ;
         ramon:level          5 .
 
@@ -1146,12 +1146,12 @@ lau:SI-29  rdf:type     ebg:LAURegion ;
 lau:SI-064  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Logatec"@en ;
-        rdfs:label           "064 Logatec" ;
+        rdfs:label           "SI-064 Logatec" ;
         void:inDataset       lau: ;
         ramon:name           "Logatec"@sl ;
         dbo:populationTotal  13752 ;
         dbo:areaTotal        173108410 ;
-        ramon:code           "064" ;
+        ramon:code           "SI-064" ;
         spatial:PP           lau:SI-30 ;
         ramon:level          5 .
 
@@ -1164,12 +1164,12 @@ lau:SI-30  rdf:type     ebg:LAURegion ;
 lau:SI-065  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Loška dolina"@en ;
-        rdfs:label           "065 Loška dolina" ;
+        rdfs:label           "SI-065 Loška dolina" ;
         void:inDataset       lau: ;
         ramon:name           "Loška dolina"@sl ;
         dbo:populationTotal  3857 ;
         dbo:areaTotal        166826520 ;
-        ramon:code           "065" ;
+        ramon:code           "SI-065" ;
         spatial:PP           lau:SI-04 ;
         ramon:level          5 .
 
@@ -1182,12 +1182,12 @@ lau:SI-04  rdf:type     ebg:LAURegion ;
 lau:SI-066  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Loški Potok"@en ;
-        rdfs:label           "066 Loški Potok" ;
+        rdfs:label           "SI-066 Loški Potok" ;
         void:inDataset       lau: ;
         ramon:name           "Loški Potok"@sl ;
         dbo:populationTotal  1866 ;
         dbo:areaTotal        134497830 ;
-        ramon:code           "066" ;
+        ramon:code           "SI-066" ;
         spatial:PP           lau:SI-46 ;
         ramon:level          5 .
 
@@ -1200,12 +1200,12 @@ lau:SI-46  rdf:type     ebg:LAURegion ;
 lau:SI-067  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Luče"@en ;
-        rdfs:label           "067 Luče" ;
+        rdfs:label           "SI-067 Luče" ;
         void:inDataset       lau: ;
         ramon:name           "Luče"@sl ;
         dbo:populationTotal  1495 ;
         dbo:areaTotal        109450400 ;
-        ramon:code           "067" ;
+        ramon:code           "SI-067" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -1218,12 +1218,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-068  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lukovica"@en ;
-        rdfs:label           "068 Lukovica" ;
+        rdfs:label           "SI-068 Lukovica" ;
         void:inDataset       lau: ;
         ramon:name           "Lukovica"@sl ;
         dbo:populationTotal  5731 ;
         dbo:areaTotal        74904140 ;
-        ramon:code           "068" ;
+        ramon:code           "SI-068" ;
         spatial:PP           lau:SI-06 ;
         ramon:level          5 .
 
@@ -1236,12 +1236,12 @@ lau:SI-06  rdf:type     ebg:LAURegion ;
 lau:SI-069  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Majšperk"@en ;
-        rdfs:label           "069 Majšperk" ;
+        rdfs:label           "SI-069 Majšperk" ;
         void:inDataset       lau: ;
         ramon:name           "Majšperk"@sl ;
         dbo:populationTotal  3986 ;
         dbo:areaTotal        72783570 ;
-        ramon:code           "069" ;
+        ramon:code           "SI-069" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -1254,12 +1254,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-070  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Maribor"@en ;
-        rdfs:label           "070 Maribor" ;
+        rdfs:label           "SI-070 Maribor" ;
         void:inDataset       lau: ;
         ramon:name           "Maribor"@sl ;
         dbo:populationTotal  111832 ;
         dbo:areaTotal        147466570 ;
-        ramon:code           "070" ;
+        ramon:code           "SI-070" ;
         spatial:PP           lau:SI-64 ;
         ramon:level          5 .
 
@@ -1272,12 +1272,12 @@ lau:SI-64  rdf:type     ebg:LAURegion ;
 lau:SI-071  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Medvode"@en ;
-        rdfs:label           "071 Medvode" ;
+        rdfs:label           "SI-071 Medvode" ;
         void:inDataset       lau: ;
         ramon:name           "Medvode"@sl ;
         dbo:populationTotal  16032 ;
         dbo:areaTotal        77593730 ;
-        ramon:code           "071" ;
+        ramon:code           "SI-071" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -1290,12 +1290,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-072  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mengeš"@en ;
-        rdfs:label           "072 Mengeš" ;
+        rdfs:label           "SI-072 Mengeš" ;
         void:inDataset       lau: ;
         ramon:name           "Mengeš"@sl ;
         dbo:populationTotal  7708 ;
         dbo:areaTotal        22437620 ;
-        ramon:code           "072" ;
+        ramon:code           "SI-072" ;
         spatial:PP           lau:SI-06 ;
         ramon:level          5 .
 
@@ -1308,12 +1308,12 @@ lau:SI-06  rdf:type     ebg:LAURegion ;
 lau:SI-073  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Metlika"@en ;
-        rdfs:label           "073 Metlika" ;
+        rdfs:label           "SI-073 Metlika" ;
         void:inDataset       lau: ;
         ramon:name           "Metlika"@sl ;
         dbo:populationTotal  8382 ;
         dbo:areaTotal        108871560 ;
-        ramon:code           "073" ;
+        ramon:code           "SI-073" ;
         spatial:PP           lau:SI-34 ;
         ramon:level          5 .
 
@@ -1326,12 +1326,12 @@ lau:SI-34  rdf:type     ebg:LAURegion ;
 lau:SI-074  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mežica"@en ;
-        rdfs:label           "074 Mežica" ;
+        rdfs:label           "SI-074 Mežica" ;
         void:inDataset       lau: ;
         ramon:name           "Mežica"@sl ;
         dbo:populationTotal  3599 ;
         dbo:areaTotal        26447430 ;
-        ramon:code           "074" ;
+        ramon:code           "SI-074" ;
         spatial:PP           lau:SI-45 ;
         ramon:level          5 .
 
@@ -1344,12 +1344,12 @@ lau:SI-45  rdf:type     ebg:LAURegion ;
 lau:SI-075  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Miren - Kostanjevica"@en ;
-        rdfs:label           "075 Miren - Kostanjevica" ;
+        rdfs:label           "SI-075 Miren - Kostanjevica" ;
         void:inDataset       lau: ;
         ramon:name           "Miren - Kostanjevica"@sl ;
         dbo:populationTotal  4825 ;
         dbo:areaTotal        62783880 ;
-        ramon:code           "075" ;
+        ramon:code           "SI-075" ;
         spatial:PP           lau:SI-37 ;
         ramon:level          5 .
 
@@ -1362,12 +1362,12 @@ lau:SI-37  rdf:type     ebg:LAURegion ;
 lau:SI-076  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mislinja"@en ;
-        rdfs:label           "076 Mislinja" ;
+        rdfs:label           "SI-076 Mislinja" ;
         void:inDataset       lau: ;
         ramon:name           "Mislinja"@sl ;
         dbo:populationTotal  4577 ;
         dbo:areaTotal        112167240 ;
-        ramon:code           "076" ;
+        ramon:code           "SI-076" ;
         spatial:PP           lau:SI-49 ;
         ramon:level          5 .
 
@@ -1380,12 +1380,12 @@ lau:SI-49  rdf:type     ebg:LAURegion ;
 lau:SI-077  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Moravče"@en ;
-        rdfs:label           "077 Moravče" ;
+        rdfs:label           "SI-077 Moravče" ;
         void:inDataset       lau: ;
         ramon:name           "Moravče"@sl ;
         dbo:populationTotal  5271 ;
         dbo:areaTotal        61375510 ;
-        ramon:code           "077" ;
+        ramon:code           "SI-077" ;
         spatial:PP           lau:SI-06 ;
         ramon:level          5 .
 
@@ -1398,12 +1398,12 @@ lau:SI-06  rdf:type     ebg:LAURegion ;
 lau:SI-078  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Moravske Toplice"@en ;
-        rdfs:label           "078 Moravske Toplice" ;
+        rdfs:label           "SI-078 Moravske Toplice" ;
         void:inDataset       lau: ;
         ramon:name           "Moravske Toplice"@sl ;
         dbo:populationTotal  5847 ;
         dbo:areaTotal        144462570 ;
-        ramon:code           "078" ;
+        ramon:code           "SI-078" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -1416,12 +1416,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-079  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mozirje"@en ;
-        rdfs:label           "079 Mozirje" ;
+        rdfs:label           "SI-079 Mozirje" ;
         void:inDataset       lau: ;
         ramon:name           "Mozirje"@sl ;
         dbo:populationTotal  4056 ;
         dbo:areaTotal        53534760 ;
-        ramon:code           "079" ;
+        ramon:code           "SI-079" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -1434,12 +1434,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-080  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Murska Sobota"@en ;
-        rdfs:label           "080 Murska Sobota" ;
+        rdfs:label           "SI-080 Murska Sobota" ;
         void:inDataset       lau: ;
         ramon:name           "Murska Sobota"@sl ;
         dbo:populationTotal  18924 ;
         dbo:areaTotal        64433850 ;
-        ramon:code           "080" ;
+        ramon:code           "SI-080" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -1452,12 +1452,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-081  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Muta"@en ;
-        rdfs:label           "081 Muta" ;
+        rdfs:label           "SI-081 Muta" ;
         void:inDataset       lau: ;
         ramon:name           "Muta"@sl ;
         dbo:populationTotal  3364 ;
         dbo:areaTotal        38770840 ;
-        ramon:code           "081" ;
+        ramon:code           "SI-081" ;
         spatial:PP           lau:SI-43 ;
         ramon:level          5 .
 
@@ -1470,12 +1470,12 @@ lau:SI-43  rdf:type     ebg:LAURegion ;
 lau:SI-082  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Naklo"@en ;
-        rdfs:label           "082 Naklo" ;
+        rdfs:label           "SI-082 Naklo" ;
         void:inDataset       lau: ;
         ramon:name           "Naklo"@sl ;
         dbo:populationTotal  5283 ;
         dbo:areaTotal        28289400 ;
-        ramon:code           "082" ;
+        ramon:code           "SI-082" ;
         spatial:PP           lau:SI-18 ;
         ramon:level          5 .
 
@@ -1488,12 +1488,12 @@ lau:SI-18  rdf:type     ebg:LAURegion ;
 lau:SI-083  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nazarje"@en ;
-        rdfs:label           "083 Nazarje" ;
+        rdfs:label           "SI-083 Nazarje" ;
         void:inDataset       lau: ;
         ramon:name           "Nazarje"@sl ;
         dbo:populationTotal  2582 ;
         dbo:areaTotal        43404040 ;
-        ramon:code           "083" ;
+        ramon:code           "SI-083" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -1506,12 +1506,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-084  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nova Gorica"@en ;
-        rdfs:label           "084 Nova Gorica" ;
+        rdfs:label           "SI-084 Nova Gorica" ;
         void:inDataset       lau: ;
         ramon:name           "Nova Gorica"@sl ;
         dbo:populationTotal  31798 ;
         dbo:areaTotal        279491450 ;
-        ramon:code           "084" ;
+        ramon:code           "SI-084" ;
         spatial:PP           lau:SI-37 ;
         ramon:level          5 .
 
@@ -1524,12 +1524,12 @@ lau:SI-37  rdf:type     ebg:LAURegion ;
 lau:SI-085  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Novo mesto"@en ;
-        rdfs:label           "085 Novo mesto" ;
+        rdfs:label           "SI-085 Novo mesto" ;
         void:inDataset       lau: ;
         ramon:name           "Novo mesto"@sl ;
         dbo:populationTotal  36503 ;
         dbo:areaTotal        235710370 ;
-        ramon:code           "085" ;
+        ramon:code           "SI-085" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -1542,12 +1542,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-086  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Odranci"@en ;
-        rdfs:label           "086 Odranci" ;
+        rdfs:label           "SI-086 Odranci" ;
         void:inDataset       lau: ;
         ramon:name           "Odranci"@sl ;
         dbo:populationTotal  1637 ;
         dbo:areaTotal        6934510 ;
-        ramon:code           "086" ;
+        ramon:code           "SI-086" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -1560,12 +1560,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-087  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ormož"@en ;
-        rdfs:label           "087 Ormož" ;
+        rdfs:label           "SI-087 Ormož" ;
         void:inDataset       lau: ;
         ramon:name           "Ormož"@sl ;
         dbo:populationTotal  12316 ;
         dbo:areaTotal        141563840 ;
-        ramon:code           "087" ;
+        ramon:code           "SI-087" ;
         spatial:PP           lau:SI-39 ;
         ramon:level          5 .
 
@@ -1578,12 +1578,12 @@ lau:SI-39  rdf:type     ebg:LAURegion ;
 lau:SI-088  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Osilnica"@en ;
-        rdfs:label           "088 Osilnica" ;
+        rdfs:label           "SI-088 Osilnica" ;
         void:inDataset       lau: ;
         ramon:name           "Osilnica"@sl ;
         dbo:populationTotal  372 ;
         dbo:areaTotal        36223890 ;
-        ramon:code           "088" ;
+        ramon:code           "SI-088" ;
         spatial:PP           lau:SI-16 ;
         ramon:level          5 .
 
@@ -1596,12 +1596,12 @@ lau:SI-16  rdf:type     ebg:LAURegion ;
 lau:SI-089  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pesnica"@en ;
-        rdfs:label           "089 Pesnica" ;
+        rdfs:label           "SI-089 Pesnica" ;
         void:inDataset       lau: ;
         ramon:name           "Pesnica"@sl ;
         dbo:populationTotal  7391 ;
         dbo:areaTotal        75844870 ;
-        ramon:code           "089" ;
+        ramon:code           "SI-089" ;
         spatial:PP           lau:SI-65 ;
         ramon:level          5 .
 
@@ -1614,12 +1614,12 @@ lau:SI-65  rdf:type     ebg:LAURegion ;
 lau:SI-090  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pirano"@en ;
-        rdfs:label           "090 Pirano" ;
+        rdfs:label           "SI-090 Pirano" ;
         void:inDataset       lau: ;
         ramon:name           "Piran"@sl ;
         dbo:populationTotal  17829 ;
         dbo:areaTotal        44581670 ;
-        ramon:code           "090" ;
+        ramon:code           "SI-090" ;
         spatial:PP           lau:SI-40 ;
         ramon:level          5 .
 
@@ -1632,12 +1632,12 @@ lau:SI-40  rdf:type     ebg:LAURegion ;
 lau:SI-091  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pivka"@en ;
-        rdfs:label           "091 Pivka" ;
+        rdfs:label           "SI-091 Pivka" ;
         void:inDataset       lau: ;
         ramon:name           "Pivka"@sl ;
         dbo:populationTotal  6064 ;
         dbo:areaTotal        223250770 ;
-        ramon:code           "091" ;
+        ramon:code           "SI-091" ;
         spatial:PP           lau:SI-41 ;
         ramon:level          5 .
 
@@ -1650,12 +1650,12 @@ lau:SI-41  rdf:type     ebg:LAURegion ;
 lau:SI-092  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Podčetrtek"@en ;
-        rdfs:label           "092 Podčetrtek" ;
+        rdfs:label           "SI-092 Podčetrtek" ;
         void:inDataset       lau: ;
         ramon:name           "Podčetrtek"@sl ;
         dbo:populationTotal  3325 ;
         dbo:areaTotal        60559880 ;
-        ramon:code           "092" ;
+        ramon:code           "SI-092" ;
         spatial:PP           lau:SI-54 ;
         ramon:level          5 .
 
@@ -1668,12 +1668,12 @@ lau:SI-54  rdf:type     ebg:LAURegion ;
 lau:SI-093  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Podvelka"@en ;
-        rdfs:label           "093 Podvelka" ;
+        rdfs:label           "SI-093 Podvelka" ;
         void:inDataset       lau: ;
         ramon:name           "Podvelka"@sl ;
         dbo:populationTotal  2371 ;
         dbo:areaTotal        103884170 ;
-        ramon:code           "093" ;
+        ramon:code           "SI-093" ;
         spatial:PP           lau:SI-43 ;
         ramon:level          5 .
 
@@ -1686,12 +1686,12 @@ lau:SI-43  rdf:type     ebg:LAURegion ;
 lau:SI-094  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Postojna"@en ;
-        rdfs:label           "094 Postojna" ;
+        rdfs:label           "SI-094 Postojna" ;
         void:inDataset       lau: ;
         ramon:name           "Postojna"@sl ;
         dbo:populationTotal  16068 ;
         dbo:areaTotal        269867510 ;
-        ramon:code           "094" ;
+        ramon:code           "SI-094" ;
         spatial:PP           lau:SI-41 ;
         ramon:level          5 .
 
@@ -1704,12 +1704,12 @@ lau:SI-41  rdf:type     ebg:LAURegion ;
 lau:SI-095  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Preddvor"@en ;
-        rdfs:label           "095 Preddvor" ;
+        rdfs:label           "SI-095 Preddvor" ;
         void:inDataset       lau: ;
         ramon:name           "Preddvor"@sl ;
         dbo:populationTotal  3582 ;
         dbo:areaTotal        86961370 ;
-        ramon:code           "095" ;
+        ramon:code           "SI-095" ;
         spatial:PP           lau:SI-18 ;
         ramon:level          5 .
 
@@ -1722,12 +1722,12 @@ lau:SI-18  rdf:type     ebg:LAURegion ;
 lau:SI-096  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ptuj"@en ;
-        rdfs:label           "096 Ptuj" ;
+        rdfs:label           "SI-096 Ptuj" ;
         void:inDataset       lau: ;
         ramon:name           "Ptuj"@sl ;
         dbo:populationTotal  23129 ;
         dbo:areaTotal        66656000 ;
-        ramon:code           "096" ;
+        ramon:code           "SI-096" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -1740,12 +1740,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-097  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Puconci"@en ;
-        rdfs:label           "097 Puconci" ;
+        rdfs:label           "SI-097 Puconci" ;
         void:inDataset       lau: ;
         ramon:name           "Puconci"@sl ;
         dbo:populationTotal  5990 ;
         dbo:areaTotal        107658500 ;
-        ramon:code           "097" ;
+        ramon:code           "SI-097" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -1758,12 +1758,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-098  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rače - Fram"@en ;
-        rdfs:label           "098 Rače - Fram" ;
+        rdfs:label           "SI-098 Rače - Fram" ;
         void:inDataset       lau: ;
         ramon:name           "Rače - Fram"@sl ;
         dbo:populationTotal  7105 ;
         dbo:areaTotal        51240740 ;
-        ramon:code           "098" ;
+        ramon:code           "SI-098" ;
         spatial:PP           lau:SI-64 ;
         ramon:level          5 .
 
@@ -1776,12 +1776,12 @@ lau:SI-64  rdf:type     ebg:LAURegion ;
 lau:SI-099  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Radeče"@en ;
-        rdfs:label           "099 Radeče" ;
+        rdfs:label           "SI-099 Radeče" ;
         void:inDataset       lau: ;
         ramon:name           "Radeče"@sl ;
         dbo:populationTotal  4279 ;
         dbo:areaTotal        51969510 ;
-        ramon:code           "099" ;
+        ramon:code           "SI-099" ;
         spatial:PP           lau:SI-20 ;
         ramon:level          5 .
 
@@ -1794,12 +1794,12 @@ lau:SI-20  rdf:type     ebg:LAURegion ;
 lau:SI-100  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Radenci"@en ;
-        rdfs:label           "100 Radenci" ;
+        rdfs:label           "SI-100 Radenci" ;
         void:inDataset       lau: ;
         ramon:name           "Radenci"@sl ;
         dbo:populationTotal  5138 ;
         dbo:areaTotal        34121680 ;
-        ramon:code           "100" ;
+        ramon:code           "SI-100" ;
         spatial:PP           lau:SI-08 ;
         ramon:level          5 .
 
@@ -1812,12 +1812,12 @@ lau:SI-08  rdf:type     ebg:LAURegion ;
 lau:SI-101  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Radlje ob Dravi"@en ;
-        rdfs:label           "101 Radlje ob Dravi" ;
+        rdfs:label           "SI-101 Radlje ob Dravi" ;
         void:inDataset       lau: ;
         ramon:name           "Radlje ob Dravi"@sl ;
         dbo:populationTotal  6215 ;
         dbo:areaTotal        93933560 ;
-        ramon:code           "101" ;
+        ramon:code           "SI-101" ;
         spatial:PP           lau:SI-43 ;
         ramon:level          5 .
 
@@ -1830,12 +1830,12 @@ lau:SI-43  rdf:type     ebg:LAURegion ;
 lau:SI-102  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Radovljica"@en ;
-        rdfs:label           "102 Radovljica" ;
+        rdfs:label           "SI-102 Radovljica" ;
         void:inDataset       lau: ;
         ramon:name           "Radovljica"@sl ;
         dbo:populationTotal  18816 ;
         dbo:areaTotal        118706460 ;
-        ramon:code           "102" ;
+        ramon:code           "SI-102" ;
         spatial:PP           lau:SI-44 ;
         ramon:level          5 .
 
@@ -1848,12 +1848,12 @@ lau:SI-44  rdf:type     ebg:LAURegion ;
 lau:SI-103  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ravne na Koroškem"@en ;
-        rdfs:label           "103 Ravne na Koroškem" ;
+        rdfs:label           "SI-103 Ravne na Koroškem" ;
         void:inDataset       lau: ;
         ramon:name           "Ravne na Koroškem"@sl ;
         dbo:populationTotal  11342 ;
         dbo:areaTotal        63448930 ;
-        ramon:code           "103" ;
+        ramon:code           "SI-103" ;
         spatial:PP           lau:SI-45 ;
         ramon:level          5 .
 
@@ -1866,12 +1866,12 @@ lau:SI-45  rdf:type     ebg:LAURegion ;
 lau:SI-104  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ribnica"@en ;
-        rdfs:label           "104 Ribnica" ;
+        rdfs:label           "SI-104 Ribnica" ;
         void:inDataset       lau: ;
         ramon:name           "Ribnica"@sl ;
         dbo:populationTotal  9347 ;
         dbo:areaTotal        153637290 ;
-        ramon:code           "104" ;
+        ramon:code           "SI-104" ;
         spatial:PP           lau:SI-46 ;
         ramon:level          5 .
 
@@ -1884,12 +1884,12 @@ lau:SI-46  rdf:type     ebg:LAURegion ;
 lau:SI-105  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rogašovci"@en ;
-        rdfs:label           "105 Rogašovci" ;
+        rdfs:label           "SI-105 Rogašovci" ;
         void:inDataset       lau: ;
         ramon:name           "Rogašovci"@sl ;
         dbo:populationTotal  3111 ;
         dbo:areaTotal        40147020 ;
-        ramon:code           "105" ;
+        ramon:code           "SI-105" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -1902,12 +1902,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-106  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rogaška Slatina"@en ;
-        rdfs:label           "106 Rogaška Slatina" ;
+        rdfs:label           "SI-106 Rogaška Slatina" ;
         void:inDataset       lau: ;
         ramon:name           "Rogaška Slatina"@sl ;
         dbo:populationTotal  10958 ;
         dbo:areaTotal        71545370 ;
-        ramon:code           "106" ;
+        ramon:code           "SI-106" ;
         spatial:PP           lau:SI-54 ;
         ramon:level          5 .
 
@@ -1920,12 +1920,12 @@ lau:SI-54  rdf:type     ebg:LAURegion ;
 lau:SI-107  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rogatec"@en ;
-        rdfs:label           "107 Rogatec" ;
+        rdfs:label           "SI-107 Rogatec" ;
         void:inDataset       lau: ;
         ramon:name           "Rogatec"@sl ;
         dbo:populationTotal  3093 ;
         dbo:areaTotal        39557820 ;
-        ramon:code           "107" ;
+        ramon:code           "SI-107" ;
         spatial:PP           lau:SI-54 ;
         ramon:level          5 .
 
@@ -1938,12 +1938,12 @@ lau:SI-54  rdf:type     ebg:LAURegion ;
 lau:SI-108  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ruše"@en ;
-        rdfs:label           "108 Ruše" ;
+        rdfs:label           "SI-108 Ruše" ;
         void:inDataset       lau: ;
         ramon:name           "Ruše"@sl ;
         dbo:populationTotal  7150 ;
         dbo:areaTotal        60814850 ;
-        ramon:code           "108" ;
+        ramon:code           "SI-108" ;
         spatial:PP           lau:SI-68 ;
         ramon:level          5 .
 
@@ -1956,12 +1956,12 @@ lau:SI-68  rdf:type     ebg:LAURegion ;
 lau:SI-109  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Semič"@en ;
-        rdfs:label           "109 Semič" ;
+        rdfs:label           "SI-109 Semič" ;
         void:inDataset       lau: ;
         ramon:name           "Semič"@sl ;
         dbo:populationTotal  3780 ;
         dbo:areaTotal        146659280 ;
-        ramon:code           "109" ;
+        ramon:code           "SI-109" ;
         spatial:PP           lau:SI-05 ;
         ramon:level          5 .
 
@@ -1974,12 +1974,12 @@ lau:SI-05  rdf:type     ebg:LAURegion ;
 lau:SI-110  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sevnica"@en ;
-        rdfs:label           "110 Sevnica" ;
+        rdfs:label           "SI-110 Sevnica" ;
         void:inDataset       lau: ;
         ramon:name           "Sevnica"@sl ;
         dbo:populationTotal  17510 ;
         dbo:areaTotal        272172170 ;
-        ramon:code           "110" ;
+        ramon:code           "SI-110" ;
         spatial:PP           lau:SI-47 ;
         ramon:level          5 .
 
@@ -1992,12 +1992,12 @@ lau:SI-47  rdf:type     ebg:LAURegion ;
 lau:SI-111  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sežana"@en ;
-        rdfs:label           "111 Sežana" ;
+        rdfs:label           "SI-111 Sežana" ;
         void:inDataset       lau: ;
         ramon:name           "Sežana"@sl ;
         dbo:populationTotal  13160 ;
         dbo:areaTotal        217400560 ;
-        ramon:code           "111" ;
+        ramon:code           "SI-111" ;
         spatial:PP           lau:SI-48 ;
         ramon:level          5 .
 
@@ -2010,12 +2010,12 @@ lau:SI-48  rdf:type     ebg:LAURegion ;
 lau:SI-112  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Slovenj Gradec"@en ;
-        rdfs:label           "112 Slovenj Gradec" ;
+        rdfs:label           "SI-112 Slovenj Gradec" ;
         void:inDataset       lau: ;
         ramon:name           "Slovenj Gradec"@sl ;
         dbo:populationTotal  16720 ;
         dbo:areaTotal        173693740 ;
-        ramon:code           "112" ;
+        ramon:code           "SI-112" ;
         spatial:PP           lau:SI-49 ;
         ramon:level          5 .
 
@@ -2028,12 +2028,12 @@ lau:SI-49  rdf:type     ebg:LAURegion ;
 lau:SI-113  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Slovenska Bistrica"@en ;
-        rdfs:label           "113 Slovenska Bistrica" ;
+        rdfs:label           "SI-113 Slovenska Bistrica" ;
         void:inDataset       lau: ;
         ramon:name           "Slovenska Bistrica"@sl ;
         dbo:populationTotal  25413 ;
         dbo:areaTotal        260079900 ;
-        ramon:code           "113" ;
+        ramon:code           "SI-113" ;
         spatial:PP           lau:SI-50 ;
         ramon:level          5 .
 
@@ -2046,12 +2046,12 @@ lau:SI-50  rdf:type     ebg:LAURegion ;
 lau:SI-114  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Slovenske Konjice"@en ;
-        rdfs:label           "114 Slovenske Konjice" ;
+        rdfs:label           "SI-114 Slovenske Konjice" ;
         void:inDataset       lau: ;
         ramon:name           "Slovenske Konjice"@sl ;
         dbo:populationTotal  14623 ;
         dbo:areaTotal        97841170 ;
-        ramon:code           "114" ;
+        ramon:code           "SI-114" ;
         spatial:PP           lau:SI-51 ;
         ramon:level          5 .
 
@@ -2064,12 +2064,12 @@ lau:SI-51  rdf:type     ebg:LAURegion ;
 lau:SI-115  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Starše"@en ;
-        rdfs:label           "115 Starše" ;
+        rdfs:label           "SI-115 Starše" ;
         void:inDataset       lau: ;
         ramon:name           "Starše"@sl ;
         dbo:populationTotal  4072 ;
         dbo:areaTotal        33965640 ;
-        ramon:code           "115" ;
+        ramon:code           "SI-115" ;
         spatial:PP           lau:SI-64 ;
         ramon:level          5 .
 
@@ -2082,12 +2082,12 @@ lau:SI-64  rdf:type     ebg:LAURegion ;
 lau:SI-116  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sveti Jurij ob Ščavnici"@en ;
-        rdfs:label           "116 Sveti Jurij ob Ščavnici" ;
+        rdfs:label           "SI-116 Sveti Jurij ob Ščavnici" ;
         void:inDataset       lau: ;
         ramon:name           "Sveti Jurij ob Ščavnici"@sl ;
         dbo:populationTotal  2863 ;
         dbo:areaTotal        51323450 ;
-        ramon:code           "116" ;
+        ramon:code           "SI-116" ;
         spatial:PP           lau:SI-08 ;
         ramon:level          5 .
 
@@ -2100,12 +2100,12 @@ lau:SI-08  rdf:type     ebg:LAURegion ;
 lau:SI-117  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šenčur"@en ;
-        rdfs:label           "117 Šenčur" ;
+        rdfs:label           "SI-117 Šenčur" ;
         void:inDataset       lau: ;
         ramon:name           "Šenčur"@sl ;
         dbo:populationTotal  8580 ;
         dbo:areaTotal        40276250 ;
-        ramon:code           "117" ;
+        ramon:code           "SI-117" ;
         spatial:PP           lau:SI-18 ;
         ramon:level          5 .
 
@@ -2118,12 +2118,12 @@ lau:SI-18  rdf:type     ebg:LAURegion ;
 lau:SI-118  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šentilj"@en ;
-        rdfs:label           "118 Šentilj" ;
+        rdfs:label           "SI-118 Šentilj" ;
         void:inDataset       lau: ;
         ramon:name           "Šentilj"@sl ;
         dbo:populationTotal  8339 ;
         dbo:areaTotal        65010970 ;
-        ramon:code           "118" ;
+        ramon:code           "SI-118" ;
         spatial:PP           lau:SI-65 ;
         ramon:level          5 .
 
@@ -2136,12 +2136,12 @@ lau:SI-65  rdf:type     ebg:LAURegion ;
 lau:SI-119  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šentjernej"@en ;
-        rdfs:label           "119 Šentjernej" ;
+        rdfs:label           "SI-119 Šentjernej" ;
         void:inDataset       lau: ;
         ramon:name           "Šentjernej"@sl ;
         dbo:populationTotal  6993 ;
         dbo:areaTotal        95986440 ;
-        ramon:code           "119" ;
+        ramon:code           "SI-119" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -2154,12 +2154,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-120  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šentjur "@en ;
-        rdfs:label           "120 Šentjur " ;
+        rdfs:label           "SI-120 Šentjur " ;
         void:inDataset       lau: ;
         ramon:name           "Šentjur "@sl ;
         dbo:populationTotal  18990 ;
         dbo:areaTotal        222258910 ;
-        ramon:code           "120" ;
+        ramon:code           "SI-120" ;
         spatial:PP           lau:SI-52 ;
         ramon:level          5 .
 
@@ -2172,12 +2172,12 @@ lau:SI-52  rdf:type     ebg:LAURegion ;
 lau:SI-121  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Škocjan"@en ;
-        rdfs:label           "121 Škocjan" ;
+        rdfs:label           "SI-121 Škocjan" ;
         void:inDataset       lau: ;
         ramon:name           "Škocjan"@sl ;
         dbo:populationTotal  3236 ;
         dbo:areaTotal        60445400 ;
-        ramon:code           "121" ;
+        ramon:code           "SI-121" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -2190,12 +2190,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-122  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Škofja Loka"@en ;
-        rdfs:label           "122 Škofja Loka" ;
+        rdfs:label           "SI-122 Škofja Loka" ;
         void:inDataset       lau: ;
         ramon:name           "Škofja Loka"@sl ;
         dbo:populationTotal  22927 ;
         dbo:areaTotal        146010000 ;
-        ramon:code           "122" ;
+        ramon:code           "SI-122" ;
         spatial:PP           lau:SI-53 ;
         ramon:level          5 .
 
@@ -2208,12 +2208,12 @@ lau:SI-53  rdf:type     ebg:LAURegion ;
 lau:SI-123  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Škofljica"@en ;
-        rdfs:label           "123 Škofljica" ;
+        rdfs:label           "SI-123 Škofljica" ;
         void:inDataset       lau: ;
         ramon:name           "Škofljica"@sl ;
         dbo:populationTotal  10618 ;
         dbo:areaTotal        43292540 ;
-        ramon:code           "123" ;
+        ramon:code           "SI-123" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -2226,12 +2226,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-124  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šmarje pri Jelšah"@en ;
-        rdfs:label           "124 Šmarje pri Jelšah" ;
+        rdfs:label           "SI-124 Šmarje pri Jelšah" ;
         void:inDataset       lau: ;
         ramon:name           "Šmarje pri Jelšah"@sl ;
         dbo:populationTotal  10260 ;
         dbo:areaTotal        107702460 ;
-        ramon:code           "124" ;
+        ramon:code           "SI-124" ;
         spatial:PP           lau:SI-54 ;
         ramon:level          5 .
 
@@ -2244,12 +2244,12 @@ lau:SI-54  rdf:type     ebg:LAURegion ;
 lau:SI-125  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šmartno ob Paki"@en ;
-        rdfs:label           "125 Šmartno ob Paki" ;
+        rdfs:label           "SI-125 Šmartno ob Paki" ;
         void:inDataset       lau: ;
         ramon:name           "Šmartno ob Paki"@sl ;
         dbo:populationTotal  3240 ;
         dbo:areaTotal        18152300 ;
-        ramon:code           "125" ;
+        ramon:code           "SI-125" ;
         spatial:PP           lau:SI-59 ;
         ramon:level          5 .
 
@@ -2262,12 +2262,12 @@ lau:SI-59  rdf:type     ebg:LAURegion ;
 lau:SI-126  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šoštanj"@en ;
-        rdfs:label           "126 Šoštanj" ;
+        rdfs:label           "SI-126 Šoštanj" ;
         void:inDataset       lau: ;
         ramon:name           "Šoštanj"@sl ;
         dbo:populationTotal  8705 ;
         dbo:areaTotal        95585260 ;
-        ramon:code           "126" ;
+        ramon:code           "SI-126" ;
         spatial:PP           lau:SI-59 ;
         ramon:level          5 .
 
@@ -2280,12 +2280,12 @@ lau:SI-59  rdf:type     ebg:LAURegion ;
 lau:SI-127  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Štore"@en ;
-        rdfs:label           "127 Štore" ;
+        rdfs:label           "SI-127 Štore" ;
         void:inDataset       lau: ;
         ramon:name           "Štore"@sl ;
         dbo:populationTotal  4239 ;
         dbo:areaTotal        28147570 ;
-        ramon:code           "127" ;
+        ramon:code           "SI-127" ;
         spatial:PP           lau:SI-03 ;
         ramon:level          5 .
 
@@ -2298,12 +2298,12 @@ lau:SI-03  rdf:type     ebg:LAURegion ;
 lau:SI-128  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tolmin"@en ;
-        rdfs:label           "128 Tolmin" ;
+        rdfs:label           "SI-128 Tolmin" ;
         void:inDataset       lau: ;
         ramon:name           "Tolmin"@sl ;
         dbo:populationTotal  11281 ;
         dbo:areaTotal        382330670 ;
-        ramon:code           "128" ;
+        ramon:code           "SI-128" ;
         spatial:PP           lau:SI-55 ;
         ramon:level          5 .
 
@@ -2316,12 +2316,12 @@ lau:SI-55  rdf:type     ebg:LAURegion ;
 lau:SI-129  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trbovlje"@en ;
-        rdfs:label           "129 Trbovlje" ;
+        rdfs:label           "SI-129 Trbovlje" ;
         void:inDataset       lau: ;
         ramon:name           "Trbovlje"@sl ;
         dbo:populationTotal  16339 ;
         dbo:areaTotal        58038480 ;
-        ramon:code           "129" ;
+        ramon:code           "SI-129" ;
         spatial:PP           lau:SI-56 ;
         ramon:level          5 .
 
@@ -2334,12 +2334,12 @@ lau:SI-56  rdf:type     ebg:LAURegion ;
 lau:SI-130  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trebnje"@en ;
-        rdfs:label           "130 Trebnje" ;
+        rdfs:label           "SI-130 Trebnje" ;
         void:inDataset       lau: ;
         ramon:name           "Trebnje"@sl ;
         dbo:populationTotal  12354 ;
         dbo:areaTotal        163324490 ;
-        ramon:code           "130" ;
+        ramon:code           "SI-130" ;
         spatial:PP           lau:SI-57 ;
         ramon:level          5 .
 
@@ -2352,12 +2352,12 @@ lau:SI-57  rdf:type     ebg:LAURegion ;
 lau:SI-131  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tržič"@en ;
-        rdfs:label           "131 Tržič" ;
+        rdfs:label           "SI-131 Tržič" ;
         void:inDataset       lau: ;
         ramon:name           "Tržič"@sl ;
         dbo:populationTotal  14872 ;
         dbo:areaTotal        155371490 ;
-        ramon:code           "131" ;
+        ramon:code           "SI-131" ;
         spatial:PP           lau:SI-58 ;
         ramon:level          5 .
 
@@ -2370,12 +2370,12 @@ lau:SI-58  rdf:type     ebg:LAURegion ;
 lau:SI-132  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Turnišče"@en ;
-        rdfs:label           "132 Turnišče" ;
+        rdfs:label           "SI-132 Turnišče" ;
         void:inDataset       lau: ;
         ramon:name           "Turnišče"@sl ;
         dbo:populationTotal  3263 ;
         dbo:areaTotal        23844000 ;
-        ramon:code           "132" ;
+        ramon:code           "SI-132" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -2388,12 +2388,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-133  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Velenje"@en ;
-        rdfs:label           "133 Velenje" ;
+        rdfs:label           "SI-133 Velenje" ;
         void:inDataset       lau: ;
         ramon:name           "Velenje"@sl ;
         dbo:populationTotal  32747 ;
         dbo:areaTotal        83495180 ;
-        ramon:code           "133" ;
+        ramon:code           "SI-133" ;
         spatial:PP           lau:SI-59 ;
         ramon:level          5 .
 
@@ -2406,12 +2406,12 @@ lau:SI-59  rdf:type     ebg:LAURegion ;
 lau:SI-134  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Velike Lašče"@en ;
-        rdfs:label           "134 Velike Lašče" ;
+        rdfs:label           "SI-134 Velike Lašče" ;
         void:inDataset       lau: ;
         ramon:name           "Velike Lašče"@sl ;
         dbo:populationTotal  4264 ;
         dbo:areaTotal        103184850 ;
-        ramon:code           "134" ;
+        ramon:code           "SI-134" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -2424,12 +2424,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-135  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Videm"@en ;
-        rdfs:label           "135 Videm" ;
+        rdfs:label           "SI-135 Videm" ;
         void:inDataset       lau: ;
         ramon:name           "Videm"@sl ;
         dbo:populationTotal  5481 ;
         dbo:areaTotal        79986540 ;
-        ramon:code           "135" ;
+        ramon:code           "SI-135" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -2442,12 +2442,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-136  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vipava"@en ;
-        rdfs:label           "136 Vipava" ;
+        rdfs:label           "SI-136 Vipava" ;
         void:inDataset       lau: ;
         ramon:name           "Vipava"@sl ;
         dbo:populationTotal  5605 ;
         dbo:areaTotal        107406970 ;
-        ramon:code           "136" ;
+        ramon:code           "SI-136" ;
         spatial:PP           lau:SI-01 ;
         ramon:level          5 .
 
@@ -2460,12 +2460,12 @@ lau:SI-01  rdf:type     ebg:LAURegion ;
 lau:SI-137  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vitanje"@en ;
-        rdfs:label           "137 Vitanje" ;
+        rdfs:label           "SI-137 Vitanje" ;
         void:inDataset       lau: ;
         ramon:name           "Vitanje"@sl ;
         dbo:populationTotal  2269 ;
         dbo:areaTotal        59384200 ;
-        ramon:code           "137" ;
+        ramon:code           "SI-137" ;
         spatial:PP           lau:SI-51 ;
         ramon:level          5 .
 
@@ -2478,12 +2478,12 @@ lau:SI-51  rdf:type     ebg:LAURegion ;
 lau:SI-138  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vodice"@en ;
-        rdfs:label           "138 Vodice" ;
+        rdfs:label           "SI-138 Vodice" ;
         void:inDataset       lau: ;
         ramon:name           "Vodice"@sl ;
         dbo:populationTotal  4804 ;
         dbo:areaTotal        31383250 ;
-        ramon:code           "138" ;
+        ramon:code           "SI-138" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -2496,12 +2496,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-139  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vojnik"@en ;
-        rdfs:label           "139 Vojnik" ;
+        rdfs:label           "SI-139 Vojnik" ;
         void:inDataset       lau: ;
         ramon:name           "Vojnik"@sl ;
         dbo:populationTotal  8685 ;
         dbo:areaTotal        75266670 ;
-        ramon:code           "139" ;
+        ramon:code           "SI-139" ;
         spatial:PP           lau:SI-03 ;
         ramon:level          5 .
 
@@ -2514,12 +2514,12 @@ lau:SI-03  rdf:type     ebg:LAURegion ;
 lau:SI-140  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vrhnika"@en ;
-        rdfs:label           "140 Vrhnika" ;
+        rdfs:label           "SI-140 Vrhnika" ;
         void:inDataset       lau: ;
         ramon:name           "Vrhnika"@sl ;
         dbo:populationTotal  16848 ;
         dbo:areaTotal        115560910 ;
-        ramon:code           "140" ;
+        ramon:code           "SI-140" ;
         spatial:PP           lau:SI-60 ;
         ramon:level          5 .
 
@@ -2532,12 +2532,12 @@ lau:SI-60  rdf:type     ebg:LAURegion ;
 lau:SI-141  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vuzenica"@en ;
-        rdfs:label           "141 Vuzenica" ;
+        rdfs:label           "SI-141 Vuzenica" ;
         void:inDataset       lau: ;
         ramon:name           "Vuzenica"@sl ;
         dbo:populationTotal  2687 ;
         dbo:areaTotal        50103890 ;
-        ramon:code           "141" ;
+        ramon:code           "SI-141" ;
         spatial:PP           lau:SI-43 ;
         ramon:level          5 .
 
@@ -2550,12 +2550,12 @@ lau:SI-43  rdf:type     ebg:LAURegion ;
 lau:SI-142  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Zagorje ob Savi"@en ;
-        rdfs:label           "142 Zagorje ob Savi" ;
+        rdfs:label           "SI-142 Zagorje ob Savi" ;
         void:inDataset       lau: ;
         ramon:name           "Zagorje ob Savi"@sl ;
         dbo:populationTotal  16650 ;
         dbo:areaTotal        147142200 ;
-        ramon:code           "142" ;
+        ramon:code           "SI-142" ;
         spatial:PP           lau:SI-61 ;
         ramon:level          5 .
 
@@ -2568,12 +2568,12 @@ lau:SI-61  rdf:type     ebg:LAURegion ;
 lau:SI-143  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Zavrč"@en ;
-        rdfs:label           "143 Zavrč" ;
+        rdfs:label           "SI-143 Zavrč" ;
         void:inDataset       lau: ;
         ramon:name           "Zavrč"@sl ;
         dbo:populationTotal  1722 ;
         dbo:areaTotal        19329510 ;
-        ramon:code           "143" ;
+        ramon:code           "SI-143" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -2586,12 +2586,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-144  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Zreče"@en ;
-        rdfs:label           "144 Zreče" ;
+        rdfs:label           "SI-144 Zreče" ;
         void:inDataset       lau: ;
         ramon:name           "Zreče"@sl ;
         dbo:populationTotal  6395 ;
         dbo:areaTotal        67039290 ;
-        ramon:code           "144" ;
+        ramon:code           "SI-144" ;
         spatial:PP           lau:SI-51 ;
         ramon:level          5 .
 
@@ -2604,12 +2604,12 @@ lau:SI-51  rdf:type     ebg:LAURegion ;
 lau:SI-146  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Železniki"@en ;
-        rdfs:label           "146 Železniki" ;
+        rdfs:label           "SI-146 Železniki" ;
         void:inDataset       lau: ;
         ramon:name           "Železniki"@sl ;
         dbo:populationTotal  6705 ;
         dbo:areaTotal        163742330 ;
-        ramon:code           "146" ;
+        ramon:code           "SI-146" ;
         spatial:PP           lau:SI-53 ;
         ramon:level          5 .
 
@@ -2622,12 +2622,12 @@ lau:SI-53  rdf:type     ebg:LAURegion ;
 lau:SI-147  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Žiri"@en ;
-        rdfs:label           "147 Žiri" ;
+        rdfs:label           "SI-147 Žiri" ;
         void:inDataset       lau: ;
         ramon:name           "Žiri"@sl ;
         dbo:populationTotal  4870 ;
         dbo:areaTotal        49218820 ;
-        ramon:code           "147" ;
+        ramon:code           "SI-147" ;
         spatial:PP           lau:SI-53 ;
         ramon:level          5 .
 
@@ -2640,12 +2640,12 @@ lau:SI-53  rdf:type     ebg:LAURegion ;
 lau:SI-148  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Benedikt"@en ;
-        rdfs:label           "148 Benedikt" ;
+        rdfs:label           "SI-148 Benedikt" ;
         void:inDataset       lau: ;
         ramon:name           "Benedikt"@sl ;
         dbo:populationTotal  2491 ;
         dbo:areaTotal        24138490 ;
-        ramon:code           "148" ;
+        ramon:code           "SI-148" ;
         spatial:PP           lau:SI-21 ;
         ramon:level          5 .
 
@@ -2658,12 +2658,12 @@ lau:SI-21  rdf:type     ebg:LAURegion ;
 lau:SI-149  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bistrica ob Sotli"@en ;
-        rdfs:label           "149 Bistrica ob Sotli" ;
+        rdfs:label           "SI-149 Bistrica ob Sotli" ;
         void:inDataset       lau: ;
         ramon:name           "Bistrica ob Sotli"@sl ;
         dbo:populationTotal  1365 ;
         dbo:areaTotal        31136310 ;
-        ramon:code           "149" ;
+        ramon:code           "SI-149" ;
         spatial:PP           lau:SI-54 ;
         ramon:level          5 .
 
@@ -2676,12 +2676,12 @@ lau:SI-54  rdf:type     ebg:LAURegion ;
 lau:SI-150  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bloke"@en ;
-        rdfs:label           "150 Bloke" ;
+        rdfs:label           "SI-150 Bloke" ;
         void:inDataset       lau: ;
         ramon:name           "Bloke"@sl ;
         dbo:populationTotal  1538 ;
         dbo:areaTotal        75071660 ;
-        ramon:code           "150" ;
+        ramon:code           "SI-150" ;
         spatial:PP           lau:SI-04 ;
         ramon:level          5 .
 
@@ -2694,12 +2694,12 @@ lau:SI-04  rdf:type     ebg:LAURegion ;
 lau:SI-151  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Braslovče"@en ;
-        rdfs:label           "151 Braslovče" ;
+        rdfs:label           "SI-151 Braslovče" ;
         void:inDataset       lau: ;
         ramon:name           "Braslovče"@sl ;
         dbo:populationTotal  5473 ;
         dbo:areaTotal        54980560 ;
-        ramon:code           "151" ;
+        ramon:code           "SI-151" ;
         spatial:PP           lau:SI-62 ;
         ramon:level          5 .
 
@@ -2712,12 +2712,12 @@ lau:SI-62  rdf:type     ebg:LAURegion ;
 lau:SI-152  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cankova"@en ;
-        rdfs:label           "152 Cankova" ;
+        rdfs:label           "SI-152 Cankova" ;
         void:inDataset       lau: ;
         ramon:name           "Cankova"@sl ;
         dbo:populationTotal  1814 ;
         dbo:areaTotal        30583310 ;
-        ramon:code           "152" ;
+        ramon:code           "SI-152" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -2730,12 +2730,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-153  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cerkvenjak"@en ;
-        rdfs:label           "153 Cerkvenjak" ;
+        rdfs:label           "SI-153 Cerkvenjak" ;
         void:inDataset       lau: ;
         ramon:name           "Cerkvenjak"@sl ;
         dbo:populationTotal  2044 ;
         dbo:areaTotal        24529360 ;
-        ramon:code           "153" ;
+        ramon:code           "SI-153" ;
         spatial:PP           lau:SI-21 ;
         ramon:level          5 .
 
@@ -2748,12 +2748,12 @@ lau:SI-21  rdf:type     ebg:LAURegion ;
 lau:SI-154  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dobje"@en ;
-        rdfs:label           "154 Dobje" ;
+        rdfs:label           "SI-154 Dobje" ;
         void:inDataset       lau: ;
         ramon:name           "Dobje"@sl ;
         dbo:populationTotal  981 ;
         dbo:areaTotal        17493130 ;
-        ramon:code           "154" ;
+        ramon:code           "SI-154" ;
         spatial:PP           lau:SI-52 ;
         ramon:level          5 .
 
@@ -2766,12 +2766,12 @@ lau:SI-52  rdf:type     ebg:LAURegion ;
 lau:SI-155  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dobrna"@en ;
-        rdfs:label           "155 Dobrna" ;
+        rdfs:label           "SI-155 Dobrna" ;
         void:inDataset       lau: ;
         ramon:name           "Dobrna"@sl ;
         dbo:populationTotal  2192 ;
         dbo:areaTotal        31660890 ;
-        ramon:code           "155" ;
+        ramon:code           "SI-155" ;
         spatial:PP           lau:SI-03 ;
         ramon:level          5 .
 
@@ -2784,12 +2784,12 @@ lau:SI-03  rdf:type     ebg:LAURegion ;
 lau:SI-156  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dobronak"@en ;
-        rdfs:label           "156 Dobronak" ;
+        rdfs:label           "SI-156 Dobronak" ;
         void:inDataset       lau: ;
         ramon:name           "Dobrovnik"@sl ;
         dbo:populationTotal  1277 ;
         dbo:areaTotal        31117530 ;
-        ramon:code           "156" ;
+        ramon:code           "SI-156" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -2802,12 +2802,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-157  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dolenjske Toplice"@en ;
-        rdfs:label           "157 Dolenjske Toplice" ;
+        rdfs:label           "SI-157 Dolenjske Toplice" ;
         void:inDataset       lau: ;
         ramon:name           "Dolenjske Toplice"@sl ;
         dbo:populationTotal  3407 ;
         dbo:areaTotal        110213310 ;
-        ramon:code           "157" ;
+        ramon:code           "SI-157" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -2820,12 +2820,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-158  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Grad"@en ;
-        rdfs:label           "158 Grad" ;
+        rdfs:label           "SI-158 Grad" ;
         void:inDataset       lau: ;
         ramon:name           "Grad"@sl ;
         dbo:populationTotal  2166 ;
         dbo:areaTotal        37391020 ;
-        ramon:code           "158" ;
+        ramon:code           "SI-158" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -2838,12 +2838,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-159  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hajdina"@en ;
-        rdfs:label           "159 Hajdina" ;
+        rdfs:label           "SI-159 Hajdina" ;
         void:inDataset       lau: ;
         ramon:name           "Hajdina"@sl ;
         dbo:populationTotal  3712 ;
         dbo:areaTotal        21817110 ;
-        ramon:code           "159" ;
+        ramon:code           "SI-159" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -2856,12 +2856,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-160  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hoče - Slivnica"@en ;
-        rdfs:label           "160 Hoče - Slivnica" ;
+        rdfs:label           "SI-160 Hoče - Slivnica" ;
         void:inDataset       lau: ;
         ramon:name           "Hoče - Slivnica"@sl ;
         dbo:populationTotal  11273 ;
         dbo:areaTotal        53710480 ;
-        ramon:code           "160" ;
+        ramon:code           "SI-160" ;
         spatial:PP           lau:SI-64 ;
         ramon:level          5 .
 
@@ -2874,12 +2874,12 @@ lau:SI-64  rdf:type     ebg:LAURegion ;
 lau:SI-161  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hodos"@en ;
-        rdfs:label           "161 Hodos" ;
+        rdfs:label           "SI-161 Hodos" ;
         void:inDataset       lau: ;
         ramon:name           "Hodoš"@sl ;
         dbo:populationTotal  375 ;
         dbo:areaTotal        18120220 ;
-        ramon:code           "161" ;
+        ramon:code           "SI-161" ;
         spatial:PP           lau:SI-36 ;
         ramon:level          5 .
 
@@ -2892,12 +2892,12 @@ lau:SI-36  rdf:type     ebg:LAURegion ;
 lau:SI-162  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Horjul"@en ;
-        rdfs:label           "162 Horjul" ;
+        rdfs:label           "SI-162 Horjul" ;
         void:inDataset       lau: ;
         ramon:name           "Horjul"@sl ;
         dbo:populationTotal  2970 ;
         dbo:areaTotal        32549610 ;
-        ramon:code           "162" ;
+        ramon:code           "SI-162" ;
         spatial:PP           lau:SI-24 ;
         ramon:level          5 .
 
@@ -2910,12 +2910,12 @@ lau:SI-24  rdf:type     ebg:LAURegion ;
 lau:SI-163  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jezersko"@en ;
-        rdfs:label           "163 Jezersko" ;
+        rdfs:label           "SI-163 Jezersko" ;
         void:inDataset       lau: ;
         ramon:name           "Jezersko"@sl ;
         dbo:populationTotal  624 ;
         dbo:areaTotal        68809090 ;
-        ramon:code           "163" ;
+        ramon:code           "SI-163" ;
         spatial:PP           lau:SI-18 ;
         ramon:level          5 .
 
@@ -2928,12 +2928,12 @@ lau:SI-18  rdf:type     ebg:LAURegion ;
 lau:SI-164  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Komenda"@en ;
-        rdfs:label           "164 Komenda" ;
+        rdfs:label           "SI-164 Komenda" ;
         void:inDataset       lau: ;
         ramon:name           "Komenda"@sl ;
         dbo:populationTotal  6001 ;
         dbo:areaTotal        24063590 ;
-        ramon:code           "164" ;
+        ramon:code           "SI-164" ;
         spatial:PP           lau:SI-15 ;
         ramon:level          5 .
 
@@ -2946,12 +2946,12 @@ lau:SI-15  rdf:type     ebg:LAURegion ;
 lau:SI-165  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kostel"@en ;
-        rdfs:label           "165 Kostel" ;
+        rdfs:label           "SI-165 Kostel" ;
         void:inDataset       lau: ;
         ramon:name           "Kostel"@sl ;
         dbo:populationTotal  641 ;
         dbo:areaTotal        56085820 ;
-        ramon:code           "165" ;
+        ramon:code           "SI-165" ;
         spatial:PP           lau:SI-16 ;
         ramon:level          5 .
 
@@ -2964,12 +2964,12 @@ lau:SI-16  rdf:type     ebg:LAURegion ;
 lau:SI-166  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Križevci"@en ;
-        rdfs:label           "166 Križevci" ;
+        rdfs:label           "SI-166 Križevci" ;
         void:inDataset       lau: ;
         ramon:name           "Križevci"@sl ;
         dbo:populationTotal  3618 ;
         dbo:areaTotal        46245030 ;
-        ramon:code           "166" ;
+        ramon:code           "SI-166" ;
         spatial:PP           lau:SI-29 ;
         ramon:level          5 .
 
@@ -2982,12 +2982,12 @@ lau:SI-29  rdf:type     ebg:LAURegion ;
 lau:SI-167  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lovrenc na Pohorju"@en ;
-        rdfs:label           "167 Lovrenc na Pohorju" ;
+        rdfs:label           "SI-167 Lovrenc na Pohorju" ;
         void:inDataset       lau: ;
         ramon:name           "Lovrenc na Pohorju"@sl ;
         dbo:populationTotal  3088 ;
         dbo:areaTotal        84433030 ;
-        ramon:code           "167" ;
+        ramon:code           "SI-167" ;
         spatial:PP           lau:SI-68 ;
         ramon:level          5 .
 
@@ -3000,12 +3000,12 @@ lau:SI-68  rdf:type     ebg:LAURegion ;
 lau:SI-168  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Markovci"@en ;
-        rdfs:label           "168 Markovci" ;
+        rdfs:label           "SI-168 Markovci" ;
         void:inDataset       lau: ;
         ramon:name           "Markovci"@sl ;
         dbo:populationTotal  4011 ;
         dbo:areaTotal        29838740 ;
-        ramon:code           "168" ;
+        ramon:code           "SI-168" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -3018,12 +3018,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-169  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Miklavž na Dravskem polju"@en ;
-        rdfs:label           "169 Miklavž na Dravskem polju" ;
+        rdfs:label           "SI-169 Miklavž na Dravskem polju" ;
         void:inDataset       lau: ;
         ramon:name           "Miklavž na Dravskem polju"@sl ;
         dbo:populationTotal  6525 ;
         dbo:areaTotal        12538600 ;
-        ramon:code           "169" ;
+        ramon:code           "SI-169" ;
         spatial:PP           lau:SI-64 ;
         ramon:level          5 .
 
@@ -3036,12 +3036,12 @@ lau:SI-64  rdf:type     ebg:LAURegion ;
 lau:SI-170  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mirna Peč"@en ;
-        rdfs:label           "170 Mirna Peč" ;
+        rdfs:label           "SI-170 Mirna Peč" ;
         void:inDataset       lau: ;
         ramon:name           "Mirna Peč"@sl ;
         dbo:populationTotal  2911 ;
         dbo:areaTotal        48040800 ;
-        ramon:code           "170" ;
+        ramon:code           "SI-170" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -3054,12 +3054,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-171  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Oplotnica"@en ;
-        rdfs:label           "171 Oplotnica" ;
+        rdfs:label           "SI-171 Oplotnica" ;
         void:inDataset       lau: ;
         ramon:name           "Oplotnica"@sl ;
         dbo:populationTotal  4076 ;
         dbo:areaTotal        33151390 ;
-        ramon:code           "171" ;
+        ramon:code           "SI-171" ;
         spatial:PP           lau:SI-50 ;
         ramon:level          5 .
 
@@ -3072,12 +3072,12 @@ lau:SI-50  rdf:type     ebg:LAURegion ;
 lau:SI-172  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Podlehnik"@en ;
-        rdfs:label           "172 Podlehnik" ;
+        rdfs:label           "SI-172 Podlehnik" ;
         void:inDataset       lau: ;
         ramon:name           "Podlehnik"@sl ;
         dbo:populationTotal  1818 ;
         dbo:areaTotal        45979920 ;
-        ramon:code           "172" ;
+        ramon:code           "SI-172" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -3090,12 +3090,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-173  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Polzela"@en ;
-        rdfs:label           "173 Polzela" ;
+        rdfs:label           "SI-173 Polzela" ;
         void:inDataset       lau: ;
         ramon:name           "Polzela"@sl ;
         dbo:populationTotal  6135 ;
         dbo:areaTotal        34005350 ;
-        ramon:code           "173" ;
+        ramon:code           "SI-173" ;
         spatial:PP           lau:SI-62 ;
         ramon:level          5 .
 
@@ -3108,12 +3108,12 @@ lau:SI-62  rdf:type     ebg:LAURegion ;
 lau:SI-174  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Prebold"@en ;
-        rdfs:label           "174 Prebold" ;
+        rdfs:label           "SI-174 Prebold" ;
         void:inDataset       lau: ;
         ramon:name           "Prebold"@sl ;
         dbo:populationTotal  5007 ;
         dbo:areaTotal        40632390 ;
-        ramon:code           "174" ;
+        ramon:code           "SI-174" ;
         spatial:PP           lau:SI-62 ;
         ramon:level          5 .
 
@@ -3126,12 +3126,12 @@ lau:SI-62  rdf:type     ebg:LAURegion ;
 lau:SI-175  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Prevalje"@en ;
-        rdfs:label           "175 Prevalje" ;
+        rdfs:label           "SI-175 Prevalje" ;
         void:inDataset       lau: ;
         ramon:name           "Prevalje"@sl ;
         dbo:populationTotal  6763 ;
         dbo:areaTotal        58071620 ;
-        ramon:code           "175" ;
+        ramon:code           "SI-175" ;
         spatial:PP           lau:SI-45 ;
         ramon:level          5 .
 
@@ -3144,12 +3144,12 @@ lau:SI-45  rdf:type     ebg:LAURegion ;
 lau:SI-176  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Razkrižje"@en ;
-        rdfs:label           "176 Razkrižje" ;
+        rdfs:label           "SI-176 Razkrižje" ;
         void:inDataset       lau: ;
         ramon:name           "Razkrižje"@sl ;
         dbo:populationTotal  1278 ;
         dbo:areaTotal        9821640 ;
-        ramon:code           "176" ;
+        ramon:code           "SI-176" ;
         spatial:PP           lau:SI-29 ;
         ramon:level          5 .
 
@@ -3162,12 +3162,12 @@ lau:SI-29  rdf:type     ebg:LAURegion ;
 lau:SI-177  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ribnica na Pohorju"@en ;
-        rdfs:label           "177 Ribnica na Pohorju" ;
+        rdfs:label           "SI-177 Ribnica na Pohorju" ;
         void:inDataset       lau: ;
         ramon:name           "Ribnica na Pohorju"@sl ;
         dbo:populationTotal  1180 ;
         dbo:areaTotal        59315960 ;
-        ramon:code           "177" ;
+        ramon:code           "SI-177" ;
         spatial:PP           lau:SI-43 ;
         ramon:level          5 .
 
@@ -3180,12 +3180,12 @@ lau:SI-43  rdf:type     ebg:LAURegion ;
 lau:SI-178  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Selnica ob Dravi"@en ;
-        rdfs:label           "178 Selnica ob Dravi" ;
+        rdfs:label           "SI-178 Selnica ob Dravi" ;
         void:inDataset       lau: ;
         ramon:name           "Selnica ob Dravi"@sl ;
         dbo:populationTotal  4522 ;
         dbo:areaTotal        64466460 ;
-        ramon:code           "178" ;
+        ramon:code           "SI-178" ;
         spatial:PP           lau:SI-68 ;
         ramon:level          5 .
 
@@ -3198,12 +3198,12 @@ lau:SI-68  rdf:type     ebg:LAURegion ;
 lau:SI-179  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sodražica"@en ;
-        rdfs:label           "179 Sodražica" ;
+        rdfs:label           "SI-179 Sodražica" ;
         void:inDataset       lau: ;
         ramon:name           "Sodražica"@sl ;
         dbo:populationTotal  2186 ;
         dbo:areaTotal        49476300 ;
-        ramon:code           "179" ;
+        ramon:code           "SI-179" ;
         spatial:PP           lau:SI-46 ;
         ramon:level          5 .
 
@@ -3216,12 +3216,12 @@ lau:SI-46  rdf:type     ebg:LAURegion ;
 lau:SI-180  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Solčava"@en ;
-        rdfs:label           "180 Solčava" ;
+        rdfs:label           "SI-180 Solčava" ;
         void:inDataset       lau: ;
         ramon:name           "Solčava"@sl ;
         dbo:populationTotal  514 ;
         dbo:areaTotal        102754990 ;
-        ramon:code           "180" ;
+        ramon:code           "SI-180" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -3234,12 +3234,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-181  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sveta Ana"@en ;
-        rdfs:label           "181 Sveta Ana" ;
+        rdfs:label           "SI-181 Sveta Ana" ;
         void:inDataset       lau: ;
         ramon:name           "Sveta Ana"@sl ;
         dbo:populationTotal  2319 ;
         dbo:areaTotal        37155450 ;
-        ramon:code           "181" ;
+        ramon:code           "SI-181" ;
         spatial:PP           lau:SI-21 ;
         ramon:level          5 .
 
@@ -3252,12 +3252,12 @@ lau:SI-21  rdf:type     ebg:LAURegion ;
 lau:SI-182  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sveti Andraž v Slov. goricah"@en ;
-        rdfs:label           "182 Sveti Andraž v Slov. goricah" ;
+        rdfs:label           "SI-182 Sveti Andraž v Slov. goricah" ;
         void:inDataset       lau: ;
         ramon:name           "Sveti Andraž v Slov. goricah"@sl ;
         dbo:populationTotal  1160 ;
         dbo:areaTotal        17604710 ;
-        ramon:code           "182" ;
+        ramon:code           "SI-182" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -3270,12 +3270,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-183  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šempeter - Vrtojba"@en ;
-        rdfs:label           "183 Šempeter - Vrtojba" ;
+        rdfs:label           "SI-183 Šempeter - Vrtojba" ;
         void:inDataset       lau: ;
         ramon:name           "Šempeter - Vrtojba"@sl ;
         dbo:populationTotal  6279 ;
         dbo:areaTotal        14949670 ;
-        ramon:code           "183" ;
+        ramon:code           "SI-183" ;
         spatial:PP           lau:SI-37 ;
         ramon:level          5 .
 
@@ -3288,12 +3288,12 @@ lau:SI-37  rdf:type     ebg:LAURegion ;
 lau:SI-184  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tabor"@en ;
-        rdfs:label           "184 Tabor" ;
+        rdfs:label           "SI-184 Tabor" ;
         void:inDataset       lau: ;
         ramon:name           "Tabor"@sl ;
         dbo:populationTotal  1645 ;
         dbo:areaTotal        34812410 ;
-        ramon:code           "184" ;
+        ramon:code           "SI-184" ;
         spatial:PP           lau:SI-62 ;
         ramon:level          5 .
 
@@ -3306,12 +3306,12 @@ lau:SI-62  rdf:type     ebg:LAURegion ;
 lau:SI-185  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trnovska vas"@en ;
-        rdfs:label           "185 Trnovska vas" ;
+        rdfs:label           "SI-185 Trnovska vas" ;
         void:inDataset       lau: ;
         ramon:name           "Trnovska vas"@sl ;
         dbo:populationTotal  1341 ;
         dbo:areaTotal        22890100 ;
-        ramon:code           "185" ;
+        ramon:code           "SI-185" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -3324,12 +3324,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-186  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trzin"@en ;
-        rdfs:label           "186 Trzin" ;
+        rdfs:label           "SI-186 Trzin" ;
         void:inDataset       lau: ;
         ramon:name           "Trzin"@sl ;
         dbo:populationTotal  3889 ;
         dbo:areaTotal        8616090 ;
-        ramon:code           "186" ;
+        ramon:code           "SI-186" ;
         spatial:PP           lau:SI-06 ;
         ramon:level          5 .
 
@@ -3342,12 +3342,12 @@ lau:SI-06  rdf:type     ebg:LAURegion ;
 lau:SI-187  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Velika Polana"@en ;
-        rdfs:label           "187 Velika Polana" ;
+        rdfs:label           "SI-187 Velika Polana" ;
         void:inDataset       lau: ;
         ramon:name           "Velika Polana"@sl ;
         dbo:populationTotal  1449 ;
         dbo:areaTotal        18668000 ;
-        ramon:code           "187" ;
+        ramon:code           "SI-187" ;
         spatial:PP           lau:SI-22 ;
         ramon:level          5 .
 
@@ -3360,12 +3360,12 @@ lau:SI-22  rdf:type     ebg:LAURegion ;
 lau:SI-188  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Veržej"@en ;
-        rdfs:label           "188 Veržej" ;
+        rdfs:label           "SI-188 Veržej" ;
         void:inDataset       lau: ;
         ramon:name           "Veržej"@sl ;
         dbo:populationTotal  1299 ;
         dbo:areaTotal        12020070 ;
-        ramon:code           "188" ;
+        ramon:code           "SI-188" ;
         spatial:PP           lau:SI-29 ;
         ramon:level          5 .
 
@@ -3378,12 +3378,12 @@ lau:SI-29  rdf:type     ebg:LAURegion ;
 lau:SI-189  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vransko"@en ;
-        rdfs:label           "189 Vransko" ;
+        rdfs:label           "SI-189 Vransko" ;
         void:inDataset       lau: ;
         ramon:name           "Vransko"@sl ;
         dbo:populationTotal  2599 ;
         dbo:areaTotal        53337650 ;
-        ramon:code           "189" ;
+        ramon:code           "SI-189" ;
         spatial:PP           lau:SI-62 ;
         ramon:level          5 .
 
@@ -3396,12 +3396,12 @@ lau:SI-62  rdf:type     ebg:LAURegion ;
 lau:SI-190  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Žalec"@en ;
-        rdfs:label           "190 Žalec" ;
+        rdfs:label           "SI-190 Žalec" ;
         void:inDataset       lau: ;
         ramon:name           "Žalec"@sl ;
         dbo:populationTotal  21306 ;
         dbo:areaTotal        117102640 ;
-        ramon:code           "190" ;
+        ramon:code           "SI-190" ;
         spatial:PP           lau:SI-62 ;
         ramon:level          5 .
 
@@ -3414,12 +3414,12 @@ lau:SI-62  rdf:type     ebg:LAURegion ;
 lau:SI-191  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Žetale"@en ;
-        rdfs:label           "191 Žetale" ;
+        rdfs:label           "SI-191 Žetale" ;
         void:inDataset       lau: ;
         ramon:name           "Žetale"@sl ;
         dbo:populationTotal  1301 ;
         dbo:areaTotal        38025520 ;
-        ramon:code           "191" ;
+        ramon:code           "SI-191" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -3432,12 +3432,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-192  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Žirovnica"@en ;
-        rdfs:label           "192 Žirovnica" ;
+        rdfs:label           "SI-192 Žirovnica" ;
         void:inDataset       lau: ;
         ramon:name           "Žirovnica"@sl ;
         dbo:populationTotal  4381 ;
         dbo:areaTotal        42580760 ;
-        ramon:code           "192" ;
+        ramon:code           "SI-192" ;
         spatial:PP           lau:SI-14 ;
         ramon:level          5 .
 
@@ -3450,12 +3450,12 @@ lau:SI-14  rdf:type     ebg:LAURegion ;
 lau:SI-193  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Žužemberk"@en ;
-        rdfs:label           "193 Žužemberk" ;
+        rdfs:label           "SI-193 Žužemberk" ;
         void:inDataset       lau: ;
         ramon:name           "Žužemberk"@sl ;
         dbo:populationTotal  4592 ;
         dbo:areaTotal        164338450 ;
-        ramon:code           "193" ;
+        ramon:code           "SI-193" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -3468,12 +3468,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-194  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šmartno pri Litiji"@en ;
-        rdfs:label           "194 Šmartno pri Litiji" ;
+        rdfs:label           "SI-194 Šmartno pri Litiji" ;
         void:inDataset       lau: ;
         ramon:name           "Šmartno pri Litiji"@sl ;
         dbo:populationTotal  5515 ;
         dbo:areaTotal        94886510 ;
-        ramon:code           "194" ;
+        ramon:code           "SI-194" ;
         spatial:PP           lau:SI-23 ;
         ramon:level          5 .
 
@@ -3486,12 +3486,12 @@ lau:SI-23  rdf:type     ebg:LAURegion ;
 lau:SI-195  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Apače"@en ;
-        rdfs:label           "195 Apače" ;
+        rdfs:label           "SI-195 Apače" ;
         void:inDataset       lau: ;
         ramon:name           "Apače"@sl ;
         dbo:populationTotal  3581 ;
         dbo:areaTotal        53502480 ;
-        ramon:code           "195" ;
+        ramon:code           "SI-195" ;
         spatial:PP           lau:SI-08 ;
         ramon:level          5 .
 
@@ -3504,12 +3504,12 @@ lau:SI-08  rdf:type     ebg:LAURegion ;
 lau:SI-196  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Cirkulane"@en ;
-        rdfs:label           "196 Cirkulane" ;
+        rdfs:label           "SI-196 Cirkulane" ;
         void:inDataset       lau: ;
         ramon:name           "Cirkulane"@sl ;
         dbo:populationTotal  2287 ;
         dbo:areaTotal        32067960 ;
-        ramon:code           "196" ;
+        ramon:code           "SI-196" ;
         spatial:PP           lau:SI-42 ;
         ramon:level          5 .
 
@@ -3522,12 +3522,12 @@ lau:SI-42  rdf:type     ebg:LAURegion ;
 lau:SI-197  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kostanjevica na Krki"@en ;
-        rdfs:label           "197 Kostanjevica na Krki" ;
+        rdfs:label           "SI-197 Kostanjevica na Krki" ;
         void:inDataset       lau: ;
         ramon:name           "Kostanjevica na Krki"@sl ;
         dbo:populationTotal  2419 ;
         dbo:areaTotal        58328100 ;
-        ramon:code           "197" ;
+        ramon:code           "SI-197" ;
         spatial:PP           lau:SI-19 ;
         ramon:level          5 .
 
@@ -3540,12 +3540,12 @@ lau:SI-19  rdf:type     ebg:LAURegion ;
 lau:SI-198  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Makole"@en ;
-        rdfs:label           "198 Makole" ;
+        rdfs:label           "SI-198 Makole" ;
         void:inDataset       lau: ;
         ramon:name           "Makole"@sl ;
         dbo:populationTotal  2039 ;
         dbo:areaTotal        36937430 ;
-        ramon:code           "198" ;
+        ramon:code           "SI-198" ;
         spatial:PP           lau:SI-50 ;
         ramon:level          5 .
 
@@ -3558,12 +3558,12 @@ lau:SI-50  rdf:type     ebg:LAURegion ;
 lau:SI-199  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mokronog - Trebelno"@en ;
-        rdfs:label           "199 Mokronog - Trebelno" ;
+        rdfs:label           "SI-199 Mokronog - Trebelno" ;
         void:inDataset       lau: ;
         ramon:name           "Mokronog - Trebelno"@sl ;
         dbo:populationTotal  3032 ;
         dbo:areaTotal        73390990 ;
-        ramon:code           "199" ;
+        ramon:code           "SI-199" ;
         spatial:PP           lau:SI-57 ;
         ramon:level          5 .
 
@@ -3576,12 +3576,12 @@ lau:SI-57  rdf:type     ebg:LAURegion ;
 lau:SI-200  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Poljčane"@en ;
-        rdfs:label           "200 Poljčane" ;
+        rdfs:label           "SI-200 Poljčane" ;
         void:inDataset       lau: ;
         ramon:name           "Poljčane"@sl ;
         dbo:populationTotal  4421 ;
         dbo:areaTotal        37499730 ;
-        ramon:code           "200" ;
+        ramon:code           "SI-200" ;
         spatial:PP           lau:SI-50 ;
         ramon:level          5 .
 
@@ -3594,12 +3594,12 @@ lau:SI-50  rdf:type     ebg:LAURegion ;
 lau:SI-201  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Renče - Vogrsko"@en ;
-        rdfs:label           "201 Renče - Vogrsko" ;
+        rdfs:label           "SI-201 Renče - Vogrsko" ;
         void:inDataset       lau: ;
         ramon:name           "Renče - Vogrsko"@sl ;
         dbo:populationTotal  4323 ;
         dbo:areaTotal        29468300 ;
-        ramon:code           "201" ;
+        ramon:code           "SI-201" ;
         spatial:PP           lau:SI-37 ;
         ramon:level          5 .
 
@@ -3612,12 +3612,12 @@ lau:SI-37  rdf:type     ebg:LAURegion ;
 lau:SI-202  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Središče ob Dravi"@en ;
-        rdfs:label           "202 Središče ob Dravi" ;
+        rdfs:label           "SI-202 Središče ob Dravi" ;
         void:inDataset       lau: ;
         ramon:name           "Središče ob Dravi"@sl ;
         dbo:populationTotal  2042 ;
         dbo:areaTotal        32737600 ;
-        ramon:code           "202" ;
+        ramon:code           "SI-202" ;
         spatial:PP           lau:SI-39 ;
         ramon:level          5 .
 
@@ -3630,12 +3630,12 @@ lau:SI-39  rdf:type     ebg:LAURegion ;
 lau:SI-203  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Straža"@en ;
-        rdfs:label           "203 Straža" ;
+        rdfs:label           "SI-203 Straža" ;
         void:inDataset       lau: ;
         ramon:name           "Straža"@sl ;
         dbo:populationTotal  3821 ;
         dbo:areaTotal        28530410 ;
-        ramon:code           "203" ;
+        ramon:code           "SI-203" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -3648,12 +3648,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-204  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sveta Trojica v Slov. goricah"@en ;
-        rdfs:label           "204 Sveta Trojica v Slov. goricah" ;
+        rdfs:label           "SI-204 Sveta Trojica v Slov. goricah" ;
         void:inDataset       lau: ;
         ramon:name           "Sveta Trojica v Slov. goricah"@sl ;
         dbo:populationTotal  2054 ;
         dbo:areaTotal        25911070 ;
-        ramon:code           "204" ;
+        ramon:code           "SI-204" ;
         spatial:PP           lau:SI-21 ;
         ramon:level          5 .
 
@@ -3666,12 +3666,12 @@ lau:SI-21  rdf:type     ebg:LAURegion ;
 lau:SI-205  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sveti Tomaž"@en ;
-        rdfs:label           "205 Sveti Tomaž" ;
+        rdfs:label           "SI-205 Sveti Tomaž" ;
         void:inDataset       lau: ;
         ramon:name           "Sveti Tomaž"@sl ;
         dbo:populationTotal  2051 ;
         dbo:areaTotal        38090770 ;
-        ramon:code           "205" ;
+        ramon:code           "SI-205" ;
         spatial:PP           lau:SI-39 ;
         ramon:level          5 .
 
@@ -3684,12 +3684,12 @@ lau:SI-39  rdf:type     ebg:LAURegion ;
 lau:SI-206  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šmarješke Toplice"@en ;
-        rdfs:label           "206 Šmarješke Toplice" ;
+        rdfs:label           "SI-206 Šmarješke Toplice" ;
         void:inDataset       lau: ;
         ramon:name           "Šmarješke Toplice"@sl ;
         dbo:populationTotal  3293 ;
         dbo:areaTotal        34226340 ;
-        ramon:code           "206" ;
+        ramon:code           "SI-206" ;
         spatial:PP           lau:SI-38 ;
         ramon:level          5 .
 
@@ -3702,12 +3702,12 @@ lau:SI-38  rdf:type     ebg:LAURegion ;
 lau:SI-207  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gorje"@en ;
-        rdfs:label           "207 Gorje" ;
+        rdfs:label           "SI-207 Gorje" ;
         void:inDataset       lau: ;
         ramon:name           "Gorje"@sl ;
         dbo:populationTotal  2822 ;
         dbo:areaTotal        116218360 ;
-        ramon:code           "207" ;
+        ramon:code           "SI-207" ;
         spatial:PP           lau:SI-44 ;
         ramon:level          5 .
 
@@ -3720,12 +3720,12 @@ lau:SI-44  rdf:type     ebg:LAURegion ;
 lau:SI-208  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Log - Dragomer"@en ;
-        rdfs:label           "208 Log - Dragomer" ;
+        rdfs:label           "SI-208 Log - Dragomer" ;
         void:inDataset       lau: ;
         ramon:name           "Log - Dragomer"@sl ;
         dbo:populationTotal  3606 ;
         dbo:areaTotal        11039190 ;
-        ramon:code           "208" ;
+        ramon:code           "SI-208" ;
         spatial:PP           lau:SI-60 ;
         ramon:level          5 .
 
@@ -3738,12 +3738,12 @@ lau:SI-60  rdf:type     ebg:LAURegion ;
 lau:SI-209  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rečica ob Savinji"@en ;
-        rdfs:label           "209 Rečica ob Savinji" ;
+        rdfs:label           "SI-209 Rečica ob Savinji" ;
         void:inDataset       lau: ;
         ramon:name           "Rečica ob Savinji"@sl ;
         dbo:populationTotal  2328 ;
         dbo:areaTotal        30107760 ;
-        ramon:code           "209" ;
+        ramon:code           "SI-209" ;
         spatial:PP           lau:SI-35 ;
         ramon:level          5 .
 
@@ -3756,12 +3756,12 @@ lau:SI-35  rdf:type     ebg:LAURegion ;
 lau:SI-210  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sveti Jurij v Slov. goricah"@en ;
-        rdfs:label           "210 Sveti Jurij v Slov. goricah" ;
+        rdfs:label           "SI-210 Sveti Jurij v Slov. goricah" ;
         void:inDataset       lau: ;
         ramon:name           "Sveti Jurij v Slov. goricah"@sl ;
         dbo:populationTotal  2076 ;
         dbo:areaTotal        30712080 ;
-        ramon:code           "210" ;
+        ramon:code           "SI-210" ;
         spatial:PP           lau:SI-21 ;
         ramon:level          5 .
 
@@ -3774,12 +3774,12 @@ lau:SI-21  rdf:type     ebg:LAURegion ;
 lau:SI-211  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Šentrupert"@en ;
-        rdfs:label           "211 Šentrupert" ;
+        rdfs:label           "SI-211 Šentrupert" ;
         void:inDataset       lau: ;
         ramon:name           "Šentrupert"@sl ;
         dbo:populationTotal  2923 ;
         dbo:areaTotal        49081000 ;
-        ramon:code           "211" ;
+        ramon:code           "SI-211" ;
         spatial:PP           lau:SI-57 ;
         ramon:level          5 .
 
@@ -3792,12 +3792,12 @@ lau:SI-57  rdf:type     ebg:LAURegion ;
 lau:SI-212  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mirna"@en ;
-        rdfs:label           "212 Mirna" ;
+        rdfs:label           "SI-212 Mirna" ;
         void:inDataset       lau: ;
         ramon:name           "Mirna"@sl ;
         dbo:populationTotal  2515 ;
         dbo:areaTotal        31308180 ;
-        ramon:code           "212" ;
+        ramon:code           "SI-212" ;
         spatial:PP           lau:SI-57 ;
         ramon:level          5 .
 
@@ -3810,12 +3810,12 @@ lau:SI-57  rdf:type     ebg:LAURegion ;
 lau:SI-213  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ancarano"@en ;
-        rdfs:label           "213 Ancarano" ;
+        rdfs:label           "SI-213 Ancarano" ;
         void:inDataset       lau: ;
         ramon:name           "Ankaran"@sl ;
         dbo:populationTotal  3235 ;
         dbo:areaTotal        8048700 ;
-        ramon:code           "213" ;
+        ramon:code           "SI-213" ;
         spatial:PP           lau:SI-17 ;
         ramon:level          5 .
 

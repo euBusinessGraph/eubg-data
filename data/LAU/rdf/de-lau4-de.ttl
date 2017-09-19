@@ -1,0 +1,5396 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:DE-092739444  ramon:name  "Gdefr. Geb. (Lkr Kelheim)"@en ;
+        ramon:code  "DE-092739444" ;
+        rdfs:label  "DE-092739444 Gdefr. Geb. (Lkr Kelheim)" .
+
+lau:DE-160645051  ramon:name  "Herbsleben"@en ;
+        ramon:code  "DE-160645051" ;
+        rdfs:label  "DE-160645051 Herbsleben" .
+
+lau:DE-097795724  ramon:name  "Monheim, St"@en ;
+        ramon:code  "DE-097795724" ;
+        rdfs:label  "DE-097795724 Monheim, St" .
+
+lau:DE-091815140  ramon:name  "Prittriching"@en ;
+        ramon:code  "DE-091815140" ;
+        rdfs:label  "DE-091815140 Prittriching" .
+
+lau:DE-091815141  ramon:name  "Pürgen"@en ;
+        ramon:code  "DE-091815141" ;
+        rdfs:label  "DE-091815141 Pürgen" .
+
+lau:DE-091815142  ramon:name  "Vilgertshofen"@en ;
+        ramon:code  "DE-091815142" ;
+        rdfs:label  "DE-091815142 Vilgertshofen" .
+
+lau:DE-091815143  ramon:name  "Schondorf am Ammersee"@en ;
+        ramon:code  "DE-091815143" ;
+        rdfs:label  "DE-091815143 Schondorf am Ammersee" .
+
+lau:DE-091815144  ramon:name  "Windach"@en ;
+        ramon:code  "DE-091815144" ;
+        rdfs:label  "DE-091815144 Windach" .
+
+lau:DE-095715508  ramon:name  "Wilburgstetten"@en ;
+        ramon:code  "DE-095715508" ;
+        rdfs:label  "DE-095715508 Wilburgstetten" .
+
+lau:DE-084265009  ramon:name  "Schwendi"@en ;
+        ramon:code  "DE-084265009" ;
+        rdfs:label  "DE-084265009 Schwendi" .
+
+lau:DE-010595987  ramon:name  "Schaalby"@en ;
+        ramon:code  "DE-010595987" ;
+        rdfs:label  "DE-010595987 Schaalby" .
+
+lau:DE-145215103  ramon:name  "Burkhardtsdorf"@en ;
+        ramon:code  "DE-145215103" ;
+        rdfs:label  "DE-145215103 Burkhardtsdorf" .
+
+lau:DE-096755616  ramon:name  "Iphofen, St"@en ;
+        ramon:code  "DE-096755616" ;
+        rdfs:label  "DE-096755616 Iphofen, St" .
+
+lau:DE-096755617  ramon:name  "Albertshofen"@en ;
+        ramon:code  "DE-096755617" ;
+        rdfs:label  "DE-096755617 Albertshofen" .
+
+lau:DE-096755614  ramon:name  "Wiesentheid, M"@en ;
+        ramon:code  "DE-096755614" ;
+        rdfs:label  "DE-096755614 Wiesentheid, M" .
+
+lau:DE-096755615  ramon:name  "Kleinlangheim, M"@en ;
+        ramon:code  "DE-096755615" ;
+        rdfs:label  "DE-096755615 Kleinlangheim, M" .
+
+lau:DE-096755618  ramon:name  "Marktbreit, St"@en ;
+        ramon:code  "DE-096755618" ;
+        rdfs:label  "DE-096755618 Marktbreit, St" .
+
+lau:DE-096755619  ramon:name  "Volkach, St"@en ;
+        ramon:code  "DE-096755619" ;
+        rdfs:label  "DE-096755619 Volkach, St" .
+
+lau:DE-081275008  ramon:name  "Rot am See"@en ;
+        ramon:code  "DE-081275008" ;
+        rdfs:label  "DE-081275008 Rot am See" .
+
+lau:DE-073395001  ramon:name  "Waldalgesheim"@en ;
+        ramon:code  "DE-073395001" ;
+        rdfs:label  "DE-073395001 Waldalgesheim" .
+
+lau:DE-073395002  ramon:name  "Bodenheim"@en ;
+        ramon:code  "DE-073395002" ;
+        rdfs:label  "DE-073395002 Bodenheim" .
+
+lau:DE-033589501  ramon:name  "Osterheide, gemfr. Bezirk"@en ;
+        ramon:code  "DE-033589501" ;
+        rdfs:label  "DE-033589501 Osterheide, gemfr. Bezirk" .
+
+lau:DE-010535358  ramon:name  "Groß Grönau"@en ;
+        ramon:code  "DE-010535358" ;
+        rdfs:label  "DE-010535358 Groß Grönau" .
+
+lau:DE-010605063  ramon:name  "Boostedt"@en ;
+        ramon:code  "DE-010605063" ;
+        rdfs:label  "DE-010605063 Boostedt" .
+
+lau:DE-073395007  ramon:name  "Nierstein, Stadt"@en ;
+        ramon:code  "DE-073395007" ;
+        rdfs:label  "DE-073395007 Nierstein, Stadt" .
+
+lau:DE-073395008  ramon:name  "Sprendlingen"@en ;
+        ramon:code  "DE-073395008" ;
+        rdfs:label  "DE-073395008 Sprendlingen" .
+
+lau:DE-097715705  ramon:name  "Mering, M"@en ;
+        ramon:code  "DE-097715705" ;
+        rdfs:label  "DE-097715705 Mering, M" .
+
+lau:DE-097725709  ramon:name  "Langenneufnach"@en ;
+        ramon:code  "DE-097725709" ;
+        rdfs:label  "DE-097725709 Langenneufnach" .
+
+lau:DE-160665014  ramon:name  "Schwarza"@en ;
+        ramon:code  "DE-160665014" ;
+        rdfs:label  "DE-160665014 Schwarza" .
+
+lau:DE-097715704  ramon:name  "Dasing"@en ;
+        ramon:code  "DE-097715704" ;
+        rdfs:label  "DE-097715704 Dasing" .
+
+lau:DE-071325001  ramon:name  "Altenkirchen (Westerwald), Stadt"@en ;
+        ramon:code  "DE-071325001" ;
+        rdfs:label  "DE-071325001 Altenkirchen (Westerwald), Stadt" .
+
+lau:DE-160655002  ramon:name  "Greußen, Stadt"@en ;
+        ramon:code  "DE-160655002" ;
+        rdfs:label  "DE-160655002 Greußen, Stadt" .
+
+lau:DE-071415001  ramon:name  "Bad Ems, Stadt"@en ;
+        ramon:code  "DE-071415001" ;
+        rdfs:label  "DE-071415001 Bad Ems, Stadt" .
+
+lau:DE-010615179  ramon:name  "Wewelsfleth"@en ;
+        ramon:code  "DE-010615179" ;
+        rdfs:label  "DE-010615179 Wewelsfleth" .
+
+lau:DE-010595919  ramon:name  "Husby"@en ;
+        ramon:code  "DE-010595919" ;
+        rdfs:label  "DE-010595919 Husby" .
+
+lau:DE-071325004  ramon:name  "Horhausen (Westerwald)"@en ;
+        ramon:code  "DE-071325004" ;
+        rdfs:label  "DE-071325004 Horhausen (Westerwald)" .
+
+lau:DE-071415005  ramon:name  "Katzenelnbogen, Stadt"@en ;
+        ramon:code  "DE-071415005" ;
+        rdfs:label  "DE-071415005 Katzenelnbogen, Stadt" .
+
+lau:DE-071415004  ramon:name  "Hahnstätten"@en ;
+        ramon:code  "DE-071415004" ;
+        rdfs:label  "DE-071415004 Hahnstätten" .
+
+lau:DE-010595915  ramon:name  "Fahrdorf"@en ;
+        ramon:code  "DE-010595915" ;
+        rdfs:label  "DE-010595915 Fahrdorf" .
+
+lau:DE-071325008  ramon:name  "Wissen, Stadt"@en ;
+        ramon:code  "DE-071325008" ;
+        rdfs:label  "DE-071325008 Wissen, Stadt" .
+
+lau:DE-071415009  ramon:name  "Braubach, Stadt"@en ;
+        ramon:code  "DE-071415009" ;
+        rdfs:label  "DE-071415009 Braubach, Stadt" .
+
+lau:DE-083375004  ramon:name  "Ühlingen-Birkendorf"@en ;
+        ramon:code  "DE-083375004" ;
+        rdfs:label  "DE-083375004 Ühlingen-Birkendorf" .
+
+lau:DE-010595912  ramon:name  "Wanderup"@en ;
+        ramon:code  "DE-010595912" ;
+        rdfs:label  "DE-010595912 Wanderup" .
+
+lau:DE-160645053  ramon:name  "Vogtei"@en ;
+        ramon:code  "DE-160645053" ;
+        rdfs:label  "DE-160645053 Vogtei" .
+
+lau:DE-010625270  ramon:name  "Trittau"@en ;
+        ramon:code  "DE-010625270" ;
+        rdfs:label  "DE-010625270 Trittau" .
+
+lau:DE-097795722  ramon:name  "Deiningen"@en ;
+        ramon:code  "DE-097795722" ;
+        rdfs:label  "DE-097795722 Deiningen" .
+
+lau:DE-145245114  ramon:name  "Limbach-Oberfrohna, Stadt"@en ;
+        ramon:code  "DE-145245114" ;
+        rdfs:label  "DE-145245114 Limbach-Oberfrohna, Stadt" .
+
+lau:DE-160655006  ramon:name  "Voigtstedt"@en ;
+        ramon:code  "DE-160655006" ;
+        rdfs:label  "DE-160655006 Voigtstedt" .
+
+lau:DE-094785446  ramon:name  "Hochstadt a.Main"@en ;
+        ramon:code  "DE-094785446" ;
+        rdfs:label  "DE-094785446 Hochstadt a.Main" .
+
+lau:DE-146285204  ramon:name  "Bad Schandau, Stadt"@en ;
+        ramon:code  "DE-146285204" ;
+        rdfs:label  "DE-146285204 Bad Schandau, Stadt" .
+
+lau:DE-094715445  ramon:name  "Lisberg"@en ;
+        ramon:code  "DE-094715445" ;
+        rdfs:label  "DE-094715445 Lisberg" .
+
+lau:DE-032575401  ramon:name  "Bad Eilsen"@en ;
+        ramon:code  "DE-032575401" ;
+        rdfs:label  "DE-032575401 Bad Eilsen" .
+
+lau:DE-032575403  ramon:name  "Bad Nenndorf, Stadt"@en ;
+        ramon:code  "DE-032575403" ;
+        rdfs:label  "DE-032575403 Bad Nenndorf, Stadt" .
+
+lau:DE-032575402  ramon:name  "Lindhorst"@en ;
+        ramon:code  "DE-032575402" ;
+        rdfs:label  "DE-032575402 Lindhorst" .
+
+lau:DE-032575405  ramon:name  "Nienstädt"@en ;
+        ramon:code  "DE-032575405" ;
+        rdfs:label  "DE-032575405 Nienstädt" .
+
+lau:DE-032575404  ramon:name  "Niedernwöhren"@en ;
+        ramon:code  "DE-032575404" ;
+        rdfs:label  "DE-032575404 Niedernwöhren" .
+
+lau:DE-032575407  ramon:name  "Hagenburg, Flecken"@en ;
+        ramon:code  "DE-032575407" ;
+        rdfs:label  "DE-032575407 Hagenburg, Flecken" .
+
+lau:DE-032575406  ramon:name  "Rodenberg, Stadt"@en ;
+        ramon:code  "DE-032575406" ;
+        rdfs:label  "DE-032575406 Rodenberg, Stadt" .
+
+lau:DE-091795131  ramon:name  "Mammendorf"@en ;
+        ramon:code  "DE-091795131" ;
+        rdfs:label  "DE-091795131 Mammendorf" .
+
+lau:DE-091795132  ramon:name  "Grafrath"@en ;
+        ramon:code  "DE-091795132" ;
+        rdfs:label  "DE-091795132 Grafrath" .
+
+lau:DE-081355003  ramon:name  "Sontheim an der Brenz"@en ;
+        ramon:code  "DE-081355003" ;
+        rdfs:label  "DE-081355003 Sontheim an der Brenz" .
+
+lau:DE-081355002  ramon:name  "Heidenheim an der Brenz, Stadt"@en ;
+        ramon:code  "DE-081355002" ;
+        rdfs:label  "DE-081355002 Heidenheim an der Brenz, Stadt" .
+
+lau:DE-081355001  ramon:name  "Giengen an der Brenz, Stadt"@en ;
+        ramon:code  "DE-081355001" ;
+        rdfs:label  "DE-081355001 Giengen an der Brenz, Stadt" .
+
+lau:DE-091879444  ramon:name  "Gdefr. Geb. (Lkr Rosenheim)"@en ;
+        ramon:code  "DE-091879444" ;
+        rdfs:label  "DE-091879444 Gdefr. Geb. (Lkr Rosenheim)" .
+
+lau:DE-095725510  ramon:name  "Lonnerstadt, M"@en ;
+        ramon:code  "DE-095725510" ;
+        rdfs:label  "DE-095725510 Lonnerstadt, M" .
+
+lau:DE-097795721  ramon:name  "Oettingen i.Bay., St"@en ;
+        ramon:code  "DE-097795721" ;
+        rdfs:label  "DE-097795721 Oettingen i.Bay., St" .
+
+lau:DE-130755553  ramon:name  "Ducherow"@en ;
+        ramon:code  "DE-130755553" ;
+        rdfs:label  "DE-130755553 Ducherow" .
+
+lau:DE-120635302  ramon:name  "Friesack, Stadt"@en ;
+        ramon:code  "DE-120635302" ;
+        rdfs:label  "DE-120635302 Friesack, Stadt" .
+
+lau:DE-084155001  ramon:name  "Engstingen"@en ;
+        ramon:code  "DE-084155001" ;
+        rdfs:label  "DE-084155001 Engstingen" .
+
+lau:DE-130755554  ramon:name  "Jarmen, Stadt"@en ;
+        ramon:code  "DE-130755554" ;
+        rdfs:label  "DE-130755554 Jarmen, Stadt" .
+
+lau:DE-120635309  ramon:name  "Rhinow, Stadt"@en ;
+        ramon:code  "DE-120635309" ;
+        rdfs:label  "DE-120635309 Rhinow, Stadt" .
+
+lau:DE-097785758  ramon:name  "Babenhausen, M"@en ;
+        ramon:code  "DE-097785758" ;
+        rdfs:label  "DE-097785758 Babenhausen, M" .
+
+lau:DE-120645410  ramon:name  "Neuhardenberg"@en ;
+        ramon:code  "DE-120645410" ;
+        rdfs:label  "DE-120645410 Neuhardenberg" .
+
+lau:DE-084155003  ramon:name  "Münsingen, Stadt"@en ;
+        ramon:code  "DE-084155003" ;
+        rdfs:label  "DE-084155003 Münsingen, Stadt" .
+
+lau:DE-120625211  ramon:name  "Gröden"@en ;
+        ramon:code  "DE-120625211" ;
+        rdfs:label  "DE-120625211 Gröden" .
+
+lau:DE-120715107  ramon:name  "Peitz, Stadt"@en ;
+        ramon:code  "DE-120715107" ;
+        rdfs:label  "DE-120715107 Peitz, Stadt" .
+
+lau:DE-094755431  ramon:name  "Schauenstein, St"@en ;
+        ramon:code  "DE-094755431" ;
+        rdfs:label  "DE-094755431 Schauenstein, St" .
+
+lau:DE-120685807  ramon:name  "Temnitztal"@en ;
+        ramon:code  "DE-120685807" ;
+        rdfs:label  "DE-120685807 Temnitztal" .
+
+lau:DE-120685805  ramon:name  "Neustadt (Dosse), Stadt"@en ;
+        ramon:code  "DE-120685805" ;
+        rdfs:label  "DE-120685805 Neustadt (Dosse), Stadt" .
+
+lau:DE-120685804  ramon:name  "Lindow (Mark), Stadt"@en ;
+        ramon:code  "DE-120685804" ;
+        rdfs:label  "DE-120685804 Lindow (Mark), Stadt" .
+
+lau:DE-150815051  ramon:name  "Beetzendorf"@en ;
+        ramon:code  "DE-150815051" ;
+        rdfs:label  "DE-150815051 Beetzendorf" .
+
+lau:DE-094755432  ramon:name  "Sparneck, M"@en ;
+        ramon:code  "DE-094755432" ;
+        rdfs:label  "DE-094755432 Sparneck, M" .
+
+lau:DE-010545417  ramon:name  "Sankt Peter-Ording"@en ;
+        ramon:code  "DE-010545417" ;
+        rdfs:label  "DE-010545417 Sankt Peter-Ording" .
+
+lau:DE-083165004  ramon:name  "Herbolzheim, Stadt"@en ;
+        ramon:code  "DE-083165004" ;
+        rdfs:label  "DE-083165004 Herbolzheim, Stadt" .
+
+lau:DE-083165005  ramon:name  "Endingen am Kaiserstuhl, Stadt"@en ;
+        ramon:code  "DE-083165005" ;
+        rdfs:label  "DE-083165005 Endingen am Kaiserstuhl, Stadt" .
+
+lau:DE-083165006  ramon:name  "Waldkirch, Stadt"@en ;
+        ramon:code  "DE-083165006" ;
+        rdfs:label  "DE-083165006 Waldkirch, Stadt" .
+
+lau:DE-160715012  ramon:name  "Nohra"@en ;
+        ramon:code  "DE-160715012" ;
+        rdfs:label  "DE-160715012 Nohra" .
+
+lau:DE-083165001  ramon:name  "Denzlingen"@en ;
+        ramon:code  "DE-083165001" ;
+        rdfs:label  "DE-083165001 Denzlingen" .
+
+lau:DE-083165002  ramon:name  "Elzach, Stadt"@en ;
+        ramon:code  "DE-083165002" ;
+        rdfs:label  "DE-083165002 Elzach, Stadt" .
+
+lau:DE-083165003  ramon:name  "Emmendingen, Stadt"@en ;
+        ramon:code  "DE-083165003" ;
+        rdfs:label  "DE-083165003 Emmendingen, Stadt" .
+
+lau:DE-010585864  ramon:name  "Nortorf, Stadt"@en ;
+        ramon:code  "DE-010585864" ;
+        rdfs:label  "DE-010585864 Nortorf, Stadt" .
+
+lau:DE-160755050  ramon:name  "Neustadt an der Orla, Stadt"@en ;
+        ramon:code  "DE-160755050" ;
+        rdfs:label  "DE-160755050 Neustadt an der Orla, Stadt" .
+
+lau:DE-160755051  ramon:name  "Remptendorf"@en ;
+        ramon:code  "DE-160755051" ;
+        rdfs:label  "DE-160755051 Remptendorf" .
+
+lau:DE-097809444  ramon:name  "Gdefr. Geb. (Lkr Oberallgäu)"@en ;
+        ramon:code  "DE-097809444" ;
+        rdfs:label  "DE-097809444 Gdefr. Geb. (Lkr Oberallgäu)" .
+
+lau:DE-145235125  ramon:name  "Reichenbach im Vogtland, Stadt"@en ;
+        ramon:code  "DE-145235125" ;
+        rdfs:label  "DE-145235125 Reichenbach im Vogtland, Stadt" .
+
+lau:DE-146275238  ramon:name  "Lampertswalde"@en ;
+        ramon:code  "DE-146275238" ;
+        rdfs:label  "DE-146275238 Lampertswalde" .
+
+lau:DE-145235120  ramon:name  "Netzschkau, Stadt"@en ;
+        ramon:code  "DE-145235120" ;
+        rdfs:label  "DE-145235120 Netzschkau, Stadt" .
+
+lau:DE-091739444  ramon:name  "Gdefr. Geb. (Lkr Bad Tölz-Wolfratshausen)"@en ;
+        ramon:code  "DE-091739444" ;
+        rdfs:label  "DE-091739444 Gdefr. Geb. (Lkr Bad Tölz-Wolfratshausen)" .
+
+lau:DE-145235122  ramon:name  "Oelsnitz/Vogtl., Stadt"@en ;
+        ramon:code  "DE-145235122" ;
+        rdfs:label  "DE-145235122 Oelsnitz/Vogtl., Stadt" .
+
+lau:DE-145235107  ramon:name  "Falkenstein/Vogtl., Stadt"@en ;
+        ramon:code  "DE-145235107" ;
+        rdfs:label  "DE-145235107 Falkenstein/Vogtl., Stadt" .
+
+lau:DE-082365003  ramon:name  "Maulbronn, Stadt"@en ;
+        ramon:code  "DE-082365003" ;
+        rdfs:label  "DE-082365003 Maulbronn, Stadt" .
+
+lau:DE-010585895  ramon:name  "Hohenwestedt"@en ;
+        ramon:code  "DE-010585895" ;
+        rdfs:label  "DE-010585895 Hohenwestedt" .
+
+lau:DE-082365001  ramon:name  "Wiernsheim"@en ;
+        ramon:code  "DE-082365001" ;
+        rdfs:label  "DE-082365001 Wiernsheim" .
+
+lau:DE-082365007  ramon:name  "Neuhausen"@en ;
+        ramon:code  "DE-082365007" ;
+        rdfs:label  "DE-082365007 Neuhausen" .
+
+lau:DE-082365006  ramon:name  "Neulingen"@en ;
+        ramon:code  "DE-082365006" ;
+        rdfs:label  "DE-082365006 Neulingen" .
+
+lau:DE-082365005  ramon:name  "Neuenbürg, Stadt"@en ;
+        ramon:code  "DE-082365005" ;
+        rdfs:label  "DE-082365005 Neuenbürg, Stadt" .
+
+lau:DE-082365004  ramon:name  "Mühlacker, Stadt"@en ;
+        ramon:code  "DE-082365004" ;
+        rdfs:label  "DE-082365004 Mühlacker, Stadt" .
+
+lau:DE-010565642  ramon:name  "Appen"@en ;
+        ramon:code  "DE-010565642" ;
+        rdfs:label  "DE-010565642 Appen" .
+
+lau:DE-160715013  ramon:name  "Berlstedt"@en ;
+        ramon:code  "DE-160715013" ;
+        rdfs:label  "DE-160715013 Berlstedt" .
+
+lau:DE-083275001  ramon:name  "Mühlheim an der Donau, Stadt"@en ;
+        ramon:code  "DE-083275001" ;
+        rdfs:label  "DE-083275001 Mühlheim an der Donau, Stadt" .
+
+lau:DE-146285230  ramon:name  "Klingenberg"@en ;
+        ramon:code  "DE-146285230" ;
+        rdfs:label  "DE-146285230 Klingenberg" .
+
+lau:DE-160655052  ramon:name  "Ebeleben, Stadt"@en ;
+        ramon:code  "DE-160655052" ;
+        rdfs:label  "DE-160655052 Ebeleben, Stadt" .
+
+lau:DE-160695052  ramon:name  "Schleusingen, Stadt"@en ;
+        ramon:code  "DE-160695052" ;
+        rdfs:label  "DE-160695052 Schleusingen, Stadt" .
+
+lau:DE-160625006  ramon:name  "Harztor"@en ;
+        ramon:code  "DE-160625006" ;
+        rdfs:label  "DE-160625006 Harztor" .
+
+lau:DE-146265203  ramon:name  "Bad Muskau, Stadt"@en ;
+        ramon:code  "DE-146265203" ;
+        rdfs:label  "DE-146265203 Bad Muskau, Stadt" .
+
+lau:DE-160745050  ramon:name  "Stadtroda, Stadt"@en ;
+        ramon:code  "DE-160745050" ;
+        rdfs:label  "DE-160745050 Stadtroda, Stadt" .
+
+lau:DE-091775125  ramon:name  "Hohenpolding"@en ;
+        ramon:code  "DE-091775125" ;
+        rdfs:label  "DE-091775125 Hohenpolding" .
+
+lau:DE-083155007  ramon:name  "Merzhausen"@en ;
+        ramon:code  "DE-083155007" ;
+        rdfs:label  "DE-083155007 Merzhausen" .
+
+lau:DE-083155006  ramon:name  "Heitersheim, Stadt"@en ;
+        ramon:code  "DE-083155006" ;
+        rdfs:label  "DE-083155006 Heitersheim, Stadt" .
+
+lau:DE-083155005  ramon:name  "Gundelfingen"@en ;
+        ramon:code  "DE-083155005" ;
+        rdfs:label  "DE-083155005 Gundelfingen" .
+
+lau:DE-083155004  ramon:name  "Ehrenkirchen"@en ;
+        ramon:code  "DE-083155004" ;
+        rdfs:label  "DE-083155004 Ehrenkirchen" .
+
+lau:DE-083155003  ramon:name  "Kirchzarten"@en ;
+        ramon:code  "DE-083155003" ;
+        rdfs:label  "DE-083155003 Kirchzarten" .
+
+lau:DE-083155002  ramon:name  "Breisach am Rhein, Stadt"@en ;
+        ramon:code  "DE-083155002" ;
+        rdfs:label  "DE-083155002 Breisach am Rhein, Stadt" .
+
+lau:DE-083155001  ramon:name  "Bad Krozingen, Stadt"@en ;
+        ramon:code  "DE-083155001" ;
+        rdfs:label  "DE-083155001 Bad Krozingen, Stadt" .
+
+lau:DE-120605011  ramon:name  "Chorin"@en ;
+        ramon:code  "DE-120605011" ;
+        rdfs:label  "DE-120605011 Chorin" .
+
+lau:DE-083155009  ramon:name  "Bötzingen"@en ;
+        ramon:code  "DE-083155009" ;
+        rdfs:label  "DE-083155009 Bötzingen" .
+
+lau:DE-083155008  ramon:name  "Hinterzarten"@en ;
+        ramon:code  "DE-083155008" ;
+        rdfs:label  "DE-083155008 Hinterzarten" .
+
+lau:DE-073405008  ramon:name  "Contwig"@en ;
+        ramon:code  "DE-073405008" ;
+        rdfs:label  "DE-073405008 Contwig" .
+
+lau:DE-073405009  ramon:name  "Thaleischweiler-Fröschen"@en ;
+        ramon:code  "DE-073405009" ;
+        rdfs:label  "DE-073405009 Thaleischweiler-Fröschen" .
+
+lau:DE-150885051  ramon:name  "Obhausen"@en ;
+        ramon:code  "DE-150885051" ;
+        rdfs:label  "DE-150885051 Obhausen" .
+
+lau:DE-073395003  ramon:name  "Gau-Algesheim, Stadt"@en ;
+        ramon:code  "DE-073395003" ;
+        rdfs:label  "DE-073395003 Gau-Algesheim, Stadt" .
+
+lau:DE-094775436  ramon:name  "Marktleugast, M"@en ;
+        ramon:code  "DE-094775436" ;
+        rdfs:label  "DE-094775436 Marktleugast, M" .
+
+lau:DE-033605407  ramon:name  "Bad Bevensen, Stadt"@en ;
+        ramon:code  "DE-033605407" ;
+        rdfs:label  "DE-033605407 Bad Bevensen, Stadt" .
+
+lau:DE-033605404  ramon:name  "Suhlendorf"@en ;
+        ramon:code  "DE-033605404" ;
+        rdfs:label  "DE-033605404 Suhlendorf" .
+
+lau:DE-033605405  ramon:name  "Suderburg"@en ;
+        ramon:code  "DE-033605405" ;
+        rdfs:label  "DE-033605405 Suderburg" .
+
+lau:DE-073405001  ramon:name  "Dahn, Stadt"@en ;
+        ramon:code  "DE-073405001" ;
+        rdfs:label  "DE-073405001 Dahn, Stadt" .
+
+lau:DE-033605408  ramon:name  "Wrestedt"@en ;
+        ramon:code  "DE-033605408" ;
+        rdfs:label  "DE-033605408 Wrestedt" .
+
+lau:DE-073405003  ramon:name  "Lemberg"@en ;
+        ramon:code  "DE-073405003" ;
+        rdfs:label  "DE-073405003 Lemberg" .
+
+lau:DE-073405004  ramon:name  "Rodalben, Stadt"@en ;
+        ramon:code  "DE-073405004" ;
+        rdfs:label  "DE-073405004 Rodalben, Stadt" .
+
+lau:DE-092775241  ramon:name  "Bad Birnbach, M"@en ;
+        ramon:code  "DE-092775241" ;
+        rdfs:label  "DE-092775241 Bad Birnbach, M" .
+
+lau:DE-073405006  ramon:name  "Waldfischbach-Burgalben"@en ;
+        ramon:code  "DE-073405006" ;
+        rdfs:label  "DE-073405006 Waldfischbach-Burgalben" .
+
+lau:DE-073395005  ramon:name  "Heidesheim am Rhein"@en ;
+        ramon:code  "DE-073395005" ;
+        rdfs:label  "DE-073395005 Heidesheim am Rhein" .
+
+lau:DE-096735637  ramon:name  "Fladungen, St"@en ;
+        ramon:code  "DE-096735637" ;
+        rdfs:label  "DE-096735637 Fladungen, St" .
+
+lau:DE-096735634  ramon:name  "Sulzfeld"@en ;
+        ramon:code  "DE-096735634" ;
+        rdfs:label  "DE-096735634 Sulzfeld" .
+
+lau:DE-096735635  ramon:name  "Hohenroth"@en ;
+        ramon:code  "DE-096735635" ;
+        rdfs:label  "DE-096735635 Hohenroth" .
+
+lau:DE-094775438  ramon:name  "Kasendorf, M"@en ;
+        ramon:code  "DE-094775438" ;
+        rdfs:label  "DE-094775438 Kasendorf, M" .
+
+lau:DE-073395006  ramon:name  "Nieder-Olm, Stadt"@en ;
+        ramon:code  "DE-073395006" ;
+        rdfs:label  "DE-073395006 Nieder-Olm, Stadt" .
+
+lau:DE-094765433  ramon:name  "Teuschnitz, St"@en ;
+        ramon:code  "DE-094765433" ;
+        rdfs:label  "DE-094765433 Teuschnitz, St" .
+
+lau:DE-160775050  ramon:name  "Gößnitz, Stadt"@en ;
+        ramon:code  "DE-160775050" ;
+        rdfs:label  "DE-160775050 Gößnitz, Stadt" .
+
+lau:DE-092729444  ramon:name  "Gdefr. Geb. (Lkr Freyung-Grafenau)"@en ;
+        ramon:code  "DE-092729444" ;
+        rdfs:label  "DE-092729444 Gdefr. Geb. (Lkr Freyung-Grafenau)" .
+
+lau:DE-094759444  ramon:name  "Gdefr. Geb. (Lkr Hof)"@en ;
+        ramon:code  "DE-094759444" ;
+        rdfs:label  "DE-094759444 Gdefr. Geb. (Lkr Hof)" .
+
+lau:DE-096735638  ramon:name  "Hollstadt"@en ;
+        ramon:code  "DE-096735638" ;
+        rdfs:label  "DE-096735638 Hollstadt" .
+
+lau:DE-096735639  ramon:name  "Ostheim v.d.Rhön, St"@en ;
+        ramon:code  "DE-096735639" ;
+        rdfs:label  "DE-096735639 Ostheim v.d.Rhön, St" .
+
+lau:DE-032559502  ramon:name  "Eimen, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559502" ;
+        rdfs:label  "DE-032559502 Eimen, gemfr. Gebiet" .
+
+lau:DE-032559503  ramon:name  "Eschershausen, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559503" ;
+        rdfs:label  "DE-032559503 Eschershausen, gemfr. Gebiet" .
+
+lau:DE-032559501  ramon:name  "Boffzen, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559501" ;
+        rdfs:label  "DE-032559501 Boffzen, gemfr. Gebiet" .
+
+lau:DE-032559506  ramon:name  "Merxhausen, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559506" ;
+        rdfs:label  "DE-032559506 Merxhausen, gemfr. Gebiet" .
+
+lau:DE-032559504  ramon:name  "Grünenplan, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559504" ;
+        rdfs:label  "DE-032559504 Grünenplan, gemfr. Gebiet" .
+
+lau:DE-032559505  ramon:name  "Holzminden, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559505" ;
+        rdfs:label  "DE-032559505 Holzminden, gemfr. Gebiet" .
+
+lau:DE-145215405  ramon:name  "Grünhainichen"@en ;
+        ramon:code  "DE-145215405" ;
+        rdfs:label  "DE-145215405 Grünhainichen" .
+
+lau:DE-092735218  ramon:name  "Siegenburg, M"@en ;
+        ramon:code  "DE-092735218" ;
+        rdfs:label  "DE-092735218 Siegenburg, M" .
+
+lau:DE-032559508  ramon:name  "Wenzen, gemfr. Gebiet"@en ;
+        ramon:code  "DE-032559508" ;
+        rdfs:label  "DE-032559508 Wenzen, gemfr. Gebiet" .
+
+lau:DE-096795655  ramon:name  "Hettstadt"@en ;
+        ramon:code  "DE-096795655" ;
+        rdfs:label  "DE-096795655 Hettstadt" .
+
+lau:DE-031519501  ramon:name  "Giebel, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031519501" ;
+        rdfs:label  "DE-031519501 Giebel, gemfr. Gebiet" .
+
+lau:DE-092735219  ramon:name  "Elsendorf"@en ;
+        ramon:code  "DE-092735219" ;
+        rdfs:label  "DE-092735219 Elsendorf" .
+
+lau:DE-091905177  ramon:name  "Huglfing"@en ;
+        ramon:code  "DE-091905177" ;
+        rdfs:label  "DE-091905177 Huglfing" .
+
+lau:DE-091905176  ramon:name  "Obersöchering"@en ;
+        ramon:code  "DE-091905176" ;
+        rdfs:label  "DE-091905176 Obersöchering" .
+
+lau:DE-010595940  ramon:name  "Tarp"@en ;
+        ramon:code  "DE-010595940" ;
+        rdfs:label  "DE-010595940 Tarp" .
+
+lau:DE-091905174  ramon:name  "Altenstadt"@en ;
+        ramon:code  "DE-091905174" ;
+        rdfs:label  "DE-091905174 Altenstadt" .
+
+lau:DE-130765654  ramon:name  "Dömitz, Stadt"@en ;
+        ramon:code  "DE-130765654" ;
+        rdfs:label  "DE-130765654 Dömitz, Stadt" .
+
+lau:DE-130765655  ramon:name  "Lübz, Stadt"@en ;
+        ramon:code  "DE-130765655" ;
+        rdfs:label  "DE-130765655 Lübz, Stadt" .
+
+lau:DE-096725608  ramon:name  "Euerdorf, M"@en ;
+        ramon:code  "DE-096725608" ;
+        rdfs:label  "DE-096725608 Euerdorf, M" .
+
+lau:DE-082265009  ramon:name  "Waibstadt, Stadt"@en ;
+        ramon:code  "DE-082265009" ;
+        rdfs:label  "DE-082265009 Waibstadt, Stadt" .
+
+lau:DE-096725606  ramon:name  "Oberleichtersbach"@en ;
+        ramon:code  "DE-096725606" ;
+        rdfs:label  "DE-096725606 Oberleichtersbach" .
+
+lau:DE-096725607  ramon:name  "Elfershausen, M"@en ;
+        ramon:code  "DE-096725607" ;
+        rdfs:label  "DE-096725607 Elfershausen, M" .
+
+lau:DE-150875051  ramon:name  "Kelbra (Kyffhäuser), Stadt"@en ;
+        ramon:code  "DE-150875051" ;
+        rdfs:label  "DE-150875051 Kelbra (Kyffhäuser), Stadt" .
+
+lau:DE-010595949  ramon:name  "Mittelangeln"@en ;
+        ramon:code  "DE-010595949" ;
+        rdfs:label  "DE-010595949 Mittelangeln" .
+
+lau:DE-145215140  ramon:name  "Zwönitz, Stadt"@en ;
+        ramon:code  "DE-145215140" ;
+        rdfs:label  "DE-145215140 Zwönitz, Stadt" .
+
+lau:DE-097715771  ramon:name  "Pöttmes, M"@en ;
+        ramon:code  "DE-097715771" ;
+        rdfs:label  "DE-097715771 Pöttmes, M" .
+
+lau:DE-091905179  ramon:name  "Seeshaupt"@en ;
+        ramon:code  "DE-091905179" ;
+        rdfs:label  "DE-091905179 Seeshaupt" .
+
+lau:DE-091905178  ramon:name  "Böbing"@en ;
+        ramon:code  "DE-091905178" ;
+        rdfs:label  "DE-091905178 Böbing" .
+
+lau:DE-093715301  ramon:name  "Hahnbach, M"@en ;
+        ramon:code  "DE-093715301" ;
+        rdfs:label  "DE-093715301 Hahnbach, M" .
+
+lau:DE-120695918  ramon:name  "Ziesar, Stadt"@en ;
+        ramon:code  "DE-120695918" ;
+        rdfs:label  "DE-120695918 Ziesar, Stadt" .
+
+lau:DE-091775126  ramon:name  "Wartenberg, M"@en ;
+        ramon:code  "DE-091775126" ;
+        rdfs:label  "DE-091775126 Wartenberg, M" .
+
+lau:DE-092735215  ramon:name  "Ihrlerstein"@en ;
+        ramon:code  "DE-092735215" ;
+        rdfs:label  "DE-092735215 Ihrlerstein" .
+
+lau:DE-095775534  ramon:name  "Ellingen, St"@en ;
+        ramon:code  "DE-095775534" ;
+        rdfs:label  "DE-095775534 Ellingen, St" .
+
+lau:DE-092735216  ramon:name  "Saal a.d.Donau"@en ;
+        ramon:code  "DE-092735216" ;
+        rdfs:label  "DE-092735216 Saal a.d.Donau" .
+
+lau:DE-146285240  ramon:name  "Tharandt, Stadt"@en ;
+        ramon:code  "DE-146285240" ;
+        rdfs:label  "DE-146285240 Tharandt, Stadt" .
+
+lau:DE-096769444  ramon:name  "Gdefr. Geb. (Lkr Miltenberg)"@en ;
+        ramon:code  "DE-096769444" ;
+        rdfs:label  "DE-096769444 Gdefr. Geb. (Lkr Miltenberg)" .
+
+lau:DE-071415003  ramon:name  "Diez, Stadt"@en ;
+        ramon:code  "DE-071415003" ;
+        rdfs:label  "DE-071415003 Diez, Stadt" .
+
+lau:DE-160745005  ramon:name  "Schkölen, Stadt"@en ;
+        ramon:code  "DE-160745005" ;
+        rdfs:label  "DE-160745005 Schkölen, Stadt" .
+
+lau:DE-092735217  ramon:name  "Langquaid, M"@en ;
+        ramon:code  "DE-092735217" ;
+        rdfs:label  "DE-092735217 Langquaid, M" .
+
+lau:DE-160665050  ramon:name  "Meiningen, Stadt"@en ;
+        ramon:code  "DE-160665050" ;
+        rdfs:label  "DE-160665050 Meiningen, Stadt" .
+
+lau:DE-160665051  ramon:name  "Breitungen/Werra"@en ;
+        ramon:code  "DE-160665051" ;
+        rdfs:label  "DE-160665051 Breitungen/Werra" .
+
+lau:DE-150875052  ramon:name  "Helbra"@en ;
+        ramon:code  "DE-150875052" ;
+        rdfs:label  "DE-150875052 Helbra" .
+
+lau:DE-147305601  ramon:name  "Jesewitz"@en ;
+        ramon:code  "DE-147305601" ;
+        rdfs:label  "DE-147305601 Jesewitz" .
+
+lau:DE-071325003  ramon:name  "Herdorf, Stadt"@en ;
+        ramon:code  "DE-071325003" ;
+        rdfs:label  "DE-071325003 Herdorf, Stadt" .
+
+lau:DE-083355002  ramon:name  "Gottmadingen"@en ;
+        ramon:code  "DE-083355002" ;
+        rdfs:label  "DE-083355002 Gottmadingen" .
+
+lau:DE-010615134  ramon:name  "Horst (Holstein)"@en ;
+        ramon:code  "DE-010615134" ;
+        rdfs:label  "DE-010615134 Horst (Holstein)" .
+
+lau:DE-071325002  ramon:name  "Betzdorf, Stadt"@en ;
+        ramon:code  "DE-071325002" ;
+        rdfs:label  "DE-071325002 Betzdorf, Stadt" .
+
+lau:DE-145235131  ramon:name  "Schöneck/Vogtl., Stadt"@en ;
+        ramon:code  "DE-145235131" ;
+        rdfs:label  "DE-145235131 Schöneck/Vogtl., Stadt" .
+
+lau:DE-145225129  ramon:name  "Sayda, Stadt"@en ;
+        ramon:code  "DE-145225129" ;
+        rdfs:label  "DE-145225129 Sayda, Stadt" .
+
+lau:DE-034565402  ramon:name  "Neuenhaus, Stadt"@en ;
+        ramon:code  "DE-034565402" ;
+        rdfs:label  "DE-034565402 Neuenhaus, Stadt" .
+
+lau:DE-034565403  ramon:name  "Schüttorf, Stadt"@en ;
+        ramon:code  "DE-034565403" ;
+        rdfs:label  "DE-034565403 Schüttorf, Stadt" .
+
+lau:DE-034565401  ramon:name  "Emlichheim"@en ;
+        ramon:code  "DE-034565401" ;
+        rdfs:label  "DE-034565401 Emlichheim" .
+
+lau:DE-095725514  ramon:name  "Uttenreuth"@en ;
+        ramon:code  "DE-095725514" ;
+        rdfs:label  "DE-095725514 Uttenreuth" .
+
+lau:DE-034565404  ramon:name  "Uelsen"@en ;
+        ramon:code  "DE-034565404" ;
+        rdfs:label  "DE-034565404 Uelsen" .
+
+lau:DE-071415006  ramon:name  "Nassau, Stadt"@en ;
+        ramon:code  "DE-071415006" ;
+        rdfs:label  "DE-071415006 Nassau, Stadt" .
+
+lau:DE-084159971  ramon:name  "Gutsbezirk Münsingen, gemeindefreies Gebiet"@en ;
+        ramon:code  "DE-084159971" ;
+        rdfs:label  "DE-084159971 Gutsbezirk Münsingen, gemeindefreies Gebiet" .
+
+lau:DE-082265003  ramon:name  "Hemsbach, Stadt"@en ;
+        ramon:code  "DE-082265003" ;
+        rdfs:label  "DE-082265003 Hemsbach, Stadt" .
+
+lau:DE-092785248  ramon:name  "Mitterfels, M"@en ;
+        ramon:code  "DE-092785248" ;
+        rdfs:label  "DE-092785248 Mitterfels, M" .
+
+lau:DE-071325007  ramon:name  "Kirchen (Sieg), Stadt"@en ;
+        ramon:code  "DE-071325007" ;
+        rdfs:label  "DE-071325007 Kirchen (Sieg), Stadt" .
+
+lau:DE-097725711  ramon:name  "Untermeitingen"@en ;
+        ramon:code  "DE-097725711" ;
+        rdfs:label  "DE-097725711 Untermeitingen" .
+
+lau:DE-097725710  ramon:name  "Großaitingen"@en ;
+        ramon:code  "DE-097725710" ;
+        rdfs:label  "DE-097725710 Großaitingen" .
+
+lau:DE-092785246  ramon:name  "Rattiszell"@en ;
+        ramon:code  "DE-092785246" ;
+        rdfs:label  "DE-092785246 Rattiszell" .
+
+lau:DE-071325006  ramon:name  "Hamm (Sieg)"@en ;
+        ramon:code  "DE-071325006" ;
+        rdfs:label  "DE-071325006 Hamm (Sieg)" .
+
+lau:DE-130755562  ramon:name  "Usedom, Stadt"@en ;
+        ramon:code  "DE-130755562" ;
+        rdfs:label  "DE-130755562 Usedom, Stadt" .
+
+lau:DE-160675051  ramon:name  "Günthersleben-Wechmar"@en ;
+        ramon:code  "DE-160675051" ;
+        rdfs:label  "DE-160675051 Günthersleben-Wechmar" .
+
+lau:DE-145215139  ramon:name  "Zschorlau"@en ;
+        ramon:code  "DE-145215139" ;
+        rdfs:label  "DE-145215139 Zschorlau" .
+
+lau:DE-096779444  ramon:name  "Gdefr. Geb. (Lkr Main-Spessart)"@en ;
+        ramon:code  "DE-096779444" ;
+        rdfs:label  "DE-096779444 Gdefr. Geb. (Lkr Main-Spessart)" .
+
+lau:DE-150905051  ramon:name  "Arneburg, Stadt"@en ;
+        ramon:code  "DE-150905051" ;
+        rdfs:label  "DE-150905051 Arneburg, Stadt" .
+
+lau:DE-082265006  ramon:name  "Rauenberg, Stadt"@en ;
+        ramon:code  "DE-082265006" ;
+        rdfs:label  "DE-082265006 Rauenberg, Stadt" .
+
+lau:DE-097715701  ramon:name  "Aindling, M"@en ;
+        ramon:code  "DE-097715701" ;
+        rdfs:label  "DE-097715701 Aindling, M" .
+
+lau:DE-073375002  ramon:name  "Bad Bergzabern, Stadt"@en ;
+        ramon:code  "DE-073375002" ;
+        rdfs:label  "DE-073375002 Bad Bergzabern, Stadt" .
+
+lau:DE-094729444  ramon:name  "Gdefr. Geb. (Lkr Bayreuth)"@en ;
+        ramon:code  "DE-094729444" ;
+        rdfs:label  "DE-094729444 Gdefr. Geb. (Lkr Bayreuth)" .
+
+lau:DE-145215132  ramon:name  "Seiffen/Erzgeb., Kurort"@en ;
+        ramon:code  "DE-145215132" ;
+        rdfs:label  "DE-145215132 Seiffen/Erzgeb., Kurort" .
+
+lau:DE-091835151  ramon:name  "Polling"@en ;
+        ramon:code  "DE-091835151" ;
+        rdfs:label  "DE-091835151 Polling" .
+
+lau:DE-091835150  ramon:name  "Oberbergkirchen"@en ;
+        ramon:code  "DE-091835150" ;
+        rdfs:label  "DE-091835150 Oberbergkirchen" .
+
+lau:DE-097725708  ramon:name  "Gessertshausen"@en ;
+        ramon:code  "DE-097725708" ;
+        rdfs:label  "DE-097725708 Gessertshausen" .
+
+lau:DE-091835152  ramon:name  "Niedertaufkirchen"@en ;
+        ramon:code  "DE-091835152" ;
+        rdfs:label  "DE-091835152 Niedertaufkirchen" .
+
+lau:DE-096725609  ramon:name  "Maßbach, M"@en ;
+        ramon:code  "DE-096725609" ;
+        rdfs:label  "DE-096725609 Maßbach, M" .
+
+lau:DE-093725318  ramon:name  "Falkenstein, M"@en ;
+        ramon:code  "DE-093725318" ;
+        rdfs:label  "DE-093725318 Falkenstein, M" .
+
+lau:DE-092755229  ramon:name  "Tittling, M"@en ;
+        ramon:code  "DE-092755229" ;
+        rdfs:label  "DE-092755229 Tittling, M" .
+
+lau:DE-094755430  ramon:name  "Feilitzsch"@en ;
+        ramon:code  "DE-094755430" ;
+        rdfs:label  "DE-094755430 Feilitzsch" .
+
+lau:DE-093725310  ramon:name  "Stamsried, M"@en ;
+        ramon:code  "DE-093725310" ;
+        rdfs:label  "DE-093725310 Stamsried, M" .
+
+lau:DE-093725313  ramon:name  "Walderbach"@en ;
+        ramon:code  "DE-093725313" ;
+        rdfs:label  "DE-093725313 Walderbach" .
+
+lau:DE-093725312  ramon:name  "Weiding"@en ;
+        ramon:code  "DE-093725312" ;
+        rdfs:label  "DE-093725312 Weiding" .
+
+lau:DE-120645414  ramon:name  "Oderaue"@en ;
+        ramon:code  "DE-120645414" ;
+        rdfs:label  "DE-120645414 Oderaue" .
+
+lau:DE-010605034  ramon:name  "Sülfeld"@en ;
+        ramon:code  "DE-010605034" ;
+        rdfs:label  "DE-010605034 Sülfeld" .
+
+lau:DE-130765652  ramon:name  "Nostorf"@en ;
+        ramon:code  "DE-130765652" ;
+        rdfs:label  "DE-130765652 Nostorf" .
+
+lau:DE-010545453  ramon:name  "Viöl"@en ;
+        ramon:code  "DE-010545453" ;
+        rdfs:label  "DE-010545453 Viöl" .
+
+lau:DE-094739444  ramon:name  "Gdefr. Geb. (Lkr Coburg)"@en ;
+        ramon:code  "DE-094739444" ;
+        rdfs:label  "DE-094739444 Gdefr. Geb. (Lkr Coburg)" .
+
+lau:DE-010535308  ramon:name  "Berkenthin"@en ;
+        ramon:code  "DE-010535308" ;
+        rdfs:label  "DE-010535308 Berkenthin" .
+
+lau:DE-095729444  ramon:name  "Gdefr. Geb. (Lkr Erlangen-Höchstadt)"@en ;
+        ramon:code  "DE-095729444" ;
+        rdfs:label  "DE-095729444 Gdefr. Geb. (Lkr Erlangen-Höchstadt)" .
+
+lau:DE-010545459  ramon:name  "Pellworm"@en ;
+        ramon:code  "DE-010545459" ;
+        rdfs:label  "DE-010545459 Pellworm" .
+
+lau:DE-091819444  ramon:name  "Gdefr. Geb. (Lkr Landsberg am Lech)"@en ;
+        ramon:code  "DE-091819444" ;
+        rdfs:label  "DE-091819444 Gdefr. Geb. (Lkr Landsberg am Lech)" .
+
+lau:DE-064319200  ramon:name  "Michelbuch, gemfr. Gebiet"@en ;
+        ramon:code  "DE-064319200" ;
+        rdfs:label  "DE-064319200 Michelbuch, gemfr. Gebiet" .
+
+lau:DE-082265008  ramon:name  "Sinsheim, Stadt"@en ;
+        ramon:code  "DE-082265008" ;
+        rdfs:label  "DE-082265008 Sinsheim, Stadt" .
+
+lau:DE-010515169  ramon:name  "Tellingstedt"@en ;
+        ramon:code  "DE-010515169" ;
+        rdfs:label  "DE-010515169 Tellingstedt" .
+
+lau:DE-146255501  ramon:name  "Panschwitz-Kuckau"@en ;
+        ramon:code  "DE-146255501" ;
+        rdfs:label  "DE-146255501 Panschwitz-Kuckau" .
+
+lau:DE-160635006  ramon:name  "Creuzburg, Stadt"@en ;
+        ramon:code  "DE-160635006" ;
+        rdfs:label  "DE-160635006 Creuzburg, Stadt" .
+
+lau:DE-160755013  ramon:name  "Krölpa"@en ;
+        ramon:code  "DE-160755013" ;
+        rdfs:label  "DE-160755013 Krölpa" .
+
+lau:DE-160755011  ramon:name  "Triptis, Stadt"@en ;
+        ramon:code  "DE-160755011" ;
+        rdfs:label  "DE-160755011 Triptis, Stadt" .
+
+lau:DE-082265001  ramon:name  "Eberbach, Stadt"@en ;
+        ramon:code  "DE-082265001" ;
+        rdfs:label  "DE-082265001 Eberbach, Stadt" .
+
+lau:DE-082265002  ramon:name  "Meckesheim"@en ;
+        ramon:code  "DE-082265002" ;
+        rdfs:label  "DE-082265002 Meckesheim" .
+
+lau:DE-010515163  ramon:name  "Burg (Dithmarschen)"@en ;
+        ramon:code  "DE-010515163" ;
+        rdfs:label  "DE-010515163 Burg (Dithmarschen)" .
+
+lau:DE-082265004  ramon:name  "Hockenheim, Stadt"@en ;
+        ramon:code  "DE-082265004" ;
+        rdfs:label  "DE-082265004 Hockenheim, Stadt" .
+
+lau:DE-082265005  ramon:name  "Neckargemünd, Stadt"@en ;
+        ramon:code  "DE-082265005" ;
+        rdfs:label  "DE-082265005 Neckargemünd, Stadt" .
+
+lau:DE-010515166  ramon:name  "Marne, Stadt"@en ;
+        ramon:code  "DE-010515166" ;
+        rdfs:label  "DE-010515166 Marne, Stadt" .
+
+lau:DE-082265007  ramon:name  "Schönau, Stadt"@en ;
+        ramon:code  "DE-082265007" ;
+        rdfs:label  "DE-082265007 Schönau, Stadt" .
+
+lau:DE-073355004  ramon:name  "Trippstadt"@en ;
+        ramon:code  "DE-073355004" ;
+        rdfs:label  "DE-073355004 Trippstadt" .
+
+lau:DE-073355005  ramon:name  "Landstuhl, Sickingenstadt, Stadt"@en ;
+        ramon:code  "DE-073355005" ;
+        rdfs:label  "DE-073355005 Landstuhl, Sickingenstadt, Stadt" .
+
+lau:DE-084355006  ramon:name  "Tettnang, Stadt"@en ;
+        ramon:code  "DE-084355006" ;
+        rdfs:label  "DE-084355006 Tettnang, Stadt" .
+
+lau:DE-073355001  ramon:name  "Bruchmühlbach-Miesau"@en ;
+        ramon:code  "DE-073355001" ;
+        rdfs:label  "DE-073355001 Bruchmühlbach-Miesau" .
+
+lau:DE-073355002  ramon:name  "Enkenbach-Alsenborn"@en ;
+        ramon:code  "DE-073355002" ;
+        rdfs:label  "DE-073355002 Enkenbach-Alsenborn" .
+
+lau:DE-031539504  ramon:name  "Harz (Landkreis Goslar), gemfr. Gebiet"@en ;
+        ramon:code  "DE-031539504" ;
+        rdfs:label  "DE-031539504 Harz (Landkreis Goslar), gemfr. Gebiet" .
+
+lau:DE-073355008  ramon:name  "Ramstein-Miesenbach, Stadt"@en ;
+        ramon:code  "DE-073355008" ;
+        rdfs:label  "DE-073355008 Ramstein-Miesenbach, Stadt" .
+
+lau:DE-073355009  ramon:name  "Weilerbach"@en ;
+        ramon:code  "DE-073355009" ;
+        rdfs:label  "DE-073355009 Weilerbach" .
+
+lau:DE-071325005  ramon:name  "Gebhardshain"@en ;
+        ramon:code  "DE-071325005" ;
+        rdfs:label  "DE-071325005 Gebhardshain" .
+
+lau:DE-010609014  ramon:name  "Buchholz (Forstgutsbez.),gemfr. Gebiet"@en ;
+        ramon:code  "DE-010609014" ;
+        rdfs:label  "DE-010609014 Buchholz (Forstgutsbez.),gemfr. Gebiet" .
+
+lau:DE-120705001  ramon:name  "Bad Wilsnack, Stadt"@en ;
+        ramon:code  "DE-120705001" ;
+        rdfs:label  "DE-120705001 Bad Wilsnack, Stadt" .
+
+lau:DE-097745728  ramon:name  "Haldenwang"@en ;
+        ramon:code  "DE-097745728" ;
+        rdfs:label  "DE-097745728 Haldenwang" .
+
+lau:DE-097745729  ramon:name  "Kötz"@en ;
+        ramon:code  "DE-097745729" ;
+        rdfs:label  "DE-097745729 Kötz" .
+
+lau:DE-120705005  ramon:name  "Lenzen (Elbe), Stadt"@en ;
+        ramon:code  "DE-120705005" ;
+        rdfs:label  "DE-120705005 Lenzen (Elbe), Stadt" .
+
+lau:DE-120705006  ramon:name  "Meyenburg, Stadt"@en ;
+        ramon:code  "DE-120705006" ;
+        rdfs:label  "DE-120705006 Meyenburg, Stadt" .
+
+lau:DE-120705009  ramon:name  "Putlitz, Stadt"@en ;
+        ramon:code  "DE-120705009" ;
+        rdfs:label  "DE-120705009 Putlitz, Stadt" .
+
+lau:DE-097745727  ramon:name  "Offingen, M"@en ;
+        ramon:code  "DE-097745727" ;
+        rdfs:label  "DE-097745727 Offingen, M" .
+
+lau:DE-150855051  ramon:name  "Wegeleben, Stadt"@en ;
+        ramon:code  "DE-150855051" ;
+        rdfs:label  "DE-150855051 Wegeleben, Stadt" .
+
+lau:DE-120735310  ramon:name  "Passow"@en ;
+        ramon:code  "DE-120735310" ;
+        rdfs:label  "DE-120735310 Passow" .
+
+lau:DE-145235137  ramon:name  "Weischlitz"@en ;
+        ramon:code  "DE-145235137" ;
+        rdfs:label  "DE-145235137 Weischlitz" .
+
+lau:DE-091835183  ramon:name  "Maitenbeth"@en ;
+        ramon:code  "DE-091835183" ;
+        rdfs:label  "DE-091835183 Maitenbeth" .
+
+lau:DE-091805137  ramon:name  "Seehausen a.Staffelsee"@en ;
+        ramon:code  "DE-091805137" ;
+        rdfs:label  "DE-091805137 Seehausen a.Staffelsee" .
+
+lau:DE-145245118  ramon:name  "Meerane, Stadt"@en ;
+        ramon:code  "DE-145245118" ;
+        rdfs:label  "DE-145245118 Meerane, Stadt" .
+
+lau:DE-120695904  ramon:name  "Brück, Stadt"@en ;
+        ramon:code  "DE-120695904" ;
+        rdfs:label  "DE-120695904 Brück, Stadt" .
+
+lau:DE-081185004  ramon:name  "Freiberg am Neckar, Stadt"@en ;
+        ramon:code  "DE-081185004" ;
+        rdfs:label  "DE-081185004 Freiberg am Neckar, Stadt" .
+
+lau:DE-081185005  ramon:name  "Marbach am Neckar, Stadt"@en ;
+        ramon:code  "DE-081185005" ;
+        rdfs:label  "DE-081185005 Marbach am Neckar, Stadt" .
+
+lau:DE-081185006  ramon:name  "Schwieberdingen"@en ;
+        ramon:code  "DE-081185006" ;
+        rdfs:label  "DE-081185006 Schwieberdingen" .
+
+lau:DE-081185007  ramon:name  "Steinheim an der Murr, Stadt"@en ;
+        ramon:code  "DE-081185007" ;
+        rdfs:label  "DE-081185007 Steinheim an der Murr, Stadt" .
+
+lau:DE-145215101  ramon:name  "Bärenstein"@en ;
+        ramon:code  "DE-145215101" ;
+        rdfs:label  "DE-145215101 Bärenstein" .
+
+lau:DE-081185001  ramon:name  "Besigheim, Stadt"@en ;
+        ramon:code  "DE-081185001" ;
+        rdfs:label  "DE-081185001 Besigheim, Stadt" .
+
+lau:DE-081185002  ramon:name  "Bietigheim-Bissingen, Stadt"@en ;
+        ramon:code  "DE-081185002" ;
+        rdfs:label  "DE-081185002 Bietigheim-Bissingen, Stadt" .
+
+lau:DE-081185003  ramon:name  "Bönnigheim, Stadt"@en ;
+        ramon:code  "DE-081185003" ;
+        rdfs:label  "DE-081185003 Bönnigheim, Stadt" .
+
+lau:DE-146255223  ramon:name  "Neschwitz"@en ;
+        ramon:code  "DE-146255223" ;
+        rdfs:label  "DE-146255223 Neschwitz" .
+
+lau:DE-081185008  ramon:name  "Vaihingen an der Enz, Stadt"@en ;
+        ramon:code  "DE-081185008" ;
+        rdfs:label  "DE-081185008 Vaihingen an der Enz, Stadt" .
+
+lau:DE-083255002  ramon:name  "Oberndorf am Neckar, Stadt"@en ;
+        ramon:code  "DE-083255002" ;
+        rdfs:label  "DE-083255002 Oberndorf am Neckar, Stadt" .
+
+lau:DE-094785441  ramon:name  "Redwitz a.d.Rodach"@en ;
+        ramon:code  "DE-094785441" ;
+        rdfs:label  "DE-094785441 Redwitz a.d.Rodach" .
+
+lau:DE-091839444  ramon:name  "Gdefr. Geb. (Lkr Mühldorf a.Inn)"@en ;
+        ramon:code  "DE-091839444" ;
+        rdfs:label  "DE-091839444 Gdefr. Geb. (Lkr Mühldorf a.Inn)" .
+
+lau:DE-120615108  ramon:name  "Halbe"@en ;
+        ramon:code  "DE-120615108" ;
+        rdfs:label  "DE-120615108 Halbe" .
+
+lau:DE-146265502  ramon:name  "Waldhufen"@en ;
+        ramon:code  "DE-146265502" ;
+        rdfs:label  "DE-146265502 Waldhufen" .
+
+lau:DE-130765656  ramon:name  "Goldberg, Stadt"@en ;
+        ramon:code  "DE-130765656" ;
+        rdfs:label  "DE-130765656 Goldberg, Stadt" .
+
+lau:DE-010585853  ramon:name  "Westerrönfeld"@en ;
+        ramon:code  "DE-010585853" ;
+        rdfs:label  "DE-010585853 Westerrönfeld" .
+
+lau:DE-091889444  ramon:name  "Gdefr. Geb. (Lkr Starnberg)"@en ;
+        ramon:code  "DE-091889444" ;
+        rdfs:label  "DE-091889444 Gdefr. Geb. (Lkr Starnberg)" .
+
+lau:DE-092755234  ramon:name  "Rotthalmünster, M"@en ;
+        ramon:code  "DE-092755234" ;
+        rdfs:label  "DE-092755234 Rotthalmünster, M" .
+
+lau:DE-010585859  ramon:name  "Molfsee"@en ;
+        ramon:code  "DE-010585859" ;
+        rdfs:label  "DE-010585859 Molfsee" .
+
+lau:DE-160665005  ramon:name  "Frankenheim/Rhön"@en ;
+        ramon:code  "DE-160665005" ;
+        rdfs:label  "DE-160665005 Frankenheim/Rhön" .
+
+lau:DE-160635058  ramon:name  "Kaltennordheim, Stadt"@en ;
+        ramon:code  "DE-160635058" ;
+        rdfs:label  "DE-160635058 Kaltennordheim, Stadt" .
+
+lau:DE-160685002  ramon:name  "Gebesee, Stadt"@en ;
+        ramon:code  "DE-160685002" ;
+        rdfs:label  "DE-160685002 Gebesee, Stadt" .
+
+lau:DE-083255003  ramon:name  "Rottweil, Stadt"@en ;
+        ramon:code  "DE-083255003" ;
+        rdfs:label  "DE-083255003 Rottweil, Stadt" .
+
+lau:DE-084355005  ramon:name  "Salem"@en ;
+        ramon:code  "DE-084355005" ;
+        rdfs:label  "DE-084355005 Salem" .
+
+lau:DE-146265242  ramon:name  "Weißwasser/O.L., Stadt"@en ;
+        ramon:code  "DE-146265242" ;
+        rdfs:label  "DE-146265242 Weißwasser/O.L., Stadt" .
+
+lau:DE-082165005  ramon:name  "Rastatt, Stadt"@en ;
+        ramon:code  "DE-082165005" ;
+        rdfs:label  "DE-082165005 Rastatt, Stadt" .
+
+lau:DE-082165004  ramon:name  "Gernsbach, Stadt"@en ;
+        ramon:code  "DE-082165004" ;
+        rdfs:label  "DE-082165004 Gernsbach, Stadt" .
+
+lau:DE-082165007  ramon:name  "Sinzheim"@en ;
+        ramon:code  "DE-082165007" ;
+        rdfs:label  "DE-082165007 Sinzheim" .
+
+lau:DE-082165006  ramon:name  "Rheinmünster"@en ;
+        ramon:code  "DE-082165006" ;
+        rdfs:label  "DE-082165006 Rheinmünster" .
+
+lau:DE-082165001  ramon:name  "Kuppenheim, Stadt"@en ;
+        ramon:code  "DE-082165001" ;
+        rdfs:label  "DE-082165001 Kuppenheim, Stadt" .
+
+lau:DE-093725317  ramon:name  "Wald"@en ;
+        ramon:code  "DE-093725317" ;
+        rdfs:label  "DE-093725317 Wald" .
+
+lau:DE-082165003  ramon:name  "Durmersheim"@en ;
+        ramon:code  "DE-082165003" ;
+        rdfs:label  "DE-082165003 Durmersheim" .
+
+lau:DE-082165002  ramon:name  "Bühl, Stadt"@en ;
+        ramon:code  "DE-082165002" ;
+        rdfs:label  "DE-082165002 Bühl, Stadt" .
+
+lau:DE-146285209  ramon:name  "Dohna, Stadt"@en ;
+        ramon:code  "DE-146285209" ;
+        rdfs:label  "DE-146285209 Dohna, Stadt" .
+
+lau:DE-160615013  ramon:name  "Küllstedt"@en ;
+        ramon:code  "DE-160615013" ;
+        rdfs:label  "DE-160615013 Küllstedt" .
+
+lau:DE-145215130  ramon:name  "Schlettau, Stadt"@en ;
+        ramon:code  "DE-145215130" ;
+        rdfs:label  "DE-145215130 Schlettau, Stadt" .
+
+lau:DE-160685006  ramon:name  "Kölleda, Stadt"@en ;
+        ramon:code  "DE-160685006" ;
+        rdfs:label  "DE-160685006 Kölleda, Stadt" .
+
+lau:DE-070009999  ramon:name  "Gemeinsames deutsch-luxemburgisches Hoheitsgebiet"@en ;
+        ramon:code  "DE-070009999" ;
+        rdfs:label  "DE-070009999 Gemeinsames deutsch-luxemburgisches Hoheitsgebiet" .
+
+lau:DE-034595404  ramon:name  "Neuenkirchen"@en ;
+        ramon:code  "DE-034595404" ;
+        rdfs:label  "DE-034595404 Neuenkirchen" .
+
+lau:DE-096715602  ramon:name  "Heigenbrücken"@en ;
+        ramon:code  "DE-096715602" ;
+        rdfs:label  "DE-096715602 Heigenbrücken" .
+
+lau:DE-093749444  ramon:name  "Gdefr. Geb. (Lkr Neustadt a.d.Waldnaab)"@en ;
+        ramon:code  "DE-093749444" ;
+        rdfs:label  "DE-093749444 Gdefr. Geb. (Lkr Neustadt a.d.Waldnaab)" .
+
+lau:DE-034595401  ramon:name  "Quakenbrück, Stadt"@en ;
+        ramon:code  "DE-034595401" ;
+        rdfs:label  "DE-034595401 Quakenbrück, Stadt" .
+
+lau:DE-010575775  ramon:name  "Selent"@en ;
+        ramon:code  "DE-010575775" ;
+        rdfs:label  "DE-010575775 Selent" .
+
+lau:DE-034595403  ramon:name  "Fürstenau, Stadt"@en ;
+        ramon:code  "DE-034595403" ;
+        rdfs:label  "DE-034595403 Fürstenau, Stadt" .
+
+lau:DE-034595402  ramon:name  "Bersenbrück, Stadt"@en ;
+        ramon:code  "DE-034595402" ;
+        rdfs:label  "DE-034595402 Bersenbrück, Stadt" .
+
+lau:DE-084355001  ramon:name  "Kressbronn am Bodensee"@en ;
+        ramon:code  "DE-084355001" ;
+        rdfs:label  "DE-084355001 Kressbronn am Bodensee" .
+
+lau:DE-084355002  ramon:name  "Friedrichshafen, Stadt"@en ;
+        ramon:code  "DE-084355002" ;
+        rdfs:label  "DE-084355002 Friedrichshafen, Stadt" .
+
+lau:DE-073375004  ramon:name  "Herxheim bei Landau/ Pfalz"@en ;
+        ramon:code  "DE-073375004" ;
+        rdfs:label  "DE-073375004 Herxheim bei Landau/ Pfalz" .
+
+lau:DE-160615009  ramon:name  "Hohes Kreuz"@en ;
+        ramon:code  "DE-160615009" ;
+        rdfs:label  "DE-160615009 Hohes Kreuz" .
+
+lau:DE-130735354  ramon:name  "Prerow"@en ;
+        ramon:code  "DE-130735354" ;
+        rdfs:label  "DE-130735354 Prerow" .
+
+lau:DE-010575747  ramon:name  "Schellhorn"@en ;
+        ramon:code  "DE-010575747" ;
+        rdfs:label  "DE-010575747 Schellhorn" .
+
+lau:DE-145215133  ramon:name  "Stollberg/Erzgeb., Stadt"@en ;
+        ramon:code  "DE-145215133" ;
+        rdfs:label  "DE-145215133 Stollberg/Erzgeb., Stadt" .
+
+lau:DE-160685009  ramon:name  "Straußfurt"@en ;
+        ramon:code  "DE-160685009" ;
+        rdfs:label  "DE-160685009 Straußfurt" .
+
+lau:DE-081165003  ramon:name  "Neckartenzlingen"@en ;
+        ramon:code  "DE-081165003" ;
+        rdfs:label  "DE-081165003 Neckartenzlingen" .
+
+lau:DE-160635055  ramon:name  "Marksuhl"@en ;
+        ramon:code  "DE-160635055" ;
+        rdfs:label  "DE-160635055 Marksuhl" .
+
+lau:DE-145225113  ramon:name  "Lichtenberg/Erzgeb."@en ;
+        ramon:code  "DE-145225113" ;
+        rdfs:label  "DE-145225113 Lichtenberg/Erzgeb." .
+
+lau:DE-146265214  ramon:name  "Großschönau"@en ;
+        ramon:code  "DE-146265214" ;
+        rdfs:label  "DE-146265214 Großschönau" .
+
+lau:DE-084355003  ramon:name  "Markdorf, Stadt"@en ;
+        ramon:code  "DE-084355003" ;
+        rdfs:label  "DE-084355003 Markdorf, Stadt" .
+
+lau:DE-120645412  ramon:name  "Vierlinden"@en ;
+        ramon:code  "DE-120645412" ;
+        rdfs:label  "DE-120645412 Vierlinden" .
+
+lau:DE-093775348  ramon:name  "Kemnath, St"@en ;
+        ramon:code  "DE-093775348" ;
+        rdfs:label  "DE-093775348 Kemnath, St" .
+
+lau:DE-031565403  ramon:name  "Walkenried"@en ;
+        ramon:code  "DE-031565403" ;
+        rdfs:label  "DE-031565403 Walkenried" .
+
+lau:DE-031565402  ramon:name  "Hattorf am Harz"@en ;
+        ramon:code  "DE-031565402" ;
+        rdfs:label  "DE-031565402 Hattorf am Harz" .
+
+lau:DE-096735640  ramon:name  "Saal a.d.Saale, M"@en ;
+        ramon:code  "DE-096735640" ;
+        rdfs:label  "DE-096735640 Saal a.d.Saale, M" .
+
+lau:DE-160615006  ramon:name  "Breitenworbis"@en ;
+        ramon:code  "DE-160615006" ;
+        rdfs:label  "DE-160615006 Breitenworbis" .
+
+lau:DE-130755551  ramon:name  "Wolgast, Stadt"@en ;
+        ramon:code  "DE-130755551" ;
+        rdfs:label  "DE-130755551 Wolgast, Stadt" .
+
+lau:DE-095769444  ramon:name  "Gdefr. Geb. (Lkr Roth)"@en ;
+        ramon:code  "DE-095769444" ;
+        rdfs:label  "DE-095769444 Gdefr. Geb. (Lkr Roth)" .
+
+lau:DE-084365009  ramon:name  "Fronreute"@en ;
+        ramon:code  "DE-084365009" ;
+        rdfs:label  "DE-084365009 Fronreute" .
+
+lau:DE-084365008  ramon:name  "Horgenzell"@en ;
+        ramon:code  "DE-084365008" ;
+        rdfs:label  "DE-084365008 Horgenzell" .
+
+lau:DE-083179971  ramon:name  "Rheinau, gemeindefreies Gebiet"@en ;
+        ramon:code  "DE-083179971" ;
+        rdfs:label  "DE-083179971 Rheinau, gemeindefreies Gebiet" .
+
+lau:DE-084365004  ramon:name  "Leutkirch im Allgäu, Stadt"@en ;
+        ramon:code  "DE-084365004" ;
+        rdfs:label  "DE-084365004 Leutkirch im Allgäu, Stadt" .
+
+lau:DE-084365007  ramon:name  "Wangen im Allgäu, Stadt"@en ;
+        ramon:code  "DE-084365007" ;
+        rdfs:label  "DE-084365007 Wangen im Allgäu, Stadt" .
+
+lau:DE-084365006  ramon:name  "Vogt"@en ;
+        ramon:code  "DE-084365006" ;
+        rdfs:label  "DE-084365006 Vogt" .
+
+lau:DE-084365001  ramon:name  "Altshausen"@en ;
+        ramon:code  "DE-084365001" ;
+        rdfs:label  "DE-084365001 Altshausen" .
+
+lau:DE-084365003  ramon:name  "Schlier"@en ;
+        ramon:code  "DE-084365003" ;
+        rdfs:label  "DE-084365003 Schlier" .
+
+lau:DE-084365002  ramon:name  "Bad Waldsee, Stadt"@en ;
+        ramon:code  "DE-084365002" ;
+        rdfs:label  "DE-084365002 Bad Waldsee, Stadt" .
+
+lau:DE-092715205  ramon:name  "Moos"@en ;
+        ramon:code  "DE-092715205" ;
+        rdfs:label  "DE-092715205 Moos" .
+
+lau:DE-092715204  ramon:name  "Otzing"@en ;
+        ramon:code  "DE-092715204" ;
+        rdfs:label  "DE-092715204 Otzing" .
+
+lau:DE-094775437  ramon:name  "Untersteinach"@en ;
+        ramon:code  "DE-094775437" ;
+        rdfs:label  "DE-094775437 Untersteinach" .
+
+lau:DE-092715206  ramon:name  "Schöllnach, M"@en ;
+        ramon:code  "DE-092715206" ;
+        rdfs:label  "DE-092715206 Schöllnach, M" .
+
+lau:DE-091815139  ramon:name  "Igling"@en ;
+        ramon:code  "DE-091815139" ;
+        rdfs:label  "DE-091815139 Igling" .
+
+lau:DE-091815138  ramon:name  "Fuchstal"@en ;
+        ramon:code  "DE-091815138" ;
+        rdfs:label  "DE-091815138 Fuchstal" .
+
+lau:DE-091735109  ramon:name  "Reichersbeuern"@en ;
+        ramon:code  "DE-091735109" ;
+        rdfs:label  "DE-091735109 Reichersbeuern" .
+
+lau:DE-091735108  ramon:name  "Kochel a.See"@en ;
+        ramon:code  "DE-091735108" ;
+        rdfs:label  "DE-091735108 Kochel a.See" .
+
+lau:DE-091735107  ramon:name  "Benediktbeuern"@en ;
+        ramon:code  "DE-091735107" ;
+        rdfs:label  "DE-091735107 Benediktbeuern" .
+
+lau:DE-130765660  ramon:name  "Neustadt-Glewe, Stadt"@en ;
+        ramon:code  "DE-130765660" ;
+        rdfs:label  "DE-130765660 Neustadt-Glewe, Stadt" .
+
+lau:DE-066339200  ramon:name  "Gutsbezirk Reinhardswald, gemfr. Gebiet"@en ;
+        ramon:code  "DE-066339200" ;
+        rdfs:label  "DE-066339200 Gutsbezirk Reinhardswald, gemfr. Gebiet" .
+
+lau:DE-130765662  ramon:name  "Lewitzrand "@en ;
+        ramon:code  "DE-130765662" ;
+        rdfs:label  "DE-130765662 Lewitzrand " .
+
+lau:DE-130765665  ramon:name  "Pampow"@en ;
+        ramon:code  "DE-130765665" ;
+        rdfs:label  "DE-130765665 Pampow" .
+
+lau:DE-130765664  ramon:name  "Sternberg, Stadt"@en ;
+        ramon:code  "DE-130765664" ;
+        rdfs:label  "DE-130765664 Sternberg, Stadt" .
+
+lau:DE-130765667  ramon:name  "Zarrentin am Schaalsee, Stadt"@en ;
+        ramon:code  "DE-130765667" ;
+        rdfs:label  "DE-130765667 Zarrentin am Schaalsee, Stadt" .
+
+lau:DE-130765666  ramon:name  "Wittenburg, Stadt"@en ;
+        ramon:code  "DE-130765666" ;
+        rdfs:label  "DE-130765666 Wittenburg, Stadt" .
+
+lau:DE-032545402  ramon:name  "Gronau (Leine), Stadt"@en ;
+        ramon:code  "DE-032545402" ;
+        rdfs:label  "DE-032545402 Gronau (Leine), Stadt" .
+
+lau:DE-032545403  ramon:name  "Lamspringe, Flecken"@en ;
+        ramon:code  "DE-032545403" ;
+        rdfs:label  "DE-032545403 Lamspringe, Flecken" .
+
+lau:DE-082255009  ramon:name  "Adelsheim, Stadt"@en ;
+        ramon:code  "DE-082255009" ;
+        rdfs:label  "DE-082255009 Adelsheim, Stadt" .
+
+lau:DE-032545401  ramon:name  "Freden (Leine)"@en ;
+        ramon:code  "DE-032545401" ;
+        rdfs:label  "DE-032545401 Freden (Leine)" .
+
+lau:DE-094795444  ramon:name  "Tröstau"@en ;
+        ramon:code  "DE-094795444" ;
+        rdfs:label  "DE-094795444 Tröstau" .
+
+lau:DE-032545404  ramon:name  "Sibbesse"@en ;
+        ramon:code  "DE-032545404" ;
+        rdfs:label  "DE-032545404 Sibbesse" .
+
+lau:DE-032545405  ramon:name  "Duingen, Flecken"@en ;
+        ramon:code  "DE-032545405" ;
+        rdfs:label  "DE-032545405 Duingen, Flecken" .
+
+lau:DE-033535404  ramon:name  "Jesteburg"@en ;
+        ramon:code  "DE-033535404" ;
+        rdfs:label  "DE-033535404 Jesteburg" .
+
+lau:DE-033535405  ramon:name  "Salzhausen"@en ;
+        ramon:code  "DE-033535405" ;
+        rdfs:label  "DE-033535405 Salzhausen" .
+
+lau:DE-033535406  ramon:name  "Tostedt"@en ;
+        ramon:code  "DE-033535406" ;
+        rdfs:label  "DE-033535406 Tostedt" .
+
+lau:DE-081165009  ramon:name  "Wendlingen am Neckar, Stadt"@en ;
+        ramon:code  "DE-081165009" ;
+        rdfs:label  "DE-081165009 Wendlingen am Neckar, Stadt" .
+
+lau:DE-082255007  ramon:name  "Osterburken, Stadt"@en ;
+        ramon:code  "DE-082255007" ;
+        rdfs:label  "DE-082255007 Osterburken, Stadt" .
+
+lau:DE-033535401  ramon:name  "Tespe"@en ;
+        ramon:code  "DE-033535401" ;
+        rdfs:label  "DE-033535401 Tespe" .
+
+lau:DE-033535402  ramon:name  "Hanstedt"@en ;
+        ramon:code  "DE-033535402" ;
+        rdfs:label  "DE-033535402 Hanstedt" .
+
+lau:DE-033535403  ramon:name  "Hollenstedt"@en ;
+        ramon:code  "DE-033535403" ;
+        rdfs:label  "DE-033535403 Hollenstedt" .
+
+lau:DE-010545492  ramon:name  "Mildstedt"@en ;
+        ramon:code  "DE-010545492" ;
+        rdfs:label  "DE-010545492 Mildstedt" .
+
+lau:DE-010545494  ramon:name  "Bredstedt, Stadt"@en ;
+        ramon:code  "DE-010545494" ;
+        rdfs:label  "DE-010545494 Bredstedt, Stadt" .
+
+lau:DE-146275234  ramon:name  "Röderaue"@en ;
+        ramon:code  "DE-146275234" ;
+        rdfs:label  "DE-146275234 Röderaue" .
+
+lau:DE-010535343  ramon:name  "Schnakenbek"@en ;
+        ramon:code  "DE-010535343" ;
+        rdfs:label  "DE-010535343 Schnakenbek" .
+
+lau:DE-120735305  ramon:name  "Gerswalde"@en ;
+        ramon:code  "DE-120735305" ;
+        rdfs:label  "DE-120735305 Gerswalde" .
+
+lau:DE-072335003  ramon:name  "Hillesheim, Stadt"@en ;
+        ramon:code  "DE-072335003" ;
+        rdfs:label  "DE-072335003 Hillesheim, Stadt" .
+
+lau:DE-160635054  ramon:name  "Tiefenort"@en ;
+        ramon:code  "DE-160635054" ;
+        rdfs:label  "DE-160635054 Tiefenort" .
+
+lau:DE-073375003  ramon:name  "Edenkoben, Stadt"@en ;
+        ramon:code  "DE-073375003" ;
+        rdfs:label  "DE-073375003 Edenkoben, Stadt" .
+
+lau:DE-160695051  ramon:name  "Auengrund"@en ;
+        ramon:code  "DE-160695051" ;
+        rdfs:label  "DE-160695051 Auengrund" .
+
+lau:DE-091899444  ramon:name  "Gdefr. Geb. (Lkr Traunstein)"@en ;
+        ramon:code  "DE-091899444" ;
+        rdfs:label  "DE-091899444 Gdefr. Geb. (Lkr Traunstein)" .
+
+lau:DE-082255006  ramon:name  "Waldbrunn"@en ;
+        ramon:code  "DE-082255006" ;
+        rdfs:label  "DE-082255006 Waldbrunn" .
+
+lau:DE-094725415  ramon:name  "Weidenberg, M"@en ;
+        ramon:code  "DE-094725415" ;
+        rdfs:label  "DE-094725415 Weidenberg, M" .
+
+lau:DE-094725414  ramon:name  "Hummeltal"@en ;
+        ramon:code  "DE-094725414" ;
+        rdfs:label  "DE-094725414 Hummeltal" .
+
+lau:DE-094725417  ramon:name  "Betzenstein, St"@en ;
+        ramon:code  "DE-094725417" ;
+        rdfs:label  "DE-094725417 Betzenstein, St" .
+
+lau:DE-010625244  ramon:name  "Wesenberg"@en ;
+        ramon:code  "DE-010625244" ;
+        rdfs:label  "DE-010625244 Wesenberg" .
+
+lau:DE-130765663  ramon:name  "Plau am See, Stadt"@en ;
+        ramon:code  "DE-130765663" ;
+        rdfs:label  "DE-130765663 Plau am See, Stadt" .
+
+lau:DE-094725413  ramon:name  "Mistelgau"@en ;
+        ramon:code  "DE-094725413" ;
+        rdfs:label  "DE-094725413 Mistelgau" .
+
+lau:DE-094725412  ramon:name  "Hollfeld, St"@en ;
+        ramon:code  "DE-094725412" ;
+        rdfs:label  "DE-094725412 Hollfeld, St" .
+
+lau:DE-160765051  ramon:name  "Bad Köstritz, Stadt"@en ;
+        ramon:code  "DE-160765051" ;
+        rdfs:label  "DE-160765051 Bad Köstritz, Stadt" .
+
+lau:DE-160675050  ramon:name  "Ohrdruf, Stadt"@en ;
+        ramon:code  "DE-160675050" ;
+        rdfs:label  "DE-160675050 Ohrdruf, Stadt" .
+
+lau:DE-160765053  ramon:name  "Weida, Stadt"@en ;
+        ramon:code  "DE-160765053" ;
+        rdfs:label  "DE-160765053 Weida, Stadt" .
+
+lau:DE-160765052  ramon:name  "Greiz, Stadt"@en ;
+        ramon:code  "DE-160765052" ;
+        rdfs:label  "DE-160765052 Greiz, Stadt" .
+
+lau:DE-160765054  ramon:name  "Zeulenroda-Triebes, Stadt"@en ;
+        ramon:code  "DE-160765054" ;
+        rdfs:label  "DE-160765054 Zeulenroda-Triebes, Stadt" .
+
+lau:DE-073375007  ramon:name  "Offenbach an der Queich"@en ;
+        ramon:code  "DE-073375007" ;
+        rdfs:label  "DE-073375007 Offenbach an der Queich" .
+
+lau:DE-150895052  ramon:name  "Güsten, Stadt"@en ;
+        ramon:code  "DE-150895052" ;
+        rdfs:label  "DE-150895052 Güsten, Stadt" .
+
+lau:DE-092775239  ramon:name  "Falkenberg"@en ;
+        ramon:code  "DE-092775239" ;
+        rdfs:label  "DE-092775239 Falkenberg" .
+
+lau:DE-083355005  ramon:name  "Singen (Hohentwiel), Stadt"@en ;
+        ramon:code  "DE-083355005" ;
+        rdfs:label  "DE-083355005 Singen (Hohentwiel), Stadt" .
+
+lau:DE-033525407  ramon:name  "Hemmoor, Stadt"@en ;
+        ramon:code  "DE-033525407" ;
+        rdfs:label  "DE-033525407 Hemmoor, Stadt" .
+
+lau:DE-120675706  ramon:name  "Briesen (Mark)"@en ;
+        ramon:code  "DE-120675706" ;
+        rdfs:label  "DE-120675706 Briesen (Mark)" .
+
+lau:DE-091715101  ramon:name  "Emmerting"@en ;
+        ramon:code  "DE-091715101" ;
+        rdfs:label  "DE-091715101 Emmerting" .
+
+lau:DE-096715604  ramon:name  "Schöllkrippen, M"@en ;
+        ramon:code  "DE-096715604" ;
+        rdfs:label  "DE-096715604 Schöllkrippen, M" .
+
+lau:DE-091715103  ramon:name  "Marktl, M"@en ;
+        ramon:code  "DE-091715103" ;
+        rdfs:label  "DE-091715103 Marktl, M" .
+
+lau:DE-073375005  ramon:name  "Billigheim-Ingenheim"@en ;
+        ramon:code  "DE-073375005" ;
+        rdfs:label  "DE-073375005 Billigheim-Ingenheim" .
+
+lau:DE-095719444  ramon:name  "Gdefr. Geb. (Lkr Ansbach)"@en ;
+        ramon:code  "DE-095719444" ;
+        rdfs:label  "DE-095719444 Gdefr. Geb. (Lkr Ansbach)" .
+
+lau:DE-091715104  ramon:name  "Reischach"@en ;
+        ramon:code  "DE-091715104" ;
+        rdfs:label  "DE-091715104 Reischach" .
+
+lau:DE-096715603  ramon:name  "Mespelbrunn"@en ;
+        ramon:code  "DE-096715603" ;
+        rdfs:label  "DE-096715603 Mespelbrunn" .
+
+lau:DE-091715106  ramon:name  "Unterneukirchen"@en ;
+        ramon:code  "DE-091715106" ;
+        rdfs:label  "DE-091715106 Unterneukirchen" .
+
+lau:DE-097785762  ramon:name  "Erkheim, M"@en ;
+        ramon:code  "DE-097785762" ;
+        rdfs:label  "DE-097785762 Erkheim, M" .
+
+lau:DE-097785760  ramon:name  "Kirchheim i.Schw., M"@en ;
+        ramon:code  "DE-097785760" ;
+        rdfs:label  "DE-097785760 Kirchheim i.Schw., M" .
+
+lau:DE-097785761  ramon:name  "Boos"@en ;
+        ramon:code  "DE-097785761" ;
+        rdfs:label  "DE-097785761 Boos" .
+
+lau:DE-097785766  ramon:name  "Dirlewang, M"@en ;
+        ramon:code  "DE-097785766" ;
+        rdfs:label  "DE-097785766 Dirlewang, M" .
+
+lau:DE-097785767  ramon:name  "Legau, M"@en ;
+        ramon:code  "DE-097785767" ;
+        rdfs:label  "DE-097785767 Legau, M" .
+
+lau:DE-097785764  ramon:name  "Türkheim, M"@en ;
+        ramon:code  "DE-097785764" ;
+        rdfs:label  "DE-097785764 Türkheim, M" .
+
+lau:DE-083265001  ramon:name  "Donaueschingen, Stadt"@en ;
+        ramon:code  "DE-083265001" ;
+        rdfs:label  "DE-083265001 Donaueschingen, Stadt" .
+
+lau:DE-097725707  ramon:name  "Welden, M"@en ;
+        ramon:code  "DE-097725707" ;
+        rdfs:label  "DE-097725707 Welden, M" .
+
+lau:DE-150845052  ramon:name  "Kretzschau"@en ;
+        ramon:code  "DE-150845052" ;
+        rdfs:label  "DE-150845052 Kretzschau" .
+
+lau:DE-097785768  ramon:name  "Bad Grönenbach, M"@en ;
+        ramon:code  "DE-097785768" ;
+        rdfs:label  "DE-097785768 Bad Grönenbach, M" .
+
+lau:DE-130735351  ramon:name  "Prohn"@en ;
+        ramon:code  "DE-130735351" ;
+        rdfs:label  "DE-130735351 Prohn" .
+
+lau:DE-096729444  ramon:name  "Gdefr. Geb. (Lkr Bad Kissingen)"@en ;
+        ramon:code  "DE-096729444" ;
+        rdfs:label  "DE-096729444 Gdefr. Geb. (Lkr Bad Kissingen)" .
+
+lau:DE-096745613  ramon:name  "Theres"@en ;
+        ramon:code  "DE-096745613" ;
+        rdfs:label  "DE-096745613 Theres" .
+
+lau:DE-096739444  ramon:name  "Gdefr. Geb. (Lkr Rhön-Grabfeld)"@en ;
+        ramon:code  "DE-096739444" ;
+        rdfs:label  "DE-096739444 Gdefr. Geb. (Lkr Rhön-Grabfeld)" .
+
+lau:DE-146255207  ramon:name  "Bischofswerda, Stadt"@en ;
+        ramon:code  "DE-146255207" ;
+        rdfs:label  "DE-146255207 Bischofswerda, Stadt" .
+
+lau:DE-096745612  ramon:name  "Hofheim i.UFr., St"@en ;
+        ramon:code  "DE-096745612" ;
+        rdfs:label  "DE-096745612 Hofheim i.UFr., St" .
+
+lau:DE-082255004  ramon:name  "Limbach"@en ;
+        ramon:code  "DE-082255004" ;
+        rdfs:label  "DE-082255004 Limbach" .
+
+lau:DE-096745611  ramon:name  "Ebern, St"@en ;
+        ramon:code  "DE-096745611" ;
+        rdfs:label  "DE-096745611 Ebern, St" .
+
+lau:DE-010585890  ramon:name  "Owschlag"@en ;
+        ramon:code  "DE-010585890" ;
+        rdfs:label  "DE-010585890 Owschlag" .
+
+lau:DE-010585893  ramon:name  "Rieseby"@en ;
+        ramon:code  "DE-010585893" ;
+        rdfs:label  "DE-010585893 Rieseby" .
+
+lau:DE-096745610  ramon:name  "Ebelsbach"@en ;
+        ramon:code  "DE-096745610" ;
+        rdfs:label  "DE-096745610 Ebelsbach" .
+
+lau:DE-072315009  ramon:name  "Traben-Trarbach, Stadt"@en ;
+        ramon:code  "DE-072315009" ;
+        rdfs:label  "DE-072315009 Traben-Trarbach, Stadt" .
+
+lau:DE-072315008  ramon:name  "Salmtal"@en ;
+        ramon:code  "DE-072315008" ;
+        rdfs:label  "DE-072315008 Salmtal" .
+
+lau:DE-160615003  ramon:name  "Dingelstädt, Stadt"@en ;
+        ramon:code  "DE-160615003" ;
+        rdfs:label  "DE-160615003 Dingelstädt, Stadt" .
+
+lau:DE-072315006  ramon:name  "Thalfang"@en ;
+        ramon:code  "DE-072315006" ;
+        rdfs:label  "DE-072315006 Thalfang" .
+
+lau:DE-072315001  ramon:name  "Bernkastel-Kues, Stadt"@en ;
+        ramon:code  "DE-072315001" ;
+        rdfs:label  "DE-072315001 Bernkastel-Kues, Stadt" .
+
+lau:DE-160735051  ramon:name  "Kaulsdorf"@en ;
+        ramon:code  "DE-160735051" ;
+        rdfs:label  "DE-160735051 Kaulsdorf" .
+
+lau:DE-150835053  ramon:name  "Eilsleben"@en ;
+        ramon:code  "DE-150835053" ;
+        rdfs:label  "DE-150835053 Eilsleben" .
+
+lau:DE-095745529  ramon:name  "Henfenfeld"@en ;
+        ramon:code  "DE-095745529" ;
+        rdfs:label  "DE-095745529 Henfenfeld" .
+
+lau:DE-097775749  ramon:name  "Pforzen"@en ;
+        ramon:code  "DE-097775749" ;
+        rdfs:label  "DE-097775749 Pforzen" .
+
+lau:DE-081255013  ramon:name  "Schwaigern, Stadt"@en ;
+        ramon:code  "DE-081255013" ;
+        rdfs:label  "DE-081255013 Schwaigern, Stadt" .
+
+lau:DE-081255012  ramon:name  "Ilsfeld"@en ;
+        ramon:code  "DE-081255012" ;
+        rdfs:label  "DE-081255012 Ilsfeld" .
+
+lau:DE-081255011  ramon:name  "Obersulm"@en ;
+        ramon:code  "DE-081255011" ;
+        rdfs:label  "DE-081255011 Obersulm" .
+
+lau:DE-081255010  ramon:name  "Güglingen, Stadt"@en ;
+        ramon:code  "DE-081255010" ;
+        rdfs:label  "DE-081255010 Güglingen, Stadt" .
+
+lau:DE-093715304  ramon:name  "Illschwang"@en ;
+        ramon:code  "DE-093715304" ;
+        rdfs:label  "DE-093715304 Illschwang" .
+
+lau:DE-081255014  ramon:name  "Weinsberg, Stadt"@en ;
+        ramon:code  "DE-081255014" ;
+        rdfs:label  "DE-081255014 Weinsberg, Stadt" .
+
+lau:DE-097775772  ramon:name  "Stötten a.Auerberg"@en ;
+        ramon:code  "DE-097775772" ;
+        rdfs:label  "DE-097775772 Stötten a.Auerberg" .
+
+lau:DE-094755428  ramon:name  "Lichtenberg, St"@en ;
+        ramon:code  "DE-094755428" ;
+        rdfs:label  "DE-094755428 Lichtenberg, St" .
+
+lau:DE-097775770  ramon:name  "Roßhaupten"@en ;
+        ramon:code  "DE-097775770" ;
+        rdfs:label  "DE-097775770 Roßhaupten" .
+
+lau:DE-083265003  ramon:name  "Triberg im Schwarzwald, Stadt"@en ;
+        ramon:code  "DE-083265003" ;
+        rdfs:label  "DE-083265003 Triberg im Schwarzwald, Stadt" .
+
+lau:DE-130715152  ramon:name  "Friedland, Stadt"@en ;
+        ramon:code  "DE-130715152" ;
+        rdfs:label  "DE-130715152 Friedland, Stadt" .
+
+lau:DE-073385004  ramon:name  "Maxdorf"@en ;
+        ramon:code  "DE-073385004" ;
+        rdfs:label  "DE-073385004 Maxdorf" .
+
+lau:DE-073385007  ramon:name  "Römerberg"@en ;
+        ramon:code  "DE-073385007" ;
+        rdfs:label  "DE-073385007 Römerberg" .
+
+lau:DE-160705050  ramon:name  "Arnstadt, Stadt"@en ;
+        ramon:code  "DE-160705050" ;
+        rdfs:label  "DE-160705050 Arnstadt, Stadt" .
+
+lau:DE-096775621  ramon:name  "Erlenbach b.Marktheidenfeld"@en ;
+        ramon:code  "DE-096775621" ;
+        rdfs:label  "DE-096775621 Erlenbach b.Marktheidenfeld" .
+
+lau:DE-160695004  ramon:name  "Straufhain"@en ;
+        ramon:code  "DE-160695004" ;
+        rdfs:label  "DE-160695004 Straufhain" .
+
+lau:DE-073385006  ramon:name  "Lambsheim"@en ;
+        ramon:code  "DE-073385006" ;
+        rdfs:label  "DE-073385006 Lambsheim" .
+
+lau:DE-160695002  ramon:name  "Reurieth"@en ;
+        ramon:code  "DE-160695002" ;
+        rdfs:label  "DE-160695002 Reurieth" .
+
+lau:DE-094775439  ramon:name  "Ködnitz"@en ;
+        ramon:code  "DE-094775439" ;
+        rdfs:label  "DE-094775439 Ködnitz" .
+
+lau:DE-096775620  ramon:name  "Kreuzwertheim, M"@en ;
+        ramon:code  "DE-096775620" ;
+        rdfs:label  "DE-096775620 Kreuzwertheim, M" .
+
+lau:DE-160715007  ramon:name  "Kranichfeld, Stadt"@en ;
+        ramon:code  "DE-160715007" ;
+        rdfs:label  "DE-160715007 Kranichfeld, Stadt" .
+
+lau:DE-073385001  ramon:name  "Dannstadt-Schauernheim"@en ;
+        ramon:code  "DE-073385001" ;
+        rdfs:label  "DE-073385001 Dannstadt-Schauernheim" .
+
+lau:DE-096775623  ramon:name  "Karsbach"@en ;
+        ramon:code  "DE-096775623" ;
+        rdfs:label  "DE-096775623 Karsbach" .
+
+lau:DE-130765658  ramon:name  "Kuhstorf"@en ;
+        ramon:code  "DE-130765658" ;
+        rdfs:label  "DE-130765658 Kuhstorf" .
+
+lau:DE-073365002  ramon:name  "Herschweiler-Pettersheim"@en ;
+        ramon:code  "DE-073365002" ;
+        rdfs:label  "DE-073365002 Herschweiler-Pettersheim" .
+
+lau:DE-081165006  ramon:name  "Plochingen, Stadt"@en ;
+        ramon:code  "DE-081165006" ;
+        rdfs:label  "DE-081165006 Plochingen, Stadt" .
+
+lau:DE-081165007  ramon:name  "Reichenbach an der Fils"@en ;
+        ramon:code  "DE-081165007" ;
+        rdfs:label  "DE-081165007 Reichenbach an der Fils" .
+
+lau:DE-081165004  ramon:name  "Neuffen, Stadt"@en ;
+        ramon:code  "DE-081165004" ;
+        rdfs:label  "DE-081165004 Neuffen, Stadt" .
+
+lau:DE-081165005  ramon:name  "Nürtingen, Stadt"@en ;
+        ramon:code  "DE-081165005" ;
+        rdfs:label  "DE-081165005 Nürtingen, Stadt" .
+
+lau:DE-081165002  ramon:name  "Lenningen"@en ;
+        ramon:code  "DE-081165002" ;
+        rdfs:label  "DE-081165002 Lenningen" .
+
+lau:DE-073365001  ramon:name  "Altenglan"@en ;
+        ramon:code  "DE-073365001" ;
+        rdfs:label  "DE-073365001 Altenglan" .
+
+lau:DE-093775349  ramon:name  "Neusorg"@en ;
+        ramon:code  "DE-093775349" ;
+        rdfs:label  "DE-093775349 Neusorg" .
+
+lau:DE-081165001  ramon:name  "Kirchheim unter Teck, Stadt"@en ;
+        ramon:code  "DE-081165001" ;
+        rdfs:label  "DE-081165001 Kirchheim unter Teck, Stadt" .
+
+lau:DE-093775347  ramon:name  "Mitterteich, St"@en ;
+        ramon:code  "DE-093775347" ;
+        rdfs:label  "DE-093775347 Mitterteich, St" .
+
+lau:DE-096775625  ramon:name  "Zellingen, M"@en ;
+        ramon:code  "DE-096775625" ;
+        rdfs:label  "DE-096775625 Zellingen, M" .
+
+lau:DE-081165008  ramon:name  "Weilheim an der Teck, Stadt"@en ;
+        ramon:code  "DE-081165008" ;
+        rdfs:label  "DE-081165008 Weilheim an der Teck, Stadt" .
+
+lau:DE-010605024  ramon:name  "Trappenkamp"@en ;
+        ramon:code  "DE-010605024" ;
+        rdfs:label  "DE-010605024 Trappenkamp" .
+
+lau:DE-147305302  ramon:name  "Beilrode"@en ;
+        ramon:code  "DE-147305302" ;
+        rdfs:label  "DE-147305302 Beilrode" .
+
+lau:DE-081155006  ramon:name  "Waldenbuch, Stadt"@en ;
+        ramon:code  "DE-081155006" ;
+        rdfs:label  "DE-081155006 Waldenbuch, Stadt" .
+
+lau:DE-120675709  ramon:name  "Spreenhagen"@en ;
+        ramon:code  "DE-120675709" ;
+        rdfs:label  "DE-120675709 Spreenhagen" .
+
+lau:DE-120675708  ramon:name  "Müllrose, Stadt"@en ;
+        ramon:code  "DE-120675708" ;
+        rdfs:label  "DE-120675708 Müllrose, Stadt" .
+
+lau:DE-120675707  ramon:name  "Bad Saarow"@en ;
+        ramon:code  "DE-120675707" ;
+        rdfs:label  "DE-120675707 Bad Saarow" .
+
+lau:DE-010585803  ramon:name  "Felde"@en ;
+        ramon:code  "DE-010585803" ;
+        rdfs:label  "DE-010585803 Felde" .
+
+lau:DE-120675705  ramon:name  "Neuzelle"@en ;
+        ramon:code  "DE-120675705" ;
+        rdfs:label  "DE-120675705 Neuzelle" .
+
+lau:DE-091855154  ramon:name  "Bergheim"@en ;
+        ramon:code  "DE-091855154" ;
+        rdfs:label  "DE-091855154 Bergheim" .
+
+lau:DE-145215115  ramon:name  "Lugau/Erzgeb., Stadt"@en ;
+        ramon:code  "DE-145215115" ;
+        rdfs:label  "DE-145215115 Lugau/Erzgeb., Stadt" .
+
+lau:DE-120675701  ramon:name  "Brieskow-Finkenheerd"@en ;
+        ramon:code  "DE-120675701" ;
+        rdfs:label  "DE-120675701 Brieskow-Finkenheerd" .
+
+lau:DE-160715008  ramon:name  "Magdala, Stadt"@en ;
+        ramon:code  "DE-160715008" ;
+        rdfs:label  "DE-160715008 Magdala, Stadt" .
+
+lau:DE-083265002  ramon:name  "Furtwangen im Schwarzwald, Stadt"@en ;
+        ramon:code  "DE-083265002" ;
+        rdfs:label  "DE-083265002 Furtwangen im Schwarzwald, Stadt" .
+
+lau:DE-081155001  ramon:name  "Aidlingen"@en ;
+        ramon:code  "DE-081155001" ;
+        rdfs:label  "DE-081155001 Aidlingen" .
+
+lau:DE-147295308  ramon:name  "Pegau, Stadt"@en ;
+        ramon:code  "DE-147295308" ;
+        rdfs:label  "DE-147295308 Pegau, Stadt" .
+
+lau:DE-096785642  ramon:name  "Gerolzhofen, St"@en ;
+        ramon:code  "DE-096785642" ;
+        rdfs:label  "DE-096785642 Gerolzhofen, St" .
+
+lau:DE-147295305  ramon:name  "Geithain, Stadt"@en ;
+        ramon:code  "DE-147295305" ;
+        rdfs:label  "DE-147295305 Geithain, Stadt" .
+
+lau:DE-145235134  ramon:name  "Treuen, Stadt"@en ;
+        ramon:code  "DE-145235134" ;
+        rdfs:label  "DE-145235134 Treuen, Stadt" .
+
+lau:DE-081155002  ramon:name  "Gärtringen"@en ;
+        ramon:code  "DE-081155002" ;
+        rdfs:label  "DE-081155002 Gärtringen" .
+
+lau:DE-147295301  ramon:name  "Bad Lausick, Stadt"@en ;
+        ramon:code  "DE-147295301" ;
+        rdfs:label  "DE-147295301 Bad Lausick, Stadt" .
+
+lau:DE-091855155  ramon:name  "Gachenbach"@en ;
+        ramon:code  "DE-091855155" ;
+        rdfs:label  "DE-091855155 Gachenbach" .
+
+lau:DE-073385008  ramon:name  "Altrip"@en ;
+        ramon:code  "DE-073385008" ;
+        rdfs:label  "DE-073385008 Altrip" .
+
+lau:DE-096795649  ramon:name  "Helmstadt, M"@en ;
+        ramon:code  "DE-096795649" ;
+        rdfs:label  "DE-096795649 Helmstadt, M" .
+
+lau:DE-096795648  ramon:name  "Giebelstadt, M"@en ;
+        ramon:code  "DE-096795648" ;
+        rdfs:label  "DE-096795648 Giebelstadt, M" .
+
+lau:DE-160615004  ramon:name  "Niederorschel"@en ;
+        ramon:code  "DE-160615004" ;
+        rdfs:label  "DE-160615004 Niederorschel" .
+
+lau:DE-130745458  ramon:name  "Rehna, Stadt"@en ;
+        ramon:code  "DE-130745458" ;
+        rdfs:label  "DE-130745458 Rehna, Stadt" .
+
+lau:DE-073365008  ramon:name  "Lauterecken, Stadt"@en ;
+        ramon:code  "DE-073365008" ;
+        rdfs:label  "DE-073365008 Lauterecken, Stadt" .
+
+lau:DE-096795645  ramon:name  "Bergtheim"@en ;
+        ramon:code  "DE-096795645" ;
+        rdfs:label  "DE-096795645 Bergtheim" .
+
+lau:DE-083265004  ramon:name  "Villingen-Schwenningen, Stadt"@en ;
+        ramon:code  "DE-083265004" ;
+        rdfs:label  "DE-083265004 Villingen-Schwenningen, Stadt" .
+
+lau:DE-096795647  ramon:name  "Estenfeld"@en ;
+        ramon:code  "DE-096795647" ;
+        rdfs:label  "DE-096795647 Estenfeld" .
+
+lau:DE-096795646  ramon:name  "Eibelstadt, St"@en ;
+        ramon:code  "DE-096795646" ;
+        rdfs:label  "DE-096795646 Eibelstadt, St" .
+
+lau:DE-096795652  ramon:name  "Margetshöchheim"@en ;
+        ramon:code  "DE-096795652" ;
+        rdfs:label  "DE-096795652 Margetshöchheim" .
+
+lau:DE-010595974  ramon:name  "Süderbrarup"@en ;
+        ramon:code  "DE-010595974" ;
+        rdfs:label  "DE-010595974 Süderbrarup" .
+
+lau:DE-096785643  ramon:name  "Schwanfeld"@en ;
+        ramon:code  "DE-096785643" ;
+        rdfs:label  "DE-096785643 Schwanfeld" .
+
+lau:DE-081285004  ramon:name  "Tauberbischofsheim, Stadt"@en ;
+        ramon:code  "DE-081285004" ;
+        rdfs:label  "DE-081285004 Tauberbischofsheim, Stadt" .
+
+lau:DE-160635003  ramon:name  "Berka/Werra, Stadt"@en ;
+        ramon:code  "DE-160635003" ;
+        rdfs:label  "DE-160635003 Berka/Werra, Stadt" .
+
+lau:DE-081285001  ramon:name  "Bad Mergentheim, Stadt"@en ;
+        ramon:code  "DE-081285001" ;
+        rdfs:label  "DE-081285001 Bad Mergentheim, Stadt" .
+
+lau:DE-081285003  ramon:name  "Grünsfeld, Stadt"@en ;
+        ramon:code  "DE-081285003" ;
+        rdfs:label  "DE-081285003 Grünsfeld, Stadt" .
+
+lau:DE-081285002  ramon:name  "Boxberg, Stadt"@en ;
+        ramon:code  "DE-081285002" ;
+        rdfs:label  "DE-081285002 Boxberg, Stadt" .
+
+lau:DE-130745454  ramon:name  "Klütz, Stadt"@en ;
+        ramon:code  "DE-130745454" ;
+        rdfs:label  "DE-130745454 Klütz, Stadt" .
+
+lau:DE-130745455  ramon:name  "Brüsewitz"@en ;
+        ramon:code  "DE-130745455" ;
+        rdfs:label  "DE-130745455 Brüsewitz" .
+
+lau:DE-160615001  ramon:name  "Teistungen"@en ;
+        ramon:code  "DE-160615001" ;
+        rdfs:label  "DE-160615001 Teistungen" .
+
+lau:DE-081275009  ramon:name  "Schwäbisch Hall, Stadt"@en ;
+        ramon:code  "DE-081275009" ;
+        rdfs:label  "DE-081275009 Schwäbisch Hall, Stadt" .
+
+lau:DE-120735303  ramon:name  "Brüssow, Stadt"@en ;
+        ramon:code  "DE-120735303" ;
+        rdfs:label  "DE-120735303 Brüssow, Stadt" .
+
+lau:DE-097805742  ramon:name  "Fischen i.Allgäu"@en ;
+        ramon:code  "DE-097805742" ;
+        rdfs:label  "DE-097805742 Fischen i.Allgäu" .
+
+lau:DE-033585403  ramon:name  "Schwarmstedt"@en ;
+        ramon:code  "DE-033585403" ;
+        rdfs:label  "DE-033585403 Schwarmstedt" .
+
+lau:DE-033585402  ramon:name  "Rethem (Aller), Stadt"@en ;
+        ramon:code  "DE-033585402" ;
+        rdfs:label  "DE-033585402 Rethem (Aller), Stadt" .
+
+lau:DE-033585401  ramon:name  "Hodenhagen"@en ;
+        ramon:code  "DE-033585401" ;
+        rdfs:label  "DE-033585401 Hodenhagen" .
+
+lau:DE-160625004  ramon:name  "Wipperdorf"@en ;
+        ramon:code  "DE-160625004" ;
+        rdfs:label  "DE-160625004 Wipperdorf" .
+
+lau:DE-031545401  ramon:name  "Grasleben"@en ;
+        ramon:code  "DE-031545401" ;
+        rdfs:label  "DE-031545401 Grasleben" .
+
+lau:DE-097805745  ramon:name  "Weitnau, M"@en ;
+        ramon:code  "DE-097805745" ;
+        rdfs:label  "DE-097805745 Weitnau, M" .
+
+lau:DE-031545403  ramon:name  "Süpplingen"@en ;
+        ramon:code  "DE-031545403" ;
+        rdfs:label  "DE-031545403 Süpplingen" .
+
+lau:DE-031545402  ramon:name  "Jerxheim"@en ;
+        ramon:code  "DE-031545402" ;
+        rdfs:label  "DE-031545402 Jerxheim" .
+
+lau:DE-031545404  ramon:name  "Velpke"@en ;
+        ramon:code  "DE-031545404" ;
+        rdfs:label  "DE-031545404 Velpke" .
+
+lau:DE-010575739  ramon:name  "Grebin"@en ;
+        ramon:code  "DE-010575739" ;
+        rdfs:label  "DE-010575739 Grebin" .
+
+lau:DE-010615104  ramon:name  "Lägerdorf"@en ;
+        ramon:code  "DE-010615104" ;
+        rdfs:label  "DE-010615104 Lägerdorf" .
+
+lau:DE-146265224  ramon:name  "Neusalza-Spremberg, Stadt"@en ;
+        ramon:code  "DE-146265224" ;
+        rdfs:label  "DE-146265224 Neusalza-Spremberg, Stadt" .
+
+lau:DE-146265227  ramon:name  "Olbersdorf"@en ;
+        ramon:code  "DE-146265227" ;
+        rdfs:label  "DE-146265227 Olbersdorf" .
+
+lau:DE-120665607  ramon:name  "Ruhland, Stadt"@en ;
+        ramon:code  "DE-120665607" ;
+        rdfs:label  "DE-120665607 Ruhland, Stadt" .
+
+lau:DE-146265220  ramon:name  "Löbau, Stadt"@en ;
+        ramon:code  "DE-146265220" ;
+        rdfs:label  "DE-146265220 Löbau, Stadt" .
+
+lau:DE-160615008  ramon:name  "Arenshausen"@en ;
+        ramon:code  "DE-160615008" ;
+        rdfs:label  "DE-160615008 Arenshausen" .
+
+lau:DE-150835051  ramon:name  "Colbitz"@en ;
+        ramon:code  "DE-150835051" ;
+        rdfs:label  "DE-150835051 Colbitz" .
+
+lau:DE-083155010  ramon:name  "Löffingen, Stadt"@en ;
+        ramon:code  "DE-083155010" ;
+        rdfs:label  "DE-083155010 Löffingen, Stadt" .
+
+lau:DE-083155011  ramon:name  "March"@en ;
+        ramon:code  "DE-083155011" ;
+        rdfs:label  "DE-083155011 March" .
+
+lau:DE-083155012  ramon:name  "Müllheim, Stadt"@en ;
+        ramon:code  "DE-083155012" ;
+        rdfs:label  "DE-083155012 Müllheim, Stadt" .
+
+lau:DE-083155013  ramon:name  "Glottertal"@en ;
+        ramon:code  "DE-083155013" ;
+        rdfs:label  "DE-083155013 Glottertal" .
+
+lau:DE-083155014  ramon:name  "Schallstadt"@en ;
+        ramon:code  "DE-083155014" ;
+        rdfs:label  "DE-083155014 Schallstadt" .
+
+lau:DE-083155015  ramon:name  "Schluchsee"@en ;
+        ramon:code  "DE-083155015" ;
+        rdfs:label  "DE-083155015 Schluchsee" .
+
+lau:DE-083155016  ramon:name  "Staufen im Breisgau, Stadt"@en ;
+        ramon:code  "DE-083155016" ;
+        rdfs:label  "DE-083155016 Staufen im Breisgau, Stadt" .
+
+lau:DE-010535323  ramon:name  "Börnsen"@en ;
+        ramon:code  "DE-010535323" ;
+        rdfs:label  "DE-010535323 Börnsen" .
+
+lau:DE-071385007  ramon:name  "Unkel, Stadt"@en ;
+        ramon:code  "DE-071385007" ;
+        rdfs:label  "DE-071385007 Unkel, Stadt" .
+
+lau:DE-071385006  ramon:name  "Rengsdorf"@en ;
+        ramon:code  "DE-071385006" ;
+        rdfs:label  "DE-071385006 Rengsdorf" .
+
+lau:DE-071385005  ramon:name  "Puderbach"@en ;
+        ramon:code  "DE-071385005" ;
+        rdfs:label  "DE-071385005 Puderbach" .
+
+lau:DE-071385004  ramon:name  "Linz am Rhein, Stadt"@en ;
+        ramon:code  "DE-071385004" ;
+        rdfs:label  "DE-071385004 Linz am Rhein, Stadt" .
+
+lau:DE-071385003  ramon:name  "Dierdorf, Stadt"@en ;
+        ramon:code  "DE-071385003" ;
+        rdfs:label  "DE-071385003 Dierdorf, Stadt" .
+
+lau:DE-071385002  ramon:name  "Bad Hönningen, Stadt"@en ;
+        ramon:code  "DE-071385002" ;
+        rdfs:label  "DE-071385002 Bad Hönningen, Stadt" .
+
+lau:DE-071385001  ramon:name  "Asbach"@en ;
+        ramon:code  "DE-071385001" ;
+        rdfs:label  "DE-071385001 Asbach" .
+
+lau:DE-160755004  ramon:name  "Oettersdorf"@en ;
+        ramon:code  "DE-160755004" ;
+        rdfs:label  "DE-160755004 Oettersdorf" .
+
+lau:DE-150835054  ramon:name  "Gröningen, Stadt"@en ;
+        ramon:code  "DE-150835054" ;
+        rdfs:label  "DE-150835054 Gröningen, Stadt" .
+
+lau:DE-097725706  ramon:name  "Nordendorf"@en ;
+        ramon:code  "DE-097725706" ;
+        rdfs:label  "DE-097725706 Nordendorf" .
+
+lau:DE-034525403  ramon:name  "Hage, Flecken"@en ;
+        ramon:code  "DE-034525403" ;
+        rdfs:label  "DE-034525403 Hage, Flecken" .
+
+lau:DE-071385008  ramon:name  "Breitscheid"@en ;
+        ramon:code  "DE-071385008" ;
+        rdfs:label  "DE-071385008 Breitscheid" .
+
+lau:DE-146255216  ramon:name  "Kamenz, Stadt"@en ;
+        ramon:code  "DE-146255216" ;
+        rdfs:label  "DE-146255216 Kamenz, Stadt" .
+
+lau:DE-097765737  ramon:name  "Röthenbach (Allgäu)"@en ;
+        ramon:code  "DE-097765737" ;
+        rdfs:label  "DE-097765737 Röthenbach (Allgäu)" .
+
+lau:DE-146255212  ramon:name  "Großpostwitz/O.L."@en ;
+        ramon:code  "DE-146255212" ;
+        rdfs:label  "DE-146255212 Großpostwitz/O.L." .
+
+lau:DE-091835148  ramon:name  "Kraiburg a.Inn, M"@en ;
+        ramon:code  "DE-091835148" ;
+        rdfs:label  "DE-091835148 Kraiburg a.Inn, M" .
+
+lau:DE-082365002  ramon:name  "Königsbach-Stein"@en ;
+        ramon:code  "DE-082365002" ;
+        rdfs:label  "DE-082365002 Königsbach-Stein" .
+
+lau:DE-091835146  ramon:name  "Gars a.Inn, M"@en ;
+        ramon:code  "DE-091835146" ;
+        rdfs:label  "DE-091835146 Gars a.Inn, M" .
+
+lau:DE-091835147  ramon:name  "Reichertsheim"@en ;
+        ramon:code  "DE-091835147" ;
+        rdfs:label  "DE-091835147 Reichertsheim" .
+
+lau:DE-160695050  ramon:name  "Eisfeld, Stadt"@en ;
+        ramon:code  "DE-160695050" ;
+        rdfs:label  "DE-160695050 Eisfeld, Stadt" .
+
+lau:DE-091835145  ramon:name  "Heldenstein"@en ;
+        ramon:code  "DE-091835145" ;
+        rdfs:label  "DE-091835145 Heldenstein" .
+
+lau:DE-033565401  ramon:name  "Hambergen"@en ;
+        ramon:code  "DE-033565401" ;
+        rdfs:label  "DE-033565401 Hambergen" .
+
+lau:DE-094769444  ramon:name  "Gdefr. Geb. (Lkr Kronach)"@en ;
+        ramon:code  "DE-094769444" ;
+        rdfs:label  "DE-094769444 Gdefr. Geb. (Lkr Kronach)" .
+
+lau:DE-146255218  ramon:name  "Königsbrück, Stadt"@en ;
+        ramon:code  "DE-146255218" ;
+        rdfs:label  "DE-146255218 Königsbrück, Stadt" .
+
+lau:DE-095745527  ramon:name  "Velden, St"@en ;
+        ramon:code  "DE-095745527" ;
+        rdfs:label  "DE-095745527 Velden, St" .
+
+lau:DE-031515401  ramon:name  "Weyhausen"@en ;
+        ramon:code  "DE-031515401" ;
+        rdfs:label  "DE-031515401 Weyhausen" .
+
+lau:DE-031515402  ramon:name  "Rühen"@en ;
+        ramon:code  "DE-031515402" ;
+        rdfs:label  "DE-031515402 Rühen" .
+
+lau:DE-031515403  ramon:name  "Hankensbüttel"@en ;
+        ramon:code  "DE-031515403" ;
+        rdfs:label  "DE-031515403 Hankensbüttel" .
+
+lau:DE-031515404  ramon:name  "Isenbüttel"@en ;
+        ramon:code  "DE-031515404" ;
+        rdfs:label  "DE-031515404 Isenbüttel" .
+
+lau:DE-031515405  ramon:name  "Meinersen"@en ;
+        ramon:code  "DE-031515405" ;
+        rdfs:label  "DE-031515405 Meinersen" .
+
+lau:DE-031515406  ramon:name  "Meine"@en ;
+        ramon:code  "DE-031515406" ;
+        rdfs:label  "DE-031515406 Meine" .
+
+lau:DE-033549501  ramon:name  "Gartow, gemfr. Gebiet"@en ;
+        ramon:code  "DE-033549501" ;
+        rdfs:label  "DE-033549501 Gartow, gemfr. Gebiet" .
+
+lau:DE-010605005  ramon:name  "Großenaspe"@en ;
+        ramon:code  "DE-010605005" ;
+        rdfs:label  "DE-010605005 Großenaspe" .
+
+lau:DE-034579501  ramon:name  "Insel Lütje Hörn, gemfr. Gebiet"@en ;
+        ramon:code  "DE-034579501" ;
+        rdfs:label  "DE-034579501 Insel Lütje Hörn, gemfr. Gebiet" .
+
+lau:DE-120695910  ramon:name  "Niemegk, Stadt"@en ;
+        ramon:code  "DE-120695910" ;
+        rdfs:label  "DE-120695910 Niemegk, Stadt" .
+
+lau:DE-083175009  ramon:name  "Oberkirch, Stadt"@en ;
+        ramon:code  "DE-083175009" ;
+        rdfs:label  "DE-083175009 Oberkirch, Stadt" .
+
+lau:DE-083175008  ramon:name  "Oppenau, Stadt"@en ;
+        ramon:code  "DE-083175008" ;
+        rdfs:label  "DE-083175008 Oppenau, Stadt" .
+
+lau:DE-146285202  ramon:name  "Bad Gottleuba-Berggießhübel, Stadt"@en ;
+        ramon:code  "DE-146285202" ;
+        rdfs:label  "DE-146285202 Bad Gottleuba-Berggießhübel, Stadt" .
+
+lau:DE-083175001  ramon:name  "Achern, Stadt"@en ;
+        ramon:code  "DE-083175001" ;
+        rdfs:label  "DE-083175001 Achern, Stadt" .
+
+lau:DE-083175003  ramon:name  "Gengenbach, Stadt"@en ;
+        ramon:code  "DE-083175003" ;
+        rdfs:label  "DE-083175003 Gengenbach, Stadt" .
+
+lau:DE-083175002  ramon:name  "Ettenheim, Stadt"@en ;
+        ramon:code  "DE-083175002" ;
+        rdfs:label  "DE-083175002 Ettenheim, Stadt" .
+
+lau:DE-083175005  ramon:name  "Hausach, Stadt"@en ;
+        ramon:code  "DE-083175005" ;
+        rdfs:label  "DE-083175005 Hausach, Stadt" .
+
+lau:DE-083175004  ramon:name  "Haslach im Kinzigtal, Stadt"@en ;
+        ramon:code  "DE-083175004" ;
+        rdfs:label  "DE-083175004 Haslach im Kinzigtal, Stadt" .
+
+lau:DE-083175007  ramon:name  "Lahr/Schwarzwald, Stadt"@en ;
+        ramon:code  "DE-083175007" ;
+        rdfs:label  "DE-083175007 Lahr/Schwarzwald, Stadt" .
+
+lau:DE-083175006  ramon:name  "Kappelrodeck"@en ;
+        ramon:code  "DE-083175006" ;
+        rdfs:label  "DE-083175006 Kappelrodeck" .
+
+lau:DE-084175006  ramon:name  "Schömberg, Stadt"@en ;
+        ramon:code  "DE-084175006" ;
+        rdfs:label  "DE-084175006 Schömberg, Stadt" .
+
+lau:DE-084175007  ramon:name  "Winterlingen"@en ;
+        ramon:code  "DE-084175007" ;
+        rdfs:label  "DE-084175007 Winterlingen" .
+
+lau:DE-084175004  ramon:name  "Hechingen, Stadt"@en ;
+        ramon:code  "DE-084175004" ;
+        rdfs:label  "DE-084175004 Hechingen, Stadt" .
+
+lau:DE-084175005  ramon:name  "Meßstetten, Stadt"@en ;
+        ramon:code  "DE-084175005" ;
+        rdfs:label  "DE-084175005 Meßstetten, Stadt" .
+
+lau:DE-084175002  ramon:name  "Balingen, Stadt"@en ;
+        ramon:code  "DE-084175002" ;
+        rdfs:label  "DE-084175002 Balingen, Stadt" .
+
+lau:DE-084175003  ramon:name  "Bisingen"@en ;
+        ramon:code  "DE-084175003" ;
+        rdfs:label  "DE-084175003 Bisingen" .
+
+lau:DE-084175001  ramon:name  "Albstadt, Stadt"@en ;
+        ramon:code  "DE-084175001" ;
+        rdfs:label  "DE-084175001 Albstadt, Stadt" .
+
+lau:DE-160635004  ramon:name  "Dermbach"@en ;
+        ramon:code  "DE-160635004" ;
+        rdfs:label  "DE-160635004 Dermbach" .
+
+lau:DE-160765056  ramon:name  "Langenwetzendorf"@en ;
+        ramon:code  "DE-160765056" ;
+        rdfs:label  "DE-160765056 Langenwetzendorf" .
+
+lau:DE-130009999  ramon:name  "Küstengewässer einschl. Anteil am Festlandsockel"@en ;
+        ramon:code  "DE-130009999" ;
+        rdfs:label  "DE-130009999 Küstengewässer einschl. Anteil am Festlandsockel" .
+
+lau:DE-150845054  ramon:name  "Osterfeld, Stadt"@en ;
+        ramon:code  "DE-150845054" ;
+        rdfs:label  "DE-150845054 Osterfeld, Stadt" .
+
+lau:DE-130725251  ramon:name  "Admannshagen-Bargeshagen"@en ;
+        ramon:code  "DE-130725251" ;
+        rdfs:label  "DE-130725251 Admannshagen-Bargeshagen" .
+
+lau:DE-130725252  ramon:name  "Bützow, Stadt"@en ;
+        ramon:code  "DE-130725252" ;
+        rdfs:label  "DE-130725252 Bützow, Stadt" .
+
+lau:DE-095735540  ramon:name  "Obermichelbach"@en ;
+        ramon:code  "DE-095735540" ;
+        rdfs:label  "DE-095735540 Obermichelbach" .
+
+lau:DE-130725254  ramon:name  "Gnoien, Stadt"@en ;
+        ramon:code  "DE-130725254" ;
+        rdfs:label  "DE-130725254 Gnoien, Stadt" .
+
+lau:DE-010565636  ramon:name  "Brande-Hörnerkirchen"@en ;
+        ramon:code  "DE-010565636" ;
+        rdfs:label  "DE-010565636 Brande-Hörnerkirchen" .
+
+lau:DE-130725256  ramon:name  "Lalendorf"@en ;
+        ramon:code  "DE-130725256" ;
+        rdfs:label  "DE-130725256 Lalendorf" .
+
+lau:DE-095755522  ramon:name  "Uehlfeld, M"@en ;
+        ramon:code  "DE-095755522" ;
+        rdfs:label  "DE-095755522 Uehlfeld, M" .
+
+lau:DE-130725258  ramon:name  "Groß Wokern"@en ;
+        ramon:code  "DE-130725258" ;
+        rdfs:label  "DE-130725258 Groß Wokern" .
+
+lau:DE-130725259  ramon:name  "Rerik, Stadt"@en ;
+        ramon:code  "DE-130725259" ;
+        rdfs:label  "DE-130725259 Rerik, Stadt" .
+
+lau:DE-160745015  ramon:name  "Dornburg-Camburg, Stadt"@en ;
+        ramon:code  "DE-160745015" ;
+        rdfs:label  "DE-160745015 Dornburg-Camburg, Stadt" .
+
+lau:DE-095755519  ramon:name  "Uffenheim, St"@en ;
+        ramon:code  "DE-095755519" ;
+        rdfs:label  "DE-095755519 Uffenheim, St" .
+
+lau:DE-097715703  ramon:name  "Kühbach, M"@en ;
+        ramon:code  "DE-097715703" ;
+        rdfs:label  "DE-097715703 Kühbach, M" .
+
+lau:DE-095755521  ramon:name  "Diespeck"@en ;
+        ramon:code  "DE-095755521" ;
+        rdfs:label  "DE-095755521 Diespeck" .
+
+lau:DE-160745011  ramon:name  "Rothenstein"@en ;
+        ramon:code  "DE-160745011" ;
+        rdfs:label  "DE-160745011 Rothenstein" .
+
+lau:DE-084255009  ramon:name  "Lonsee"@en ;
+        ramon:code  "DE-084255009" ;
+        rdfs:label  "DE-084255009 Lonsee" .
+
+lau:DE-084255008  ramon:name  "Langenau, Stadt"@en ;
+        ramon:code  "DE-084255008" ;
+        rdfs:label  "DE-084255008 Langenau, Stadt" .
+
+lau:DE-095755520  ramon:name  "Wilhelmsdorf"@en ;
+        ramon:code  "DE-095755520" ;
+        rdfs:label  "DE-095755520 Wilhelmsdorf" .
+
+lau:DE-130735358  ramon:name  "Steinhagen"@en ;
+        ramon:code  "DE-130735358" ;
+        rdfs:label  "DE-130735358 Steinhagen" .
+
+lau:DE-094715407  ramon:name  "Ebrach, M"@en ;
+        ramon:code  "DE-094715407" ;
+        rdfs:label  "DE-094715407 Ebrach, M" .
+
+lau:DE-084255001  ramon:name  "Allmendingen"@en ;
+        ramon:code  "DE-084255001" ;
+        rdfs:label  "DE-084255001 Allmendingen" .
+
+lau:DE-130735355  ramon:name  "Velgast"@en ;
+        ramon:code  "DE-130735355" ;
+        rdfs:label  "DE-130735355 Velgast" .
+
+lau:DE-084255003  ramon:name  "Dietenheim, Stadt"@en ;
+        ramon:code  "DE-084255003" ;
+        rdfs:label  "DE-084255003 Dietenheim, Stadt" .
+
+lau:DE-084255002  ramon:name  "Blaubeuren, Stadt"@en ;
+        ramon:code  "DE-084255002" ;
+        rdfs:label  "DE-084255002 Blaubeuren, Stadt" .
+
+lau:DE-084255005  ramon:name  "Ehingen (Donau), Stadt"@en ;
+        ramon:code  "DE-084255005" ;
+        rdfs:label  "DE-084255005 Ehingen (Donau), Stadt" .
+
+lau:DE-084255004  ramon:name  "Dornstadt"@en ;
+        ramon:code  "DE-084255004" ;
+        rdfs:label  "DE-084255004 Dornstadt" .
+
+lau:DE-084255007  ramon:name  "Laichingen, Stadt"@en ;
+        ramon:code  "DE-084255007" ;
+        rdfs:label  "DE-084255007 Laichingen, Stadt" .
+
+lau:DE-084255006  ramon:name  "Illerkirchberg"@en ;
+        ramon:code  "DE-084255006" ;
+        rdfs:label  "DE-084255006 Illerkirchberg" .
+
+lau:DE-082155006  ramon:name  "Philippsburg, Stadt"@en ;
+        ramon:code  "DE-082155006" ;
+        rdfs:label  "DE-082155006 Philippsburg, Stadt" .
+
+lau:DE-082155007  ramon:name  "Sulzfeld"@en ;
+        ramon:code  "DE-082155007" ;
+        rdfs:label  "DE-082155007 Sulzfeld" .
+
+lau:DE-082155004  ramon:name  "Graben-Neudorf"@en ;
+        ramon:code  "DE-082155004" ;
+        rdfs:label  "DE-082155004 Graben-Neudorf" .
+
+lau:DE-082155005  ramon:name  "Oberderdingen"@en ;
+        ramon:code  "DE-082155005" ;
+        rdfs:label  "DE-082155005 Oberderdingen" .
+
+lau:DE-010625207  ramon:name  "Steinburg"@en ;
+        ramon:code  "DE-010625207" ;
+        rdfs:label  "DE-010625207 Steinburg" .
+
+lau:DE-082155003  ramon:name  "Bruchsal, Stadt"@en ;
+        ramon:code  "DE-082155003" ;
+        rdfs:label  "DE-082155003 Bruchsal, Stadt" .
+
+lau:DE-082155001  ramon:name  "Bad Schönborn"@en ;
+        ramon:code  "DE-082155001" ;
+        rdfs:label  "DE-082155001 Bad Schönborn" .
+
+lau:DE-010555543  ramon:name  "Wangels"@en ;
+        ramon:code  "DE-010555543" ;
+        rdfs:label  "DE-010555543 Wangels" .
+
+lau:DE-120695917  ramon:name  "Wusterwitz"@en ;
+        ramon:code  "DE-120695917" ;
+        rdfs:label  "DE-120695917 Wusterwitz" .
+
+lau:DE-010555546  ramon:name  "Lensahn"@en ;
+        ramon:code  "DE-010555546" ;
+        rdfs:label  "DE-010555546 Lensahn" .
+
+lau:DE-095715506  ramon:name  "Weidenbach, M"@en ;
+        ramon:code  "DE-095715506" ;
+        rdfs:label  "DE-095715506 Weidenbach, M" .
+
+lau:DE-092745223  ramon:name  "Kröning"@en ;
+        ramon:code  "DE-092745223" ;
+        rdfs:label  "DE-092745223 Kröning" .
+
+lau:DE-031525403  ramon:name  "Ebergötzen"@en ;
+        ramon:code  "DE-031525403" ;
+        rdfs:label  "DE-031525403 Ebergötzen" .
+
+lau:DE-031525402  ramon:name  "Gieboldehausen, Flecken"@en ;
+        ramon:code  "DE-031525402" ;
+        rdfs:label  "DE-031525402 Gieboldehausen, Flecken" .
+
+lau:DE-031525401  ramon:name  "Dransfeld, Stadt"@en ;
+        ramon:code  "DE-031525401" ;
+        rdfs:label  "DE-031525401 Dransfeld, Stadt" .
+
+lau:DE-032565410  ramon:name  "Stolzenau"@en ;
+        ramon:code  "DE-032565410" ;
+        rdfs:label  "DE-032565410 Stolzenau" .
+
+lau:DE-092725214  ramon:name  "Perlesreut, M"@en ;
+        ramon:code  "DE-092725214" ;
+        rdfs:label  "DE-092725214 Perlesreut, M" .
+
+lau:DE-160715052  ramon:name  "Ilmtal-Weinstraße"@en ;
+        ramon:code  "DE-160715052" ;
+        rdfs:label  "DE-160715052 Ilmtal-Weinstraße" .
+
+lau:DE-096795651  ramon:name  "Kist"@en ;
+        ramon:code  "DE-096795651" ;
+        rdfs:label  "DE-096795651 Kist" .
+
+lau:DE-092745221  ramon:name  "Furth"@en ;
+        ramon:code  "DE-092745221" ;
+        rdfs:label  "DE-092745221 Furth" .
+
+lau:DE-095745528  ramon:name  "Happurg"@en ;
+        ramon:code  "DE-095745528" ;
+        rdfs:label  "DE-095745528 Happurg" .
+
+lau:DE-010585847  ramon:name  "Hohn"@en ;
+        ramon:code  "DE-010585847" ;
+        rdfs:label  "DE-010585847 Hohn" .
+
+lau:DE-084155002  ramon:name  "Metzingen, Stadt"@en ;
+        ramon:code  "DE-084155002" ;
+        rdfs:label  "DE-084155002 Metzingen, Stadt" .
+
+lau:DE-033595401  ramon:name  "Apensen"@en ;
+        ramon:code  "DE-033595401" ;
+        rdfs:label  "DE-033595401 Apensen" .
+
+lau:DE-084155004  ramon:name  "Pliezhausen"@en ;
+        ramon:code  "DE-084155004" ;
+        rdfs:label  "DE-084155004 Pliezhausen" .
+
+lau:DE-084155005  ramon:name  "Bad Urach, Stadt"@en ;
+        ramon:code  "DE-084155005" ;
+        rdfs:label  "DE-084155005 Bad Urach, Stadt" .
+
+lau:DE-084155006  ramon:name  "Hayingen, Stadt"@en ;
+        ramon:code  "DE-084155006" ;
+        rdfs:label  "DE-084155006 Hayingen, Stadt" .
+
+lau:DE-092765238  ramon:name  "Ruhmannsfelden, M"@en ;
+        ramon:code  "DE-092765238" ;
+        rdfs:label  "DE-092765238 Ruhmannsfelden, M" .
+
+lau:DE-092725211  ramon:name  "Schönberg, M"@en ;
+        ramon:code  "DE-092725211" ;
+        rdfs:label  "DE-092725211 Schönberg, M" .
+
+lau:DE-096799444  ramon:name  "Gdefr. Geb. (Lkr Würzburg)"@en ;
+        ramon:code  "DE-096799444" ;
+        rdfs:label  "DE-096799444 Gdefr. Geb. (Lkr Würzburg)" .
+
+lau:DE-097775752  ramon:name  "Biessenhofen"@en ;
+        ramon:code  "DE-097775752" ;
+        rdfs:label  "DE-097775752 Biessenhofen" .
+
+lau:DE-145245104  ramon:name  "Crimmitschau, Stadt"@en ;
+        ramon:code  "DE-145245104" ;
+        rdfs:label  "DE-145245104 Crimmitschau, Stadt" .
+
+lau:DE-093765342  ramon:name  "Schwarzenfeld, M"@en ;
+        ramon:code  "DE-093765342" ;
+        rdfs:label  "DE-093765342 Schwarzenfeld, M" .
+
+lau:DE-093765343  ramon:name  "Pfreimd, St"@en ;
+        ramon:code  "DE-093765343" ;
+        rdfs:label  "DE-093765343 Pfreimd, St" .
+
+lau:DE-093765341  ramon:name  "Nabburg, St"@en ;
+        ramon:code  "DE-093765341" ;
+        rdfs:label  "DE-093765341 Nabburg, St" .
+
+lau:DE-093765346  ramon:name  "Wackersdorf"@en ;
+        ramon:code  "DE-093765346" ;
+        rdfs:label  "DE-093765346 Wackersdorf" .
+
+lau:DE-092725213  ramon:name  "Thurmansbang"@en ;
+        ramon:code  "DE-092725213" ;
+        rdfs:label  "DE-092725213 Thurmansbang" .
+
+lau:DE-093765344  ramon:name  "Schönsee, St"@en ;
+        ramon:code  "DE-093765344" ;
+        rdfs:label  "DE-093765344 Schönsee, St" .
+
+lau:DE-093765345  ramon:name  "Schwarzhofen, M"@en ;
+        ramon:code  "DE-093765345" ;
+        rdfs:label  "DE-093765345 Schwarzhofen, M" .
+
+lau:DE-094745426  ramon:name  "Dormitz"@en ;
+        ramon:code  "DE-094745426" ;
+        rdfs:label  "DE-094745426 Dormitz" .
+
+lau:DE-094745427  ramon:name  "Gräfenberg, St"@en ;
+        ramon:code  "DE-094745427" ;
+        rdfs:label  "DE-094745427 Gräfenberg, St" .
+
+lau:DE-092725212  ramon:name  "Hinterschmiding"@en ;
+        ramon:code  "DE-092725212" ;
+        rdfs:label  "DE-092725212 Hinterschmiding" .
+
+lau:DE-094745422  ramon:name  "Pinzberg"@en ;
+        ramon:code  "DE-094745422" ;
+        rdfs:label  "DE-094745422 Pinzberg" .
+
+lau:DE-094745423  ramon:name  "Kirchehrenbach"@en ;
+        ramon:code  "DE-094745423" ;
+        rdfs:label  "DE-094745423 Kirchehrenbach" .
+
+lau:DE-094745420  ramon:name  "Ebermannstadt, St"@en ;
+        ramon:code  "DE-094745420" ;
+        rdfs:label  "DE-094745420 Ebermannstadt, St" .
+
+lau:DE-031585407  ramon:name  "Schöppenstedt, Stadt"@en ;
+        ramon:code  "DE-031585407" ;
+        rdfs:label  "DE-031585407 Schöppenstedt, Stadt" .
+
+lau:DE-031585406  ramon:name  "Sickte"@en ;
+        ramon:code  "DE-031585406" ;
+        rdfs:label  "DE-031585406 Sickte" .
+
+lau:DE-097775756  ramon:name  "Seeg"@en ;
+        ramon:code  "DE-097775756" ;
+        rdfs:label  "DE-097775756 Seeg" .
+
+lau:DE-031585403  ramon:name  "Börßum"@en ;
+        ramon:code  "DE-031585403" ;
+        rdfs:label  "DE-031585403 Börßum" .
+
+lau:DE-031585402  ramon:name  "Baddeckenstedt"@en ;
+        ramon:code  "DE-031585402" ;
+        rdfs:label  "DE-031585402 Baddeckenstedt" .
+
+lau:DE-092755232  ramon:name  "Aidenbach, M"@en ;
+        ramon:code  "DE-092755232" ;
+        rdfs:label  "DE-092755232 Aidenbach, M" .
+
+lau:DE-146285219  ramon:name  "Struppen"@en ;
+        ramon:code  "DE-146285219" ;
+        rdfs:label  "DE-146285219 Struppen" .
+
+lau:DE-145225126  ramon:name  "Rochlitz, Stadt"@en ;
+        ramon:code  "DE-145225126" ;
+        rdfs:label  "DE-145225126 Rochlitz, Stadt" .
+
+lau:DE-084265001  ramon:name  "Bad Buchau, Stadt"@en ;
+        ramon:code  "DE-084265001" ;
+        rdfs:label  "DE-084265001 Bad Buchau, Stadt" .
+
+lau:DE-145225123  ramon:name  "Ostrau"@en ;
+        ramon:code  "DE-145225123" ;
+        rdfs:label  "DE-145225123 Ostrau" .
+
+lau:DE-145225119  ramon:name  "Mittweida, Stadt, Hochschulstadt"@en ;
+        ramon:code  "DE-145225119" ;
+        rdfs:label  "DE-145225119 Mittweida, Stadt, Hochschulstadt" .
+
+lau:DE-096775656  ramon:name  "Partenstein"@en ;
+        ramon:code  "DE-096775656" ;
+        rdfs:label  "DE-096775656 Partenstein" .
+
+lau:DE-091895170  ramon:name  "Obing"@en ;
+        ramon:code  "DE-091895170" ;
+        rdfs:label  "DE-091895170 Obing" .
+
+lau:DE-091895173  ramon:name  "Waging a.See, M"@en ;
+        ramon:code  "DE-091895173" ;
+        rdfs:label  "DE-091895173 Waging a.See, M" .
+
+lau:DE-097755739  ramon:name  "Pfaffenhofen a.d.Roth, M"@en ;
+        ramon:code  "DE-097755739" ;
+        rdfs:label  "DE-097755739 Pfaffenhofen a.d.Roth, M" .
+
+lau:DE-084265007  ramon:name  "Riedlingen, Stadt"@en ;
+        ramon:code  "DE-084265007" ;
+        rdfs:label  "DE-084265007 Riedlingen, Stadt" .
+
+lau:DE-071435005  ramon:name  "Ransbach-Baumbach, Stadt"@en ;
+        ramon:code  "DE-071435005" ;
+        rdfs:label  "DE-071435005 Ransbach-Baumbach, Stadt" .
+
+lau:DE-071435004  ramon:name  "Montabaur, Stadt"@en ;
+        ramon:code  "DE-071435004" ;
+        rdfs:label  "DE-071435004 Montabaur, Stadt" .
+
+lau:DE-071435007  ramon:name  "Herschbach"@en ;
+        ramon:code  "DE-071435007" ;
+        rdfs:label  "DE-071435007 Herschbach" .
+
+lau:DE-071435006  ramon:name  "Rennerod, Stadt"@en ;
+        ramon:code  "DE-071435006" ;
+        rdfs:label  "DE-071435006 Rennerod, Stadt" .
+
+lau:DE-071435001  ramon:name  "Bad Marienberg (Westerwald), Stadt"@en ;
+        ramon:code  "DE-071435001" ;
+        rdfs:label  "DE-071435001 Bad Marienberg (Westerwald), Stadt" .
+
+lau:DE-150905052  ramon:name  "Klietz"@en ;
+        ramon:code  "DE-150905052" ;
+        rdfs:label  "DE-150905052 Klietz" .
+
+lau:DE-071435003  ramon:name  "Höhr-Grenzhausen, Stadt"@en ;
+        ramon:code  "DE-071435003" ;
+        rdfs:label  "DE-071435003 Höhr-Grenzhausen, Stadt" .
+
+lau:DE-071435002  ramon:name  "Hachenburg, Stadt"@en ;
+        ramon:code  "DE-071435002" ;
+        rdfs:label  "DE-071435002 Hachenburg, Stadt" .
+
+lau:DE-120655502  ramon:name  "Gransee, Stadt"@en ;
+        ramon:code  "DE-120655502" ;
+        rdfs:label  "DE-120655502 Gransee, Stadt" .
+
+lau:DE-081365003  ramon:name  "Ellwangen (Jagst), Stadt"@en ;
+        ramon:code  "DE-081365003" ;
+        rdfs:label  "DE-081365003 Ellwangen (Jagst), Stadt" .
+
+lau:DE-150905053  ramon:name  "Seehausen (Altmark), Hansestadt"@en ;
+        ramon:code  "DE-150905053" ;
+        rdfs:label  "DE-150905053 Seehausen (Altmark), Hansestadt" .
+
+lau:DE-071435009  ramon:name  "Westerburg, Stadt"@en ;
+        ramon:code  "DE-071435009" ;
+        rdfs:label  "DE-071435009 Westerburg, Stadt" .
+
+lau:DE-071435008  ramon:name  "Hundsangen"@en ;
+        ramon:code  "DE-071435008" ;
+        rdfs:label  "DE-071435008 Hundsangen" .
+
+lau:DE-031549504  ramon:name  "Mariental, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031549504" ;
+        rdfs:label  "DE-031549504 Mariental, gemfr. Gebiet" .
+
+lau:DE-031549506  ramon:name  "Schöningen, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031549506" ;
+        rdfs:label  "DE-031549506 Schöningen, gemfr. Gebiet" .
+
+lau:DE-031549501  ramon:name  "Brunsleberfeld, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031549501" ;
+        rdfs:label  "DE-031549501 Brunsleberfeld, gemfr. Gebiet" .
+
+lau:DE-031549502  ramon:name  "Helmstedt, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031549502" ;
+        rdfs:label  "DE-031549502 Helmstedt, gemfr. Gebiet" .
+
+lau:DE-031549503  ramon:name  "Königslutter, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031549503" ;
+        rdfs:label  "DE-031549503 Königslutter, gemfr. Gebiet" .
+
+lau:DE-033525401  ramon:name  "Wingst"@en ;
+        ramon:code  "DE-033525401" ;
+        rdfs:label  "DE-033525401 Wingst" .
+
+lau:DE-072335002  ramon:name  "Gerolstein, Stadt"@en ;
+        ramon:code  "DE-072335002" ;
+        rdfs:label  "DE-072335002 Gerolstein, Stadt" .
+
+lau:DE-072335001  ramon:name  "Daun, Stadt"@en ;
+        ramon:code  "DE-072335001" ;
+        rdfs:label  "DE-072335001 Daun, Stadt" .
+
+lau:DE-073375001  ramon:name  "Annweiler am Trifels, Stadt"@en ;
+        ramon:code  "DE-073375001" ;
+        rdfs:label  "DE-073375001 Annweiler am Trifels, Stadt" .
+
+lau:DE-073375006  ramon:name  "Maikammer"@en ;
+        ramon:code  "DE-073375006" ;
+        rdfs:label  "DE-073375006 Maikammer" .
+
+lau:DE-033525404  ramon:name  "Lamstedt"@en ;
+        ramon:code  "DE-033525404" ;
+        rdfs:label  "DE-033525404 Lamstedt" .
+
+lau:DE-072335005  ramon:name  "Jünkerath"@en ;
+        ramon:code  "DE-072335005" ;
+        rdfs:label  "DE-072335005 Jünkerath" .
+
+lau:DE-072335004  ramon:name  "Kelberg"@en ;
+        ramon:code  "DE-072335004" ;
+        rdfs:label  "DE-072335004 Kelberg" .
+
+lau:DE-147295307  ramon:name  "Naunhof, Stadt"@en ;
+        ramon:code  "DE-147295307" ;
+        rdfs:label  "DE-147295307 Naunhof, Stadt" .
+
+lau:DE-146265503  ramon:name  "Kodersdorf"@en ;
+        ramon:code  "DE-146265503" ;
+        rdfs:label  "DE-146265503 Kodersdorf" .
+
+lau:DE-130725261  ramon:name  "Schwaan, Stadt"@en ;
+        ramon:code  "DE-130725261" ;
+        rdfs:label  "DE-130725261 Schwaan, Stadt" .
+
+lau:DE-160705009  ramon:name  "Kirchheim"@en ;
+        ramon:code  "DE-160705009" ;
+        rdfs:label  "DE-160705009 Kirchheim" .
+
+lau:DE-081155005  ramon:name  "Gäufelden"@en ;
+        ramon:code  "DE-081155005" ;
+        rdfs:label  "DE-081155005 Gäufelden" .
+
+lau:DE-081155004  ramon:name  "Holzgerlingen, Stadt"@en ;
+        ramon:code  "DE-081155004" ;
+        rdfs:label  "DE-081155004 Holzgerlingen, Stadt" .
+
+lau:DE-071355005  ramon:name  "Zell (Mosel), Stadt"@en ;
+        ramon:code  "DE-071355005" ;
+        rdfs:label  "DE-071355005 Zell (Mosel), Stadt" .
+
+lau:DE-071355002  ramon:name  "Kaisersesch, Stadt"@en ;
+        ramon:code  "DE-071355002" ;
+        rdfs:label  "DE-071355002 Kaisersesch, Stadt" .
+
+lau:DE-071355003  ramon:name  "Ulmen, Stadt"@en ;
+        ramon:code  "DE-071355003" ;
+        rdfs:label  "DE-071355003 Ulmen, Stadt" .
+
+lau:DE-081155003  ramon:name  "Herrenberg, Stadt"@en ;
+        ramon:code  "DE-081155003" ;
+        rdfs:label  "DE-081155003 Herrenberg, Stadt" .
+
+lau:DE-071355001  ramon:name  "Cochem, Stadt"@en ;
+        ramon:code  "DE-071355001" ;
+        rdfs:label  "DE-071355001 Cochem, Stadt" .
+
+lau:DE-091905180  ramon:name  "Steingaden"@en ;
+        ramon:code  "DE-091905180" ;
+        rdfs:label  "DE-091905180 Steingaden" .
+
+lau:DE-160745007  ramon:name  "Trockenborn-Wolfersdorf"@en ;
+        ramon:code  "DE-160745007" ;
+        rdfs:label  "DE-160745007 Trockenborn-Wolfersdorf" .
+
+lau:DE-130735359  ramon:name  "Sagard"@en ;
+        ramon:code  "DE-130735359" ;
+        rdfs:label  "DE-130735359 Sagard" .
+
+lau:DE-097755741  ramon:name  "Buch, M"@en ;
+        ramon:code  "DE-097755741" ;
+        rdfs:label  "DE-097755741 Buch, M" .
+
+lau:DE-097755740  ramon:name  "Altenstadt, M"@en ;
+        ramon:code  "DE-097755740" ;
+        rdfs:label  "DE-097755740 Altenstadt, M" .
+
+lau:DE-010605048  ramon:name  "Kisdorf"@en ;
+        ramon:code  "DE-010605048" ;
+        rdfs:label  "DE-010605048 Kisdorf" .
+
+lau:DE-095749444  ramon:name  "Gdefr. Geb. (Lkr Nürnberger Land)"@en ;
+        ramon:code  "DE-095749444" ;
+        rdfs:label  "DE-095749444 Gdefr. Geb. (Lkr Nürnberger Land)" .
+
+lau:DE-010605043  ramon:name  "Alveslohe"@en ;
+        ramon:code  "DE-010605043" ;
+        rdfs:label  "DE-010605043 Alveslohe" .
+
+lau:DE-130715157  ramon:name  "Wulkenzin"@en ;
+        ramon:code  "DE-130715157" ;
+        rdfs:label  "DE-130715157 Wulkenzin" .
+
+lau:DE-010555591  ramon:name  "Schönwalde am Bungsberg"@en ;
+        ramon:code  "DE-010555591" ;
+        rdfs:label  "DE-010555591 Schönwalde am Bungsberg" .
+
+lau:DE-130725253  ramon:name  "Broderstorf"@en ;
+        ramon:code  "DE-130725253" ;
+        rdfs:label  "DE-130725253 Broderstorf" .
+
+lau:DE-010535373  ramon:name  "Kuddewörde"@en ;
+        ramon:code  "DE-010535373" ;
+        rdfs:label  "DE-010535373 Kuddewörde" .
+
+lau:DE-033575401  ramon:name  "Bothel"@en ;
+        ramon:code  "DE-033575401" ;
+        rdfs:label  "DE-033575401 Bothel" .
+
+lau:DE-033575402  ramon:name  "Fintel"@en ;
+        ramon:code  "DE-033575402" ;
+        rdfs:label  "DE-033575402 Fintel" .
+
+lau:DE-033575403  ramon:name  "Oerel"@en ;
+        ramon:code  "DE-033575403" ;
+        rdfs:label  "DE-033575403 Oerel" .
+
+lau:DE-033575404  ramon:name  "Selsingen"@en ;
+        ramon:code  "DE-033575404" ;
+        rdfs:label  "DE-033575404 Selsingen" .
+
+lau:DE-033575405  ramon:name  "Sittensen"@en ;
+        ramon:code  "DE-033575405" ;
+        rdfs:label  "DE-033575405 Sittensen" .
+
+lau:DE-033575406  ramon:name  "Sottrum"@en ;
+        ramon:code  "DE-033575406" ;
+        rdfs:label  "DE-033575406 Sottrum" .
+
+lau:DE-033575407  ramon:name  "Tarmstedt"@en ;
+        ramon:code  "DE-033575407" ;
+        rdfs:label  "DE-033575407 Tarmstedt" .
+
+lau:DE-033575408  ramon:name  "Zeven, Stadt"@en ;
+        ramon:code  "DE-033575408" ;
+        rdfs:label  "DE-033575408 Zeven, Stadt" .
+
+lau:DE-010545488  ramon:name  "Wyk auf Föhr, Stadt"@en ;
+        ramon:code  "DE-010545488" ;
+        rdfs:label  "DE-010545488 Wyk auf Föhr, Stadt" .
+
+lau:DE-010545489  ramon:name  "Niebüll, Stadt"@en ;
+        ramon:code  "DE-010545489" ;
+        rdfs:label  "DE-010545489 Niebüll, Stadt" .
+
+lau:DE-094789444  ramon:name  "Gdefr. Geb. (Lkr Lichtenfels)"@en ;
+        ramon:code  "DE-094789444" ;
+        rdfs:label  "DE-094789444 Gdefr. Geb. (Lkr Lichtenfels)" .
+
+lau:DE-160715051  ramon:name  "Bad Sulza, Stadt"@en ;
+        ramon:code  "DE-160715051" ;
+        rdfs:label  "DE-160715051 Bad Sulza, Stadt" .
+
+lau:DE-120645408  ramon:name  "Rehfelde"@en ;
+        ramon:code  "DE-120645408" ;
+        rdfs:label  "DE-120645408 Rehfelde" .
+
+lau:DE-010535391  ramon:name  "Sandesneben"@en ;
+        ramon:code  "DE-010535391" ;
+        rdfs:label  "DE-010535391 Sandesneben" .
+
+lau:DE-010615153  ramon:name  "Krempe, Stadt"@en ;
+        ramon:code  "DE-010615153" ;
+        rdfs:label  "DE-010615153 Krempe, Stadt" .
+
+lau:DE-010595937  ramon:name  "Wees"@en ;
+        ramon:code  "DE-010595937" ;
+        rdfs:label  "DE-010595937 Wees" .
+
+lau:DE-083355004  ramon:name  "Konstanz, Universitätsstadt"@en ;
+        ramon:code  "DE-083355004" ;
+        rdfs:label  "DE-083355004 Konstanz, Universitätsstadt" .
+
+lau:DE-130725263  ramon:name  "Elmenhorst/Lichtenhagen"@en ;
+        ramon:code  "DE-130725263" ;
+        rdfs:label  "DE-130725263 Elmenhorst/Lichtenhagen" .
+
+lau:DE-160705003  ramon:name  "Großbreitenbach, Stadt"@en ;
+        ramon:code  "DE-160705003" ;
+        rdfs:label  "DE-160705003 Großbreitenbach, Stadt" .
+
+lau:DE-160615014  ramon:name  "Schimberg"@en ;
+        ramon:code  "DE-160615014" ;
+        rdfs:label  "DE-160615014 Schimberg" .
+
+lau:DE-130715164  ramon:name  "Woldegk, Stadt"@en ;
+        ramon:code  "DE-130715164" ;
+        rdfs:label  "DE-130715164 Woldegk, Stadt" .
+
+lau:DE-083355006  ramon:name  "Stockach, Stadt"@en ;
+        ramon:code  "DE-083355006" ;
+        rdfs:label  "DE-083355006 Stockach, Stadt" .
+
+lau:DE-094735418  ramon:name  "Grub a.Forst"@en ;
+        ramon:code  "DE-094735418" ;
+        rdfs:label  "DE-094735418 Grub a.Forst" .
+
+lau:DE-072325008  ramon:name  "Rittersdorf"@en ;
+        ramon:code  "DE-072325008" ;
+        rdfs:label  "DE-072325008 Rittersdorf" .
+
+lau:DE-130715159  ramon:name  "Röbel/Müritz, Stadt"@en ;
+        ramon:code  "DE-130715159" ;
+        rdfs:label  "DE-130715159 Röbel/Müritz, Stadt" .
+
+lau:DE-072325006  ramon:name  "Prüm, Stadt"@en ;
+        ramon:code  "DE-072325006" ;
+        rdfs:label  "DE-072325006 Prüm, Stadt" .
+
+lau:DE-072325007  ramon:name  "Speicher, Stadt"@en ;
+        ramon:code  "DE-072325007" ;
+        rdfs:label  "DE-072325007 Speicher, Stadt" .
+
+lau:DE-160745051  ramon:name  "Bürgel, Stadt"@en ;
+        ramon:code  "DE-160745051" ;
+        rdfs:label  "DE-160745051 Bürgel, Stadt" .
+
+lau:DE-072325005  ramon:name  "Bollendorf"@en ;
+        ramon:code  "DE-072325005" ;
+        rdfs:label  "DE-072325005 Bollendorf" .
+
+lau:DE-083355001  ramon:name  "Engen, Stadt"@en ;
+        ramon:code  "DE-083355001" ;
+        rdfs:label  "DE-083355001 Engen, Stadt" .
+
+lau:DE-120715101  ramon:name  "Burg (Spreewald)"@en ;
+        ramon:code  "DE-120715101" ;
+        rdfs:label  "DE-120715101 Burg (Spreewald)" .
+
+lau:DE-083355003  ramon:name  "Öhningen"@en ;
+        ramon:code  "DE-083355003" ;
+        rdfs:label  "DE-083355003 Öhningen" .
+
+lau:DE-072325001  ramon:name  "Arzfeld"@en ;
+        ramon:code  "DE-072325001" ;
+        rdfs:label  "DE-072325001 Arzfeld" .
+
+lau:DE-091765115  ramon:name  "Schernfeld"@en ;
+        ramon:code  "DE-091765115" ;
+        rdfs:label  "DE-091765115 Schernfeld" .
+
+lau:DE-071375001  ramon:name  "Plaidt"@en ;
+        ramon:code  "DE-071375001" ;
+        rdfs:label  "DE-071375001 Plaidt" .
+
+lau:DE-071375002  ramon:name  "Polch, Stadt"@en ;
+        ramon:code  "DE-071375002" ;
+        rdfs:label  "DE-071375002 Polch, Stadt" .
+
+lau:DE-071375003  ramon:name  "Ettringen"@en ;
+        ramon:code  "DE-071375003" ;
+        rdfs:label  "DE-071375003 Ettringen" .
+
+lau:DE-071335008  ramon:name  "Stromberg, Stadt"@en ;
+        ramon:code  "DE-071335008" ;
+        rdfs:label  "DE-071335008 Stromberg, Stadt" .
+
+lau:DE-120715102  ramon:name  "Döbern, Stadt"@en ;
+        ramon:code  "DE-120715102" ;
+        rdfs:label  "DE-120715102 Döbern, Stadt" .
+
+lau:DE-071375007  ramon:name  "Vallendar, Stadt"@en ;
+        ramon:code  "DE-071375007" ;
+        rdfs:label  "DE-071375007 Vallendar, Stadt" .
+
+lau:DE-071335004  ramon:name  "Langenlonsheim"@en ;
+        ramon:code  "DE-071335004" ;
+        rdfs:label  "DE-071335004 Langenlonsheim" .
+
+lau:DE-071335005  ramon:name  "Meisenheim, Stadt"@en ;
+        ramon:code  "DE-071335005" ;
+        rdfs:label  "DE-071335005 Meisenheim, Stadt" .
+
+lau:DE-071335006  ramon:name  "Hargesheim"@en ;
+        ramon:code  "DE-071335006" ;
+        rdfs:label  "DE-071335006 Hargesheim" .
+
+lau:DE-071335007  ramon:name  "Bad Sobernheim, Stadt"@en ;
+        ramon:code  "DE-071335007" ;
+        rdfs:label  "DE-071335007 Bad Sobernheim, Stadt" .
+
+lau:DE-091765119  ramon:name  "Pförring, M"@en ;
+        ramon:code  "DE-091765119" ;
+        rdfs:label  "DE-091765119 Pförring, M" .
+
+lau:DE-071335001  ramon:name  "Hackenheim"@en ;
+        ramon:code  "DE-071335001" ;
+        rdfs:label  "DE-071335001 Hackenheim" .
+
+lau:DE-071335002  ramon:name  "Feilbingert"@en ;
+        ramon:code  "DE-071335002" ;
+        rdfs:label  "DE-071335002 Feilbingert" .
+
+lau:DE-071335003  ramon:name  "Simmertal"@en ;
+        ramon:code  "DE-071335003" ;
+        rdfs:label  "DE-071335003 Simmertal" .
+
+lau:DE-081175003  ramon:name  "Eislingen/Fils, Stadt"@en ;
+        ramon:code  "DE-081175003" ;
+        rdfs:label  "DE-081175003 Eislingen/Fils, Stadt" .
+
+lau:DE-081175002  ramon:name  "Ebersbach an der Fils, Stadt"@en ;
+        ramon:code  "DE-081175002" ;
+        rdfs:label  "DE-081175002 Ebersbach an der Fils, Stadt" .
+
+lau:DE-081175001  ramon:name  "Deggingen"@en ;
+        ramon:code  "DE-081175001" ;
+        rdfs:label  "DE-081175001 Deggingen" .
+
+lau:DE-095775535  ramon:name  "Nennslingen, M"@en ;
+        ramon:code  "DE-095775535" ;
+        rdfs:label  "DE-095775535 Nennslingen, M" .
+
+lau:DE-081175007  ramon:name  "Gruibingen"@en ;
+        ramon:code  "DE-081175007" ;
+        rdfs:label  "DE-081175007 Gruibingen" .
+
+lau:DE-081175006  ramon:name  "Donzdorf, Stadt"@en ;
+        ramon:code  "DE-081175006" ;
+        rdfs:label  "DE-081175006 Donzdorf, Stadt" .
+
+lau:DE-081175005  ramon:name  "Göppingen, Stadt"@en ;
+        ramon:code  "DE-081175005" ;
+        rdfs:label  "DE-081175005 Göppingen, Stadt" .
+
+lau:DE-081175004  ramon:name  "Geislingen an der Steige, Stadt"@en ;
+        ramon:code  "DE-081175004" ;
+        rdfs:label  "DE-081175004 Geislingen an der Steige, Stadt" .
+
+lau:DE-095775532  ramon:name  "Haundorf"@en ;
+        ramon:code  "DE-095775532" ;
+        rdfs:label  "DE-095775532 Haundorf" .
+
+lau:DE-081175009  ramon:name  "Bad Boll"@en ;
+        ramon:code  "DE-081175009" ;
+        rdfs:label  "DE-081175009 Bad Boll" .
+
+lau:DE-081175008  ramon:name  "Rechberghausen"@en ;
+        ramon:code  "DE-081175008" ;
+        rdfs:label  "DE-081175008 Rechberghausen" .
+
+lau:DE-094715408  ramon:name  "Burgebrach, M"@en ;
+        ramon:code  "DE-094715408" ;
+        rdfs:label  "DE-094715408 Burgebrach, M" .
+
+lau:DE-097785759  ramon:name  "Pfaffenhausen, M"@en ;
+        ramon:code  "DE-097785759" ;
+        rdfs:label  "DE-097785759 Pfaffenhausen, M" .
+
+lau:DE-095775533  ramon:name  "Dittenheim"@en ;
+        ramon:code  "DE-095775533" ;
+        rdfs:label  "DE-095775533 Dittenheim" .
+
+lau:DE-160665004  ramon:name  "Viernau"@en ;
+        ramon:code  "DE-160665004" ;
+        rdfs:label  "DE-160665004 Viernau" .
+
+lau:DE-120665606  ramon:name  "Ortrand, Stadt"@en ;
+        ramon:code  "DE-120665606" ;
+        rdfs:label  "DE-120665606 Ortrand, Stadt" .
+
+lau:DE-091765116  ramon:name  "Eitensheim"@en ;
+        ramon:code  "DE-091765116" ;
+        rdfs:label  "DE-091765116 Eitensheim" .
+
+lau:DE-010545439  ramon:name  "List auf Sylt"@en ;
+        ramon:code  "DE-010545439" ;
+        rdfs:label  "DE-010545439 List auf Sylt" .
+
+lau:DE-130715151  ramon:name  "Borrentin"@en ;
+        ramon:code  "DE-130715151" ;
+        rdfs:label  "DE-130715151 Borrentin" .
+
+lau:DE-081195001  ramon:name  "Backnang, Stadt"@en ;
+        ramon:code  "DE-081195001" ;
+        rdfs:label  "DE-081195001 Backnang, Stadt" .
+
+lau:DE-071375004  ramon:name  "Mendig, Stadt"@en ;
+        ramon:code  "DE-071375004" ;
+        rdfs:label  "DE-071375004 Mendig, Stadt" .
+
+lau:DE-081195003  ramon:name  "Schorndorf, Stadt"@en ;
+        ramon:code  "DE-081195003" ;
+        rdfs:label  "DE-081195003 Schorndorf, Stadt" .
+
+lau:DE-081195002  ramon:name  "Plüderhausen"@en ;
+        ramon:code  "DE-081195002" ;
+        rdfs:label  "DE-081195002 Plüderhausen" .
+
+lau:DE-081195005  ramon:name  "Welzheim, Stadt"@en ;
+        ramon:code  "DE-081195005" ;
+        rdfs:label  "DE-081195005 Welzheim, Stadt" .
+
+lau:DE-081195004  ramon:name  "Sulzbach an der Murr"@en ;
+        ramon:code  "DE-081195004" ;
+        rdfs:label  "DE-081195004 Sulzbach an der Murr" .
+
+lau:DE-081195006  ramon:name  "Winnenden, Stadt"@en ;
+        ramon:code  "DE-081195006" ;
+        rdfs:label  "DE-081195006 Winnenden, Stadt" .
+
+lau:DE-033545403  ramon:name  "Gartow, Flecken"@en ;
+        ramon:code  "DE-033545403" ;
+        rdfs:label  "DE-033545403 Gartow, Flecken" .
+
+lau:DE-130755561  ramon:name  "Zinnowitz"@en ;
+        ramon:code  "DE-130755561" ;
+        rdfs:label  "DE-130755561 Zinnowitz" .
+
+lau:DE-160745053  ramon:name  "Bad Klosterlausnitz"@en ;
+        ramon:code  "DE-160745053" ;
+        rdfs:label  "DE-160745053 Bad Klosterlausnitz" .
+
+lau:DE-093745329  ramon:name  "Schirmitz"@en ;
+        ramon:code  "DE-093745329" ;
+        rdfs:label  "DE-093745329 Schirmitz" .
+
+lau:DE-033545407  ramon:name  "Lüchow (Wendland), Stadt"@en ;
+        ramon:code  "DE-033545407" ;
+        rdfs:label  "DE-033545407 Lüchow (Wendland), Stadt" .
+
+lau:DE-033545406  ramon:name  "Dannenberg (Elbe), Stadt"@en ;
+        ramon:code  "DE-033545406" ;
+        rdfs:label  "DE-033545406 Dannenberg (Elbe), Stadt" .
+
+lau:DE-010585888  ramon:name  "Osterrönfeld"@en ;
+        ramon:code  "DE-010585888" ;
+        rdfs:label  "DE-010585888 Osterrönfeld" .
+
+lau:DE-010585889  ramon:name  "Bordesholm"@en ;
+        ramon:code  "DE-010585889" ;
+        rdfs:label  "DE-010585889 Bordesholm" .
+
+lau:DE-160725051  ramon:name  "Neuhaus am Rennweg, Stadt"@en ;
+        ramon:code  "DE-160725051" ;
+        rdfs:label  "DE-160725051 Neuhaus am Rennweg, Stadt" .
+
+lau:DE-091785130  ramon:name  "Zolling"@en ;
+        ramon:code  "DE-091785130" ;
+        rdfs:label  "DE-091785130 Zolling" .
+
+lau:DE-130715155  ramon:name  "Mirow, Stadt"@en ;
+        ramon:code  "DE-130715155" ;
+        rdfs:label  "DE-130715155 Mirow, Stadt" .
+
+lau:DE-071315002  ramon:name  "Altenahr"@en ;
+        ramon:code  "DE-071315002" ;
+        rdfs:label  "DE-071315002 Altenahr" .
+
+lau:DE-071315003  ramon:name  "Bad Breisig, Stadt"@en ;
+        ramon:code  "DE-071315003" ;
+        rdfs:label  "DE-071315003 Bad Breisig, Stadt" .
+
+lau:DE-120665601  ramon:name  "Altdöbern"@en ;
+        ramon:code  "DE-120665601" ;
+        rdfs:label  "DE-120665601 Altdöbern" .
+
+lau:DE-071315001  ramon:name  "Adenau, Stadt"@en ;
+        ramon:code  "DE-071315001" ;
+        rdfs:label  "DE-071315001 Adenau, Stadt" .
+
+lau:DE-081255008  ramon:name  "Neckarsulm, Stadt"@en ;
+        ramon:code  "DE-081255008" ;
+        rdfs:label  "DE-081255008 Neckarsulm, Stadt" .
+
+lau:DE-081255009  ramon:name  "Neuenstadt am Kocher, Stadt"@en ;
+        ramon:code  "DE-081255009" ;
+        rdfs:label  "DE-081255009 Neuenstadt am Kocher, Stadt" .
+
+lau:DE-071315004  ramon:name  "Burgbrohl"@en ;
+        ramon:code  "DE-071315004" ;
+        rdfs:label  "DE-071315004 Burgbrohl" .
+
+lau:DE-071375009  ramon:name  "Kobern-Gondorf"@en ;
+        ramon:code  "DE-071375009" ;
+        rdfs:label  "DE-071375009 Kobern-Gondorf" .
+
+lau:DE-010565660  ramon:name  "Hemdingen"@en ;
+        ramon:code  "DE-010565660" ;
+        rdfs:label  "DE-010565660 Hemdingen" .
+
+lau:DE-081255005  ramon:name  "Flein"@en ;
+        ramon:code  "DE-081255005" ;
+        rdfs:label  "DE-081255005 Flein" .
+
+lau:DE-081255006  ramon:name  "Lauffen am Neckar, Stadt"@en ;
+        ramon:code  "DE-081255006" ;
+        rdfs:label  "DE-081255006 Lauffen am Neckar, Stadt" .
+
+lau:DE-081255007  ramon:name  "Möckmühl, Stadt"@en ;
+        ramon:code  "DE-081255007" ;
+        rdfs:label  "DE-081255007 Möckmühl, Stadt" .
+
+lau:DE-147305303  ramon:name  "Dommitzsch, Stadt"@en ;
+        ramon:code  "DE-147305303" ;
+        rdfs:label  "DE-147305303 Dommitzsch, Stadt" .
+
+lau:DE-073405002  ramon:name  "Hauenstein"@en ;
+        ramon:code  "DE-073405002" ;
+        rdfs:label  "DE-073405002 Hauenstein" .
+
+lau:DE-081255002  ramon:name  "Bad Rappenau, Stadt"@en ;
+        ramon:code  "DE-081255002" ;
+        rdfs:label  "DE-081255002 Bad Rappenau, Stadt" .
+
+lau:DE-081255003  ramon:name  "Brackenheim, Stadt"@en ;
+        ramon:code  "DE-081255003" ;
+        rdfs:label  "DE-081255003 Brackenheim, Stadt" .
+
+lau:DE-093755334  ramon:name  "Pielenhofen"@en ;
+        ramon:code  "DE-093755334" ;
+        rdfs:label  "DE-093755334 Pielenhofen" .
+
+lau:DE-093755335  ramon:name  "Donaustauf, M"@en ;
+        ramon:code  "DE-093755335" ;
+        rdfs:label  "DE-093755335 Donaustauf, M" .
+
+lau:DE-093755336  ramon:name  "Wörth a.d.Donau, St"@en ;
+        ramon:code  "DE-093755336" ;
+        rdfs:label  "DE-093755336 Wörth a.d.Donau, St" .
+
+lau:DE-093755337  ramon:name  "Alteglofsheim"@en ;
+        ramon:code  "DE-093755337" ;
+        rdfs:label  "DE-093755337 Alteglofsheim" .
+
+lau:DE-034545408  ramon:name  "Spelle"@en ;
+        ramon:code  "DE-034545408" ;
+        rdfs:label  "DE-034545408 Spelle" .
+
+lau:DE-034545409  ramon:name  "Werlte"@en ;
+        ramon:code  "DE-034545409" ;
+        rdfs:label  "DE-034545409 Werlte" .
+
+lau:DE-093755332  ramon:name  "Kallmünz, M"@en ;
+        ramon:code  "DE-093755332" ;
+        rdfs:label  "DE-093755332 Kallmünz, M" .
+
+lau:DE-093755333  ramon:name  "Laaber, M"@en ;
+        ramon:code  "DE-093755333" ;
+        rdfs:label  "DE-093755333 Laaber, M" .
+
+lau:DE-034545404  ramon:name  "Lathen"@en ;
+        ramon:code  "DE-034545404" ;
+        rdfs:label  "DE-034545404 Lathen" .
+
+lau:DE-034545405  ramon:name  "Lengerich"@en ;
+        ramon:code  "DE-034545405" ;
+        rdfs:label  "DE-034545405 Lengerich" .
+
+lau:DE-034545406  ramon:name  "Esterwegen"@en ;
+        ramon:code  "DE-034545406" ;
+        rdfs:label  "DE-034545406 Esterwegen" .
+
+lau:DE-034545407  ramon:name  "Sögel"@en ;
+        ramon:code  "DE-034545407" ;
+        rdfs:label  "DE-034545407 Sögel" .
+
+lau:DE-093755338  ramon:name  "Sünching"@en ;
+        ramon:code  "DE-093755338" ;
+        rdfs:label  "DE-093755338 Sünching" .
+
+lau:DE-034545401  ramon:name  "Dörpen"@en ;
+        ramon:code  "DE-034545401" ;
+        rdfs:label  "DE-034545401 Dörpen" .
+
+lau:DE-034545402  ramon:name  "Freren, Stadt"@en ;
+        ramon:code  "DE-034545402" ;
+        rdfs:label  "DE-034545402 Freren, Stadt" .
+
+lau:DE-034545403  ramon:name  "Lähden"@en ;
+        ramon:code  "DE-034545403" ;
+        rdfs:label  "DE-034545403 Lähden" .
+
+lau:DE-160655001  ramon:name  "Heldrungen, Stadt"@en ;
+        ramon:code  "DE-160655001" ;
+        rdfs:label  "DE-160655001 Heldrungen, Stadt" .
+
+lau:DE-130735361  ramon:name  "Ribnitz-Damgarten, Stadt"@en ;
+        ramon:code  "DE-130735361" ;
+        rdfs:label  "DE-130735361 Ribnitz-Damgarten, Stadt" .
+
+lau:DE-083275002  ramon:name  "Gosheim"@en ;
+        ramon:code  "DE-083275002" ;
+        rdfs:label  "DE-083275002 Gosheim" .
+
+lau:DE-130735362  ramon:name  "Samtens"@en ;
+        ramon:code  "DE-130735362" ;
+        rdfs:label  "DE-130735362 Samtens" .
+
+lau:DE-083275003  ramon:name  "Immendingen"@en ;
+        ramon:code  "DE-083275003" ;
+        rdfs:label  "DE-083275003 Immendingen" .
+
+lau:DE-130715156  ramon:name  "Blankensee"@en ;
+        ramon:code  "DE-130715156" ;
+        rdfs:label  "DE-130715156 Blankensee" .
+
+lau:DE-092795208  ramon:name  "Mamming"@en ;
+        ramon:code  "DE-092795208" ;
+        rdfs:label  "DE-092795208 Mamming" .
+
+lau:DE-093775350  ramon:name  "Krummennaab"@en ;
+        ramon:code  "DE-093775350" ;
+        rdfs:label  "DE-093775350 Krummennaab" .
+
+lau:DE-093775351  ramon:name  "Wiesau, M"@en ;
+        ramon:code  "DE-093775351" ;
+        rdfs:label  "DE-093775351 Wiesau, M" .
+
+lau:DE-093745330  ramon:name  "Tännesberg, M"@en ;
+        ramon:code  "DE-093745330" ;
+        rdfs:label  "DE-093745330 Tännesberg, M" .
+
+lau:DE-095755518  ramon:name  "Scheinfeld, St"@en ;
+        ramon:code  "DE-095755518" ;
+        rdfs:label  "DE-095755518 Scheinfeld, St" .
+
+lau:DE-097735715  ramon:name  "Wittislingen, M"@en ;
+        ramon:code  "DE-097735715" ;
+        rdfs:label  "DE-097735715 Wittislingen, M" .
+
+lau:DE-097735716  ramon:name  "Höchstädt a.d.Donau, St"@en ;
+        ramon:code  "DE-097735716" ;
+        rdfs:label  "DE-097735716 Höchstädt a.d.Donau, St" .
+
+lau:DE-097749444  ramon:name  "Gdefr. Geb. (Lkr Günzburg)"@en ;
+        ramon:code  "DE-097749444" ;
+        rdfs:label  "DE-097749444 Gdefr. Geb. (Lkr Günzburg)" .
+
+lau:DE-097735718  ramon:name  "Wertingen, St"@en ;
+        ramon:code  "DE-097735718" ;
+        rdfs:label  "DE-097735718 Wertingen, St" .
+
+lau:DE-097735719  ramon:name  "Holzheim"@en ;
+        ramon:code  "DE-097735719" ;
+        rdfs:label  "DE-097735719 Holzheim" .
+
+lau:DE-160775009  ramon:name  "Löbichau"@en ;
+        ramon:code  "DE-160775009" ;
+        rdfs:label  "DE-160775009 Löbichau" .
+
+lau:DE-091849444  ramon:name  "Gdefr. Geb. (Lkr München)"@en ;
+        ramon:code  "DE-091849444" ;
+        rdfs:label  "DE-091849444 Gdefr. Geb. (Lkr München)" .
+
+lau:DE-091755114  ramon:name  "Glonn, M"@en ;
+        ramon:code  "DE-091755114" ;
+        rdfs:label  "DE-091755114 Glonn, M" .
+
+lau:DE-084375005  ramon:name  "Bad Saulgau, Stadt"@en ;
+        ramon:code  "DE-084375005" ;
+        rdfs:label  "DE-084375005 Bad Saulgau, Stadt" .
+
+lau:DE-081275002  ramon:name  "Crailsheim, Stadt"@en ;
+        ramon:code  "DE-081275002" ;
+        rdfs:label  "DE-081275002 Crailsheim, Stadt" .
+
+lau:DE-081275003  ramon:name  "Fichtenau"@en ;
+        ramon:code  "DE-081275003" ;
+        rdfs:label  "DE-081275003 Fichtenau" .
+
+lau:DE-094795442  ramon:name  "Thiersheim, M"@en ;
+        ramon:code  "DE-094795442" ;
+        rdfs:label  "DE-094795442 Thiersheim, M" .
+
+lau:DE-081275001  ramon:name  "Untermünkheim"@en ;
+        ramon:code  "DE-081275001" ;
+        rdfs:label  "DE-081275001 Untermünkheim" .
+
+lau:DE-081275006  ramon:name  "Gaildorf, Stadt"@en ;
+        ramon:code  "DE-081275006" ;
+        rdfs:label  "DE-081275006 Gaildorf, Stadt" .
+
+lau:DE-081275007  ramon:name  "Obersontheim"@en ;
+        ramon:code  "DE-081275007" ;
+        rdfs:label  "DE-081275007 Obersontheim" .
+
+lau:DE-081275004  ramon:name  "Gerabronn, Stadt"@en ;
+        ramon:code  "DE-081275004" ;
+        rdfs:label  "DE-081275004 Gerabronn, Stadt" .
+
+lau:DE-081275005  ramon:name  "Ilshofen, Stadt"@en ;
+        ramon:code  "DE-081275005" ;
+        rdfs:label  "DE-081275005 Ilshofen, Stadt" .
+
+lau:DE-083365008  ramon:name  "Binzen"@en ;
+        ramon:code  "DE-083365008" ;
+        rdfs:label  "DE-083365008 Binzen" .
+
+lau:DE-091755112  ramon:name  "Aßling"@en ;
+        ramon:code  "DE-091755112" ;
+        rdfs:label  "DE-091755112 Aßling" .
+
+lau:DE-010615189  ramon:name  "Kellinghusen, Stadt"@en ;
+        ramon:code  "DE-010615189" ;
+        rdfs:label  "DE-010615189 Kellinghusen, Stadt" .
+
+lau:DE-034525401  ramon:name  "Upgant-Schott"@en ;
+        ramon:code  "DE-034525401" ;
+        rdfs:label  "DE-034525401 Upgant-Schott" .
+
+lau:DE-010585833  ramon:name  "Fockbek"@en ;
+        ramon:code  "DE-010585833" ;
+        rdfs:label  "DE-010585833 Fockbek" .
+
+lau:DE-120625209  ramon:name  "Schlieben, Stadt"@en ;
+        ramon:code  "DE-120625209" ;
+        rdfs:label  "DE-120625209 Schlieben, Stadt" .
+
+lau:DE-010585830  ramon:name  "Flintbek"@en ;
+        ramon:code  "DE-010585830" ;
+        rdfs:label  "DE-010585830 Flintbek" .
+
+lau:DE-084255010  ramon:name  "Munderkingen, Stadt"@en ;
+        ramon:code  "DE-084255010" ;
+        rdfs:label  "DE-084255010 Munderkingen, Stadt" .
+
+lau:DE-096795650  ramon:name  "Kirchheim"@en ;
+        ramon:code  "DE-096795650" ;
+        rdfs:label  "DE-096795650 Kirchheim" .
+
+lau:DE-094715403  ramon:name  "Königsfeld"@en ;
+        ramon:code  "DE-094715403" ;
+        rdfs:label  "DE-094715403 Königsfeld" .
+
+lau:DE-093715303  ramon:name  "Neukirchen b.Sulzbach-Rosenberg"@en ;
+        ramon:code  "DE-093715303" ;
+        rdfs:label  "DE-093715303 Neukirchen b.Sulzbach-Rosenberg" .
+
+lau:DE-072355005  ramon:name  "Saarburg, Stadt"@en ;
+        ramon:code  "DE-072355005" ;
+        rdfs:label  "DE-072355005 Saarburg, Stadt" .
+
+lau:DE-097795720  ramon:name  "Wallerstein, M"@en ;
+        ramon:code  "DE-097795720" ;
+        rdfs:label  "DE-097795720 Wallerstein, M" .
+
+lau:DE-091875184  ramon:name  "Pfaffing"@en ;
+        ramon:code  "DE-091875184" ;
+        rdfs:label  "DE-091875184 Pfaffing" .
+
+lau:DE-160615012  ramon:name  "Uder"@en ;
+        ramon:code  "DE-160615012" ;
+        rdfs:label  "DE-160615012 Uder" .
+
+lau:DE-091875160  ramon:name  "Breitbrunn a.Chiemsee"@en ;
+        ramon:code  "DE-091875160" ;
+        rdfs:label  "DE-091875160 Breitbrunn a.Chiemsee" .
+
+lau:DE-146255213  ramon:name  "Großröhrsdorf, Stadt"@en ;
+        ramon:code  "DE-146255213" ;
+        rdfs:label  "DE-146255213 Großröhrsdorf, Stadt" .
+
+lau:DE-091875162  ramon:name  "Halfing"@en ;
+        ramon:code  "DE-091875162" ;
+        rdfs:label  "DE-091875162 Halfing" .
+
+lau:DE-092775240  ramon:name  "Massing, M"@en ;
+        ramon:code  "DE-092775240" ;
+        rdfs:label  "DE-092775240 Massing, M" .
+
+lau:DE-091875165  ramon:name  "Rott a.Inn"@en ;
+        ramon:code  "DE-091875165" ;
+        rdfs:label  "DE-091875165 Rott a.Inn" .
+
+lau:DE-096795654  ramon:name  "Röttingen, St"@en ;
+        ramon:code  "DE-096795654" ;
+        rdfs:label  "DE-096795654 Röttingen, St" .
+
+lau:DE-092775244  ramon:name  "Ering"@en ;
+        ramon:code  "DE-092775244" ;
+        rdfs:label  "DE-092775244 Ering" .
+
+lau:DE-160655054  ramon:name  "Wiehe, Stadt"@en ;
+        ramon:code  "DE-160655054" ;
+        rdfs:label  "DE-160655054 Wiehe, Stadt" .
+
+lau:DE-097765735  ramon:name  "Sigmarszell"@en ;
+        ramon:code  "DE-097765735" ;
+        rdfs:label  "DE-097765735 Sigmarszell" .
+
+lau:DE-093715302  ramon:name  "Königstein, M"@en ;
+        ramon:code  "DE-093715302" ;
+        rdfs:label  "DE-093715302 Königstein, M" .
+
+lau:DE-091769444  ramon:name  "Gdefr. Geb. (Lkr Eichstätt)"@en ;
+        ramon:code  "DE-091769444" ;
+        rdfs:label  "DE-091769444 Gdefr. Geb. (Lkr Eichstätt)" .
+
+lau:DE-091835149  ramon:name  "Neumarkt-Sankt Veit, St"@en ;
+        ramon:code  "DE-091835149" ;
+        rdfs:label  "DE-091835149 Neumarkt-Sankt Veit, St" .
+
+lau:DE-010605086  ramon:name  "Seedorf"@en ;
+        ramon:code  "DE-010605086" ;
+        rdfs:label  "DE-010605086 Seedorf" .
+
+lau:DE-160645006  ramon:name  "Großengottern"@en ;
+        ramon:code  "DE-160645006" ;
+        rdfs:label  "DE-160645006 Großengottern" .
+
+lau:DE-097789444  ramon:name  "Gdefr. Geb. (Lkr Unterallgäu)"@en ;
+        ramon:code  "DE-097789444" ;
+        rdfs:label  "DE-097789444 Gdefr. Geb. (Lkr Unterallgäu)" .
+
+lau:DE-096765632  ramon:name  "Stadtprozelten, St"@en ;
+        ramon:code  "DE-096765632" ;
+        rdfs:label  "DE-096765632 Stadtprozelten, St" .
+
+lau:DE-096765631  ramon:name  "Mönchberg, M"@en ;
+        ramon:code  "DE-096765631" ;
+        rdfs:label  "DE-096765631 Mönchberg, M" .
+
+lau:DE-096765630  ramon:name  "Kleinwallstadt, M"@en ;
+        ramon:code  "DE-096765630" ;
+        rdfs:label  "DE-096765630 Kleinwallstadt, M" .
+
+lau:DE-160685050  ramon:name  "Elxleben"@en ;
+        ramon:code  "DE-160685050" ;
+        rdfs:label  "DE-160685050 Elxleben" .
+
+lau:DE-093719444  ramon:name  "Gdefr. Geb. (Lkr Amberg-Sulzbach)"@en ;
+        ramon:code  "DE-093719444" ;
+        rdfs:label  "DE-093719444 Gdefr. Geb. (Lkr Amberg-Sulzbach)" .
+
+lau:DE-091805133  ramon:name  "Saulgrub"@en ;
+        ramon:code  "DE-091805133" ;
+        rdfs:label  "DE-091805133 Saulgrub" .
+
+lau:DE-091805135  ramon:name  "Unterammergau"@en ;
+        ramon:code  "DE-091805135" ;
+        rdfs:label  "DE-091805135 Unterammergau" .
+
+lau:DE-091805136  ramon:name  "Ohlstadt"@en ;
+        ramon:code  "DE-091805136" ;
+        rdfs:label  "DE-091805136 Ohlstadt" .
+
+lau:DE-010575727  ramon:name  "Lütjenburg, Stadt"@en ;
+        ramon:code  "DE-010575727" ;
+        rdfs:label  "DE-010575727 Lütjenburg, Stadt" .
+
+lau:DE-084165003  ramon:name  "Rottenburg am Neckar, Stadt"@en ;
+        ramon:code  "DE-084165003" ;
+        rdfs:label  "DE-084165003 Rottenburg am Neckar, Stadt" .
+
+lau:DE-084165002  ramon:name  "Mössingen, Stadt"@en ;
+        ramon:code  "DE-084165002" ;
+        rdfs:label  "DE-084165002 Mössingen, Stadt" .
+
+lau:DE-084165001  ramon:name  "Gomaringen"@en ;
+        ramon:code  "DE-084165001" ;
+        rdfs:label  "DE-084165001 Gomaringen" .
+
+lau:DE-097765738  ramon:name  "Stiefenhofen"@en ;
+        ramon:code  "DE-097765738" ;
+        rdfs:label  "DE-097765738 Stiefenhofen" .
+
+lau:DE-094715401  ramon:name  "Baunach, St"@en ;
+        ramon:code  "DE-094715401" ;
+        rdfs:label  "DE-094715401 Baunach, St" .
+
+lau:DE-096719444  ramon:name  "Gdefr. Geb. (Lkr Aschaffenburg)"@en ;
+        ramon:code  "DE-096719444" ;
+        rdfs:label  "DE-096719444 Gdefr. Geb. (Lkr Aschaffenburg)" .
+
+lau:DE-092715202  ramon:name  "Lalling"@en ;
+        ramon:code  "DE-092715202" ;
+        rdfs:label  "DE-092715202 Lalling" .
+
+lau:DE-146265237  ramon:name  "Schleife"@en ;
+        ramon:code  "DE-146265237" ;
+        rdfs:label  "DE-146265237 Schleife" .
+
+lau:DE-146265235  ramon:name  "Rothenburg/O.L., Stadt"@en ;
+        ramon:code  "DE-146265235" ;
+        rdfs:label  "DE-146265235 Rothenburg/O.L., Stadt" .
+
+lau:DE-146265232  ramon:name  "Reichenbach/O.L., Stadt"@en ;
+        ramon:code  "DE-146265232" ;
+        rdfs:label  "DE-146265232 Reichenbach/O.L., Stadt" .
+
+lau:DE-146265233  ramon:name  "Rietschen"@en ;
+        ramon:code  "DE-146265233" ;
+        rdfs:label  "DE-146265233 Rietschen" .
+
+lau:DE-095725539  ramon:name  "Heßdorf"@en ;
+        ramon:code  "DE-095725539" ;
+        rdfs:label  "DE-095725539 Heßdorf" .
+
+lau:DE-091729444  ramon:name  "Gdefr. Geb. (Lkr Berchtesgadener Land)"@en ;
+        ramon:code  "DE-091729444" ;
+        rdfs:label  "DE-091729444 Gdefr. Geb. (Lkr Berchtesgadener Land)" .
+
+lau:DE-120735304  ramon:name  "Gartz (Oder), Stadt"@en ;
+        ramon:code  "DE-120735304" ;
+        rdfs:label  "DE-120735304 Gartz (Oder), Stadt" .
+
+lau:DE-082155002  ramon:name  "Bretten, Stadt"@en ;
+        ramon:code  "DE-082155002" ;
+        rdfs:label  "DE-082155002 Bretten, Stadt" .
+
+lau:DE-120735306  ramon:name  "Gramzow"@en ;
+        ramon:code  "DE-120735306" ;
+        rdfs:label  "DE-120735306 Gramzow" .
+
+lau:DE-160765006  ramon:name  "Münchenbernsdorf, Stadt"@en ;
+        ramon:code  "DE-160765006" ;
+        rdfs:label  "DE-160765006 Münchenbernsdorf, Stadt" .
+
+lau:DE-120695902  ramon:name  "Havelsee, Stadt"@en ;
+        ramon:code  "DE-120695902" ;
+        rdfs:label  "DE-120695902 Havelsee, Stadt" .
+
+lau:DE-160765004  ramon:name  "Wünschendorf/Elster"@en ;
+        ramon:code  "DE-160765004" ;
+        rdfs:label  "DE-160765004 Wünschendorf/Elster" .
+
+lau:DE-083155017  ramon:name  "Titisee-Neustadt, Stadt"@en ;
+        ramon:code  "DE-083155017" ;
+        rdfs:label  "DE-083155017 Titisee-Neustadt, Stadt" .
+
+lau:DE-073345001  ramon:name  "Bellheim"@en ;
+        ramon:code  "DE-073345001" ;
+        rdfs:label  "DE-073345001 Bellheim" .
+
+lau:DE-071375008  ramon:name  "Mülheim-Kärlich, Stadt"@en ;
+        ramon:code  "DE-071375008" ;
+        rdfs:label  "DE-071375008 Mülheim-Kärlich, Stadt" .
+
+lau:DE-073345003  ramon:name  "Jockgrim"@en ;
+        ramon:code  "DE-073345003" ;
+        rdfs:label  "DE-073345003 Jockgrim" .
+
+lau:DE-073345002  ramon:name  "Hagenbach, Stadt"@en ;
+        ramon:code  "DE-073345002" ;
+        rdfs:label  "DE-073345002 Hagenbach, Stadt" .
+
+lau:DE-073345005  ramon:name  "Lingenfeld"@en ;
+        ramon:code  "DE-073345005" ;
+        rdfs:label  "DE-073345005 Lingenfeld" .
+
+lau:DE-073345004  ramon:name  "Kandel, Stadt"@en ;
+        ramon:code  "DE-073345004" ;
+        rdfs:label  "DE-073345004 Kandel, Stadt" .
+
+lau:DE-160765008  ramon:name  "Großenstein"@en ;
+        ramon:code  "DE-160765008" ;
+        rdfs:label  "DE-160765008 Großenstein" .
+
+lau:DE-073345006  ramon:name  "Rülzheim"@en ;
+        ramon:code  "DE-073345006" ;
+        rdfs:label  "DE-073345006 Rülzheim" .
+
+lau:DE-073365006  ramon:name  "Waldmohr"@en ;
+        ramon:code  "DE-073365006" ;
+        rdfs:label  "DE-073365006 Waldmohr" .
+
+lau:DE-073365005  ramon:name  "Schönenberg-Kübelberg"@en ;
+        ramon:code  "DE-073365005" ;
+        rdfs:label  "DE-073365005 Schönenberg-Kübelberg" .
+
+lau:DE-010595996  ramon:name  "Kropp"@en ;
+        ramon:code  "DE-010595996" ;
+        rdfs:label  "DE-010595996 Kropp" .
+
+lau:DE-073365003  ramon:name  "Kusel, Stadt"@en ;
+        ramon:code  "DE-073365003" ;
+        rdfs:label  "DE-073365003 Kusel, Stadt" .
+
+lau:DE-010595990  ramon:name  "Steinbergkirche"@en ;
+        ramon:code  "DE-010595990" ;
+        rdfs:label  "DE-010595990 Steinbergkirche" .
+
+lau:DE-010595993  ramon:name  "Jübek"@en ;
+        ramon:code  "DE-010595993" ;
+        rdfs:label  "DE-010595993 Jübek" .
+
+lau:DE-073335006  ramon:name  "Winnweiler"@en ;
+        ramon:code  "DE-073335006" ;
+        rdfs:label  "DE-073335006 Winnweiler" .
+
+lau:DE-033549502  ramon:name  "Göhrde, gemfr. Gebiet"@en ;
+        ramon:code  "DE-033549502" ;
+        rdfs:label  "DE-033549502 Göhrde, gemfr. Gebiet" .
+
+lau:DE-073335004  ramon:name  "Kirchheimbolanden, Stadt"@en ;
+        ramon:code  "DE-073335004" ;
+        rdfs:label  "DE-073335004 Kirchheimbolanden, Stadt" .
+
+lau:DE-073335005  ramon:name  "Rockenhausen, Stadt"@en ;
+        ramon:code  "DE-073335005" ;
+        rdfs:label  "DE-073335005 Rockenhausen, Stadt" .
+
+lau:DE-073335002  ramon:name  "Eisenberg (Pfalz), Stadt"@en ;
+        ramon:code  "DE-073335002" ;
+        rdfs:label  "DE-073335002 Eisenberg (Pfalz), Stadt" .
+
+lau:DE-073335003  ramon:name  "Göllheim"@en ;
+        ramon:code  "DE-073335003" ;
+        rdfs:label  "DE-073335003 Göllheim" .
+
+lau:DE-147305306  ramon:name  "Krostitz"@en ;
+        ramon:code  "DE-147305306" ;
+        rdfs:label  "DE-147305306 Krostitz" .
+
+lau:DE-073335001  ramon:name  "Alsenz"@en ;
+        ramon:code  "DE-073335001" ;
+        rdfs:label  "DE-073335001 Alsenz" .
+
+lau:DE-096765626  ramon:name  "Bürgstadt, M"@en ;
+        ramon:code  "DE-096765626" ;
+        rdfs:label  "DE-096765626 Bürgstadt, M" .
+
+lau:DE-096735633  ramon:name  "Mellrichstadt, St"@en ;
+        ramon:code  "DE-096735633" ;
+        rdfs:label  "DE-096735633 Mellrichstadt, St" .
+
+lau:DE-091809444  ramon:name  "Gdefr. Geb. (Lkr Garmisch-Partenkirchen)"@en ;
+        ramon:code  "DE-091809444" ;
+        rdfs:label  "DE-091809444 Gdefr. Geb. (Lkr Garmisch-Partenkirchen)" .
+
+lau:DE-120605006  ramon:name  "Joachimsthal, Stadt"@en ;
+        ramon:code  "DE-120605006" ;
+        rdfs:label  "DE-120605006 Joachimsthal, Stadt" .
+
+lau:DE-150835052  ramon:name  "Calvörde"@en ;
+        ramon:code  "DE-150835052" ;
+        rdfs:label  "DE-150835052 Calvörde" .
+
+lau:DE-031515407  ramon:name  "Wesendorf"@en ;
+        ramon:code  "DE-031515407" ;
+        rdfs:label  "DE-031515407 Wesendorf" .
+
+lau:DE-120605003  ramon:name  "Biesenthal, Stadt"@en ;
+        ramon:code  "DE-120605003" ;
+        rdfs:label  "DE-120605003 Biesenthal, Stadt" .
+
+lau:DE-094795443  ramon:name  "Hohenberg a.d.Eger, St"@en ;
+        ramon:code  "DE-094795443" ;
+        rdfs:label  "DE-094795443 Hohenberg a.d.Eger, St" .
+
+lau:DE-097729444  ramon:name  "Gdefr. Geb. (Lkr Augsburg)"@en ;
+        ramon:code  "DE-097729444" ;
+        rdfs:label  "DE-097729444 Gdefr. Geb. (Lkr Augsburg)" .
+
+lau:DE-010615168  ramon:name  "Schenefeld"@en ;
+        ramon:code  "DE-010615168" ;
+        rdfs:label  "DE-010615168 Schenefeld" .
+
+lau:DE-082255008  ramon:name  "Billigheim"@en ;
+        ramon:code  "DE-082255008" ;
+        rdfs:label  "DE-082255008 Billigheim" .
+
+lau:DE-146255211  ramon:name  "Großharthau"@en ;
+        ramon:code  "DE-146255211" ;
+        rdfs:label  "DE-146255211 Großharthau" .
+
+lau:DE-083175012  ramon:name  "Schwanau"@en ;
+        ramon:code  "DE-083175012" ;
+        rdfs:label  "DE-083175012 Schwanau" .
+
+lau:DE-083175013  ramon:name  "Wolfach, Stadt"@en ;
+        ramon:code  "DE-083175013" ;
+        rdfs:label  "DE-083175013 Wolfach, Stadt" .
+
+lau:DE-083175010  ramon:name  "Offenburg, Stadt"@en ;
+        ramon:code  "DE-083175010" ;
+        rdfs:label  "DE-083175010 Offenburg, Stadt" .
+
+lau:DE-083175011  ramon:name  "Seelbach"@en ;
+        ramon:code  "DE-083175011" ;
+        rdfs:label  "DE-083175011 Seelbach" .
+
+lau:DE-034575403  ramon:name  "Detern, Flecken"@en ;
+        ramon:code  "DE-034575403" ;
+        rdfs:label  "DE-034575403 Detern, Flecken" .
+
+lau:DE-034575402  ramon:name  "Hesel"@en ;
+        ramon:code  "DE-034575402" ;
+        rdfs:label  "DE-034575402 Hesel" .
+
+lau:DE-083175014  ramon:name  "Zell am Harmersbach, Stadt"@en ;
+        ramon:code  "DE-083175014" ;
+        rdfs:label  "DE-083175014 Zell am Harmersbach, Stadt" .
+
+lau:DE-095755524  ramon:name  "Burgbernheim, St"@en ;
+        ramon:code  "DE-095755524" ;
+        rdfs:label  "DE-095755524 Burgbernheim, St" .
+
+lau:DE-033595402  ramon:name  "Fredenbeck"@en ;
+        ramon:code  "DE-033595402" ;
+        rdfs:label  "DE-033595402 Fredenbeck" .
+
+lau:DE-033595403  ramon:name  "Harsefeld, Flecken"@en ;
+        ramon:code  "DE-033595403" ;
+        rdfs:label  "DE-033595403 Harsefeld, Flecken" .
+
+lau:DE-084265008  ramon:name  "Rot an der Rot"@en ;
+        ramon:code  "DE-084265008" ;
+        rdfs:label  "DE-084265008 Rot an der Rot" .
+
+lau:DE-010625262  ramon:name  "Hoisdorf"@en ;
+        ramon:code  "DE-010625262" ;
+        rdfs:label  "DE-010625262 Hoisdorf" .
+
+lau:DE-033595406  ramon:name  "Hollern-Twielenfleth"@en ;
+        ramon:code  "DE-033595406" ;
+        rdfs:label  "DE-033595406 Hollern-Twielenfleth" .
+
+lau:DE-033595407  ramon:name  "Wischhafen"@en ;
+        ramon:code  "DE-033595407" ;
+        rdfs:label  "DE-033595407 Wischhafen" .
+
+lau:DE-033595405  ramon:name  "Horneburg, Flecken"@en ;
+        ramon:code  "DE-033595405" ;
+        rdfs:label  "DE-033595405 Horneburg, Flecken" .
+
+lau:DE-084265002  ramon:name  "Bad Schussenried, Stadt"@en ;
+        ramon:code  "DE-084265002" ;
+        rdfs:label  "DE-084265002 Bad Schussenried, Stadt" .
+
+lau:DE-084265003  ramon:name  "Biberach an der Riß, Stadt"@en ;
+        ramon:code  "DE-084265003" ;
+        rdfs:label  "DE-084265003 Biberach an der Riß, Stadt" .
+
+lau:DE-091905175  ramon:name  "Bernbeuren"@en ;
+        ramon:code  "DE-091905175" ;
+        rdfs:label  "DE-091905175 Bernbeuren" .
+
+lau:DE-033595409  ramon:name  "Himmelpforten"@en ;
+        ramon:code  "DE-033595409" ;
+        rdfs:label  "DE-033595409 Himmelpforten" .
+
+lau:DE-084265006  ramon:name  "Ochsenhausen, Stadt"@en ;
+        ramon:code  "DE-084265006" ;
+        rdfs:label  "DE-084265006 Ochsenhausen, Stadt" .
+
+lau:DE-083275005  ramon:name  "Trossingen, Stadt"@en ;
+        ramon:code  "DE-083275005" ;
+        rdfs:label  "DE-083275005 Trossingen, Stadt" .
+
+lau:DE-084265004  ramon:name  "Kirchdorf an der Iller"@en ;
+        ramon:code  "DE-084265004" ;
+        rdfs:label  "DE-084265004 Kirchdorf an der Iller" .
+
+lau:DE-084265005  ramon:name  "Laupheim, Stadt"@en ;
+        ramon:code  "DE-084265005" ;
+        rdfs:label  "DE-084265005 Laupheim, Stadt" .
+
+lau:DE-082255003  ramon:name  "Aglasterhausen"@en ;
+        ramon:code  "DE-082255003" ;
+        rdfs:label  "DE-082255003 Aglasterhausen" .
+
+lau:DE-145215110  ramon:name  "Geyer, Stadt"@en ;
+        ramon:code  "DE-145215110" ;
+        rdfs:label  "DE-145215110 Geyer, Stadt" .
+
+lau:DE-160705008  ramon:name  "Schmiedefeld am Rennsteig"@en ;
+        ramon:code  "DE-160705008" ;
+        rdfs:label  "DE-160705008 Schmiedefeld am Rennsteig" .
+
+lau:DE-160635051  ramon:name  "Bad Salzungen, Stadt"@en ;
+        ramon:code  "DE-160635051" ;
+        rdfs:label  "DE-160635051 Bad Salzungen, Stadt" .
+
+lau:DE-082255002  ramon:name  "Haßmersheim"@en ;
+        ramon:code  "DE-082255002" ;
+        rdfs:label  "DE-082255002 Haßmersheim" .
+
+lau:DE-160705006  ramon:name  "Gehren, Stadt"@en ;
+        ramon:code  "DE-160705006" ;
+        rdfs:label  "DE-160705006 Gehren, Stadt" .
+
+lau:DE-160705007  ramon:name  "Gräfenroda"@en ;
+        ramon:code  "DE-160705007" ;
+        rdfs:label  "DE-160705007 Gräfenroda" .
+
+lau:DE-010565628  ramon:name  "Haseldorf"@en ;
+        ramon:code  "DE-010565628" ;
+        rdfs:label  "DE-010565628 Haseldorf" .
+
+lau:DE-082255001  ramon:name  "Walldürn, Stadt"@en ;
+        ramon:code  "DE-082255001" ;
+        rdfs:label  "DE-082255001 Walldürn, Stadt" .
+
+lau:DE-160705002  ramon:name  "Geraberg"@en ;
+        ramon:code  "DE-160705002" ;
+        rdfs:label  "DE-160705002 Geraberg" .
+
+lau:DE-093725308  ramon:name  "Tiefenbach"@en ;
+        ramon:code  "DE-093725308" ;
+        rdfs:label  "DE-093725308 Tiefenbach" .
+
+lau:DE-130715158  ramon:name  "Penzlin, Stadt"@en ;
+        ramon:code  "DE-130715158" ;
+        rdfs:label  "DE-130715158 Penzlin, Stadt" .
+
+lau:DE-093745323  ramon:name  "Parkstein, M"@en ;
+        ramon:code  "DE-093745323" ;
+        rdfs:label  "DE-093745323 Parkstein, M" .
+
+lau:DE-093745326  ramon:name  "Kirchenthumbach, M"@en ;
+        ramon:code  "DE-093745326" ;
+        rdfs:label  "DE-093745326 Kirchenthumbach, M" .
+
+lau:DE-093745327  ramon:name  "Eschenbach i.d.OPf., St"@en ;
+        ramon:code  "DE-093745327" ;
+        rdfs:label  "DE-093745327 Eschenbach i.d.OPf., St" .
+
+lau:DE-093745324  ramon:name  "Pressath, St"@en ;
+        ramon:code  "DE-093745324" ;
+        rdfs:label  "DE-093745324 Pressath, St" .
+
+lau:DE-093745325  ramon:name  "Weiherhammer"@en ;
+        ramon:code  "DE-093745325" ;
+        rdfs:label  "DE-093745325 Weiherhammer" .
+
+lau:DE-073315001  ramon:name  "Gau-Odernheim"@en ;
+        ramon:code  "DE-073315001" ;
+        rdfs:label  "DE-073315001 Gau-Odernheim" .
+
+lau:DE-073315002  ramon:name  "Eich"@en ;
+        ramon:code  "DE-073315002" ;
+        rdfs:label  "DE-073315002 Eich" .
+
+lau:DE-073315003  ramon:name  "Flörsheim-Dalsheim"@en ;
+        ramon:code  "DE-073315003" ;
+        rdfs:label  "DE-073315003 Flörsheim-Dalsheim" .
+
+lau:DE-130715154  ramon:name  "Malchow, Stadt"@en ;
+        ramon:code  "DE-130715154" ;
+        rdfs:label  "DE-130715154 Malchow, Stadt" .
+
+lau:DE-073315005  ramon:name  "Wöllstein"@en ;
+        ramon:code  "DE-073315005" ;
+        rdfs:label  "DE-073315005 Wöllstein" .
+
+lau:DE-073315006  ramon:name  "Wörrstadt, Stadt"@en ;
+        ramon:code  "DE-073315006" ;
+        rdfs:label  "DE-073315006 Wörrstadt, Stadt" .
+
+lau:DE-073315007  ramon:name  "Osthofen, Stadt"@en ;
+        ramon:code  "DE-073315007" ;
+        rdfs:label  "DE-073315007 Osthofen, Stadt" .
+
+lau:DE-120625202  ramon:name  "Schönborn"@en ;
+        ramon:code  "DE-120625202" ;
+        rdfs:label  "DE-120625202 Schönborn" .
+
+lau:DE-160675006  ramon:name  "Goldbach"@en ;
+        ramon:code  "DE-160675006" ;
+        rdfs:label  "DE-160675006 Goldbach" .
+
+lau:DE-160675007  ramon:name  "Friemar"@en ;
+        ramon:code  "DE-160675007" ;
+        rdfs:label  "DE-160675007 Friemar" .
+
+lau:DE-120625207  ramon:name  "Plessa"@en ;
+        ramon:code  "DE-120625207" ;
+        rdfs:label  "DE-120625207 Plessa" .
+
+lau:DE-082255005  ramon:name  "Mosbach, Stadt"@en ;
+        ramon:code  "DE-082255005" ;
+        rdfs:label  "DE-082255005 Mosbach, Stadt" .
+
+lau:DE-033615401  ramon:name  "Thedinghausen"@en ;
+        ramon:code  "DE-033615401" ;
+        rdfs:label  "DE-033615401 Thedinghausen" .
+
+lau:DE-130765659  ramon:name  "Rastow"@en ;
+        ramon:code  "DE-130765659" ;
+        rdfs:label  "DE-130765659 Rastow" .
+
+lau:DE-072355001  ramon:name  "Hermeskeil, Stadt"@en ;
+        ramon:code  "DE-072355001" ;
+        rdfs:label  "DE-072355001 Hermeskeil, Stadt" .
+
+lau:DE-072355003  ramon:name  "Konz, Stadt"@en ;
+        ramon:code  "DE-072355003" ;
+        rdfs:label  "DE-072355003 Konz, Stadt" .
+
+lau:DE-072355002  ramon:name  "Kell am See"@en ;
+        ramon:code  "DE-072355002" ;
+        rdfs:label  "DE-072355002 Kell am See" .
+
+lau:DE-010625218  ramon:name  "Bargfeld-Stegen"@en ;
+        ramon:code  "DE-010625218" ;
+        rdfs:label  "DE-010625218 Bargfeld-Stegen" .
+
+lau:DE-072355004  ramon:name  "Osburg"@en ;
+        ramon:code  "DE-072355004" ;
+        rdfs:label  "DE-072355004 Osburg" .
+
+lau:DE-072355007  ramon:name  "Trierweiler"@en ;
+        ramon:code  "DE-072355007" ;
+        rdfs:label  "DE-072355007 Trierweiler" .
+
+lau:DE-072355006  ramon:name  "Schweich, Stadt"@en ;
+        ramon:code  "DE-072355006" ;
+        rdfs:label  "DE-072355006 Schweich, Stadt" .
+
+lau:DE-160745052  ramon:name  "Eisenberg, Stadt"@en ;
+        ramon:code  "DE-160745052" ;
+        rdfs:label  "DE-160745052 Eisenberg, Stadt" .
+
+lau:DE-032565405  ramon:name  "Liebenau, Flecken"@en ;
+        ramon:code  "DE-032565405" ;
+        rdfs:label  "DE-032565405 Liebenau, Flecken" .
+
+lau:DE-032565406  ramon:name  "Marklohe"@en ;
+        ramon:code  "DE-032565406" ;
+        rdfs:label  "DE-032565406 Marklohe" .
+
+lau:DE-032565407  ramon:name  "Rodewald"@en ;
+        ramon:code  "DE-032565407" ;
+        rdfs:label  "DE-032565407 Rodewald" .
+
+lau:DE-096795644  ramon:name  "Aub, St"@en ;
+        ramon:code  "DE-096795644" ;
+        rdfs:label  "DE-096795644 Aub, St" .
+
+lau:DE-032565402  ramon:name  "Drakenburg, Flecken"@en ;
+        ramon:code  "DE-032565402" ;
+        rdfs:label  "DE-032565402 Drakenburg, Flecken" .
+
+lau:DE-091775124  ramon:name  "Neuching"@en ;
+        ramon:code  "DE-091775124" ;
+        rdfs:label  "DE-091775124 Neuching" .
+
+lau:DE-032565408  ramon:name  "Uchte, Flecken"@en ;
+        ramon:code  "DE-032565408" ;
+        rdfs:label  "DE-032565408 Uchte, Flecken" .
+
+lau:DE-032565409  ramon:name  "Hoya, Stadt"@en ;
+        ramon:code  "DE-032565409" ;
+        rdfs:label  "DE-032565409 Hoya, Stadt" .
+
+lau:DE-095715502  ramon:name  "Schillingsfürst, St"@en ;
+        ramon:code  "DE-095715502" ;
+        rdfs:label  "DE-095715502 Schillingsfürst, St" .
+
+lau:DE-160725050  ramon:name  "Schalkau, Stadt"@en ;
+        ramon:code  "DE-160725050" ;
+        rdfs:label  "DE-160725050 Schalkau, Stadt" .
+
+lau:DE-071405006  ramon:name  "Oberwesel, Stadt"@en ;
+        ramon:code  "DE-071405006" ;
+        rdfs:label  "DE-071405006 Oberwesel, Stadt" .
+
+lau:DE-071405007  ramon:name  "Simmern/ Hunsrück, Stadt"@en ;
+        ramon:code  "DE-071405007" ;
+        rdfs:label  "DE-071405007 Simmern/ Hunsrück, Stadt" .
+
+lau:DE-071405004  ramon:name  "Kirchberg (Hunsrück), Stadt"@en ;
+        ramon:code  "DE-071405004" ;
+        rdfs:label  "DE-071405004 Kirchberg (Hunsrück), Stadt" .
+
+lau:DE-071405005  ramon:name  "Rheinböllen, Stadt"@en ;
+        ramon:code  "DE-071405005" ;
+        rdfs:label  "DE-071405005 Rheinböllen, Stadt" .
+
+lau:DE-071405002  ramon:name  "Emmelshausen, Stadt"@en ;
+        ramon:code  "DE-071405002" ;
+        rdfs:label  "DE-071405002 Emmelshausen, Stadt" .
+
+lau:DE-071405003  ramon:name  "Kastellaun, Stadt"@en ;
+        ramon:code  "DE-071405003" ;
+        rdfs:label  "DE-071405003 Kastellaun, Stadt" .
+
+lau:DE-084355007  ramon:name  "Überlingen, Stadt"@en ;
+        ramon:code  "DE-084355007" ;
+        rdfs:label  "DE-084355007 Überlingen, Stadt" .
+
+lau:DE-031569501  ramon:name  "Harz (Ldkr. Osterode am Harz) gemfr. Geb."@en ;
+        ramon:code  "DE-031569501" ;
+        rdfs:label  "DE-031569501 Harz (Ldkr. Osterode am Harz) gemfr. Geb." .
+
+lau:DE-084355004  ramon:name  "Uhldingen-Mühlhofen"@en ;
+        ramon:code  "DE-084355004" ;
+        rdfs:label  "DE-084355004 Uhldingen-Mühlhofen" .
+
+lau:DE-071345003  ramon:name  "Kirschweiler"@en ;
+        ramon:code  "DE-071345003" ;
+        rdfs:label  "DE-071345003 Kirschweiler" .
+
+lau:DE-071345002  ramon:name  "Birkenfeld, Stadt"@en ;
+        ramon:code  "DE-071345002" ;
+        rdfs:label  "DE-071345002 Birkenfeld, Stadt" .
+
+lau:DE-071345001  ramon:name  "Baumholder, Stadt"@en ;
+        ramon:code  "DE-071345001" ;
+        rdfs:label  "DE-071345001 Baumholder, Stadt" .
+
+lau:DE-083375008  ramon:name  "Wutöschingen"@en ;
+        ramon:code  "DE-083375008" ;
+        rdfs:label  "DE-083375008 Wutöschingen" .
+
+lau:DE-091775121  ramon:name  "Wörth"@en ;
+        ramon:code  "DE-091775121" ;
+        rdfs:label  "DE-091775121 Wörth" .
+
+lau:DE-091775120  ramon:name  "Pastetten"@en ;
+        ramon:code  "DE-091775120" ;
+        rdfs:label  "DE-091775120 Pastetten" .
+
+lau:DE-091775123  ramon:name  "Oberding"@en ;
+        ramon:code  "DE-091775123" ;
+        rdfs:label  "DE-091775123 Oberding" .
+
+lau:DE-071345004  ramon:name  "Rhaunen"@en ;
+        ramon:code  "DE-071345004" ;
+        rdfs:label  "DE-071345004 Rhaunen" .
+
+lau:DE-033515402  ramon:name  "Wienhausen, Klostergemeinde"@en ;
+        ramon:code  "DE-033515402" ;
+        rdfs:label  "DE-033515402 Wienhausen, Klostergemeinde" .
+
+lau:DE-033515403  ramon:name  "Lachendorf"@en ;
+        ramon:code  "DE-033515403" ;
+        rdfs:label  "DE-033515403 Lachendorf" .
+
+lau:DE-083375001  ramon:name  "Bonndorf im Schwarzwald, Stadt"@en ;
+        ramon:code  "DE-083375001" ;
+        rdfs:label  "DE-083375001 Bonndorf im Schwarzwald, Stadt" .
+
+lau:DE-083375007  ramon:name  "Waldshut-Tiengen, Stadt"@en ;
+        ramon:code  "DE-083375007" ;
+        rdfs:label  "DE-083375007 Waldshut-Tiengen, Stadt" .
+
+lau:DE-083375006  ramon:name  "St. Blasien, Stadt"@en ;
+        ramon:code  "DE-083375006" ;
+        rdfs:label  "DE-083375006 St. Blasien, Stadt" .
+
+lau:DE-033515404  ramon:name  "Nienhagen"@en ;
+        ramon:code  "DE-033515404" ;
+        rdfs:label  "DE-033515404 Nienhagen" .
+
+lau:DE-033555403  ramon:name  "Dahlenburg, Flecken"@en ;
+        ramon:code  "DE-033555403" ;
+        rdfs:label  "DE-033555403 Dahlenburg, Flecken" .
+
+lau:DE-083375003  ramon:name  "Küssaberg"@en ;
+        ramon:code  "DE-083375003" ;
+        rdfs:label  "DE-083375003 Küssaberg" .
+
+lau:DE-083255001  ramon:name  "Dunningen"@en ;
+        ramon:code  "DE-083255001" ;
+        rdfs:label  "DE-083255001 Dunningen" .
+
+lau:DE-032555409  ramon:name  "Stadtoldendorf, Stadt"@en ;
+        ramon:code  "DE-032555409" ;
+        rdfs:label  "DE-032555409 Stadtoldendorf, Stadt" .
+
+lau:DE-146285221  ramon:name  "Lohmen"@en ;
+        ramon:code  "DE-146285221" ;
+        rdfs:label  "DE-146285221 Lohmen" .
+
+lau:DE-083375002  ramon:name  "Jestetten"@en ;
+        ramon:code  "DE-083375002" ;
+        rdfs:label  "DE-083375002 Jestetten" .
+
+lau:DE-083255006  ramon:name  "Sulz am Neckar, Stadt"@en ;
+        ramon:code  "DE-083255006" ;
+        rdfs:label  "DE-083255006 Sulz am Neckar, Stadt" .
+
+lau:DE-130725257  ramon:name  "Laage, Stadt"@en ;
+        ramon:code  "DE-130725257" ;
+        rdfs:label  "DE-130725257 Laage, Stadt" .
+
+lau:DE-032555408  ramon:name  "Bodenwerder, Münchhausenstadt"@en ;
+        ramon:code  "DE-032555408" ;
+        rdfs:label  "DE-032555408 Bodenwerder, Münchhausenstadt" .
+
+lau:DE-146285229  ramon:name  "Pirna, Stadt"@en ;
+        ramon:code  "DE-146285229" ;
+        rdfs:label  "DE-146285229 Pirna, Stadt" .
+
+lau:DE-083255007  ramon:name  "Bösingen"@en ;
+        ramon:code  "DE-083255007" ;
+        rdfs:label  "DE-083255007 Bösingen" .
+
+lau:DE-091865158  ramon:name  "Reichertshofen, M"@en ;
+        ramon:code  "DE-091865158" ;
+        rdfs:label  "DE-091865158 Reichertshofen, M" .
+
+lau:DE-095715509  ramon:name  "Ehingen"@en ;
+        ramon:code  "DE-095715509" ;
+        rdfs:label  "DE-095715509 Ehingen" .
+
+lau:DE-091895169  ramon:name  "Marquartstein"@en ;
+        ramon:code  "DE-091895169" ;
+        rdfs:label  "DE-091895169 Marquartstein" .
+
+lau:DE-160685001  ramon:name  "Buttstädt, Stadt"@en ;
+        ramon:code  "DE-160685001" ;
+        rdfs:label  "DE-160685001 Buttstädt, Stadt" .
+
+lau:DE-083255004  ramon:name  "Schiltach, Stadt"@en ;
+        ramon:code  "DE-083255004" ;
+        rdfs:label  "DE-083255004 Schiltach, Stadt" .
+
+lau:DE-094799444  ramon:name  "Gdefr. Geb. (Lkr Wunsiedel i.Fichtelgebirge)"@en ;
+        ramon:code  "DE-094799444" ;
+        rdfs:label  "DE-094799444 Gdefr. Geb. (Lkr Wunsiedel i.Fichtelgebirge)" .
+
+lau:DE-095715538  ramon:name  "Wolframs-Eschenbach, St"@en ;
+        ramon:code  "DE-095715538" ;
+        rdfs:label  "DE-095715538 Wolframs-Eschenbach, St" .
+
+lau:DE-095715504  ramon:name  "Weihenzell"@en ;
+        ramon:code  "DE-095715504" ;
+        rdfs:label  "DE-095715504 Weihenzell" .
+
+lau:DE-083255005  ramon:name  "Schramberg, Stadt"@en ;
+        ramon:code  "DE-083255005" ;
+        rdfs:label  "DE-083255005 Schramberg, Stadt" .
+
+lau:DE-091895166  ramon:name  "Bergen"@en ;
+        ramon:code  "DE-091895166" ;
+        rdfs:label  "DE-091895166 Bergen" .
+
+lau:DE-130715153  ramon:name  "Malchin, Stadt"@en ;
+        ramon:code  "DE-130715153" ;
+        rdfs:label  "DE-130715153 Malchin, Stadt" .
+
+lau:DE-091865156  ramon:name  "Geisenfeld, St"@en ;
+        ramon:code  "DE-091865156" ;
+        rdfs:label  "DE-091865156 Geisenfeld, St" .
+
+lau:DE-091865157  ramon:name  "Ilmmünster"@en ;
+        ramon:code  "DE-091865157" ;
+        rdfs:label  "DE-091865157 Ilmmünster" .
+
+lau:DE-081255004  ramon:name  "Eppingen, Stadt"@en ;
+        ramon:code  "DE-081255004" ;
+        rdfs:label  "DE-081255004 Eppingen, Stadt" .
+
+lau:DE-160685010  ramon:name  "Großrudestedt"@en ;
+        ramon:code  "DE-160685010" ;
+        rdfs:label  "DE-160685010 Großrudestedt" .
+
+lau:DE-083375005  ramon:name  "Bad Säckingen, Stadt"@en ;
+        ramon:code  "DE-083375005" ;
+        rdfs:label  "DE-083375005 Bad Säckingen, Stadt" .
+
+lau:DE-071435010  ramon:name  "Wirges, Stadt"@en ;
+        ramon:code  "DE-071435010" ;
+        rdfs:label  "DE-071435010 Wirges, Stadt" .
+
+lau:DE-130725260  ramon:name  "Rövershagen"@en ;
+        ramon:code  "DE-130725260" ;
+        rdfs:label  "DE-130725260 Rövershagen" .
+
+lau:DE-081265005  ramon:name  "Öhringen, Stadt"@en ;
+        ramon:code  "DE-081265005" ;
+        rdfs:label  "DE-081265005 Öhringen, Stadt" .
+
+lau:DE-081265004  ramon:name  "Forchtenberg, Stadt"@en ;
+        ramon:code  "DE-081265004" ;
+        rdfs:label  "DE-081265004 Forchtenberg, Stadt" .
+
+lau:DE-081265003  ramon:name  "Künzelsau, Stadt"@en ;
+        ramon:code  "DE-081265003" ;
+        rdfs:label  "DE-081265003 Künzelsau, Stadt" .
+
+lau:DE-081265002  ramon:name  "Krautheim, Stadt"@en ;
+        ramon:code  "DE-081265002" ;
+        rdfs:label  "DE-081265002 Krautheim, Stadt" .
+
+lau:DE-081265001  ramon:name  "Neuenstein, Stadt"@en ;
+        ramon:code  "DE-081265001" ;
+        rdfs:label  "DE-081265001 Neuenstein, Stadt" .
+
+lau:DE-130725262  ramon:name  "Tessin, Stadt"@en ;
+        ramon:code  "DE-130725262" ;
+        rdfs:label  "DE-130725262 Tessin, Stadt" .
+
+lau:DE-150895051  ramon:name  "Egeln, Stadt"@en ;
+        ramon:code  "DE-150895051" ;
+        rdfs:label  "DE-150895051 Egeln, Stadt" .
+
+lau:DE-084365005  ramon:name  "Ravensburg, Stadt"@en ;
+        ramon:code  "DE-084365005" ;
+        rdfs:label  "DE-084365005 Ravensburg, Stadt" .
+
+lau:DE-095715507  ramon:name  "Dentlein a.Forst, M"@en ;
+        ramon:code  "DE-095715507" ;
+        rdfs:label  "DE-095715507 Dentlein a.Forst, M" .
+
+lau:DE-034585401  ramon:name  "Harpstedt, Flecken"@en ;
+        ramon:code  "DE-034585401" ;
+        rdfs:label  "DE-034585401 Harpstedt, Flecken" .
+
+lau:DE-033525410  ramon:name  "Otterndorf, Stadt"@en ;
+        ramon:code  "DE-033525410" ;
+        rdfs:label  "DE-033525410 Otterndorf, Stadt" .
+
+lau:DE-097785757  ramon:name  "Ottobeuren, M"@en ;
+        ramon:code  "DE-097785757" ;
+        rdfs:label  "DE-097785757 Ottobeuren, M" .
+
+lau:DE-081255001  ramon:name  "Bad Friedrichshall, Stadt"@en ;
+        ramon:code  "DE-081255001" ;
+        rdfs:label  "DE-081255001 Bad Friedrichshall, Stadt" .
+
+lau:DE-130755558  ramon:name  "Loitz, Stadt"@en ;
+        ramon:code  "DE-130755558" ;
+        rdfs:label  "DE-130755558 Loitz, Stadt" .
+
+lau:DE-130755559  ramon:name  "Torgelow, Stadt"@en ;
+        ramon:code  "DE-130755559" ;
+        rdfs:label  "DE-130755559 Torgelow, Stadt" .
+
+lau:DE-160625053  ramon:name  "Heringen/Helme, Stadt"@en ;
+        ramon:code  "DE-160625053" ;
+        rdfs:label  "DE-160625053 Heringen/Helme, Stadt" .
+
+lau:DE-091745110  ramon:name  "Odelzhausen"@en ;
+        ramon:code  "DE-091745110" ;
+        rdfs:label  "DE-091745110 Odelzhausen" .
+
+lau:DE-130745453  ramon:name  "Gägelow"@en ;
+        ramon:code  "DE-130745453" ;
+        rdfs:label  "DE-130745453 Gägelow" .
+
+lau:DE-130755552  ramon:name  "Eggesin, Stadt"@en ;
+        ramon:code  "DE-130755552" ;
+        rdfs:label  "DE-130755552 Eggesin, Stadt" .
+
+lau:DE-095735517  ramon:name  "Veitsbronn"@en ;
+        ramon:code  "DE-095735517" ;
+        rdfs:label  "DE-095735517 Veitsbronn" .
+
+lau:DE-083275004  ramon:name  "Spaichingen, Stadt"@en ;
+        ramon:code  "DE-083275004" ;
+        rdfs:label  "DE-083275004 Spaichingen, Stadt" .
+
+lau:DE-130755555  ramon:name  "Neuenkirchen"@en ;
+        ramon:code  "DE-130755555" ;
+        rdfs:label  "DE-130755555 Neuenkirchen" .
+
+lau:DE-130755556  ramon:name  "Löcknitz"@en ;
+        ramon:code  "DE-130755556" ;
+        rdfs:label  "DE-130755556 Löcknitz" .
+
+lau:DE-031535401  ramon:name  "Lutter am Barenberge, Flecken"@en ;
+        ramon:code  "DE-031535401" ;
+        rdfs:label  "DE-031535401 Lutter am Barenberge, Flecken" .
+
+lau:DE-160625052  ramon:name  "Bleicherode, Stadt"@en ;
+        ramon:code  "DE-160625052" ;
+        rdfs:label  "DE-160625052 Bleicherode, Stadt" .
+
+lau:DE-010539105  ramon:name  "Sachsenwald (Forstgutsbez.),gemfr.Geb."@en ;
+        ramon:code  "DE-010539105" ;
+        rdfs:label  "DE-010539105 Sachsenwald (Forstgutsbez.),gemfr.Geb." .
+
+lau:DE-010595952  ramon:name  "Großenwiehe"@en ;
+        ramon:code  "DE-010595952" ;
+        rdfs:label  "DE-010595952 Großenwiehe" .
+
+lau:DE-083275006  ramon:name  "Tuttlingen, Stadt"@en ;
+        ramon:code  "DE-083275006" ;
+        rdfs:label  "DE-083275006 Tuttlingen, Stadt" .
+
+lau:DE-033519501  ramon:name  "Lohheide, gemfr. Bezirk"@en ;
+        ramon:code  "DE-033519501" ;
+        rdfs:label  "DE-033519501 Lohheide, gemfr. Bezirk" .
+
+lau:DE-083365009  ramon:name  "Zell im Wiesental, Stadt"@en ;
+        ramon:code  "DE-083365009" ;
+        rdfs:label  "DE-083365009 Zell im Wiesental, Stadt" .
+
+lau:DE-083365006  ramon:name  "Schönau im Schwarzwald, Stadt"@en ;
+        ramon:code  "DE-083365006" ;
+        rdfs:label  "DE-083365006 Schönau im Schwarzwald, Stadt" .
+
+lau:DE-083365007  ramon:name  "Schopfheim, Stadt"@en ;
+        ramon:code  "DE-083365007" ;
+        rdfs:label  "DE-083365007 Schopfheim, Stadt" .
+
+lau:DE-083365004  ramon:name  "Rheinfelden (Baden), Stadt"@en ;
+        ramon:code  "DE-083365004" ;
+        rdfs:label  "DE-083365004 Rheinfelden (Baden), Stadt" .
+
+lau:DE-083365005  ramon:name  "Schliengen"@en ;
+        ramon:code  "DE-083365005" ;
+        rdfs:label  "DE-083365005 Schliengen" .
+
+lau:DE-083365003  ramon:name  "Lörrach, Stadt"@en ;
+        ramon:code  "DE-083365003" ;
+        rdfs:label  "DE-083365003 Lörrach, Stadt" .
+
+lau:DE-083365001  ramon:name  "Kandern, Stadt"@en ;
+        ramon:code  "DE-083365001" ;
+        rdfs:label  "DE-083365001 Kandern, Stadt" .
+
+lau:DE-120725204  ramon:name  "Dahme/Mark, Stadt"@en ;
+        ramon:code  "DE-120725204" ;
+        rdfs:label  "DE-120725204 Dahme/Mark, Stadt" .
+
+lau:DE-091765118  ramon:name  "Adelschlag"@en ;
+        ramon:code  "DE-091765118" ;
+        rdfs:label  "DE-091765118 Adelschlag" .
+
+lau:DE-081365008  ramon:name  "Mutlangen"@en ;
+        ramon:code  "DE-081365008" ;
+        rdfs:label  "DE-081365008 Mutlangen" .
+
+lau:DE-081365009  ramon:name  "Unterschneidheim"@en ;
+        ramon:code  "DE-081365009" ;
+        rdfs:label  "DE-081365009 Unterschneidheim" .
+
+lau:DE-160775004  ramon:name  "Windischleuba"@en ;
+        ramon:code  "DE-160775004" ;
+        rdfs:label  "DE-160775004 Windischleuba" .
+
+lau:DE-081365004  ramon:name  "Westhausen"@en ;
+        ramon:code  "DE-081365004" ;
+        rdfs:label  "DE-081365004 Westhausen" .
+
+lau:DE-081365005  ramon:name  "Iggingen"@en ;
+        ramon:code  "DE-081365005" ;
+        rdfs:label  "DE-081365005 Iggingen" .
+
+lau:DE-081365006  ramon:name  "Heubach, Stadt"@en ;
+        ramon:code  "DE-081365006" ;
+        rdfs:label  "DE-081365006 Heubach, Stadt" .
+
+lau:DE-081365007  ramon:name  "Schwäbisch Gmünd, Stadt"@en ;
+        ramon:code  "DE-081365007" ;
+        rdfs:label  "DE-081365007 Schwäbisch Gmünd, Stadt" .
+
+lau:DE-145245128  ramon:name  "Lichtenstein/Sa., Stadt"@en ;
+        ramon:code  "DE-145245128" ;
+        rdfs:label  "DE-145245128 Lichtenstein/Sa., Stadt" .
+
+lau:DE-081365001  ramon:name  "Aalen, Stadt"@en ;
+        ramon:code  "DE-081365001" ;
+        rdfs:label  "DE-081365001 Aalen, Stadt" .
+
+lau:DE-081365002  ramon:name  "Bopfingen, Stadt"@en ;
+        ramon:code  "DE-081365002" ;
+        rdfs:label  "DE-081365002 Bopfingen, Stadt" .
+
+lau:DE-010605053  ramon:name  "Leezen"@en ;
+        ramon:code  "DE-010605053" ;
+        rdfs:label  "DE-010605053 Leezen" .
+
+lau:DE-034529501  ramon:name  "Nordseeinsel Memmert, gemfr. Gebiet"@en ;
+        ramon:code  "DE-034529501" ;
+        rdfs:label  "DE-034529501 Nordseeinsel Memmert, gemfr. Gebiet" .
+
+lau:DE-160645052  ramon:name  "Südeichsfeld"@en ;
+        ramon:code  "DE-160645052" ;
+        rdfs:label  "DE-160645052 Südeichsfeld" .
+
+lau:DE-097759444  ramon:name  "Gdefr. Geb. (Lkr Neu-Ulm)"@en ;
+        ramon:code  "DE-097759444" ;
+        rdfs:label  "DE-097759444 Gdefr. Geb. (Lkr Neu-Ulm)" .
+
+lau:DE-145235402  ramon:name  "Werda"@en ;
+        ramon:code  "DE-145235402" ;
+        rdfs:label  "DE-145235402 Werda" .
+
+lau:DE-130735360  ramon:name  "Tribsees, Stadt"@en ;
+        ramon:code  "DE-130735360" ;
+        rdfs:label  "DE-130735360 Tribsees, Stadt" .
+
+lau:DE-095775536  ramon:name  "Heidenheim, M"@en ;
+        ramon:code  "DE-095775536" ;
+        rdfs:label  "DE-095775536 Heidenheim, M" .
+
+lau:DE-094765434  ramon:name  "Mitwitz, M"@en ;
+        ramon:code  "DE-094765434" ;
+        rdfs:label  "DE-094765434 Mitwitz, M" .
+
+lau:DE-010595920  ramon:name  "Rabenkirchen-Faulück"@en ;
+        ramon:code  "DE-010595920" ;
+        rdfs:label  "DE-010595920 Rabenkirchen-Faulück" .
+
+lau:DE-073325003  ramon:name  "Dirmstein"@en ;
+        ramon:code  "DE-073325003" ;
+        rdfs:label  "DE-073325003 Dirmstein" .
+
+lau:DE-073325002  ramon:name  "Freinsheim, Stadt"@en ;
+        ramon:code  "DE-073325002" ;
+        rdfs:label  "DE-073325002 Freinsheim, Stadt" .
+
+lau:DE-073325001  ramon:name  "Deidesheim, Stadt"@en ;
+        ramon:code  "DE-073325001" ;
+        rdfs:label  "DE-073325001 Deidesheim, Stadt" .
+
+lau:DE-160685005  ramon:name  "Kindelbrück, Stadt"@en ;
+        ramon:code  "DE-160685005" ;
+        rdfs:label  "DE-160685005 Kindelbrück, Stadt" .
+
+lau:DE-073325006  ramon:name  "Wachenheim an der Weinstraße, Stadt"@en ;
+        ramon:code  "DE-073325006" ;
+        rdfs:label  "DE-073325006 Wachenheim an der Weinstraße, Stadt" .
+
+lau:DE-073325005  ramon:name  "Lambrecht (Pfalz), Stadt"@en ;
+        ramon:code  "DE-073325005" ;
+        rdfs:label  "DE-073325005 Lambrecht (Pfalz), Stadt" .
+
+lau:DE-073325004  ramon:name  "Carlsberg"@en ;
+        ramon:code  "DE-073325004" ;
+        rdfs:label  "DE-073325004 Carlsberg" .
+
+lau:DE-031559501  ramon:name  "Solling (Landkreis Northeim), gemfr. Geb."@en ;
+        ramon:code  "DE-031559501" ;
+        rdfs:label  "DE-031559501 Solling (Landkreis Northeim), gemfr. Geb." .
+
+lau:DE-094775435  ramon:name  "Stadtsteinach, St"@en ;
+        ramon:code  "DE-094775435" ;
+        rdfs:label  "DE-094775435 Stadtsteinach, St" .
+
+lau:DE-097799444  ramon:name  "Gdefr. Geb. (Lkr Donau-Ries)"@en ;
+        ramon:code  "DE-097799444" ;
+        rdfs:label  "DE-097799444 Gdefr. Geb. (Lkr Donau-Ries)" .
+
+lau:DE-092785252  ramon:name  "Schwarzach, M"@en ;
+        ramon:code  "DE-092785252" ;
+        rdfs:label  "DE-092785252 Schwarzach, M" .
+
+lau:DE-092785250  ramon:name  "Rain"@en ;
+        ramon:code  "DE-092785250" ;
+        rdfs:label  "DE-092785250 Rain" .
+
+lau:DE-092785257  ramon:name  "Straßkirchen"@en ;
+        ramon:code  "DE-092785257" ;
+        rdfs:label  "DE-092785257 Straßkirchen" .
+
+lau:DE-092785256  ramon:name  "Aiterhofen"@en ;
+        ramon:code  "DE-092785256" ;
+        rdfs:label  "DE-092785256 Aiterhofen" .
+
+lau:DE-093769444  ramon:name  "Gdefr. Geb. (Lkr Schwandorf)"@en ;
+        ramon:code  "DE-093769444" ;
+        rdfs:label  "DE-093769444 Gdefr. Geb. (Lkr Schwandorf)" .
+
+lau:DE-146255231  ramon:name  "Pulsnitz, Stadt"@en ;
+        ramon:code  "DE-146255231" ;
+        rdfs:label  "DE-146255231 Pulsnitz, Stadt" .
+
+lau:DE-094725416  ramon:name  "Creu��en, St"@en ;
+        ramon:code  "DE-094725416" ;
+        rdfs:label  "DE-094725416 Creu��en, St" .
+
+lau:DE-096789444  ramon:name  "Gdefr. Geb. (Lkr Schweinfurt)"@en ;
+        ramon:code  "DE-096789444" ;
+        rdfs:label  "DE-096789444 Gdefr. Geb. (Lkr Schweinfurt)" .
+
+lau:DE-160645009  ramon:name  "Schlotheim, Stadt"@en ;
+        ramon:code  "DE-160645009" ;
+        rdfs:label  "DE-160645009 Schlotheim, Stadt" .
+
+lau:DE-097775748  ramon:name  "Buchloe, St"@en ;
+        ramon:code  "DE-097775748" ;
+        rdfs:label  "DE-097775748 Buchloe, St" .
+
+lau:DE-146275225  ramon:name  "Nünchritz"@en ;
+        ramon:code  "DE-146275225" ;
+        rdfs:label  "DE-146275225 Nünchritz" .
+
+lau:DE-146265228  ramon:name  "Oppach"@en ;
+        ramon:code  "DE-146265228" ;
+        rdfs:label  "DE-146265228 Oppach" .
+
+lau:DE-160745014  ramon:name  "Hermsdorf, Stadt"@en ;
+        ramon:code  "DE-160745014" ;
+        rdfs:label  "DE-160745014 Hermsdorf, Stadt" .
+
+lau:DE-081175010  ramon:name  "Uhingen, Stadt"@en ;
+        ramon:code  "DE-081175010" ;
+        rdfs:label  "DE-081175010 Uhingen, Stadt" .
+
+lau:DE-081175011  ramon:name  "Heiningen"@en ;
+        ramon:code  "DE-081175011" ;
+        rdfs:label  "DE-081175011 Heiningen" .
+
+lau:DE-032515403  ramon:name  "Bruchhausen-Vilsen, Flecken"@en ;
+        ramon:code  "DE-032515403" ;
+        rdfs:label  "DE-032515403 Bruchhausen-Vilsen, Flecken" .
+
+lau:DE-032515402  ramon:name  "Barnstorf, Flecken"@en ;
+        ramon:code  "DE-032515402" ;
+        rdfs:label  "DE-032515402 Barnstorf, Flecken" .
+
+lau:DE-032515401  ramon:name  "Lemförde, Flecken"@en ;
+        ramon:code  "DE-032515401" ;
+        rdfs:label  "DE-032515401 Lemförde, Flecken" .
+
+lau:DE-096775622  ramon:name  "Burgsinn, M"@en ;
+        ramon:code  "DE-096775622" ;
+        rdfs:label  "DE-096775622 Burgsinn, M" .
+
+lau:DE-032515407  ramon:name  "Siedenburg, Flecken"@en ;
+        ramon:code  "DE-032515407" ;
+        rdfs:label  "DE-032515407 Siedenburg, Flecken" .
+
+lau:DE-032515406  ramon:name  "Schwaförden"@en ;
+        ramon:code  "DE-032515406" ;
+        rdfs:label  "DE-032515406 Schwaförden" .
+
+lau:DE-032515405  ramon:name  "Rehden"@en ;
+        ramon:code  "DE-032515405" ;
+        rdfs:label  "DE-032515405 Rehden" .
+
+lau:DE-032515404  ramon:name  "Kirchdorf"@en ;
+        ramon:code  "DE-032515404" ;
+        rdfs:label  "DE-032515404 Kirchdorf" .
+
+lau:DE-120645406  ramon:name  "Lebus, Stadt"@en ;
+        ramon:code  "DE-120645406" ;
+        rdfs:label  "DE-120645406 Lebus, Stadt" .
+
+lau:DE-010535313  ramon:name  "Breitenfelde"@en ;
+        ramon:code  "DE-010535313" ;
+        rdfs:label  "DE-010535313 Breitenfelde" .
+
+lau:DE-120645404  ramon:name  "Küstriner Vorland"@en ;
+        ramon:code  "DE-120645404" ;
+        rdfs:label  "DE-120645404 Küstriner Vorland" .
+
+lau:DE-120645403  ramon:name  "Falkenberg"@en ;
+        ramon:code  "DE-120645403" ;
+        rdfs:label  "DE-120645403 Falkenberg" .
+
+lau:DE-130745459  ramon:name  "Lüdersdorf"@en ;
+        ramon:code  "DE-130745459" ;
+        rdfs:label  "DE-130745459 Lüdersdorf" .
+
+lau:DE-010575782  ramon:name  "Heikendorf"@en ;
+        ramon:code  "DE-010575782" ;
+        rdfs:label  "DE-010575782 Heikendorf" .
+
+lau:DE-010535318  ramon:name  "Büchen"@en ;
+        ramon:code  "DE-010535318" ;
+        rdfs:label  "DE-010535318 Büchen" .
+
+lau:DE-130745456  ramon:name  "Neuburg"@en ;
+        ramon:code  "DE-130745456" ;
+        rdfs:label  "DE-130745456 Neuburg" .
+
+lau:DE-130745457  ramon:name  "Neukloster, Stadt"@en ;
+        ramon:code  "DE-130745457" ;
+        rdfs:label  "DE-130745457 Neukloster, Stadt" .
+
+lau:DE-130745451  ramon:name  "Bad Kleinen"@en ;
+        ramon:code  "DE-130745451" ;
+        rdfs:label  "DE-130745451 Bad Kleinen" .
+
+lau:DE-130745452  ramon:name  "Gadebusch, Stadt"@en ;
+        ramon:code  "DE-130745452" ;
+        rdfs:label  "DE-130745452 Gadebusch, Stadt" .
+
+lau:DE-010575785  ramon:name  "Wankendorf"@en ;
+        ramon:code  "DE-010575785" ;
+        rdfs:label  "DE-010575785 Wankendorf" .
+
+lau:DE-160755005  ramon:name  "Langenorla"@en ;
+        ramon:code  "DE-160755005" ;
+        rdfs:label  "DE-160755005 Langenorla" .
+
+lau:DE-093745331  ramon:name  "Pleystein, St"@en ;
+        ramon:code  "DE-093745331" ;
+        rdfs:label  "DE-093745331 Pleystein, St" .
+
+lau:DE-146275241  ramon:name  "Thiendorf"@en ;
+        ramon:code  "DE-146275241" ;
+        rdfs:label  "DE-146275241 Thiendorf" .
+
+lau:DE-096765627  ramon:name  "Kleinheubach, M"@en ;
+        ramon:code  "DE-096765627" ;
+        rdfs:label  "DE-096765627 Kleinheubach, M" .
+
+lau:DE-091785129  ramon:name  "Mauern"@en ;
+        ramon:code  "DE-091785129" ;
+        rdfs:label  "DE-091785129 Mauern" .
+
+lau:DE-091785127  ramon:name  "Allershausen"@en ;
+        ramon:code  "DE-091785127" ;
+        rdfs:label  "DE-091785127 Allershausen" .
+
+lau:DE-120625205  ramon:name  "Massen-Niederlausitz"@en ;
+        ramon:code  "DE-120625205" ;
+        rdfs:label  "DE-120625205 Massen-Niederlausitz" .
+
+lau:DE-160755008  ramon:name  "Blankenberg"@en ;
+        ramon:code  "DE-160755008" ;
+        rdfs:label  "DE-160755008 Blankenberg" .
+
+lau:DE-092745226  ramon:name  "Altfraunhofen"@en ;
+        ramon:code  "DE-092745226" ;
+        rdfs:label  "DE-092745226 Altfraunhofen" .
+
+lau:DE-092745227  ramon:name  "Velden, M"@en ;
+        ramon:code  "DE-092745227" ;
+        rdfs:label  "DE-092745227 Velden, M" .
+
+lau:DE-010515175  ramon:name  "Meldorf, Stadt"@en ;
+        ramon:code  "DE-010515175" ;
+        rdfs:label  "DE-010515175 Meldorf, Stadt" .
+
+lau:DE-073355010  ramon:name  "Otterberg, Stadt"@en ;
+        ramon:code  "DE-073355010" ;
+        rdfs:label  "DE-073355010 Otterberg, Stadt" .
+
+lau:DE-092745222  ramon:name  "Wörth a.d.Isar"@en ;
+        ramon:code  "DE-092745222" ;
+        rdfs:label  "DE-092745222 Wörth a.d.Isar" .
+
+lau:DE-010515172  ramon:name  "Hemmingstedt"@en ;
+        ramon:code  "DE-010515172" ;
+        rdfs:label  "DE-010515172 Hemmingstedt" .
+
+lau:DE-092745220  ramon:name  "Ergoldsbach, M"@en ;
+        ramon:code  "DE-092745220" ;
+        rdfs:label  "DE-092745220 Ergoldsbach, M" .
+
+lau:DE-082265010  ramon:name  "Wiesloch, Stadt"@en ;
+        ramon:code  "DE-082265010" ;
+        rdfs:label  "DE-082265010 Wiesloch, Stadt" .
+
+lau:DE-097775751  ramon:name  "Westendorf"@en ;
+        ramon:code  "DE-097775751" ;
+        rdfs:label  "DE-097775751 Westendorf" .
+
+lau:DE-093765339  ramon:name  "Teunz"@en ;
+        ramon:code  "DE-093765339" ;
+        rdfs:label  "DE-093765339 Teunz" .
+
+lau:DE-010565616  ramon:name  "Klein Nordende"@en ;
+        ramon:code  "DE-010565616" ;
+        rdfs:label  "DE-010565616 Klein Nordende" .
+
+lau:DE-097775754  ramon:name  "Obergünzburg, M"@en ;
+        ramon:code  "DE-097775754" ;
+        rdfs:label  "DE-097775754 Obergünzburg, M" .
+
+lau:DE-097775755  ramon:name  "Unterthingau, M"@en ;
+        ramon:code  "DE-097775755" ;
+        rdfs:label  "DE-097775755 Unterthingau, M" .
+
+lau:DE-097775753  ramon:name  "Friesenried"@en ;
+        ramon:code  "DE-097775753" ;
+        rdfs:label  "DE-097775753 Friesenried" .
+
+lau:DE-010515178  ramon:name  "Büsum"@en ;
+        ramon:code  "DE-010515178" ;
+        rdfs:label  "DE-010515178 Büsum" .
+
+lau:DE-095725512  ramon:name  "Aurachtal"@en ;
+        ramon:code  "DE-095725512" ;
+        rdfs:label  "DE-095725512 Aurachtal" .
+
+lau:DE-160675001  ramon:name  "Georgenthal/Thür. Wald"@en ;
+        ramon:code  "DE-160675001" ;
+        rdfs:label  "DE-160675001 Georgenthal/Thür. Wald" .
+
+lau:DE-097745731  ramon:name  "Deisenhausen"@en ;
+        ramon:code  "DE-097745731" ;
+        rdfs:label  "DE-097745731 Deisenhausen" .
+
+lau:DE-097745730  ramon:name  "Ichenhausen, St"@en ;
+        ramon:code  "DE-097745730" ;
+        rdfs:label  "DE-097745730 Ichenhausen, St" .
+
+lau:DE-097745733  ramon:name  "Ziemetshausen, M"@en ;
+        ramon:code  "DE-097745733" ;
+        rdfs:label  "DE-097745733 Ziemetshausen, M" .
+
+lau:DE-097745732  ramon:name  "Thannhausen, St"@en ;
+        ramon:code  "DE-097745732" ;
+        rdfs:label  "DE-097745732 Thannhausen, St" .
+
+lau:DE-145245135  ramon:name  "Waldenburg, Stadt"@en ;
+        ramon:code  "DE-145245135" ;
+        rdfs:label  "DE-145245135 Waldenburg, Stadt" .
+
+lau:DE-130715161  ramon:name  "Burg Stargard, Stadt"@en ;
+        ramon:code  "DE-130715161" ;
+        rdfs:label  "DE-130715161 Burg Stargard, Stadt" .
+
+lau:DE-130715160  ramon:name  "Grabowhöfe"@en ;
+        ramon:code  "DE-130715160" ;
+        rdfs:label  "DE-130715160 Grabowhöfe" .
+
+lau:DE-130715163  ramon:name  "Altentreptow, Stadt"@en ;
+        ramon:code  "DE-130715163" ;
+        rdfs:label  "DE-130715163 Altentreptow, Stadt" .
+
+lau:DE-130715162  ramon:name  "Stavenhagen, Reuterstadt, Stadt"@en ;
+        ramon:code  "DE-130715162" ;
+        rdfs:label  "DE-130715162 Stavenhagen, Reuterstadt, Stadt" .
+
+lau:DE-010615138  ramon:name  "Hohenaspe"@en ;
+        ramon:code  "DE-010615138" ;
+        rdfs:label  "DE-010615138 Hohenaspe" .
+
+lau:DE-031589501  ramon:name  "Am Großen Rhode, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031589501" ;
+        rdfs:label  "DE-031589501 Am Großen Rhode, gemfr. Gebiet" .
+
+lau:DE-031589502  ramon:name  "Barnstorf-Warle, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031589502" ;
+        rdfs:label  "DE-031589502 Barnstorf-Warle, gemfr. Gebiet" .
+
+lau:DE-031589503  ramon:name  "Voigtsdahlum, gemfr. Gebiet"@en ;
+        ramon:code  "DE-031589503" ;
+        rdfs:label  "DE-031589503 Voigtsdahlum, gemfr. Gebiet" .
+
+lau:DE-130735356  ramon:name  "Sundhagen "@en ;
+        ramon:code  "DE-130735356" ;
+        rdfs:label  "DE-130735356 Sundhagen " .
+
+lau:DE-160685011  ramon:name  "Schloßvippach"@en ;
+        ramon:code  "DE-160685011" ;
+        rdfs:label  "DE-160685011 Schloßvippach" .
+
+lau:DE-093735321  ramon:name  "Sengenthal"@en ;
+        ramon:code  "DE-093735321" ;
+        rdfs:label  "DE-093735321 Sengenthal" .
+
+lau:DE-130755560  ramon:name  "Jatznick"@en ;
+        ramon:code  "DE-130755560" ;
+        rdfs:label  "DE-130755560 Jatznick" .
+
+lau:DE-130755563  ramon:name  "Gützkow, Stadt"@en ;
+        ramon:code  "DE-130755563" ;
+        rdfs:label  "DE-130755563 Gützkow, Stadt" .
+
+lau:DE-130735357  ramon:name  "Sellin"@en ;
+        ramon:code  "DE-130735357" ;
+        rdfs:label  "DE-130735357 Sellin" .
+
+lau:DE-096775624  ramon:name  "Steinfeld"@en ;
+        ramon:code  "DE-096775624" ;
+        rdfs:label  "DE-096775624 Steinfeld" .
+
+lau:DE-093779444  ramon:name  "Gdefr. Geb. (Lkr Tirschenreuth)"@en ;
+        ramon:code  "DE-093779444" ;
+        rdfs:label  "DE-093779444 Gdefr. Geb. (Lkr Tirschenreuth)" .
+
+lau:DE-084375001  ramon:name  "Gammertingen, Stadt"@en ;
+        ramon:code  "DE-084375001" ;
+        rdfs:label  "DE-084375001 Gammertingen, Stadt" .
+
+lau:DE-084375002  ramon:name  "Mengen, Stadt"@en ;
+        ramon:code  "DE-084375002" ;
+        rdfs:label  "DE-084375002 Mengen, Stadt" .
+
+lau:DE-084375003  ramon:name  "Meßkirch, Stadt"@en ;
+        ramon:code  "DE-084375003" ;
+        rdfs:label  "DE-084375003 Meßkirch, Stadt" .
+
+lau:DE-084375004  ramon:name  "Pfullendorf, Stadt"@en ;
+        ramon:code  "DE-084375004" ;
+        rdfs:label  "DE-084375004 Pfullendorf, Stadt" .
+
+lau:DE-084375006  ramon:name  "Sigmaringen, Stadt"@en ;
+        ramon:code  "DE-084375006" ;
+        rdfs:label  "DE-084375006 Sigmaringen, Stadt" .
+
+lau:DE-084375007  ramon:name  "Stetten am kalten Markt"@en ;
+        ramon:code  "DE-084375007" ;
+        rdfs:label  "DE-084375007 Stetten am kalten Markt" .
+
+lau:DE-095759444  ramon:name  "Gdefr. Geb. (Lkr Neustadt a.d.Aisch-Bad Windsheim)"@en ;
+        ramon:code  "DE-095759444" ;
+        rdfs:label  "DE-095759444 Gdefr. Geb. (Lkr Neustadt a.d.Aisch-Bad Windsheim)" .
+
+lau:DE-010585822  ramon:name  "Dänischenhagen"@en ;
+        ramon:code  "DE-010585822" ;
+        rdfs:label  "DE-010585822 Dänischenhagen" .
+
+lau:DE-097735713  ramon:name  "Gundelfingen a.d.Donau, St"@en ;
+        ramon:code  "DE-097735713" ;
+        rdfs:label  "DE-097735713 Gundelfingen a.d.Donau, St" .
+
+lau:DE-010585824  ramon:name  "Gettorf"@en ;
+        ramon:code  "DE-010585824" ;
+        rdfs:label  "DE-010585824 Gettorf" .
+
+lau:DE-130735352  ramon:name  "Barth, Stadt"@en ;
+        ramon:code  "DE-130735352" ;
+        rdfs:label  "DE-130735352 Barth, Stadt" .
+
+lau:DE-160645001  ramon:name  "Bad Tennstedt, Stadt"@en ;
+        ramon:code  "DE-160645001" ;
+        rdfs:label  "DE-160645001 Bad Tennstedt, Stadt" .
+
+lau:DE-097735714  ramon:name  "Syrgenstein"@en ;
+        ramon:code  "DE-097735714" ;
+        rdfs:label  "DE-097735714 Syrgenstein" .
+
+lau:DE-160735005  ramon:name  "Probstzella"@en ;
+        ramon:code  "DE-160735005" ;
+        rdfs:label  "DE-160735005 Probstzella" .
+
+lau:DE-130735353  ramon:name  "Bergen auf Rügen, Stadt"@en ;
+        ramon:code  "DE-130735353" ;
+        rdfs:label  "DE-130735353 Bergen auf Rügen, Stadt" .
+
+lau:DE-160735003  ramon:name  "Mellenbach-Glasbach"@en ;
+        ramon:code  "DE-160735003" ;
+        rdfs:label  "DE-160735003 Mellenbach-Glasbach" .
+
+lau:DE-160735002  ramon:name  "Lichte"@en ;
+        ramon:code  "DE-160735002" ;
+        rdfs:label  "DE-160735002 Lichte" .
+
+lau:DE-160735001  ramon:name  "Oberweißbach/Thür. Wald, Stadt"@en ;
+        ramon:code  "DE-160735001" ;
+        rdfs:label  "DE-160735001 Oberweißbach/Thür. Wald, Stadt" .
+
+lau:DE-092785249  ramon:name  "Hunderdorf"@en ;
+        ramon:code  "DE-092785249" ;
+        rdfs:label  "DE-092785249 Hunderdorf" .
+
+lau:DE-160775001  ramon:name  "Starkenberg"@en ;
+        ramon:code  "DE-160775001" ;
+        rdfs:label  "DE-160775001 Starkenberg" .
+
+lau:DE-091715102  ramon:name  "Kirchweidach"@en ;
+        ramon:code  "DE-091715102" ;
+        rdfs:label  "DE-091715102 Kirchweidach" .
+
+lau:DE-130765657  ramon:name  "Grabow, Stadt"@en ;
+        ramon:code  "DE-130765657" ;
+        rdfs:label  "DE-130765657 Grabow, Stadt" .
+
+lau:DE-160775005  ramon:name  "Rositz"@en ;
+        ramon:code  "DE-160775005" ;
+        rdfs:label  "DE-160775005 Rositz" .
+
+lau:DE-160675012  ramon:name  "Tonna"@en ;
+        ramon:code  "DE-160675012" ;
+        rdfs:label  "DE-160675012 Tonna" .
+
+lau:DE-160635057  ramon:name  "Ruhla, Stadt"@en ;
+        ramon:code  "DE-160635057" ;
+        rdfs:label  "DE-160635057 Ruhla, Stadt" .
+
+lau:DE-160775008  ramon:name  "Langenleuba-Niederhain"@en ;
+        ramon:code  "DE-160775008" ;
+        rdfs:label  "DE-160775008 Langenleuba-Niederhain" .
+
+lau:DE-160665013  ramon:name  "Wasungen, Stadt"@en ;
+        ramon:code  "DE-160665013" ;
+        rdfs:label  "DE-160665013 Wasungen, Stadt" .
+
+lau:DE-120635306  ramon:name  "Nennhausen"@en ;
+        ramon:code  "DE-120635306" ;
+        rdfs:label  "DE-120635306 Nennhausen" .
+
+lau:DE-010565687  ramon:name  "Ellerbek"@en ;
+        ramon:code  "DE-010565687" ;
+        rdfs:label  "DE-010565687 Ellerbek" .
+
+lau:DE-032555403  ramon:name  "Boffzen"@en ;
+        ramon:code  "DE-032555403" ;
+        rdfs:label  "DE-032555403 Boffzen" .
+
+lau:DE-146285201  ramon:name  "Altenberg, Stadt"@en ;
+        ramon:code  "DE-146285201" ;
+        rdfs:label  "DE-146285201 Altenberg, Stadt" .
+
+lau:DE-032555401  ramon:name  "Bevern, Flecken"@en ;
+        ramon:code  "DE-032555401" ;
+        rdfs:label  "DE-032555401 Bevern, Flecken" .
+
+lau:DE-033555406  ramon:name  "Neetze"@en ;
+        ramon:code  "DE-033555406" ;
+        rdfs:label  "DE-033555406 Neetze" .
+
+lau:DE-033555407  ramon:name  "Scharnebeck"@en ;
+        ramon:code  "DE-033555407" ;
+        rdfs:label  "DE-033555407 Scharnebeck" .
+
+lau:DE-033555404  ramon:name  "Reppenstedt"@en ;
+        ramon:code  "DE-033555404" ;
+        rdfs:label  "DE-033555404 Reppenstedt" .
+
+lau:DE-033555405  ramon:name  "Deutsch Evern"@en ;
+        ramon:code  "DE-033555405" ;
+        rdfs:label  "DE-033555405 Deutsch Evern" .
+
+lau:DE-033555402  ramon:name  "Bardowick, Flecken"@en ;
+        ramon:code  "DE-033555402" ;
+        rdfs:label  "DE-033555402 Bardowick, Flecken" .
+
+lau:DE-034625402  ramon:name  "Westerholt"@en ;
+        ramon:code  "DE-034625402" ;
+        rdfs:label  "DE-034625402 Westerholt" .
+
+lau:DE-034625401  ramon:name  "Esens, Stadt"@en ;
+        ramon:code  "DE-034625401" ;
+        rdfs:label  "DE-034625401 Esens, Stadt" .
+
+lau:DE-033555401  ramon:name  "Amelinghausen"@en ;
+        ramon:code  "DE-033555401" ;
+        rdfs:label  "DE-033555401 Amelinghausen" .
+
+lau:DE-082355008  ramon:name  "Bad Wildbad, Stadt"@en ;
+        ramon:code  "DE-082355008" ;
+        rdfs:label  "DE-082355008 Bad Wildbad, Stadt" .
+
+lau:DE-092775243  ramon:name  "Tann, M"@en ;
+        ramon:code  "DE-092775243" ;
+        rdfs:label  "DE-092775243 Tann, M" .
+
+lau:DE-097725712  ramon:name  "Langerringen"@en ;
+        ramon:code  "DE-097725712" ;
+        rdfs:label  "DE-097725712 Langerringen" .
+
+lau:DE-091759444  ramon:name  "Gdefr. Geb. (Lkr Ebersberg)"@en ;
+        ramon:code  "DE-091759444" ;
+        rdfs:label  "DE-091759444 Gdefr. Geb. (Lkr Ebersberg)" .
+
+lau:DE-130725255  ramon:name  "Gülzow-Prüzen"@en ;
+        ramon:code  "DE-130725255" ;
+        rdfs:label  "DE-130725255 Gülzow-Prüzen" .
+
+lau:DE-095715501  ramon:name  "Neusitz"@en ;
+        ramon:code  "DE-095715501" ;
+        rdfs:label  "DE-095715501 Neusitz" .
+
+lau:DE-082355001  ramon:name  "Altensteig, Stadt"@en ;
+        ramon:code  "DE-082355001" ;
+        rdfs:label  "DE-082355001 Altensteig, Stadt" .
+
+lau:DE-082355002  ramon:name  "Althengstett"@en ;
+        ramon:code  "DE-082355002" ;
+        rdfs:label  "DE-082355002 Althengstett" .
+
+lau:DE-082355003  ramon:name  "Bad Herrenalb, Stadt"@en ;
+        ramon:code  "DE-082355003" ;
+        rdfs:label  "DE-082355003 Bad Herrenalb, Stadt" .
+
+lau:DE-082355004  ramon:name  "Bad Liebenzell, Stadt"@en ;
+        ramon:code  "DE-082355004" ;
+        rdfs:label  "DE-082355004 Bad Liebenzell, Stadt" .
+
+lau:DE-082355005  ramon:name  "Neubulach, Stadt"@en ;
+        ramon:code  "DE-082355005" ;
+        rdfs:label  "DE-082355005 Neubulach, Stadt" .
+
+lau:DE-082355006  ramon:name  "Calw, Stadt"@en ;
+        ramon:code  "DE-082355006" ;
+        rdfs:label  "DE-082355006 Calw, Stadt" .
+
+lau:DE-082355007  ramon:name  "Nagold, Stadt"@en ;
+        ramon:code  "DE-082355007" ;
+        rdfs:label  "DE-082355007 Nagold, Stadt" .
+
+lau:DE-064359200  ramon:name  "Gutsbezirk Spessart, gemfr. Gebiet"@en ;
+        ramon:code  "DE-064359200" ;
+        rdfs:label  "DE-064359200 Gutsbezirk Spessart, gemfr. Gebiet" .
+
+lau:DE-130765668  ramon:name  "Crivitz, Stadt"@en ;
+        ramon:code  "DE-130765668" ;
+        rdfs:label  "DE-130765668 Crivitz, Stadt" .
+
+lau:DE-160635056  ramon:name  "Geisa, Stadt"@en ;
+        ramon:code  "DE-160635056" ;
+        rdfs:label  "DE-160635056 Geisa, Stadt" .
+
+lau:DE-010575755  ramon:name  "Schönberg (Holstein)"@en ;
+        ramon:code  "DE-010575755" ;
+        rdfs:label  "DE-010575755 Schönberg (Holstein)" .
+
+lau:DE-130755557  ramon:name  "Lubmin"@en ;
+        ramon:code  "DE-130755557" ;
+        rdfs:label  "DE-130755557 Lubmin" .
+
+lau:DE-093759444  ramon:name  "Gdefr. Geb. (Lkr Regensburg)"@en ;
+        ramon:code  "DE-093759444" ;
+        rdfs:label  "DE-093759444 Gdefr. Geb. (Lkr Regensburg)" .
+
+lau:DE-145225102  ramon:name  "Burgstädt, Stadt"@en ;
+        ramon:code  "DE-145225102" ;
+        rdfs:label  "DE-145225102 Burgstädt, Stadt" .
+
+lau:DE-145245111  ramon:name  "Kirchberg, Stadt"@en ;
+        ramon:code  "DE-145245111" ;
+        rdfs:label  "DE-145245111 Kirchberg, Stadt" .
+
+lau:DE-066369200  ramon:name  "Gutsbezirk Kaufunger Wald, gemfr. Gebiet"@en ;
+        ramon:code  "DE-066369200" ;
+        rdfs:label  "DE-066369200 Gutsbezirk Kaufunger Wald, gemfr. Gebiet" .
+
+lau:DE-097795723  ramon:name  "Wemding, St"@en ;
+        ramon:code  "DE-097795723" ;
+        rdfs:label  "DE-097795723 Wemding, St" .
+
+lau:DE-145215138  ramon:name  "Zschopau, Stadt"@en ;
+        ramon:code  "DE-145215138" ;
+        rdfs:label  "DE-145215138 Zschopau, Stadt" .
+
+lau:DE-120615114  ramon:name  "Golßen, Stadt"@en ;
+        ramon:code  "DE-120615114" ;
+        rdfs:label  "DE-120615114 Golßen, Stadt" .
+
+lau:DE-097795725  ramon:name  "Rain, St"@en ;
+        ramon:code  "DE-097795725" ;
+        rdfs:label  "DE-097795725 Rain, St" .
+
+lau:DE-097785765  ramon:name  "Memmingerberg"@en ;
+        ramon:code  "DE-097785765" ;
+        rdfs:label  "DE-097785765 Memmingerberg" .
+
+lau:DE-150845053  ramon:name  "Freyburg (Unstrut), Stadt"@en ;
+        ramon:code  "DE-150845053" ;
+        rdfs:label  "DE-150845053 Freyburg (Unstrut), Stadt" .
+
+lau:DE-146265206  ramon:name  "Bernstadt a. d. Eigen, Stadt"@en ;
+        ramon:code  "DE-146265206" ;
+        rdfs:label  "DE-146265206 Bernstadt a. d. Eigen, Stadt" .
+
+lau:DE-150845051  ramon:name  "Bad Bibra, Stadt"@en ;
+        ramon:code  "DE-150845051" ;
+        rdfs:label  "DE-150845051 Bad Bibra, Stadt" .
+
+lau:DE-120615113  ramon:name  "Schwielochsee"@en ;
+        ramon:code  "DE-120615113" ;
+        rdfs:label  "DE-120615113 Schwielochsee" .
+
+lau:DE-094745425  ramon:name  "Effeltrich"@en ;
+        ramon:code  "DE-094745425" ;
+        rdfs:label  "DE-094745425 Effeltrich" .
+
+lau:DE-147305311  ramon:name  "Torgau, Stadt"@en ;
+        ramon:code  "DE-147305311" ;
+        rdfs:label  "DE-147305311 Torgau, Stadt" .
+
+lau:DE-094719444  ramon:name  "Gdefr. Geb. (Lkr Bamberg)"@en ;
+        ramon:code  "DE-094719444" ;
+        rdfs:label  "DE-094719444 Gdefr. Geb. (Lkr Bamberg)" .
+
+lau:DE-095755525  ramon:name  "Neuhof a.d.Zenn, M"@en ;
+        ramon:code  "DE-095755525" ;
+        rdfs:label  "DE-095755525 Neuhof a.d.Zenn, M" .
+
+lau:DE-082375005  ramon:name  "Pfalzgrafenweiler"@en ;
+        ramon:code  "DE-082375005" ;
+        rdfs:label  "DE-082375005 Pfalzgrafenweiler" .
+
+lau:DE-082375002  ramon:name  "Freudenstadt, Stadt"@en ;
+        ramon:code  "DE-082375002" ;
+        rdfs:label  "DE-082375002 Freudenstadt, Stadt" .
+
+lau:DE-082375003  ramon:name  "Horb am Neckar, Stadt"@en ;
+        ramon:code  "DE-082375003" ;
+        rdfs:label  "DE-082375003 Horb am Neckar, Stadt" .
+
+lau:DE-071415007  ramon:name  "Nastätten, Stadt"@en ;
+        ramon:code  "DE-071415007" ;
+        rdfs:label  "DE-071415007 Nastätten, Stadt" .
+
+lau:DE-082375001  ramon:name  "Dornstetten, Stadt"@en ;
+        ramon:code  "DE-082375001" ;
+        rdfs:label  "DE-082375001 Dornstetten, Stadt" .

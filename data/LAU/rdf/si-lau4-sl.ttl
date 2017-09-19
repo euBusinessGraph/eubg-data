@@ -1,0 +1,240 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:SI-58  ramon:name  "Tržič"@en ;
+        ramon:code  "SI-58" ;
+        rdfs:label  "SI-58 Tržič" .
+
+lau:SI-09  ramon:name  "Grosuplje"@en ;
+        ramon:code  "SI-09" ;
+        rdfs:label  "SI-09 Grosuplje" .
+
+lau:SI-54  ramon:name  "Rogaška Slatina"@en ;
+        ramon:code  "SI-54" ;
+        rdfs:label  "SI-54 Rogaška Slatina" .
+
+lau:SI-51  ramon:name  "Slovenske Konjice"@en ;
+        ramon:code  "SI-51" ;
+        rdfs:label  "SI-51 Slovenske Konjice" .
+
+lau:SI-43  ramon:name  "Radlje ob Dravi"@en ;
+        ramon:code  "SI-43" ;
+        rdfs:label  "SI-43 Radlje ob Dravi" .
+
+lau:SI-60  ramon:name  "Vrhnika"@en ;
+        ramon:code  "SI-60" ;
+        rdfs:label  "SI-60 Vrhnika" .
+
+lau:SI-61  ramon:name  "Zagorje ob Savi"@en ;
+        ramon:code  "SI-61" ;
+        rdfs:label  "SI-61 Zagorje ob Savi" .
+
+lau:SI-62  ramon:name  "Žalec"@en ;
+        ramon:code  "SI-62" ;
+        rdfs:label  "SI-62 Žalec" .
+
+lau:SI-64  ramon:name  "Maribor"@en ;
+        ramon:code  "SI-64" ;
+        rdfs:label  "SI-64 Maribor" .
+
+lau:SI-35  ramon:name  "Mozirje"@en ;
+        ramon:code  "SI-35" ;
+        rdfs:label  "SI-35 Mozirje" .
+
+lau:SI-68  ramon:name  "Ruše"@en ;
+        ramon:code  "SI-68" ;
+        rdfs:label  "SI-68 Ruše" .
+
+lau:SI-52  ramon:name  "Šentjur "@en ;
+        ramon:code  "SI-52" ;
+        rdfs:label  "SI-52 Šentjur " .
+
+lau:SI-24  ramon:name  "Ljubljana"@en ;
+        ramon:code  "SI-24" ;
+        rdfs:label  "SI-24 Ljubljana" .
+
+lau:SI-03  ramon:name  "Celje"@en ;
+        ramon:code  "SI-03" ;
+        rdfs:label  "SI-03 Celje" .
+
+lau:SI-01  ramon:name  "Ajdovščina"@en ;
+        ramon:code  "SI-01" ;
+        rdfs:label  "SI-01 Ajdovščina" .
+
+lau:SI-06  ramon:name  "Domžale"@en ;
+        ramon:code  "SI-06" ;
+        rdfs:label  "SI-06 Domžale" .
+
+lau:SI-07  ramon:name  "Dravograd"@en ;
+        ramon:code  "SI-07" ;
+        rdfs:label  "SI-07 Dravograd" .
+
+lau:SI-22  ramon:name  "Lendva"@en ;
+        ramon:code  "SI-22" ;
+        rdfs:label  "SI-22 Lendva" .
+
+lau:SI-05  ramon:name  "Črnomelj"@en ;
+        ramon:code  "SI-05" ;
+        rdfs:label  "SI-05 Črnomelj" .
+
+lau:SI-46  ramon:name  "Ribnica"@en ;
+        ramon:code  "SI-46" ;
+        rdfs:label  "SI-46 Ribnica" .
+
+lau:SI-47  ramon:name  "Sevnica"@en ;
+        ramon:code  "SI-47" ;
+        rdfs:label  "SI-47 Sevnica" .
+
+lau:SI-44  ramon:name  "Radovljica"@en ;
+        ramon:code  "SI-44" ;
+        rdfs:label  "SI-44 Radovljica" .
+
+lau:SI-45  ramon:name  "Ravne na Koroškem"@en ;
+        ramon:code  "SI-45" ;
+        rdfs:label  "SI-45 Ravne na Koroškem" .
+
+lau:SI-42  ramon:name  "Ptuj"@en ;
+        ramon:code  "SI-42" ;
+        rdfs:label  "SI-42 Ptuj" .
+
+lau:SI-29  ramon:name  "Ljutomer"@en ;
+        ramon:code  "SI-29" ;
+        rdfs:label  "SI-29 Ljutomer" .
+
+lau:SI-40  ramon:name  "Pirano"@en ;
+        ramon:code  "SI-40" ;
+        rdfs:label  "SI-40 Pirano" .
+
+lau:SI-41  ramon:name  "Postojna"@en ;
+        ramon:code  "SI-41" ;
+        rdfs:label  "SI-41 Postojna" .
+
+lau:SI-59  ramon:name  "Velenje"@en ;
+        ramon:code  "SI-59" ;
+        rdfs:label  "SI-59 Velenje" .
+
+lau:SI-02  ramon:name  "Brežice"@en ;
+        ramon:code  "SI-02" ;
+        rdfs:label  "SI-02 Brežice" .
+
+lau:SI-56  ramon:name  "Trbovlje"@en ;
+        ramon:code  "SI-56" ;
+        rdfs:label  "SI-56 Trbovlje" .
+
+lau:SI-39  ramon:name  "Ormož"@en ;
+        ramon:code  "SI-39" ;
+        rdfs:label  "SI-39 Ormož" .
+
+lau:SI-38  ramon:name  "Novo mesto"@en ;
+        ramon:code  "SI-38" ;
+        rdfs:label  "SI-38 Novo mesto" .
+
+lau:SI-50  ramon:name  "Slovenska Bistrica"@en ;
+        ramon:code  "SI-50" ;
+        rdfs:label  "SI-50 Slovenska Bistrica" .
+
+lau:SI-30  ramon:name  "Logatec"@en ;
+        ramon:code  "SI-30" ;
+        rdfs:label  "SI-30 Logatec" .
+
+lau:SI-20  ramon:name  "Laško"@en ;
+        ramon:code  "SI-20" ;
+        rdfs:label  "SI-20 Laško" .
+
+lau:SI-14  ramon:name  "Jesenice"@en ;
+        ramon:code  "SI-14" ;
+        rdfs:label  "SI-14 Jesenice" .
+
+lau:SI-11  ramon:name  "Idrija"@en ;
+        ramon:code  "SI-11" ;
+        rdfs:label  "SI-11 Idrija" .
+
+lau:SI-10  ramon:name  "Hrastnik"@en ;
+        ramon:code  "SI-10" ;
+        rdfs:label  "SI-10 Hrastnik" .
+
+lau:SI-13  ramon:name  "Isola"@en ;
+        ramon:code  "SI-13" ;
+        rdfs:label  "SI-13 Isola" .
+
+lau:SI-12  ramon:name  "Ilirska Bistrica"@en ;
+        ramon:code  "SI-12" ;
+        rdfs:label  "SI-12 Ilirska Bistrica" .
+
+lau:SI-15  ramon:name  "Kamnik"@en ;
+        ramon:code  "SI-15" ;
+        rdfs:label  "SI-15 Kamnik" .
+
+lau:SI-04  ramon:name  "Cerknica"@en ;
+        ramon:code  "SI-04" ;
+        rdfs:label  "SI-04 Cerknica" .
+
+lau:SI-17  ramon:name  "Capodistria"@en ;
+        ramon:code  "SI-17" ;
+        rdfs:label  "SI-17 Capodistria" .
+
+lau:SI-16  ramon:name  "Kočevje"@en ;
+        ramon:code  "SI-16" ;
+        rdfs:label  "SI-16 Kočevje" .
+
+lau:SI-55  ramon:name  "Tolmin"@en ;
+        ramon:code  "SI-55" ;
+        rdfs:label  "SI-55 Tolmin" .
+
+lau:SI-18  ramon:name  "Kranj"@en ;
+        ramon:code  "SI-18" ;
+        rdfs:label  "SI-18 Kranj" .
+
+lau:SI-57  ramon:name  "Trebnje"@en ;
+        ramon:code  "SI-57" ;
+        rdfs:label  "SI-57 Trebnje" .
+
+lau:SI-23  ramon:name  "Litija"@en ;
+        ramon:code  "SI-23" ;
+        rdfs:label  "SI-23 Litija" .
+
+lau:SI-37  ramon:name  "Nova Gorica"@en ;
+        ramon:code  "SI-37" ;
+        rdfs:label  "SI-37 Nova Gorica" .
+
+lau:SI-36  ramon:name  "Murska Sobota"@en ;
+        ramon:code  "SI-36" ;
+        rdfs:label  "SI-36 Murska Sobota" .
+
+lau:SI-53  ramon:name  "Škofja Loka"@en ;
+        ramon:code  "SI-53" ;
+        rdfs:label  "SI-53 Škofja Loka" .
+
+lau:SI-34  ramon:name  "Metlika"@en ;
+        ramon:code  "SI-34" ;
+        rdfs:label  "SI-34 Metlika" .
+
+lau:SI-19  ramon:name  "Krško"@en ;
+        ramon:code  "SI-19" ;
+        rdfs:label  "SI-19 Krško" .
+
+lau:SI-21  ramon:name  "Lenart"@en ;
+        ramon:code  "SI-21" ;
+        rdfs:label  "SI-21 Lenart" .
+
+lau:SI-48  ramon:name  "Sežana"@en ;
+        ramon:code  "SI-48" ;
+        rdfs:label  "SI-48 Sežana" .
+
+lau:SI-49  ramon:name  "Slovenj Gradec"@en ;
+        ramon:code  "SI-49" ;
+        rdfs:label  "SI-49 Slovenj Gradec" .
+
+lau:SI-08  ramon:name  "Gornja Radgona"@en ;
+        ramon:code  "SI-08" ;
+        rdfs:label  "SI-08 Gornja Radgona" .
+
+lau:SI-65  ramon:name  "Šentilj"@en ;
+        ramon:code  "SI-65" ;
+        rdfs:label  "SI-65 Šentilj" .

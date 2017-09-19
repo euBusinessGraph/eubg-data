@@ -1,0 +1,316 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:CZ-CZ0412  ramon:name  "Karlovy Vary"@en ;
+        ramon:code  "CZ-CZ0412" ;
+        rdfs:label  "CZ-CZ0412 Karlovy Vary" .
+
+lau:CZ-CZ0413  ramon:name  "Sokolov"@en ;
+        ramon:code  "CZ-CZ0413" ;
+        rdfs:label  "CZ-CZ0413 Sokolov" .
+
+lau:CZ-CZ0631  ramon:name  "Havlíčkův Brod"@en ;
+        ramon:code  "CZ-CZ0631" ;
+        rdfs:label  "CZ-CZ0631 Havlíčkův Brod" .
+
+lau:CZ-CZ0513  ramon:name  "Liberec"@en ;
+        ramon:code  "CZ-CZ0513" ;
+        rdfs:label  "CZ-CZ0513 Liberec" .
+
+lau:CZ-CZ0512  ramon:name  "Jablonec nad Nisou"@en ;
+        ramon:code  "CZ-CZ0512" ;
+        rdfs:label  "CZ-CZ0512 Jablonec nad Nisou" .
+
+lau:CZ-CZ0511  ramon:name  "Česká Lípa"@en ;
+        ramon:code  "CZ-CZ0511" ;
+        rdfs:label  "CZ-CZ0511 Česká Lípa" .
+
+lau:CZ-CZ0311  ramon:name  "České Budějovice"@en ;
+        ramon:code  "CZ-CZ0311" ;
+        rdfs:label  "CZ-CZ0311 České Budějovice" .
+
+lau:CZ-CZ0321  ramon:name  "Domažlice"@en ;
+        ramon:code  "CZ-CZ0321" ;
+        rdfs:label  "CZ-CZ0321 Domažlice" .
+
+lau:CZ-CZ0325  ramon:name  "Nýřany"@en ;
+        ramon:code  "CZ-CZ0325" ;
+        rdfs:label  "CZ-CZ0325 Nýřany" .
+
+lau:CZ-CZ0207  ramon:name  "Mladá Boleslav"@en ;
+        ramon:code  "CZ-CZ0207" ;
+        rdfs:label  "CZ-CZ0207 Mladá Boleslav" .
+
+lau:CZ-CZ0206  ramon:name  "Mělník"@en ;
+        ramon:code  "CZ-CZ0206" ;
+        rdfs:label  "CZ-CZ0206 Mělník" .
+
+lau:CZ-CZ0205  ramon:name  "Kutná Hora"@en ;
+        ramon:code  "CZ-CZ0205" ;
+        rdfs:label  "CZ-CZ0205 Kutná Hora" .
+
+lau:CZ-CZ0204  ramon:name  "Kolín"@en ;
+        ramon:code  "CZ-CZ0204" ;
+        rdfs:label  "CZ-CZ0204 Kolín" .
+
+lau:CZ-CZ0203  ramon:name  "Kladno"@en ;
+        ramon:code  "CZ-CZ0203" ;
+        rdfs:label  "CZ-CZ0203 Kladno" .
+
+lau:CZ-CZ0634  ramon:name  "Třebíč"@en ;
+        ramon:code  "CZ-CZ0634" ;
+        rdfs:label  "CZ-CZ0634 Třebíč" .
+
+lau:CZ-CZ0201  ramon:name  "Benešov"@en ;
+        ramon:code  "CZ-CZ0201" ;
+        rdfs:label  "CZ-CZ0201 Benešov" .
+
+lau:CZ-CZ0534  ramon:name  "Česká Třebová"@en ;
+        ramon:code  "CZ-CZ0534" ;
+        rdfs:label  "CZ-CZ0534 Česká Třebová" .
+
+lau:CZ-CZ0635  ramon:name  "Žďár nad Sázavou"@en ;
+        ramon:code  "CZ-CZ0635" ;
+        rdfs:label  "CZ-CZ0635 Žďár nad Sázavou" .
+
+lau:CZ-CZ0531  ramon:name  "Chrudim"@en ;
+        ramon:code  "CZ-CZ0531" ;
+        rdfs:label  "CZ-CZ0531 Chrudim" .
+
+lau:CZ-CZ0641  ramon:name  "Blansko"@en ;
+        ramon:code  "CZ-CZ0641" ;
+        rdfs:label  "CZ-CZ0641 Blansko" .
+
+lau:CZ-CZ0209  ramon:name  "Brandýs nad Labem-Stará Boleslav"@en ;
+        ramon:code  "CZ-CZ0209" ;
+        rdfs:label  "CZ-CZ0209 Brandýs nad Labem-Stará Boleslav" .
+
+lau:CZ-CZ0208  ramon:name  "Nymburk"@en ;
+        ramon:code  "CZ-CZ0208" ;
+        rdfs:label  "CZ-CZ0208 Nymburk" .
+
+lau:CZ-CZ0411  ramon:name  "Cheb"@en ;
+        ramon:code  "CZ-CZ0411" ;
+        rdfs:label  "CZ-CZ0411 Cheb" .
+
+lau:CZ-CZ0645  ramon:name  "Hodonín"@en ;
+        ramon:code  "CZ-CZ0645" ;
+        rdfs:label  "CZ-CZ0645 Hodonín" .
+
+lau:CZ-CZ0647  ramon:name  "Znojmo"@en ;
+        ramon:code  "CZ-CZ0647" ;
+        rdfs:label  "CZ-CZ0647 Znojmo" .
+
+lau:CZ-CZ0632  ramon:name  "Jihlava"@en ;
+        ramon:code  "CZ-CZ0632" ;
+        rdfs:label  "CZ-CZ0632 Jihlava" .
+
+lau:CZ-CZ0633  ramon:name  "Pelhřimov"@en ;
+        ramon:code  "CZ-CZ0633" ;
+        rdfs:label  "CZ-CZ0633 Pelhřimov" .
+
+lau:CZ-CZ0713  ramon:name  "Prostějov"@en ;
+        ramon:code  "CZ-CZ0713" ;
+        rdfs:label  "CZ-CZ0713 Prostějov" .
+
+lau:CZ-CZ0712  ramon:name  "Olomouc"@en ;
+        ramon:code  "CZ-CZ0712" ;
+        rdfs:label  "CZ-CZ0712 Olomouc" .
+
+lau:CZ-CZ0715  ramon:name  "Šumperk"@en ;
+        ramon:code  "CZ-CZ0715" ;
+        rdfs:label  "CZ-CZ0715 Šumperk" .
+
+lau:CZ-CZ0714  ramon:name  "Přerov"@en ;
+        ramon:code  "CZ-CZ0714" ;
+        rdfs:label  "CZ-CZ0714 Přerov" .
+
+lau:CZ-CZ0326  ramon:name  "Rokycany"@en ;
+        ramon:code  "CZ-CZ0326" ;
+        rdfs:label  "CZ-CZ0326 Rokycany" .
+
+lau:CZ-CZ0327  ramon:name  "Tachov"@en ;
+        ramon:code  "CZ-CZ0327" ;
+        rdfs:label  "CZ-CZ0327 Tachov" .
+
+lau:CZ-CZ0533  ramon:name  "Svitavy"@en ;
+        ramon:code  "CZ-CZ0533" ;
+        rdfs:label  "CZ-CZ0533 Svitavy" .
+
+lau:CZ-CZ0422  ramon:name  "Chomutov"@en ;
+        ramon:code  "CZ-CZ0422" ;
+        rdfs:label  "CZ-CZ0422 Chomutov" .
+
+lau:CZ-CZ0100  ramon:name  "Praha"@en ;
+        ramon:code  "CZ-CZ0100" ;
+        rdfs:label  "CZ-CZ0100 Praha" .
+
+lau:CZ-CZ0532  ramon:name  "Pardubice"@en ;
+        ramon:code  "CZ-CZ0532" ;
+        rdfs:label  "CZ-CZ0532 Pardubice" .
+
+lau:CZ-CZ0644  ramon:name  "Břeclav"@en ;
+        ramon:code  "CZ-CZ0644" ;
+        rdfs:label  "CZ-CZ0644 Břeclav" .
+
+lau:CZ-CZ0423  ramon:name  "Litoměřice"@en ;
+        ramon:code  "CZ-CZ0423" ;
+        rdfs:label  "CZ-CZ0423 Litoměřice" .
+
+lau:CZ-CZ0323  ramon:name  "Plzeň"@en ;
+        ramon:code  "CZ-CZ0323" ;
+        rdfs:label  "CZ-CZ0323 Plzeň" .
+
+lau:CZ-CZ0421  ramon:name  "Děčín"@en ;
+        ramon:code  "CZ-CZ0421" ;
+        rdfs:label  "CZ-CZ0421 Děčín" .
+
+lau:CZ-CZ0427  ramon:name  "Ústí nad Labem"@en ;
+        ramon:code  "CZ-CZ0427" ;
+        rdfs:label  "CZ-CZ0427 Ústí nad Labem" .
+
+lau:CZ-CZ0426  ramon:name  "Teplice"@en ;
+        ramon:code  "CZ-CZ0426" ;
+        rdfs:label  "CZ-CZ0426 Teplice" .
+
+lau:CZ-CZ0425  ramon:name  "Most"@en ;
+        ramon:code  "CZ-CZ0425" ;
+        rdfs:label  "CZ-CZ0425 Most" .
+
+lau:CZ-CZ0424  ramon:name  "Žatec"@en ;
+        ramon:code  "CZ-CZ0424" ;
+        rdfs:label  "CZ-CZ0424 Žatec" .
+
+lau:CZ-CZ0724  ramon:name  "Zlín"@en ;
+        ramon:code  "CZ-CZ0724" ;
+        rdfs:label  "CZ-CZ0724 Zlín" .
+
+lau:CZ-CZ0721  ramon:name  "Kroměříž"@en ;
+        ramon:code  "CZ-CZ0721" ;
+        rdfs:label  "CZ-CZ0721 Kroměříž" .
+
+lau:CZ-CZ0722  ramon:name  "Uherské Hradiště"@en ;
+        ramon:code  "CZ-CZ0722" ;
+        rdfs:label  "CZ-CZ0722 Uherské Hradiště" .
+
+lau:CZ-CZ0723  ramon:name  "Vsetín"@en ;
+        ramon:code  "CZ-CZ0723" ;
+        rdfs:label  "CZ-CZ0723 Vsetín" .
+
+lau:CZ-CZ0514  ramon:name  "Turnov"@en ;
+        ramon:code  "CZ-CZ0514" ;
+        rdfs:label  "CZ-CZ0514 Turnov" .
+
+lau:CZ-CZ0524  ramon:name  "Rychnov nad Kněžnou"@en ;
+        ramon:code  "CZ-CZ0524" ;
+        rdfs:label  "CZ-CZ0524 Rychnov nad Kněžnou" .
+
+lau:CZ-CZ0525  ramon:name  "Trutnov"@en ;
+        ramon:code  "CZ-CZ0525" ;
+        rdfs:label  "CZ-CZ0525 Trutnov" .
+
+lau:CZ-CZ0522  ramon:name  "Jičín"@en ;
+        ramon:code  "CZ-CZ0522" ;
+        rdfs:label  "CZ-CZ0522 Jičín" .
+
+lau:CZ-CZ0523  ramon:name  "Náchod"@en ;
+        ramon:code  "CZ-CZ0523" ;
+        rdfs:label  "CZ-CZ0523 Náchod" .
+
+lau:CZ-CZ0521  ramon:name  "Hradec Králové"@en ;
+        ramon:code  "CZ-CZ0521" ;
+        rdfs:label  "CZ-CZ0521 Hradec Králové" .
+
+lau:CZ-CZ0801  ramon:name  "Krnov"@en ;
+        ramon:code  "CZ-CZ0801" ;
+        rdfs:label  "CZ-CZ0801 Krnov" .
+
+lau:CZ-CZ020C  ramon:name  "Rakovník"@en ;
+        ramon:code  "CZ-CZ020C" ;
+        rdfs:label  "CZ-CZ020C Rakovník" .
+
+lau:CZ-CZ020B  ramon:name  "Příbram"@en ;
+        ramon:code  "CZ-CZ020B" ;
+        rdfs:label  "CZ-CZ020B Příbram" .
+
+lau:CZ-CZ020A  ramon:name  "Jesenice"@en ;
+        ramon:code  "CZ-CZ020A" ;
+        rdfs:label  "CZ-CZ020A Jesenice" .
+
+lau:CZ-CZ0324  ramon:name  "Přeštice"@en ;
+        ramon:code  "CZ-CZ0324" ;
+        rdfs:label  "CZ-CZ0324 Přeštice" .
+
+lau:CZ-CZ0315  ramon:name  "Prachatice"@en ;
+        ramon:code  "CZ-CZ0315" ;
+        rdfs:label  "CZ-CZ0315 Prachatice" .
+
+lau:CZ-CZ0314  ramon:name  "Písek"@en ;
+        ramon:code  "CZ-CZ0314" ;
+        rdfs:label  "CZ-CZ0314 Písek" .
+
+lau:CZ-CZ0317  ramon:name  "Tábor"@en ;
+        ramon:code  "CZ-CZ0317" ;
+        rdfs:label  "CZ-CZ0317 Tábor" .
+
+lau:CZ-CZ0316  ramon:name  "Strakonice"@en ;
+        ramon:code  "CZ-CZ0316" ;
+        rdfs:label  "CZ-CZ0316 Strakonice" .
+
+lau:CZ-CZ0643  ramon:name  "Kuřim"@en ;
+        ramon:code  "CZ-CZ0643" ;
+        rdfs:label  "CZ-CZ0643 Kuřim" .
+
+lau:CZ-CZ0642  ramon:name  "Brno"@en ;
+        ramon:code  "CZ-CZ0642" ;
+        rdfs:label  "CZ-CZ0642 Brno" .
+
+lau:CZ-CZ0313  ramon:name  "Jindřichův Hradec"@en ;
+        ramon:code  "CZ-CZ0313" ;
+        rdfs:label  "CZ-CZ0313 Jindřichův Hradec" .
+
+lau:CZ-CZ0312  ramon:name  "Český Krumlov"@en ;
+        ramon:code  "CZ-CZ0312" ;
+        rdfs:label  "CZ-CZ0312 Český Krumlov" .
+
+lau:CZ-CZ0711  ramon:name  "Jeseník"@en ;
+        ramon:code  "CZ-CZ0711" ;
+        rdfs:label  "CZ-CZ0711 Jeseník" .
+
+lau:CZ-CZ0646  ramon:name  "Vyškov"@en ;
+        ramon:code  "CZ-CZ0646" ;
+        rdfs:label  "CZ-CZ0646 Vyškov" .
+
+lau:CZ-CZ0805  ramon:name  "Opava"@en ;
+        ramon:code  "CZ-CZ0805" ;
+        rdfs:label  "CZ-CZ0805 Opava" .
+
+lau:CZ-CZ0804  ramon:name  "Nový Jičín"@en ;
+        ramon:code  "CZ-CZ0804" ;
+        rdfs:label  "CZ-CZ0804 Nový Jičín" .
+
+lau:CZ-CZ0806  ramon:name  "Ostrava"@en ;
+        ramon:code  "CZ-CZ0806" ;
+        rdfs:label  "CZ-CZ0806 Ostrava" .
+
+lau:CZ-CZ0202  ramon:name  "Beroun"@en ;
+        ramon:code  "CZ-CZ0202" ;
+        rdfs:label  "CZ-CZ0202 Beroun" .
+
+lau:CZ-CZ0322  ramon:name  "Klatovy"@en ;
+        ramon:code  "CZ-CZ0322" ;
+        rdfs:label  "CZ-CZ0322 Klatovy" .
+
+lau:CZ-CZ0803  ramon:name  "Havířov"@en ;
+        ramon:code  "CZ-CZ0803" ;
+        rdfs:label  "CZ-CZ0803 Havířov" .
+
+lau:CZ-CZ0802  ramon:name  "Frýdek-Místek"@en ;
+        ramon:code  "CZ-CZ0802" ;
+        rdfs:label  "CZ-CZ0802 Frýdek-Místek" .

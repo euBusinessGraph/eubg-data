@@ -12,12 +12,12 @@
 lau:FI-005  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alajärvi"@en ;
-        rdfs:label           "005 Alajärvi" ;
+        rdfs:label           "FI-005 Alajärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Alajärvi"@fi ;
         dbo:populationTotal  10006 ;
         dbo:areaTotal        1056740000 ;
-        ramon:code           "005" ;
+        ramon:code           "FI-005" ;
         spatial:PP           lau:FI-146 ;
         ramon:level          5 .
 
@@ -30,12 +30,12 @@ lau:FI-146  rdf:type    ebg:LAURegion ;
 lau:FI-009  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alavieska"@en ;
-        rdfs:label           "009 Alavieska" ;
+        rdfs:label           "FI-009 Alavieska" ;
         void:inDataset       lau: ;
         ramon:name           "Alavieska"@fi ;
         dbo:populationTotal  2687 ;
         dbo:areaTotal        253020000 ;
-        ramon:code           "009" ;
+        ramon:code           "FI-009" ;
         spatial:PP           lau:FI-177 ;
         ramon:level          5 .
 
@@ -48,12 +48,12 @@ lau:FI-177  rdf:type    ebg:LAURegion ;
 lau:FI-010  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alavus"@en ;
-        rdfs:label           "010 Alavus" ;
+        rdfs:label           "FI-010 Alavus" ;
         void:inDataset       lau: ;
         ramon:name           "Alavus"@fi ;
         dbo:populationTotal  12044 ;
         dbo:areaTotal        1151460000 ;
-        ramon:code           "010" ;
+        ramon:code           "FI-010" ;
         spatial:PP           lau:FI-144 ;
         ramon:level          5 .
 
@@ -66,12 +66,12 @@ lau:FI-144  rdf:type    ebg:LAURegion ;
 lau:FI-016  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Asikkala"@en ;
-        rdfs:label           "016 Asikkala" ;
+        rdfs:label           "FI-016 Asikkala" ;
         void:inDataset       lau: ;
         ramon:name           "Asikkala"@fi ;
         dbo:populationTotal  8287 ;
         dbo:areaTotal        755550000 ;
-        ramon:code           "016" ;
+        ramon:code           "FI-016" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -84,12 +84,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-018  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Askola"@en ;
-        rdfs:label           "018 Askola" ;
+        rdfs:label           "FI-018 Askola" ;
         void:inDataset       lau: ;
         ramon:name           "Askola"@fi ;
         dbo:populationTotal  5104 ;
         dbo:areaTotal        218030000 ;
-        ramon:code           "018" ;
+        ramon:code           "FI-018" ;
         spatial:PP           lau:FI-015 ;
         ramon:level          5 .
 
@@ -102,12 +102,12 @@ lau:FI-015  rdf:type    ebg:LAURegion ;
 lau:FI-019  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Aura"@en ;
-        rdfs:label           "019 Aura" ;
+        rdfs:label           "FI-019 Aura" ;
         void:inDataset       lau: ;
         ramon:name           "Aura"@fi ;
         dbo:populationTotal  3986 ;
         dbo:areaTotal        95580000 ;
-        ramon:code           "019" ;
+        ramon:code           "FI-019" ;
         spatial:PP           lau:FI-025 ;
         ramon:level          5 .
 
@@ -120,12 +120,12 @@ lau:FI-025  rdf:type    ebg:LAURegion ;
 lau:FI-020  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Akaa"@en ;
-        rdfs:label           "020 Akaa" ;
+        rdfs:label           "FI-020 Akaa" ;
         void:inDataset       lau: ;
         ramon:name           "Akaa"@fi ;
         dbo:populationTotal  17043 ;
         dbo:areaTotal        314390000 ;
-        ramon:code           "020" ;
+        ramon:code           "FI-020" ;
         spatial:PP           lau:FI-063 ;
         ramon:level          5 .
 
@@ -138,12 +138,12 @@ lau:FI-063  rdf:type    ebg:LAURegion ;
 lau:FI-035  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Brändö"@en ;
-        rdfs:label           "035 Brändö" ;
+        rdfs:label           "FI-035 Brändö" ;
         void:inDataset       lau: ;
         ramon:name           "Brändö"@fi ;
         dbo:populationTotal  470 ;
         dbo:areaTotal        1643060000 ;
-        ramon:code           "035" ;
+        ramon:code           "FI-035" ;
         spatial:PP           lau:FI-213 ;
         ramon:level          5 .
 
@@ -156,12 +156,12 @@ lau:FI-213  rdf:type    ebg:LAURegion ;
 lau:FI-043  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Eckerö"@en ;
-        rdfs:label           "043 Eckerö" ;
+        rdfs:label           "FI-043 Eckerö" ;
         void:inDataset       lau: ;
         ramon:name           "Eckerö"@fi ;
         dbo:populationTotal  935 ;
         dbo:areaTotal        752670000 ;
-        ramon:code           "043" ;
+        ramon:code           "FI-043" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -174,12 +174,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-046  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Enonkoski"@en ;
-        rdfs:label           "046 Enonkoski" ;
+        rdfs:label           "FI-046 Enonkoski" ;
         void:inDataset       lau: ;
         ramon:name           "Enonkoski"@fi ;
         dbo:populationTotal  1473 ;
         dbo:areaTotal        419190000 ;
-        ramon:code           "046" ;
+        ramon:code           "FI-046" ;
         spatial:PP           lau:FI-103 ;
         ramon:level          5 .
 
@@ -192,12 +192,12 @@ lau:FI-103  rdf:type    ebg:LAURegion ;
 lau:FI-047  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Enontekis"@en ;
-        rdfs:label           "047 Enontekis" ;
+        rdfs:label           "FI-047 Enontekis" ;
         void:inDataset       lau: ;
         ramon:name           "Enontekiö"@fi ;
         dbo:populationTotal  1861 ;
         dbo:areaTotal        8391350000 ;
-        ramon:code           "047" ;
+        ramon:code           "FI-047" ;
         spatial:PP           lau:FI-196 ;
         ramon:level          5 .
 
@@ -210,12 +210,12 @@ lau:FI-196  rdf:type    ebg:LAURegion ;
 lau:FI-049  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Esbo"@en ;
-        rdfs:label           "049 Esbo" ;
+        rdfs:label           "FI-049 Esbo" ;
         void:inDataset       lau: ;
         ramon:name           "Espoo"@fi ;
         dbo:populationTotal  269802 ;
         dbo:areaTotal        528030000 ;
-        ramon:code           "049" ;
+        ramon:code           "FI-049" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -228,12 +228,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-050  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Eura"@en ;
-        rdfs:label           "050 Eura" ;
+        rdfs:label           "FI-050 Eura" ;
         void:inDataset       lau: ;
         ramon:name           "Eura"@fi ;
         dbo:populationTotal  12128 ;
         dbo:areaTotal        630200000 ;
-        ramon:code           "050" ;
+        ramon:code           "FI-050" ;
         spatial:PP           lau:FI-041 ;
         ramon:level          5 .
 
@@ -246,12 +246,12 @@ lau:FI-041  rdf:type    ebg:LAURegion ;
 lau:FI-051  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Euraåminne"@en ;
-        rdfs:label           "051 Euraåminne" ;
+        rdfs:label           "FI-051 Euraåminne" ;
         void:inDataset       lau: ;
         ramon:name           "Eurajoki"@fi ;
         dbo:populationTotal  5938 ;
         dbo:areaTotal        643780000 ;
-        ramon:code           "051" ;
+        ramon:code           "FI-051" ;
         spatial:PP           lau:FI-041 ;
         ramon:level          5 .
 
@@ -264,12 +264,12 @@ lau:FI-041  rdf:type    ebg:LAURegion ;
 lau:FI-052  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Evijärvi"@en ;
-        rdfs:label           "052 Evijärvi" ;
+        rdfs:label           "FI-052 Evijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Evijärvi"@fi ;
         dbo:populationTotal  2576 ;
         dbo:areaTotal        390710000 ;
-        ramon:code           "052" ;
+        ramon:code           "FI-052" ;
         spatial:PP           lau:FI-146 ;
         ramon:level          5 .
 
@@ -282,12 +282,12 @@ lau:FI-146  rdf:type    ebg:LAURegion ;
 lau:FI-060  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Finström"@en ;
-        rdfs:label           "060 Finström" ;
+        rdfs:label           "FI-060 Finström" ;
         void:inDataset       lau: ;
         ramon:name           "Finström"@fi ;
         dbo:populationTotal  2522 ;
         dbo:areaTotal        172490000 ;
-        ramon:code           "060" ;
+        ramon:code           "FI-060" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -300,12 +300,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-061  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Forssa"@en ;
-        rdfs:label           "061 Forssa" ;
+        rdfs:label           "FI-061 Forssa" ;
         void:inDataset       lau: ;
         ramon:name           "Forssa"@fi ;
         dbo:populationTotal  17422 ;
         dbo:areaTotal        253390000 ;
-        ramon:code           "061" ;
+        ramon:code           "FI-061" ;
         spatial:PP           lau:FI-053 ;
         ramon:level          5 .
 
@@ -318,12 +318,12 @@ lau:FI-053  rdf:type    ebg:LAURegion ;
 lau:FI-062  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Föglö"@en ;
-        rdfs:label           "062 Föglö" ;
+        rdfs:label           "FI-062 Föglö" ;
         void:inDataset       lau: ;
         ramon:name           "Föglö"@fi ;
         dbo:populationTotal  554 ;
         dbo:areaTotal        1869070000 ;
-        ramon:code           "062" ;
+        ramon:code           "FI-062" ;
         spatial:PP           lau:FI-213 ;
         ramon:level          5 .
 
@@ -336,12 +336,12 @@ lau:FI-213  rdf:type    ebg:LAURegion ;
 lau:FI-065  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Geta"@en ;
-        rdfs:label           "065 Geta" ;
+        rdfs:label           "FI-065 Geta" ;
         void:inDataset       lau: ;
         ramon:name           "Geta"@fi ;
         dbo:populationTotal  500 ;
         dbo:areaTotal        605980000 ;
-        ramon:code           "065" ;
+        ramon:code           "FI-065" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -354,12 +354,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-069  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Haapajärvi"@en ;
-        rdfs:label           "069 Haapajärvi" ;
+        rdfs:label           "FI-069 Haapajärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Haapajärvi"@fi ;
         dbo:populationTotal  7438 ;
         dbo:areaTotal        789110000 ;
-        ramon:code           "069" ;
+        ramon:code           "FI-069" ;
         spatial:PP           lau:FI-176 ;
         ramon:level          5 .
 
@@ -372,12 +372,12 @@ lau:FI-176  rdf:type    ebg:LAURegion ;
 lau:FI-071  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Haapavesi"@en ;
-        rdfs:label           "071 Haapavesi" ;
+        rdfs:label           "FI-071 Haapavesi" ;
         void:inDataset       lau: ;
         ramon:name           "Haapavesi"@fi ;
         dbo:populationTotal  7167 ;
         dbo:areaTotal        1086110000 ;
-        ramon:code           "071" ;
+        ramon:code           "FI-071" ;
         spatial:PP           lau:FI-175 ;
         ramon:level          5 .
 
@@ -390,12 +390,12 @@ lau:FI-175  rdf:type    ebg:LAURegion ;
 lau:FI-072  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karlö"@en ;
-        rdfs:label           "072 Karlö" ;
+        rdfs:label           "FI-072 Karlö" ;
         void:inDataset       lau: ;
         ramon:name           "Hailuoto"@fi ;
         dbo:populationTotal  993 ;
         dbo:areaTotal        1082700000 ;
-        ramon:code           "072" ;
+        ramon:code           "FI-072" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -408,12 +408,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-074  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Halsua"@en ;
-        rdfs:label           "074 Halsua" ;
+        rdfs:label           "FI-074 Halsua" ;
         void:inDataset       lau: ;
         ramon:name           "Halsua"@fi ;
         dbo:populationTotal  1225 ;
         dbo:areaTotal        428340000 ;
-        ramon:code           "074" ;
+        ramon:code           "FI-074" ;
         spatial:PP           lau:FI-161 ;
         ramon:level          5 .
 
@@ -426,12 +426,12 @@ lau:FI-161  rdf:type    ebg:LAURegion ;
 lau:FI-075  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Fredrikshamn"@en ;
-        rdfs:label           "075 Fredrikshamn" ;
+        rdfs:label           "FI-075 Fredrikshamn" ;
         void:inDataset       lau: ;
         ramon:name           "Hamina"@fi ;
         dbo:populationTotal  20851 ;
         dbo:areaTotal        1155120000 ;
-        ramon:code           "075" ;
+        ramon:code           "FI-075" ;
         spatial:PP           lau:FI-082 ;
         ramon:level          5 .
 
@@ -444,12 +444,12 @@ lau:FI-082  rdf:type    ebg:LAURegion ;
 lau:FI-076  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hammarland"@en ;
-        rdfs:label           "076 Hammarland" ;
+        rdfs:label           "FI-076 Hammarland" ;
         void:inDataset       lau: ;
         ramon:name           "Hammarland"@fi ;
         dbo:populationTotal  1537 ;
         dbo:areaTotal        1224180000 ;
-        ramon:code           "076" ;
+        ramon:code           "FI-076" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -462,12 +462,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-077  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hankasalmi"@en ;
-        rdfs:label           "077 Hankasalmi" ;
+        rdfs:label           "FI-077 Hankasalmi" ;
         void:inDataset       lau: ;
         ramon:name           "Hankasalmi"@fi ;
         dbo:populationTotal  5240 ;
         dbo:areaTotal        687750000 ;
-        ramon:code           "077" ;
+        ramon:code           "FI-077" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -480,12 +480,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-078  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hangö"@en ;
-        rdfs:label           "078 Hangö" ;
+        rdfs:label           "FI-078 Hangö" ;
         void:inDataset       lau: ;
         ramon:name           "Hanko"@fi ;
         dbo:populationTotal  8864 ;
         dbo:areaTotal        799990000 ;
-        ramon:code           "078" ;
+        ramon:code           "FI-078" ;
         spatial:PP           lau:FI-014 ;
         ramon:level          5 .
 
@@ -498,12 +498,12 @@ lau:FI-014  rdf:type    ebg:LAURegion ;
 lau:FI-079  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Harjavalta"@en ;
-        rdfs:label           "079 Harjavalta" ;
+        rdfs:label           "FI-079 Harjavalta" ;
         void:inDataset       lau: ;
         ramon:name           "Harjavalta"@fi ;
         dbo:populationTotal  7296 ;
         dbo:areaTotal        127740000 ;
-        ramon:code           "079" ;
+        ramon:code           "FI-079" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -516,12 +516,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-081  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hartola"@en ;
-        rdfs:label           "081 Hartola" ;
+        rdfs:label           "FI-081 Hartola" ;
         void:inDataset       lau: ;
         ramon:name           "Hartola"@fi ;
         dbo:populationTotal  2982 ;
         dbo:areaTotal        675380000 ;
-        ramon:code           "081" ;
+        ramon:code           "FI-081" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -534,12 +534,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-082  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hattula"@en ;
-        rdfs:label           "082 Hattula" ;
+        rdfs:label           "FI-082 Hattula" ;
         void:inDataset       lau: ;
         ramon:name           "Hattula"@fi ;
         dbo:populationTotal  9747 ;
         dbo:areaTotal        427390000 ;
-        ramon:code           "082" ;
+        ramon:code           "FI-082" ;
         spatial:PP           lau:FI-051 ;
         ramon:level          5 .
 
@@ -552,12 +552,12 @@ lau:FI-051  rdf:type    ebg:LAURegion ;
 lau:FI-086  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hausjärvi"@en ;
-        rdfs:label           "086 Hausjärvi" ;
+        rdfs:label           "FI-086 Hausjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Hausjärvi"@fi ;
         dbo:populationTotal  8729 ;
         dbo:areaTotal        398780000 ;
-        ramon:code           "086" ;
+        ramon:code           "FI-086" ;
         spatial:PP           lau:FI-052 ;
         ramon:level          5 .
 
@@ -570,12 +570,12 @@ lau:FI-052  rdf:type    ebg:LAURegion ;
 lau:FI-090  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Heinävesi"@en ;
-        rdfs:label           "090 Heinävesi" ;
+        rdfs:label           "FI-090 Heinävesi" ;
         void:inDataset       lau: ;
         ramon:name           "Heinävesi"@fi ;
         dbo:populationTotal  3574 ;
         dbo:areaTotal        1319580000 ;
-        ramon:code           "090" ;
+        ramon:code           "FI-090" ;
         spatial:PP           lau:FI-103 ;
         ramon:level          5 .
 
@@ -588,12 +588,12 @@ lau:FI-103  rdf:type    ebg:LAURegion ;
 lau:FI-091  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Helsingfors"@en ;
-        rdfs:label           "091 Helsingfors" ;
+        rdfs:label           "FI-091 Helsingfors" ;
         void:inDataset       lau: ;
         ramon:name           "Helsinki"@fi ;
         dbo:populationTotal  628208 ;
         dbo:areaTotal        715480000 ;
-        ramon:code           "091" ;
+        ramon:code           "FI-091" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -606,12 +606,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-092  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vanda"@en ;
-        rdfs:label           "092 Vanda" ;
+        rdfs:label           "FI-092 Vanda" ;
         void:inDataset       lau: ;
         ramon:name           "Vantaa"@fi ;
         dbo:populationTotal  214605 ;
         dbo:areaTotal        240340000 ;
-        ramon:code           "092" ;
+        ramon:code           "FI-092" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -624,12 +624,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-097  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hirvensalmi"@en ;
-        rdfs:label           "097 Hirvensalmi" ;
+        rdfs:label           "FI-097 Hirvensalmi" ;
         void:inDataset       lau: ;
         ramon:name           "Hirvensalmi"@fi ;
         dbo:populationTotal  2290 ;
         dbo:areaTotal        746590000 ;
-        ramon:code           "097" ;
+        ramon:code           "FI-097" ;
         spatial:PP           lau:FI-101 ;
         ramon:level          5 .
 
@@ -642,12 +642,12 @@ lau:FI-101  rdf:type    ebg:LAURegion ;
 lau:FI-098  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hollola"@en ;
-        rdfs:label           "098 Hollola" ;
+        rdfs:label           "FI-098 Hollola" ;
         void:inDataset       lau: ;
         ramon:name           "Hollola"@fi ;
         dbo:populationTotal  23915 ;
         dbo:areaTotal        727470000 ;
-        ramon:code           "098" ;
+        ramon:code           "FI-098" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -660,12 +660,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-099  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Honkajoki"@en ;
-        rdfs:label           "099 Honkajoki" ;
+        rdfs:label           "FI-099 Honkajoki" ;
         void:inDataset       lau: ;
         ramon:name           "Honkajoki"@fi ;
         dbo:populationTotal  1793 ;
         dbo:areaTotal        333140000 ;
-        ramon:code           "099" ;
+        ramon:code           "FI-099" ;
         spatial:PP           lau:FI-044 ;
         ramon:level          5 .
 
@@ -678,12 +678,12 @@ lau:FI-044  rdf:type    ebg:LAURegion ;
 lau:FI-102  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Huittinen"@en ;
-        rdfs:label           "102 Huittinen" ;
+        rdfs:label           "FI-102 Huittinen" ;
         void:inDataset       lau: ;
         ramon:name           "Huittinen"@fi ;
         dbo:populationTotal  10473 ;
         dbo:areaTotal        539590000 ;
-        ramon:code           "102" ;
+        ramon:code           "FI-102" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -696,12 +696,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-103  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Humppila"@en ;
-        rdfs:label           "103 Humppila" ;
+        rdfs:label           "FI-103 Humppila" ;
         void:inDataset       lau: ;
         ramon:name           "Humppila"@fi ;
         dbo:populationTotal  2388 ;
         dbo:areaTotal        148600000 ;
-        ramon:code           "103" ;
+        ramon:code           "FI-103" ;
         spatial:PP           lau:FI-053 ;
         ramon:level          5 .
 
@@ -714,12 +714,12 @@ lau:FI-053  rdf:type    ebg:LAURegion ;
 lau:FI-105  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hyrynsalmi"@en ;
-        rdfs:label           "105 Hyrynsalmi" ;
+        rdfs:label           "FI-105 Hyrynsalmi" ;
         void:inDataset       lau: ;
         ramon:name           "Hyrynsalmi"@fi ;
         dbo:populationTotal  2422 ;
         dbo:areaTotal        1521370000 ;
-        ramon:code           "105" ;
+        ramon:code           "FI-105" ;
         spatial:PP           lau:FI-181 ;
         ramon:level          5 .
 
@@ -732,12 +732,12 @@ lau:FI-181  rdf:type    ebg:LAURegion ;
 lau:FI-106  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hyvinge"@en ;
-        rdfs:label           "106 Hyvinge" ;
+        rdfs:label           "FI-106 Hyvinge" ;
         void:inDataset       lau: ;
         ramon:name           "Hyvinkää"@fi ;
         dbo:populationTotal  46463 ;
         dbo:areaTotal        336770000 ;
-        ramon:code           "106" ;
+        ramon:code           "FI-106" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -750,12 +750,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-108  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tavastkyro"@en ;
-        rdfs:label           "108 Tavastkyro" ;
+        rdfs:label           "FI-108 Tavastkyro" ;
         void:inDataset       lau: ;
         ramon:name           "Hämeenkyrö"@fi ;
         dbo:populationTotal  10667 ;
         dbo:areaTotal        505100000 ;
-        ramon:code           "108" ;
+        ramon:code           "FI-108" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -768,12 +768,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-109  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tavastehus"@en ;
-        rdfs:label           "109 Tavastehus" ;
+        rdfs:label           "FI-109 Tavastehus" ;
         void:inDataset       lau: ;
         ramon:name           "Hämeenlinna"@fi ;
         dbo:populationTotal  68011 ;
         dbo:areaTotal        2031520000 ;
-        ramon:code           "109" ;
+        ramon:code           "FI-109" ;
         spatial:PP           lau:FI-051 ;
         ramon:level          5 .
 
@@ -786,12 +786,12 @@ lau:FI-051  rdf:type    ebg:LAURegion ;
 lau:FI-111  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Heinola"@en ;
-        rdfs:label           "111 Heinola" ;
+        rdfs:label           "FI-111 Heinola" ;
         void:inDataset       lau: ;
         ramon:name           "Heinola"@fi ;
         dbo:populationTotal  19575 ;
         dbo:areaTotal        839280000 ;
-        ramon:code           "111" ;
+        ramon:code           "FI-111" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -804,12 +804,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-139  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ii"@en ;
-        rdfs:label           "139 Ii" ;
+        rdfs:label           "FI-139 Ii" ;
         void:inDataset       lau: ;
         ramon:name           "Ii"@fi ;
         dbo:populationTotal  9663 ;
         dbo:areaTotal        2809310000 ;
-        ramon:code           "139" ;
+        ramon:code           "FI-139" ;
         spatial:PP           lau:FI-173 ;
         ramon:level          5 .
 
@@ -822,12 +822,12 @@ lau:FI-173  rdf:type    ebg:LAURegion ;
 lau:FI-140  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Idensalmi"@en ;
-        rdfs:label           "140 Idensalmi" ;
+        rdfs:label           "FI-140 Idensalmi" ;
         void:inDataset       lau: ;
         ramon:name           "Iisalmi"@fi ;
         dbo:populationTotal  21945 ;
         dbo:areaTotal        872180000 ;
-        ramon:code           "140" ;
+        ramon:code           "FI-140" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -840,12 +840,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-142  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Iitti"@en ;
-        rdfs:label           "142 Iitti" ;
+        rdfs:label           "FI-142 Iitti" ;
         void:inDataset       lau: ;
         ramon:name           "Iitti"@fi ;
         dbo:populationTotal  6910 ;
         dbo:areaTotal        687090000 ;
-        ramon:code           "142" ;
+        ramon:code           "FI-142" ;
         spatial:PP           lau:FI-081 ;
         ramon:level          5 .
 
@@ -858,12 +858,12 @@ lau:FI-081  rdf:type    ebg:LAURegion ;
 lau:FI-143  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ikalis"@en ;
-        rdfs:label           "143 Ikalis" ;
+        rdfs:label           "FI-143 Ikalis" ;
         void:inDataset       lau: ;
         ramon:name           "Ikaalinen"@fi ;
         dbo:populationTotal  7207 ;
         dbo:areaTotal        843400000 ;
-        ramon:code           "143" ;
+        ramon:code           "FI-143" ;
         spatial:PP           lau:FI-061 ;
         ramon:level          5 .
 
@@ -876,12 +876,12 @@ lau:FI-061  rdf:type    ebg:LAURegion ;
 lau:FI-145  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ilmajoki"@en ;
-        rdfs:label           "145 Ilmajoki" ;
+        rdfs:label           "FI-145 Ilmajoki" ;
         void:inDataset       lau: ;
         ramon:name           "Ilmajoki"@fi ;
         dbo:populationTotal  12159 ;
         dbo:areaTotal        579680000 ;
-        ramon:code           "145" ;
+        ramon:code           "FI-145" ;
         spatial:PP           lau:FI-142 ;
         ramon:level          5 .
 
@@ -894,12 +894,12 @@ lau:FI-142  rdf:type    ebg:LAURegion ;
 lau:FI-146  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ilomants"@en ;
-        rdfs:label           "146 Ilomants" ;
+        rdfs:label           "FI-146 Ilomants" ;
         void:inDataset       lau: ;
         ramon:name           "Ilomantsi"@fi ;
         dbo:populationTotal  5336 ;
         dbo:areaTotal        3172690000 ;
-        ramon:code           "146" ;
+        ramon:code           "FI-146" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -912,12 +912,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-148  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Enare"@en ;
-        rdfs:label           "148 Enare" ;
+        rdfs:label           "FI-148 Enare" ;
         void:inDataset       lau: ;
         ramon:name           "Inari"@fi ;
         dbo:populationTotal  6804 ;
         dbo:areaTotal        17333650000 ;
-        ramon:code           "148" ;
+        ramon:code           "FI-148" ;
         spatial:PP           lau:FI-197 ;
         ramon:level          5 .
 
@@ -930,12 +930,12 @@ lau:FI-197  rdf:type    ebg:LAURegion ;
 lau:FI-149  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ingå"@en ;
-        rdfs:label           "149 Ingå" ;
+        rdfs:label           "FI-149 Ingå" ;
         void:inDataset       lau: ;
         ramon:name           "Inkoo"@fi ;
         dbo:populationTotal  5541 ;
         dbo:areaTotal        954020000 ;
-        ramon:code           "149" ;
+        ramon:code           "FI-149" ;
         spatial:PP           lau:FI-014 ;
         ramon:level          5 .
 
@@ -948,12 +948,12 @@ lau:FI-014  rdf:type    ebg:LAURegion ;
 lau:FI-151  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Storå"@en ;
-        rdfs:label           "151 Storå" ;
+        rdfs:label           "FI-151 Storå" ;
         void:inDataset       lau: ;
         ramon:name           "Isojoki"@fi ;
         dbo:populationTotal  2123 ;
         dbo:areaTotal        647430000 ;
-        ramon:code           "151" ;
+        ramon:code           "FI-151" ;
         spatial:PP           lau:FI-141 ;
         ramon:level          5 .
 
@@ -966,12 +966,12 @@ lau:FI-141  rdf:type    ebg:LAURegion ;
 lau:FI-152  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Storkyro"@en ;
-        rdfs:label           "152 Storkyro" ;
+        rdfs:label           "FI-152 Storkyro" ;
         void:inDataset       lau: ;
         ramon:name           "Isokyrö"@fi ;
         dbo:populationTotal  4785 ;
         dbo:areaTotal        356910000 ;
-        ramon:code           "152" ;
+        ramon:code           "FI-152" ;
         spatial:PP           lau:FI-151 ;
         ramon:level          5 .
 
@@ -984,12 +984,12 @@ lau:FI-151  rdf:type    ebg:LAURegion ;
 lau:FI-153  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Imatra"@en ;
-        rdfs:label           "153 Imatra" ;
+        rdfs:label           "FI-153 Imatra" ;
         void:inDataset       lau: ;
         ramon:name           "Imatra"@fi ;
         dbo:populationTotal  27835 ;
         dbo:areaTotal        191280000 ;
-        ramon:code           "153" ;
+        ramon:code           "FI-153" ;
         spatial:PP           lau:FI-093 ;
         ramon:level          5 .
 
@@ -1002,12 +1002,12 @@ lau:FI-093  rdf:type    ebg:LAURegion ;
 lau:FI-165  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Janakkala"@en ;
-        rdfs:label           "165 Janakkala" ;
+        rdfs:label           "FI-165 Janakkala" ;
         void:inDataset       lau: ;
         ramon:name           "Janakkala"@fi ;
         dbo:populationTotal  16853 ;
         dbo:areaTotal        586070000 ;
-        ramon:code           "165" ;
+        ramon:code           "FI-165" ;
         spatial:PP           lau:FI-051 ;
         ramon:level          5 .
 
@@ -1020,12 +1020,12 @@ lau:FI-051  rdf:type    ebg:LAURegion ;
 lau:FI-167  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Joensuu"@en ;
-        rdfs:label           "167 Joensuu" ;
+        rdfs:label           "FI-167 Joensuu" ;
         void:inDataset       lau: ;
         ramon:name           "Joensuu"@fi ;
         dbo:populationTotal  75514 ;
         dbo:areaTotal        2751070000 ;
-        ramon:code           "167" ;
+        ramon:code           "FI-167" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -1038,12 +1038,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-169  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jockis"@en ;
-        rdfs:label           "169 Jockis" ;
+        rdfs:label           "FI-169 Jockis" ;
         void:inDataset       lau: ;
         ramon:name           "Jokioinen"@fi ;
         dbo:populationTotal  5425 ;
         dbo:areaTotal        181940000 ;
-        ramon:code           "169" ;
+        ramon:code           "FI-169" ;
         spatial:PP           lau:FI-053 ;
         ramon:level          5 .
 
@@ -1056,12 +1056,12 @@ lau:FI-053  rdf:type    ebg:LAURegion ;
 lau:FI-170  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jomala"@en ;
-        rdfs:label           "170 Jomala" ;
+        rdfs:label           "FI-170 Jomala" ;
         void:inDataset       lau: ;
         ramon:name           "Jomala"@fi ;
         dbo:populationTotal  4648 ;
         dbo:areaTotal        687000000 ;
-        ramon:code           "170" ;
+        ramon:code           "FI-170" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -1074,12 +1074,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-171  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jorois"@en ;
-        rdfs:label           "171 Jorois" ;
+        rdfs:label           "FI-171 Jorois" ;
         void:inDataset       lau: ;
         ramon:name           "Joroinen"@fi ;
         dbo:populationTotal  5110 ;
         dbo:areaTotal        711760000 ;
-        ramon:code           "171" ;
+        ramon:code           "FI-171" ;
         spatial:PP           lau:FI-105 ;
         ramon:level          5 .
 
@@ -1092,12 +1092,12 @@ lau:FI-105  rdf:type    ebg:LAURegion ;
 lau:FI-172  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Joutsa"@en ;
-        rdfs:label           "172 Joutsa" ;
+        rdfs:label           "FI-172 Joutsa" ;
         void:inDataset       lau: ;
         ramon:name           "Joutsa"@fi ;
         dbo:populationTotal  4688 ;
         dbo:areaTotal        1066420000 ;
-        ramon:code           "172" ;
+        ramon:code           "FI-172" ;
         spatial:PP           lau:FI-132 ;
         ramon:level          5 .
 
@@ -1110,12 +1110,12 @@ lau:FI-132  rdf:type    ebg:LAURegion ;
 lau:FI-174  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Juankoski"@en ;
-        rdfs:label           "174 Juankoski" ;
+        rdfs:label           "FI-174 Juankoski" ;
         void:inDataset       lau: ;
         ramon:name           "Juankoski"@fi ;
         dbo:populationTotal  4804 ;
         dbo:areaTotal        586260000 ;
-        ramon:code           "174" ;
+        ramon:code           "FI-174" ;
         spatial:PP           lau:FI-113 ;
         ramon:level          5 .
 
@@ -1128,12 +1128,12 @@ lau:FI-113  rdf:type    ebg:LAURegion ;
 lau:FI-176  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Juuka"@en ;
-        rdfs:label           "176 Juuka" ;
+        rdfs:label           "FI-176 Juuka" ;
         void:inDataset       lau: ;
         ramon:name           "Juuka"@fi ;
         dbo:populationTotal  5034 ;
         dbo:areaTotal        1846560000 ;
-        ramon:code           "176" ;
+        ramon:code           "FI-176" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -1146,12 +1146,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-177  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Juupajoki"@en ;
-        rdfs:label           "177 Juupajoki" ;
+        rdfs:label           "FI-177 Juupajoki" ;
         void:inDataset       lau: ;
         ramon:name           "Juupajoki"@fi ;
         dbo:populationTotal  1988 ;
         dbo:areaTotal        274950000 ;
-        ramon:code           "177" ;
+        ramon:code           "FI-177" ;
         spatial:PP           lau:FI-069 ;
         ramon:level          5 .
 
@@ -1164,12 +1164,12 @@ lau:FI-069  rdf:type    ebg:LAURegion ;
 lau:FI-178  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Juva"@en ;
-        rdfs:label           "178 Juva" ;
+        rdfs:label           "FI-178 Juva" ;
         void:inDataset       lau: ;
         ramon:name           "Juva"@fi ;
         dbo:populationTotal  6548 ;
         dbo:areaTotal        1345700000 ;
-        ramon:code           "178" ;
+        ramon:code           "FI-178" ;
         spatial:PP           lau:FI-105 ;
         ramon:level          5 .
 
@@ -1182,12 +1182,12 @@ lau:FI-105  rdf:type    ebg:LAURegion ;
 lau:FI-179  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jyväskylä"@en ;
-        rdfs:label           "179 Jyväskylä" ;
+        rdfs:label           "FI-179 Jyväskylä" ;
         void:inDataset       lau: ;
         ramon:name           "Jyväskylä"@fi ;
         dbo:populationTotal  137368 ;
         dbo:areaTotal        1466350000 ;
-        ramon:code           "179" ;
+        ramon:code           "FI-179" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -1200,12 +1200,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-181  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jämijärvi"@en ;
-        rdfs:label           "181 Jämijärvi" ;
+        rdfs:label           "FI-181 Jämijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Jämijärvi"@fi ;
         dbo:populationTotal  1948 ;
         dbo:areaTotal        224330000 ;
-        ramon:code           "181" ;
+        ramon:code           "FI-181" ;
         spatial:PP           lau:FI-044 ;
         ramon:level          5 .
 
@@ -1218,12 +1218,12 @@ lau:FI-044  rdf:type    ebg:LAURegion ;
 lau:FI-182  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jämsä"@en ;
-        rdfs:label           "182 Jämsä" ;
+        rdfs:label           "FI-182 Jämsä" ;
         void:inDataset       lau: ;
         ramon:name           "Jämsä"@fi ;
         dbo:populationTotal  21542 ;
         dbo:areaTotal        1823770000 ;
-        ramon:code           "182" ;
+        ramon:code           "FI-182" ;
         spatial:PP           lau:FI-134 ;
         ramon:level          5 .
 
@@ -1236,12 +1236,12 @@ lau:FI-134  rdf:type    ebg:LAURegion ;
 lau:FI-186  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Träskända"@en ;
-        rdfs:label           "186 Träskända" ;
+        rdfs:label           "FI-186 Träskända" ;
         void:inDataset       lau: ;
         ramon:name           "Järvenpää"@fi ;
         dbo:populationTotal  40900 ;
         dbo:areaTotal        39930000 ;
-        ramon:code           "186" ;
+        ramon:code           "FI-186" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -1254,12 +1254,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-202  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "S:t Karins"@en ;
-        rdfs:label           "202 S:t Karins" ;
+        rdfs:label           "FI-202 S:t Karins" ;
         void:inDataset       lau: ;
         ramon:name           "Kaarina"@fi ;
         dbo:populationTotal  32590 ;
         dbo:areaTotal        179580000 ;
-        ramon:code           "202" ;
+        ramon:code           "FI-202" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -1272,12 +1272,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-204  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kaavi"@en ;
-        rdfs:label           "204 Kaavi" ;
+        rdfs:label           "FI-204 Kaavi" ;
         void:inDataset       lau: ;
         ramon:name           "Kaavi"@fi ;
         dbo:populationTotal  3194 ;
         dbo:areaTotal        789590000 ;
-        ramon:code           "204" ;
+        ramon:code           "FI-204" ;
         spatial:PP           lau:FI-113 ;
         ramon:level          5 .
 
@@ -1290,12 +1290,12 @@ lau:FI-113  rdf:type    ebg:LAURegion ;
 lau:FI-205  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kajana"@en ;
-        rdfs:label           "205 Kajana" ;
+        rdfs:label           "FI-205 Kajana" ;
         void:inDataset       lau: ;
         ramon:name           "Kajaani"@fi ;
         dbo:populationTotal  37622 ;
         dbo:areaTotal        2264000000 ;
-        ramon:code           "205" ;
+        ramon:code           "FI-205" ;
         spatial:PP           lau:FI-182 ;
         ramon:level          5 .
 
@@ -1308,12 +1308,12 @@ lau:FI-182  rdf:type    ebg:LAURegion ;
 lau:FI-208  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kalajoki"@en ;
-        rdfs:label           "208 Kalajoki" ;
+        rdfs:label           "FI-208 Kalajoki" ;
         void:inDataset       lau: ;
         ramon:name           "Kalajoki"@fi ;
         dbo:populationTotal  12621 ;
         dbo:areaTotal        2391300000 ;
-        ramon:code           "208" ;
+        ramon:code           "FI-208" ;
         spatial:PP           lau:FI-177 ;
         ramon:level          5 .
 
@@ -1326,12 +1326,12 @@ lau:FI-177  rdf:type    ebg:LAURegion ;
 lau:FI-211  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kangasala"@en ;
-        rdfs:label           "211 Kangasala" ;
+        rdfs:label           "FI-211 Kangasala" ;
         void:inDataset       lau: ;
         ramon:name           "Kangasala"@fi ;
         dbo:populationTotal  30607 ;
         dbo:areaTotal        870850000 ;
-        ramon:code           "211" ;
+        ramon:code           "FI-211" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -1344,12 +1344,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-213  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kangasniemi"@en ;
-        rdfs:label           "213 Kangasniemi" ;
+        rdfs:label           "FI-213 Kangasniemi" ;
         void:inDataset       lau: ;
         ramon:name           "Kangasniemi"@fi ;
         dbo:populationTotal  5628 ;
         dbo:areaTotal        1326750000 ;
-        ramon:code           "213" ;
+        ramon:code           "FI-213" ;
         spatial:PP           lau:FI-101 ;
         ramon:level          5 .
 
@@ -1362,12 +1362,12 @@ lau:FI-101  rdf:type    ebg:LAURegion ;
 lau:FI-214  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kankaanpää"@en ;
-        rdfs:label           "214 Kankaanpää" ;
+        rdfs:label           "FI-214 Kankaanpää" ;
         void:inDataset       lau: ;
         ramon:name           "Kankaanpää"@fi ;
         dbo:populationTotal  11769 ;
         dbo:areaTotal        704740000 ;
-        ramon:code           "214" ;
+        ramon:code           "FI-214" ;
         spatial:PP           lau:FI-044 ;
         ramon:level          5 .
 
@@ -1380,12 +1380,12 @@ lau:FI-044  rdf:type    ebg:LAURegion ;
 lau:FI-216  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kannonkoski"@en ;
-        rdfs:label           "216 Kannonkoski" ;
+        rdfs:label           "FI-216 Kannonkoski" ;
         void:inDataset       lau: ;
         ramon:name           "Kannonkoski"@fi ;
         dbo:populationTotal  1462 ;
         dbo:areaTotal        549880000 ;
-        ramon:code           "216" ;
+        ramon:code           "FI-216" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -1398,12 +1398,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-217  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kannus"@en ;
-        rdfs:label           "217 Kannus" ;
+        rdfs:label           "FI-217 Kannus" ;
         void:inDataset       lau: ;
         ramon:name           "Kannus"@fi ;
         dbo:populationTotal  5590 ;
         dbo:areaTotal        470650000 ;
-        ramon:code           "217" ;
+        ramon:code           "FI-217" ;
         spatial:PP           lau:FI-162 ;
         ramon:level          5 .
 
@@ -1416,12 +1416,12 @@ lau:FI-162  rdf:type    ebg:LAURegion ;
 lau:FI-218  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bötom"@en ;
-        rdfs:label           "218 Bötom" ;
+        rdfs:label           "FI-218 Bötom" ;
         void:inDataset       lau: ;
         ramon:name           "Karijoki"@fi ;
         dbo:populationTotal  1369 ;
         dbo:areaTotal        186540000 ;
-        ramon:code           "218" ;
+        ramon:code           "FI-218" ;
         spatial:PP           lau:FI-141 ;
         ramon:level          5 .
 
@@ -1434,12 +1434,12 @@ lau:FI-141  rdf:type    ebg:LAURegion ;
 lau:FI-224  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Högfors"@en ;
-        rdfs:label           "224 Högfors" ;
+        rdfs:label           "FI-224 Högfors" ;
         void:inDataset       lau: ;
         ramon:name           "Karkkila"@fi ;
         dbo:populationTotal  8969 ;
         dbo:areaTotal        255320000 ;
-        ramon:code           "224" ;
+        ramon:code           "FI-224" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -1452,12 +1452,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-226  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karstula"@en ;
-        rdfs:label           "226 Karstula" ;
+        rdfs:label           "FI-226 Karstula" ;
         void:inDataset       lau: ;
         ramon:name           "Karstula"@fi ;
         dbo:populationTotal  4268 ;
         dbo:areaTotal        963190000 ;
-        ramon:code           "226" ;
+        ramon:code           "FI-226" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -1470,12 +1470,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-230  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karvia"@en ;
-        rdfs:label           "230 Karvia" ;
+        rdfs:label           "FI-230 Karvia" ;
         void:inDataset       lau: ;
         ramon:name           "Karvia"@fi ;
         dbo:populationTotal  2475 ;
         dbo:areaTotal        519890000 ;
-        ramon:code           "230" ;
+        ramon:code           "FI-230" ;
         spatial:PP           lau:FI-044 ;
         ramon:level          5 .
 
@@ -1488,12 +1488,12 @@ lau:FI-044  rdf:type    ebg:LAURegion ;
 lau:FI-231  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kaskö"@en ;
-        rdfs:label           "231 Kaskö" ;
+        rdfs:label           "FI-231 Kaskö" ;
         void:inDataset       lau: ;
         ramon:name           "Kaskinen"@fi ;
         dbo:populationTotal  1285 ;
         dbo:areaTotal        175360000 ;
-        ramon:code           "231" ;
+        ramon:code           "FI-231" ;
         spatial:PP           lau:FI-153 ;
         ramon:level          5 .
 
@@ -1506,12 +1506,12 @@ lau:FI-153  rdf:type    ebg:LAURegion ;
 lau:FI-232  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kauhajoki"@en ;
-        rdfs:label           "232 Kauhajoki" ;
+        rdfs:label           "FI-232 Kauhajoki" ;
         void:inDataset       lau: ;
         ramon:name           "Kauhajoki"@fi ;
         dbo:populationTotal  13875 ;
         dbo:areaTotal        1315550000 ;
-        ramon:code           "232" ;
+        ramon:code           "FI-232" ;
         spatial:PP           lau:FI-141 ;
         ramon:level          5 .
 
@@ -1524,12 +1524,12 @@ lau:FI-141  rdf:type    ebg:LAURegion ;
 lau:FI-233  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kauhava"@en ;
-        rdfs:label           "233 Kauhava" ;
+        rdfs:label           "FI-233 Kauhava" ;
         void:inDataset       lau: ;
         ramon:name           "Kauhava"@fi ;
         dbo:populationTotal  16784 ;
         dbo:areaTotal        1328080000 ;
-        ramon:code           "233" ;
+        ramon:code           "FI-233" ;
         spatial:PP           lau:FI-142 ;
         ramon:level          5 .
 
@@ -1542,12 +1542,12 @@ lau:FI-142  rdf:type    ebg:LAURegion ;
 lau:FI-235  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Grankulla"@en ;
-        rdfs:label           "235 Grankulla" ;
+        rdfs:label           "FI-235 Grankulla" ;
         void:inDataset       lau: ;
         ramon:name           "Kauniainen"@fi ;
         dbo:populationTotal  9486 ;
         dbo:areaTotal        6000000 ;
-        ramon:code           "235" ;
+        ramon:code           "FI-235" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -1560,12 +1560,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-236  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kaustby"@en ;
-        rdfs:label           "236 Kaustby" ;
+        rdfs:label           "FI-236 Kaustby" ;
         void:inDataset       lau: ;
         ramon:name           "Kaustinen"@fi ;
         dbo:populationTotal  4305 ;
         dbo:areaTotal        361120000 ;
-        ramon:code           "236" ;
+        ramon:code           "FI-236" ;
         spatial:PP           lau:FI-161 ;
         ramon:level          5 .
 
@@ -1578,12 +1578,12 @@ lau:FI-161  rdf:type    ebg:LAURegion ;
 lau:FI-239  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Keitele"@en ;
-        rdfs:label           "239 Keitele" ;
+        rdfs:label           "FI-239 Keitele" ;
         void:inDataset       lau: ;
         ramon:name           "Keitele"@fi ;
         dbo:populationTotal  2379 ;
         dbo:areaTotal        578320000 ;
-        ramon:code           "239" ;
+        ramon:code           "FI-239" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -1596,12 +1596,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-240  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kemi"@en ;
-        rdfs:label           "240 Kemi" ;
+        rdfs:label           "FI-240 Kemi" ;
         void:inDataset       lau: ;
         ramon:name           "Kemi"@fi ;
         dbo:populationTotal  21758 ;
         dbo:areaTotal        747280000 ;
-        ramon:code           "240" ;
+        ramon:code           "FI-240" ;
         spatial:PP           lau:FI-192 ;
         ramon:level          5 .
 
@@ -1614,12 +1614,12 @@ lau:FI-192  rdf:type    ebg:LAURegion ;
 lau:FI-241  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Keminmaa"@en ;
-        rdfs:label           "241 Keminmaa" ;
+        rdfs:label           "FI-241 Keminmaa" ;
         void:inDataset       lau: ;
         ramon:name           "Keminmaa"@fi ;
         dbo:populationTotal  8388 ;
         dbo:areaTotal        647230000 ;
-        ramon:code           "241" ;
+        ramon:code           "FI-241" ;
         spatial:PP           lau:FI-192 ;
         ramon:level          5 .
 
@@ -1632,12 +1632,12 @@ lau:FI-192  rdf:type    ebg:LAURegion ;
 lau:FI-244  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kempele"@en ;
-        rdfs:label           "244 Kempele" ;
+        rdfs:label           "FI-244 Kempele" ;
         void:inDataset       lau: ;
         ramon:name           "Kempele"@fi ;
         dbo:populationTotal  17066 ;
         dbo:areaTotal        110350000 ;
-        ramon:code           "244" ;
+        ramon:code           "FI-244" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -1650,12 +1650,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-245  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kervo"@en ;
-        rdfs:label           "245 Kervo" ;
+        rdfs:label           "FI-245 Kervo" ;
         void:inDataset       lau: ;
         ramon:name           "Kerava"@fi ;
         dbo:populationTotal  35293 ;
         dbo:areaTotal        30790000 ;
-        ramon:code           "245" ;
+        ramon:code           "FI-245" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -1668,12 +1668,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-249  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Keuruu"@en ;
-        rdfs:label           "249 Keuruu" ;
+        rdfs:label           "FI-249 Keuruu" ;
         void:inDataset       lau: ;
         ramon:name           "Keuruu"@fi ;
         dbo:populationTotal  10117 ;
         dbo:areaTotal        1430560000 ;
-        ramon:code           "249" ;
+        ramon:code           "FI-249" ;
         spatial:PP           lau:FI-133 ;
         ramon:level          5 .
 
@@ -1686,12 +1686,12 @@ lau:FI-133  rdf:type    ebg:LAURegion ;
 lau:FI-250  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kihniö"@en ;
-        rdfs:label           "250 Kihniö" ;
+        rdfs:label           "FI-250 Kihniö" ;
         void:inDataset       lau: ;
         ramon:name           "Kihniö"@fi ;
         dbo:populationTotal  2038 ;
         dbo:areaTotal        390500000 ;
-        ramon:code           "250" ;
+        ramon:code           "FI-250" ;
         spatial:PP           lau:FI-061 ;
         ramon:level          5 .
 
@@ -1704,12 +1704,12 @@ lau:FI-061  rdf:type    ebg:LAURegion ;
 lau:FI-256  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kinnula"@en ;
-        rdfs:label           "256 Kinnula" ;
+        rdfs:label           "FI-256 Kinnula" ;
         void:inDataset       lau: ;
         ramon:name           "Kinnula"@fi ;
         dbo:populationTotal  1745 ;
         dbo:areaTotal        495720000 ;
-        ramon:code           "256" ;
+        ramon:code           "FI-256" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -1722,12 +1722,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-257  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kyrkslätt"@en ;
-        rdfs:label           "257 Kyrkslätt" ;
+        rdfs:label           "FI-257 Kyrkslätt" ;
         void:inDataset       lau: ;
         ramon:name           "Kirkkonummi"@fi ;
         dbo:populationTotal  38649 ;
         dbo:areaTotal        1017010000 ;
-        ramon:code           "257" ;
+        ramon:code           "FI-257" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -1740,12 +1740,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-260  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kitee"@en ;
-        rdfs:label           "260 Kitee" ;
+        rdfs:label           "FI-260 Kitee" ;
         void:inDataset       lau: ;
         ramon:name           "Kitee"@fi ;
         dbo:populationTotal  10832 ;
         dbo:areaTotal        1724410000 ;
-        ramon:code           "260" ;
+        ramon:code           "FI-260" ;
         spatial:PP           lau:FI-124 ;
         ramon:level          5 .
 
@@ -1758,12 +1758,12 @@ lau:FI-124  rdf:type    ebg:LAURegion ;
 lau:FI-261  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kittilä"@en ;
-        rdfs:label           "261 Kittilä" ;
+        rdfs:label           "FI-261 Kittilä" ;
         void:inDataset       lau: ;
         ramon:name           "Kittilä"@fi ;
         dbo:populationTotal  6416 ;
         dbo:areaTotal        8262930000 ;
-        ramon:code           "261" ;
+        ramon:code           "FI-261" ;
         spatial:PP           lau:FI-196 ;
         ramon:level          5 .
 
@@ -1776,12 +1776,12 @@ lau:FI-196  rdf:type    ebg:LAURegion ;
 lau:FI-263  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kiuruvesi"@en ;
-        rdfs:label           "263 Kiuruvesi" ;
+        rdfs:label           "FI-263 Kiuruvesi" ;
         void:inDataset       lau: ;
         ramon:name           "Kiuruvesi"@fi ;
         dbo:populationTotal  8600 ;
         dbo:areaTotal        1422900000 ;
-        ramon:code           "263" ;
+        ramon:code           "FI-263" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -1794,12 +1794,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-265  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kivijärvi"@en ;
-        rdfs:label           "265 Kivijärvi" ;
+        rdfs:label           "FI-265 Kivijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Kivijärvi"@fi ;
         dbo:populationTotal  1200 ;
         dbo:areaTotal        599870000 ;
-        ramon:code           "265" ;
+        ramon:code           "FI-265" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -1812,12 +1812,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-271  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kumo"@en ;
-        rdfs:label           "271 Kumo" ;
+        rdfs:label           "FI-271 Kumo" ;
         void:inDataset       lau: ;
         ramon:name           "Kokemäki"@fi ;
         dbo:populationTotal  7591 ;
         dbo:areaTotal        531270000 ;
-        ramon:code           "271" ;
+        ramon:code           "FI-271" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -1830,12 +1830,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-272  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karleby"@en ;
-        rdfs:label           "272 Karleby" ;
+        rdfs:label           "FI-272 Karleby" ;
         void:inDataset       lau: ;
         ramon:name           "Kokkola"@fi ;
         dbo:populationTotal  47570 ;
         dbo:areaTotal        2730800000 ;
-        ramon:code           "272" ;
+        ramon:code           "FI-272" ;
         spatial:PP           lau:FI-162 ;
         ramon:level          5 .
 
@@ -1848,12 +1848,12 @@ lau:FI-162  rdf:type    ebg:LAURegion ;
 lau:FI-273  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kolari"@en ;
-        rdfs:label           "273 Kolari" ;
+        rdfs:label           "FI-273 Kolari" ;
         void:inDataset       lau: ;
         ramon:name           "Kolari"@fi ;
         dbo:populationTotal  3848 ;
         dbo:areaTotal        2617770000 ;
-        ramon:code           "273" ;
+        ramon:code           "FI-273" ;
         spatial:PP           lau:FI-196 ;
         ramon:level          5 .
 
@@ -1866,12 +1866,12 @@ lau:FI-196  rdf:type    ebg:LAURegion ;
 lau:FI-275  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Konnevesi"@en ;
-        rdfs:label           "275 Konnevesi" ;
+        rdfs:label           "FI-275 Konnevesi" ;
         void:inDataset       lau: ;
         ramon:name           "Konnevesi"@fi ;
         dbo:populationTotal  2757 ;
         dbo:areaTotal        680850000 ;
-        ramon:code           "275" ;
+        ramon:code           "FI-275" ;
         spatial:PP           lau:FI-135 ;
         ramon:level          5 .
 
@@ -1884,12 +1884,12 @@ lau:FI-135  rdf:type    ebg:LAURegion ;
 lau:FI-276  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kontiolahti"@en ;
-        rdfs:label           "276 Kontiolahti" ;
+        rdfs:label           "FI-276 Kontiolahti" ;
         void:inDataset       lau: ;
         ramon:name           "Kontiolahti"@fi ;
         dbo:populationTotal  14827 ;
         dbo:areaTotal        1029820000 ;
-        ramon:code           "276" ;
+        ramon:code           "FI-276" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -1902,12 +1902,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-280  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Korsnäs"@en ;
-        rdfs:label           "280 Korsnäs" ;
+        rdfs:label           "FI-280 Korsnäs" ;
         void:inDataset       lau: ;
         ramon:name           "Korsnäs"@fi ;
         dbo:populationTotal  2201 ;
         dbo:areaTotal        1424700000 ;
-        ramon:code           "280" ;
+        ramon:code           "FI-280" ;
         spatial:PP           lau:FI-152 ;
         ramon:level          5 .
 
@@ -1920,12 +1920,12 @@ lau:FI-152  rdf:type    ebg:LAURegion ;
 lau:FI-284  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Koski Tl"@en ;
-        rdfs:label           "284 Koski Tl" ;
+        rdfs:label           "FI-284 Koski Tl" ;
         void:inDataset       lau: ;
         ramon:name           "Koski Tl"@fi ;
         dbo:populationTotal  2399 ;
         dbo:areaTotal        192420000 ;
-        ramon:code           "284" ;
+        ramon:code           "FI-284" ;
         spatial:PP           lau:FI-025 ;
         ramon:level          5 .
 
@@ -1938,12 +1938,12 @@ lau:FI-025  rdf:type    ebg:LAURegion ;
 lau:FI-285  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kotka"@en ;
-        rdfs:label           "285 Kotka" ;
+        rdfs:label           "FI-285 Kotka" ;
         void:inDataset       lau: ;
         ramon:name           "Kotka"@fi ;
         dbo:populationTotal  54319 ;
         dbo:areaTotal        949780000 ;
-        ramon:code           "285" ;
+        ramon:code           "FI-285" ;
         spatial:PP           lau:FI-082 ;
         ramon:level          5 .
 
@@ -1956,12 +1956,12 @@ lau:FI-082  rdf:type    ebg:LAURegion ;
 lau:FI-286  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kouvola"@en ;
-        rdfs:label           "286 Kouvola" ;
+        rdfs:label           "FI-286 Kouvola" ;
         void:inDataset       lau: ;
         ramon:name           "Kouvola"@fi ;
         dbo:populationTotal  85855 ;
         dbo:areaTotal        2883290000 ;
-        ramon:code           "286" ;
+        ramon:code           "FI-286" ;
         spatial:PP           lau:FI-081 ;
         ramon:level          5 .
 
@@ -1974,12 +1974,12 @@ lau:FI-081  rdf:type    ebg:LAURegion ;
 lau:FI-287  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kristinestad"@en ;
-        rdfs:label           "287 Kristinestad" ;
+        rdfs:label           "FI-287 Kristinestad" ;
         void:inDataset       lau: ;
         ramon:name           "Kristiinankaupunki"@fi ;
         dbo:populationTotal  6793 ;
         dbo:areaTotal        1678980000 ;
-        ramon:code           "287" ;
+        ramon:code           "FI-287" ;
         spatial:PP           lau:FI-153 ;
         ramon:level          5 .
 
@@ -1992,12 +1992,12 @@ lau:FI-153  rdf:type    ebg:LAURegion ;
 lau:FI-288  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kronoby"@en ;
-        rdfs:label           "288 Kronoby" ;
+        rdfs:label           "FI-288 Kronoby" ;
         void:inDataset       lau: ;
         ramon:name           "Kruunupyy"@fi ;
         dbo:populationTotal  6682 ;
         dbo:areaTotal        752650000 ;
-        ramon:code           "288" ;
+        ramon:code           "FI-288" ;
         spatial:PP           lau:FI-154 ;
         ramon:level          5 .
 
@@ -2010,12 +2010,12 @@ lau:FI-154  rdf:type    ebg:LAURegion ;
 lau:FI-290  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuhmo"@en ;
-        rdfs:label           "290 Kuhmo" ;
+        rdfs:label           "FI-290 Kuhmo" ;
         void:inDataset       lau: ;
         ramon:name           "Kuhmo"@fi ;
         dbo:populationTotal  8806 ;
         dbo:areaTotal        5456780000 ;
-        ramon:code           "290" ;
+        ramon:code           "FI-290" ;
         spatial:PP           lau:FI-181 ;
         ramon:level          5 .
 
@@ -2028,12 +2028,12 @@ lau:FI-181  rdf:type    ebg:LAURegion ;
 lau:FI-291  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuhmoinen"@en ;
-        rdfs:label           "291 Kuhmoinen" ;
+        rdfs:label           "FI-291 Kuhmoinen" ;
         void:inDataset       lau: ;
         ramon:name           "Kuhmoinen"@fi ;
         dbo:populationTotal  2334 ;
         dbo:areaTotal        936680000 ;
-        ramon:code           "291" ;
+        ramon:code           "FI-291" ;
         spatial:PP           lau:FI-134 ;
         ramon:level          5 .
 
@@ -2046,12 +2046,12 @@ lau:FI-134  rdf:type    ebg:LAURegion ;
 lau:FI-295  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kumlinge"@en ;
-        rdfs:label           "295 Kumlinge" ;
+        rdfs:label           "FI-295 Kumlinge" ;
         void:inDataset       lau: ;
         ramon:name           "Kumlinge"@fi ;
         dbo:populationTotal  317 ;
         dbo:areaTotal        865880000 ;
-        ramon:code           "295" ;
+        ramon:code           "FI-295" ;
         spatial:PP           lau:FI-213 ;
         ramon:level          5 .
 
@@ -2064,12 +2064,12 @@ lau:FI-213  rdf:type    ebg:LAURegion ;
 lau:FI-297  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuopio"@en ;
-        rdfs:label           "297 Kuopio" ;
+        rdfs:label           "FI-297 Kuopio" ;
         void:inDataset       lau: ;
         ramon:name           "Kuopio"@fi ;
         dbo:populationTotal  112117 ;
         dbo:areaTotal        3740100000 ;
-        ramon:code           "297" ;
+        ramon:code           "FI-297" ;
         spatial:PP           lau:FI-112 ;
         ramon:level          5 .
 
@@ -2082,12 +2082,12 @@ lau:FI-112  rdf:type    ebg:LAURegion ;
 lau:FI-300  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuortane"@en ;
-        rdfs:label           "300 Kuortane" ;
+        rdfs:label           "FI-300 Kuortane" ;
         void:inDataset       lau: ;
         ramon:name           "Kuortane"@fi ;
         dbo:populationTotal  3715 ;
         dbo:areaTotal        484880000 ;
-        ramon:code           "300" ;
+        ramon:code           "FI-300" ;
         spatial:PP           lau:FI-144 ;
         ramon:level          5 .
 
@@ -2100,12 +2100,12 @@ lau:FI-144  rdf:type    ebg:LAURegion ;
 lau:FI-301  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kurikka"@en ;
-        rdfs:label           "301 Kurikka" ;
+        rdfs:label           "FI-301 Kurikka" ;
         void:inDataset       lau: ;
         ramon:name           "Kurikka"@fi ;
         dbo:populationTotal  21734 ;
         dbo:areaTotal        1743860000 ;
-        ramon:code           "301" ;
+        ramon:code           "FI-301" ;
         spatial:PP           lau:FI-142 ;
         ramon:level          5 .
 
@@ -2118,12 +2118,12 @@ lau:FI-142  rdf:type    ebg:LAURegion ;
 lau:FI-304  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gustavs"@en ;
-        rdfs:label           "304 Gustavs" ;
+        rdfs:label           "FI-304 Gustavs" ;
         void:inDataset       lau: ;
         ramon:name           "Kustavi"@fi ;
         dbo:populationTotal  895 ;
         dbo:areaTotal        770100000 ;
-        ramon:code           "304" ;
+        ramon:code           "FI-304" ;
         spatial:PP           lau:FI-024 ;
         ramon:level          5 .
 
@@ -2136,12 +2136,12 @@ lau:FI-024  rdf:type    ebg:LAURegion ;
 lau:FI-305  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kuusamo"@en ;
-        rdfs:label           "305 Kuusamo" ;
+        rdfs:label           "FI-305 Kuusamo" ;
         void:inDataset       lau: ;
         ramon:name           "Kuusamo"@fi ;
         dbo:populationTotal  15688 ;
         dbo:areaTotal        5808920000 ;
-        ramon:code           "305" ;
+        ramon:code           "FI-305" ;
         spatial:PP           lau:FI-178 ;
         ramon:level          5 .
 
@@ -2154,12 +2154,12 @@ lau:FI-178  rdf:type    ebg:LAURegion ;
 lau:FI-309  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Outokumpu"@en ;
-        rdfs:label           "309 Outokumpu" ;
+        rdfs:label           "FI-309 Outokumpu" ;
         void:inDataset       lau: ;
         ramon:name           "Outokumpu"@fi ;
         dbo:populationTotal  7139 ;
         dbo:areaTotal        584050000 ;
-        ramon:code           "309" ;
+        ramon:code           "FI-309" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -2172,12 +2172,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-312  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kyyjärvi"@en ;
-        rdfs:label           "312 Kyyjärvi" ;
+        rdfs:label           "FI-312 Kyyjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Kyyjärvi"@fi ;
         dbo:populationTotal  1379 ;
         dbo:areaTotal        469620000 ;
-        ramon:code           "312" ;
+        ramon:code           "FI-312" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -2190,12 +2190,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-316  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kärkölä"@en ;
-        rdfs:label           "316 Kärkölä" ;
+        rdfs:label           "FI-316 Kärkölä" ;
         void:inDataset       lau: ;
         ramon:name           "Kärkölä"@fi ;
         dbo:populationTotal  4604 ;
         dbo:areaTotal        259300000 ;
-        ramon:code           "316" ;
+        ramon:code           "FI-316" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -2208,12 +2208,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-317  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kärsämäki"@en ;
-        rdfs:label           "317 Kärsämäki" ;
+        rdfs:label           "FI-317 Kärsämäki" ;
         void:inDataset       lau: ;
         ramon:name           "Kärsämäki"@fi ;
         dbo:populationTotal  2658 ;
         dbo:areaTotal        700900000 ;
-        ramon:code           "317" ;
+        ramon:code           "FI-317" ;
         spatial:PP           lau:FI-176 ;
         ramon:level          5 .
 
@@ -2226,12 +2226,12 @@ lau:FI-176  rdf:type    ebg:LAURegion ;
 lau:FI-318  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kökar"@en ;
-        rdfs:label           "318 Kökar" ;
+        rdfs:label           "FI-318 Kökar" ;
         void:inDataset       lau: ;
         ramon:name           "Kökar"@fi ;
         dbo:populationTotal  250 ;
         dbo:areaTotal        2165020000 ;
-        ramon:code           "318" ;
+        ramon:code           "FI-318" ;
         spatial:PP           lau:FI-213 ;
         ramon:level          5 .
 
@@ -2244,12 +2244,12 @@ lau:FI-213  rdf:type    ebg:LAURegion ;
 lau:FI-320  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kemijärvi"@en ;
-        rdfs:label           "320 Kemijärvi" ;
+        rdfs:label           "FI-320 Kemijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Kemijärvi"@fi ;
         dbo:populationTotal  7766 ;
         dbo:areaTotal        3930910000 ;
-        ramon:code           "320" ;
+        ramon:code           "FI-320" ;
         spatial:PP           lau:FI-194 ;
         ramon:level          5 .
 
@@ -2262,12 +2262,12 @@ lau:FI-194  rdf:type    ebg:LAURegion ;
 lau:FI-322  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kimitoön"@en ;
-        rdfs:label           "322 Kimitoön" ;
+        rdfs:label           "FI-322 Kimitoön" ;
         void:inDataset       lau: ;
         ramon:name           "Kemiönsaari"@fi ;
         dbo:populationTotal  6909 ;
         dbo:areaTotal        2801210000 ;
-        ramon:code           "322" ;
+        ramon:code           "FI-322" ;
         spatial:PP           lau:FI-021 ;
         ramon:level          5 .
 
@@ -2280,12 +2280,12 @@ lau:FI-021  rdf:type    ebg:LAURegion ;
 lau:FI-398  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lahtis"@en ;
-        rdfs:label           "398 Lahtis" ;
+        rdfs:label           "FI-398 Lahtis" ;
         void:inDataset       lau: ;
         ramon:name           "Lahti"@fi ;
         dbo:populationTotal  118743 ;
         dbo:areaTotal        517630000 ;
-        ramon:code           "398" ;
+        ramon:code           "FI-398" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -2298,12 +2298,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-399  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Laihela"@en ;
-        rdfs:label           "399 Laihela" ;
+        rdfs:label           "FI-399 Laihela" ;
         void:inDataset       lau: ;
         ramon:name           "Laihia"@fi ;
         dbo:populationTotal  8090 ;
         dbo:areaTotal        508440000 ;
-        ramon:code           "399" ;
+        ramon:code           "FI-399" ;
         spatial:PP           lau:FI-151 ;
         ramon:level          5 .
 
@@ -2316,12 +2316,12 @@ lau:FI-151  rdf:type    ebg:LAURegion ;
 lau:FI-400  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Laitila"@en ;
-        rdfs:label           "400 Laitila" ;
+        rdfs:label           "FI-400 Laitila" ;
         void:inDataset       lau: ;
         ramon:name           "Laitila"@fi ;
         dbo:populationTotal  8520 ;
         dbo:areaTotal        545330000 ;
-        ramon:code           "400" ;
+        ramon:code           "FI-400" ;
         spatial:PP           lau:FI-024 ;
         ramon:level          5 .
 
@@ -2334,12 +2334,12 @@ lau:FI-024  rdf:type    ebg:LAURegion ;
 lau:FI-402  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lapinlahti"@en ;
-        rdfs:label           "402 Lapinlahti" ;
+        rdfs:label           "FI-402 Lapinlahti" ;
         void:inDataset       lau: ;
         ramon:name           "Lapinlahti"@fi ;
         dbo:populationTotal  9982 ;
         dbo:areaTotal        1245140000 ;
-        ramon:code           "402" ;
+        ramon:code           "FI-402" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -2352,12 +2352,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-403  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lappajärvi"@en ;
-        rdfs:label           "403 Lappajärvi" ;
+        rdfs:label           "FI-403 Lappajärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Lappajärvi"@fi ;
         dbo:populationTotal  3215 ;
         dbo:areaTotal        522980000 ;
-        ramon:code           "403" ;
+        ramon:code           "FI-403" ;
         spatial:PP           lau:FI-146 ;
         ramon:level          5 .
 
@@ -2370,12 +2370,12 @@ lau:FI-146  rdf:type    ebg:LAURegion ;
 lau:FI-405  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Villmanstrand"@en ;
-        rdfs:label           "405 Villmanstrand" ;
+        rdfs:label           "FI-405 Villmanstrand" ;
         void:inDataset       lau: ;
         ramon:name           "Lappeenranta"@fi ;
         dbo:populationTotal  72875 ;
         dbo:areaTotal        1723550000 ;
-        ramon:code           "405" ;
+        ramon:code           "FI-405" ;
         spatial:PP           lau:FI-091 ;
         ramon:level          5 .
 
@@ -2388,12 +2388,12 @@ lau:FI-091  rdf:type    ebg:LAURegion ;
 lau:FI-407  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lappträsk"@en ;
-        rdfs:label           "407 Lappträsk" ;
+        rdfs:label           "FI-407 Lappträsk" ;
         void:inDataset       lau: ;
         ramon:name           "Lapinjärvi"@fi ;
         dbo:populationTotal  2774 ;
         dbo:areaTotal        339310000 ;
-        ramon:code           "407" ;
+        ramon:code           "FI-407" ;
         spatial:PP           lau:FI-016 ;
         ramon:level          5 .
 
@@ -2406,12 +2406,12 @@ lau:FI-016  rdf:type    ebg:LAURegion ;
 lau:FI-408  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lappo"@en ;
-        rdfs:label           "408 Lappo" ;
+        rdfs:label           "FI-408 Lappo" ;
         void:inDataset       lau: ;
         ramon:name           "Lapua"@fi ;
         dbo:populationTotal  14609 ;
         dbo:areaTotal        751800000 ;
-        ramon:code           "408" ;
+        ramon:code           "FI-408" ;
         spatial:PP           lau:FI-142 ;
         ramon:level          5 .
 
@@ -2424,12 +2424,12 @@ lau:FI-142  rdf:type    ebg:LAURegion ;
 lau:FI-410  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Laukaa"@en ;
-        rdfs:label           "410 Laukaa" ;
+        rdfs:label           "FI-410 Laukaa" ;
         void:inDataset       lau: ;
         ramon:name           "Laukaa"@fi ;
         dbo:populationTotal  18865 ;
         dbo:areaTotal        825590000 ;
-        ramon:code           "410" ;
+        ramon:code           "FI-410" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -2442,12 +2442,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-416  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lemi"@en ;
-        rdfs:label           "416 Lemi" ;
+        rdfs:label           "FI-416 Lemi" ;
         void:inDataset       lau: ;
         ramon:name           "Lemi"@fi ;
         dbo:populationTotal  3073 ;
         dbo:areaTotal        262480000 ;
-        ramon:code           "416" ;
+        ramon:code           "FI-416" ;
         spatial:PP           lau:FI-091 ;
         ramon:level          5 .
 
@@ -2460,12 +2460,12 @@ lau:FI-091  rdf:type    ebg:LAURegion ;
 lau:FI-417  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lemland"@en ;
-        rdfs:label           "417 Lemland" ;
+        rdfs:label           "FI-417 Lemland" ;
         void:inDataset       lau: ;
         ramon:name           "Lemland"@fi ;
         dbo:populationTotal  1991 ;
         dbo:areaTotal        965300000 ;
-        ramon:code           "417" ;
+        ramon:code           "FI-417" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -2478,12 +2478,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-418  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lempäälä"@en ;
-        rdfs:label           "418 Lempäälä" ;
+        rdfs:label           "FI-418 Lempäälä" ;
         void:inDataset       lau: ;
         ramon:name           "Lempäälä"@fi ;
         dbo:populationTotal  22536 ;
         dbo:areaTotal        307060000 ;
-        ramon:code           "418" ;
+        ramon:code           "FI-418" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -2496,12 +2496,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-420  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Leppävirta"@en ;
-        rdfs:label           "420 Leppävirta" ;
+        rdfs:label           "FI-420 Leppävirta" ;
         void:inDataset       lau: ;
         ramon:name           "Leppävirta"@fi ;
         dbo:populationTotal  9953 ;
         dbo:areaTotal        1519650000 ;
-        ramon:code           "420" ;
+        ramon:code           "FI-420" ;
         spatial:PP           lau:FI-114 ;
         ramon:level          5 .
 
@@ -2514,12 +2514,12 @@ lau:FI-114  rdf:type    ebg:LAURegion ;
 lau:FI-421  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lestijärvi"@en ;
-        rdfs:label           "421 Lestijärvi" ;
+        rdfs:label           "FI-421 Lestijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Lestijärvi"@fi ;
         dbo:populationTotal  798 ;
         dbo:areaTotal        559060000 ;
-        ramon:code           "421" ;
+        ramon:code           "FI-421" ;
         spatial:PP           lau:FI-161 ;
         ramon:level          5 .
 
@@ -2532,12 +2532,12 @@ lau:FI-161  rdf:type    ebg:LAURegion ;
 lau:FI-422  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lieksa"@en ;
-        rdfs:label           "422 Lieksa" ;
+        rdfs:label           "FI-422 Lieksa" ;
         void:inDataset       lau: ;
         ramon:name           "Lieksa"@fi ;
         dbo:populationTotal  11772 ;
         dbo:areaTotal        4067600000 ;
-        ramon:code           "422" ;
+        ramon:code           "FI-422" ;
         spatial:PP           lau:FI-125 ;
         ramon:level          5 .
 
@@ -2550,12 +2550,12 @@ lau:FI-125  rdf:type    ebg:LAURegion ;
 lau:FI-423  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lundo"@en ;
-        rdfs:label           "423 Lundo" ;
+        rdfs:label           "FI-423 Lundo" ;
         void:inDataset       lau: ;
         ramon:name           "Lieto"@fi ;
         dbo:populationTotal  19263 ;
         dbo:areaTotal        302560000 ;
-        ramon:code           "423" ;
+        ramon:code           "FI-423" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -2568,12 +2568,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-425  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Limingo"@en ;
-        rdfs:label           "425 Limingo" ;
+        rdfs:label           "FI-425 Limingo" ;
         void:inDataset       lau: ;
         ramon:name           "Liminka"@fi ;
         dbo:populationTotal  9937 ;
         dbo:areaTotal        651710000 ;
-        ramon:code           "425" ;
+        ramon:code           "FI-425" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -2586,12 +2586,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-426  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Liperi"@en ;
-        rdfs:label           "426 Liperi" ;
+        rdfs:label           "FI-426 Liperi" ;
         void:inDataset       lau: ;
         ramon:name           "Liperi"@fi ;
         dbo:populationTotal  12338 ;
         dbo:areaTotal        1161230000 ;
-        ramon:code           "426" ;
+        ramon:code           "FI-426" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -2604,12 +2604,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-430  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Loimaa"@en ;
-        rdfs:label           "430 Loimaa" ;
+        rdfs:label           "FI-430 Loimaa" ;
         void:inDataset       lau: ;
         ramon:name           "Loimaa"@fi ;
         dbo:populationTotal  16467 ;
         dbo:areaTotal        851930000 ;
-        ramon:code           "430" ;
+        ramon:code           "FI-430" ;
         spatial:PP           lau:FI-025 ;
         ramon:level          5 .
 
@@ -2622,12 +2622,12 @@ lau:FI-025  rdf:type    ebg:LAURegion ;
 lau:FI-433  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Loppi"@en ;
-        rdfs:label           "433 Loppi" ;
+        rdfs:label           "FI-433 Loppi" ;
         void:inDataset       lau: ;
         ramon:name           "Loppi"@fi ;
         dbo:populationTotal  8175 ;
         dbo:areaTotal        655970000 ;
-        ramon:code           "433" ;
+        ramon:code           "FI-433" ;
         spatial:PP           lau:FI-052 ;
         ramon:level          5 .
 
@@ -2640,12 +2640,12 @@ lau:FI-052  rdf:type    ebg:LAURegion ;
 lau:FI-434  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lovisa"@en ;
-        rdfs:label           "434 Lovisa" ;
+        rdfs:label           "FI-434 Lovisa" ;
         void:inDataset       lau: ;
         ramon:name           "Loviisa"@fi ;
         dbo:populationTotal  15311 ;
         dbo:areaTotal        1751520000 ;
-        ramon:code           "434" ;
+        ramon:code           "FI-434" ;
         spatial:PP           lau:FI-016 ;
         ramon:level          5 .
 
@@ -2658,12 +2658,12 @@ lau:FI-016  rdf:type    ebg:LAURegion ;
 lau:FI-435  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Luhanka"@en ;
-        rdfs:label           "435 Luhanka" ;
+        rdfs:label           "FI-435 Luhanka" ;
         void:inDataset       lau: ;
         ramon:name           "Luhanka"@fi ;
         dbo:populationTotal  761 ;
         dbo:areaTotal        313250000 ;
-        ramon:code           "435" ;
+        ramon:code           "FI-435" ;
         spatial:PP           lau:FI-132 ;
         ramon:level          5 .
 
@@ -2676,12 +2676,12 @@ lau:FI-132  rdf:type    ebg:LAURegion ;
 lau:FI-436  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lumijoki"@en ;
-        rdfs:label           "436 Lumijoki" ;
+        rdfs:label           "FI-436 Lumijoki" ;
         void:inDataset       lau: ;
         ramon:name           "Lumijoki"@fi ;
         dbo:populationTotal  2076 ;
         dbo:areaTotal        290290000 ;
-        ramon:code           "436" ;
+        ramon:code           "FI-436" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -2694,12 +2694,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-438  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lumparland"@en ;
-        rdfs:label           "438 Lumparland" ;
+        rdfs:label           "FI-438 Lumparland" ;
         void:inDataset       lau: ;
         ramon:name           "Lumparland"@fi ;
         dbo:populationTotal  398 ;
         dbo:areaTotal        87040000 ;
-        ramon:code           "438" ;
+        ramon:code           "FI-438" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -2712,12 +2712,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-440  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Larsmo"@en ;
-        rdfs:label           "440 Larsmo" ;
+        rdfs:label           "FI-440 Larsmo" ;
         void:inDataset       lau: ;
         ramon:name           "Luoto"@fi ;
         dbo:populationTotal  5147 ;
         dbo:areaTotal        853280000 ;
-        ramon:code           "440" ;
+        ramon:code           "FI-440" ;
         spatial:PP           lau:FI-154 ;
         ramon:level          5 .
 
@@ -2730,12 +2730,12 @@ lau:FI-154  rdf:type    ebg:LAURegion ;
 lau:FI-441  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Luumäki"@en ;
-        rdfs:label           "441 Luumäki" ;
+        rdfs:label           "FI-441 Luumäki" ;
         void:inDataset       lau: ;
         ramon:name           "Luumäki"@fi ;
         dbo:populationTotal  4860 ;
         dbo:areaTotal        859840000 ;
-        ramon:code           "441" ;
+        ramon:code           "FI-441" ;
         spatial:PP           lau:FI-091 ;
         ramon:level          5 .
 
@@ -2748,12 +2748,12 @@ lau:FI-091  rdf:type    ebg:LAURegion ;
 lau:FI-442  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Luvia"@en ;
-        rdfs:label           "442 Luvia" ;
+        rdfs:label           "FI-442 Luvia" ;
         void:inDataset       lau: ;
         ramon:name           "Luvia"@fi ;
         dbo:populationTotal  3349 ;
         dbo:areaTotal        861200000 ;
-        ramon:code           "442" ;
+        ramon:code           "FI-442" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -2766,12 +2766,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-444  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lojo"@en ;
-        rdfs:label           "444 Lojo" ;
+        rdfs:label           "FI-444 Lojo" ;
         void:inDataset       lau: ;
         ramon:name           "Lohja"@fi ;
         dbo:populationTotal  47353 ;
         dbo:areaTotal        1109730000 ;
-        ramon:code           "444" ;
+        ramon:code           "FI-444" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -2784,12 +2784,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-445  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pargas"@en ;
-        rdfs:label           "445 Pargas" ;
+        rdfs:label           "FI-445 Pargas" ;
         void:inDataset       lau: ;
         ramon:name           "Parainen"@fi ;
         dbo:populationTotal  15457 ;
         dbo:areaTotal        5548090000 ;
-        ramon:code           "445" ;
+        ramon:code           "FI-445" ;
         spatial:PP           lau:FI-021 ;
         ramon:level          5 .
 
@@ -2802,12 +2802,12 @@ lau:FI-021  rdf:type    ebg:LAURegion ;
 lau:FI-475  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Malax"@en ;
-        rdfs:label           "475 Malax" ;
+        rdfs:label           "FI-475 Malax" ;
         void:inDataset       lau: ;
         ramon:name           "Maalahti"@fi ;
         dbo:populationTotal  5545 ;
         dbo:areaTotal        1954940000 ;
-        ramon:code           "475" ;
+        ramon:code           "FI-475" ;
         spatial:PP           lau:FI-152 ;
         ramon:level          5 .
 
@@ -2820,12 +2820,12 @@ lau:FI-152  rdf:type    ebg:LAURegion ;
 lau:FI-478  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mariehamn"@en ;
-        rdfs:label           "478 Mariehamn" ;
+        rdfs:label           "FI-478 Mariehamn" ;
         void:inDataset       lau: ;
         ramon:name           "Maarianhamina - Mariehamn"@fi ;
         dbo:populationTotal  11461 ;
         dbo:areaTotal        20750000 ;
-        ramon:code           "478" ;
+        ramon:code           "FI-478" ;
         spatial:PP           lau:FI-211 ;
         ramon:level          5 .
 
@@ -2838,12 +2838,12 @@ lau:FI-211  rdf:type    ebg:LAURegion ;
 lau:FI-480  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Marttila"@en ;
-        rdfs:label           "480 Marttila" ;
+        rdfs:label           "FI-480 Marttila" ;
         void:inDataset       lau: ;
         ramon:name           "Marttila"@fi ;
         dbo:populationTotal  2028 ;
         dbo:areaTotal        195990000 ;
-        ramon:code           "480" ;
+        ramon:code           "FI-480" ;
         spatial:PP           lau:FI-025 ;
         ramon:level          5 .
 
@@ -2856,12 +2856,12 @@ lau:FI-025  rdf:type    ebg:LAURegion ;
 lau:FI-481  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Masku"@en ;
-        rdfs:label           "481 Masku" ;
+        rdfs:label           "FI-481 Masku" ;
         void:inDataset       lau: ;
         ramon:name           "Masku"@fi ;
         dbo:populationTotal  9706 ;
         dbo:areaTotal        204020000 ;
-        ramon:code           "481" ;
+        ramon:code           "FI-481" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -2874,12 +2874,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-483  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Merijärvi"@en ;
-        rdfs:label           "483 Merijärvi" ;
+        rdfs:label           "FI-483 Merijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Merijärvi"@fi ;
         dbo:populationTotal  1134 ;
         dbo:areaTotal        231630000 ;
-        ramon:code           "483" ;
+        ramon:code           "FI-483" ;
         spatial:PP           lau:FI-177 ;
         ramon:level          5 .
 
@@ -2892,12 +2892,12 @@ lau:FI-177  rdf:type    ebg:LAURegion ;
 lau:FI-484  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sastmola"@en ;
-        rdfs:label           "484 Sastmola" ;
+        rdfs:label           "FI-484 Sastmola" ;
         void:inDataset       lau: ;
         ramon:name           "Merikarvia"@fi ;
         dbo:populationTotal  3185 ;
         dbo:areaTotal        1246220000 ;
-        ramon:code           "484" ;
+        ramon:code           "FI-484" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -2910,12 +2910,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-489  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Miehikkälä"@en ;
-        rdfs:label           "489 Miehikkälä" ;
+        rdfs:label           "FI-489 Miehikkälä" ;
         void:inDataset       lau: ;
         ramon:name           "Miehikkälä"@fi ;
         dbo:populationTotal  2085 ;
         dbo:areaTotal        440350000 ;
-        ramon:code           "489" ;
+        ramon:code           "FI-489" ;
         spatial:PP           lau:FI-082 ;
         ramon:level          5 .
 
@@ -2928,12 +2928,12 @@ lau:FI-082  rdf:type    ebg:LAURegion ;
 lau:FI-491  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "S:t Michel"@en ;
-        rdfs:label           "491 S:t Michel" ;
+        rdfs:label           "FI-491 S:t Michel" ;
         void:inDataset       lau: ;
         ramon:name           "Mikkeli"@fi ;
         dbo:populationTotal  54665 ;
         dbo:areaTotal        3229570000 ;
-        ramon:code           "491" ;
+        ramon:code           "FI-491" ;
         spatial:PP           lau:FI-101 ;
         ramon:level          5 .
 
@@ -2946,12 +2946,12 @@ lau:FI-101  rdf:type    ebg:LAURegion ;
 lau:FI-494  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Muhos"@en ;
-        rdfs:label           "494 Muhos" ;
+        rdfs:label           "FI-494 Muhos" ;
         void:inDataset       lau: ;
         ramon:name           "Muhos"@fi ;
         dbo:populationTotal  9063 ;
         dbo:areaTotal        797270000 ;
-        ramon:code           "494" ;
+        ramon:code           "FI-494" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -2964,12 +2964,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-495  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Multia"@en ;
-        rdfs:label           "495 Multia" ;
+        rdfs:label           "FI-495 Multia" ;
         void:inDataset       lau: ;
         ramon:name           "Multia"@fi ;
         dbo:populationTotal  1710 ;
         dbo:areaTotal        765620000 ;
-        ramon:code           "495" ;
+        ramon:code           "FI-495" ;
         spatial:PP           lau:FI-133 ;
         ramon:level          5 .
 
@@ -2982,12 +2982,12 @@ lau:FI-133  rdf:type    ebg:LAURegion ;
 lau:FI-498  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Muonio"@en ;
-        rdfs:label           "498 Muonio" ;
+        rdfs:label           "FI-498 Muonio" ;
         void:inDataset       lau: ;
         ramon:name           "Muonio"@fi ;
         dbo:populationTotal  2358 ;
         dbo:areaTotal        2037790000 ;
-        ramon:code           "498" ;
+        ramon:code           "FI-498" ;
         spatial:PP           lau:FI-196 ;
         ramon:level          5 .
 
@@ -3000,12 +3000,12 @@ lau:FI-196  rdf:type    ebg:LAURegion ;
 lau:FI-499  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Korsholm"@en ;
-        rdfs:label           "499 Korsholm" ;
+        rdfs:label           "FI-499 Korsholm" ;
         void:inDataset       lau: ;
         ramon:name           "Mustasaari"@fi ;
         dbo:populationTotal  19302 ;
         dbo:areaTotal        3178610000 ;
-        ramon:code           "499" ;
+        ramon:code           "FI-499" ;
         spatial:PP           lau:FI-152 ;
         ramon:level          5 .
 
@@ -3018,12 +3018,12 @@ lau:FI-152  rdf:type    ebg:LAURegion ;
 lau:FI-500  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Muurame"@en ;
-        rdfs:label           "500 Muurame" ;
+        rdfs:label           "FI-500 Muurame" ;
         void:inDataset       lau: ;
         ramon:name           "Muurame"@fi ;
         dbo:populationTotal  9791 ;
         dbo:areaTotal        194050000 ;
-        ramon:code           "500" ;
+        ramon:code           "FI-500" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -3036,12 +3036,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-503  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mynämäki"@en ;
-        rdfs:label           "503 Mynämäki" ;
+        rdfs:label           "FI-503 Mynämäki" ;
         void:inDataset       lau: ;
         ramon:name           "Mynämäki"@fi ;
         dbo:populationTotal  7859 ;
         dbo:areaTotal        536090000 ;
-        ramon:code           "503" ;
+        ramon:code           "FI-503" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -3054,12 +3054,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-504  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mörskom"@en ;
-        rdfs:label           "504 Mörskom" ;
+        rdfs:label           "FI-504 Mörskom" ;
         void:inDataset       lau: ;
         ramon:name           "Myrskylä"@fi ;
         dbo:populationTotal  1969 ;
         dbo:areaTotal        206350000 ;
-        ramon:code           "504" ;
+        ramon:code           "FI-504" ;
         spatial:PP           lau:FI-015 ;
         ramon:level          5 .
 
@@ -3072,12 +3072,12 @@ lau:FI-015  rdf:type    ebg:LAURegion ;
 lau:FI-505  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mäntsälä"@en ;
-        rdfs:label           "505 Mäntsälä" ;
+        rdfs:label           "FI-505 Mäntsälä" ;
         void:inDataset       lau: ;
         ramon:name           "Mäntsälä"@fi ;
         dbo:populationTotal  20685 ;
         dbo:areaTotal        596110000 ;
-        ramon:code           "505" ;
+        ramon:code           "FI-505" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -3090,12 +3090,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-507  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mäntyharju"@en ;
-        rdfs:label           "507 Mäntyharju" ;
+        rdfs:label           "FI-507 Mäntyharju" ;
         void:inDataset       lau: ;
         ramon:name           "Mäntyharju"@fi ;
         dbo:populationTotal  6159 ;
         dbo:areaTotal        1210980000 ;
-        ramon:code           "507" ;
+        ramon:code           "FI-507" ;
         spatial:PP           lau:FI-101 ;
         ramon:level          5 .
 
@@ -3108,12 +3108,12 @@ lau:FI-101  rdf:type    ebg:LAURegion ;
 lau:FI-508  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mänttä-Vilppula"@en ;
-        rdfs:label           "508 Mänttä-Vilppula" ;
+        rdfs:label           "FI-508 Mänttä-Vilppula" ;
         void:inDataset       lau: ;
         ramon:name           "Mänttä-Vilppula"@fi ;
         dbo:populationTotal  10604 ;
         dbo:areaTotal        657230000 ;
-        ramon:code           "508" ;
+        ramon:code           "FI-508" ;
         spatial:PP           lau:FI-069 ;
         ramon:level          5 .
 
@@ -3126,12 +3126,12 @@ lau:FI-069  rdf:type    ebg:LAURegion ;
 lau:FI-529  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nådendal"@en ;
-        rdfs:label           "529 Nådendal" ;
+        rdfs:label           "FI-529 Nådendal" ;
         void:inDataset       lau: ;
         ramon:name           "Naantali"@fi ;
         dbo:populationTotal  18961 ;
         dbo:areaTotal        687970000 ;
-        ramon:code           "529" ;
+        ramon:code           "FI-529" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -3144,12 +3144,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-531  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nakkila"@en ;
-        rdfs:label           "531 Nakkila" ;
+        rdfs:label           "FI-531 Nakkila" ;
         void:inDataset       lau: ;
         ramon:name           "Nakkila"@fi ;
         dbo:populationTotal  5651 ;
         dbo:areaTotal        184880000 ;
-        ramon:code           "531" ;
+        ramon:code           "FI-531" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -3162,12 +3162,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-535  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nivala"@en ;
-        rdfs:label           "535 Nivala" ;
+        rdfs:label           "FI-535 Nivala" ;
         void:inDataset       lau: ;
         ramon:name           "Nivala"@fi ;
         dbo:populationTotal  10876 ;
         dbo:areaTotal        536880000 ;
-        ramon:code           "535" ;
+        ramon:code           "FI-535" ;
         spatial:PP           lau:FI-176 ;
         ramon:level          5 .
 
@@ -3180,12 +3180,12 @@ lau:FI-176  rdf:type    ebg:LAURegion ;
 lau:FI-536  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nokia"@en ;
-        rdfs:label           "536 Nokia" ;
+        rdfs:label           "FI-536 Nokia" ;
         void:inDataset       lau: ;
         ramon:name           "Nokia"@fi ;
         dbo:populationTotal  33162 ;
         dbo:areaTotal        347750000 ;
-        ramon:code           "536" ;
+        ramon:code           "FI-536" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -3198,12 +3198,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-538  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nousis"@en ;
-        rdfs:label           "538 Nousis" ;
+        rdfs:label           "FI-538 Nousis" ;
         void:inDataset       lau: ;
         ramon:name           "Nousiainen"@fi ;
         dbo:populationTotal  4859 ;
         dbo:areaTotal        199550000 ;
-        ramon:code           "538" ;
+        ramon:code           "FI-538" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -3216,12 +3216,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-541  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nurmes"@en ;
-        rdfs:label           "541 Nurmes" ;
+        rdfs:label           "FI-541 Nurmes" ;
         void:inDataset       lau: ;
         ramon:name           "Nurmes"@fi ;
         dbo:populationTotal  7996 ;
         dbo:areaTotal        1854800000 ;
-        ramon:code           "541" ;
+        ramon:code           "FI-541" ;
         spatial:PP           lau:FI-125 ;
         ramon:level          5 .
 
@@ -3234,12 +3234,12 @@ lau:FI-125  rdf:type    ebg:LAURegion ;
 lau:FI-543  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nurmijärvi"@en ;
-        rdfs:label           "543 Nurmijärvi" ;
+        rdfs:label           "FI-543 Nurmijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Nurmijärvi"@fi ;
         dbo:populationTotal  41897 ;
         dbo:areaTotal        367260000 ;
-        ramon:code           "543" ;
+        ramon:code           "FI-543" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -3252,12 +3252,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-545  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Närpes"@en ;
-        rdfs:label           "545 Närpes" ;
+        rdfs:label           "FI-545 Närpes" ;
         void:inDataset       lau: ;
         ramon:name           "Närpiö"@fi ;
         dbo:populationTotal  9387 ;
         dbo:areaTotal        2334140000 ;
-        ramon:code           "545" ;
+        ramon:code           "FI-545" ;
         spatial:PP           lau:FI-153 ;
         ramon:level          5 .
 
@@ -3270,12 +3270,12 @@ lau:FI-153  rdf:type    ebg:LAURegion ;
 lau:FI-560  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Orimattila"@en ;
-        rdfs:label           "560 Orimattila" ;
+        rdfs:label           "FI-560 Orimattila" ;
         void:inDataset       lau: ;
         ramon:name           "Orimattila"@fi ;
         dbo:populationTotal  16326 ;
         dbo:areaTotal        814010000 ;
-        ramon:code           "560" ;
+        ramon:code           "FI-560" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -3288,12 +3288,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-561  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Oripää"@en ;
-        rdfs:label           "561 Oripää" ;
+        rdfs:label           "FI-561 Oripää" ;
         void:inDataset       lau: ;
         ramon:name           "Oripää"@fi ;
         dbo:populationTotal  1377 ;
         dbo:areaTotal        117720000 ;
-        ramon:code           "561" ;
+        ramon:code           "FI-561" ;
         spatial:PP           lau:FI-025 ;
         ramon:level          5 .
 
@@ -3306,12 +3306,12 @@ lau:FI-025  rdf:type    ebg:LAURegion ;
 lau:FI-562  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Orivesi"@en ;
-        rdfs:label           "562 Orivesi" ;
+        rdfs:label           "FI-562 Orivesi" ;
         void:inDataset       lau: ;
         ramon:name           "Orivesi"@fi ;
         dbo:populationTotal  9408 ;
         dbo:areaTotal        960080000 ;
-        ramon:code           "562" ;
+        ramon:code           "FI-562" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -3324,12 +3324,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-563  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Oulainen"@en ;
-        rdfs:label           "563 Oulainen" ;
+        rdfs:label           "FI-563 Oulainen" ;
         void:inDataset       lau: ;
         ramon:name           "Oulainen"@fi ;
         dbo:populationTotal  7610 ;
         dbo:areaTotal        597530000 ;
-        ramon:code           "563" ;
+        ramon:code           "FI-563" ;
         spatial:PP           lau:FI-177 ;
         ramon:level          5 .
 
@@ -3342,12 +3342,12 @@ lau:FI-177  rdf:type    ebg:LAURegion ;
 lau:FI-564  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Uleåborg"@en ;
-        rdfs:label           "564 Uleåborg" ;
+        rdfs:label           "FI-564 Uleåborg" ;
         void:inDataset       lau: ;
         ramon:name           "Oulu"@fi ;
         dbo:populationTotal  198525 ;
         dbo:areaTotal        3880620000 ;
-        ramon:code           "564" ;
+        ramon:code           "FI-564" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -3360,12 +3360,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-576  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Padasjoki"@en ;
-        rdfs:label           "576 Padasjoki" ;
+        rdfs:label           "FI-576 Padasjoki" ;
         void:inDataset       lau: ;
         ramon:name           "Padasjoki"@fi ;
         dbo:populationTotal  3143 ;
         dbo:areaTotal        729860000 ;
-        ramon:code           "576" ;
+        ramon:code           "FI-576" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -3378,12 +3378,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-577  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pemar"@en ;
-        rdfs:label           "577 Pemar" ;
+        rdfs:label           "FI-577 Pemar" ;
         void:inDataset       lau: ;
         ramon:name           "Paimio"@fi ;
         dbo:populationTotal  10620 ;
         dbo:areaTotal        242260000 ;
-        ramon:code           "577" ;
+        ramon:code           "FI-577" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -3396,12 +3396,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-578  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Paltamo"@en ;
-        rdfs:label           "578 Paltamo" ;
+        rdfs:label           "FI-578 Paltamo" ;
         void:inDataset       lau: ;
         ramon:name           "Paltamo"@fi ;
         dbo:populationTotal  3488 ;
         dbo:areaTotal        1139120000 ;
-        ramon:code           "578" ;
+        ramon:code           "FI-578" ;
         spatial:PP           lau:FI-182 ;
         ramon:level          5 .
 
@@ -3414,12 +3414,12 @@ lau:FI-182  rdf:type    ebg:LAURegion ;
 lau:FI-580  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Parikkala"@en ;
-        rdfs:label           "580 Parikkala" ;
+        rdfs:label           "FI-580 Parikkala" ;
         void:inDataset       lau: ;
         ramon:name           "Parikkala"@fi ;
         dbo:populationTotal  5235 ;
         dbo:areaTotal        760720000 ;
-        ramon:code           "580" ;
+        ramon:code           "FI-580" ;
         spatial:PP           lau:FI-093 ;
         ramon:level          5 .
 
@@ -3432,12 +3432,12 @@ lau:FI-093  rdf:type    ebg:LAURegion ;
 lau:FI-581  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Parkano"@en ;
-        rdfs:label           "581 Parkano" ;
+        rdfs:label           "FI-581 Parkano" ;
         void:inDataset       lau: ;
         ramon:name           "Parkano"@fi ;
         dbo:populationTotal  6766 ;
         dbo:areaTotal        909670000 ;
-        ramon:code           "581" ;
+        ramon:code           "FI-581" ;
         spatial:PP           lau:FI-061 ;
         ramon:level          5 .
 
@@ -3450,12 +3450,12 @@ lau:FI-061  rdf:type    ebg:LAURegion ;
 lau:FI-583  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pelkosenniemi"@en ;
-        rdfs:label           "583 Pelkosenniemi" ;
+        rdfs:label           "FI-583 Pelkosenniemi" ;
         void:inDataset       lau: ;
         ramon:name           "Pelkosenniemi"@fi ;
         dbo:populationTotal  958 ;
         dbo:areaTotal        1881570000 ;
-        ramon:code           "583" ;
+        ramon:code           "FI-583" ;
         spatial:PP           lau:FI-194 ;
         ramon:level          5 .
 
@@ -3468,12 +3468,12 @@ lau:FI-194  rdf:type    ebg:LAURegion ;
 lau:FI-584  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Perho"@en ;
-        rdfs:label           "584 Perho" ;
+        rdfs:label           "FI-584 Perho" ;
         void:inDataset       lau: ;
         ramon:name           "Perho"@fi ;
         dbo:populationTotal  2931 ;
         dbo:areaTotal        775190000 ;
-        ramon:code           "584" ;
+        ramon:code           "FI-584" ;
         spatial:PP           lau:FI-161 ;
         ramon:level          5 .
 
@@ -3486,12 +3486,12 @@ lau:FI-161  rdf:type    ebg:LAURegion ;
 lau:FI-588  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pertunmaa"@en ;
-        rdfs:label           "588 Pertunmaa" ;
+        rdfs:label           "FI-588 Pertunmaa" ;
         void:inDataset       lau: ;
         ramon:name           "Pertunmaa"@fi ;
         dbo:populationTotal  1817 ;
         dbo:areaTotal        454190000 ;
-        ramon:code           "588" ;
+        ramon:code           "FI-588" ;
         spatial:PP           lau:FI-101 ;
         ramon:level          5 .
 
@@ -3504,12 +3504,12 @@ lau:FI-101  rdf:type    ebg:LAURegion ;
 lau:FI-592  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Petäjävesi"@en ;
-        rdfs:label           "592 Petäjävesi" ;
+        rdfs:label           "FI-592 Petäjävesi" ;
         void:inDataset       lau: ;
         ramon:name           "Petäjävesi"@fi ;
         dbo:populationTotal  4008 ;
         dbo:areaTotal        495420000 ;
-        ramon:code           "592" ;
+        ramon:code           "FI-592" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -3522,12 +3522,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-593  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pieksämäki"@en ;
-        rdfs:label           "593 Pieksämäki" ;
+        rdfs:label           "FI-593 Pieksämäki" ;
         void:inDataset       lau: ;
         ramon:name           "Pieksämäki"@fi ;
         dbo:populationTotal  18801 ;
         dbo:areaTotal        1836220000 ;
-        ramon:code           "593" ;
+        ramon:code           "FI-593" ;
         spatial:PP           lau:FI-105 ;
         ramon:level          5 .
 
@@ -3540,12 +3540,12 @@ lau:FI-105  rdf:type    ebg:LAURegion ;
 lau:FI-595  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pielavesi"@en ;
-        rdfs:label           "595 Pielavesi" ;
+        rdfs:label           "FI-595 Pielavesi" ;
         void:inDataset       lau: ;
         ramon:name           "Pielavesi"@fi ;
         dbo:populationTotal  4740 ;
         dbo:areaTotal        1406510000 ;
-        ramon:code           "595" ;
+        ramon:code           "FI-595" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -3558,12 +3558,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-598  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jakobstad"@en ;
-        rdfs:label           "598 Jakobstad" ;
+        rdfs:label           "FI-598 Jakobstad" ;
         void:inDataset       lau: ;
         ramon:name           "Pietarsaari"@fi ;
         dbo:populationTotal  19436 ;
         dbo:areaTotal        396350000 ;
-        ramon:code           "598" ;
+        ramon:code           "FI-598" ;
         spatial:PP           lau:FI-154 ;
         ramon:level          5 .
 
@@ -3576,12 +3576,12 @@ lau:FI-154  rdf:type    ebg:LAURegion ;
 lau:FI-599  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pedersöre"@en ;
-        rdfs:label           "599 Pedersöre" ;
+        rdfs:label           "FI-599 Pedersöre" ;
         void:inDataset       lau: ;
         ramon:name           "Pedersören kunta"@fi ;
         dbo:populationTotal  11129 ;
         dbo:areaTotal        826050000 ;
-        ramon:code           "599" ;
+        ramon:code           "FI-599" ;
         spatial:PP           lau:FI-154 ;
         ramon:level          5 .
 
@@ -3594,12 +3594,12 @@ lau:FI-154  rdf:type    ebg:LAURegion ;
 lau:FI-601  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pihtipudas"@en ;
-        rdfs:label           "601 Pihtipudas" ;
+        rdfs:label           "FI-601 Pihtipudas" ;
         void:inDataset       lau: ;
         ramon:name           "Pihtipudas"@fi ;
         dbo:populationTotal  4221 ;
         dbo:areaTotal        1247450000 ;
-        ramon:code           "601" ;
+        ramon:code           "FI-601" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -3612,12 +3612,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-604  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Birkala"@en ;
-        rdfs:label           "604 Birkala" ;
+        rdfs:label           "FI-604 Birkala" ;
         void:inDataset       lau: ;
         ramon:name           "Pirkkala"@fi ;
         dbo:populationTotal  18913 ;
         dbo:areaTotal        104040000 ;
-        ramon:code           "604" ;
+        ramon:code           "FI-604" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -3630,12 +3630,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-607  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Polvijärvi"@en ;
-        rdfs:label           "607 Polvijärvi" ;
+        rdfs:label           "FI-607 Polvijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Polvijärvi"@fi ;
         dbo:populationTotal  4556 ;
         dbo:areaTotal        958330000 ;
-        ramon:code           "607" ;
+        ramon:code           "FI-607" ;
         spatial:PP           lau:FI-122 ;
         ramon:level          5 .
 
@@ -3648,12 +3648,12 @@ lau:FI-122  rdf:type    ebg:LAURegion ;
 lau:FI-608  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Påmark"@en ;
-        rdfs:label           "608 Påmark" ;
+        rdfs:label           "FI-608 Påmark" ;
         void:inDataset       lau: ;
         ramon:name           "Pomarkku"@fi ;
         dbo:populationTotal  2240 ;
         dbo:areaTotal        332040000 ;
-        ramon:code           "608" ;
+        ramon:code           "FI-608" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -3666,12 +3666,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-609  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Björneborg"@en ;
-        rdfs:label           "609 Björneborg" ;
+        rdfs:label           "FI-609 Björneborg" ;
         void:inDataset       lau: ;
         ramon:name           "Pori"@fi ;
         dbo:populationTotal  85363 ;
         dbo:areaTotal        2061980000 ;
-        ramon:code           "609" ;
+        ramon:code           "FI-609" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -3684,12 +3684,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-611  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Borgnäs"@en ;
-        rdfs:label           "611 Borgnäs" ;
+        rdfs:label           "FI-611 Borgnäs" ;
         void:inDataset       lau: ;
         ramon:name           "Pornainen"@fi ;
         dbo:populationTotal  5125 ;
         dbo:areaTotal        150090000 ;
-        ramon:code           "611" ;
+        ramon:code           "FI-611" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -3702,12 +3702,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-614  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Posio"@en ;
-        rdfs:label           "614 Posio" ;
+        rdfs:label           "FI-614 Posio" ;
         void:inDataset       lau: ;
         ramon:name           "Posio"@fi ;
         dbo:populationTotal  3477 ;
         dbo:areaTotal        3544900000 ;
-        ramon:code           "614" ;
+        ramon:code           "FI-614" ;
         spatial:PP           lau:FI-194 ;
         ramon:level          5 .
 
@@ -3720,12 +3720,12 @@ lau:FI-194  rdf:type    ebg:LAURegion ;
 lau:FI-615  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pudasjärvi"@en ;
-        rdfs:label           "615 Pudasjärvi" ;
+        rdfs:label           "FI-615 Pudasjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Pudasjärvi"@fi ;
         dbo:populationTotal  8257 ;
         dbo:areaTotal        5867250000 ;
-        ramon:code           "615" ;
+        ramon:code           "FI-615" ;
         spatial:PP           lau:FI-173 ;
         ramon:level          5 .
 
@@ -3738,12 +3738,12 @@ lau:FI-173  rdf:type    ebg:LAURegion ;
 lau:FI-616  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pukkila"@en ;
-        rdfs:label           "616 Pukkila" ;
+        rdfs:label           "FI-616 Pukkila" ;
         void:inDataset       lau: ;
         ramon:name           "Pukkila"@fi ;
         dbo:populationTotal  1971 ;
         dbo:areaTotal        145940000 ;
-        ramon:code           "616" ;
+        ramon:code           "FI-616" ;
         spatial:PP           lau:FI-015 ;
         ramon:level          5 .
 
@@ -3756,12 +3756,12 @@ lau:FI-015  rdf:type    ebg:LAURegion ;
 lau:FI-619  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Punkalaidun"@en ;
-        rdfs:label           "619 Punkalaidun" ;
+        rdfs:label           "FI-619 Punkalaidun" ;
         void:inDataset       lau: ;
         ramon:name           "Punkalaidun"@fi ;
         dbo:populationTotal  3049 ;
         dbo:areaTotal        364020000 ;
-        ramon:code           "619" ;
+        ramon:code           "FI-619" ;
         spatial:PP           lau:FI-068 ;
         ramon:level          5 .
 
@@ -3774,12 +3774,12 @@ lau:FI-068  rdf:type    ebg:LAURegion ;
 lau:FI-620  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Puolanka"@en ;
-        rdfs:label           "620 Puolanka" ;
+        rdfs:label           "FI-620 Puolanka" ;
         void:inDataset       lau: ;
         ramon:name           "Puolanka"@fi ;
         dbo:populationTotal  2776 ;
         dbo:areaTotal        2598680000 ;
-        ramon:code           "620" ;
+        ramon:code           "FI-620" ;
         spatial:PP           lau:FI-181 ;
         ramon:level          5 .
 
@@ -3792,12 +3792,12 @@ lau:FI-181  rdf:type    ebg:LAURegion ;
 lau:FI-623  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Puumala"@en ;
-        rdfs:label           "623 Puumala" ;
+        rdfs:label           "FI-623 Puumala" ;
         void:inDataset       lau: ;
         ramon:name           "Puumala"@fi ;
         dbo:populationTotal  2260 ;
         dbo:areaTotal        1237750000 ;
-        ramon:code           "623" ;
+        ramon:code           "FI-623" ;
         spatial:PP           lau:FI-101 ;
         ramon:level          5 .
 
@@ -3810,12 +3810,12 @@ lau:FI-101  rdf:type    ebg:LAURegion ;
 lau:FI-624  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pyttis"@en ;
-        rdfs:label           "624 Pyttis" ;
+        rdfs:label           "FI-624 Pyttis" ;
         void:inDataset       lau: ;
         ramon:name           "Pyhtää"@fi ;
         dbo:populationTotal  5321 ;
         dbo:areaTotal        780960000 ;
-        ramon:code           "624" ;
+        ramon:code           "FI-624" ;
         spatial:PP           lau:FI-082 ;
         ramon:level          5 .
 
@@ -3828,12 +3828,12 @@ lau:FI-082  rdf:type    ebg:LAURegion ;
 lau:FI-625  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pyhäjoki"@en ;
-        rdfs:label           "625 Pyhäjoki" ;
+        rdfs:label           "FI-625 Pyhäjoki" ;
         void:inDataset       lau: ;
         ramon:name           "Pyhäjoki"@fi ;
         dbo:populationTotal  3211 ;
         dbo:areaTotal        1365090000 ;
-        ramon:code           "625" ;
+        ramon:code           "FI-625" ;
         spatial:PP           lau:FI-174 ;
         ramon:level          5 .
 
@@ -3846,12 +3846,12 @@ lau:FI-174  rdf:type    ebg:LAURegion ;
 lau:FI-626  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pyhäjärvi"@en ;
-        rdfs:label           "626 Pyhäjärvi" ;
+        rdfs:label           "FI-626 Pyhäjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Pyhäjärvi"@fi ;
         dbo:populationTotal  5505 ;
         dbo:areaTotal        1459470000 ;
-        ramon:code           "626" ;
+        ramon:code           "FI-626" ;
         spatial:PP           lau:FI-176 ;
         ramon:level          5 .
 
@@ -3864,12 +3864,12 @@ lau:FI-176  rdf:type    ebg:LAURegion ;
 lau:FI-630  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pyhäntä"@en ;
-        rdfs:label           "630 Pyhäntä" ;
+        rdfs:label           "FI-630 Pyhäntä" ;
         void:inDataset       lau: ;
         ramon:name           "Pyhäntä"@fi ;
         dbo:populationTotal  1587 ;
         dbo:areaTotal        847480000 ;
-        ramon:code           "630" ;
+        ramon:code           "FI-630" ;
         spatial:PP           lau:FI-175 ;
         ramon:level          5 .
 
@@ -3882,12 +3882,12 @@ lau:FI-175  rdf:type    ebg:LAURegion ;
 lau:FI-631  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pyhäranta"@en ;
-        rdfs:label           "631 Pyhäranta" ;
+        rdfs:label           "FI-631 Pyhäranta" ;
         void:inDataset       lau: ;
         ramon:name           "Pyhäranta"@fi ;
         dbo:populationTotal  2136 ;
         dbo:areaTotal        291740000 ;
-        ramon:code           "631" ;
+        ramon:code           "FI-631" ;
         spatial:PP           lau:FI-024 ;
         ramon:level          5 .
 
@@ -3900,12 +3900,12 @@ lau:FI-024  rdf:type    ebg:LAURegion ;
 lau:FI-635  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pälkäne"@en ;
-        rdfs:label           "635 Pälkäne" ;
+        rdfs:label           "FI-635 Pälkäne" ;
         void:inDataset       lau: ;
         ramon:name           "Pälkäne"@fi ;
         dbo:populationTotal  6676 ;
         dbo:areaTotal        738150000 ;
-        ramon:code           "635" ;
+        ramon:code           "FI-635" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -3918,12 +3918,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-636  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pöytyä"@en ;
-        rdfs:label           "636 Pöytyä" ;
+        rdfs:label           "FI-636 Pöytyä" ;
         void:inDataset       lau: ;
         ramon:name           "Pöytyä"@fi ;
         dbo:populationTotal  8562 ;
         dbo:areaTotal        773690000 ;
-        ramon:code           "636" ;
+        ramon:code           "FI-636" ;
         spatial:PP           lau:FI-025 ;
         ramon:level          5 .
 
@@ -3936,12 +3936,12 @@ lau:FI-025  rdf:type    ebg:LAURegion ;
 lau:FI-638  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Borgå"@en ;
-        rdfs:label           "638 Borgå" ;
+        rdfs:label           "FI-638 Borgå" ;
         void:inDataset       lau: ;
         ramon:name           "Porvoo"@fi ;
         dbo:populationTotal  49928 ;
         dbo:areaTotal        2139810000 ;
-        ramon:code           "638" ;
+        ramon:code           "FI-638" ;
         spatial:PP           lau:FI-015 ;
         ramon:level          5 .
 
@@ -3954,12 +3954,12 @@ lau:FI-015  rdf:type    ebg:LAURegion ;
 lau:FI-678  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Brahestad"@en ;
-        rdfs:label           "678 Brahestad" ;
+        rdfs:label           "FI-678 Brahestad" ;
         void:inDataset       lau: ;
         ramon:name           "Raahe"@fi ;
         dbo:populationTotal  25165 ;
         dbo:areaTotal        1888930000 ;
-        ramon:code           "678" ;
+        ramon:code           "FI-678" ;
         spatial:PP           lau:FI-174 ;
         ramon:level          5 .
 
@@ -3972,12 +3972,12 @@ lau:FI-174  rdf:type    ebg:LAURegion ;
 lau:FI-680  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Reso"@en ;
-        rdfs:label           "680 Reso" ;
+        rdfs:label           "FI-680 Reso" ;
         void:inDataset       lau: ;
         ramon:name           "Raisio"@fi ;
         dbo:populationTotal  24290 ;
         dbo:areaTotal        50060000 ;
-        ramon:code           "680" ;
+        ramon:code           "FI-680" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -3990,12 +3990,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-681  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rantasalmi"@en ;
-        rdfs:label           "681 Rantasalmi" ;
+        rdfs:label           "FI-681 Rantasalmi" ;
         void:inDataset       lau: ;
         ramon:name           "Rantasalmi"@fi ;
         dbo:populationTotal  3733 ;
         dbo:areaTotal        925190000 ;
-        ramon:code           "681" ;
+        ramon:code           "FI-681" ;
         spatial:PP           lau:FI-103 ;
         ramon:level          5 .
 
@@ -4008,12 +4008,12 @@ lau:FI-103  rdf:type    ebg:LAURegion ;
 lau:FI-683  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ranua"@en ;
-        rdfs:label           "683 Ranua" ;
+        rdfs:label           "FI-683 Ranua" ;
         void:inDataset       lau: ;
         ramon:name           "Ranua"@fi ;
         dbo:populationTotal  4020 ;
         dbo:areaTotal        3694800000 ;
-        ramon:code           "683" ;
+        ramon:code           "FI-683" ;
         spatial:PP           lau:FI-191 ;
         ramon:level          5 .
 
@@ -4026,12 +4026,12 @@ lau:FI-191  rdf:type    ebg:LAURegion ;
 lau:FI-684  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Raumo"@en ;
-        rdfs:label           "684 Raumo" ;
+        rdfs:label           "FI-684 Raumo" ;
         void:inDataset       lau: ;
         ramon:name           "Rauma"@fi ;
         dbo:populationTotal  39809 ;
         dbo:areaTotal        1110130000 ;
-        ramon:code           "684" ;
+        ramon:code           "FI-684" ;
         spatial:PP           lau:FI-041 ;
         ramon:level          5 .
 
@@ -4044,12 +4044,12 @@ lau:FI-041  rdf:type    ebg:LAURegion ;
 lau:FI-686  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rautalampi"@en ;
-        rdfs:label           "686 Rautalampi" ;
+        rdfs:label           "FI-686 Rautalampi" ;
         void:inDataset       lau: ;
         ramon:name           "Rautalampi"@fi ;
         dbo:populationTotal  3303 ;
         dbo:areaTotal        761980000 ;
-        ramon:code           "686" ;
+        ramon:code           "FI-686" ;
         spatial:PP           lau:FI-115 ;
         ramon:level          5 .
 
@@ -4062,12 +4062,12 @@ lau:FI-115  rdf:type    ebg:LAURegion ;
 lau:FI-687  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rautavaara"@en ;
-        rdfs:label           "687 Rautavaara" ;
+        rdfs:label           "FI-687 Rautavaara" ;
         void:inDataset       lau: ;
         ramon:name           "Rautavaara"@fi ;
         dbo:populationTotal  1737 ;
         dbo:areaTotal        1235260000 ;
-        ramon:code           "687" ;
+        ramon:code           "FI-687" ;
         spatial:PP           lau:FI-113 ;
         ramon:level          5 .
 
@@ -4080,12 +4080,12 @@ lau:FI-113  rdf:type    ebg:LAURegion ;
 lau:FI-689  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rautjärvi"@en ;
-        rdfs:label           "689 Rautjärvi" ;
+        rdfs:label           "FI-689 Rautjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Rautjärvi"@fi ;
         dbo:populationTotal  3537 ;
         dbo:areaTotal        401890000 ;
-        ramon:code           "689" ;
+        ramon:code           "FI-689" ;
         spatial:PP           lau:FI-093 ;
         ramon:level          5 .
 
@@ -4098,12 +4098,12 @@ lau:FI-093  rdf:type    ebg:LAURegion ;
 lau:FI-691  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Reisjärvi"@en ;
-        rdfs:label           "691 Reisjärvi" ;
+        rdfs:label           "FI-691 Reisjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Reisjärvi"@fi ;
         dbo:populationTotal  2894 ;
         dbo:areaTotal        503180000 ;
-        ramon:code           "691" ;
+        ramon:code           "FI-691" ;
         spatial:PP           lau:FI-176 ;
         ramon:level          5 .
 
@@ -4116,12 +4116,12 @@ lau:FI-176  rdf:type    ebg:LAURegion ;
 lau:FI-694  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Riihimäki"@en ;
-        rdfs:label           "694 Riihimäki" ;
+        rdfs:label           "FI-694 Riihimäki" ;
         void:inDataset       lau: ;
         ramon:name           "Riihimäki"@fi ;
         dbo:populationTotal  29269 ;
         dbo:areaTotal        125560000 ;
-        ramon:code           "694" ;
+        ramon:code           "FI-694" ;
         spatial:PP           lau:FI-052 ;
         ramon:level          5 .
 
@@ -4134,12 +4134,12 @@ lau:FI-052  rdf:type    ebg:LAURegion ;
 lau:FI-697  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ristijärvi"@en ;
-        rdfs:label           "697 Ristijärvi" ;
+        rdfs:label           "FI-697 Ristijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Ristijärvi"@fi ;
         dbo:populationTotal  1351 ;
         dbo:areaTotal        897930000 ;
-        ramon:code           "697" ;
+        ramon:code           "FI-697" ;
         spatial:PP           lau:FI-182 ;
         ramon:level          5 .
 
@@ -4152,12 +4152,12 @@ lau:FI-182  rdf:type    ebg:LAURegion ;
 lau:FI-698  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rovaniemi"@en ;
-        rdfs:label           "698 Rovaniemi" ;
+        rdfs:label           "FI-698 Rovaniemi" ;
         void:inDataset       lau: ;
         ramon:name           "Rovaniemi"@fi ;
         dbo:populationTotal  61838 ;
         dbo:areaTotal        8016730000 ;
-        ramon:code           "698" ;
+        ramon:code           "FI-698" ;
         spatial:PP           lau:FI-191 ;
         ramon:level          5 .
 
@@ -4170,12 +4170,12 @@ lau:FI-191  rdf:type    ebg:LAURegion ;
 lau:FI-700  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ruokolahti"@en ;
-        rdfs:label           "700 Ruokolahti" ;
+        rdfs:label           "FI-700 Ruokolahti" ;
         void:inDataset       lau: ;
         ramon:name           "Ruokolahti"@fi ;
         dbo:populationTotal  5312 ;
         dbo:areaTotal        1219850000 ;
-        ramon:code           "700" ;
+        ramon:code           "FI-700" ;
         spatial:PP           lau:FI-093 ;
         ramon:level          5 .
 
@@ -4188,12 +4188,12 @@ lau:FI-093  rdf:type    ebg:LAURegion ;
 lau:FI-702  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ruovesi"@en ;
-        rdfs:label           "702 Ruovesi" ;
+        rdfs:label           "FI-702 Ruovesi" ;
         void:inDataset       lau: ;
         ramon:name           "Ruovesi"@fi ;
         dbo:populationTotal  4623 ;
         dbo:areaTotal        950150000 ;
-        ramon:code           "702" ;
+        ramon:code           "FI-702" ;
         spatial:PP           lau:FI-069 ;
         ramon:level          5 .
 
@@ -4206,12 +4206,12 @@ lau:FI-069  rdf:type    ebg:LAURegion ;
 lau:FI-704  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rusko"@en ;
-        rdfs:label           "704 Rusko" ;
+        rdfs:label           "FI-704 Rusko" ;
         void:inDataset       lau: ;
         ramon:name           "Rusko"@fi ;
         dbo:populationTotal  6110 ;
         dbo:areaTotal        127900000 ;
-        ramon:code           "704" ;
+        ramon:code           "FI-704" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -4224,12 +4224,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-707  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rääkkylä"@en ;
-        rdfs:label           "707 Rääkkylä" ;
+        rdfs:label           "FI-707 Rääkkylä" ;
         void:inDataset       lau: ;
         ramon:name           "Rääkkylä"@fi ;
         dbo:populationTotal  2349 ;
         dbo:areaTotal        699680000 ;
-        ramon:code           "707" ;
+        ramon:code           "FI-707" ;
         spatial:PP           lau:FI-124 ;
         ramon:level          5 .
 
@@ -4242,12 +4242,12 @@ lau:FI-124  rdf:type    ebg:LAURegion ;
 lau:FI-710  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Raseborg"@en ;
-        rdfs:label           "710 Raseborg" ;
+        rdfs:label           "FI-710 Raseborg" ;
         void:inDataset       lau: ;
         ramon:name           "Raasepori"@fi ;
         dbo:populationTotal  28405 ;
         dbo:areaTotal        2354260000 ;
-        ramon:code           "710" ;
+        ramon:code           "FI-710" ;
         spatial:PP           lau:FI-014 ;
         ramon:level          5 .
 
@@ -4260,12 +4260,12 @@ lau:FI-014  rdf:type    ebg:LAURegion ;
 lau:FI-729  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Saarijärvi"@en ;
-        rdfs:label           "729 Saarijärvi" ;
+        rdfs:label           "FI-729 Saarijärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Saarijärvi"@fi ;
         dbo:populationTotal  9915 ;
         dbo:areaTotal        1422720000 ;
-        ramon:code           "729" ;
+        ramon:code           "FI-729" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -4278,12 +4278,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-732  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Salla"@en ;
-        rdfs:label           "732 Salla" ;
+        rdfs:label           "FI-732 Salla" ;
         void:inDataset       lau: ;
         ramon:name           "Salla"@fi ;
         dbo:populationTotal  3727 ;
         dbo:areaTotal        5873080000 ;
-        ramon:code           "732" ;
+        ramon:code           "FI-732" ;
         spatial:PP           lau:FI-194 ;
         ramon:level          5 .
 
@@ -4296,12 +4296,12 @@ lau:FI-194  rdf:type    ebg:LAURegion ;
 lau:FI-734  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Salo"@en ;
-        rdfs:label           "734 Salo" ;
+        rdfs:label           "FI-734 Salo" ;
         void:inDataset       lau: ;
         ramon:name           "Salo"@fi ;
         dbo:populationTotal  53890 ;
         dbo:areaTotal        2168310000 ;
-        ramon:code           "734" ;
+        ramon:code           "FI-734" ;
         spatial:PP           lau:FI-022 ;
         ramon:level          5 .
 
@@ -4314,12 +4314,12 @@ lau:FI-022  rdf:type    ebg:LAURegion ;
 lau:FI-736  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Saltvik"@en ;
-        rdfs:label           "736 Saltvik" ;
+        rdfs:label           "FI-736 Saltvik" ;
         void:inDataset       lau: ;
         ramon:name           "Saltvik"@fi ;
         dbo:populationTotal  1829 ;
         dbo:areaTotal        1166540000 ;
-        ramon:code           "736" ;
+        ramon:code           "FI-736" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -4332,12 +4332,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-738  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sagu"@en ;
-        rdfs:label           "738 Sagu" ;
+        rdfs:label           "FI-738 Sagu" ;
         void:inDataset       lau: ;
         ramon:name           "Sauvo"@fi ;
         dbo:populationTotal  3019 ;
         dbo:areaTotal        299490000 ;
-        ramon:code           "738" ;
+        ramon:code           "FI-738" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -4350,12 +4350,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-739  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Savitaipale"@en ;
-        rdfs:label           "739 Savitaipale" ;
+        rdfs:label           "FI-739 Savitaipale" ;
         void:inDataset       lau: ;
         ramon:name           "Savitaipale"@fi ;
         dbo:populationTotal  3613 ;
         dbo:areaTotal        690560000 ;
-        ramon:code           "739" ;
+        ramon:code           "FI-739" ;
         spatial:PP           lau:FI-091 ;
         ramon:level          5 .
 
@@ -4368,12 +4368,12 @@ lau:FI-091  rdf:type    ebg:LAURegion ;
 lau:FI-740  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nyslott"@en ;
-        rdfs:label           "740 Nyslott" ;
+        rdfs:label           "FI-740 Nyslott" ;
         void:inDataset       lau: ;
         ramon:name           "Savonlinna"@fi ;
         dbo:populationTotal  35523 ;
         dbo:areaTotal        3597710000 ;
-        ramon:code           "740" ;
+        ramon:code           "FI-740" ;
         spatial:PP           lau:FI-103 ;
         ramon:level          5 .
 
@@ -4386,12 +4386,12 @@ lau:FI-103  rdf:type    ebg:LAURegion ;
 lau:FI-742  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Savukoski"@en ;
-        rdfs:label           "742 Savukoski" ;
+        rdfs:label           "FI-742 Savukoski" ;
         void:inDataset       lau: ;
         ramon:name           "Savukoski"@fi ;
         dbo:populationTotal  1061 ;
         dbo:areaTotal        6495950000 ;
-        ramon:code           "742" ;
+        ramon:code           "FI-742" ;
         spatial:PP           lau:FI-194 ;
         ramon:level          5 .
 
@@ -4404,12 +4404,12 @@ lau:FI-194  rdf:type    ebg:LAURegion ;
 lau:FI-743  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Seinäjoki"@en ;
-        rdfs:label           "743 Seinäjoki" ;
+        rdfs:label           "FI-743 Seinäjoki" ;
         void:inDataset       lau: ;
         ramon:name           "Seinäjoki"@fi ;
         dbo:populationTotal  61530 ;
         dbo:areaTotal        1469250000 ;
-        ramon:code           "743" ;
+        ramon:code           "FI-743" ;
         spatial:PP           lau:FI-142 ;
         ramon:level          5 .
 
@@ -4422,12 +4422,12 @@ lau:FI-142  rdf:type    ebg:LAURegion ;
 lau:FI-746  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sievi"@en ;
-        rdfs:label           "746 Sievi" ;
+        rdfs:label           "FI-746 Sievi" ;
         void:inDataset       lau: ;
         ramon:name           "Sievi"@fi ;
         dbo:populationTotal  5124 ;
         dbo:areaTotal        800790000 ;
-        ramon:code           "746" ;
+        ramon:code           "FI-746" ;
         spatial:PP           lau:FI-177 ;
         ramon:level          5 .
 
@@ -4440,12 +4440,12 @@ lau:FI-177  rdf:type    ebg:LAURegion ;
 lau:FI-747  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Siikainen"@en ;
-        rdfs:label           "747 Siikainen" ;
+        rdfs:label           "FI-747 Siikainen" ;
         void:inDataset       lau: ;
         ramon:name           "Siikainen"@fi ;
         dbo:populationTotal  1527 ;
         dbo:areaTotal        491340000 ;
-        ramon:code           "747" ;
+        ramon:code           "FI-747" ;
         spatial:PP           lau:FI-044 ;
         ramon:level          5 .
 
@@ -4458,12 +4458,12 @@ lau:FI-044  rdf:type    ebg:LAURegion ;
 lau:FI-748  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Siikajoki"@en ;
-        rdfs:label           "748 Siikajoki" ;
+        rdfs:label           "FI-748 Siikajoki" ;
         void:inDataset       lau: ;
         ramon:name           "Siikajoki"@fi ;
         dbo:populationTotal  5466 ;
         dbo:areaTotal        1653960000 ;
-        ramon:code           "748" ;
+        ramon:code           "FI-748" ;
         spatial:PP           lau:FI-174 ;
         ramon:level          5 .
 
@@ -4476,12 +4476,12 @@ lau:FI-174  rdf:type    ebg:LAURegion ;
 lau:FI-749  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Siilinjärvi"@en ;
-        rdfs:label           "749 Siilinjärvi" ;
+        rdfs:label           "FI-749 Siilinjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Siilinjärvi"@fi ;
         dbo:populationTotal  21794 ;
         dbo:areaTotal        507810000 ;
-        ramon:code           "749" ;
+        ramon:code           "FI-749" ;
         spatial:PP           lau:FI-112 ;
         ramon:level          5 .
 
@@ -4494,12 +4494,12 @@ lau:FI-112  rdf:type    ebg:LAURegion ;
 lau:FI-751  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Simo"@en ;
-        rdfs:label           "751 Simo" ;
+        rdfs:label           "FI-751 Simo" ;
         void:inDataset       lau: ;
         ramon:name           "Simo"@fi ;
         dbo:populationTotal  3238 ;
         dbo:areaTotal        2086310000 ;
-        ramon:code           "751" ;
+        ramon:code           "FI-751" ;
         spatial:PP           lau:FI-192 ;
         ramon:level          5 .
 
@@ -4512,12 +4512,12 @@ lau:FI-192  rdf:type    ebg:LAURegion ;
 lau:FI-753  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sibbo"@en ;
-        rdfs:label           "753 Sibbo" ;
+        rdfs:label           "FI-753 Sibbo" ;
         void:inDataset       lau: ;
         ramon:name           "Sipoo"@fi ;
         dbo:populationTotal  19399 ;
         dbo:areaTotal        698600000 ;
-        ramon:code           "753" ;
+        ramon:code           "FI-753" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -4530,12 +4530,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-755  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sjundeå"@en ;
-        rdfs:label           "755 Sjundeå" ;
+        rdfs:label           "FI-755 Sjundeå" ;
         void:inDataset       lau: ;
         ramon:name           "Siuntio"@fi ;
         dbo:populationTotal  6182 ;
         dbo:areaTotal        266110000 ;
-        ramon:code           "755" ;
+        ramon:code           "FI-755" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -4548,12 +4548,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-758  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sodankylä"@en ;
-        rdfs:label           "758 Sodankylä" ;
+        rdfs:label           "FI-758 Sodankylä" ;
         void:inDataset       lau: ;
         ramon:name           "Sodankylä"@fi ;
         dbo:populationTotal  8782 ;
         dbo:areaTotal        12415500000 ;
-        ramon:code           "758" ;
+        ramon:code           "FI-758" ;
         spatial:PP           lau:FI-197 ;
         ramon:level          5 .
 
@@ -4566,12 +4566,12 @@ lau:FI-197  rdf:type    ebg:LAURegion ;
 lau:FI-759  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Soini"@en ;
-        rdfs:label           "759 Soini" ;
+        rdfs:label           "FI-759 Soini" ;
         void:inDataset       lau: ;
         ramon:name           "Soini"@fi ;
         dbo:populationTotal  2224 ;
         dbo:areaTotal        574220000 ;
-        ramon:code           "759" ;
+        ramon:code           "FI-759" ;
         spatial:PP           lau:FI-146 ;
         ramon:level          5 .
 
@@ -4584,12 +4584,12 @@ lau:FI-146  rdf:type    ebg:LAURegion ;
 lau:FI-761  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Somero"@en ;
-        rdfs:label           "761 Somero" ;
+        rdfs:label           "FI-761 Somero" ;
         void:inDataset       lau: ;
         ramon:name           "Somero"@fi ;
         dbo:populationTotal  9093 ;
         dbo:areaTotal        697680000 ;
-        ramon:code           "761" ;
+        ramon:code           "FI-761" ;
         spatial:PP           lau:FI-022 ;
         ramon:level          5 .
 
@@ -4602,12 +4602,12 @@ lau:FI-022  rdf:type    ebg:LAURegion ;
 lau:FI-762  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sonkajärvi"@en ;
-        rdfs:label           "762 Sonkajärvi" ;
+        rdfs:label           "FI-762 Sonkajärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Sonkajärvi"@fi ;
         dbo:populationTotal  4278 ;
         dbo:areaTotal        1576750000 ;
-        ramon:code           "762" ;
+        ramon:code           "FI-762" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -4620,12 +4620,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-765  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sotkamo"@en ;
-        rdfs:label           "765 Sotkamo" ;
+        rdfs:label           "FI-765 Sotkamo" ;
         void:inDataset       lau: ;
         ramon:name           "Sotkamo"@fi ;
         dbo:populationTotal  10523 ;
         dbo:areaTotal        2951870000 ;
-        ramon:code           "765" ;
+        ramon:code           "FI-765" ;
         spatial:PP           lau:FI-182 ;
         ramon:level          5 .
 
@@ -4638,12 +4638,12 @@ lau:FI-182  rdf:type    ebg:LAURegion ;
 lau:FI-766  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sottunga"@en ;
-        rdfs:label           "766 Sottunga" ;
+        rdfs:label           "FI-766 Sottunga" ;
         void:inDataset       lau: ;
         ramon:name           "Sottunga"@fi ;
         dbo:populationTotal  99 ;
         dbo:areaTotal        342440000 ;
-        ramon:code           "766" ;
+        ramon:code           "FI-766" ;
         spatial:PP           lau:FI-213 ;
         ramon:level          5 .
 
@@ -4656,12 +4656,12 @@ lau:FI-213  rdf:type    ebg:LAURegion ;
 lau:FI-768  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sulkava"@en ;
-        rdfs:label           "768 Sulkava" ;
+        rdfs:label           "FI-768 Sulkava" ;
         void:inDataset       lau: ;
         ramon:name           "Sulkava"@fi ;
         dbo:populationTotal  2724 ;
         dbo:areaTotal        769200000 ;
-        ramon:code           "768" ;
+        ramon:code           "FI-768" ;
         spatial:PP           lau:FI-103 ;
         ramon:level          5 .
 
@@ -4674,12 +4674,12 @@ lau:FI-103  rdf:type    ebg:LAURegion ;
 lau:FI-771  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sund"@en ;
-        rdfs:label           "771 Sund" ;
+        rdfs:label           "FI-771 Sund" ;
         void:inDataset       lau: ;
         ramon:name           "Sund"@fi ;
         dbo:populationTotal  1031 ;
         dbo:areaTotal        184310000 ;
-        ramon:code           "771" ;
+        ramon:code           "FI-771" ;
         spatial:PP           lau:FI-212 ;
         ramon:level          5 .
 
@@ -4692,12 +4692,12 @@ lau:FI-212  rdf:type    ebg:LAURegion ;
 lau:FI-777  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Suomussalmi"@en ;
-        rdfs:label           "777 Suomussalmi" ;
+        rdfs:label           "FI-777 Suomussalmi" ;
         void:inDataset       lau: ;
         ramon:name           "Suomussalmi"@fi ;
         dbo:populationTotal  8336 ;
         dbo:areaTotal        5857620000 ;
-        ramon:code           "777" ;
+        ramon:code           "FI-777" ;
         spatial:PP           lau:FI-181 ;
         ramon:level          5 .
 
@@ -4710,12 +4710,12 @@ lau:FI-181  rdf:type    ebg:LAURegion ;
 lau:FI-778  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Suonenjoki"@en ;
-        rdfs:label           "778 Suonenjoki" ;
+        rdfs:label           "FI-778 Suonenjoki" ;
         void:inDataset       lau: ;
         ramon:name           "Suonenjoki"@fi ;
         dbo:populationTotal  7390 ;
         dbo:areaTotal        862340000 ;
-        ramon:code           "778" ;
+        ramon:code           "FI-778" ;
         spatial:PP           lau:FI-115 ;
         ramon:level          5 .
 
@@ -4728,12 +4728,12 @@ lau:FI-115  rdf:type    ebg:LAURegion ;
 lau:FI-781  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sysmä"@en ;
-        rdfs:label           "781 Sysmä" ;
+        rdfs:label           "FI-781 Sysmä" ;
         void:inDataset       lau: ;
         ramon:name           "Sysmä"@fi ;
         dbo:populationTotal  4040 ;
         dbo:areaTotal        936180000 ;
-        ramon:code           "781" ;
+        ramon:code           "FI-781" ;
         spatial:PP           lau:FI-071 ;
         ramon:level          5 .
 
@@ -4746,12 +4746,12 @@ lau:FI-071  rdf:type    ebg:LAURegion ;
 lau:FI-783  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Säkylä"@en ;
-        rdfs:label           "783 Säkylä" ;
+        rdfs:label           "FI-783 Säkylä" ;
         void:inDataset       lau: ;
         ramon:name           "Säkylä"@fi ;
         dbo:populationTotal  7070 ;
         dbo:areaTotal        527710000 ;
-        ramon:code           "783" ;
+        ramon:code           "FI-783" ;
         spatial:PP           lau:FI-041 ;
         ramon:level          5 .
 
@@ -4764,12 +4764,12 @@ lau:FI-041  rdf:type    ebg:LAURegion ;
 lau:FI-785  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vaala"@en ;
-        rdfs:label           "785 Vaala" ;
+        rdfs:label           "FI-785 Vaala" ;
         void:inDataset       lau: ;
         ramon:name           "Vaala"@fi ;
         dbo:populationTotal  3074 ;
         dbo:areaTotal        1764030000 ;
-        ramon:code           "785" ;
+        ramon:code           "FI-785" ;
         spatial:PP           lau:FI-173 ;
         ramon:level          5 .
 
@@ -4782,12 +4782,12 @@ lau:FI-173  rdf:type    ebg:LAURegion ;
 lau:FI-790  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sastamala"@en ;
-        rdfs:label           "790 Sastamala" ;
+        rdfs:label           "FI-790 Sastamala" ;
         void:inDataset       lau: ;
         ramon:name           "Sastamala"@fi ;
         dbo:populationTotal  25220 ;
         dbo:areaTotal        1531740000 ;
-        ramon:code           "790" ;
+        ramon:code           "FI-790" ;
         spatial:PP           lau:FI-068 ;
         ramon:level          5 .
 
@@ -4800,12 +4800,12 @@ lau:FI-068  rdf:type    ebg:LAURegion ;
 lau:FI-791  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Siikalatva"@en ;
-        rdfs:label           "791 Siikalatva" ;
+        rdfs:label           "FI-791 Siikalatva" ;
         void:inDataset       lau: ;
         ramon:name           "Siikalatva"@fi ;
         dbo:populationTotal  5677 ;
         dbo:areaTotal        2229210000 ;
-        ramon:code           "791" ;
+        ramon:code           "FI-791" ;
         spatial:PP           lau:FI-175 ;
         ramon:level          5 .
 
@@ -4818,12 +4818,12 @@ lau:FI-175  rdf:type    ebg:LAURegion ;
 lau:FI-831  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Taipalsaari"@en ;
-        rdfs:label           "831 Taipalsaari" ;
+        rdfs:label           "FI-831 Taipalsaari" ;
         void:inDataset       lau: ;
         ramon:name           "Taipalsaari"@fi ;
         dbo:populationTotal  4815 ;
         dbo:areaTotal        761940000 ;
-        ramon:code           "831" ;
+        ramon:code           "FI-831" ;
         spatial:PP           lau:FI-091 ;
         ramon:level          5 .
 
@@ -4836,12 +4836,12 @@ lau:FI-091  rdf:type    ebg:LAURegion ;
 lau:FI-832  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Taivalkoski"@en ;
-        rdfs:label           "832 Taivalkoski" ;
+        rdfs:label           "FI-832 Taivalkoski" ;
         void:inDataset       lau: ;
         ramon:name           "Taivalkoski"@fi ;
         dbo:populationTotal  4199 ;
         dbo:areaTotal        2650660000 ;
-        ramon:code           "832" ;
+        ramon:code           "FI-832" ;
         spatial:PP           lau:FI-178 ;
         ramon:level          5 .
 
@@ -4854,12 +4854,12 @@ lau:FI-178  rdf:type    ebg:LAURegion ;
 lau:FI-833  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tövsala"@en ;
-        rdfs:label           "833 Tövsala" ;
+        rdfs:label           "FI-833 Tövsala" ;
         void:inDataset       lau: ;
         ramon:name           "Taivassalo"@fi ;
         dbo:populationTotal  1633 ;
         dbo:areaTotal        217730000 ;
-        ramon:code           "833" ;
+        ramon:code           "FI-833" ;
         spatial:PP           lau:FI-024 ;
         ramon:level          5 .
 
@@ -4872,12 +4872,12 @@ lau:FI-024  rdf:type    ebg:LAURegion ;
 lau:FI-834  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tammela"@en ;
-        rdfs:label           "834 Tammela" ;
+        rdfs:label           "FI-834 Tammela" ;
         void:inDataset       lau: ;
         ramon:name           "Tammela"@fi ;
         dbo:populationTotal  6280 ;
         dbo:areaTotal        715140000 ;
-        ramon:code           "834" ;
+        ramon:code           "FI-834" ;
         spatial:PP           lau:FI-053 ;
         ramon:level          5 .
 
@@ -4890,12 +4890,12 @@ lau:FI-053  rdf:type    ebg:LAURegion ;
 lau:FI-837  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tammerfors"@en ;
-        rdfs:label           "837 Tammerfors" ;
+        rdfs:label           "FI-837 Tammerfors" ;
         void:inDataset       lau: ;
         ramon:name           "Tampere"@fi ;
         dbo:populationTotal  225118 ;
         dbo:areaTotal        689590000 ;
-        ramon:code           "837" ;
+        ramon:code           "FI-837" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -4908,12 +4908,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-844  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tervo"@en ;
-        rdfs:label           "844 Tervo" ;
+        rdfs:label           "FI-844 Tervo" ;
         void:inDataset       lau: ;
         ramon:name           "Tervo"@fi ;
         dbo:populationTotal  1608 ;
         dbo:areaTotal        494300000 ;
-        ramon:code           "844" ;
+        ramon:code           "FI-844" ;
         spatial:PP           lau:FI-115 ;
         ramon:level          5 .
 
@@ -4926,12 +4926,12 @@ lau:FI-115  rdf:type    ebg:LAURegion ;
 lau:FI-845  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tervola"@en ;
-        rdfs:label           "845 Tervola" ;
+        rdfs:label           "FI-845 Tervola" ;
         void:inDataset       lau: ;
         ramon:name           "Tervola"@fi ;
         dbo:populationTotal  3195 ;
         dbo:areaTotal        1592030000 ;
-        ramon:code           "845" ;
+        ramon:code           "FI-845" ;
         spatial:PP           lau:FI-192 ;
         ramon:level          5 .
 
@@ -4944,12 +4944,12 @@ lau:FI-192  rdf:type    ebg:LAURegion ;
 lau:FI-846  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Östermark"@en ;
-        rdfs:label           "846 Östermark" ;
+        rdfs:label           "FI-846 Östermark" ;
         void:inDataset       lau: ;
         ramon:name           "Teuva"@fi ;
         dbo:populationTotal  5482 ;
         dbo:areaTotal        556050000 ;
-        ramon:code           "846" ;
+        ramon:code           "FI-846" ;
         spatial:PP           lau:FI-141 ;
         ramon:level          5 .
 
@@ -4962,12 +4962,12 @@ lau:FI-141  rdf:type    ebg:LAURegion ;
 lau:FI-848  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tohmajärvi"@en ;
-        rdfs:label           "848 Tohmajärvi" ;
+        rdfs:label           "FI-848 Tohmajärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Tohmajärvi"@fi ;
         dbo:populationTotal  4738 ;
         dbo:areaTotal        895360000 ;
-        ramon:code           "848" ;
+        ramon:code           "FI-848" ;
         spatial:PP           lau:FI-124 ;
         ramon:level          5 .
 
@@ -4980,12 +4980,12 @@ lau:FI-124  rdf:type    ebg:LAURegion ;
 lau:FI-849  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Toholampi"@en ;
-        rdfs:label           "849 Toholampi" ;
+        rdfs:label           "FI-849 Toholampi" ;
         void:inDataset       lau: ;
         ramon:name           "Toholampi"@fi ;
         dbo:populationTotal  3311 ;
         dbo:areaTotal        616880000 ;
-        ramon:code           "849" ;
+        ramon:code           "FI-849" ;
         spatial:PP           lau:FI-161 ;
         ramon:level          5 .
 
@@ -4998,12 +4998,12 @@ lau:FI-161  rdf:type    ebg:LAURegion ;
 lau:FI-850  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Toivakka"@en ;
-        rdfs:label           "850 Toivakka" ;
+        rdfs:label           "FI-850 Toivakka" ;
         void:inDataset       lau: ;
         ramon:name           "Toivakka"@fi ;
         dbo:populationTotal  2431 ;
         dbo:areaTotal        413940000 ;
-        ramon:code           "850" ;
+        ramon:code           "FI-850" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -5016,12 +5016,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-851  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Torneå"@en ;
-        rdfs:label           "851 Torneå" ;
+        rdfs:label           "FI-851 Torneå" ;
         void:inDataset       lau: ;
         ramon:name           "Tornio"@fi ;
         dbo:populationTotal  22199 ;
         dbo:areaTotal        1348830000 ;
-        ramon:code           "851" ;
+        ramon:code           "FI-851" ;
         spatial:PP           lau:FI-192 ;
         ramon:level          5 .
 
@@ -5034,12 +5034,12 @@ lau:FI-192  rdf:type    ebg:LAURegion ;
 lau:FI-853  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Åbo"@en ;
-        rdfs:label           "853 Åbo" ;
+        rdfs:label           "FI-853 Åbo" ;
         void:inDataset       lau: ;
         ramon:name           "Turku"@fi ;
         dbo:populationTotal  185908 ;
         dbo:areaTotal        306360000 ;
-        ramon:code           "853" ;
+        ramon:code           "FI-853" ;
         spatial:PP           lau:FI-023 ;
         ramon:level          5 .
 
@@ -5052,12 +5052,12 @@ lau:FI-023  rdf:type    ebg:LAURegion ;
 lau:FI-854  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pello"@en ;
-        rdfs:label           "854 Pello" ;
+        rdfs:label           "FI-854 Pello" ;
         void:inDataset       lau: ;
         ramon:name           "Pello"@fi ;
         dbo:populationTotal  3623 ;
         dbo:areaTotal        1863720000 ;
-        ramon:code           "854" ;
+        ramon:code           "FI-854" ;
         spatial:PP           lau:FI-193 ;
         ramon:level          5 .
 
@@ -5070,12 +5070,12 @@ lau:FI-193  rdf:type    ebg:LAURegion ;
 lau:FI-857  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tuusniemi"@en ;
-        rdfs:label           "857 Tuusniemi" ;
+        rdfs:label           "FI-857 Tuusniemi" ;
         void:inDataset       lau: ;
         ramon:name           "Tuusniemi"@fi ;
         dbo:populationTotal  2719 ;
         dbo:areaTotal        699430000 ;
-        ramon:code           "857" ;
+        ramon:code           "FI-857" ;
         spatial:PP           lau:FI-113 ;
         ramon:level          5 .
 
@@ -5088,12 +5088,12 @@ lau:FI-113  rdf:type    ebg:LAURegion ;
 lau:FI-858  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tusby"@en ;
-        rdfs:label           "858 Tusby" ;
+        rdfs:label           "FI-858 Tusby" ;
         void:inDataset       lau: ;
         ramon:name           "Tuusula"@fi ;
         dbo:populationTotal  38459 ;
         dbo:areaTotal        225460000 ;
-        ramon:code           "858" ;
+        ramon:code           "FI-858" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -5106,12 +5106,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-859  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tyrnävä"@en ;
-        rdfs:label           "859 Tyrnävä" ;
+        rdfs:label           "FI-859 Tyrnävä" ;
         void:inDataset       lau: ;
         ramon:name           "Tyrnävä"@fi ;
         dbo:populationTotal  6793 ;
         dbo:areaTotal        494860000 ;
-        ramon:code           "859" ;
+        ramon:code           "FI-859" ;
         spatial:PP           lau:FI-171 ;
         ramon:level          5 .
 
@@ -5124,12 +5124,12 @@ lau:FI-171  rdf:type    ebg:LAURegion ;
 lau:FI-886  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ulvsby"@en ;
-        rdfs:label           "886 Ulvsby" ;
+        rdfs:label           "FI-886 Ulvsby" ;
         void:inDataset       lau: ;
         ramon:name           "Ulvila"@fi ;
         dbo:populationTotal  13352 ;
         dbo:areaTotal        422510000 ;
-        ramon:code           "886" ;
+        ramon:code           "FI-886" ;
         spatial:PP           lau:FI-043 ;
         ramon:level          5 .
 
@@ -5142,12 +5142,12 @@ lau:FI-043  rdf:type    ebg:LAURegion ;
 lau:FI-887  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Urjala"@en ;
-        rdfs:label           "887 Urjala" ;
+        rdfs:label           "FI-887 Urjala" ;
         void:inDataset       lau: ;
         ramon:name           "Urjala"@fi ;
         dbo:populationTotal  4928 ;
         dbo:areaTotal        505370000 ;
-        ramon:code           "887" ;
+        ramon:code           "FI-887" ;
         spatial:PP           lau:FI-063 ;
         ramon:level          5 .
 
@@ -5160,12 +5160,12 @@ lau:FI-063  rdf:type    ebg:LAURegion ;
 lau:FI-889  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Utajärvi"@en ;
-        rdfs:label           "889 Utajärvi" ;
+        rdfs:label           "FI-889 Utajärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Utajärvi"@fi ;
         dbo:populationTotal  2861 ;
         dbo:areaTotal        1736700000 ;
-        ramon:code           "889" ;
+        ramon:code           "FI-889" ;
         spatial:PP           lau:FI-173 ;
         ramon:level          5 .
 
@@ -5178,12 +5178,12 @@ lau:FI-173  rdf:type    ebg:LAURegion ;
 lau:FI-890  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Utsjoki"@en ;
-        rdfs:label           "890 Utsjoki" ;
+        rdfs:label           "FI-890 Utsjoki" ;
         void:inDataset       lau: ;
         ramon:name           "Utsjoki"@fi ;
         dbo:populationTotal  1250 ;
         dbo:areaTotal        5372000000 ;
-        ramon:code           "890" ;
+        ramon:code           "FI-890" ;
         spatial:PP           lau:FI-197 ;
         ramon:level          5 .
 
@@ -5196,12 +5196,12 @@ lau:FI-197  rdf:type    ebg:LAURegion ;
 lau:FI-892  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Uurainen"@en ;
-        rdfs:label           "892 Uurainen" ;
+        rdfs:label           "FI-892 Uurainen" ;
         void:inDataset       lau: ;
         ramon:name           "Uurainen"@fi ;
         dbo:populationTotal  3666 ;
         dbo:areaTotal        372270000 ;
-        ramon:code           "892" ;
+        ramon:code           "FI-892" ;
         spatial:PP           lau:FI-131 ;
         ramon:level          5 .
 
@@ -5214,12 +5214,12 @@ lau:FI-131  rdf:type    ebg:LAURegion ;
 lau:FI-893  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nykarleby"@en ;
-        rdfs:label           "893 Nykarleby" ;
+        rdfs:label           "FI-893 Nykarleby" ;
         void:inDataset       lau: ;
         ramon:name           "Uusikaarlepyy"@fi ;
         dbo:populationTotal  7564 ;
         dbo:areaTotal        1675200000 ;
-        ramon:code           "893" ;
+        ramon:code           "FI-893" ;
         spatial:PP           lau:FI-154 ;
         ramon:level          5 .
 
@@ -5232,12 +5232,12 @@ lau:FI-154  rdf:type    ebg:LAURegion ;
 lau:FI-895  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nystad"@en ;
-        rdfs:label           "895 Nystad" ;
+        rdfs:label           "FI-895 Nystad" ;
         void:inDataset       lau: ;
         ramon:name           "Uusikaupunki"@fi ;
         dbo:populationTotal  15510 ;
         dbo:areaTotal        1932400000 ;
-        ramon:code           "895" ;
+        ramon:code           "FI-895" ;
         spatial:PP           lau:FI-024 ;
         ramon:level          5 .
 
@@ -5250,12 +5250,12 @@ lau:FI-024  rdf:type    ebg:LAURegion ;
 lau:FI-905  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vasa"@en ;
-        rdfs:label           "905 Vasa" ;
+        rdfs:label           "FI-905 Vasa" ;
         void:inDataset       lau: ;
         ramon:name           "Vaasa"@fi ;
         dbo:populationTotal  67619 ;
         dbo:areaTotal        575130000 ;
-        ramon:code           "905" ;
+        ramon:code           "FI-905" ;
         spatial:PP           lau:FI-152 ;
         ramon:level          5 .
 
@@ -5268,12 +5268,12 @@ lau:FI-152  rdf:type    ebg:LAURegion ;
 lau:FI-908  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Valkeakoski"@en ;
-        rdfs:label           "908 Valkeakoski" ;
+        rdfs:label           "FI-908 Valkeakoski" ;
         void:inDataset       lau: ;
         ramon:name           "Valkeakoski"@fi ;
         dbo:populationTotal  21332 ;
         dbo:areaTotal        372030000 ;
-        ramon:code           "908" ;
+        ramon:code           "FI-908" ;
         spatial:PP           lau:FI-063 ;
         ramon:level          5 .
 
@@ -5286,12 +5286,12 @@ lau:FI-063  rdf:type    ebg:LAURegion ;
 lau:FI-911  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Valtimo"@en ;
-        rdfs:label           "911 Valtimo" ;
+        rdfs:label           "FI-911 Valtimo" ;
         void:inDataset       lau: ;
         ramon:name           "Valtimo"@fi ;
         dbo:populationTotal  2324 ;
         dbo:areaTotal        838070000 ;
-        ramon:code           "911" ;
+        ramon:code           "FI-911" ;
         spatial:PP           lau:FI-125 ;
         ramon:level          5 .
 
@@ -5304,12 +5304,12 @@ lau:FI-125  rdf:type    ebg:LAURegion ;
 lau:FI-915  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Varkaus"@en ;
-        rdfs:label           "915 Varkaus" ;
+        rdfs:label           "FI-915 Varkaus" ;
         void:inDataset       lau: ;
         ramon:name           "Varkaus"@fi ;
         dbo:populationTotal  21638 ;
         dbo:areaTotal        524480000 ;
-        ramon:code           "915" ;
+        ramon:code           "FI-915" ;
         spatial:PP           lau:FI-114 ;
         ramon:level          5 .
 
@@ -5322,12 +5322,12 @@ lau:FI-114  rdf:type    ebg:LAURegion ;
 lau:FI-918  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vehmaa"@en ;
-        rdfs:label           "918 Vehmaa" ;
+        rdfs:label           "FI-918 Vehmaa" ;
         void:inDataset       lau: ;
         ramon:name           "Vehmaa"@fi ;
         dbo:populationTotal  2276 ;
         dbo:areaTotal        202090000 ;
-        ramon:code           "918" ;
+        ramon:code           "FI-918" ;
         spatial:PP           lau:FI-024 ;
         ramon:level          5 .
 
@@ -5340,12 +5340,12 @@ lau:FI-024  rdf:type    ebg:LAURegion ;
 lau:FI-921  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vesanto"@en ;
-        rdfs:label           "921 Vesanto" ;
+        rdfs:label           "FI-921 Vesanto" ;
         void:inDataset       lau: ;
         ramon:name           "Vesanto"@fi ;
         dbo:populationTotal  2191 ;
         dbo:areaTotal        569800000 ;
-        ramon:code           "921" ;
+        ramon:code           "FI-921" ;
         spatial:PP           lau:FI-115 ;
         ramon:level          5 .
 
@@ -5358,12 +5358,12 @@ lau:FI-115  rdf:type    ebg:LAURegion ;
 lau:FI-922  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vesilahti"@en ;
-        rdfs:label           "922 Vesilahti" ;
+        rdfs:label           "FI-922 Vesilahti" ;
         void:inDataset       lau: ;
         ramon:name           "Vesilahti"@fi ;
         dbo:populationTotal  4489 ;
         dbo:areaTotal        353940000 ;
-        ramon:code           "922" ;
+        ramon:code           "FI-922" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -5376,12 +5376,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-924  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vetil"@en ;
-        rdfs:label           "924 Vetil" ;
+        rdfs:label           "FI-924 Vetil" ;
         void:inDataset       lau: ;
         ramon:name           "Veteli"@fi ;
         dbo:populationTotal  3302 ;
         dbo:areaTotal        520910000 ;
-        ramon:code           "924" ;
+        ramon:code           "FI-924" ;
         spatial:PP           lau:FI-161 ;
         ramon:level          5 .
 
@@ -5394,12 +5394,12 @@ lau:FI-161  rdf:type    ebg:LAURegion ;
 lau:FI-925  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vieremä"@en ;
-        rdfs:label           "925 Vieremä" ;
+        rdfs:label           "FI-925 Vieremä" ;
         void:inDataset       lau: ;
         ramon:name           "Vieremä"@fi ;
         dbo:populationTotal  3757 ;
         dbo:areaTotal        973390000 ;
-        ramon:code           "925" ;
+        ramon:code           "FI-925" ;
         spatial:PP           lau:FI-111 ;
         ramon:level          5 .
 
@@ -5412,12 +5412,12 @@ lau:FI-111  rdf:type    ebg:LAURegion ;
 lau:FI-927  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vichtis"@en ;
-        rdfs:label           "927 Vichtis" ;
+        rdfs:label           "FI-927 Vichtis" ;
         void:inDataset       lau: ;
         ramon:name           "Vihti"@fi ;
         dbo:populationTotal  28919 ;
         dbo:areaTotal        567060000 ;
-        ramon:code           "927" ;
+        ramon:code           "FI-927" ;
         spatial:PP           lau:FI-011 ;
         ramon:level          5 .
 
@@ -5430,12 +5430,12 @@ lau:FI-011  rdf:type    ebg:LAURegion ;
 lau:FI-931  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Viitasaari"@en ;
-        rdfs:label           "931 Viitasaari" ;
+        rdfs:label           "FI-931 Viitasaari" ;
         void:inDataset       lau: ;
         ramon:name           "Viitasaari"@fi ;
         dbo:populationTotal  6666 ;
         dbo:areaTotal        1589130000 ;
-        ramon:code           "931" ;
+        ramon:code           "FI-931" ;
         spatial:PP           lau:FI-138 ;
         ramon:level          5 .
 
@@ -5448,12 +5448,12 @@ lau:FI-138  rdf:type    ebg:LAURegion ;
 lau:FI-934  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vimpeli"@en ;
-        rdfs:label           "934 Vimpeli" ;
+        rdfs:label           "FI-934 Vimpeli" ;
         void:inDataset       lau: ;
         ramon:name           "Vimpeli"@fi ;
         dbo:populationTotal  3073 ;
         dbo:areaTotal        328790000 ;
-        ramon:code           "934" ;
+        ramon:code           "FI-934" ;
         spatial:PP           lau:FI-146 ;
         ramon:level          5 .
 
@@ -5466,12 +5466,12 @@ lau:FI-146  rdf:type    ebg:LAURegion ;
 lau:FI-935  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Virolahti"@en ;
-        rdfs:label           "935 Virolahti" ;
+        rdfs:label           "FI-935 Virolahti" ;
         void:inDataset       lau: ;
         ramon:name           "Virolahti"@fi ;
         dbo:populationTotal  3347 ;
         dbo:areaTotal        558920000 ;
-        ramon:code           "935" ;
+        ramon:code           "FI-935" ;
         spatial:PP           lau:FI-082 ;
         ramon:level          5 .
 
@@ -5484,12 +5484,12 @@ lau:FI-082  rdf:type    ebg:LAURegion ;
 lau:FI-936  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Virdois"@en ;
-        rdfs:label           "936 Virdois" ;
+        rdfs:label           "FI-936 Virdois" ;
         void:inDataset       lau: ;
         ramon:name           "Virrat"@fi ;
         dbo:populationTotal  7002 ;
         dbo:areaTotal        1299080000 ;
-        ramon:code           "936" ;
+        ramon:code           "FI-936" ;
         spatial:PP           lau:FI-069 ;
         ramon:level          5 .
 
@@ -5502,12 +5502,12 @@ lau:FI-069  rdf:type    ebg:LAURegion ;
 lau:FI-941  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vårdö"@en ;
-        rdfs:label           "941 Vårdö" ;
+        rdfs:label           "FI-941 Vårdö" ;
         void:inDataset       lau: ;
         ramon:name           "Vårdö"@fi ;
         dbo:populationTotal  441 ;
         dbo:areaTotal        572560000 ;
-        ramon:code           "941" ;
+        ramon:code           "FI-941" ;
         spatial:PP           lau:FI-213 ;
         ramon:level          5 .
 
@@ -5520,12 +5520,12 @@ lau:FI-213  rdf:type    ebg:LAURegion ;
 lau:FI-946  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vörå"@en ;
-        rdfs:label           "946 Vörå" ;
+        rdfs:label           "FI-946 Vörå" ;
         void:inDataset       lau: ;
         ramon:name           "Vöyri"@fi ;
         dbo:populationTotal  6714 ;
         dbo:areaTotal        1499900000 ;
-        ramon:code           "946" ;
+        ramon:code           "FI-946" ;
         spatial:PP           lau:FI-152 ;
         ramon:level          5 .
 
@@ -5538,12 +5538,12 @@ lau:FI-152  rdf:type    ebg:LAURegion ;
 lau:FI-976  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Övertorneå"@en ;
-        rdfs:label           "976 Övertorneå" ;
+        rdfs:label           "FI-976 Övertorneå" ;
         void:inDataset       lau: ;
         ramon:name           "Ylitornio"@fi ;
         dbo:populationTotal  4291 ;
         dbo:areaTotal        2212490000 ;
-        ramon:code           "976" ;
+        ramon:code           "FI-976" ;
         spatial:PP           lau:FI-193 ;
         ramon:level          5 .
 
@@ -5556,12 +5556,12 @@ lau:FI-193  rdf:type    ebg:LAURegion ;
 lau:FI-977  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ylivieska"@en ;
-        rdfs:label           "977 Ylivieska" ;
+        rdfs:label           "FI-977 Ylivieska" ;
         void:inDataset       lau: ;
         ramon:name           "Ylivieska"@fi ;
         dbo:populationTotal  15039 ;
         dbo:areaTotal        573190000 ;
-        ramon:code           "977" ;
+        ramon:code           "FI-977" ;
         spatial:PP           lau:FI-177 ;
         ramon:level          5 .
 
@@ -5574,12 +5574,12 @@ lau:FI-177  rdf:type    ebg:LAURegion ;
 lau:FI-980  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ylöjärvi"@en ;
-        rdfs:label           "980 Ylöjärvi" ;
+        rdfs:label           "FI-980 Ylöjärvi" ;
         void:inDataset       lau: ;
         ramon:name           "Ylöjärvi"@fi ;
         dbo:populationTotal  32738 ;
         dbo:areaTotal        1324140000 ;
-        ramon:code           "980" ;
+        ramon:code           "FI-980" ;
         spatial:PP           lau:FI-064 ;
         ramon:level          5 .
 
@@ -5592,12 +5592,12 @@ lau:FI-064  rdf:type    ebg:LAURegion ;
 lau:FI-981  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ypäjä"@en ;
-        rdfs:label           "981 Ypäjä" ;
+        rdfs:label           "FI-981 Ypäjä" ;
         void:inDataset       lau: ;
         ramon:name           "Ypäjä"@fi ;
         dbo:populationTotal  2411 ;
         dbo:areaTotal        183250000 ;
-        ramon:code           "981" ;
+        ramon:code           "FI-981" ;
         spatial:PP           lau:FI-053 ;
         ramon:level          5 .
 
@@ -5610,12 +5610,12 @@ lau:FI-053  rdf:type    ebg:LAURegion ;
 lau:FI-989  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Etseri"@en ;
-        rdfs:label           "989 Etseri" ;
+        rdfs:label           "FI-989 Etseri" ;
         void:inDataset       lau: ;
         ramon:name           "Ähtäri"@fi ;
         dbo:populationTotal  6068 ;
         dbo:areaTotal        910880000 ;
-        ramon:code           "989" ;
+        ramon:code           "FI-989" ;
         spatial:PP           lau:FI-144 ;
         ramon:level          5 .
 
@@ -5628,12 +5628,12 @@ lau:FI-144  rdf:type    ebg:LAURegion ;
 lau:FI-992  rdf:type         ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Äänekoski"@en ;
-        rdfs:label           "992 Äänekoski" ;
+        rdfs:label           "FI-992 Äänekoski" ;
         void:inDataset       lau: ;
         ramon:name           "Äänekoski"@fi ;
         dbo:populationTotal  19646 ;
         dbo:areaTotal        1138380000 ;
-        ramon:code           "992" ;
+        ramon:code           "FI-992" ;
         spatial:PP           lau:FI-135 ;
         ramon:level          5 .
 

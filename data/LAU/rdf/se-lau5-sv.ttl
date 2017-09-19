@@ -12,12 +12,12 @@
 lau:SE-0114  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Upplands Väsby"@en ;
-        rdfs:label           "0114 Upplands Väsby" ;
+        rdfs:label           "SE-0114 Upplands Väsby" ;
         void:inDataset       lau: ;
         ramon:name           "Upplands Väsby"@sv ;
         dbo:populationTotal  42661 ;
         dbo:areaTotal        75010000 ;
-        ramon:code           "0114" ;
+        ramon:code           "SE-0114" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -30,12 +30,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0115  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vallentuna"@en ;
-        rdfs:label           "0115 Vallentuna" ;
+        rdfs:label           "SE-0115 Vallentuna" ;
         void:inDataset       lau: ;
         ramon:name           "Vallentuna"@sv ;
         dbo:populationTotal  32380 ;
         dbo:areaTotal        357740000 ;
-        ramon:code           "0115" ;
+        ramon:code           "SE-0115" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -48,12 +48,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0117  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Österåker"@en ;
-        rdfs:label           "0117 Österåker" ;
+        rdfs:label           "SE-0117 Österåker" ;
         void:inDataset       lau: ;
         ramon:name           "Österåker"@sv ;
         dbo:populationTotal  42130 ;
         dbo:areaTotal        312370000 ;
-        ramon:code           "0117" ;
+        ramon:code           "SE-0117" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -66,12 +66,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0120  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Värmdö"@en ;
-        rdfs:label           "0120 Värmdö" ;
+        rdfs:label           "SE-0120 Värmdö" ;
         void:inDataset       lau: ;
         ramon:name           "Värmdö"@sv ;
         dbo:populationTotal  41107 ;
         dbo:areaTotal        448120000 ;
-        ramon:code           "0120" ;
+        ramon:code           "SE-0120" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -84,12 +84,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0123  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Järfälla"@en ;
-        rdfs:label           "0123 Järfälla" ;
+        rdfs:label           "SE-0123 Järfälla" ;
         void:inDataset       lau: ;
         ramon:name           "Järfälla"@sv ;
         dbo:populationTotal  72429 ;
         dbo:areaTotal        53790000 ;
-        ramon:code           "0123" ;
+        ramon:code           "SE-0123" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -102,12 +102,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0125  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ekerö"@en ;
-        rdfs:label           "0125 Ekerö" ;
+        rdfs:label           "SE-0125 Ekerö" ;
         void:inDataset       lau: ;
         ramon:name           "Ekerö"@sv ;
         dbo:populationTotal  26984 ;
         dbo:areaTotal        217460000 ;
-        ramon:code           "0125" ;
+        ramon:code           "SE-0125" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -120,12 +120,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0126  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Huddinge"@en ;
-        rdfs:label           "0126 Huddinge" ;
+        rdfs:label           "SE-0126 Huddinge" ;
         void:inDataset       lau: ;
         ramon:name           "Huddinge"@sv ;
         dbo:populationTotal  105311 ;
         dbo:areaTotal        131030000 ;
-        ramon:code           "0126" ;
+        ramon:code           "SE-0126" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -138,12 +138,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0127  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Botkyrka"@en ;
-        rdfs:label           "0127 Botkyrka" ;
+        rdfs:label           "SE-0127 Botkyrka" ;
         void:inDataset       lau: ;
         ramon:name           "Botkyrka"@sv ;
         dbo:populationTotal  89425 ;
         dbo:areaTotal        194150000 ;
-        ramon:code           "0127" ;
+        ramon:code           "SE-0127" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -156,12 +156,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0128  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Salem"@en ;
-        rdfs:label           "0128 Salem" ;
+        rdfs:label           "SE-0128 Salem" ;
         void:inDataset       lau: ;
         ramon:name           "Salem"@sv ;
         dbo:populationTotal  16426 ;
         dbo:areaTotal        54110000 ;
-        ramon:code           "0128" ;
+        ramon:code           "SE-0128" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -174,12 +174,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0136  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Haninge"@en ;
-        rdfs:label           "0136 Haninge" ;
+        rdfs:label           "SE-0136 Haninge" ;
         void:inDataset       lau: ;
         ramon:name           "Haninge"@sv ;
         dbo:populationTotal  83866 ;
         dbo:areaTotal        457850000 ;
-        ramon:code           "0136" ;
+        ramon:code           "SE-0136" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -192,12 +192,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0138  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tyresö"@en ;
-        rdfs:label           "0138 Tyresö" ;
+        rdfs:label           "SE-0138 Tyresö" ;
         void:inDataset       lau: ;
         ramon:name           "Tyresö"@sv ;
         dbo:populationTotal  46177 ;
         dbo:areaTotal        69230000 ;
-        ramon:code           "0138" ;
+        ramon:code           "SE-0138" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -210,12 +210,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0139  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Upplands-Bro"@en ;
-        rdfs:label           "0139 Upplands-Bro" ;
+        rdfs:label           "SE-0139 Upplands-Bro" ;
         void:inDataset       lau: ;
         ramon:name           "Upplands-Bro"@sv ;
         dbo:populationTotal  25789 ;
         dbo:areaTotal        235290000 ;
-        ramon:code           "0139" ;
+        ramon:code           "SE-0139" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -228,12 +228,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0140  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nykvarn"@en ;
-        rdfs:label           "0140 Nykvarn" ;
+        rdfs:label           "SE-0140 Nykvarn" ;
         void:inDataset       lau: ;
         ramon:name           "Nykvarn"@sv ;
         dbo:populationTotal  10192 ;
         dbo:areaTotal        152740000 ;
-        ramon:code           "0140" ;
+        ramon:code           "SE-0140" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -246,12 +246,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0160  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Täby"@en ;
-        rdfs:label           "0160 Täby" ;
+        rdfs:label           "SE-0160 Täby" ;
         void:inDataset       lau: ;
         ramon:name           "Täby"@sv ;
         dbo:populationTotal  68281 ;
         dbo:areaTotal        60690000 ;
-        ramon:code           "0160" ;
+        ramon:code           "SE-0160" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -264,12 +264,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0162  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Danderyd"@en ;
-        rdfs:label           "0162 Danderyd" ;
+        rdfs:label           "SE-0162 Danderyd" ;
         void:inDataset       lau: ;
         ramon:name           "Danderyd"@sv ;
         dbo:populationTotal  32421 ;
         dbo:areaTotal        26400000 ;
-        ramon:code           "0162" ;
+        ramon:code           "SE-0162" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -282,12 +282,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0163  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sollentuna"@en ;
-        rdfs:label           "0163 Sollentuna" ;
+        rdfs:label           "SE-0163 Sollentuna" ;
         void:inDataset       lau: ;
         ramon:name           "Sollentuna"@sv ;
         dbo:populationTotal  70251 ;
         dbo:areaTotal        52620000 ;
-        ramon:code           "0163" ;
+        ramon:code           "SE-0163" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -300,12 +300,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0180  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Stockholm"@en ;
-        rdfs:label           "0180 Stockholm" ;
+        rdfs:label           "SE-0180 Stockholm" ;
         void:inDataset       lau: ;
         ramon:name           "Stockholm"@sv ;
         dbo:populationTotal  923516 ;
         dbo:areaTotal        187160000 ;
-        ramon:code           "0180" ;
+        ramon:code           "SE-0180" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -318,12 +318,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0181  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Södertälje"@en ;
-        rdfs:label           "0181 Södertälje" ;
+        rdfs:label           "SE-0181 Södertälje" ;
         void:inDataset       lau: ;
         ramon:name           "Södertälje"@sv ;
         dbo:populationTotal  93202 ;
         dbo:areaTotal        524860000 ;
-        ramon:code           "0181" ;
+        ramon:code           "SE-0181" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -336,12 +336,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0182  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nacka"@en ;
-        rdfs:label           "0182 Nacka" ;
+        rdfs:label           "SE-0182 Nacka" ;
         void:inDataset       lau: ;
         ramon:name           "Nacka"@sv ;
         dbo:populationTotal  97986 ;
         dbo:areaTotal        95120000 ;
-        ramon:code           "0182" ;
+        ramon:code           "SE-0182" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -354,12 +354,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0183  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sundbyberg"@en ;
-        rdfs:label           "0183 Sundbyberg" ;
+        rdfs:label           "SE-0183 Sundbyberg" ;
         void:inDataset       lau: ;
         ramon:name           "Sundbyberg"@sv ;
         dbo:populationTotal  46110 ;
         dbo:areaTotal        8690000 ;
-        ramon:code           "0183" ;
+        ramon:code           "SE-0183" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -372,12 +372,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0184  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Solna"@en ;
-        rdfs:label           "0184 Solna" ;
+        rdfs:label           "SE-0184 Solna" ;
         void:inDataset       lau: ;
         ramon:name           "Solna"@sv ;
         dbo:populationTotal  76158 ;
         dbo:areaTotal        19290000 ;
-        ramon:code           "0184" ;
+        ramon:code           "SE-0184" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -390,12 +390,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0186  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lidingö"@en ;
-        rdfs:label           "0186 Lidingö" ;
+        rdfs:label           "SE-0186 Lidingö" ;
         void:inDataset       lau: ;
         ramon:name           "Lidingö"@sv ;
         dbo:populationTotal  46302 ;
         dbo:areaTotal        30800000 ;
-        ramon:code           "0186" ;
+        ramon:code           "SE-0186" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -408,12 +408,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0187  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vaxholm"@en ;
-        rdfs:label           "0187 Vaxholm" ;
+        rdfs:label           "SE-0187 Vaxholm" ;
         void:inDataset       lau: ;
         ramon:name           "Vaxholm"@sv ;
         dbo:populationTotal  11380 ;
         dbo:areaTotal        57840000 ;
-        ramon:code           "0187" ;
+        ramon:code           "SE-0187" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -426,12 +426,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0188  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Norrtälje"@en ;
-        rdfs:label           "0188 Norrtälje" ;
+        rdfs:label           "SE-0188 Norrtälje" ;
         void:inDataset       lau: ;
         ramon:name           "Norrtälje"@sv ;
         dbo:populationTotal  58669 ;
         dbo:areaTotal        2015350000 ;
-        ramon:code           "0188" ;
+        ramon:code           "SE-0188" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -444,12 +444,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0191  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sigtuna"@en ;
-        rdfs:label           "0191 Sigtuna" ;
+        rdfs:label           "SE-0191 Sigtuna" ;
         void:inDataset       lau: ;
         ramon:name           "Sigtuna"@sv ;
         dbo:populationTotal  44786 ;
         dbo:areaTotal        327660000 ;
-        ramon:code           "0191" ;
+        ramon:code           "SE-0191" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -462,12 +462,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0192  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nynäshamn"@en ;
-        rdfs:label           "0192 Nynäshamn" ;
+        rdfs:label           "SE-0192 Nynäshamn" ;
         void:inDataset       lau: ;
         ramon:name           "Nynäshamn"@sv ;
         dbo:populationTotal  27500 ;
         dbo:areaTotal        358750000 ;
-        ramon:code           "0192" ;
+        ramon:code           "SE-0192" ;
         spatial:PP           lau:SE-01 ;
         ramon:level          5 .
 
@@ -480,12 +480,12 @@ lau:SE-01  rdf:type     ebg:LAURegion ;
 lau:SE-0305  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Håbo"@en ;
-        rdfs:label           "0305 Håbo" ;
+        rdfs:label           "SE-0305 Håbo" ;
         void:inDataset       lau: ;
         ramon:name           "Håbo"@sv ;
         dbo:populationTotal  20279 ;
         dbo:areaTotal        143550000 ;
-        ramon:code           "0305" ;
+        ramon:code           "SE-0305" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -498,12 +498,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0319  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Älvkarleby"@en ;
-        rdfs:label           "0319 Älvkarleby" ;
+        rdfs:label           "SE-0319 Älvkarleby" ;
         void:inDataset       lau: ;
         ramon:name           "Älvkarleby"@sv ;
         dbo:populationTotal  9293 ;
         dbo:areaTotal        215240000 ;
-        ramon:code           "0319" ;
+        ramon:code           "SE-0319" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -516,12 +516,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0330  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Knivsta"@en ;
-        rdfs:label           "0330 Knivsta" ;
+        rdfs:label           "SE-0330 Knivsta" ;
         void:inDataset       lau: ;
         ramon:name           "Knivsta"@sv ;
         dbo:populationTotal  16869 ;
         dbo:areaTotal        282130000 ;
-        ramon:code           "0330" ;
+        ramon:code           "SE-0330" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -534,12 +534,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0331  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Heby"@en ;
-        rdfs:label           "0331 Heby" ;
+        rdfs:label           "SE-0331 Heby" ;
         void:inDataset       lau: ;
         ramon:name           "Heby"@sv ;
         dbo:populationTotal  13594 ;
         dbo:areaTotal        1166900000 ;
-        ramon:code           "0331" ;
+        ramon:code           "SE-0331" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -552,12 +552,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0360  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tierp"@en ;
-        rdfs:label           "0360 Tierp" ;
+        rdfs:label           "SE-0360 Tierp" ;
         void:inDataset       lau: ;
         ramon:name           "Tierp"@sv ;
         dbo:populationTotal  20547 ;
         dbo:areaTotal        1546330000 ;
-        ramon:code           "0360" ;
+        ramon:code           "SE-0360" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -570,12 +570,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0380  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Uppsala"@en ;
-        rdfs:label           "0380 Uppsala" ;
+        rdfs:label           "SE-0380 Uppsala" ;
         void:inDataset       lau: ;
         ramon:name           "Uppsala"@sv ;
         dbo:populationTotal  210126 ;
         dbo:areaTotal        2182410000 ;
-        ramon:code           "0380" ;
+        ramon:code           "SE-0380" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -588,12 +588,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0381  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Enköping"@en ;
-        rdfs:label           "0381 Enköping" ;
+        rdfs:label           "SE-0381 Enköping" ;
         void:inDataset       lau: ;
         ramon:name           "Enköping"@sv ;
         dbo:populationTotal  41893 ;
         dbo:areaTotal        1178350000 ;
-        ramon:code           "0381" ;
+        ramon:code           "SE-0381" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -606,12 +606,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0382  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Östhammar"@en ;
-        rdfs:label           "0382 Östhammar" ;
+        rdfs:label           "SE-0382 Östhammar" ;
         void:inDataset       lau: ;
         ramon:name           "Östhammar"@sv ;
         dbo:populationTotal  21563 ;
         dbo:areaTotal        1474610000 ;
-        ramon:code           "0382" ;
+        ramon:code           "SE-0382" ;
         spatial:PP           lau:SE-03 ;
         ramon:level          5 .
 
@@ -624,12 +624,12 @@ lau:SE-03  rdf:type     ebg:LAURegion ;
 lau:SE-0428  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vingåker"@en ;
-        rdfs:label           "0428 Vingåker" ;
+        rdfs:label           "SE-0428 Vingåker" ;
         void:inDataset       lau: ;
         ramon:name           "Vingåker"@sv ;
         dbo:populationTotal  8953 ;
         dbo:areaTotal        370320000 ;
-        ramon:code           "0428" ;
+        ramon:code           "SE-0428" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -642,12 +642,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0461  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gnesta"@en ;
-        rdfs:label           "0461 Gnesta" ;
+        rdfs:label           "SE-0461 Gnesta" ;
         void:inDataset       lau: ;
         ramon:name           "Gnesta"@sv ;
         dbo:populationTotal  10649 ;
         dbo:areaTotal        461110000 ;
-        ramon:code           "0461" ;
+        ramon:code           "SE-0461" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -660,12 +660,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0480  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nyköping"@en ;
-        rdfs:label           "0480 Nyköping" ;
+        rdfs:label           "SE-0480 Nyköping" ;
         void:inDataset       lau: ;
         ramon:name           "Nyköping"@sv ;
         dbo:populationTotal  54262 ;
         dbo:areaTotal        1420460000 ;
-        ramon:code           "0480" ;
+        ramon:code           "SE-0480" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -678,12 +678,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0481  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Oxelösund"@en ;
-        rdfs:label           "0481 Oxelösund" ;
+        rdfs:label           "SE-0481 Oxelösund" ;
         void:inDataset       lau: ;
         ramon:name           "Oxelösund"@sv ;
         dbo:populationTotal  11701 ;
         dbo:areaTotal        35430000 ;
-        ramon:code           "0481" ;
+        ramon:code           "SE-0481" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -696,12 +696,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0482  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Flen"@en ;
-        rdfs:label           "0482 Flen" ;
+        rdfs:label           "SE-0482 Flen" ;
         void:inDataset       lau: ;
         ramon:name           "Flen"@sv ;
         dbo:populationTotal  16440 ;
         dbo:areaTotal        718490000 ;
-        ramon:code           "0482" ;
+        ramon:code           "SE-0482" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -714,12 +714,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0483  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Katrineholm"@en ;
-        rdfs:label           "0483 Katrineholm" ;
+        rdfs:label           "SE-0483 Katrineholm" ;
         void:inDataset       lau: ;
         ramon:name           "Katrineholm"@sv ;
         dbo:populationTotal  33462 ;
         dbo:areaTotal        1020160000 ;
-        ramon:code           "0483" ;
+        ramon:code           "SE-0483" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -732,12 +732,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0484  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Eskilstuna"@en ;
-        rdfs:label           "0484 Eskilstuna" ;
+        rdfs:label           "SE-0484 Eskilstuna" ;
         void:inDataset       lau: ;
         ramon:name           "Eskilstuna"@sv ;
         dbo:populationTotal  102065 ;
         dbo:areaTotal        1099890000 ;
-        ramon:code           "0484" ;
+        ramon:code           "SE-0484" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -750,12 +750,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0486  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Strängnäs"@en ;
-        rdfs:label           "0486 Strängnäs" ;
+        rdfs:label           "SE-0486 Strängnäs" ;
         void:inDataset       lau: ;
         ramon:name           "Strängnäs"@sv ;
         dbo:populationTotal  34102 ;
         dbo:areaTotal        739420000 ;
-        ramon:code           "0486" ;
+        ramon:code           "SE-0486" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -768,12 +768,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0488  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trosa"@en ;
-        rdfs:label           "0488 Trosa" ;
+        rdfs:label           "SE-0488 Trosa" ;
         void:inDataset       lau: ;
         ramon:name           "Trosa"@sv ;
         dbo:populationTotal  12078 ;
         dbo:areaTotal        209790000 ;
-        ramon:code           "0488" ;
+        ramon:code           "SE-0488" ;
         spatial:PP           lau:SE-04 ;
         ramon:level          5 .
 
@@ -786,12 +786,12 @@ lau:SE-04  rdf:type     ebg:LAURegion ;
 lau:SE-0509  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ödeshög"@en ;
-        rdfs:label           "0509 Ödeshög" ;
+        rdfs:label           "SE-0509 Ödeshög" ;
         void:inDataset       lau: ;
         ramon:name           "Ödeshög"@sv ;
         dbo:populationTotal  5236 ;
         dbo:areaTotal        433970000 ;
-        ramon:code           "0509" ;
+        ramon:code           "SE-0509" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -804,12 +804,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0512  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ydre"@en ;
-        rdfs:label           "0512 Ydre" ;
+        rdfs:label           "SE-0512 Ydre" ;
         void:inDataset       lau: ;
         ramon:name           "Ydre"@sv ;
         dbo:populationTotal  3658 ;
         dbo:areaTotal        675390000 ;
-        ramon:code           "0512" ;
+        ramon:code           "SE-0512" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -822,12 +822,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0513  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kinda"@en ;
-        rdfs:label           "0513 Kinda" ;
+        rdfs:label           "SE-0513 Kinda" ;
         void:inDataset       lau: ;
         ramon:name           "Kinda"@sv ;
         dbo:populationTotal  9795 ;
         dbo:areaTotal        1129400000 ;
-        ramon:code           "0513" ;
+        ramon:code           "SE-0513" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -840,12 +840,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0560  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Boxholm"@en ;
-        rdfs:label           "0560 Boxholm" ;
+        rdfs:label           "SE-0560 Boxholm" ;
         void:inDataset       lau: ;
         ramon:name           "Boxholm"@sv ;
         dbo:populationTotal  5328 ;
         dbo:areaTotal        525740000 ;
-        ramon:code           "0560" ;
+        ramon:code           "SE-0560" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -858,12 +858,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0561  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Åtvidaberg"@en ;
-        rdfs:label           "0561 Åtvidaberg" ;
+        rdfs:label           "SE-0561 Åtvidaberg" ;
         void:inDataset       lau: ;
         ramon:name           "Åtvidaberg"@sv ;
         dbo:populationTotal  11545 ;
         dbo:areaTotal        686600000 ;
-        ramon:code           "0561" ;
+        ramon:code           "SE-0561" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -876,12 +876,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0562  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Finspång"@en ;
-        rdfs:label           "0562 Finspång" ;
+        rdfs:label           "SE-0562 Finspång" ;
         void:inDataset       lau: ;
         ramon:name           "Finspång"@sv ;
         dbo:populationTotal  21199 ;
         dbo:areaTotal        1055250000 ;
-        ramon:code           "0562" ;
+        ramon:code           "SE-0562" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -894,12 +894,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0563  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Valdemarsvik"@en ;
-        rdfs:label           "0563 Valdemarsvik" ;
+        rdfs:label           "SE-0563 Valdemarsvik" ;
         void:inDataset       lau: ;
         ramon:name           "Valdemarsvik"@sv ;
         dbo:populationTotal  7747 ;
         dbo:areaTotal        733970000 ;
-        ramon:code           "0563" ;
+        ramon:code           "SE-0563" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -912,12 +912,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0580  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Linköping"@en ;
-        rdfs:label           "0580 Linköping" ;
+        rdfs:label           "SE-0580 Linköping" ;
         void:inDataset       lau: ;
         ramon:name           "Linköping"@sv ;
         dbo:populationTotal  152966 ;
         dbo:areaTotal        1427720000 ;
-        ramon:code           "0580" ;
+        ramon:code           "SE-0580" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -930,12 +930,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0581  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Norrköping"@en ;
-        rdfs:label           "0581 Norrköping" ;
+        rdfs:label           "SE-0581 Norrköping" ;
         void:inDataset       lau: ;
         ramon:name           "Norrköping"@sv ;
         dbo:populationTotal  137035 ;
         dbo:areaTotal        1495520000 ;
-        ramon:code           "0581" ;
+        ramon:code           "SE-0581" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -948,12 +948,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0582  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Söderköping"@en ;
-        rdfs:label           "0582 Söderköping" ;
+        rdfs:label           "SE-0582 Söderköping" ;
         void:inDataset       lau: ;
         ramon:name           "Söderköping"@sv ;
         dbo:populationTotal  14240 ;
         dbo:areaTotal        674270000 ;
-        ramon:code           "0582" ;
+        ramon:code           "SE-0582" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -966,12 +966,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0583  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Motala"@en ;
-        rdfs:label           "0583 Motala" ;
+        rdfs:label           "SE-0583 Motala" ;
         void:inDataset       lau: ;
         ramon:name           "Motala"@sv ;
         dbo:populationTotal  42903 ;
         dbo:areaTotal        982990000 ;
-        ramon:code           "0583" ;
+        ramon:code           "SE-0583" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -984,12 +984,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0584  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vadstena"@en ;
-        rdfs:label           "0584 Vadstena" ;
+        rdfs:label           "SE-0584 Vadstena" ;
         void:inDataset       lau: ;
         ramon:name           "Vadstena"@sv ;
         dbo:populationTotal  7407 ;
         dbo:areaTotal        191600000 ;
-        ramon:code           "0584" ;
+        ramon:code           "SE-0584" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -1002,12 +1002,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0586  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mjölby"@en ;
-        rdfs:label           "0586 Mjölby" ;
+        rdfs:label           "SE-0586 Mjölby" ;
         void:inDataset       lau: ;
         ramon:name           "Mjölby"@sv ;
         dbo:populationTotal  26602 ;
         dbo:areaTotal        547000000 ;
-        ramon:code           "0586" ;
+        ramon:code           "SE-0586" ;
         spatial:PP           lau:SE-05 ;
         ramon:level          5 .
 
@@ -1020,12 +1020,12 @@ lau:SE-05  rdf:type     ebg:LAURegion ;
 lau:SE-0604  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Aneby"@en ;
-        rdfs:label           "0604 Aneby" ;
+        rdfs:label           "SE-0604 Aneby" ;
         void:inDataset       lau: ;
         ramon:name           "Aneby"@sv ;
         dbo:populationTotal  6537 ;
         dbo:areaTotal        517680000 ;
-        ramon:code           "0604" ;
+        ramon:code           "SE-0604" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1038,12 +1038,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0617  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gnosjö"@en ;
-        rdfs:label           "0617 Gnosjö" ;
+        rdfs:label           "SE-0617 Gnosjö" ;
         void:inDataset       lau: ;
         ramon:name           "Gnosjö"@sv ;
         dbo:populationTotal  9514 ;
         dbo:areaTotal        420550000 ;
-        ramon:code           "0617" ;
+        ramon:code           "SE-0617" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1056,12 +1056,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0642  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mullsjö"@en ;
-        rdfs:label           "0642 Mullsjö" ;
+        rdfs:label           "SE-0642 Mullsjö" ;
         void:inDataset       lau: ;
         ramon:name           "Mullsj��"@sv ;
         dbo:populationTotal  7157 ;
         dbo:areaTotal        200130000 ;
-        ramon:code           "0642" ;
+        ramon:code           "SE-0642" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1074,12 +1074,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0643  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Habo"@en ;
-        rdfs:label           "0643 Habo" ;
+        rdfs:label           "SE-0643 Habo" ;
         void:inDataset       lau: ;
         ramon:name           "Habo"@sv ;
         dbo:populationTotal  11314 ;
         dbo:areaTotal        328490000 ;
-        ramon:code           "0643" ;
+        ramon:code           "SE-0643" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1092,12 +1092,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0662  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gislaved"@en ;
-        rdfs:label           "0662 Gislaved" ;
+        rdfs:label           "SE-0662 Gislaved" ;
         void:inDataset       lau: ;
         ramon:name           "Gislaved"@sv ;
         dbo:populationTotal  29272 ;
         dbo:areaTotal        1137070000 ;
-        ramon:code           "0662" ;
+        ramon:code           "SE-0662" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1110,12 +1110,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0665  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vaggeryd"@en ;
-        rdfs:label           "0665 Vaggeryd" ;
+        rdfs:label           "SE-0665 Vaggeryd" ;
         void:inDataset       lau: ;
         ramon:name           "Vaggeryd"@sv ;
         dbo:populationTotal  13372 ;
         dbo:areaTotal        824880000 ;
-        ramon:code           "0665" ;
+        ramon:code           "SE-0665" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1128,12 +1128,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0680  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jönköping"@en ;
-        rdfs:label           "0680 Jönköping" ;
+        rdfs:label           "SE-0680 Jönköping" ;
         void:inDataset       lau: ;
         ramon:name           "Jönköping"@sv ;
         dbo:populationTotal  133310 ;
         dbo:areaTotal        1480210000 ;
-        ramon:code           "0680" ;
+        ramon:code           "SE-0680" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1146,12 +1146,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0682  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nässjö"@en ;
-        rdfs:label           "0682 Nässjö" ;
+        rdfs:label           "SE-0682 Nässjö" ;
         void:inDataset       lau: ;
         ramon:name           "Nässjö"@sv ;
         dbo:populationTotal  30451 ;
         dbo:areaTotal        930220000 ;
-        ramon:code           "0682" ;
+        ramon:code           "SE-0682" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1164,12 +1164,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0683  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Värnamo"@en ;
-        rdfs:label           "0683 Värnamo" ;
+        rdfs:label           "SE-0683 Värnamo" ;
         void:inDataset       lau: ;
         ramon:name           "Värnamo"@sv ;
         dbo:populationTotal  33473 ;
         dbo:areaTotal        1215820000 ;
-        ramon:code           "0683" ;
+        ramon:code           "SE-0683" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1182,12 +1182,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0684  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sävsjö"@en ;
-        rdfs:label           "0684 Sävsjö" ;
+        rdfs:label           "SE-0684 Sävsjö" ;
         void:inDataset       lau: ;
         ramon:name           "Sävsjö"@sv ;
         dbo:populationTotal  11228 ;
         dbo:areaTotal        679300000 ;
-        ramon:code           "0684" ;
+        ramon:code           "SE-0684" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1200,12 +1200,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0685  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vetlanda"@en ;
-        rdfs:label           "0685 Vetlanda" ;
+        rdfs:label           "SE-0685 Vetlanda" ;
         void:inDataset       lau: ;
         ramon:name           "Vetlanda"@sv ;
         dbo:populationTotal  26873 ;
         dbo:areaTotal        1500350000 ;
-        ramon:code           "0685" ;
+        ramon:code           "SE-0685" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1218,12 +1218,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0686  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Eksjö"@en ;
-        rdfs:label           "0686 Eksjö" ;
+        rdfs:label           "SE-0686 Eksjö" ;
         void:inDataset       lau: ;
         ramon:name           "Eksjö"@sv ;
         dbo:populationTotal  16790 ;
         dbo:areaTotal        799400000 ;
-        ramon:code           "0686" ;
+        ramon:code           "SE-0686" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1236,12 +1236,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0687  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tranås"@en ;
-        rdfs:label           "0687 Tranås" ;
+        rdfs:label           "SE-0687 Tranås" ;
         void:inDataset       lau: ;
         ramon:name           "Tranås"@sv ;
         dbo:populationTotal  18546 ;
         dbo:areaTotal        402600000 ;
-        ramon:code           "0687" ;
+        ramon:code           "SE-0687" ;
         spatial:PP           lau:SE-06 ;
         ramon:level          5 .
 
@@ -1254,12 +1254,12 @@ lau:SE-06  rdf:type     ebg:LAURegion ;
 lau:SE-0760  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Uppvidinge"@en ;
-        rdfs:label           "0760 Uppvidinge" ;
+        rdfs:label           "SE-0760 Uppvidinge" ;
         void:inDataset       lau: ;
         ramon:name           "Uppvidinge"@sv ;
         dbo:populationTotal  9319 ;
         dbo:areaTotal        1171880000 ;
-        ramon:code           "0760" ;
+        ramon:code           "SE-0760" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1272,12 +1272,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0761  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lessebo"@en ;
-        rdfs:label           "0761 Lessebo" ;
+        rdfs:label           "SE-0761 Lessebo" ;
         void:inDataset       lau: ;
         ramon:name           "Lessebo"@sv ;
         dbo:populationTotal  8516 ;
         dbo:areaTotal        412540000 ;
-        ramon:code           "0761" ;
+        ramon:code           "SE-0761" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1290,12 +1290,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0763  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tingsryd"@en ;
-        rdfs:label           "0763 Tingsryd" ;
+        rdfs:label           "SE-0763 Tingsryd" ;
         void:inDataset       lau: ;
         ramon:name           "Tingsryd"@sv ;
         dbo:populationTotal  12260 ;
         dbo:areaTotal        1044760000 ;
-        ramon:code           "0763" ;
+        ramon:code           "SE-0763" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1308,12 +1308,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0764  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alvesta"@en ;
-        rdfs:label           "0764 Alvesta" ;
+        rdfs:label           "SE-0764 Alvesta" ;
         void:inDataset       lau: ;
         ramon:name           "Alvesta"@sv ;
         dbo:populationTotal  19581 ;
         dbo:areaTotal        974110000 ;
-        ramon:code           "0764" ;
+        ramon:code           "SE-0764" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1326,12 +1326,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0765  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Älmhult"@en ;
-        rdfs:label           "0765 Älmhult" ;
+        rdfs:label           "SE-0765 Älmhult" ;
         void:inDataset       lau: ;
         ramon:name           "Älmhult"@sv ;
         dbo:populationTotal  16168 ;
         dbo:areaTotal        890500000 ;
-        ramon:code           "0765" ;
+        ramon:code           "SE-0765" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1344,12 +1344,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0767  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Markaryd"@en ;
-        rdfs:label           "0767 Markaryd" ;
+        rdfs:label           "SE-0767 Markaryd" ;
         void:inDataset       lau: ;
         ramon:name           "Markaryd"@sv ;
         dbo:populationTotal  9779 ;
         dbo:areaTotal        517150000 ;
-        ramon:code           "0767" ;
+        ramon:code           "SE-0767" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1362,12 +1362,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0780  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Växjö"@en ;
-        rdfs:label           "0780 Växjö" ;
+        rdfs:label           "SE-0780 Växjö" ;
         void:inDataset       lau: ;
         ramon:name           "Växjö"@sv ;
         dbo:populationTotal  88108 ;
         dbo:areaTotal        1665450000 ;
-        ramon:code           "0780" ;
+        ramon:code           "SE-0780" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1380,12 +1380,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0781  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ljungby"@en ;
-        rdfs:label           "0781 Ljungby" ;
+        rdfs:label           "SE-0781 Ljungby" ;
         void:inDataset       lau: ;
         ramon:name           "Ljungby"@sv ;
         dbo:populationTotal  27638 ;
         dbo:areaTotal        1747880000 ;
-        ramon:code           "0781" ;
+        ramon:code           "SE-0781" ;
         spatial:PP           lau:SE-07 ;
         ramon:level          5 .
 
@@ -1398,12 +1398,12 @@ lau:SE-07  rdf:type     ebg:LAURegion ;
 lau:SE-0821  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Högsby"@en ;
-        rdfs:label           "0821 Högsby" ;
+        rdfs:label           "SE-0821 Högsby" ;
         void:inDataset       lau: ;
         ramon:name           "Högsby"@sv ;
         dbo:populationTotal  5857 ;
         dbo:areaTotal        751100000 ;
-        ramon:code           "0821" ;
+        ramon:code           "SE-0821" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1416,12 +1416,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0834  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Torsås"@en ;
-        rdfs:label           "0834 Torsås" ;
+        rdfs:label           "SE-0834 Torsås" ;
         void:inDataset       lau: ;
         ramon:name           "Torsås"@sv ;
         dbo:populationTotal  6943 ;
         dbo:areaTotal        468350000 ;
-        ramon:code           "0834" ;
+        ramon:code           "SE-0834" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1434,12 +1434,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0840  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mörbylånga"@en ;
-        rdfs:label           "0840 Mörbylånga" ;
+        rdfs:label           "SE-0840 Mörbylånga" ;
         void:inDataset       lau: ;
         ramon:name           "Mörbylånga"@sv ;
         dbo:populationTotal  14669 ;
         dbo:areaTotal        667250000 ;
-        ramon:code           "0840" ;
+        ramon:code           "SE-0840" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1452,12 +1452,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0860  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hultsfred"@en ;
-        rdfs:label           "0860 Hultsfred" ;
+        rdfs:label           "SE-0860 Hultsfred" ;
         void:inDataset       lau: ;
         ramon:name           "Hultsfred"@sv ;
         dbo:populationTotal  13919 ;
         dbo:areaTotal        1121500000 ;
-        ramon:code           "0860" ;
+        ramon:code           "SE-0860" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1470,12 +1470,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0861  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mönsterås"@en ;
-        rdfs:label           "0861 Mönsterås" ;
+        rdfs:label           "SE-0861 Mönsterås" ;
         void:inDataset       lau: ;
         ramon:name           "Mönsterås"@sv ;
         dbo:populationTotal  13144 ;
         dbo:areaTotal        599410000 ;
-        ramon:code           "0861" ;
+        ramon:code           "SE-0861" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1488,12 +1488,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0862  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Emmaboda"@en ;
-        rdfs:label           "0862 Emmaboda" ;
+        rdfs:label           "SE-0862 Emmaboda" ;
         void:inDataset       lau: ;
         ramon:name           "Emmaboda"@sv ;
         dbo:populationTotal  9090 ;
         dbo:areaTotal        689540000 ;
-        ramon:code           "0862" ;
+        ramon:code           "SE-0862" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1506,12 +1506,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0880  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kalmar"@en ;
-        rdfs:label           "0880 Kalmar" ;
+        rdfs:label           "SE-0880 Kalmar" ;
         void:inDataset       lau: ;
         ramon:name           "Kalmar"@sv ;
         dbo:populationTotal  65704 ;
         dbo:areaTotal        956620000 ;
-        ramon:code           "0880" ;
+        ramon:code           "SE-0880" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1524,12 +1524,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0881  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nybro"@en ;
-        rdfs:label           "0881 Nybro" ;
+        rdfs:label           "SE-0881 Nybro" ;
         void:inDataset       lau: ;
         ramon:name           "Nybro"@sv ;
         dbo:populationTotal  19754 ;
         dbo:areaTotal        1171720000 ;
-        ramon:code           "0881" ;
+        ramon:code           "SE-0881" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1542,12 +1542,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0882  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Oskarshamn"@en ;
-        rdfs:label           "0882 Oskarshamn" ;
+        rdfs:label           "SE-0882 Oskarshamn" ;
         void:inDataset       lau: ;
         ramon:name           "Oskarshamn"@sv ;
         dbo:populationTotal  26450 ;
         dbo:areaTotal        1046660000 ;
-        ramon:code           "0882" ;
+        ramon:code           "SE-0882" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1560,12 +1560,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0883  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Västervik"@en ;
-        rdfs:label           "0883 Västervik" ;
+        rdfs:label           "SE-0883 Västervik" ;
         void:inDataset       lau: ;
         ramon:name           "Västervik"@sv ;
         dbo:populationTotal  36049 ;
         dbo:areaTotal        1874470000 ;
-        ramon:code           "0883" ;
+        ramon:code           "SE-0883" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1578,12 +1578,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0884  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vimmerby"@en ;
-        rdfs:label           "0884 Vimmerby" ;
+        rdfs:label           "SE-0884 Vimmerby" ;
         void:inDataset       lau: ;
         ramon:name           "Vimmerby"@sv ;
         dbo:populationTotal  15419 ;
         dbo:areaTotal        1140220000 ;
-        ramon:code           "0884" ;
+        ramon:code           "SE-0884" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1596,12 +1596,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0885  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Borgholm"@en ;
-        rdfs:label           "0885 Borgholm" ;
+        rdfs:label           "SE-0885 Borgholm" ;
         void:inDataset       lau: ;
         ramon:name           "Borgholm"@sv ;
         dbo:populationTotal  10681 ;
         dbo:areaTotal        677840000 ;
-        ramon:code           "0885" ;
+        ramon:code           "SE-0885" ;
         spatial:PP           lau:SE-08 ;
         ramon:level          5 .
 
@@ -1614,12 +1614,12 @@ lau:SE-08  rdf:type     ebg:LAURegion ;
 lau:SE-0980  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gotland"@en ;
-        rdfs:label           "0980 Gotland" ;
+        rdfs:label           "SE-0980 Gotland" ;
         void:inDataset       lau: ;
         ramon:name           "Gotland"@sv ;
         dbo:populationTotal  57391 ;
         dbo:areaTotal        3134980000 ;
-        ramon:code           "0980" ;
+        ramon:code           "SE-0980" ;
         spatial:PP           lau:SE-09 ;
         ramon:level          5 .
 
@@ -1632,12 +1632,12 @@ lau:SE-09  rdf:type     ebg:LAURegion ;
 lau:SE-1060  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Olofström"@en ;
-        rdfs:label           "1060 Olofström" ;
+        rdfs:label           "SE-1060 Olofström" ;
         void:inDataset       lau: ;
         ramon:name           "Olofström"@sv ;
         dbo:populationTotal  13170 ;
         dbo:areaTotal        389790000 ;
-        ramon:code           "1060" ;
+        ramon:code           "SE-1060" ;
         spatial:PP           lau:SE-10 ;
         ramon:level          5 .
 
@@ -1650,12 +1650,12 @@ lau:SE-10  rdf:type     ebg:LAURegion ;
 lau:SE-1080  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karlskrona"@en ;
-        rdfs:label           "1080 Karlskrona" ;
+        rdfs:label           "SE-1080 Karlskrona" ;
         void:inDataset       lau: ;
         ramon:name           "Karlskrona"@sv ;
         dbo:populationTotal  65380 ;
         dbo:areaTotal        1042050000 ;
-        ramon:code           "1080" ;
+        ramon:code           "SE-1080" ;
         spatial:PP           lau:SE-10 ;
         ramon:level          5 .
 
@@ -1668,12 +1668,12 @@ lau:SE-10  rdf:type     ebg:LAURegion ;
 lau:SE-1081  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ronneby"@en ;
-        rdfs:label           "1081 Ronneby" ;
+        rdfs:label           "SE-1081 Ronneby" ;
         void:inDataset       lau: ;
         ramon:name           "Ronneby"@sv ;
         dbo:populationTotal  28697 ;
         dbo:areaTotal        825290000 ;
-        ramon:code           "1081" ;
+        ramon:code           "SE-1081" ;
         spatial:PP           lau:SE-10 ;
         ramon:level          5 .
 
@@ -1686,12 +1686,12 @@ lau:SE-10  rdf:type     ebg:LAURegion ;
 lau:SE-1082  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karlshamn"@en ;
-        rdfs:label           "1082 Karlshamn" ;
+        rdfs:label           "SE-1082 Karlshamn" ;
         void:inDataset       lau: ;
         ramon:name           "Karlshamn"@sv ;
         dbo:populationTotal  31846 ;
         dbo:areaTotal        488680000 ;
-        ramon:code           "1082" ;
+        ramon:code           "SE-1082" ;
         spatial:PP           lau:SE-10 ;
         ramon:level          5 .
 
@@ -1704,12 +1704,12 @@ lau:SE-10  rdf:type     ebg:LAURegion ;
 lau:SE-1083  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sölvesborg"@en ;
-        rdfs:label           "1083 Sölvesborg" ;
+        rdfs:label           "SE-1083 Sölvesborg" ;
         void:inDataset       lau: ;
         ramon:name           "Sölvesborg"@sv ;
         dbo:populationTotal  17160 ;
         dbo:areaTotal        185310000 ;
-        ramon:code           "1083" ;
+        ramon:code           "SE-1083" ;
         spatial:PP           lau:SE-10 ;
         ramon:level          5 .
 
@@ -1722,12 +1722,12 @@ lau:SE-10  rdf:type     ebg:LAURegion ;
 lau:SE-1214  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Svalöv"@en ;
-        rdfs:label           "1214 Svalöv" ;
+        rdfs:label           "SE-1214 Svalöv" ;
         void:inDataset       lau: ;
         ramon:name           "Svalöv"@sv ;
         dbo:populationTotal  13655 ;
         dbo:areaTotal        387180000 ;
-        ramon:code           "1214" ;
+        ramon:code           "SE-1214" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1740,12 +1740,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1230  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Staffanstorp"@en ;
-        rdfs:label           "1230 Staffanstorp" ;
+        rdfs:label           "SE-1230 Staffanstorp" ;
         void:inDataset       lau: ;
         ramon:name           "Staffanstorp"@sv ;
         dbo:populationTotal  23119 ;
         dbo:areaTotal        106780000 ;
-        ramon:code           "1230" ;
+        ramon:code           "SE-1230" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1758,12 +1758,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1231  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Burlöv"@en ;
-        rdfs:label           "1231 Burlöv" ;
+        rdfs:label           "SE-1231 Burlöv" ;
         void:inDataset       lau: ;
         ramon:name           "Burlöv"@sv ;
         dbo:populationTotal  17430 ;
         dbo:areaTotal        18900000 ;
-        ramon:code           "1231" ;
+        ramon:code           "SE-1231" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1776,12 +1776,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1233  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vellinge"@en ;
-        rdfs:label           "1233 Vellinge" ;
+        rdfs:label           "SE-1233 Vellinge" ;
         void:inDataset       lau: ;
         ramon:name           "Vellinge"@sv ;
         dbo:populationTotal  34667 ;
         dbo:areaTotal        142660000 ;
-        ramon:code           "1233" ;
+        ramon:code           "SE-1233" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1794,12 +1794,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1256  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Östra Göinge"@en ;
-        rdfs:label           "1256 Östra Göinge" ;
+        rdfs:label           "SE-1256 Östra Göinge" ;
         void:inDataset       lau: ;
         ramon:name           "Östra Göinge"@sv ;
         dbo:populationTotal  14102 ;
         dbo:areaTotal        431840000 ;
-        ramon:code           "1256" ;
+        ramon:code           "SE-1256" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1812,12 +1812,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1257  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Örkelljunga"@en ;
-        rdfs:label           "1257 Örkelljunga" ;
+        rdfs:label           "SE-1257 Örkelljunga" ;
         void:inDataset       lau: ;
         ramon:name           "Örkelljunga"@sv ;
         dbo:populationTotal  9831 ;
         dbo:areaTotal        319500000 ;
-        ramon:code           "1257" ;
+        ramon:code           "SE-1257" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1830,12 +1830,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1260  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bjuv"@en ;
-        rdfs:label           "1260 Bjuv" ;
+        rdfs:label           "SE-1260 Bjuv" ;
         void:inDataset       lau: ;
         ramon:name           "Bjuv"@sv ;
         dbo:populationTotal  14962 ;
         dbo:areaTotal        115310000 ;
-        ramon:code           "1260" ;
+        ramon:code           "SE-1260" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1848,12 +1848,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1261  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kävlinge"@en ;
-        rdfs:label           "1261 Kävlinge" ;
+        rdfs:label           "SE-1261 Kävlinge" ;
         void:inDataset       lau: ;
         ramon:name           "Kävlinge"@sv ;
         dbo:populationTotal  30104 ;
         dbo:areaTotal        152540000 ;
-        ramon:code           "1261" ;
+        ramon:code           "SE-1261" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1866,12 +1866,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1262  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lomma"@en ;
-        rdfs:label           "1262 Lomma" ;
+        rdfs:label           "SE-1262 Lomma" ;
         void:inDataset       lau: ;
         ramon:name           "Lomma"@sv ;
         dbo:populationTotal  23324 ;
         dbo:areaTotal        55510000 ;
-        ramon:code           "1262" ;
+        ramon:code           "SE-1262" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1884,12 +1884,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1263  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Svedala"@en ;
-        rdfs:label           "1263 Svedala" ;
+        rdfs:label           "SE-1263 Svedala" ;
         void:inDataset       lau: ;
         ramon:name           "Svedala"@sv ;
         dbo:populationTotal  20462 ;
         dbo:areaTotal        217910000 ;
-        ramon:code           "1263" ;
+        ramon:code           "SE-1263" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1902,12 +1902,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1264  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skurup"@en ;
-        rdfs:label           "1264 Skurup" ;
+        rdfs:label           "SE-1264 Skurup" ;
         void:inDataset       lau: ;
         ramon:name           "Skurup"@sv ;
         dbo:populationTotal  15149 ;
         dbo:areaTotal        193510000 ;
-        ramon:code           "1264" ;
+        ramon:code           "SE-1264" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1920,12 +1920,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1265  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sjöbo"@en ;
-        rdfs:label           "1265 Sjöbo" ;
+        rdfs:label           "SE-1265 Sjöbo" ;
         void:inDataset       lau: ;
         ramon:name           "Sjöbo"@sv ;
         dbo:populationTotal  18514 ;
         dbo:areaTotal        492010000 ;
-        ramon:code           "1265" ;
+        ramon:code           "SE-1265" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1938,12 +1938,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1266  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hörby"@en ;
-        rdfs:label           "1266 Hörby" ;
+        rdfs:label           "SE-1266 Hörby" ;
         void:inDataset       lau: ;
         ramon:name           "Hörby"@sv ;
         dbo:populationTotal  15020 ;
         dbo:areaTotal        419370000 ;
-        ramon:code           "1266" ;
+        ramon:code           "SE-1266" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1956,12 +1956,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1267  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Höör"@en ;
-        rdfs:label           "1267 Höör" ;
+        rdfs:label           "SE-1267 Höör" ;
         void:inDataset       lau: ;
         ramon:name           "Höör"@sv ;
         dbo:populationTotal  15970 ;
         dbo:areaTotal        290550000 ;
-        ramon:code           "1267" ;
+        ramon:code           "SE-1267" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1974,12 +1974,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1270  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tomelilla"@en ;
-        rdfs:label           "1270 Tomelilla" ;
+        rdfs:label           "SE-1270 Tomelilla" ;
         void:inDataset       lau: ;
         ramon:name           "Tomelilla"@sv ;
         dbo:populationTotal  13132 ;
         dbo:areaTotal        395930000 ;
-        ramon:code           "1270" ;
+        ramon:code           "SE-1270" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -1992,12 +1992,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1272  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bromölla"@en ;
-        rdfs:label           "1272 Bromölla" ;
+        rdfs:label           "SE-1272 Bromölla" ;
         void:inDataset       lau: ;
         ramon:name           "Bromölla"@sv ;
         dbo:populationTotal  12513 ;
         dbo:areaTotal        162490000 ;
-        ramon:code           "1272" ;
+        ramon:code           "SE-1272" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2010,12 +2010,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1273  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Osby"@en ;
-        rdfs:label           "1273 Osby" ;
+        rdfs:label           "SE-1273 Osby" ;
         void:inDataset       lau: ;
         ramon:name           "Osby"@sv ;
         dbo:populationTotal  12954 ;
         dbo:areaTotal        576380000 ;
-        ramon:code           "1273" ;
+        ramon:code           "SE-1273" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2028,12 +2028,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1275  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Perstorp"@en ;
-        rdfs:label           "1275 Perstorp" ;
+        rdfs:label           "SE-1275 Perstorp" ;
         void:inDataset       lau: ;
         ramon:name           "Perstorp"@sv ;
         dbo:populationTotal  7211 ;
         dbo:areaTotal        158770000 ;
-        ramon:code           "1275" ;
+        ramon:code           "SE-1275" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2046,12 +2046,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1276  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Klippan"@en ;
-        rdfs:label           "1276 Klippan" ;
+        rdfs:label           "SE-1276 Klippan" ;
         void:inDataset       lau: ;
         ramon:name           "Klippan"@sv ;
         dbo:populationTotal  16917 ;
         dbo:areaTotal        374320000 ;
-        ramon:code           "1276" ;
+        ramon:code           "SE-1276" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2064,12 +2064,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1277  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Åstorp"@en ;
-        rdfs:label           "1277 Åstorp" ;
+        rdfs:label           "SE-1277 Åstorp" ;
         void:inDataset       lau: ;
         ramon:name           "Åstorp"@sv ;
         dbo:populationTotal  15193 ;
         dbo:areaTotal        92350000 ;
-        ramon:code           "1277" ;
+        ramon:code           "SE-1277" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2082,12 +2082,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1278  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Båstad"@en ;
-        rdfs:label           "1278 Båstad" ;
+        rdfs:label           "SE-1278 Båstad" ;
         void:inDataset       lau: ;
         ramon:name           "Båstad"@sv ;
         dbo:populationTotal  14373 ;
         dbo:areaTotal        217130000 ;
-        ramon:code           "1278" ;
+        ramon:code           "SE-1278" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2100,12 +2100,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1280  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Malmö"@en ;
-        rdfs:label           "1280 Malmö" ;
+        rdfs:label           "SE-1280 Malmö" ;
         void:inDataset       lau: ;
         ramon:name           "Malmö"@sv ;
         dbo:populationTotal  322574 ;
         dbo:areaTotal        156600000 ;
-        ramon:code           "1280" ;
+        ramon:code           "SE-1280" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2118,12 +2118,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1281  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lund"@en ;
-        rdfs:label           "1281 Lund" ;
+        rdfs:label           "SE-1281 Lund" ;
         void:inDataset       lau: ;
         ramon:name           "Lund"@sv ;
         dbo:populationTotal  116834 ;
         dbo:areaTotal        427070000 ;
-        ramon:code           "1281" ;
+        ramon:code           "SE-1281" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2136,12 +2136,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1282  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Landskrona"@en ;
-        rdfs:label           "1282 Landskrona" ;
+        rdfs:label           "SE-1282 Landskrona" ;
         void:inDataset       lau: ;
         ramon:name           "Landskrona"@sv ;
         dbo:populationTotal  43961 ;
         dbo:areaTotal        140260000 ;
-        ramon:code           "1282" ;
+        ramon:code           "SE-1282" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2154,12 +2154,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1283  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Helsingborg"@en ;
-        rdfs:label           "1283 Helsingborg" ;
+        rdfs:label           "SE-1283 Helsingborg" ;
         void:inDataset       lau: ;
         ramon:name           "Helsingborg"@sv ;
         dbo:populationTotal  137909 ;
         dbo:areaTotal        343890000 ;
-        ramon:code           "1283" ;
+        ramon:code           "SE-1283" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2172,12 +2172,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1284  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Höganäs"@en ;
-        rdfs:label           "1284 Höganäs" ;
+        rdfs:label           "SE-1284 Höganäs" ;
         void:inDataset       lau: ;
         ramon:name           "Höganäs"@sv ;
         dbo:populationTotal  25610 ;
         dbo:areaTotal        143500000 ;
-        ramon:code           "1284" ;
+        ramon:code           "SE-1284" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2190,12 +2190,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1285  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Eslöv"@en ;
-        rdfs:label           "1285 Eslöv" ;
+        rdfs:label           "SE-1285 Eslöv" ;
         void:inDataset       lau: ;
         ramon:name           "Eslöv"@sv ;
         dbo:populationTotal  32438 ;
         dbo:areaTotal        419020000 ;
-        ramon:code           "1285" ;
+        ramon:code           "SE-1285" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2208,12 +2208,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1286  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ystad"@en ;
-        rdfs:label           "1286 Ystad" ;
+        rdfs:label           "SE-1286 Ystad" ;
         void:inDataset       lau: ;
         ramon:name           "Ystad"@sv ;
         dbo:populationTotal  28985 ;
         dbo:areaTotal        350000000 ;
-        ramon:code           "1286" ;
+        ramon:code           "SE-1286" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2226,12 +2226,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1287  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trelleborg"@en ;
-        rdfs:label           "1287 Trelleborg" ;
+        rdfs:label           "SE-1287 Trelleborg" ;
         void:inDataset       lau: ;
         ramon:name           "Trelleborg"@sv ;
         dbo:populationTotal  43359 ;
         dbo:areaTotal        339800000 ;
-        ramon:code           "1287" ;
+        ramon:code           "SE-1287" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2244,12 +2244,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1290  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kristianstad"@en ;
-        rdfs:label           "1290 Kristianstad" ;
+        rdfs:label           "SE-1290 Kristianstad" ;
         void:inDataset       lau: ;
         ramon:name           "Kristianstad"@sv ;
         dbo:populationTotal  82510 ;
         dbo:areaTotal        1245220000 ;
-        ramon:code           "1290" ;
+        ramon:code           "SE-1290" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2262,12 +2262,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1291  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Simrishamn"@en ;
-        rdfs:label           "1291 Simrishamn" ;
+        rdfs:label           "SE-1291 Simrishamn" ;
         void:inDataset       lau: ;
         ramon:name           "Simrishamn"@sv ;
         dbo:populationTotal  19065 ;
         dbo:areaTotal        392340000 ;
-        ramon:code           "1291" ;
+        ramon:code           "SE-1291" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2280,12 +2280,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1292  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ängelholm"@en ;
-        rdfs:label           "1292 Ängelholm" ;
+        rdfs:label           "SE-1292 Ängelholm" ;
         void:inDataset       lau: ;
         ramon:name           "Ängelholm"@sv ;
         dbo:populationTotal  40732 ;
         dbo:areaTotal        419870000 ;
-        ramon:code           "1292" ;
+        ramon:code           "SE-1292" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2298,12 +2298,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1293  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hässleholm"@en ;
-        rdfs:label           "1293 Hässleholm" ;
+        rdfs:label           "SE-1293 Hässleholm" ;
         void:inDataset       lau: ;
         ramon:name           "Hässleholm"@sv ;
         dbo:populationTotal  51048 ;
         dbo:areaTotal        1268970000 ;
-        ramon:code           "1293" ;
+        ramon:code           "SE-1293" ;
         spatial:PP           lau:SE-12 ;
         ramon:level          5 .
 
@@ -2316,12 +2316,12 @@ lau:SE-12  rdf:type     ebg:LAURegion ;
 lau:SE-1315  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hylte"@en ;
-        rdfs:label           "1315 Hylte" ;
+        rdfs:label           "SE-1315 Hylte" ;
         void:inDataset       lau: ;
         ramon:name           "Hylte"@sv ;
         dbo:populationTotal  10514 ;
         dbo:areaTotal        946530000 ;
-        ramon:code           "1315" ;
+        ramon:code           "SE-1315" ;
         spatial:PP           lau:SE-13 ;
         ramon:level          5 .
 
@@ -2334,12 +2334,12 @@ lau:SE-13  rdf:type     ebg:LAURegion ;
 lau:SE-1380  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Halmstad"@en ;
-        rdfs:label           "1380 Halmstad" ;
+        rdfs:label           "SE-1380 Halmstad" ;
         void:inDataset       lau: ;
         ramon:name           "Halmstad"@sv ;
         dbo:populationTotal  96952 ;
         dbo:areaTotal        1013970000 ;
-        ramon:code           "1380" ;
+        ramon:code           "SE-1380" ;
         spatial:PP           lau:SE-13 ;
         ramon:level          5 .
 
@@ -2352,12 +2352,12 @@ lau:SE-13  rdf:type     ebg:LAURegion ;
 lau:SE-1381  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Laholm"@en ;
-        rdfs:label           "1381 Laholm" ;
+        rdfs:label           "SE-1381 Laholm" ;
         void:inDataset       lau: ;
         ramon:name           "Laholm"@sv ;
         dbo:populationTotal  24195 ;
         dbo:areaTotal        882800000 ;
-        ramon:code           "1381" ;
+        ramon:code           "SE-1381" ;
         spatial:PP           lau:SE-13 ;
         ramon:level          5 .
 
@@ -2370,12 +2370,12 @@ lau:SE-13  rdf:type     ebg:LAURegion ;
 lau:SE-1382  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Falkenberg"@en ;
-        rdfs:label           "1382 Falkenberg" ;
+        rdfs:label           "SE-1382 Falkenberg" ;
         void:inDataset       lau: ;
         ramon:name           "Falkenberg"@sv ;
         dbo:populationTotal  42949 ;
         dbo:areaTotal        1108530000 ;
-        ramon:code           "1382" ;
+        ramon:code           "SE-1382" ;
         spatial:PP           lau:SE-13 ;
         ramon:level          5 .
 
@@ -2388,12 +2388,12 @@ lau:SE-13  rdf:type     ebg:LAURegion ;
 lau:SE-1383  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Varberg"@en ;
-        rdfs:label           "1383 Varberg" ;
+        rdfs:label           "SE-1383 Varberg" ;
         void:inDataset       lau: ;
         ramon:name           "Varberg"@sv ;
         dbo:populationTotal  61030 ;
         dbo:areaTotal        868620000 ;
-        ramon:code           "1383" ;
+        ramon:code           "SE-1383" ;
         spatial:PP           lau:SE-13 ;
         ramon:level          5 .
 
@@ -2406,12 +2406,12 @@ lau:SE-13  rdf:type     ebg:LAURegion ;
 lau:SE-1384  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kungsbacka"@en ;
-        rdfs:label           "1384 Kungsbacka" ;
+        rdfs:label           "SE-1384 Kungsbacka" ;
         void:inDataset       lau: ;
         ramon:name           "Kungsbacka"@sv ;
         dbo:populationTotal  79144 ;
         dbo:areaTotal        606600000 ;
-        ramon:code           "1384" ;
+        ramon:code           "SE-1384" ;
         spatial:PP           lau:SE-13 ;
         ramon:level          5 .
 
@@ -2424,12 +2424,12 @@ lau:SE-13  rdf:type     ebg:LAURegion ;
 lau:SE-1401  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Härryda"@en ;
-        rdfs:label           "1401 Härryda" ;
+        rdfs:label           "SE-1401 Härryda" ;
         void:inDataset       lau: ;
         ramon:name           "Härryda"@sv ;
         dbo:populationTotal  36651 ;
         dbo:areaTotal        266700000 ;
-        ramon:code           "1401" ;
+        ramon:code           "SE-1401" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2442,12 +2442,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1402  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Partille"@en ;
-        rdfs:label           "1402 Partille" ;
+        rdfs:label           "SE-1402 Partille" ;
         void:inDataset       lau: ;
         ramon:name           "Partille"@sv ;
         dbo:populationTotal  36977 ;
         dbo:areaTotal        56800000 ;
-        ramon:code           "1402" ;
+        ramon:code           "SE-1402" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2460,12 +2460,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1407  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Öckerö"@en ;
-        rdfs:label           "1407 Öckerö" ;
+        rdfs:label           "SE-1407 Öckerö" ;
         void:inDataset       lau: ;
         ramon:name           "Öckerö"@sv ;
         dbo:populationTotal  12682 ;
         dbo:areaTotal        25750000 ;
-        ramon:code           "1407" ;
+        ramon:code           "SE-1407" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2478,12 +2478,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1415  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Stenungsund"@en ;
-        rdfs:label           "1415 Stenungsund" ;
+        rdfs:label           "SE-1415 Stenungsund" ;
         void:inDataset       lau: ;
         ramon:name           "Stenungsund"@sv ;
         dbo:populationTotal  25508 ;
         dbo:areaTotal        251870000 ;
-        ramon:code           "1415" ;
+        ramon:code           "SE-1415" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2496,12 +2496,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1419  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tjörn"@en ;
-        rdfs:label           "1419 Tjörn" ;
+        rdfs:label           "SE-1419 Tjörn" ;
         void:inDataset       lau: ;
         ramon:name           "Tjörn"@sv ;
         dbo:populationTotal  15315 ;
         dbo:areaTotal        167360000 ;
-        ramon:code           "1419" ;
+        ramon:code           "SE-1419" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2514,12 +2514,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1421  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Orust"@en ;
-        rdfs:label           "1421 Orust" ;
+        rdfs:label           "SE-1421 Orust" ;
         void:inDataset       lau: ;
         ramon:name           "Orust"@sv ;
         dbo:populationTotal  15010 ;
         dbo:areaTotal        386490000 ;
-        ramon:code           "1421" ;
+        ramon:code           "SE-1421" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2532,12 +2532,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1427  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sotenäs"@en ;
-        rdfs:label           "1427 Sotenäs" ;
+        rdfs:label           "SE-1427 Sotenäs" ;
         void:inDataset       lau: ;
         ramon:name           "Sotenäs"@sv ;
         dbo:populationTotal  9006 ;
         dbo:areaTotal        138200000 ;
-        ramon:code           "1427" ;
+        ramon:code           "SE-1427" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2550,12 +2550,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1430  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Munkedal"@en ;
-        rdfs:label           "1430 Munkedal" ;
+        rdfs:label           "SE-1430 Munkedal" ;
         void:inDataset       lau: ;
         ramon:name           "Munkedal"@sv ;
         dbo:populationTotal  10205 ;
         dbo:areaTotal        634020000 ;
-        ramon:code           "1430" ;
+        ramon:code           "SE-1430" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2568,12 +2568,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1435  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tanum"@en ;
-        rdfs:label           "1435 Tanum" ;
+        rdfs:label           "SE-1435 Tanum" ;
         void:inDataset       lau: ;
         ramon:name           "Tanum"@sv ;
         dbo:populationTotal  12455 ;
         dbo:areaTotal        917210000 ;
-        ramon:code           "1435" ;
+        ramon:code           "SE-1435" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2586,12 +2586,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1438  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dals-Ed"@en ;
-        rdfs:label           "1438 Dals-Ed" ;
+        rdfs:label           "SE-1438 Dals-Ed" ;
         void:inDataset       lau: ;
         ramon:name           "Dals-Ed"@sv ;
         dbo:populationTotal  4799 ;
         dbo:areaTotal        724310000 ;
-        ramon:code           "1438" ;
+        ramon:code           "SE-1438" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2604,12 +2604,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1439  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Färgelanda"@en ;
-        rdfs:label           "1439 Färgelanda" ;
+        rdfs:label           "SE-1439 Färgelanda" ;
         void:inDataset       lau: ;
         ramon:name           "Färgelanda"@sv ;
         dbo:populationTotal  6495 ;
         dbo:areaTotal        588980000 ;
-        ramon:code           "1439" ;
+        ramon:code           "SE-1439" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2622,12 +2622,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1440  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ale"@en ;
-        rdfs:label           "1440 Ale" ;
+        rdfs:label           "SE-1440 Ale" ;
         void:inDataset       lau: ;
         ramon:name           "Ale"@sv ;
         dbo:populationTotal  28862 ;
         dbo:areaTotal        317010000 ;
-        ramon:code           "1440" ;
+        ramon:code           "SE-1440" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2640,12 +2640,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1441  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lerum"@en ;
-        rdfs:label           "1441 Lerum" ;
+        rdfs:label           "SE-1441 Lerum" ;
         void:inDataset       lau: ;
         ramon:name           "Lerum"@sv ;
         dbo:populationTotal  40181 ;
         dbo:areaTotal        258550000 ;
-        ramon:code           "1441" ;
+        ramon:code           "SE-1441" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2658,12 +2658,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1442  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vårgårda"@en ;
-        rdfs:label           "1442 Vårgårda" ;
+        rdfs:label           "SE-1442 Vårgårda" ;
         void:inDataset       lau: ;
         ramon:name           "Vårgårda"@sv ;
         dbo:populationTotal  11165 ;
         dbo:areaTotal        426580000 ;
-        ramon:code           "1442" ;
+        ramon:code           "SE-1442" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2676,12 +2676,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1443  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bollebygd"@en ;
-        rdfs:label           "1443 Bollebygd" ;
+        rdfs:label           "SE-1443 Bollebygd" ;
         void:inDataset       lau: ;
         ramon:name           "Bollebygd"@sv ;
         dbo:populationTotal  8799 ;
         dbo:areaTotal        263160000 ;
-        ramon:code           "1443" ;
+        ramon:code           "SE-1443" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2694,12 +2694,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1444  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Grästorp"@en ;
-        rdfs:label           "1444 Grästorp" ;
+        rdfs:label           "SE-1444 Grästorp" ;
         void:inDataset       lau: ;
         ramon:name           "Grästorp"@sv ;
         dbo:populationTotal  5644 ;
         dbo:areaTotal        264640000 ;
-        ramon:code           "1444" ;
+        ramon:code           "SE-1444" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2712,12 +2712,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1445  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Essunga"@en ;
-        rdfs:label           "1445 Essunga" ;
+        rdfs:label           "SE-1445 Essunga" ;
         void:inDataset       lau: ;
         ramon:name           "Essunga"@sv ;
         dbo:populationTotal  5590 ;
         dbo:areaTotal        234580000 ;
-        ramon:code           "1445" ;
+        ramon:code           "SE-1445" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2730,12 +2730,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1446  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karlsborg"@en ;
-        rdfs:label           "1446 Karlsborg" ;
+        rdfs:label           "SE-1446 Karlsborg" ;
         void:inDataset       lau: ;
         ramon:name           "Karlsborg"@sv ;
         dbo:populationTotal  6764 ;
         dbo:areaTotal        405820000 ;
-        ramon:code           "1446" ;
+        ramon:code           "SE-1446" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2748,12 +2748,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1447  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gullspång"@en ;
-        rdfs:label           "1447 Gullspång" ;
+        rdfs:label           "SE-1447 Gullspång" ;
         void:inDataset       lau: ;
         ramon:name           "Gullspång"@sv ;
         dbo:populationTotal  5229 ;
         dbo:areaTotal        315440000 ;
-        ramon:code           "1447" ;
+        ramon:code           "SE-1447" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2766,12 +2766,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1452  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tranemo"@en ;
-        rdfs:label           "1452 Tranemo" ;
+        rdfs:label           "SE-1452 Tranemo" ;
         void:inDataset       lau: ;
         ramon:name           "Tranemo"@sv ;
         dbo:populationTotal  11619 ;
         dbo:areaTotal        741200000 ;
-        ramon:code           "1452" ;
+        ramon:code           "SE-1452" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2784,12 +2784,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1460  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bengtsfors"@en ;
-        rdfs:label           "1460 Bengtsfors" ;
+        rdfs:label           "SE-1460 Bengtsfors" ;
         void:inDataset       lau: ;
         ramon:name           "Bengtsfors"@sv ;
         dbo:populationTotal  9626 ;
         dbo:areaTotal        882980000 ;
-        ramon:code           "1460" ;
+        ramon:code           "SE-1460" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2802,12 +2802,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1461  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mellerud"@en ;
-        rdfs:label           "1461 Mellerud" ;
+        rdfs:label           "SE-1461 Mellerud" ;
         void:inDataset       lau: ;
         ramon:name           "Mellerud"@sv ;
         dbo:populationTotal  9169 ;
         dbo:areaTotal        513740000 ;
-        ramon:code           "1461" ;
+        ramon:code           "SE-1461" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2820,12 +2820,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1462  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lilla Edet"@en ;
-        rdfs:label           "1462 Lilla Edet" ;
+        rdfs:label           "SE-1462 Lilla Edet" ;
         void:inDataset       lau: ;
         ramon:name           "Lilla Edet"@sv ;
         dbo:populationTotal  13178 ;
         dbo:areaTotal        315640000 ;
-        ramon:code           "1462" ;
+        ramon:code           "SE-1462" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2838,12 +2838,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1463  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mark"@en ;
-        rdfs:label           "1463 Mark" ;
+        rdfs:label           "SE-1463 Mark" ;
         void:inDataset       lau: ;
         ramon:name           "Mark"@sv ;
         dbo:populationTotal  33906 ;
         dbo:areaTotal        929200000 ;
-        ramon:code           "1463" ;
+        ramon:code           "SE-1463" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2856,12 +2856,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1465  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Svenljunga"@en ;
-        rdfs:label           "1465 Svenljunga" ;
+        rdfs:label           "SE-1465 Svenljunga" ;
         void:inDataset       lau: ;
         ramon:name           "Svenljunga"@sv ;
         dbo:populationTotal  10506 ;
         dbo:areaTotal        919680000 ;
-        ramon:code           "1465" ;
+        ramon:code           "SE-1465" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2874,12 +2874,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1466  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Herrljunga"@en ;
-        rdfs:label           "1466 Herrljunga" ;
+        rdfs:label           "SE-1466 Herrljunga" ;
         void:inDataset       lau: ;
         ramon:name           "Herrljunga"@sv ;
         dbo:populationTotal  9349 ;
         dbo:areaTotal        497480000 ;
-        ramon:code           "1466" ;
+        ramon:code           "SE-1466" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2892,12 +2892,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1470  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vara"@en ;
-        rdfs:label           "1470 Vara" ;
+        rdfs:label           "SE-1470 Vara" ;
         void:inDataset       lau: ;
         ramon:name           "Vara"@sv ;
         dbo:populationTotal  15662 ;
         dbo:areaTotal        696930000 ;
-        ramon:code           "1470" ;
+        ramon:code           "SE-1470" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2910,12 +2910,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1471  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Götene"@en ;
-        rdfs:label           "1471 Götene" ;
+        rdfs:label           "SE-1471 Götene" ;
         void:inDataset       lau: ;
         ramon:name           "Götene"@sv ;
         dbo:populationTotal  13160 ;
         dbo:areaTotal        404510000 ;
-        ramon:code           "1471" ;
+        ramon:code           "SE-1471" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2928,12 +2928,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1472  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tibro"@en ;
-        rdfs:label           "1472 Tibro" ;
+        rdfs:label           "SE-1472 Tibro" ;
         void:inDataset       lau: ;
         ramon:name           "Tibro"@sv ;
         dbo:populationTotal  10980 ;
         dbo:areaTotal        219800000 ;
-        ramon:code           "1472" ;
+        ramon:code           "SE-1472" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2946,12 +2946,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1473  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Töreboda"@en ;
-        rdfs:label           "1473 Töreboda" ;
+        rdfs:label           "SE-1473 Töreboda" ;
         void:inDataset       lau: ;
         ramon:name           "Töreboda"@sv ;
         dbo:populationTotal  9293 ;
         dbo:areaTotal        540690000 ;
-        ramon:code           "1473" ;
+        ramon:code           "SE-1473" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2964,12 +2964,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1480  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Göteborg"@en ;
-        rdfs:label           "1480 Göteborg" ;
+        rdfs:label           "SE-1480 Göteborg" ;
         void:inDataset       lau: ;
         ramon:name           "Göteborg"@sv ;
         dbo:populationTotal  548190 ;
         dbo:areaTotal        447880000 ;
-        ramon:code           "1480" ;
+        ramon:code           "SE-1480" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -2982,12 +2982,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1481  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mölndal"@en ;
-        rdfs:label           "1481 Mölndal" ;
+        rdfs:label           "SE-1481 Mölndal" ;
         void:inDataset       lau: ;
         ramon:name           "Mölndal"@sv ;
         dbo:populationTotal  63340 ;
         dbo:areaTotal        145840000 ;
-        ramon:code           "1481" ;
+        ramon:code           "SE-1481" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3000,12 +3000,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1482  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kungälv"@en ;
-        rdfs:label           "1482 Kungälv" ;
+        rdfs:label           "SE-1482 Kungälv" ;
         void:inDataset       lau: ;
         ramon:name           "Kungälv"@sv ;
         dbo:populationTotal  42730 ;
         dbo:areaTotal        362450000 ;
-        ramon:code           "1482" ;
+        ramon:code           "SE-1482" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3018,12 +3018,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1484  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lysekil"@en ;
-        rdfs:label           "1484 Lysekil" ;
+        rdfs:label           "SE-1484 Lysekil" ;
         void:inDataset       lau: ;
         ramon:name           "Lysekil"@sv ;
         dbo:populationTotal  14464 ;
         dbo:areaTotal        208450000 ;
-        ramon:code           "1484" ;
+        ramon:code           "SE-1484" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3036,12 +3036,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1485  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Uddevalla"@en ;
-        rdfs:label           "1485 Uddevalla" ;
+        rdfs:label           "SE-1485 Uddevalla" ;
         void:inDataset       lau: ;
         ramon:name           "Uddevalla"@sv ;
         dbo:populationTotal  54180 ;
         dbo:areaTotal        637660000 ;
-        ramon:code           "1485" ;
+        ramon:code           "SE-1485" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3054,12 +3054,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1486  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Strömstad"@en ;
-        rdfs:label           "1486 Strömstad" ;
+        rdfs:label           "SE-1486 Strömstad" ;
         void:inDataset       lau: ;
         ramon:name           "Strömstad"@sv ;
         dbo:populationTotal  12854 ;
         dbo:areaTotal        467470000 ;
-        ramon:code           "1486" ;
+        ramon:code           "SE-1486" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3072,12 +3072,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1487  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vänersborg"@en ;
-        rdfs:label           "1487 Vänersborg" ;
+        rdfs:label           "SE-1487 Vänersborg" ;
         void:inDataset       lau: ;
         ramon:name           "Vänersborg"@sv ;
         dbo:populationTotal  38381 ;
         dbo:areaTotal        642600000 ;
-        ramon:code           "1487" ;
+        ramon:code           "SE-1487" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3090,12 +3090,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1488  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Trollhättan"@en ;
-        rdfs:label           "1488 Trollhättan" ;
+        rdfs:label           "SE-1488 Trollhättan" ;
         void:inDataset       lau: ;
         ramon:name           "Trollhättan"@sv ;
         dbo:populationTotal  57092 ;
         dbo:areaTotal        409860000 ;
-        ramon:code           "1488" ;
+        ramon:code           "SE-1488" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3108,12 +3108,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1489  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Alingsås"@en ;
-        rdfs:label           "1489 Alingsås" ;
+        rdfs:label           "SE-1489 Alingsås" ;
         void:inDataset       lau: ;
         ramon:name           "Alingsås"@sv ;
         dbo:populationTotal  39602 ;
         dbo:areaTotal        472000000 ;
-        ramon:code           "1489" ;
+        ramon:code           "SE-1489" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3126,12 +3126,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1490  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Borås"@en ;
-        rdfs:label           "1490 Borås" ;
+        rdfs:label           "SE-1490 Borås" ;
         void:inDataset       lau: ;
         ramon:name           "Borås"@sv ;
         dbo:populationTotal  108488 ;
         dbo:areaTotal        909880000 ;
-        ramon:code           "1490" ;
+        ramon:code           "SE-1490" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3144,12 +3144,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1491  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ulricehamn"@en ;
-        rdfs:label           "1491 Ulricehamn" ;
+        rdfs:label           "SE-1491 Ulricehamn" ;
         void:inDataset       lau: ;
         ramon:name           "Ulricehamn"@sv ;
         dbo:populationTotal  23494 ;
         dbo:areaTotal        1046030000 ;
-        ramon:code           "1491" ;
+        ramon:code           "SE-1491" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3162,12 +3162,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1492  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Åmål"@en ;
-        rdfs:label           "1492 Åmål" ;
+        rdfs:label           "SE-1492 Åmål" ;
         void:inDataset       lau: ;
         ramon:name           "Åmål"@sv ;
         dbo:populationTotal  12601 ;
         dbo:areaTotal        481110000 ;
-        ramon:code           "1492" ;
+        ramon:code           "SE-1492" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3180,12 +3180,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1493  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mariestad"@en ;
-        rdfs:label           "1493 Mariestad" ;
+        rdfs:label           "SE-1493 Mariestad" ;
         void:inDataset       lau: ;
         ramon:name           "Mariestad"@sv ;
         dbo:populationTotal  24043 ;
         dbo:areaTotal        602470000 ;
-        ramon:code           "1493" ;
+        ramon:code           "SE-1493" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3198,12 +3198,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1494  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lidköping"@en ;
-        rdfs:label           "1494 Lidköping" ;
+        rdfs:label           "SE-1494 Lidköping" ;
         void:inDataset       lau: ;
         ramon:name           "Lidköping"@sv ;
         dbo:populationTotal  39009 ;
         dbo:areaTotal        698630000 ;
-        ramon:code           "1494" ;
+        ramon:code           "SE-1494" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3216,12 +3216,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1495  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skara"@en ;
-        rdfs:label           "1495 Skara" ;
+        rdfs:label           "SE-1495 Skara" ;
         void:inDataset       lau: ;
         ramon:name           "Skara"@sv ;
         dbo:populationTotal  18711 ;
         dbo:areaTotal        428620000 ;
-        ramon:code           "1495" ;
+        ramon:code           "SE-1495" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3234,12 +3234,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1496  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skövde"@en ;
-        rdfs:label           "1496 Skövde" ;
+        rdfs:label           "SE-1496 Skövde" ;
         void:inDataset       lau: ;
         ramon:name           "Skövde"@sv ;
         dbo:populationTotal  53555 ;
         dbo:areaTotal        673680000 ;
-        ramon:code           "1496" ;
+        ramon:code           "SE-1496" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3252,12 +3252,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1497  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hjo"@en ;
-        rdfs:label           "1497 Hjo" ;
+        rdfs:label           "SE-1497 Hjo" ;
         void:inDataset       lau: ;
         ramon:name           "Hjo"@sv ;
         dbo:populationTotal  8983 ;
         dbo:areaTotal        297040000 ;
-        ramon:code           "1497" ;
+        ramon:code           "SE-1497" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3270,12 +3270,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1498  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Tidaholm"@en ;
-        rdfs:label           "1498 Tidaholm" ;
+        rdfs:label           "SE-1498 Tidaholm" ;
         void:inDataset       lau: ;
         ramon:name           "Tidaholm"@sv ;
         dbo:populationTotal  12669 ;
         dbo:areaTotal        517980000 ;
-        ramon:code           "1498" ;
+        ramon:code           "SE-1498" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3288,12 +3288,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1499  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Falköping"@en ;
-        rdfs:label           "1499 Falköping" ;
+        rdfs:label           "SE-1499 Falköping" ;
         void:inDataset       lau: ;
         ramon:name           "Falköping"@sv ;
         dbo:populationTotal  32511 ;
         dbo:areaTotal        1044880000 ;
-        ramon:code           "1499" ;
+        ramon:code           "SE-1499" ;
         spatial:PP           lau:SE-14 ;
         ramon:level          5 .
 
@@ -3306,12 +3306,12 @@ lau:SE-14  rdf:type     ebg:LAURegion ;
 lau:SE-1715  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kil"@en ;
-        rdfs:label           "1715 Kil" ;
+        rdfs:label           "SE-1715 Kil" ;
         void:inDataset       lau: ;
         ramon:name           "Kil"@sv ;
         dbo:populationTotal  11802 ;
         dbo:areaTotal        359720000 ;
-        ramon:code           "1715" ;
+        ramon:code           "SE-1715" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3324,12 +3324,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1730  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Eda"@en ;
-        rdfs:label           "1730 Eda" ;
+        rdfs:label           "SE-1730 Eda" ;
         void:inDataset       lau: ;
         ramon:name           "Eda"@sv ;
         dbo:populationTotal  8505 ;
         dbo:areaTotal        820180000 ;
-        ramon:code           "1730" ;
+        ramon:code           "SE-1730" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3342,12 +3342,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1737  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Torsby"@en ;
-        rdfs:label           "1737 Torsby" ;
+        rdfs:label           "SE-1737 Torsby" ;
         void:inDataset       lau: ;
         ramon:name           "Torsby"@sv ;
         dbo:populationTotal  11910 ;
         dbo:areaTotal        4162210000 ;
-        ramon:code           "1737" ;
+        ramon:code           "SE-1737" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3360,12 +3360,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1760  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Storfors"@en ;
-        rdfs:label           "1760 Storfors" ;
+        rdfs:label           "SE-1760 Storfors" ;
         void:inDataset       lau: ;
         ramon:name           "Storfors"@sv ;
         dbo:populationTotal  4032 ;
         dbo:areaTotal        391680000 ;
-        ramon:code           "1760" ;
+        ramon:code           "SE-1760" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3378,12 +3378,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1761  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hammarö"@en ;
-        rdfs:label           "1761 Hammarö" ;
+        rdfs:label           "SE-1761 Hammarö" ;
         void:inDataset       lau: ;
         ramon:name           "Hammarö"@sv ;
         dbo:populationTotal  15420 ;
         dbo:areaTotal        59440000 ;
-        ramon:code           "1761" ;
+        ramon:code           "SE-1761" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3396,12 +3396,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1762  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Munkfors"@en ;
-        rdfs:label           "1762 Munkfors" ;
+        rdfs:label           "SE-1762 Munkfors" ;
         void:inDataset       lau: ;
         ramon:name           "Munkfors"@sv ;
         dbo:populationTotal  3663 ;
         dbo:areaTotal        141580000 ;
-        ramon:code           "1762" ;
+        ramon:code           "SE-1762" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3414,12 +3414,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1763  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Forshaga"@en ;
-        rdfs:label           "1763 Forshaga" ;
+        rdfs:label           "SE-1763 Forshaga" ;
         void:inDataset       lau: ;
         ramon:name           "Forshaga"@sv ;
         dbo:populationTotal  11379 ;
         dbo:areaTotal        348160000 ;
-        ramon:code           "1763" ;
+        ramon:code           "SE-1763" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3432,12 +3432,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1764  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Grums"@en ;
-        rdfs:label           "1764 Grums" ;
+        rdfs:label           "SE-1764 Grums" ;
         void:inDataset       lau: ;
         ramon:name           "Grums"@sv ;
         dbo:populationTotal  8945 ;
         dbo:areaTotal        386360000 ;
-        ramon:code           "1764" ;
+        ramon:code           "SE-1764" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3450,12 +3450,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1765  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Årjäng"@en ;
-        rdfs:label           "1765 Årjäng" ;
+        rdfs:label           "SE-1765 Årjäng" ;
         void:inDataset       lau: ;
         ramon:name           "Årjäng"@sv ;
         dbo:populationTotal  9869 ;
         dbo:areaTotal        1409440000 ;
-        ramon:code           "1765" ;
+        ramon:code           "SE-1765" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3468,12 +3468,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1766  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sunne"@en ;
-        rdfs:label           "1766 Sunne" ;
+        rdfs:label           "SE-1766 Sunne" ;
         void:inDataset       lau: ;
         ramon:name           "Sunne"@sv ;
         dbo:populationTotal  13208 ;
         dbo:areaTotal        1288020000 ;
-        ramon:code           "1766" ;
+        ramon:code           "SE-1766" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3486,12 +3486,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1780  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karlstad"@en ;
-        rdfs:label           "1780 Karlstad" ;
+        rdfs:label           "SE-1780 Karlstad" ;
         void:inDataset       lau: ;
         ramon:name           "Karlstad"@sv ;
         dbo:populationTotal  89245 ;
         dbo:areaTotal        1168660000 ;
-        ramon:code           "1780" ;
+        ramon:code           "SE-1780" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3504,12 +3504,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1781  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kristinehamn"@en ;
-        rdfs:label           "1781 Kristinehamn" ;
+        rdfs:label           "SE-1781 Kristinehamn" ;
         void:inDataset       lau: ;
         ramon:name           "Kristinehamn"@sv ;
         dbo:populationTotal  24270 ;
         dbo:areaTotal        755200000 ;
-        ramon:code           "1781" ;
+        ramon:code           "SE-1781" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3522,12 +3522,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1782  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Filipstad"@en ;
-        rdfs:label           "1782 Filipstad" ;
+        rdfs:label           "SE-1782 Filipstad" ;
         void:inDataset       lau: ;
         ramon:name           "Filipstad"@sv ;
         dbo:populationTotal  10625 ;
         dbo:areaTotal        1534040000 ;
-        ramon:code           "1782" ;
+        ramon:code           "SE-1782" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3540,12 +3540,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1783  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hagfors"@en ;
-        rdfs:label           "1783 Hagfors" ;
+        rdfs:label           "SE-1783 Hagfors" ;
         void:inDataset       lau: ;
         ramon:name           "Hagfors"@sv ;
         dbo:populationTotal  11824 ;
         dbo:areaTotal        1824190000 ;
-        ramon:code           "1783" ;
+        ramon:code           "SE-1783" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3558,12 +3558,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1784  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Arvika"@en ;
-        rdfs:label           "1784 Arvika" ;
+        rdfs:label           "SE-1784 Arvika" ;
         void:inDataset       lau: ;
         ramon:name           "Arvika"@sv ;
         dbo:populationTotal  25841 ;
         dbo:areaTotal        1649030000 ;
-        ramon:code           "1784" ;
+        ramon:code           "SE-1784" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3576,12 +3576,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1785  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Säffle"@en ;
-        rdfs:label           "1785 Säffle" ;
+        rdfs:label           "SE-1785 Säffle" ;
         void:inDataset       lau: ;
         ramon:name           "Säffle"@sv ;
         dbo:populationTotal  15366 ;
         dbo:areaTotal        1220880000 ;
-        ramon:code           "1785" ;
+        ramon:code           "SE-1785" ;
         spatial:PP           lau:SE-17 ;
         ramon:level          5 .
 
@@ -3594,12 +3594,12 @@ lau:SE-17  rdf:type     ebg:LAURegion ;
 lau:SE-1814  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lekeberg"@en ;
-        rdfs:label           "1814 Lekeberg" ;
+        rdfs:label           "SE-1814 Lekeberg" ;
         void:inDataset       lau: ;
         ramon:name           "Lekeberg"@sv ;
         dbo:populationTotal  7492 ;
         dbo:areaTotal        463160000 ;
-        ramon:code           "1814" ;
+        ramon:code           "SE-1814" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3612,12 +3612,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1860  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Laxå"@en ;
-        rdfs:label           "1860 Laxå" ;
+        rdfs:label           "SE-1860 Laxå" ;
         void:inDataset       lau: ;
         ramon:name           "Laxå"@sv ;
         dbo:populationTotal  5656 ;
         dbo:areaTotal        602000000 ;
-        ramon:code           "1860" ;
+        ramon:code           "SE-1860" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3630,12 +3630,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1861  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hallsberg"@en ;
-        rdfs:label           "1861 Hallsberg" ;
+        rdfs:label           "SE-1861 Hallsberg" ;
         void:inDataset       lau: ;
         ramon:name           "Hallsberg"@sv ;
         dbo:populationTotal  15509 ;
         dbo:areaTotal        636710000 ;
-        ramon:code           "1861" ;
+        ramon:code           "SE-1861" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3648,12 +3648,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1862  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Degerfors"@en ;
-        rdfs:label           "1862 Degerfors" ;
+        rdfs:label           "SE-1862 Degerfors" ;
         void:inDataset       lau: ;
         ramon:name           "Degerfors"@sv ;
         dbo:populationTotal  9543 ;
         dbo:areaTotal        383950000 ;
-        ramon:code           "1862" ;
+        ramon:code           "SE-1862" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3666,12 +3666,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1863  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hällefors"@en ;
-        rdfs:label           "1863 Hällefors" ;
+        rdfs:label           "SE-1863 Hällefors" ;
         void:inDataset       lau: ;
         ramon:name           "Hällefors"@sv ;
         dbo:populationTotal  7032 ;
         dbo:areaTotal        984960000 ;
-        ramon:code           "1863" ;
+        ramon:code           "SE-1863" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3684,12 +3684,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1864  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ljusnarsberg"@en ;
-        rdfs:label           "1864 Ljusnarsberg" ;
+        rdfs:label           "SE-1864 Ljusnarsberg" ;
         void:inDataset       lau: ;
         ramon:name           "Ljusnarsberg"@sv ;
         dbo:populationTotal  4928 ;
         dbo:areaTotal        575540000 ;
-        ramon:code           "1864" ;
+        ramon:code           "SE-1864" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3702,12 +3702,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1880  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Örebro"@en ;
-        rdfs:label           "1880 Örebro" ;
+        rdfs:label           "SE-1880 Örebro" ;
         void:inDataset       lau: ;
         ramon:name           "Örebro"@sv ;
         dbo:populationTotal  144200 ;
         dbo:areaTotal        1373020000 ;
-        ramon:code           "1880" ;
+        ramon:code           "SE-1880" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3720,12 +3720,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1881  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kumla"@en ;
-        rdfs:label           "1881 Kumla" ;
+        rdfs:label           "SE-1881 Kumla" ;
         void:inDataset       lau: ;
         ramon:name           "Kumla"@sv ;
         dbo:populationTotal  21154 ;
         dbo:areaTotal        204200000 ;
-        ramon:code           "1881" ;
+        ramon:code           "SE-1881" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3738,12 +3738,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1882  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Askersund"@en ;
-        rdfs:label           "1882 Askersund" ;
+        rdfs:label           "SE-1882 Askersund" ;
         void:inDataset       lau: ;
         ramon:name           "Askersund"@sv ;
         dbo:populationTotal  11151 ;
         dbo:areaTotal        816460000 ;
-        ramon:code           "1882" ;
+        ramon:code           "SE-1882" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3756,12 +3756,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1883  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Karlskoga"@en ;
-        rdfs:label           "1883 Karlskoga" ;
+        rdfs:label           "SE-1883 Karlskoga" ;
         void:inDataset       lau: ;
         ramon:name           "Karlskoga"@sv ;
         dbo:populationTotal  30283 ;
         dbo:areaTotal        468240000 ;
-        ramon:code           "1883" ;
+        ramon:code           "SE-1883" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3774,12 +3774,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1884  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nora"@en ;
-        rdfs:label           "1884 Nora" ;
+        rdfs:label           "SE-1884 Nora" ;
         void:inDataset       lau: ;
         ramon:name           "Nora"@sv ;
         dbo:populationTotal  10502 ;
         dbo:areaTotal        618540000 ;
-        ramon:code           "1884" ;
+        ramon:code           "SE-1884" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3792,12 +3792,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1885  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lindesberg"@en ;
-        rdfs:label           "1885 Lindesberg" ;
+        rdfs:label           "SE-1885 Lindesberg" ;
         void:inDataset       lau: ;
         ramon:name           "Lindesberg"@sv ;
         dbo:populationTotal  23562 ;
         dbo:areaTotal        1377600000 ;
-        ramon:code           "1885" ;
+        ramon:code           "SE-1885" ;
         spatial:PP           lau:SE-18 ;
         ramon:level          5 .
 
@@ -3810,12 +3810,12 @@ lau:SE-18  rdf:type     ebg:LAURegion ;
 lau:SE-1904  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skinnskatteberg"@en ;
-        rdfs:label           "1904 Skinnskatteberg" ;
+        rdfs:label           "SE-1904 Skinnskatteberg" ;
         void:inDataset       lau: ;
         ramon:name           "Skinnskatteberg"@sv ;
         dbo:populationTotal  4472 ;
         dbo:areaTotal        659420000 ;
-        ramon:code           "1904" ;
+        ramon:code           "SE-1904" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3828,12 +3828,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1907  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Surahammar"@en ;
-        rdfs:label           "1907 Surahammar" ;
+        rdfs:label           "SE-1907 Surahammar" ;
         void:inDataset       lau: ;
         ramon:name           "Surahammar"@sv ;
         dbo:populationTotal  9985 ;
         dbo:areaTotal        343900000 ;
-        ramon:code           "1907" ;
+        ramon:code           "SE-1907" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3846,12 +3846,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1960  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kungsör"@en ;
-        rdfs:label           "1960 Kungsör" ;
+        rdfs:label           "SE-1960 Kungsör" ;
         void:inDataset       lau: ;
         ramon:name           "Kungsör"@sv ;
         dbo:populationTotal  8343 ;
         dbo:areaTotal        202620000 ;
-        ramon:code           "1960" ;
+        ramon:code           "SE-1960" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3864,12 +3864,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1961  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hallstahammar"@en ;
-        rdfs:label           "1961 Hallstahammar" ;
+        rdfs:label           "SE-1961 Hallstahammar" ;
         void:inDataset       lau: ;
         ramon:name           "Hallstahammar"@sv ;
         dbo:populationTotal  15645 ;
         dbo:areaTotal        169530000 ;
-        ramon:code           "1961" ;
+        ramon:code           "SE-1961" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3882,12 +3882,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1962  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Norberg"@en ;
-        rdfs:label           "1962 Norberg" ;
+        rdfs:label           "SE-1962 Norberg" ;
         void:inDataset       lau: ;
         ramon:name           "Norberg"@sv ;
         dbo:populationTotal  5803 ;
         dbo:areaTotal        417860000 ;
-        ramon:code           "1962" ;
+        ramon:code           "SE-1962" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3900,12 +3900,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1980  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Västerås"@en ;
-        rdfs:label           "1980 Västerås" ;
+        rdfs:label           "SE-1980 Västerås" ;
         void:inDataset       lau: ;
         ramon:name           "Västerås"@sv ;
         dbo:populationTotal  145218 ;
         dbo:areaTotal        958830000 ;
-        ramon:code           "1980" ;
+        ramon:code           "SE-1980" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3918,12 +3918,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1981  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sala"@en ;
-        rdfs:label           "1981 Sala" ;
+        rdfs:label           "SE-1981 Sala" ;
         void:inDataset       lau: ;
         ramon:name           "Sala"@sv ;
         dbo:populationTotal  22109 ;
         dbo:areaTotal        1166830000 ;
-        ramon:code           "1981" ;
+        ramon:code           "SE-1981" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3936,12 +3936,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1982  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Fagersta"@en ;
-        rdfs:label           "1982 Fagersta" ;
+        rdfs:label           "SE-1982 Fagersta" ;
         void:inDataset       lau: ;
         ramon:name           "Fagersta"@sv ;
         dbo:populationTotal  13286 ;
         dbo:areaTotal        269030000 ;
-        ramon:code           "1982" ;
+        ramon:code           "SE-1982" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3954,12 +3954,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1983  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Köping"@en ;
-        rdfs:label           "1983 Köping" ;
+        rdfs:label           "SE-1983 Köping" ;
         void:inDataset       lau: ;
         ramon:name           "K��ping"@sv ;
         dbo:populationTotal  25557 ;
         dbo:areaTotal        604270000 ;
-        ramon:code           "1983" ;
+        ramon:code           "SE-1983" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3972,12 +3972,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-1984  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Arboga"@en ;
-        rdfs:label           "1984 Arboga" ;
+        rdfs:label           "SE-1984 Arboga" ;
         void:inDataset       lau: ;
         ramon:name           "Arboga"@sv ;
         dbo:populationTotal  13858 ;
         dbo:areaTotal        325400000 ;
-        ramon:code           "1984" ;
+        ramon:code           "SE-1984" ;
         spatial:PP           lau:SE-19 ;
         ramon:level          5 .
 
@@ -3990,12 +3990,12 @@ lau:SE-19  rdf:type     ebg:LAURegion ;
 lau:SE-2021  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vansbro"@en ;
-        rdfs:label           "2021 Vansbro" ;
+        rdfs:label           "SE-2021 Vansbro" ;
         void:inDataset       lau: ;
         ramon:name           "Vansbro"@sv ;
         dbo:populationTotal  6715 ;
         dbo:areaTotal        1539550000 ;
-        ramon:code           "2021" ;
+        ramon:code           "SE-2021" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4008,12 +4008,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2023  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Malung-Sälen"@en ;
-        rdfs:label           "2023 Malung-Sälen" ;
+        rdfs:label           "SE-2023 Malung-Sälen" ;
         void:inDataset       lau: ;
         ramon:name           "Malung-Sälen"@sv ;
         dbo:populationTotal  10036 ;
         dbo:areaTotal        4084890000 ;
-        ramon:code           "2023" ;
+        ramon:code           "SE-2023" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4026,12 +4026,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2026  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gagnef"@en ;
-        rdfs:label           "2026 Gagnef" ;
+        rdfs:label           "SE-2026 Gagnef" ;
         void:inDataset       lau: ;
         ramon:name           "Gagnef"@sv ;
         dbo:populationTotal  10079 ;
         dbo:areaTotal        767170000 ;
-        ramon:code           "2026" ;
+        ramon:code           "SE-2026" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4044,12 +4044,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2029  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Leksand"@en ;
-        rdfs:label           "2029 Leksand" ;
+        rdfs:label           "SE-2029 Leksand" ;
         void:inDataset       lau: ;
         ramon:name           "Leksand"@sv ;
         dbo:populationTotal  15326 ;
         dbo:areaTotal        1221260000 ;
-        ramon:code           "2029" ;
+        ramon:code           "SE-2029" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4062,12 +4062,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2031  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Rättvik"@en ;
-        rdfs:label           "2031 Rättvik" ;
+        rdfs:label           "SE-2031 Rättvik" ;
         void:inDataset       lau: ;
         ramon:name           "Rättvik"@sv ;
         dbo:populationTotal  10759 ;
         dbo:areaTotal        1920670000 ;
-        ramon:code           "2031" ;
+        ramon:code           "SE-2031" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4080,12 +4080,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2034  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Orsa"@en ;
-        rdfs:label           "2034 Orsa" ;
+        rdfs:label           "SE-2034 Orsa" ;
         void:inDataset       lau: ;
         ramon:name           "Orsa"@sv ;
         dbo:populationTotal  6750 ;
         dbo:areaTotal        1730790000 ;
-        ramon:code           "2034" ;
+        ramon:code           "SE-2034" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4098,12 +4098,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2039  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Älvdalen"@en ;
-        rdfs:label           "2039 Älvdalen" ;
+        rdfs:label           "SE-2039 Älvdalen" ;
         void:inDataset       lau: ;
         ramon:name           "Älvdalen"@sv ;
         dbo:populationTotal  7035 ;
         dbo:areaTotal        6871910000 ;
-        ramon:code           "2039" ;
+        ramon:code           "SE-2039" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4116,12 +4116,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2061  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Smedjebacken"@en ;
-        rdfs:label           "2061 Smedjebacken" ;
+        rdfs:label           "SE-2061 Smedjebacken" ;
         void:inDataset       lau: ;
         ramon:name           "Smedjebacken"@sv ;
         dbo:populationTotal  10790 ;
         dbo:areaTotal        947950000 ;
-        ramon:code           "2061" ;
+        ramon:code           "SE-2061" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4134,12 +4134,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2062  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Mora"@en ;
-        rdfs:label           "2062 Mora" ;
+        rdfs:label           "SE-2062 Mora" ;
         void:inDataset       lau: ;
         ramon:name           "Mora"@sv ;
         dbo:populationTotal  20101 ;
         dbo:areaTotal        2812430000 ;
-        ramon:code           "2062" ;
+        ramon:code           "SE-2062" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4152,12 +4152,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2080  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Falun"@en ;
-        rdfs:label           "2080 Falun" ;
+        rdfs:label           "SE-2080 Falun" ;
         void:inDataset       lau: ;
         ramon:name           "Falun"@sv ;
         dbo:populationTotal  57062 ;
         dbo:areaTotal        2040270000 ;
-        ramon:code           "2080" ;
+        ramon:code           "SE-2080" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4170,12 +4170,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2081  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Borlänge"@en ;
-        rdfs:label           "2081 Borlänge" ;
+        rdfs:label           "SE-2081 Borlänge" ;
         void:inDataset       lau: ;
         ramon:name           "Borlänge"@sv ;
         dbo:populationTotal  50988 ;
         dbo:areaTotal        583920000 ;
-        ramon:code           "2081" ;
+        ramon:code           "SE-2081" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4188,12 +4188,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2082  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Säter"@en ;
-        rdfs:label           "2082 Säter" ;
+        rdfs:label           "SE-2082 Säter" ;
         void:inDataset       lau: ;
         ramon:name           "Säter"@sv ;
         dbo:populationTotal  11009 ;
         dbo:areaTotal        570330000 ;
-        ramon:code           "2082" ;
+        ramon:code           "SE-2082" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4206,12 +4206,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2083  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hedemora"@en ;
-        rdfs:label           "2083 Hedemora" ;
+        rdfs:label           "SE-2083 Hedemora" ;
         void:inDataset       lau: ;
         ramon:name           "Hedemora"@sv ;
         dbo:populationTotal  15235 ;
         dbo:areaTotal        834790000 ;
-        ramon:code           "2083" ;
+        ramon:code           "SE-2083" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4224,12 +4224,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2084  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Avesta"@en ;
-        rdfs:label           "2084 Avesta" ;
+        rdfs:label           "SE-2084 Avesta" ;
         void:inDataset       lau: ;
         ramon:name           "Avesta"@sv ;
         dbo:populationTotal  22781 ;
         dbo:areaTotal        613160000 ;
-        ramon:code           "2084" ;
+        ramon:code           "SE-2084" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4242,12 +4242,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2085  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ludvika"@en ;
-        rdfs:label           "2085 Ludvika" ;
+        rdfs:label           "SE-2085 Ludvika" ;
         void:inDataset       lau: ;
         ramon:name           "Ludvika"@sv ;
         dbo:populationTotal  26362 ;
         dbo:areaTotal        1490370000 ;
-        ramon:code           "2085" ;
+        ramon:code           "SE-2085" ;
         spatial:PP           lau:SE-20 ;
         ramon:level          5 .
 
@@ -4260,12 +4260,12 @@ lau:SE-20  rdf:type     ebg:LAURegion ;
 lau:SE-2101  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ockelbo"@en ;
-        rdfs:label           "2101 Ockelbo" ;
+        rdfs:label           "SE-2101 Ockelbo" ;
         void:inDataset       lau: ;
         ramon:name           "Ockelbo"@sv ;
         dbo:populationTotal  5849 ;
         dbo:areaTotal        1064760000 ;
-        ramon:code           "2101" ;
+        ramon:code           "SE-2101" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4278,12 +4278,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2104  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hofors"@en ;
-        rdfs:label           "2104 Hofors" ;
+        rdfs:label           "SE-2104 Hofors" ;
         void:inDataset       lau: ;
         ramon:name           "Hofors"@sv ;
         dbo:populationTotal  9435 ;
         dbo:areaTotal        409950000 ;
-        ramon:code           "2104" ;
+        ramon:code           "SE-2104" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4296,12 +4296,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2121  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ovanåker"@en ;
-        rdfs:label           "2121 Ovanåker" ;
+        rdfs:label           "SE-2121 Ovanåker" ;
         void:inDataset       lau: ;
         ramon:name           "Ovanåker"@sv ;
         dbo:populationTotal  11469 ;
         dbo:areaTotal        1873320000 ;
-        ramon:code           "2121" ;
+        ramon:code           "SE-2121" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4314,12 +4314,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2132  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nordanstig"@en ;
-        rdfs:label           "2132 Nordanstig" ;
+        rdfs:label           "SE-2132 Nordanstig" ;
         void:inDataset       lau: ;
         ramon:name           "Nordanstig"@sv ;
         dbo:populationTotal  9490 ;
         dbo:areaTotal        1370480000 ;
-        ramon:code           "2132" ;
+        ramon:code           "SE-2132" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4332,12 +4332,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2161  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ljusdal"@en ;
-        rdfs:label           "2161 Ljusdal" ;
+        rdfs:label           "SE-2161 Ljusdal" ;
         void:inDataset       lau: ;
         ramon:name           "Ljusdal"@sv ;
         dbo:populationTotal  19027 ;
         dbo:areaTotal        5256370000 ;
-        ramon:code           "2161" ;
+        ramon:code           "SE-2161" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4350,12 +4350,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2180  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gävle"@en ;
-        rdfs:label           "2180 Gävle" ;
+        rdfs:label           "SE-2180 Gävle" ;
         void:inDataset       lau: ;
         ramon:name           "Gävle"@sv ;
         dbo:populationTotal  98877 ;
         dbo:areaTotal        1613840000 ;
-        ramon:code           "2180" ;
+        ramon:code           "SE-2180" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4368,12 +4368,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2181  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sandviken"@en ;
-        rdfs:label           "2181 Sandviken" ;
+        rdfs:label           "SE-2181 Sandviken" ;
         void:inDataset       lau: ;
         ramon:name           "Sandviken"@sv ;
         dbo:populationTotal  38314 ;
         dbo:areaTotal        1165780000 ;
-        ramon:code           "2181" ;
+        ramon:code           "SE-2181" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4386,12 +4386,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2182  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Söderhamn"@en ;
-        rdfs:label           "2182 Söderhamn" ;
+        rdfs:label           "SE-2182 Söderhamn" ;
         void:inDataset       lau: ;
         ramon:name           "Söderhamn"@sv ;
         dbo:populationTotal  25785 ;
         dbo:areaTotal        1060850000 ;
-        ramon:code           "2182" ;
+        ramon:code           "SE-2182" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4404,12 +4404,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2183  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bollnäs"@en ;
-        rdfs:label           "2183 Bollnäs" ;
+        rdfs:label           "SE-2183 Bollnäs" ;
         void:inDataset       lau: ;
         ramon:name           "Bollnäs"@sv ;
         dbo:populationTotal  26594 ;
         dbo:areaTotal        1814040000 ;
-        ramon:code           "2183" ;
+        ramon:code           "SE-2183" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4422,12 +4422,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2184  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Hudiksvall"@en ;
-        rdfs:label           "2184 Hudiksvall" ;
+        rdfs:label           "SE-2184 Hudiksvall" ;
         void:inDataset       lau: ;
         ramon:name           "Hudiksvall"@sv ;
         dbo:populationTotal  36975 ;
         dbo:areaTotal        2489050000 ;
-        ramon:code           "2184" ;
+        ramon:code           "SE-2184" ;
         spatial:PP           lau:SE-21 ;
         ramon:level          5 .
 
@@ -4440,12 +4440,12 @@ lau:SE-21  rdf:type     ebg:LAURegion ;
 lau:SE-2260  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ånge"@en ;
-        rdfs:label           "2260 Ånge" ;
+        rdfs:label           "SE-2260 Ånge" ;
         void:inDataset       lau: ;
         ramon:name           "Ånge"@sv ;
         dbo:populationTotal  9493 ;
         dbo:areaTotal        3050260000 ;
-        ramon:code           "2260" ;
+        ramon:code           "SE-2260" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4458,12 +4458,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2262  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Timrå"@en ;
-        rdfs:label           "2262 Timrå" ;
+        rdfs:label           "SE-2262 Timrå" ;
         void:inDataset       lau: ;
         ramon:name           "Timrå"@sv ;
         dbo:populationTotal  17987 ;
         dbo:areaTotal        783260000 ;
-        ramon:code           "2262" ;
+        ramon:code           "SE-2262" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4476,12 +4476,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2280  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Härnösand"@en ;
-        rdfs:label           "2280 Härnösand" ;
+        rdfs:label           "SE-2280 Härnösand" ;
         void:inDataset       lau: ;
         ramon:name           "Härnösand"@sv ;
         dbo:populationTotal  25066 ;
         dbo:areaTotal        1058320000 ;
-        ramon:code           "2280" ;
+        ramon:code           "SE-2280" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4494,12 +4494,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2281  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sundsvall"@en ;
-        rdfs:label           "2281 Sundsvall" ;
+        rdfs:label           "SE-2281 Sundsvall" ;
         void:inDataset       lau: ;
         ramon:name           "Sundsvall"@sv ;
         dbo:populationTotal  97633 ;
         dbo:areaTotal        3189710000 ;
-        ramon:code           "2281" ;
+        ramon:code           "SE-2281" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4512,12 +4512,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2282  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kramfors"@en ;
-        rdfs:label           "2282 Kramfors" ;
+        rdfs:label           "SE-2282 Kramfors" ;
         void:inDataset       lau: ;
         ramon:name           "Kramfors"@sv ;
         dbo:populationTotal  18359 ;
         dbo:areaTotal        1694650000 ;
-        ramon:code           "2282" ;
+        ramon:code           "SE-2282" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4530,12 +4530,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2283  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sollefteå"@en ;
-        rdfs:label           "2283 Sollefteå" ;
+        rdfs:label           "SE-2283 Sollefteå" ;
         void:inDataset       lau: ;
         ramon:name           "Sollefteå"@sv ;
         dbo:populationTotal  19783 ;
         dbo:areaTotal        5396480000 ;
-        ramon:code           "2283" ;
+        ramon:code           "SE-2283" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4548,12 +4548,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2284  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Örnsköldsvik"@en ;
-        rdfs:label           "2284 Örnsköldsvik" ;
+        rdfs:label           "SE-2284 Örnsköldsvik" ;
         void:inDataset       lau: ;
         ramon:name           "Örnsköldsvik"@sv ;
         dbo:populationTotal  55576 ;
         dbo:areaTotal        6376050000 ;
-        ramon:code           "2284" ;
+        ramon:code           "SE-2284" ;
         spatial:PP           lau:SE-22 ;
         ramon:level          5 .
 
@@ -4566,12 +4566,12 @@ lau:SE-22  rdf:type     ebg:LAURegion ;
 lau:SE-2303  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Ragunda"@en ;
-        rdfs:label           "2303 Ragunda" ;
+        rdfs:label           "SE-2303 Ragunda" ;
         void:inDataset       lau: ;
         ramon:name           "Ragunda"@sv ;
         dbo:populationTotal  5387 ;
         dbo:areaTotal        2510960000 ;
-        ramon:code           "2303" ;
+        ramon:code           "SE-2303" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4584,12 +4584,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2305  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bräcke"@en ;
-        rdfs:label           "2305 Bräcke" ;
+        rdfs:label           "SE-2305 Bräcke" ;
         void:inDataset       lau: ;
         ramon:name           "Bräcke"@sv ;
         dbo:populationTotal  6455 ;
         dbo:areaTotal        3408090000 ;
-        ramon:code           "2305" ;
+        ramon:code           "SE-2305" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4602,12 +4602,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2309  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Krokom"@en ;
-        rdfs:label           "2309 Krokom" ;
+        rdfs:label           "SE-2309 Krokom" ;
         void:inDataset       lau: ;
         ramon:name           "Krokom"@sv ;
         dbo:populationTotal  14785 ;
         dbo:areaTotal        6154450000 ;
-        ramon:code           "2309" ;
+        ramon:code           "SE-2309" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4620,12 +4620,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2313  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Strömsund"@en ;
-        rdfs:label           "2313 Strömsund" ;
+        rdfs:label           "SE-2313 Strömsund" ;
         void:inDataset       lau: ;
         ramon:name           "Strömsund"@sv ;
         dbo:populationTotal  11712 ;
         dbo:areaTotal        10464650000 ;
-        ramon:code           "2313" ;
+        ramon:code           "SE-2313" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4638,12 +4638,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2321  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Åre"@en ;
-        rdfs:label           "2321 Åre" ;
+        rdfs:label           "SE-2321 Åre" ;
         void:inDataset       lau: ;
         ramon:name           "Åre"@sv ;
         dbo:populationTotal  10677 ;
         dbo:areaTotal        7194950000 ;
-        ramon:code           "2321" ;
+        ramon:code           "SE-2321" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4656,12 +4656,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2326  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Berg"@en ;
-        rdfs:label           "2326 Berg" ;
+        rdfs:label           "SE-2326 Berg" ;
         void:inDataset       lau: ;
         ramon:name           "Berg"@sv ;
         dbo:populationTotal  7032 ;
         dbo:areaTotal        5710180000 ;
-        ramon:code           "2326" ;
+        ramon:code           "SE-2326" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4674,12 +4674,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2361  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Härjedalen"@en ;
-        rdfs:label           "2361 Härjedalen" ;
+        rdfs:label           "SE-2361 Härjedalen" ;
         void:inDataset       lau: ;
         ramon:name           "Härjedalen"@sv ;
         dbo:populationTotal  10262 ;
         dbo:areaTotal        11283830000 ;
-        ramon:code           "2361" ;
+        ramon:code           "SE-2361" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4692,12 +4692,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2380  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Östersund"@en ;
-        rdfs:label           "2380 Östersund" ;
+        rdfs:label           "SE-2380 Östersund" ;
         void:inDataset       lau: ;
         ramon:name           "Östersund"@sv ;
         dbo:populationTotal  61066 ;
         dbo:areaTotal        2208290000 ;
-        ramon:code           "2380" ;
+        ramon:code           "SE-2380" ;
         spatial:PP           lau:SE-23 ;
         ramon:level          5 .
 
@@ -4710,12 +4710,12 @@ lau:SE-23  rdf:type     ebg:LAURegion ;
 lau:SE-2401  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Nordmaling"@en ;
-        rdfs:label           "2401 Nordmaling" ;
+        rdfs:label           "SE-2401 Nordmaling" ;
         void:inDataset       lau: ;
         ramon:name           "Nordmaling"@sv ;
         dbo:populationTotal  7060 ;
         dbo:areaTotal        1229590000 ;
-        ramon:code           "2401" ;
+        ramon:code           "SE-2401" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4728,12 +4728,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2403  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Bjurholm"@en ;
-        rdfs:label           "2403 Bjurholm" ;
+        rdfs:label           "SE-2403 Bjurholm" ;
         void:inDataset       lau: ;
         ramon:name           "Bjurholm"@sv ;
         dbo:populationTotal  2453 ;
         dbo:areaTotal        1306770000 ;
-        ramon:code           "2403" ;
+        ramon:code           "SE-2403" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4746,12 +4746,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2404  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vindeln"@en ;
-        rdfs:label           "2404 Vindeln" ;
+        rdfs:label           "SE-2404 Vindeln" ;
         void:inDataset       lau: ;
         ramon:name           "Vindeln"@sv ;
         dbo:populationTotal  5371 ;
         dbo:areaTotal        2630050000 ;
-        ramon:code           "2404" ;
+        ramon:code           "SE-2404" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4764,12 +4764,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2409  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Robertsfors"@en ;
-        rdfs:label           "2409 Robertsfors" ;
+        rdfs:label           "SE-2409 Robertsfors" ;
         void:inDataset       lau: ;
         ramon:name           "Robertsfors"@sv ;
         dbo:populationTotal  6771 ;
         dbo:areaTotal        1292320000 ;
-        ramon:code           "2409" ;
+        ramon:code           "SE-2409" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4782,12 +4782,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2417  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Norsjö"@en ;
-        rdfs:label           "2417 Norsjö" ;
+        rdfs:label           "SE-2417 Norsjö" ;
         void:inDataset       lau: ;
         ramon:name           "Norsjö"@sv ;
         dbo:populationTotal  4176 ;
         dbo:areaTotal        1739150000 ;
-        ramon:code           "2417" ;
+        ramon:code           "SE-2417" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4800,12 +4800,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2418  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Malå"@en ;
-        rdfs:label           "2418 Malå" ;
+        rdfs:label           "SE-2418 Malå" ;
         void:inDataset       lau: ;
         ramon:name           "Malå"@sv ;
         dbo:populationTotal  3109 ;
         dbo:areaTotal        1598210000 ;
-        ramon:code           "2418" ;
+        ramon:code           "SE-2418" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4818,12 +4818,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2421  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Storuman"@en ;
-        rdfs:label           "2421 Storuman" ;
+        rdfs:label           "SE-2421 Storuman" ;
         void:inDataset       lau: ;
         ramon:name           "Storuman"@sv ;
         dbo:populationTotal  5943 ;
         dbo:areaTotal        7299640000 ;
-        ramon:code           "2421" ;
+        ramon:code           "SE-2421" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4836,12 +4836,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2422  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Sorsele"@en ;
-        rdfs:label           "2422 Sorsele" ;
+        rdfs:label           "SE-2422 Sorsele" ;
         void:inDataset       lau: ;
         ramon:name           "Sorsele"@sv ;
         dbo:populationTotal  2516 ;
         dbo:areaTotal        7367040000 ;
-        ramon:code           "2422" ;
+        ramon:code           "SE-2422" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4854,12 +4854,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2425  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Dorotea"@en ;
-        rdfs:label           "2425 Dorotea" ;
+        rdfs:label           "SE-2425 Dorotea" ;
         void:inDataset       lau: ;
         ramon:name           "Dorotea"@sv ;
         dbo:populationTotal  2740 ;
         dbo:areaTotal        2764530000 ;
-        ramon:code           "2425" ;
+        ramon:code           "SE-2425" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4872,12 +4872,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2460  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vännäs"@en ;
-        rdfs:label           "2460 Vännäs" ;
+        rdfs:label           "SE-2460 Vännäs" ;
         void:inDataset       lau: ;
         ramon:name           "Vännäs"@sv ;
         dbo:populationTotal  8593 ;
         dbo:areaTotal        529490000 ;
-        ramon:code           "2460" ;
+        ramon:code           "SE-2460" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4890,12 +4890,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2462  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Vilhelmina"@en ;
-        rdfs:label           "2462 Vilhelmina" ;
+        rdfs:label           "SE-2462 Vilhelmina" ;
         void:inDataset       lau: ;
         ramon:name           "Vilhelmina"@sv ;
         dbo:populationTotal  6829 ;
         dbo:areaTotal        8048430000 ;
-        ramon:code           "2462" ;
+        ramon:code           "SE-2462" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4908,12 +4908,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2463  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Åsele"@en ;
-        rdfs:label           "2463 Åsele" ;
+        rdfs:label           "SE-2463 Åsele" ;
         void:inDataset       lau: ;
         ramon:name           "Åsele"@sv ;
         dbo:populationTotal  2832 ;
         dbo:areaTotal        4223520000 ;
-        ramon:code           "2463" ;
+        ramon:code           "SE-2463" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4926,12 +4926,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2480  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Umeå"@en ;
-        rdfs:label           "2480 Umeå" ;
+        rdfs:label           "SE-2480 Umeå" ;
         void:inDataset       lau: ;
         ramon:name           "Umeå"@sv ;
         dbo:populationTotal  120777 ;
         dbo:areaTotal        2317120000 ;
-        ramon:code           "2480" ;
+        ramon:code           "SE-2480" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4944,12 +4944,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2481  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Lycksele"@en ;
-        rdfs:label           "2481 Lycksele" ;
+        rdfs:label           "SE-2481 Lycksele" ;
         void:inDataset       lau: ;
         ramon:name           "Lycksele"@sv ;
         dbo:populationTotal  12177 ;
         dbo:areaTotal        5518180000 ;
-        ramon:code           "2481" ;
+        ramon:code           "SE-2481" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4962,12 +4962,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2482  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Skellefteå"@en ;
-        rdfs:label           "2482 Skellefteå" ;
+        rdfs:label           "SE-2482 Skellefteå" ;
         void:inDataset       lau: ;
         ramon:name           "Skellefteå"@sv ;
         dbo:populationTotal  72031 ;
         dbo:areaTotal        6800560000 ;
-        ramon:code           "2482" ;
+        ramon:code           "SE-2482" ;
         spatial:PP           lau:SE-24 ;
         ramon:level          5 .
 
@@ -4980,12 +4980,12 @@ lau:SE-24  rdf:type     ebg:LAURegion ;
 lau:SE-2505  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Arvidsjaur"@en ;
-        rdfs:label           "2505 Arvidsjaur" ;
+        rdfs:label           "SE-2505 Arvidsjaur" ;
         void:inDataset       lau: ;
         ramon:name           "Arvidsjaur"@sv ;
         dbo:populationTotal  6471 ;
         dbo:areaTotal        5655590000 ;
-        ramon:code           "2505" ;
+        ramon:code           "SE-2505" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -4998,12 +4998,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2506  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Arjeplog"@en ;
-        rdfs:label           "2506 Arjeplog" ;
+        rdfs:label           "SE-2506 Arjeplog" ;
         void:inDataset       lau: ;
         ramon:name           "Arjeplog"@sv ;
         dbo:populationTotal  2887 ;
         dbo:areaTotal        12557590000 ;
-        ramon:code           "2506" ;
+        ramon:code           "SE-2506" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5016,12 +5016,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2510  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Jokkmokk"@en ;
-        rdfs:label           "2510 Jokkmokk" ;
+        rdfs:label           "SE-2510 Jokkmokk" ;
         void:inDataset       lau: ;
         ramon:name           "Jokkmokk"@sv ;
         dbo:populationTotal  5072 ;
         dbo:areaTotal        17600760000 ;
-        ramon:code           "2510" ;
+        ramon:code           "SE-2510" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5034,12 +5034,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2513  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Överkalix"@en ;
-        rdfs:label           "2513 Överkalix" ;
+        rdfs:label           "SE-2513 Överkalix" ;
         void:inDataset       lau: ;
         ramon:name           "��verkalix"@sv ;
         dbo:populationTotal  3395 ;
         dbo:areaTotal        2764520000 ;
-        ramon:code           "2513" ;
+        ramon:code           "SE-2513" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5052,12 +5052,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2514  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kalix"@en ;
-        rdfs:label           "2514 Kalix" ;
+        rdfs:label           "SE-2514 Kalix" ;
         void:inDataset       lau: ;
         ramon:name           "Kalix"@sv ;
         dbo:populationTotal  16248 ;
         dbo:areaTotal        1803080000 ;
-        ramon:code           "2514" ;
+        ramon:code           "SE-2514" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5070,12 +5070,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2518  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Övertorneå"@en ;
-        rdfs:label           "2518 Övertorneå" ;
+        rdfs:label           "SE-2518 Övertorneå" ;
         void:inDataset       lau: ;
         ramon:name           "Övertorneå"@sv ;
         dbo:populationTotal  4603 ;
         dbo:areaTotal        2362300000 ;
-        ramon:code           "2518" ;
+        ramon:code           "SE-2518" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5088,12 +5088,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2521  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Pajala"@en ;
-        rdfs:label           "2521 Pajala" ;
+        rdfs:label           "SE-2521 Pajala" ;
         void:inDataset       lau: ;
         ramon:name           "Pajala"@sv ;
         dbo:populationTotal  6193 ;
         dbo:areaTotal        7840300000 ;
-        ramon:code           "2521" ;
+        ramon:code           "SE-2521" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5106,12 +5106,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2523  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Gällivare"@en ;
-        rdfs:label           "2523 Gällivare" ;
+        rdfs:label           "SE-2523 Gällivare" ;
         void:inDataset       lau: ;
         ramon:name           "Gällivare"@sv ;
         dbo:populationTotal  18123 ;
         dbo:areaTotal        15690780000 ;
-        ramon:code           "2523" ;
+        ramon:code           "SE-2523" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5124,12 +5124,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2560  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Älvsbyn"@en ;
-        rdfs:label           "2560 Älvsbyn" ;
+        rdfs:label           "SE-2560 Älvsbyn" ;
         void:inDataset       lau: ;
         ramon:name           "Älvsbyn"@sv ;
         dbo:populationTotal  8183 ;
         dbo:areaTotal        1699240000 ;
-        ramon:code           "2560" ;
+        ramon:code           "SE-2560" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5142,12 +5142,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2580  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Luleå"@en ;
-        rdfs:label           "2580 Luleå" ;
+        rdfs:label           "SE-2580 Luleå" ;
         void:inDataset       lau: ;
         ramon:name           "Luleå"@sv ;
         dbo:populationTotal  76088 ;
         dbo:areaTotal        2094080000 ;
-        ramon:code           "2580" ;
+        ramon:code           "SE-2580" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5160,12 +5160,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2581  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Piteå"@en ;
-        rdfs:label           "2581 Piteå" ;
+        rdfs:label           "SE-2581 Piteå" ;
         void:inDataset       lau: ;
         ramon:name           "Piteå"@sv ;
         dbo:populationTotal  41548 ;
         dbo:areaTotal        3086040000 ;
-        ramon:code           "2581" ;
+        ramon:code           "SE-2581" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5178,12 +5178,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2582  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Boden"@en ;
-        rdfs:label           "2582 Boden" ;
+        rdfs:label           "SE-2582 Boden" ;
         void:inDataset       lau: ;
         ramon:name           "Boden"@sv ;
         dbo:populationTotal  27913 ;
         dbo:areaTotal        4007890000 ;
-        ramon:code           "2582" ;
+        ramon:code           "SE-2582" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5196,12 +5196,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2583  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Haparanda"@en ;
-        rdfs:label           "2583 Haparanda" ;
+        rdfs:label           "SE-2583 Haparanda" ;
         void:inDataset       lau: ;
         ramon:name           "Haparanda"@sv ;
         dbo:populationTotal  9831 ;
         dbo:areaTotal        921270000 ;
-        ramon:code           "2583" ;
+        ramon:code           "SE-2583" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 
@@ -5214,12 +5214,12 @@ lau:SE-25  rdf:type     ebg:LAURegion ;
 lau:SE-2584  rdf:type        ebg:LAURegion ;
         rdf:type             spatial:Feature ;
         ramon:name           "Kiruna"@en ;
-        rdfs:label           "2584 Kiruna" ;
+        rdfs:label           "SE-2584 Kiruna" ;
         void:inDataset       lau: ;
         ramon:name           "Kiruna"@sv ;
         dbo:populationTotal  23178 ;
         dbo:areaTotal        19155370000 ;
-        ramon:code           "2584" ;
+        ramon:code           "SE-2584" ;
         spatial:PP           lau:SE-25 ;
         ramon:level          5 .
 

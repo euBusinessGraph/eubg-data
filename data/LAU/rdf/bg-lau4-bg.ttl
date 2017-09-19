@@ -1,0 +1,1068 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:BG-SFO07  ramon:name  "Botevgrad"@en ;
+        ramon:code  "BG-SFO07" ;
+        rdfs:label  "BG-SFO07 Botevgrad" .
+
+lau:BG-DOB28  ramon:name  "Dobrich"@en ;
+        ramon:code  "BG-DOB28" ;
+        rdfs:label  "BG-DOB28 Dobrich" .
+
+lau:BG-KRZ08  ramon:name  "Dzhebel"@en ;
+        ramon:code  "BG-KRZ08" ;
+        rdfs:label  "BG-KRZ08 Dzhebel" .
+
+lau:BG-HKV29  ramon:name  "Simeonovgrad"@en ;
+        ramon:code  "BG-HKV29" ;
+        rdfs:label  "BG-HKV29 Simeonovgrad" .
+
+lau:BG-PER22  ramon:name  "Kalishte"@en ;
+        ramon:code  "BG-PER22" ;
+        rdfs:label  "BG-PER22 Kalishte" .
+
+lau:BG-SLS10  ramon:name  "Dulovo"@en ;
+        ramon:code  "BG-SLS10" ;
+        rdfs:label  "BG-SLS10 Dulovo" .
+
+lau:BG-DOB27  ramon:name  "Tervel"@en ;
+        ramon:code  "BG-DOB27" ;
+        rdfs:label  "BG-DOB27 Tervel" .
+
+lau:BG-DOB20  ramon:name  "Krushari"@en ;
+        ramon:code  "BG-DOB20" ;
+        rdfs:label  "BG-DOB20 Krushari" .
+
+lau:BG-SLS15  ramon:name  "Golesh"@en ;
+        ramon:code  "BG-SLS15" ;
+        rdfs:label  "BG-SLS15 Golesh" .
+
+lau:BG-SFO43  ramon:name  "Svoge"@en ;
+        ramon:code  "BG-SFO43" ;
+        rdfs:label  "BG-SFO43 Svoge" .
+
+lau:BG-BLG13  ramon:name  "Ribnovo"@en ;
+        ramon:code  "BG-BLG13" ;
+        rdfs:label  "BG-BLG13 Ribnovo" .
+
+lau:BG-SHU07  ramon:name  "Yasenkovo"@en ;
+        ramon:code  "BG-SHU07" ;
+        rdfs:label  "BG-SHU07 Yasenkovo" .
+
+lau:BG-SFO45  ramon:name  "Slivnitsa"@en ;
+        ramon:code  "BG-SFO45" ;
+        rdfs:label  "BG-SFO45 Slivnitsa" .
+
+lau:BG-RAZ36  ramon:name  "Tsar Kaloyan"@en ;
+        ramon:code  "BG-RAZ36" ;
+        rdfs:label  "BG-RAZ36 Tsar Kaloyan" .
+
+lau:BG-KRZ15  ramon:name  "Krumovgrad"@en ;
+        ramon:code  "BG-KRZ15" ;
+        rdfs:label  "BG-KRZ15 Krumovgrad" .
+
+lau:BG-KRZ14  ramon:name  "Benkovski"@en ;
+        ramon:code  "BG-KRZ14" ;
+        rdfs:label  "BG-KRZ14 Benkovski" .
+
+lau:BG-KRZ16  ramon:name  "Kardzhali"@en ;
+        ramon:code  "BG-KRZ16" ;
+        rdfs:label  "BG-KRZ16 Kardzhali" .
+
+lau:BG-SFO56  ramon:name  "Mirkovo"@en ;
+        ramon:code  "BG-SFO56" ;
+        rdfs:label  "BG-SFO56 Mirkovo" .
+
+lau:BG-DOB29  ramon:name  "Shabla"@en ;
+        ramon:code  "BG-DOB29" ;
+        rdfs:label  "BG-DOB29 Shabla" .
+
+lau:BG-VID30  ramon:name  "Novo selo"@en ;
+        ramon:code  "BG-VID30" ;
+        rdfs:label  "BG-VID30 Novo selo" .
+
+lau:BG-VID33  ramon:name  "Drenovets"@en ;
+        ramon:code  "BG-VID33" ;
+        rdfs:label  "BG-VID33 Drenovets" .
+
+lau:BG-SFO57  ramon:name  "Chavdar"@en ;
+        ramon:code  "BG-SFO57" ;
+        rdfs:label  "BG-SFO57 Chavdar" .
+
+lau:BG-VID37  ramon:name  "Gorni Lom"@en ;
+        ramon:code  "BG-VID37" ;
+        rdfs:label  "BG-VID37 Gorni Lom" .
+
+lau:BG-PVN08  ramon:name  "Gulyantsi"@en ;
+        ramon:code  "BG-PVN08" ;
+        rdfs:label  "BG-PVN08 Gulyantsi" .
+
+lau:BG-SHU10  ramon:name  "Varbitsa"@en ;
+        ramon:code  "BG-SHU10" ;
+        rdfs:label  "BG-SHU10 Varbitsa" .
+
+lau:BG-BGS21  ramon:name  "Sozopol"@en ;
+        ramon:code  "BG-BGS21" ;
+        rdfs:label  "BG-BGS21 Sozopol" .
+
+lau:BG-GAB05  ramon:name  "Gabrovo"@en ;
+        ramon:code  "BG-GAB05" ;
+        rdfs:label  "BG-GAB05 Gabrovo" .
+
+lau:BG-PAZ04  ramon:name  "Belovo"@en ;
+        ramon:code  "BG-PAZ04" ;
+        rdfs:label  "BG-PAZ04 Belovo" .
+
+lau:BG-BGS04  ramon:name  "Burgas"@en ;
+        ramon:code  "BG-BGS04" ;
+        rdfs:label  "BG-BGS04 Burgas" .
+
+lau:BG-PAZ06  ramon:name  "Bratsigovo"@en ;
+        ramon:code  "BG-PAZ06" ;
+        rdfs:label  "BG-PAZ06 Bratsigovo" .
+
+lau:BG-BGS06  ramon:name  "Sredets"@en ;
+        ramon:code  "BG-BGS06" ;
+        rdfs:label  "BG-BGS06 Sredets" .
+
+lau:BG-BGS01  ramon:name  "Aytos"@en ;
+        ramon:code  "BG-BGS01" ;
+        rdfs:label  "BG-BGS01 Aytos" .
+
+lau:BG-VRC21  ramon:name  "Krivodol"@en ;
+        ramon:code  "BG-VRC21" ;
+        rdfs:label  "BG-VRC21 Krivodol" .
+
+lau:BG-PAZ03  ramon:name  "Batak"@en ;
+        ramon:code  "BG-PAZ03" ;
+        rdfs:label  "BG-PAZ03 Batak" .
+
+lau:BG-PDV33  ramon:name  "Saedinenie"@en ;
+        ramon:code  "BG-PDV33" ;
+        rdfs:label  "BG-PDV33 Saedinenie" .
+
+lau:BG-BGS09  ramon:name  "Karnobat"@en ;
+        ramon:code  "BG-BGS09" ;
+        rdfs:label  "BG-BGS09 Karnobat" .
+
+lau:BG-VTR31  ramon:name  "Strazhitsa"@en ;
+        ramon:code  "BG-VTR31" ;
+        rdfs:label  "BG-VTR31 Strazhitsa" .
+
+lau:BG-VTR32  ramon:name  "Suhindol"@en ;
+        ramon:code  "BG-VTR32" ;
+        rdfs:label  "BG-VTR32 Suhindol" .
+
+lau:BG-HKV11  ramon:name  "Ivaylovgrad"@en ;
+        ramon:code  "BG-HKV11" ;
+        rdfs:label  "BG-HKV11 Ivaylovgrad" .
+
+lau:BG-HKV17  ramon:name  "Lyubimets"@en ;
+        ramon:code  "BG-HKV17" ;
+        rdfs:label  "BG-HKV17 Lyubimets" .
+
+lau:BG-HKV19  ramon:name  "Karamantsi"@en ;
+        ramon:code  "BG-HKV19" ;
+        rdfs:label  "BG-HKV19 Karamantsi" .
+
+lau:BG-HKV18  ramon:name  "Madzharovo"@en ;
+        ramon:code  "BG-HKV18" ;
+        rdfs:label  "BG-HKV18 Madzharovo" .
+
+lau:BG-BLG53  ramon:name  "Yakoruda"@en ;
+        ramon:code  "BG-BLG53" ;
+        rdfs:label  "BG-BLG53 Yakoruda" .
+
+lau:BG-BLG52  ramon:name  "Hadzhidimovo"@en ;
+        ramon:code  "BG-BLG52" ;
+        rdfs:label  "BG-BLG52 Hadzhidimovo" .
+
+lau:BG-VAR14  ramon:name  "Devnya"@en ;
+        ramon:code  "BG-VAR14" ;
+        rdfs:label  "BG-VAR14 Devnya" .
+
+lau:BG-TGV23  ramon:name  "Opaka"@en ;
+        ramon:code  "BG-TGV23" ;
+        rdfs:label  "BG-TGV23 Opaka" .
+
+lau:BG-SHU18  ramon:name  "Todor Ikonomovo"@en ;
+        ramon:code  "BG-SHU18" ;
+        rdfs:label  "BG-SHU18 Todor Ikonomovo" .
+
+lau:BG-SFO09  ramon:name  "Godech"@en ;
+        ramon:code  "BG-SFO09" ;
+        rdfs:label  "BG-SFO09 Godech" .
+
+lau:BG-GAB12  ramon:name  "Dryanovo"@en ;
+        ramon:code  "BG-GAB12" ;
+        rdfs:label  "BG-GAB12 Dryanovo" .
+
+lau:BG-SFO54  ramon:name  "Anton"@en ;
+        ramon:code  "BG-SFO54" ;
+        rdfs:label  "BG-SFO54 Anton" .
+
+lau:BG-SFO55  ramon:name  "Pirdop"@en ;
+        ramon:code  "BG-SFO55" ;
+        rdfs:label  "BG-SFO55 Pirdop" .
+
+lau:BG-VAR26  ramon:name  "Suvorovo"@en ;
+        ramon:code  "BG-VAR26" ;
+        rdfs:label  "BG-VAR26 Suvorovo" .
+
+lau:BG-SFO59  ramon:name  "Dolna banya"@en ;
+        ramon:code  "BG-SFO59" ;
+        rdfs:label  "BG-SFO59 Dolna banya" .
+
+lau:BG-KRZ02  ramon:name  "Ardino"@en ;
+        ramon:code  "BG-KRZ02" ;
+        rdfs:label  "BG-KRZ02 Ardino" .
+
+lau:BG-SHU11  ramon:name  "Timarevo"@en ;
+        ramon:code  "BG-SHU11" ;
+        rdfs:label  "BG-SHU11 Timarevo" .
+
+lau:BG-HKV28  ramon:name  "Svilengrad"@en ;
+        ramon:code  "BG-HKV28" ;
+        rdfs:label  "BG-HKV28 Svilengrad" .
+
+lau:BG-VID22  ramon:name  "Kula"@en ;
+        ramon:code  "BG-VID22" ;
+        rdfs:label  "BG-VID22 Kula" .
+
+lau:BG-SHU23  ramon:name  "Veliki Preslav"@en ;
+        ramon:code  "BG-SHU23" ;
+        rdfs:label  "BG-SHU23 Veliki Preslav" .
+
+lau:BG-VID25  ramon:name  "Rakovitsa"@en ;
+        ramon:code  "BG-VID25" ;
+        rdfs:label  "BG-VID25 Rakovitsa" .
+
+lau:BG-KNL04  ramon:name  "Bobov dol"@en ;
+        ramon:code  "BG-KNL04" ;
+        rdfs:label  "BG-KNL04 Bobov dol" .
+
+lau:BG-KNL05  ramon:name  "Boboshevo"@en ;
+        ramon:code  "BG-KNL05" ;
+        rdfs:label  "BG-KNL05 Boboshevo" .
+
+lau:BG-BGS17  ramon:name  "Pomorie"@en ;
+        ramon:code  "BG-BGS17" ;
+        rdfs:label  "BG-BGS17 Pomorie" .
+
+lau:BG-JAM07  ramon:name  "Elhovo"@en ;
+        ramon:code  "BG-JAM07" ;
+        rdfs:label  "BG-JAM07 Elhovo" .
+
+lau:BG-BGS15  ramon:name  "Nesebar"@en ;
+        ramon:code  "BG-BGS15" ;
+        rdfs:label  "BG-BGS15 Nesebar" .
+
+lau:BG-PDV25  ramon:name  "Rakovski"@en ;
+        ramon:code  "BG-PDV25" ;
+        rdfs:label  "BG-PDV25 Rakovski" .
+
+lau:BG-BGS13  ramon:name  "Tsarevo"@en ;
+        ramon:code  "BG-BGS13" ;
+        rdfs:label  "BG-BGS13 Tsarevo" .
+
+lau:BG-JAM03  ramon:name  "Bolyarovo"@en ;
+        ramon:code  "BG-JAM03" ;
+        rdfs:label  "BG-JAM03 Bolyarovo" .
+
+lau:BG-PDV26  ramon:name  "Tsalapitsa"@en ;
+        ramon:code  "BG-PDV26" ;
+        rdfs:label  "BG-PDV26 Tsalapitsa" .
+
+lau:BG-PDV28  ramon:name  "Bolyartsi"@en ;
+        ramon:code  "BG-PDV28" ;
+        rdfs:label  "BG-PDV28 Bolyartsi" .
+
+lau:BG-BGS18  ramon:name  "Ruen"@en ;
+        ramon:code  "BG-BGS18" ;
+        rdfs:label  "BG-BGS18 Ruen" .
+
+lau:BG-BLG49  ramon:name  "Mikrevo"@en ;
+        ramon:code  "BG-BLG49" ;
+        rdfs:label  "BG-BLG49 Mikrevo" .
+
+lau:BG-BLG28  ramon:name  "Kresna"@en ;
+        ramon:code  "BG-BLG28" ;
+        rdfs:label  "BG-BLG28 Kresna" .
+
+lau:BG-MON24  ramon:name  "Lom"@en ;
+        ramon:code  "BG-MON24" ;
+        rdfs:label  "BG-MON24 Lom" .
+
+lau:BG-BLG40  ramon:name  "Sandanski"@en ;
+        ramon:code  "BG-BLG40" ;
+        rdfs:label  "BG-BLG40 Sandanski" .
+
+lau:BG-BLG42  ramon:name  "Valkosel"@en ;
+        ramon:code  "BG-BLG42" ;
+        rdfs:label  "BG-BLG42 Valkosel" .
+
+lau:BG-HKV09  ramon:name  "Dimitrovgrad"@en ;
+        ramon:code  "BG-HKV09" ;
+        rdfs:label  "BG-HKV09 Dimitrovgrad" .
+
+lau:BG-BLG44  ramon:name  "Simitli"@en ;
+        ramon:code  "BG-BLG44" ;
+        rdfs:label  "BG-BLG44 Simitli" .
+
+lau:BG-RAZ29  ramon:name  "Samuil"@en ;
+        ramon:code  "BG-RAZ29" ;
+        rdfs:label  "BG-RAZ29 Samuil" .
+
+lau:BG-PAZ21  ramon:name  "Peshtera"@en ;
+        ramon:code  "BG-PAZ21" ;
+        rdfs:label  "BG-PAZ21 Peshtera" .
+
+lau:BG-SFO20  ramon:name  "Ihtiman"@en ;
+        ramon:code  "BG-SFO20" ;
+        rdfs:label  "BG-SFO20 Ihtiman" .
+
+lau:BG-SFO25  ramon:name  "Kostenets"@en ;
+        ramon:code  "BG-SFO25" ;
+        rdfs:label  "BG-SFO25 Kostenets" .
+
+lau:BG-SFO24  ramon:name  "Koprivshtitsa"@en ;
+        ramon:code  "BG-SFO24" ;
+        rdfs:label  "BG-SFO24 Koprivshtitsa" .
+
+lau:BG-KRZ35  ramon:name  "Komuniga"@en ;
+        ramon:code  "BG-KRZ35" ;
+        rdfs:label  "BG-KRZ35 Komuniga" .
+
+lau:BG-SFO26  ramon:name  "Kostinbrod"@en ;
+        ramon:code  "BG-SFO26" ;
+        rdfs:label  "BG-SFO26 Kostinbrod" .
+
+lau:BG-VID16  ramon:name  "Archar"@en ;
+        ramon:code  "BG-VID16" ;
+        rdfs:label  "BG-VID16 Archar" .
+
+lau:BG-VID15  ramon:name  "Gramada"@en ;
+        ramon:code  "BG-VID15" ;
+        rdfs:label  "BG-VID15 Gramada" .
+
+lau:BG-PDV23  ramon:name  "Parvomay"@en ;
+        ramon:code  "BG-PDV23" ;
+        rdfs:label  "BG-PDV23 Parvomay" .
+
+lau:BG-BGS23  ramon:name  "Sungurlare"@en ;
+        ramon:code  "BG-BGS23" ;
+        rdfs:label  "BG-BGS23 Sungurlare" .
+
+lau:BG-SZR07  ramon:name  "Galabovo"@en ;
+        ramon:code  "BG-SZR07" ;
+        rdfs:label  "BG-SZR07 Galabovo" .
+
+lau:BG-SZR04  ramon:name  "Cherna gora"@en ;
+        ramon:code  "BG-SZR04" ;
+        rdfs:label  "BG-SZR04 Cherna gora" .
+
+lau:BG-VTR06  ramon:name  "Gorna Oryahovitsa"@en ;
+        ramon:code  "BG-VTR06" ;
+        rdfs:label  "BG-VTR06 Gorna Oryahovitsa" .
+
+lau:BG-BGS27  ramon:name  "Primorsko"@en ;
+        ramon:code  "BG-BGS27" ;
+        rdfs:label  "BG-BGS27 Primorsko" .
+
+lau:BG-PDV37  ramon:name  "Hisarya"@en ;
+        ramon:code  "BG-PDV37" ;
+        rdfs:label  "BG-PDV37 Hisarya" .
+
+lau:BG-BGS12  ramon:name  "Malko Tarnovo"@en ;
+        ramon:code  "BG-BGS12" ;
+        rdfs:label  "BG-BGS12 Malko Tarnovo" .
+
+lau:BG-PVN03  ramon:name  "Belene"@en ;
+        ramon:code  "BG-PVN03" ;
+        rdfs:label  "BG-PVN03 Belene" .
+
+lau:BG-PDV39  ramon:name  "Krichim"@en ;
+        ramon:code  "BG-PDV39" ;
+        rdfs:label  "BG-PDV39 Krichim" .
+
+lau:BG-PER19  ramon:name  "Zemen"@en ;
+        ramon:code  "BG-PER19" ;
+        rdfs:label  "BG-PER19 Zemen" .
+
+lau:BG-VRC32  ramon:name  "Roman"@en ;
+        ramon:code  "BG-VRC32" ;
+        rdfs:label  "BG-VRC32 Roman" .
+
+lau:BG-PVN27  ramon:name  "Pordim"@en ;
+        ramon:code  "BG-PVN27" ;
+        rdfs:label  "BG-PVN27 Pordim" .
+
+lau:BG-MON26  ramon:name  "Medkovets"@en ;
+        ramon:code  "BG-MON26" ;
+        rdfs:label  "BG-MON26 Medkovets" .
+
+lau:BG-KRZ21  ramon:name  "Momchilgrad"@en ;
+        ramon:code  "BG-KRZ21" ;
+        rdfs:label  "BG-KRZ21 Momchilgrad" .
+
+lau:BG-MON12  ramon:name  "Varshets"@en ;
+        ramon:code  "BG-MON12" ;
+        rdfs:label  "BG-MON12 Varshets" .
+
+lau:BG-HKV33  ramon:name  "Harmanli"@en ;
+        ramon:code  "BG-HKV33" ;
+        rdfs:label  "BG-HKV33 Harmanli" .
+
+lau:BG-HKV34  ramon:name  "Haskovo"@en ;
+        ramon:code  "BG-HKV34" ;
+        rdfs:label  "BG-HKV34 Haskovo" .
+
+lau:BG-MON29  ramon:name  "Montana"@en ;
+        ramon:code  "BG-MON29" ;
+        rdfs:label  "BG-MON29 Montana" .
+
+lau:BG-HKV32  ramon:name  "Topolovgrad"@en ;
+        ramon:code  "BG-HKV32" ;
+        rdfs:label  "BG-HKV32 Topolovgrad" .
+
+lau:BG-HKV30  ramon:name  "Stambolovo"@en ;
+        ramon:code  "BG-HKV30" ;
+        rdfs:label  "BG-HKV30 Stambolovo" .
+
+lau:BG-SFO17  ramon:name  "Elin Pelin"@en ;
+        ramon:code  "BG-SFO17" ;
+        rdfs:label  "BG-SFO17 Elin Pelin" .
+
+lau:BG-SFO39  ramon:name  "Samokov"@en ;
+        ramon:code  "BG-SFO39" ;
+        rdfs:label  "BG-SFO39 Samokov" .
+
+lau:BG-BLG37  ramon:name  "Razlog"@en ;
+        ramon:code  "BG-BLG37" ;
+        rdfs:label  "BG-BLG37 Razlog" .
+
+lau:BG-BLG33  ramon:name  "Petrich"@en ;
+        ramon:code  "BG-BLG33" ;
+        rdfs:label  "BG-BLG33 Petrich" .
+
+lau:BG-VID09  ramon:name  "Vidin"@en ;
+        ramon:code  "BG-VID09" ;
+        rdfs:label  "BG-VID09 Vidin" .
+
+lau:BG-PDV22  ramon:name  "Plovdiv"@en ;
+        ramon:code  "BG-PDV22" ;
+        rdfs:label  "BG-PDV22 Plovdiv" .
+
+lau:BG-VID01  ramon:name  "Belogradchik"@en ;
+        ramon:code  "BG-VID01" ;
+        rdfs:label  "BG-VID01 Belogradchik" .
+
+lau:BG-VID03  ramon:name  "Boynitsa"@en ;
+        ramon:code  "BG-VID03" ;
+        rdfs:label  "BG-VID03 Boynitsa" .
+
+lau:BG-TGV02  ramon:name  "Antonovo"@en ;
+        ramon:code  "BG-TGV02" ;
+        rdfs:label  "BG-TGV02 Antonovo" .
+
+lau:BG-VID06  ramon:name  "Bregovo"@en ;
+        ramon:code  "BG-VID06" ;
+        rdfs:label  "BG-VID06 Bregovo" .
+
+lau:BG-JAM22  ramon:name  "Straldzha"@en ;
+        ramon:code  "BG-JAM22" ;
+        rdfs:label  "BG-JAM22 Straldzha" .
+
+lau:BG-SZR31  ramon:name  "Stara Zagora"@en ;
+        ramon:code  "BG-SZR31" ;
+        rdfs:label  "BG-SZR31 Stara Zagora" .
+
+lau:BG-SLS34  ramon:name  "Tutrakan"@en ;
+        ramon:code  "BG-SLS34" ;
+        rdfs:label  "BG-SLS34 Tutrakan" .
+
+lau:BG-SZR36  ramon:name  "Chirpan"@en ;
+        ramon:code  "BG-SZR36" ;
+        rdfs:label  "BG-SZR36 Chirpan" .
+
+lau:BG-JAM25  ramon:name  "Kukorevo"@en ;
+        ramon:code  "BG-JAM25" ;
+        rdfs:label  "BG-JAM25 Kukorevo" .
+
+lau:BG-PDV07  ramon:name  "Brezovo"@en ;
+        ramon:code  "BG-PDV07" ;
+        rdfs:label  "BG-PDV07 Brezovo" .
+
+lau:BG-PVN10  ramon:name  "Trastenik"@en ;
+        ramon:code  "BG-PVN10" ;
+        rdfs:label  "BG-PVN10 Trastenik" .
+
+lau:BG-PVN11  ramon:name  "Dolni Dabnik"@en ;
+        ramon:code  "BG-PVN11" ;
+        rdfs:label  "BG-PVN11 Dolni Dabnik" .
+
+lau:BG-PVN16  ramon:name  "Levski"@en ;
+        ramon:code  "BG-PVN16" ;
+        rdfs:label  "BG-PVN16 Levski" .
+
+lau:BG-PDV01  ramon:name  "Asenovgrad"@en ;
+        ramon:code  "BG-PDV01" ;
+        rdfs:label  "BG-PDV01 Asenovgrad" .
+
+lau:BG-MON36  ramon:name  "Chiprovtsi"@en ;
+        ramon:code  "BG-MON36" ;
+        rdfs:label  "BG-MON36 Chiprovtsi" .
+
+lau:BG-SFO06  ramon:name  "Bozhurishte"@en ;
+        ramon:code  "BG-SFO06" ;
+        rdfs:label  "BG-SFO06 Bozhurishte" .
+
+lau:BG-PAZ39  ramon:name  "Sarnitsa"@en ;
+        ramon:code  "BG-PAZ39" ;
+        rdfs:label  "BG-PAZ39 Sarnitsa" .
+
+lau:BG-RAZ17  ramon:name  "Loznitsa"@en ;
+        ramon:code  "BG-RAZ17" ;
+        rdfs:label  "BG-RAZ17 Loznitsa" .
+
+lau:BG-SLV24  ramon:name  "Tvarditsa"@en ;
+        ramon:code  "BG-SLV24" ;
+        rdfs:label  "BG-SLV24 Tvarditsa" .
+
+lau:BG-RAZ16  ramon:name  "Kubrat"@en ;
+        ramon:code  "BG-RAZ16" ;
+        rdfs:label  "BG-RAZ16 Kubrat" .
+
+lau:BG-VRC10  ramon:name  "Vratsa"@en ;
+        ramon:code  "BG-VRC10" ;
+        rdfs:label  "BG-VRC10 Vratsa" .
+
+lau:BG-SLV20  ramon:name  "Sliven"@en ;
+        ramon:code  "BG-SLV20" ;
+        rdfs:label  "BG-SLV20 Sliven" .
+
+lau:BG-PAZ32  ramon:name  "Strelcha"@en ;
+        ramon:code  "BG-PAZ32" ;
+        rdfs:label  "BG-PAZ32 Strelcha" .
+
+lau:BG-RSE27  ramon:name  "Ruse"@en ;
+        ramon:code  "BG-RSE27" ;
+        rdfs:label  "BG-RSE27 Ruse" .
+
+lau:BG-KNL50  ramon:name  "Treklyano"@en ;
+        ramon:code  "BG-KNL50" ;
+        rdfs:label  "BG-KNL50 Treklyano" .
+
+lau:BG-SFO47  ramon:name  "Zlatitsa"@en ;
+        ramon:code  "BG-SFO47" ;
+        rdfs:label  "BG-SFO47 Zlatitsa" .
+
+lau:BG-BLG01  ramon:name  "Bansko"@en ;
+        ramon:code  "BG-BLG01" ;
+        rdfs:label  "BG-BLG01 Bansko" .
+
+lau:BG-LOV19  ramon:name  "Lukovit"@en ;
+        ramon:code  "BG-LOV19" ;
+        rdfs:label  "BG-LOV19 Lukovit" .
+
+lau:BG-LOV18  ramon:name  "Lovech"@en ;
+        ramon:code  "BG-LOV18" ;
+        rdfs:label  "BG-LOV18 Lovech" .
+
+lau:BG-TGV35  ramon:name  "Targovishte"@en ;
+        ramon:code  "BG-TGV35" ;
+        rdfs:label  "BG-TGV35 Targovishte" .
+
+lau:BG-PVN24  ramon:name  "Pleven"@en ;
+        ramon:code  "BG-PVN24" ;
+        rdfs:label  "BG-PVN24 Pleven" .
+
+lau:BG-PVN23  ramon:name  "Iskar"@en ;
+        ramon:code  "BG-PVN23" ;
+        rdfs:label  "BG-PVN23 Iskar" .
+
+lau:BG-PVN21  ramon:name  "Nikopol"@en ;
+        ramon:code  "BG-PVN21" ;
+        rdfs:label  "BG-PVN21 Nikopol" .
+
+lau:BG-SZR12  ramon:name  "Kazanlak"@en ;
+        ramon:code  "BG-SZR12" ;
+        rdfs:label  "BG-SZR12 Kazanlak" .
+
+lau:BG-LOV17  ramon:name  "Letnitsa"@en ;
+        ramon:code  "BG-LOV17" ;
+        rdfs:label  "BG-LOV17 Letnitsa" .
+
+lau:BG-SML05  ramon:name  "Borino"@en ;
+        ramon:code  "BG-SML05" ;
+        rdfs:label  "BG-SML05 Borino" .
+
+lau:BG-MON14  ramon:name  "Kopilovtsi"@en ;
+        ramon:code  "BG-MON14" ;
+        rdfs:label  "BG-MON14 Kopilovtsi" .
+
+lau:BG-VRC28  ramon:name  "Mizia"@en ;
+        ramon:code  "BG-VRC28" ;
+        rdfs:label  "BG-VRC28 Mizia" .
+
+lau:BG-VRC27  ramon:name  "Mezdra"@en ;
+        ramon:code  "BG-VRC27" ;
+        rdfs:label  "BG-VRC27 Mezdra" .
+
+lau:BG-SFO34  ramon:name  "Pravets"@en ;
+        ramon:code  "BG-SFO34" ;
+        rdfs:label  "BG-SFO34 Pravets" .
+
+lau:BG-SML02  ramon:name  "Banite"@en ;
+        ramon:code  "BG-SML02" ;
+        rdfs:label  "BG-SML02 Banite" .
+
+lau:BG-SZR24  ramon:name  "Pavel banya"@en ;
+        ramon:code  "BG-SZR24" ;
+        rdfs:label  "BG-SZR24 Pavel banya" .
+
+lau:BG-VRC20  ramon:name  "Kozloduy"@en ;
+        ramon:code  "BG-VRC20" ;
+        rdfs:label  "BG-VRC20 Kozloduy" .
+
+lau:BG-PDV12  ramon:name  "Kaloyanovo"@en ;
+        ramon:code  "BG-PDV12" ;
+        rdfs:label  "BG-PDV12 Kaloyanovo" .
+
+lau:BG-PDV13  ramon:name  "Karlovo"@en ;
+        ramon:code  "BG-PDV13" ;
+        rdfs:label  "BG-PDV13 Karlovo" .
+
+lau:BG-SML09  ramon:name  "Devin"@en ;
+        ramon:code  "BG-SML09" ;
+        rdfs:label  "BG-SML09 Devin" .
+
+lau:BG-PDV15  ramon:name  "Laki"@en ;
+        ramon:code  "BG-PDV15" ;
+        rdfs:label  "BG-PDV15 Laki" .
+
+lau:BG-SZR22  ramon:name  "Maglizh"@en ;
+        ramon:code  "BG-SZR22" ;
+        rdfs:label  "BG-SZR22 Maglizh" .
+
+lau:BG-SZR23  ramon:name  "Yastrebovo"@en ;
+        ramon:code  "BG-SZR23" ;
+        rdfs:label  "BG-SZR23 Yastrebovo" .
+
+lau:BG-SFO10  ramon:name  "Gorna Malina"@en ;
+        ramon:code  "BG-SFO10" ;
+        rdfs:label  "BG-SFO10 Gorna Malina" .
+
+lau:BG-MON02  ramon:name  "Berkovitsa"@en ;
+        ramon:code  "BG-MON02" ;
+        rdfs:label  "BG-MON02 Berkovitsa" .
+
+lau:BG-PER51  ramon:name  "Tran"@en ;
+        ramon:code  "BG-PER51" ;
+        rdfs:label  "BG-PER51 Tran" .
+
+lau:BG-PDV40  ramon:name  "Perushtitsa"@en ;
+        ramon:code  "BG-PDV40" ;
+        rdfs:label  "BG-PDV40 Perushtitsa" .
+
+lau:BG-MON07  ramon:name  "Vasilovtsi"@en ;
+        ramon:code  "BG-MON07" ;
+        rdfs:label  "BG-MON07 Vasilovtsi" .
+
+lau:BG-VRC08  ramon:name  "Byala Slatina"@en ;
+        ramon:code  "BG-VRC08" ;
+        rdfs:label  "BG-VRC08 Byala Slatina" .
+
+lau:BG-DOB12  ramon:name  "General Toshevo"@en ;
+        ramon:code  "BG-DOB12" ;
+        rdfs:label  "BG-DOB12 General Toshevo" .
+
+lau:BG-SFO18  ramon:name  "Etropole"@en ;
+        ramon:code  "BG-SFO18" ;
+        rdfs:label  "BG-SFO18 Etropole" .
+
+lau:BG-SLV11  ramon:name  "Kotel"@en ;
+        ramon:code  "BG-SLV11" ;
+        rdfs:label  "BG-SLV11 Kotel" .
+
+lau:BG-VRC05  ramon:name  "Borovan"@en ;
+        ramon:code  "BG-VRC05" ;
+        rdfs:label  "BG-VRC05 Borovan" .
+
+lau:BG-SLV16  ramon:name  "Nova Zagora"@en ;
+        ramon:code  "BG-SLV16" ;
+        rdfs:label  "BG-SLV16 Nova Zagora" .
+
+lau:BG-PAZ20  ramon:name  "Panagyurishte"@en ;
+        ramon:code  "BG-PAZ20" ;
+        rdfs:label  "BG-PAZ20 Panagyurishte" .
+
+lau:BG-MON11  ramon:name  "Valchedram"@en ;
+        ramon:code  "BG-MON11" ;
+        rdfs:label  "BG-MON11 Valchedram" .
+
+lau:BG-RSE33  ramon:name  "Slivo pole"@en ;
+        ramon:code  "BG-RSE33" ;
+        rdfs:label  "BG-RSE33 Slivo pole" .
+
+lau:BG-RSE37  ramon:name  "Tsenovo"@en ;
+        ramon:code  "BG-RSE37" ;
+        rdfs:label  "BG-RSE37 Tsenovo" .
+
+lau:BG-KNL48  ramon:name  "Dupnitsa"@en ;
+        ramon:code  "BG-KNL48" ;
+        rdfs:label  "BG-KNL48 Dupnitsa" .
+
+lau:BG-BLG11  ramon:name  "Gotse Delchev"@en ;
+        ramon:code  "BG-BLG11" ;
+        rdfs:label  "BG-BLG11 Gotse Delchev" .
+
+lau:BG-TGV22  ramon:name  "Omurtag"@en ;
+        ramon:code  "BG-TGV22" ;
+        rdfs:label  "BG-TGV22 Omurtag" .
+
+lau:BG-SZR27  ramon:name  "Radnevo"@en ;
+        ramon:code  "BG-SZR27" ;
+        rdfs:label  "BG-SZR27 Radnevo" .
+
+lau:BG-TGV24  ramon:name  "Popovo"@en ;
+        ramon:code  "BG-TGV24" ;
+        rdfs:label  "BG-TGV24 Popovo" .
+
+lau:BG-PVN37  ramon:name  "Cherven bryag"@en ;
+        ramon:code  "BG-PVN37" ;
+        rdfs:label  "BG-PVN37 Cherven bryag" .
+
+lau:BG-LOV02  ramon:name  "Apriltsi"@en ;
+        ramon:code  "BG-LOV02" ;
+        rdfs:label  "BG-LOV02 Apriltsi" .
+
+lau:BG-PAZ08  ramon:name  "Velingrad"@en ;
+        ramon:code  "BG-PAZ08" ;
+        rdfs:label  "BG-PAZ08 Velingrad" .
+
+lau:BG-PDV41  ramon:name  "Stamboliyski"@en ;
+        ramon:code  "BG-PDV41" ;
+        rdfs:label  "BG-PDV41 Stamboliyski" .
+
+lau:BG-BGS08  ramon:name  "Kameno"@en ;
+        ramon:code  "BG-BGS08" ;
+        rdfs:label  "BG-BGS08 Kameno" .
+
+lau:BG-SML16  ramon:name  "Madan"@en ;
+        ramon:code  "BG-SML16" ;
+        rdfs:label  "BG-SML16 Madan" .
+
+lau:BG-VTR04  ramon:name  "Veliko Tarnovo"@en ;
+        ramon:code  "BG-VTR04" ;
+        rdfs:label  "BG-VTR04 Veliko Tarnovo" .
+
+lau:BG-LOV34  ramon:name  "Troyan"@en ;
+        ramon:code  "BG-LOV34" ;
+        rdfs:label  "BG-LOV34 Troyan" .
+
+lau:BG-SML10  ramon:name  "Dospat"@en ;
+        ramon:code  "BG-SML10" ;
+        rdfs:label  "BG-SML10 Dospat" .
+
+lau:BG-SML11  ramon:name  "Zlatograd"@en ;
+        ramon:code  "BG-SML11" ;
+        rdfs:label  "BG-SML11 Zlatograd" .
+
+lau:BG-SHU21  ramon:name  "Valnari"@en ;
+        ramon:code  "BG-SHU21" ;
+        rdfs:label  "BG-SHU21 Valnari" .
+
+lau:BG-PDV17  ramon:name  "Trud"@en ;
+        ramon:code  "BG-PDV17" ;
+        rdfs:label  "BG-PDV17 Trud" .
+
+lau:BG-SML18  ramon:name  "Nedelino"@en ;
+        ramon:code  "BG-SML18" ;
+        rdfs:label  "BG-SML18 Nedelino" .
+
+lau:BG-DOB15  ramon:name  "Stozher"@en ;
+        ramon:code  "BG-DOB15" ;
+        rdfs:label  "BG-DOB15 Stozher" .
+
+lau:BG-PAZ19  ramon:name  "Pazardzhik"@en ;
+        ramon:code  "BG-PAZ19" ;
+        rdfs:label  "BG-PAZ19 Pazardzhik" .
+
+lau:BG-DOB03  ramon:name  "Balchik"@en ;
+        ramon:code  "BG-DOB03" ;
+        rdfs:label  "BG-DOB03 Balchik" .
+
+lau:BG-BLG02  ramon:name  "Belitsa"@en ;
+        ramon:code  "BG-BLG02" ;
+        rdfs:label  "BG-BLG02 Belitsa" .
+
+lau:BG-BLG03  ramon:name  "Blagoevgrad"@en ;
+        ramon:code  "BG-BLG03" ;
+        rdfs:label  "BG-BLG03 Blagoevgrad" .
+
+lau:BG-PDV43  ramon:name  "Sopot"@en ;
+        ramon:code  "BG-PDV43" ;
+        rdfs:label  "BG-PDV43 Sopot" .
+
+lau:BG-PDV42  ramon:name  "Kuklen"@en ;
+        ramon:code  "BG-PDV42" ;
+        rdfs:label  "BG-PDV42 Kuklen" .
+
+lau:BG-VRC31  ramon:name  "Oryahovo"@en ;
+        ramon:code  "BG-VRC31" ;
+        rdfs:label  "BG-VRC31 Oryahovo" .
+
+lau:BG-SHU22  ramon:name  "Novi pazar"@en ;
+        ramon:code  "BG-SHU22" ;
+        rdfs:label  "BG-SHU22 Novi pazar" .
+
+lau:BG-DOB17  ramon:name  "Kavarna"@en ;
+        ramon:code  "BG-DOB17" ;
+        rdfs:label  "BG-DOB17 Kavarna" .
+
+lau:BG-VRC35  ramon:name  "Hayredin"@en ;
+        ramon:code  "BG-VRC35" ;
+        rdfs:label  "BG-VRC35 Hayredin" .
+
+lau:BG-PAZ14  ramon:name  "Kalugerovo"@en ;
+        ramon:code  "BG-PAZ14" ;
+        rdfs:label  "BG-PAZ14 Kalugerovo" .
+
+lau:BG-SHU25  ramon:name  "Smyadovo"@en ;
+        ramon:code  "BG-SHU25" ;
+        rdfs:label  "BG-SHU25 Smyadovo" .
+
+lau:BG-LOV36  ramon:name  "Ugarchin"@en ;
+        ramon:code  "BG-LOV36" ;
+        rdfs:label  "BG-LOV36 Ugarchin" .
+
+lau:BG-VAR16  ramon:name  "Dalgopol"@en ;
+        ramon:code  "BG-VAR16" ;
+        rdfs:label  "BG-VAR16 Dalgopol" .
+
+lau:BG-LOV33  ramon:name  "Teteven"@en ;
+        ramon:code  "BG-LOV33" ;
+        rdfs:label  "BG-LOV33 Teteven" .
+
+lau:BG-VAR13  ramon:name  "Dolni chiflik"@en ;
+        ramon:code  "BG-VAR13" ;
+        rdfs:label  "BG-VAR13 Dolni chiflik" .
+
+lau:BG-RSE08  ramon:name  "Dve mogili"@en ;
+        ramon:code  "BG-RSE08" ;
+        rdfs:label  "BG-RSE08 Dve mogili" .
+
+lau:BG-RSE05  ramon:name  "Vetovo"@en ;
+        ramon:code  "BG-RSE05" ;
+        rdfs:label  "BG-RSE05 Vetovo" .
+
+lau:BG-RSE04  ramon:name  "Byala"@en ;
+        ramon:code  "BG-RSE04" ;
+        rdfs:label  "BG-RSE04 Byala" .
+
+lau:BG-RSE03  ramon:name  "Borovo"@en ;
+        ramon:code  "BG-RSE03" ;
+        rdfs:label  "BG-RSE03 Borovo" .
+
+lau:BG-LOV38  ramon:name  "Yablanitsa"@en ;
+        ramon:code  "BG-LOV38" ;
+        rdfs:label  "BG-LOV38 Yablanitsa" .
+
+lau:BG-MON38  ramon:name  "Yakimovo"@en ;
+        ramon:code  "BG-MON38" ;
+        rdfs:label  "BG-MON38 Yakimovo" .
+
+lau:BG-GAB29  ramon:name  "Sevlievo"@en ;
+        ramon:code  "BG-GAB29" ;
+        rdfs:label  "BG-GAB29 Sevlievo" .
+
+lau:BG-SFO16  ramon:name  "Dragoman"@en ;
+        ramon:code  "BG-SFO16" ;
+        rdfs:label  "BG-SFO16 Dragoman" .
+
+lau:BG-SLS31  ramon:name  "Silistra"@en ;
+        ramon:code  "BG-SLS31" ;
+        rdfs:label  "BG-SLS31 Silistra" .
+
+lau:BG-MON04  ramon:name  "Lehchevo"@en ;
+        ramon:code  "BG-MON04" ;
+        rdfs:label  "BG-MON04 Lehchevo" .
+
+lau:BG-SLS32  ramon:name  "Iskra"@en ;
+        ramon:code  "BG-SLS32" ;
+        rdfs:label  "BG-SLS32 Iskra" .
+
+lau:BG-VTR14  ramon:name  "Zlataritsa"@en ;
+        ramon:code  "BG-VTR14" ;
+        rdfs:label  "BG-VTR14 Zlataritsa" .
+
+lau:BG-SML27  ramon:name  "Rudozem"@en ;
+        ramon:code  "BG-SML27" ;
+        rdfs:label  "BG-SML27 Rudozem" .
+
+lau:BG-VTR13  ramon:name  "Elena"@en ;
+        ramon:code  "BG-VTR13" ;
+        rdfs:label  "BG-VTR13 Elena" .
+
+lau:BG-SZR37  ramon:name  "Gurkovo"@en ;
+        ramon:code  "BG-SZR37" ;
+        rdfs:label  "BG-SZR37 Gurkovo" .
+
+lau:BG-SOF46  ramon:name  "Sofia"@en ;
+        ramon:code  "BG-SOF46" ;
+        rdfs:label  "BG-SOF46 Sofia" .
+
+lau:BG-PAZ24  ramon:name  "Rakitovo"@en ;
+        ramon:code  "BG-PAZ24" ;
+        rdfs:label  "BG-PAZ24 Rakitovo" .
+
+lau:BG-RAZ26  ramon:name  "Razgrad"@en ;
+        ramon:code  "BG-RAZ26" ;
+        rdfs:label  "BG-RAZ26 Razgrad" .
+
+lau:BG-JAM26  ramon:name  "Yambol"@en ;
+        ramon:code  "BG-JAM26" ;
+        rdfs:label  "BG-JAM26 Yambol" .
+
+lau:BG-PAZ29  ramon:name  "Septemvri"@en ;
+        ramon:code  "BG-PAZ29" ;
+        rdfs:label  "BG-PAZ29 Septemvri" .
+
+lau:BG-VAR06  ramon:name  "Varna"@en ;
+        ramon:code  "BG-VAR06" ;
+        rdfs:label  "BG-VAR06 Varna" .
+
+lau:BG-SLS01  ramon:name  "Alfatar"@en ;
+        ramon:code  "BG-SLS01" ;
+        rdfs:label  "BG-SLS01 Alfatar" .
+
+lau:BG-PER32  ramon:name  "Pernik"@en ;
+        ramon:code  "BG-PER32" ;
+        rdfs:label  "BG-PER32 Pernik" .
+
+lau:BG-SLS07  ramon:name  "Glavinitsa"@en ;
+        ramon:code  "BG-SLS07" ;
+        rdfs:label  "BG-SLS07 Glavinitsa" .
+
+lau:BG-PER36  ramon:name  "Radomir"@en ;
+        ramon:code  "BG-PER36" ;
+        rdfs:label  "BG-PER36 Radomir" .
+
+lau:BG-RAZ11  ramon:name  "Zavet"@en ;
+        ramon:code  "BG-RAZ11" ;
+        rdfs:label  "BG-RAZ11 Zavet" .
+
+lau:BG-PER08  ramon:name  "Breznik"@en ;
+        ramon:code  "BG-PER08" ;
+        rdfs:label  "BG-PER08 Breznik" .
+
+lau:BG-VAR04  ramon:name  "Beloslav"@en ;
+        ramon:code  "BG-VAR04" ;
+        rdfs:label  "BG-VAR04 Beloslav" .
+
+lau:BG-VAR05  ramon:name  "Byala"@en ;
+        ramon:code  "BG-VAR05" ;
+        rdfs:label  "BG-VAR05 Byala" .
+
+lau:BG-VAR02  ramon:name  "Aksakovo"@en ;
+        ramon:code  "BG-VAR02" ;
+        rdfs:label  "BG-VAR02 Aksakovo" .
+
+lau:BG-RAZ14  ramon:name  "Isperih"@en ;
+        ramon:code  "BG-RAZ14" ;
+        rdfs:label  "BG-RAZ14 Isperih" .
+
+lau:BG-SHU30  ramon:name  "Shumen"@en ;
+        ramon:code  "BG-SHU30" ;
+        rdfs:label  "BG-SHU30 Shumen" .
+
+lau:BG-VAR01  ramon:name  "Dabravino"@en ;
+        ramon:code  "BG-VAR01" ;
+        rdfs:label  "BG-VAR01 Dabravino" .
+
+lau:BG-VAR24  ramon:name  "Provadia"@en ;
+        ramon:code  "BG-VAR24" ;
+        rdfs:label  "BG-VAR24 Provadia" .
+
+lau:BG-KNL31  ramon:name  "Nevestino"@en ;
+        ramon:code  "BG-KNL31" ;
+        rdfs:label  "BG-KNL31 Nevestino" .
+
+lau:BG-KNL38  ramon:name  "Rila"@en ;
+        ramon:code  "BG-KNL38" ;
+        rdfs:label  "BG-KNL38 Rila" .
+
+lau:BG-RSE13  ramon:name  "Shtraklevo"@en ;
+        ramon:code  "BG-RSE13" ;
+        rdfs:label  "BG-RSE13 Shtraklevo" .
+
+lau:BG-VAR08  ramon:name  "Belogradets"@en ;
+        ramon:code  "BG-VAR08" ;
+        rdfs:label  "BG-VAR08 Belogradets" .
+
+lau:BG-VAR09  ramon:name  "Valchi dol"@en ;
+        ramon:code  "BG-VAR09" ;
+        rdfs:label  "BG-VAR09 Valchi dol" .
+
+lau:BG-KNL27  ramon:name  "Kocherinovo"@en ;
+        ramon:code  "BG-KNL27" ;
+        rdfs:label  "BG-KNL27 Kocherinovo" .
+
+lau:BG-SZR38  ramon:name  "Nikolaevo"@en ;
+        ramon:code  "BG-SZR38" ;
+        rdfs:label  "BG-SZR38 Nikolaevo" .
+
+lau:BG-KNL41  ramon:name  "Sapareva banya"@en ;
+        ramon:code  "BG-KNL41" ;
+        rdfs:label  "BG-KNL41 Sapareva banya" .
+
+lau:BG-GAB35  ramon:name  "Tryavna"@en ;
+        ramon:code  "BG-GAB35" ;
+        rdfs:label  "BG-GAB35 Tryavna" .
+
+lau:BG-KNL29  ramon:name  "Kyustendil"@en ;
+        ramon:code  "BG-KNL29" ;
+        rdfs:label  "BG-KNL29 Kyustendil" .
+
+lau:BG-VTR22  ramon:name  "Pavlikeni"@en ;
+        ramon:code  "BG-VTR22" ;
+        rdfs:label  "BG-VTR22 Pavlikeni" .
+
+lau:BG-VTR20  ramon:name  "Lyaskovets"@en ;
+        ramon:code  "BG-VTR20" ;
+        rdfs:label  "BG-VTR20 Lyaskovets" .
+
+lau:BG-SML38  ramon:name  "Chepelare"@en ;
+        ramon:code  "BG-SML38" ;
+        rdfs:label  "BG-SML38 Chepelare" .
+
+lau:BG-VTR26  ramon:name  "Polski Trambesh"@en ;
+        ramon:code  "BG-VTR26" ;
+        rdfs:label  "BG-VTR26 Polski Trambesh" .
+
+lau:BG-PVN39  ramon:name  "Knezha"@en ;
+        ramon:code  "BG-PVN39" ;
+        rdfs:label  "BG-PVN39 Knezha" .
+
+lau:BG-SFO58  ramon:name  "Chelopech"@en ;
+        ramon:code  "BG-SFO58" ;
+        rdfs:label  "BG-SFO58 Chelopech" .
+
+lau:BG-VTR28  ramon:name  "Svishtov"@en ;
+        ramon:code  "BG-VTR28" ;
+        rdfs:label  "BG-VTR28 Svishtov" .
+
+lau:BG-SML31  ramon:name  "Smolyan"@en ;
+        ramon:code  "BG-SML31" ;
+        rdfs:label  "BG-SML31 Smolyan" .
+
+lau:BG-SHU19  ramon:name  "Kaspichan"@en ;
+        ramon:code  "BG-SHU19" ;
+        rdfs:label  "BG-SHU19 Kaspichan" .

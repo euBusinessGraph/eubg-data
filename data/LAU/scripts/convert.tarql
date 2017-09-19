@@ -15,10 +15,10 @@ construct {
           ramon:name            ?latin_name;
           rdfs:label            ?label;
           void:inDataset        lau:; 
-          ramon:name            ?NAME_1;
+          ramon:name            ?native_name;
           dbo:populationTotal   ?population;
           dbo:areaTotal         ?area_size;
-          ramon:code            ?LAU2_NAT_CODE ;
+          ramon:code            ?lau2_base ;
           spatial:PP            ?lau1;
           spatial:PP            ?nuts_lau2;
           ramon:level           5.
@@ -28,7 +28,8 @@ construct {
           spatial:PP            ?nuts_lau1.
 } WHERE {
     BIND("http://data.businessgraph.io/lau/" as ?base)
-    BIND(URI(CONCAT(?base, UCASE("{country}"), "-", ?LAU2_NAT_CODE)) as ?lau2)
+    BIND(CONCAT(UCASE("{country}"), "-", ?LAU2_NAT_CODE) as ?lau2_base)
+    BIND(URI(CONCAT(?base, ?lau2_base)) as ?lau2)
 
     BIND(IF(?LAU1_NAT_CODE = "n.a." || ?LAU1_NAT_CODE = "" || ?LAU1_NAT_CODE = "no" || 
             regex(?NUTS_3, "^IE"), 
@@ -61,6 +62,6 @@ construct {
             ?undef,
             strlang(?NAME_1, "{language}")) as ?native_name)
 
-    BIND(concat(?LAU2_NAT_CODE, " ", IF(BOUND(?latin_name), ?latin_name, ?NAME_1)) as ?label)
+    BIND(concat(?lau2_base, " ", IF(BOUND(?latin_name), ?latin_name, ?NAME_1)) as ?label)
 }
 
