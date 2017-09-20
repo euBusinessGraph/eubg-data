@@ -1,4 +1,5 @@
 @prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
 @prefix nuts:  <http://nuts.geovocab.org/id/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
@@ -8,25 +9,43 @@
 @prefix spatial:  <http://geovocab.org/spatial#> .
 
 lau:MT-MT013  ramon:name  "Birżebbuġa"@en ;
-        ramon:code  "MT-MT013" ;
-        rdfs:label  "MT-MT013 Birżebbuġa" .
+        ramon:name      "Birżebbuġa"@mt ;
+        ramon:code      "MT-MT013" ;
+        rdfs:label      "MT-MT013 Birżebbuġa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:MT-MT012  ramon:name  "Birkirkara"@en ;
-        ramon:code  "MT-MT012" ;
-        rdfs:label  "MT-MT012 Birkirkara" .
+        ramon:name      "Birkirkara"@mt ;
+        ramon:code      "MT-MT012" ;
+        rdfs:label      "MT-MT012 Birkirkara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:MT-MT011  ramon:name  "Citta' Hompesch"@en ;
-        ramon:code  "MT-MT011" ;
-        rdfs:label  "MT-MT011 Citta' Hompesch" .
+        ramon:name      "Ħaż-Żabbar"@mt ;
+        ramon:code      "MT-MT011" ;
+        rdfs:label      "MT-MT011 Citta' Hompesch" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:MT-MT015  ramon:name  "Mosta"@en ;
-        ramon:code  "MT-MT015" ;
-        rdfs:label  "MT-MT015 Mosta" .
+        ramon:name      "Il-Mosta"@mt ;
+        ramon:code      "MT-MT015" ;
+        rdfs:label      "MT-MT015 Mosta" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:MT-MT014  ramon:name  "Citta' Rohan"@en ;
-        ramon:code  "MT-MT014" ;
-        rdfs:label  "MT-MT014 Citta' Rohan" .
+        ramon:name      "Ħaż-Żebbuġ"@mt ;
+        ramon:code      "MT-MT014" ;
+        rdfs:label      "MT-MT014 Citta' Rohan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:MT-MT026  ramon:name  "Citta' Victoria"@en ;
-        ramon:code  "MT-MT026" ;
-        rdfs:label  "MT-MT026 Citta' Victoria" .
+        ramon:name      "Ir-Rabat, Għawdex"@mt ;
+        ramon:code      "MT-MT026" ;
+        rdfs:label      "MT-MT026 Citta' Victoria" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

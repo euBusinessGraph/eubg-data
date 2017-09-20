@@ -1,4 +1,5 @@
 @prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
 @prefix nuts:  <http://nuts.geovocab.org/id/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
@@ -8,61 +9,106 @@
 @prefix spatial:  <http://geovocab.org/spatial#> .
 
 lau:EE-0049  ramon:name  "Jõgeva"@en ;
-        ramon:code  "EE-0049" ;
-        rdfs:label  "EE-0049 Jõgeva" .
+        ramon:name      "Jõgeva"@et ;
+        ramon:code      "EE-0049" ;
+        rdfs:label      "EE-0049 Jõgeva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0059  ramon:name  "Rakvere"@en ;
-        ramon:code  "EE-0059" ;
-        rdfs:label  "EE-0059 Rakvere" .
+        ramon:name      "Rakvere"@et ;
+        ramon:code      "EE-0059" ;
+        rdfs:label      "EE-0059 Rakvere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0039  ramon:name  "Hiiu"@en ;
-        ramon:code  "EE-0039" ;
-        rdfs:label  "EE-0039 Hiiu" .
+        ramon:name      "Hiiu"@et ;
+        ramon:code      "EE-0039" ;
+        rdfs:label      "EE-0039 Hiiu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0070  ramon:name  "Rapla"@en ;
-        ramon:code  "EE-0070" ;
-        rdfs:label  "EE-0070 Rapla" .
+        ramon:name      "Rapla"@et ;
+        ramon:code      "EE-0070" ;
+        rdfs:label      "EE-0070 Rapla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0057  ramon:name  "Haapsalu"@en ;
-        ramon:code  "EE-0057" ;
-        rdfs:label  "EE-0057 Haapsalu" .
+        ramon:name      "Haapsalu"@et ;
+        ramon:code      "EE-0057" ;
+        rdfs:label      "EE-0057 Haapsalu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0037  ramon:name  "Tallinn"@en ;
-        ramon:code  "EE-0037" ;
-        rdfs:label  "EE-0037 Tallinn" .
+        ramon:name      "Tallinn"@et ;
+        ramon:code      "EE-0037" ;
+        rdfs:label      "EE-0037 Tallinn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0044  ramon:name  "Narva"@en ;
-        ramon:code  "EE-0044" ;
-        rdfs:label  "EE-0044 Narva" .
+        ramon:name      "Narva"@et ;
+        ramon:code      "EE-0044" ;
+        rdfs:label      "EE-0044 Narva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0067  ramon:name  "Pärnu"@en ;
-        ramon:code  "EE-0067" ;
-        rdfs:label  "EE-0067 Pärnu" .
+        ramon:name      "Pärnu"@et ;
+        ramon:code      "EE-0067" ;
+        rdfs:label      "EE-0067 Pärnu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0065  ramon:name  "Põlva"@en ;
-        ramon:code  "EE-0065" ;
-        rdfs:label  "EE-0065 Põlva" .
+        ramon:name      "Põlva"@et ;
+        ramon:code      "EE-0065" ;
+        rdfs:label      "EE-0065 Põlva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0074  ramon:name  "Kuressaare"@en ;
-        ramon:code  "EE-0074" ;
-        rdfs:label  "EE-0074 Kuressaare" .
+        ramon:name      "Kuressaare"@et ;
+        ramon:code      "EE-0074" ;
+        rdfs:label      "EE-0074 Kuressaare" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0084  ramon:name  "Viljandi"@en ;
-        ramon:code  "EE-0084" ;
-        rdfs:label  "EE-0084 Viljandi" .
+        ramon:name      "Viljandi"@et ;
+        ramon:code      "EE-0084" ;
+        rdfs:label      "EE-0084 Viljandi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0078  ramon:name  "Tartu"@en ;
-        ramon:code  "EE-0078" ;
-        rdfs:label  "EE-0078 Tartu" .
+        ramon:name      "Tartu"@et ;
+        ramon:code      "EE-0078" ;
+        rdfs:label      "EE-0078 Tartu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0086  ramon:name  "Võru"@en ;
-        ramon:code  "EE-0086" ;
-        rdfs:label  "EE-0086 Võru" .
+        ramon:name      "Võru"@et ;
+        ramon:code      "EE-0086" ;
+        rdfs:label      "EE-0086 Võru" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0051  ramon:name  "Türi"@en ;
-        ramon:code  "EE-0051" ;
-        rdfs:label  "EE-0051 Türi" .
+        ramon:name      "Türi"@et ;
+        ramon:code      "EE-0051" ;
+        rdfs:label      "EE-0051 Türi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:EE-0082  ramon:name  "Valga"@en ;
-        ramon:code  "EE-0082" ;
-        rdfs:label  "EE-0082 Valga" .
+        ramon:name      "Valga"@et ;
+        ramon:code      "EE-0082" ;
+        rdfs:label      "EE-0082 Valga" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

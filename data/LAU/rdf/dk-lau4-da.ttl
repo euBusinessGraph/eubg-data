@@ -1,4 +1,5 @@
 @prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
 @prefix nuts:  <http://nuts.geovocab.org/id/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
@@ -7,200 +8,596 @@
 @prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix spatial:  <http://geovocab.org/spatial#> .
 
-lau:DK-217  ramon:code  "DK-217" .
-
-lau:DK-210  ramon:code  "DK-210" .
-
-lau:DK-760  ramon:code  "DK-760" .
-
-lau:DK-766  ramon:code  "DK-766" .
-
-lau:DK-661  ramon:code  "DK-661" .
-
-lau:DK-219  ramon:code  "DK-219" .
-
-lau:DK-492  ramon:code  "DK-492" .
-
-lau:DK-573  ramon:code  "DK-573" .
-
-lau:DK-540  ramon:code  "DK-540" .
-
-lau:DK-340  ramon:code  "DK-340" .
-
-lau:DK-400  ramon:code  "DK-400" .
-
-lau:DK-810  ramon:code  "DK-810" .
-
-lau:DK-813  ramon:code  "DK-813" .
-
-lau:DK-665  ramon:code  "DK-665" .
-
-lau:DK-671  ramon:code  "DK-671" .
-
-lau:DK-710  ramon:code  "DK-710" .
-
-lau:DK-260  ramon:code  "DK-260" .
-
-lau:DK-330  ramon:code  "DK-330" .
-
-lau:DK-265  ramon:code  "DK-265" .
-
-lau:DK-269  ramon:code  "DK-269" .
-
-lau:DK-410  ramon:code  "DK-410" .
-
-lau:DK-411  ramon:code  "DK-411" .
-
-lau:DK-530  ramon:code  "DK-530" .
-
-lau:DK-825  ramon:code  "DK-825" .
-
-lau:DK-370  ramon:code  "DK-370" .
-
-lau:DK-820  ramon:code  "DK-820" .
-
-lau:DK-376  ramon:code  "DK-376" .
-
-lau:DK-706  ramon:code  "DK-706" .
-
-lau:DK-707  ramon:code  "DK-707" .
-
-lau:DK-190  ramon:code  "DK-190" .
-
-lau:DK-270  ramon:code  "DK-270" .
-
-lau:DK-390  ramon:code  "DK-390" .
-
-lau:DK-250  ramon:code  "DK-250" .
-
-lau:DK-791  ramon:code  "DK-791" .
-
-lau:DK-420  ramon:code  "DK-420" .
-
-lau:DK-360  ramon:code  "DK-360" .
-
-lau:DK-580  ramon:code  "DK-580" .
-
-lau:DK-440  ramon:code  "DK-440" .
-
-lau:DK-306  ramon:code  "DK-306" .
-
-lau:DK-240  ramon:code  "DK-240" .
-
-lau:DK-101  ramon:code  "DK-101" .
-
-lau:DK-851  ramon:code  "DK-851" .
-
-lau:DK-846  ramon:code  "DK-846" .
-
-lau:DK-787  ramon:code  "DK-787" .
-
-lau:DK-840  ramon:code  "DK-840" .
-
-lau:DK-849  ramon:code  "DK-849" .
-
-lau:DK-510  ramon:code  "DK-510" .
-
-lau:DK-430  ramon:code  "DK-430" .
-
-lau:DK-740  ramon:code  "DK-740" .
-
-lau:DK-621  ramon:code  "DK-621" .
-
-lau:DK-450  ramon:code  "DK-450" .
-
-lau:DK-336  ramon:code  "DK-336" .
-
-lau:DK-607  ramon:code  "DK-607" .
-
-lau:DK-575  ramon:code  "DK-575" .
-
-lau:DK-259  ramon:code  "DK-259" .
-
-lau:DK-253  ramon:code  "DK-253" .
-
-lau:DK-175  ramon:code  "DK-175" .
-
-lau:DK-173  ramon:code  "DK-173" .
-
-lau:DK-746  ramon:code  "DK-746" .
-
-lau:DK-183  ramon:code  "DK-183" .
-
-lau:DK-730  ramon:code  "DK-730" .
-
-lau:DK-187  ramon:code  "DK-187" .
-
-lau:DK-185  ramon:code  "DK-185" .
-
-lau:DK-630  ramon:code  "DK-630" .
-
-lau:DK-751  ramon:code  "DK-751" .
-
-lau:DK-756  ramon:code  "DK-756" .
-
-lau:DK-561  ramon:code  "DK-561" .
-
-lau:DK-563  ramon:code  "DK-563" .
-
-lau:DK-461  ramon:code  "DK-461" .
-
-lau:DK-316  ramon:code  "DK-316" .
-
-lau:DK-169  ramon:code  "DK-169" .
-
-lau:DK-165  ramon:code  "DK-165" .
-
-lau:DK-167  ramon:code  "DK-167" .
-
-lau:DK-223  ramon:code  "DK-223" .
-
-lau:DK-161  ramon:code  "DK-161" .
-
-lau:DK-163  ramon:code  "DK-163" .
-
-lau:DK-860  ramon:code  "DK-860" .
-
-lau:DK-727  ramon:code  "DK-727" .
-
-lau:DK-151  ramon:code  "DK-151" .
-
-lau:DK-741  ramon:code  "DK-741" .
-
-lau:DK-153  ramon:code  "DK-153" .
-
-lau:DK-155  ramon:code  "DK-155" .
-
-lau:DK-157  ramon:code  "DK-157" .
-
-lau:DK-159  ramon:code  "DK-159" .
-
-lau:DK-550  ramon:code  "DK-550" .
-
-lau:DK-230  ramon:code  "DK-230" .
-
-lau:DK-657  ramon:code  "DK-657" .
-
-lau:DK-320  ramon:code  "DK-320" .
-
-lau:DK-326  ramon:code  "DK-326" .
-
-lau:DK-329  ramon:code  "DK-329" .
-
-lau:DK-201  ramon:code  "DK-201" .
-
-lau:DK-147  ramon:code  "DK-147" .
-
-lau:DK-773  ramon:code  "DK-773" .
-
-lau:DK-779  ramon:code  "DK-779" .
-
-lau:DK-615  ramon:code  "DK-615" .
-
-lau:DK-482  ramon:code  "DK-482" .
-
-lau:DK-480  ramon:code  "DK-480" .
-
-lau:DK-350  ramon:code  "DK-350" .
-
-lau:DK-479  ramon:code  "DK-479" .
+lau:DK-217  ramon:name  "Vestervang Sogn"@da ;
+        ramon:code      "DK-217" ;
+        rdfs:label      "DK-217 Vestervang Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-210  ramon:name  "Karlebo Sogn"@da ;
+        ramon:code      "DK-210" ;
+        rdfs:label      "DK-210 Karlebo Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-760  ramon:name  "Skjern Sogn"@da ;
+        ramon:code      "DK-760" ;
+        rdfs:label      "DK-760 Skjern Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-766  ramon:name  "Hedensted Sogn"@da ;
+        ramon:code      "DK-766" ;
+        rdfs:label      "DK-766 Hedensted Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-661  ramon:name  "Holstebro Sogn"@da ;
+        ramon:code      "DK-661" ;
+        rdfs:label      "DK-661 Holstebro Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-219  ramon:name  "Præstevang Sogn"@da ;
+        ramon:code      "DK-219" ;
+        rdfs:label      "DK-219 Præstevang Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-492  ramon:name  "Marstal Sogn"@da ;
+        ramon:code      "DK-492" ;
+        rdfs:label      "DK-492 Marstal Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-573  ramon:name  "Varde Sogn"@da ;
+        ramon:code      "DK-573" ;
+        rdfs:label      "DK-573 Varde Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-540  ramon:name  "Christians Sogn"@da ;
+        ramon:code      "DK-540" ;
+        rdfs:label      "DK-540 Christians Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-340  ramon:name  "Sorø Sogn"@da ;
+        ramon:code      "DK-340" ;
+        rdfs:label      "DK-340 Sorø Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-400  ramon:name  "Rønne Sogn"@da ;
+        ramon:code      "DK-400" ;
+        rdfs:label      "DK-400 Rønne Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-810  ramon:name  "Brønderslev Sogn"@da ;
+        ramon:code      "DK-810" ;
+        rdfs:label      "DK-810 Brønderslev Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-813  ramon:name  "Abildgård Sogn"@da ;
+        ramon:code      "DK-813" ;
+        rdfs:label      "DK-813 Abildgård Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-665  ramon:name  "Lemvig Sogn"@da ;
+        ramon:code      "DK-665" ;
+        rdfs:label      "DK-665 Lemvig Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-671  ramon:name  "Struer Sogn"@da ;
+        ramon:code      "DK-671" ;
+        rdfs:label      "DK-671 Struer Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-710  ramon:name  "Hadsten Sogn"@da ;
+        ramon:code      "DK-710" ;
+        rdfs:label      "DK-710 Hadsten Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-260  ramon:name  "Torup Sogn"@da ;
+        ramon:code      "DK-260" ;
+        rdfs:label      "DK-260 Torup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-330  ramon:name  "Sankt Peders Sogn"@da ;
+        ramon:code      "DK-330" ;
+        rdfs:label      "DK-330 Sankt Peders Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-265  ramon:name  "Roskilde Domsogn"@da ;
+        ramon:code      "DK-265" ;
+        rdfs:label      "DK-265 Roskilde Domsogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-269  ramon:name  "Solrød Sogn"@da ;
+        ramon:code      "DK-269" ;
+        rdfs:label      "DK-269 Solrød Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-410  ramon:name  "Middelfart Sogn"@da ;
+        ramon:code      "DK-410" ;
+        rdfs:label      "DK-410 Middelfart Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-411  ramon:name  "Christiansø Sogn"@da ;
+        ramon:code      "DK-411" ;
+        rdfs:label      "DK-411 Christiansø Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-530  ramon:name  "Grindsted Sogn"@da ;
+        ramon:code      "DK-530" ;
+        rdfs:label      "DK-530 Grindsted Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-825  ramon:name  "Byrum Sogn"@da ;
+        ramon:code      "DK-825" ;
+        rdfs:label      "DK-825 Byrum Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-370  ramon:name  "Sankt Peders Sogn"@da ;
+        ramon:code      "DK-370" ;
+        rdfs:label      "DK-370 Sankt Peders Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-820  ramon:name  "Aars Sogn"@da ;
+        ramon:code      "DK-820" ;
+        rdfs:label      "DK-820 Aars Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-376  ramon:name  "Nykøbing F Sogn"@da ;
+        ramon:code      "DK-376" ;
+        rdfs:label      "DK-376 Nykøbing F Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-706  ramon:name  "Ebeltoft-Dråby-Handrup Sogn"@da ;
+        ramon:code      "DK-706" ;
+        rdfs:label      "DK-706 Ebeltoft-Dråby-Handrup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-707  ramon:name  "Grenaa Sogn"@da ;
+        ramon:code      "DK-707" ;
+        rdfs:label      "DK-707 Grenaa Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-190  ramon:name  "Farum Sogn"@da ;
+        ramon:code      "DK-190" ;
+        rdfs:label      "DK-190 Farum Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-270  ramon:name  "Helsinge Sogn"@da ;
+        ramon:code      "DK-270" ;
+        rdfs:label      "DK-270 Helsinge Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-390  ramon:name  "Vordingborg Sogn"@da ;
+        ramon:code      "DK-390" ;
+        rdfs:label      "DK-390 Vordingborg Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-250  ramon:name  "Slangerup Sogn"@da ;
+        ramon:code      "DK-250" ;
+        rdfs:label      "DK-250 Slangerup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-791  ramon:name  "Viborg Domsogn"@da ;
+        ramon:code      "DK-791" ;
+        rdfs:label      "DK-791 Viborg Domsogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-420  ramon:name  "Vissenbjerg Sogn"@da ;
+        ramon:code      "DK-420" ;
+        rdfs:label      "DK-420 Vissenbjerg Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-360  ramon:name  "Sankt Nikolai Sogn"@da ;
+        ramon:code      "DK-360" ;
+        rdfs:label      "DK-360 Sankt Nikolai Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-580  ramon:name  "Aabenraa Sogn"@da ;
+        ramon:code      "DK-580" ;
+        rdfs:label      "DK-580 Aabenraa Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-440  ramon:name  "Kerteminde-Drigstrup Sogn"@da ;
+        ramon:code      "DK-440" ;
+        rdfs:label      "DK-440 Kerteminde-Drigstrup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-306  ramon:name  "Nykøbing Sj Sogn"@da ;
+        ramon:code      "DK-306" ;
+        rdfs:label      "DK-306 Nykøbing Sj Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-240  ramon:name  "Ølstykke Sogn"@da ;
+        ramon:code      "DK-240" ;
+        rdfs:label      "DK-240 Ølstykke Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-101  ramon:name  "Vesterbro Sogn"@da ;
+        ramon:code      "DK-101" ;
+        rdfs:label      "DK-101 Vesterbro Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-851  ramon:name  "Vejgaard Sogn"@da ;
+        ramon:code      "DK-851" ;
+        rdfs:label      "DK-851 Vejgaard Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-846  ramon:name  "Hobro Sogn"@da ;
+        ramon:code      "DK-846" ;
+        rdfs:label      "DK-846 Hobro Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-787  ramon:name  "Thisted Sogn"@da ;
+        ramon:code      "DK-787" ;
+        rdfs:label      "DK-787 Thisted Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-840  ramon:name  "Buderup Sogn"@da ;
+        ramon:code      "DK-840" ;
+        rdfs:label      "DK-840 Buderup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-849  ramon:name  "Jetsmark Sogn"@da ;
+        ramon:code      "DK-849" ;
+        rdfs:label      "DK-849 Jetsmark Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-510  ramon:name  "Haderslev Vor Frue Domsogn"@da ;
+        ramon:code      "DK-510" ;
+        rdfs:label      "DK-510 Haderslev Vor Frue Domsogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-430  ramon:name  "Ringe Sogn"@da ;
+        ramon:code      "DK-430" ;
+        rdfs:label      "DK-430 Ringe Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-740  ramon:name  "Balle Sogn"@da ;
+        ramon:code      "DK-740" ;
+        rdfs:label      "DK-740 Balle Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-621  ramon:name  "Kristkirkens Sogn"@da ;
+        ramon:code      "DK-621" ;
+        rdfs:label      "DK-621 Kristkirkens Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-450  ramon:name  "Nyborg Sogn"@da ;
+        ramon:code      "DK-450" ;
+        rdfs:label      "DK-450 Nyborg Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-336  ramon:name  "Strøby Sogn"@da ;
+        ramon:code      "DK-336" ;
+        rdfs:label      "DK-336 Strøby Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-607  ramon:name  "Hannerup Sogn"@da ;
+        ramon:code      "DK-607" ;
+        rdfs:label      "DK-607 Hannerup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-575  ramon:name  "Vejen Sogn"@da ;
+        ramon:code      "DK-575" ;
+        rdfs:label      "DK-575 Vejen Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-259  ramon:name  "Herfølge Sogn"@da ;
+        ramon:code      "DK-259" ;
+        rdfs:label      "DK-259 Herfølge Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-253  ramon:name  "Kildebrønde Sogn"@da ;
+        ramon:code      "DK-253" ;
+        rdfs:label      "DK-253 Kildebrønde Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-175  ramon:name  "Rødovre Sogn"@da ;
+        ramon:code      "DK-175" ;
+        rdfs:label      "DK-175 Rødovre Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-173  ramon:name  "Kongens Lyngby Sogn"@da ;
+        ramon:code      "DK-173" ;
+        rdfs:label      "DK-173 Kongens Lyngby Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-746  ramon:name  "Skanderborg Sogn"@da ;
+        ramon:code      "DK-746" ;
+        rdfs:label      "DK-746 Skanderborg Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-183  ramon:name  "Ishøj Sogn"@da ;
+        ramon:code      "DK-183" ;
+        rdfs:label      "DK-183 Ishøj Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-730  ramon:name  "Kristrup Sogn"@da ;
+        ramon:code      "DK-730" ;
+        rdfs:label      "DK-730 Kristrup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-187  ramon:name  "Vallensbæk Sogn"@da ;
+        ramon:code      "DK-187" ;
+        rdfs:label      "DK-187 Vallensbæk Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-185  ramon:name  "Skelgårds Sogn"@da ;
+        ramon:code      "DK-185" ;
+        rdfs:label      "DK-185 Skelgårds Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-630  ramon:name  "Sankt Nikolaj Sogn"@da ;
+        ramon:code      "DK-630" ;
+        rdfs:label      "DK-630 Sankt Nikolaj Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-751  ramon:name  "Christians Sogn"@da ;
+        ramon:code      "DK-751" ;
+        rdfs:label      "DK-751 Christians Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-756  ramon:name  "Ikast Sogn"@da ;
+        ramon:code      "DK-756" ;
+        rdfs:label      "DK-756 Ikast Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-561  ramon:name  "Sædden Sogn"@da ;
+        ramon:code      "DK-561" ;
+        rdfs:label      "DK-561 Sædden Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-563  ramon:name  "Nordby Sogn"@da ;
+        ramon:code      "DK-563" ;
+        rdfs:label      "DK-563 Nordby Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-461  ramon:name  "Fredens Sogn"@da ;
+        ramon:code      "DK-461" ;
+        rdfs:label      "DK-461 Fredens Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-316  ramon:name  "Sankt Nikolai Sogn"@da ;
+        ramon:code      "DK-316" ;
+        rdfs:label      "DK-316 Sankt Nikolai Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-169  ramon:name  "Tåstrup Nykirke Sogn"@da ;
+        ramon:code      "DK-169" ;
+        rdfs:label      "DK-169 Tåstrup Nykirke Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-165  ramon:name  "Herstedøster Sogn"@da ;
+        ramon:code      "DK-165" ;
+        rdfs:label      "DK-165 Herstedøster Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-167  ramon:name  "Avedøre Sogn"@da ;
+        ramon:code      "DK-167" ;
+        rdfs:label      "DK-167 Avedøre Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-223  ramon:name  "Hørsholm Sogn"@da ;
+        ramon:code      "DK-223" ;
+        rdfs:label      "DK-223 Hørsholm Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-161  ramon:name  "Glostrup Sogn"@da ;
+        ramon:code      "DK-161" ;
+        rdfs:label      "DK-161 Glostrup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-163  ramon:name  "Lindehøj Sogn"@da ;
+        ramon:code      "DK-163" ;
+        rdfs:label      "DK-163 Lindehøj Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-860  ramon:name  "Sankt Catharinæ Sogn"@da ;
+        ramon:code      "DK-860" ;
+        rdfs:label      "DK-860 Sankt Catharinæ Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-727  ramon:name  "Odder Sogn"@da ;
+        ramon:code      "DK-727" ;
+        rdfs:label      "DK-727 Odder Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-151  ramon:name  "Ballerup Sogn"@da ;
+        ramon:code      "DK-151" ;
+        rdfs:label      "DK-151 Ballerup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-741  ramon:name  "Samsø Sogn"@da ;
+        ramon:code      "DK-741" ;
+        rdfs:label      "DK-741 Samsø Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-153  ramon:name  "Brøndby Strand Sogn"@da ;
+        ramon:code      "DK-153" ;
+        rdfs:label      "DK-153 Brøndby Strand Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-155  ramon:name  "Store Magleby Sogn"@da ;
+        ramon:code      "DK-155" ;
+        rdfs:label      "DK-155 Store Magleby Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-157  ramon:name  "Ordrup Sogn"@da ;
+        ramon:code      "DK-157" ;
+        rdfs:label      "DK-157 Ordrup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-159  ramon:name  "Stengård Sogn"@da ;
+        ramon:code      "DK-159" ;
+        rdfs:label      "DK-159 Stengård Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-550  ramon:name  "Tønder Sogn"@da ;
+        ramon:code      "DK-550" ;
+        rdfs:label      "DK-550 Tønder Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-230  ramon:name  "Birkerød Sogn"@da ;
+        ramon:code      "DK-230" ;
+        rdfs:label      "DK-230 Birkerød Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-657  ramon:name  "Gjellerup Sogn"@da ;
+        ramon:code      "DK-657" ;
+        rdfs:label      "DK-657 Gjellerup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-320  ramon:name  "Haslev Sogn"@da ;
+        ramon:code      "DK-320" ;
+        rdfs:label      "DK-320 Haslev Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-326  ramon:name  "Raklev Sogn"@da ;
+        ramon:code      "DK-326" ;
+        rdfs:label      "DK-326 Raklev Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-329  ramon:name  "Ringsted Sogn"@da ;
+        ramon:code      "DK-329" ;
+        rdfs:label      "DK-329 Ringsted Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-201  ramon:name  "Lillerød Sogn"@da ;
+        ramon:code      "DK-201" ;
+        rdfs:label      "DK-201 Lillerød Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-147  ramon:name  "Frederiksberg Sogn"@da ;
+        ramon:code      "DK-147" ;
+        rdfs:label      "DK-147 Frederiksberg Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-773  ramon:name  "Nykøbing M Sogn"@da ;
+        ramon:code      "DK-773" ;
+        rdfs:label      "DK-773 Nykøbing M Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-779  ramon:name  "Skive Sogn"@da ;
+        ramon:code      "DK-779" ;
+        rdfs:label      "DK-779 Skive Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-615  ramon:name  "Klostersogn"@da ;
+        ramon:code      "DK-615" ;
+        rdfs:label      "DK-615 Klostersogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-482  ramon:name  "Rudkøbing Sogn"@da ;
+        ramon:code      "DK-482" ;
+        rdfs:label      "DK-482 Rudkøbing Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-480  ramon:name  "Otterup Sogn"@da ;
+        ramon:code      "DK-480" ;
+        rdfs:label      "DK-480 Otterup Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-350  ramon:name  "Kirke Hvalsø Sogn"@da ;
+        ramon:code      "DK-350" ;
+        rdfs:label      "DK-350 Kirke Hvalsø Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:DK-479  ramon:name  "Vor Frue Sogn"@da ;
+        ramon:code      "DK-479" ;
+        rdfs:label      "DK-479 Vor Frue Sogn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

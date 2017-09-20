@@ -38,6 +38,13 @@ LAU 1 is the same as NUTS3 for these countries:
 * SE
 For all other countries the LAU1 codes is different from NUTS3 and should be extracted.
 ## Extraction based on LAU2 with largest population
+There's no data published for LAU1 holding both the name of the region and it's code.
+We decided to use the name of the largest LAU2 region in terms of population as name for the LAU1 name. 
+Examples with BG: 
+* BG341	BGS01	00151	no	Айтос	Aytos	19462	79033000 - is the largest LAU2 and indeed Aytos should be the name of the LAU1 region
+* BG341	BGS04	07079	30/06/2015	Бургас	Burgas	203017	284442000 - is the largest LAU2 and indeed Burgas should be the name of the LAU1 region
+
+Evaluation:
 * AT - not needed 
 * BE - not needed
 * BG - done
@@ -137,7 +144,7 @@ We'll use NUTS3_13 as latest present identificator.
 ## Column eval
 * NUTS_3 - blanks: "0", ""
 * LAU1_NAT_CODE - blanks are: "n.a.", "", "no" - not unique between countries
-* LAU2_NAT_CODE - has duplicates for DK - not unique between countries
+* LAU2_NAT_CODE - has duplicates for DK - not unique between countries.
 -----------------------
 | LAU2_NAT_CODE | num |
 -----------------------
@@ -172,61 +179,7 @@ We'll use NUTS3_13 as latest present identificator.
 | "8111"        | 2   |
 | "8025"        | 2   |
 -----------------------
-For DK LAU1+LAU2 seem to make uniq ID
-* CHANGE - mostly dates:
-----------------
-| CHANGE       |
-----------------
-| "no"         |
-| "30/06/2015" |
-| "10/07/2015" |
-| "12/06/2015" |
-| "01/01/2015" |
-| "06/11/2015" |
-----------------
-----------
-| CHANGE |
-----------
-| "no"   |
-| "yes"  |
-----------
----------------------------
-| CHANGE                  |
----------------------------
-| "no"                    |
-| "Sum of LAU2 7301+7302" |
-| "Sum of LAU2 7025+7030" |
-| "Sum of LAU2 7292+7293" |
----------------------------
---------------
-| CHANGE     |
---------------
-| "no"       |
-| "1/1/2016" |
---------------
-----------
-| CHANGE |
-----------
-|        |
-----------
-----------------
-| CHANGE       |
-----------------
-| "no"         |
-| "01.01.2016" |
-----------------
-----------------
-| CHANGE       |
-----------------
-| "no"         |
-| "10-08-2015" |
-| "26-08-2015" |
-| "11-02-2015" |
-| "05-06-2015" |
-| "04-06-2015" |
-| "08-06-2015" |
-| "24-02-2015" |
-----------------
+For DK LAU1+LAU2 seem to make uniq ID,  so we use the following URLs for DK LAU2: lau:DK-<lau1>-<lau2>
 * NAME_1 - strings
 * NAME_2_LAT - strings
 * POP - numeric, blanks: "n.a.", "", make regex filter only digits

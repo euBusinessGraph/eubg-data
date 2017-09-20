@@ -28,18 +28,18 @@ do
 
         # handle exceptions in files
         if [[ $country == "it" ]];then
-            sed -i.bak "s/\?POP/\?POP_2015/g" .temp.tarql
+            sed -i "s/\?POP/\?POP_2015/g" .temp.tarql
         fi
 
         if [[ $country == "uk" ]];then
-            sed -i.bak "s/\?NUTS_3/\?NUTS3_13/g" .temp.tarql
+            sed -i "s/\?NUTS_3/\?NUTS3_13/g" .temp.tarql
         fi
 
         if [[ $country == "dk" ]];then
-            sed -i.bak "s/, ?LAU2_NAT_CODE/, ?LAU1_NAT_CODE, '-', ?LAU2_NAT_CODE/g" .temp.tarql
+            sed -i "s/, ?LAU2_NAT_CODE/, ?LAU1_NAT_CODE, '-', ?LAU2_NAT_CODE/g" .temp.tarql
         fi
 
-       sed -i.bak "s/{language}/$langs_code/g" .temp.tarql
+       sed -i "s/{language}/$langs_code/g" .temp.tarql
 
         if [[ $delimiter != "" ]];then
             tarql -d ${delimiter} .temp.tarql $file > ${out_folder}/${country}-${suffix}-${langs_code}.ttl

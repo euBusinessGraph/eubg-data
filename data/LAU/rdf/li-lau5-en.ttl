@@ -1,0 +1,98 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:LI-9491  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9491 Ruggell" ;
+        void:inDataset  lau: ;
+        ramon:name      "Ruggell"@en ;
+        ramon:code      "LI-9491" ;
+        ramon:level     5 .
+
+lau:LI-9488  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9488 Schellenberg" ;
+        void:inDataset  lau: ;
+        ramon:name      "Schellenberg"@en ;
+        ramon:code      "LI-9488" ;
+        ramon:level     5 .
+
+lau:LI-9487  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9487 Gamprin" ;
+        void:inDataset  lau: ;
+        ramon:name      "Gamprin"@en ;
+        ramon:code      "LI-9487" ;
+        ramon:level     5 .
+
+lau:LI-9492  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9492 Eschen" ;
+        void:inDataset  lau: ;
+        ramon:name      "Eschen"@en ;
+        ramon:code      "LI-9492" ;
+        ramon:level     5 .
+
+lau:LI-9493  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9493 Mauren" ;
+        void:inDataset  lau: ;
+        ramon:name      "Mauren"@en ;
+        ramon:code      "LI-9493" ;
+        ramon:level     5 .
+
+lau:LI-9494  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9494 Schaan" ;
+        void:inDataset  lau: ;
+        ramon:name      "Schaan"@en ;
+        ramon:code      "LI-9494" ;
+        ramon:level     5 .
+
+lau:LI-9498  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9498 Planken" ;
+        void:inDataset  lau: ;
+        ramon:name      "Planken"@en ;
+        ramon:code      "LI-9498" ;
+        ramon:level     5 .
+
+lau:LI-9490  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9490 Vaduz" ;
+        void:inDataset  lau: ;
+        ramon:name      "Vaduz"@en ;
+        ramon:code      "LI-9490" ;
+        ramon:level     5 .
+
+lau:LI-9497  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9497 Triesenberg" ;
+        void:inDataset  lau: ;
+        ramon:name      "Triesenberg"@en ;
+        ramon:code      "LI-9497" ;
+        ramon:level     5 .
+
+lau:LI-9495  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9495 Triesen" ;
+        void:inDataset  lau: ;
+        ramon:name      "Triesen"@en ;
+        ramon:code      "LI-9495" ;
+        ramon:level     5 .
+
+lau:LI-9496  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        rdfs:label      "LI-9496 Balzers" ;
+        void:inDataset  lau: ;
+        ramon:name      "Balzers"@en ;
+        ramon:code      "LI-9496" ;
+        ramon:level     5 .

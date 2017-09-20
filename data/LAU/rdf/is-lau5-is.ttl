@@ -1,0 +1,750 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:IS-0000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-0000 Reykjavíkurborg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Reykjavíkurborg"@is ;
+        dbo:populationTotal  121822 ;
+        dbo:areaTotal        273 ;
+        ramon:code           "IS-0000" ;
+        ramon:level          5 .
+
+lau:IS-1000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-1000 Kópavogsbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kópavogsbær"@is ;
+        dbo:populationTotal  33205 ;
+        dbo:areaTotal        80 ;
+        ramon:code           "IS-1000" ;
+        ramon:level          5 .
+
+lau:IS-1100  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-1100 Seltjarnarneskaupstaður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Seltjarnarneskaupstaður"@is ;
+        dbo:populationTotal  4411 ;
+        dbo:areaTotal        2 ;
+        ramon:code           "IS-1100" ;
+        ramon:level          5 .
+
+lau:IS-1300  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-1300 Garðabær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Garðabær"@is ;
+        dbo:populationTotal  14453 ;
+        dbo:areaTotal        76 ;
+        ramon:code           "IS-1300" ;
+        ramon:level          5 .
+
+lau:IS-1400  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-1400 Hafnarfjarðarkaupstaður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hafnarfjarðarkaupstaður"@is ;
+        dbo:populationTotal  27875 ;
+        dbo:areaTotal        143 ;
+        ramon:code           "IS-1400" ;
+        ramon:level          5 .
+
+lau:IS-1604  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-1604 Mosfellsbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mosfellsbær"@is ;
+        dbo:populationTotal  9300 ;
+        dbo:areaTotal        185 ;
+        ramon:code           "IS-1604" ;
+        ramon:level          5 .
+
+lau:IS-1606  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-1606 Kjósarhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kjósarhreppur"@is ;
+        dbo:populationTotal  216 ;
+        dbo:areaTotal        284 ;
+        ramon:code           "IS-1606" ;
+        ramon:level          5 .
+
+lau:IS-7000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7000 Seyðisfjarðarkaupstaður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Seyðisfjarðarkaupstaður"@is ;
+        dbo:populationTotal  653 ;
+        dbo:areaTotal        213 ;
+        ramon:code           "IS-7000" ;
+        ramon:level          5 .
+
+lau:IS-7300  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7300 Fjarðabyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fjarðabyggð"@is ;
+        dbo:populationTotal  4747 ;
+        dbo:areaTotal        1164 ;
+        ramon:code           "IS-7300" ;
+        ramon:level          5 .
+
+lau:IS-7502  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7502 Vopnafjarðarhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vopnafjarðarhreppur"@is ;
+        dbo:populationTotal  674 ;
+        dbo:areaTotal        1903 ;
+        ramon:code           "IS-7502" ;
+        ramon:level          5 .
+
+lau:IS-7505  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7505 Fljótsdalshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fljótsdalshreppur"@is ;
+        dbo:populationTotal  75 ;
+        dbo:areaTotal        1516 ;
+        ramon:code           "IS-7505" ;
+        ramon:level          5 .
+
+lau:IS-7509  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7509 Borgarfjarðarhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Borgarfjarðarhreppur"@is ;
+        dbo:populationTotal  135 ;
+        dbo:areaTotal        441 ;
+        ramon:code           "IS-7509" ;
+        ramon:level          5 .
+
+lau:IS-7613  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7613 Breiðdalshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Breiðdalshreppur"@is ;
+        dbo:populationTotal  186 ;
+        dbo:areaTotal        452 ;
+        ramon:code           "IS-7613" ;
+        ramon:level          5 .
+
+lau:IS-7617  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7617 Djúpavogshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Djúpavogshreppur"@is ;
+        dbo:populationTotal  422 ;
+        dbo:areaTotal        1133 ;
+        ramon:code           "IS-7617" ;
+        ramon:level          5 .
+
+lau:IS-7620  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7620 Fljótsdalshérað" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fljótsdalshérað"@is ;
+        dbo:populationTotal  3454 ;
+        dbo:areaTotal        8884 ;
+        ramon:code           "IS-7620" ;
+        ramon:level          5 .
+
+lau:IS-7708  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-7708 Sveitarfélagið Hornafjörður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Hornafjörður"@is ;
+        dbo:populationTotal  2150 ;
+        dbo:areaTotal        6280 ;
+        ramon:code           "IS-7708" ;
+        ramon:level          5 .
+
+lau:IS-6000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6000 Akureyrarkaupstaður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Akureyrarkaupstaður"@is ;
+        dbo:populationTotal  18191 ;
+        dbo:areaTotal        138 ;
+        ramon:code           "IS-6000" ;
+        ramon:level          5 .
+
+lau:IS-6100  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6100 Norðurþing" ;
+        void:inDataset       lau: ;
+        ramon:name           "Norðurþing"@is ;
+        dbo:populationTotal  2806 ;
+        dbo:areaTotal        3729 ;
+        ramon:code           "IS-6100" ;
+        ramon:level          5 .
+
+lau:IS-6250  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6250 Fjallabyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fjallabyggð"@is ;
+        dbo:populationTotal  2037 ;
+        dbo:areaTotal        364 ;
+        ramon:code           "IS-6250" ;
+        ramon:level          5 .
+
+lau:IS-6400  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6400 Dalvíkurbyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dalvíkurbyggð"@is ;
+        dbo:populationTotal  1861 ;
+        dbo:areaTotal        598 ;
+        ramon:code           "IS-6400" ;
+        ramon:level          5 .
+
+lau:IS-6513  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6513 Eyjafjarðarsveit" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eyjafjarðarsveit"@is ;
+        dbo:populationTotal  1032 ;
+        dbo:areaTotal        1775 ;
+        ramon:code           "IS-6513" ;
+        ramon:level          5 .
+
+lau:IS-6515  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6515 Hörgársveit" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hörgársveit"@is ;
+        dbo:populationTotal  567 ;
+        dbo:areaTotal        893 ;
+        ramon:code           "IS-6515" ;
+        ramon:level          5 .
+
+lau:IS-6601  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6601 Svalbarðsstrandarhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Svalbarðsstrandarhreppur"@is ;
+        dbo:populationTotal  414 ;
+        dbo:areaTotal        55 ;
+        ramon:code           "IS-6601" ;
+        ramon:level          5 .
+
+lau:IS-6602  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6602 Grýtubakkahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grýtubakkahreppur"@is ;
+        dbo:populationTotal  364 ;
+        dbo:areaTotal        432 ;
+        ramon:code           "IS-6602" ;
+        ramon:level          5 .
+
+lau:IS-6607  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6607 Skútustaðahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skútustaðahreppur"@is ;
+        dbo:populationTotal  395 ;
+        dbo:areaTotal        6036 ;
+        ramon:code           "IS-6607" ;
+        ramon:level          5 .
+
+lau:IS-6611  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6611 Tjörneshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tjörneshreppur"@is ;
+        dbo:populationTotal  59 ;
+        dbo:areaTotal        199 ;
+        ramon:code           "IS-6611" ;
+        ramon:level          5 .
+
+lau:IS-6612  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6612 Þingeyjarsveit" ;
+        void:inDataset       lau: ;
+        ramon:name           "Þingeyjarsveit"@is ;
+        dbo:populationTotal  920 ;
+        dbo:areaTotal        5988 ;
+        ramon:code           "IS-6612" ;
+        ramon:level          5 .
+
+lau:IS-6706  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6706 Svalbarðshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Svalbarðshreppur"@is ;
+        dbo:populationTotal  98 ;
+        dbo:areaTotal        1155 ;
+        ramon:code           "IS-6706" ;
+        ramon:level          5 .
+
+lau:IS-6709  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-6709 Langanesbyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Langanesbyggð"@is ;
+        dbo:populationTotal  513 ;
+        dbo:areaTotal        1332 ;
+        ramon:code           "IS-6709" ;
+        ramon:level          5 .
+
+lau:IS-5200  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5200 Sveitarfélagið Skagafjörður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Skagafjörður"@is ;
+        dbo:populationTotal  3910 ;
+        dbo:areaTotal        4180 ;
+        ramon:code           "IS-5200" ;
+        ramon:level          5 .
+
+lau:IS-5508  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5508 Húnaþing vestra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Húnaþing vestra"@is ;
+        dbo:populationTotal  1171 ;
+        dbo:areaTotal        3019 ;
+        ramon:code           "IS-5508" ;
+        ramon:level          5 .
+
+lau:IS-5604  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5604 Blönduósbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Blönduósbær"@is ;
+        dbo:populationTotal  861 ;
+        dbo:areaTotal        183 ;
+        ramon:code           "IS-5604" ;
+        ramon:level          5 .
+
+lau:IS-5609  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5609 Sveitarfélagið Skagaströnd" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Skagaströnd"@is ;
+        dbo:populationTotal  488 ;
+        dbo:areaTotal        53 ;
+        ramon:code           "IS-5609" ;
+        ramon:level          5 .
+
+lau:IS-5611  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5611 Skagabyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skagabyggð"@is ;
+        dbo:populationTotal  99 ;
+        dbo:areaTotal        489 ;
+        ramon:code           "IS-5611" ;
+        ramon:level          5 .
+
+lau:IS-5612  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5612 Húnavatnshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Húnavatnshreppur"@is ;
+        dbo:populationTotal  414 ;
+        dbo:areaTotal        3817 ;
+        ramon:code           "IS-5612" ;
+        ramon:level          5 .
+
+lau:IS-5706  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-5706 Akrahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Akrahreppur"@is ;
+        dbo:populationTotal  194 ;
+        dbo:areaTotal        1364 ;
+        ramon:code           "IS-5706" ;
+        ramon:level          5 .
+
+lau:IS-2000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-2000 Reykjanesbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Reykjanesbær"@is ;
+        dbo:populationTotal  14924 ;
+        dbo:areaTotal        145 ;
+        ramon:code           "IS-2000" ;
+        ramon:level          5 .
+
+lau:IS-2300  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-2300 Grindavíkurbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grindavíkurbær"@is ;
+        dbo:populationTotal  2995 ;
+        dbo:areaTotal        425 ;
+        ramon:code           "IS-2300" ;
+        ramon:level          5 .
+
+lau:IS-2503  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-2503 Sandgerðisbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sandgerðisbær"@is ;
+        dbo:populationTotal  1580 ;
+        dbo:areaTotal        62 ;
+        ramon:code           "IS-2503" ;
+        ramon:level          5 .
+
+lau:IS-2504  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-2504 Sveitarfélagið Garður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Garður"@is ;
+        dbo:populationTotal  1425 ;
+        dbo:areaTotal        21 ;
+        ramon:code           "IS-2504" ;
+        ramon:level          5 .
+
+lau:IS-2506  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-2506 Sveitarfélagið Vogar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Vogar"@is ;
+        dbo:populationTotal  1102 ;
+        dbo:areaTotal        165 ;
+        ramon:code           "IS-2506" ;
+        ramon:level          5 .
+
+lau:IS-8000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8000 Vestmannaeyjabær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vestmannaeyjabær"@is ;
+        dbo:populationTotal  4272 ;
+        dbo:areaTotal        17 ;
+        ramon:code           "IS-8000" ;
+        ramon:level          5 .
+
+lau:IS-8200  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8200 Sveitarfélagið Árborg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Árborg"@is ;
+        dbo:populationTotal  8052 ;
+        dbo:areaTotal        158 ;
+        ramon:code           "IS-8200" ;
+        ramon:level          5 .
+
+lau:IS-8508  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8508 Mýrdalshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mýrdalshreppur"@is ;
+        dbo:populationTotal  480 ;
+        dbo:areaTotal        755 ;
+        ramon:code           "IS-8508" ;
+        ramon:level          5 .
+
+lau:IS-8509  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8509 Skaftárhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skaftárhreppur"@is ;
+        dbo:populationTotal  460 ;
+        dbo:areaTotal        6946 ;
+        ramon:code           "IS-8509" ;
+        ramon:level          5 .
+
+lau:IS-8610  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8610 Ásahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ásahreppur"@is ;
+        dbo:populationTotal  216 ;
+        dbo:areaTotal        2942 ;
+        ramon:code           "IS-8610" ;
+        ramon:level          5 .
+
+lau:IS-8613  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8613 Rangárþing eystra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rangárþing eystra"@is ;
+        dbo:populationTotal  1749 ;
+        dbo:areaTotal        1841 ;
+        ramon:code           "IS-8613" ;
+        ramon:level          5 .
+
+lau:IS-8614  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8614 Rangárþing ytra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rangárþing ytra"@is ;
+        dbo:populationTotal  1548 ;
+        dbo:areaTotal        3188 ;
+        ramon:code           "IS-8614" ;
+        ramon:level          5 .
+
+lau:IS-8710  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8710 Hrunamannahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hrunamannahreppur"@is ;
+        dbo:populationTotal  794 ;
+        dbo:areaTotal        1375 ;
+        ramon:code           "IS-8710" ;
+        ramon:level          5 .
+
+lau:IS-8716  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8716 Hveragerðisbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hveragerðisbær"@is ;
+        dbo:populationTotal  2384 ;
+        dbo:areaTotal        9 ;
+        ramon:code           "IS-8716" ;
+        ramon:level          5 .
+
+lau:IS-8717  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8717 Sveitarfélagið Ölfus" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveitarfélagið Ölfus"@is ;
+        dbo:populationTotal  1885 ;
+        dbo:areaTotal        737 ;
+        ramon:code           "IS-8717" ;
+        ramon:level          5 .
+
+lau:IS-8719  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8719 Grímsnes- og Grafningshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grímsnes- og Grafningshreppur"@is ;
+        dbo:populationTotal  431 ;
+        dbo:areaTotal        900 ;
+        ramon:code           "IS-8719" ;
+        ramon:level          5 .
+
+lau:IS-8720  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8720 Skeiða- og Gnúpverjahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skeiða- og Gnúpverjahreppur"@is ;
+        dbo:populationTotal  518 ;
+        dbo:areaTotal        2231 ;
+        ramon:code           "IS-8720" ;
+        ramon:level          5 .
+
+lau:IS-8721  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8721 Bláskógabyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bláskógabyggð"@is ;
+        dbo:populationTotal  961 ;
+        dbo:areaTotal        3300 ;
+        ramon:code           "IS-8721" ;
+        ramon:level          5 .
+
+lau:IS-8722  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-8722 Flóahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flóahreppur"@is ;
+        dbo:populationTotal  616 ;
+        dbo:areaTotal        289 ;
+        ramon:code           "IS-8722" ;
+        ramon:level          5 .
+
+lau:IS-3000  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3000 Akraneskaupstaður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Akraneskaupstaður"@is ;
+        dbo:populationTotal  6767 ;
+        dbo:areaTotal        9 ;
+        ramon:code           "IS-3000" ;
+        ramon:level          5 .
+
+lau:IS-3506  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3506 Skorradalshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skorradalshreppur"@is ;
+        dbo:populationTotal  62 ;
+        dbo:areaTotal        216 ;
+        ramon:code           "IS-3506" ;
+        ramon:level          5 .
+
+lau:IS-3511  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3511 Hvalfjarðarsveit" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hvalfjarðarsveit"@is ;
+        dbo:populationTotal  635 ;
+        dbo:areaTotal        482 ;
+        ramon:code           "IS-3511" ;
+        ramon:level          5 .
+
+lau:IS-3609  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3609 Borgarbyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Borgarbyggð"@is ;
+        dbo:populationTotal  3539 ;
+        dbo:areaTotal        4926 ;
+        ramon:code           "IS-3609" ;
+        ramon:level          5 .
+
+lau:IS-3709  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3709 Grundarfjarðarbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grundarfjarðarbær"@is ;
+        dbo:populationTotal  900 ;
+        dbo:areaTotal        148 ;
+        ramon:code           "IS-3709" ;
+        ramon:level          5 .
+
+lau:IS-3710  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3710 Helgafellssveit" ;
+        void:inDataset       lau: ;
+        ramon:name           "Helgafellssveit"@is ;
+        dbo:populationTotal  53 ;
+        dbo:areaTotal        243 ;
+        ramon:code           "IS-3710" ;
+        ramon:level          5 .
+
+lau:IS-3711  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3711 Stykkishólmsbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stykkishólmsbær"@is ;
+        dbo:populationTotal  1107 ;
+        dbo:areaTotal        10 ;
+        ramon:code           "IS-3711" ;
+        ramon:level          5 .
+
+lau:IS-3713  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3713 Eyja- og Miklaholtshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eyja- og Miklaholtshreppur"@is ;
+        dbo:populationTotal  144 ;
+        dbo:areaTotal        383 ;
+        ramon:code           "IS-3713" ;
+        ramon:level          5 .
+
+lau:IS-3714  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3714 Snæfellsbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Snæfellsbær"@is ;
+        dbo:populationTotal  1679 ;
+        dbo:areaTotal        684 ;
+        ramon:code           "IS-3714" ;
+        ramon:level          5 .
+
+lau:IS-3811  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-3811 Dalabyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dalabyggð"@is ;
+        dbo:populationTotal  680 ;
+        dbo:areaTotal        2421 ;
+        ramon:code           "IS-3811" ;
+        ramon:level          5 .
+
+lau:IS-4100  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4100 Bolungarvíkurkaupstaður" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bolungarvíkurkaupstaður"@is ;
+        dbo:populationTotal  923 ;
+        dbo:areaTotal        109 ;
+        ramon:code           "IS-4100" ;
+        ramon:level          5 .
+
+lau:IS-4200  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4200 Ísafjarðarbær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ísafjarðarbær"@is ;
+        dbo:populationTotal  3629 ;
+        dbo:areaTotal        2379 ;
+        ramon:code           "IS-4200" ;
+        ramon:level          5 .
+
+lau:IS-4502  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4502 Reykhólahreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Reykhólahreppur"@is ;
+        dbo:populationTotal  268 ;
+        dbo:areaTotal        1090 ;
+        ramon:code           "IS-4502" ;
+        ramon:level          5 .
+
+lau:IS-4604  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4604 Tálknafjarðarhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tálknafjarðarhreppur"@is ;
+        dbo:populationTotal  305 ;
+        dbo:areaTotal        176 ;
+        ramon:code           "IS-4604" ;
+        ramon:level          5 .
+
+lau:IS-4607  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4607 Vesturbyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vesturbyggð"@is ;
+        dbo:populationTotal  1002 ;
+        dbo:areaTotal        1339 ;
+        ramon:code           "IS-4607" ;
+        ramon:level          5 .
+
+lau:IS-4803  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4803 Súðavíkurhreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Súðavíkurhreppur"@is ;
+        dbo:populationTotal  204 ;
+        dbo:areaTotal        749 ;
+        ramon:code           "IS-4803" ;
+        ramon:level          5 .
+
+lau:IS-4901  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4901 Árneshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Árneshreppur"@is ;
+        dbo:populationTotal  54 ;
+        dbo:areaTotal        707 ;
+        ramon:code           "IS-4901" ;
+        ramon:level          5 .
+
+lau:IS-4902  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4902 Kaldrananeshreppur" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kaldrananeshreppur"@is ;
+        dbo:populationTotal  112 ;
+        dbo:areaTotal        387 ;
+        ramon:code           "IS-4902" ;
+        ramon:level          5 .
+
+lau:IS-4911  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "IS-4911 Strandabyggð" ;
+        void:inDataset       lau: ;
+        ramon:name           "Strandabyggð"@is ;
+        dbo:populationTotal  473 ;
+        dbo:areaTotal        1906 ;
+        ramon:code           "IS-4911" ;
+        ramon:level          5 .

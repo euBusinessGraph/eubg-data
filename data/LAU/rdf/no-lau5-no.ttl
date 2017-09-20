@@ -1,0 +1,4696 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:NO-0101  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0101 Halden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Halden"@no ;
+        dbo:populationTotal  28092 ;
+        dbo:areaTotal        642340 ;
+        ramon:code           "NO-0101" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0104  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0104 Moss" ;
+        void:inDataset       lau: ;
+        ramon:name           "Moss"@no ;
+        dbo:populationTotal  29073 ;
+        dbo:areaTotal        63480 ;
+        ramon:code           "NO-0104" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0105  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0105 Sarpsborg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sarpsborg"@no ;
+        dbo:populationTotal  51053 ;
+        dbo:areaTotal        405610 ;
+        ramon:code           "NO-0105" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0106  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0106 Fredrikstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fredrikstad"@no ;
+        dbo:populationTotal  71976 ;
+        dbo:areaTotal        288110 ;
+        ramon:code           "NO-0106" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0111  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0111 Hvaler" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hvaler"@no ;
+        dbo:populationTotal  3961 ;
+        dbo:areaTotal        89540 ;
+        ramon:code           "NO-0111" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0118  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0118 Aremark" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aremark"@no ;
+        dbo:populationTotal  1429 ;
+        dbo:areaTotal        318930 ;
+        ramon:code           "NO-0118" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0119  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0119 Marker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Marker"@no ;
+        dbo:populationTotal  3463 ;
+        dbo:areaTotal        412910 ;
+        ramon:code           "NO-0119" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0121  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0121 Rømskog" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rømskog"@no ;
+        dbo:populationTotal  649 ;
+        dbo:areaTotal        183130 ;
+        ramon:code           "NO-0121" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0122  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0122 Trøgstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Trøgstad"@no ;
+        dbo:populationTotal  5039 ;
+        dbo:areaTotal        204490 ;
+        ramon:code           "NO-0122" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0123  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0123 Spydeberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Spydeberg"@no ;
+        dbo:populationTotal  5073 ;
+        dbo:areaTotal        141990 ;
+        ramon:code           "NO-0123" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0124  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0124 Askim" ;
+        void:inDataset       lau: ;
+        ramon:name           "Askim"@no ;
+        dbo:populationTotal  14472 ;
+        dbo:areaTotal        69140 ;
+        ramon:code           "NO-0124" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0125  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0125 Eidsberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eidsberg"@no ;
+        dbo:populationTotal  10509 ;
+        dbo:areaTotal        235910 ;
+        ramon:code           "NO-0125" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0127  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0127 Skiptvet" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skiptvet"@no ;
+        dbo:populationTotal  3525 ;
+        dbo:areaTotal        101200 ;
+        ramon:code           "NO-0127" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0128  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0128 Rakkestad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rakkestad"@no ;
+        dbo:populationTotal  7515 ;
+        dbo:areaTotal        434710 ;
+        ramon:code           "NO-0128" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0135  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0135 Råde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Råde"@no ;
+        dbo:populationTotal  6825 ;
+        dbo:areaTotal        118570 ;
+        ramon:code           "NO-0135" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0136  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0136 Rygge" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rygge"@no ;
+        dbo:populationTotal  13914 ;
+        dbo:areaTotal        74140 ;
+        ramon:code           "NO-0136" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0137  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0137 Våler" ;
+        void:inDataset       lau: ;
+        ramon:name           "Våler"@no ;
+        dbo:populationTotal  4268 ;
+        dbo:areaTotal        256960 ;
+        ramon:code           "NO-0137" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0138  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0138 Hobøl" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hobøl"@no ;
+        dbo:populationTotal  4622 ;
+        dbo:areaTotal        140390 ;
+        ramon:code           "NO-0138" ;
+        spatial:PP           nuts:NO031 ;
+        ramon:level          5 .
+
+lau:NO-0211  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0211 Vestby" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vestby"@no ;
+        dbo:populationTotal  13825 ;
+        dbo:areaTotal        133930 ;
+        ramon:code           "NO-0211" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0213  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0213 Ski" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ski"@no ;
+        dbo:populationTotal  27479 ;
+        dbo:areaTotal        165540 ;
+        ramon:code           "NO-0213" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0214  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0214 Ås" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ås"@no ;
+        dbo:populationTotal  15324 ;
+        dbo:areaTotal        103120 ;
+        ramon:code           "NO-0214" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0215  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0215 Frogn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Frogn"@no ;
+        dbo:populationTotal  14245 ;
+        dbo:areaTotal        85660 ;
+        ramon:code           "NO-0215" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0216  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0216 Nesodden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nesodden"@no ;
+        dbo:populationTotal  16868 ;
+        dbo:areaTotal        61470 ;
+        ramon:code           "NO-0216" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0217  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0217 Oppegård" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oppegård"@no ;
+        dbo:populationTotal  24201 ;
+        dbo:areaTotal        37030 ;
+        ramon:code           "NO-0217" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0219  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0219 Bærum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bærum"@no ;
+        dbo:populationTotal  108144 ;
+        dbo:areaTotal        192310 ;
+        ramon:code           "NO-0219" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0220  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0220 Asker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Asker"@no ;
+        dbo:populationTotal  52922 ;
+        dbo:areaTotal        100710 ;
+        ramon:code           "NO-0220" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0221  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0221 Aurskog-Høland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aurskog-Høland"@no ;
+        dbo:populationTotal  13995 ;
+        dbo:areaTotal        961650 ;
+        ramon:code           "NO-0221" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0226  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0226 Sørum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sørum"@no ;
+        dbo:populationTotal  14279 ;
+        dbo:areaTotal        206580 ;
+        ramon:code           "NO-0226" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0227  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0227 Fet" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fet"@no ;
+        dbo:populationTotal  9963 ;
+        dbo:areaTotal        176360 ;
+        ramon:code           "NO-0227" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0228  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0228 Rælingen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rælingen"@no ;
+        dbo:populationTotal  15112 ;
+        dbo:areaTotal        71680 ;
+        ramon:code           "NO-0228" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0229  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0229 Enebakk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Enebakk"@no ;
+        dbo:populationTotal  9893 ;
+        dbo:areaTotal        232580 ;
+        ramon:code           "NO-0229" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0230  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0230 Lørenskog" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lørenskog"@no ;
+        dbo:populationTotal  31853 ;
+        dbo:areaTotal        70530 ;
+        ramon:code           "NO-0230" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0231  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0231 Skedsmo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skedsmo"@no ;
+        dbo:populationTotal  46146 ;
+        dbo:areaTotal        77080 ;
+        ramon:code           "NO-0231" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0233  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0233 Nittedal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nittedal"@no ;
+        dbo:populationTotal  20256 ;
+        dbo:areaTotal        186220 ;
+        ramon:code           "NO-0233" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0234  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0234 Gjerdrum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gjerdrum"@no ;
+        dbo:populationTotal  5464 ;
+        dbo:areaTotal        83190 ;
+        ramon:code           "NO-0234" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0235  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0235 Ullensaker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ullensaker"@no ;
+        dbo:populationTotal  26934 ;
+        dbo:areaTotal        252460 ;
+        ramon:code           "NO-0235" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0236  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0236 Nes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nes"@no ;
+        dbo:populationTotal  18510 ;
+        dbo:areaTotal        637340 ;
+        ramon:code           "NO-0236" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0237  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0237 Eidsvoll" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eidsvoll"@no ;
+        dbo:populationTotal  19916 ;
+        dbo:areaTotal        456600 ;
+        ramon:code           "NO-0237" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0238  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0238 Nannestad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nannestad"@no ;
+        dbo:populationTotal  10657 ;
+        dbo:areaTotal        340990 ;
+        ramon:code           "NO-0238" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0239  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0239 Hurdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hurdal"@no ;
+        dbo:populationTotal  2581 ;
+        dbo:areaTotal        284950 ;
+        ramon:code           "NO-0239" ;
+        spatial:PP           nuts:NO012 ;
+        ramon:level          5 .
+
+lau:NO-0301  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0301 Oslo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oslo"@no ;
+        dbo:populationTotal  586860 ;
+        dbo:areaTotal        453990 ;
+        ramon:code           "NO-0301" ;
+        spatial:PP           nuts:NO011 ;
+        ramon:level          5 .
+
+lau:NO-0402  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0402 Kongsvinger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kongsvinger"@no ;
+        dbo:populationTotal  17361 ;
+        dbo:areaTotal        1036140 ;
+        ramon:code           "NO-0402" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0403  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0403 Hamar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hamar"@no ;
+        dbo:populationTotal  27976 ;
+        dbo:areaTotal        350940 ;
+        ramon:code           "NO-0403" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0412  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0412 Ringsaker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ringsaker"@no ;
+        dbo:populationTotal  32144 ;
+        dbo:areaTotal        1281080 ;
+        ramon:code           "NO-0412" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0415  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0415 Løten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Løten"@no ;
+        dbo:populationTotal  7251 ;
+        dbo:areaTotal        369440 ;
+        ramon:code           "NO-0415" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0417  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0417 Stange" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stange"@no ;
+        dbo:populationTotal  18821 ;
+        dbo:areaTotal        724210 ;
+        ramon:code           "NO-0417" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0418  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0418 Nord-Odal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nord-Odal"@no ;
+        dbo:populationTotal  5091 ;
+        dbo:areaTotal        508120 ;
+        ramon:code           "NO-0418" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0419  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0419 Sør-Odal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sør-Odal"@no ;
+        dbo:populationTotal  7787 ;
+        dbo:areaTotal        516760 ;
+        ramon:code           "NO-0419" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0420  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0420 Eidskog" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eidskog"@no ;
+        dbo:populationTotal  6397 ;
+        dbo:areaTotal        640670 ;
+        ramon:code           "NO-0420" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0423  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0423 Grue" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grue"@no ;
+        dbo:populationTotal  5078 ;
+        dbo:areaTotal        837180 ;
+        ramon:code           "NO-0423" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0425  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0425 Åsnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Åsnes"@no ;
+        dbo:populationTotal  7581 ;
+        dbo:areaTotal        1040990 ;
+        ramon:code           "NO-0425" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0426  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0426 Våler" ;
+        void:inDataset       lau: ;
+        ramon:name           "Våler"@no ;
+        dbo:populationTotal  3869 ;
+        dbo:areaTotal        705250 ;
+        ramon:code           "NO-0426" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0427  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0427 Elverum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Elverum"@no ;
+        dbo:populationTotal  19465 ;
+        dbo:areaTotal        1229320 ;
+        ramon:code           "NO-0427" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0428  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0428 Trysil" ;
+        void:inDataset       lau: ;
+        ramon:name           "Trysil"@no ;
+        dbo:populationTotal  6741 ;
+        dbo:areaTotal        3014380 ;
+        ramon:code           "NO-0428" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0429  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0429 Åmot" ;
+        void:inDataset       lau: ;
+        ramon:name           "Åmot"@no ;
+        dbo:populationTotal  4329 ;
+        dbo:areaTotal        1339870 ;
+        ramon:code           "NO-0429" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0430  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0430 Stor-Elvdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stor-Elvdal"@no ;
+        dbo:populationTotal  2680 ;
+        dbo:areaTotal        2165970 ;
+        ramon:code           "NO-0430" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0432  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0432 Rendalen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rendalen"@no ;
+        dbo:populationTotal  2029 ;
+        dbo:areaTotal        3179670 ;
+        ramon:code           "NO-0432" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0434  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0434 Engerdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Engerdal"@no ;
+        dbo:populationTotal  1458 ;
+        dbo:areaTotal        2196580 ;
+        ramon:code           "NO-0434" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0436  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0436 Tolga" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tolga"@no ;
+        dbo:populationTotal  1697 ;
+        dbo:areaTotal        1122640 ;
+        ramon:code           "NO-0436" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0437  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0437 Tynset" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tynset"@no ;
+        dbo:populationTotal  5400 ;
+        dbo:areaTotal        1879470 ;
+        ramon:code           "NO-0437" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0438  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0438 Alvdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alvdal"@no ;
+        dbo:populationTotal  2413 ;
+        dbo:areaTotal        942540 ;
+        ramon:code           "NO-0438" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0439  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0439 Folldal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Folldal"@no ;
+        dbo:populationTotal  1674 ;
+        dbo:areaTotal        1275300 ;
+        ramon:code           "NO-0439" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0441  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0441 Os" ;
+        void:inDataset       lau: ;
+        ramon:name           "Os"@no ;
+        dbo:populationTotal  2047 ;
+        dbo:areaTotal        1040450 ;
+        ramon:code           "NO-0441" ;
+        spatial:PP           nuts:NO021 ;
+        ramon:level          5 .
+
+lau:NO-0501  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0501 Lillehammer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lillehammer"@no ;
+        dbo:populationTotal  25776 ;
+        dbo:areaTotal        477430 ;
+        ramon:code           "NO-0501" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0502  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0502 Gjøvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gjøvik"@no ;
+        dbo:populationTotal  28301 ;
+        dbo:areaTotal        672230 ;
+        ramon:code           "NO-0502" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0511  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0511 Dovre" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dovre"@no ;
+        dbo:populationTotal  2778 ;
+        dbo:areaTotal        1363840 ;
+        ramon:code           "NO-0511" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0512  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0512 Lesja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lesja"@no ;
+        dbo:populationTotal  2168 ;
+        dbo:areaTotal        2259010 ;
+        ramon:code           "NO-0512" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0513  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0513 Skjåk" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skjåk"@no ;
+        dbo:populationTotal  2331 ;
+        dbo:areaTotal        2075560 ;
+        ramon:code           "NO-0513" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0514  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0514 Lom" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lom"@no ;
+        dbo:populationTotal  2407 ;
+        dbo:areaTotal        1968580 ;
+        ramon:code           "NO-0514" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0515  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0515 Vågå" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vågå"@no ;
+        dbo:populationTotal  3717 ;
+        dbo:areaTotal        1330250 ;
+        ramon:code           "NO-0515" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0516  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0516 Nord-Fron" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nord-Fron"@no ;
+        dbo:populationTotal  5793 ;
+        dbo:areaTotal        1141280 ;
+        ramon:code           "NO-0516" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0517  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0517 Sel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sel"@no ;
+        dbo:populationTotal  6005 ;
+        dbo:areaTotal        904700 ;
+        ramon:code           "NO-0517" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0519  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0519 Sør-Fron" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sør-Fron"@no ;
+        dbo:populationTotal  3170 ;
+        dbo:areaTotal        744830 ;
+        ramon:code           "NO-0519" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0520  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0520 Ringebu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ringebu"@no ;
+        dbo:populationTotal  4532 ;
+        dbo:areaTotal        1247530 ;
+        ramon:code           "NO-0520" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0521  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0521 Øyer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Øyer"@no ;
+        dbo:populationTotal  4929 ;
+        dbo:areaTotal        639930 ;
+        ramon:code           "NO-0521" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0522  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0522 Gausdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gausdal"@no ;
+        dbo:populationTotal  6129 ;
+        dbo:areaTotal        1191630 ;
+        ramon:code           "NO-0522" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0528  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0528 Østre Toten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Østre Toten"@no ;
+        dbo:populationTotal  14459 ;
+        dbo:areaTotal        561760 ;
+        ramon:code           "NO-0528" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0529  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0529 Vestre Toten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vestre Toten"@no ;
+        dbo:populationTotal  12635 ;
+        dbo:areaTotal        249390 ;
+        ramon:code           "NO-0529" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0532  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0532 Jevnaker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jevnaker"@no ;
+        dbo:populationTotal  6256 ;
+        dbo:areaTotal        223990 ;
+        ramon:code           "NO-0532" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0533  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0533 Lunner" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lunner"@no ;
+        dbo:populationTotal  8598 ;
+        dbo:areaTotal        291890 ;
+        ramon:code           "NO-0533" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0534  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0534 Gran" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gran"@no ;
+        dbo:populationTotal  13189 ;
+        dbo:areaTotal        758240 ;
+        ramon:code           "NO-0534" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0536  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0536 Søndre Land" ;
+        void:inDataset       lau: ;
+        ramon:name           "Søndre Land"@no ;
+        dbo:populationTotal  5853 ;
+        dbo:areaTotal        728390 ;
+        ramon:code           "NO-0536" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0538  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0538 Nordre Land" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nordre Land"@no ;
+        dbo:populationTotal  6636 ;
+        dbo:areaTotal        955270 ;
+        ramon:code           "NO-0538" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0540  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0540 Sør-Aurdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sør-Aurdal"@no ;
+        dbo:populationTotal  3176 ;
+        dbo:areaTotal        1108990 ;
+        ramon:code           "NO-0540" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0541  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0541 Etnedal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Etnedal"@no ;
+        dbo:populationTotal  1388 ;
+        dbo:areaTotal        459150 ;
+        ramon:code           "NO-0541" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0542  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0542 Nord-Aurdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nord-Aurdal"@no ;
+        dbo:populationTotal  6436 ;
+        dbo:areaTotal        906540 ;
+        ramon:code           "NO-0542" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0543  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0543 Vestre Slidre" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vestre Slidre"@no ;
+        dbo:populationTotal  2217 ;
+        dbo:areaTotal        463240 ;
+        ramon:code           "NO-0543" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0544  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0544 Øystre Slidre" ;
+        void:inDataset       lau: ;
+        ramon:name           "Øystre Slidre"@no ;
+        dbo:populationTotal  3176 ;
+        dbo:areaTotal        963100 ;
+        ramon:code           "NO-0544" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0545  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0545 Vang" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vang"@no ;
+        dbo:populationTotal  1582 ;
+        dbo:areaTotal        1505240 ;
+        ramon:code           "NO-0545" ;
+        spatial:PP           nuts:NO022 ;
+        ramon:level          5 .
+
+lau:NO-0602  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0602 Drammen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Drammen"@no ;
+        dbo:populationTotal  60145 ;
+        dbo:areaTotal        137460 ;
+        ramon:code           "NO-0602" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0604  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0604 Kongsberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kongsberg"@no ;
+        dbo:populationTotal  23997 ;
+        dbo:areaTotal        792270 ;
+        ramon:code           "NO-0604" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0605  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0605 Ringerike" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ringerike"@no ;
+        dbo:populationTotal  28523 ;
+        dbo:areaTotal        1552110 ;
+        ramon:code           "NO-0605" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0612  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0612 Hole" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hole"@no ;
+        dbo:populationTotal  5622 ;
+        dbo:areaTotal        197640 ;
+        ramon:code           "NO-0612" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0615  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0615 Flå" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flå"@no ;
+        dbo:populationTotal  974 ;
+        dbo:areaTotal        704480 ;
+        ramon:code           "NO-0615" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0616  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0616 Nes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nes"@no ;
+        dbo:populationTotal  3459 ;
+        dbo:areaTotal        809630 ;
+        ramon:code           "NO-0616" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0617  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0617 Gol" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gol"@no ;
+        dbo:populationTotal  4439 ;
+        dbo:areaTotal        532510 ;
+        ramon:code           "NO-0617" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0618  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0618 Hemsedal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hemsedal"@no ;
+        dbo:populationTotal  1968 ;
+        dbo:areaTotal        753460 ;
+        ramon:code           "NO-0618" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0619  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0619 Ål" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ål"@no ;
+        dbo:populationTotal  4686 ;
+        dbo:areaTotal        1171290 ;
+        ramon:code           "NO-0619" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0620  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0620 Hol" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hol"@no ;
+        dbo:populationTotal  4438 ;
+        dbo:areaTotal        1858400 ;
+        ramon:code           "NO-0620" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0621  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0621 Sigdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sigdal"@no ;
+        dbo:populationTotal  3524 ;
+        dbo:areaTotal        842140 ;
+        ramon:code           "NO-0621" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0622  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0622 Krødsherad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Krødsherad"@no ;
+        dbo:populationTotal  2098 ;
+        dbo:areaTotal        374620 ;
+        ramon:code           "NO-0622" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0623  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0623 Modum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Modum"@no ;
+        dbo:populationTotal  12695 ;
+        dbo:areaTotal        515320 ;
+        ramon:code           "NO-0623" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0624  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0624 Øvre Eiker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Øvre Eiker"@no ;
+        dbo:populationTotal  16132 ;
+        dbo:areaTotal        456760 ;
+        ramon:code           "NO-0624" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0625  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0625 Nedre Eiker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nedre Eiker"@no ;
+        dbo:populationTotal  22092 ;
+        dbo:areaTotal        121690 ;
+        ramon:code           "NO-0625" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0626  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0626 Lier" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lier"@no ;
+        dbo:populationTotal  22700 ;
+        dbo:areaTotal        301270 ;
+        ramon:code           "NO-0626" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0627  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0627 Røyken" ;
+        void:inDataset       lau: ;
+        ramon:name           "Røyken"@no ;
+        dbo:populationTotal  18231 ;
+        dbo:areaTotal        112860 ;
+        ramon:code           "NO-0627" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0628  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0628 Hurum" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hurum"@no ;
+        dbo:populationTotal  9023 ;
+        dbo:areaTotal        163280 ;
+        ramon:code           "NO-0628" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0631  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0631 Flesberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flesberg"@no ;
+        dbo:populationTotal  2521 ;
+        dbo:areaTotal        561920 ;
+        ramon:code           "NO-0631" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0632  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0632 Rollag" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rollag"@no ;
+        dbo:populationTotal  1419 ;
+        dbo:areaTotal        449300 ;
+        ramon:code           "NO-0632" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0633  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0633 Nore og Uvdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nore og Uvdal"@no ;
+        dbo:populationTotal  2534 ;
+        dbo:areaTotal        2501500 ;
+        ramon:code           "NO-0633" ;
+        spatial:PP           nuts:NO032 ;
+        ramon:level          5 .
+
+lau:NO-0701  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0701 Horten" ;
+        void:inDataset       lau: ;
+        ramon:name           "Horten"@no ;
+        dbo:populationTotal  25098 ;
+        dbo:areaTotal        70200 ;
+        ramon:code           "NO-0701" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0702  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0702 Holmestrand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Holmestrand"@no ;
+        dbo:populationTotal  9860 ;
+        dbo:areaTotal        86100 ;
+        ramon:code           "NO-0702" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0704  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0704 Tønsberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tønsberg"@no ;
+        dbo:populationTotal  38393 ;
+        dbo:areaTotal        106540 ;
+        ramon:code           "NO-0704" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0710  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0710 Sandefjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sandefjord"@no ;
+        dbo:populationTotal  42333 ;
+        dbo:areaTotal        121280 ;
+        ramon:code           "NO-0710" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0709  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0709 Larvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Larvik"@no ;
+        dbo:populationTotal  41723 ;
+        dbo:areaTotal        534660 ;
+        ramon:code           "NO-0709" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0711  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0711 Svelvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Svelvik"@no ;
+        dbo:populationTotal  6463 ;
+        dbo:areaTotal        57620 ;
+        ramon:code           "NO-0711" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0713  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0713 Sande" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sande"@no ;
+        dbo:populationTotal  7999 ;
+        dbo:areaTotal        178280 ;
+        ramon:code           "NO-0713" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0714  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0714 Hof" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hof"@no ;
+        dbo:populationTotal  3066 ;
+        dbo:areaTotal        163130 ;
+        ramon:code           "NO-0714" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0716  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0716 Re" ;
+        void:inDataset       lau: ;
+        ramon:name           "Re"@no ;
+        dbo:populationTotal  8443 ;
+        dbo:areaTotal        224600 ;
+        ramon:code           "NO-0716" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0722  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0722 Nøtterøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nøtterøy"@no ;
+        dbo:populationTotal  20410 ;
+        dbo:areaTotal        60540 ;
+        ramon:code           "NO-0722" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0723  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0723 Tjøme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tjøme"@no ;
+        dbo:populationTotal  4545 ;
+        dbo:areaTotal        38850 ;
+        ramon:code           "NO-0723" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0728  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0728 Lardal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lardal"@no ;
+        dbo:populationTotal  2383 ;
+        dbo:areaTotal        277650 ;
+        ramon:code           "NO-0728" ;
+        spatial:PP           nuts:NO033 ;
+        ramon:level          5 .
+
+lau:NO-0805  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0805 Porsgrunn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Porsgrunn"@no ;
+        dbo:populationTotal  34186 ;
+        dbo:areaTotal        164640 ;
+        ramon:code           "NO-0805" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0806  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0806 Skien" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skien"@no ;
+        dbo:populationTotal  50864 ;
+        dbo:areaTotal        779200 ;
+        ramon:code           "NO-0806" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0807  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0807 Notodden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Notodden"@no ;
+        dbo:populationTotal  12232 ;
+        dbo:areaTotal        918910 ;
+        ramon:code           "NO-0807" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0811  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0811 Siljan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Siljan"@no ;
+        dbo:populationTotal  2380 ;
+        dbo:areaTotal        213810 ;
+        ramon:code           "NO-0811" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0814  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0814 Bamble" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bamble"@no ;
+        dbo:populationTotal  14109 ;
+        dbo:areaTotal        303750 ;
+        ramon:code           "NO-0814" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0815  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0815 Kragerø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kragerø"@no ;
+        dbo:populationTotal  10614 ;
+        dbo:areaTotal        305660 ;
+        ramon:code           "NO-0815" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0817  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0817 Drangedal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Drangedal"@no ;
+        dbo:populationTotal  4111 ;
+        dbo:areaTotal        1062780 ;
+        ramon:code           "NO-0817" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0819  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0819 Nome" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nome"@no ;
+        dbo:populationTotal  6601 ;
+        dbo:areaTotal        429670 ;
+        ramon:code           "NO-0819" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0821  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0821 Bø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bø"@no ;
+        dbo:populationTotal  5436 ;
+        dbo:areaTotal        263110 ;
+        ramon:code           "NO-0821" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0822  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0822 Sauherad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sauherad"@no ;
+        dbo:populationTotal  4266 ;
+        dbo:areaTotal        321370 ;
+        ramon:code           "NO-0822" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0826  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0826 Tinn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tinn"@no ;
+        dbo:populationTotal  6066 ;
+        dbo:areaTotal        2044940 ;
+        ramon:code           "NO-0826" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0827  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0827 Hjartdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hjartdal"@no ;
+        dbo:populationTotal  1619 ;
+        dbo:areaTotal        791500 ;
+        ramon:code           "NO-0827" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0828  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0828 Seljord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Seljord"@no ;
+        dbo:populationTotal  2930 ;
+        dbo:areaTotal        715230 ;
+        ramon:code           "NO-0828" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0829  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0829 Kviteseid" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kviteseid"@no ;
+        dbo:populationTotal  2563 ;
+        dbo:areaTotal        708460 ;
+        ramon:code           "NO-0829" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0830  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0830 Nissedal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nissedal"@no ;
+        dbo:populationTotal  1378 ;
+        dbo:areaTotal        905180 ;
+        ramon:code           "NO-0830" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0831  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0831 Fyresdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fyresdal"@no ;
+        dbo:populationTotal  1375 ;
+        dbo:areaTotal        1280600 ;
+        ramon:code           "NO-0831" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0833  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0833 Tokke" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tokke"@no ;
+        dbo:populationTotal  2366 ;
+        dbo:areaTotal        984470 ;
+        ramon:code           "NO-0833" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0834  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0834 Vinje" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vinje"@no ;
+        dbo:populationTotal  3635 ;
+        dbo:areaTotal        3105900 ;
+        ramon:code           "NO-0834" ;
+        spatial:PP           nuts:NO034 ;
+        ramon:level          5 .
+
+lau:NO-0901  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0901 Risør" ;
+        void:inDataset       lau: ;
+        ramon:name           "Risør"@no ;
+        dbo:populationTotal  6888 ;
+        dbo:areaTotal        193010 ;
+        ramon:code           "NO-0901" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0904  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0904 Grimstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grimstad"@no ;
+        dbo:populationTotal  19809 ;
+        dbo:areaTotal        303210 ;
+        ramon:code           "NO-0904" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0906  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0906 Arendal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Arendal"@no ;
+        dbo:populationTotal  40701 ;
+        dbo:areaTotal        269860 ;
+        ramon:code           "NO-0906" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0911  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0911 Gjerstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gjerstad"@no ;
+        dbo:populationTotal  2519 ;
+        dbo:areaTotal        322140 ;
+        ramon:code           "NO-0911" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0912  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0912 Vegårshei" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vegårshei"@no ;
+        dbo:populationTotal  1884 ;
+        dbo:areaTotal        355660 ;
+        ramon:code           "NO-0912" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0914  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0914 Tvedestrand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tvedestrand"@no ;
+        dbo:populationTotal  5874 ;
+        dbo:areaTotal        217810 ;
+        ramon:code           "NO-0914" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0919  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0919 Froland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Froland"@no ;
+        dbo:populationTotal  4853 ;
+        dbo:areaTotal        644550 ;
+        ramon:code           "NO-0919" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0926  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0926 Lillesand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lillesand"@no ;
+        dbo:populationTotal  9238 ;
+        dbo:areaTotal        189810 ;
+        ramon:code           "NO-0926" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0928  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0928 Birkenes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Birkenes"@no ;
+        dbo:populationTotal  4503 ;
+        dbo:areaTotal        674120 ;
+        ramon:code           "NO-0928" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0929  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0929 Åmli" ;
+        void:inDataset       lau: ;
+        ramon:name           "Åmli"@no ;
+        dbo:populationTotal  1836 ;
+        dbo:areaTotal        1130610 ;
+        ramon:code           "NO-0929" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0935  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0935 Iveland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Iveland"@no ;
+        dbo:populationTotal  1211 ;
+        dbo:areaTotal        261640 ;
+        ramon:code           "NO-0935" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0937  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0937 Evje og Hornnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Evje og Hornnes"@no ;
+        dbo:populationTotal  3327 ;
+        dbo:areaTotal        550260 ;
+        ramon:code           "NO-0937" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0938  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0938 Bygland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bygland"@no ;
+        dbo:populationTotal  1242 ;
+        dbo:areaTotal        1312230 ;
+        ramon:code           "NO-0938" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0940  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0940 Valle" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valle"@no ;
+        dbo:populationTotal  1326 ;
+        dbo:areaTotal        1264730 ;
+        ramon:code           "NO-0940" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-0941  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-0941 Bykle" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bykle"@no ;
+        dbo:populationTotal  919 ;
+        dbo:areaTotal        1467290 ;
+        ramon:code           "NO-0941" ;
+        spatial:PP           nuts:NO041 ;
+        ramon:level          5 .
+
+lau:NO-1001  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1001 Kristiansand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kristiansand"@no ;
+        dbo:populationTotal  87446 ;
+        dbo:areaTotal        276780 ;
+        ramon:code           "NO-1001" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1002  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1002 Mandal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mandal"@no ;
+        dbo:populationTotal  14400 ;
+        dbo:areaTotal        222470 ;
+        ramon:code           "NO-1002" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1003  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1003 Farsund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Farsund"@no ;
+        dbo:populationTotal  9392 ;
+        dbo:areaTotal        262380 ;
+        ramon:code           "NO-1003" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1004  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1004 Flekkefjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flekkefjord"@no ;
+        dbo:populationTotal  8910 ;
+        dbo:areaTotal        543440 ;
+        ramon:code           "NO-1004" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1014  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1014 Vennesla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vennesla"@no ;
+        dbo:populationTotal  12776 ;
+        dbo:areaTotal        384350 ;
+        ramon:code           "NO-1014" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1017  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1017 Songdalen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Songdalen"@no ;
+        dbo:populationTotal  5728 ;
+        dbo:areaTotal        215770 ;
+        ramon:code           "NO-1017" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1018  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1018 Søgne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Søgne"@no ;
+        dbo:populationTotal  10050 ;
+        dbo:areaTotal        150750 ;
+        ramon:code           "NO-1018" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1021  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1021 Marnardal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Marnardal"@no ;
+        dbo:populationTotal  2178 ;
+        dbo:areaTotal        394820 ;
+        ramon:code           "NO-1021" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1026  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1026 Åseral" ;
+        void:inDataset       lau: ;
+        ramon:name           "Åseral"@no ;
+        dbo:populationTotal  905 ;
+        dbo:areaTotal        887500 ;
+        ramon:code           "NO-1026" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1027  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1027 Audnedal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Audnedal"@no ;
+        dbo:populationTotal  1613 ;
+        dbo:areaTotal        251030 ;
+        ramon:code           "NO-1027" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1029  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1029 Lindesnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lindesnes"@no ;
+        dbo:populationTotal  4557 ;
+        dbo:areaTotal        316840 ;
+        ramon:code           "NO-1029" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1032  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1032 Lyngdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lyngdal"@no ;
+        dbo:populationTotal  7533 ;
+        dbo:areaTotal        390970 ;
+        ramon:code           "NO-1032" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1034  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1034 Hægebostad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hægebostad"@no ;
+        dbo:populationTotal  1597 ;
+        dbo:areaTotal        461580 ;
+        ramon:code           "NO-1034" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1037  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1037 Kvinesdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvinesdal"@no ;
+        dbo:populationTotal  5629 ;
+        dbo:areaTotal        962840 ;
+        ramon:code           "NO-1037" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1046  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1046 Sirdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sirdal"@no ;
+        dbo:populationTotal  1757 ;
+        dbo:areaTotal        1554720 ;
+        ramon:code           "NO-1046" ;
+        spatial:PP           nuts:NO042 ;
+        ramon:level          5 .
+
+lau:NO-1101  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1101 Eigersund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eigersund"@no ;
+        dbo:populationTotal  13778 ;
+        dbo:areaTotal        432460 ;
+        ramon:code           "NO-1101" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1102  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1102 Sandnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sandnes"@no ;
+        dbo:populationTotal  62037 ;
+        dbo:areaTotal        304540 ;
+        ramon:code           "NO-1102" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1103  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1103 Stavanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stavanger"@no ;
+        dbo:populationTotal  119586 ;
+        dbo:areaTotal        71400 ;
+        ramon:code           "NO-1103" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1106  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1106 Haugesund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haugesund"@no ;
+        dbo:populationTotal  32956 ;
+        dbo:areaTotal        72700 ;
+        ramon:code           "NO-1106" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1111  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1111 Sokndal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sokndal"@no ;
+        dbo:populationTotal  3242 ;
+        dbo:areaTotal        295160 ;
+        ramon:code           "NO-1111" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1112  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1112 Lund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lund"@no ;
+        dbo:populationTotal  3112 ;
+        dbo:areaTotal        408510 ;
+        ramon:code           "NO-1112" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1114  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1114 Bjerkreim" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bjerkreim"@no ;
+        dbo:populationTotal  2539 ;
+        dbo:areaTotal        650430 ;
+        ramon:code           "NO-1114" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1119  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1119 Hå" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hå"@no ;
+        dbo:populationTotal  15438 ;
+        dbo:areaTotal        258700 ;
+        ramon:code           "NO-1119" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1120  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1120 Klepp" ;
+        void:inDataset       lau: ;
+        ramon:name           "Klepp"@no ;
+        dbo:populationTotal  15839 ;
+        dbo:areaTotal        113920 ;
+        ramon:code           "NO-1120" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1121  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1121 Time" ;
+        void:inDataset       lau: ;
+        ramon:name           "Time"@no ;
+        dbo:populationTotal  15459 ;
+        dbo:areaTotal        183430 ;
+        ramon:code           "NO-1121" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1122  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1122 Gjesdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gjesdal"@no ;
+        dbo:populationTotal  9729 ;
+        dbo:areaTotal        617550 ;
+        ramon:code           "NO-1122" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1124  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1124 Sola" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sola"@no ;
+        dbo:populationTotal  21446 ;
+        dbo:areaTotal        69530 ;
+        ramon:code           "NO-1124" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1127  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1127 Randaberg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Randaberg"@no ;
+        dbo:populationTotal  9622 ;
+        dbo:areaTotal        24630 ;
+        ramon:code           "NO-1127" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1129  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1129 Forsand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Forsand"@no ;
+        dbo:populationTotal  1116 ;
+        dbo:areaTotal        780210 ;
+        ramon:code           "NO-1129" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1130  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1130 Strand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Strand"@no ;
+        dbo:populationTotal  10894 ;
+        dbo:areaTotal        218170 ;
+        ramon:code           "NO-1130" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1133  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1133 Hjelmeland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hjelmeland"@no ;
+        dbo:populationTotal  2678 ;
+        dbo:areaTotal        1089440 ;
+        ramon:code           "NO-1133" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1134  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1134 Suldal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Suldal"@no ;
+        dbo:populationTotal  3823 ;
+        dbo:areaTotal        1736190 ;
+        ramon:code           "NO-1134" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1135  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1135 Sauda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sauda"@no ;
+        dbo:populationTotal  4734 ;
+        dbo:areaTotal        546340 ;
+        ramon:code           "NO-1135" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1141  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1141 Finnøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Finnøy"@no ;
+        dbo:populationTotal  2711 ;
+        dbo:areaTotal        104340 ;
+        ramon:code           "NO-1141" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1142  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1142 Rennesøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rennesøy"@no ;
+        dbo:populationTotal  3761 ;
+        dbo:areaTotal        65300 ;
+        ramon:code           "NO-1142" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1144  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1144 Kvitsøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvitsøy"@no ;
+        dbo:populationTotal  538 ;
+        dbo:areaTotal        6160 ;
+        ramon:code           "NO-1144" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1145  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1145 Bokn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bokn"@no ;
+        dbo:populationTotal  823 ;
+        dbo:areaTotal        47160 ;
+        ramon:code           "NO-1145" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1146  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1146 Tysvær" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tysvær"@no ;
+        dbo:populationTotal  9604 ;
+        dbo:areaTotal        425290 ;
+        ramon:code           "NO-1146" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1149  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1149 Karmøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Karmøy"@no ;
+        dbo:populationTotal  38926 ;
+        dbo:areaTotal        229500 ;
+        ramon:code           "NO-1149" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1151  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1151 Utsira" ;
+        void:inDataset       lau: ;
+        ramon:name           "Utsira"@no ;
+        dbo:populationTotal  212 ;
+        dbo:areaTotal        6290 ;
+        ramon:code           "NO-1151" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1160  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1160 Vindafjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vindafjord"@no ;
+        dbo:populationTotal  8084 ;
+        dbo:areaTotal        620390 ;
+        ramon:code           "NO-1160" ;
+        spatial:PP           nuts:NO043 ;
+        ramon:level          5 .
+
+lau:NO-1201  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1201 Bergen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bergen"@no ;
+        dbo:populationTotal  252051 ;
+        dbo:areaTotal        465450 ;
+        ramon:code           "NO-1201" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1211  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1211 Etne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Etne"@no ;
+        dbo:populationTotal  3852 ;
+        dbo:areaTotal        735420 ;
+        ramon:code           "NO-1211" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1216  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1216 Sveio" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sveio"@no ;
+        dbo:populationTotal  4825 ;
+        dbo:areaTotal        245740 ;
+        ramon:code           "NO-1216" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1219  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1219 Bømlo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bømlo"@no ;
+        dbo:populationTotal  10998 ;
+        dbo:areaTotal        246310 ;
+        ramon:code           "NO-1219" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1221  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1221 Stord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stord"@no ;
+        dbo:populationTotal  17092 ;
+        dbo:areaTotal        143550 ;
+        ramon:code           "NO-1221" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1222  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1222 Fitjar" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fitjar"@no ;
+        dbo:populationTotal  2912 ;
+        dbo:areaTotal        142790 ;
+        ramon:code           "NO-1222" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1223  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1223 Tysnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tysnes"@no ;
+        dbo:populationTotal  2773 ;
+        dbo:areaTotal        255180 ;
+        ramon:code           "NO-1223" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1224  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1224 Kvinnherad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvinnherad"@no ;
+        dbo:populationTotal  13063 ;
+        dbo:areaTotal        1127870 ;
+        ramon:code           "NO-1224" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1227  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1227 Jondal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jondal"@no ;
+        dbo:populationTotal  1047 ;
+        dbo:areaTotal        209940 ;
+        ramon:code           "NO-1227" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1228  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1228 Odda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Odda"@no ;
+        dbo:populationTotal  7107 ;
+        dbo:areaTotal        1615950 ;
+        ramon:code           "NO-1228" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1231  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1231 Ullensvang" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ullensvang"@no ;
+        dbo:populationTotal  3415 ;
+        dbo:areaTotal        1398850 ;
+        ramon:code           "NO-1231" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1232  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1232 Eidfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eidfjord"@no ;
+        dbo:populationTotal  933 ;
+        dbo:areaTotal        1492550 ;
+        ramon:code           "NO-1232" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1233  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1233 Ulvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ulvik"@no ;
+        dbo:populationTotal  1107 ;
+        dbo:areaTotal        720730 ;
+        ramon:code           "NO-1233" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1234  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1234 Granvin" ;
+        void:inDataset       lau: ;
+        ramon:name           "Granvin"@no ;
+        dbo:populationTotal  964 ;
+        dbo:areaTotal        212580 ;
+        ramon:code           "NO-1234" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1235  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1235 Voss" ;
+        void:inDataset       lau: ;
+        ramon:name           "Voss"@no ;
+        dbo:populationTotal  13768 ;
+        dbo:areaTotal        1805770 ;
+        ramon:code           "NO-1235" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1238  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1238 Kvam" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvam"@no ;
+        dbo:populationTotal  8210 ;
+        dbo:areaTotal        615930 ;
+        ramon:code           "NO-1238" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1241  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1241 Fusa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fusa"@no ;
+        dbo:populationTotal  3759 ;
+        dbo:areaTotal        378960 ;
+        ramon:code           "NO-1241" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1242  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1242 Samnanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Samnanger"@no ;
+        dbo:populationTotal  2396 ;
+        dbo:areaTotal        269140 ;
+        ramon:code           "NO-1242" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1243  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1243 Os" ;
+        void:inDataset       lau: ;
+        ramon:name           "Os"@no ;
+        dbo:populationTotal  16055 ;
+        dbo:areaTotal        139810 ;
+        ramon:code           "NO-1243" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1244  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1244 Austevoll" ;
+        void:inDataset       lau: ;
+        ramon:name           "Austevoll"@no ;
+        dbo:populationTotal  4390 ;
+        dbo:areaTotal        117220 ;
+        ramon:code           "NO-1244" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1245  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1245 Sund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sund"@no ;
+        dbo:populationTotal  5795 ;
+        dbo:areaTotal        99690 ;
+        ramon:code           "NO-1245" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1246  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1246 Fjell" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fjell"@no ;
+        dbo:populationTotal  21207 ;
+        dbo:areaTotal        148100 ;
+        ramon:code           "NO-1246" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1247  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1247 Askøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Askøy"@no ;
+        dbo:populationTotal  23705 ;
+        dbo:areaTotal        100440 ;
+        ramon:code           "NO-1247" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1251  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1251 Vaksdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vaksdal"@no ;
+        dbo:populationTotal  4106 ;
+        dbo:areaTotal        715650 ;
+        ramon:code           "NO-1251" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1252  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1252 Modalen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Modalen"@no ;
+        dbo:populationTotal  360 ;
+        dbo:areaTotal        412150 ;
+        ramon:code           "NO-1252" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1253  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1253 Osterøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Osterøy"@no ;
+        dbo:populationTotal  7305 ;
+        dbo:areaTotal        274600 ;
+        ramon:code           "NO-1253" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1256  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1256 Meland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meland"@no ;
+        dbo:populationTotal  6233 ;
+        dbo:areaTotal        92540 ;
+        ramon:code           "NO-1256" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1259  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1259 Øygarden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Øygarden"@no ;
+        dbo:populationTotal  4168 ;
+        dbo:areaTotal        66520 ;
+        ramon:code           "NO-1259" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1260  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1260 Radøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Radøy"@no ;
+        dbo:populationTotal  4794 ;
+        dbo:areaTotal        111830 ;
+        ramon:code           "NO-1260" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1263  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1263 Lindås" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lindås"@no ;
+        dbo:populationTotal  13778 ;
+        dbo:areaTotal        475920 ;
+        ramon:code           "NO-1263" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1264  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1264 Austrheim" ;
+        void:inDataset       lau: ;
+        ramon:name           "Austrheim"@no ;
+        dbo:populationTotal  2569 ;
+        dbo:areaTotal        57440 ;
+        ramon:code           "NO-1264" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1265  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1265 Fedje" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fedje"@no ;
+        dbo:populationTotal  596 ;
+        dbo:areaTotal        9320 ;
+        ramon:code           "NO-1265" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1266  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1266 Masfjorden" ;
+        void:inDataset       lau: ;
+        ramon:name           "Masfjorden"@no ;
+        dbo:populationTotal  1646 ;
+        dbo:areaTotal        556500 ;
+        ramon:code           "NO-1266" ;
+        spatial:PP           nuts:NO051 ;
+        ramon:level          5 .
+
+lau:NO-1401  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1401 Flora" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flora"@no ;
+        dbo:populationTotal  11408 ;
+        dbo:areaTotal        692450 ;
+        ramon:code           "NO-1401" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1411  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1411 Gulen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gulen"@no ;
+        dbo:populationTotal  2356 ;
+        dbo:areaTotal        597120 ;
+        ramon:code           "NO-1411" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1412  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1412 Solund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Solund"@no ;
+        dbo:populationTotal  874 ;
+        dbo:areaTotal        228510 ;
+        ramon:code           "NO-1412" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1413  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1413 Hyllestad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hyllestad"@no ;
+        dbo:populationTotal  1505 ;
+        dbo:areaTotal        259050 ;
+        ramon:code           "NO-1413" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1416  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1416 Høyanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Høyanger"@no ;
+        dbo:populationTotal  4374 ;
+        dbo:areaTotal        908330 ;
+        ramon:code           "NO-1416" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1417  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1417 Vik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vik"@no ;
+        dbo:populationTotal  2809 ;
+        dbo:areaTotal        832930 ;
+        ramon:code           "NO-1417" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1418  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1418 Balestrand" ;
+        void:inDataset       lau: ;
+        ramon:name           "Balestrand"@no ;
+        dbo:populationTotal  1365 ;
+        dbo:areaTotal        429850 ;
+        ramon:code           "NO-1418" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1419  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1419 Leikanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leikanger"@no ;
+        dbo:populationTotal  2179 ;
+        dbo:areaTotal        180020 ;
+        ramon:code           "NO-1419" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1420  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1420 Sogndal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sogndal"@no ;
+        dbo:populationTotal  6899 ;
+        dbo:areaTotal        745970 ;
+        ramon:code           "NO-1420" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1421  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1421 Aurland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aurland"@no ;
+        dbo:populationTotal  1695 ;
+        dbo:areaTotal        1467920 ;
+        ramon:code           "NO-1421" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1422  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1422 Lærdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lærdal"@no ;
+        dbo:populationTotal  2169 ;
+        dbo:areaTotal        1342400 ;
+        ramon:code           "NO-1422" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1424  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1424 Årdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Årdal"@no ;
+        dbo:populationTotal  5562 ;
+        dbo:areaTotal        976420 ;
+        ramon:code           "NO-1424" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1426  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1426 Luster" ;
+        void:inDataset       lau: ;
+        ramon:name           "Luster"@no ;
+        dbo:populationTotal  4870 ;
+        dbo:areaTotal        2706630 ;
+        ramon:code           "NO-1426" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1428  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1428 Askvoll" ;
+        void:inDataset       lau: ;
+        ramon:name           "Askvoll"@no ;
+        dbo:populationTotal  3065 ;
+        dbo:areaTotal        326460 ;
+        ramon:code           "NO-1428" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1429  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1429 Fjaler" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fjaler"@no ;
+        dbo:populationTotal  2849 ;
+        dbo:areaTotal        416670 ;
+        ramon:code           "NO-1429" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1430  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1430 Gaular" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gaular"@no ;
+        dbo:populationTotal  2748 ;
+        dbo:areaTotal        581970 ;
+        ramon:code           "NO-1430" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1431  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1431 Jølster" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jølster"@no ;
+        dbo:populationTotal  2929 ;
+        dbo:areaTotal        670830 ;
+        ramon:code           "NO-1431" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1432  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1432 Førde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Førde"@no ;
+        dbo:populationTotal  11650 ;
+        dbo:areaTotal        586040 ;
+        ramon:code           "NO-1432" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1433  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1433 Naustdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Naustdal"@no ;
+        dbo:populationTotal  2668 ;
+        dbo:areaTotal        368690 ;
+        ramon:code           "NO-1433" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1438  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1438 Bremanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bremanger"@no ;
+        dbo:populationTotal  3894 ;
+        dbo:areaTotal        832830 ;
+        ramon:code           "NO-1438" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1439  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1439 Vågsøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vågsøy"@no ;
+        dbo:populationTotal  5998 ;
+        dbo:areaTotal        176380 ;
+        ramon:code           "NO-1439" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1441  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1441 Selje" ;
+        void:inDataset       lau: ;
+        ramon:name           "Selje"@no ;
+        dbo:populationTotal  2872 ;
+        dbo:areaTotal        226090 ;
+        ramon:code           "NO-1441" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1443  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1443 Eid" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eid"@no ;
+        dbo:populationTotal  5854 ;
+        dbo:areaTotal        469110 ;
+        ramon:code           "NO-1443" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1444  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1444 Hornindal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hornindal"@no ;
+        dbo:populationTotal  1211 ;
+        dbo:areaTotal        191610 ;
+        ramon:code           "NO-1444" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1445  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1445 Gloppen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gloppen"@no ;
+        dbo:populationTotal  5687 ;
+        dbo:areaTotal        1027730 ;
+        ramon:code           "NO-1445" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1449  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1449 Stryn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stryn"@no ;
+        dbo:populationTotal  6769 ;
+        dbo:areaTotal        1380780 ;
+        ramon:code           "NO-1449" ;
+        spatial:PP           nuts:NO052 ;
+        ramon:level          5 .
+
+lau:NO-1502  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1502 Molde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Molde"@no ;
+        dbo:populationTotal  24294 ;
+        dbo:areaTotal        362600 ;
+        ramon:code           "NO-1502" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1504  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1504 Ålesund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ålesund"@no ;
+        dbo:populationTotal  41833 ;
+        dbo:areaTotal        98420 ;
+        ramon:code           "NO-1504" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1505  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1505 Kristiansund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kristiansund"@no ;
+        dbo:populationTotal  22661 ;
+        dbo:areaTotal        461030 ;
+        ramon:code           "NO-1505" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1511  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1511 Vanylven" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vanylven"@no ;
+        dbo:populationTotal  3530 ;
+        dbo:areaTotal        385080 ;
+        ramon:code           "NO-1511" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1514  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1514 Sande" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sande"@no ;
+        dbo:populationTotal  2502 ;
+        dbo:areaTotal        93180 ;
+        ramon:code           "NO-1514" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1515  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1515 Herøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Herøy"@no ;
+        dbo:populationTotal  8353 ;
+        dbo:areaTotal        119710 ;
+        ramon:code           "NO-1515" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1516  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1516 Ulstein" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ulstein"@no ;
+        dbo:populationTotal  6946 ;
+        dbo:areaTotal        97280 ;
+        ramon:code           "NO-1516" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1517  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1517 Hareid" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hareid"@no ;
+        dbo:populationTotal  4741 ;
+        dbo:areaTotal        82480 ;
+        ramon:code           "NO-1517" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1519  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1519 Volda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Volda"@no ;
+        dbo:populationTotal  8406 ;
+        dbo:areaTotal        547300 ;
+        ramon:code           "NO-1519" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1520  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1520 Ørsta" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ørsta"@no ;
+        dbo:populationTotal  10163 ;
+        dbo:areaTotal        804840 ;
+        ramon:code           "NO-1520" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1523  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1523 Ørskog" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ørskog"@no ;
+        dbo:populationTotal  2119 ;
+        dbo:areaTotal        129460 ;
+        ramon:code           "NO-1523" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1524  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1524 Norddal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Norddal"@no ;
+        dbo:populationTotal  1761 ;
+        dbo:areaTotal        943520 ;
+        ramon:code           "NO-1524" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1525  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1525 Stranda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stranda"@no ;
+        dbo:populationTotal  4543 ;
+        dbo:areaTotal        865980 ;
+        ramon:code           "NO-1525" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1526  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1526 Stordal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stordal"@no ;
+        dbo:populationTotal  979 ;
+        dbo:areaTotal        247190 ;
+        ramon:code           "NO-1526" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1528  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1528 Sykkylven" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sykkylven"@no ;
+        dbo:populationTotal  7491 ;
+        dbo:areaTotal        337680 ;
+        ramon:code           "NO-1528" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1529  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1529 Skodje" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skodje"@no ;
+        dbo:populationTotal  3750 ;
+        dbo:areaTotal        120250 ;
+        ramon:code           "NO-1529" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1531  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1531 Sula" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sula"@no ;
+        dbo:populationTotal  7626 ;
+        dbo:areaTotal        58650 ;
+        ramon:code           "NO-1531" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1532  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1532 Giske" ;
+        void:inDataset       lau: ;
+        ramon:name           "Giske"@no ;
+        dbo:populationTotal  6777 ;
+        dbo:areaTotal        40090 ;
+        ramon:code           "NO-1532" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1534  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1534 Haram" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haram"@no ;
+        dbo:populationTotal  8617 ;
+        dbo:areaTotal        260450 ;
+        ramon:code           "NO-1534" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1535  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1535 Vestnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vestnes"@no ;
+        dbo:populationTotal  6434 ;
+        dbo:areaTotal        354930 ;
+        ramon:code           "NO-1535" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1539  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1539 Rauma" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rauma"@no ;
+        dbo:populationTotal  7379 ;
+        dbo:areaTotal        1502140 ;
+        ramon:code           "NO-1539" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1543  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1543 Nesset" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nesset"@no ;
+        dbo:populationTotal  3061 ;
+        dbo:areaTotal        1046220 ;
+        ramon:code           "NO-1543" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1545  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1545 Midsund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Midsund"@no ;
+        dbo:populationTotal  1901 ;
+        dbo:areaTotal        94710 ;
+        ramon:code           "NO-1545" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1546  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1546 Sandøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sandøy"@no ;
+        dbo:populationTotal  1281 ;
+        dbo:areaTotal        20410 ;
+        ramon:code           "NO-1546" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1547  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1547 Aukra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aukra"@no ;
+        dbo:populationTotal  3174 ;
+        dbo:areaTotal        58780 ;
+        ramon:code           "NO-1547" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1548  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1548 Fræna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fræna"@no ;
+        dbo:populationTotal  9189 ;
+        dbo:areaTotal        368960 ;
+        ramon:code           "NO-1548" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1551  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1551 Eide" ;
+        void:inDataset       lau: ;
+        ramon:name           "Eide"@no ;
+        dbo:populationTotal  3362 ;
+        dbo:areaTotal        152380 ;
+        ramon:code           "NO-1551" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1554  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1554 Averøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Averøy"@no ;
+        dbo:populationTotal  5402 ;
+        dbo:areaTotal        175910 ;
+        ramon:code           "NO-1554" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1557  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1557 Gjemnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gjemnes"@no ;
+        dbo:populationTotal  2636 ;
+        dbo:areaTotal        382180 ;
+        ramon:code           "NO-1557" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1560  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1560 Tingvoll" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tingvoll"@no ;
+        dbo:populationTotal  3082 ;
+        dbo:areaTotal        336950 ;
+        ramon:code           "NO-1560" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1563  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1563 Sunndal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sunndal"@no ;
+        dbo:populationTotal  7357 ;
+        dbo:areaTotal        1713690 ;
+        ramon:code           "NO-1563" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1566  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1566 Surnadal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Surnadal"@no ;
+        dbo:populationTotal  6039 ;
+        dbo:areaTotal        1364780 ;
+        ramon:code           "NO-1566" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1567  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1567 Rindal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rindal"@no ;
+        dbo:populationTotal  2045 ;
+        dbo:areaTotal        640670 ;
+        ramon:code           "NO-1567" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1571  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1571 Halsa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Halsa"@no ;
+        dbo:populationTotal  1671 ;
+        dbo:areaTotal        300840 ;
+        ramon:code           "NO-1571" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1573  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1573 Smøla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Smøla"@no ;
+        dbo:populationTotal  2137 ;
+        dbo:areaTotal        281850 ;
+        ramon:code           "NO-1573" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1576  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1576 Aure" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aure"@no ;
+        dbo:populationTotal  3530 ;
+        dbo:areaTotal        644180 ;
+        ramon:code           "NO-1576" ;
+        spatial:PP           nuts:NO053 ;
+        ramon:level          5 .
+
+lau:NO-1601  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1601 Trondheim" ;
+        void:inDataset       lau: ;
+        ramon:name           "Trondheim"@no ;
+        dbo:populationTotal  165191 ;
+        dbo:areaTotal        342240 ;
+        ramon:code           "NO-1601" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1612  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1612 Hemne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hemne"@no ;
+        dbo:populationTotal  4234 ;
+        dbo:areaTotal        662370 ;
+        ramon:code           "NO-1612" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1613  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1613 Snillfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Snillfjord"@no ;
+        dbo:populationTotal  1022 ;
+        dbo:areaTotal        508200 ;
+        ramon:code           "NO-1613" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1617  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1617 Hitra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hitra"@no ;
+        dbo:populationTotal  4132 ;
+        dbo:areaTotal        685430 ;
+        ramon:code           "NO-1617" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1620  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1620 Frøya" ;
+        void:inDataset       lau: ;
+        ramon:name           "Frøya"@no ;
+        dbo:populationTotal  4144 ;
+        dbo:areaTotal        241310 ;
+        ramon:code           "NO-1620" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1621  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1621 Ørland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ørland"@no ;
+        dbo:populationTotal  5025 ;
+        dbo:areaTotal        73510 ;
+        ramon:code           "NO-1621" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1622  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1622 Agdenes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Agdenes"@no ;
+        dbo:populationTotal  1758 ;
+        dbo:areaTotal        317650 ;
+        ramon:code           "NO-1622" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1624  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1624 Rissa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rissa"@no ;
+        dbo:populationTotal  6366 ;
+        dbo:areaTotal        621460 ;
+        ramon:code           "NO-1624" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1627  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1627 Bjugn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bjugn"@no ;
+        dbo:populationTotal  4604 ;
+        dbo:areaTotal        383780 ;
+        ramon:code           "NO-1627" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1630  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1630 Åfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Åfjord"@no ;
+        dbo:populationTotal  3232 ;
+        dbo:areaTotal        953710 ;
+        ramon:code           "NO-1630" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1632  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1632 Roan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Roan"@no ;
+        dbo:populationTotal  1007 ;
+        dbo:areaTotal        376680 ;
+        ramon:code           "NO-1632" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1633  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1633 Osen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Osen"@no ;
+        dbo:populationTotal  1041 ;
+        dbo:areaTotal        387090 ;
+        ramon:code           "NO-1633" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1634  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1634 Oppdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Oppdal"@no ;
+        dbo:populationTotal  6564 ;
+        dbo:areaTotal        2274420 ;
+        ramon:code           "NO-1634" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1635  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1635 Rennebu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rennebu"@no ;
+        dbo:populationTotal  2594 ;
+        dbo:areaTotal        948110 ;
+        ramon:code           "NO-1635" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1636  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1636 Meldal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meldal"@no ;
+        dbo:populationTotal  3871 ;
+        dbo:areaTotal        612500 ;
+        ramon:code           "NO-1636" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1638  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1638 Orkdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Orkdal"@no ;
+        dbo:populationTotal  11018 ;
+        dbo:areaTotal        594220 ;
+        ramon:code           "NO-1638" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1640  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1640 Røros" ;
+        void:inDataset       lau: ;
+        ramon:name           "Røros"@no ;
+        dbo:populationTotal  5620 ;
+        dbo:areaTotal        1956310 ;
+        ramon:code           "NO-1640" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1644  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1644 Holtålen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Holtålen"@no ;
+        dbo:populationTotal  2069 ;
+        dbo:areaTotal        1209320 ;
+        ramon:code           "NO-1644" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1648  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1648 Midtre Gauldal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Midtre Gauldal"@no ;
+        dbo:populationTotal  5910 ;
+        dbo:areaTotal        1859760 ;
+        ramon:code           "NO-1648" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1653  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1653 Melhus" ;
+        void:inDataset       lau: ;
+        ramon:name           "Melhus"@no ;
+        dbo:populationTotal  14457 ;
+        dbo:areaTotal        696060 ;
+        ramon:code           "NO-1653" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1657  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1657 Skaun" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skaun"@no ;
+        dbo:populationTotal  6326 ;
+        dbo:areaTotal        224240 ;
+        ramon:code           "NO-1657" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1662  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1662 Klæbu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Klæbu"@no ;
+        dbo:populationTotal  5558 ;
+        dbo:areaTotal        186360 ;
+        ramon:code           "NO-1662" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1663  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1663 Malvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Malvik"@no ;
+        dbo:populationTotal  12388 ;
+        dbo:areaTotal        168550 ;
+        ramon:code           "NO-1663" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1664  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1664 Selbu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Selbu"@no ;
+        dbo:populationTotal  4006 ;
+        dbo:areaTotal        1234830 ;
+        ramon:code           "NO-1664" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1665  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1665 Tydal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tydal"@no ;
+        dbo:populationTotal  856 ;
+        dbo:areaTotal        1329410 ;
+        ramon:code           "NO-1665" ;
+        spatial:PP           nuts:NO061 ;
+        ramon:level          5 .
+
+lau:NO-1702  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1702 Steinkjer" ;
+        void:inDataset       lau: ;
+        ramon:name           "Steinkjer"@no ;
+        dbo:populationTotal  20672 ;
+        dbo:areaTotal        1564260 ;
+        ramon:code           "NO-1702" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1703  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1703 Namsos" ;
+        void:inDataset       lau: ;
+        ramon:name           "Namsos"@no ;
+        dbo:populationTotal  12607 ;
+        dbo:areaTotal        774510 ;
+        ramon:code           "NO-1703" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1711  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1711 Meråker" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meråker"@no ;
+        dbo:populationTotal  2506 ;
+        dbo:areaTotal        1273610 ;
+        ramon:code           "NO-1711" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1714  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1714 Stjørdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Stjørdal"@no ;
+        dbo:populationTotal  20616 ;
+        dbo:areaTotal        937870 ;
+        ramon:code           "NO-1714" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1717  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1717 Frosta" ;
+        void:inDataset       lau: ;
+        ramon:name           "Frosta"@no ;
+        dbo:populationTotal  2466 ;
+        dbo:areaTotal        76340 ;
+        ramon:code           "NO-1717" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1718  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1718 Leksvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leksvik"@no ;
+        dbo:populationTotal  3484 ;
+        dbo:areaTotal        430220 ;
+        ramon:code           "NO-1718" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1719  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1719 Levanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Levanger"@no ;
+        dbo:populationTotal  18355 ;
+        dbo:areaTotal        645350 ;
+        ramon:code           "NO-1719" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1721  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1721 Verdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Verdal"@no ;
+        dbo:populationTotal  14094 ;
+        dbo:areaTotal        1547620 ;
+        ramon:code           "NO-1721" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1724  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1724 Verran" ;
+        void:inDataset       lau: ;
+        ramon:name           "Verran"@no ;
+        dbo:populationTotal  2948 ;
+        dbo:areaTotal        601560 ;
+        ramon:code           "NO-1724" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1725  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1725 Namdalseid" ;
+        void:inDataset       lau: ;
+        ramon:name           "Namdalseid"@no ;
+        dbo:populationTotal  1717 ;
+        dbo:areaTotal        769550 ;
+        ramon:code           "NO-1725" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1756  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1756 Inderøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Inderøy"@no ;
+        dbo:populationTotal  5836 ;
+        dbo:areaTotal        145820 ;
+        ramon:code           "NO-1756" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1736  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1736 Snåsa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Snåsa"@no ;
+        dbo:populationTotal  2176 ;
+        dbo:areaTotal        2342840 ;
+        ramon:code           "NO-1736" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1738  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1738 Lierne" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lierne"@no ;
+        dbo:populationTotal  1480 ;
+        dbo:areaTotal        2962030 ;
+        ramon:code           "NO-1738" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1739  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1739 Røyrvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Røyrvik"@no ;
+        dbo:populationTotal  499 ;
+        dbo:areaTotal        1584330 ;
+        ramon:code           "NO-1739" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1740  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1740 Namsskogan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Namsskogan"@no ;
+        dbo:populationTotal  916 ;
+        dbo:areaTotal        1416810 ;
+        ramon:code           "NO-1740" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1742  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1742 Grong" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grong"@no ;
+        dbo:populationTotal  2377 ;
+        dbo:areaTotal        1136160 ;
+        ramon:code           "NO-1742" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1743  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1743 Høylandet" ;
+        void:inDataset       lau: ;
+        ramon:name           "Høylandet"@no ;
+        dbo:populationTotal  1273 ;
+        dbo:areaTotal        754710 ;
+        ramon:code           "NO-1743" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1744  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1744 Overhalla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Overhalla"@no ;
+        dbo:populationTotal  3507 ;
+        dbo:areaTotal        729290 ;
+        ramon:code           "NO-1744" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1748  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1748 Fosnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fosnes"@no ;
+        dbo:populationTotal  687 ;
+        dbo:areaTotal        544860 ;
+        ramon:code           "NO-1748" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1749  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1749 Flatanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flatanger"@no ;
+        dbo:populationTotal  1138 ;
+        dbo:areaTotal        460230 ;
+        ramon:code           "NO-1749" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1750  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1750 Vikna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vikna"@no ;
+        dbo:populationTotal  4034 ;
+        dbo:areaTotal        318390 ;
+        ramon:code           "NO-1750" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1751  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1751 Nærøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nærøy"@no ;
+        dbo:populationTotal  5015 ;
+        dbo:areaTotal        1066350 ;
+        ramon:code           "NO-1751" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1755  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1755 Leka" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leka"@no ;
+        dbo:populationTotal  589 ;
+        dbo:areaTotal        110240 ;
+        ramon:code           "NO-1755" ;
+        spatial:PP           nuts:NO062 ;
+        ramon:level          5 .
+
+lau:NO-1804  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1804 Bodø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bodø"@no ;
+        dbo:populationTotal  46049 ;
+        dbo:areaTotal        1392080 ;
+        ramon:code           "NO-1804" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1805  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1805 Narvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Narvik"@no ;
+        dbo:populationTotal  18384 ;
+        dbo:areaTotal        2022620 ;
+        ramon:code           "NO-1805" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1811  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1811 Bindal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bindal"@no ;
+        dbo:populationTotal  1631 ;
+        dbo:areaTotal        1264710 ;
+        ramon:code           "NO-1811" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1812  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1812 Sømna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sømna"@no ;
+        dbo:populationTotal  2056 ;
+        dbo:areaTotal        193740 ;
+        ramon:code           "NO-1812" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1813  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1813 Brønnøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Brønnøy"@no ;
+        dbo:populationTotal  7535 ;
+        dbo:areaTotal        1041770 ;
+        ramon:code           "NO-1813" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1815  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1815 Vega" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vega"@no ;
+        dbo:populationTotal  1295 ;
+        dbo:areaTotal        163370 ;
+        ramon:code           "NO-1815" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1816  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1816 Vevelstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vevelstad"@no ;
+        dbo:populationTotal  485 ;
+        dbo:areaTotal        538800 ;
+        ramon:code           "NO-1816" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1818  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1818 Herøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Herøy"@no ;
+        dbo:populationTotal  1683 ;
+        dbo:areaTotal        64590 ;
+        ramon:code           "NO-1818" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1820  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1820 Alstahaug" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alstahaug"@no ;
+        dbo:populationTotal  7207 ;
+        dbo:areaTotal        187170 ;
+        ramon:code           "NO-1820" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1822  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1822 Leirfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leirfjord"@no ;
+        dbo:populationTotal  2090 ;
+        dbo:areaTotal        465300 ;
+        ramon:code           "NO-1822" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1824  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1824 Vefsn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vefsn"@no ;
+        dbo:populationTotal  13424 ;
+        dbo:areaTotal        1928500 ;
+        ramon:code           "NO-1824" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1825  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1825 Grane" ;
+        void:inDataset       lau: ;
+        ramon:name           "Grane"@no ;
+        dbo:populationTotal  1537 ;
+        dbo:areaTotal        2008520 ;
+        ramon:code           "NO-1825" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1826  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1826 Hattfjelldal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hattfjelldal"@no ;
+        dbo:populationTotal  1463 ;
+        dbo:areaTotal        2684490 ;
+        ramon:code           "NO-1826" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1827  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1827 Dønna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dønna"@no ;
+        dbo:populationTotal  1463 ;
+        dbo:areaTotal        194230 ;
+        ramon:code           "NO-1827" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1828  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1828 Nesna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nesna"@no ;
+        dbo:populationTotal  1792 ;
+        dbo:areaTotal        183120 ;
+        ramon:code           "NO-1828" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1832  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1832 Hemnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hemnes"@no ;
+        dbo:populationTotal  4478 ;
+        dbo:areaTotal        1588780 ;
+        ramon:code           "NO-1832" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1833  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1833 Rana" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rana"@no ;
+        dbo:populationTotal  25092 ;
+        dbo:areaTotal        4460460 ;
+        ramon:code           "NO-1833" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1834  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1834 Lurøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lurøy"@no ;
+        dbo:populationTotal  1899 ;
+        dbo:areaTotal        263840 ;
+        ramon:code           "NO-1834" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1835  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1835 Træna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Træna"@no ;
+        dbo:populationTotal  451 ;
+        dbo:areaTotal        16340 ;
+        ramon:code           "NO-1835" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1836  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1836 Rødøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rødøy"@no ;
+        dbo:populationTotal  1314 ;
+        dbo:areaTotal        711890 ;
+        ramon:code           "NO-1836" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1837  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1837 Meløy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meløy"@no ;
+        dbo:populationTotal  6622 ;
+        dbo:areaTotal        873200 ;
+        ramon:code           "NO-1837" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1838  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1838 Gildeskål" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gildeskål"@no ;
+        dbo:populationTotal  2046 ;
+        dbo:areaTotal        661940 ;
+        ramon:code           "NO-1838" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1839  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1839 Beiarn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Beiarn"@no ;
+        dbo:populationTotal  1128 ;
+        dbo:areaTotal        1221950 ;
+        ramon:code           "NO-1839" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1840  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1840 Saltdal" ;
+        void:inDataset       lau: ;
+        ramon:name           "Saltdal"@no ;
+        dbo:populationTotal  4710 ;
+        dbo:areaTotal        2215270 ;
+        ramon:code           "NO-1840" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1841  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1841 Fauske" ;
+        void:inDataset       lau: ;
+        ramon:name           "Fauske"@no ;
+        dbo:populationTotal  9480 ;
+        dbo:areaTotal        1210430 ;
+        ramon:code           "NO-1841" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1845  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1845 Sørfold" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sørfold"@no ;
+        dbo:populationTotal  2000 ;
+        dbo:areaTotal        1635920 ;
+        ramon:code           "NO-1845" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1848  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1848 Steigen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Steigen"@no ;
+        dbo:populationTotal  2672 ;
+        dbo:areaTotal        1006770 ;
+        ramon:code           "NO-1848" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1849  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1849 Hamarøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hamarøy"@no ;
+        dbo:populationTotal  1761 ;
+        dbo:areaTotal        1031290 ;
+        ramon:code           "NO-1849" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1850  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1850 Tysfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tysfjord"@no ;
+        dbo:populationTotal  2028 ;
+        dbo:areaTotal        1463760 ;
+        ramon:code           "NO-1850" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1851  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1851 Lødingen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lødingen"@no ;
+        dbo:populationTotal  2279 ;
+        dbo:areaTotal        524250 ;
+        ramon:code           "NO-1851" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1852  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1852 Tjeldsund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tjeldsund"@no ;
+        dbo:populationTotal  1338 ;
+        dbo:areaTotal        317390 ;
+        ramon:code           "NO-1852" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1853  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1853 Evenes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Evenes"@no ;
+        dbo:populationTotal  1358 ;
+        dbo:areaTotal        252300 ;
+        ramon:code           "NO-1853" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1854  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1854 Ballangen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ballangen"@no ;
+        dbo:populationTotal  2652 ;
+        dbo:areaTotal        931200 ;
+        ramon:code           "NO-1854" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1856  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1856 Røst" ;
+        void:inDataset       lau: ;
+        ramon:name           "Røst"@no ;
+        dbo:populationTotal  622 ;
+        dbo:areaTotal        10570 ;
+        ramon:code           "NO-1856" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1857  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1857 Værøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Værøy"@no ;
+        dbo:populationTotal  743 ;
+        dbo:areaTotal        17660 ;
+        ramon:code           "NO-1857" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1859  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1859 Flakstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Flakstad"@no ;
+        dbo:populationTotal  1441 ;
+        dbo:areaTotal        178070 ;
+        ramon:code           "NO-1859" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1860  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1860 Vestvågøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vestvågøy"@no ;
+        dbo:populationTotal  10710 ;
+        dbo:areaTotal        423140 ;
+        ramon:code           "NO-1860" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1865  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1865 Vågan" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vågan"@no ;
+        dbo:populationTotal  8933 ;
+        dbo:areaTotal        477500 ;
+        ramon:code           "NO-1865" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1866  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1866 Hadsel" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hadsel"@no ;
+        dbo:populationTotal  7970 ;
+        dbo:areaTotal        566380 ;
+        ramon:code           "NO-1866" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1867  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1867 Bø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bø"@no ;
+        dbo:populationTotal  2867 ;
+        dbo:areaTotal        247080 ;
+        ramon:code           "NO-1867" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1868  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1868 Øksnes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Øksnes"@no ;
+        dbo:populationTotal  4424 ;
+        dbo:areaTotal        319150 ;
+        ramon:code           "NO-1868" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1870  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1870 Sortland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sortland"@no ;
+        dbo:populationTotal  9678 ;
+        dbo:areaTotal        722370 ;
+        ramon:code           "NO-1870" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1871  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1871 Andøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Andøy"@no ;
+        dbo:populationTotal  5078 ;
+        dbo:areaTotal        655620 ;
+        ramon:code           "NO-1871" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1874  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1874 Moskenes" ;
+        void:inDataset       lau: ;
+        ramon:name           "Moskenes"@no ;
+        dbo:populationTotal  1128 ;
+        dbo:areaTotal        118590 ;
+        ramon:code           "NO-1874" ;
+        spatial:PP           nuts:NO071 ;
+        ramon:level          5 .
+
+lau:NO-1903  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1903 Harstad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Harstad"@no ;
+        dbo:populationTotal  23108 ;
+        dbo:areaTotal        371840 ;
+        ramon:code           "NO-1903" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1902  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1902 Tromsø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tromsø"@no ;
+        dbo:populationTotal  65286 ;
+        dbo:areaTotal        2566260 ;
+        ramon:code           "NO-1902" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1911  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1911 Kvæfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvæfjord"@no ;
+        dbo:populationTotal  3036 ;
+        dbo:areaTotal        512700 ;
+        ramon:code           "NO-1911" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1913  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1913 Skånland" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skånland"@no ;
+        dbo:populationTotal  2862 ;
+        dbo:areaTotal        495020 ;
+        ramon:code           "NO-1913" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1917  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1917 Ibestad" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ibestad"@no ;
+        dbo:populationTotal  1511 ;
+        dbo:areaTotal        241240 ;
+        ramon:code           "NO-1917" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1919  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1919 Gratangen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gratangen"@no ;
+        dbo:populationTotal  1168 ;
+        dbo:areaTotal        313130 ;
+        ramon:code           "NO-1919" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1920  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1920 Lavangen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lavangen"@no ;
+        dbo:populationTotal  1010 ;
+        dbo:areaTotal        301670 ;
+        ramon:code           "NO-1920" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1922  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1922 Bardu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Bardu"@no ;
+        dbo:populationTotal  3994 ;
+        dbo:areaTotal        2704050 ;
+        ramon:code           "NO-1922" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1923  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1923 Salangen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Salangen"@no ;
+        dbo:populationTotal  2169 ;
+        dbo:areaTotal        457890 ;
+        ramon:code           "NO-1923" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1924  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1924 Målselv" ;
+        void:inDataset       lau: ;
+        ramon:name           "Målselv"@no ;
+        dbo:populationTotal  6603 ;
+        dbo:areaTotal        3322410 ;
+        ramon:code           "NO-1924" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1925  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1925 Sørreisa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sørreisa"@no ;
+        dbo:populationTotal  3312 ;
+        dbo:areaTotal        362980 ;
+        ramon:code           "NO-1925" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1926  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1926 Dyrøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Dyrøy"@no ;
+        dbo:populationTotal  1232 ;
+        dbo:areaTotal        288600 ;
+        ramon:code           "NO-1926" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1927  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1927 Tranøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tranøy"@no ;
+        dbo:populationTotal  1579 ;
+        dbo:areaTotal        523620 ;
+        ramon:code           "NO-1927" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1928  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1928 Torsken" ;
+        void:inDataset       lau: ;
+        ramon:name           "Torsken"@no ;
+        dbo:populationTotal  937 ;
+        dbo:areaTotal        243290 ;
+        ramon:code           "NO-1928" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1929  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1929 Berg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Berg"@no ;
+        dbo:populationTotal  937 ;
+        dbo:areaTotal        294020 ;
+        ramon:code           "NO-1929" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1931  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1931 Lenvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lenvik"@no ;
+        dbo:populationTotal  11160 ;
+        dbo:areaTotal        892510 ;
+        ramon:code           "NO-1931" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1933  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1933 Balsfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Balsfjord"@no ;
+        dbo:populationTotal  5529 ;
+        dbo:areaTotal        1495850 ;
+        ramon:code           "NO-1933" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1936  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1936 Karlsøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Karlsøy"@no ;
+        dbo:populationTotal  2404 ;
+        dbo:areaTotal        1046920 ;
+        ramon:code           "NO-1936" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1938  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1938 Lyngen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lyngen"@no ;
+        dbo:populationTotal  3208 ;
+        dbo:areaTotal        812360 ;
+        ramon:code           "NO-1938" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1939  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1939 Storfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Storfjord"@no ;
+        dbo:populationTotal  1893 ;
+        dbo:areaTotal        1542720 ;
+        ramon:code           "NO-1939" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1940  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1940 Gáivuotna – Kåfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gáivuotna – Kåfjord"@no ;
+        dbo:populationTotal  2248 ;
+        dbo:areaTotal        991160 ;
+        ramon:code           "NO-1940" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1941  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1941 Skjervøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Skjervøy"@no ;
+        dbo:populationTotal  2934 ;
+        dbo:areaTotal        477640 ;
+        ramon:code           "NO-1941" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1942  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1942 Nordreisa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nordreisa"@no ;
+        dbo:populationTotal  4665 ;
+        dbo:areaTotal        3437640 ;
+        ramon:code           "NO-1942" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-1943  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-1943 Kvænangen" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvænangen"@no ;
+        dbo:populationTotal  1348 ;
+        dbo:areaTotal        2108260 ;
+        ramon:code           "NO-1943" ;
+        spatial:PP           nuts:NO072 ;
+        ramon:level          5 .
+
+lau:NO-2002  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2002 Vardø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vardø"@no ;
+        dbo:populationTotal  2190 ;
+        dbo:areaTotal        600340 ;
+        ramon:code           "NO-2002" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2003  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2003 Vadsø" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vadsø"@no ;
+        dbo:populationTotal  6062 ;
+        dbo:areaTotal        1258060 ;
+        ramon:code           "NO-2003" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2004  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2004 Hammerfest" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hammerfest"@no ;
+        dbo:populationTotal  9407 ;
+        dbo:areaTotal        848660 ;
+        ramon:code           "NO-2004" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2011  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2011 Kautokeino" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kautokeino"@no ;
+        dbo:populationTotal  2947 ;
+        dbo:areaTotal        9708130 ;
+        ramon:code           "NO-2011" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2012  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2012 Alta" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alta"@no ;
+        dbo:populationTotal  18272 ;
+        dbo:areaTotal        3849440 ;
+        ramon:code           "NO-2012" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2014  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2014 Loppa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Loppa"@no ;
+        dbo:populationTotal  1106 ;
+        dbo:areaTotal        686790 ;
+        ramon:code           "NO-2014" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2015  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2015 Hasvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hasvik"@no ;
+        dbo:populationTotal  998 ;
+        dbo:areaTotal        556180 ;
+        ramon:code           "NO-2015" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2017  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2017 Kvalsund" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kvalsund"@no ;
+        dbo:populationTotal  1101 ;
+        dbo:areaTotal        1844020 ;
+        ramon:code           "NO-2017" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2018  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2018 Måsøy" ;
+        void:inDataset       lau: ;
+        ramon:name           "Måsøy"@no ;
+        dbo:populationTotal  1333 ;
+        dbo:areaTotal        1134330 ;
+        ramon:code           "NO-2018" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2019  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2019 Nordkapp" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nordkapp"@no ;
+        dbo:populationTotal  3219 ;
+        dbo:areaTotal        924970 ;
+        ramon:code           "NO-2019" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2020  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2020 Porsanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Porsanger"@no ;
+        dbo:populationTotal  4059 ;
+        dbo:areaTotal        4873920 ;
+        ramon:code           "NO-2020" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2021  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2021 Karasjok" ;
+        void:inDataset       lau: ;
+        ramon:name           "Karasjok"@no ;
+        dbo:populationTotal  2866 ;
+        dbo:areaTotal        5452860 ;
+        ramon:code           "NO-2021" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2022  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2022 Lebesby" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lebesby"@no ;
+        dbo:populationTotal  1304 ;
+        dbo:areaTotal        3458260 ;
+        ramon:code           "NO-2022" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2023  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2023 Gamvik" ;
+        void:inDataset       lau: ;
+        ramon:name           "Gamvik"@no ;
+        dbo:populationTotal  1040 ;
+        dbo:areaTotal        1415250 ;
+        ramon:code           "NO-2023" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2024  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2024 Berlevåg" ;
+        void:inDataset       lau: ;
+        ramon:name           "Berlevåg"@no ;
+        dbo:populationTotal  1077 ;
+        dbo:areaTotal        1120120 ;
+        ramon:code           "NO-2024" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2025  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2025 Tana" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tana"@no ;
+        dbo:populationTotal  2954 ;
+        dbo:areaTotal        4049230 ;
+        ramon:code           "NO-2025" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2027  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2027 Nesseby" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nesseby"@no ;
+        dbo:populationTotal  856 ;
+        dbo:areaTotal        1436090 ;
+        ramon:code           "NO-2027" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2028  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2028 Båtsfjord" ;
+        void:inDataset       lau: ;
+        ramon:name           "Båtsfjord"@no ;
+        dbo:populationTotal  2090 ;
+        dbo:areaTotal        1433370 ;
+        ramon:code           "NO-2028" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .
+
+lau:NO-2030  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        rdfs:label           "NO-2030 Sør-Varanger" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sør-Varanger"@no ;
+        dbo:populationTotal  9518 ;
+        dbo:areaTotal        3967710 ;
+        ramon:code           "NO-2030" ;
+        spatial:PP           nuts:NO073 ;
+        ramon:level          5 .

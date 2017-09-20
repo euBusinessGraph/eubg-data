@@ -1,4 +1,5 @@
 @prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
 @prefix nuts:  <http://nuts.geovocab.org/id/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
@@ -8,317 +9,554 @@
 @prefix spatial:  <http://geovocab.org/spatial#> .
 
 lau:SK-605  ramon:name  "Krupina"@en ;
-        ramon:code  "SK-605" ;
-        rdfs:label  "SK-605 Krupina" .
+        ramon:name      "Krupina"@sk ;
+        ramon:code      "SK-605" ;
+        rdfs:label      "SK-605 Krupina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-308  ramon:name  "Púchov"@en ;
-        ramon:code  "SK-308" ;
-        rdfs:label  "SK-308 Púchov" .
+        ramon:name      "Púchov"@sk ;
+        ramon:code      "SK-308" ;
+        rdfs:label      "SK-308 Púchov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-607  ramon:name  "Poltár"@en ;
-        ramon:code  "SK-607" ;
-        rdfs:label  "SK-607 Poltár" .
+        ramon:name      "Poltár"@sk ;
+        ramon:code      "SK-607" ;
+        rdfs:label      "SK-607 Poltár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-606  ramon:name  "Lučenec"@en ;
-        ramon:code  "SK-606" ;
-        rdfs:label  "SK-606 Lučenec" .
+        ramon:name      "Lučenec"@sk ;
+        ramon:code      "SK-606" ;
+        rdfs:label      "SK-606 Lučenec" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-601  ramon:name  "Banská Bystrica"@en ;
-        ramon:code  "SK-601" ;
-        rdfs:label  "SK-601 Banská Bystrica" .
+        ramon:name      "Banská Bystrica"@sk ;
+        ramon:code      "SK-601" ;
+        rdfs:label      "SK-601 Banská Bystrica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-709  ramon:name  "Snina"@en ;
-        ramon:code  "SK-709" ;
-        rdfs:label  "SK-709 Snina" .
+        ramon:name      "Snina"@sk ;
+        ramon:code      "SK-709" ;
+        rdfs:label      "SK-709 Snina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-603  ramon:name  "Brezno"@en ;
-        ramon:code  "SK-603" ;
-        rdfs:label  "SK-603 Brezno" .
+        ramon:name      "Brezno"@sk ;
+        ramon:code      "SK-603" ;
+        rdfs:label      "SK-603 Brezno" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-602  ramon:name  "Banská Štiavnica"@en ;
-        ramon:code  "SK-602" ;
-        rdfs:label  "SK-602 Banská Štiavnica" .
+        ramon:name      "Banská Štiavnica"@sk ;
+        ramon:code      "SK-602" ;
+        rdfs:label      "SK-602 Banská Štiavnica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-704  ramon:name  "Levoča"@en ;
-        ramon:code  "SK-704" ;
-        rdfs:label  "SK-704 Levoča" .
+        ramon:name      "Levoča"@sk ;
+        ramon:code      "SK-704" ;
+        rdfs:label      "SK-704 Levoča" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-705  ramon:name  "Medzilaborce"@en ;
-        ramon:code  "SK-705" ;
-        rdfs:label  "SK-705 Medzilaborce" .
+        ramon:name      "Medzilaborce"@sk ;
+        ramon:code      "SK-705" ;
+        rdfs:label      "SK-705 Medzilaborce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-706  ramon:name  "Poprad"@en ;
-        ramon:code  "SK-706" ;
-        rdfs:label  "SK-706 Poprad" .
+        ramon:name      "Poprad"@sk ;
+        ramon:code      "SK-706" ;
+        rdfs:label      "SK-706 Poprad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-707  ramon:name  "Prešov"@en ;
-        ramon:code  "SK-707" ;
-        rdfs:label  "SK-707 Prešov" .
+        ramon:name      "Prešov"@sk ;
+        ramon:code      "SK-707" ;
+        rdfs:label      "SK-707 Prešov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-609  ramon:name  "Rimavská Sobota"@en ;
-        ramon:code  "SK-609" ;
-        rdfs:label  "SK-609 Rimavská Sobota" .
+        ramon:name      "Rimavská Sobota"@sk ;
+        ramon:code      "SK-609" ;
+        rdfs:label      "SK-609 Rimavská Sobota" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-701  ramon:name  "Bardejov"@en ;
-        ramon:code  "SK-701" ;
-        rdfs:label  "SK-701 Bardejov" .
+        ramon:name      "Bardejov"@sk ;
+        ramon:code      "SK-701" ;
+        rdfs:label      "SK-701 Bardejov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-702  ramon:name  "Humenné"@en ;
-        ramon:code  "SK-702" ;
-        rdfs:label  "SK-702 Humenné" .
+        ramon:name      "Humenné"@sk ;
+        ramon:code      "SK-702" ;
+        rdfs:label      "SK-702 Humenné" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-703  ramon:name  "Kežmarok"@en ;
-        ramon:code  "SK-703" ;
-        rdfs:label  "SK-703 Kežmarok" .
+        ramon:name      "Kežmarok"@sk ;
+        ramon:code      "SK-703" ;
+        rdfs:label      "SK-703 Kežmarok" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-608  ramon:name  "Revúca"@en ;
-        ramon:code  "SK-608" ;
-        rdfs:label  "SK-608 Revúca" .
+        ramon:name      "Revúca"@sk ;
+        ramon:code      "SK-608" ;
+        rdfs:label      "SK-608 Revúca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-708  ramon:name  "Sabinov"@en ;
-        ramon:code  "SK-708" ;
-        rdfs:label  "SK-708 Sabinov" .
+        ramon:name      "Sabinov"@sk ;
+        ramon:code      "SK-708" ;
+        rdfs:label      "SK-708 Sabinov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-305  ramon:name  "Partizánske"@en ;
-        ramon:code  "SK-305" ;
-        rdfs:label  "SK-305 Partizánske" .
+        ramon:name      "Partizánske"@sk ;
+        ramon:code      "SK-305" ;
+        rdfs:label      "SK-305 Partizánske" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-613  ramon:name  "Žiar nad Hronom"@en ;
-        ramon:code  "SK-613" ;
-        rdfs:label  "SK-613 Žiar nad Hronom" .
+        ramon:name      "Žiar nad Hronom"@sk ;
+        ramon:code      "SK-613" ;
+        rdfs:label      "SK-613 Žiar nad Hronom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-304  ramon:name  "Nové Mesto nad Váhom"@en ;
-        ramon:code  "SK-304" ;
-        rdfs:label  "SK-304 Nové Mesto nad Váhom" .
+        ramon:name      "Nové Mesto nad Váhom"@sk ;
+        ramon:code      "SK-304" ;
+        rdfs:label      "SK-304 Nové Mesto nad Váhom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-508  ramon:name  "Ružomberok"@en ;
-        ramon:code  "SK-508" ;
-        rdfs:label  "SK-508 Ružomberok" .
+        ramon:name      "Ružomberok"@sk ;
+        ramon:code      "SK-508" ;
+        rdfs:label      "SK-508 Ružomberok" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-604  ramon:name  "Detva"@en ;
-        ramon:code  "SK-604" ;
-        rdfs:label  "SK-604 Detva" .
+        ramon:name      "Detva"@sk ;
+        ramon:code      "SK-604" ;
+        rdfs:label      "SK-604 Detva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-407  ramon:name  "Zlaté Moravce"@en ;
-        ramon:code  "SK-407" ;
-        rdfs:label  "SK-407 Zlaté Moravce" .
+        ramon:name      "Zlaté Moravce"@sk ;
+        ramon:code      "SK-407" ;
+        rdfs:label      "SK-407 Zlaté Moravce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-406  ramon:name  "Topoľčany"@en ;
-        ramon:code  "SK-406" ;
-        rdfs:label  "SK-406 Topoľčany" .
+        ramon:name      "Topoľčany"@sk ;
+        ramon:code      "SK-406" ;
+        rdfs:label      "SK-406 Topoľčany" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-405  ramon:name  "Šaľa"@en ;
-        ramon:code  "SK-405" ;
-        rdfs:label  "SK-405 Šaľa" .
+        ramon:name      "Šaľa"@sk ;
+        ramon:code      "SK-405" ;
+        rdfs:label      "SK-405 Šaľa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-404  ramon:name  "Nové Zámky"@en ;
-        ramon:code  "SK-404" ;
-        rdfs:label  "SK-404 Nové Zámky" .
+        ramon:name      "Nové Zámky"@sk ;
+        ramon:code      "SK-404" ;
+        rdfs:label      "SK-404 Nové Zámky" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-403  ramon:name  "Nitra"@en ;
-        ramon:code  "SK-403" ;
-        rdfs:label  "SK-403 Nitra" .
+        ramon:name      "Nitra"@sk ;
+        ramon:code      "SK-403" ;
+        rdfs:label      "SK-403 Nitra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-402  ramon:name  "Levice"@en ;
-        ramon:code  "SK-402" ;
-        rdfs:label  "SK-402 Levice" .
+        ramon:name      "Levice"@sk ;
+        ramon:code      "SK-402" ;
+        rdfs:label      "SK-402 Levice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-401  ramon:name  "Komárno"@en ;
-        ramon:code  "SK-401" ;
-        rdfs:label  "SK-401 Komárno" .
+        ramon:name      "Komárno"@sk ;
+        ramon:code      "SK-401" ;
+        rdfs:label      "SK-401 Komárno" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-509  ramon:name  "Turčianske Teplice"@en ;
-        ramon:code  "SK-509" ;
-        rdfs:label  "SK-509 Turčianske Teplice" .
+        ramon:name      "Turčianske Teplice"@sk ;
+        ramon:code      "SK-509" ;
+        rdfs:label      "SK-509 Turčianske Teplice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-810  ramon:name  "Spišská Nová Ves"@en ;
-        ramon:code  "SK-810" ;
-        rdfs:label  "SK-810 Spišská Nová Ves" .
+        ramon:name      "Spišská Nová Ves"@sk ;
+        ramon:code      "SK-810" ;
+        rdfs:label      "SK-810 Spišská Nová Ves" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-811  ramon:name  "Trebišov"@en ;
-        ramon:code  "SK-811" ;
-        rdfs:label  "SK-811 Trebišov" .
+        ramon:name      "Trebišov"@sk ;
+        ramon:code      "SK-811" ;
+        rdfs:label      "SK-811 Trebišov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-504  ramon:name  "Kysucké Nové Mesto"@en ;
-        ramon:code  "SK-504" ;
-        rdfs:label  "SK-504 Kysucké Nové Mesto" .
+        ramon:name      "Kysucké Nové Mesto"@sk ;
+        ramon:code      "SK-504" ;
+        rdfs:label      "SK-504 Kysucké Nové Mesto" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-505  ramon:name  "Liptovský Mikuláš"@en ;
-        ramon:code  "SK-505" ;
-        rdfs:label  "SK-505 Liptovský Mikuláš" .
+        ramon:name      "Liptovský Mikuláš"@sk ;
+        ramon:code      "SK-505" ;
+        rdfs:label      "SK-505 Liptovský Mikuláš" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-502  ramon:name  "Čadca"@en ;
-        ramon:code  "SK-502" ;
-        rdfs:label  "SK-502 Čadca" .
+        ramon:name      "Čadca"@sk ;
+        ramon:code      "SK-502" ;
+        rdfs:label      "SK-502 Čadca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-302  ramon:name  "Dubnica nad Váhom"@en ;
-        ramon:code  "SK-302" ;
-        rdfs:label  "SK-302 Dubnica nad Váhom" .
+        ramon:name      "Dubnica nad Váhom"@sk ;
+        ramon:code      "SK-302" ;
+        rdfs:label      "SK-302 Dubnica nad Váhom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-501  ramon:name  "Bytča"@en ;
-        ramon:code  "SK-501" ;
-        rdfs:label  "SK-501 Bytča" .
+        ramon:name      "Bytča"@sk ;
+        ramon:code      "SK-501" ;
+        rdfs:label      "SK-501 Bytča" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-201  ramon:name  "Dunajská Streda"@en ;
-        ramon:code  "SK-201" ;
-        rdfs:label  "SK-201 Dunajská Streda" .
+        ramon:name      "Dunajská Streda"@sk ;
+        ramon:code      "SK-201" ;
+        rdfs:label      "SK-201 Dunajská Streda" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-309  ramon:name  "Trenčín"@en ;
-        ramon:code  "SK-309" ;
-        rdfs:label  "SK-309 Trenčín" .
+        ramon:name      "Trenčín"@sk ;
+        ramon:code      "SK-309" ;
+        rdfs:label      "SK-309 Trenčín" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-203  ramon:name  "Hlohovec"@en ;
-        ramon:code  "SK-203" ;
-        rdfs:label  "SK-203 Hlohovec" .
+        ramon:name      "Hlohovec"@sk ;
+        ramon:code      "SK-203" ;
+        rdfs:label      "SK-203 Hlohovec" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-202  ramon:name  "Sereď"@en ;
-        ramon:code  "SK-202" ;
-        rdfs:label  "SK-202 Sereď" .
+        ramon:name      "Sereď"@sk ;
+        ramon:code      "SK-202" ;
+        rdfs:label      "SK-202 Sereď" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-205  ramon:name  "Senica"@en ;
-        ramon:code  "SK-205" ;
-        rdfs:label  "SK-205 Senica" .
+        ramon:name      "Senica"@sk ;
+        ramon:code      "SK-205" ;
+        rdfs:label      "SK-205 Senica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-204  ramon:name  "Piešťany"@en ;
-        ramon:code  "SK-204" ;
-        rdfs:label  "SK-204 Piešťany" .
+        ramon:name      "Piešťany"@sk ;
+        ramon:code      "SK-204" ;
+        rdfs:label      "SK-204 Piešťany" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-207  ramon:name  "Trnava"@en ;
-        ramon:code  "SK-207" ;
-        rdfs:label  "SK-207 Trnava" .
+        ramon:name      "Trnava"@sk ;
+        ramon:code      "SK-207" ;
+        rdfs:label      "SK-207 Trnava" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-206  ramon:name  "Skalica"@en ;
-        ramon:code  "SK-206" ;
-        rdfs:label  "SK-206 Skalica" .
+        ramon:name      "Skalica"@sk ;
+        ramon:code      "SK-206" ;
+        rdfs:label      "SK-206 Skalica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-612  ramon:name  "Nová Baňa"@en ;
-        ramon:code  "SK-612" ;
-        rdfs:label  "SK-612 Nová Baňa" .
+        ramon:name      "Nová Baňa"@sk ;
+        ramon:code      "SK-612" ;
+        rdfs:label      "SK-612 Nová Baňa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-301  ramon:name  "Bánovce nad Bebravou"@en ;
-        ramon:code  "SK-301" ;
-        rdfs:label  "SK-301 Bánovce nad Bebravou" .
+        ramon:name      "Bánovce nad Bebravou"@sk ;
+        ramon:code      "SK-301" ;
+        rdfs:label      "SK-301 Bánovce nad Bebravou" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-610  ramon:name  "Veľký Krtíš"@en ;
-        ramon:code  "SK-610" ;
-        rdfs:label  "SK-610 Veľký Krtíš" .
+        ramon:name      "Veľký Krtíš"@sk ;
+        ramon:code      "SK-610" ;
+        rdfs:label      "SK-610 Veľký Krtíš" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-611  ramon:name  "Zvolen"@en ;
-        ramon:code  "SK-611" ;
-        rdfs:label  "SK-611 Zvolen" .
+        ramon:name      "Zvolen"@sk ;
+        ramon:code      "SK-611" ;
+        rdfs:label      "SK-611 Zvolen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-713  ramon:name  "Vranov nad Topľou"@en ;
-        ramon:code  "SK-713" ;
-        rdfs:label  "SK-713 Vranov nad Topľou" .
+        ramon:name      "Vranov nad Topľou"@sk ;
+        ramon:code      "SK-713" ;
+        rdfs:label      "SK-713 Vranov nad Topľou" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-712  ramon:name  "Svidník"@en ;
-        ramon:code  "SK-712" ;
-        rdfs:label  "SK-712 Svidník" .
+        ramon:name      "Svidník"@sk ;
+        ramon:code      "SK-712" ;
+        rdfs:label      "SK-712 Svidník" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-711  ramon:name  "Stropkov"@en ;
-        ramon:code  "SK-711" ;
-        rdfs:label  "SK-711 Stropkov" .
+        ramon:name      "Stropkov"@sk ;
+        ramon:code      "SK-711" ;
+        rdfs:label      "SK-711 Stropkov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-307  ramon:name  "Prievidza"@en ;
-        ramon:code  "SK-307" ;
-        rdfs:label  "SK-307 Prievidza" .
+        ramon:name      "Prievidza"@sk ;
+        ramon:code      "SK-307" ;
+        rdfs:label      "SK-307 Prievidza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-506  ramon:name  "Martin"@en ;
-        ramon:code  "SK-506" ;
-        rdfs:label  "SK-506 Martin" .
+        ramon:name      "Martin"@sk ;
+        ramon:code      "SK-506" ;
+        rdfs:label      "SK-506 Martin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-108  ramon:name  "Senec"@en ;
-        ramon:code  "SK-108" ;
-        rdfs:label  "SK-108 Senec" .
+        ramon:name      "Senec"@sk ;
+        ramon:code      "SK-108" ;
+        rdfs:label      "SK-108 Senec" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-306  ramon:name  "Považská Bystrica"@en ;
-        ramon:code  "SK-306" ;
-        rdfs:label  "SK-306 Považská Bystrica" .
+        ramon:name      "Považská Bystrica"@sk ;
+        ramon:code      "SK-306" ;
+        rdfs:label      "SK-306 Považská Bystrica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-507  ramon:name  "Námestovo"@en ;
-        ramon:code  "SK-507" ;
-        rdfs:label  "SK-507 Námestovo" .
+        ramon:name      "Námestovo"@sk ;
+        ramon:code      "SK-507" ;
+        rdfs:label      "SK-507 Námestovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-102  ramon:name  "Bratislava - urban part Ružinov"@en ;
-        ramon:code  "SK-102" ;
-        rdfs:label  "SK-102 Bratislava - urban part Ružinov" .
+        ramon:name      "Bratislava - mestská časť Ružinov"@sk ;
+        ramon:code      "SK-102" ;
+        rdfs:label      "SK-102 Bratislava - urban part Ružinov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-103  ramon:name  "Bratislava - urban part Nové Mesto"@en ;
-        ramon:code  "SK-103" ;
-        rdfs:label  "SK-103 Bratislava - urban part Nové Mesto" .
+        ramon:name      "Bratislava - mestská časť Nové Mesto"@sk ;
+        ramon:code      "SK-103" ;
+        rdfs:label      "SK-103 Bratislava - urban part Nové Mesto" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-101  ramon:name  "Bratislava - urban part Staré Mesto"@en ;
-        ramon:code  "SK-101" ;
-        rdfs:label  "SK-101 Bratislava - urban part Staré Mesto" .
+        ramon:name      "Bratislava - mestská časť Staré Mesto"@sk ;
+        ramon:code      "SK-101" ;
+        rdfs:label      "SK-101 Bratislava - urban part Staré Mesto" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-106  ramon:name  "Malacky"@en ;
-        ramon:code  "SK-106" ;
-        rdfs:label  "SK-106 Malacky" .
+        ramon:name      "Malacky"@sk ;
+        ramon:code      "SK-106" ;
+        rdfs:label      "SK-106 Malacky" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-107  ramon:name  "Pezinok"@en ;
-        ramon:code  "SK-107" ;
-        rdfs:label  "SK-107 Pezinok" .
+        ramon:name      "Pezinok"@sk ;
+        ramon:code      "SK-107" ;
+        rdfs:label      "SK-107 Pezinok" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-104  ramon:name  "Bratislava - urban part Karlova Ves"@en ;
-        ramon:code  "SK-104" ;
-        rdfs:label  "SK-104 Bratislava - urban part Karlova Ves" .
+        ramon:name      "Bratislava - mestská časť Karlova Ves"@sk ;
+        ramon:code      "SK-104" ;
+        rdfs:label      "SK-104 Bratislava - urban part Karlova Ves" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-105  ramon:name  "Bratislava - urban part Petržalka"@en ;
-        ramon:code  "SK-105" ;
-        rdfs:label  "SK-105 Bratislava - urban part Petržalka" .
+        ramon:name      "Bratislava - mestská časť Petržalka"@sk ;
+        ramon:code      "SK-105" ;
+        rdfs:label      "SK-105 Bratislava - urban part Petržalka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-802  ramon:name  "Košice - urban part Sídlisko Ťahanovce"@en ;
-        ramon:code  "SK-802" ;
-        rdfs:label  "SK-802 Košice - urban part Sídlisko Ťahanovce" .
+        ramon:name      "Košice - mestská časť Sídlisko Ťahanovce"@sk ;
+        ramon:code      "SK-802" ;
+        rdfs:label      "SK-802 Košice - urban part Sídlisko Ťahanovce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-803  ramon:name  "Košice - urban part Západ"@en ;
-        ramon:code  "SK-803" ;
-        rdfs:label  "SK-803 Košice - urban part Západ" .
+        ramon:name      "Košice - mestská časť Západ"@sk ;
+        ramon:code      "SK-803" ;
+        rdfs:label      "SK-803 Košice - urban part Západ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-503  ramon:name  "Dolný Kubín"@en ;
-        ramon:code  "SK-503" ;
-        rdfs:label  "SK-503 Dolný Kubín" .
+        ramon:name      "Dolný Kubín"@sk ;
+        ramon:code      "SK-503" ;
+        rdfs:label      "SK-503 Dolný Kubín" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-809  ramon:name  "Sobrance"@en ;
-        ramon:code  "SK-809" ;
-        rdfs:label  "SK-809 Sobrance" .
+        ramon:name      "Sobrance"@sk ;
+        ramon:code      "SK-809" ;
+        rdfs:label      "SK-809 Sobrance" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-808  ramon:name  "Rožňava"@en ;
-        ramon:code  "SK-808" ;
-        rdfs:label  "SK-808 Rožňava" .
+        ramon:name      "Rožňava"@sk ;
+        ramon:code      "SK-808" ;
+        rdfs:label      "SK-808 Rožňava" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-303  ramon:name  "Myjava"@en ;
-        ramon:code  "SK-303" ;
-        rdfs:label  "SK-303 Myjava" .
+        ramon:name      "Myjava"@sk ;
+        ramon:code      "SK-303" ;
+        rdfs:label      "SK-303 Myjava" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-710  ramon:name  "Stará Ľubovňa"@en ;
-        ramon:code  "SK-710" ;
-        rdfs:label  "SK-710 Stará Ľubovňa" .
+        ramon:name      "Stará Ľubovňa"@sk ;
+        ramon:code      "SK-710" ;
+        rdfs:label      "SK-710 Stará Ľubovňa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-511  ramon:name  "Žilina"@en ;
-        ramon:code  "SK-511" ;
-        rdfs:label  "SK-511 Žilina" .
+        ramon:name      "Žilina"@sk ;
+        ramon:code      "SK-511" ;
+        rdfs:label      "SK-511 Žilina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-510  ramon:name  "Tvrdošín"@en ;
-        ramon:code  "SK-510" ;
-        rdfs:label  "SK-510 Tvrdošín" .
+        ramon:name      "Tvrdošín"@sk ;
+        ramon:code      "SK-510" ;
+        rdfs:label      "SK-510 Tvrdošín" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-801  ramon:name  "Gelnica"@en ;
-        ramon:code  "SK-801" ;
-        rdfs:label  "SK-801 Gelnica" .
+        ramon:name      "Gelnica"@sk ;
+        ramon:code      "SK-801" ;
+        rdfs:label      "SK-801 Gelnica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-807  ramon:name  "Michalovce"@en ;
-        ramon:code  "SK-807" ;
-        rdfs:label  "SK-807 Michalovce" .
+        ramon:name      "Michalovce"@sk ;
+        ramon:code      "SK-807" ;
+        rdfs:label      "SK-807 Michalovce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-806  ramon:name  "Moldava nad Bodvou"@en ;
-        ramon:code  "SK-806" ;
-        rdfs:label  "SK-806 Moldava nad Bodvou" .
+        ramon:name      "Moldava nad Bodvou"@sk ;
+        ramon:code      "SK-806" ;
+        rdfs:label      "SK-806 Moldava nad Bodvou" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-805  ramon:name  "Košice - urban part Nad jazerom"@en ;
-        ramon:code  "SK-805" ;
-        rdfs:label  "SK-805 Košice - urban part Nad jazerom" .
+        ramon:name      "Košice - mestská časť Nad jazerom"@sk ;
+        ramon:code      "SK-805" ;
+        rdfs:label      "SK-805 Košice - urban part Nad jazerom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:SK-804  ramon:name  "Košice - urban part Dargovských hrdinov"@en ;
-        ramon:code  "SK-804" ;
-        rdfs:label  "SK-804 Košice - urban part Dargovských hrdinov" .
+        ramon:name      "Košice - mestská časť Dargovských hrdinov"@sk ;
+        ramon:code      "SK-804" ;
+        rdfs:label      "SK-804 Košice - urban part Dargovských hrdinov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

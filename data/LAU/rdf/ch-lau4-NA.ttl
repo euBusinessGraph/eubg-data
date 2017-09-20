@@ -1,0 +1,914 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:CH-CH.AG.AA  ramon:code  "CH-CH.AG.AA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.BE.AB  ramon:code  "CH-CH.BE.AB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.BE.AW  ramon:code  "CH-CH.BE.AW" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.ZH.AT  ramon:code  "CH-CH.ZH.AT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.VD.AI  ramon:code  "CH-CH.VD.AI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.GR.AB  ramon:code  "CH-CH.GR.AB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.SG.AT  ramon:code  "CH-CH.SG.AT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.ZH.AF  ramon:code  "CH-CH.ZH.AF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.AI.AI  ramon:code  "CH-CH.AI.AI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH054 .
+
+lau:CH-CH.TG.AB  ramon:code  "CH-CH.TG.AB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.BL.AH  ramon:code  "CH-CH.BL.AH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-CH.VD.AU  ramon:code  "CH-CH.VD.AU" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.AV  ramon:code  "CH-CH.VD.AV" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.AG.BA  ramon:code  "CH-CH.AG.BA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.BS.BS  ramon:code  "CH-CH.BS.BS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH031 .
+
+lau:CH-CH.TI.BZ  ramon:code  "CH-CH.TI.BZ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.BE.BE  ramon:code  "CH-CH.BE.BE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.GR.BN  ramon:code  "CH-CH.GR.BN" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.BE.BI  ramon:code  "CH-CH.BE.BI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.TG.BZ  ramon:code  "CH-CH.TG.BZ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.TI.BL  ramon:code  "CH-CH.TI.BL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.NE.BO  ramon:code  "CH-CH.NE.BO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-CH.AG.BG  ramon:code  "CH-CH.AG.BG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.VS.BR  ramon:code  "CH-CH.VS.BR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.AG.BR  ramon:code  "CH-CH.AG.BR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.SO.BB  ramon:code  "CH-CH.SO.BB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.ZH.BU  ramon:code  "CH-CH.ZH.BU" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.BE.BU  ramon:code  "CH-CH.BE.BU" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.BE.BD  ramon:code  "CH-CH.BE.BD" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.VS.CO  ramon:code  "CH-CH.VS.CO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.VD.CO  ramon:code  "CH-CH.VD.CO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.BE.CL  ramon:code  "CH-CH.BE.CL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.JU.DE  ramon:code  "CH-CH.JU.DE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH025 .
+
+lau:CH-CH.ZH.DD  ramon:code  "CH-CH.ZH.DD" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.TG.DH  ramon:code  "CH-CH.TG.DH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.ZH.DT  ramon:code  "CH-CH.ZH.DT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.SO.DE  ramon:code  "CH-CH.SO.DE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.VD.EC  ramon:code  "CH-CH.VD.EC" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.SZ.ES  ramon:code  "CH-CH.SZ.ES" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-CH.LU.EB  ramon:code  "CH-CH.LU.EB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-CH.VS.EM  ramon:code  "CH-CH.VS.EM" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.BE.EL  ramon:code  "CH-CH.BE.EL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.BE.FB  ramon:code  "CH-CH.BE.FB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.TG.FF  ramon:code  "CH-CH.TG.FF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.BE.FT  ramon:code  "CH-CH.BE.FT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.SG.GA  ramon:code  "CH-CH.SG.GA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.SO.GA  ramon:code  "CH-CH.SO.GA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.GE.GE  ramon:code  "CH-CH.GE.GE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH013 .
+
+lau:CH-CH.SZ.GS  ramon:code  "CH-CH.SZ.GS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-CH.GL.GL  ramon:code  "CH-CH.GL.GL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH051 .
+
+lau:CH-CH.VS.GO  ramon:code  "CH-CH.VS.GO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.SO.GG  ramon:code  "CH-CH.SO.GG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.SG.GO  ramon:code  "CH-CH.SG.GO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.VD.GR  ramon:code  "CH-CH.VD.GR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VS.HE  ramon:code  "CH-CH.VS.HE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.AR.HL  ramon:code  "CH-CH.AR.HL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH053 .
+
+lau:CH-CH.GR.HR  ramon:code  "CH-CH.GR.HR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.ZH.HW  ramon:code  "CH-CH.ZH.HW" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.LU.HD  ramon:code  "CH-CH.LU.HD" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-CH.SZ.HO  ramon:code  "CH-CH.SZ.HO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-CH.ZH.HG  ramon:code  "CH-CH.ZH.HG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.GR.IB  ramon:code  "CH-CH.GR.IB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.GR.IN  ramon:code  "CH-CH.GR.IN" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.BE.IL  ramon:code  "CH-CH.BE.IL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.BE.KF  ramon:code  "CH-CH.BE.KF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.TG.KL  ramon:code  "CH-CH.TG.KL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.AG.KU  ramon:code  "CH-CH.AG.KU" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.SZ.KN  ramon:code  "CH-CH.SZ.KN" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-CH.FR.BR  ramon:code  "CH-CH.FR.BR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.FR.LA  ramon:code  "CH-CH.FR.LA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.NE.CF  ramon:code  "CH-CH.NE.CF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-CH.FR.GL  ramon:code  "CH-CH.FR.GL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.FR.GR  ramon:code  "CH-CH.FR.GR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.GR.LQ  ramon:code  "CH-CH.GR.LQ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.BE.LN  ramon:code  "CH-CH.BE.LN" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.FR.SA  ramon:code  "CH-CH.FR.SA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.BL.LF  ramon:code  "CH-CH.BL.LF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-CH.AG.LA  ramon:code  "CH-CH.AG.LA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.BE.LP  ramon:code  "CH-CH.BE.LP" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.VD.LS  ramon:code  "CH-CH.VD.LS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.LV  ramon:code  "CH-CH.VD.LV" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.LX  ramon:code  "CH-CH.VD.LX" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.FR.VE  ramon:code  "CH-CH.FR.VE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.SO.LB  ramon:code  "CH-CH.SO.LB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.NE.LO  ramon:code  "CH-CH.NE.LO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-CH.AG.LB  ramon:code  "CH-CH.AG.LB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.JU.FM  ramon:code  "CH-CH.JU.FM" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH025 .
+
+lau:CH-CH.VS.LE  ramon:code  "CH-CH.VS.LE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.TI.LT  ramon:code  "CH-CH.TI.LT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.BL.LT  ramon:code  "CH-CH.BL.LT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-CH.TI.LO  ramon:code  "CH-CH.TI.LO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.TI.LG  ramon:code  "CH-CH.TI.LG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.LU.LU  ramon:code  "CH-CH.LU.LU" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-CH.GR.ML  ramon:code  "CH-CH.GR.ML" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.SZ.MA  ramon:code  "CH-CH.SZ.MA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-CH.VS.MA  ramon:code  "CH-CH.VS.MA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.ZH.ML  ramon:code  "CH-CH.ZH.ML" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.TI.MD  ramon:code  "CH-CH.TI.MD" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.AR.ML  ramon:code  "CH-CH.AR.ML" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH053 .
+
+lau:CH-CH.GR.MS  ramon:code  "CH-CH.GR.MS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.VS.MO  ramon:code  "CH-CH.VS.MO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.VD.MO  ramon:code  "CH-CH.VD.MO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.MD  ramon:code  "CH-CH.VD.MD" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.BE.MT  ramon:code  "CH-CH.BE.MT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.TG.MW  ramon:code  "CH-CH.TG.MW" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.AG.MU  ramon:code  "CH-CH.AG.MU" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.NE.NE  ramon:code  "CH-CH.NE.NE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-CH.SG.NT  ramon:code  "CH-CH.SG.NT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.BE.ND  ramon:code  "CH-CH.BE.ND" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.NW.NW  ramon:code  "CH-CH.NW.NW" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH065 .
+
+lau:CH-CH.BE.NS  ramon:code  "CH-CH.BE.NS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.VD.NY  ramon:code  "CH-CH.VD.NY" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.BE.OH  ramon:code  "CH-CH.BE.OH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.SH.OK  ramon:code  "CH-CH.SH.OK" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-CH.SG.OR  ramon:code  "CH-CH.SG.OR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.BE.OS  ramon:code  "CH-CH.BE.OS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.SG.OT  ramon:code  "CH-CH.SG.OT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.OW.OW  ramon:code  "CH-CH.OW.OW" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH064 .
+
+lau:CH-CH.SO.OL  ramon:code  "CH-CH.SO.OL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.VD.OB  ramon:code  "CH-CH.VD.OB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.OR  ramon:code  "CH-CH.VD.OR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.PA  ramon:code  "CH-CH.VD.PA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VD.PE  ramon:code  "CH-CH.VD.PE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.ZH.PF  ramon:code  "CH-CH.ZH.PF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.GR.PS  ramon:code  "CH-CH.GR.PS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.JU.PO  ramon:code  "CH-CH.JU.PO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH025 .
+
+lau:CH-CH.GR.PD  ramon:code  "CH-CH.GR.PD" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.VS.RA  ramon:code  "CH-CH.VS.RA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.SH.RE  ramon:code  "CH-CH.SH.RE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-CH.AG.RF  ramon:code  "CH-CH.AG.RF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.TI.RI  ramon:code  "CH-CH.TI.RI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.VD.RO  ramon:code  "CH-CH.VD.RO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.SG.RS  ramon:code  "CH-CH.SG.RS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.BE.SA  ramon:code  "CH-CH.BE.SA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.VS.SM  ramon:code  "CH-CH.VS.SM" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.SG.SG  ramon:code  "CH-CH.SG.SG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.SG.SA  ramon:code  "CH-CH.SG.SA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.SH.SH  ramon:code  "CH-CH.SH.SH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-CH.SH.SM  ramon:code  "CH-CH.SH.SM" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-CH.BE.SB  ramon:code  "CH-CH.BE.SB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.SZ.SZ  ramon:code  "CH-CH.SZ.SZ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-CH.SG.SE  ramon:code  "CH-CH.SG.SE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.BE.ST  ramon:code  "CH-CH.BE.ST" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.FR.SI  ramon:code  "CH-CH.FR.SI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-CH.VS.SR  ramon:code  "CH-CH.VS.SR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.BE.SN  ramon:code  "CH-CH.BE.SN" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.VS.SI  ramon:code  "CH-CH.VS.SI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.BL.SS  ramon:code  "CH-CH.BL.SS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-CH.SO.SO  ramon:code  "CH-CH.SO.SO" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.TG.SB  ramon:code  "CH-CH.TG.SB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.SH.ST  ramon:code  "CH-CH.SH.ST" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-CH.LU.SS  ramon:code  "CH-CH.LU.SS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-CH.GR.SS  ramon:code  "CH-CH.GR.SS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-CH.SO.TH  ramon:code  "CH-CH.SO.TH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.SO.TS  ramon:code  "CH-CH.SO.TS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.BE.TH  ramon:code  "CH-CH.BE.TH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.BE.TW  ramon:code  "CH-CH.BE.TW" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.SH.UK  ramon:code  "CH-CH.SH.UK" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-CH.SG.UR  ramon:code  "CH-CH.SG.UR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.SG.UT  ramon:code  "CH-CH.SG.UT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.UR.UR  ramon:code  "CH-CH.UR.UR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH062 .
+
+lau:CH-CH.ZH.US  ramon:code  "CH-CH.ZH.US" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.NE.VR  ramon:code  "CH-CH.NE.VR" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-CH.NE.VT  ramon:code  "CH-CH.NE.VT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-CH.TI.VM  ramon:code  "CH-CH.TI.VM" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH07 .
+
+lau:CH-CH.VD.VE  ramon:code  "CH-CH.VD.VE" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.VS.VI  ramon:code  "CH-CH.VS.VI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-CH.AR.VL  ramon:code  "CH-CH.AR.VL" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH053 .
+
+lau:CH-CH.BL.WB  ramon:code  "CH-CH.BL.WB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-CH.BE.WG  ramon:code  "CH-CH.BE.WG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-CH.SO.WA  ramon:code  "CH-CH.SO.WA" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-CH.TG.WF  ramon:code  "CH-CH.TG.WF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-CH.SG.WB  ramon:code  "CH-CH.SG.WB" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.SG.WI  ramon:code  "CH-CH.SG.WI" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-CH.LU.WS  ramon:code  "CH-CH.LU.WS" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-CH.ZH.WT  ramon:code  "CH-CH.ZH.WT" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.VD.YV  ramon:code  "CH-CH.VD.YV" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-CH.AG.ZF  ramon:code  "CH-CH.AG.ZF" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-CH.ZG.ZG  ramon:code  "CH-CH.ZG.ZG" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH066 .
+
+lau:CH-CH.ZH.ZH  ramon:code  "CH-CH.ZH.ZH" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH04 .
+
+lau:CH-CH.AG.ZZ  ramon:code  "CH-CH.AG.ZZ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .

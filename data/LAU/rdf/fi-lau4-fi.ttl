@@ -1,4 +1,5 @@
 @prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
 @prefix nuts:  <http://nuts.geovocab.org/id/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
@@ -8,281 +9,491 @@
 @prefix spatial:  <http://geovocab.org/spatial#> .
 
 lau:FI-151  ramon:name  "Laihela"@en ;
-        ramon:code  "FI-151" ;
-        rdfs:label  "FI-151 Laihela" .
+        ramon:name      "Laihia"@fi ;
+        ramon:code      "FI-151" ;
+        rdfs:label      "FI-151 Laihela" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-061  ramon:name  "Ikalis"@en ;
-        ramon:code  "FI-061" ;
-        rdfs:label  "FI-061 Ikalis" .
+        ramon:name      "Ikaalinen"@fi ;
+        ramon:code      "FI-061" ;
+        rdfs:label      "FI-061 Ikalis" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-153  ramon:name  "Närpes"@en ;
-        ramon:code  "FI-153" ;
-        rdfs:label  "FI-153 Närpes" .
+        ramon:name      "Närpiö"@fi ;
+        ramon:code      "FI-153" ;
+        rdfs:label      "FI-153 Närpes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-152  ramon:name  "Vasa"@en ;
-        ramon:code  "FI-152" ;
-        rdfs:label  "FI-152 Vasa" .
+        ramon:name      "Vaasa"@fi ;
+        ramon:code      "FI-152" ;
+        rdfs:label      "FI-152 Vasa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-212  ramon:name  "Jomala"@en ;
-        ramon:code  "FI-212" ;
-        rdfs:label  "FI-212 Jomala" .
+        ramon:name      "Jomala"@fi ;
+        ramon:code      "FI-212" ;
+        rdfs:label      "FI-212 Jomala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-213  ramon:name  "Föglö"@en ;
-        ramon:code  "FI-213" ;
-        rdfs:label  "FI-213 Föglö" .
+        ramon:name      "Föglö"@fi ;
+        ramon:code      "FI-213" ;
+        rdfs:label      "FI-213 Föglö" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-071  ramon:name  "Lahtis"@en ;
-        ramon:code  "FI-071" ;
-        rdfs:label  "FI-071 Lahtis" .
+        ramon:name      "Lahti"@fi ;
+        ramon:code      "FI-071" ;
+        rdfs:label      "FI-071 Lahtis" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-194  ramon:name  "Kemijärvi"@en ;
-        ramon:code  "FI-194" ;
-        rdfs:label  "FI-194 Kemijärvi" .
+        ramon:name      "Kemijärvi"@fi ;
+        ramon:code      "FI-194" ;
+        rdfs:label      "FI-194 Kemijärvi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-197  ramon:name  "Sodankylä"@en ;
-        ramon:code  "FI-197" ;
-        rdfs:label  "FI-197 Sodankylä" .
+        ramon:name      "Sodankylä"@fi ;
+        ramon:code      "FI-197" ;
+        rdfs:label      "FI-197 Sodankylä" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-196  ramon:name  "Kittilä"@en ;
-        ramon:code  "FI-196" ;
-        rdfs:label  "FI-196 Kittilä" .
+        ramon:name      "Kittilä"@fi ;
+        ramon:code      "FI-196" ;
+        rdfs:label      "FI-196 Kittilä" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-191  ramon:name  "Rovaniemi"@en ;
-        ramon:code  "FI-191" ;
-        rdfs:label  "FI-191 Rovaniemi" .
+        ramon:name      "Rovaniemi"@fi ;
+        ramon:code      "FI-191" ;
+        rdfs:label      "FI-191 Rovaniemi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-063  ramon:name  "Valkeakoski"@en ;
-        ramon:code  "FI-063" ;
-        rdfs:label  "FI-063 Valkeakoski" .
+        ramon:name      "Valkeakoski"@fi ;
+        ramon:code      "FI-063" ;
+        rdfs:label      "FI-063 Valkeakoski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-193  ramon:name  "Övertorneå"@en ;
-        ramon:code  "FI-193" ;
-        rdfs:label  "FI-193 Övertorneå" .
+        ramon:name      "Ylitornio"@fi ;
+        ramon:code      "FI-193" ;
+        rdfs:label      "FI-193 Övertorneå" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-192  ramon:name  "Torneå"@en ;
-        ramon:code  "FI-192" ;
-        rdfs:label  "FI-192 Torneå" .
+        ramon:name      "Tornio"@fi ;
+        ramon:code      "FI-192" ;
+        rdfs:label      "FI-192 Torneå" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-133  ramon:name  "Keuruu"@en ;
-        ramon:code  "FI-133" ;
-        rdfs:label  "FI-133 Keuruu" .
+        ramon:name      "Keuruu"@fi ;
+        ramon:code      "FI-133" ;
+        rdfs:label      "FI-133 Keuruu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-011  ramon:name  "Helsingfors"@en ;
-        ramon:code  "FI-011" ;
-        rdfs:label  "FI-011 Helsingfors" .
+        ramon:name      "Helsinki"@fi ;
+        ramon:code      "FI-011" ;
+        rdfs:label      "FI-011 Helsingfors" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-131  ramon:name  "Jyväskylä"@en ;
-        ramon:code  "FI-131" ;
-        rdfs:label  "FI-131 Jyväskylä" .
+        ramon:name      "Jyväskylä"@fi ;
+        ramon:code      "FI-131" ;
+        rdfs:label      "FI-131 Jyväskylä" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-014  ramon:name  "Raseborg"@en ;
-        ramon:code  "FI-014" ;
-        rdfs:label  "FI-014 Raseborg" .
+        ramon:name      "Raasepori"@fi ;
+        ramon:code      "FI-014" ;
+        rdfs:label      "FI-014 Raseborg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-015  ramon:name  "Borgå"@en ;
-        ramon:code  "FI-015" ;
-        rdfs:label  "FI-015 Borgå" .
+        ramon:name      "Porvoo"@fi ;
+        ramon:code      "FI-015" ;
+        rdfs:label      "FI-015 Borgå" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-113  ramon:name  "Juankoski"@en ;
-        ramon:code  "FI-113" ;
-        rdfs:label  "FI-113 Juankoski" .
+        ramon:name      "Juankoski"@fi ;
+        ramon:code      "FI-113" ;
+        rdfs:label      "FI-113 Juankoski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-134  ramon:name  "Jämsä"@en ;
-        ramon:code  "FI-134" ;
-        rdfs:label  "FI-134 Jämsä" .
+        ramon:name      "Jämsä"@fi ;
+        ramon:code      "FI-134" ;
+        rdfs:label      "FI-134 Jämsä" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-177  ramon:name  "Ylivieska"@en ;
-        ramon:code  "FI-177" ;
-        rdfs:label  "FI-177 Ylivieska" .
+        ramon:name      "Ylivieska"@fi ;
+        ramon:code      "FI-177" ;
+        rdfs:label      "FI-177 Ylivieska" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-176  ramon:name  "Nivala"@en ;
-        ramon:code  "FI-176" ;
-        rdfs:label  "FI-176 Nivala" .
+        ramon:name      "Nivala"@fi ;
+        ramon:code      "FI-176" ;
+        rdfs:label      "FI-176 Nivala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-175  ramon:name  "Haapavesi"@en ;
-        ramon:code  "FI-175" ;
-        rdfs:label  "FI-175 Haapavesi" .
+        ramon:name      "Haapavesi"@fi ;
+        ramon:code      "FI-175" ;
+        rdfs:label      "FI-175 Haapavesi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-138  ramon:name  "Saarijärvi"@en ;
-        ramon:code  "FI-138" ;
-        rdfs:label  "FI-138 Saarijärvi" .
+        ramon:name      "Saarijärvi"@fi ;
+        ramon:code      "FI-138" ;
+        rdfs:label      "FI-138 Saarijärvi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-173  ramon:name  "Ii"@en ;
-        ramon:code  "FI-173" ;
-        rdfs:label  "FI-173 Ii" .
+        ramon:name      "Ii"@fi ;
+        ramon:code      "FI-173" ;
+        rdfs:label      "FI-173 Ii" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-051  ramon:name  "Tavastehus"@en ;
-        ramon:code  "FI-051" ;
-        rdfs:label  "FI-051 Tavastehus" .
+        ramon:name      "Hämeenlinna"@fi ;
+        ramon:code      "FI-051" ;
+        rdfs:label      "FI-051 Tavastehus" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-171  ramon:name  "Uleåborg"@en ;
-        ramon:code  "FI-171" ;
-        rdfs:label  "FI-171 Uleåborg" .
+        ramon:name      "Oulu"@fi ;
+        ramon:code      "FI-171" ;
+        rdfs:label      "FI-171 Uleåborg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-053  ramon:name  "Forssa"@en ;
-        ramon:code  "FI-053" ;
-        rdfs:label  "FI-053 Forssa" .
+        ramon:name      "Forssa"@fi ;
+        ramon:code      "FI-053" ;
+        rdfs:label      "FI-053 Forssa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-044  ramon:name  "Kankaanpää"@en ;
-        ramon:code  "FI-044" ;
-        rdfs:label  "FI-044 Kankaanpää" .
+        ramon:name      "Kankaanpää"@fi ;
+        ramon:code      "FI-044" ;
+        rdfs:label      "FI-044 Kankaanpää" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-174  ramon:name  "Brahestad"@en ;
-        ramon:code  "FI-174" ;
-        rdfs:label  "FI-174 Brahestad" .
+        ramon:name      "Raahe"@fi ;
+        ramon:code      "FI-174" ;
+        rdfs:label      "FI-174 Brahestad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-211  ramon:name  "Mariehamn"@en ;
-        ramon:code  "FI-211" ;
-        rdfs:label  "FI-211 Mariehamn" .
+        ramon:name      "Maarianhamina - Mariehamn"@fi ;
+        ramon:code      "FI-211" ;
+        rdfs:label      "FI-211 Mariehamn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-112  ramon:name  "Kuopio"@en ;
-        ramon:code  "FI-112" ;
-        rdfs:label  "FI-112 Kuopio" .
+        ramon:name      "Kuopio"@fi ;
+        ramon:code      "FI-112" ;
+        rdfs:label      "FI-112 Kuopio" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-068  ramon:name  "Sastamala"@en ;
-        ramon:code  "FI-068" ;
-        rdfs:label  "FI-068 Sastamala" .
+        ramon:name      "Sastamala"@fi ;
+        ramon:code      "FI-068" ;
+        rdfs:label      "FI-068 Sastamala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-182  ramon:name  "Kajana"@en ;
-        ramon:code  "FI-182" ;
-        rdfs:label  "FI-182 Kajana" .
+        ramon:name      "Kajaani"@fi ;
+        ramon:code      "FI-182" ;
+        rdfs:label      "FI-182 Kajana" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-178  ramon:name  "Kuusamo"@en ;
-        ramon:code  "FI-178" ;
-        rdfs:label  "FI-178 Kuusamo" .
+        ramon:name      "Kuusamo"@fi ;
+        ramon:code      "FI-178" ;
+        rdfs:label      "FI-178 Kuusamo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-181  ramon:name  "Kuhmo"@en ;
-        ramon:code  "FI-181" ;
-        rdfs:label  "FI-181 Kuhmo" .
+        ramon:name      "Kuhmo"@fi ;
+        ramon:code      "FI-181" ;
+        rdfs:label      "FI-181 Kuhmo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-162  ramon:name  "Karleby"@en ;
-        ramon:code  "FI-162" ;
-        rdfs:label  "FI-162 Karleby" .
+        ramon:name      "Kokkola"@fi ;
+        ramon:code      "FI-162" ;
+        rdfs:label      "FI-162 Karleby" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-052  ramon:name  "Riihimäki"@en ;
-        ramon:code  "FI-052" ;
-        rdfs:label  "FI-052 Riihimäki" .
+        ramon:name      "Riihimäki"@fi ;
+        ramon:code      "FI-052" ;
+        rdfs:label      "FI-052 Riihimäki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-091  ramon:name  "Villmanstrand"@en ;
-        ramon:code  "FI-091" ;
-        rdfs:label  "FI-091 Villmanstrand" .
+        ramon:name      "Lappeenranta"@fi ;
+        ramon:code      "FI-091" ;
+        rdfs:label      "FI-091 Villmanstrand" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-146  ramon:name  "Alajärvi"@en ;
-        ramon:code  "FI-146" ;
-        rdfs:label  "FI-146 Alajärvi" .
+        ramon:name      "Alajärvi"@fi ;
+        ramon:code      "FI-146" ;
+        rdfs:label      "FI-146 Alajärvi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-144  ramon:name  "Alavus"@en ;
-        ramon:code  "FI-144" ;
-        rdfs:label  "FI-144 Alavus" .
+        ramon:name      "Alavus"@fi ;
+        ramon:code      "FI-144" ;
+        rdfs:label      "FI-144 Alavus" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-093  ramon:name  "Imatra"@en ;
-        ramon:code  "FI-093" ;
-        rdfs:label  "FI-093 Imatra" .
+        ramon:name      "Imatra"@fi ;
+        ramon:code      "FI-093" ;
+        rdfs:label      "FI-093 Imatra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-142  ramon:name  "Seinäjoki"@en ;
-        ramon:code  "FI-142" ;
-        rdfs:label  "FI-142 Seinäjoki" .
+        ramon:name      "Seinäjoki"@fi ;
+        ramon:code      "FI-142" ;
+        rdfs:label      "FI-142 Seinäjoki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-064  ramon:name  "Tammerfors"@en ;
-        ramon:code  "FI-064" ;
-        rdfs:label  "FI-064 Tammerfors" .
+        ramon:name      "Tampere"@fi ;
+        ramon:code      "FI-064" ;
+        rdfs:label      "FI-064 Tammerfors" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-141  ramon:name  "Kauhajoki"@en ;
-        ramon:code  "FI-141" ;
-        rdfs:label  "FI-141 Kauhajoki" .
+        ramon:name      "Kauhajoki"@fi ;
+        ramon:code      "FI-141" ;
+        rdfs:label      "FI-141 Kauhajoki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-069  ramon:name  "Mänttä-Vilppula"@en ;
-        ramon:code  "FI-069" ;
-        rdfs:label  "FI-069 Mänttä-Vilppula" .
+        ramon:name      "Mänttä-Vilppula"@fi ;
+        ramon:code      "FI-069" ;
+        rdfs:label      "FI-069 Mänttä-Vilppula" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-082  ramon:name  "Kotka"@en ;
-        ramon:code  "FI-082" ;
-        rdfs:label  "FI-082 Kotka" .
+        ramon:name      "Kotka"@fi ;
+        ramon:code      "FI-082" ;
+        rdfs:label      "FI-082 Kotka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-081  ramon:name  "Kouvola"@en ;
-        ramon:code  "FI-081" ;
-        rdfs:label  "FI-081 Kouvola" .
+        ramon:name      "Kouvola"@fi ;
+        ramon:code      "FI-081" ;
+        rdfs:label      "FI-081 Kouvola" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-025  ramon:name  "Loimaa"@en ;
-        ramon:code  "FI-025" ;
-        rdfs:label  "FI-025 Loimaa" .
+        ramon:name      "Loimaa"@fi ;
+        ramon:code      "FI-025" ;
+        rdfs:label      "FI-025 Loimaa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-024  ramon:name  "Nystad"@en ;
-        ramon:code  "FI-024" ;
-        rdfs:label  "FI-024 Nystad" .
+        ramon:name      "Uusikaupunki"@fi ;
+        ramon:code      "FI-024" ;
+        rdfs:label      "FI-024 Nystad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-122  ramon:name  "Joensuu"@en ;
-        ramon:code  "FI-122" ;
-        rdfs:label  "FI-122 Joensuu" .
+        ramon:name      "Joensuu"@fi ;
+        ramon:code      "FI-122" ;
+        rdfs:label      "FI-122 Joensuu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-124  ramon:name  "Kitee"@en ;
-        ramon:code  "FI-124" ;
-        rdfs:label  "FI-124 Kitee" .
+        ramon:name      "Kitee"@fi ;
+        ramon:code      "FI-124" ;
+        rdfs:label      "FI-124 Kitee" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-125  ramon:name  "Lieksa"@en ;
-        ramon:code  "FI-125" ;
-        rdfs:label  "FI-125 Lieksa" .
+        ramon:name      "Lieksa"@fi ;
+        ramon:code      "FI-125" ;
+        rdfs:label      "FI-125 Lieksa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-023  ramon:name  "Åbo"@en ;
-        ramon:code  "FI-023" ;
-        rdfs:label  "FI-023 Åbo" .
+        ramon:name      "Turku"@fi ;
+        ramon:code      "FI-023" ;
+        rdfs:label      "FI-023 Åbo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-022  ramon:name  "Salo"@en ;
-        ramon:code  "FI-022" ;
-        rdfs:label  "FI-022 Salo" .
+        ramon:name      "Salo"@fi ;
+        ramon:code      "FI-022" ;
+        rdfs:label      "FI-022 Salo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-154  ramon:name  "Jakobstad"@en ;
-        ramon:code  "FI-154" ;
-        rdfs:label  "FI-154 Jakobstad" .
+        ramon:name      "Pietarsaari"@fi ;
+        ramon:code      "FI-154" ;
+        rdfs:label      "FI-154 Jakobstad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-103  ramon:name  "Nyslott"@en ;
-        ramon:code  "FI-103" ;
-        rdfs:label  "FI-103 Nyslott" .
+        ramon:name      "Savonlinna"@fi ;
+        ramon:code      "FI-103" ;
+        rdfs:label      "FI-103 Nyslott" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-016  ramon:name  "Lovisa"@en ;
-        ramon:code  "FI-016" ;
-        rdfs:label  "FI-016 Lovisa" .
+        ramon:name      "Loviisa"@fi ;
+        ramon:code      "FI-016" ;
+        rdfs:label      "FI-016 Lovisa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-101  ramon:name  "S:t Michel"@en ;
-        ramon:code  "FI-101" ;
-        rdfs:label  "FI-101 S:t Michel" .
+        ramon:name      "Mikkeli"@fi ;
+        ramon:code      "FI-101" ;
+        rdfs:label      "FI-101 S:t Michel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-043  ramon:name  "Björneborg"@en ;
-        ramon:code  "FI-043" ;
-        rdfs:label  "FI-043 Björneborg" .
+        ramon:name      "Pori"@fi ;
+        ramon:code      "FI-043" ;
+        rdfs:label      "FI-043 Björneborg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-161  ramon:name  "Kaustby"@en ;
-        ramon:code  "FI-161" ;
-        rdfs:label  "FI-161 Kaustby" .
+        ramon:name      "Kaustinen"@fi ;
+        ramon:code      "FI-161" ;
+        rdfs:label      "FI-161 Kaustby" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-041  ramon:name  "Raumo"@en ;
-        ramon:code  "FI-041" ;
-        rdfs:label  "FI-041 Raumo" .
+        ramon:name      "Rauma"@fi ;
+        ramon:code      "FI-041" ;
+        rdfs:label      "FI-041 Raumo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-105  ramon:name  "Pieksämäki"@en ;
-        ramon:code  "FI-105" ;
-        rdfs:label  "FI-105 Pieksämäki" .
+        ramon:name      "Pieksämäki"@fi ;
+        ramon:code      "FI-105" ;
+        rdfs:label      "FI-105 Pieksämäki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-115  ramon:name  "Suonenjoki"@en ;
-        ramon:code  "FI-115" ;
-        rdfs:label  "FI-115 Suonenjoki" .
+        ramon:name      "Suonenjoki"@fi ;
+        ramon:code      "FI-115" ;
+        rdfs:label      "FI-115 Suonenjoki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-021  ramon:name  "Pargas"@en ;
-        ramon:code  "FI-021" ;
-        rdfs:label  "FI-021 Pargas" .
+        ramon:name      "Parainen"@fi ;
+        ramon:code      "FI-021" ;
+        rdfs:label      "FI-021 Pargas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-132  ramon:name  "Joutsa"@en ;
-        ramon:code  "FI-132" ;
-        rdfs:label  "FI-132 Joutsa" .
+        ramon:name      "Joutsa"@fi ;
+        ramon:code      "FI-132" ;
+        rdfs:label      "FI-132 Joutsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-135  ramon:name  "Äänekoski"@en ;
-        ramon:code  "FI-135" ;
-        rdfs:label  "FI-135 Äänekoski" .
+        ramon:name      "Äänekoski"@fi ;
+        ramon:code      "FI-135" ;
+        rdfs:label      "FI-135 Äänekoski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-114  ramon:name  "Varkaus"@en ;
-        ramon:code  "FI-114" ;
-        rdfs:label  "FI-114 Varkaus" .
+        ramon:name      "Varkaus"@fi ;
+        ramon:code      "FI-114" ;
+        rdfs:label      "FI-114 Varkaus" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
 
 lau:FI-111  ramon:name  "Idensalmi"@en ;
-        ramon:code  "FI-111" ;
-        rdfs:label  "FI-111 Idensalmi" .
+        ramon:name      "Iisalmi"@fi ;
+        ramon:code      "FI-111" ;
+        rdfs:label      "FI-111 Idensalmi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

@@ -1,0 +1,93 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:LU-02  ramon:name   "Esch-Uelzecht"@en ;
+        ramon:name      "Esch-sur-Alzette" ;
+        ramon:code      "LU-02" ;
+        rdfs:label      "LU-02 Esch-Uelzecht" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-03  ramon:name   "Lëtzebuerg"@en ;
+        ramon:name      "Luxembourg" ;
+        ramon:code      "LU-03" ;
+        rdfs:label      "LU-03 Lëtzebuerg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-01  ramon:name   "Käerjeng"@en ;
+        ramon:name      "Käerjeng" ;
+        ramon:code      "LU-01" ;
+        rdfs:label      "LU-01 Käerjeng" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-06  ramon:name   "Ettelbréck"@en ;
+        ramon:name      "Ettelbruck" ;
+        ramon:code      "LU-06" ;
+        rdfs:label      "LU-06 Ettelbréck" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-07  ramon:name   "Rammerech"@en ;
+        ramon:name      "Rambrouch" ;
+        ramon:code      "LU-07" ;
+        rdfs:label      "LU-07 Rammerech" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-04  ramon:name   "Miersch"@en ;
+        ramon:name      "Mersch" ;
+        ramon:code      "LU-04" ;
+        rdfs:label      "LU-04 Miersch" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-05  ramon:name   "Klierf"@en ;
+        ramon:name      "Clervaux" ;
+        ramon:code      "LU-05" ;
+        rdfs:label      "LU-05 Klierf" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-08  ramon:name   "Woltz"@en ;
+        ramon:name      "Wiltz" ;
+        ramon:code      "LU-08" ;
+        rdfs:label      "LU-08 Woltz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-09  ramon:name   "Tandel"@en ;
+        ramon:name      "Tandel" ;
+        ramon:code      "LU-09" ;
+        rdfs:label      "LU-09 Tandel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-12  ramon:name   "Munneref"@en ;
+        ramon:name      "Mondorf-les-Bains" ;
+        ramon:code      "LU-12" ;
+        rdfs:label      "LU-12 Munneref" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-11  ramon:name   "Jonglënster"@en ;
+        ramon:name      "Junglinster" ;
+        ramon:code      "LU-11" ;
+        rdfs:label      "LU-11 Jonglënster" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LU-10  ramon:name   "Iechternach"@en ;
+        ramon:name      "Echternach" ;
+        ramon:code      "LU-10" ;
+        rdfs:label      "LU-10 Iechternach" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
