@@ -24,7 +24,7 @@ do
         if [ "$country" != "$cntry_code" ];then continue;fi
 
         echo "Running for country: $country with language: $langs_code"
-        cat ${query} | sed "s/{country}/$country/g" > .temp.tarql
+        cat ${query} | sed "s/\$country/$country/g" > .temp.tarql
 
         # handle exceptions in files
         if [[ $country == "it" ]];then
@@ -39,7 +39,7 @@ do
             sed -i "s/, ?LAU2_NAT_CODE/, ?LAU1_NAT_CODE, '-', ?LAU2_NAT_CODE/g" .temp.tarql
         fi
 
-       sed -i "s/{language}/$langs_code/g" .temp.tarql
+       sed -i "s/\$language/$langs_code/g" .temp.tarql
 
         if [[ $delimiter != "" ]];then
             tarql -d ${delimiter} .temp.tarql $file > ${out_folder}/${country}-${suffix}-${langs_code}.ttl

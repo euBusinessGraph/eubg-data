@@ -24,7 +24,7 @@ nuts:FI ngeo:geometry nuts:FI_geometry .
 # Run scripts
 ```bash
 bash loop.sh convert-lau1.tarql ../codes.tsv ../data/LAU1/ ../rdf/ lau4
-bash loop.sh convert.tarql ../codes.tsv ../data/ ../rdf/ lau5 ","
+bash loop.sh convert.tarql ../codes.tsv ../data/LAU2/ ../rdf/ lau5 ","
 ```
 # LAU 1 
 LAU 1 is the same as NUTS3 for these countries:
@@ -98,7 +98,12 @@ There're 8 NUTS3 codes. This leads to the conclusion that LAU1 isn't subregion o
 Probably should bypass it.
 [IE lau|https://en.wikipedia.org/wiki/Local_government_in_the_Republic_of_Ireland].
 * LT - We'll skip these
-
+* IS - [LAU1](https://en.wikipedia.org/wiki/Regions_of_Iceland), [LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Iceland)
+* ME - [NUTS](https://en.wikipedia.org/wiki/NUTS_of_Montenegro), [LAU1](https://en.wikipedia.org/wiki/Municipalities_of_Montenegro)
+* TR - [LAU1](http://www.statoids.com/ytr.html)
+* LI - [LAU1+LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein)
+* NO - [LAU2](https://en.wikipedia.org/wiki/List_of_municipalities_of_Norway); [cleanded data](https://docs.google.com/spreadsheets/d/14_dAPjSz1Rarwi1JZDDZ2Q9dSIHSXd2ede5wwqKOPlE/edit#gid=0)
+* CH - [LAU1](http://www.statoids.com/ych.html)
 # LAU 2 
 Countries:
 * AT
@@ -179,7 +184,8 @@ We'll use NUTS3_13 as latest present identificator.
 | "8111"        | 2   |
 | "8025"        | 2   |
 -----------------------
-For DK LAU1+LAU2 seem to make uniq ID,  so we use the following URLs for DK LAU2: lau:DK-<lau1>-<lau2>
+
+For DK LAU1+LAU2 seem to make uniq ID,  so we use the following URLs for DK LAU2: lau:DK-[lau1]-[lau2]
 * NAME_1 - strings
 * NAME_2_LAT - strings
 * POP - numeric, blanks: "n.a.", "", make regex filter only digits

@@ -18,8 +18,9 @@ construct {
            void:inDataset        lau:;
            spatial:PP            ?nuts.
 } WHERE {
+    # $language and $country are externall variables replaced by loop.sh
     BIND("http://data.businessgraph.io/lau/" as ?base)
-    BIND(CONCAT(UCASE("{country}"), "-", ?LAU1) as ?lau1_base)
+    BIND(CONCAT(UCASE("$country"), "-", ?LAU1) as ?lau1_base)
     BIND(IF(?LAU1 = "n.a." || ?LAU1 = "" || ?LAU1 = "no", 
             ?undef,
             URI(CONCAT(?base, ?lau1_base))) as ?lau1_)
@@ -31,7 +32,7 @@ construct {
     BIND(IF(?NAME1 = "",
             ?undef,
             IF("{language}" = "NA", ?NAME1,
-            strlang(?NAME1, "{language}"))) as ?native_name)
+            strlang(?NAME1, "$language"))) as ?native_name)
 
     BIND(concat(?lau1_base, " ", IF(BOUND(?latin_name), ?latin_name, ?NAME1)) as ?label1)
     BIND(URI(CONCAT(?base, ?NUTS_3)) as ?nuts)
