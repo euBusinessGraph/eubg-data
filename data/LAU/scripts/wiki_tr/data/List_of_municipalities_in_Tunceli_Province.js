@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Tunceli_Province": {"Hozat": ["Hozat"], "\u00c7emi\u015fgezek": ["\u00c7emi\u015fgezek"], "P\u00fcl\u00fcm\u00fcr": ["P\u00fcl\u00fcm\u00fcr"], "Nazimiye": ["Nazimiye"], "Tunceli": ["Tunceli"], "Ovac\u0131k": ["Ovac\u0131k"], "Mazgirt": ["Akpazar", "Dar\u0131kent", "Mazgirt"], "Pertek": ["Pertek"]}}

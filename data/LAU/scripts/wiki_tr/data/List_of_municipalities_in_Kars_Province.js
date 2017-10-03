@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Kars_Province": {"Akyaka": ["Akyaka"], "Kars": ["Kars"], "Sar\u0131kam\u0131\u015f": ["Sar\u0131kam\u0131\u015f"], "Arpa\u00e7ay": ["Arpa\u00e7ay", "Ko\u00e7k\u00f6y"], "Selim": ["Selim"], "Susuz": ["Susuz"], "Digor": ["Da\u011fp\u0131nar", "Digor"], "Ka\u011f\u0131zman": ["Ka\u011f\u0131zman"]}}

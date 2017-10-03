@@ -100,10 +100,15 @@ Probably should bypass it.
 * LT - We'll skip these
 * IS - [LAU1](https://en.wikipedia.org/wiki/Regions_of_Iceland), [LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Iceland)
 * ME - [NUTS](https://en.wikipedia.org/wiki/NUTS_of_Montenegro), [LAU1](https://en.wikipedia.org/wiki/Municipalities_of_Montenegro)
-* TR - [LAU1](http://www.statoids.com/ytr.html)
+* TR - We weren't able to find structured LAU data for Turkey. 
+Thus we crawled the [Municipalities TR](https://en.wikipedia.org/wiki/List_of_municipalities_in_Turkey) and it's subpages. 
+From them we extracted the hierarchy. At the government site there's a [list of IDs](https://biruni.tuik.gov.tr/DIESS/FileDownload/Yayinlar/Siniflamalar/IBBS_2010.xls) including NUTS + LAU1.
+The Districts(LAU1) extracted from wiki were mapped to the excel above and the LAU1 ID was used. 737 Districts were mapped to the LAU code. 
+The others were given an id starting from 9901 to 9995.
+As we couldn't find LAU2 IDs we applied incremental ids from 99901 to 102644.
 * LI - [LAU1+LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein)
 * NO - [LAU2](https://en.wikipedia.org/wiki/List_of_municipalities_of_Norway); [cleanded data](https://docs.google.com/spreadsheets/d/14_dAPjSz1Rarwi1JZDDZ2Q9dSIHSXd2ede5wwqKOPlE/edit#gid=0)
-* CH - [LAU1](http://www.statoids.com/ych.html)
+* CH -  We used the official [register](https://www.bfs.admin.ch/bfs/fr/home/bases-statistiques/repertoire-officiel-communes-suisse.assetdetail.2245009.html)
 # LAU 2 
 Countries:
 * AT

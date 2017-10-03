@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Artvin_Province": {"Artvin": ["Artvin"], "Yusufeli": ["K\u0131l\u0131\u00e7kaya", "Yusufeli"], "\u015eav\u015fat": ["Meydanc\u0131k", "\u015eav\u015fat"], "Murgul": ["Damar", "Murgul"], "Ardanu\u00e7": ["Ardanu\u00e7"], "Bor\u00e7ka": ["Bor\u00e7ka"], "Arhavi": ["Arhavi"], "Hopa": ["Hopa", "Kemalpa\u015fa"]}}
