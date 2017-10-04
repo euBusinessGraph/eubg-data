@@ -1,0 +1,21 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:LI-1  ramon:name    "Electoral District of Unterland"@en ;
+        ramon:code      "LI-1" ;
+        rdfs:label      "LI-1 Electoral District of Unterland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:LI-2  ramon:name    "Electoral District of Oberland"@en ;
+        ramon:code      "LI-2" ;
+        rdfs:label      "LI-2 Electoral District of Oberland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

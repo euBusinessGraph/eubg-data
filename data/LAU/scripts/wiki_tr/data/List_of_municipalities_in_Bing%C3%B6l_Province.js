@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Bing%C3%B6l_Province": {"Karl\u0131ova": ["Karl\u0131ova"], "Adakl\u0131": ["Adakl\u0131"], "Yedisu": ["Yedisu"], "Yayladere": ["Yayladere"], "K\u0131\u011f\u0131": ["K\u0131\u011f\u0131"], "Gen\u00e7": ["\u00c7aytepe", "Gen\u00e7", "Servi"], "Solhan": ["Arakonak", "Solhan"], "Bing\u00f6l": ["Bing\u00f6l", "Il\u0131calar", "Sancak"]}}

@@ -1,0 +1,2101 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+AT112,n.a.,10101,no,Eisenstadt,Eisenstadt,14226,42843400
+AT112,n.a.,10201,no,Rust,Rust,1911,19989600
+AT112,n.a.,10301,no,Breitenbrunn am Neusiedler See,Breitenbrunn am Neusiedler See,1913,25720300
+AT112,n.a.,10302,no,Donnerskirchen,Donnerskirchen,1746,33919200
+AT112,n.a.,10303,no,Großhöflein,Großhöflein,2067,14249300
+AT112,n.a.,10304,no,Hornstein,Hornstein,2914,37035700
+AT112,n.a.,10305,no,Klingenbach,Klingenbach,1246,4820300
+AT112,n.a.,10306,no,Leithaprodersdorf,Leithaprodersdorf,1187,18937500
+AT112,n.a.,10307,no,Mörbisch am See,Mörbisch am See,2272,28011600
+AT112,n.a.,10308,no,Müllendorf,Müllendorf,1388,12780100
+AT112,n.a.,10309,no,Neufeld an der Leitha,Neufeld an der Leitha,3234,4242200
+AT112,n.a.,10310,no,Oggau am Neusiedler See,Oggau am Neusiedler See,1766,52083700
+AT112,n.a.,10311,no,Oslip,Oslip,1250,17817300
+AT112,n.a.,10312,no,Purbach am Neusiedler See,Purbach am Neusiedler See,2835,45745500
+AT112,n.a.,10313,no,Sankt Margarethen im Burgenland,Sankt Margarethen im Burgenland,2661,26514000
+AT112,n.a.,10314,no,Schützen am Gebirge,Schützen am Gebirge,1396,21175400
+AT112,n.a.,10315,no,Siegendorf,Siegendorf,2950,23036900
+AT112,n.a.,10316,no,Steinbrunn,Steinbrunn,2597,15394200
+AT112,n.a.,10317,no,Trausdorf an der Wulka,Trausdorf an der Wulka,2036,15422600
+AT112,n.a.,10318,no,Wimpassing an der Leitha,Wimpassing an der Leitha,1451,7905300
+AT112,n.a.,10319,no,Wulkaprodersdorf,Wulkaprodersdorf,1920,12208900
+AT112,n.a.,10320,no,Loretto,Loretto,466,2377800
+AT112,n.a.,10321,no,Stotzing,Stotzing,838,12890200
+AT112,n.a.,10322,no,Zillingtal,Zillingtal,925,13091100
+AT112,n.a.,10323,no,Zagersdorf,Zagersdorf,1008,7293900
+AT113,n.a.,10401,no,Bocksdorf,Bocksdorf,796,9984600
+AT113,n.a.,10402,no,Burgauberg-Neudauberg,Burgauberg-Neudauberg,1366,10905800
+AT113,n.a.,10403,no,Eberau,Eberau,936,30721400
+AT113,n.a.,10404,no,Gerersdorf-Sulz,Gerersdorf-Sulz,1003,21615100
+AT113,n.a.,10405,no,Güssing,Güssing,3660,49283600
+AT113,n.a.,10406,no,Güttenbach,Güttenbach,891,15886500
+AT113,n.a.,10407,no,Heiligenbrunn,Heiligenbrunn,810,33491700
+AT113,n.a.,10408,no,Kukmirn,Kukmirn,2021,40475000
+AT113,n.a.,10409,no,Neuberg im Burgenland,Neuberg im Burgenland,954,17596100
+AT113,n.a.,10410,no,Neustift bei Güssing,Neustift bei Güssing,502,11436400
+AT113,n.a.,10411,no,Olbendorf,Olbendorf,1477,17366400
+AT113,n.a.,10412,no,Ollersdorf im Burgenland,Ollersdorf im Burgenland,980,8850500
+AT113,n.a.,10413,no,Sankt Michael im Burgenland,Sankt Michael im Burgenland,997,18363100
+AT113,n.a.,10414,no,Stegersbach,Stegersbach,2616,17762100
+AT113,n.a.,10415,no,Stinatz,Stinatz,1341,9493300
+AT113,n.a.,10416,no,Strem,Strem,919,23762300
+AT113,n.a.,10417,no,Tobaj,Tobaj,1423,58102200
+AT113,n.a.,10418,no,Hackerberg,Hackerberg,367,3865200
+AT113,n.a.,10419,no,Wörterberg,Wörterberg,530,4762200
+AT113,n.a.,10420,no,Großmürbisch,Großmürbisch,245,7915200
+AT113,n.a.,10421,no,Inzenhof,Inzenhof,341,5969600
+AT113,n.a.,10422,no,Kleinmürbisch,Kleinmürbisch,239,4290300
+AT113,n.a.,10423,no,Tschanigraben,Tschanigraben,59,1708100
+AT113,n.a.,10424,no,Heugraben,Heugraben,204,6468100
+AT113,n.a.,10425,no,Rohr im Burgenland,Rohr im Burgenland,393,8372000
+AT113,n.a.,10426,no,Bildein,Bildein,338,15903200
+AT113,n.a.,10427,no,Rauchwart,Rauchwart,459,17502700
+AT113,n.a.,10428,no,Moschendorf,Moschendorf,399,13172500
+AT113,n.a.,10501,no,Deutsch Kaltenbrunn,Deutsch Kaltenbrunn,1717,24178900
+AT113,n.a.,10502,no,Eltendorf,Eltendorf,946,20570500
+AT113,n.a.,10503,no,Heiligenkreuz im Lafnitztal,Heiligenkreuz im Lafnitztal,1244,23768100
+AT113,n.a.,10504,no,Jennersdorf,Jennersdorf,4127,37901800
+AT113,n.a.,10505,no,Minihof-Liebau,Minihof-Liebau,1092,16258200
+AT113,n.a.,10506,no,Mogersdorf,Mogersdorf,1154,12761200
+AT113,n.a.,10507,no,Neuhaus am Klausenbach,Neuhaus am Klausenbach,950,19976600
+AT113,n.a.,10508,no,Rudersdorf,Rudersdorf,2207,21422900
+AT113,n.a.,10509,no,Sankt Martin an der Raab,Sankt Martin an der Raab,2008,42983600
+AT113,n.a.,10510,no,Weichselbaum,Weichselbaum,729,12167200
+AT113,n.a.,10511,no,Königsdorf,Königsdorf,725,15664900
+AT113,n.a.,10512,no,Mühlgraben,Mühlgraben,390,5542500
+AT112,n.a.,10601,no,Draßburg,Draßburg,1184,9669500
+AT112,n.a.,10602,no,Forchtenstein,Forchtenstein,2809,16569700
+AT112,n.a.,10603,no,Hirm,Hirm,994,3111800
+AT112,n.a.,10604,no,Loipersbach im Burgenland,Loipersbach im Burgenland,1233,8534400
+AT112,n.a.,10605,no,Marz,Marz,2042,17396300
+AT112,n.a.,10606,no,Mattersburg,Mattersburg,7238,28174200
+AT112,n.a.,10607,no,Neudörfl,Neudörfl,4404,9016600
+AT112,n.a.,10608,no,Pöttelsdorf,Pöttelsdorf,727,7854000
+AT112,n.a.,10609,no,Pöttsching,Pöttsching,2890,24615400
+AT112,n.a.,10610,no,Rohrbach bei Mattersburg,Rohrbach bei Mattersburg,2764,15209400
+AT112,n.a.,10611,no,Bad Sauerbrunn,Bad Sauerbrunn,2150,2348600
+AT112,n.a.,10612,no,Schattendorf,Schattendorf,2401,12110700
+AT112,n.a.,10613,no,Sieggraben,Sieggraben,1269,17688300
+AT112,n.a.,10614,no,Sigleß,Sigleß,1186,10160000
+AT112,n.a.,10615,no,Wiesen,Wiesen,2745,18894100
+AT112,n.a.,10616,no,Antau,Antau,760,8741900
+AT112,n.a.,10617,no,Baumgarten,Baumgarten,876,6953500
+AT112,n.a.,10618,no,Zemendorf-Stöttera,Zemendorf-Stöttera,1301,12818000
+AT112,n.a.,10619,no,Krensdorf,Krensdorf,626,7774700
+AT112,n.a.,10701,no,Andau,Andau,2349,47274800
+AT112,n.a.,10702,no,Apetlon,Apetlon,1765,82027300
+AT112,n.a.,10703,no,Bruckneudorf,Bruckneudorf,2965,36639300
+AT112,n.a.,10704,no,Deutsch Jahrndorf,Deutsch Jahrndorf,611,27405000
+AT112,n.a.,10705,no,Frauenkirchen,Frauenkirchen,2835,31925400
+AT112,n.a.,10706,no,Gattendorf,Gattendorf,1305,25100400
+AT112,n.a.,10707,no,Gols,Gols,3849,42187800
+AT112,n.a.,10708,no,Halbturn,Halbturn,1882,55154000
+AT112,n.a.,10709,no,Illmitz,Illmitz,2359,91746800
+AT112,n.a.,10710,no,Jois,Jois,1564,25905700
+AT112,n.a.,10711,no,Kittsee,Kittsee,3000,19251900
+AT112,n.a.,10712,no,Mönchhof,Mönchhof,2283,33537500
+AT112,n.a.,10713,no,Neusiedl am See,Neusiedl am See,7820,56985100
+AT112,n.a.,10714,no,Nickelsdorf,Nickelsdorf,1753,60666100
+AT112,n.a.,10715,no,Pama,Pama,1152,26386100
+AT112,n.a.,10716,no,Pamhagen,Pamhagen,1673,33019100
+AT112,n.a.,10717,no,Parndorf,Parndorf,4473,59199500
+AT112,n.a.,10718,no,Podersdorf am See,Podersdorf am See,2146,41695200
+AT112,n.a.,10719,no,Sankt Andrä am Zicksee,Sankt Andrä am Zicksee,1365,31691600
+AT112,n.a.,10720,no,Tadten,Tadten,1207,36019600
+AT112,n.a.,10721,no,Wallern im Burgenland,Wallern im Burgenland,1733,33888300
+AT112,n.a.,10722,no,Weiden am See,Weiden am See,2357,32468000
+AT112,n.a.,10723,no,Winden am See,Winden am See,1340,13493300
+AT112,n.a.,10724,no,Zurndorf,Zurndorf,2148,54255700
+AT112,n.a.,10725,no,Neudorf,Neudorf,715,21651900
+AT112,n.a.,10726,no,Potzneusiedl,Potzneusiedl,662,12096200
+AT112,n.a.,10727,no,Edelstal,Edelstal,696,5882900
+AT111,n.a.,10801,no,Deutschkreutz,Deutschkreutz,3102,34080600
+AT111,n.a.,10802,no,Draßmarkt,Draßmarkt,1406,36205100
+AT111,n.a.,10803,no,Frankenau-Unterpullendorf,Frankenau-Unterpullendorf,1122,29916200
+AT111,n.a.,10804,no,Großwarasdorf,Großwarasdorf,1409,42462100
+AT111,n.a.,10805,no,Horitschon,Horitschon,1902,18709600
+AT111,n.a.,10806,no,Kaisersdorf,Kaisersdorf,629,12492600
+AT111,n.a.,10807,no,Kobersdorf,Kobersdorf,1901,27269900
+AT111,n.a.,10808,no,Lackenbach,Lackenbach,1155,18081800
+AT111,n.a.,10809,no,Lockenhaus,Lockenhaus,2037,58788000
+AT111,n.a.,10810,no,Lutzmannsburg,Lutzmannsburg,887,23155800
+AT111,n.a.,10811,no,Mannersdorf an der Rabnitz,Mannersdorf an der Rabnitz,1810,38390500
+AT111,n.a.,10812,no,Markt Sankt Martin,Markt Sankt Martin,1181,32075300
+AT111,n.a.,10813,no,Neckenmarkt,Neckenmarkt,1676,26897400
+AT111,n.a.,10814,no,Neutal,Neutal,1086,11554700
+AT111,n.a.,10815,no,Nikitsch,Nikitsch,1383,50720300
+AT111,n.a.,10816,no,Oberpullendorf,Oberpullendorf,3174,12639700
+AT111,n.a.,10817,no,Pilgersdorf,Pilgersdorf,1661,43867400
+AT111,n.a.,10818,no,Piringsdorf,Piringsdorf,868,16120400
+AT111,n.a.,10819,no,Raiding,Raiding,841,13054800
+AT111,n.a.,10820,no,Ritzing,Ritzing,888,17685300
+AT111,n.a.,10821,no,Steinberg-Dörfl,Steinberg-Dörfl,1307,37097700
+AT111,n.a.,10822,no,Stoob,Stoob,1390,17368500
+AT111,n.a.,10823,no,Weppersdorf,Weppersdorf,1798,24722600
+AT111,n.a.,10824,no,Lackendorf,Lackendorf,585,12706500
+AT111,n.a.,10825,no,Unterfrauenhaid,Unterfrauenhaid,691,10963200
+AT111,n.a.,10826,no,Unterrabnitz-Schwendgraben,Unterrabnitz-Schwendgraben,646,13910000
+AT111,n.a.,10827,no,Weingraben,Weingraben,348,9215900
+AT111,n.a.,10828,no,Oberloisdorf,Oberloisdorf,809,10642300
+AT113,n.a.,10901,no,Bad Tatzmannsdorf,Bad Tatzmannsdorf,1515,11614500
+AT113,n.a.,10902,no,Bernstein,Bernstein,2194,38961500
+AT113,n.a.,10903,no,Deutsch Schützen-Eisenberg,Deutsch Schützen-Eisenberg,1129,28416300
+AT113,n.a.,10904,no,Grafenschachen,Grafenschachen,1260,9935200
+AT113,n.a.,10905,no,Großpetersdorf,Großpetersdorf,3480,31317600
+AT113,n.a.,10906,no,Hannersdorf,Hannersdorf,757,17101900
+AT113,n.a.,10907,no,Kemeten,Kemeten,1464,20660500
+AT113,n.a.,10908,no,Kohfidisch,Kohfidisch,1459,31319500
+AT113,n.a.,10909,no,Litzelsdorf,Litzelsdorf,1164,13868000
+AT113,n.a.,10910,no,Loipersdorf-Kitzladen,Loipersdorf-Kitzladen,1309,15868300
+AT113,n.a.,10911,no,Mariasdorf,Mariasdorf,1159,20522600
+AT113,n.a.,10912,no,Markt Allhau,Markt Allhau,1874,32290500
+AT113,n.a.,10913,no,Markt Neuhodis,Markt Neuhodis,657,19938200
+AT113,n.a.,10914,no,Mischendorf,Mischendorf,1631,26176800
+AT113,n.a.,10915,no,Oberdorf im Burgenland,Oberdorf im Burgenland,1000,9237800
+AT113,n.a.,10916,no,Oberschützen,Oberschützen,2430,44357500
+AT113,n.a.,10917,no,Oberwart,Oberwart,7427,36467300
+AT113,n.a.,10918,no,Pinkafeld,Pinkafeld,5650,27414800
+AT113,n.a.,10919,no,Rechnitz,Rechnitz,3121,43741400
+AT113,n.a.,10920,no,Riedlingsdorf,Riedlingsdorf,1623,16121200
+AT113,n.a.,10921,no,Rotenturm an der Pinka,Rotenturm an der Pinka,1436,17032000
+AT113,n.a.,10922,no,Schachendorf,Schachendorf,769,22302000
+AT113,n.a.,10923,no,Stadtschlaining,Stadtschlaining,2003,42035500
+AT113,n.a.,10924,no,Unterkohlstätten,Unterkohlstätten,1036,29119600
+AT113,n.a.,10925,no,Unterwart,Unterwart,920,20204000
+AT113,n.a.,10926,no,Weiden bei Rechnitz,Weiden bei Rechnitz,810,39812000
+AT113,n.a.,10927,no,Wiesfleck,Wiesfleck,1130,20066500
+AT113,n.a.,10928,no,Wolfau,Wolfau,1450,15010100
+AT113,n.a.,10929,no,Neustift an der Lafnitz,Neustift an der Lafnitz,783,3497400
+AT113,n.a.,10930,no,Jabing,Jabing,742,7779800
+AT113,n.a.,10931,no,Badersdorf,Badersdorf,292,8639400
+AT113,n.a.,10932,no,Schandorf,Schandorf,281,11255400
+AT211,n.a.,20101,no,Klagenfurt am Wörthersee,Klagenfurt am Wörthersee,99125,120031600
+AT211,n.a.,20201,no,Villach,Villach,61218,134904300
+AT212,n.a.,20302,no,Dellach,Dellach,1235,36125300
+AT212,n.a.,20305,no,Hermagor-Pressegger See,Hermagor-Pressegger See,6838,205355500
+AT212,n.a.,20306,no,Kirchbach,Kirchbach,2662,99074100
+AT212,n.a.,20307,no,Kötschach-Mauthen,Kötschach-Mauthen,3460,154914400
+AT212,n.a.,20316,no,St. Stefan im Gailtal,St. Stefan im Gailtal,1588,66201600
+AT212,n.a.,20320,no,Gitschtal,Gitschtal,1290,56465900
+AT212,n.a.,20321,no,Lesachtal,Lesachtal,1363,190830100
+AT211,n.a.,20402,no,Ebenthal in Kärnten,Ebenthal in Kärnten,7773,54999400
+AT211,n.a.,20403,no,Feistritz im Rosental,Feistritz im Rosental,2484,71843100
+AT211,n.a.,20405,no,Ferlach,Ferlach,7119,117307100
+AT211,n.a.,20409,no,Grafenstein,Grafenstein,2885,50191100
+AT211,n.a.,20412,no,Keutschach am See,Keutschach am See,2438,28368600
+AT211,n.a.,20414,no,Köttmannsdorf,Köttmannsdorf,2909,28191400
+AT211,n.a.,20415,no,Krumpendorf am Wörthersee,Krumpendorf am Wörthersee,3509,11854300
+AT211,n.a.,20416,no,Ludmannsdorf,Ludmannsdorf,1805,26362800
+AT211,n.a.,20417,no,Maria Rain,Maria Rain,2500,25516900
+AT211,n.a.,20418,no,Maria Saal,Maria Saal,3830,34842400
+AT211,n.a.,20419,no,Maria Wörth,Maria Wörth,1545,17405400
+AT211,n.a.,20421,no,Moosburg,Moosburg,4530,36756000
+AT211,n.a.,20424,no,Pörtschach am Wörther See,Pörtschach am Wörther See,2715,12638800
+AT211,n.a.,20425,no,Poggersdorf,Poggersdorf,3142,30745800
+AT211,n.a.,20428,no,St. Margareten im Rosental,St. Margareten im Rosental,1068,43968100
+AT211,n.a.,20432,no,Schiefling am Wörthersee,Schiefling am Wörthersee,2614,28614100
+AT211,n.a.,20435,no,Techelsberg am Wörther See,Techelsberg am Wörther See,2190,28366200
+AT211,n.a.,20441,no,Zell,Zell,600,75439400
+AT211,n.a.,20442,no,Magdalensberg,Magdalensberg,3322,42876800
+AT213,n.a.,20501,no,Althofen,Althofen,4772,12271200
+AT213,n.a.,20502,no,Brückl,Brückl,2771,46682400
+AT213,n.a.,20503,no,Deutsch-Griffen,Deutsch-Griffen,928,71496300
+AT213,n.a.,20504,no,Eberstein,Eberstein,1319,65173600
+AT213,n.a.,20505,no,Friesach,Friesach,5010,120844300
+AT213,n.a.,20506,no,Glödnitz,Glödnitz,815,74701500
+AT213,n.a.,20508,no,Gurk,Gurk,1273,39645600
+AT213,n.a.,20509,no,Guttaring,Guttaring,1442,54922400
+AT213,n.a.,20511,no,Hüttenberg,Hüttenberg,1460,134480200
+AT213,n.a.,20512,no,Kappel am Krappfeld,Kappel am Krappfeld,2008,49630500
+AT213,n.a.,20513,no,Klein St. Paul,Klein St. Paul,1871,68548500
+AT213,n.a.,20515,no,Liebenfels,Liebenfels,3286,58887200
+AT213,n.a.,20518,no,Metnitz,Metnitz,2043,223256800
+AT213,n.a.,20519,no,Micheldorf,Micheldorf,1024,17019300
+AT213,n.a.,20520,no,Mölbling,Mölbling,1313,48768200
+AT213,n.a.,20523,no,St. Georgen am Längsee,St. Georgen am Längsee,3687,69844000
+AT213,n.a.,20527,no,St. Veit an der Glan,St. Veit an der Glan,12526,50787500
+AT213,n.a.,20530,no,Straßburg,Straßburg,2134,97434000
+AT213,n.a.,20531,no,Weitensfeld im Gurktal,Weitensfeld im Gurktal,2155,95796800
+AT213,n.a.,20534,no,Frauenstein,Frauenstein,3646,93486700
+AT212,n.a.,20601,no,Bad Kleinkirchheim,Bad Kleinkirchheim,1691,74006700
+AT212,n.a.,20602,no,Baldramsdorf,Baldramsdorf,1827,37978600
+AT212,n.a.,20603,no,Berg im Drautal,Berg im Drautal,1315,54236900
+AT212,n.a.,20604,no,Dellach im Drautal,Dellach im Drautal,1625,76091300
+AT212,n.a.,20605,no,Großkirchheim,Großkirchheim,1374,109511000
+AT212,n.a.,20607,no,Flattach,Flattach,1184,98846000
+AT212,n.a.,20608,no,Gmünd in Kärnten,Gmünd in Kärnten,2603,31546400
+AT212,n.a.,20609,no,Greifenburg,Greifenburg,1755,76215700
+AT212,n.a.,20610,no,Heiligenblut am Großglockner,Heiligenblut am Großglockner,1021,193148200
+AT212,n.a.,20611,no,Irschen,Irschen,1999,33429100
+AT212,n.a.,20613,no,Kleblach-Lind,Kleblach-Lind,1180,62987000
+AT212,n.a.,20616,no,Lendorf,Lendorf,1732,34374100
+AT212,n.a.,20618,no,Mallnitz,Mallnitz,817,111733500
+AT212,n.a.,20619,no,Malta,Malta,2024,262021500
+AT212,n.a.,20620,no,Millstatt am See,Millstatt am See,3394,57744200
+AT212,n.a.,20622,no,Mörtschach,Mörtschach,807,74732500
+AT212,n.a.,20624,no,Mühldorf,Mühldorf,1005,24417400
+AT212,n.a.,20625,no,Oberdrauburg,Oberdrauburg,1217,69921800
+AT212,n.a.,20627,no,Obervellach,Obervellach,2285,104402700
+AT212,n.a.,20630,no,Radenthein,Radenthein,5924,89296400
+AT212,n.a.,20631,no,Rangersdorf,Rangersdorf,1737,84276800
+AT212,n.a.,20632,no,Rennweg am Katschberg,Rennweg am Katschberg,1758,120481400
+AT212,n.a.,20633,no,Sachsenburg,Sachsenburg,1297,42592700
+AT212,n.a.,20634,no,Seeboden am Millstätter See,Seeboden am Millstätter See,6304,44437800
+AT212,n.a.,20635,no,Spittal an der Drau,Spittal an der Drau,15505,48567500
+AT212,n.a.,20636,no,Stall,Stall,1606,96462500
+AT212,n.a.,20637,no,Steinfeld,Steinfeld,2055,81329800
+AT212,n.a.,20638,no,Trebesing,Trebesing,1186,73793100
+AT212,n.a.,20639,no,Weißensee,Weißensee,749,78107600
+AT212,n.a.,20640,no,Winklern,Winklern,1212,37202400
+AT212,n.a.,20642,no,Krems in Kärnten,Krems in Kärnten,1716,207478500
+AT212,n.a.,20643,no,Lurnfeld,Lurnfeld,2575,33001300
+AT212,n.a.,20644,no,Reißeck,Reißeck,2199,139710400
+AT211,n.a.,20701,no,Afritz am See,Afritz am See,1433,28061600
+AT211,n.a.,20702,no,Arnoldstein,Arnoldstein,7027,67468100
+AT211,n.a.,20703,no,Arriach,Arriach,1351,70820100
+AT211,n.a.,20705,no,Bad Bleiberg,Bad Bleiberg,2332,44739200
+AT211,n.a.,20707,no,Feistritz an der Gail,Feistritz an der Gail,615,19322400
+AT211,n.a.,20708,no,Feld am See,Feld am See,1124,33649200
+AT211,n.a.,20710,no,Ferndorf,Ferndorf,2187,31411300
+AT211,n.a.,20711,no,Finkenstein am Faaker See,Finkenstein am Faaker See,8803,102057300
+AT211,n.a.,20712,no,Fresach,Fresach,1250,38779900
+AT211,n.a.,20713,no,Hohenthurn,Hohenthurn,847,27228000
+AT211,n.a.,20719,no,Nötsch im Gailtal,Nötsch im Gailtal,2224,42723400
+AT211,n.a.,20720,no,Paternion,Paternion,5876,105459600
+AT211,n.a.,20721,no,Rosegg,Rosegg,1802,19154100
+AT211,n.a.,20722,no,St. Jakob im Rosental,St. Jakob im Rosental,4250,78618200
+AT211,n.a.,20723,no,Stockenboi,Stockenboi,1618,100071200
+AT211,n.a.,20724,no,Treffen am Ossiacher See,Treffen am Ossiacher See,4359,71040600
+AT211,n.a.,20725,no,Velden am Wörther See,Velden am Wörther See,8952,52998100
+AT211,n.a.,20726,no,Weißenstein,Weißenstein,2983,49169100
+AT211,n.a.,20727,no,Wernberg,Wernberg,5587,26433000
+AT213,n.a.,20801,no,Bleiburg,Bleiburg,4034,69753700
+AT213,n.a.,20802,no,Diex,Diex,837,54790400
+AT213,n.a.,20803,no,Eberndorf,Eberndorf,5863,67813600
+AT213,n.a.,20804,no,Eisenkappel-Vellach,Eisenkappel-Vellach,2402,199433600
+AT213,n.a.,20805,no,Feistritz ob Bleiburg,Feistritz ob Bleiburg,2141,54194700
+AT213,n.a.,20806,no,Gallizien,Gallizien,1775,46716400
+AT213,n.a.,20807,no,Globasnitz,Globasnitz,1593,38333800
+AT213,n.a.,20808,no,Griffen,Griffen,3518,74861200
+AT213,n.a.,20810,no,Neuhaus,Neuhaus,1024,36358400
+AT213,n.a.,20812,no,Ruden,Ruden,1533,42388400
+AT213,n.a.,20813,no,St. Kanzian am Klopeiner See,St. Kanzian am Klopeiner See,4484,41076900
+AT213,n.a.,20815,no,Sittersdorf,Sittersdorf,2071,45052800
+AT213,n.a.,20817,no,Völkermarkt,Völkermarkt,10948,137437900
+AT213,n.a.,20901,no,Bad St. Leonhard im Lavanttal,Bad St. Leonhard im Lavanttal,4412,111826200
+AT213,n.a.,20905,no,Frantschach-St. Gertraud,Frantschach-St. Gertraud,2660,100936400
+AT213,n.a.,20909,no,Lavamünd,Lavamünd,2982,93697800
+AT213,n.a.,20911,no,Preitenegg,Preitenegg,956,68364100
+AT213,n.a.,20912,no,Reichenfels,Reichenfels,1894,87234800
+AT213,n.a.,20913,no,St. Andrä,St. Andrä,10063,113586200
+AT213,n.a.,20914,no,St. Georgen im Lavanttal,St. Georgen im Lavanttal,1974,72342800
+AT213,n.a.,20918,no,St. Paul im Lavanttal,St. Paul im Lavanttal,3369,47458300
+AT213,n.a.,20923,no,Wolfsberg,Wolfsberg,25051,278634700
+AT212,n.a.,21001,no,Albeck,Albeck,1027,99481600
+AT212,n.a.,21002,no,Feldkirchen in Kärnten,Feldkirchen in Kärnten,14238,77526700
+AT212,n.a.,21003,no,Glanegg,Glanegg,1923,25180900
+AT212,n.a.,21004,no,Gnesau,Gnesau,1051,78571900
+AT212,n.a.,21005,no,Himmelberg,Himmelberg,2296,56878600
+AT212,n.a.,21006,no,Ossiach,Ossiach,940,17368200
+AT212,n.a.,21007,no,Reichenau,Reichenau,1833,113989300
+AT212,n.a.,21008,no,St. Urban,St. Urban,1557,27237400
+AT212,n.a.,21009,no,Steindorf am Ossiacher See,Steindorf am Ossiacher See,3763,29547900
+AT212,n.a.,21010,no,Steuerberg,Steuerberg,1732,32777700
+AT124,n.a.,30101,no,Krems an der Donau,Krems an der Donau,24344,51699000
+AT123,n.a.,30201,no,St. Pölten,St. Pölten,53478,108441200
+AT121,n.a.,30301,no,Waidhofen an der Ybbs,Waidhofen an der Ybbs,11364,131185400
+AT122,n.a.,30401,no,Wiener Neustadt,Wiener Neustadt,43833,60890300
+AT121,n.a.,30501,no,Allhartsberg,Allhartsberg,2109,21264200
+AT121,n.a.,30502,no,Amstetten,Amstetten,23513,51924700
+AT121,n.a.,30503,no,Ardagger,Ardagger,3465,46904800
+AT121,n.a.,30504,no,Aschbach-Markt,Aschbach-Markt,3757,37239300
+AT121,n.a.,30506,no,Behamberg,Behamberg,3295,20260000
+AT121,n.a.,30507,no,Biberbach,Biberbach,2253,28401300
+AT121,n.a.,30508,no,Ennsdorf,Ennsdorf,2983,7688600
+AT121,n.a.,30509,no,Ernsthofen,Ernsthofen,2162,17712900
+AT121,n.a.,30510,no,Ertl,Ertl,1258,20974200
+AT121,n.a.,30511,no,Euratsfeld,Euratsfeld,2598,30454400
+AT121,n.a.,30512,no,Ferschnitz,Ferschnitz,1718,15499100
+AT121,n.a.,30514,no,Haag,Haag,5499,54971500
+AT121,n.a.,30515,no,Haidershofen,Haidershofen,3611,31931500
+AT121,n.a.,30516,no,Hollenstein an der Ybbs,Hollenstein an der Ybbs,1692,126495100
+AT121,n.a.,30517,no,Kematen an der Ybbs,Kematen an der Ybbs,2619,10975400
+AT121,n.a.,30520,no,Neuhofen an der Ybbs,Neuhofen an der Ybbs,2920,36340700
+AT121,n.a.,30521,no,Neustadtl an der Donau,Neustadtl an der Donau,2138,47865000
+AT121,n.a.,30522,no,Oed-Oehling,Oed-Oehling,1887,10643800
+AT121,n.a.,30524,no,Opponitz,Opponitz,972,39604500
+AT121,n.a.,30526,no,St. Georgen am Reith,St. Georgen am Reith,599,40075800
+AT121,n.a.,30527,no,St. Georgen am Ybbsfelde,St. Georgen am Ybbsfelde,2810,22705100
+AT121,n.a.,30529,no,St. Pantaleon-Erla,St. Pantaleon-Erla,2581,28460500
+AT121,n.a.,30530,no,St. Peter in der Au,St. Peter in der Au,5101,59831600
+AT121,n.a.,30531,no,St. Valentin,St. Valentin,9252,45717900
+AT121,n.a.,30532,no,Seitenstetten,Seitenstetten,3346,30520600
+AT121,n.a.,30533,no,Sonntagberg,Sonntagberg,3824,18297400
+AT121,n.a.,30534,no,Strengberg,Strengberg,2028,36674000
+AT121,n.a.,30536,no,Viehdorf,Viehdorf,1364,15718700
+AT121,n.a.,30538,no,Wallsee-Sindelburg,Wallsee-Sindelburg,2177,25953700
+AT121,n.a.,30539,no,Weistrach,Weistrach,2198,35757500
+AT121,n.a.,30541,no,Winklarn,Winklarn,1593,12568400
+AT121,n.a.,30542,no,Wolfsbach,Wolfsbach,1960,30996400
+AT121,n.a.,30543,no,Ybbsitz,Ybbsitz,3498,104289500
+AT121,n.a.,30544,no,Zeillern,Zeillern,1837,21464600
+AT127,n.a.,30601,no,Alland,Alland,2591,68503000
+AT122,n.a.,30602,no,Altenmarkt an der Triesting,Altenmarkt an der Triesting,2225,63519800
+AT127,n.a.,30603,no,Bad Vöslau,Bad Vöslau,11701,39106600
+AT127,n.a.,30604,no,Baden,Baden,25698,26883300
+AT122,n.a.,30605,no,Berndorf,Berndorf,9048,17637200
+AT127,n.a.,30607,no,Ebreichsdorf,Ebreichsdorf,10651,43201600
+AT122,n.a.,30608,no,Enzesfeld-Lindabrunn,Enzesfeld-Lindabrunn,4238,15887900
+AT122,n.a.,30609,no,Furth an der Triesting,Furth an der Triesting,849,64157500
+AT127,n.a.,30612,no,Günselsdorf,Günselsdorf,1744,6609700
+AT127,n.a.,30613,no,Heiligenkreuz,Heiligenkreuz,1587,29704000
+AT122,n.a.,30614,no,Hernstein,Hernstein,1540,46450500
+AT122,n.a.,30615,no,Hirtenberg,Hirtenberg,2578,1490900
+AT127,n.a.,30616,no,Klausen-Leopoldsdorf,Klausen-Leopoldsdorf,1646,59978200
+AT127,n.a.,30618,no,Kottingbrunn,Kottingbrunn,7409,11558600
+AT127,n.a.,30620,no,Leobersdorf,Leobersdorf,4924,12376900
+AT127,n.a.,30621,no,Mitterndorf an der Fischa,Mitterndorf an der Fischa,2469,10778800
+AT127,n.a.,30623,no,Oberwaltersdorf,Oberwaltersdorf,4341,13565700
+AT127,n.a.,30625,no,Pfaffstätten,Pfaffstätten,3507,7834200
+AT127,n.a.,30626,no,Pottendorf,Pottendorf,6816,39761800
+AT122,n.a.,30627,no,Pottenstein,Pottenstein,2912,33514000
+AT127,n.a.,30629,no,Reisenberg,Reisenberg,1655,17806000
+AT127,n.a.,30631,no,Schönau an der Triesting,Schönau an der Triesting,2101,8119400
+AT127,n.a.,30633,no,Seibersdorf,Seibersdorf,1448,20189600
+AT127,n.a.,30635,no,Sooß,Sooß,1059,5495600
+AT127,n.a.,30636,no,Tattendorf,Tattendorf,1455,14344800
+AT127,n.a.,30637,no,Teesdorf,Teesdorf,1761,7297800
+AT127,n.a.,30639,no,Traiskirchen,Traiskirchen,18585,29105400
+AT127,n.a.,30641,no,Trumau,Trumau,3629,18564500
+AT122,n.a.,30645,no,Weissenbach an der Triesting,Weissenbach an der Triesting,1741,15866300
+AT127,n.a.,30646,no,Blumau-Neurißhof,Blumau-Neurißhof,1828,4329600
+AT127,n.a.,30701,no,Au am Leithaberge,Au am Leithaberge,945,16714300
+AT127,n.a.,30702,no,Bad Deutsch-Altenburg,Bad Deutsch-Altenburg,1629,12575800
+AT127,n.a.,30703,no,Berg,Berg,867,9436900
+AT127,n.a.,30704,no,Bruck an der Leitha,Bruck an der Leitha,7887,23675000
+AT127,n.a.,30706,no,Enzersdorf an der Fischa,Enzersdorf an der Fischa,3111,31461600
+AT127,n.a.,30708,no,Göttlesbrunn-Arbesthal,Göttlesbrunn-Arbesthal,1401,26246900
+AT127,n.a.,30709,no,Götzendorf an der Leitha,Götzendorf an der Leitha,2117,25393200
+AT127,n.a.,30710,no,Hainburg an der Donau,Hainburg an der Donau,6382,25017000
+AT127,n.a.,30711,no,Haslau-Maria Ellend,Haslau-Maria Ellend,1942,24811500
+AT127,n.a.,30712,no,Höflein,Höflein,1240,22364000
+AT127,n.a.,30713,no,Hof am Leithaberge,Hof am Leithaberge,1525,22069300
+AT127,n.a.,30715,no,Hundsheim,Hundsheim,585,13451800
+AT127,n.a.,30716,no,Mannersdorf am Leithagebirge,Mannersdorf am Leithagebirge,3992,29917100
+AT127,n.a.,30718,no,Petronell-Carnuntum,Petronell-Carnuntum,1254,25365700
+AT127,n.a.,30719,no,Prellenkirchen,Prellenkirchen,1539,41535600
+AT127,n.a.,30721,no,Rohrau,Rohrau,1609,20501600
+AT127,n.a.,30722,no,Scharndorf,Scharndorf,1161,25818700
+AT127,n.a.,30724,no,Sommerein,Sommerein,1967,41408500
+AT127,n.a.,30726,no,Trautmannsdorf an der Leitha,Trautmannsdorf an der Leitha,2815,35432500
+AT127,n.a.,30728,no,Wolfsthal,Wolfsthal,1001,21816600
+AT126,n.a.,30801,no,Aderklaa,Aderklaa,210,8627600
+AT126,n.a.,30802,no,Andlersdorf,Andlersdorf,130,5900300
+AT126,n.a.,30803,no,Angern an der March,Angern an der March,3343,38222100
+AT126,n.a.,30804,no,Auersthal,Auersthal,1923,15238600
+AT126,n.a.,30805,no,Bad Pirawarth,Bad Pirawarth,1661,25452200
+AT126,n.a.,30808,no,Deutsch-Wagram,Deutsch-Wagram,8229,30617000
+AT125,n.a.,30810,no,Drösing,Drösing,1101,29425600
+AT125,n.a.,30811,no,Dürnkrut,Dürnkrut,2258,30388300
+AT126,n.a.,30812,no,Ebenthal,Ebenthal,865,18148000
+AT126,n.a.,30813,no,Eckartsau,Eckartsau,1240,48971800
+AT126,n.a.,30814,no,Engelhartstetten,Engelhartstetten,1958,65631100
+AT126,n.a.,30817,no,Gänserndorf,Gänserndorf,11015,30573000
+AT126,n.a.,30819,no,Glinzendorf,Glinzendorf,272,10433900
+AT126,n.a.,30821,no,Groß-Enzersdorf,Groß-Enzersdorf,10463,83888300
+AT126,n.a.,30822,no,Großhofen,Großhofen,92,6183000
+AT126,n.a.,30824,no,Groß-Schweinbarth,Groß-Schweinbarth,1291,25013000
+AT126,n.a.,30825,no,Haringsee,Haringsee,1171,27106900
+AT125,n.a.,30826,no,Hauskirchen,Hauskirchen,1250,22083700
+AT125,n.a.,30827,no,Hohenau an der March,Hohenau an der March,2733,23392900
+AT126,n.a.,30828,no,Hohenruppersdorf,Hohenruppersdorf,903,21424500
+AT125,n.a.,30829,no,Jedenspeigen,Jedenspeigen,1067,23186600
+AT126,n.a.,30830,no,Lassee,Lassee,2712,55628000
+AT126,n.a.,30831,no,Leopoldsdorf im Marchfelde,Leopoldsdorf im Marchfelde,2750,28950700
+AT126,n.a.,30834,no,Mannsdorf an der Donau,Mannsdorf an der Donau,369,10315700
+AT126,n.a.,30835,no,Marchegg,Marchegg,2934,45578100
+AT126,n.a.,30836,no,Markgrafneusiedl,Markgrafneusiedl,835,19819600
+AT126,n.a.,30838,no,Matzen-Raggendorf,Matzen-Raggendorf,2796,35756100
+AT125,n.a.,30841,no,Neusiedl an der Zaya,Neusiedl an der Zaya,1238,17607400
+AT126,n.a.,30842,no,Obersiebenbrunn,Obersiebenbrunn,1691,26913500
+AT126,n.a.,30844,no,Orth an der Donau,Orth an der Donau,2071,33492200
+AT125,n.a.,30845,no,Palterndorf-Dobermannsdorf,Palterndorf-Dobermannsdorf,1293,18655800
+AT126,n.a.,30846,no,Parbasdorf,Parbasdorf,167,10226600
+AT126,n.a.,30848,no,Prottes,Prottes,1410,13813100
+AT126,n.a.,30849,no,Raasdorf,Raasdorf,638,13204400
+AT125,n.a.,30850,no,Ringelsdorf-Niederabsdorf,Ringelsdorf-Niederabsdorf,1269,32439700
+AT126,n.a.,30852,no,Schönkirchen-Reyersdorf,Schönkirchen-Reyersdorf,1962,17894700
+AT126,n.a.,30854,no,Spannberg,Spannberg,975,19605700
+AT126,n.a.,30856,no,Strasshof an der Nordbahn,Strasshof an der Nordbahn,9395,11683900
+AT125,n.a.,30857,no,Sulz im Weinviertel,Sulz im Weinviertel,1204,31380400
+AT126,n.a.,30858,no,Untersiebenbrunn,Untersiebenbrunn,1714,30500700
+AT126,n.a.,30859,no,Velm-Götzendorf,Velm-Götzendorf,738,17730000
+AT126,n.a.,30860,no,Weikendorf,Weikendorf,2005,46296600
+AT125,n.a.,30863,no,Zistersdorf,Zistersdorf,5393,88752800
+AT126,n.a.,30865,no,Weiden an der March,Weiden an der March,1004,55871700
+AT124,n.a.,30902,no,Amaliendorf-Aalfang,Amaliendorf-Aalfang,1121,8038700
+AT124,n.a.,30903,no,Brand-Nagelberg,Brand-Nagelberg,1601,36701100
+AT124,n.a.,30904,no,Eggern,Eggern,695,20228200
+AT124,n.a.,30906,no,Eisgarn,Eisgarn,684,22516800
+AT124,n.a.,30908,no,Gmünd,Gmünd,5504,25178700
+AT124,n.a.,30909,no,Großdietmanns,Großdietmanns,2240,39926100
+AT124,n.a.,30910,no,Bad Großpertholz,Bad Großpertholz,1379,82466000
+AT124,n.a.,30912,no,Großschönau,Großschönau,1235,41950800
+AT124,n.a.,30913,no,Moorbad Harbach,Moorbad Harbach,706,35537600
+AT124,n.a.,30915,no,Haugschlag,Haugschlag,485,22650400
+AT124,n.a.,30916,no,Heidenreichstein,Heidenreichstein,4077,58436800
+AT124,n.a.,30917,no,Hirschbach,Hirschbach,569,7887100
+AT124,n.a.,30920,no,Hoheneich,Hoheneich,1383,15574200
+AT124,n.a.,30921,no,Kirchberg am Walde,Kirchberg am Walde,1364,37804100
+AT124,n.a.,30925,no,Litschau,Litschau,2298,81076800
+AT124,n.a.,30929,no,Reingers,Reingers,661,24941900
+AT124,n.a.,30932,no,St. Martin,St. Martin,1133,49387900
+AT124,n.a.,30935,no,Schrems,Schrems,5496,60812800
+AT124,n.a.,30939,no,Unserfrau-Altweitra,Unserfrau-Altweitra,1001,40205200
+AT124,n.a.,30940,no,Waldenstein,Waldenstein,1216,22723200
+AT124,n.a.,30942,no,Weitra,Weitra,2709,52662300
+AT125,n.a.,31001,no,Alberndorf im Pulkautal,Alberndorf im Pulkautal,735,9879500
+AT125,n.a.,31008,no,Göllersdorf,Göllersdorf,3005,59645600
+AT125,n.a.,31009,no,Grabern,Grabern,1525,30937000
+AT125,n.a.,31014,no,Guntersdorf,Guntersdorf,1142,28411400
+AT125,n.a.,31015,no,Hadres,Hadres,1687,34464300
+AT125,n.a.,31016,no,Hardegg,Hardegg,1309,93203700
+AT125,n.a.,31018,no,Haugsdorf,Haugsdorf,1571,21238500
+AT125,n.a.,31019,no,Heldenberg,Heldenberg,1247,27466100
+AT125,n.a.,31021,no,Hohenwarth-Mühlbach a.M.,Hohenwarth-Mühlbach a.M.,1299,43536400
+AT125,n.a.,31022,no,Hollabrunn,Hollabrunn,11740,152427300
+AT125,n.a.,31025,no,Mailberg,Mailberg,561,15733500
+AT125,n.a.,31026,no,Maissau,Maissau,1947,43099900
+AT125,n.a.,31028,no,Nappersdorf-Kammersdorf,Nappersdorf-Kammersdorf,1242,38853300
+AT125,n.a.,31033,no,Pernersdorf,Pernersdorf,1017,25820800
+AT125,n.a.,31035,no,Pulkau,Pulkau,1540,36719800
+AT125,n.a.,31036,no,Ravelsbach,Ravelsbach,1603,26337600
+AT125,n.a.,31037,no,Retz,Retz,4275,45017500
+AT125,n.a.,31038,no,Retzbach,Retzbach,1016,18147400
+AT125,n.a.,31041,no,Schrattenthal,Schrattenthal,862,22411300
+AT125,n.a.,31042,no,Seefeld-Kadolz,Seefeld-Kadolz,931,21847900
+AT125,n.a.,31043,no,Sitzendorf an der Schmida,Sitzendorf an der Schmida,2148,61832700
+AT125,n.a.,31051,no,Wullersdorf,Wullersdorf,2375,63891100
+AT125,n.a.,31052,no,Zellerndorf,Zellerndorf,2446,41147600
+AT125,n.a.,31053,no,Ziersdorf,Ziersdorf,3394,48686500
+AT124,n.a.,31101,no,Altenburg,Altenburg,809,28103600
+AT124,n.a.,31102,no,Brunn an der Wild,Brunn an der Wild,820,32006600
+AT124,n.a.,31103,no,Burgschleinitz-Kühnring,Burgschleinitz-Kühnring,1382,41850600
+AT124,n.a.,31104,no,Drosendorf-Zissersdorf,Drosendorf-Zissersdorf,1223,53364300
+AT124,n.a.,31105,no,Eggenburg,Eggenburg,3569,23547100
+AT124,n.a.,31106,no,Gars am Kamp,Gars am Kamp,3540,50416600
+AT124,n.a.,31107,no,Geras,Geras,1356,67630800
+AT124,n.a.,31109,no,Horn,Horn,6628,39265500
+AT124,n.a.,31110,no,Irnfritz-Messern,Irnfritz-Messern,1439,55978800
+AT124,n.a.,31111,no,Japons,Japons,736,29378900
+AT124,n.a.,31113,no,Langau,Langau,679,22201200
+AT124,n.a.,31114,no,Meiseldorf,Meiseldorf,903,35438300
+AT124,n.a.,31117,no,Pernegg,Pernegg,709,36599800
+AT124,n.a.,31119,no,Röhrenbach,Röhrenbach,528,25116900
+AT124,n.a.,31120,no,Röschitz,Röschitz,1053,21169200
+AT124,n.a.,31121,no,Rosenburg-Mold,Rosenburg-Mold,796,30670000
+AT124,n.a.,31123,no,St. Bernhard-Frauenhofen,St. Bernhard-Frauenhofen,1254,29448800
+AT124,n.a.,31124,no,Sigmundsherberg,Sigmundsherberg,1661,47958900
+AT124,n.a.,31129,no,Weitersfeld,Weitersfeld,1598,87120700
+AT124,n.a.,31130,no,Straning-Grafenberg,Straning-Grafenberg,769,26452100
+AT126,n.a.,31201,no,Bisamberg,Bisamberg,4638,10766000
+AT126,n.a.,31202,no,Enzersfeld im Weinviertel,Enzersfeld im Weinviertel,1686,9854400
+AT126,n.a.,31203,no,Ernstbrunn,Ernstbrunn,3161,80720800
+AT126,n.a.,31204,no,Großmugl,Großmugl,1559,64466900
+AT126,n.a.,31205,no,Großrußbach,Großrußbach,2163,32755600
+AT126,n.a.,31206,no,Hagenbrunn,Hagenbrunn,2187,13500600
+AT126,n.a.,31207,no,Harmannsdorf,Harmannsdorf,3941,55581400
+AT126,n.a.,31208,no,Hausleiten,Hausleiten,3714,61144300
+AT126,n.a.,31213,no,Korneuburg,Korneuburg,12856,9711100
+AT126,n.a.,31214,no,Langenzersdorf,Langenzersdorf,8082,10671800
+AT126,n.a.,31215,no,Leitzersdorf,Leitzersdorf,1227,27887000
+AT126,n.a.,31216,no,Leobendorf,Leobendorf,4872,30003700
+AT126,n.a.,31224,no,Rußbach,Rußbach,1391,30696100
+AT126,n.a.,31226,no,Sierndorf,Sierndorf,3819,55093400
+AT126,n.a.,31227,no,Spillern,Spillern,2161,12699700
+AT126,n.a.,31228,no,Stetteldorf am Wagram,Stetteldorf am Wagram,1033,25730600
+AT126,n.a.,31229,no,Stetten,Stetten,1356,7744400
+AT126,n.a.,31230,no,Stockerau,Stockerau,16447,37440500
+AT126,n.a.,31234,no,Niederhollabrunn,Niederhollabrunn,1528,50357300
+AT124,n.a.,31301,no,Aggsbach,Aggsbach,660,13706600
+AT124,n.a.,31302,no,Albrechtsberg an der Großen Krems,Albrechtsberg an der Großen Krems,1037,28720100
+AT124,n.a.,31303,no,Bergern im Dunkelsteinerwald,Bergern im Dunkelsteinerwald,1216,36732300
+AT124,n.a.,31304,no,Dürnstein,Dürnstein,869,16713300
+AT124,n.a.,31308,no,Grafenegg,Grafenegg,3019,28510900
+AT124,n.a.,31309,no,Furth bei Göttweig,Furth bei Göttweig,2993,12373200
+AT124,n.a.,31310,no,Gedersdorf,Gedersdorf,2182,18829800
+AT124,n.a.,31311,no,Gföhl,Gföhl,3716,80731900
+AT124,n.a.,31315,no,Hadersdorf-Kammern,Hadersdorf-Kammern,2016,4786700
+AT124,n.a.,31319,no,Jaidhof,Jaidhof,1202,44788300
+AT124,n.a.,31321,no,Krumau am Kamp,Krumau am Kamp,773,26872900
+AT124,n.a.,31322,no,Langenlois,Langenlois,7660,66939200
+AT124,n.a.,31323,no,Lengenfeld,Lengenfeld,1418,14917000
+AT124,n.a.,31324,no,Lichtenau im Waldviertel,Lichtenau im Waldviertel,2061,58283200
+AT124,n.a.,31326,no,Maria Laach am Jauerling,Maria Laach am Jauerling,932,36353700
+AT124,n.a.,31327,no,Mautern an der Donau,Mautern an der Donau,3588,9070500
+AT124,n.a.,31330,no,Mühldorf,Mühldorf,1386,28426900
+AT124,n.a.,31333,no,Paudorf,Paudorf,2539,30211700
+AT124,n.a.,31336,no,Rastenfeld,Rastenfeld,1530,47523700
+AT124,n.a.,31337,no,Rohrendorf bei Krems,Rohrendorf bei Krems,2081,9777900
+AT124,n.a.,31338,no,Rossatz-Arnsdorf,Rossatz-Arnsdorf,1058,39209700
+AT124,n.a.,31340,no,St. Leonhard am Hornerwald,St. Leonhard am Hornerwald,1146,51403700
+AT124,n.a.,31343,no,Senftenberg,Senftenberg,1897,34757700
+AT124,n.a.,31344,no,Spitz,Spitz,1615,23846500
+AT124,n.a.,31346,no,Straß im Straßertale,Straß im Straßertale,1646,22481200
+AT124,n.a.,31347,no,Stratzing,Stratzing,833,5877900
+AT124,n.a.,31350,no,Weinzierl am Walde,Weinzierl am Walde,1246,44411800
+AT124,n.a.,31351,no,Weißenkirchen in der Wachau,Weißenkirchen in der Wachau,1470,23340800
+AT124,n.a.,31355,no,Schönberg am Kamp,Schönberg am Kamp,1862,53070800
+AT124,n.a.,31356,no,Droß,Droß,969,10256000
+AT122,n.a.,31401,no,Annaberg,Annaberg,555,63521600
+AT122,n.a.,31402,no,Eschenau,Eschenau,1333,24595300
+AT122,n.a.,31403,no,Hainfeld,Hainfeld,3794,44695900
+AT122,n.a.,31404,no,Hohenberg,Hohenberg,1515,56710700
+AT122,n.a.,31405,no,Kaumberg,Kaumberg,1027,43037800
+AT122,n.a.,31406,no,Kleinzell,Kleinzell,848,93084700
+AT122,n.a.,31407,no,Lilienfeld,Lilienfeld,2917,54064900
+AT122,n.a.,31408,no,Mitterbach am Erlaufsee,Mitterbach am Erlaufsee,509,67318100
+AT122,n.a.,31409,no,Ramsau,Ramsau,821,54711200
+AT122,n.a.,31410,no,Rohrbach an der Gölsen,Rohrbach an der Gölsen,1579,14798000
+AT122,n.a.,31411,no,St. Aegyd am Neuwalde,St. Aegyd am Neuwalde,1954,184600800
+AT122,n.a.,31412,no,St. Veit an der Gölsen,St. Veit an der Gölsen,3926,78187500
+AT122,n.a.,31413,no,Traisen,Traisen,3532,6803900
+AT122,n.a.,31414,no,Türnitz,Türnitz,1910,146019300
+AT121,n.a.,31502,no,Artstetten-Pöbring,Artstetten-Pöbring,1172,27403400
+AT121,n.a.,31503,no,Bergland,Bergland,1932,33874600
+AT121,n.a.,31504,no,Bischofstetten,Bischofstetten,1228,19102600
+AT121,n.a.,31505,no,Blindenmarkt,Blindenmarkt,2630,16964100
+AT121,n.a.,31506,no,Dorfstetten,Dorfstetten,572,33251200
+AT121,n.a.,31507,no,Dunkelsteinerwald,Dunkelsteinerwald,2368,54284500
+AT121,n.a.,31508,no,Erlauf,Erlauf,1086,9661700
+AT121,n.a.,31509,no,Golling an der Erlauf,Golling an der Erlauf,1496,2708500
+AT121,n.a.,31511,no,Hofamt Priel,Hofamt Priel,1716,39633200
+AT121,n.a.,31513,no,Hürm,Hürm,1788,36150100
+AT121,n.a.,31514,no,Kilb,Kilb,2572,45393700
+AT121,n.a.,31515,no,Kirnberg an der Mank,Kirnberg an der Mank,1063,17717300
+AT121,n.a.,31516,no,Klein-Pöchlarn,Klein-Pöchlarn,957,6908900
+AT121,n.a.,31517,no,Krummnußbaum,Krummnußbaum,1488,10034600
+AT121,n.a.,31519,no,Leiben,Leiben,1365,12550100
+AT121,n.a.,31520,no,Loosdorf,Loosdorf,3804,11842000
+AT121,n.a.,31521,no,Mank,Mank,3176,33611900
+AT121,n.a.,31522,no,Marbach an der Donau,Marbach an der Donau,1668,10682700
+AT121,n.a.,31523,no,Maria Taferl,Maria Taferl,912,12163000
+AT121,n.a.,31524,no,Melk,Melk,5309,25753300
+AT121,n.a.,31525,no,Münichreith-Laimbach,Münichreith-Laimbach,1666,38815400
+AT121,n.a.,31527,no,Neumarkt an der Ybbs,Neumarkt an der Ybbs,1899,9321600
+AT121,n.a.,31528,no,Nöchling,Nöchling,1087,19594800
+AT121,n.a.,31530,no,Persenbeug-Gottsdorf,Persenbeug-Gottsdorf,2221,8324900
+AT121,n.a.,31531,no,Petzenkirchen,Petzenkirchen,1301,2891900
+AT121,n.a.,31533,no,Pöchlarn,Pöchlarn,3962,17897500
+AT121,n.a.,31534,no,Pöggstall,Pöggstall,2461,58981900
+AT121,n.a.,31535,no,Raxendorf,Raxendorf,1051,36048300
+AT121,n.a.,31537,no,Ruprechtshofen,Ruprechtshofen,2269,30606000
+AT121,n.a.,31539,no,St. Leonhard am Forst,St. Leonhard am Forst,2981,43677700
+AT121,n.a.,31540,no,St. Martin-Karlsbach,St. Martin-Karlsbach,1687,24852700
+AT121,n.a.,31541,no,St. Oswald,St. Oswald,1124,31970700
+AT121,n.a.,31542,no,Schönbühel-Aggsbach,Schönbühel-Aggsbach,988,28483100
+AT121,n.a.,31543,no,Schollach,Schollach,948,19703800
+AT121,n.a.,31546,no,Weiten,Weiten,1091,28457500
+AT121,n.a.,31549,no,Ybbs an der Donau,Ybbs an der Donau,5676,23777100
+AT121,n.a.,31550,no,Zelking-Matzleinsdorf,Zelking-Matzleinsdorf,1243,21173500
+AT121,n.a.,31551,no,Texingtal,Texingtal,1612,32498000
+AT121,n.a.,31552,no,Yspertal,Yspertal,1932,47820000
+AT121,n.a.,31553,no,Emmersdorf an der Donau,Emmersdorf an der Donau,1754,29694500
+AT125,n.a.,31601,no,Altlichtenwarth,Altlichtenwarth,765,20429000
+AT125,n.a.,31603,no,Asparn an der Zaya,Asparn an der Zaya,1815,40483600
+AT125,n.a.,31604,no,Bernhardsthal,Bernhardsthal,1606,52009400
+AT126,n.a.,31605,no,Bockfließ,Bockfließ,1358,23032200
+AT125,n.a.,31606,no,Drasenhofen,Drasenhofen,1163,35203500
+AT125,n.a.,31608,no,Falkenstein,Falkenstein,447,19192600
+AT125,n.a.,31609,no,Fallbach,Fallbach,817,30423700
+AT125,n.a.,31611,no,Gaubitsch,Gaubitsch,870,22475700
+AT125,n.a.,31612,no,Gaweinstal,Gaweinstal,3860,51714700
+AT125,n.a.,31613,no,Gnadendorf,Gnadendorf,1129,48317900
+AT126,n.a.,31614,no,Großebersdorf,Großebersdorf,2264,18004300
+AT126,n.a.,31615,no,Großengersdorf,Großengersdorf,1490,15573300
+AT125,n.a.,31616,no,Großharras,Großharras,1117,42686600
+AT125,n.a.,31617,no,Großkrut,Großkrut,1579,38460300
+AT125,n.a.,31620,no,Hausbrunn,Hausbrunn,834,16181000
+AT125,n.a.,31621,no,Herrnbaumgarten,Herrnbaumgarten,944,16521400
+AT126,n.a.,31622,no,Hochleithen,Hochleithen,1153,19912600
+AT126,n.a.,31627,no,Kreuttal,Kreuttal,1422,21530900
+AT126,n.a.,31628,no,Kreuzstetten,Kreuzstetten,1580,24337100
+AT125,n.a.,31629,no,Laa an der Thaya,Laa an der Thaya,6225,72892600
+AT125,n.a.,31630,no,Ladendorf,Ladendorf,2234,50116400
+AT125,n.a.,31633,no,Mistelbach,Mistelbach,11315,131556600
+AT125,n.a.,31634,no,Neudorf bei Staatz,Neudorf bei Staatz,1442,40144600
+AT125,n.a.,31636,no,Niederleis,Niederleis,842,19522800
+AT126,n.a.,31642,no,Pillichsdorf,Pillichsdorf,1147,14343800
+AT125,n.a.,31644,no,Poysdorf,Poysdorf,5506,97275500
+AT125,n.a.,31645,no,Rabensburg,Rabensburg,1107,20137200
+AT125,n.a.,31646,no,Schrattenberg,Schrattenberg,804,19151800
+AT125,n.a.,31649,no,Staatz,Staatz,1954,42652600
+AT125,n.a.,31650,no,Stronsdorf,Stronsdorf,1611,48167700
+AT126,n.a.,31651,no,Ulrichskirchen-Schleinbach,Ulrichskirchen-Schleinbach,2606,26513800
+AT125,n.a.,31652,no,Unterstinkenbrunn,Unterstinkenbrunn,566,9427000
+AT125,n.a.,31653,no,Wildendürnbach,Wildendürnbach,1568,53645500
+AT125,n.a.,31654,no,Wilfersdorf,Wilfersdorf,2164,30495000
+AT126,n.a.,31655,no,Wolkersdorf im Weinviertel,Wolkersdorf im Weinviertel,7067,44600300
+AT125,n.a.,31658,no,Ottenthal,Ottenthal,574,15399200
+AT127,n.a.,31701,no,Achau,Achau,1402,11870000
+AT127,n.a.,31702,no,Biedermannsdorf,Biedermannsdorf,2945,8948400
+AT127,n.a.,31703,no,Breitenfurt bei Wien,Breitenfurt bei Wien,5868,27065700
+AT127,n.a.,31704,no,Brunn am Gebirge,Brunn am Gebirge,11679,7258200
+AT127,n.a.,31706,no,Gaaden,Gaaden,1625,24888700
+AT127,n.a.,31707,no,Gießhübl,Gießhübl,2301,3906700
+AT127,n.a.,31709,no,Gumpoldskirchen,Gumpoldskirchen,3837,8108600
+AT127,n.a.,31710,no,Guntramsdorf,Guntramsdorf,9264,14860600
+AT127,n.a.,31711,no,Hennersdorf,Hennersdorf,1521,5442100
+AT127,n.a.,31712,no,Hinterbrühl,Hinterbrühl,4024,16970700
+AT127,n.a.,31713,no,Kaltenleutgeben,Kaltenleutgeben,3307,17484100
+AT127,n.a.,31714,no,Laab im Walde,Laab im Walde,1159,7144600
+AT127,n.a.,31715,no,Laxenburg,Laxenburg,2859,10599300
+AT127,n.a.,31716,no,Maria Enzersdorf,Maria Enzersdorf,8777,5271000
+AT127,n.a.,31717,no,Mödling,Mödling,20739,10035300
+AT127,n.a.,31718,no,Münchendorf,Münchendorf,2958,19984700
+AT127,n.a.,31719,no,Perchtoldsdorf,Perchtoldsdorf,14975,12574000
+AT127,n.a.,31723,no,Vösendorf,Vösendorf,6743,10474100
+AT127,n.a.,31725,no,Wiener Neudorf,Wiener Neudorf,9201,6041900
+AT127,n.a.,31726,no,Wienerwald,Wienerwald,2649,48539200
+AT122,n.a.,31801,no,Altendorf,Altendorf,337,7227200
+AT122,n.a.,31802,no,Aspang-Markt,Aspang-Markt,1805,5219400
+AT122,n.a.,31803,no,Aspangberg-St. Peter,Aspangberg-St. Peter,1933,81700100
+AT122,n.a.,31804,no,Breitenau,Breitenau,1559,9647700
+AT122,n.a.,31805,no,Breitenstein,Breitenstein,333,20236700
+AT122,n.a.,31806,no,Buchbach,Buchbach,347,3029600
+AT122,n.a.,31807,no,Edlitz,Edlitz,923,14204300
+AT122,n.a.,31808,no,Enzenreith,Enzenreith,1921,9233900
+AT122,n.a.,31809,no,Feistritz am Wechsel,Feistritz am Wechsel,1023,24016100
+AT122,n.a.,31810,no,Gloggnitz,Gloggnitz,5959,19599100
+AT122,n.a.,31811,no,Grafenbach-St. Valentin,Grafenbach-St. Valentin,2260,13959900
+AT122,n.a.,31812,no,Grimmenstein,Grimmenstein,1400,14824900
+AT122,n.a.,31813,no,Grünbach am Schneeberg,Grünbach am Schneeberg,1705,7340200
+AT122,n.a.,31814,no,Kirchberg am Wechsel,Kirchberg am Wechsel,2439,51364000
+AT122,n.a.,31815,no,Mönichkirchen,Mönichkirchen,615,16273800
+AT122,n.a.,31817,no,Natschbach-Loipersbach,Natschbach-Loipersbach,1721,10685700
+AT122,n.a.,31818,no,Neunkirchen,Neunkirchen,12613,20381200
+AT122,n.a.,31820,no,Otterthal,Otterthal,605,6204300
+AT122,n.a.,31821,no,Payerbach,Payerbach,2056,17685500
+AT122,n.a.,31823,no,Pitten,Pitten,2601,13093300
+AT122,n.a.,31825,no,Prigglitz,Prigglitz,433,18007700
+AT122,n.a.,31826,no,Puchberg am Schneeberg,Puchberg am Schneeberg,2658,83355400
+AT122,n.a.,31827,no,Raach am Hochgebirge,Raach am Hochgebirge,291,13283600
+AT122,n.a.,31829,no,Reichenau an der Rax,Reichenau an der Rax,2618,89220300
+AT122,n.a.,31830,no,St. Corona am Wechsel,St. Corona am Wechsel,402,8751200
+AT122,n.a.,31831,no,St. Egyden am Steinfeld,St. Egyden am Steinfeld,1902,26239600
+AT122,n.a.,31832,no,Scheiblingkirchen-Thernberg,Scheiblingkirchen-Thernberg,1892,37791600
+AT122,n.a.,31833,no,Schottwien,Schottwien,682,12546800
+AT122,n.a.,31834,no,Schrattenbach,Schrattenbach,353,10913300
+AT122,n.a.,31835,no,Schwarzau am Steinfeld,Schwarzau am Steinfeld,1894,9718400
+AT122,n.a.,31836,no,Schwarzau im Gebirge,Schwarzau im Gebirge,673,192171100
+AT122,n.a.,31837,no,Seebenstein,Seebenstein,1388,9153800
+AT122,n.a.,31838,no,Semmering,Semmering,578,8718600
+AT122,n.a.,31839,no,Ternitz,Ternitz,14770,65384700
+AT122,n.a.,31840,no,Thomasberg,Thomasberg,1263,28974900
+AT122,n.a.,31841,no,Trattenbach,Trattenbach,550,30992500
+AT122,n.a.,31842,no,Bürg-Vöstenhof,Bürg-Vöstenhof,181,25087500
+AT122,n.a.,31843,no,Warth,Warth,1521,30146300
+AT122,n.a.,31844,no,Wartmannstetten,Wartmannstetten,1613,21576700
+AT122,n.a.,31845,no,Willendorf,Willendorf,948,7391600
+AT122,n.a.,31846,no,Wimpassing im Schwarzatale,Wimpassing im Schwarzatale,1664,2080700
+AT122,n.a.,31847,no,Würflach,Würflach,1583,12259000
+AT122,n.a.,31848,no,Zöbern,Zöbern,1429,31544400
+AT122,n.a.,31849,no,Höflein an der Hohen Wand,Höflein an der Hohen Wand,912,8934400
+AT123,n.a.,31901,no,Altlengbach,Altlengbach,2800,35535900
+AT123,n.a.,31902,no,Asperhofen,Asperhofen,2223,28915900
+AT123,n.a.,31903,no,Böheimkirchen,Böheimkirchen,5043,45491800
+AT123,n.a.,31904,no,Brand-Laaben,Brand-Laaben,1209,34529700
+AT123,n.a.,31905,no,Eichgraben,Eichgraben,4555,8877600
+AT123,n.a.,31906,no,Frankenfels,Frankenfels,2023,56157700
+AT123,n.a.,31907,no,Gerersdorf,Gerersdorf,951,13666600
+AT123,n.a.,31909,no,Hofstetten-Grünau,Hofstetten-Grünau,2597,36004800
+AT123,n.a.,31910,no,Hafnerbach,Hafnerbach,1590,29312700
+AT123,n.a.,31911,no,Haunoldstein,Haunoldstein,1118,9909100
+AT123,n.a.,31912,no,Herzogenburg,Herzogenburg,7734,46159400
+AT123,n.a.,31913,no,Inzersdorf-Getzersdorf,Inzersdorf-Getzersdorf,1531,13573000
+AT123,n.a.,31915,no,Kapelln,Kapelln,1391,20184400
+AT123,n.a.,31916,no,Karlstetten,Karlstetten,2183,28461300
+AT123,n.a.,31917,no,Kasten bei Böheimkirchen,Kasten bei Böheimkirchen,1385,20537000
+AT123,n.a.,31918,no,Kirchberg an der Pielach,Kirchberg an der Pielach,3207,63410900
+AT123,n.a.,31919,no,Kirchstetten,Kirchstetten,2148,17768700
+AT123,n.a.,31920,no,Loich,Loich,595,24575600
+AT123,n.a.,31921,no,Maria-Anzbach,Maria-Anzbach,3012,18193200
+AT123,n.a.,31922,no,Markersdorf-Haindorf,Markersdorf-Haindorf,2080,16670100
+AT123,n.a.,31923,no,Michelbach,Michelbach,903,25056600
+AT123,n.a.,31925,no,Neidling,Neidling,1449,18692300
+AT123,n.a.,31926,no,Neulengbach,Neulengbach,8169,51656900
+AT123,n.a.,31927,no,Neustift-Innermanzing,Neustift-Innermanzing,1546,14842900
+AT123,n.a.,31928,no,Nußdorf ob der Traisen,Nußdorf ob der Traisen,1738,15516900
+AT123,n.a.,31929,no,Ober-Grafendorf,Ober-Grafendorf,4612,24603200
+AT123,n.a.,31930,no,Obritzberg-Rust,Obritzberg-Rust,2319,41552000
+AT123,n.a.,31932,no,Prinzersdorf,Prinzersdorf,1602,4054000
+AT123,n.a.,31934,no,Pyhra,Pyhra,3497,66938800
+AT123,n.a.,31935,no,Rabenstein an der Pielach,Rabenstein an der Pielach,2512,36218000
+AT123,n.a.,31938,no,St. Margarethen an der Sierning,St. Margarethen an der Sierning,1049,14584700
+AT123,n.a.,31939,no,Schwarzenbach an der Pielach,Schwarzenbach an der Pielach,367,45371600
+AT123,n.a.,31940,no,Statzendorf,Statzendorf,1372,12470200
+AT123,n.a.,31941,no,Stössing,Stössing,844,27508600
+AT123,n.a.,31943,no,Traismauer,Traismauer,6059,43034500
+AT123,n.a.,31945,no,Weinburg,Weinburg,1319,10401600
+AT123,n.a.,31946,no,Perschling,Perschling,1328,23802700
+AT123,n.a.,31947,no,Wilhelmsburg,Wilhelmsburg,6525,45960600
+AT123,n.a.,31948,no,Wölbling,Wölbling,2513,32367500
+AT121,n.a.,32001,no,Gaming,Gaming,3165,243872000
+AT121,n.a.,32002,no,Göstling an der Ybbs,Göstling an der Ybbs,2085,143656100
+AT121,n.a.,32003,no,Gresten,Gresten,2016,3841500
+AT121,n.a.,32004,no,Gresten-Land,Gresten-Land,1538,55615600
+AT121,n.a.,32005,no,Lunz am See,Lunz am See,1794,101661600
+AT121,n.a.,32006,no,Oberndorf an der Melk,Oberndorf an der Melk,2939,42931200
+AT121,n.a.,32007,no,Puchenstuben,Puchenstuben,316,41289300
+AT121,n.a.,32008,no,Purgstall an der Erlauf,Purgstall an der Erlauf,5368,55973300
+AT121,n.a.,32009,no,Randegg,Randegg,1920,51815600
+AT121,n.a.,32010,no,Reinsberg,Reinsberg,1012,29441400
+AT121,n.a.,32011,no,St. Anton an der Jeßnitz,St. Anton an der Jeßnitz,1221,69696800
+AT121,n.a.,32012,no,St. Georgen an der Leys,St. Georgen an der Leys,1334,23825300
+AT121,n.a.,32013,no,Scheibbs,Scheibbs,4219,45958200
+AT121,n.a.,32014,no,Steinakirchen am Forst,Steinakirchen am Forst,2288,34917600
+AT121,n.a.,32015,no,Wang,Wang,1318,19571000
+AT121,n.a.,32016,no,Wieselburg,Wieselburg,3862,5420300
+AT121,n.a.,32017,no,Wieselburg-Land,Wieselburg-Land,3297,33878500
+AT121,n.a.,32018,no,Wolfpassing,Wolfpassing,1503,20289600
+AT126,n.a.,32101,no,Absdorf,Absdorf,1929,15996400
+AT126,n.a.,32104,no,Atzenbrugg,Atzenbrugg,2813,26012700
+AT126,n.a.,32106,no,Fels am Wagram,Fels am Wagram,2196,29412700
+AT126,n.a.,32107,no,Grafenwörth,Grafenwörth,3121,46404200
+AT126,n.a.,32109,no,Großriedenthal,Großriedenthal,936,18752600
+AT126,n.a.,32110,no,Großweikersdorf,Großweikersdorf,3122,43410300
+AT126,n.a.,32112,no,Judenau-Baumgarten,Judenau-Baumgarten,2241,14309100
+AT126,n.a.,32114,no,Kirchberg am Wagram,Kirchberg am Wagram,3612,60261200
+AT126,n.a.,32115,no,Königsbrunn am Wagram,Königsbrunn am Wagram,1325,28582700
+AT126,n.a.,32116,no,Königstetten,Königstetten,2285,13144400
+AT126,n.a.,32119,no,Langenrohr,Langenrohr,2347,22556700
+AT126,n.a.,32120,no,Michelhausen,Michelhausen,2849,32013600
+AT126,n.a.,32131,no,Sieghartskirchen,Sieghartskirchen,7427,61682700
+AT126,n.a.,32132,no,Sitzenberg-Reidling,Sitzenberg-Reidling,2088,22137300
+AT126,n.a.,32134,no,Tulbing,Tulbing,2918,18352500
+AT126,n.a.,32135,no,Tulln an der Donau,Tulln an der Donau,16038,72225200
+AT126,n.a.,32139,no,Würmla,Würmla,1345,20436000
+AT126,n.a.,32140,no,Zeiselmauer-Wolfpassing,Zeiselmauer-Wolfpassing,2258,12724700
+AT126,n.a.,32141,no,Zwentendorf an der Donau,Zwentendorf an der Donau,4007,53752100
+AT126,n.a.,32142,no,St. Andrä-Wördern,St. Andrä-Wördern,7814,39314300
+AT126,n.a.,32143,no,Muckendorf-Wipfing,Muckendorf-Wipfing,1442,6339000
+AT124,n.a.,32202,no,Dietmanns,Dietmanns,1076,6876300
+AT124,n.a.,32203,no,Dobersberg,Dobersberg,1654,47574600
+AT124,n.a.,32206,no,Gastern,Gastern,1232,24984000
+AT124,n.a.,32207,no,Groß-Siegharts,Groß-Siegharts,2787,44255700
+AT124,n.a.,32209,no,Karlstein an der Thaya,Karlstein an der Thaya,1498,48875900
+AT124,n.a.,32210,no,Kautzen,Kautzen,1155,35380300
+AT124,n.a.,32212,no,Ludweis-Aigen,Ludweis-Aigen,952,51187200
+AT124,n.a.,32214,no,Pfaffenschlag bei Waidhofen a.d.Thaya,Pfaffenschlag bei Waidhofen a.d.Thaya,919,29737400
+AT124,n.a.,32216,no,Raabs an der Thaya,Raabs an der Thaya,2695,134651200
+AT124,n.a.,32217,no,Thaya,Thaya,1394,43296300
+AT124,n.a.,32219,no,Vitis,Vitis,2652,55527800
+AT124,n.a.,32220,no,Waidhofen an der Thaya,Waidhofen an der Thaya,5637,46049800
+AT124,n.a.,32221,no,Waidhofen an der Thaya-Land,Waidhofen an der Thaya-Land,1250,32474700
+AT124,n.a.,32222,no,Waldkirchen an der Thaya,Waldkirchen an der Thaya,535,42694600
+AT124,n.a.,32223,no,Windigsteig,Windigsteig,971,25575200
+AT122,n.a.,32301,no,Bad Fischau-Brunn,Bad Fischau-Brunn,3301,20661800
+AT122,n.a.,32302,no,Bad Schönau,Bad Schönau,731,13591900
+AT122,n.a.,32304,no,Ebenfurth,Ebenfurth,3047,23496100
+AT122,n.a.,32305,no,Eggendorf,Eggendorf,4678,20619200
+AT122,n.a.,32306,no,Bad Erlach,Bad Erlach,2996,9161400
+AT122,n.a.,32307,no,Felixdorf,Felixdorf,4332,2543800
+AT122,n.a.,32308,no,Gutenstein,Gutenstein,1340,104033300
+AT122,n.a.,32309,no,Hochneukirchen-Gschaidt,Hochneukirchen-Gschaidt,1627,35249300
+AT122,n.a.,32310,no,Hochwolkersdorf,Hochwolkersdorf,1005,23786200
+AT122,n.a.,32311,no,Hohe Wand,Hohe Wand,1445,24643800
+AT122,n.a.,32312,no,Hollenthon,Hollenthon,1039,23930800
+AT122,n.a.,32313,no,Katzelsdorf,Katzelsdorf,3244,16264000
+AT122,n.a.,32314,no,Kirchschlag in der Buckligen Welt,Kirchschlag in der Buckligen Welt,2880,57772700
+AT122,n.a.,32315,no,Krumbach,Krumbach,2306,43933800
+AT122,n.a.,32316,no,Lanzenkirchen,Lanzenkirchen,3864,29851100
+AT122,n.a.,32317,no,Lichtenegg,Lichtenegg,1046,35332100
+AT122,n.a.,32318,no,Lichtenwörth,Lichtenwörth,2765,22974700
+AT122,n.a.,32319,no,Markt Piesting,Markt Piesting,2999,18298100
+AT122,n.a.,32320,no,Matzendorf-Hölles,Matzendorf-Hölles,2015,14279300
+AT122,n.a.,32321,no,Miesenbach,Miesenbach,704,34368800
+AT122,n.a.,32322,no,Muggendorf,Muggendorf,524,51326400
+AT122,n.a.,32323,no,Pernitz,Pernitz,2497,16746600
+AT122,n.a.,32324,no,Rohr im Gebirge,Rohr im Gebirge,487,80924300
+AT122,n.a.,32325,no,Bromberg,Bromberg,1242,31085300
+AT122,n.a.,32326,no,Schwarzenbach,Schwarzenbach,956,22338500
+AT122,n.a.,32327,no,Sollenau,Sollenau,4845,10701400
+AT122,n.a.,32330,no,Theresienfeld,Theresienfeld,3217,11474300
+AT122,n.a.,32331,no,Waidmannsfeld,Waidmannsfeld,1539,21474300
+AT122,n.a.,32332,no,Waldegg,Waldegg,2017,36096300
+AT122,n.a.,32333,no,Walpersbach,Walpersbach,1116,16496000
+AT122,n.a.,32334,no,Weikersdorf am Steinfelde,Weikersdorf am Steinfelde,1068,14390700
+AT122,n.a.,32335,no,Wiesmath,Wiesmath,1511,38439700
+AT122,n.a.,32336,no,Winzendorf-Muthmannsdorf,Winzendorf-Muthmannsdorf,1890,16196800
+AT122,n.a.,32337,no,Wöllersdorf-Steinabrückl,Wöllersdorf-Steinabrückl,4288,14554100
+AT122,n.a.,32338,no,Zillingdorf,Zillingdorf,2034,15330600
+AT127,n.a.,32401,no,Ebergassing,Ebergassing,3929,16260400
+AT127,n.a.,32402,no,Fischamend,Fischamend,5347,25034800
+AT126,n.a.,32403,no,Gablitz,Gablitz,4878,18153200
+AT126,n.a.,32404,no,Gerasdorf bei Wien,Gerasdorf bei Wien,10778,35242400
+AT127,n.a.,32405,no,Gramatneusiedl,Gramatneusiedl,3139,6734800
+AT127,n.a.,32406,no,Himberg,Himberg,7276,47610500
+AT127,n.a.,32407,no,Klein-Neusiedl,Klein-Neusiedl,902,5963600
+AT126,n.a.,32408,no,Klosterneuburg,Klosterneuburg,26738,76200100
+AT127,n.a.,32409,no,Lanzendorf,Lanzendorf,1711,4542000
+AT127,n.a.,32410,no,Leopoldsdorf,Leopoldsdorf,5039,6996800
+AT127,n.a.,32411,no,Maria-Lanzendorf,Maria-Lanzendorf,2108,1690500
+AT126,n.a.,32412,no,Mauerbach,Mauerbach,3731,20348600
+AT127,n.a.,32413,no,Moosbrunn,Moosbrunn,1716,16898800
+AT126,n.a.,32415,no,Pressbaum,Pressbaum,7292,58891800
+AT126,n.a.,32416,no,Purkersdorf,Purkersdorf,9525,30255200
+AT127,n.a.,32417,no,Rauchenwarth,Rauchenwarth,707,13490700
+AT127,n.a.,32418,no,Schwadorf,Schwadorf,2048,11386100
+AT127,n.a.,32419,no,Schwechat,Schwechat,17674,44832500
+AT126,n.a.,32421,no,Tullnerbach,Tullnerbach,2768,20244500
+AT126,n.a.,32423,no,Wolfsgraben,Wolfsgraben,1707,17440100
+AT127,n.a.,32424,no,Zwölfaxing,Zwölfaxing,1679,6759300
+AT124,n.a.,32501,no,Allentsteig,Allentsteig,1926,71643800
+AT124,n.a.,32502,no,Arbesbach,Arbesbach,1677,55083800
+AT124,n.a.,32503,no,Bärnkopf,Bärnkopf,347,47584400
+AT124,n.a.,32504,no,Echsenbach,Echsenbach,1223,23106200
+AT124,n.a.,32505,no,Göpfritz an der Wild,Göpfritz an der Wild,1856,60717200
+AT124,n.a.,32506,no,Grafenschlag,Grafenschlag,902,34154400
+AT124,n.a.,32508,no,Groß Gerungs,Groß Gerungs,4515,105803600
+AT124,n.a.,32509,no,Großgöttfritz,Großgöttfritz,1359,40061500
+AT124,n.a.,32511,no,Gutenbrunn,Gutenbrunn,529,27362500
+AT124,n.a.,32514,no,Kirchschlag,Kirchschlag,628,29241900
+AT124,n.a.,32515,no,Kottes-Purk,Kottes-Purk,1479,58478900
+AT124,n.a.,32516,no,Langschlag,Langschlag,1801,61129500
+AT124,n.a.,32517,no,Martinsberg,Martinsberg,1128,33750000
+AT124,n.a.,32518,no,Ottenschlag,Ottenschlag,997,26129400
+AT124,n.a.,32519,no,Altmelon,Altmelon,848,38314500
+AT124,n.a.,32520,no,Pölla,Pölla,950,104263700
+AT124,n.a.,32521,no,Rappottenstein,Rappottenstein,1729,65735100
+AT124,n.a.,32522,no,Sallingberg,Sallingberg,1306,51605100
+AT124,n.a.,32523,no,Schönbach,Schönbach,825,34794400
+AT124,n.a.,32524,no,Schwarzenau,Schwarzenau,1521,28238700
+AT124,n.a.,32525,no,Schweiggers,Schweiggers,1993,58553300
+AT124,n.a.,32528,no,Bad Traunstein,Bad Traunstein,1041,47448900
+AT124,n.a.,32529,no,Waldhausen,Waldhausen,1252,39742400
+AT124,n.a.,32530,no,Zwettl-Niederösterreich,Zwettl-Niederösterreich,11007,256178700
+AT312,n.a.,40101,no,Linz,Linz,200839,95986900
+AT314,n.a.,40201,no,Steyr,Steyr,38347,26540300
+AT312,n.a.,40301,no,Wels,Wels,60399,45881900
+AT311,n.a.,40401,no,Altheim,Altheim,4798,22655300
+AT311,n.a.,40402,no,Aspach,Aspach,2501,31460300
+AT311,n.a.,40403,no,Auerbach,Auerbach,558,10779000
+AT311,n.a.,40404,no,Braunau am Inn,Braunau am Inn,16717,24846100
+AT311,n.a.,40405,no,Burgkirchen,Burgkirchen,2608,45881300
+AT311,n.a.,40406,no,Eggelsberg,Eggelsberg,2321,24116000
+AT311,n.a.,40407,no,Feldkirchen bei Mattighofen,Feldkirchen bei Mattighofen,1929,34643300
+AT311,n.a.,40408,no,Franking,Franking,960,10460500
+AT311,n.a.,40409,no,Geretsberg,Geretsberg,1126,37430800
+AT311,n.a.,40410,no,Gilgenberg am Weilhart,Gilgenberg am Weilhart,1325,26614300
+AT311,n.a.,40411,no,Haigermoos,Haigermoos,596,7436900
+AT311,n.a.,40412,no,Handenberg,Handenberg,1288,27590500
+AT311,n.a.,40413,no,Helpfau-Uttendorf,Helpfau-Uttendorf,3442,26338300
+AT311,n.a.,40414,no,Hochburg-Ach,Hochburg-Ach,3171,40085800
+AT311,n.a.,40415,no,Höhnhart,Höhnhart,1409,21961000
+AT311,n.a.,40416,no,Jeging,Jeging,693,6582500
+AT311,n.a.,40417,no,Kirchberg bei Mattighofen,Kirchberg bei Mattighofen,1137,15737500
+AT311,n.a.,40418,no,Lengau,Lengau,4570,58182100
+AT311,n.a.,40419,no,Lochen am See,Lochen am See,2661,33284500
+AT311,n.a.,40420,no,Maria Schmolln,Maria Schmolln,1438,34467600
+AT311,n.a.,40421,no,Mattighofen,Mattighofen,6149,5151700
+AT311,n.a.,40422,no,Mauerkirchen,Mauerkirchen,2463,3079300
+AT311,n.a.,40423,no,Mining,Mining,1166,16548500
+AT311,n.a.,40424,no,Moosbach,Moosbach,973,19052600
+AT311,n.a.,40425,no,Moosdorf,Moosdorf,1632,15723000
+AT311,n.a.,40426,no,Munderfing,Munderfing,2963,31018500
+AT311,n.a.,40427,no,Neukirchen an der Enknach,Neukirchen an der Enknach,2166,33200000
+AT311,n.a.,40428,no,Ostermiething,Ostermiething,3290,21826000
+AT311,n.a.,40429,no,Palting,Palting,911,11500000
+AT311,n.a.,40430,no,Perwang am Grabensee,Perwang am Grabensee,973,6816600
+AT311,n.a.,40431,no,Pfaffstätt,Pfaffstätt,1016,9207800
+AT311,n.a.,40432,no,Pischelsdorf am Engelbach,Pischelsdorf am Engelbach,1665,32826600
+AT311,n.a.,40433,no,Polling im Innkreis,Polling im Innkreis,946,15104200
+AT311,n.a.,40434,no,Roßbach,Roßbach,936,14891300
+AT311,n.a.,40435,no,St. Georgen am Fillmannsbach,St. Georgen am Fillmannsbach,384,7193700
+AT311,n.a.,40436,no,St. Johann am Walde,St. Johann am Walde,2046,40005000
+AT311,n.a.,40437,no,St. Pantaleon,St. Pantaleon,3063,18321900
+AT311,n.a.,40438,no,St. Peter am Hart,St. Peter am Hart,2451,22852800
+AT311,n.a.,40439,no,St. Radegund,St. Radegund,585,17882600
+AT311,n.a.,40440,no,St. Veit im Innkreis,St. Veit im Innkreis,419,5364400
+AT311,n.a.,40441,no,Schalchen,Schalchen,3780,41103800
+AT311,n.a.,40442,no,Schwand im Innkreis,Schwand im Innkreis,918,17091800
+AT311,n.a.,40443,no,Tarsdorf,Tarsdorf,2040,32307000
+AT311,n.a.,40444,no,Treubach,Treubach,709,13053100
+AT311,n.a.,40445,no,Überackern,Überackern,685,27087600
+AT311,n.a.,40446,no,Weng im Innkreis,Weng im Innkreis,1378,21342300
+AT312,n.a.,40501,no,Alkoven,Alkoven,5808,42492100
+AT312,n.a.,40502,no,Aschach an der Donau,Aschach an der Donau,2193,6002600
+AT312,n.a.,40503,no,Eferding,Eferding,4006,2806900
+AT312,n.a.,40504,no,Fraham,Fraham,2324,16940900
+AT312,n.a.,40505,no,Haibach ob der Donau,Haibach ob der Donau,1294,25552900
+AT312,n.a.,40506,no,Hartkirchen,Hartkirchen,4111,39035500
+AT312,n.a.,40507,no,Hinzenbach,Hinzenbach,1982,14579400
+AT312,n.a.,40508,no,Prambachkirchen,Prambachkirchen,2868,28716600
+AT312,n.a.,40509,no,Pupping,Pupping,1836,13326100
+AT312,n.a.,40510,no,St. Marienkirchen an der Polsenz,St. Marienkirchen an der Polsenz,2310,23836300
+AT312,n.a.,40511,no,Scharten,Scharten,2267,17450100
+AT312,n.a.,40512,no,Stroheim,Stroheim,1539,28784300
+AT313,n.a.,40601,no,Freistadt,Freistadt,7703,12862400
+AT313,n.a.,40602,no,Grünbach,Grünbach,1887,36084200
+AT313,n.a.,40603,no,Gutau,Gutau,2719,45282400
+AT313,n.a.,40604,no,Hagenberg im Mühlkreis,Hagenberg im Mühlkreis,2727,15046800
+AT313,n.a.,40605,no,Hirschbach im Mühlkreis,Hirschbach im Mühlkreis,1149,23625200
+AT313,n.a.,40606,no,Kaltenberg,Kaltenberg,630,17199300
+AT313,n.a.,40607,no,Kefermarkt,Kefermarkt,2083,27811300
+AT313,n.a.,40608,no,Königswiesen,Königswiesen,3190,73378000
+AT313,n.a.,40609,no,Lasberg,Lasberg,2761,43796200
+AT313,n.a.,40610,no,Leopoldschlag,Leopoldschlag,1058,25795400
+AT313,n.a.,40611,no,Liebenau,Liebenau,1633,76313500
+AT313,n.a.,40612,no,Neumarkt im Mühlkreis,Neumarkt im Mühlkreis,3145,46667800
+AT313,n.a.,40613,no,Pierbach,Pierbach,1000,22721100
+AT313,n.a.,40614,no,Pregarten,Pregarten,5233,27771600
+AT313,n.a.,40615,no,Rainbach im Mühlkreis,Rainbach im Mühlkreis,2947,49268800
+AT313,n.a.,40616,no,Sandl,Sandl,1401,58315900
+AT313,n.a.,40617,no,St. Leonhard bei Freistadt,St. Leonhard bei Freistadt,1365,35007500
+AT313,n.a.,40618,no,St. Oswald bei Freistadt,St. Oswald bei Freistadt,2873,40976000
+AT313,n.a.,40619,no,Schönau im Mühlkreis,Schönau im Mühlkreis,1949,38540000
+AT313,n.a.,40620,no,Tragwein,Tragwein,3058,39470500
+AT313,n.a.,40621,no,Unterweißenbach,Unterweißenbach,2224,48732300
+AT313,n.a.,40622,no,Unterweitersdorf,Unterweitersdorf,2059,11422100
+AT313,n.a.,40623,no,Waldburg,Waldburg,1350,26532900
+AT313,n.a.,40624,no,Wartberg ob der Aist,Wartberg ob der Aist,4212,19412300
+AT313,n.a.,40625,no,Weitersfelden,Weitersfelden,1039,43715400
+AT313,n.a.,40626,no,Windhaag bei Freistadt,Windhaag bei Freistadt,1590,42826800
+AT313,n.a.,40627,no,Bad Zell,Bad Zell,2868,45522200
+AT315,n.a.,40701,no,Altmünster,Altmünster,9785,78769900
+AT315,n.a.,40702,no,Bad Goisern am Hallstättersee,Bad Goisern am Hallstättersee,7478,112262700
+AT315,n.a.,40703,no,Bad Ischl,Bad Ischl,13901,163055300
+AT315,n.a.,40704,no,Ebensee,Ebensee,7738,194661300
+AT315,n.a.,40705,no,Gmunden,Gmunden,13204,63547900
+AT315,n.a.,40706,no,Gosau,Gosau,1774,113402300
+AT315,n.a.,40707,no,Grünau im Almtal,Grünau im Almtal,2104,230181900
+AT315,n.a.,40708,no,Gschwandt,Gschwandt,2690,16743100
+AT315,n.a.,40709,no,Hallstatt,Hallstatt,758,59715600
+AT315,n.a.,40710,no,Kirchham,Kirchham,2036,28363900
+AT315,n.a.,40711,no,Laakirchen,Laakirchen,9807,32461300
+AT315,n.a.,40712,no,Obertraun,Obertraun,740,88427700
+AT315,n.a.,40713,no,Ohlsdorf,Ohlsdorf,5172,27782900
+AT315,n.a.,40714,no,Pinsdorf,Pinsdorf,3819,12482400
+AT315,n.a.,40715,no,Roitham,Roitham,2001,21016200
+AT315,n.a.,40716,no,St. Konrad,St. Konrad,1113,19292500
+AT315,n.a.,40717,no,St. Wolfgang im Salzkammergut,St. Wolfgang im Salzkammergut,2823,56428300
+AT315,n.a.,40718,no,Traunkirchen,Traunkirchen,1624,18330000
+AT315,n.a.,40719,no,Scharnstein,Scharnstein,4780,47843800
+AT315,n.a.,40720,no,Vorchdorf,Vorchdorf,7398,47754800
+AT311,n.a.,40801,no,Aistersheim,Aistersheim,875,11098400
+AT311,n.a.,40802,no,Bad Schallerbach,Bad Schallerbach,4005,8494000
+AT311,n.a.,40803,no,Bruck-Waasen,Bruck-Waasen,2317,28378100
+AT311,n.a.,40804,no,Eschenau im Hausruckkreis,Eschenau im Hausruckkreis,1037,16643400
+AT311,n.a.,40805,no,Gallspach,Gallspach,2865,6169600
+AT311,n.a.,40806,no,Gaspoltshofen,Gaspoltshofen,3563,40553200
+AT311,n.a.,40807,no,Geboltskirchen,Geboltskirchen,1414,17223000
+AT311,n.a.,40808,no,Grieskirchen,Grieskirchen,4902,11741600
+AT311,n.a.,40809,no,Haag am Hausruck,Haag am Hausruck,2159,16972000
+AT311,n.a.,40810,no,Heiligenberg,Heiligenberg,674,13855200
+AT311,n.a.,40811,no,Hofkirchen an der Trattnach,Hofkirchen an der Trattnach,1640,17966300
+AT311,n.a.,40812,no,Kallham,Kallham,2449,26705400
+AT311,n.a.,40813,no,Kematen am Innbach,Kematen am Innbach,1366,12660700
+AT311,n.a.,40814,no,Meggenhofen,Meggenhofen,1492,18198100
+AT311,n.a.,40815,no,Michaelnbach,Michaelnbach,1266,23009200
+AT311,n.a.,40816,no,Natternbach,Natternbach,2330,30959600
+AT311,n.a.,40817,no,Neukirchen am Walde,Neukirchen am Walde,1609,15815800
+AT311,n.a.,40818,no,Neumarkt im Hausruckkreis,Neumarkt im Hausruckkreis,1412,2110200
+AT311,n.a.,40819,no,Peuerbach,Peuerbach,2221,10981400
+AT311,n.a.,40820,no,Pötting,Pötting,533,7429800
+AT311,n.a.,40821,no,Pollham,Pollham,974,11304400
+AT311,n.a.,40822,no,Pram,Pram,1706,20308100
+AT311,n.a.,40823,no,Rottenbach,Rottenbach,1073,14543800
+AT311,n.a.,40824,no,St. Agatha,St. Agatha,2127,31793600
+AT311,n.a.,40825,no,St. Georgen bei Grieskirchen,St. Georgen bei Grieskirchen,1285,11413600
+AT311,n.a.,40826,no,St. Thomas,St. Thomas,556,6071800
+AT311,n.a.,40827,no,Schlüßlberg,Schlüßlberg,3082,19829100
+AT311,n.a.,40828,no,Steegen,Steegen,1048,13197600
+AT311,n.a.,40829,no,Taufkirchen an der Trattnach,Taufkirchen an der Trattnach,1980,24613500
+AT311,n.a.,40830,no,Tollet,Tollet,900,9549100
+AT311,n.a.,40831,no,Waizenkirchen,Waizenkirchen,3650,34240400
+AT311,n.a.,40832,no,Wallern an der Trattnach,Wallern an der Trattnach,2961,14560100
+AT311,n.a.,40833,no,Weibern,Weibern,1708,17453800
+AT311,n.a.,40834,no,Wendling,Wendling,829,12819200
+AT314,n.a.,40901,no,Edlbach,Edlbach,645,8307600
+AT314,n.a.,40902,no,Grünburg,Grünburg,3788,43246600
+AT314,n.a.,40903,no,Hinterstoder,Hinterstoder,923,149090500
+AT314,n.a.,40904,no,Inzersdorf im Kremstal,Inzersdorf im Kremstal,1896,22774200
+AT314,n.a.,40905,no,Kirchdorf an der Krems,Kirchdorf an der Krems,4323,2776800
+AT314,n.a.,40906,no,Klaus an der Pyhrnbahn,Klaus an der Pyhrnbahn,1079,107940700
+AT314,n.a.,40907,no,Kremsmünster,Kremsmünster,6538,42143200
+AT314,n.a.,40908,no,Micheldorf in Oberösterreich,Micheldorf in Oberösterreich,5808,50316800
+AT314,n.a.,40909,no,Molln,Molln,3595,191313600
+AT314,n.a.,40910,no,Nußbach,Nußbach,2249,30466500
+AT314,n.a.,40911,no,Oberschlierbach,Oberschlierbach,490,18218600
+AT314,n.a.,40912,no,Pettenbach,Pettenbach,5181,54696500
+AT314,n.a.,40913,no,Ried im Traunkreis,Ried im Traunkreis,2695,31161000
+AT314,n.a.,40914,no,Rosenau am Hengstpaß,Rosenau am Hengstpaß,677,107857400
+AT314,n.a.,40915,no,Roßleithen,Roßleithen,1898,67501000
+AT314,n.a.,40916,no,St. Pankraz,St. Pankraz,353,47152000
+AT314,n.a.,40917,no,Schlierbach,Schlierbach,2869,18394900
+AT314,n.a.,40918,no,Spital am Pyhrn,Spital am Pyhrn,2234,108858800
+AT314,n.a.,40919,no,Steinbach am Ziehberg,Steinbach am Ziehberg,822,34797600
+AT314,n.a.,40920,no,Steinbach an der Steyr,Steinbach an der Steyr,2038,28078600
+AT314,n.a.,40921,no,Vorderstoder,Vorderstoder,808,37091900
+AT314,n.a.,40922,no,Wartberg an der Krems,Wartberg an der Krems,2980,31557400
+AT314,n.a.,40923,no,Windischgarsten,Windischgarsten,2399,4927600
+AT312,n.a.,41001,no,Allhaming,Allhaming,1148,14233500
+AT312,n.a.,41002,no,Ansfelden,Ansfelden,16043,31330100
+AT312,n.a.,41003,no,Asten,Asten,6371,8478400
+AT312,n.a.,41004,no,Eggendorf im Traunkreis,Eggendorf im Traunkreis,899,9362000
+AT312,n.a.,41005,no,Enns,Enns,11736,33038400
+AT312,n.a.,41006,no,Hargelsberg,Hargelsberg,1341,17876300
+AT312,n.a.,41007,no,Hörsching,Hörsching,6039,19990100
+AT312,n.a.,41008,no,Hofkirchen im Traunkreis,Hofkirchen im Traunkreis,1857,13898800
+AT312,n.a.,41009,no,Kematen an der Krems,Kematen an der Krems,2677,21522800
+AT312,n.a.,41010,no,Kirchberg-Thening,Kirchberg-Thening,2355,15892500
+AT312,n.a.,41011,no,Kronstorf,Kronstorf,3228,21310800
+AT312,n.a.,41012,no,Leonding,Leonding,27393,24030200
+AT312,n.a.,41013,no,St. Florian,St. Florian,6077,44120800
+AT312,n.a.,41014,no,Neuhofen an der Krems,Neuhofen an der Krems,6041,17964400
+AT312,n.a.,41015,no,Niederneukirchen,Niederneukirchen,2022,20777400
+AT312,n.a.,41016,no,Oftering,Oftering,2071,13497700
+AT312,n.a.,41017,no,Pasching,Pasching,7274,12471100
+AT312,n.a.,41018,no,Piberbach,Piberbach,1870,17286200
+AT312,n.a.,41019,no,Pucking,Pucking,3865,19684200
+AT312,n.a.,41020,no,St. Marien,St. Marien,4644,37590300
+AT312,n.a.,41021,no,Traun,Traun,24058,15488000
+AT312,n.a.,41022,no,Wilhering,Wilhering,6010,29988800
+AT313,n.a.,41101,no,Allerheiligen im Mühlkreis,Allerheiligen im Mühlkreis,1234,20228400
+AT313,n.a.,41102,no,Arbing,Arbing,1435,12009800
+AT313,n.a.,41103,no,Baumgartenberg,Baumgartenberg,1683,15713600
+AT313,n.a.,41104,no,Dimbach,Dimbach,1032,31269700
+AT313,n.a.,41105,no,Grein,Grein,2992,18423400
+AT313,n.a.,41106,no,Katsdorf,Katsdorf,2978,14609000
+AT313,n.a.,41107,no,Klam,Klam,912,8350700
+AT313,n.a.,41108,no,Bad Kreuzen,Bad Kreuzen,2329,39899900
+AT313,n.a.,41109,no,Langenstein,Langenstein,2513,12319800
+AT313,n.a.,41110,no,Luftenberg an der Donau,Luftenberg an der Donau,4076,16863200
+AT313,n.a.,41111,no,Mauthausen,Mauthausen,4849,14028000
+AT313,n.a.,41112,no,Mitterkirchen im Machland,Mitterkirchen im Machland,1735,28845300
+AT313,n.a.,41113,no,Münzbach,Münzbach,1734,24860100
+AT313,n.a.,41114,no,Naarn im Machlande,Naarn im Machlande,3691,35126400
+AT313,n.a.,41115,no,Pabneukirchen,Pabneukirchen,1719,40915300
+AT313,n.a.,41116,no,Perg,Perg,8274,26460900
+AT313,n.a.,41117,no,Rechberg,Rechberg,963,13752600
+AT313,n.a.,41118,no,Ried in der Riedmark,Ried in der Riedmark,4096,32632900
+AT313,n.a.,41119,no,St. Georgen am Walde,St. Georgen am Walde,2047,53591900
+AT313,n.a.,41120,no,St. Georgen an der Gusen,St. Georgen an der Gusen,3916,7093500
+AT313,n.a.,41121,no,St. Nikola an der Donau,St. Nikola an der Donau,816,13121100
+AT313,n.a.,41122,no,St. Thomas am Blasenstein,St. Thomas am Blasenstein,917,28977900
+AT313,n.a.,41123,no,Saxen,Saxen,1816,18998100
+AT313,n.a.,41124,no,Schwertberg,Schwertberg,5308,18792600
+AT313,n.a.,41125,no,Waldhausen im Strudengau,Waldhausen im Strudengau,2903,46686500
+AT313,n.a.,41126,no,Windhaag bei Perg,Windhaag bei Perg,1477,19120500
+AT311,n.a.,41201,no,Andrichsfurt,Andrichsfurt,749,12345200
+AT311,n.a.,41202,no,Antiesenhofen,Antiesenhofen,1072,8599900
+AT311,n.a.,41203,no,Aurolzmünster,Aurolzmünster,2870,15970500
+AT311,n.a.,41204,no,Eberschwang,Eberschwang,3387,40431500
+AT311,n.a.,41205,no,Eitzing,Eitzing,769,8563100
+AT311,n.a.,41206,no,Geiersberg,Geiersberg,528,5446800
+AT311,n.a.,41207,no,Geinberg,Geinberg,1452,14029000
+AT311,n.a.,41208,no,Gurten,Gurten,1163,16215500
+AT311,n.a.,41209,no,Hohenzell,Hohenzell,2177,22515900
+AT311,n.a.,41210,no,Kirchdorf am Inn,Kirchdorf am Inn,621,13491200
+AT311,n.a.,41211,no,Kirchheim im Innkreis,Kirchheim im Innkreis,718,10244200
+AT311,n.a.,41212,no,Lambrechten,Lambrechten,1310,23657900
+AT311,n.a.,41213,no,Lohnsburg am Kobernaußerwald,Lohnsburg am Kobernaußerwald,2217,39594400
+AT311,n.a.,41214,no,Mehrnbach,Mehrnbach,2320,22212100
+AT311,n.a.,41215,no,Mettmach,Mettmach,2378,29578900
+AT311,n.a.,41216,no,Mörschwang,Mörschwang,327,10999800
+AT311,n.a.,41217,no,Mühlheim am Inn,Mühlheim am Inn,669,10909300
+AT311,n.a.,41218,no,Neuhofen im Innkreis,Neuhofen im Innkreis,2358,15595500
+AT311,n.a.,41219,no,Obernberg am Inn,Obernberg am Inn,1615,2356200
+AT311,n.a.,41220,no,Ort im Innkreis,Ort im Innkreis,1219,11492300
+AT311,n.a.,41221,no,Pattigham,Pattigham,887,11300100
+AT311,n.a.,41222,no,Peterskirchen,Peterskirchen,680,10236900
+AT311,n.a.,41223,no,Pramet,Pramet,1001,13895900
+AT311,n.a.,41224,no,Reichersberg,Reichersberg,1532,21051600
+AT311,n.a.,41225,no,Ried im Innkreis,Ried im Innkreis,11672,6772800
+AT311,n.a.,41226,no,St. Georgen bei Obernberg am Inn,St. Georgen bei Obernberg am Inn,545,18324500
+AT311,n.a.,41227,no,St. Marienkirchen am Hausruck,St. Marienkirchen am Hausruck,859,10934500
+AT311,n.a.,41228,no,St. Martin im Innkreis,St. Martin im Innkreis,1977,8857000
+AT311,n.a.,41229,no,Schildorn,Schildorn,1194,13256600
+AT311,n.a.,41230,no,Senftenbach,Senftenbach,779,9721400
+AT311,n.a.,41231,no,Taiskirchen im Innkreis,Taiskirchen im Innkreis,2398,34472000
+AT311,n.a.,41232,no,Tumeltsham,Tumeltsham,1548,9105500
+AT311,n.a.,41233,no,Utzenaich,Utzenaich,1532,20336800
+AT311,n.a.,41234,no,Waldzell,Waldzell,2170,40254200
+AT311,n.a.,41235,no,Weilbach,Weilbach,610,13487500
+AT311,n.a.,41236,no,Wippenham,Wippenham,556,8081800
+AT313,n.a.,41301,no,Afiesl,Afiesl,396,13488000
+AT313,n.a.,41302,no,Ahorn,Ahorn,497,13043500
+AT313,n.a.,41304,no,Altenfelden,Altenfelden,2148,26428800
+AT313,n.a.,41305,no,Arnreit,Arnreit,1151,20320500
+AT313,n.a.,41306,no,Atzesberg,Atzesberg,445,12675800
+AT313,n.a.,41307,no,Auberg,Auberg,545,12523700
+AT313,n.a.,41309,no,Haslach an der Mühl,Haslach an der Mühl,2530,12413800
+AT313,n.a.,41310,no,Helfenberg,Helfenberg,1004,9629100
+AT313,n.a.,41311,no,Hörbich,Hörbich,425,11217200
+AT313,n.a.,41312,no,Hofkirchen im Mühlkreis,Hofkirchen im Mühlkreis,1510,22588800
+AT313,n.a.,41313,no,Julbach,Julbach,1538,21770800
+AT313,n.a.,41314,no,Kirchberg ob der Donau,Kirchberg ob der Donau,1048,21266800
+AT313,n.a.,41315,no,Klaffer am Hochficht,Klaffer am Hochficht,1331,27985500
+AT313,n.a.,41316,no,Kleinzell im Mühlkreis,Kleinzell im Mühlkreis,1538,16151000
+AT313,n.a.,41317,no,Kollerschlag,Kollerschlag,1484,17465700
+AT313,n.a.,41318,no,Lembach im Mühlkreis,Lembach im Mühlkreis,1515,7981800
+AT313,n.a.,41319,no,Lichtenau im Mühlkreis,Lichtenau im Mühlkreis,508,9912800
+AT313,n.a.,41320,no,Nebelberg,Nebelberg,648,9148800
+AT313,n.a.,41321,no,Neufelden,Neufelden,1326,9800800
+AT313,n.a.,41322,no,Niederkappel,Niederkappel,1006,22424800
+AT313,n.a.,41323,no,Niederwaldkirchen,Niederwaldkirchen,1792,28255300
+AT313,n.a.,41324,no,Oberkappel,Oberkappel,746,12176900
+AT313,n.a.,41325,no,Oepping,Oepping,1507,23010200
+AT313,n.a.,41326,no,Peilstein im Mühlviertel,Peilstein im Mühlviertel,1553,23242900
+AT313,n.a.,41327,no,Pfarrkirchen im Mühlkreis,Pfarrkirchen im Mühlkreis,1488,31152400
+AT313,n.a.,41328,no,Putzleinsdorf,Putzleinsdorf,1592,22060300
+AT313,n.a.,41329,no,Neustift im Mühlkreis,Neustift im Mühlkreis,1461,20404200
+AT313,n.a.,41331,no,St. Johann am Wimberg,St. Johann am Wimberg,1034,19717600
+AT313,n.a.,41332,no,St. Martin im Mühlkreis,St. Martin im Mühlkreis,3682,34879100
+AT313,n.a.,41333,no,St. Oswald bei Haslach,St. Oswald bei Haslach,500,8127000
+AT313,n.a.,41334,no,St. Peter am Wimberg,St. Peter am Wimberg,1777,23365200
+AT313,n.a.,41335,no,St. Stefan am Walde,St. Stefan am Walde,798,16094300
+AT313,n.a.,41336,no,St. Ulrich im Mühlkreis,St. Ulrich im Mühlkreis,637,15359900
+AT313,n.a.,41337,no,St. Veit im Mühlkreis,St. Veit im Mühlkreis,1190,16330400
+AT313,n.a.,41338,no,Sarleinsbach,Sarleinsbach,2277,36855700
+AT313,n.a.,41340,no,Schönegg,Schönegg,546,10208000
+AT313,n.a.,41341,no,Schwarzenberg am Böhmerwald,Schwarzenberg am Böhmerwald,635,27207100
+AT313,n.a.,41342,no,Ulrichsberg,Ulrichsberg,2835,56902000
+AT313,n.a.,41343,no,Aigen-Schlägl,Aigen-Schlägl,3143,45867800
+AT313,n.a.,41344,no,Rohrbach-Berg,Rohrbach-Berg,5160,37944800
+AT311,n.a.,41401,no,Altschwendt,Altschwendt,708,12741000
+AT311,n.a.,41402,no,Andorf,Andorf,5129,37672100
+AT311,n.a.,41403,no,Brunnenthal,Brunnenthal,2009,14822600
+AT311,n.a.,41404,no,Diersbach,Diersbach,1553,28084800
+AT311,n.a.,41405,no,Dorf an der Pram,Dorf an der Pram,1037,12673200
+AT311,n.a.,41406,no,Eggerding,Eggerding,1310,22308800
+AT311,n.a.,41407,no,Engelhartszell,Engelhartszell,983,18890100
+AT311,n.a.,41408,no,Enzenkirchen,Enzenkirchen,1775,23287200
+AT311,n.a.,41409,no,Esternberg,Esternberg,2868,40271300
+AT311,n.a.,41410,no,Freinberg,Freinberg,1459,20312800
+AT311,n.a.,41411,no,Kopfing im Innkreis,Kopfing im Innkreis,1941,33302300
+AT311,n.a.,41412,no,Mayrhof,Mayrhof,302,5333100
+AT311,n.a.,41413,no,Münzkirchen,Münzkirchen,2574,21066300
+AT311,n.a.,41414,no,Raab,Raab,2298,22484800
+AT311,n.a.,41415,no,Rainbach im Innkreis,Rainbach im Innkreis,1486,24411100
+AT311,n.a.,41416,no,Riedau,Riedau,2042,7633400
+AT311,n.a.,41417,no,St. Aegidi,St. Aegidi,1573,28636800
+AT311,n.a.,41418,no,St. Florian am Inn,St. Florian am Inn,3101,24157300
+AT311,n.a.,41419,no,St. Marienkirchen bei Schärding,St. Marienkirchen bei Schärding,1794,24910600
+AT311,n.a.,41420,no,St. Roman,St. Roman,1755,31770800
+AT311,n.a.,41421,no,St. Willibald,St. Willibald,1125,14511300
+AT311,n.a.,41422,no,Schärding,Schärding,4997,3959200
+AT311,n.a.,41423,no,Schardenberg,Schardenberg,2375,31593600
+AT311,n.a.,41424,no,Sigharting,Sigharting,828,5666600
+AT311,n.a.,41425,no,Suben,Suben,1504,6410100
+AT311,n.a.,41426,no,Taufkirchen an der Pram,Taufkirchen an der Pram,2942,29148900
+AT311,n.a.,41427,no,Vichtenstein,Vichtenstein,644,10766900
+AT311,n.a.,41428,no,Waldkirchen am Wesen,Waldkirchen am Wesen,1198,21427900
+AT311,n.a.,41429,no,Wernstein am Inn,Wernstein am Inn,1583,16530700
+AT311,n.a.,41430,no,Zell an der Pram,Zell an der Pram,2013,23371900
+AT314,n.a.,41501,no,Adlwang,Adlwang,1779,17182800
+AT314,n.a.,41502,no,Aschach an der Steyr,Aschach an der Steyr,2224,21924200
+AT314,n.a.,41503,no,Bad Hall,Bad Hall,5045,13298100
+AT314,n.a.,41504,no,Dietach,Dietach,3126,20700900
+AT314,n.a.,41505,no,Gaflenz,Gaflenz,1924,58977200
+AT314,n.a.,41506,no,Garsten,Garsten,6645,53286900
+AT314,n.a.,41507,no,Großraming,Großraming,2732,108022200
+AT314,n.a.,41508,no,Laussa,Laussa,1250,34475400
+AT314,n.a.,41509,no,Losenstein,Losenstein,1627,19391700
+AT314,n.a.,41510,no,Maria Neustift,Maria Neustift,1580,45867900
+AT314,n.a.,41511,no,Pfarrkirchen bei Bad Hall,Pfarrkirchen bei Bad Hall,2162,11128400
+AT314,n.a.,41512,no,Reichraming,Reichraming,1731,102610000
+AT314,n.a.,41513,no,Rohr im Kremstal,Rohr im Kremstal,1312,13589400
+AT314,n.a.,41514,no,St. Ulrich bei Steyr,St. Ulrich bei Steyr,3010,39099000
+AT314,n.a.,41515,no,Schiedlberg,Schiedlberg,1226,30013300
+AT314,n.a.,41516,no,Sierning,Sierning,9218,38280800
+AT314,n.a.,41517,no,Ternberg,Ternberg,3390,62067900
+AT314,n.a.,41518,no,Waldneukirchen,Waldneukirchen,2237,26556200
+AT314,n.a.,41521,no,Wolfern,Wolfern,3146,32567800
+AT314,n.a.,41522,no,Weyer,Weyer,4264,223760000
+AT312,n.a.,41601,no,Alberndorf in der Riedmark,Alberndorf in der Riedmark,3961,40367400
+AT312,n.a.,41602,no,Altenberg bei Linz,Altenberg bei Linz,4509,36323400
+AT313,n.a.,41603,no,Bad Leonfelden,Bad Leonfelden,4210,40384100
+AT312,n.a.,41604,no,Eidenberg,Eidenberg,2065,29266000
+AT312,n.a.,41605,no,Engerwitzdorf,Engerwitzdorf,8661,40978500
+AT312,n.a.,41606,no,Feldkirchen an der Donau,Feldkirchen an der Donau,5275,39400300
+AT312,n.a.,41607,no,Gallneukirchen,Gallneukirchen,6310,5187300
+AT312,n.a.,41608,no,Goldwörth,Goldwörth,894,10824600
+AT312,n.a.,41609,no,Gramastetten,Gramastetten,5038,40233200
+AT313,n.a.,41610,no,Haibach im Mühlkreis,Haibach im Mühlkreis,888,14573200
+AT312,n.a.,41611,no,Hellmonsödt,Hellmonsödt,2251,18075900
+AT312,n.a.,41612,no,Herzogsdorf,Herzogsdorf,2471,35584500
+AT312,n.a.,41613,no,Kirchschlag bei Linz,Kirchschlag bei Linz,2103,16783000
+AT312,n.a.,41614,no,Lichtenberg,Lichtenberg,2687,18587600
+AT313,n.a.,41615,no,Oberneukirchen,Oberneukirchen,3157,34637600
+AT313,n.a.,41616,no,Ottenschlag im Mühlkreis,Ottenschlag im Mühlkreis,525,13141500
+AT312,n.a.,41617,no,Ottensheim,Ottensheim,4639,11727700
+AT312,n.a.,41618,no,Puchenau,Puchenau,4426,8177000
+AT313,n.a.,41619,no,Reichenau im Mühlkreis,Reichenau im Mühlkreis,1280,9572300
+AT313,n.a.,41620,no,Reichenthal,Reichenthal,1521,18892800
+AT312,n.a.,41621,no,St. Gotthard im Mühlkreis,St. Gotthard im Mühlkreis,1289,12069700
+AT313,n.a.,41622,no,Schenkenfelden,Schenkenfelden,1588,25868900
+AT312,n.a.,41623,no,Sonnberg im Mühlkreis,Sonnberg im Mühlkreis,919,12604100
+AT312,n.a.,41624,no,Steyregg,Steyregg,5070,32955000
+AT313,n.a.,41625,no,Vorderweißenbach,Vorderweißenbach,2073,53010300
+AT312,n.a.,41626,no,Walding,Walding,4040,15322000
+AT313,n.a.,41627,no,Zwettl an der Rodl,Zwettl an der Rodl,1796,15468000
+AT315,n.a.,41701,no,Ampflwang im Hausruckwald,Ampflwang im Hausruckwald,3409,20562100
+AT315,n.a.,41702,no,Attersee am Attersee,Attersee am Attersee,1604,14623000
+AT315,n.a.,41703,no,Attnang-Puchheim,Attnang-Puchheim,8839,12323500
+AT315,n.a.,41704,no,Atzbach,Atzbach,1178,14174500
+AT315,n.a.,41705,no,Aurach am Hongar,Aurach am Hongar,1672,24783100
+AT315,n.a.,41706,no,Berg im Attergau,Berg im Attergau,1028,20573800
+AT315,n.a.,41707,no,Desselbrunn,Desselbrunn,1807,17371800
+AT315,n.a.,41708,no,Fornach,Fornach,952,17739100
+AT315,n.a.,41709,no,Frankenburg am Hausruck,Frankenburg am Hausruck,4912,48540100
+AT315,n.a.,41710,no,Frankenmarkt,Frankenmarkt,3707,18406900
+AT315,n.a.,41711,no,Gampern,Gampern,2851,26325400
+AT315,n.a.,41712,no,Innerschwand am Mondsee,Innerschwand am Mondsee,1165,18734900
+AT315,n.a.,41713,no,Lenzing,Lenzing,5002,8887700
+AT315,n.a.,41714,no,Manning,Manning,822,10043200
+AT315,n.a.,41715,no,Mondsee,Mondsee,3697,16600500
+AT315,n.a.,41716,no,Neukirchen an der Vöckla,Neukirchen an der Vöckla,2548,23586500
+AT315,n.a.,41717,no,Niederthalheim,Niederthalheim,1086,15333500
+AT315,n.a.,41718,no,Nußdorf am Attersee,Nußdorf am Attersee,1151,27501900
+AT315,n.a.,41719,no,Oberhofen am Irrsee,Oberhofen am Irrsee,1589,21168200
+AT315,n.a.,41720,no,Oberndorf bei Schwanenstadt,Oberndorf bei Schwanenstadt,1420,6044500
+AT315,n.a.,41721,no,Oberwang,Oberwang,1657,38825500
+AT315,n.a.,41722,no,Ottnang am Hausruck,Ottnang am Hausruck,3856,30280800
+AT315,n.a.,41723,no,Pfaffing,Pfaffing,1504,12909500
+AT315,n.a.,41724,no,Pilsbach,Pilsbach,608,10275000
+AT315,n.a.,41725,no,Pitzenberg,Pitzenberg,511,6139600
+AT315,n.a.,41726,no,Pöndorf,Pöndorf,2339,50898000
+AT315,n.a.,41727,no,Puchkirchen am Trattberg,Puchkirchen am Trattberg,1045,7722600
+AT315,n.a.,41728,no,Pühret,Pühret,614,6530400
+AT315,n.a.,41729,no,Redleiten,Redleiten,515,14317500
+AT315,n.a.,41730,no,Redlham,Redlham,1475,8044500
+AT315,n.a.,41731,no,Regau,Regau,6582,33926700
+AT315,n.a.,41732,no,Rüstorf,Rüstorf,2056,13627100
+AT315,n.a.,41733,no,Rutzenham,Rutzenham,278,4949400
+AT315,n.a.,41734,no,St. Georgen im Attergau,St. Georgen im Attergau,4460,15583300
+AT315,n.a.,41735,no,St. Lorenz,St. Lorenz,2430,23559900
+AT315,n.a.,41736,no,Schlatt,Schlatt,1290,11053200
+AT315,n.a.,41737,no,Schörfling am Attersee,Schörfling am Attersee,3384,23209200
+AT315,n.a.,41738,no,Schwanenstadt,Schwanenstadt,4274,2580000
+AT315,n.a.,41739,no,Seewalchen am Attersee,Seewalchen am Attersee,5464,23746200
+AT315,n.a.,41740,no,Steinbach am Attersee,Steinbach am Attersee,868,61106800
+AT315,n.a.,41741,no,Straß im Attergau,Straß im Attergau,1475,30835200
+AT315,n.a.,41742,no,Tiefgraben,Tiefgraben,3962,38255900
+AT315,n.a.,41743,no,Timelkam,Timelkam,5926,18131200
+AT315,n.a.,41744,no,Ungenach,Ungenach,1496,14428300
+AT315,n.a.,41745,no,Unterach am Attersee,Unterach am Attersee,1461,26109000
+AT315,n.a.,41746,no,Vöcklabruck,Vöcklabruck,12179,15581500
+AT315,n.a.,41747,no,Vöcklamarkt,Vöcklamarkt,4853,27437900
+AT315,n.a.,41748,no,Weißenkirchen im Attergau,Weißenkirchen im Attergau,949,26702000
+AT315,n.a.,41749,no,Weyregg am Attersee,Weyregg am Attersee,1517,54619100
+AT315,n.a.,41750,no,Wolfsegg am Hausruck,Wolfsegg am Hausruck,2024,11967000
+AT315,n.a.,41751,no,Zell am Moos,Zell am Moos,1589,24506900
+AT315,n.a.,41752,no,Zell am Pettenfirst,Zell am Pettenfirst,1206,13678400
+AT312,n.a.,41801,no,Aichkirchen,Aichkirchen,563,6491700
+AT312,n.a.,41802,no,Bachmanning,Bachmanning,677,7214000
+AT312,n.a.,41803,no,Bad Wimsbach-Neydharting,Bad Wimsbach-Neydharting,2481,24302000
+AT312,n.a.,41804,no,Buchkirchen,Buchkirchen,4060,32139900
+AT312,n.a.,41805,no,Eberstalzell,Eberstalzell,2563,27549000
+AT312,n.a.,41806,no,Edt bei Lambach,Edt bei Lambach,2138,21160400
+AT312,n.a.,41807,no,Fischlham,Fischlham,1319,15642300
+AT312,n.a.,41808,no,Gunskirchen,Gunskirchen,5855,36236700
+AT312,n.a.,41809,no,Holzhausen,Holzhausen,918,7759800
+AT312,n.a.,41810,no,Krenglbach,Krenglbach,3076,15336000
+AT312,n.a.,41811,no,Lambach,Lambach,3378,3734800
+AT312,n.a.,41812,no,Marchtrenk,Marchtrenk,12951,23131600
+AT312,n.a.,41813,no,Neukirchen bei Lambach,Neukirchen bei Lambach,907,11845900
+AT312,n.a.,41814,no,Offenhausen,Offenhausen,1615,15048200
+AT312,n.a.,41815,no,Pennewang,Pennewang,901,18351300
+AT312,n.a.,41816,no,Pichl bei Wels,Pichl bei Wels,2811,26422100
+AT312,n.a.,41817,no,Sattledt,Sattledt,2606,22151300
+AT312,n.a.,41818,no,Schleißheim,Schleißheim,1312,7650200
+AT312,n.a.,41819,no,Sipbachzell,Sipbachzell,1934,24874000
+AT312,n.a.,41820,no,Stadl-Paura,Stadl-Paura,4957,15023600
+AT312,n.a.,41821,no,Steinerkirchen an der Traun,Steinerkirchen an der Traun,2379,32604700
+AT312,n.a.,41822,no,Steinhaus,Steinhaus,1996,25121900
+AT312,n.a.,41823,no,Thalheim bei Wels,Thalheim bei Wels,5498,16315400
+AT312,n.a.,41824,no,Weißkirchen an der Traun,Weißkirchen an der Traun,3346,21711700
+AT323,n.a.,50101,no,Salzburg,Salzburg,150938,65636300
+AT323,n.a.,50201,no,Abtenau,Abtenau,5927,187076100
+AT323,n.a.,50202,no,Adnet,Adnet,3518,29938900
+AT323,n.a.,50203,no,Annaberg-Lungötz,Annaberg-Lungötz,2221,60885800
+AT323,n.a.,50204,no,Golling an der Salzach,Golling an der Salzach,4271,82089900
+AT323,n.a.,50205,no,Hallein,Hallein,20768,26990200
+AT323,n.a.,50206,no,Krispl,Krispl,888,29729600
+AT323,n.a.,50207,no,Kuchl,Kuchl,7118,47120300
+AT323,n.a.,50208,no,Oberalm,Oberalm,4287,6388900
+AT323,n.a.,50209,no,Puch bei Hallein,Puch bei Hallein,4689,21009900
+AT323,n.a.,50210,no,Rußbach am Paß Gschütt,Rußbach am Paß Gschütt,791,34043500
+AT323,n.a.,50211,no,Sankt Koloman,Sankt Koloman,1684,56002400
+AT323,n.a.,50212,no,Scheffau am Tennengebirge,Scheffau am Tennengebirge,1372,69662200
+AT323,n.a.,50213,no,Bad Vigaun,Bad Vigaun,2034,17569700
+AT323,n.a.,50301,no,Anif,Anif,4090,7601100
+AT323,n.a.,50302,no,Anthering,Anthering,3697,25242200
+AT323,n.a.,50303,no,Bergheim,Bergheim,5167,15234800
+AT323,n.a.,50304,no,Berndorf bei Salzburg,Berndorf bei Salzburg,1707,14469200
+AT323,n.a.,50305,no,Bürmoos,Bürmoos,4888,6937200
+AT323,n.a.,50306,no,Dorfbeuern,Dorfbeuern,1530,14621800
+AT323,n.a.,50307,no,Ebenau,Ebenau,1419,17169600
+AT323,n.a.,50308,no,Elixhausen,Elixhausen,2894,8345400
+AT323,n.a.,50309,no,Elsbethen,Elsbethen,5318,23962100
+AT323,n.a.,50310,no,Eugendorf,Eugendorf,6881,28996000
+AT323,n.a.,50311,no,Faistenau,Faistenau,3010,51199700
+AT323,n.a.,50312,no,Fuschl am See,Fuschl am See,1511,21401500
+AT323,n.a.,50313,no,Göming,Göming,759,8779500
+AT323,n.a.,50314,no,Grödig,Grödig,7192,23018400
+AT323,n.a.,50315,no,Großgmain,Großgmain,2582,22822400
+AT323,n.a.,50316,no,Hallwang,Hallwang,3975,13143000
+AT323,n.a.,50317,no,Henndorf am Wallersee,Henndorf am Wallersee,4884,23511500
+AT323,n.a.,50318,no,Hintersee,Hintersee,439,47330400
+AT323,n.a.,50319,no,Hof bei Salzburg,Hof bei Salzburg,3426,19638200
+AT323,n.a.,50320,no,Köstendorf,Köstendorf,2556,23118100
+AT323,n.a.,50321,no,Koppl,Koppl,3408,20896000
+AT323,n.a.,50322,no,Lamprechtshausen,Lamprechtshausen,3883,31773300
+AT323,n.a.,50323,no,Mattsee,Mattsee,3170,24628300
+AT323,n.a.,50324,no,Neumarkt am Wallersee,Neumarkt am Wallersee,6218,36311700
+AT323,n.a.,50325,no,Nußdorf am Haunsberg,Nußdorf am Haunsberg,2391,35559200
+AT323,n.a.,50326,no,Oberndorf bei Salzburg,Oberndorf bei Salzburg,5535,4544200
+AT323,n.a.,50327,no,Obertrum am See,Obertrum am See,4700,21310800
+AT323,n.a.,50328,no,Plainfeld,Plainfeld,1238,5242200
+AT323,n.a.,50329,no,Sankt Georgen bei Salzburg,Sankt Georgen bei Salzburg,2908,24640400
+AT323,n.a.,50330,no,Sankt Gilgen,Sankt Gilgen,3850,98880700
+AT323,n.a.,50331,no,Schleedorf,Schleedorf,1067,10416600
+AT323,n.a.,50332,no,Seeham,Seeham,1882,10380900
+AT323,n.a.,50335,no,Straßwalchen,Straßwalchen,7274,44523400
+AT323,n.a.,50336,no,Strobl,Strobl,3601,94023900
+AT323,n.a.,50337,no,Thalgau,Thalgau,5925,48198100
+AT323,n.a.,50338,no,Wals-Siezenheim,Wals-Siezenheim,13240,26613800
+AT323,n.a.,50339,no,Seekirchen am Wallersee,Seekirchen am Wallersee,10523,50299900
+AT322,n.a.,50401,no,Altenmarkt im Pongau,Altenmarkt im Pongau,3955,48599500
+AT322,n.a.,50402,no,Bad Hofgastein,Bad Hofgastein,6883,103751500
+AT322,n.a.,50403,no,Bad Gastein,Bad Gastein,4148,170620900
+AT322,n.a.,50404,no,Bischofshofen,Bischofshofen,10485,49538000
+AT322,n.a.,50405,no,Dorfgastein,Dorfgastein,1641,54125000
+AT322,n.a.,50406,no,Eben im Pongau,Eben im Pongau,2339,35926700
+AT322,n.a.,50407,no,Filzmoos,Filzmoos,1448,75647600
+AT322,n.a.,50408,no,Flachau,Flachau,2801,117327700
+AT322,n.a.,50409,no,Forstau,Forstau,521,59446300
+AT322,n.a.,50410,no,Goldegg,Goldegg,2501,33073500
+AT322,n.a.,50411,no,Großarl,Großarl,3802,129296000
+AT322,n.a.,50412,no,Hüttau,Hüttau,1504,53564900
+AT322,n.a.,50413,no,Hüttschlag,Hüttschlag,899,97239000
+AT322,n.a.,50414,no,Kleinarl,Kleinarl,775,70410100
+AT322,n.a.,50415,no,Mühlbach am Hochkönig,Mühlbach am Hochkönig,1500,51661900
+AT322,n.a.,50416,no,Pfarrwerfen,Pfarrwerfen,2211,38146500
+AT322,n.a.,50417,no,Radstadt,Radstadt,4941,60842200
+AT322,n.a.,50418,no,Sankt Johann im Pongau,Sankt Johann im Pongau,10954,78135100
+AT322,n.a.,50419,no,Sankt Martin am Tennengebirge,Sankt Martin am Tennengebirge,1607,46903800
+AT322,n.a.,50420,no,Sankt Veit im Pongau,Sankt Veit im Pongau,3669,56902500
+AT322,n.a.,50421,no,Schwarzach im Pongau,Schwarzach im Pongau,3503,3198700
+AT322,n.a.,50422,no,Untertauern,Untertauern,461,71745800
+AT322,n.a.,50423,no,Wagrain,Wagrain,3085,50540500
+AT322,n.a.,50424,no,Werfen,Werfen,2976,153257300
+AT322,n.a.,50425,no,Werfenweng,Werfenweng,970,45008900
+AT321,n.a.,50501,no,Göriach,Göriach,352,44099200
+AT321,n.a.,50502,no,Lessach,Lessach,572,72233400
+AT321,n.a.,50503,no,Mariapfarr,Mariapfarr,2380,47345200
+AT321,n.a.,50504,no,Mauterndorf,Mauterndorf,1699,32710500
+AT321,n.a.,50505,no,Muhr,Muhr,526,116074400
+AT321,n.a.,50506,no,Ramingstein,Ramingstein,1111,94208700
+AT321,n.a.,50507,no,Sankt Andrä im Lungau,Sankt Andrä im Lungau,755,10495900
+AT321,n.a.,50508,no,Sankt Margarethen im Lungau,Sankt Margarethen im Lungau,742,24444800
+AT321,n.a.,50509,no,Sankt Michael im Lungau,Sankt Michael im Lungau,3588,68828000
+AT321,n.a.,50510,no,Tamsweg,Tamsweg,5721,117452500
+AT321,n.a.,50511,no,Thomatal,Thomatal,316,75684400
+AT321,n.a.,50512,no,Tweng,Tweng,280,86590500
+AT321,n.a.,50513,no,Unternberg,Unternberg,1016,18937300
+AT321,n.a.,50514,no,Weißpriach,Weißpriach,305,80288800
+AT321,n.a.,50515,no,Zederhaus,Zederhaus,1184,130534200
+AT322,n.a.,50601,no,Bramberg am Wildkogel,Bramberg am Wildkogel,3936,117270500
+AT322,n.a.,50602,no,Bruck an der Großglocknerstraße,Bruck an der Großglocknerstraße,4611,45682000
+AT322,n.a.,50603,no,Dienten am Hochkönig,Dienten am Hochkönig,768,49788600
+AT322,n.a.,50604,no,Fusch an der Großglocknerstraße,Fusch an der Großglocknerstraße,701,158052600
+AT322,n.a.,50605,no,Hollersbach im Pinzgau,Hollersbach im Pinzgau,1159,76948600
+AT322,n.a.,50606,no,Kaprun,Kaprun,3153,100233400
+AT322,n.a.,50607,no,Krimml,Krimml,833,169457800
+AT322,n.a.,50608,no,Lend,Lend,1355,29351900
+AT322,n.a.,50609,no,Leogang,Leogang,3248,90358700
+AT322,n.a.,50610,no,Lofer,Lofer,2034,55669300
+AT322,n.a.,50611,no,Maishofen,Maishofen,3526,29534600
+AT322,n.a.,50612,no,Maria Alm am Steinernen Meer,Maria Alm am Steinernen Meer,2150,125487100
+AT322,n.a.,50613,no,Mittersill,Mittersill,5421,132024500
+AT322,n.a.,50614,no,Neukirchen am Großvenediger,Neukirchen am Großvenediger,2501,165978200
+AT322,n.a.,50615,no,Niedernsill,Niedernsill,2628,57442100
+AT322,n.a.,50616,no,Piesendorf,Piesendorf,3776,50930600
+AT322,n.a.,50617,no,Rauris,Rauris,3063,253329900
+AT322,n.a.,50618,no,Saalbach-Hinterglemm,Saalbach-Hinterglemm,2886,125531400
+AT322,n.a.,50619,no,Saalfelden am Steinernen Meer,Saalfelden am Steinernen Meer,16400,118462700
+AT322,n.a.,50620,no,Sankt Martin bei Lofer,Sankt Martin bei Lofer,1143,63584400
+AT322,n.a.,50621,no,Stuhlfelden,Stuhlfelden,1565,29618100
+AT322,n.a.,50622,no,Taxenbach,Taxenbach,2755,88310800
+AT322,n.a.,50623,no,Unken,Unken,1966,108880500
+AT322,n.a.,50624,no,Uttendorf,Uttendorf,2912,167745100
+AT322,n.a.,50625,no,Viehhofen,Viehhofen,601,38621900
+AT322,n.a.,50626,no,Wald im Pinzgau,Wald im Pinzgau,1151,69280500
+AT322,n.a.,50627,no,Weißbach bei Lofer,Weißbach bei Lofer,441,69567200
+AT322,n.a.,50628,no,Zell am See,Zell am See,9762,55119700
+AT221,n.a.,60101,no,Graz,Graz,280258,127481600
+AT225,n.a.,60305,no,Frauental an der Laßnitz,Frauental an der Laßnitz,2823,15583800
+AT225,n.a.,60318,no,Lannach,Lannach,3394,19872300
+AT225,n.a.,60323,no,Pölfing-Brunn,Pölfing-Brunn,1627,6158600
+AT225,n.a.,60324,no,Preding,Preding,1703,18229900
+AT225,n.a.,60326,no,Sankt Josef (Weststeiermark),Sankt Josef (Weststeiermark),1511,13302900
+AT225,n.a.,60329,no,Sankt Peter im Sulmtal,Sankt Peter im Sulmtal,1321,10983800
+AT225,n.a.,60341,no,Wettmannstätten,Wettmannstätten,1622,17974900
+AT225,n.a.,60344,no,Deutschlandsberg,Deutschlandsberg,11656,179083700
+AT225,n.a.,60345,no,Eibiswald,Eibiswald,6590,152038400
+AT225,n.a.,60346,no,Groß Sankt Florian,Groß Sankt Florian,4198,48776700
+AT225,n.a.,60347,no,Sankt Martin im Sulmtal,Sankt Martin im Sulmtal,3069,39184700
+AT225,n.a.,60348,no,Sankt Stefan ob Stainz,Sankt Stefan ob Stainz,3582,49234400
+AT225,n.a.,60349,no,Schwanberg,Schwanberg,4555,124186900
+AT225,n.a.,60350,no,Stainz,Stainz,8589,92835400
+AT225,n.a.,60351,no,Wies,Wies,4417,76571400
+AT221,n.a.,60608,no,Feldkirchen bei Graz,Feldkirchen bei Graz,5920,11575900
+AT221,n.a.,60611,no,Gössendorf,Gössendorf,3832,7209600
+AT221,n.a.,60613,no,Gratkorn,Gratkorn,7827,34612800
+AT221,n.a.,60617,no,Hart bei Graz,Hart bei Graz,4850,11061800
+AT221,n.a.,60618,no,Haselsdorf-Tobelbad,Haselsdorf-Tobelbad,1359,6677200
+AT221,n.a.,60619,no,Hausmannstätten,Hausmannstätten,3130,6781400
+AT221,n.a.,60623,no,Kainbach bei Graz,Kainbach bei Graz,2749,17812400
+AT221,n.a.,60624,no,Kalsdorf bei Graz,Kalsdorf bei Graz,6395,15160500
+AT221,n.a.,60626,no,Kumberg,Kumberg,3814,29423400
+AT221,n.a.,60628,no,Laßnitzhöhe,Laßnitzhöhe,2718,14876500
+AT221,n.a.,60629,no,Lieboch,Lieboch,4967,11728700
+AT221,n.a.,60632,no,Peggau,Peggau,2199,11250100
+AT221,n.a.,60639,no,Sankt Bartholomä,Sankt Bartholomä,1385,11720600
+AT221,n.a.,60641,no,Sankt Oswald bei Plankenwarth,Sankt Oswald bei Plankenwarth,1201,11807300
+AT221,n.a.,60642,no,Sankt Radegund bei Graz,Sankt Radegund bei Graz,2089,21553100
+AT221,n.a.,60645,no,Semriach,Semriach,3334,60337300
+AT221,n.a.,60646,no,Stattegg,Stattegg,2847,25829400
+AT221,n.a.,60647,no,Stiwoll,Stiwoll,725,13013700
+AT221,n.a.,60648,no,Thal,Thal,2273,18512800
+AT221,n.a.,60651,no,Übelbach,Übelbach,2006,94631900
+AT221,n.a.,60653,no,Vasoldsberg,Vasoldsberg,4453,28084800
+AT221,n.a.,60654,no,Weinitzen,Weinitzen,2639,18987800
+AT221,n.a.,60655,no,Werndorf,Werndorf,2277,6238500
+AT221,n.a.,60656,no,Wundschuh,Wundschuh,1544,12888000
+AT221,n.a.,60659,no,Deutschfeistritz,Deutschfeistritz,4188,57055300
+AT221,n.a.,60660,no,Dobl-Zwaring,Dobl-Zwaring,3443,37921600
+AT221,n.a.,60661,no,Eggersdorf bei Graz,Eggersdorf bei Graz,6507,49360500
+AT221,n.a.,60662,no,Fernitz-Mellach,Fernitz-Mellach,4656,20511700
+AT221,n.a.,60663,no,Frohnleiten,Frohnleiten,6705,153839900
+AT221,n.a.,60664,no,Gratwein-Straßengel,Gratwein-Straßengel,12806,86694500
+AT221,n.a.,60665,no,Hitzendorf,Hitzendorf,7012,48884500
+AT221,n.a.,60666,no,Nestelbach bei Graz,Nestelbach bei Graz,2644,27343900
+AT221,n.a.,60667,no,Raaba-Grambach,Raaba-Grambach,4163,14636200
+AT221,n.a.,60668,no,Sankt Marein bei Graz,Sankt Marein bei Graz,3642,41712400
+AT221,n.a.,60669,no,Seiersberg-Pirka,Seiersberg-Pirka,10748,17356300
+AT221,n.a.,60670,no,Premstätten,Premstätten,5783,29265000
+AT225,n.a.,61001,no,Allerheiligen bei Wildon,Allerheiligen bei Wildon,1424,20508200
+AT225,n.a.,61002,no,Arnfels,Arnfels,1072,4193800
+AT225,n.a.,61007,no,Empersdorf,Empersdorf,1340,14231100
+AT225,n.a.,61008,no,Gabersdorf,Gabersdorf,1173,19858500
+AT225,n.a.,61012,no,Gralla,Gralla,2267,12135400
+AT225,n.a.,61013,no,Großklein,Großklein,2246,27715000
+AT225,n.a.,61016,no,Heimschuh,Heimschuh,1998,18511600
+AT225,n.a.,61017,no,Hengsberg,Hengsberg,1464,17701000
+AT225,n.a.,61019,no,Kitzeck im Sausal,Kitzeck im Sausal,1260,16349200
+AT225,n.a.,61020,no,Lang,Lang,1281,15665400
+AT225,n.a.,61021,no,Lebring-Sankt Margarethen,Lebring-Sankt Margarethen,2155,7603200
+AT225,n.a.,61024,no,Oberhaag,Oberhaag,2211,35967400
+AT225,n.a.,61027,no,Ragnitz,Ragnitz,1451,20761800
+AT225,n.a.,61030,no,Sankt Andrä-Höch,Sankt Andrä-Höch,1728,20625400
+AT225,n.a.,61032,no,Sankt Johann im Saggautal,Sankt Johann im Saggautal,2011,27019300
+AT225,n.a.,61033,no,Sankt Nikolai im Sausal,Sankt Nikolai im Sausal,2204,26158200
+AT225,n.a.,61043,no,Tillmitsch,Tillmitsch,3209,15019400
+AT225,n.a.,61045,no,Wagna,Wagna,5538,13015100
+AT225,n.a.,61049,no,Ehrenhausen an der Weinstraße,Ehrenhausen an der Weinstraße,2625,20311300
+AT225,n.a.,61050,no,Gamlitz,Gamlitz,3242,36875200
+AT225,n.a.,61051,no,Gleinstätten,Gleinstätten,2822,21908700
+AT225,n.a.,61052,no,Heiligenkreuz am Waasen,Heiligenkreuz am Waasen,2758,26374800
+AT225,n.a.,61053,no,Leibnitz,Leibnitz,11916,23533700
+AT225,n.a.,61054,no,Leutschach an der Weinstraße,Leutschach an der Weinstraße,3794,75744000
+AT225,n.a.,61055,no,Sankt Georgen an der Stiefing,Sankt Georgen an der Stiefing,1492,18723200
+AT225,n.a.,61056,no,Sankt Veit in der Südsteiermark,Sankt Veit in der Südsteiermark,4068,68665500
+AT225,n.a.,61057,no,Schwarzautal,Schwarzautal,2299,40217500
+AT225,n.a.,61058,no,Straß in Steiermark,Straß in Steiermark,4904,28895800
+AT225,n.a.,61059,no,Wildon,Wildon,5363,32666300
+AT223,n.a.,61101,no,Eisenerz,Eisenerz,4291,124461200
+AT223,n.a.,61105,no,Kalwang,Kalwang,1019,67260600
+AT223,n.a.,61106,no,Kammern im Liesingtal,Kammern im Liesingtal,1623,58691400
+AT223,n.a.,61107,no,Kraubath an der Mur,Kraubath an der Mur,1256,27474600
+AT223,n.a.,61108,no,Leoben,Leoben,25350,107726400
+AT223,n.a.,61109,no,Mautern in Steiermark,Mautern in Steiermark,1791,108792800
+AT223,n.a.,61110,no,Niklasdorf,Niklasdorf,2536,15127100
+AT223,n.a.,61111,no,Proleb,Proleb,1523,24475000
+AT223,n.a.,61112,no,Radmer,Radmer,589,82435900
+AT223,n.a.,61113,no,Sankt Michael in Obersteiermark,Sankt Michael in Obersteiermark,3046,56024000
+AT223,n.a.,61114,no,Sankt Peter-Freienstein,Sankt Peter-Freienstein,2360,27297000
+AT223,n.a.,61115,no,Sankt Stefan ob Leoben,Sankt Stefan ob Leoben,1925,78550200
+AT223,n.a.,61116,no,Traboch,Traboch,1390,12490900
+AT223,n.a.,61118,no,Vordernberg,Vordernberg,1040,27872200
+AT223,n.a.,61119,no,Wald am Schoberpaß,Wald am Schoberpaß,592,90254400
+AT223,n.a.,61120,no,Trofaiach,Trofaiach,11227,143246000
+AT222,n.a.,61203,no,Aigen im Ennstal,Aigen im Ennstal,2620,86318800
+AT222,n.a.,61204,no,Altaussee,Altaussee,1852,92109300
+AT222,n.a.,61205,no,Altenmarkt bei Sankt Gallen,Altenmarkt bei Sankt Gallen,840,43047200
+AT222,n.a.,61206,no,Ardning,Ardning,1210,34164200
+AT222,n.a.,61207,no,Bad Aussee,Bad Aussee,4771,81860900
+AT222,n.a.,61213,no,Gröbming,Gröbming,2846,66483000
+AT222,n.a.,61215,no,Grundlsee,Grundlsee,1223,151539700
+AT222,n.a.,61217,no,Haus,Haus,2461,82500700
+AT222,n.a.,61222,no,Lassing,Lassing,1733,37253700
+AT222,n.a.,61236,no,Ramsau am Dachstein,Ramsau am Dachstein,2767,75330500
+AT222,n.a.,61243,no,Selzthal,Selzthal,1638,16748000
+AT222,n.a.,61247,no,Trieben,Trieben,3406,45326200
+AT222,n.a.,61251,no,Wildalpen,Wildalpen,480,202820700
+AT222,n.a.,61252,no,Wörschach,Wörschach,1120,42905800
+AT222,n.a.,61253,no,Admont,Admont,5065,299844500
+AT222,n.a.,61254,no,Aich,Aich,1270,56474100
+AT222,n.a.,61255,no,Bad Mitterndorf,Bad Mitterndorf,4934,196264100
+AT222,n.a.,61256,no,Gaishorn am See,Gaishorn am See,1314,76970200
+AT222,n.a.,61257,no,Irdning-Donnersbachtal,Irdning-Donnersbachtal,4098,199679000
+AT222,n.a.,61258,no,Landl,Landl,2818,255705900
+AT222,n.a.,61259,no,Liezen,Liezen,8091,91726100
+AT222,n.a.,61260,no,Michaelerberg-Pruggern,Michaelerberg-Pruggern,1155,47643200
+AT222,n.a.,61261,no,Mitterberg-Sankt Martin,Mitterberg-Sankt Martin,1934,54922800
+AT222,n.a.,61262,no,Öblarn,Öblarn,2008,70168400
+AT222,n.a.,61263,no,Rottenmann,Rottenmann,5224,205331400
+AT222,n.a.,61264,no,Sankt Gallen,Sankt Gallen,1841,129791600
+AT222,n.a.,61265,no,Schladming,Schladming,6782,211109600
+AT222,n.a.,61266,no,Sölk,Sölk,1519,288244600
+AT222,n.a.,61267,no,Stainach-Pürgg,Stainach-Pürgg,2840,72954300
+AT226,n.a.,61410,no,Mühlen,Mühlen,882,50666200
+AT226,n.a.,61413,no,Niederwölz,Niederwölz,594,10277100
+AT226,n.a.,61425,no,Sankt Peter am Kammersberg,Sankt Peter am Kammersberg,2076,84177900
+AT226,n.a.,61428,no,Schöder,Schöder,981,74929900
+AT226,n.a.,61437,no,Krakau,Krakau,1444,123598200
+AT226,n.a.,61438,no,Murau,Murau,3689,76631100
+AT226,n.a.,61439,no,Neumarkt in der Steiermark,Neumarkt in der Steiermark,5070,163554100
+AT226,n.a.,61440,no,Oberwölz,Oberwölz,3005,210174900
+AT226,n.a.,61441,no,Ranten,Ranten,1176,52410900
+AT226,n.a.,61442,no,Sankt Georgen am Kreischberg,Sankt Georgen am Kreischberg,1805,111777000
+AT226,n.a.,61443,no,Sankt Lambrecht,Sankt Lambrecht,1914,70191600
+AT226,n.a.,61444,no,Scheifling,Scheifling,2172,57240100
+AT226,n.a.,61445,no,Stadl-Predlitz,Stadl-Predlitz,1710,256214900
+AT226,n.a.,61446,no,Teufenbach-Katsch,Teufenbach-Katsch,1872,42271100
+AT225,n.a.,61611,no,Krottendorf-Gaisfeld,Krottendorf-Gaisfeld,2433,17050700
+AT225,n.a.,61612,no,Ligist,Ligist,3279,34618400
+AT225,n.a.,61615,no,Mooskirchen,Mooskirchen,2212,17974400
+AT225,n.a.,61618,no,Rosental an der Kainach,Rosental an der Kainach,1728,6540600
+AT225,n.a.,61621,no,Sankt Martin am Wöllmißberg,Sankt Martin am Wöllmißberg,813,25759900
+AT225,n.a.,61624,no,Stallhofen,Stallhofen,3095,27324500
+AT225,n.a.,61625,no,Voitsberg,Voitsberg,9473,28618600
+AT225,n.a.,61626,no,Bärnbach,Bärnbach,5697,31584700
+AT225,n.a.,61627,no,Edelschrott,Edelschrott,1767,87688200
+AT225,n.a.,61628,no,Geistthal-Södingberg,Geistthal-Södingberg,1589,52600000
+AT225,n.a.,61629,no,Hirschegg-Pack,Hirschegg-Pack,1054,99125900
+AT225,n.a.,61630,no,Kainach bei Voitsberg,Kainach bei Voitsberg,1680,83437600
+AT225,n.a.,61631,no,Köflach,Köflach,10094,43276100
+AT225,n.a.,61632,no,Maria Lankowitz,Maria Lankowitz,2895,104247000
+AT225,n.a.,61633,no,Söding-Sankt Johann,Söding-Sankt Johann,4042,19372500
+AT224,n.a.,61701,no,Albersdorf-Prebuch,Albersdorf-Prebuch,2028,14151400
+AT224,n.a.,61708,no,Fischbach,Fischbach,1505,61568600
+AT224,n.a.,61710,no,Floing,Floing,1200,13279400
+AT224,n.a.,61711,no,Gasen,Gasen,920,33919700
+AT224,n.a.,61716,no,Markt Hartmannsdorf,Markt Hartmannsdorf,2971,29204400
+AT224,n.a.,61719,no,Hofstätten an der Raab,Hofstätten an der Raab,2170,15248600
+AT224,n.a.,61727,no,Ludersdorf-Wilfersdorf,Ludersdorf-Wilfersdorf,2230,12811200
+AT224,n.a.,61728,no,Miesenbach bei Birkfeld,Miesenbach bei Birkfeld,710,14721300
+AT224,n.a.,61729,no,Mitterdorf an der Raab,Mitterdorf an der Raab,2073,21024400
+AT224,n.a.,61730,no,Mortantsch,Mortantsch,2116,17466700
+AT224,n.a.,61731,no,Naas,Naas,1394,20775300
+AT224,n.a.,61740,no,Puch bei Weiz,Puch bei Weiz,2068,24759300
+AT224,n.a.,61741,no,Ratten,Ratten,1177,28797500
+AT224,n.a.,61743,no,Rettenegg,Rettenegg,754,78526100
+AT224,n.a.,61744,no,St. Kathrein am Hauenstein,St. Kathrein am Hauenstein,684,19296300
+AT224,n.a.,61745,no,Sankt Kathrein am Offenegg,Sankt Kathrein am Offenegg,1081,40409300
+AT224,n.a.,61746,no,St. Margarethen an der Raab,St. Margarethen an der Raab,4002,43015000
+AT224,n.a.,61748,no,Sinabelkirchen,Sinabelkirchen,4165,37188100
+AT224,n.a.,61750,no,Strallegg,Strallegg,1944,42230600
+AT224,n.a.,61751,no,Thannhausen,Thannhausen,2404,33425700
+AT224,n.a.,61756,no,Anger,Anger,4159,53843400
+AT224,n.a.,61757,no,Birkfeld,Birkfeld,5100,89779900
+AT224,n.a.,61758,no,Fladnitz an der Teichalm,Fladnitz an der Teichalm,1803,66510000
+AT224,n.a.,61759,no,Gersdorf an der Feistritz,Gersdorf an der Feistritz,1678,30069000
+AT224,n.a.,61760,no,Gleisdorf,Gleisdorf,10452,38671600
+AT224,n.a.,61761,no,Gutenberg-Stenzengreith,Gutenberg-Stenzengreith,1745,27798600
+AT224,n.a.,61762,no,Ilztal,Ilztal,2112,22477200
+AT224,n.a.,61763,no,Passail,Passail,4298,80197400
+AT224,n.a.,61764,no,Pischelsdorf am Kulm,Pischelsdorf am Kulm,3632,28136100
+AT224,n.a.,61765,no,Sankt Ruprecht an der Raab,Sankt Ruprecht an der Raab,5098,41075700
+AT224,n.a.,61766,no,Weiz,Weiz,11431,17485500
+AT226,n.a.,62007,no,Fohnsdorf,Fohnsdorf,7743,54695700
+AT226,n.a.,62008,no,Gaal,Gaal,1395,197465100
+AT226,n.a.,62010,no,Hohentauern,Hohentauern,432,92644600
+AT226,n.a.,62014,no,Kobenz,Kobenz,1802,17636000
+AT226,n.a.,62021,no,Pusterwald,Pusterwald,474,105289900
+AT226,n.a.,62026,no,Sankt Georgen ob Judenburg,Sankt Georgen ob Judenburg,851,44333700
+AT226,n.a.,62032,no,Sankt Peter ob Judenburg,Sankt Peter ob Judenburg,1118,50276400
+AT226,n.a.,62034,no,Seckau,Seckau,1282,46235700
+AT226,n.a.,62036,no,Unzmarkt-Frauenburg,Unzmarkt-Frauenburg,1358,36453500
+AT226,n.a.,62038,no,Zeltweg,Zeltweg,7407,8704900
+AT226,n.a.,62039,no,Lobmingtal,Lobmingtal,1824,54384800
+AT226,n.a.,62040,no,Judenburg,Judenburg,10195,63769600
+AT226,n.a.,62041,no,Knittelfeld,Knittelfeld,12668,13856400
+AT226,n.a.,62042,no,Obdach,Obdach,3841,159111500
+AT226,n.a.,62043,no,Pöls-Oberkurzheim,Pöls-Oberkurzheim,3030,62536300
+AT226,n.a.,62044,no,Pölstal,Pölstal,2785,270216500
+AT226,n.a.,62045,no,Sankt Marein-Feistritz,Sankt Marein-Feistritz,2044,70607100
+AT226,n.a.,62046,no,Sankt Margarethen bei Knittelfeld,Sankt Margarethen bei Knittelfeld,2746,148229600
+AT226,n.a.,62047,no,Spielberg,Spielberg,5300,29698300
+AT226,n.a.,62048,no,Weißkirchen in Steiermark,Weißkirchen in Steiermark,4855,149636900
+AT223,n.a.,62105,no,Breitenau am Hochlantsch,Breitenau am Hochlantsch,1737,62401000
+AT223,n.a.,62115,no,Krieglach,Krieglach,5221,93739800
+AT223,n.a.,62116,no,Langenwang,Langenwang,3925,75926200
+AT223,n.a.,62125,no,Pernegg an der Mur,Pernegg an der Mur,2337,86005400
+AT223,n.a.,62128,no,Sankt Lorenzen im Mürztal,Sankt Lorenzen im Mürztal,3561,38046200
+AT223,n.a.,62131,no,Spital am Semmering,Spital am Semmering,1748,73147000
+AT223,n.a.,62132,no,Stanz im Mürztal,Stanz im Mürztal,1835,76733700
+AT223,n.a.,62135,no,Turnau,Turnau,1524,134284100
+AT223,n.a.,62138,no,Aflenz,Aflenz,2421,55063100
+AT223,n.a.,62139,no,Bruck an der Mur,Bruck an der Mur,15891,85241400
+AT223,n.a.,62140,no,Kapfenberg,Kapfenberg,23067,81995300
+AT223,n.a.,62141,no,Kindberg,Kindberg,8125,90523400
+AT223,n.a.,62142,no,Mariazell,Mariazell,3910,413493200
+AT223,n.a.,62143,no,Mürzzuschlag,Mürzzuschlag,8681,51311800
+AT223,n.a.,62144,no,Neuberg an der Mürz,Neuberg an der Mürz,2728,274601900
+AT223,n.a.,62145,no,Sankt Barbara im Mürztal,Sankt Barbara im Mürztal,6727,112489800
+AT223,n.a.,62146,no,Sankt Marein im Mürztal,Sankt Marein im Mürztal,2676,29459900
+AT223,n.a.,62147,no,Thörl,Thörl,2342,166455400
+AT223,n.a.,62148,no,Tragöß-Sankt Katharein,Tragöß-Sankt Katharein,1893,153885200
+AT224,n.a.,62202,no,Bad Blumau,Bad Blumau,1628,37358900
+AT224,n.a.,62205,no,Buch-Sankt Magdalena,Buch-Sankt Magdalena,2174,26405100
+AT224,n.a.,62206,no,Burgau,Burgau,1072,19992000
+AT224,n.a.,62209,no,Ebersdorf,Ebersdorf,1247,17281200
+AT224,n.a.,62211,no,Friedberg,Friedberg,2598,25872700
+AT224,n.a.,62214,no,Greinbach,Greinbach,1829,23377100
+AT224,n.a.,62216,no,Großsteinbach,Großsteinbach,1260,21248300
+AT224,n.a.,62219,no,Hartberg,Hartberg,6534,21578700
+AT224,n.a.,62220,no,Hartberg Umgebung,Hartberg Umgebung,2243,30429800
+AT224,n.a.,62226,no,Lafnitz,Lafnitz,1448,15608500
+AT224,n.a.,62232,no,Ottendorf an der Rittschein,Ottendorf an der Rittschein,1562,14273700
+AT224,n.a.,62233,no,Pinggau,Pinggau,3200,59089500
+AT224,n.a.,62235,no,Pöllauberg,Pöllauberg,2095,33953000
+AT224,n.a.,62242,no,Sankt Jakob im Walde,Sankt Jakob im Walde,1050,30296000
+AT224,n.a.,62244,no,Sankt Johann in der Haide,Sankt Johann in der Haide,2111,23560100
+AT224,n.a.,62245,no,Sankt Lorenzen am Wechsel,Sankt Lorenzen am Wechsel,1501,48539300
+AT224,n.a.,62247,no,Schäffern,Schäffern,1428,32365400
+AT224,n.a.,62252,no,Söchau,Söchau,1420,18186600
+AT224,n.a.,62256,no,Stubenberg,Stubenberg,2254,32644900
+AT224,n.a.,62262,no,Wenigzell,Wenigzell,1419,35682700
+AT224,n.a.,62264,no,Bad Waltersdorf,Bad Waltersdorf,3780,52258300
+AT224,n.a.,62265,no,Dechantskirchen,Dechantskirchen,2050,29084700
+AT224,n.a.,62266,no,Feistritztal,Feistritztal,2432,25700100
+AT224,n.a.,62267,no,Fürstenfeld,Fürstenfeld,8452,50415500
+AT224,n.a.,62268,no,Grafendorf bei Hartberg,Grafendorf bei Hartberg,3124,45702400
+AT224,n.a.,62269,no,Großwilfersdorf,Großwilfersdorf,2080,38420100
+AT224,n.a.,62270,no,Hartl,Hartl,2114,33821700
+AT224,n.a.,62271,no,Ilz,Ilz,3719,39303000
+AT224,n.a.,62272,no,Kaindorf,Kaindorf,2866,28006300
+AT224,n.a.,62273,no,Loipersdorf bei Fürstenfeld,Loipersdorf bei Fürstenfeld,1860,25009000
+AT224,n.a.,62274,no,Neudau,Neudau,1458,13691100
+AT224,n.a.,62275,no,Pöllau,Pöllau,6041,88873600
+AT224,n.a.,62276,no,Rohr bei Hartberg,Rohr bei Hartberg,1473,27748000
+AT224,n.a.,62277,no,Rohrbach an der Lafnitz,Rohrbach an der Lafnitz,2703,26572900
+AT224,n.a.,62278,no,Vorau,Vorau,4781,81270300
+AT224,n.a.,62279,no,Waldbach-Mönichwald,Waldbach-Mönichwald,1540,53968400
+AT224,n.a.,62311,no,Edelsbach bei Feldbach,Edelsbach bei Feldbach,1334,16125900
+AT224,n.a.,62314,no,Eichkögl,Eichkögl,1292,14905600
+AT224,n.a.,62326,no,Halbenrain,Halbenrain,1735,38784100
+AT224,n.a.,62330,no,Jagerberg,Jagerberg,1641,29048500
+AT224,n.a.,62332,no,Kapfenstein,Kapfenstein,1585,28591800
+AT224,n.a.,62335,no,Klöch,Klöch,1213,16406500
+AT224,n.a.,62343,no,Mettersdorf am Saßbach,Mettersdorf am Saßbach,1294,22757600
+AT224,n.a.,62347,no,Murfeld,Murfeld,1655,24219000
+AT224,n.a.,62368,no,Tieschen,Tieschen,1281,18174300
+AT224,n.a.,62372,no,Unterlamm,Unterlamm,1238,16732700
+AT224,n.a.,62375,no,Bad Gleichenberg,Bad Gleichenberg,5288,38766000
+AT224,n.a.,62376,no,Bad Radkersburg,Bad Radkersburg,3114,29999900
+AT224,n.a.,62377,no,Deutsch Goritz,Deutsch Goritz,1795,34015700
+AT224,n.a.,62378,no,Fehring,Fehring,7445,87284800
+AT224,n.a.,62379,no,Feldbach,Feldbach,13313,67297800
+AT224,n.a.,62380,no,Gnas,Gnas,6056,81757600
+AT224,n.a.,62381,no,Kirchbach-Zerlach,Kirchbach-Zerlach,3272,39157100
+AT224,n.a.,62382,no,Kirchberg an der Raab,Kirchberg an der Raab,4408,43899900
+AT224,n.a.,62383,no,Mureck,Mureck,3567,38726700
+AT224,n.a.,62384,no,Paldau,Paldau,3076,39203200
+AT224,n.a.,62385,no,Pirching am Traubenberg,Pirching am Traubenberg,2579,31570500
+AT224,n.a.,62386,no,Riegersburg,Riegersburg,4952,71121100
+AT224,n.a.,62387,no,Sankt Anna am Aigen,Sankt Anna am Aigen,2357,32611000
+AT224,n.a.,62388,no,Sankt Peter am Ottersbach,Sankt Peter am Ottersbach,3006,48564600
+AT224,n.a.,62389,no,Sankt Stefan im Rosental,Sankt Stefan im Rosental,4004,43200500
+AT224,n.a.,62390,no,Straden,Straden,3644,56514800
+AT332,n.a.,70101,no,Innsbruck,Innsbruck,131009,104809600
+AT334,n.a.,70201,no,Arzl im Pitztal,Arzl im Pitztal,3042,29358900
+AT334,n.a.,70202,no,Haiming,Haiming,4535,40177100
+AT334,n.a.,70203,no,Imst,Imst,10115,113344500
+AT334,n.a.,70204,no,Imsterberg,Imsterberg,763,10806300
+AT334,n.a.,70205,no,Jerzens,Jerzens,1005,30388900
+AT334,n.a.,70206,no,Karres,Karres,598,7496200
+AT334,n.a.,70207,no,Karrösten,Karrösten,677,7899400
+AT334,n.a.,70208,no,Längenfeld,Längenfeld,4481,195610700
+AT334,n.a.,70209,no,Mieming,Mieming,3531,50339500
+AT334,n.a.,70210,no,Mils bei Imst,Mils bei Imst,560,3478700
+AT334,n.a.,70211,no,Mötz,Mötz,1264,5839400
+AT334,n.a.,70212,no,Nassereith,Nassereith,2014,72392200
+AT334,n.a.,70213,no,Obsteig,Obsteig,1320,34621400
+AT334,n.a.,70214,no,Oetz,Oetz,2362,29169600
+AT334,n.a.,70215,no,Rietz,Rietz,2208,19545000
+AT334,n.a.,70216,no,Roppen,Roppen,1776,30829700
+AT334,n.a.,70217,no,St. Leonhard im Pitztal,St. Leonhard im Pitztal,1393,223444900
+AT334,n.a.,70218,no,Sautens,Sautens,1594,11599800
+AT334,n.a.,70219,no,Silz,Silz,2519,65618200
+AT334,n.a.,70220,no,Sölden,Sölden,3201,466783800
+AT334,n.a.,70221,no,Stams,Stams,1403,33551900
+AT334,n.a.,70222,no,Tarrenz,Tarrenz,2714,74585700
+AT334,n.a.,70223,no,Umhausen,Umhausen,3174,137308200
+AT334,n.a.,70224,no,Wenns,Wenns,1984,29628200
+AT332,n.a.,70301,no,Absam,Absam,6910,51876000
+AT332,n.a.,70302,no,Aldrans,Aldrans,2564,8852400
+AT332,n.a.,70303,no,Ampass,Ampass,1809,7955300
+AT332,n.a.,70304,no,Axams,Axams,5849,22161200
+AT332,n.a.,70305,no,Baumkirchen,Baumkirchen,1248,4022300
+AT332,n.a.,70306,no,Birgitz,Birgitz,1385,4784800
+AT332,n.a.,70307,no,Ellbögen,Ellbögen,1106,34479900
+AT332,n.a.,70308,no,Flaurling,Flaurling,1289,19615700
+AT332,n.a.,70309,no,Fritzens,Fritzens,2076,6119500
+AT332,n.a.,70310,no,Fulpmes,Fulpmes,4281,16764000
+AT332,n.a.,70311,no,Gnadenwald,Gnadenwald,787,11480500
+AT332,n.a.,70312,no,Götzens,Götzens,3949,9723400
+AT332,n.a.,70313,no,Gries am Brenner,Gries am Brenner,1329,55663800
+AT332,n.a.,70314,no,Gries im Sellrain,Gries im Sellrain,599,22629800
+AT332,n.a.,70315,no,Grinzens,Grinzens,1416,28686200
+AT332,n.a.,70317,no,Gschnitz,Gschnitz,424,59183200
+AT332,n.a.,70318,no,Hatting,Hatting,1394,7087300
+AT332,n.a.,70319,no,Inzing,Inzing,3758,19353700
+AT332,n.a.,70320,no,Kematen in Tirol,Kematen in Tirol,2831,6992400
+AT332,n.a.,70322,no,Kolsass,Kolsass,1581,3342100
+AT332,n.a.,70323,no,Kolsassberg,Kolsassberg,806,35361700
+AT332,n.a.,70325,no,Lans,Lans,1062,6274000
+AT332,n.a.,70326,no,Leutasch,Leutasch,2283,102870300
+AT332,n.a.,70327,no,Matrei am Brenner,Matrei am Brenner,932,358100
+AT332,n.a.,70328,no,Mieders,Mieders,1844,16532400
+AT332,n.a.,70329,no,Mils,Mils,4279,6913800
+AT332,n.a.,70330,no,Mühlbachl,Mühlbachl,1373,28829700
+AT332,n.a.,70331,no,Mutters,Mutters,2079,19019300
+AT332,n.a.,70332,no,Natters,Natters,2011,7327600
+AT332,n.a.,70333,no,Navis,Navis,1986,64106400
+AT332,n.a.,70334,no,Neustift im Stubaital,Neustift im Stubaital,4704,248877500
+AT332,n.a.,70335,no,Oberhofen im Inntal,Oberhofen im Inntal,1778,18579800
+AT332,n.a.,70336,no,Obernberg am Brenner,Obernberg am Brenner,354,38675100
+AT332,n.a.,70337,no,Oberperfuss,Oberperfuss,2984,15261200
+AT332,n.a.,70338,no,Patsch,Patsch,981,9704100
+AT332,n.a.,70339,no,Pettnau,Pettnau,992,10761300
+AT332,n.a.,70340,no,Pfaffenhofen,Pfaffenhofen,1098,6999700
+AT332,n.a.,70341,no,Pfons,Pfons,1218,21685800
+AT332,n.a.,70342,no,Polling in Tirol,Polling in Tirol,1073,4955300
+AT332,n.a.,70343,no,Ranggen,Ranggen,1041,6979300
+AT332,n.a.,70344,no,Reith bei Seefeld,Reith bei Seefeld,1329,20908300
+AT332,n.a.,70345,no,Rinn,Rinn,1825,10680900
+AT332,n.a.,70346,no,Rum,Rum,9050,8553500
+AT332,n.a.,70347,no,St. Sigmund im Sellrain,St. Sigmund im Sellrain,168,102252400
+AT332,n.a.,70348,no,Scharnitz,Scharnitz,1378,159291100
+AT332,n.a.,70349,no,Schmirn,Schmirn,866,62585400
+AT332,n.a.,70350,no,Schönberg im Stubaital,Schönberg im Stubaital,1033,7452600
+AT332,n.a.,70351,no,Seefeld in Tirol,Seefeld in Tirol,3399,17372200
+AT332,n.a.,70352,no,Sellrain,Sellrain,1347,61934100
+AT332,n.a.,70353,no,Sistrans,Sistrans,2227,7911700
+AT332,n.a.,70354,no,Hall in Tirol,Hall in Tirol,13687,5510100
+AT332,n.a.,70355,no,Steinach am Brenner,Steinach am Brenner,3474,28038600
+AT332,n.a.,70356,no,Telfes im Stubai,Telfes im Stubai,1533,27365300
+AT332,n.a.,70357,no,Telfs,Telfs,15358,45456700
+AT332,n.a.,70358,no,Thaur,Thaur,3883,21040200
+AT332,n.a.,70359,no,Trins,Trins,1268,48777300
+AT332,n.a.,70360,no,Tulfes,Tulfes,1494,27702000
+AT332,n.a.,70361,no,Unterperfuss,Unterperfuss,226,2236300
+AT332,n.a.,70362,no,Vals,Vals,536,48707700
+AT332,n.a.,70364,no,Völs,Völs,6692,5618300
+AT332,n.a.,70365,no,Volders,Volders,4426,32129900
+AT332,n.a.,70366,no,Wattenberg,Wattenberg,726,67860700
+AT332,n.a.,70367,no,Wattens,Wattens,7880,10830500
+AT332,n.a.,70368,no,Wildermieming,Wildermieming,924,31165900
+AT332,n.a.,70369,no,Zirl,Zirl,8025,57136600
+AT335,n.a.,70401,no,Aurach bei Kitzbühel,Aurach bei Kitzbühel,1092,54212100
+AT335,n.a.,70402,no,Brixen im Thale,Brixen im Thale,2615,31359500
+AT335,n.a.,70403,no,Fieberbrunn,Fieberbrunn,4384,76273400
+AT335,n.a.,70404,no,Going am Wilden Kaiser,Going am Wilden Kaiser,1869,20547700
+AT335,n.a.,70405,no,Hochfilzen,Hochfilzen,1148,32657700
+AT335,n.a.,70406,no,Hopfgarten im Brixental,Hopfgarten im Brixental,5656,166326900
+AT335,n.a.,70407,no,Itter,Itter,1161,10423300
+AT335,n.a.,70408,no,Jochberg,Jochberg,1550,87793000
+AT335,n.a.,70409,no,Kirchberg in Tirol,Kirchberg in Tirol,5170,97733500
+AT335,n.a.,70410,no,Kirchdorf in Tirol,Kirchdorf in Tirol,3891,113687700
+AT335,n.a.,70411,no,Kitzbühel,Kitzbühel,8330,57971000
+AT335,n.a.,70412,no,Kössen,Kössen,4259,69292200
+AT335,n.a.,70413,no,Oberndorf in Tirol,Oberndorf in Tirol,2117,17705000
+AT335,n.a.,70414,no,Reith bei Kitzbühel,Reith bei Kitzbühel,1676,15646500
+AT335,n.a.,70415,no,St. Jakob in Haus,St. Jakob in Haus,773,9603000
+AT335,n.a.,70416,no,St. Johann in Tirol,St. Johann in Tirol,9226,59075200
+AT335,n.a.,70417,no,St. Ulrich am Pillersee,St. Ulrich am Pillersee,1757,51993500
+AT335,n.a.,70418,no,Schwendt,Schwendt,836,30825500
+AT335,n.a.,70419,no,Waidring,Waidring,1964,63712900
+AT335,n.a.,70420,no,Westendorf,Westendorf,3651,95412700
+AT335,n.a.,70501,no,Alpbach,Alpbach,2560,58348200
+AT335,n.a.,70502,no,Angath,Angath,1008,3494400
+AT335,n.a.,70503,no,Bad Häring,Bad Häring,2616,9282600
+AT335,n.a.,70504,no,Brandenberg,Brandenberg,1504,130018200
+AT335,n.a.,70505,no,Breitenbach am Inn,Breitenbach am Inn,3405,37968000
+AT335,n.a.,70506,no,Brixlegg,Brixlegg,2899,9115200
+AT335,n.a.,70508,no,Ebbs,Ebbs,5481,39978800
+AT335,n.a.,70509,no,Ellmau,Ellmau,2746,36316600
+AT335,n.a.,70510,no,Erl,Erl,1498,26915700
+AT335,n.a.,70511,no,Kirchbichl,Kirchbichl,5630,14931500
+AT335,n.a.,70512,no,Kramsach,Kramsach,4772,26848100
+AT335,n.a.,70513,no,Kufstein,Kufstein,18727,39370100
+AT335,n.a.,70514,no,Kundl,Kundl,4201,21893400
+AT335,n.a.,70515,no,Langkampfen,Langkampfen,3910,26466000
+AT335,n.a.,70516,no,Mariastein,Mariastein,347,2382300
+AT335,n.a.,70517,no,Münster,Münster,3288,27731900
+AT335,n.a.,70518,no,Niederndorf,Niederndorf,2655,7218300
+AT335,n.a.,70519,no,Niederndorferberg,Niederndorferberg,710,12129500
+AT335,n.a.,70520,no,Radfeld,Radfeld,2387,14320000
+AT335,n.a.,70521,no,Rattenberg,Rattenberg,413,112600
+AT335,n.a.,70522,no,Reith im Alpbachtal,Reith im Alpbachtal,2701,27410300
+AT335,n.a.,70523,no,Rettenschöss,Rettenschöss,475,16236300
+AT335,n.a.,70524,no,Scheffau am Wilden Kaiser,Scheffau am Wilden Kaiser,1371,31446400
+AT335,n.a.,70525,no,Schwoich,Schwoich,2422,18736900
+AT335,n.a.,70526,no,Söll,Söll,3597,45904100
+AT335,n.a.,70527,no,Thiersee,Thiersee,2887,108555400
+AT335,n.a.,70528,no,Angerberg,Angerberg,1879,19483200
+AT335,n.a.,70529,no,Walchsee,Walchsee,1868,39217200
+AT335,n.a.,70530,no,Wildschönau,Wildschönau,4197,97303200
+AT335,n.a.,70531,no,Wörgl,Wörgl,13312,19681800
+AT334,n.a.,70601,no,Faggen,Faggen,373,3607000
+AT334,n.a.,70602,no,Fendels,Fendels,247,13486500
+AT334,n.a.,70603,no,Fiss,Fiss,1003,37683500
+AT334,n.a.,70604,no,Fließ,Fließ,2995,47491700
+AT334,n.a.,70605,no,Flirsch,Flirsch,961,31050600
+AT334,n.a.,70606,no,Galtür,Galtür,772,122059100
+AT334,n.a.,70607,no,Grins,Grins,1407,21090800
+AT334,n.a.,70608,no,Ischgl,Ischgl,1580,103006600
+AT334,n.a.,70609,no,Kappl,Kappl,2634,97384100
+AT334,n.a.,70610,no,Kaunerberg,Kaunerberg,425,23434200
+AT334,n.a.,70611,no,Kaunertal,Kaunertal,593,193376300
+AT334,n.a.,70612,no,Kauns,Kauns,496,8250200
+AT334,n.a.,70613,no,Ladis,Ladis,530,7100300
+AT334,n.a.,70614,no,Landeck,Landeck,7773,15839400
+AT334,n.a.,70615,no,Nauders,Nauders,1560,90184700
+AT334,n.a.,70616,no,Pettneu am Arlberg,Pettneu am Arlberg,1453,56739200
+AT334,n.a.,70617,no,Pfunds,Pfunds,2576,140357900
+AT334,n.a.,70618,no,Pians,Pians,821,2887000
+AT334,n.a.,70619,no,Prutz,Prutz,1777,9734500
+AT334,n.a.,70620,no,Ried im Oberinntal,Ried im Oberinntal,1267,27423400
+AT334,n.a.,70621,no,St. Anton am Arlberg,St. Anton am Arlberg,2350,165692300
+AT334,n.a.,70622,no,Schönwies,Schönwies,1726,31281600
+AT334,n.a.,70623,no,See,See,1218,58083800
+AT334,n.a.,70624,no,Serfaus,Serfaus,1127,59728700
+AT334,n.a.,70625,no,Spiss,Spiss,118,24605300
+AT334,n.a.,70626,no,Stanz bei Landeck,Stanz bei Landeck,575,7327200
+AT334,n.a.,70627,no,Strengen,Strengen,1205,23156700
+AT334,n.a.,70628,no,Tobadill,Tobadill,521,16459000
+AT334,n.a.,70629,no,Tösens,Tösens,690,31042000
+AT334,n.a.,70630,no,Zams,Zams,3413,124966900
+AT333,n.a.,70701,no,Abfaltersbach,Abfaltersbach,644,10287000
+AT333,n.a.,70702,no,Ainet,Ainet,906,40402500
+AT333,n.a.,70703,no,Amlach,Amlach,478,22458500
+AT333,n.a.,70704,no,Anras,Anras,1241,62048800
+AT333,n.a.,70705,no,Assling,Assling,1800,98919500
+AT333,n.a.,70706,no,Außervillgraten,Außervillgraten,755,79035500
+AT333,n.a.,70707,no,Dölsach,Dölsach,2319,24170600
+AT333,n.a.,70708,no,Gaimberg,Gaimberg,838,7270100
+AT333,n.a.,70709,no,Hopfgarten in Defereggen,Hopfgarten in Defereggen,722,73121900
+AT333,n.a.,70710,no,Innervillgraten,Innervillgraten,940,87786800
+AT333,n.a.,70711,no,Iselsberg-Stronach,Iselsberg-Stronach,600,17965400
+AT333,n.a.,70712,no,Kals am Großglockner,Kals am Großglockner,1166,180314100
+AT333,n.a.,70713,no,Kartitsch,Kartitsch,807,58894800
+AT333,n.a.,70714,no,Lavant,Lavant,303,22554500
+AT333,n.a.,70715,no,Leisach,Leisach,745,33266400
+AT333,n.a.,70716,no,Lienz,Lienz,12044,15924400
+AT333,n.a.,70717,no,Matrei in Osttirol,Matrei in Osttirol,4675,277937900
+AT333,n.a.,70718,no,Nikolsdorf,Nikolsdorf,879,33662900
+AT333,n.a.,70719,no,Nußdorf-Debant,Nußdorf-Debant,3238,53429800
+AT333,n.a.,70720,no,Oberlienz,Oberlienz,1475,33763000
+AT333,n.a.,70721,no,Obertilliach,Obertilliach,688,65063900
+AT333,n.a.,70723,no,Prägraten am Großvenediger,Prägraten am Großvenediger,1169,180249200
+AT333,n.a.,70724,no,St. Jakob in Defereggen,St. Jakob in Defereggen,866,185959300
+AT333,n.a.,70725,no,St. Johann im Walde,St. Johann im Walde,283,32841600
+AT333,n.a.,70726,no,St. Veit in Defereggen,St. Veit in Defereggen,693,61450800
+AT333,n.a.,70727,no,Schlaiten,Schlaiten,474,36588100
+AT333,n.a.,70728,no,Sillian,Sillian,2044,36213200
+AT333,n.a.,70729,no,Strassen,Strassen,792,17015500
+AT333,n.a.,70731,no,Thurn,Thurn,615,12258300
+AT333,n.a.,70732,no,Tristach,Tristach,1387,18786100
+AT333,n.a.,70733,no,Untertilliach,Untertilliach,245,36310600
+AT333,n.a.,70734,no,Virgen,Virgen,2198,88780600
+AT333,n.a.,70735,no,Heinfels,Heinfels,997,14564800
+AT331,n.a.,70801,no,Bach,Bach,630,56857300
+AT331,n.a.,70802,no,Berwang,Berwang,554,42688500
+AT331,n.a.,70803,no,Biberwier,Biberwier,628,29394300
+AT331,n.a.,70804,no,Bichlbach,Bichlbach,756,30615000
+AT331,n.a.,70805,no,Breitenwang,Breitenwang,1463,18942700
+AT331,n.a.,70806,no,Ehenbichl,Ehenbichl,827,7314000
+AT331,n.a.,70807,no,Ehrwald,Ehrwald,2585,49323800
+AT331,n.a.,70808,no,Elbigenalp,Elbigenalp,886,33080400
+AT331,n.a.,70809,no,Elmen,Elmen,373,29603300
+AT331,n.a.,70810,no,Forchach,Forchach,265,14240500
+AT331,n.a.,70811,no,Grän,Grän,618,20899400
+AT331,n.a.,70812,no,Gramais,Gramais,51,32425700
+AT331,n.a.,70813,no,Häselgehr,Häselgehr,659,50520200
+AT331,n.a.,70814,no,Heiterwang,Heiterwang,500,35699900
+AT331,n.a.,70815,no,Hinterhornbach,Hinterhornbach,93,50549900
+AT331,n.a.,70816,no,Höfen,Höfen,1207,8374600
+AT331,n.a.,70817,no,Holzgau,Holzgau,433,35982000
+AT331,n.a.,70818,no,Jungholz,Jungholz,285,7053400
+AT331,n.a.,70819,no,Kaisers,Kaisers,74,74431900
+AT331,n.a.,70820,no,Lechaschau,Lechaschau,1988,6113100
+AT331,n.a.,70821,no,Lermoos,Lermoos,1114,56408200
+AT331,n.a.,70822,no,Musau,Musau,390,20660200
+AT331,n.a.,70823,no,Namlos,Namlos,76,28747500
+AT331,n.a.,70824,no,Nesselwängle,Nesselwängle,456,23002400
+AT331,n.a.,70825,no,Pfafflar,Pfafflar,102,33590000
+AT331,n.a.,70826,no,Pflach,Pflach,1355,13771800
+AT331,n.a.,70827,no,Pinswang,Pinswang,413,9368800
+AT331,n.a.,70828,no,Reutte,Reutte,6506,100778700
+AT331,n.a.,70829,no,Schattwald,Schattwald,426,16153700
+AT331,n.a.,70830,no,Stanzach,Stanzach,441,31729800
+AT331,n.a.,70831,no,Steeg,Steeg,671,67947000
+AT331,n.a.,70832,no,Tannheim,Tannheim,1060,51283100
+AT331,n.a.,70833,no,Vils,Vils,1507,30773500
+AT331,n.a.,70834,no,Vorderhornbach,Vorderhornbach,248,17225600
+AT331,n.a.,70835,no,Wängle,Wängle,912,9326700
+AT331,n.a.,70836,no,Weißenbach am Lech,Weißenbach am Lech,1262,82012700
+AT331,n.a.,70837,no,Zöblen,Zöblen,222,8777500
+AT335,n.a.,70901,no,Achenkirch,Achenkirch,2181,113901900
+AT335,n.a.,70902,no,Aschau im Zillertal,Aschau im Zillertal,1821,20231000
+AT335,n.a.,70903,no,Brandberg,Brandberg,359,156067800
+AT335,n.a.,70904,no,Bruck am Ziller,Bruck am Ziller,1084,6003400
+AT335,n.a.,70905,no,Buch in Tirol,Buch in Tirol,2536,9523800
+AT335,n.a.,70907,no,Eben am Achensee,Eben am Achensee,3096,196397000
+AT335,n.a.,70908,no,Finkenberg,Finkenberg,1447,171533500
+AT335,n.a.,70909,no,Fügen,Fügen,4025,6631700
+AT335,n.a.,70910,no,Fügenberg,Fügenberg,1364,58519000
+AT335,n.a.,70911,no,Gallzein,Gallzein,646,10648600
+AT335,n.a.,70912,no,Gerlos,Gerlos,800,118733600
+AT335,n.a.,70913,no,Gerlosberg,Gerlosberg,466,16259300
+AT335,n.a.,70914,no,Hainzenberg,Hainzenberg,728,21474600
+AT335,n.a.,70915,no,Hart im Zillertal,Hart im Zillertal,1567,35528500
+AT335,n.a.,70916,no,Hippach,Hippach,1444,39357300
+AT335,n.a.,70917,no,Jenbach,Jenbach,7015,15275200
+AT335,n.a.,70918,no,Kaltenbach,Kaltenbach,1264,12104000
+AT335,n.a.,70920,no,Mayrhofen,Mayrhofen,3788,178635900
+AT335,n.a.,70921,no,Pill,Pill,1167,20940000
+AT335,n.a.,70922,no,Ramsau im Zillertal,Ramsau im Zillertal,1596,8964000
+AT335,n.a.,70923,no,Ried im Zillertal,Ried im Zillertal,1269,9469300
+AT335,n.a.,70924,no,Rohrberg,Rohrberg,561,10150800
+AT335,n.a.,70925,no,Schlitters,Schlitters,1454,10320900
+AT335,n.a.,70926,no,Schwaz,Schwaz,13436,20195300
+AT335,n.a.,70927,no,Schwendau,Schwendau,1679,17348000
+AT335,n.a.,70928,no,Stans,Stans,1975,20056900
+AT335,n.a.,70929,no,Steinberg am Rofan,Steinberg am Rofan,285,68526900
+AT335,n.a.,70930,no,Strass im Zillertal,Strass im Zillertal,830,5951000
+AT335,n.a.,70931,no,Stumm,Stumm,1854,4935900
+AT335,n.a.,70932,no,Stummerberg,Stummerberg,853,56634700
+AT335,n.a.,70933,no,Terfens,Terfens,2146,15209200
+AT335,n.a.,70934,no,Tux,Tux,1940,111067100
+AT335,n.a.,70935,no,Uderns,Uderns,1753,6715400
+AT335,n.a.,70936,no,Vomp,Vomp,4991,182415900
+AT335,n.a.,70937,no,Weer,Weer,1514,5601700
+AT335,n.a.,70938,no,Weerberg,Weerberg,2473,55369500
+AT335,n.a.,70939,no,Wiesing,Wiesing,2063,10367800
+AT335,n.a.,70940,no,Zell am Ziller,Zell am Ziller,1720,2419000
+AT335,n.a.,70941,no,Zellberg,Zellberg,651,12130400
+AT341,n.a.,80101,no,Bartholomäberg,Bartholomäberg,2327,27191200
+AT341,n.a.,80102,no,Blons,Blons,356,14886800
+AT341,n.a.,80103,no,Bludenz,Bludenz,14123,29944500
+AT341,n.a.,80104,no,Bludesch,Bludesch,2362,7585700
+AT341,n.a.,80105,no,Brand,Brand,691,40293700
+AT341,n.a.,80106,no,Bürs,Bürs,3220,24610000
+AT341,n.a.,80107,no,Bürserberg,Bürserberg,528,13725500
+AT341,n.a.,80108,no,Dalaas,Dalaas,1569,94242800
+AT341,n.a.,80109,no,Fontanella,Fontanella,448,31167100
+AT341,n.a.,80110,no,Gaschurn,Gaschurn,1468,175278900
+AT341,n.a.,80111,no,Innerbraz,Innerbraz,958,19920800
+AT341,n.a.,80112,no,Klösterle,Klösterle,661,62242900
+AT341,n.a.,80113,no,Lech,Lech,1506,89965800
+AT341,n.a.,80114,no,Lorüns,Lorüns,288,8347100
+AT341,n.a.,80115,no,Ludesch,Ludesch,3409,11263700
+AT341,n.a.,80116,no,Nenzing,Nenzing,6183,110085200
+AT341,n.a.,80117,no,Nüziders,Nüziders,4883,22068000
+AT341,n.a.,80118,no,Raggal,Raggal,866,41569200
+AT341,n.a.,80119,no,St. Anton im Montafon,St. Anton im Montafon,739,3388400
+AT341,n.a.,80120,no,St. Gallenkirch,St. Gallenkirch,2190,127987800
+AT341,n.a.,80121,no,St. Gerold,St. Gerold,414,12567900
+AT341,n.a.,80122,no,Schruns,Schruns,3702,18058300
+AT341,n.a.,80123,no,Silbertal,Silbertal,840,88654700
+AT341,n.a.,80124,no,Sonntag,Sonntag,694,81587000
+AT341,n.a.,80125,no,Stallehr,Stallehr,288,1636600
+AT341,n.a.,80126,no,Thüringen,Thüringen,2253,5665600
+AT341,n.a.,80127,no,Thüringerberg,Thüringerberg,710,10398300
+AT341,n.a.,80128,no,Tschagguns,Tschagguns,2187,57560300
+AT341,n.a.,80129,no,Vandans,Vandans,2614,53745000
+AT342,n.a.,80201,no,Alberschwende,Alberschwende,3216,21114500
+AT341,n.a.,80202,no,Andelsbuch,Andelsbuch,2425,19563100
+AT341,n.a.,80203,no,Au,Au,1705,44927800
+AT341,n.a.,80204,no,Bezau,Bezau,2015,34408700
+AT342,n.a.,80205,no,Bildstein,Bildstein,725,9130600
+AT341,n.a.,80206,no,Bizau,Bizau,1064,21086800
+AT342,n.a.,80207,no,Bregenz,Bregenz,29153,29780000
+AT342,n.a.,80208,no,Buch,Buch,602,6137300
+AT341,n.a.,80209,no,Damüls,Damüls,304,20899000
+AT342,n.a.,80210,no,Doren,Doren,1028,14172100
+AT341,n.a.,80211,no,Egg,Egg,3522,65313000
+AT342,n.a.,80212,no,Eichenberg,Eichenberg,405,11588900
+AT342,n.a.,80213,no,Fußach,Fußach,3827,11887200
+AT342,n.a.,80214,no,Gaißau,Gaißau,1802,5794600
+AT342,n.a.,80215,no,Hard,Hard,13207,17779800
+AT341,n.a.,80216,no,Hittisau,Hittisau,1961,46623800
+AT342,n.a.,80217,no,Höchst,Höchst,7851,20969300
+AT342,n.a.,80218,no,Hörbranz,Hörbranz,6317,8738000
+AT342,n.a.,80219,no,Hohenweiler,Hohenweiler,1266,8424600
+AT342,n.a.,80220,no,Kennelbach,Kennelbach,1900,3221200
+AT341,n.a.,80221,no,Krumbach,Krumbach,1000,8706800
+AT342,n.a.,80222,no,Langen bei Bregenz,Langen bei Bregenz,1348,21848700
+AT341,n.a.,80223,no,Langenegg,Langenegg,1147,10457400
+AT342,n.a.,80224,no,Lauterach,Lauterach,10034,11907400
+AT341,n.a.,80225,no,Lingenau,Lingenau,1439,6876700
+AT342,n.a.,80226,no,Lochau,Lochau,5716,10254000
+AT341,n.a.,80227,no,Mellau,Mellau,1300,40547000
+AT341,n.a.,80228,no,Mittelberg,Mittelberg,4860,96846700
+AT342,n.a.,80229,no,Möggers,Möggers,505,11426800
+AT341,n.a.,80230,no,Reuthe,Reuthe,643,10218100
+AT342,n.a.,80231,no,Riefensberg,Riefensberg,1038,14843100
+AT341,n.a.,80232,no,Schnepfau,Schnepfau,465,16515900
+AT341,n.a.,80233,no,Schoppernau,Schoppernau,956,47601800
+AT341,n.a.,80234,no,Schröcken,Schröcken,215,23431200
+AT342,n.a.,80235,no,Schwarzach,Schwarzach,3844,4909200
+AT341,n.a.,80236,no,Schwarzenberg,Schwarzenberg,1877,25776500
+AT341,n.a.,80237,no,Sibratsgfäll,Sibratsgfäll,395,29249900
+AT342,n.a.,80238,no,Sulzberg,Sulzberg,1774,23035700
+AT341,n.a.,80239,no,Warth,Warth,164,19310800
+AT342,n.a.,80240,no,Wolfurt,Wolfurt,8335,9995900
+AT342,n.a.,80301,no,Dornbirn,Dornbirn,48121,120829700
+AT342,n.a.,80302,no,Hohenems,Hohenems,15932,29191400
+AT342,n.a.,80303,no,Lustenau,Lustenau,22219,22248800
+AT342,n.a.,80401,no,Altach,Altach,6510,5356800
+AT342,n.a.,80402,no,Düns,Düns,413,3450100
+AT342,n.a.,80403,no,Dünserberg,Dünserberg,155,5558700
+AT342,n.a.,80404,no,Feldkirch,Feldkirch,32534,34328500
+AT342,n.a.,80405,no,Frastanz,Frastanz,6376,32263700
+AT342,n.a.,80406,no,Fraxern,Fraxern,688,8863800
+AT342,n.a.,80407,no,Göfis,Göfis,3252,9051500
+AT342,n.a.,80408,no,Götzis,Götzis,11280,14619600
+AT342,n.a.,80409,no,Klaus,Klaus,3114,5243600
+AT342,n.a.,80410,no,Koblach,Koblach,4455,10243100
+AT342,n.a.,80411,no,Laterns,Laterns,662,43745000
+AT342,n.a.,80412,no,Mäder,Mäder,3819,3233800
+AT342,n.a.,80413,no,Meiningen,Meiningen,2150,5364000
+AT342,n.a.,80414,no,Rankweil,Rankweil,11734,21851100
+AT342,n.a.,80415,no,Röns,Röns,331,1447300
+AT342,n.a.,80416,no,Röthis,Röthis,1926,2729700
+AT342,n.a.,80417,no,Satteins,Satteins,2571,12694700
+AT342,n.a.,80418,no,Schlins,Schlins,2363,6029700
+AT342,n.a.,80419,no,Schnifis,Schnifis,787,4865800
+AT342,n.a.,80420,no,Sulz,Sulz,2558,3013100
+AT342,n.a.,80421,no,Übersaxen,Übersaxen,639,5756100
+AT342,n.a.,80422,no,Viktorsberg,Viktorsberg,410,12492500
+AT342,n.a.,80423,no,Weiler,Weiler,2098,3081400
+AT342,n.a.,80424,no,Zwischenwasser,Zwischenwasser,3223,22607900
+AT130,n.a.,90001,no,Wien,Wien,1840226,414648400

@@ -1,0 +1,1489 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:CH-101  ramon:name  "Bezirk Affoltern" ;
+        ramon:name      "Bezirk Affoltern"@de ;
+        ramon:name      "Bezirk Affoltern"@it ;
+        ramon:name      "Bezirk Affoltern"@fr ;
+        ramon:code      "CH-101" ;
+        rdfs:label      "CH-101 Bezirk Affoltern" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-102  ramon:name  "Bezirk Andelfingen" ;
+        ramon:name      "Bezirk Andelfingen"@de ;
+        ramon:name      "Bezirk Andelfingen"@it ;
+        ramon:name      "Bezirk Andelfingen"@fr ;
+        ramon:code      "CH-102" ;
+        rdfs:label      "CH-102 Bezirk Andelfingen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-103  ramon:name  "Bezirk Bülach" ;
+        ramon:name      "Bezirk Bülach"@de ;
+        ramon:name      "Bezirk Bülach"@it ;
+        ramon:name      "Bezirk Bülach"@fr ;
+        ramon:code      "CH-103" ;
+        rdfs:label      "CH-103 Bezirk Bülach" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-104  ramon:name  "Bezirk Dielsdorf" ;
+        ramon:name      "Bezirk Dielsdorf"@de ;
+        ramon:name      "Bezirk Dielsdorf"@it ;
+        ramon:name      "Bezirk Dielsdorf"@fr ;
+        ramon:code      "CH-104" ;
+        rdfs:label      "CH-104 Bezirk Dielsdorf" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-105  ramon:name  "Bezirk Hinwil" ;
+        ramon:name      "Bezirk Hinwil"@de ;
+        ramon:name      "Bezirk Hinwil"@it ;
+        ramon:name      "Bezirk Hinwil"@fr ;
+        ramon:code      "CH-105" ;
+        rdfs:label      "CH-105 Bezirk Hinwil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-106  ramon:name  "Bezirk Horgen" ;
+        ramon:name      "Bezirk Horgen"@de ;
+        ramon:name      "Bezirk Horgen"@it ;
+        ramon:name      "Bezirk Horgen"@fr ;
+        ramon:code      "CH-106" ;
+        rdfs:label      "CH-106 Bezirk Horgen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-107  ramon:name  "Bezirk Meilen" ;
+        ramon:name      "Bezirk Meilen"@de ;
+        ramon:name      "Bezirk Meilen"@it ;
+        ramon:name      "Bezirk Meilen"@fr ;
+        ramon:code      "CH-107" ;
+        rdfs:label      "CH-107 Bezirk Meilen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-108  ramon:name  "Bezirk Pfäffikon" ;
+        ramon:name      "Bezirk Pfäffikon"@de ;
+        ramon:name      "Bezirk Pfäffikon"@it ;
+        ramon:name      "Bezirk Pfäffikon"@fr ;
+        ramon:code      "CH-108" ;
+        rdfs:label      "CH-108 Bezirk Pfäffikon" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-109  ramon:name  "Bezirk Uster" ;
+        ramon:name      "Bezirk Uster"@de ;
+        ramon:name      "Bezirk Uster"@it ;
+        ramon:name      "Bezirk Uster"@fr ;
+        ramon:code      "CH-109" ;
+        rdfs:label      "CH-109 Bezirk Uster" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-110  ramon:name  "Bezirk Winterthur" ;
+        ramon:name      "Bezirk Winterthur"@de ;
+        ramon:name      "Bezirk Winterthur"@it ;
+        ramon:name      "Bezirk Winterthour"@fr ;
+        ramon:code      "CH-110" ;
+        rdfs:label      "CH-110 Bezirk Winterthur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-111  ramon:name  "Bezirk Dietikon" ;
+        ramon:name      "Bezirk Dietikon"@de ;
+        ramon:name      "Bezirk Dietikon"@it ;
+        ramon:name      "Bezirk Dietikon"@fr ;
+        ramon:code      "CH-111" ;
+        rdfs:label      "CH-111 Bezirk Dietikon" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-112  ramon:name  "Bezirk Zürich" ;
+        ramon:name      "Bezirk Zürich"@de ;
+        ramon:name      "Bezirk Zurigo"@it ;
+        ramon:name      "Bezirk Zurich"@fr ;
+        ramon:code      "CH-112" ;
+        rdfs:label      "CH-112 Bezirk Zürich" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH040 .
+
+lau:CH-241  ramon:name  "Arrondissement administratif Jura bernois" ;
+        ramon:name      "Arrondissement administratif Jura bernois"@de ;
+        ramon:name      "Arrondissement administratif Jura bernois"@it ;
+        ramon:name      "Arrondissement administratif Jura bernois"@fr ;
+        ramon:code      "CH-241" ;
+        rdfs:label      "CH-241 Arrondissement administratif Jura bernois" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-242  ramon:name  "Verwaltungskreis Biel/Bienne" ;
+        ramon:name      "Verwaltungskreis Biel (BE)"@de ;
+        ramon:name      "Verwaltungskreis Biel/Bienne"@it ;
+        ramon:name      "Verwaltungskreis Bienne"@fr ;
+        ramon:code      "CH-242" ;
+        rdfs:label      "CH-242 Verwaltungskreis Biel/Bienne" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-243  ramon:name  "Verwaltungskreis Seeland" ;
+        ramon:name      "Verwaltungskreis Seeland"@de ;
+        ramon:name      "Verwaltungskreis Seeland"@it ;
+        ramon:name      "Verwaltungskreis Seeland"@fr ;
+        ramon:code      "CH-243" ;
+        rdfs:label      "CH-243 Verwaltungskreis Seeland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-244  ramon:name  "Verwaltungskreis Oberaargau" ;
+        ramon:name      "Verwaltungskreis Oberaargau"@de ;
+        ramon:name      "Verwaltungskreis Oberaargau"@it ;
+        ramon:name      "Verwaltungskreis Oberaargau"@fr ;
+        ramon:code      "CH-244" ;
+        rdfs:label      "CH-244 Verwaltungskreis Oberaargau" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-245  ramon:name  "Verwaltungskreis Emmental" ;
+        ramon:name      "Verwaltungskreis Emmental"@de ;
+        ramon:name      "Verwaltungskreis Emmental"@it ;
+        ramon:name      "Verwaltungskreis Emmental"@fr ;
+        ramon:code      "CH-245" ;
+        rdfs:label      "CH-245 Verwaltungskreis Emmental" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-246  ramon:name  "Verwaltungskreis Bern-Mittelland" ;
+        ramon:name      "Verwaltungskreis Bern-Mittelland"@de ;
+        ramon:name      "Verwaltungskreis Berna-Mittelland"@it ;
+        ramon:name      "Verwaltungskreis Berne-Mittelland"@fr ;
+        ramon:code      "CH-246" ;
+        rdfs:label      "CH-246 Verwaltungskreis Bern-Mittelland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-247  ramon:name  "Verwaltungskreis Thun" ;
+        ramon:name      "Verwaltungskreis Thun"@de ;
+        ramon:name      "Verwaltungskreis Thun"@it ;
+        ramon:name      "Verwaltungskreis Thoune"@fr ;
+        ramon:code      "CH-247" ;
+        rdfs:label      "CH-247 Verwaltungskreis Thun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-248  ramon:name  "Verwaltungskreis Obersimmental-Saanen" ;
+        ramon:name      "Verwaltungskreis Obersimmental-Saanen"@de ;
+        ramon:name      "Verwaltungskreis Obersimmental-Saanen"@it ;
+        ramon:name      "Verwaltungskreis Obersimmental-Gessenay"@fr ;
+        ramon:code      "CH-248" ;
+        rdfs:label      "CH-248 Verwaltungskreis Obersimmental-Saanen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-249  ramon:name  "Verwaltungskreis Frutigen-Niedersimmental" ;
+        ramon:name      "Verwaltungskreis Frutigen-Niedersimmental"@de ;
+        ramon:name      "Verwaltungskreis Frutigen-Niedersimmental"@it ;
+        ramon:name      "Verwaltungskreis Frutigen-Niedersimmental"@fr ;
+        ramon:code      "CH-249" ;
+        rdfs:label      "CH-249 Verwaltungskreis Frutigen-Niedersimmental" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-250  ramon:name  "Verwaltungskreis Interlaken-Oberhasli" ;
+        ramon:name      "Verwaltungskreis Interlaken-Oberhasli"@de ;
+        ramon:name      "Verwaltungskreis Interlaken-Oberhasli"@it ;
+        ramon:name      "Verwaltungskreis Interlaken-Oberhasli"@fr ;
+        ramon:code      "CH-250" ;
+        rdfs:label      "CH-250 Verwaltungskreis Interlaken-Oberhasli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH021 .
+
+lau:CH-311  ramon:name  "Wahlkreis Luzern-Stadt" ;
+        ramon:name      "Wahlkreis Luzern-Stadt"@de ;
+        ramon:name      "Wahlkreis Lucerna-Stadt"@it ;
+        ramon:name      "Wahlkreis Lucerne-Stadt"@fr ;
+        ramon:code      "CH-311" ;
+        rdfs:label      "CH-311 Wahlkreis Luzern-Stadt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-312  ramon:name  "Wahlkreis Luzern-Land" ;
+        ramon:name      "Wahlkreis Luzern-Land"@de ;
+        ramon:name      "Wahlkreis Lucerna-Land"@it ;
+        ramon:name      "Wahlkreis Lucerne-Land"@fr ;
+        ramon:code      "CH-312" ;
+        rdfs:label      "CH-312 Wahlkreis Luzern-Land" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-313  ramon:name  "Wahlkreis Hochdorf" ;
+        ramon:name      "Wahlkreis Hochdorf"@de ;
+        ramon:name      "Wahlkreis Hochdorf"@it ;
+        ramon:name      "Wahlkreis Hochdorf"@fr ;
+        ramon:code      "CH-313" ;
+        rdfs:label      "CH-313 Wahlkreis Hochdorf" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-314  ramon:name  "Wahlkreis Sursee" ;
+        ramon:name      "Wahlkreis Sursee"@de ;
+        ramon:name      "Wahlkreis Sursee"@it ;
+        ramon:name      "Wahlkreis Sursee"@fr ;
+        ramon:code      "CH-314" ;
+        rdfs:label      "CH-314 Wahlkreis Sursee" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-315  ramon:name  "Wahlkreis Willisau" ;
+        ramon:name      "Wahlkreis Willisau"@de ;
+        ramon:name      "Wahlkreis Willisau"@it ;
+        ramon:name      "Wahlkreis Willisau"@fr ;
+        ramon:code      "CH-315" ;
+        rdfs:label      "CH-315 Wahlkreis Willisau" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-316  ramon:name  "Wahlkreis Entlebuch" ;
+        ramon:name      "Wahlkreis Entlebuch"@de ;
+        ramon:name      "Wahlkreis Entlebuch"@it ;
+        ramon:name      "Wahlkreis Entlebuch"@fr ;
+        ramon:code      "CH-316" ;
+        rdfs:label      "CH-316 Wahlkreis Entlebuch" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH061 .
+
+lau:CH-400  ramon:name  "Kanton Uri" ;
+        ramon:name      "Kanton Uri"@de ;
+        ramon:name      "Kanton Uri"@it ;
+        ramon:name      "Kanton Uri"@fr ;
+        ramon:code      "CH-400" ;
+        rdfs:label      "CH-400 Kanton Uri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH062 .
+
+lau:CH-501  ramon:name  "Bezirk Einsiedeln" ;
+        ramon:name      "Bezirk Einsiedeln"@de ;
+        ramon:name      "Bezirk Einsiedeln"@it ;
+        ramon:name      "Bezirk Einsiedeln"@fr ;
+        ramon:code      "CH-501" ;
+        rdfs:label      "CH-501 Bezirk Einsiedeln" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-502  ramon:name  "Bezirk Gersau" ;
+        ramon:name      "Bezirk Gersau"@de ;
+        ramon:name      "Bezirk Gersau"@it ;
+        ramon:name      "Bezirk Gersau"@fr ;
+        ramon:code      "CH-502" ;
+        rdfs:label      "CH-502 Bezirk Gersau" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-503  ramon:name  "Bezirk Höfe" ;
+        ramon:name      "Bezirk Höfe"@de ;
+        ramon:name      "Bezirk Höfe"@it ;
+        ramon:name      "Bezirk Höfe"@fr ;
+        ramon:code      "CH-503" ;
+        rdfs:label      "CH-503 Bezirk Höfe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-504  ramon:name  "Bezirk Küssnacht (SZ)" ;
+        ramon:name      "Bezirk Küssnacht (SZ)"@de ;
+        ramon:name      "Bezirk Küssnacht (SZ)"@it ;
+        ramon:name      "Bezirk Küssnacht (SZ)"@fr ;
+        ramon:code      "CH-504" ;
+        rdfs:label      "CH-504 Bezirk Küssnacht (SZ)" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-505  ramon:name  "Bezirk March" ;
+        ramon:name      "Bezirk March"@de ;
+        ramon:name      "Bezirk March"@it ;
+        ramon:name      "Bezirk March"@fr ;
+        ramon:code      "CH-505" ;
+        rdfs:label      "CH-505 Bezirk March" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-506  ramon:name  "Bezirk Schwyz" ;
+        ramon:name      "Bezirk Schwyz"@de ;
+        ramon:name      "Bezirk Svitto"@it ;
+        ramon:name      "Bezirk Schwytz"@fr ;
+        ramon:code      "CH-506" ;
+        rdfs:label      "CH-506 Bezirk Schwyz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH063 .
+
+lau:CH-600  ramon:name  "Kanton Obwalden" ;
+        ramon:name      "Kanton Obwalden"@de ;
+        ramon:name      "Kanton Obwalden"@it ;
+        ramon:name      "Kanton Obwalden"@fr ;
+        ramon:code      "CH-600" ;
+        rdfs:label      "CH-600 Kanton Obwalden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH064 .
+
+lau:CH-700  ramon:name  "Kanton Nidwalden" ;
+        ramon:name      "Kanton Nidwalden"@de ;
+        ramon:name      "Kanton Nidwalden"@it ;
+        ramon:name      "Kanton Nidwalden"@fr ;
+        ramon:code      "CH-700" ;
+        rdfs:label      "CH-700 Kanton Nidwalden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH065 .
+
+lau:CH-800  ramon:name  "Kanton Glarus" ;
+        ramon:name      "Kanton Glarus"@de ;
+        ramon:name      "Kanton Glarona"@it ;
+        ramon:name      "Kanton Glaris"@fr ;
+        ramon:code      "CH-800" ;
+        rdfs:label      "CH-800 Kanton Glarus" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH051 .
+
+lau:CH-900  ramon:name  "Kanton Zug" ;
+        ramon:name      "Kanton Zug"@de ;
+        ramon:name      "Kanton Zugo"@it ;
+        ramon:name      "Kanton Zoug"@fr ;
+        ramon:code      "CH-900" ;
+        rdfs:label      "CH-900 Kanton Zug" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH066 .
+
+lau:CH-1001  ramon:name  "District de la Broye" ;
+        ramon:name      "District de la Broye"@de ;
+        ramon:name      "District de la Broye"@it ;
+        ramon:name      "District de la Broye"@fr ;
+        ramon:code      "CH-1001" ;
+        rdfs:label      "CH-1001 District de la Broye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1002  ramon:name  "District de la Glâne" ;
+        ramon:name      "District de la Glâne"@de ;
+        ramon:name      "District de la Glâne"@it ;
+        ramon:name      "District de la Glâne"@fr ;
+        ramon:code      "CH-1002" ;
+        rdfs:label      "CH-1002 District de la Glâne" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1003  ramon:name  "District de la Gruyère" ;
+        ramon:name      "District de la Gruyère"@de ;
+        ramon:name      "District de la Gruyère"@it ;
+        ramon:name      "District de la Gruyère"@fr ;
+        ramon:code      "CH-1003" ;
+        rdfs:label      "CH-1003 District de la Gruyère" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1004  ramon:name  "District de la Sarine" ;
+        ramon:name      "District de la Sarine"@de ;
+        ramon:name      "District de la Sarine"@it ;
+        ramon:name      "District de la Sarine"@fr ;
+        ramon:code      "CH-1004" ;
+        rdfs:label      "CH-1004 District de la Sarine" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1005  ramon:name  "Bezirk See / District du Lac" ;
+        ramon:name      "Bezirk See / District du Lac"@de ;
+        ramon:name      "Bezirk See / District du Lac"@it ;
+        ramon:name      "Bezirk See / District du Lac"@fr ;
+        ramon:code      "CH-1005" ;
+        rdfs:label      "CH-1005 Bezirk See / District du Lac" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1006  ramon:name  "Bezirk Sense" ;
+        ramon:name      "Bezirk Sense"@de ;
+        ramon:name      "Bezirk Sense"@it ;
+        ramon:name      "Bezirk Sense"@fr ;
+        ramon:code      "CH-1006" ;
+        rdfs:label      "CH-1006 Bezirk Sense" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1007  ramon:name  "District de la Veveyse" ;
+        ramon:name      "District de la Veveyse"@de ;
+        ramon:name      "District de la Veveyse"@it ;
+        ramon:name      "District de la Veveyse"@fr ;
+        ramon:code      "CH-1007" ;
+        rdfs:label      "CH-1007 District de la Veveyse" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH022 .
+
+lau:CH-1101  ramon:name  "Bezirk Gäu" ;
+        ramon:name      "Bezirk Gäu"@de ;
+        ramon:name      "Bezirk Gäu"@it ;
+        ramon:name      "Bezirk Gäu"@fr ;
+        ramon:code      "CH-1101" ;
+        rdfs:label      "CH-1101 Bezirk Gäu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1102  ramon:name  "Bezirk Thal" ;
+        ramon:name      "Bezirk Thal"@de ;
+        ramon:name      "Bezirk Thal"@it ;
+        ramon:name      "Bezirk Thal"@fr ;
+        ramon:code      "CH-1102" ;
+        rdfs:label      "CH-1102 Bezirk Thal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1103  ramon:name  "Bezirk Bucheggberg" ;
+        ramon:name      "Bezirk Bucheggberg"@de ;
+        ramon:name      "Bezirk Bucheggberg"@it ;
+        ramon:name      "Bezirk Bucheggberg"@fr ;
+        ramon:code      "CH-1103" ;
+        rdfs:label      "CH-1103 Bezirk Bucheggberg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1104  ramon:name  "Bezirk Dorneck" ;
+        ramon:name      "Bezirk Dorneck"@de ;
+        ramon:name      "Bezirk Dorneck"@it ;
+        ramon:name      "Bezirk Dorneck"@fr ;
+        ramon:code      "CH-1104" ;
+        rdfs:label      "CH-1104 Bezirk Dorneck" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1105  ramon:name  "Bezirk Gösgen" ;
+        ramon:name      "Bezirk Gösgen"@de ;
+        ramon:name      "Bezirk Gösgen"@it ;
+        ramon:name      "Bezirk Gösgen"@fr ;
+        ramon:code      "CH-1105" ;
+        rdfs:label      "CH-1105 Bezirk Gösgen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1106  ramon:name  "Bezirk Wasseramt" ;
+        ramon:name      "Bezirk Wasseramt"@de ;
+        ramon:name      "Bezirk Wasseramt"@it ;
+        ramon:name      "Bezirk Wasseramt"@fr ;
+        ramon:code      "CH-1106" ;
+        rdfs:label      "CH-1106 Bezirk Wasseramt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1107  ramon:name  "Bezirk Lebern" ;
+        ramon:name      "Bezirk Lebern"@de ;
+        ramon:name      "Bezirk Lebern"@it ;
+        ramon:name      "Bezirk Lebern"@fr ;
+        ramon:code      "CH-1107" ;
+        rdfs:label      "CH-1107 Bezirk Lebern" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1108  ramon:name  "Bezirk Olten" ;
+        ramon:name      "Bezirk Olten"@de ;
+        ramon:name      "Bezirk Olten"@it ;
+        ramon:name      "Bezirk Olten"@fr ;
+        ramon:code      "CH-1108" ;
+        rdfs:label      "CH-1108 Bezirk Olten" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1109  ramon:name  "Bezirk Solothurn" ;
+        ramon:name      "Bezirk Solothurn"@de ;
+        ramon:name      "Bezirk Soletta"@it ;
+        ramon:name      "Bezirk Soleure"@fr ;
+        ramon:code      "CH-1109" ;
+        rdfs:label      "CH-1109 Bezirk Solothurn" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1110  ramon:name  "Bezirk Thierstein" ;
+        ramon:name      "Bezirk Thierstein"@de ;
+        ramon:name      "Bezirk Thierstein"@it ;
+        ramon:name      "Bezirk Thierstein"@fr ;
+        ramon:code      "CH-1110" ;
+        rdfs:label      "CH-1110 Bezirk Thierstein" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH023 .
+
+lau:CH-1200  ramon:name  "Kanton Basel-Stadt" ;
+        ramon:name      "Kanton Basel-Stadt"@de ;
+        ramon:name      "Kanton Basilea-Stadt"@it ;
+        ramon:name      "Kanton Bâle-Stadt"@fr ;
+        ramon:code      "CH-1200" ;
+        rdfs:label      "CH-1200 Kanton Basel-Stadt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH031 .
+
+lau:CH-1301  ramon:name  "Bezirk Arlesheim" ;
+        ramon:name      "Bezirk Arlesheim"@de ;
+        ramon:name      "Bezirk Arlesheim"@it ;
+        ramon:name      "Bezirk Arlesheim"@fr ;
+        ramon:code      "CH-1301" ;
+        rdfs:label      "CH-1301 Bezirk Arlesheim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-1302  ramon:name  "Bezirk Laufen" ;
+        ramon:name      "Bezirk Laufen"@de ;
+        ramon:name      "Bezirk Laufen"@it ;
+        ramon:name      "Bezirk Laufon"@fr ;
+        ramon:code      "CH-1302" ;
+        rdfs:label      "CH-1302 Bezirk Laufen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-1303  ramon:name  "Bezirk Liestal" ;
+        ramon:name      "Bezirk Liestal"@de ;
+        ramon:name      "Bezirk Liestal"@it ;
+        ramon:name      "Bezirk Liestal"@fr ;
+        ramon:code      "CH-1303" ;
+        rdfs:label      "CH-1303 Bezirk Liestal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-1304  ramon:name  "Bezirk Sissach" ;
+        ramon:name      "Bezirk Sissach"@de ;
+        ramon:name      "Bezirk Sissach"@it ;
+        ramon:name      "Bezirk Sissach"@fr ;
+        ramon:code      "CH-1304" ;
+        rdfs:label      "CH-1304 Bezirk Sissach" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-1305  ramon:name  "Bezirk Waldenburg" ;
+        ramon:name      "Bezirk Waldenburg"@de ;
+        ramon:name      "Bezirk Waldenburg"@it ;
+        ramon:name      "Bezirk Waldenburg"@fr ;
+        ramon:code      "CH-1305" ;
+        rdfs:label      "CH-1305 Bezirk Waldenburg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH032 .
+
+lau:CH-1401  ramon:name  "Bezirk Oberklettgau" ;
+        ramon:name      "Bezirk Oberklettgau"@de ;
+        ramon:name      "Bezirk Oberklettgau"@it ;
+        ramon:name      "Bezirk Oberklettgau"@fr ;
+        ramon:code      "CH-1401" ;
+        rdfs:label      "CH-1401 Bezirk Oberklettgau" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-1402  ramon:name  "Bezirk Reiat" ;
+        ramon:name      "Bezirk Reiat"@de ;
+        ramon:name      "Bezirk Reiat"@it ;
+        ramon:name      "Bezirk Reiat"@fr ;
+        ramon:code      "CH-1402" ;
+        rdfs:label      "CH-1402 Bezirk Reiat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-1403  ramon:name  "Bezirk Schaffhausen" ;
+        ramon:name      "Bezirk Schaffhausen"@de ;
+        ramon:name      "Bezirk Sciaffusa"@it ;
+        ramon:name      "Bezirk Schaffhouse"@fr ;
+        ramon:code      "CH-1403" ;
+        rdfs:label      "CH-1403 Bezirk Schaffhausen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-1404  ramon:name  "Bezirk Schleitheim" ;
+        ramon:name      "Bezirk Schleitheim"@de ;
+        ramon:name      "Bezirk Schleitheim"@it ;
+        ramon:name      "Bezirk Schleitheim"@fr ;
+        ramon:code      "CH-1404" ;
+        rdfs:label      "CH-1404 Bezirk Schleitheim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-1405  ramon:name  "Bezirk Stein" ;
+        ramon:name      "Bezirk Stein"@de ;
+        ramon:name      "Bezirk Stein"@it ;
+        ramon:name      "Bezirk Stein"@fr ;
+        ramon:code      "CH-1405" ;
+        rdfs:label      "CH-1405 Bezirk Stein" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-1406  ramon:name  "Bezirk Unterklettgau" ;
+        ramon:name      "Bezirk Unterklettgau"@de ;
+        ramon:name      "Bezirk Unterklettgau"@it ;
+        ramon:name      "Bezirk Unterklettgau"@fr ;
+        ramon:code      "CH-1406" ;
+        rdfs:label      "CH-1406 Bezirk Unterklettgau" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH052 .
+
+lau:CH-1501  ramon:name  "Bezirk Hinterland" ;
+        ramon:name      "Bezirk Hinterland"@de ;
+        ramon:name      "Bezirk Hinterland"@it ;
+        ramon:name      "Bezirk Hinterland"@fr ;
+        ramon:code      "CH-1501" ;
+        rdfs:label      "CH-1501 Bezirk Hinterland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH053 .
+
+lau:CH-1502  ramon:name  "Bezirk Mittelland" ;
+        ramon:name      "Bezirk Mittelland"@de ;
+        ramon:name      "Bezirk Mittelland"@it ;
+        ramon:name      "Bezirk Mittelland"@fr ;
+        ramon:code      "CH-1502" ;
+        rdfs:label      "CH-1502 Bezirk Mittelland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH053 .
+
+lau:CH-1503  ramon:name  "Bezirk Vorderland" ;
+        ramon:name      "Bezirk Vorderland"@de ;
+        ramon:name      "Bezirk Vorderland"@it ;
+        ramon:name      "Bezirk Vorderland"@fr ;
+        ramon:code      "CH-1503" ;
+        rdfs:label      "CH-1503 Bezirk Vorderland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH053 .
+
+lau:CH-1600  ramon:name  "Kanton Appenzell Innerrhoden" ;
+        ramon:name      "Kanton Appenzell Innerrhoden"@de ;
+        ramon:name      "Kanton Appenzello Innerrhoden"@it ;
+        ramon:name      "Kanton Appenzell Innerrhoden"@fr ;
+        ramon:code      "CH-1600" ;
+        rdfs:label      "CH-1600 Kanton Appenzell Innerrhoden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH054 .
+
+lau:CH-1721  ramon:name  "Wahlkreis St. Gallen" ;
+        ramon:name      "Wahlkreis St. Gallen"@de ;
+        ramon:name      "Wahlkreis San Gallo"@it ;
+        ramon:name      "Wahlkreis Saint-Gall"@fr ;
+        ramon:code      "CH-1721" ;
+        rdfs:label      "CH-1721 Wahlkreis St. Gallen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1722  ramon:name  "Wahlkreis Rorschach" ;
+        ramon:name      "Wahlkreis Rorschach"@de ;
+        ramon:name      "Wahlkreis Rorschach"@it ;
+        ramon:name      "Wahlkreis Rorschach"@fr ;
+        ramon:code      "CH-1722" ;
+        rdfs:label      "CH-1722 Wahlkreis Rorschach" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1723  ramon:name  "Wahlkreis Rheintal" ;
+        ramon:name      "Wahlkreis Rheintal"@de ;
+        ramon:name      "Wahlkreis Rheintal"@it ;
+        ramon:name      "Wahlkreis Rheintal"@fr ;
+        ramon:code      "CH-1723" ;
+        rdfs:label      "CH-1723 Wahlkreis Rheintal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1724  ramon:name  "Wahlkreis Werdenberg" ;
+        ramon:name      "Wahlkreis Werdenberg"@de ;
+        ramon:name      "Wahlkreis Werdenberg"@it ;
+        ramon:name      "Wahlkreis Werdenberg"@fr ;
+        ramon:code      "CH-1724" ;
+        rdfs:label      "CH-1724 Wahlkreis Werdenberg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1725  ramon:name  "Wahlkreis Sarganserland" ;
+        ramon:name      "Wahlkreis Sarganserland"@de ;
+        ramon:name      "Wahlkreis Sarganserland"@it ;
+        ramon:name      "Wahlkreis Sarganserland"@fr ;
+        ramon:code      "CH-1725" ;
+        rdfs:label      "CH-1725 Wahlkreis Sarganserland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1726  ramon:name  "Wahlkreis See-Gaster" ;
+        ramon:name      "Wahlkreis See-Gaster"@de ;
+        ramon:name      "Wahlkreis See-Gaster"@it ;
+        ramon:name      "Wahlkreis See-Gaster"@fr ;
+        ramon:code      "CH-1726" ;
+        rdfs:label      "CH-1726 Wahlkreis See-Gaster" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1727  ramon:name  "Wahlkreis Toggenburg" ;
+        ramon:name      "Wahlkreis Toggenburg"@de ;
+        ramon:name      "Wahlkreis Toggenburg"@it ;
+        ramon:name      "Wahlkreis Toggenburg"@fr ;
+        ramon:code      "CH-1727" ;
+        rdfs:label      "CH-1727 Wahlkreis Toggenburg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1728  ramon:name  "Wahlkreis Wil" ;
+        ramon:name      "Wahlkreis Wil"@de ;
+        ramon:name      "Wahlkreis Wil"@it ;
+        ramon:name      "Wahlkreis Wil"@fr ;
+        ramon:code      "CH-1728" ;
+        rdfs:label      "CH-1728 Wahlkreis Wil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH055 .
+
+lau:CH-1841  ramon:name  "Region Albula" ;
+        ramon:name      "Region Albula"@de ;
+        ramon:name      "Region Albula"@it ;
+        ramon:name      "Region Albula"@fr ;
+        ramon:code      "CH-1841" ;
+        rdfs:label      "CH-1841 Region Albula" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1842  ramon:name  "Region Bernina" ;
+        ramon:name      "Region Bernina"@de ;
+        ramon:name      "Region Bernaina"@it ;
+        ramon:name      "Region Berneina"@fr ;
+        ramon:code      "CH-1842" ;
+        rdfs:label      "CH-1842 Region Bernina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1843  ramon:name  "Region Engiadina Bassa / Val Müstair" ;
+        ramon:name      "Region Engiadina Bassa / Val Müstair"@de ;
+        ramon:name      "Region Engiadina Bassa / Val Müstair"@it ;
+        ramon:name      "Region Engiadina Bassa / Val Müstair"@fr ;
+        ramon:code      "CH-1843" ;
+        rdfs:label      "CH-1843 Region Engiadina Bassa / Val Müstair" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1844  ramon:name  "Region Imboden" ;
+        ramon:name      "Region Imboden"@de ;
+        ramon:name      "Region Imboden"@it ;
+        ramon:name      "Region Imboden"@fr ;
+        ramon:code      "CH-1844" ;
+        rdfs:label      "CH-1844 Region Imboden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1845  ramon:name  "Region Landquart" ;
+        ramon:name      "Region Landquart"@de ;
+        ramon:name      "Region Landquart"@it ;
+        ramon:name      "Region Landquart"@fr ;
+        ramon:code      "CH-1845" ;
+        rdfs:label      "CH-1845 Region Landquart" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1846  ramon:name  "Region Maloja" ;
+        ramon:name      "Region Maloja"@de ;
+        ramon:name      "Region Maloja"@it ;
+        ramon:name      "Region Maloja"@fr ;
+        ramon:code      "CH-1846" ;
+        rdfs:label      "CH-1846 Region Maloja" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1847  ramon:name  "Region Moesa" ;
+        ramon:name      "Region Moesa"@de ;
+        ramon:name      "Region Moesa"@it ;
+        ramon:name      "Region Moesa"@fr ;
+        ramon:code      "CH-1847" ;
+        rdfs:label      "CH-1847 Region Moesa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1848  ramon:name  "Region Plessur" ;
+        ramon:name      "Region Plessur"@de ;
+        ramon:name      "Region Plessur"@it ;
+        ramon:name      "Region Plessur"@fr ;
+        ramon:code      "CH-1848" ;
+        rdfs:label      "CH-1848 Region Plessur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1849  ramon:name  "Region Prättigau / Davos" ;
+        ramon:name      "Region Prättigau / Davos"@de ;
+        ramon:name      "Region Prättigau / Davos"@it ;
+        ramon:name      "Region Prättigau / Davos"@fr ;
+        ramon:code      "CH-1849" ;
+        rdfs:label      "CH-1849 Region Prättigau / Davos" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1850  ramon:name  "Region Surselva" ;
+        ramon:name      "Region Surselva"@de ;
+        ramon:name      "Region Surselva"@it ;
+        ramon:name      "Region Surselva"@fr ;
+        ramon:code      "CH-1850" ;
+        rdfs:label      "CH-1850 Region Surselva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1851  ramon:name  "Region Viamala" ;
+        ramon:name      "Region Viamala"@de ;
+        ramon:name      "Region Viamala"@it ;
+        ramon:name      "Region Viamala"@fr ;
+        ramon:code      "CH-1851" ;
+        rdfs:label      "CH-1851 Region Viamala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH056 .
+
+lau:CH-1901  ramon:name  "Bezirk Aarau" ;
+        ramon:name      "Bezirk Aarau"@de ;
+        ramon:name      "Bezirk Aarau"@it ;
+        ramon:name      "Bezirk Aarau"@fr ;
+        ramon:code      "CH-1901" ;
+        rdfs:label      "CH-1901 Bezirk Aarau" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1902  ramon:name  "Bezirk Baden" ;
+        ramon:name      "Bezirk Baden"@de ;
+        ramon:name      "Bezirk Baden"@it ;
+        ramon:name      "Bezirk Baden"@fr ;
+        ramon:code      "CH-1902" ;
+        rdfs:label      "CH-1902 Bezirk Baden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1903  ramon:name  "Bezirk Bremgarten" ;
+        ramon:name      "Bezirk Bremgarten"@de ;
+        ramon:name      "Bezirk Bremgarten"@it ;
+        ramon:name      "Bezirk Bremgarten"@fr ;
+        ramon:code      "CH-1903" ;
+        rdfs:label      "CH-1903 Bezirk Bremgarten" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1904  ramon:name  "Bezirk Brugg" ;
+        ramon:name      "Bezirk Brugg"@de ;
+        ramon:name      "Bezirk Brugg"@it ;
+        ramon:name      "Bezirk Brugg"@fr ;
+        ramon:code      "CH-1904" ;
+        rdfs:label      "CH-1904 Bezirk Brugg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1905  ramon:name  "Bezirk Kulm" ;
+        ramon:name      "Bezirk Kulm"@de ;
+        ramon:name      "Bezirk Kulm"@it ;
+        ramon:name      "Bezirk Kulm"@fr ;
+        ramon:code      "CH-1905" ;
+        rdfs:label      "CH-1905 Bezirk Kulm" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1906  ramon:name  "Bezirk Laufenburg" ;
+        ramon:name      "Bezirk Laufenburg"@de ;
+        ramon:name      "Bezirk Laufenburg"@it ;
+        ramon:name      "Bezirk Laufonburg"@fr ;
+        ramon:code      "CH-1906" ;
+        rdfs:label      "CH-1906 Bezirk Laufenburg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1907  ramon:name  "Bezirk Lenzburg" ;
+        ramon:name      "Bezirk Lenzburg"@de ;
+        ramon:name      "Bezirk Lenzburg"@it ;
+        ramon:name      "Bezirk Lenzburg"@fr ;
+        ramon:code      "CH-1907" ;
+        rdfs:label      "CH-1907 Bezirk Lenzburg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1908  ramon:name  "Bezirk Muri" ;
+        ramon:name      "Bezirk Muri"@de ;
+        ramon:name      "Bezirk Muri"@it ;
+        ramon:name      "Bezirk Muri"@fr ;
+        ramon:code      "CH-1908" ;
+        rdfs:label      "CH-1908 Bezirk Muri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1909  ramon:name  "Bezirk Rheinfelden" ;
+        ramon:name      "Bezirk Rheinfelden"@de ;
+        ramon:name      "Bezirk Rheinfelden"@it ;
+        ramon:name      "Bezirk Rheinfelden"@fr ;
+        ramon:code      "CH-1909" ;
+        rdfs:label      "CH-1909 Bezirk Rheinfelden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1910  ramon:name  "Bezirk Zofingen" ;
+        ramon:name      "Bezirk Zofingen"@de ;
+        ramon:name      "Bezirk Zofingen"@it ;
+        ramon:name      "Bezirk Zofingue"@fr ;
+        ramon:code      "CH-1910" ;
+        rdfs:label      "CH-1910 Bezirk Zofingen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-1911  ramon:name  "Bezirk Zurzach" ;
+        ramon:name      "Bezirk Zurzach"@de ;
+        ramon:name      "Bezirk Zurzach"@it ;
+        ramon:name      "Bezirk Zurzach"@fr ;
+        ramon:code      "CH-1911" ;
+        rdfs:label      "CH-1911 Bezirk Zurzach" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH033 .
+
+lau:CH-2011  ramon:name  "Bezirk Arbon" ;
+        ramon:name      "Bezirk Arbon"@de ;
+        ramon:name      "Bezirk Arbon"@it ;
+        ramon:name      "Bezirk Arbon"@fr ;
+        ramon:code      "CH-2011" ;
+        rdfs:label      "CH-2011 Bezirk Arbon" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-2012  ramon:name  "Bezirk Frauenfeld" ;
+        ramon:name      "Bezirk Frauenfeld"@de ;
+        ramon:name      "Bezirk Frauenfeld"@it ;
+        ramon:name      "Bezirk Frauenfeld"@fr ;
+        ramon:code      "CH-2012" ;
+        rdfs:label      "CH-2012 Bezirk Frauenfeld" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-2013  ramon:name  "Bezirk Kreuzlingen" ;
+        ramon:name      "Bezirk Kreuzlingen"@de ;
+        ramon:name      "Bezirk Kreuzlingen"@it ;
+        ramon:name      "Bezirk Kreuzlingen"@fr ;
+        ramon:code      "CH-2013" ;
+        rdfs:label      "CH-2013 Bezirk Kreuzlingen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-2014  ramon:name  "Bezirk Münchwilen" ;
+        ramon:name      "Bezirk Münchwilen"@de ;
+        ramon:name      "Bezirk Münchwilen"@it ;
+        ramon:name      "Bezirk Münchwilen"@fr ;
+        ramon:code      "CH-2014" ;
+        rdfs:label      "CH-2014 Bezirk Münchwilen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-2015  ramon:name  "Bezirk Weinfelden" ;
+        ramon:name      "Bezirk Weinfelden"@de ;
+        ramon:name      "Bezirk Weinfelden"@it ;
+        ramon:name      "Bezirk Weinfelden"@fr ;
+        ramon:code      "CH-2015" ;
+        rdfs:label      "CH-2015 Bezirk Weinfelden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH057 .
+
+lau:CH-2101  ramon:name  "Distretto di Bellinzona" ;
+        ramon:name      "Distretto di Bellinzona"@de ;
+        ramon:name      "Distretto di Bellinzona"@it ;
+        ramon:name      "Distretto di Bellinzone"@fr ;
+        ramon:code      "CH-2101" ;
+        rdfs:label      "CH-2101 Distretto di Bellinzona" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2102  ramon:name  "Distretto di Blenio" ;
+        ramon:name      "Distretto di Blenio"@de ;
+        ramon:name      "Distretto di Blenio"@it ;
+        ramon:name      "Distretto di Blenio"@fr ;
+        ramon:code      "CH-2102" ;
+        rdfs:label      "CH-2102 Distretto di Blenio" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2103  ramon:name  "Distretto di Leventina" ;
+        ramon:name      "Distretto di Leventina"@de ;
+        ramon:name      "Distretto di Leventina"@it ;
+        ramon:name      "Distretto di Leventina"@fr ;
+        ramon:code      "CH-2103" ;
+        rdfs:label      "CH-2103 Distretto di Leventina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2104  ramon:name  "Distretto di Locarno" ;
+        ramon:name      "Distretto di Locarno"@de ;
+        ramon:name      "Distretto di Locarno"@it ;
+        ramon:name      "Distretto di Locarno"@fr ;
+        ramon:code      "CH-2104" ;
+        rdfs:label      "CH-2104 Distretto di Locarno" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2105  ramon:name  "Distretto di Lugano" ;
+        ramon:name      "Distretto di Lugano"@de ;
+        ramon:name      "Distretto di Lugano"@it ;
+        ramon:name      "Distretto di Lugano"@fr ;
+        ramon:code      "CH-2105" ;
+        rdfs:label      "CH-2105 Distretto di Lugano" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2106  ramon:name  "Distretto di Mendrisio" ;
+        ramon:name      "Distretto di Mendrisio"@de ;
+        ramon:name      "Distretto di Mendrisio"@it ;
+        ramon:name      "Distretto di Mendrisio"@fr ;
+        ramon:code      "CH-2106" ;
+        rdfs:label      "CH-2106 Distretto di Mendrisio" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2107  ramon:name  "Distretto di Riviera" ;
+        ramon:name      "Distretto di Riviera"@de ;
+        ramon:name      "Distretto di Riviera"@it ;
+        ramon:name      "Distretto di Riviera"@fr ;
+        ramon:code      "CH-2107" ;
+        rdfs:label      "CH-2107 Distretto di Riviera" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2108  ramon:name  "Distretto di Vallemaggia" ;
+        ramon:name      "Distretto di Vallemaggia"@de ;
+        ramon:name      "Distretto di Vallemaggia"@it ;
+        ramon:name      "Distretto di Vallemaggia"@fr ;
+        ramon:code      "CH-2108" ;
+        rdfs:label      "CH-2108 Distretto di Vallemaggia" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH070 .
+
+lau:CH-2221  ramon:name  "District d'Aigle" ;
+        ramon:name      "District d'Aigle"@de ;
+        ramon:name      "District d'Aigle"@it ;
+        ramon:name      "District d'Aigle"@fr ;
+        ramon:code      "CH-2221" ;
+        rdfs:label      "CH-2221 District d'Aigle" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2222  ramon:name  "District de la Broye-Vully" ;
+        ramon:name      "District de la Broye-Vully"@de ;
+        ramon:name      "District de la Broye-Vully"@it ;
+        ramon:name      "District de la Broye-Vully"@fr ;
+        ramon:code      "CH-2222" ;
+        rdfs:label      "CH-2222 District de la Broye-Vully" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2223  ramon:name  "District du Gros-de-Vaud" ;
+        ramon:name      "District du Gros-de-Vaud"@de ;
+        ramon:name      "District du Gros-de-Vaud"@it ;
+        ramon:name      "District du Gros-de-Vaud"@fr ;
+        ramon:code      "CH-2223" ;
+        rdfs:label      "CH-2223 District du Gros-de-Vaud" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2224  ramon:name  "District du Jura-Nord vaudois" ;
+        ramon:name      "District du Jura-Nord vaudois"@de ;
+        ramon:name      "District du Jura-Nord vaudois"@it ;
+        ramon:name      "District du Jura-Nord vaudois"@fr ;
+        ramon:code      "CH-2224" ;
+        rdfs:label      "CH-2224 District du Jura-Nord vaudois" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2225  ramon:name  "District de Lausanne" ;
+        ramon:name      "District de Lausanne"@de ;
+        ramon:name      "District de Losanna"@it ;
+        ramon:name      "District de Lausanne"@fr ;
+        ramon:code      "CH-2225" ;
+        rdfs:label      "CH-2225 District de Lausanne" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2226  ramon:name  "District de Lavaux-Oron" ;
+        ramon:name      "District de Lavaux-Oron"@de ;
+        ramon:name      "District de Lavaux-Oron"@it ;
+        ramon:name      "District de Lavaux-Oron"@fr ;
+        ramon:code      "CH-2226" ;
+        rdfs:label      "CH-2226 District de Lavaux-Oron" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2227  ramon:name  "District de Morges" ;
+        ramon:name      "District de Morges"@de ;
+        ramon:name      "District de Morges"@it ;
+        ramon:name      "District de Morges"@fr ;
+        ramon:code      "CH-2227" ;
+        rdfs:label      "CH-2227 District de Morges" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2228  ramon:name  "District de Nyon" ;
+        ramon:name      "District de Nyon"@de ;
+        ramon:name      "District de Nyon"@it ;
+        ramon:name      "District de Nyon"@fr ;
+        ramon:code      "CH-2228" ;
+        rdfs:label      "CH-2228 District de Nyon" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2229  ramon:name  "District de l'Ouest lausannois" ;
+        ramon:name      "District de l'Ouest lausannois"@de ;
+        ramon:name      "District de l'Ouest lausannois"@it ;
+        ramon:name      "District de l'Ouest lausannois"@fr ;
+        ramon:code      "CH-2229" ;
+        rdfs:label      "CH-2229 District de l'Ouest lausannois" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2230  ramon:name  "District de la Riviera-Pays-d'Enhaut" ;
+        ramon:name      "District de la Riviera-Pays-d'Enhaut"@de ;
+        ramon:name      "District de la Riviera-Pays-d'Enhaut"@it ;
+        ramon:name      "District de la Riviera-Pays-d'Enhaut"@fr ;
+        ramon:code      "CH-2230" ;
+        rdfs:label      "CH-2230 District de la Riviera-Pays-d'Enhaut" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH011 .
+
+lau:CH-2301  ramon:name  "Bezirk Brig" ;
+        ramon:name      "Bezirk Brig"@de ;
+        ramon:name      "Bezirk Brig"@it ;
+        ramon:name      "Bezirk Brig"@fr ;
+        ramon:code      "CH-2301" ;
+        rdfs:label      "CH-2301 Bezirk Brig" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2302  ramon:name  "District de Conthey" ;
+        ramon:name      "District de Conthey"@de ;
+        ramon:name      "District de Conthey"@it ;
+        ramon:name      "District de Conthey"@fr ;
+        ramon:code      "CH-2302" ;
+        rdfs:label      "CH-2302 District de Conthey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2303  ramon:name  "District d'Entremont" ;
+        ramon:name      "District d'Entremont"@de ;
+        ramon:name      "District d'Entremont"@it ;
+        ramon:name      "District d'Entremont"@fr ;
+        ramon:code      "CH-2303" ;
+        rdfs:label      "CH-2303 District d'Entremont" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2304  ramon:name  "Bezirk Goms" ;
+        ramon:name      "Bezirk Goms"@de ;
+        ramon:name      "Bezirk Goms"@it ;
+        ramon:name      "Bezirk Goms"@fr ;
+        ramon:code      "CH-2304" ;
+        rdfs:label      "CH-2304 Bezirk Goms" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2305  ramon:name  "District d'Hérens" ;
+        ramon:name      "District d'Hérens"@de ;
+        ramon:name      "District d'Hérens"@it ;
+        ramon:name      "District d'Hérens"@fr ;
+        ramon:code      "CH-2305" ;
+        rdfs:label      "CH-2305 District d'Hérens" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2306  ramon:name  "Bezirk Leuk" ;
+        ramon:name      "Bezirk Leuk"@de ;
+        ramon:name      "Bezirk Leuk"@it ;
+        ramon:name      "Bezirk Loèche-Ville"@fr ;
+        ramon:code      "CH-2306" ;
+        rdfs:label      "CH-2306 Bezirk Leuk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2307  ramon:name  "District de Martigny" ;
+        ramon:name      "District de Martigny"@de ;
+        ramon:name      "District de Martigny"@it ;
+        ramon:name      "District de Martigny"@fr ;
+        ramon:code      "CH-2307" ;
+        rdfs:label      "CH-2307 District de Martigny" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2308  ramon:name  "District de Monthey" ;
+        ramon:name      "District de Monthey"@de ;
+        ramon:name      "District de Monthey"@it ;
+        ramon:name      "District de Monthey"@fr ;
+        ramon:code      "CH-2308" ;
+        rdfs:label      "CH-2308 District de Monthey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2309  ramon:name  "Bezirk Raron" ;
+        ramon:name      "Bezirk Raron"@de ;
+        ramon:name      "Bezirk Raron"@it ;
+        ramon:name      "Bezirk Rarogne"@fr ;
+        ramon:code      "CH-2309" ;
+        rdfs:label      "CH-2309 Bezirk Raron" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2310  ramon:name  "District de Saint-Maurice" ;
+        ramon:name      "District de Saint-Maurice"@de ;
+        ramon:name      "District de Saint-Maurice"@it ;
+        ramon:name      "District de Saint-Maurice"@fr ;
+        ramon:code      "CH-2310" ;
+        rdfs:label      "CH-2310 District de Saint-Maurice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2311  ramon:name  "District de Sierre" ;
+        ramon:name      "District de Siders"@de ;
+        ramon:name      "District de Sierre"@it ;
+        ramon:name      "District de Sierre"@fr ;
+        ramon:code      "CH-2311" ;
+        rdfs:label      "CH-2311 District de Sierre" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2312  ramon:name  "District de Sion" ;
+        ramon:name      "District de Sitten"@de ;
+        ramon:name      "District de Sion"@it ;
+        ramon:name      "District de Sion"@fr ;
+        ramon:code      "CH-2312" ;
+        rdfs:label      "CH-2312 District de Sion" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2313  ramon:name  "Bezirk Visp" ;
+        ramon:name      "Bezirk Visp"@de ;
+        ramon:name      "Bezirk Visp"@it ;
+        ramon:name      "Bezirk Viège"@fr ;
+        ramon:code      "CH-2313" ;
+        rdfs:label      "CH-2313 Bezirk Visp" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH012 .
+
+lau:CH-2401  ramon:name  "District de Boudry" ;
+        ramon:name      "District de Boudry"@de ;
+        ramon:name      "District de Boudry"@it ;
+        ramon:name      "District de Boudry"@fr ;
+        ramon:code      "CH-2401" ;
+        rdfs:label      "CH-2401 District de Boudry" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-2402  ramon:name  "District de la Chaux-de-Fonds" ;
+        ramon:name      "District de la Chaux-de-Fonds"@de ;
+        ramon:name      "District de la Chaux-de-Fonds"@it ;
+        ramon:name      "District de la Chaux-de-Fonds"@fr ;
+        ramon:code      "CH-2402" ;
+        rdfs:label      "CH-2402 District de la Chaux-de-Fonds" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-2403  ramon:name  "District du Locle" ;
+        ramon:name      "District du Locle"@de ;
+        ramon:name      "District du Locle"@it ;
+        ramon:name      "District du Locle"@fr ;
+        ramon:code      "CH-2403" ;
+        rdfs:label      "CH-2403 District du Locle" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-2404  ramon:name  "District de Neuchâtel" ;
+        ramon:name      "District de Neuenburg"@de ;
+        ramon:name      "District de Neuchâtel"@it ;
+        ramon:name      "District de Neuchâtel"@fr ;
+        ramon:code      "CH-2404" ;
+        rdfs:label      "CH-2404 District de Neuchâtel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-2405  ramon:name  "District du Val-de-Ruz" ;
+        ramon:name      "District du Val-de-Ruz"@de ;
+        ramon:name      "District du Val-de-Ruz"@it ;
+        ramon:name      "District du Val-de-Ruz"@fr ;
+        ramon:code      "CH-2405" ;
+        rdfs:label      "CH-2405 District du Val-de-Ruz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-2406  ramon:name  "District du Val-de-Travers" ;
+        ramon:name      "District du Val-de-Travers"@de ;
+        ramon:name      "District du Val-de-Travers"@it ;
+        ramon:name      "District du Val-de-Travers"@fr ;
+        ramon:code      "CH-2406" ;
+        rdfs:label      "CH-2406 District du Val-de-Travers" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH024 .
+
+lau:CH-2500  ramon:name  "Canton de Genève" ;
+        ramon:name      "Canton de Genf"@de ;
+        ramon:name      "Canton de Ginevra"@it ;
+        ramon:name      "Canton de Genève"@fr ;
+        ramon:code      "CH-2500" ;
+        rdfs:label      "CH-2500 Canton de Genève" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH013 .
+
+lau:CH-2601  ramon:name  "District de Delémont" ;
+        ramon:name      "District de Delsberg"@de ;
+        ramon:name      "District de Delémont"@it ;
+        ramon:name      "District de Delémont"@fr ;
+        ramon:code      "CH-2601" ;
+        rdfs:label      "CH-2601 District de Delémont" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH025 .
+
+lau:CH-2602  ramon:name  "District des Franches-Montagnes" ;
+        ramon:name      "District des Franches-Montagnes"@de ;
+        ramon:name      "District des Franches-Montagnes"@it ;
+        ramon:name      "District des Franches-Montagnes"@fr ;
+        ramon:code      "CH-2602" ;
+        rdfs:label      "CH-2602 District des Franches-Montagnes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH025 .
+
+lau:CH-2603  ramon:name  "District de Porrentruy" ;
+        ramon:name      "District de Pruntrut"@de ;
+        ramon:name      "District de Porrentruy"@it ;
+        ramon:name      "District de Porrentruy"@fr ;
+        ramon:code      "CH-2603" ;
+        rdfs:label      "CH-2603 District de Porrentruy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:CH025 .

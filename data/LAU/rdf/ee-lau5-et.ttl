@@ -1,0 +1,3844 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:EE-0105  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Abja"@en ;
+        rdfs:label           "EE-0105 Abja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Abja"@et ;
+        dbo:populationTotal  2159 ;
+        dbo:areaTotal        290180000 ;
+        ramon:code           "EE-0105" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0112  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Aegviidu"@en ;
+        rdfs:label           "EE-0112 Aegviidu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aegviidu"@et ;
+        dbo:populationTotal  709 ;
+        dbo:areaTotal        11950000 ;
+        ramon:code           "EE-0112" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0117  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ahja"@en ;
+        rdfs:label           "EE-0117 Ahja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ahja"@et ;
+        dbo:populationTotal  998 ;
+        dbo:areaTotal        72120000 ;
+        ramon:code           "EE-0117" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0122  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Alajõe"@en ;
+        rdfs:label           "EE-0122 Alajõe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alajõe"@et ;
+        dbo:populationTotal  581 ;
+        dbo:areaTotal        108970000 ;
+        ramon:code           "EE-0122" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0126  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Alatskivi"@en ;
+        rdfs:label           "EE-0126 Alatskivi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Alatskivi"@et ;
+        dbo:populationTotal  1279 ;
+        dbo:areaTotal        128490000 ;
+        ramon:code           "EE-0126" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0129  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Albu"@en ;
+        rdfs:label           "EE-0129 Albu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Albu"@et ;
+        dbo:populationTotal  1176 ;
+        dbo:areaTotal        257050000 ;
+        ramon:code           "EE-0129" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0134  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ambla"@en ;
+        rdfs:label           "EE-0134 Ambla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ambla"@et ;
+        dbo:populationTotal  2013 ;
+        dbo:areaTotal        166600000 ;
+        ramon:code           "EE-0134" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0140  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Anija"@en ;
+        rdfs:label           "EE-0140 Anija" ;
+        void:inDataset       lau: ;
+        ramon:name           "Anija"@et ;
+        dbo:populationTotal  5474 ;
+        dbo:areaTotal        520970000 ;
+        ramon:code           "EE-0140" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0143  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Antsla"@en ;
+        rdfs:label           "EE-0143 Antsla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Antsla"@et ;
+        dbo:populationTotal  3325 ;
+        dbo:areaTotal        270810000 ;
+        ramon:code           "EE-0143" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0149  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Are"@en ;
+        rdfs:label           "EE-0149 Are" ;
+        void:inDataset       lau: ;
+        ramon:name           "Are"@et ;
+        dbo:populationTotal  1279 ;
+        dbo:areaTotal        159910000 ;
+        ramon:code           "EE-0149" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0154  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Aseri"@en ;
+        rdfs:label           "EE-0154 Aseri" ;
+        void:inDataset       lau: ;
+        ramon:name           "Aseri"@et ;
+        dbo:populationTotal  1598 ;
+        dbo:areaTotal        67130000 ;
+        ramon:code           "EE-0154" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0160  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Audru"@en ;
+        rdfs:label           "EE-0160 Audru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Audru"@et ;
+        dbo:populationTotal  5726 ;
+        dbo:areaTotal        388690000 ;
+        ramon:code           "EE-0160" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0164  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Avinurme"@en ;
+        rdfs:label           "EE-0164 Avinurme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Avinurme"@et ;
+        dbo:populationTotal  1267 ;
+        dbo:areaTotal        193610000 ;
+        ramon:code           "EE-0164" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0170  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Elva"@en ;
+        rdfs:label           "EE-0170 Elva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Elva"@et ;
+        dbo:populationTotal  5679 ;
+        dbo:areaTotal        9910000 ;
+        ramon:code           "EE-0170" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0175  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Emmaste"@en ;
+        rdfs:label           "EE-0175 Emmaste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Emmaste"@et ;
+        dbo:populationTotal  1200 ;
+        dbo:areaTotal        199120000 ;
+        ramon:code           "EE-0175" ;
+        spatial:PP           lau:EE-0039 ;
+        ramon:level          5 .
+
+lau:EE-0039  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0181  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Haanja"@en ;
+        rdfs:label           "EE-0181 Haanja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haanja"@et ;
+        dbo:populationTotal  1084 ;
+        dbo:areaTotal        170830000 ;
+        ramon:code           "EE-0181" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0183  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Haapsalu"@en ;
+        rdfs:label           "EE-0183 Haapsalu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haapsalu"@et ;
+        dbo:populationTotal  10146 ;
+        dbo:areaTotal        11090000 ;
+        ramon:code           "EE-0183" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0185  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Haaslava"@en ;
+        rdfs:label           "EE-0185 Haaslava" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haaslava"@et ;
+        dbo:populationTotal  1971 ;
+        dbo:areaTotal        109860000 ;
+        ramon:code           "EE-0185" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0188  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Halinga"@en ;
+        rdfs:label           "EE-0188 Halinga" ;
+        void:inDataset       lau: ;
+        ramon:name           "Halinga"@et ;
+        dbo:populationTotal  2871 ;
+        dbo:areaTotal        363330000 ;
+        ramon:code           "EE-0188" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0190  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Haljala"@en ;
+        rdfs:label           "EE-0190 Haljala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Haljala"@et ;
+        dbo:populationTotal  2470 ;
+        dbo:areaTotal        181970000 ;
+        ramon:code           "EE-0190" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0192  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Halliste"@en ;
+        rdfs:label           "EE-0192 Halliste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Halliste"@et ;
+        dbo:populationTotal  1479 ;
+        dbo:areaTotal        266550000 ;
+        ramon:code           "EE-0192" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0195  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Hanila"@en ;
+        rdfs:label           "EE-0195 Hanila" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hanila"@et ;
+        dbo:populationTotal  1428 ;
+        dbo:areaTotal        233870000 ;
+        ramon:code           "EE-0195" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0198  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Harku"@en ;
+        rdfs:label           "EE-0198 Harku" ;
+        void:inDataset       lau: ;
+        ramon:name           "Harku"@et ;
+        dbo:populationTotal  13456 ;
+        dbo:areaTotal        159020000 ;
+        ramon:code           "EE-0198" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0203  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Helme"@en ;
+        rdfs:label           "EE-0203 Helme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Helme"@et ;
+        dbo:populationTotal  1985 ;
+        dbo:areaTotal        312820000 ;
+        ramon:code           "EE-0203" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0204  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Hiiu"@en ;
+        rdfs:label           "EE-0204 Hiiu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hiiu"@et ;
+        dbo:populationTotal  4544 ;
+        dbo:areaTotal        387270000 ;
+        ramon:code           "EE-0204" ;
+        spatial:PP           lau:EE-0039 ;
+        ramon:level          5 .
+
+lau:EE-0039  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0208  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Hummuli"@en ;
+        rdfs:label           "EE-0208 Hummuli" ;
+        void:inDataset       lau: ;
+        ramon:name           "Hummuli"@et ;
+        dbo:populationTotal  829 ;
+        dbo:areaTotal        162540000 ;
+        ramon:code           "EE-0208" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0213  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Häädemeeste"@en ;
+        rdfs:label           "EE-0213 Häädemeeste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Häädemeeste"@et ;
+        dbo:populationTotal  2522 ;
+        dbo:areaTotal        390540000 ;
+        ramon:code           "EE-0213" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0224  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Iisaku"@en ;
+        rdfs:label           "EE-0224 Iisaku" ;
+        void:inDataset       lau: ;
+        ramon:name           "Iisaku"@et ;
+        dbo:populationTotal  1213 ;
+        dbo:areaTotal        257560000 ;
+        ramon:code           "EE-0224" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0229  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Illuka"@en ;
+        rdfs:label           "EE-0229 Illuka" ;
+        void:inDataset       lau: ;
+        ramon:name           "Illuka"@et ;
+        dbo:populationTotal  1000 ;
+        dbo:areaTotal        538090000 ;
+        ramon:code           "EE-0229" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0234  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Imavere"@en ;
+        rdfs:label           "EE-0234 Imavere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Imavere"@et ;
+        dbo:populationTotal  897 ;
+        dbo:areaTotal        139610000 ;
+        ramon:code           "EE-0234" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0240  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Juuru"@en ;
+        rdfs:label           "EE-0240 Juuru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Juuru"@et ;
+        dbo:populationTotal  1429 ;
+        dbo:areaTotal        152440000 ;
+        ramon:code           "EE-0240" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0245  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Jõelähtme"@en ;
+        rdfs:label           "EE-0245 Jõelähtme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jõelähtme"@et ;
+        dbo:populationTotal  6095 ;
+        dbo:areaTotal        211410000 ;
+        ramon:code           "EE-0245" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0248  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Jõgeva"@en ;
+        rdfs:label           "EE-0248 Jõgeva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jõgeva"@et ;
+        dbo:populationTotal  4344 ;
+        dbo:areaTotal        458860000 ;
+        ramon:code           "EE-0248" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0249  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Jõgeva"@en ;
+        rdfs:label           "EE-0249 Jõgeva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jõgeva"@et ;
+        dbo:populationTotal  5340 ;
+        dbo:areaTotal        3940000 ;
+        ramon:code           "EE-0249" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0251  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Jõhvi"@en ;
+        rdfs:label           "EE-0251 Jõhvi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Jõhvi"@et ;
+        dbo:populationTotal  11786 ;
+        dbo:areaTotal        123930000 ;
+        ramon:code           "EE-0251" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0257  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Järva-Jaani"@en ;
+        rdfs:label           "EE-0257 Järva-Jaani" ;
+        void:inDataset       lau: ;
+        ramon:name           "Järva-Jaani"@et ;
+        dbo:populationTotal  1554 ;
+        dbo:areaTotal        126720000 ;
+        ramon:code           "EE-0257" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0260  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Järvakandi"@en ;
+        rdfs:label           "EE-0260 Järvakandi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Järvakandi"@et ;
+        dbo:populationTotal  1256 ;
+        dbo:areaTotal        4850000 ;
+        ramon:code           "EE-0260" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0272  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kadrina"@en ;
+        rdfs:label           "EE-0272 Kadrina" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kadrina"@et ;
+        dbo:populationTotal  4896 ;
+        dbo:areaTotal        353940000 ;
+        ramon:code           "EE-0272" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0277  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kaiu"@en ;
+        rdfs:label           "EE-0277 Kaiu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kaiu"@et ;
+        dbo:populationTotal  1253 ;
+        dbo:areaTotal        261070000 ;
+        ramon:code           "EE-0277" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0279  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kallaste"@en ;
+        rdfs:label           "EE-0279 Kallaste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kallaste"@et ;
+        dbo:populationTotal  808 ;
+        dbo:areaTotal        2260000 ;
+        ramon:code           "EE-0279" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0282  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kambja"@en ;
+        rdfs:label           "EE-0282 Kambja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kambja"@et ;
+        dbo:populationTotal  2599 ;
+        dbo:areaTotal        188980000 ;
+        ramon:code           "EE-0282" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0285  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kanepi"@en ;
+        rdfs:label           "EE-0285 Kanepi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kanepi"@et ;
+        dbo:populationTotal  2390 ;
+        dbo:areaTotal        231460000 ;
+        ramon:code           "EE-0285" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0288  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kareda"@en ;
+        rdfs:label           "EE-0288 Kareda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kareda"@et ;
+        dbo:populationTotal  582 ;
+        dbo:areaTotal        91660000 ;
+        ramon:code           "EE-0288" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0289  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Karula"@en ;
+        rdfs:label           "EE-0289 Karula" ;
+        void:inDataset       lau: ;
+        ramon:name           "Karula"@et ;
+        dbo:populationTotal  959 ;
+        dbo:areaTotal        229910000 ;
+        ramon:code           "EE-0289" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0292  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kehtna"@en ;
+        rdfs:label           "EE-0292 Kehtna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kehtna"@et ;
+        dbo:populationTotal  4405 ;
+        dbo:areaTotal        507100000 ;
+        ramon:code           "EE-0292" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0295  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Keila"@en ;
+        rdfs:label           "EE-0295 Keila" ;
+        void:inDataset       lau: ;
+        ramon:name           "Keila"@et ;
+        dbo:populationTotal  4681 ;
+        dbo:areaTotal        179520000 ;
+        ramon:code           "EE-0295" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0296  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Keila"@en ;
+        rdfs:label           "EE-0296 Keila" ;
+        void:inDataset       lau: ;
+        ramon:name           "Keila"@et ;
+        dbo:populationTotal  9577 ;
+        dbo:areaTotal        11220000 ;
+        ramon:code           "EE-0296" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0297  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kernu"@en ;
+        rdfs:label           "EE-0297 Kernu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kernu"@et ;
+        dbo:populationTotal  1990 ;
+        dbo:areaTotal        174770000 ;
+        ramon:code           "EE-0297" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0301  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kihelkonna"@en ;
+        rdfs:label           "EE-0301 Kihelkonna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kihelkonna"@et ;
+        dbo:populationTotal  750 ;
+        dbo:areaTotal        247750000 ;
+        ramon:code           "EE-0301" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0303  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kihnu"@en ;
+        rdfs:label           "EE-0303 Kihnu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kihnu"@et ;
+        dbo:populationTotal  682 ;
+        dbo:areaTotal        17330000 ;
+        ramon:code           "EE-0303" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0304  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kiili"@en ;
+        rdfs:label           "EE-0304 Kiili" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kiili"@et ;
+        dbo:populationTotal  4945 ;
+        dbo:areaTotal        100380000 ;
+        ramon:code           "EE-0304" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0309  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kiviõli"@en ;
+        rdfs:label           "EE-0309 Kiviõli" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kiviõli"@et ;
+        dbo:populationTotal  5429 ;
+        dbo:areaTotal        11810000 ;
+        ramon:code           "EE-0309" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0314  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Koeru"@en ;
+        rdfs:label           "EE-0314 Koeru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Koeru"@et ;
+        dbo:populationTotal  2110 ;
+        dbo:areaTotal        236910000 ;
+        ramon:code           "EE-0314" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0317  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kohila"@en ;
+        rdfs:label           "EE-0317 Kohila" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kohila"@et ;
+        dbo:populationTotal  6770 ;
+        dbo:areaTotal        230110000 ;
+        ramon:code           "EE-0317" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0320  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kohtla"@en ;
+        rdfs:label           "EE-0320 Kohtla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kohtla"@et ;
+        dbo:populationTotal  1554 ;
+        dbo:areaTotal        101580000 ;
+        ramon:code           "EE-0320" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0322  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kohtla-Järve"@en ;
+        rdfs:label           "EE-0322 Kohtla-Järve" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kohtla-Järve"@et ;
+        dbo:populationTotal  35928 ;
+        dbo:areaTotal        41770000 ;
+        ramon:code           "EE-0322" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0323  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kohtla-Nõmme"@en ;
+        rdfs:label           "EE-0323 Kohtla-Nõmme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kohtla-Nõmme"@et ;
+        dbo:populationTotal  998 ;
+        dbo:areaTotal        4630000 ;
+        ramon:code           "EE-0323" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0325  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Koigi"@en ;
+        rdfs:label           "EE-0325 Koigi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Koigi"@et ;
+        dbo:populationTotal  955 ;
+        dbo:areaTotal        204220000 ;
+        ramon:code           "EE-0325" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0328  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kolga-Jaani"@en ;
+        rdfs:label           "EE-0328 Kolga-Jaani" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kolga-Jaani"@et ;
+        dbo:populationTotal  1429 ;
+        dbo:areaTotal        313120000 ;
+        ramon:code           "EE-0328" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0331  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Konguta"@en ;
+        rdfs:label           "EE-0331 Konguta" ;
+        void:inDataset       lau: ;
+        ramon:name           "Konguta"@et ;
+        dbo:populationTotal  1428 ;
+        dbo:areaTotal        107590000 ;
+        ramon:code           "EE-0331" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0334  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Koonga"@en ;
+        rdfs:label           "EE-0334 Koonga" ;
+        void:inDataset       lau: ;
+        ramon:name           "Koonga"@et ;
+        dbo:populationTotal  1051 ;
+        dbo:areaTotal        439660000 ;
+        ramon:code           "EE-0334" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0338  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kose"@en ;
+        rdfs:label           "EE-0338 Kose" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kose"@et ;
+        dbo:populationTotal  7066 ;
+        dbo:areaTotal        532850000 ;
+        ramon:code           "EE-0338" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0342  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kullamaa"@en ;
+        rdfs:label           "EE-0342 Kullamaa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kullamaa"@et ;
+        dbo:populationTotal  1111 ;
+        dbo:areaTotal        224530000 ;
+        ramon:code           "EE-0342" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0345  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kunda"@en ;
+        rdfs:label           "EE-0345 Kunda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kunda"@et ;
+        dbo:populationTotal  3136 ;
+        dbo:areaTotal        10080000 ;
+        ramon:code           "EE-0345" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0349  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kuressaare"@en ;
+        rdfs:label           "EE-0349 Kuressaare" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kuressaare"@et ;
+        dbo:populationTotal  13449 ;
+        dbo:areaTotal        15500000 ;
+        ramon:code           "EE-0349" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0353  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kuusalu"@en ;
+        rdfs:label           "EE-0353 Kuusalu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kuusalu"@et ;
+        dbo:populationTotal  6496 ;
+        dbo:areaTotal        709460000 ;
+        ramon:code           "EE-0353" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0354  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kõlleste"@en ;
+        rdfs:label           "EE-0354 Kõlleste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kõlleste"@et ;
+        dbo:populationTotal  1022 ;
+        dbo:areaTotal        150310000 ;
+        ramon:code           "EE-0354" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0357  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kõo"@en ;
+        rdfs:label           "EE-0357 Kõo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kõo"@et ;
+        dbo:populationTotal  1047 ;
+        dbo:areaTotal        149440000 ;
+        ramon:code           "EE-0357" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0360  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kõpu"@en ;
+        rdfs:label           "EE-0360 Kõpu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kõpu"@et ;
+        dbo:populationTotal  633 ;
+        dbo:areaTotal        258930000 ;
+        ramon:code           "EE-0360" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0368  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Käina"@en ;
+        rdfs:label           "EE-0368 Käina" ;
+        void:inDataset       lau: ;
+        ramon:name           "Käina"@et ;
+        dbo:populationTotal  2074 ;
+        dbo:areaTotal        188680000 ;
+        ramon:code           "EE-0368" ;
+        spatial:PP           lau:EE-0039 ;
+        ramon:level          5 .
+
+lau:EE-0039  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0375  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Käru"@en ;
+        rdfs:label           "EE-0375 Käru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Käru"@et ;
+        dbo:populationTotal  609 ;
+        dbo:areaTotal        214910000 ;
+        ramon:code           "EE-0375" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0381  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Laekvere"@en ;
+        rdfs:label           "EE-0381 Laekvere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Laekvere"@et ;
+        dbo:populationTotal  1512 ;
+        dbo:areaTotal        352110000 ;
+        ramon:code           "EE-0381" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0383  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Laeva"@en ;
+        rdfs:label           "EE-0383 Laeva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Laeva"@et ;
+        dbo:populationTotal  746 ;
+        dbo:areaTotal        233240000 ;
+        ramon:code           "EE-0383" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0385  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Laheda"@en ;
+        rdfs:label           "EE-0385 Laheda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Laheda"@et ;
+        dbo:populationTotal  1183 ;
+        dbo:areaTotal        91440000 ;
+        ramon:code           "EE-0385" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0386  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Laimjala"@en ;
+        rdfs:label           "EE-0386 Laimjala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Laimjala"@et ;
+        dbo:populationTotal  692 ;
+        dbo:areaTotal        117040000 ;
+        ramon:code           "EE-0386" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0389  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lasva"@en ;
+        rdfs:label           "EE-0389 Lasva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lasva"@et ;
+        dbo:populationTotal  1684 ;
+        dbo:areaTotal        172250000 ;
+        ramon:code           "EE-0389" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0403  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Leisi"@en ;
+        rdfs:label           "EE-0403 Leisi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Leisi"@et ;
+        dbo:populationTotal  1974 ;
+        dbo:areaTotal        348960000 ;
+        ramon:code           "EE-0403" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0411  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lihula"@en ;
+        rdfs:label           "EE-0411 Lihula" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lihula"@et ;
+        dbo:populationTotal  2267 ;
+        dbo:areaTotal        375320000 ;
+        ramon:code           "EE-0411" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0420  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lohusuu"@en ;
+        rdfs:label           "EE-0420 Lohusuu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lohusuu"@et ;
+        dbo:populationTotal  707 ;
+        dbo:areaTotal        104510000 ;
+        ramon:code           "EE-0420" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0424  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Loksa"@en ;
+        rdfs:label           "EE-0424 Loksa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Loksa"@et ;
+        dbo:populationTotal  2634 ;
+        dbo:areaTotal        3820000 ;
+        ramon:code           "EE-0424" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0432  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Luunja"@en ;
+        rdfs:label           "EE-0432 Luunja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Luunja"@et ;
+        dbo:populationTotal  4000 ;
+        dbo:areaTotal        131780000 ;
+        ramon:code           "EE-0432" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0433  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lääne-Saare"@en ;
+        rdfs:label           "EE-0433 Lääne-Saare" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lääne-Saare"@et ;
+        dbo:populationTotal  7086 ;
+        dbo:areaTotal        809360000 ;
+        ramon:code           "EE-0433" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0436  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lääne-Nigula"@en ;
+        rdfs:label           "EE-0436 Lääne-Nigula" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lääne-Nigula"@et ;
+        dbo:populationTotal  4054 ;
+        dbo:areaTotal        508790000 ;
+        ramon:code           "EE-0436" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0438  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Lüganuse"@en ;
+        rdfs:label           "EE-0438 Lüganuse" ;
+        void:inDataset       lau: ;
+        ramon:name           "Lüganuse"@et ;
+        dbo:populationTotal  2945 ;
+        dbo:areaTotal        438590000 ;
+        ramon:code           "EE-0438" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0446  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Maardu"@en ;
+        rdfs:label           "EE-0446 Maardu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Maardu"@et ;
+        dbo:populationTotal  15128 ;
+        dbo:areaTotal        23440000 ;
+        ramon:code           "EE-0446" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0452  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Martna"@en ;
+        rdfs:label           "EE-0452 Martna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Martna"@et ;
+        dbo:populationTotal  760 ;
+        dbo:areaTotal        270600000 ;
+        ramon:code           "EE-0452" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0454  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Meeksi"@en ;
+        rdfs:label           "EE-0454 Meeksi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meeksi"@et ;
+        dbo:populationTotal  583 ;
+        dbo:areaTotal        143730000 ;
+        ramon:code           "EE-0454" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0460  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Meremäe"@en ;
+        rdfs:label           "EE-0460 Meremäe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Meremäe"@et ;
+        dbo:populationTotal  1032 ;
+        dbo:areaTotal        134210000 ;
+        ramon:code           "EE-0460" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0465  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mikitamäe"@en ;
+        rdfs:label           "EE-0465 Mikitamäe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mikitamäe"@et ;
+        dbo:populationTotal  939 ;
+        dbo:areaTotal        104410000 ;
+        ramon:code           "EE-0465" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0468  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Misso"@en ;
+        rdfs:label           "EE-0468 Misso" ;
+        void:inDataset       lau: ;
+        ramon:name           "Misso"@et ;
+        dbo:populationTotal  631 ;
+        dbo:areaTotal        188590000 ;
+        ramon:code           "EE-0468" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0473  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mooste"@en ;
+        rdfs:label           "EE-0473 Mooste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mooste"@et ;
+        dbo:populationTotal  1457 ;
+        dbo:areaTotal        185050000 ;
+        ramon:code           "EE-0473" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0478  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Muhu"@en ;
+        rdfs:label           "EE-0478 Muhu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Muhu"@et ;
+        dbo:populationTotal  1802 ;
+        dbo:areaTotal        207910000 ;
+        ramon:code           "EE-0478" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0483  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mustjala"@en ;
+        rdfs:label           "EE-0483 Mustjala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mustjala"@et ;
+        dbo:populationTotal  660 ;
+        dbo:areaTotal        235710000 ;
+        ramon:code           "EE-0483" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0485  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mustvee"@en ;
+        rdfs:label           "EE-0485 Mustvee" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mustvee"@et ;
+        dbo:populationTotal  1315 ;
+        dbo:areaTotal        5820000 ;
+        ramon:code           "EE-0485" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0490  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mõisaküla"@en ;
+        rdfs:label           "EE-0490 Mõisaküla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mõisaküla"@et ;
+        dbo:populationTotal  790 ;
+        dbo:areaTotal        2210000 ;
+        ramon:code           "EE-0490" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0493  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mõniste"@en ;
+        rdfs:label           "EE-0493 Mõniste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mõniste"@et ;
+        dbo:populationTotal  859 ;
+        dbo:areaTotal        176340000 ;
+        ramon:code           "EE-0493" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0498  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mäetaguse"@en ;
+        rdfs:label           "EE-0498 Mäetaguse" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mäetaguse"@et ;
+        dbo:populationTotal  1748 ;
+        dbo:areaTotal        285120000 ;
+        ramon:code           "EE-0498" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0501  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Mäksa"@en ;
+        rdfs:label           "EE-0501 Mäksa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Mäksa"@et ;
+        dbo:populationTotal  1598 ;
+        dbo:areaTotal        133480000 ;
+        ramon:code           "EE-0501" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0504  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Märjamaa"@en ;
+        rdfs:label           "EE-0504 Märjamaa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Märjamaa"@et ;
+        dbo:populationTotal  6515 ;
+        dbo:areaTotal        867430000 ;
+        ramon:code           "EE-0504" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0511  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Narva"@en ;
+        rdfs:label           "EE-0511 Narva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Narva"@et ;
+        dbo:populationTotal  58204 ;
+        dbo:areaTotal        68950000 ;
+        ramon:code           "EE-0511" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0513  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Narva-Jõesuu"@en ;
+        rdfs:label           "EE-0513 Narva-Jõesuu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Narva-Jõesuu"@et ;
+        dbo:populationTotal  2619 ;
+        dbo:areaTotal        10210000 ;
+        ramon:code           "EE-0513" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0518  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Nissi"@en ;
+        rdfs:label           "EE-0518 Nissi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nissi"@et ;
+        dbo:populationTotal  2832 ;
+        dbo:areaTotal        264730000 ;
+        ramon:code           "EE-0518" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0520  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Noarootsi"@en ;
+        rdfs:label           "EE-0520 Noarootsi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Noarootsi"@et ;
+        dbo:populationTotal  815 ;
+        dbo:areaTotal        303440000 ;
+        ramon:code           "EE-0520" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0528  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Nõo"@en ;
+        rdfs:label           "EE-0528 Nõo" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nõo"@et ;
+        dbo:populationTotal  3922 ;
+        dbo:areaTotal        169090000 ;
+        ramon:code           "EE-0528" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0531  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Nõva"@en ;
+        rdfs:label           "EE-0531 Nõva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Nõva"@et ;
+        dbo:populationTotal  357 ;
+        dbo:areaTotal        129770000 ;
+        ramon:code           "EE-0531" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0547  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Orava"@en ;
+        rdfs:label           "EE-0547 Orava" ;
+        void:inDataset       lau: ;
+        ramon:name           "Orava"@et ;
+        dbo:populationTotal  719 ;
+        dbo:areaTotal        175470000 ;
+        ramon:code           "EE-0547" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0550  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Orissaare"@en ;
+        rdfs:label           "EE-0550 Orissaare" ;
+        void:inDataset       lau: ;
+        ramon:name           "Orissaare"@et ;
+        dbo:populationTotal  1827 ;
+        dbo:areaTotal        163620000 ;
+        ramon:code           "EE-0550" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0562  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Padise"@en ;
+        rdfs:label           "EE-0562 Padise" ;
+        void:inDataset       lau: ;
+        ramon:name           "Padise"@et ;
+        dbo:populationTotal  1713 ;
+        dbo:areaTotal        367580000 ;
+        ramon:code           "EE-0562" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0565  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Paide"@en ;
+        rdfs:label           "EE-0565 Paide" ;
+        void:inDataset       lau: ;
+        ramon:name           "Paide"@et ;
+        dbo:populationTotal  1627 ;
+        dbo:areaTotal        300610000 ;
+        ramon:code           "EE-0565" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0566  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Paide"@en ;
+        rdfs:label           "EE-0566 Paide" ;
+        void:inDataset       lau: ;
+        ramon:name           "Paide"@et ;
+        dbo:populationTotal  8127 ;
+        dbo:areaTotal        10120000 ;
+        ramon:code           "EE-0566" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0568  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Paikuse"@en ;
+        rdfs:label           "EE-0568 Paikuse" ;
+        void:inDataset       lau: ;
+        ramon:name           "Paikuse"@et ;
+        dbo:populationTotal  3838 ;
+        dbo:areaTotal        175470000 ;
+        ramon:code           "EE-0568" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0573  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pajusi"@en ;
+        rdfs:label           "EE-0573 Pajusi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pajusi"@et ;
+        dbo:populationTotal  1285 ;
+        dbo:areaTotal        232490000 ;
+        ramon:code           "EE-0573" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0576  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pala"@en ;
+        rdfs:label           "EE-0576 Pala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pala"@et ;
+        dbo:populationTotal  1096 ;
+        dbo:areaTotal        156640000 ;
+        ramon:code           "EE-0576" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0578  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Palamuse"@en ;
+        rdfs:label           "EE-0578 Palamuse" ;
+        void:inDataset       lau: ;
+        ramon:name           "Palamuse"@et ;
+        dbo:populationTotal  2130 ;
+        dbo:areaTotal        215850000 ;
+        ramon:code           "EE-0578" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0580  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Paldiski"@en ;
+        rdfs:label           "EE-0580 Paldiski" ;
+        void:inDataset       lau: ;
+        ramon:name           "Paldiski"@et ;
+        dbo:populationTotal  3767 ;
+        dbo:areaTotal        59930000 ;
+        ramon:code           "EE-0580" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0582  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Palupera"@en ;
+        rdfs:label           "EE-0582 Palupera" ;
+        void:inDataset       lau: ;
+        ramon:name           "Palupera"@et ;
+        dbo:populationTotal  1044 ;
+        dbo:areaTotal        123320000 ;
+        ramon:code           "EE-0582" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0587  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Peipsiääre"@en ;
+        rdfs:label           "EE-0587 Peipsiääre" ;
+        void:inDataset       lau: ;
+        ramon:name           "Peipsiääre"@et ;
+        dbo:populationTotal  660 ;
+        dbo:areaTotal        31920000 ;
+        ramon:code           "EE-0587" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0592  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pihtla"@en ;
+        rdfs:label           "EE-0592 Pihtla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pihtla"@et ;
+        dbo:populationTotal  1392 ;
+        dbo:areaTotal        228790000 ;
+        ramon:code           "EE-0592" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0595  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Piirissaare"@en ;
+        rdfs:label           "EE-0595 Piirissaare" ;
+        void:inDataset       lau: ;
+        ramon:name           "Piirissaare"@et ;
+        dbo:populationTotal  99 ;
+        dbo:areaTotal        8800000 ;
+        ramon:code           "EE-0595" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0600  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Karksi"@en ;
+        rdfs:label           "EE-0600 Karksi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Karksi"@et ;
+        dbo:populationTotal  3333 ;
+        dbo:areaTotal        321810000 ;
+        ramon:code           "EE-0600" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0605  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Puhja"@en ;
+        rdfs:label           "EE-0605 Puhja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Puhja"@et ;
+        dbo:populationTotal  2226 ;
+        dbo:areaTotal        167330000 ;
+        ramon:code           "EE-0605" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0608  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Puka"@en ;
+        rdfs:label           "EE-0608 Puka" ;
+        void:inDataset       lau: ;
+        ramon:name           "Puka"@et ;
+        dbo:populationTotal  1573 ;
+        dbo:areaTotal        200830000 ;
+        ramon:code           "EE-0608" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0611  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Puurmani"@en ;
+        rdfs:label           "EE-0611 Puurmani" ;
+        void:inDataset       lau: ;
+        ramon:name           "Puurmani"@et ;
+        dbo:populationTotal  1509 ;
+        dbo:areaTotal        292580000 ;
+        ramon:code           "EE-0611" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0613  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Põdrala"@en ;
+        rdfs:label           "EE-0613 Põdrala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Põdrala"@et ;
+        dbo:populationTotal  751 ;
+        dbo:areaTotal        127050000 ;
+        ramon:code           "EE-0613" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0616  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Põltsamaa"@en ;
+        rdfs:label           "EE-0616 Põltsamaa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Põltsamaa"@et ;
+        dbo:populationTotal  3650 ;
+        dbo:areaTotal        416710000 ;
+        ramon:code           "EE-0616" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0617  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Põltsamaa"@en ;
+        rdfs:label           "EE-0617 Põltsamaa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Põltsamaa"@et ;
+        dbo:populationTotal  4174 ;
+        dbo:areaTotal        5990000 ;
+        ramon:code           "EE-0617" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0621  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Põlva"@en ;
+        rdfs:label           "EE-0621 Põlva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Põlva"@et ;
+        dbo:populationTotal  9575 ;
+        dbo:areaTotal        234270000 ;
+        ramon:code           "EE-0621" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0625  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pärnu"@en ;
+        rdfs:label           "EE-0625 Pärnu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pärnu"@et ;
+        dbo:populationTotal  39828 ;
+        dbo:areaTotal        33150000 ;
+        ramon:code           "EE-0625" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0634  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pöide"@en ;
+        rdfs:label           "EE-0634 Pöide" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pöide"@et ;
+        dbo:populationTotal  880 ;
+        dbo:areaTotal        128430000 ;
+        ramon:code           "EE-0634" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0636  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Otepää"@en ;
+        rdfs:label           "EE-0636 Otepää" ;
+        void:inDataset       lau: ;
+        ramon:name           "Otepää"@et ;
+        dbo:populationTotal  3872 ;
+        dbo:areaTotal        217240000 ;
+        ramon:code           "EE-0636" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0639  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Pühalepa"@en ;
+        rdfs:label           "EE-0639 Pühalepa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Pühalepa"@et ;
+        dbo:populationTotal  1530 ;
+        dbo:areaTotal        257350000 ;
+        ramon:code           "EE-0639" ;
+        spatial:PP           lau:EE-0039 ;
+        ramon:level          5 .
+
+lau:EE-0039  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0651  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Raasiku"@en ;
+        rdfs:label           "EE-0651 Raasiku" ;
+        void:inDataset       lau: ;
+        ramon:name           "Raasiku"@et ;
+        dbo:populationTotal  4625 ;
+        dbo:areaTotal        158960000 ;
+        ramon:code           "EE-0651" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0653  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rae"@en ;
+        rdfs:label           "EE-0653 Rae" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rae"@et ;
+        dbo:populationTotal  15794 ;
+        dbo:areaTotal        206770000 ;
+        ramon:code           "EE-0653" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0654  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Raikküla"@en ;
+        rdfs:label           "EE-0654 Raikküla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Raikküla"@et ;
+        dbo:populationTotal  1519 ;
+        dbo:areaTotal        229010000 ;
+        ramon:code           "EE-0654" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0657  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Kasepää"@en ;
+        rdfs:label           "EE-0657 Kasepää" ;
+        void:inDataset       lau: ;
+        ramon:name           "Kasepää"@et ;
+        dbo:populationTotal  1187 ;
+        dbo:areaTotal        41520000 ;
+        ramon:code           "EE-0657" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0660  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rakke"@en ;
+        rdfs:label           "EE-0660 Rakke" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rakke"@et ;
+        dbo:populationTotal  1631 ;
+        dbo:areaTotal        224670000 ;
+        ramon:code           "EE-0660" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0662  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rakvere"@en ;
+        rdfs:label           "EE-0662 Rakvere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rakvere"@et ;
+        dbo:populationTotal  2056 ;
+        dbo:areaTotal        127430000 ;
+        ramon:code           "EE-0662" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0663  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rakvere"@en ;
+        rdfs:label           "EE-0663 Rakvere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rakvere"@et ;
+        dbo:populationTotal  15747 ;
+        dbo:areaTotal        10740000 ;
+        ramon:code           "EE-0663" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0666  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rannu"@en ;
+        rdfs:label           "EE-0666 Rannu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rannu"@et ;
+        dbo:populationTotal  1581 ;
+        dbo:areaTotal        157450000 ;
+        ramon:code           "EE-0666" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0669  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rapla"@en ;
+        rdfs:label           "EE-0669 Rapla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rapla"@et ;
+        dbo:populationTotal  9170 ;
+        dbo:areaTotal        243350000 ;
+        ramon:code           "EE-0669" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0674  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ridala"@en ;
+        rdfs:label           "EE-0674 Ridala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ridala"@et ;
+        dbo:populationTotal  3245 ;
+        dbo:areaTotal        260720000 ;
+        ramon:code           "EE-0674" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0684  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Roosna-Alliku"@en ;
+        rdfs:label           "EE-0684 Roosna-Alliku" ;
+        void:inDataset       lau: ;
+        ramon:name           "Roosna-Alliku"@et ;
+        dbo:populationTotal  1037 ;
+        dbo:areaTotal        132160000 ;
+        ramon:code           "EE-0684" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0689  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ruhnu"@en ;
+        rdfs:label           "EE-0689 Ruhnu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ruhnu"@et ;
+        dbo:populationTotal  138 ;
+        dbo:areaTotal        11900000 ;
+        ramon:code           "EE-0689" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0694  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rõngu"@en ;
+        rdfs:label           "EE-0694 Rõngu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rõngu"@et ;
+        dbo:populationTotal  2688 ;
+        dbo:areaTotal        163970000 ;
+        ramon:code           "EE-0694" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0697  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rõuge"@en ;
+        rdfs:label           "EE-0697 Rõuge" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rõuge"@et ;
+        dbo:populationTotal  2157 ;
+        dbo:areaTotal        263260000 ;
+        ramon:code           "EE-0697" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0702  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Rägavere"@en ;
+        rdfs:label           "EE-0702 Rägavere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Rägavere"@et ;
+        dbo:populationTotal  821 ;
+        dbo:areaTotal        173100000 ;
+        ramon:code           "EE-0702" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0707  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Räpina"@en ;
+        rdfs:label           "EE-0707 Räpina" ;
+        void:inDataset       lau: ;
+        ramon:name           "Räpina"@et ;
+        dbo:populationTotal  4686 ;
+        dbo:areaTotal        265850000 ;
+        ramon:code           "EE-0707" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0710  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Saarde"@en ;
+        rdfs:label           "EE-0710 Saarde" ;
+        void:inDataset       lau: ;
+        ramon:name           "Saarde"@et ;
+        dbo:populationTotal  3895 ;
+        dbo:areaTotal        707480000 ;
+        ramon:code           "EE-0710" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0713  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Saare"@en ;
+        rdfs:label           "EE-0713 Saare" ;
+        void:inDataset       lau: ;
+        ramon:name           "Saare"@et ;
+        dbo:populationTotal  1116 ;
+        dbo:areaTotal        224610000 ;
+        ramon:code           "EE-0713" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0718  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Saku"@en ;
+        rdfs:label           "EE-0718 Saku" ;
+        void:inDataset       lau: ;
+        ramon:name           "Saku"@et ;
+        dbo:populationTotal  9276 ;
+        dbo:areaTotal        170440000 ;
+        ramon:code           "EE-0718" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0721  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Salme"@en ;
+        rdfs:label           "EE-0721 Salme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Salme"@et ;
+        dbo:populationTotal  1168 ;
+        dbo:areaTotal        115530000 ;
+        ramon:code           "EE-0721" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0724  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sangaste"@en ;
+        rdfs:label           "EE-0724 Sangaste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sangaste"@et ;
+        dbo:populationTotal  1268 ;
+        dbo:areaTotal        144640000 ;
+        ramon:code           "EE-0724" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0727  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Saue"@en ;
+        rdfs:label           "EE-0727 Saue" ;
+        void:inDataset       lau: ;
+        ramon:name           "Saue"@et ;
+        dbo:populationTotal  10301 ;
+        dbo:areaTotal        195370000 ;
+        ramon:code           "EE-0727" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0728  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Saue"@en ;
+        rdfs:label           "EE-0728 Saue" ;
+        void:inDataset       lau: ;
+        ramon:name           "Saue"@et ;
+        dbo:populationTotal  5779 ;
+        dbo:areaTotal        4390000 ;
+        ramon:code           "EE-0728" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0730  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sauga"@en ;
+        rdfs:label           "EE-0730 Sauga" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sauga"@et ;
+        dbo:populationTotal  4071 ;
+        dbo:areaTotal        164620000 ;
+        ramon:code           "EE-0730" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0735  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sillamäe"@en ;
+        rdfs:label           "EE-0735 Sillamäe" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sillamäe"@et ;
+        dbo:populationTotal  13686 ;
+        dbo:areaTotal        11700000 ;
+        ramon:code           "EE-0735" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0741  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sindi"@en ;
+        rdfs:label           "EE-0741 Sindi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sindi"@et ;
+        dbo:populationTotal  3891 ;
+        dbo:areaTotal        5020000 ;
+        ramon:code           "EE-0741" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0751  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sonda"@en ;
+        rdfs:label           "EE-0751 Sonda" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sonda"@et ;
+        dbo:populationTotal  844 ;
+        dbo:areaTotal        148180000 ;
+        ramon:code           "EE-0751" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0756  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Surju"@en ;
+        rdfs:label           "EE-0756 Surju" ;
+        void:inDataset       lau: ;
+        ramon:name           "Surju"@et ;
+        dbo:populationTotal  942 ;
+        dbo:areaTotal        357200000 ;
+        ramon:code           "EE-0756" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0758  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Suure-Jaani"@en ;
+        rdfs:label           "EE-0758 Suure-Jaani" ;
+        void:inDataset       lau: ;
+        ramon:name           "Suure-Jaani"@et ;
+        dbo:populationTotal  5248 ;
+        dbo:areaTotal        742610000 ;
+        ramon:code           "EE-0758" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0767  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sõmerpalu"@en ;
+        rdfs:label           "EE-0767 Sõmerpalu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sõmerpalu"@et ;
+        dbo:populationTotal  1771 ;
+        dbo:areaTotal        182380000 ;
+        ramon:code           "EE-0767" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0770  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Sõmeru"@en ;
+        rdfs:label           "EE-0770 Sõmeru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Sõmeru"@et ;
+        dbo:populationTotal  3424 ;
+        dbo:areaTotal        167240000 ;
+        ramon:code           "EE-0770" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0773  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tabivere"@en ;
+        rdfs:label           "EE-0773 Tabivere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tabivere"@et ;
+        dbo:populationTotal  2198 ;
+        dbo:areaTotal        200570000 ;
+        ramon:code           "EE-0773" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0779  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Taheva"@en ;
+        rdfs:label           "EE-0779 Taheva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Taheva"@et ;
+        dbo:populationTotal  736 ;
+        dbo:areaTotal        204760000 ;
+        ramon:code           "EE-0779" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0784  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tallinn"@en ;
+        rdfs:label           "EE-0784 Tallinn" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tallinn"@et ;
+        dbo:populationTotal  423420 ;
+        dbo:areaTotal        159310000 ;
+        ramon:code           "EE-0784" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0786  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tamsalu"@en ;
+        rdfs:label           "EE-0786 Tamsalu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tamsalu"@et ;
+        dbo:populationTotal  3820 ;
+        dbo:areaTotal        215600000 ;
+        ramon:code           "EE-0786" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0790  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tapa"@en ;
+        rdfs:label           "EE-0790 Tapa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tapa"@et ;
+        dbo:populationTotal  7578 ;
+        dbo:areaTotal        264110000 ;
+        ramon:code           "EE-0790" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0794  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tartu"@en ;
+        rdfs:label           "EE-0794 Tartu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tartu"@et ;
+        dbo:populationTotal  6908 ;
+        dbo:areaTotal        299930000 ;
+        ramon:code           "EE-0794" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0795  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tartu"@en ;
+        rdfs:label           "EE-0795 Tartu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tartu"@et ;
+        dbo:populationTotal  93687 ;
+        dbo:areaTotal        38970000 ;
+        ramon:code           "EE-0795" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0797  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tarvastu"@en ;
+        rdfs:label           "EE-0797 Tarvastu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tarvastu"@et ;
+        dbo:populationTotal  3321 ;
+        dbo:areaTotal        408300000 ;
+        ramon:code           "EE-0797" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0802  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Toila"@en ;
+        rdfs:label           "EE-0802 Toila" ;
+        void:inDataset       lau: ;
+        ramon:name           "Toila"@et ;
+        dbo:populationTotal  2267 ;
+        dbo:areaTotal        159740000 ;
+        ramon:code           "EE-0802" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0805  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tootsi"@en ;
+        rdfs:label           "EE-0805 Tootsi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tootsi"@et ;
+        dbo:populationTotal  775 ;
+        dbo:areaTotal        1780000 ;
+        ramon:code           "EE-0805" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0807  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Torgu"@en ;
+        rdfs:label           "EE-0807 Torgu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Torgu"@et ;
+        dbo:populationTotal  339 ;
+        dbo:areaTotal        126680000 ;
+        ramon:code           "EE-0807" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0808  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tori"@en ;
+        rdfs:label           "EE-0808 Tori" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tori"@et ;
+        dbo:populationTotal  2286 ;
+        dbo:areaTotal        281550000 ;
+        ramon:code           "EE-0808" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0810  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Torma"@en ;
+        rdfs:label           "EE-0810 Torma" ;
+        void:inDataset       lau: ;
+        ramon:name           "Torma"@et ;
+        dbo:populationTotal  1954 ;
+        dbo:areaTotal        348980000 ;
+        ramon:code           "EE-0810" ;
+        spatial:PP           lau:EE-0049 ;
+        ramon:level          5 .
+
+lau:EE-0049  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0815  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tudulinna"@en ;
+        rdfs:label           "EE-0815 Tudulinna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tudulinna"@et ;
+        dbo:populationTotal  432 ;
+        dbo:areaTotal        269150000 ;
+        ramon:code           "EE-0815" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0820  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tõlliste"@en ;
+        rdfs:label           "EE-0820 Tõlliste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tõlliste"@et ;
+        dbo:populationTotal  1588 ;
+        dbo:areaTotal        193840000 ;
+        ramon:code           "EE-0820" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0823  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tõrva"@en ;
+        rdfs:label           "EE-0823 Tõrva" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tõrva"@et ;
+        dbo:populationTotal  2820 ;
+        dbo:areaTotal        4790000 ;
+        ramon:code           "EE-0823" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0826  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tõstamaa"@en ;
+        rdfs:label           "EE-0826 Tõstamaa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tõstamaa"@et ;
+        dbo:populationTotal  1305 ;
+        dbo:areaTotal        260700000 ;
+        ramon:code           "EE-0826" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0831  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tähtvere"@en ;
+        rdfs:label           "EE-0831 Tähtvere" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tähtvere"@et ;
+        dbo:populationTotal  2525 ;
+        dbo:areaTotal        115030000 ;
+        ramon:code           "EE-0831" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0835  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Türi"@en ;
+        rdfs:label           "EE-0835 Türi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Türi"@et ;
+        dbo:populationTotal  9351 ;
+        dbo:areaTotal        598310000 ;
+        ramon:code           "EE-0835" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0843  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Urvaste"@en ;
+        rdfs:label           "EE-0843 Urvaste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Urvaste"@et ;
+        dbo:populationTotal  1269 ;
+        dbo:areaTotal        139690000 ;
+        ramon:code           "EE-0843" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0848  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Tahkuranna"@en ;
+        rdfs:label           "EE-0848 Tahkuranna" ;
+        void:inDataset       lau: ;
+        ramon:name           "Tahkuranna"@et ;
+        dbo:populationTotal  2352 ;
+        dbo:areaTotal        103810000 ;
+        ramon:code           "EE-0848" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0851  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vaivara"@en ;
+        rdfs:label           "EE-0851 Vaivara" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vaivara"@et ;
+        dbo:populationTotal  1700 ;
+        dbo:areaTotal        392200000 ;
+        ramon:code           "EE-0851" ;
+        spatial:PP           lau:EE-0044 ;
+        ramon:level          5 .
+
+lau:EE-0044  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE007 .
+
+lau:EE-0854  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Valga"@en ;
+        rdfs:label           "EE-0854 Valga" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valga"@et ;
+        dbo:populationTotal  12632 ;
+        dbo:areaTotal        16650000 ;
+        ramon:code           "EE-0854" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0856  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Valgjärve"@en ;
+        rdfs:label           "EE-0856 Valgjärve" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valgjärve"@et ;
+        dbo:populationTotal  1396 ;
+        dbo:areaTotal        142930000 ;
+        ramon:code           "EE-0856" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0858  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Valjala"@en ;
+        rdfs:label           "EE-0858 Valjala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Valjala"@et ;
+        dbo:populationTotal  1324 ;
+        dbo:areaTotal        180460000 ;
+        ramon:code           "EE-0858" ;
+        spatial:PP           lau:EE-0074 ;
+        ramon:level          5 .
+
+lau:EE-0074  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0861  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vara"@en ;
+        rdfs:label           "EE-0861 Vara" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vara"@et ;
+        dbo:populationTotal  1839 ;
+        dbo:areaTotal        333500000 ;
+        ramon:code           "EE-0861" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0863  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Varbla"@en ;
+        rdfs:label           "EE-0863 Varbla" ;
+        void:inDataset       lau: ;
+        ramon:name           "Varbla"@et ;
+        dbo:populationTotal  823 ;
+        dbo:areaTotal        313880000 ;
+        ramon:code           "EE-0863" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0865  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Varstu"@en ;
+        rdfs:label           "EE-0865 Varstu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Varstu"@et ;
+        dbo:populationTotal  1050 ;
+        dbo:areaTotal        170990000 ;
+        ramon:code           "EE-0865" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0868  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vasalemma"@en ;
+        rdfs:label           "EE-0868 Vasalemma" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vasalemma"@et ;
+        dbo:populationTotal  2466 ;
+        dbo:areaTotal        38680000 ;
+        ramon:code           "EE-0868" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0872  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vastse-Kuuste"@en ;
+        rdfs:label           "EE-0872 Vastse-Kuuste" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vastse-Kuuste"@et ;
+        dbo:populationTotal  1165 ;
+        dbo:areaTotal        122990000 ;
+        ramon:code           "EE-0872" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0874  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vastseliina"@en ;
+        rdfs:label           "EE-0874 Vastseliina" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vastseliina"@et ;
+        dbo:populationTotal  1970 ;
+        dbo:areaTotal        220820000 ;
+        ramon:code           "EE-0874" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0879  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Veriora"@en ;
+        rdfs:label           "EE-0879 Veriora" ;
+        void:inDataset       lau: ;
+        ramon:name           "Veriora"@et ;
+        dbo:populationTotal  1366 ;
+        dbo:areaTotal        200380000 ;
+        ramon:code           "EE-0879" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0884  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vigala"@en ;
+        rdfs:label           "EE-0884 Vigala" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vigala"@et ;
+        dbo:populationTotal  1222 ;
+        dbo:areaTotal        269680000 ;
+        ramon:code           "EE-0884" ;
+        spatial:PP           lau:EE-0070 ;
+        ramon:level          5 .
+
+lau:EE-0070  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0887  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vihula"@en ;
+        rdfs:label           "EE-0887 Vihula" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vihula"@et ;
+        dbo:populationTotal  1918 ;
+        dbo:areaTotal        367120000 ;
+        ramon:code           "EE-0887" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0890  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Viimsi"@en ;
+        rdfs:label           "EE-0890 Viimsi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Viimsi"@et ;
+        dbo:populationTotal  18041 ;
+        dbo:areaTotal        73260000 ;
+        ramon:code           "EE-0890" ;
+        spatial:PP           lau:EE-0037 ;
+        ramon:level          5 .
+
+lau:EE-0037  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE001 .
+
+lau:EE-0897  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Viljandi"@en ;
+        rdfs:label           "EE-0897 Viljandi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Viljandi"@et ;
+        dbo:populationTotal  17860 ;
+        dbo:areaTotal        14660000 ;
+        ramon:code           "EE-0897" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0898  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Viljandi"@en ;
+        rdfs:label           "EE-0898 Viljandi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Viljandi"@et ;
+        dbo:populationTotal  9240 ;
+        dbo:areaTotal        650560000 ;
+        ramon:code           "EE-0898" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0900  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vinni"@en ;
+        rdfs:label           "EE-0900 Vinni" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vinni"@et ;
+        dbo:populationTotal  4689 ;
+        dbo:areaTotal        487730000 ;
+        ramon:code           "EE-0900" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0902  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Viru-Nigula"@en ;
+        rdfs:label           "EE-0902 Viru-Nigula" ;
+        void:inDataset       lau: ;
+        ramon:name           "Viru-Nigula"@et ;
+        dbo:populationTotal  1288 ;
+        dbo:areaTotal        235040000 ;
+        ramon:code           "EE-0902" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0907  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vormsi"@en ;
+        rdfs:label           "EE-0907 Vormsi" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vormsi"@et ;
+        dbo:populationTotal  397 ;
+        dbo:areaTotal        94980000 ;
+        ramon:code           "EE-0907" ;
+        spatial:PP           lau:EE-0057 ;
+        ramon:level          5 .
+
+lau:EE-0057  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0912  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Võhma"@en ;
+        rdfs:label           "EE-0912 Võhma" ;
+        void:inDataset       lau: ;
+        ramon:name           "Võhma"@et ;
+        dbo:populationTotal  1314 ;
+        dbo:areaTotal        1940000 ;
+        ramon:code           "EE-0912" ;
+        spatial:PP           lau:EE-0084 ;
+        ramon:level          5 .
+
+lau:EE-0084  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0915  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Võnnu"@en ;
+        rdfs:label           "EE-0915 Võnnu" ;
+        void:inDataset       lau: ;
+        ramon:name           "Võnnu"@et ;
+        dbo:populationTotal  1110 ;
+        dbo:areaTotal        232630000 ;
+        ramon:code           "EE-0915" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0918  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Võru"@en ;
+        rdfs:label           "EE-0918 Võru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Võru"@et ;
+        dbo:populationTotal  4711 ;
+        dbo:areaTotal        201430000 ;
+        ramon:code           "EE-0918" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0919  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Võru"@en ;
+        rdfs:label           "EE-0919 Võru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Võru"@et ;
+        dbo:populationTotal  12430 ;
+        dbo:areaTotal        13960000 ;
+        ramon:code           "EE-0919" ;
+        spatial:PP           lau:EE-0086 ;
+        ramon:level          5 .
+
+lau:EE-0086  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0926  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Väike-Maarja"@en ;
+        rdfs:label           "EE-0926 Väike-Maarja" ;
+        void:inDataset       lau: ;
+        ramon:name           "Väike-Maarja"@et ;
+        dbo:populationTotal  4481 ;
+        dbo:areaTotal        457760000 ;
+        ramon:code           "EE-0926" ;
+        spatial:PP           lau:EE-0059 ;
+        ramon:level          5 .
+
+lau:EE-0059  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0929  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vändra"@en ;
+        rdfs:label           "EE-0929 Vändra" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vändra"@et ;
+        dbo:populationTotal  2669 ;
+        dbo:areaTotal        642240000 ;
+        ramon:code           "EE-0929" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0931  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Vändra (alev)"@en ;
+        rdfs:label           "EE-0931 Vändra (alev)" ;
+        void:inDataset       lau: ;
+        ramon:name           "Vändra (alev)"@et ;
+        dbo:populationTotal  2191 ;
+        dbo:areaTotal        3260000 ;
+        ramon:code           "EE-0931" ;
+        spatial:PP           lau:EE-0067 ;
+        ramon:level          5 .
+
+lau:EE-0067  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE004 .
+
+lau:EE-0934  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Värska"@en ;
+        rdfs:label           "EE-0934 Värska" ;
+        void:inDataset       lau: ;
+        ramon:name           "Värska"@et ;
+        dbo:populationTotal  1322 ;
+        dbo:areaTotal        187840000 ;
+        ramon:code           "EE-0934" ;
+        spatial:PP           lau:EE-0065 ;
+        ramon:level          5 .
+
+lau:EE-0065  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0937  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Väätsa"@en ;
+        rdfs:label           "EE-0937 Väätsa" ;
+        void:inDataset       lau: ;
+        ramon:name           "Väätsa"@et ;
+        dbo:populationTotal  1280 ;
+        dbo:areaTotal        195120000 ;
+        ramon:code           "EE-0937" ;
+        spatial:PP           lau:EE-0051 ;
+        ramon:level          5 .
+
+lau:EE-0051  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE006 .
+
+lau:EE-0943  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Õru"@en ;
+        rdfs:label           "EE-0943 Õru" ;
+        void:inDataset       lau: ;
+        ramon:name           "Õru"@et ;
+        dbo:populationTotal  467 ;
+        dbo:areaTotal        104620000 ;
+        ramon:code           "EE-0943" ;
+        spatial:PP           lau:EE-0082 ;
+        ramon:level          5 .
+
+lau:EE-0082  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .
+
+lau:EE-0949  rdf:type        ebg:LAURegion ;
+        rdf:type             spatial:Feature ;
+        ramon:name           "Ülenurme"@en ;
+        rdfs:label           "EE-0949 Ülenurme" ;
+        void:inDataset       lau: ;
+        ramon:name           "Ülenurme"@et ;
+        dbo:populationTotal  7067 ;
+        dbo:areaTotal        86150000 ;
+        ramon:code           "EE-0949" ;
+        spatial:PP           lau:EE-0078 ;
+        ramon:level          5 .
+
+lau:EE-0078  rdf:type   ebg:LAURegion ;
+        rdf:type        spatial:Feature ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      nuts:EE008 .

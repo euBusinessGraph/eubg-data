@@ -1,0 +1,616 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+CY000,1,1000,no,Λευκωσία,Lefkosia ,n.a.,50629100
+CY000,1,1010,no,Άγιος Δομέτιος,Agios Dometios,n.a.,11838200
+CY000,1,1011,no,Έγκωμη Λευκωσίας,Egkomi Lefkosias,n.a.,9904840
+CY000,1,1012,no,Στρόβολος,Strovolos ,n.a.,24893000
+CY000,1,1013,no,Αγλαντζιά ή Αγλαγγιά,Aglantzia or Aglangia,n.a.,31181600
+CY000,1,1014,no,Ορτάκιοϊ (Μιντζέλι),Ortakioï (Mintzeli),n.a.,7524350
+CY000,1,1015,no,Τράχωνας,Trachonas,n.a.,6281600
+CY000,1,1021,no,Λακατάμεια,Lakatameia  ,n.a.,27444000
+CY000,1,1022,no,Συνοικισμός Ανθούπολης,Synoikismos Anthoupolis,n.a.,442000
+CY000,1,1023,no,Λατσιά ή Λακκιά,Latsia or Lakkia,n.a.,16272000
+CY000,1,1024,no,Γέρι,Geri,n.a.,33366200
+CY000,1,1100,no,Σιά,Sia,n.a.,17279500
+CY000,1,1101,no,Μαθιάτης,Mathiatis,n.a.,21049500
+CY000,1,1102,no,Αλάμπρα,Alampra,n.a.,16320100
+CY000,1,1103,no,Αγία Βαρβάρα Λευκωσίας,Agia Varvara Lefkosias,n.a.,24240000
+CY000,1,1104,no,Κοτσιάτης,Kotsiatis,n.a.,5107490
+CY000,1,1105,no,Νήσου,Nisou,n.a.,9557780
+CY000,1,1106,no,Πέρα Χωριό,Pera Chorio,n.a.,8279370
+CY000,1,1107,no,Δάλι,Dali ,n.a.,31319700
+CY000,1,1108,no,Λύμπια,Lympia,n.a.,23003300
+CY000,1,1109,no,Λυθροδόντας ,Lythrodontas,n.a.,41963800
+CY000,1,1110,no,Λουρουκίνα,Louroukina,n.a.,28905100
+CY000,1,1120,no,Ποταμιά,Potamia,n.a.,10990800
+CY000,1,1121,no,'Αγιος Σωζόμενος,Agios Sozomenos,n.a.,10987400
+CY000,1,1122,no,Πυρόγι,Pyrogi,n.a.,8392020
+CY000,1,1123,no,Μαργό,Margo,n.a.,17579900
+CY000,1,1124,no,Αγιά (Aγιά Κεπίρ),Agia (Agia Kepir),n.a.,15060800
+CY000,1,1125,no,Τύμβου,Tymvou,n.a.,27409400
+CY000,1,1130,no,Μόρα,Mora,n.a.,21548300
+CY000,1,1131,no,Μια Μηλιά,Mia Milia,n.a.,17116900
+CY000,1,1132,no,Μάνδρες Λευκωσίας,Mandres Lefkosias,n.a.,18202300
+CY000,1,1133,no,Παλαίκυθρο,Palaikythro,n.a.,19471300
+CY000,1,1134,no,'Εξω Μετόχι,Exo Metochi,n.a.,12682100
+CY000,1,1135,no,Επιχό,Epicho,n.a.,12443800
+CY000,1,1136,no,Βώνη,Voni,n.a.,4662060
+CY000,1,1137,no,Τραχώνι Λευκωσίας,Trachoni Lefkosias,n.a.,2877620
+CY000,1,1138,no,Νέο Χωριό Λευκωσίας,Neo Chorio Lefkosias,n.a.,17809900
+CY000,1,1139,no,Κυθρέα,Kythrea ,n.a.,32783000
+CY000,1,1141,no,Μπέϊκιοϊ,Beikioï,n.a.,2135820
+CY000,1,1142,no,Πέτρα του Διγενή,Petra tou Digeni,n.a.,4291870
+CY000,1,1143,no,Καλυβάκια,Kalyvakia,n.a.,9840960
+CY000,1,1144,no,Κουρού Μοναστήρι,Kourou Monastiri,n.a.,3539990
+CY000,1,1200,no,Καμπί,Kampi,n.a.,5362150
+CY000,1,1201,no,Φαρμακάς,Farmakas,n.a.,16053600
+CY000,1,1202,no,Απλίκι,Apliki,n.a.,3753520
+CY000,1,1203,no,Λαζανιάς ,Lazanias ,n.a.,41262200
+CY000,1,1204,no,Γούρρη,Gourri,n.a.,16924100
+CY000,1,1205,no,Φικάρδου ,Fikardou ,n.a.,6630500
+CY000,1,1206,no,Άγιος Επιφάνιος Ορεινής,Agios Epifanios Oreinis,n.a.,17359300
+CY000,1,1207,no,Καλό Χωριό Ορεινής,Kalo Chorio Oreinis,n.a.,8517490
+CY000,1,1208,no,Μαλούντα,Malounta,n.a.,6560020
+CY000,1,1209,no,Κλήρου,Klirou,n.a.,18738900
+CY000,1,1210,no,Αρεδιού,Arediou,n.a.,11928300
+CY000,1,1211,no,Άγιος Ιωάννης Μαλούντας,Agios Ioannis Malountas,n.a.,13936800
+CY000,1,1212,no,Αγροκηπιά,Agrokipia,n.a.,9239830
+CY000,1,1213,no,Μιτσερό ,Mitsero ,n.a.,24643300
+CY000,1,1220,no,Καπέδες,Kapedes,n.a.,20854400
+CY000,1,1221,no,Καταλιόντας,Kataliontas,n.a.,4865780
+CY000,1,1222,no,Αναλιόντας ,Analiontas ,n.a.,10605800
+CY000,1,1223,no,Καμπιά,Kampia,n.a.,12683700
+CY000,1,1224,no,Μαργί,Margi,n.a.,9332180
+CY000,1,1225,no,Τσέρι,Tseri,n.a.,27050400
+CY000,1,1226,no,Πολιτικό ,Politiko ,n.a.,17756900
+CY000,1,1227,no,Πέρα,Pera,n.a.,22040900
+CY000,1,1228,no,Επισκοπειό,Episkopeio,n.a.,4292810
+CY000,1,1229,no,Ψιμολόφου,Psimolofou,n.a.,9296140
+CY000,1,1230,no,Εργάτες,Ergates,n.a.,11394900
+CY000,1,1231,no,Ανάγεια,Anageia,n.a.,3954800
+CY000,1,1232,no,Πάνω Δευτερά,Pano Deftera,n.a.,17441600
+CY000,1,1233,no,Κάτω Δευτερά,Kato Deftera,n.a.,7413410
+CY000,1,1240,no,Άγιοι Τριμιθιάς,Agioi Trimithias,n.a.,18938000
+CY000,1,1241,no,Παλαιομέτοχο,Palaiometocho,n.a.,35115100
+CY000,1,1242,no,Δένεια,Deneia,n.a.,13310500
+CY000,1,1243,no,Κοκκινοτριμιθιά,Kokkinotrimithia,n.a.,23795900
+CY000,1,1244,no,Μάμμαρη,Mammari,n.a.,19542800
+CY000,1,1245,no,Γερόλακκος,Gerolakkos,n.a.,45981700
+CY000,1,1246,no,Αγία Μαρίνα Σκυλλούρας,Agia Marina Skyllouras,n.a.,20524500
+CY000,1,1247,no,Σκυλλούρα,Skylloura,n.a.,18123600
+CY000,1,1248,no,Άγιος Βασίλειος,Agios Vasileios,n.a.,14467700
+CY000,1,1249,no,Δύο Ποταμοί,Dyo Potamoi,n.a.,5026990
+CY000,1,1250,no,Κανλί (Κανλίκιογιου),Kanli (Kanlikiogiou),n.a.,8294840
+CY000,1,1251,no,Κιόνελι,Kioneli,n.a.,24681900
+CY000,1,1300,no,Παλαιχώρι Μόρφου,Palaichori Morfou,n.a.,16651300
+CY000,1,1301,no,Ασκάς,Askas,n.a.,8195890
+CY000,1,1302,no,Άλωνα,Alona,n.a.,7793220
+CY000,1,1303,no,Φτερικούδι,Fterikoudi,n.a.,13743000
+CY000,1,1304,no,Πολύστυπος,Polystypos,n.a.,2490600
+CY000,1,1305,no,Λαγουδερά,Lagoudera,n.a.,7938420
+CY000,1,1306,no,Σαράντι,Saranti,n.a.,9546660
+CY000,1,1307,no,Λιβάδια Λευκωσίας,Livadia Lefkosias,n.a.,3439420
+CY000,1,1308,no,Αληθινού,Alithinou,n.a.,3097580
+CY000,1,1309,no,Πλατανιστάσα,Platanistasa,n.a.,20628000
+CY000,1,1310,no,Παλαιχώρι Ορεινής,Palaichori Oreinis,n.a.,18956900
+CY000,1,1320,no,Ξυλιάτος,Xyliatos,n.a.,15901000
+CY000,1,1321,no,Άγιος Γεώργιος Καυκάλλου,Agios Georgios Kafkallou,n.a.,21117300
+CY000,1,1322,no,Νικητάρι ,Nikitari ,n.a.,33113000
+CY000,1,1323,no,Βυζακιά,Vyzakia,n.a.,7974520
+CY000,1,1324,no,Αγία Μαρίνα Ξυλιάτου,Agia Marina Xyliatou,n.a.,20280300
+CY000,1,1325,no,Άγιοι Ηλιόφωτοι,Agioi Iliofotoi,n.a.,5053110
+CY000,1,1326,no,Κάτω Μονή,Kato Moni,n.a.,13352200
+CY000,1,1327,no,Ορούντα,Orounta,n.a.,20156100
+CY000,1,1328,no,Πάνω Κουτραφάς,Pano Koutrafas,n.a.,4032820
+CY000,1,1329,no,Κάτω Κουτραφάς ,Kato Koutrafas ,n.a.,23262900
+CY000,1,1330,no,Ποτάμι,Potami,n.a.,10901300
+CY000,1,1340,no,Μόρφου,Morfou ,n.a.,58203100
+CY000,1,1350,no,Πάνω Ζώδεια,Pano Zodeia,n.a.,15946000
+CY000,1,1351,no,Κάτω Ζώδεια,Kato Zodeia,n.a.,22849400
+CY000,1,1352,no,Καζιβερά,Kazivera,n.a.,6779910
+CY000,1,1353,no,Πραστιό Λευκωσίας,Prastio Lefkosias,n.a.,10743900
+CY000,1,1354,no,Νικήτας,Nikitas,n.a.,4239730
+CY000,1,1355,no,Συριανοχώρι,Syrianochori,n.a.,8866190
+CY000,1,1357,no,Καλό Χωριό Καπούτη,Kalo Chorio Kapouti,n.a.,27599600
+CY000,1,1360,no,Ακάκι,Akaki,n.a.,25386600
+CY000,1,1361,no,Περιστερώνα Λευκωσίας,Peristerona Lefkosias,n.a.,24336700
+CY000,1,1362,no,Αστρομερίτης,Astromeritis,n.a.,18199600
+CY000,1,1363,no,Αυλώνα,Avlona,n.a.,7728060
+CY000,1,1364,no,Κατωκοπιά,Katokopia,n.a.,10130100
+CY000,1,1365,no,Αργάκι,Argaki,n.a.,9978130
+CY000,1,1366,no,Μάσαρη,Masari,n.a.,3810450
+CY000,1,1367,no,Φυλλιά,Fyllia,n.a.,18543500
+CY000,1,1368,no,Μένικο,Meniko,n.a.,22611200
+CY000,1,1369,no,Κυρά,Kyra,n.a.,16810200
+CY000,1,1400,no,Σπήλια,Spilia,n.a.,13484100
+CY000,1,1402,no,Αγία Ειρήνη Λευκωσίας,Agia Eirini Lefkosias,n.a.,4989720
+CY000,1,1403,no,Καννάβια ,Kannavia ,n.a.,16990700
+CY000,1,1404,no,Κακοπετριά ,Kakopetria ,n.a.,33220600
+CY000,1,1405,no,Άγιος Θεόδωρος Σολέας,Agios Theodoros Soleas,n.a.,21592000
+CY000,1,1406,no,Γαλάτα,Galata,n.a.,8281460
+CY000,1,1407,no,Σιναόρος,Sinaoros,n.a.,3516280
+CY000,1,1408,no,Καλιάνα,Kaliana,n.a.,9817290
+CY000,1,1409,no,Τεμβριά,Temvria,n.a.,5391330
+CY000,1,1410,no,Κοράκου ,Korakou ,n.a.,9673750
+CY000,1,1411,no,Ευρύχου,Evrychou,n.a.,13088000
+CY000,1,1412,no,Φλάσου,Flasou,n.a.,4934020
+CY000,1,1414,no,Άγιος Επιφάνιος Σολέας,Agios Epifanios Soleas,n.a.,7318280
+CY000,1,1415,no,Ληνού,Linou,n.a.,5371510
+CY000,1,1416,no,Κατύδατα,Katydata,n.a.,6716910
+CY000,1,1417,no,Σκουριώτισσα (Φουκάσα),Skouriotissa (Foukasa),n.a.,1024810
+CY000,1,1420,no,Πεδουλάς,Pedoulas,n.a.,10913200
+CY000,1,1421,no,Μυλικούρι,Mylikouri,n.a.,96493300
+CY000,1,1422,no,Μουτουλλάς,Moutoullas,n.a.,7966620
+CY000,1,1423,no,Οίκος,Oikos,n.a.,3353570
+CY000,1,1424,no,Καλοπαναγιώτης,Kalopanagiotis,n.a.,34714400
+CY000,1,1425,no,Γερακιές,Gerakies,n.a.,24970500
+CY000,1,1426,no,Τσακίστρα ,Tsakistra ,n.a.,33155700
+CY000,1,1427,no,Κάμπος,Kampos,n.a.,69760700
+CY000,1,1430,no,Άγιος Νικόλαος Σολέας,Agios Nikolaos Soleas,n.a.,2495890
+CY000,1,1431,no,Άγιος Γεώργιος Σολέας,Agios Georgios Soleas,n.a.,2767000
+CY000,1,1432,no,Πέτρα,Petra,n.a.,16146100
+CY000,1,1433,no,Καλό Χωριό Σολέας,Kalo Chorio Soleas,n.a.,4676740
+CY000,1,1435,no,Λεύκα,Lefka,n.a.,27672200
+CY000,1,1436,no,Αμπελικού,Ampelikou,n.a.,24868900
+CY000,1,1437,no,Περιστερωνάρι,Peristeronari,n.a.,4260320
+CY000,1,1438,no,Ελιά Λευκωσίας,Elia Lefkosias,n.a.,13126900
+CY000,1,1439,no,Καραβοστάσι,Karavostasi,n.a.,5032390
+CY000,1,1441,no,Πεντάγεια,Pentageia,n.a.,10333800
+CY000,1,1443,no,Αγγολέμι,Angolemi,n.a.,9497050
+CY000,1,1450,no,Βαρίσεια,Variseia,n.a.,12248700
+CY000,1,1451,no,Γαληνή,Galini,n.a.,14490900
+CY000,1,1452,no,Ξερόβουνος,Xerovounos,n.a.,26183800
+CY000,1,1453,no,Λουτρός,Loutros,n.a.,8471980
+CY000,1,1454,no,Άγιος Ιωάννης Σελέμανη,Agios Ioannis Selemani,n.a.,3416640
+CY000,1,1455,no,Αμμαδιές,Ammadies,n.a.,5489830
+CY000,1,1456,no,Πάνω Πύργος,Pano Pyrgos,n.a.,27343100
+CY000,1,1457,no,Κάτω Πύργος,Kato Pyrgos,n.a.,6192780
+CY000,1,1458,no,Σελλάδι του 'Αππη (και Άγιο Γεωργούδι),Selladi tou Appi (and Agio Georgoudi),n.a.,4250090
+CY000,1,1459,no,Αλεύγα,Alevga,n.a.,2808860
+CY000,1,1460,no,Πηγένια ,Pigenia ,n.a.,16505300
+CY000,1,1461,no,Παχύαμμος,Pachyammos,n.a.,3520990
+CY000,1,1464,no,Κόκκινα,Kokkina,n.a.,5302630
+CY000,1,1465,no,Φροδίσια (Βροΐσια),Frodisia (Vroisia),n.a.,47578200
+CY000,1,1466,no,Άγιος Θεόδωρος Τιλλιρίας,Agios Theodoros Tillirias,n.a.,10207000
+CY000,1,1467,no,Μανσούρα,Mansoura,n.a.,1866000
+CY000,1,1468,no,Μοσφίλι,Mosfili ,n.a.,1795000
+CY000,2,2000,no,Κερύνεια,Keryneia ,n.a.,10592500
+CY000,2,2100,no,Πάνω Δίκωμο,Pano Dikomo,n.a.,15495400
+CY000,2,2101,no,Κάτω Δίκωμο,Kato Dikomo,n.a.,28030300
+CY000,2,2102,no,Κουτσοβέντης,Koutsoventis,n.a.,14089600
+CY000,2,2103,no,Βουνό,Vouno,n.a.,8928810
+CY000,2,2104,no,Σιχαρί,Sichari,n.a.,13142300
+CY000,2,2110,no,Φότα,Fota,n.a.,12545200
+CY000,2,2111,no,Κρηνί,Krini,n.a.,15890500
+CY000,2,2112,no,Πιλερί,Pileri,n.a.,10586300
+CY000,2,2113,no,Κιόμουρτζου,Kiomourtzou,n.a.,2288340
+CY000,2,2114,no,Αγίρδα,Agirda,n.a.,7609880
+CY000,2,2120,no,Άγιος Ερμόλαος,Agios Ermolaos,n.a.,13190900
+CY000,2,2121,no,Σύσκληπος,Sysklipos,n.a.,11112800
+CY000,2,2122,no,Κοντεμένος,Kontemenos,n.a.,11637700
+CY000,2,2123,no,Ασώματος Κερύνειας,Asomatos Keryneias,n.a.,21731300
+CY000,2,2124,no,Καμπυλή,Kampyli,n.a.,7396050
+CY000,2,2125,no,Καρπάσεια,Karpaseia,n.a.,6731280
+CY000,2,2126,no,Μύρτου,Myrtou ,n.a.,14886200
+CY000,2,2127,no,Διόριος,Diorios,n.a.,36965100
+CY000,2,2128,no,Αγία Ειρήνη Κερύνειας,Agia Eirini Keryneias,n.a.,34199300
+CY000,2,2129,no,Κορμακίτης,Kormakitis,n.a.,50801600
+CY000,2,2130,no,Λιβερά,Livera,n.a.,14721700
+CY000,2,2200,no,Καλογραία,Kalograia,n.a.,18438100
+CY000,2,2201,no,Άγιος Αμβρόσιος Κερύνειας,Agios Amvrosios Keryneias,n.a.,37256500
+CY000,2,2202,no,Χάρκεια (Χάρτσεια),Charkeia (Chartseia),n.a.,29161700
+CY000,2,2203,no,Τραπέζα,Trapeza,n.a.,6802840
+CY000,2,2204,no,Κλεπίνη,Klepini,n.a.,22080300
+CY000,2,2205,no,Άγιος Επίκτητος,Agios Epiktitos,n.a.,20297300
+CY000,2,2206,no,Μπέλαπαϊς,Belapais,n.a.,23483000
+CY000,2,2207,no,Καζάφανι,Kazafani,n.a.,8454550
+CY000,2,2208,no,Θέρμεια,Thermeia,n.a.,1057360
+CY000,2,2209,no,Καράκουμι,Karakoumi,n.a.,364466
+CY000,2,2210,no,Τέμπλος,Templos,n.a.,4532540
+CY000,2,2211,no,Κάρμι,Karmi,n.a.,14751900
+CY000,2,2212,no,Φτέριχα,Ftericha,n.a.,3525510
+CY000,2,2213,no,Τριμίθι,Trimithi,n.a.,3373810
+CY000,2,2214,no,Παλαιόσοφος,Palaiosofos,n.a.,2720670
+CY000,2,2215,no,Μότηδες,Motides,n.a.,1136990
+CY000,2,2216,no,Ελιά Κερύνειας,Elia Keryneias,n.a.,1021900
+CY000,2,2217,no,Καραβάς,Karavas ,n.a.,14042300
+CY000,2,2218,no,Άγιος Γεώργιος Κερύνειας,Agios Georgios Keryneias,n.a.,1930950
+CY000,2,2220,no,Αγριδάκι,Agridaki,n.a.,6470930
+CY000,2,2221,no,Λάρνακας Λαπήθου,Larnakas Lapithou,n.a.,14881800
+CY000,2,2222,no,Λάπηθος,Lapithos ,n.a.,18711300
+CY000,2,2223,no,Βασίλεια ,Vasileia ,n.a.,21013200
+CY000,2,2224,no,Πάναγρα ,Panagra ,n.a.,2036990
+CY000,2,2226,no,Όργα,Orga,n.a.,3802190
+CY000,3,3000,no,Αμμόχωστος,Ammochostos,n.a.,38244600
+CY000,3,3100,no,Αγία Νάπα ,Agia Napa ,n.a.,30639500
+CY000,3,3101,no,Παραλίμνι,Paralimni ,n.a.,50795800
+CY000,3,3102,no,Δερύνεια,Deryneia ,n.a.,31970000
+CY000,3,3103,no,Σωτήρα Αμμοχώστου,Sotira Ammochostou,n.a.,25656900
+CY000,3,3104,no,Λιοπέτρι,Liopetri,n.a.,24157100
+CY000,3,3105,no,Φρέναρος,Frenaros,n.a.,30128500
+CY000,3,3110,no,Αυγόρου ,Avgorou ,n.a.,33936400
+CY000,3,3111,no,Άχνα ,Achna ,n.a.,34840700
+CY000,3,3112,no,Μακράσυκα,Makrasyka,n.a.,11980500
+CY000,3,3113,no,Καλοψίδα,Kalopsida,n.a.,27952800
+CY000,3,3114,no,Αχερίτου,Acheritou,n.a.,40190500
+CY000,3,3120,no,Έγκωμη Αμμοχώστου,Egkomi Ammochostou,n.a.,14820200
+CY000,3,3121,no,Άγιος Σέργιος,Agios Sergios,n.a.,16712200
+CY000,3,3122,no,Στύλλοι,Stylloi,n.a.,19271700
+CY000,3,3123,no,Λιμνιά,Limnia,n.a.,23591800
+CY000,3,3124,no,Αλόδα,Aloda,n.a.,5007280
+CY000,3,3130,no,Σπαθαρικό,Spathariko,n.a.,6840860
+CY000,3,3131,no,Αρναδί,Arnadi,n.a.,6656770
+CY000,3,3132,no,Άγιος Γεώργιος Αμμοχώστου,Agios Georgios Ammochostou,n.a.,8935620
+CY000,3,3133,no,Περιβόλια Τρικώμου,Perivolia Trikomou,n.a.,2372560
+CY000,3,3134,no,Σύγκραση,Sygkrasi,n.a.,11421100
+CY000,3,3135,no,Λάπαθος,Lapathos,n.a.,15182300
+CY000,3,3136,no,Τρίκωμο,Trikomo,n.a.,37958000
+CY000,3,3200,no,Κούκλια Αμμοχώστου,Kouklia Ammochostou,n.a.,15680300
+CY000,3,3201,no,Κοντέα,Kontea,n.a.,18860600
+CY000,3,3202,no,Λύση,Lysi ,n.a.,45361000
+CY000,3,3203,no,Βατιλή,Vatili,n.a.,35391000
+CY000,3,3204,no,Στρογγυλός,Strongylos,n.a.,7455080
+CY000,3,3205,no,Σίντα,Sinta,n.a.,18967400
+CY000,3,3210,no,Γαϊδουράς (Νέα Σπάρτη),Gaidouras (Nea Sparti),n.a.,15875700
+CY000,3,3211,no,Πραστιό Αμμοχώστου,Prastio Ammochostou,n.a.,22737000
+CY000,3,3212,no,Πυργά (η) Αμμοχώστου,Pyrga Ammochostou,n.a.,10488800
+CY000,3,3213,no,Μουσουλίτα,Mousoulita,n.a.,3888510
+CY000,3,3214,no,Σανταλάρης,Santalaris,n.a.,6071510
+CY000,3,3215,no,Μαράθα,Maratha,n.a.,1322710
+CY000,3,3216,no,Περιστερώνα Αμμοχώστου,Peristerona Ammochostou,n.a.,15593300
+CY000,3,3217,no,Πηγή,Pigi,n.a.,11447400
+CY000,3,3218,no,Γέναγρα,Genagra,n.a.,14781300
+CY000,3,3219,no,Μηλιά Αμμοχώστου,Milia Ammochostou,n.a.,22327200
+CY000,3,3220,no,Γύψου,Gypsou,n.a.,25068000
+CY000,3,3221,no,Λευκόνοικο,Lefkonoiko ,n.a.,52962800
+CY000,3,3222,no,Ψυλλάτος,Psyllatos,n.a.,8434590
+CY000,3,3223,no,Κνώδαρα,Knodara,n.a.,23683800
+CY000,3,3224,no,Γούφες,Goufes,n.a.,10946000
+CY000,3,3231,no,Άσκεια (Άσσεια),Askeia (Αsseia),n.a.,31147500
+CY000,3,3232,no,Αφάντεια-Ορνίθι,Afanteia-Ornithi,n.a.,19188700
+CY000,3,3233,no,Αγγαστίνα,Angastina,n.a.,21592600
+CY000,3,3234,no,Μαραθόβουνος,Marathovounos,n.a.,28349600
+CY000,3,3235,no,Βιτσάδα,Vitsada,n.a.,9069000
+CY000,3,3236,no,Κίαδος (Τζιάος),Kiados (Tziaos),n.a.,15744100
+CY000,3,3237,no,Κορνόκηπος,Kornokipos,n.a.,20673500
+CY000,3,3238,no,Άγιος Χαρίτων,Agios Chariton,n.a.,8167210
+CY000,3,3239,no,Τρυπημένη,Trypimeni,n.a.,20542900
+CY000,3,3300,no,Άρτεμι,Artemi,n.a.,10101500
+CY000,3,3301,no,Άγιος Νικόλαος Αμμοχώστου,Agios Nikolaos Ammochostou,n.a.,9769030
+CY000,3,3303,no,Πλατάνι,Platani,n.a.,20956600
+CY000,3,3304,no,Ακανθού,Akanthou ,n.a.,80177600
+CY000,3,3305,no,Μελούντα,Melounta,n.a.,10007800
+CY000,3,3310,no,Άγιος Ιάκωβος,Agios Iakovos,n.a.,12984000
+CY000,3,3311,no,Άγιος Ανδρόνικος Tρικώμου (Τοπσούκιογιου ή Άγιο Ανδρονικούδι),Agios Andronikos Trikomou (Topsoukiogiou or Agio Andronikoudi),n.a.,17703600
+CY000,3,3312,no,Μάνδρες Αμμοχώστου,Mandres Ammochostou,n.a.,18393300
+CY000,3,3313,no,Άρδανα,Ardana,n.a.,21982000
+CY000,3,3314,no,Φλαμούδι,Flamoudi,n.a.,20441300
+CY000,3,3320,no,Μπογάζι,Bogazi,n.a.,1174940
+CY000,3,3321,no,Μοναργά,Monarga,n.a.,1022400
+CY000,3,3322,no,Άγιος Ηλίας,Agios Ilias,n.a.,14288300
+CY000,3,3323,no,Γαστριά,Gastria,n.a.,13742200
+CY000,3,3324,no,Αυγολίδα,Avgolida,n.a.,3390730
+CY000,3,3325,no,Πατρίκι,Patriki,n.a.,12393600
+CY000,3,3326,no,Γεράνι,Gerani,n.a.,11266100
+CY000,3,3327,no,Όβγορος,Ovgoros,n.a.,15878800
+CY000,3,3328,no,Δαυλός ,Davlos ,n.a.,22119300
+CY000,3,3330,no,Άγιος Θεόδωρος Αμμοχώστου,Agios Theodoros Ammochostou,n.a.,26645400
+CY000,3,3331,no,Βοκολίδα,Vokolida,n.a.,12560800
+CY000,3,3332,no,Ταύρου,Tavrou,n.a.,7718170
+CY000,3,3333,no,Άγιος Ευστάθιος,Agios Efstathios,n.a.,2423120
+CY000,3,3334,no,Λιβάδια Αμμοχώστου,Livadia Ammochostou,n.a.,5824920
+CY000,3,3335,no,Κρίδεια,Krideia,n.a.,12202200
+CY000,3,3336,no,Κώμη (Κώμη Κεπίρ),Komi (Komi Kepir),n.a.,36710800
+CY000,3,3337,no,Γαλάτεια,Galateia,n.a.,25462000
+CY000,3,3338,no,Επτακώμη,Eptakomi,n.a.,33811100
+CY000,3,3340,no,Κώμα του Γιαλού,Koma tou Gialou,n.a.,20683700
+CY000,3,3341,no,Νέτα,Neta,n.a.,6161580
+CY000,3,3342,no,Βοθύλακας,Vοthylakas,n.a.,10793200
+CY000,3,3343,no,Λυθράγκωμη,Lythragkomi,n.a.,7098460
+CY000,3,3344,no,Βασίλι,Vasili,n.a.,8434360
+CY000,3,3345,no,Λεονάρισσο,Leonarisso,n.a.,16499900
+CY000,3,3346,no,Πλατανισσός,Platanissos,n.a.,17083800
+CY000,3,3347,no,Κοιλάνεμος,Koilanemos,n.a.,3868780
+CY000,3,3348,no,Άγιος Ανδρόνικος Καρπασίας,Agios Andronikos Karpasias,n.a.,24731800
+CY000,3,3350,no,Άγιος Συμεών,Agios Symeon,n.a.,12275100
+CY000,3,3351,no,Μελάναργα,Melanarga,n.a.,5164950
+CY000,3,3352,no,Αιγιαλούσα,Aigialousa,n.a.,49750000
+CY000,3,3353,no,Αγία Τριάς,Agia Trias,n.a.,19250000
+CY000,3,3354,no,Κορόβεια,Koroveia,n.a.,16581700
+CY000,3,3355,no,Γαληνόπωρνη,Galinoporni,n.a.,20895300
+CY000,3,3356,no,Ριζοκάρπασο,Rizokarpaso ,n.a.,153834000
+CY000,4,4000,no,Λάρνακα,Larnaka ,n.a.,29347700
+CY000,4,4010,no,Αραδίππου,Aradippou ,n.a.,55331700
+CY000,4,4011,no,Λιβάδια Λάρνακας,Livadia Larnakas,n.a.,7780360
+CY000,4,4014,no,Δρομολαξιά -Μενεού,Dromolaxia - Meneou,n.a.,23505360
+CY000,4,4100,no,Κελλιά,Kellia,n.a.,12755000
+CY000,4,4101,no,Τρούλλοι,Troulloi,n.a.,28472000
+CY000,4,4102,no,Bορόκληνη (Ορόκληνη),Voroklini (Oroklini),n.a.,15214000
+CY000,4,4103,no,Αβδελλερό,Avdellero,n.a.,20319500
+CY000,4,4104,no,Πύλα,Pyla,n.a.,28338600
+CY000,4,4105,no,Ξυλοτύμβου ,Xylotymvou ,n.a.,25051500
+CY000,4,4106,no,Ορμίδεια,Ormideia,n.a.,21253600
+CY000,4,4107,no,Ξυλοφάγου,Xylofagou,n.a.,35820400
+CY000,4,4108,no,Πέργαμος,Pergamos,n.a.,22493100
+CY000,4,4110,no,Κίτι,Kiti,n.a.,8843300
+CY000,4,4111,no,Περιβόλια Λάρνακας,Perivolia Larnakas,n.a.,8529800
+CY000,4,4112,no,Τερσεφάνου,Tersefanou,n.a.,19644000
+CY000,4,4113,no,Σοφτάδες,Softades,n.a.,6881510
+CY000,4,4120,no,Μαζωτός,Mazotos,n.a.,14213500
+CY000,4,4121,no,Αλαμινός,Alaminos,n.a.,9771970
+CY000,4,4122,no,Αναφωτίδα,Anafotida,n.a.,11888500
+CY000,4,4123,no,Απλάντα,Aplanta,n.a.,3253330
+CY000,4,4124,no,Κιβισίλι,Kivisili,n.a.,13233700
+CY000,4,4125,no,Αλεθρικό,Alethriko,n.a.,18173700
+CY000,4,4126,no,Κλαυδιά,Klavdia,n.a.,20804500
+CY000,4,4127,no,Αγγλισίδες,Anglisides,n.a.,15762600
+CY000,4,4128,no,Μενόγεια,Menogeia,n.a.,7790060
+CY000,4,4201,no,Πετροφάνι,Petrofani,n.a.,7534250
+CY000,4,4202,no,Αθιένου,Athienou,n.a.,64404000
+CY000,4,4203,no,Μελούσεια,Melouseia,n.a.,7270860
+CY000,4,4204,no,Τρεμετουσιά,Tremetousia,n.a.,15620500
+CY000,4,4205,no,Άρσος Λάρνακας,Arsos Larnakas,n.a.,20917200
+CY000,4,4210,no,Καλό Χωριό Λάρνακας,Kalo Chorio Larnakas,n.a.,27350400
+CY000,4,4211,no,Αγία Άννα,Agia Anna,n.a.,12905900
+CY000,4,4212,no,Μοσφιλωτή,Mosfiloti,n.a.,13794100
+CY000,4,4213,no,Ψευδάς,Psevdas,n.a.,12483300
+CY000,4,4214,no,Πυργά (τα) Λάρνακας,Pyrga Larnakas,n.a.,40521700
+CY000,4,4215,no,Κόρνος,Kornos,n.a.,30042800
+CY000,4,4216,no,Δελίκηπος,Delikipos,n.a.,16451400
+CY000,4,4217,no,Κόση,Kosi,n.a.,13506200
+CY000,4,4300,no,Ζύγι,Zygi,n.a.,2219330
+CY000,4,4301,no,Μαρί ,Mari ,n.a.,10970600
+CY000,4,4302,no,Καλαβασός,Kalavasos,n.a.,20744400
+CY000,4,4303,no,Τόχνη,Tochni,n.a.,17294600
+CY000,4,4304,no,Χοιροκoιτία,Choirokoitia,n.a.,17635800
+CY000,4,4305,no,Ψεματισμένος,Psematismenos,n.a.,8135020
+CY000,4,4306,no,Μαρώνι,Maroni,n.a.,14131700
+CY000,4,4307,no,Άγιος Θεόδωρος Λάρνακας,Agios Theodoros Larnakas,n.a.,38166800
+CY000,4,4308,no,Σκαρίνου,Skarinou,n.a.,11580400
+CY000,4,4309,no,Κοφίνου,Kofinou,n.a.,27824300
+CY000,4,4310,no,Κάτω Λεύκαρα,Kato Lefkara,n.a.,11594600
+CY000,4,4311,no,Πάνω Λεύκαρα,Pano Lefkara ,n.a.,62174400
+CY000,4,4312,no,Κάτω Δρυς,Kato Drys,n.a.,13679700
+CY000,4,4313,no,Βάβλα ,Vavla ,n.a.,9815910
+CY000,4,4314,no,Λάγεια,Lageia,n.a.,10214800
+CY000,4,4315,no,Ορά ,Ora ,n.a.,27134800
+CY000,4,4316,no,Μελίνη,Melini,n.a.,7550060
+CY000,4,4317,no,Οδού,Odou,n.a.,11868900
+CY000,4,4318,no,Άγιοι Βαβατσινιάς,Agioi Vavatsinias,n.a.,15453100
+CY000,4,4319,no,Βαβατσινιά,Vavatsinia,n.a.,14586700
+CY000,5,5000,no,Λεμεσός,Lemesos ,n.a.,34187300
+CY000,5,5011,no,Μέσα Γειτονιά,Mesa Geitonia,n.a.,3608190
+CY000,5,5012,no,Άγιος Αθανάσιος,Agios Athanasios ,n.a.,14171100
+CY000,5,5013,no,Γερμασόγεια,Germasogeia ,n.a.,15991600
+CY000,5,5020,no,Πάνω Πολεμίδια,Pano Polemidia,n.a.,3737110
+CY000,5,5021,no,'Υψωνας,Ypsonas,n.a.,32664400
+CY000,5,5022,no,Κάτω Πολεμίδια,Kato Polemidia,n.a.,18098400
+CY000,5,5100,no,Παλόδεια,Palodeia,n.a.,8893620
+CY000,5,5101,no,Παραμύθα,Paramytha,n.a.,10175200
+CY000,5,5102,no,Σπιτάλι,Spitali,n.a.,2633960
+CY000,5,5103,no,Φασούλα Λεμεσού,Fasoula Lemesou,n.a.,15282800
+CY000,5,5104,no,Μαθικολώνη,Mathikoloni,n.a.,14411000
+CY000,5,5105,no,Γεράσα,Gerasa,n.a.,10283100
+CY000,5,5106,no,Αψιού,Apsiou,n.a.,20678600
+CY000,5,5107,no,Απεσιά,Apesia,n.a.,9600130
+CY000,5,5108,no,Κορφή,Korfi,n.a.,6010130
+CY000,5,5109,no,Λιμνάτης,Limnatis,n.a.,11718600
+CY000,5,5110,no,Καπηλειό,Kapileio,n.a.,9971070
+CY000,5,5120,no,Μουτταγιάκα,Mouttagiaka,n.a.,4855390
+CY000,5,5121,no,Αρμενοχώρι,Armenochori,n.a.,8195450
+CY000,5,5122,no,Φοινικάρια,Foinikaria,n.a.,12133700
+CY000,5,5123,no,Ακρούντα,Akrounta,n.a.,13235800
+CY000,5,5124,no,Άγιος Τύχων,Agios Tychon,n.a.,10421300
+CY000,5,5125,no,Παρεκκλησιά,Parekklisia,n.a.,25315700
+CY000,5,5126,no,Πεντάκωμο,Pentakomo,n.a.,19822900
+CY000,5,5127,no,Μοναγρούλλι,Monagroulli,n.a.,17656500
+CY000,5,5128,no,Μονή,Moni,n.a.,8166860
+CY000,5,5129,no,Πύργος Λεμεσού ,Pyrgos Lemesou,n.a.,14709500
+CY000,5,5130,no,Ασγάτα ,Asgata ,n.a.,19892200
+CY000,5,5131,no,Βάσα Κελλακίου,Vasa Kellakiou,n.a.,16452800
+CY000,5,5132,no,Σανίδα,Sanida,n.a.,10699600
+CY000,5,5133,no,Πραστιό Κελλακίου,Prastio Kellakiou,n.a.,17207600
+CY000,5,5134,no,Κλωνάρι,Klonari,n.a.,3231770
+CY000,5,5135,no,Βίκλα,Vikla,n.a.,3942630
+CY000,5,5136,no,Κελλάκι ,Kellaki ,n.a.,9254600
+CY000,5,5137,no,Ακαπνού,Akapnou,n.a.,6647050
+CY000,5,5138,no,Επταγώνεια,Eptagoneia,n.a.,12123200
+CY000,5,5140,no,Διερώνα,Dierona,n.a.,23032400
+CY000,5,5141,no,Αρακαπάς,Arakapas,n.a.,12424400
+CY000,5,5142,no,Άγιος Παύλος,Agios Pavlos,n.a.,5680540
+CY000,5,5143,no,Άγιος Κωνσταντίνος,Agios Konstantinos,n.a.,8789610
+CY000,5,5144,no,Συκόπετρα,Sykopetra,n.a.,14073300
+CY000,5,5145,no,Λουβαράς,Louvaras,n.a.,10417900
+CY000,5,5146,no,Καλό Χωριό Λεμεσού,Kalo Chorio Lemesou,n.a.,24318000
+CY000,5,5147,no,Ζωοπηγή,Zoopigi,n.a.,10970600
+CY000,5,5200,no,Ακρωτήρι,Akrotiri ,n.a.,50873700
+CY000,5,5201,no,Ασώματος Λεμεσού,Asomatos Lemesou,n.a.,14015000
+CY000,5,5202,no,Τσερκέζοι,Tserkezoi,n.a.,9098530
+CY000,5,5203,no,Τραχώνι Λεμεσού,Trachoni Lemesou,n.a.,4609220
+CY000,5,5210,no,Κολόσσι,Kolossi,n.a.,9615850
+CY000,5,5211,no,Ερήμη,Erimi,n.a.,6136900
+CY000,5,5212,no,Επισκοπή Λεμεσού,Episkopi Lemesou,n.a.,24375500
+CY000,5,5213,no,Καντού,Kantou,n.a.,11532200
+CY000,5,5214,no,Σωτήρα Λεμεσού,Sotira Lemesou,n.a.,28219100
+CY000,5,5220,no,Πραστιό Αυδήμου,Prastio Avdimou,n.a.,12839700
+CY000,5,5221,no,Παραμάλι,Paramali,n.a.,19773700
+CY000,5,5222,no,Αυδήμου,Avdimou,n.a.,19333400
+CY000,5,5223,no,Πλατανίστεια,Platanisteia,n.a.,13186700
+CY000,5,5224,no,Άγιος Θωμάς,Agios Thomas,n.a.,4061370
+CY000,5,5225,no,Αλέκτορα,Alektora,n.a.,18679600
+CY000,5,5226,no,Ανώγυρα,Anogyra,n.a.,21042200
+CY000,5,5227,no,Πισσούρι,Pissouri,n.a.,40243700
+CY000,5,5300,no,Σούνι-Ζανακιά,Souni-Zanakia,n.a.,20652100
+CY000,5,5302,no,Άλασσα,Alassa,n.a.,9220930
+CY000,5,5303,no,Κάτω Κιβίδες,Kato Kivides,n.a.,5759350
+CY000,5,5304,no,Πάνω Κιβίδες,Pano Kivides,n.a.,17599800
+CY000,5,5305,no,Άγιος Αμβρόσιος Λεμεσού,Agios Amvrosios Lemesou,n.a.,14481900
+CY000,5,5306,no,Άγιος Θεράπων,Agios Therapon,n.a.,16401900
+CY000,5,5307,no,Λόφου,Lofou,n.a.,12483300
+CY000,5,5308,no,Πάχνα,Pachna,n.a.,28919600
+CY000,5,5310,no,Άγιος Γεώργιος Λεμεσού,Agios Georgios Lemesou,n.a.,5823410
+CY000,5,5311,no,Δωρός,Doros,n.a.,5495970
+CY000,5,5312,no,Λάνεια,Laneia,n.a.,7941630
+CY000,5,5313,no,Σιλίκου,Silikou,n.a.,7456820
+CY000,5,5314,no,Μονάγρι,Monagri,n.a.,7155490
+CY000,5,5315,no,Τριμήκληνη,Trimiklini,n.a.,7191490
+CY000,5,5316,no,Άγιος Μάμας,Agios Mamas,n.a.,14883400
+CY000,5,5317,no,Κουκά,Kouka,n.a.,1768540
+CY000,5,5318,no,Μονιάτης,Moniatis,n.a.,14618500
+CY000,5,5320,no,Δωρά,Dora,n.a.,17171300
+CY000,5,5321,no,Γεροβάσα (Τρόζενα),Gerovasa (Trozena),n.a.,4707790
+CY000,5,5322,no,Άρσος Λεμεσού ,Arsos Lemesou,n.a.,10076400
+CY000,5,5323,no,Κισσούσα,Kissousa,n.a.,2886010
+CY000,5,5324,no,Μαλιά,Malia,n.a.,12738100
+CY000,5,5325,no,Βάσα Κοιλανίου,Vasa Koilaniou,n.a.,8360550
+CY000,5,5326,no,Βουνί,Vouni,n.a.,15083700
+CY000,5,5327,no,Πέρα Πεδί,Pera Pedi,n.a.,7215920
+CY000,5,5328,no,Μανδριά Λεμεσού,Mandria Lemesou,n.a.,6321380
+CY000,5,5329,no,Ποταμιού,Potamiou,n.a.,3570360
+CY000,5,5330,no,Όμοδος,Omodos,n.a.,13726300
+CY000,5,5331,no,Κοιλάνι,Koilani,n.a.,11509300
+CY000,5,5340,no,Άγιος Δημήτριος,Agios Dimitrios,n.a.,3285420
+CY000,5,5341,no,Παλαιόμυλος,Palaiomylos,n.a.,4254210
+CY000,5,5342,no,Πρόδρομος ,Prodromos ,n.a.,7447860
+CY000,5,5343,no,Καμινάρια,Kaminaria,n.a.,6361060
+CY000,5,5344,no,Τρεις Ελιές,Treis Elies,n.a.,4695840
+CY000,5,5345,no,Λεμίθου,Lemithou,n.a.,5965280
+CY000,5,5350,no,Κάτω Πλάτρες (Toρνάρηδες),Kato Platres (Tornarides),n.a.,8688910
+CY000,5,5351,yes,Πάνω Πλάτρες ,Pano Platres ,n.a.,16075353
+CY000,5,5352,no,Φοινί ,Foini ,n.a.,22191900
+CY000,5,5355,no,Αμίαντος,Amiantos,n.a.,9226000
+CY000,5,5356,yes,Τρόοδος,Troodos,n.a.,10888647
+CY000,5,5360,no,Άγιος Θεόδωρος Λεμεσού,Agios Theodoros Lemesou,n.a.,10443600
+CY000,5,5361,no,Άγιος Ιωάννης Λεμεσού,Agios Ioannis Lemesou,n.a.,7674430
+CY000,5,5362,no,Κάτω Μύλος,Kato Mylos,n.a.,2741220
+CY000,5,5363,no,Ποταμίτισσα,Potamitissa,n.a.,4702090
+CY000,5,5364,no,Δύμες,Dymes,n.a.,6073030
+CY000,5,5365,no,Πελένδρι ,Pelendri ,n.a.,32107700
+CY000,5,5366,no,Αγρός,Agros,n.a.,10270300
+CY000,5,5367,no,Αγρίδια,Agridia,n.a.,4232200
+CY000,5,5368,no,Χανδριά,Chandria,n.a.,2570220
+CY000,5,5369,no,Κυπερούντα,Kyperounta,n.a.,8773510
+CY000,6,6000,no,Πάφος,Pafos,n.a.,18088200
+CY000,6,6010,no,Γεροσκήπου,Geroskipou ,n.a.,10859600
+CY000,6,6011,no,Κονιά,Konia,n.a.,6151370
+CY000,6,6012,no,Αγία Μαρινούδα,Agia Marinouda,n.a.,1489470
+CY000,6,6014,no,Αχέλεια,Acheleia,n.a.,10061700
+CY000,6,6020,no,Χλώρακας,Chlorakas,n.a.,5654640
+CY000,6,6021,no,Λέμπα,Lempa,n.a.,1473760
+CY000,6,6022,no,Έμπα,Empa,n.a.,6282570
+CY000,6,6023,no,Τρεμιθούσα,Tremithousa,n.a.,5287030
+CY000,6,6024,no,Μέσα Χωριό,Mesa Chorio,n.a.,3985540
+CY000,6,6025,no,Μεσόγη,Mesogi,n.a.,4165210
+CY000,6,6026,no,Τάλα ,Tala ,n.a.,9235050
+CY000,6,6027,no,Κισσόνεργα,Kissonerga,n.a.,9537890
+CY000,6,6100,no,Κούκλια Πάφου,Kouklia Pafou,n.a.,43266200
+CY000,6,6101,no,Μανδριά Πάφου,Mandria Pafou,n.a.,7669780
+CY000,6,6102,no,Νικόκλεια,Nikokleia,n.a.,2898630
+CY000,6,6103,no,Σουσκιού,Souskiou,n.a.,16184800
+CY000,6,6104,no,Τίμη,Timi,n.a.,11608200
+CY000,6,6106,no,Αγία Βαρβάρα Πάφου,Agia Varvara Pafou,n.a.,7348640
+CY000,6,6107,no,Αναρίτα,Anarita,n.a.,14907500
+CY000,6,6108,no,Φοίνικας,Foinikas,n.a.,5023840
+CY000,6,6110,no,Μαραθούντα,Marathounta,n.a.,13032300
+CY000,6,6111,no,Άρμου,Armou,n.a.,6781460
+CY000,6,6112,no,Επισκοπή Πάφου,Episkopi Pafou,n.a.,13264900
+CY000,6,6113,no,Νατά,Nata,n.a.,12651200
+CY000,6,6114,no,Χολέτρια,Choletria,n.a.,7236530
+CY000,6,6115,no,Αξύλου,Axylou,n.a.,6097250
+CY000,6,6116,no,Ελεδιό,Eledio,n.a.,3557800
+CY000,6,6120,no,Τσάδα,Tsada,n.a.,17006300
+CY000,6,6121,no,Κοίλη,Koili,n.a.,16329800
+CY000,6,6122,no,Στρουμπί,Stroumpi,n.a.,13538700
+CY000,6,6123,no,Πολέμι,Polemi,n.a.,11538900
+CY000,6,6124,no,Καλλέπεια ,Kallepeia ,n.a.,12147600
+CY000,6,6125,no,Λετύμβου,Letymvou,n.a.,10222400
+CY000,6,6126,no,Πιταργού ,Pitargou ,n.a.,5612140
+CY000,6,6127,no,Κούρδακα,Kourdaka,n.a.,1568510
+CY000,6,6128,no,Λεμώνα,Lemona,n.a.,7560660
+CY000,6,6129,no,Χούλου,Choulou,n.a.,11633700
+CY000,6,6130,no,Ακουρσός,Akoursos,n.a.,8226770
+CY000,6,6132,no,Κάθικας,Kathikas,n.a.,18445800
+CY000,6,6133,no,Πέγεια,Pegeia ,n.a.,50641000
+CY000,6,6200,no,Πάνω Aρχιμανδρίτα,Pano Archimandrita,n.a.,18563600
+CY000,6,6201,no,Φασούλα Πάφου,Fasoula Pafou,n.a.,6691510
+CY000,6,6202,no,Μούσερε,Mousere,n.a.,7943950
+CY000,6,6203,no,Μάρωνας,Maronas,n.a.,7136420
+CY000,6,6204,no,Μαμώνια,Mamonia,n.a.,8219680
+CY000,6,6205,no,Άγιος Γεώργιος Πάφου,Agios Georgios Pafou,n.a.,4645420
+CY000,6,6206,no,Σταυροκόννου,Stavrokonnou,n.a.,9098070
+CY000,6,6207,no,Πραστιό Πάφου,Prastio Pafou,n.a.,5652380
+CY000,6,6208,no,Τραχυπέδουλα,Trachypedoula,n.a.,9018350
+CY000,6,6210,no,Κελοκέδαρα,Kelokedara,n.a.,17125100
+CY000,6,6211,no,Σαλαμιού,Salamiou,n.a.,15907600
+CY000,6,6212,no,Κιδάσι,Kidasi,n.a.,5996910
+CY000,6,6213,no,Κέδαρες,Kedares,n.a.,4950200
+CY000,6,6214,no,Μέσανα,Mesana,n.a.,4132610
+CY000,6,6215,no,Πραιτώρι,Praitori,n.a.,3914310
+CY000,6,6216,no,Φιλούσα Κελοκεδάρων,Filousa Kelokedaron,n.a.,3065940
+CY000,6,6217,no,Αρμίνου,Arminou,n.a.,8990580
+CY000,6,6218,no,Άγιος Νικόλαος Πάφου,Agios Nikolaos Pafou,n.a.,26663900
+CY000,6,6219,no,Άγιος Ιωάννης Πάφου,Agios Ioannis Pafou,n.a.,18784700
+CY000,6,6220,no,Αμαργέτη,Amargeti,n.a.,15091900
+CY000,6,6221,no,Αγία Μαρίνα Κελοκεδάρων,Agia Marina Kelokedaron,n.a.,8010800
+CY000,6,6222,no,Πενταλιά,Pentalia,n.a.,14491900
+CY000,6,6223,no,Φάλεια,Faleia,n.a.,4037810
+CY000,6,6224,no,Γαλαταριά,Galataria,n.a.,8275340
+CY000,6,6225,no,Κοιλίνεια,Koilineia,n.a.,5148720
+CY000,6,6226,no,Βρέτσια,Vretsia,n.a.,11082100
+CY000,6,6227,no,Στατός-Άγιος Φώτιος,Statos-Agios Fotios,n.a.,16380900
+CY000,6,6228,no,Λαπηθιού,Lapithiou,n.a.,4573930
+CY000,6,6229,no,Μαμούνταλη,Mamountali,n.a.,1763530
+CY000,6,6230,no,Πάνω Παναγιά,Pano Panagia,n.a.,53045500
+CY000,6,6231,no,Ασπρογιά,Asprogia,n.a.,11532800
+CY000,6,6300,no,Ψάθι,Psathi,n.a.,2299710
+CY000,6,6301,no,Άγιος Δημητριανός,Agios Dimitrianos,n.a.,5427730
+CY000,6,6302,no,Κανναβιού ,Kannaviou ,n.a.,5241830
+CY000,6,6303,no,Θρινιά,Thrinia ,n.a.,5272520
+CY000,6,6304,no,Μηλιά Πάφου,Milia Pafou,n.a.,2173080
+CY000,6,6305,no,Κρίτου Μαρόττου,Kritou Marottou,n.a.,15670600
+CY000,6,6306,no,Φύτη,Fyti,n.a.,4533100
+CY000,6,6307,no,Λάσα,Lasa,n.a.,4383230
+CY000,6,6308,no,Δρύμου,Drymou,n.a.,6509090
+CY000,6,6310,no,Σίμου,Simou,n.a.,5725040
+CY000,6,6311,no,Αναδιού,Anadiou,n.a.,12414300
+CY000,6,6312,no,Σαραμά,Sarama,n.a.,3602250
+CY000,6,6313,no,Ευρέτου,Evretou,n.a.,3438020
+CY000,6,6314,no,Τριμιθούσα,Trimithousa,n.a.,2569520
+CY000,6,6315,no,Φιλούσα Χρυσοχούς,Filousa Chrysochous,n.a.,4856870
+CY000,6,6316,no,Κιός ,Kios,n.a.,4565110
+CY000,6,6317,no,Ζαχαριά,Zacharia,n.a.,4161340
+CY000,6,6318,no,Μελάδεια,Meladeia,n.a.,3403990
+CY000,6,6319,no,Μελάνδρα,Melandra,n.a.,3926330
+CY000,6,6320,no,Λυσός,Lysos,n.a.,95039400
+CY000,6,6321,no,Περιστερώνα Πάφου,Peristerona Pafou,n.a.,5793670
+CY000,6,6330,no,Θελέτρα,Theletra,n.a.,8831290
+CY000,6,6331,no,Γιόλου,Giolou,n.a.,9763470
+CY000,6,6332,no,Πάνω Ακουρδάλεια,Pano Akourdaleia,n.a.,2677630
+CY000,6,6333,no,Μηλιού ,Miliou ,n.a.,2497010
+CY000,6,6334,no,Κάτω Ακουρδάλεια,Kato Akourdaleia,n.a.,3017870
+CY000,6,6335,no,Τέρα,Tera,n.a.,6592740
+CY000,6,6336,no,Κρίτου Τέρα,Kritou Tera,n.a.,10243600
+CY000,6,6337,no,Σκούλλη,Skoulli,n.a.,1908560
+CY000,6,6338,no,Χόλη,Choli,n.a.,1583430
+CY000,6,6339,no,Λουκρούνου,Loukrounou,n.a.,1871350
+CY000,6,6340,no,Καραμούλληδες,Karamoullides,n.a.,276339
+CY000,6,6341,no,Χρυσοχού,Chrysochou,n.a.,6365440
+CY000,6,6343,no,Πόλις,Polis ,n.a.,13369800
+CY000,6,6344,no,Νέο Χωριό Πάφου,Neo Chorio Pafou,n.a.,41408800
+CY000,6,6345,no,Γουδί,Goudi,n.a.,4824520
+CY000,6,6350,no,Κάτω Αρόδες,Kato Arodes,n.a.,10886900
+CY000,6,6351,no,Πάνω Αρόδες,Pano Arodes,n.a.,14334000
+CY000,6,6352,no,'Ινεια,Ineia,n.a.,36032400
+CY000,6,6353,no,Δρούσεια ,Drouseia ,n.a.,37221300
+CY000,6,6354,no,Φάσλι,Fasli,n.a.,5335890
+CY000,6,6355,no,Ανδρολίκου,Androlikou,n.a.,19319000
+CY000,6,6360,no,Πελαθούσα ,Pelathousa ,n.a.,7228200
+CY000,6,6361,no,Κυνούσα,Kynousa,n.a.,8300410
+CY000,6,6362,no,Μακούντα,Makounta,n.a.,7680820
+CY000,6,6363,no,Αργάκα,Argaka,n.a.,16151600
+CY000,6,6364,no,Γιαλιά,Gialia,n.a.,36477900
+CY000,6,6365,no,Αγία Μαρίνα Χρυσοχούς,Agia Marina Chrysochous,n.a.,12656400
+CY000,6,6366,no,Νέα Δήμματα,Nea Dimmata,n.a.,2886270
+CY000,6,6367,no,Πομός ,Pomos ,n.a.,19591200
+CY000,6,6368,no,Στενή,Steni,n.a.,7855090
+CY000,6,6369,no,Άγιος Ισίδωρος,Agios Isidoros,n.a.,1296340
+CY000,6,6370,no,Λιβάδι,Livadi,n.a.,42117300

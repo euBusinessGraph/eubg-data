@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_%C3%87ank%C4%B1r%C4%B1_Province": {"Kur\u015funlu": ["Kur\u015funlu"], "\u015eaban\u00f6z\u00fc": ["\u015eaban\u00f6z\u00fc"], "Orta": ["Orta"], "Yaprakl\u0131": ["Yaprakl\u0131"]}}

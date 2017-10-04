@@ -1,0 +1,65 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:IS-1  ramon:name    "Höfuðborgarsvæði"@is ;
+        ramon:code      "IS-1" ;
+        rdfs:label      "IS-1 Höfuðborgarsvæði" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS001 .
+
+lau:IS-7  ramon:name    "Austurland"@is ;
+        ramon:code      "IS-7" ;
+        rdfs:label      "IS-7 Austurland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .
+
+lau:IS-6  ramon:name    "Norðurland eystra"@is ;
+        ramon:code      "IS-6" ;
+        rdfs:label      "IS-6 Norðurland eystra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .
+
+lau:IS-5  ramon:name    "Norðurland vestra"@is ;
+        ramon:code      "IS-5" ;
+        rdfs:label      "IS-5 Norðurland vestra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .
+
+lau:IS-2  ramon:name    "Suðurnes"@is ;
+        ramon:code      "IS-2" ;
+        rdfs:label      "IS-2 Suðurnes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .
+
+lau:IS-8  ramon:name    "Suðurland"@is ;
+        ramon:code      "IS-8" ;
+        rdfs:label      "IS-8 Suðurland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .
+
+lau:IS-3  ramon:name    "Vesturland"@is ;
+        ramon:code      "IS-3" ;
+        rdfs:label      "IS-3 Vesturland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .
+
+lau:IS-4  ramon:name    "Vestfirðir"@is ;
+        ramon:code      "IS-4" ;
+        rdfs:label      "IS-4 Vestfirðir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:IS002 .

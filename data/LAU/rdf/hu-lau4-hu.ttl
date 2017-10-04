@@ -1,0 +1,1234 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:HU-041  ramon:name  "Kiskunhalas"@en ;
+        ramon:name      "Kiskunhalas"@hu ;
+        ramon:code      "HU-041" ;
+        rdfs:label      "HU-041 Kiskunhalas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-098  ramon:name  "Hajdúhadház"@en ;
+        ramon:name      "Hajdúhadház"@hu ;
+        ramon:code      "HU-098" ;
+        rdfs:label      "HU-098 Hajdúhadház" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-099  ramon:name  "Hajdúnánás"@en ;
+        ramon:name      "Hajdúnánás"@hu ;
+        ramon:code      "HU-099" ;
+        rdfs:label      "HU-099 Hajdúnánás" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-090  ramon:name  "Pannonhalma"@en ;
+        ramon:name      "Pannonhalma"@hu ;
+        ramon:code      "HU-090" ;
+        rdfs:label      "HU-090 Pannonhalma" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-091  ramon:name  "Sopron"@en ;
+        ramon:name      "Sopron"@hu ;
+        ramon:code      "HU-091" ;
+        rdfs:label      "HU-091 Sopron" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-092  ramon:name  "Tét"@en ;
+        ramon:name      "Tét"@hu ;
+        ramon:code      "HU-092" ;
+        rdfs:label      "HU-092 Tét" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-093  ramon:name  "Balmazújváros"@en ;
+        ramon:name      "Balmazújváros"@hu ;
+        ramon:code      "HU-093" ;
+        rdfs:label      "HU-093 Balmazújváros" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-094  ramon:name  "Berettyóújfalu"@en ;
+        ramon:name      "Berettyóújfalu"@hu ;
+        ramon:code      "HU-094" ;
+        rdfs:label      "HU-094 Berettyóújfalu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-095  ramon:name  "Debrecen"@en ;
+        ramon:name      "Debrecen"@hu ;
+        ramon:code      "HU-095" ;
+        rdfs:label      "HU-095 Debrecen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-096  ramon:name  "Derecske"@en ;
+        ramon:name      "Derecske"@hu ;
+        ramon:code      "HU-096" ;
+        rdfs:label      "HU-096 Derecske" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-097  ramon:name  "Hajdúböszörmény"@en ;
+        ramon:name      "Hajdúböszörmény"@hu ;
+        ramon:code      "HU-097" ;
+        rdfs:label      "HU-097 Hajdúböszörmény" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-133  ramon:name  "Pilisvörösvár"@en ;
+        ramon:name      "Pilisvörösvár"@hu ;
+        ramon:code      "HU-133" ;
+        rdfs:label      "HU-133 Pilisvörösvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-132  ramon:name  "Nagykőrös"@en ;
+        ramon:name      "Nagykőrös"@hu ;
+        ramon:code      "HU-132" ;
+        rdfs:label      "HU-132 Nagykőrös" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-131  ramon:name  "Nagykáta"@en ;
+        ramon:name      "Nagykáta"@hu ;
+        ramon:code      "HU-131" ;
+        rdfs:label      "HU-131 Nagykáta" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-130  ramon:name  "Monor"@en ;
+        ramon:name      "Monor"@hu ;
+        ramon:code      "HU-130" ;
+        rdfs:label      "HU-130 Monor" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-137  ramon:name  "Nagymaros"@en ;
+        ramon:name      "Nagymaros"@hu ;
+        ramon:code      "HU-137" ;
+        rdfs:label      "HU-137 Nagymaros" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-136  ramon:name  "Szigetszentmiklós"@en ;
+        ramon:name      "Szigetszentmiklós"@hu ;
+        ramon:code      "HU-136" ;
+        rdfs:label      "HU-136 Szigetszentmiklós" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-135  ramon:name  "Szentendre"@en ;
+        ramon:name      "Szentendre"@hu ;
+        ramon:code      "HU-135" ;
+        rdfs:label      "HU-135 Szentendre" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-134  ramon:name  "Ráckeve"@en ;
+        ramon:name      "Ráckeve"@hu ;
+        ramon:code      "HU-134" ;
+        rdfs:label      "HU-134 Ráckeve" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-149  ramon:name  "Csenger"@en ;
+        ramon:name      "Csenger"@hu ;
+        ramon:code      "HU-149" ;
+        rdfs:label      "HU-149 Csenger" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-138  ramon:name  "Vác"@en ;
+        ramon:name      "Vác"@hu ;
+        ramon:code      "HU-138" ;
+        rdfs:label      "HU-138 Vác" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-040  ramon:name  "Kiskunfélegyháza"@en ;
+        ramon:name      "Kiskunfélegyháza"@hu ;
+        ramon:code      "HU-040" ;
+        rdfs:label      "HU-040 Kiskunfélegyháza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-999  ramon:name  "Budapest"@en ;
+        ramon:name      "Budapest"@hu ;
+        ramon:code      "HU-999" ;
+        rdfs:label      "HU-999 Budapest" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-025  ramon:name  "Sásd"@en ;
+        ramon:name      "Sásd"@hu ;
+        ramon:code      "HU-025" ;
+        rdfs:label      "HU-025 Sásd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-024  ramon:name  "Bóly"@en ;
+        ramon:name      "Bóly"@hu ;
+        ramon:code      "HU-024" ;
+        rdfs:label      "HU-024 Bóly" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-122  ramon:name  "Tura"@en ;
+        ramon:name      "Tura"@hu ;
+        ramon:code      "HU-122" ;
+        rdfs:label      "HU-122 Tura" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-123  ramon:name  "Budaörs"@en ;
+        ramon:name      "Budaörs"@hu ;
+        ramon:code      "HU-123" ;
+        rdfs:label      "HU-123 Budaörs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-124  ramon:name  "Cegléd"@en ;
+        ramon:name      "Cegléd"@hu ;
+        ramon:code      "HU-124" ;
+        rdfs:label      "HU-124 Cegléd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-125  ramon:name  "Dabas"@en ;
+        ramon:name      "Dabas"@hu ;
+        ramon:code      "HU-125" ;
+        rdfs:label      "HU-125 Dabas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-126  ramon:name  "Dunakeszi"@en ;
+        ramon:name      "Dunakeszi"@hu ;
+        ramon:code      "HU-126" ;
+        rdfs:label      "HU-126 Dunakeszi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-127  ramon:name  "Érd"@en ;
+        ramon:name      "Érd"@hu ;
+        ramon:code      "HU-127" ;
+        rdfs:label      "HU-127 Érd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-128  ramon:name  "Gödöllő"@en ;
+        ramon:name      "Gödöllő"@hu ;
+        ramon:code      "HU-128" ;
+        rdfs:label      "HU-128 Gödöllő" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-129  ramon:name  "Gyál"@en ;
+        ramon:name      "Gyál"@hu ;
+        ramon:code      "HU-129" ;
+        rdfs:label      "HU-129 Gyál" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-029  ramon:name  "Pécsvárad"@en ;
+        ramon:name      "Pécsvárad"@hu ;
+        ramon:code      "HU-029" ;
+        rdfs:label      "HU-029 Pécsvárad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-028  ramon:name  "Pécs"@en ;
+        ramon:name      "Pécs"@hu ;
+        ramon:code      "HU-028" ;
+        rdfs:label      "HU-028 Pécs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-198  ramon:name  "Zalaszentgrót"@en ;
+        ramon:name      "Zalaszentgrót"@hu ;
+        ramon:code      "HU-198" ;
+        rdfs:label      "HU-198 Zalaszentgrót" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-195  ramon:name  "Letenye"@en ;
+        ramon:name      "Letenye"@hu ;
+        ramon:code      "HU-195" ;
+        rdfs:label      "HU-195 Letenye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-194  ramon:name  "Lenti"@en ;
+        ramon:name      "Lenti"@hu ;
+        ramon:code      "HU-194" ;
+        rdfs:label      "HU-194 Lenti" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-197  ramon:name  "Zalaegerszeg"@en ;
+        ramon:name      "Zalaegerszeg"@hu ;
+        ramon:code      "HU-197" ;
+        rdfs:label      "HU-197 Zalaegerszeg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-196  ramon:name  "Nagykanizsa"@en ;
+        ramon:name      "Nagykanizsa"@hu ;
+        ramon:code      "HU-196" ;
+        rdfs:label      "HU-196 Nagykanizsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-191  ramon:name  "Veszprém"@en ;
+        ramon:name      "Veszprém"@hu ;
+        ramon:code      "HU-191" ;
+        rdfs:label      "HU-191 Veszprém" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-144  ramon:name  "Marcali"@en ;
+        ramon:name      "Marcali"@hu ;
+        ramon:code      "HU-144" ;
+        rdfs:label      "HU-144 Marcali" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-193  ramon:name  "Keszthely"@en ;
+        ramon:name      "Keszthely"@hu ;
+        ramon:code      "HU-193" ;
+        rdfs:label      "HU-193 Keszthely" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-192  ramon:name  "Zirc"@en ;
+        ramon:name      "Zirc"@hu ;
+        ramon:code      "HU-192" ;
+        rdfs:label      "HU-192 Zirc" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-115  ramon:name  "Tatabánya"@en ;
+        ramon:name      "Tatabánya"@hu ;
+        ramon:code      "HU-115" ;
+        rdfs:label      "HU-115 Tatabánya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-114  ramon:name  "Tata"@en ;
+        ramon:name      "Tata"@hu ;
+        ramon:code      "HU-114" ;
+        rdfs:label      "HU-114 Tata" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-038  ramon:name  "Kecskemét"@en ;
+        ramon:name      "Kecskemét"@hu ;
+        ramon:code      "HU-038" ;
+        rdfs:label      "HU-038 Kecskemét" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-039  ramon:name  "Kiskőrös"@en ;
+        ramon:name      "Kiskőrös"@hu ;
+        ramon:code      "HU-039" ;
+        rdfs:label      "HU-039 Kiskőrös" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-111  ramon:name  "Kisbér"@en ;
+        ramon:name      "Kisbér"@hu ;
+        ramon:code      "HU-111" ;
+        rdfs:label      "HU-111 Kisbér" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-110  ramon:name  "Esztergom"@en ;
+        ramon:name      "Esztergom"@hu ;
+        ramon:code      "HU-110" ;
+        rdfs:label      "HU-110 Esztergom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-113  ramon:name  "Oroszlány"@en ;
+        ramon:name      "Oroszlány"@hu ;
+        ramon:code      "HU-113" ;
+        rdfs:label      "HU-113 Oroszlány" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-112  ramon:name  "Komárom"@en ;
+        ramon:name      "Komárom"@hu ;
+        ramon:code      "HU-112" ;
+        rdfs:label      "HU-112 Komárom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-032  ramon:name  "Szentlőrinc"@en ;
+        ramon:name      "Szentlőrinc"@hu ;
+        ramon:code      "HU-032" ;
+        rdfs:label      "HU-032 Szentlőrinc" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-033  ramon:name  "Szigetvár"@en ;
+        ramon:name      "Szigetvár"@hu ;
+        ramon:code      "HU-033" ;
+        rdfs:label      "HU-033 Szigetvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-030  ramon:name  "Sellye"@en ;
+        ramon:name      "Sellye"@hu ;
+        ramon:code      "HU-030" ;
+        rdfs:label      "HU-030 Sellye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-031  ramon:name  "Siklós"@en ;
+        ramon:name      "Siklós"@hu ;
+        ramon:code      "HU-031" ;
+        rdfs:label      "HU-031 Siklós" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-119  ramon:name  "Diósjenő"@en ;
+        ramon:name      "Diósjenő"@hu ;
+        ramon:code      "HU-119" ;
+        rdfs:label      "HU-119 Diósjenő" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-118  ramon:name  "Pásztó"@en ;
+        ramon:name      "Pásztó"@hu ;
+        ramon:code      "HU-118" ;
+        rdfs:label      "HU-118 Pásztó" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-034  ramon:name  "Bácsalmás"@en ;
+        ramon:name      "Bácsalmás"@hu ;
+        ramon:code      "HU-034" ;
+        rdfs:label      "HU-034 Bácsalmás" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-035  ramon:name  "Baja"@en ;
+        ramon:name      "Baja"@hu ;
+        ramon:code      "HU-035" ;
+        rdfs:label      "HU-035 Baja" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-174  ramon:name  "Tamási"@en ;
+        ramon:name      "Tamási"@hu ;
+        ramon:code      "HU-174" ;
+        rdfs:label      "HU-174 Tamási" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-050  ramon:name  "Orosháza"@en ;
+        ramon:name      "Orosháza"@hu ;
+        ramon:code      "HU-050" ;
+        rdfs:label      "HU-050 Orosháza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-172  ramon:name  "Paks"@en ;
+        ramon:name      "Paks"@hu ;
+        ramon:code      "HU-172" ;
+        rdfs:label      "HU-172 Paks" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-052  ramon:name  "Szarvas"@en ;
+        ramon:name      "Szarvas"@hu ;
+        ramon:code      "HU-052" ;
+        rdfs:label      "HU-052 Szarvas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-053  ramon:name  "Szeghalom"@en ;
+        ramon:name      "Szeghalom"@hu ;
+        ramon:code      "HU-053" ;
+        rdfs:label      "HU-053 Szeghalom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-178  ramon:name  "Kőszeg"@en ;
+        ramon:name      "Kőszeg"@hu ;
+        ramon:code      "HU-178" ;
+        rdfs:label      "HU-178 Kőszeg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-108  ramon:name  "Heves"@en ;
+        ramon:name      "Heves"@hu ;
+        ramon:code      "HU-108" ;
+        rdfs:label      "HU-108 Heves" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-109  ramon:name  "Recsk"@en ;
+        ramon:name      "Recsk"@hu ;
+        ramon:code      "HU-109" ;
+        rdfs:label      "HU-109 Recsk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-148  ramon:name  "Baktalórántháza"@en ;
+        ramon:name      "Baktalórántháza"@hu ;
+        ramon:code      "HU-148" ;
+        rdfs:label      "HU-148 Baktalórántháza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-049  ramon:name  "Mezőkovácsháza"@en ;
+        ramon:name      "Mezőkovácsháza"@hu ;
+        ramon:code      "HU-049" ;
+        rdfs:label      "HU-049 Mezőkovácsháza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-048  ramon:name  "Gyula"@en ;
+        ramon:name      "Gyula"@hu ;
+        ramon:code      "HU-048" ;
+        rdfs:label      "HU-048 Gyula" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-102  ramon:name  "Püspökladány"@en ;
+        ramon:name      "Püspökladány"@hu ;
+        ramon:code      "HU-102" ;
+        rdfs:label      "HU-102 Püspökladány" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-103  ramon:name  "Bélapátfalva"@en ;
+        ramon:name      "Bélapátfalva"@hu ;
+        ramon:code      "HU-103" ;
+        rdfs:label      "HU-103 Bélapátfalva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-045  ramon:name  "Békés"@en ;
+        ramon:name      "Békés"@hu ;
+        ramon:code      "HU-045" ;
+        rdfs:label      "HU-045 Békés" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-101  ramon:name  "Nyíradony"@en ;
+        ramon:name      "Nyíradony"@hu ;
+        ramon:code      "HU-101" ;
+        rdfs:label      "HU-101 Nyíradony" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-043  ramon:name  "Kunszentmiklós"@en ;
+        ramon:name      "Kunszentmiklós"@hu ;
+        ramon:code      "HU-043" ;
+        rdfs:label      "HU-043 Kunszentmiklós" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-107  ramon:name  "Hatvan"@en ;
+        ramon:name      "Hatvan"@hu ;
+        ramon:code      "HU-107" ;
+        rdfs:label      "HU-107 Hatvan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-104  ramon:name  "Eger"@en ;
+        ramon:name      "Eger"@hu ;
+        ramon:code      "HU-104" ;
+        rdfs:label      "HU-104 Eger" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-105  ramon:name  "Füzesabony"@en ;
+        ramon:name      "Füzesabony"@hu ;
+        ramon:code      "HU-105" ;
+        rdfs:label      "HU-105 Füzesabony" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-139  ramon:name  "Vecsés"@en ;
+        ramon:name      "Vecsés"@hu ;
+        ramon:code      "HU-139" ;
+        rdfs:label      "HU-139 Vecsés" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-054  ramon:name  "Cigánd"@en ;
+        ramon:name      "Cigánd"@hu ;
+        ramon:code      "HU-054" ;
+        rdfs:label      "HU-054 Cigánd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-151  ramon:name  "Ibrány"@en ;
+        ramon:name      "Ibrány"@hu ;
+        ramon:code      "HU-151" ;
+        rdfs:label      "HU-151 Ibrány" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-150  ramon:name  "Fehérgyarmat"@en ;
+        ramon:name      "Fehérgyarmat"@hu ;
+        ramon:code      "HU-150" ;
+        rdfs:label      "HU-150 Fehérgyarmat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-176  ramon:name  "Celldömölk"@en ;
+        ramon:name      "Celldömölk"@hu ;
+        ramon:code      "HU-176" ;
+        rdfs:label      "HU-176 Celldömölk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-074  ramon:name  "Mórahalom"@en ;
+        ramon:name      "Mórahalom"@hu ;
+        ramon:code      "HU-074" ;
+        rdfs:label      "HU-074 Mórahalom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-047  ramon:name  "Gyomaendrőd"@en ;
+        ramon:name      "Gyomaendrőd"@hu ;
+        ramon:code      "HU-047" ;
+        rdfs:label      "HU-047 Gyomaendrőd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-152  ramon:name  "Kemecse"@en ;
+        ramon:name      "Kemecse"@hu ;
+        ramon:code      "HU-152" ;
+        rdfs:label      "HU-152 Kemecse" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-058  ramon:name  "Kazincbarcika"@en ;
+        ramon:name      "Kazincbarcika"@hu ;
+        ramon:code      "HU-058" ;
+        rdfs:label      "HU-058 Kazincbarcika" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-059  ramon:name  "Mezőcsát"@en ;
+        ramon:name      "Mezőcsát"@hu ;
+        ramon:code      "HU-059" ;
+        rdfs:label      "HU-059 Mezőcsát" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-179  ramon:name  "Sárvár"@en ;
+        ramon:name      "Sárvár"@hu ;
+        ramon:code      "HU-179" ;
+        rdfs:label      "HU-179 Sárvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-046  ramon:name  "Békéscsaba"@en ;
+        ramon:name      "Békéscsaba"@hu ;
+        ramon:code      "HU-046" ;
+        rdfs:label      "HU-046 Békéscsaba" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-177  ramon:name  "Körmend"@en ;
+        ramon:name      "Körmend"@hu ;
+        ramon:code      "HU-177" ;
+        rdfs:label      "HU-177 Körmend" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-055  ramon:name  "Edelény"@en ;
+        ramon:name      "Edelény"@hu ;
+        ramon:code      "HU-055" ;
+        rdfs:label      "HU-055 Edelény" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-056  ramon:name  "Encs"@en ;
+        ramon:name      "Encs"@hu ;
+        ramon:code      "HU-056" ;
+        rdfs:label      "HU-056 Encs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-057  ramon:name  "Abaújszántó"@en ;
+        ramon:name      "Abaújszántó"@hu ;
+        ramon:code      "HU-057" ;
+        rdfs:label      "HU-057 Abaújszántó" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-173  ramon:name  "Szekszárd"@en ;
+        ramon:name      "Szekszárd"@hu ;
+        ramon:code      "HU-173" ;
+        rdfs:label      "HU-173 Szekszárd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-051  ramon:name  "Sarkad"@en ;
+        ramon:name      "Sarkad"@hu ;
+        ramon:code      "HU-051" ;
+        rdfs:label      "HU-051 Sarkad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-171  ramon:name  "Dombóvár"@en ;
+        ramon:name      "Dombóvár"@hu ;
+        ramon:code      "HU-171" ;
+        rdfs:label      "HU-171 Dombóvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-170  ramon:name  "Bonyhád"@en ;
+        ramon:name      "Bonyhád"@hu ;
+        ramon:code      "HU-170" ;
+        rdfs:label      "HU-170 Bonyhád" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-044  ramon:name  "Tiszakécske"@en ;
+        ramon:name      "Tiszakécske"@hu ;
+        ramon:code      "HU-044" ;
+        rdfs:label      "HU-044 Tiszakécske" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-070  ramon:name  "Csongrád"@en ;
+        ramon:name      "Csongrád"@hu ;
+        ramon:code      "HU-070" ;
+        rdfs:label      "HU-070 Csongrád" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-106  ramon:name  "Gyöngyös"@en ;
+        ramon:name      "Gyöngyös"@hu ;
+        ramon:code      "HU-106" ;
+        rdfs:label      "HU-106 Gyöngyös" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-175  ramon:name  "Tolna"@en ;
+        ramon:name      "Tolna"@hu ;
+        ramon:code      "HU-175" ;
+        rdfs:label      "HU-175 Tolna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-071  ramon:name  "Hódmezővásárhely"@en ;
+        ramon:name      "Hódmezővásárhely"@hu ;
+        ramon:code      "HU-071" ;
+        rdfs:label      "HU-071 Hódmezővásárhely" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-042  ramon:name  "Kiskunmajsa"@en ;
+        ramon:name      "Kiskunmajsa"@hu ;
+        ramon:code      "HU-042" ;
+        rdfs:label      "HU-042 Kiskunmajsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-182  ramon:name  "Vasvár"@en ;
+        ramon:name      "Vasvár"@hu ;
+        ramon:code      "HU-182" ;
+        rdfs:label      "HU-182 Vasvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-183  ramon:name  "Ajka"@en ;
+        ramon:name      "Ajka"@hu ;
+        ramon:code      "HU-183" ;
+        rdfs:label      "HU-183 Ajka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-180  ramon:name  "Szentgotthárd"@en ;
+        ramon:name      "Szentgotthárd"@hu ;
+        ramon:code      "HU-180" ;
+        rdfs:label      "HU-180 Szentgotthárd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-181  ramon:name  "Szombathely"@en ;
+        ramon:name      "Szombathely"@hu ;
+        ramon:code      "HU-181" ;
+        rdfs:label      "HU-181 Szombathely" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-186  ramon:name  "Devecser"@en ;
+        ramon:name      "Devecser"@hu ;
+        ramon:code      "HU-186" ;
+        rdfs:label      "HU-186 Devecser" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-187  ramon:name  "Pápa"@en ;
+        ramon:name      "Pápa"@hu ;
+        ramon:code      "HU-187" ;
+        rdfs:label      "HU-187 Pápa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-184  ramon:name  "Balatonalmádi"@en ;
+        ramon:name      "Balatonalmádi"@hu ;
+        ramon:code      "HU-184" ;
+        rdfs:label      "HU-184 Balatonalmádi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-185  ramon:name  "Balatonfüred"@en ;
+        ramon:name      "Balatonfüred"@hu ;
+        ramon:code      "HU-185" ;
+        rdfs:label      "HU-185 Balatonfüred" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-188  ramon:name  "Sümeg"@en ;
+        ramon:name      "Sümeg"@hu ;
+        ramon:code      "HU-188" ;
+        rdfs:label      "HU-188 Sümeg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-189  ramon:name  "Tapolca"@en ;
+        ramon:name      "Tapolca"@hu ;
+        ramon:code      "HU-189" ;
+        rdfs:label      "HU-189 Tapolca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-061  ramon:name  "Miskolc"@en ;
+        ramon:name      "Miskolc"@hu ;
+        ramon:code      "HU-061" ;
+        rdfs:label      "HU-061 Miskolc" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-060  ramon:name  "Mezőkövesd"@en ;
+        ramon:name      "Mezőkövesd"@hu ;
+        ramon:code      "HU-060" ;
+        rdfs:label      "HU-060 Mezőkövesd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-063  ramon:name  "Putnok"@en ;
+        ramon:name      "Putnok"@hu ;
+        ramon:code      "HU-063" ;
+        rdfs:label      "HU-063 Putnok" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-062  ramon:name  "Ózd"@en ;
+        ramon:name      "Ózd"@hu ;
+        ramon:code      "HU-062" ;
+        rdfs:label      "HU-062 Ózd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-065  ramon:name  "Sátoraljaújhely"@en ;
+        ramon:name      "Sátoraljaújhely"@hu ;
+        ramon:code      "HU-065" ;
+        rdfs:label      "HU-065 Sátoraljaújhely" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-064  ramon:name  "Sárospatak"@en ;
+        ramon:name      "Sárospatak"@hu ;
+        ramon:code      "HU-064" ;
+        rdfs:label      "HU-064 Sárospatak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-067  ramon:name  "Szikszó"@en ;
+        ramon:name      "Szikszó"@hu ;
+        ramon:code      "HU-067" ;
+        rdfs:label      "HU-067 Szikszó" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-066  ramon:name  "Szerencs"@en ;
+        ramon:name      "Szerencs"@hu ;
+        ramon:code      "HU-066" ;
+        rdfs:label      "HU-066 Szerencs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-069  ramon:name  "Tokaj"@en ;
+        ramon:name      "Tokaj"@hu ;
+        ramon:code      "HU-069" ;
+        rdfs:label      "HU-069 Tokaj" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-068  ramon:name  "Tiszaújváros"@en ;
+        ramon:name      "Tiszaújváros"@hu ;
+        ramon:code      "HU-068" ;
+        rdfs:label      "HU-068 Tiszaújváros" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-190  ramon:name  "Várpalota"@en ;
+        ramon:name      "Várpalota"@hu ;
+        ramon:code      "HU-190" ;
+        rdfs:label      "HU-190 Várpalota" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-168  ramon:name  "Tiszafüred"@en ;
+        ramon:name      "Tiszafüred"@hu ;
+        ramon:code      "HU-168" ;
+        rdfs:label      "HU-168 Tiszafüred" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-169  ramon:name  "Törökszentmiklós"@en ;
+        ramon:name      "Törökszentmiklós"@hu ;
+        ramon:code      "HU-169" ;
+        rdfs:label      "HU-169 Törökszentmiklós" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-164  ramon:name  "Kunhegyes"@en ;
+        ramon:name      "Kunhegyes"@hu ;
+        ramon:code      "HU-164" ;
+        rdfs:label      "HU-164 Kunhegyes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-165  ramon:name  "Tiszaföldvár"@en ;
+        ramon:name      "Tiszaföldvár"@hu ;
+        ramon:code      "HU-165" ;
+        rdfs:label      "HU-165 Tiszaföldvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-166  ramon:name  "Mezőtúr"@en ;
+        ramon:name      "Mezőtúr"@hu ;
+        ramon:code      "HU-166" ;
+        rdfs:label      "HU-166 Mezőtúr" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-167  ramon:name  "Szolnok"@en ;
+        ramon:name      "Szolnok"@hu ;
+        ramon:code      "HU-167" ;
+        rdfs:label      "HU-167 Szolnok" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-160  ramon:name  "Záhony"@en ;
+        ramon:name      "Záhony"@hu ;
+        ramon:code      "HU-160" ;
+        rdfs:label      "HU-160 Záhony" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-161  ramon:name  "Jászapáti"@en ;
+        ramon:name      "Jászapáti"@hu ;
+        ramon:code      "HU-161" ;
+        rdfs:label      "HU-161 Jászapáti" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-162  ramon:name  "Jászberény"@en ;
+        ramon:name      "Jászberény"@hu ;
+        ramon:code      "HU-162" ;
+        rdfs:label      "HU-162 Jászberény" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-163  ramon:name  "Karcag"@en ;
+        ramon:name      "Karcag"@hu ;
+        ramon:code      "HU-163" ;
+        rdfs:label      "HU-163 Karcag" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-117  ramon:name  "Bátonyterenye"@en ;
+        ramon:name      "Bátonyterenye"@hu ;
+        ramon:code      "HU-117" ;
+        rdfs:label      "HU-117 Bátonyterenye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-116  ramon:name  "Balassagyarmat"@en ;
+        ramon:name      "Balassagyarmat"@hu ;
+        ramon:code      "HU-116" ;
+        rdfs:label      "HU-116 Balassagyarmat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-076  ramon:name  "Szentes"@en ;
+        ramon:name      "Szentes"@hu ;
+        ramon:code      "HU-076" ;
+        rdfs:label      "HU-076 Szentes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-077  ramon:name  "Bicske"@en ;
+        ramon:name      "Bicske"@hu ;
+        ramon:code      "HU-077" ;
+        rdfs:label      "HU-077 Bicske" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-153  ramon:name  "Kisvárda"@en ;
+        ramon:name      "Kisvárda"@hu ;
+        ramon:code      "HU-153" ;
+        rdfs:label      "HU-153 Kisvárda" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-075  ramon:name  "Szeged"@en ;
+        ramon:name      "Szeged"@hu ;
+        ramon:code      "HU-075" ;
+        rdfs:label      "HU-075 Szeged" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-072  ramon:name  "Kistelek"@en ;
+        ramon:name      "Kistelek"@hu ;
+        ramon:code      "HU-072" ;
+        rdfs:label      "HU-072 Kistelek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-073  ramon:name  "Makó"@en ;
+        ramon:name      "Makó"@hu ;
+        ramon:code      "HU-073" ;
+        rdfs:label      "HU-073 Makó" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-157  ramon:name  "Nyíregyháza"@en ;
+        ramon:name      "Nyíregyháza"@hu ;
+        ramon:code      "HU-157" ;
+        rdfs:label      "HU-157 Nyíregyháza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-156  ramon:name  "Nyírbátor"@en ;
+        ramon:name      "Nyírbátor"@hu ;
+        ramon:code      "HU-156" ;
+        rdfs:label      "HU-156 Nyírbátor" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-159  ramon:name  "Vásárosnamény"@en ;
+        ramon:name      "Vásárosnamény"@hu ;
+        ramon:code      "HU-159" ;
+        rdfs:label      "HU-159 Vásárosnamény" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-158  ramon:name  "Tiszavasvári"@en ;
+        ramon:name      "Tiszavasvári"@hu ;
+        ramon:code      "HU-158" ;
+        rdfs:label      "HU-158 Tiszavasvári" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-078  ramon:name  "Dunaújváros"@en ;
+        ramon:name      "Dunaújváros"@hu ;
+        ramon:code      "HU-078" ;
+        rdfs:label      "HU-078 Dunaújváros" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-079  ramon:name  "Enying"@en ;
+        ramon:name      "Enying"@hu ;
+        ramon:code      "HU-079" ;
+        rdfs:label      "HU-079 Enying" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-100  ramon:name  "Hajdúszoboszló"@en ;
+        ramon:name      "Hajdúszoboszló"@hu ;
+        ramon:code      "HU-100" ;
+        rdfs:label      "HU-100 Hajdúszoboszló" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-088  ramon:name  "Kapuvár"@en ;
+        ramon:name      "Kapuvár"@hu ;
+        ramon:code      "HU-088" ;
+        rdfs:label      "HU-088 Kapuvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-036  ramon:name  "Jánoshalma"@en ;
+        ramon:name      "Jánoshalma"@hu ;
+        ramon:code      "HU-036" ;
+        rdfs:label      "HU-036 Jánoshalma" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-037  ramon:name  "Kalocsa"@en ;
+        ramon:name      "Kalocsa"@hu ;
+        ramon:code      "HU-037" ;
+        rdfs:label      "HU-037 Kalocsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-155  ramon:name  "Nagykálló"@en ;
+        ramon:name      "Nagykálló"@hu ;
+        ramon:code      "HU-155" ;
+        rdfs:label      "HU-155 Nagykálló" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-146  ramon:name  "Siófok"@en ;
+        ramon:name      "Siófok"@hu ;
+        ramon:code      "HU-146" ;
+        rdfs:label      "HU-146 Siófok" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-147  ramon:name  "Tab"@en ;
+        ramon:name      "Tab"@hu ;
+        ramon:code      "HU-147" ;
+        rdfs:label      "HU-147 Tab" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-089  ramon:name  "Mosonmagyaróvár"@en ;
+        ramon:name      "Mosonmagyaróvár"@hu ;
+        ramon:code      "HU-089" ;
+        rdfs:label      "HU-089 Mosonmagyaróvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-145  ramon:name  "Nagyatád"@en ;
+        ramon:name      "Nagyatád"@hu ;
+        ramon:code      "HU-145" ;
+        rdfs:label      "HU-145 Nagyatád" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-142  ramon:name  "Balatonboglár"@en ;
+        ramon:name      "Balatonboglár"@hu ;
+        ramon:code      "HU-142" ;
+        rdfs:label      "HU-142 Balatonboglár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-143  ramon:name  "Kaposvár"@en ;
+        ramon:name      "Kaposvár"@hu ;
+        ramon:code      "HU-143" ;
+        rdfs:label      "HU-143 Kaposvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-140  ramon:name  "Barcs"@en ;
+        ramon:name      "Barcs"@hu ;
+        ramon:code      "HU-140" ;
+        rdfs:label      "HU-140 Barcs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-141  ramon:name  "Csurgó"@en ;
+        ramon:name      "Csurgó"@hu ;
+        ramon:code      "HU-141" ;
+        rdfs:label      "HU-141 Csurgó" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-082  ramon:name  "Mór"@en ;
+        ramon:name      "Mór"@hu ;
+        ramon:code      "HU-082" ;
+        rdfs:label      "HU-082 Mór" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-081  ramon:name  "Ercsi"@en ;
+        ramon:name      "Ercsi"@hu ;
+        ramon:code      "HU-081" ;
+        rdfs:label      "HU-081 Ercsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-080  ramon:name  "Gárdony"@en ;
+        ramon:name      "Gárdony"@hu ;
+        ramon:code      "HU-080" ;
+        rdfs:label      "HU-080 Gárdony" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-087  ramon:name  "Győr"@en ;
+        ramon:name      "Győr"@hu ;
+        ramon:code      "HU-087" ;
+        rdfs:label      "HU-087 Győr" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-086  ramon:name  "Csorna"@en ;
+        ramon:name      "Csorna"@hu ;
+        ramon:code      "HU-086" ;
+        rdfs:label      "HU-086 Csorna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-085  ramon:name  "Székesfehérvár"@en ;
+        ramon:name      "Székesfehérvár"@hu ;
+        ramon:code      "HU-085" ;
+        rdfs:label      "HU-085 Székesfehérvár" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-084  ramon:name  "Sárbogárd"@en ;
+        ramon:name      "Sárbogárd"@hu ;
+        ramon:code      "HU-084" ;
+        rdfs:label      "HU-084 Sárbogárd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-154  ramon:name  "Mátészalka"@en ;
+        ramon:name      "Mátészalka"@hu ;
+        ramon:code      "HU-154" ;
+        rdfs:label      "HU-154 Mátészalka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-120  ramon:name  "Salgótarján"@en ;
+        ramon:name      "Salgótarján"@hu ;
+        ramon:code      "HU-120" ;
+        rdfs:label      "HU-120 Salgótarján" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-121  ramon:name  "Szécsény"@en ;
+        ramon:name      "Szécsény"@hu ;
+        ramon:code      "HU-121" ;
+        rdfs:label      "HU-121 Szécsény" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-027  ramon:name  "Mohács"@en ;
+        ramon:name      "Mohács"@hu ;
+        ramon:code      "HU-027" ;
+        rdfs:label      "HU-027 Mohács" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:HU-026  ramon:name  "Komló"@en ;
+        ramon:name      "Komló"@hu ;
+        ramon:code      "HU-026" ;
+        rdfs:label      "HU-026 Komló" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

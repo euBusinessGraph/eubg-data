@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Ardahan_Province": {"\u00c7\u0131ld\u0131r": ["A\u015f\u0131k\u015fenlik", "\u00c7\u0131ld\u0131r"], "Hanak": ["Hanak", "Ortakent"], "Posof": ["Posof"], "G\u00f6le": ["G\u00f6le", "K\u00f6pr\u00fcl\u00fc"], "Damal": ["Damal"], "Ardahan": ["Ardahan"]}}

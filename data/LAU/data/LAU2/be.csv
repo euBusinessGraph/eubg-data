@@ -1,0 +1,590 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+BE211,n.a.,11001,no,Aartselaar,Aartselaar,14268,10926126
+BE211,n.a.,11002,no,Antwerpen ,Anvers,516684,204514194
+BE211,n.a.,11004,no,Boechout,Boechout,12849,20655116
+BE211,n.a.,11005,no,Boom,Boom,17737,7365385
+BE211,n.a.,11007,no,Borsbeek,Borsbeek,10534,3918657
+BE211,n.a.,11008,no,Brasschaat,Brasschaat,37668,38494822
+BE211,n.a.,11009,no,Brecht,Brecht,28566,90838469
+BE211,n.a.,11013,no,Edegem,Edegem,21599,8652220
+BE211,n.a.,11016,no,Essen ,Essen ,18604,47482511
+BE211,n.a.,11018,no,Hemiksem,Hemiksem,11157,5438191
+BE211,n.a.,11021,no,Hove,Hove,8147,5986958
+BE211,n.a.,11022,no,Kalmthout ,Kalmthout ,18342,59447386
+BE211,n.a.,11023,no,Kapellen,Kapellen,27167,37113055
+BE211,n.a.,11024,no,Kontich ,Kontich ,20881,23669000
+BE211,n.a.,11025,no,Lint,Lint,8949,5572851
+BE211,n.a.,11029,no,Mortsel ,Mortsel ,25581,7784176
+BE211,n.a.,11030,no,Niel,Niel,10147,5270786
+BE211,n.a.,11035,no,Ranst ,Ranst ,19250,43583746
+BE211,n.a.,11037,no,Rumst ,Rumst ,15161,19903814
+BE211,n.a.,11038,no,Schelle ,Schelle ,8258,7799064
+BE211,n.a.,11039,no,Schilde ,Schilde ,19430,35989363
+BE211,n.a.,11040,no,Schoten ,Schoten ,34070,29552113
+BE211,n.a.,11044,no,Stabroek,Stabroek,18512,21506498
+BE211,n.a.,11050,no,Wijnegem,Wijnegem,9365,7859684
+BE211,n.a.,11052,no,Wommelgem ,Wommelgem ,12594,13006528
+BE211,n.a.,11053,no,Wuustwezel,Wuustwezel,20221,89426565
+BE211,n.a.,11054,no,Zandhoven ,Zandhoven ,12770,40100910
+BE211,n.a.,11055,no,Zoersel ,Zoersel ,21782,38650820
+BE211,n.a.,11056,no,Zwijndrecht ,Zwijndrecht ,18960,17818636
+BE211,n.a.,11057,no,Malle ,Malle ,15164,51985948
+BE212,n.a.,12002,no,Berlaar ,Berlaar ,11209,24571878
+BE212,n.a.,12005,no,Bonheiden ,Bonheiden ,14720,29266469
+BE212,n.a.,12007,no,Bornem,Bornem,21048,45758250
+BE212,n.a.,12009,no,Duffel,Duffel,17275,22712439
+BE212,n.a.,12014,no,Heist-op-den-Berg ,Heist-op-den-Berg ,42117,86459749
+BE212,n.a.,12021,no,Lier,Lierre,34916,49703065
+BE212,n.a.,12025,no,Mechelen,Malines ,84494,65187751
+BE212,n.a.,12026,no,Nijlen,Nijlen,22657,39091325
+BE212,n.a.,12029,no,Putte ,Putte ,17242,34955804
+BE212,n.a.,12030,no,Puurs ,Puurs ,17017,33411147
+BE212,n.a.,12034,no,Sint-Amands ,Sint-Amands ,8339,15575837
+BE212,n.a.,12035,no,Sint-Katelijne-Waver,Sint-Katelijne-Waver,20608,36116313
+BE212,n.a.,12040,no,Willebroek,Willebroek,25755,27405375
+BE213,n.a.,13001,no,Arendonk,Arendonk,13526,55382004
+BE213,n.a.,13002,no,Baarle-Hertog ,Baerle-Duc,2669,7478767
+BE213,n.a.,13003,no,Balen ,Balen ,22179,72881801
+BE213,n.a.,13004,no,Beerse,Beerse,17835,37479848
+BE213,n.a.,13006,no,Dessel,Dessel,9429,27030251
+BE213,n.a.,13008,no,Geel,Geel,39203,109851111
+BE213,n.a.,13010,no,Grobbendonk ,Grobbendonk ,11219,28356456
+BE213,n.a.,13011,no,Herentals ,Herentals ,27765,48560722
+BE213,n.a.,13012,no,Herenthout,Herenthout,8814,23550558
+BE213,n.a.,13013,no,Herselt ,Herselt ,14493,52319234
+BE213,n.a.,13014,no,Hoogstraten ,Hoogstraten ,21154,105318425
+BE213,n.a.,13016,no,Hulshout,Hulshout,10269,17345510
+BE213,n.a.,13017,no,Kasterlee ,Kasterlee ,18338,71519979
+BE213,n.a.,13019,no,Lille ,Lille ,16412,59398481
+BE213,n.a.,13021,no,Meerhout,Meerhout,10160,36287185
+BE213,n.a.,13023,no,Merksplas ,Merksplas ,8661,44559709
+BE213,n.a.,13025,no,Mol ,Mol ,36029,114256076
+BE213,n.a.,13029,no,Olen,Olen,12242,23174724
+BE213,n.a.,13031,no,Oud-Turnhout,Oud-Turnhout,13307,38795625
+BE213,n.a.,13035,no,Ravels,Ravels,15160,94992548
+BE213,n.a.,13036,no,Retie ,Retie ,11204,48389051
+BE213,n.a.,13037,no,Rijkevorsel ,Rijkevorsel ,11835,46785833
+BE213,n.a.,13040,no,Turnhout,Turnhout,43277,56063795
+BE213,n.a.,13044,no,Vorselaar ,Vorselaar ,7784,27622103
+BE213,n.a.,13046,no,Vosselaar ,Vosselaar ,10936,11848002
+BE213,n.a.,13049,no,Westerlo,Westerlo,24712,55125816
+BE213,n.a.,13053,no,Laakdal ,Laakdal ,15855,42484133
+BE100 ,n.a.,21001,no,Anderlecht,Anderlecht,117420,17744118
+BE100 ,n.a.,21002,no,Auderghem,Oudergem,33088,9033439
+BE100 ,n.a.,21003,no,Berchem-Sainte-Agathe,Sint-Agatha-Berchem ,24299,2949556
+BE100 ,n.a.,21004,no,Bruxelles,Brussel ,186558,32605926
+BE100 ,n.a.,21005,no,Etterbeek,Etterbeek ,46985,3149323
+BE100 ,n.a.,21006,no,Evere,Evere ,39482,5018112
+BE100 ,n.a.,21007,no,Forest,Vorst ,55547,6248132
+BE100 ,n.a.,21008,no,Ganshoren,Ganshoren ,24255,2455219
+BE100 ,n.a.,21009,no,Ixelles,Elsene,85279,6344624
+BE100 ,n.a.,21010,no,Jette,Jette ,51468,5043333
+BE100 ,n.a.,21011,no,Koekelberg,Koekelberg,21635,1172472
+BE100 ,n.a.,21012,no,Molenbeek-Saint-Jean,Sint-Jans-Molenbeek ,96667,5891792
+BE100 ,n.a.,21013,no,Saint-Gilles,Sint-Gillis ,50536,2524738
+BE100 ,n.a.,21014,no,Saint-Josse-ten-Noode,Sint-Joost-ten-Node ,27337,1142297
+BE100 ,n.a.,21015,no,Schaerbeek,Schaarbeek,132354,8139966
+BE100 ,n.a.,21016,no,Uccle,Ukkel ,81872,22909989
+BE100 ,n.a.,21017,no,Watermael-Boitsfort,Watermaal-Bosvoorde ,24603,12933011
+BE100 ,n.a.,21018,no,Woluwe-Saint-Lambert,Sint-Lambrechts-Woluwe,54203,7224840
+BE100 ,n.a.,21019,no,Woluwe-Saint-Pierre,Sint-Pieters-Woluwe ,41119,8851391
+BE241,n.a.,23002,no,Asse,Asse,32397,49639784
+BE241,n.a.,23003,no,Beersel ,Beersel ,24901,30006747
+BE241,n.a.,23009,no,Bever ,Biévène ,2150,19776143
+BE241,n.a.,23016,no,Dilbeek ,Dilbeek ,41473,41176416
+BE241,n.a.,23023,no,Galmaarden,Gammerages,8672,34933018
+BE241,n.a.,23024,no,Gooik ,Gooik ,9217,39696259
+BE241,n.a.,23025,no,Grimbergen,Grimbergen,36740,38610419
+BE241,n.a.,23027,no,Halle ,Hal ,38297,44404281
+BE241,n.a.,23032,no,Herne ,Herne ,6618,44628459
+BE241,n.a.,23033,no,Hoeilaart ,Hoeilaart ,10913,20428394
+BE241,n.a.,23038,no,Kampenhout,Kampenhout,11691,33494104
+BE241,n.a.,23039,no,Kapelle-op-den-Bos,Kapelle-op-den-Bos,9382,15246622
+BE241,n.a.,23044,no,Liedekerke,Liedekerke,12922,10078039
+BE241,n.a.,23045,no,Londerzeel,Londerzeel,18265,36293305
+BE241,n.a.,23047,no,Machelen,Machelen,14764,11594321
+BE241,n.a.,23050,no,Meise ,Meise ,18745,34818494
+BE241,n.a.,23052,no,Merchtem,Merchtem,16092,36718379
+BE241,n.a.,23060,no,Opwijk,Opwijk,14214,19690322
+BE241,n.a.,23062,no,Overijse,Overijse,24953,44432615
+BE241,n.a.,23064,no,Pepingen,Pepingen,4438,36047082
+BE241,n.a.,23077,no,Sint-Pieters-Leeuw,Sint-Pieters-Leeuw,33520,40379563
+BE241,n.a.,23081,no,Steenokkerzeel,Steenokkerzeel,11954,23458900
+BE241,n.a.,23086,no,Ternat,Ternat,15286,24477773
+BE241,n.a.,23088,no,Vilvoorde ,Vilvorde,43108,21472076
+BE241,n.a.,23094,no,Zaventem,Zaventem,33023,27623825
+BE241,n.a.,23096,no,Zemst ,Zemst ,23076,42834376
+BE241,n.a.,23097,no,Roosdaal,Roosdaal,11495,21692408
+BE241,n.a.,23098,no,Drogenbos ,Drogenbos ,5377,2490957
+BE241,n.a.,23099,no,Kraainem,Kraainem,13701,5804447
+BE241,n.a.,23100,no,Linkebeek ,Linkebeek ,4751,4149313
+BE241,n.a.,23101,no,Sint-Genesius-Rode,Rhode-Saint-Genèse,18186,22772412
+BE241,n.a.,23102,no,Wemmel,Wemmel,16058,8743945
+BE241,n.a.,23103,no,Wezembeek-Oppem ,Wezembeek-Oppem ,14080,6818743
+BE241,n.a.,23104,no,Lennik,Lennik,9035,30796414
+BE241,n.a.,23105,no,Affligem,Affligem,13085,17697315
+BE242,n.a.,24001,no,Aarschot,Aarschot,29528,62514975
+BE242,n.a.,24007,no,Begijnendijk,Begijnendijk,10061,17618542
+BE242,n.a.,24008,no,Bekkevoort,Bekkevoort,6122,37171201
+BE242,n.a.,24009,no,Bertem,Bertem,9805,29747133
+BE242,n.a.,24011,no,Bierbeek,Bierbeek,9951,39734547
+BE242,n.a.,24014,no,Boortmeerbeek ,Boortmeerbeek ,12109,18636718
+BE242,n.a.,24016,no,Boutersem ,Boutersem ,8130,30751381
+BE242,n.a.,24020,no,Diest ,Diest ,23555,58198919
+BE242,n.a.,24028,no,Geetbets,Geetbets,5979,35172258
+BE242,n.a.,24033,no,Haacht,Haacht,14313,30568494
+BE242,n.a.,24038,no,Herent,Herent,21227,32732200
+BE242,n.a.,24041,no,Hoegaarden,Hoegaarden,6904,33931175
+BE242,n.a.,24043,no,Holsbeek,Holsbeek,9943,38495426
+BE242,n.a.,24045,no,Huldenberg,Huldenberg,9740,39639276
+BE242,n.a.,24048,no,Keerbergen,Keerbergen,12831,18386312
+BE242,n.a.,24054,no,Kortenaken,Kortenaken,7930,49064295
+BE242,n.a.,24055,no,Kortenberg,Kortenberg,19715,34517203
+BE242,n.a.,24059,no,Landen,Landen,15947,54053990
+BE242,n.a.,24062,no,Leuven,Louvain ,98645,56632146
+BE242,n.a.,24066,no,Lubbeek ,Lubbeek ,14317,46131933
+BE242,n.a.,24086,no,Oud-Heverlee,Oud-Heverlee,10979,31138610
+BE242,n.a.,24094,no,Rotselaar ,Rotselaar ,16438,37573144
+BE242,n.a.,24104,no,Tervuren,Tervuren,21546,32922160
+BE242,n.a.,24107,no,Tienen,Tirlemont ,34213,71766977
+BE242,n.a.,24109,no,Tremelo ,Tremelo ,14737,21574297
+BE242,n.a.,24130,no,Zoutleeuw ,Léau,8370,46733768
+BE242,n.a.,24133,no,Linter,Linter,7188,36375026
+BE242,n.a.,24134,no,Scherpenheuvel-Zichem ,Montaigu-Zichem ,22975,50499581
+BE242,n.a.,24135,no,Tielt-Winge ,Tielt-Winge ,10691,44157910
+BE242,n.a.,24137,no,Glabbeek,Glabbeek,5303,26780541
+BE310 ,n.a.,25005,no,Beauvechain ,Bevekom ,7105,38584523
+BE310 ,n.a.,25014,no,Braine-l'Alleud ,Eigenbrakel ,39783,52115372
+BE310 ,n.a.,25015,no,Braine-le-Château ,Kasteelbrakel ,10298,22698011
+BE310 ,n.a.,25018,no,Chaumont-Gistoux,Chaumont-Gistoux,11693,48085876
+BE310 ,n.a.,25023,no,Court-Saint-Etienne ,Court-Saint-Etienne ,10387,26641666
+BE310 ,n.a.,25031,no,Genappe ,Genepiën,15304,89573550
+BE310 ,n.a.,25037,no,Grez-Doiceau,Graven,13085,55440103
+BE310 ,n.a.,25043,no,Incourt ,Incourt ,5352,38792008
+BE310 ,n.a.,25044,no,Ittre ,Itter ,6797,34920507
+BE310 ,n.a.,25048,no,Jodoigne,Geldenaken,14105,73314351
+BE310 ,n.a.,25050,no,La Hulpe,Terhulpen ,7366,15596221
+BE310 ,n.a.,25068,no,Mont-Saint-Guibert,Mont-Saint-Guibert,7359,18630837
+BE310 ,n.a.,25072,no,Nivelles,Nijvel,28027,60601934
+BE310 ,n.a.,25084,no,Perwez,Perwijs ,9181,50813709
+BE310 ,n.a.,25091,no,Rixensart ,Rixensart ,22253,17540983
+BE310 ,n.a.,25105,no,Tubize,Tubeke,25451,32659758
+BE310 ,n.a.,25107,no,Villers-la-Ville,Villers-la-Ville,10503,47451788
+BE310 ,n.a.,25110,no,Waterloo,Waterloo,29780,21028128
+BE310 ,n.a.,25112,no,Wavre ,Waver ,33844,41803682
+BE310 ,n.a.,25117,no,Chastre ,Chastre ,7519,31272986
+BE310 ,n.a.,25118,no,Hélécine,Hélécine,3392,16623280
+BE310 ,n.a.,25119,no,Lasne ,Lasne ,14131,47217747
+BE310 ,n.a.,25120,no,Orp-Jauche,Orp-Jauche,8757,50495402
+BE310 ,n.a.,25121,no,Ottignies-Louvain-la-Neuve,Ottignies-Louvain-la-Neuve,31475,32963848
+BE310 ,n.a.,25122,no,Ramillies ,Ramillies ,6296,48680143
+BE310 ,n.a.,25123,no,Rebecq,Rebecq,10940,39076950
+BE310 ,n.a.,25124,no,Walhain ,Walhain ,7013,37935351
+BE251,n.a.,31003,no,Beernem ,Beernem ,15517,71675809
+BE251,n.a.,31004,no,Blankenberge,Blankenberge,20001,17411180
+BE251,n.a.,31005,no,Brugge,Bruges,118114,138402202
+BE251,n.a.,31006,no,Damme ,Damme ,10907,89520475
+BE251,n.a.,31012,no,Jabbeke ,Jabbeke ,13865,53764838
+BE251,n.a.,31022,no,Oostkamp,Oostkamp,23139,79645460
+BE251,n.a.,31033,no,Torhout ,Torhout ,20480,45232765
+BE251,n.a.,31040,no,Zedelgem,Zedelgem,22489,60335913
+BE251,n.a.,31042,no,Zuienkerke,Zuienkerke,2711,48862499
+BE251,n.a.,31043,no,Knokke-Heist,Knokke-Heist,33299,56443228
+BE252,n.a.,32003,no,Diksmuide ,Dixmude ,16562,149401818
+BE252,n.a.,32006,no,Houthulst ,Houthulst ,10038,55893936
+BE252,n.a.,32010,no,Koekelare ,Koekelare ,8761,39185258
+BE252,n.a.,32011,no,Kortemark ,Kortemark ,12421,54999796
+BE252,n.a.,32030,no,Lo-Reninge,Lo-Reninge,3273,62938759
+BE253,n.a.,33011,no,Ieper ,Ypres ,34983,130610415
+BE253,n.a.,33016,no,Mesen ,Messines,1052,3578335
+BE253,n.a.,33021,no,Poperinge ,Poperinge ,19775,119330610
+BE253,n.a.,33029,no,Wervik,Wervik,18536,43612479
+BE253,n.a.,33037,no,Zonnebeke ,Zonnebeke ,12421,67573324
+BE253,n.a.,33039,no,Heuvelland,Heuvelland,7821,94235304
+BE253,n.a.,33040,no,Langemark-Poelkapelle ,Langemark-Poelkapelle ,8192,52529046
+BE253,n.a.,33041,no,Vleteren,Vleteren,3677,38148241
+BE254,n.a.,34002,no,Anzegem ,Anzegem ,14600,41788652
+BE254,n.a.,34003,no,Avelgem ,Avelgem ,9969,21748127
+BE254,n.a.,34009,no,Deerlijk,Deerlijk,11735,16815679
+BE254,n.a.,34013,no,Harelbeke ,Harelbeke ,27529,29140007
+BE254,n.a.,34022,no,Kortrijk,Courtrai,75563,80020386
+BE254,n.a.,34023,no,Kuurne,Kuurne,13151,10008346
+BE254,n.a.,34025,no,Lendelede ,Lendelede ,5754,13150180
+BE254,n.a.,34027,no,Menen ,Menin ,32997,33070836
+BE254,n.a.,34040,no,Waregem ,Waregem ,37618,44343752
+BE254,n.a.,34041,no,Wevelgem,Wevelgem,31310,38761463
+BE254,n.a.,34042,no,Zwevegem,Zwevegem,24367,63242438
+BE254,n.a.,34043,no,Spiere-Helkijn,Espierres-Helchin ,2132,10776650
+BE255,n.a.,35002,no,Bredene ,Bredene ,17373,13079087
+BE255,n.a.,35005,no,Gistel,Gistel,11852,42254065
+BE255,n.a.,35006,no,Ichtegem,Ichtegem,13957,45334695
+BE255,n.a.,35011,no,Middelkerke ,Middelkerke ,19257,75653353
+BE255,n.a.,35013,no,Oostende,Ostende ,70702,37723883
+BE255,n.a.,35014,no,Oudenburg ,Oudenburg ,9289,35383003
+BE255,n.a.,35029,no,De Haan ,De Haan ,12636,42169175
+BE256,n.a.,36006,no,Hooglede,Hooglede,10020,37836247
+BE256,n.a.,36007,no,Ingelmunster,Ingelmunster,10822,16157265
+BE256,n.a.,36008,no,Izegem,Izegem,27568,25483137
+BE256,n.a.,36010,no,Ledegem ,Ledegem ,9532,24758200
+BE256,n.a.,36011,no,Lichtervelde,Lichtervelde,8706,25931415
+BE256,n.a.,36012,no,Moorslede ,Moorslede ,10958,35341058
+BE256,n.a.,36015,no,Roeselare ,Roulers ,61104,59793935
+BE256,n.a.,36019,no,Staden,Staden,11179,46240034
+BE257,n.a.,37002,no,Dentergem ,Dentergem ,8381,25935511
+BE257,n.a.,37007,no,Meulebeke ,Meulebeke ,11033,29348057
+BE257,n.a.,37010,no,Oostrozebeke,Oostrozebeke,7701,16621841
+BE257,n.a.,37011,no,Pittem,Pittem,6725,34421545
+BE257,n.a.,37012,no,Ruiselede ,Ruiselede ,5371,30201523
+BE257,n.a.,37015,no,Tielt ,Tielt ,20160,68504357
+BE257,n.a.,37017,no,Wielsbeke ,Wielsbeke ,9520,21760376
+BE257,n.a.,37018,no,Wingene ,Wingene ,14295,68420735
+BE257,n.a.,37020,no,Ardooie ,Ardooie ,9060,34576094
+BE258,n.a.,38002,no,Alveringem,Alveringem,5057,80009790
+BE258,n.a.,38008,no,De Panne,La Panne,10814,23896896
+BE258,n.a.,38014,no,Koksijde,Koksijde,22333,43959624
+BE258,n.a.,38016,no,Nieuwpoort,Nieuport,11392,31004430
+BE258,n.a.,38025,no,Veurne,Furnes,11697,96339703
+BE231,n.a.,41002,no,Aalst ,Alost ,84336,78115427
+BE231,n.a.,41011,no,Denderleeuw ,Denderleeuw ,19702,13773684
+BE231,n.a.,41018,no,Geraardsbergen,Grammont,33146,79714473
+BE231,n.a.,41024,no,Haaltert,Haaltert,18112,30300608
+BE231,n.a.,41027,no,Herzele ,Herzele ,17555,47400000
+BE231,n.a.,41034,no,Lede,Lede,18402,29685182
+BE231,n.a.,41048,no,Ninove,Ninove,38052,72574056
+BE231,n.a.,41063,no,Sint-Lievens-Houtem ,Sint-Lievens-Houtem ,10152,26667187
+BE231,n.a.,41081,no,Zottegem,Zottegem,25896,56654962
+BE231,n.a.,41082,no,Erpe-Mere ,Erpe-Mere ,19716,34032684
+BE232,n.a.,42003,no,Berlare ,Berlare ,14766,37819725
+BE232,n.a.,42004,no,Buggenhout,Buggenhout,14477,25253403
+BE232,n.a.,42006,no,Dendermonde ,Termonde,45475,55674674
+BE232,n.a.,42008,no,Hamme ,Hamme ,24705,40214078
+BE232,n.a.,42010,no,Laarne,Laarne,12519,32066001
+BE232,n.a.,42011,no,Lebbeke ,Lebbeke ,18842,26916456
+BE232,n.a.,42023,no,Waasmunster ,Waasmunster ,10759,31925699
+BE232,n.a.,42025,no,Wetteren,Wetteren,24862,36677072
+BE232,n.a.,42026,no,Wichelen,Wichelen,11496,22865662
+BE232,n.a.,42028,no,Zele,Zele,20799,33057141
+BE233,n.a.,43002,no,Assenede,Assenede,14107,87224667
+BE233,n.a.,43005,no,Eeklo ,Eeklo ,20662,30046064
+BE233,n.a.,43007,no,Kaprijke,Kaprijke,6323,33705054
+BE233,n.a.,43010,no,Maldegem,Maldegem,23499,94643577
+BE233,n.a.,43014,no,Sint-Laureins ,Sint-Laureins ,6665,74500253
+BE233,n.a.,43018,no,Zelzate ,Zelzate ,12488,13705457
+BE234,n.a.,44001,no,Aalter,Aalter,20206,81920371
+BE234,n.a.,44011,no,Deinze,Deinze,30662,75534971
+BE234,n.a.,44012,no,De Pinte,De Pinte,10368,17984250
+BE234,n.a.,44013,no,Destelbergen,Destelbergen,17887,26564680
+BE234,n.a.,44019,no,Evergem ,Evergem ,34712,75039636
+BE234,n.a.,44020,no,Gavere,Gavere,12678,31345912
+BE234,n.a.,44021,no,Gent,Gand,256760,156181130
+BE234,n.a.,44029,no,Knesselare,Knesselare,8217,37274013
+BE234,n.a.,44034,no,Lochristi ,Lochristi ,22124,60344095
+BE234,n.a.,44036,no,Lovendegem,Lovendegem,9483,19480849
+BE234,n.a.,44040,no,Melle ,Melle ,11188,15213215
+BE234,n.a.,44043,no,Merelbeke ,Merelbeke ,24293,36646854
+BE234,n.a.,44045,no,Moerbeke,Moerbeke,6325,37800225
+BE234,n.a.,44048,no,Nazareth,Nazareth,11577,35192619
+BE234,n.a.,44049,no,Nevele,Nevele,12092,51894705
+BE234,n.a.,44052,no,Oosterzele,Oosterzele,13550,43116866
+BE234,n.a.,44064,no,Sint-Martens-Latem,Sint-Martens-Latem,8524,14343902
+BE234,n.a.,44072,no,Waarschoot,Waarschoot,7886,21908691
+BE234,n.a.,44073,no,Wachtebeke,Wachtebeke,7599,34532932
+BE234,n.a.,44080,no,Zomergem,Zomergem,8478,38781483
+BE234,n.a.,44081,no,Zulte ,Zulte ,15592,32523543
+BE235,n.a.,45017,no,Kruishoutem ,Kruishoutem ,8145,46755676
+BE235,n.a.,45035,no,Oudenaarde,Audenarde ,31009,68059999
+BE235,n.a.,45041,no,Ronse ,Renaix,25920,34481666
+BE235,n.a.,45057,no,Zingem,Zingem,7537,23934252
+BE235,n.a.,45059,no,Brakel,Brakel,14792,56464201
+BE235,n.a.,45060,no,Kluisbergen ,Kluisbergen ,6453,30381482
+BE235,n.a.,45061,no,Wortegem-Petegem,Wortegem-Petegem,6326,41957576
+BE235,n.a.,45062,no,Horebeke,Horebeke,2004,11196762
+BE235,n.a.,45063,no,Lierde,Lierde,6555,26125759
+BE235,n.a.,45064,no,Maarkedal ,Maarkedal ,6282,45626240
+BE235,n.a.,45065,no,Zwalm ,Zwalm ,8042,33816982
+BE236,n.a.,46003,no,Beveren ,Beveren ,47589,150181287
+BE236,n.a.,46013,no,Kruibeke,Kruibeke,16563,33424206
+BE236,n.a.,46014,no,Lokeren ,Lokeren ,40638,67497380
+BE236,n.a.,46020,no,Sint-Gillis-Waas,Sint-Gillis-Waas,19221,54983068
+BE236,n.a.,46021,no,Sint-Niklaas,Saint-Nicolas ,75617,83797137
+BE236,n.a.,46024,no,Stekene ,Stekene ,17887,44798290
+BE236,n.a.,46025,no,Temse ,Tamise,29210,39918703
+BE321,n.a.,51004,no,Ath ,Aat ,28951,126946082
+BE321,n.a.,51008,no,Beloeil ,Beloeil ,13983,61547318
+BE321,n.a.,51009,no,Bernissart,Bernissart,11940,43423577
+BE321,n.a.,51012,no,Brugelette,Brugelette,3622,28402856
+BE321,n.a.,51014,no,Chièvres,Chièvres,6944,46914343
+BE321,n.a.,51017,no,Ellezelles,Elzele,5922,44694639
+BE321,n.a.,51019,no,Flobecq ,Vloesberg ,3442,23001355
+BE321,n.a.,51065,no,Frasnes-lez-Anvaing ,Frasnes-lez-Anvaing ,11711,112443977
+BE322,n.a.,52010,no,Chapelle-lez-Herlaimont ,Chapelle-lez-Herlaimont ,14805,18096597
+BE322,n.a.,52011,no,Charleroi ,Charleroi ,202445,102077352
+BE322,n.a.,52012,no,Châtelet,Châtelet,36452,27031223
+BE322,n.a.,52015,no,Courcelles,Courcelles,31213,44236150
+BE322,n.a.,52018,no,Farciennes,Farciennes,11340,10385417
+BE322,n.a.,52021,no,Fleurus ,Fleurus ,22832,59280803
+BE322,n.a.,52022,no,Fontaine-l'Evêque ,Fontaine-l'Evêque ,17801,28408158
+BE322,n.a.,52025,no,Gerpinnes ,Gerpinnes ,12531,47103479
+BE322,n.a.,52043,no,Manage,Manage,23060,19330740
+BE322,n.a.,52048,no,Montigny-le-Tilleul ,Montigny-le-Tilleul ,10102,15095446
+BE322,n.a.,52055,no,Pont-à-Celles ,Pont-à-Celles ,17106,55731047
+BE322,n.a.,52063,no,Seneffe ,Seneffe ,11031,63035470
+BE322,n.a.,52074,no,Aiseau-Presles,Aiseau-Presles,10804,22190603
+BE322,n.a.,52075,no,Les Bons Villers,Les Bons Villers,9365,42551704
+BE323,n.a.,53014,no,Boussu,Boussu,19759,20013511
+BE323,n.a.,53020,no,Dour,Dour,16731,33316602
+BE323,n.a.,53028,no,Frameries ,Frameries ,21868,25949276
+BE323,n.a.,53039,no,Hensies ,Hensies ,6875,25994328
+BE323,n.a.,53044,no,Jurbise ,Jurbeke ,10515,57857509
+BE323,n.a.,53046,no,Lens,Lens,4378,49420195
+BE323,n.a.,53053,no,Mons,Bergen,94888,146529438
+BE323,n.a.,53065,no,Quaregnon ,Quaregnon ,19082,11078918
+BE323,n.a.,53068,no,Quiévrain ,Quiévrain ,6715,21224041
+BE323,n.a.,53070,no,Saint-Ghislain,Saint-Ghislain,23090,70176225
+BE323,n.a.,53082,no,Colfontaine ,Colfontaine ,20619,13616031
+BE323,n.a.,53083,no,Honnelles ,Honnelles ,5189,43654914
+BE323,n.a.,53084,no,Quévy ,Quévy ,8123,65155813
+BE324,n.a.,54007,no,Mouscron,Moeskroen ,57872,40079163
+BE324,n.a.,54010,no,Comines-Warneton,Komen-Waasten ,18073,61092549
+BE325,n.a.,55004,no,Braine-le-Comte ,'s Gravenbrakel ,21437,84680450
+BE325,n.a.,55010,no,Enghien ,Edingen ,13485,40592737
+BE325,n.a.,55022,no,La Louvière ,La Louvière ,80465,64241313
+BE325,n.a.,55023,no,Lessines,Lessen,18612,72288950
+BE325,n.a.,55035,no,Le Roeulx ,Le Roeulx ,8474,42796688
+BE325,n.a.,55039,no,Silly ,Opzullik,8354,67681492
+BE325,n.a.,55040,no,Soignies,Zinnik,27257,110302783
+BE325,n.a.,55050,no,Ecaussinnes ,Ecaussinnes ,10919,34771584
+BE326,n.a.,56001,no,Anderlues ,Anderlues ,12026,17024666
+BE326,n.a.,56005,no,Beaumont,Beaumont,7057,92973754
+BE326,n.a.,56011,no,Binche,Binche,33563,60660261
+BE326,n.a.,56016,no,Chimay,Chimay,9873,197103239
+BE326,n.a.,56022,no,Erquelinnes ,Erquelinnes ,9936,44227685
+BE326,n.a.,56029,no,Froidchapelle ,Froidchapelle ,3906,86026980
+BE326,n.a.,56044,no,Lobbes,Lobbes,5712,32084044
+BE326,n.a.,56049,no,Merbes-le-Château ,Merbes-le-Château ,4295,30242591
+BE326,n.a.,56051,no,Momignies ,Momignies ,5338,85578225
+BE326,n.a.,56078,no,Thuin ,Thuin ,14505,76170673
+BE326,n.a.,56085,no,Estinnes,Estinnes,7693,72727029
+BE326,n.a.,56086,no,Ham-sur-Heure-Nalinnes,Ham-sur-Heure-Nalinnes,13592,45675375
+BE326,n.a.,56087,no,Morlanwelz,Morlanwelz,19278,20256084
+BE326,n.a.,56088,no,Sivry-Rance ,Sivry-Rance ,4855,72969340
+BE327,n.a.,57003,no,Antoing ,Antoing ,7818,31132046
+BE327,n.a.,57018,no,Celles,Celles,5615,67135147
+BE327,n.a.,57027,no,Estaimpuis,Estaimpuis,10250,31751939
+BE327,n.a.,57062,no,Pecq,Pecq,5592,32907015
+BE327,n.a.,57064,no,Péruwelz,Péruwelz,17131,60559817
+BE327,n.a.,57072,no,Rumes ,Rumes ,5178,23719533
+BE327,n.a.,57081,no,Tournai ,Doornik ,70075,213750185
+BE327,n.a.,57093,no,Brunehaut ,Brunehaut ,8072,46107255
+BE327,n.a.,57094,no,Leuze-en-Hainaut,Leuze-en-Hainaut,13698,73532205
+BE327,n.a.,57095,no,Mont-de-l'Enclus,Mont-de-l'Enclus,3714,26929875
+BE331,n.a.,61003,no,Amay,Amay,14177,27607896
+BE331,n.a.,61010,no,Burdinne,Burdinne,3265,32569860
+BE331,n.a.,61012,no,Clavier ,Clavier ,4541,79122031
+BE331,n.a.,61019,no,Ferrières ,Ferrières ,4853,56903040
+BE331,n.a.,61024,no,Hamoir,Hamoir,3891,27801926
+BE331,n.a.,61028,no,Héron ,Héron ,5196,38317955
+BE331,n.a.,61031,no,Huy ,Hoei,21299,47744373
+BE331,n.a.,61039,no,Marchin ,Marchin ,5433,30000552
+BE331,n.a.,61041,no,Modave,Modave,4167,40370675
+BE331,n.a.,61043,no,Nandrin ,Nandrin ,5844,35895676
+BE331,n.a.,61048,no,Ouffet,Ouffet,2806,40217748
+BE331,n.a.,61063,no,Verlaine,Verlaine,4123,24212196
+BE331,n.a.,61068,no,Villers-Le-Bouillet ,Villers-Le-Bouillet ,6509,32706183
+BE331,n.a.,61072,no,Wanze ,Wanze ,13633,43954728
+BE331,n.a.,61079,no,Anthisnes ,Anthisnes ,4116,37079430
+BE331,n.a.,61080,no,Engis ,Engis ,6014,27741507
+BE331,n.a.,61081,no,Tinlot,Tinlot,2668,37115873
+BE332,n.a.,62003,no,Ans ,Ans ,28162,23352252
+BE332,n.a.,62006,no,Awans ,Awans ,9243,27157046
+BE332,n.a.,62009,no,Aywaille,Aywaille,12416,79971998
+BE332,n.a.,62011,no,Bassenge,Bitsingen ,8998,38172185
+BE332,n.a.,62015,no,Beyne-Heusay,Beyne-Heusay,12099,7320304
+BE332,n.a.,62022,no,Chaudfontaine ,Chaudfontaine ,20782,25516051
+BE332,n.a.,62026,no,Comblain-au-Pont,Comblain-au-Pont,5358,22677698
+BE332,n.a.,62027,no,Dalhem,Dalhem,7280,36058286
+BE332,n.a.,62032,no,Esneux,Esneux,13049,34045837
+BE332,n.a.,62038,no,Fléron,Fléron,16506,13724276
+BE332,n.a.,62051,no,Herstal ,Herstal ,39647,23541519
+BE332,n.a.,62060,no,Juprelle,Juprelle,9237,35357501
+BE332,n.a.,62063,no,Liège ,Luik,197120,69391809
+BE332,n.a.,62079,no,Oupeye,Oupeye,24779,36114488
+BE332,n.a.,62093,no,Saint-Nicolas ,Saint-Nicolas ,24075,6842074
+BE332,n.a.,62096,no,Seraing ,Seraing ,64286,35336022
+BE332,n.a.,62099,no,Soumagne,Soumagne,16669,27137534
+BE332,n.a.,62100,no,Sprimont,Sprimont,14538,74282666
+BE332,n.a.,62108,no,Visé,Wezet ,17745,27991927
+BE332,n.a.,62118,no,Grâce-Hollogne,Grâce-Hollogne,22574,34238270
+BE332,n.a.,62119,no,Blégny,Blégny,13215,26070634
+BE332,n.a.,62120,no,Flémalle,Flémalle,26066,36680766
+BE332,n.a.,62121,no,Neupré,Neupré,9984,31690839
+BE332,n.a.,62122,no,Trooz ,Trooz ,8473,24195150
+BE336,n.a.,63001,no,Amel,Amblève ,5491,125148892
+BE335,n.a.,63003,no,Aubel ,Aubel ,4236,18833117
+BE335,n.a.,63004,no,Baelen,Baelen,4372,85727644
+BE336,n.a.,63012,no,Büllingen ,Bullange,5656,150486026
+BE336,n.a.,63013,no,Bütgenbach,Butgenbach,5749,97313784
+BE335,n.a.,63020,no,Dison ,Dison ,15163,14005434
+BE336,n.a.,63023,no,Eupen ,Eupen ,19434,103743875
+BE335,n.a.,63035,no,Herve ,Herve ,17546,56839979
+BE335,n.a.,63038,no,Jalhay,Jalhay,8707,107754309
+BE336,n.a.,63040,no,Kelmis,La Calamine ,10899,18121847
+BE335,n.a.,63045,no,Lierneux,Lierneux,3586,92078923
+BE335,n.a.,63046,no,Limbourg,Limburg ,5974,24628977
+BE336,n.a.,63048,no,Lontzen ,Lontzen ,5657,28730191
+BE335,n.a.,63049,no,Malmedy ,Malmedy ,12462,99963997
+BE335,n.a.,63057,no,Olne,Olne,3955,15985622
+BE335,n.a.,63058,no,Pepinster ,Pepinster ,9701,24792678
+BE336,n.a.,63061,no,Raeren,Raeren,10545,74214023
+BE336,n.a.,63067,no,Sankt Vith,Saint-Vith,9642,146928079
+BE335,n.a.,63072,no,Spa ,Spa ,10469,39848670
+BE335,n.a.,63073,no,Stavelot,Stavelot,7188,85071866
+BE335,n.a.,63075,no,Stoumont,Stoumont,3143,108447780
+BE335,n.a.,63076,no,Theux ,Theux ,12105,83361104
+BE335,n.a.,63079,no,Verviers,Verviers,55232,33073857
+BE335,n.a.,63080,no,Waimes,Weismes ,7464,96930619
+BE335,n.a.,63084,no,Welkenraedt ,Welkenraedt ,9814,24466263
+BE335,n.a.,63086,no,Trois-Ponts ,Trois-Ponts ,2505,68897507
+BE336,n.a.,63087,no,Burg-Reuland,Burg-Reuland,3961,108959984
+BE335,n.a.,63088,no,Plombières,Plombières,10280,53175559
+BE335,n.a.,63089,no,Thimister-Clermont,Thimister-Clermont,5709,28691349
+BE334,n.a.,64008,no,Berloz,Berloz,3036,14489060
+BE334,n.a.,64015,no,Braives ,Braives ,6238,43996744
+BE334,n.a.,64021,no,Crisnée ,Crisnée ,3262,16831269
+BE334,n.a.,64023,no,Donceel ,Donceel ,3033,23308877
+BE334,n.a.,64025,no,Fexhe-le-Haut-Clocher ,Fexhe-le-Haut-Clocher ,3256,19252544
+BE334,n.a.,64029,no,Geer,Geer,3367,23623678
+BE334,n.a.,64034,no,Hannut,Hannuit ,15991,86531536
+BE334,n.a.,64047,no,Lincent ,Lijsem,3283,14745411
+BE334,n.a.,64056,no,Oreye ,Oerle ,3862,19635873
+BE334,n.a.,64063,no,Remicourt ,Remicourt ,5908,22581839
+BE334,n.a.,64065,no,Saint-Georges-sur-Meuse ,Saint-Georges-sur-Meuse ,6591,20896065
+BE334,n.a.,64074,no,Waremme ,Borgworm,14907,31043315
+BE334,n.a.,64075,no,Wasseiges ,Wasseiges ,2857,24447016
+BE334,n.a.,64076,no,Faimes,Faimes,3922,28478106
+BE221,n.a.,71002,no,As,As,8170,22068324
+BE221,n.a.,71004,no,Beringen,Beringen,45260,78296142
+BE221,n.a.,71011,no,Diepenbeek,Diepenbeek,18894,41187726
+BE221,n.a.,71016,no,Genk,Genk,65678,87854574
+BE221,n.a.,71017,no,Gingelom,Gingelom,8388,56492262
+BE221,n.a.,71020,no,Halen ,Halen ,9576,36294788
+BE221,n.a.,71022,no,Hasselt ,Hasselt ,76668,102238796
+BE221,n.a.,71024,no,Herk-de-Stad,Herck-la-Ville,12610,42832378
+BE221,n.a.,71034,no,Leopoldsburg,Bourg-Léopold ,15812,22490585
+BE221,n.a.,71037,no,Lummen,Lummen,14606,53384345
+BE221,n.a.,71045,no,Nieuwerkerken ,Nieuwerkerken ,6861,22461067
+BE221,n.a.,71047,no,Opglabbeek,Opglabbeek,10307,24979034
+BE221,n.a.,71053,no,Sint-Truiden,Saint-Trond ,40568,106897458
+BE221,n.a.,71057,no,Tessenderlo ,Tessenderlo ,18404,51351879
+BE221,n.a.,71066,no,Zonhoven,Zonhoven,21293,39339354
+BE221,n.a.,71067,no,Zutendaal ,Zutendaal ,7254,32067212
+BE221,n.a.,71069,no,Ham ,Ham ,10622,32690247
+BE221,n.a.,71070,no,Heusden-Zolder,Heusden-Zolder,33125,53227096
+BE222,n.a.,72003,no,Bocholt ,Bocholt ,12940,59342371
+BE222,n.a.,72004,no,Bree,Bree,15804,64960155
+BE222,n.a.,72018,no,Kinrooi ,Kinrooi ,12304,54764596
+BE222,n.a.,72020,no,Lommel,Lommel,33934,102374548
+BE222,n.a.,72021,no,Maaseik ,Maaseik ,25135,76913992
+BE222,n.a.,72025,no,Neerpelt,Neerpelt,16971,42777761
+BE222,n.a.,72029,no,Overpelt,Overpelt,15013,40847167
+BE222,n.a.,72030,no,Peer,Peer,16306,86951363
+BE222,n.a.,72037,no,Hamont-Achel,Hamont-Achel,14357,43659732
+BE222,n.a.,72038,no,Hechtel-Eksel ,Hechtel-Eksel ,12564,76698629
+BE222,n.a.,72039,no,Houthalen-Helchteren,Houthalen-Helchteren,31149,78268805
+BE222,n.a.,72040,no,Meeuwen-Gruitrode ,Meeuwen-Gruitrode ,13107,91261974
+BE222,n.a.,72041,no,Dilsen-Stokkem,Dilsen-Stokkem,20290,65606487
+BE223,n.a.,73001,no,Alken ,Alken ,11465,28139063
+BE223,n.a.,73006,no,Bilzen,Bilzen,31827,75895280
+BE223,n.a.,73009,no,Borgloon,Looz,10590,51122832
+BE223,n.a.,73022,no,Heers ,Heers ,7203,53066011
+BE223,n.a.,73028,no,Herstappe ,Herstappe ,89,1354614
+BE223,n.a.,73032,no,Hoeselt ,Hoeselt ,9648,30021100
+BE223,n.a.,73040,no,Kortessem ,Kortessem ,8364,33899609
+BE223,n.a.,73042,no,Lanaken ,Lanaken ,26079,58995770
+BE223,n.a.,73066,no,Riemst,Riemst,16553,57876331
+BE223,n.a.,73083,no,Tongeren,Tongres ,30742,87561067
+BE223,n.a.,73098,no,Wellen,Wellen,7375,26724300
+BE223,n.a.,73107,no,Maasmechelen,Maasmechelen,37683,76278583
+BE223,n.a.,73109,no,Voeren,Fourons ,4100,50626962
+BE341,n.a.,81001,no,Arlon ,Aarlen,29216,118635569
+BE341,n.a.,81003,no,Attert,Attert,5409,70935702
+BE341,n.a.,81004,no,Aubange ,Aubange ,16577,45598310
+BE341,n.a.,81013,no,Martelange,Martelange,1786,29672424
+BE341,n.a.,81015,no,Messancy,Messancy,8085,52433828
+BE342,n.a.,82003,no,Bastogne,Bastenaken,15570,172029942
+BE342,n.a.,82005,no,Bertogne,Bertogne,3489,91672167
+BE342,n.a.,82009,no,Fauvillers,Fauvillers,2240,74112989
+BE342,n.a.,82014,no,Houffalize,Houffalize,5187,166576620
+BE342,n.a.,82032,no,Vielsalm,Vielsalm,7732,139763779
+BE342,n.a.,82036,no,Vaux-sur-Sûre ,Vaux-sur-Sûre ,5510,135868939
+BE342,n.a.,82037,no,Gouvy ,Gouvy ,5603,165110148
+BE342,n.a.,82038,no,Sainte-Ode,Sainte-Ode,2963,97864959
+BE343,n.a.,83012,no,Durbuy,Durbuy,11559,156606191
+BE343,n.a.,83013,no,Erezée,Erezée,3280,78435643
+BE343,n.a.,83028,no,Hotton,Hotton,5800,57315509
+BE343,n.a.,83031,no,La Roche-en-Ardenne ,La Roche-en-Ardenne ,4190,147524848
+BE343,n.a.,83034,no,Marche-en-Famenne ,Marche-en-Famenne ,17416,121404944
+BE343,n.a.,83040,no,Nassogne,Nassogne,5408,111960148
+BE343,n.a.,83044,no,Rendeux ,Rendeux ,2841,68831680
+BE343,n.a.,83049,no,Tenneville,Tenneville,2789,91806850
+BE343,n.a.,83055,no,Manhay,Manhay,3500,119807849
+BE344,n.a.,84009,no,Bertrix ,Bertrix ,8666,137700185
+BE344,n.a.,84010,no,Bouillon,Bouillon,5404,149085699
+BE344,n.a.,84016,no,Daverdisse,Daverdisse,1456,56403121
+BE344,n.a.,84029,no,Herbeumont,Herbeumont,2002,58808394
+BE344,n.a.,84033,no,Léglise ,Léglise ,5185,172921866
+BE344,n.a.,84035,no,Libin ,Libin ,5074,139723899
+BE344,n.a.,84043,no,Neufchâteau ,Neufchâteau ,7483,113794475
+BE344,n.a.,84050,no,Paliseul,Paliseul,5305,112956734
+BE344,n.a.,84059,no,Saint-Hubert,Saint-Hubert,5555,111157498
+BE344,n.a.,84068,no,Tellin,Tellin,2475,56638984
+BE344,n.a.,84075,no,Wellin,Wellin,3025,67516544
+BE344,n.a.,84077,no,Libramont-Chevigny,Libramont-Chevigny,11089,177863557
+BE345,n.a.,85007,no,Chiny ,Chiny ,5236,113692902
+BE345,n.a.,85009,no,Etalle,Etalle,5751,78104498
+BE345,n.a.,85011,no,Florenville ,Florenville ,5630,146912024
+BE345,n.a.,85024,no,Meix-devant-Virton,Meix-devant-Virton,2790,54199214
+BE345,n.a.,85026,no,Musson,Musson,4480,34810765
+BE345,n.a.,85034,no,Saint-Léger ,Saint-Léger ,3556,35861066
+BE345,n.a.,85039,no,Tintigny,Tintigny,4257,81791048
+BE345,n.a.,85045,no,Virton,Virton,11391,94494256
+BE345,n.a.,85046,no,Habay ,Habay ,8374,103640801
+BE345,n.a.,85047,no,Rouvroy ,Rouvroy ,2092,27678426
+BE351,n.a.,91005,no,Anhée ,Anhée ,7100,65668692
+BE351,n.a.,91013,no,Beauraing ,Beauraing ,9286,174546992
+BE351,n.a.,91015,no,Bièvre,Bièvre,3249,109589467
+BE351,n.a.,91030,no,Ciney ,Ciney ,16324,147560318
+BE351,n.a.,91034,no,Dinant,Dinant,13501,99800564
+BE351,n.a.,91054,no,Gedinne ,Gedinne ,4559,151556957
+BE351,n.a.,91059,no,Hamois,Hamois,7521,76415061
+BE351,n.a.,91064,no,Havelange ,Havelange ,5079,104731327
+BE351,n.a.,91072,no,Houyet,Houyet,4739,122312551
+BE351,n.a.,91103,no,Onhaye,Onhaye,3169,65534848
+BE351,n.a.,91114,no,Rochefort ,Rochefort ,12557,165273371
+BE351,n.a.,91120,no,Somme-Leuze ,Somme-Leuze ,5414,95090192
+BE351,n.a.,91141,no,Yvoir ,Yvoir ,9472,56838567
+BE351,n.a.,91142,no,Hastière,Hastière,5957,56463280
+BE351,n.a.,91143,no,Vresse-sur-Semois ,Vresse-sur-Semois ,2839,101037806
+BE352,n.a.,92003,no,Andenne ,Andenne ,26276,86172936
+BE352,n.a.,92006,no,Assesse ,Assesse ,6941,78156038
+BE352,n.a.,92035,no,Eghezée ,Eghezée ,15948,102807580
+BE352,n.a.,92045,no,Floreffe,Floreffe,7964,38890056
+BE352,n.a.,92048,no,Fosses-la-Ville ,Fosses-la-Ville ,10406,63236150
+BE352,n.a.,92054,no,Gesves,Gesves,7170,64919746
+BE352,n.a.,92087,no,Mettet,Mettet,12897,116782578
+BE352,n.a.,92094,no,Namur ,Namen ,110625,175692459
+BE352,n.a.,92097,no,Ohey,Ohey,5017,56621930
+BE352,n.a.,92101,no,Profondeville ,Profondeville ,12115,50344366
+BE352,n.a.,92114,no,Sombreffe ,Sombreffe ,8386,35779498
+BE352,n.a.,92137,no,Sambreville ,Sambreville ,27892,34196530
+BE352,n.a.,92138,no,Fernelmont,Fernelmont,7792,65606764
+BE352,n.a.,92140,no,Jemeppe-sur-Sambre,Jemeppe-sur-Sambre,18982,46796948
+BE352,n.a.,92141,no,La Bruyère,La Bruyère,9058,52984274
+BE352,n.a.,92142,no,Gembloux,Gembloux,25527,95858779
+BE353,n.a.,93010,no,Cerfontaine ,Cerfontaine ,4856,83453747
+BE353,n.a.,93014,no,Couvin,Couvin,13953,206926628
+BE353,n.a.,93018,no,Doische ,Doische ,2960,84017587
+BE353,n.a.,93022,no,Florennes ,Florennes ,11794,133547837
+BE353,n.a.,93056,no,Philippeville ,Philippeville ,9225,156714391
+BE353,n.a.,93088,no,Walcourt,Walcourt,18580,123184127
+BE353,n.a.,93090,no,Viroinval ,Viroinval ,5949,120897675
