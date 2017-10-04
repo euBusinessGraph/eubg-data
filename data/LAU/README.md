@@ -93,8 +93,8 @@ where{
 }
 ```
 * IE - Match by hand. According to [wikipedia|https://en.wikipedia.org/wiki/Local_administrative_unit]
-there should be 34 LAU1 codes. In the eurostat data there're only 6 LAU1 codes. 
-There're 8 NUTS3 codes. This leads to the conclusion that LAU1 isn't subregion of NUTS3.
+there should be 34 LAU1 codes. In the eurostat data there are only 6 LAU1 codes. 
+There are 8 NUTS3 codes. This leads to the conclusion that LAU1 isn't subregion of NUTS3.
 Probably should bypass it.
 [IE lau|https://en.wikipedia.org/wiki/Local_government_in_the_Republic_of_Ireland].
 * LT - We'll skip these
@@ -146,7 +146,7 @@ Countries:
 * UK
   * LAU1_NAT_CODE_NEW - new column - is blank for a lot of cases. Will use the old one
   * LAU2_NAT_CODE_NEW - new column - is blank for a lot of cases. Will use the old one
-  * instead of NUTS_3 there're 2 new columns "NUTS3_13" and "NUTS3_10".
+  * instead of NUTS_3 there are 2 new columns "NUTS3_13" and "NUTS3_10".
 This is due to changes in the NUTS classification. The NUTS classification was introduced in 2006.
 In 2010 and 2013 changes were made to the UK regions - [reference](https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_the_United_Kingdom#NUTS_2013).
 We'll use NUTS3_13 as latest present identificator.
