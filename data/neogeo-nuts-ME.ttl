@@ -1,0 +1,64 @@
+
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nuts: <http://nuts.geovocab.org/id/> .
+@prefix ramon: <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix ngeo: <http://geovocab.org/geometry#> .
+@prefix spatial: <http://geovocab.org/spatial#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+#------------- level 0
+nuts:ME rdf:type ramon:NUTSRegion .
+nuts:ME rdfs:label "ME - MONTENEGRO" .
+nuts:ME ramon:name "MONTENEGRO" .
+nuts:ME ramon:level "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+nuts:ME ramon:code "ME" .
+
+nuts:ME owl:sameAs <http://estatwrap.ontologycentral.com/dic/geo#ME> .
+nuts:ME owl:sameAs <http://nuts.psi.enakting.org/id/ME> .
+nuts:ME owl:sameAs <http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/Montenegro> .
+nuts:ME owl:sameAs <http://aims.fao.org/aos/geopolitical.owl#Montenegro> .
+nuts:ME owl:sameAs <http://ec.europa.eu/eurostat/ramon/rdfdata/countries/ME> .
+nuts:ME owl:sameAs <http://rdfdata.eionet.europa.eu/iso3166/countries/ME> .
+nuts:ME owl:sameAs <http://dbpedia.org/resource/Montenegro> .
+nuts:ME owl:sameAs <http://sws.geonames.org/3194884/> .
+#------------- level 1
+nuts:ME0 rdf:type ramon:NUTSRegion .
+nuts:ME0 rdfs:label "ME0 - Montenegro" .
+nuts:ME0 ramon:name "Montenegro" .
+nuts:ME0 ramon:level "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+nuts:ME0 ramon:code "ME0" .
+
+nuts:ME0 spatial:PP nuts:ME .
+
+nuts:ME0 owl:sameAs <http://estatwrap.ontologycentral.com/dic/geo#ME0> .
+nuts:ME0 owl:sameAs <http://nuts.psi.enakting.org/id/ME0> .
+
+#------------- level 2
+nuts:ME00 rdf:type ramon:NUTSRegion .
+nuts:ME00 rdfs:label "ME00 - Montenegro" .
+nuts:ME00 ramon:name "Montenegro" .
+nuts:ME00 ramon:level "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+nuts:ME00 ramon:code "ME00" .
+
+nuts:ME00 spatial:PP nuts:ME0 .
+
+nuts:ME00 owl:sameAs <http://estatwrap.ontologycentral.com/dic/geo#ME00> .
+nuts:ME00 owl:sameAs <http://nuts.psi.enakting.org/id/ME00> .
+
+
+#------------- level 3
+nuts:ME000 rdf:type ramon:NUTSRegion .
+nuts:ME000 rdfs:label "ME000 - Montenegro" .
+nuts:ME000 ramon:name "Montenegro" .
+nuts:ME000 ramon:level "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+nuts:ME000 ramon:code "ME000" .
+
+nuts:ME000 spatial:PP nuts:ME00 .
+
+nuts:ME000 owl:sameAs <http://estatwrap.ontologycentral.com/dic/geo#ME000> .
+nuts:ME000 owl:sameAs <http://nuts.psi.enakting.org/id/ME000> .
+

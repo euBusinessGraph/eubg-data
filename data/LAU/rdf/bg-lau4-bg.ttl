@@ -1,0 +1,1864 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:BG-SFO07  ramon:name  "Botevgrad"@en ;
+        ramon:name      "Ботевград"@bg ;
+        ramon:code      "BG-SFO07" ;
+        rdfs:label      "BG-SFO07 Botevgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB28  ramon:name  "Dobrich"@en ;
+        ramon:name      "Добрич"@bg ;
+        ramon:code      "BG-DOB28" ;
+        rdfs:label      "BG-DOB28 Dobrich" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ08  ramon:name  "Dzhebel"@en ;
+        ramon:name      "Джебел"@bg ;
+        ramon:code      "BG-KRZ08" ;
+        rdfs:label      "BG-KRZ08 Dzhebel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV29  ramon:name  "Simeonovgrad"@en ;
+        ramon:name      "Симеоновград"@bg ;
+        ramon:code      "BG-HKV29" ;
+        rdfs:label      "BG-HKV29 Simeonovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PER22  ramon:name  "Kalishte"@en ;
+        ramon:name      "Калище"@bg ;
+        ramon:code      "BG-PER22" ;
+        rdfs:label      "BG-PER22 Kalishte" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS10  ramon:name  "Dulovo"@en ;
+        ramon:name      "Дулово"@bg ;
+        ramon:code      "BG-SLS10" ;
+        rdfs:label      "BG-SLS10 Dulovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB27  ramon:name  "Tervel"@en ;
+        ramon:name      "Тервел"@bg ;
+        ramon:code      "BG-DOB27" ;
+        rdfs:label      "BG-DOB27 Tervel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB20  ramon:name  "Krushari"@en ;
+        ramon:name      "Крушари"@bg ;
+        ramon:code      "BG-DOB20" ;
+        rdfs:label      "BG-DOB20 Krushari" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS15  ramon:name  "Golesh"@en ;
+        ramon:name      "Голеш"@bg ;
+        ramon:code      "BG-SLS15" ;
+        rdfs:label      "BG-SLS15 Golesh" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO43  ramon:name  "Svoge"@en ;
+        ramon:name      "Своге"@bg ;
+        ramon:code      "BG-SFO43" ;
+        rdfs:label      "BG-SFO43 Svoge" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG13  ramon:name  "Ribnovo"@en ;
+        ramon:name      "Рибново"@bg ;
+        ramon:code      "BG-BLG13" ;
+        rdfs:label      "BG-BLG13 Ribnovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU07  ramon:name  "Yasenkovo"@en ;
+        ramon:name      "Ясенково"@bg ;
+        ramon:code      "BG-SHU07" ;
+        rdfs:label      "BG-SHU07 Yasenkovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO45  ramon:name  "Slivnitsa"@en ;
+        ramon:name      "Сливница"@bg ;
+        ramon:code      "BG-SFO45" ;
+        rdfs:label      "BG-SFO45 Slivnitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ36  ramon:name  "Tsar Kaloyan"@en ;
+        ramon:name      "Цар Калоян"@bg ;
+        ramon:code      "BG-RAZ36" ;
+        rdfs:label      "BG-RAZ36 Tsar Kaloyan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ15  ramon:name  "Krumovgrad"@en ;
+        ramon:name      "Крумовград"@bg ;
+        ramon:code      "BG-KRZ15" ;
+        rdfs:label      "BG-KRZ15 Krumovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ14  ramon:name  "Benkovski"@en ;
+        ramon:name      "Бенковски"@bg ;
+        ramon:code      "BG-KRZ14" ;
+        rdfs:label      "BG-KRZ14 Benkovski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ16  ramon:name  "Kardzhali"@en ;
+        ramon:name      "Кърджали"@bg ;
+        ramon:code      "BG-KRZ16" ;
+        rdfs:label      "BG-KRZ16 Kardzhali" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO56  ramon:name  "Mirkovo"@en ;
+        ramon:name      "Мирково"@bg ;
+        ramon:code      "BG-SFO56" ;
+        rdfs:label      "BG-SFO56 Mirkovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB29  ramon:name  "Shabla"@en ;
+        ramon:name      "Шабла"@bg ;
+        ramon:code      "BG-DOB29" ;
+        rdfs:label      "BG-DOB29 Shabla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID30  ramon:name  "Novo selo"@en ;
+        ramon:name      "Ново село"@bg ;
+        ramon:code      "BG-VID30" ;
+        rdfs:label      "BG-VID30 Novo selo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID33  ramon:name  "Drenovets"@en ;
+        ramon:name      "Дреновец"@bg ;
+        ramon:code      "BG-VID33" ;
+        rdfs:label      "BG-VID33 Drenovets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO57  ramon:name  "Chavdar"@en ;
+        ramon:name      "Чавдар"@bg ;
+        ramon:code      "BG-SFO57" ;
+        rdfs:label      "BG-SFO57 Chavdar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID37  ramon:name  "Gorni Lom"@en ;
+        ramon:name      "Горни Лом"@bg ;
+        ramon:code      "BG-VID37" ;
+        rdfs:label      "BG-VID37 Gorni Lom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN08  ramon:name  "Gulyantsi"@en ;
+        ramon:name      "Гулянци"@bg ;
+        ramon:code      "BG-PVN08" ;
+        rdfs:label      "BG-PVN08 Gulyantsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU10  ramon:name  "Varbitsa"@en ;
+        ramon:name      "Върбица"@bg ;
+        ramon:code      "BG-SHU10" ;
+        rdfs:label      "BG-SHU10 Varbitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS21  ramon:name  "Sozopol"@en ;
+        ramon:name      "Созопол"@bg ;
+        ramon:code      "BG-BGS21" ;
+        rdfs:label      "BG-BGS21 Sozopol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-GAB05  ramon:name  "Gabrovo"@en ;
+        ramon:name      "Габрово"@bg ;
+        ramon:code      "BG-GAB05" ;
+        rdfs:label      "BG-GAB05 Gabrovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ04  ramon:name  "Belovo"@en ;
+        ramon:name      "Белово"@bg ;
+        ramon:code      "BG-PAZ04" ;
+        rdfs:label      "BG-PAZ04 Belovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS04  ramon:name  "Burgas"@en ;
+        ramon:name      "Бургас"@bg ;
+        ramon:code      "BG-BGS04" ;
+        rdfs:label      "BG-BGS04 Burgas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ06  ramon:name  "Bratsigovo"@en ;
+        ramon:name      "Брацигово"@bg ;
+        ramon:code      "BG-PAZ06" ;
+        rdfs:label      "BG-PAZ06 Bratsigovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS06  ramon:name  "Sredets"@en ;
+        ramon:name      "Средец"@bg ;
+        ramon:code      "BG-BGS06" ;
+        rdfs:label      "BG-BGS06 Sredets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS01  ramon:name  "Aytos"@en ;
+        ramon:name      "Айтос"@bg ;
+        ramon:code      "BG-BGS01" ;
+        rdfs:label      "BG-BGS01 Aytos" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC21  ramon:name  "Krivodol"@en ;
+        ramon:name      "Криводол"@bg ;
+        ramon:code      "BG-VRC21" ;
+        rdfs:label      "BG-VRC21 Krivodol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ03  ramon:name  "Batak"@en ;
+        ramon:name      "Батак"@bg ;
+        ramon:code      "BG-PAZ03" ;
+        rdfs:label      "BG-PAZ03 Batak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV33  ramon:name  "Saedinenie"@en ;
+        ramon:name      "Съединение"@bg ;
+        ramon:code      "BG-PDV33" ;
+        rdfs:label      "BG-PDV33 Saedinenie" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS09  ramon:name  "Karnobat"@en ;
+        ramon:name      "Карнобат"@bg ;
+        ramon:code      "BG-BGS09" ;
+        rdfs:label      "BG-BGS09 Karnobat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR31  ramon:name  "Strazhitsa"@en ;
+        ramon:name      "Стражица"@bg ;
+        ramon:code      "BG-VTR31" ;
+        rdfs:label      "BG-VTR31 Strazhitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR32  ramon:name  "Suhindol"@en ;
+        ramon:name      "Сухиндол"@bg ;
+        ramon:code      "BG-VTR32" ;
+        rdfs:label      "BG-VTR32 Suhindol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV11  ramon:name  "Ivaylovgrad"@en ;
+        ramon:name      "Ивайловград"@bg ;
+        ramon:code      "BG-HKV11" ;
+        rdfs:label      "BG-HKV11 Ivaylovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV17  ramon:name  "Lyubimets"@en ;
+        ramon:name      "Любимец"@bg ;
+        ramon:code      "BG-HKV17" ;
+        rdfs:label      "BG-HKV17 Lyubimets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV19  ramon:name  "Karamantsi"@en ;
+        ramon:name      "Караманци"@bg ;
+        ramon:code      "BG-HKV19" ;
+        rdfs:label      "BG-HKV19 Karamantsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV18  ramon:name  "Madzharovo"@en ;
+        ramon:name      "Маджарово"@bg ;
+        ramon:code      "BG-HKV18" ;
+        rdfs:label      "BG-HKV18 Madzharovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG53  ramon:name  "Yakoruda"@en ;
+        ramon:name      "Якоруда"@bg ;
+        ramon:code      "BG-BLG53" ;
+        rdfs:label      "BG-BLG53 Yakoruda" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG52  ramon:name  "Hadzhidimovo"@en ;
+        ramon:name      "Хаджидимово"@bg ;
+        ramon:code      "BG-BLG52" ;
+        rdfs:label      "BG-BLG52 Hadzhidimovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR14  ramon:name  "Devnya"@en ;
+        ramon:name      "Девня"@bg ;
+        ramon:code      "BG-VAR14" ;
+        rdfs:label      "BG-VAR14 Devnya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-TGV23  ramon:name  "Opaka"@en ;
+        ramon:name      "Опака"@bg ;
+        ramon:code      "BG-TGV23" ;
+        rdfs:label      "BG-TGV23 Opaka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU18  ramon:name  "Todor Ikonomovo"@en ;
+        ramon:name      "Тодор Икономово"@bg ;
+        ramon:code      "BG-SHU18" ;
+        rdfs:label      "BG-SHU18 Todor Ikonomovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO09  ramon:name  "Godech"@en ;
+        ramon:name      "Годеч"@bg ;
+        ramon:code      "BG-SFO09" ;
+        rdfs:label      "BG-SFO09 Godech" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-GAB12  ramon:name  "Dryanovo"@en ;
+        ramon:name      "Дряново"@bg ;
+        ramon:code      "BG-GAB12" ;
+        rdfs:label      "BG-GAB12 Dryanovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO54  ramon:name  "Anton"@en ;
+        ramon:name      "Антон"@bg ;
+        ramon:code      "BG-SFO54" ;
+        rdfs:label      "BG-SFO54 Anton" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO55  ramon:name  "Pirdop"@en ;
+        ramon:name      "Пирдоп"@bg ;
+        ramon:code      "BG-SFO55" ;
+        rdfs:label      "BG-SFO55 Pirdop" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR26  ramon:name  "Suvorovo"@en ;
+        ramon:name      "Суворово"@bg ;
+        ramon:code      "BG-VAR26" ;
+        rdfs:label      "BG-VAR26 Suvorovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO59  ramon:name  "Dolna banya"@en ;
+        ramon:name      "Долна баня"@bg ;
+        ramon:code      "BG-SFO59" ;
+        rdfs:label      "BG-SFO59 Dolna banya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ02  ramon:name  "Ardino"@en ;
+        ramon:name      "Ардино"@bg ;
+        ramon:code      "BG-KRZ02" ;
+        rdfs:label      "BG-KRZ02 Ardino" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU11  ramon:name  "Timarevo"@en ;
+        ramon:name      "Тимарево"@bg ;
+        ramon:code      "BG-SHU11" ;
+        rdfs:label      "BG-SHU11 Timarevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV28  ramon:name  "Svilengrad"@en ;
+        ramon:name      "Свиленград"@bg ;
+        ramon:code      "BG-HKV28" ;
+        rdfs:label      "BG-HKV28 Svilengrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID22  ramon:name  "Kula"@en ;
+        ramon:name      "Кула"@bg ;
+        ramon:code      "BG-VID22" ;
+        rdfs:label      "BG-VID22 Kula" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU23  ramon:name  "Veliki Preslav"@en ;
+        ramon:name      "Велики Преслав"@bg ;
+        ramon:code      "BG-SHU23" ;
+        rdfs:label      "BG-SHU23 Veliki Preslav" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID25  ramon:name  "Rakovitsa"@en ;
+        ramon:name      "Раковица"@bg ;
+        ramon:code      "BG-VID25" ;
+        rdfs:label      "BG-VID25 Rakovitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL04  ramon:name  "Bobov dol"@en ;
+        ramon:name      "Бобов дол"@bg ;
+        ramon:code      "BG-KNL04" ;
+        rdfs:label      "BG-KNL04 Bobov dol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL05  ramon:name  "Boboshevo"@en ;
+        ramon:name      "Бобошево"@bg ;
+        ramon:code      "BG-KNL05" ;
+        rdfs:label      "BG-KNL05 Boboshevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS17  ramon:name  "Pomorie"@en ;
+        ramon:name      "Поморие"@bg ;
+        ramon:code      "BG-BGS17" ;
+        rdfs:label      "BG-BGS17 Pomorie" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-JAM07  ramon:name  "Elhovo"@en ;
+        ramon:name      "Елхово"@bg ;
+        ramon:code      "BG-JAM07" ;
+        rdfs:label      "BG-JAM07 Elhovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS15  ramon:name  "Nesebar"@en ;
+        ramon:name      "Несебър"@bg ;
+        ramon:code      "BG-BGS15" ;
+        rdfs:label      "BG-BGS15 Nesebar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV25  ramon:name  "Rakovski"@en ;
+        ramon:name      "Раковски"@bg ;
+        ramon:code      "BG-PDV25" ;
+        rdfs:label      "BG-PDV25 Rakovski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS13  ramon:name  "Tsarevo"@en ;
+        ramon:name      "Царево"@bg ;
+        ramon:code      "BG-BGS13" ;
+        rdfs:label      "BG-BGS13 Tsarevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-JAM03  ramon:name  "Bolyarovo"@en ;
+        ramon:name      "Болярово"@bg ;
+        ramon:code      "BG-JAM03" ;
+        rdfs:label      "BG-JAM03 Bolyarovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV26  ramon:name  "Tsalapitsa"@en ;
+        ramon:name      "Цалапица"@bg ;
+        ramon:code      "BG-PDV26" ;
+        rdfs:label      "BG-PDV26 Tsalapitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV28  ramon:name  "Bolyartsi"@en ;
+        ramon:name      "Болярци"@bg ;
+        ramon:code      "BG-PDV28" ;
+        rdfs:label      "BG-PDV28 Bolyartsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS18  ramon:name  "Ruen"@en ;
+        ramon:name      "Руен"@bg ;
+        ramon:code      "BG-BGS18" ;
+        rdfs:label      "BG-BGS18 Ruen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG49  ramon:name  "Mikrevo"@en ;
+        ramon:name      "Микрево"@bg ;
+        ramon:code      "BG-BLG49" ;
+        rdfs:label      "BG-BLG49 Mikrevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG28  ramon:name  "Kresna"@en ;
+        ramon:name      "Кресна"@bg ;
+        ramon:code      "BG-BLG28" ;
+        rdfs:label      "BG-BLG28 Kresna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON24  ramon:name  "Lom"@en ;
+        ramon:name      "Лом"@bg ;
+        ramon:code      "BG-MON24" ;
+        rdfs:label      "BG-MON24 Lom" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG40  ramon:name  "Sandanski"@en ;
+        ramon:name      "Сандански"@bg ;
+        ramon:code      "BG-BLG40" ;
+        rdfs:label      "BG-BLG40 Sandanski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG42  ramon:name  "Valkosel"@en ;
+        ramon:name      "Вълкосел"@bg ;
+        ramon:code      "BG-BLG42" ;
+        rdfs:label      "BG-BLG42 Valkosel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV09  ramon:name  "Dimitrovgrad"@en ;
+        ramon:name      "Димитровград"@bg ;
+        ramon:code      "BG-HKV09" ;
+        rdfs:label      "BG-HKV09 Dimitrovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG44  ramon:name  "Simitli"@en ;
+        ramon:name      "Симитли"@bg ;
+        ramon:code      "BG-BLG44" ;
+        rdfs:label      "BG-BLG44 Simitli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ29  ramon:name  "Samuil"@en ;
+        ramon:name      "Самуил"@bg ;
+        ramon:code      "BG-RAZ29" ;
+        rdfs:label      "BG-RAZ29 Samuil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ21  ramon:name  "Peshtera"@en ;
+        ramon:name      "Пещера"@bg ;
+        ramon:code      "BG-PAZ21" ;
+        rdfs:label      "BG-PAZ21 Peshtera" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO20  ramon:name  "Ihtiman"@en ;
+        ramon:name      "Ихтиман"@bg ;
+        ramon:code      "BG-SFO20" ;
+        rdfs:label      "BG-SFO20 Ihtiman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO25  ramon:name  "Kostenets"@en ;
+        ramon:name      "Костенец"@bg ;
+        ramon:code      "BG-SFO25" ;
+        rdfs:label      "BG-SFO25 Kostenets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO24  ramon:name  "Koprivshtitsa"@en ;
+        ramon:name      "Копривщица"@bg ;
+        ramon:code      "BG-SFO24" ;
+        rdfs:label      "BG-SFO24 Koprivshtitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ35  ramon:name  "Komuniga"@en ;
+        ramon:name      "Комунига"@bg ;
+        ramon:code      "BG-KRZ35" ;
+        rdfs:label      "BG-KRZ35 Komuniga" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO26  ramon:name  "Kostinbrod"@en ;
+        ramon:name      "Костинброд"@bg ;
+        ramon:code      "BG-SFO26" ;
+        rdfs:label      "BG-SFO26 Kostinbrod" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID16  ramon:name  "Archar"@en ;
+        ramon:name      "Арчар"@bg ;
+        ramon:code      "BG-VID16" ;
+        rdfs:label      "BG-VID16 Archar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID15  ramon:name  "Gramada"@en ;
+        ramon:name      "Грамада"@bg ;
+        ramon:code      "BG-VID15" ;
+        rdfs:label      "BG-VID15 Gramada" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV23  ramon:name  "Parvomay"@en ;
+        ramon:name      "Първомай"@bg ;
+        ramon:code      "BG-PDV23" ;
+        rdfs:label      "BG-PDV23 Parvomay" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS23  ramon:name  "Sungurlare"@en ;
+        ramon:name      "Сунгурларе"@bg ;
+        ramon:code      "BG-BGS23" ;
+        rdfs:label      "BG-BGS23 Sungurlare" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR07  ramon:name  "Galabovo"@en ;
+        ramon:name      "Гълъбово"@bg ;
+        ramon:code      "BG-SZR07" ;
+        rdfs:label      "BG-SZR07 Galabovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR04  ramon:name  "Cherna gora"@en ;
+        ramon:name      "Черна гора"@bg ;
+        ramon:code      "BG-SZR04" ;
+        rdfs:label      "BG-SZR04 Cherna gora" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR06  ramon:name  "Gorna Oryahovitsa"@en ;
+        ramon:name      "Горна Оряховица"@bg ;
+        ramon:code      "BG-VTR06" ;
+        rdfs:label      "BG-VTR06 Gorna Oryahovitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS27  ramon:name  "Primorsko"@en ;
+        ramon:name      "Приморско"@bg ;
+        ramon:code      "BG-BGS27" ;
+        rdfs:label      "BG-BGS27 Primorsko" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV37  ramon:name  "Hisarya"@en ;
+        ramon:name      "Хисаря"@bg ;
+        ramon:code      "BG-PDV37" ;
+        rdfs:label      "BG-PDV37 Hisarya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS12  ramon:name  "Malko Tarnovo"@en ;
+        ramon:name      "Малко Търново"@bg ;
+        ramon:code      "BG-BGS12" ;
+        rdfs:label      "BG-BGS12 Malko Tarnovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN03  ramon:name  "Belene"@en ;
+        ramon:name      "Белене"@bg ;
+        ramon:code      "BG-PVN03" ;
+        rdfs:label      "BG-PVN03 Belene" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV39  ramon:name  "Krichim"@en ;
+        ramon:name      "Кричим"@bg ;
+        ramon:code      "BG-PDV39" ;
+        rdfs:label      "BG-PDV39 Krichim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PER19  ramon:name  "Zemen"@en ;
+        ramon:name      "Земен"@bg ;
+        ramon:code      "BG-PER19" ;
+        rdfs:label      "BG-PER19 Zemen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC32  ramon:name  "Roman"@en ;
+        ramon:name      "Роман"@bg ;
+        ramon:code      "BG-VRC32" ;
+        rdfs:label      "BG-VRC32 Roman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN27  ramon:name  "Pordim"@en ;
+        ramon:name      "Пордим"@bg ;
+        ramon:code      "BG-PVN27" ;
+        rdfs:label      "BG-PVN27 Pordim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON26  ramon:name  "Medkovets"@en ;
+        ramon:name      "Медковец"@bg ;
+        ramon:code      "BG-MON26" ;
+        rdfs:label      "BG-MON26 Medkovets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KRZ21  ramon:name  "Momchilgrad"@en ;
+        ramon:name      "Момчилград"@bg ;
+        ramon:code      "BG-KRZ21" ;
+        rdfs:label      "BG-KRZ21 Momchilgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON12  ramon:name  "Varshets"@en ;
+        ramon:name      "Вършец"@bg ;
+        ramon:code      "BG-MON12" ;
+        rdfs:label      "BG-MON12 Varshets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV33  ramon:name  "Harmanli"@en ;
+        ramon:name      "Харманли"@bg ;
+        ramon:code      "BG-HKV33" ;
+        rdfs:label      "BG-HKV33 Harmanli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV34  ramon:name  "Haskovo"@en ;
+        ramon:name      "Хасково"@bg ;
+        ramon:code      "BG-HKV34" ;
+        rdfs:label      "BG-HKV34 Haskovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON29  ramon:name  "Montana"@en ;
+        ramon:name      "Монтана"@bg ;
+        ramon:code      "BG-MON29" ;
+        rdfs:label      "BG-MON29 Montana" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV32  ramon:name  "Topolovgrad"@en ;
+        ramon:name      "Тополовград"@bg ;
+        ramon:code      "BG-HKV32" ;
+        rdfs:label      "BG-HKV32 Topolovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-HKV30  ramon:name  "Stambolovo"@en ;
+        ramon:name      "Стамболово"@bg ;
+        ramon:code      "BG-HKV30" ;
+        rdfs:label      "BG-HKV30 Stambolovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO17  ramon:name  "Elin Pelin"@en ;
+        ramon:name      "Елин Пелин"@bg ;
+        ramon:code      "BG-SFO17" ;
+        rdfs:label      "BG-SFO17 Elin Pelin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO39  ramon:name  "Samokov"@en ;
+        ramon:name      "Самоков"@bg ;
+        ramon:code      "BG-SFO39" ;
+        rdfs:label      "BG-SFO39 Samokov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG37  ramon:name  "Razlog"@en ;
+        ramon:name      "Разлог"@bg ;
+        ramon:code      "BG-BLG37" ;
+        rdfs:label      "BG-BLG37 Razlog" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG33  ramon:name  "Petrich"@en ;
+        ramon:name      "Петрич"@bg ;
+        ramon:code      "BG-BLG33" ;
+        rdfs:label      "BG-BLG33 Petrich" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID09  ramon:name  "Vidin"@en ;
+        ramon:name      "Видин"@bg ;
+        ramon:code      "BG-VID09" ;
+        rdfs:label      "BG-VID09 Vidin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV22  ramon:name  "Plovdiv"@en ;
+        ramon:name      "Пловдив"@bg ;
+        ramon:code      "BG-PDV22" ;
+        rdfs:label      "BG-PDV22 Plovdiv" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID01  ramon:name  "Belogradchik"@en ;
+        ramon:name      "Белоградчик"@bg ;
+        ramon:code      "BG-VID01" ;
+        rdfs:label      "BG-VID01 Belogradchik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID03  ramon:name  "Boynitsa"@en ;
+        ramon:name      "Бойница"@bg ;
+        ramon:code      "BG-VID03" ;
+        rdfs:label      "BG-VID03 Boynitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-TGV02  ramon:name  "Antonovo"@en ;
+        ramon:name      "Антоново"@bg ;
+        ramon:code      "BG-TGV02" ;
+        rdfs:label      "BG-TGV02 Antonovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VID06  ramon:name  "Bregovo"@en ;
+        ramon:name      "Брегово"@bg ;
+        ramon:code      "BG-VID06" ;
+        rdfs:label      "BG-VID06 Bregovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-JAM22  ramon:name  "Straldzha"@en ;
+        ramon:name      "Стралджа"@bg ;
+        ramon:code      "BG-JAM22" ;
+        rdfs:label      "BG-JAM22 Straldzha" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR31  ramon:name  "Stara Zagora"@en ;
+        ramon:name      "Стара Загора"@bg ;
+        ramon:code      "BG-SZR31" ;
+        rdfs:label      "BG-SZR31 Stara Zagora" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS34  ramon:name  "Tutrakan"@en ;
+        ramon:name      "Тутракан"@bg ;
+        ramon:code      "BG-SLS34" ;
+        rdfs:label      "BG-SLS34 Tutrakan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR36  ramon:name  "Chirpan"@en ;
+        ramon:name      "Чирпан"@bg ;
+        ramon:code      "BG-SZR36" ;
+        rdfs:label      "BG-SZR36 Chirpan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-JAM25  ramon:name  "Kukorevo"@en ;
+        ramon:name      "Кукорево"@bg ;
+        ramon:code      "BG-JAM25" ;
+        rdfs:label      "BG-JAM25 Kukorevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV07  ramon:name  "Brezovo"@en ;
+        ramon:name      "Брезово"@bg ;
+        ramon:code      "BG-PDV07" ;
+        rdfs:label      "BG-PDV07 Brezovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN10  ramon:name  "Trastenik"@en ;
+        ramon:name      "Тръстеник"@bg ;
+        ramon:code      "BG-PVN10" ;
+        rdfs:label      "BG-PVN10 Trastenik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN11  ramon:name  "Dolni Dabnik"@en ;
+        ramon:name      "Долни Дъбник"@bg ;
+        ramon:code      "BG-PVN11" ;
+        rdfs:label      "BG-PVN11 Dolni Dabnik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN16  ramon:name  "Levski"@en ;
+        ramon:name      "Левски"@bg ;
+        ramon:code      "BG-PVN16" ;
+        rdfs:label      "BG-PVN16 Levski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV01  ramon:name  "Asenovgrad"@en ;
+        ramon:name      "Асеновград"@bg ;
+        ramon:code      "BG-PDV01" ;
+        rdfs:label      "BG-PDV01 Asenovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON36  ramon:name  "Chiprovtsi"@en ;
+        ramon:name      "Чипровци"@bg ;
+        ramon:code      "BG-MON36" ;
+        rdfs:label      "BG-MON36 Chiprovtsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO06  ramon:name  "Bozhurishte"@en ;
+        ramon:name      "Божурище"@bg ;
+        ramon:code      "BG-SFO06" ;
+        rdfs:label      "BG-SFO06 Bozhurishte" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ39  ramon:name  "Sarnitsa"@en ;
+        ramon:name      "Сърница"@bg ;
+        ramon:code      "BG-PAZ39" ;
+        rdfs:label      "BG-PAZ39 Sarnitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ17  ramon:name  "Loznitsa"@en ;
+        ramon:name      "Лозница"@bg ;
+        ramon:code      "BG-RAZ17" ;
+        rdfs:label      "BG-RAZ17 Loznitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLV24  ramon:name  "Tvarditsa"@en ;
+        ramon:name      "Твърдица"@bg ;
+        ramon:code      "BG-SLV24" ;
+        rdfs:label      "BG-SLV24 Tvarditsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ16  ramon:name  "Kubrat"@en ;
+        ramon:name      "Кубрат"@bg ;
+        ramon:code      "BG-RAZ16" ;
+        rdfs:label      "BG-RAZ16 Kubrat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC10  ramon:name  "Vratsa"@en ;
+        ramon:name      "Враца"@bg ;
+        ramon:code      "BG-VRC10" ;
+        rdfs:label      "BG-VRC10 Vratsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLV20  ramon:name  "Sliven"@en ;
+        ramon:name      "Сливен"@bg ;
+        ramon:code      "BG-SLV20" ;
+        rdfs:label      "BG-SLV20 Sliven" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ32  ramon:name  "Strelcha"@en ;
+        ramon:name      "Стрелча"@bg ;
+        ramon:code      "BG-PAZ32" ;
+        rdfs:label      "BG-PAZ32 Strelcha" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE27  ramon:name  "Ruse"@en ;
+        ramon:name      "Русе"@bg ;
+        ramon:code      "BG-RSE27" ;
+        rdfs:label      "BG-RSE27 Ruse" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL50  ramon:name  "Treklyano"@en ;
+        ramon:name      "Трекляно"@bg ;
+        ramon:code      "BG-KNL50" ;
+        rdfs:label      "BG-KNL50 Treklyano" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO47  ramon:name  "Zlatitsa"@en ;
+        ramon:name      "Златица"@bg ;
+        ramon:code      "BG-SFO47" ;
+        rdfs:label      "BG-SFO47 Zlatitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG01  ramon:name  "Bansko"@en ;
+        ramon:name      "Банско"@bg ;
+        ramon:code      "BG-BLG01" ;
+        rdfs:label      "BG-BLG01 Bansko" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV19  ramon:name  "Lukovit"@en ;
+        ramon:name      "Луковит"@bg ;
+        ramon:code      "BG-LOV19" ;
+        rdfs:label      "BG-LOV19 Lukovit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV18  ramon:name  "Lovech"@en ;
+        ramon:name      "Ловеч"@bg ;
+        ramon:code      "BG-LOV18" ;
+        rdfs:label      "BG-LOV18 Lovech" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-TGV35  ramon:name  "Targovishte"@en ;
+        ramon:name      "Търговище"@bg ;
+        ramon:code      "BG-TGV35" ;
+        rdfs:label      "BG-TGV35 Targovishte" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN24  ramon:name  "Pleven"@en ;
+        ramon:name      "Плевен"@bg ;
+        ramon:code      "BG-PVN24" ;
+        rdfs:label      "BG-PVN24 Pleven" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN23  ramon:name  "Iskar"@en ;
+        ramon:name      "Искър"@bg ;
+        ramon:code      "BG-PVN23" ;
+        rdfs:label      "BG-PVN23 Iskar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN21  ramon:name  "Nikopol"@en ;
+        ramon:name      "Никопол"@bg ;
+        ramon:code      "BG-PVN21" ;
+        rdfs:label      "BG-PVN21 Nikopol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR12  ramon:name  "Kazanlak"@en ;
+        ramon:name      "Казанлък"@bg ;
+        ramon:code      "BG-SZR12" ;
+        rdfs:label      "BG-SZR12 Kazanlak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV17  ramon:name  "Letnitsa"@en ;
+        ramon:name      "Летница"@bg ;
+        ramon:code      "BG-LOV17" ;
+        rdfs:label      "BG-LOV17 Letnitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML05  ramon:name  "Borino"@en ;
+        ramon:name      "Борино"@bg ;
+        ramon:code      "BG-SML05" ;
+        rdfs:label      "BG-SML05 Borino" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON14  ramon:name  "Kopilovtsi"@en ;
+        ramon:name      "Копиловци"@bg ;
+        ramon:code      "BG-MON14" ;
+        rdfs:label      "BG-MON14 Kopilovtsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC28  ramon:name  "Mizia"@en ;
+        ramon:name      "Мизия"@bg ;
+        ramon:code      "BG-VRC28" ;
+        rdfs:label      "BG-VRC28 Mizia" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC27  ramon:name  "Mezdra"@en ;
+        ramon:name      "Мездра"@bg ;
+        ramon:code      "BG-VRC27" ;
+        rdfs:label      "BG-VRC27 Mezdra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO34  ramon:name  "Pravets"@en ;
+        ramon:name      "Правец"@bg ;
+        ramon:code      "BG-SFO34" ;
+        rdfs:label      "BG-SFO34 Pravets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML02  ramon:name  "Banite"@en ;
+        ramon:name      "Баните"@bg ;
+        ramon:code      "BG-SML02" ;
+        rdfs:label      "BG-SML02 Banite" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR24  ramon:name  "Pavel banya"@en ;
+        ramon:name      "Павел баня"@bg ;
+        ramon:code      "BG-SZR24" ;
+        rdfs:label      "BG-SZR24 Pavel banya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC20  ramon:name  "Kozloduy"@en ;
+        ramon:name      "Козлодуй"@bg ;
+        ramon:code      "BG-VRC20" ;
+        rdfs:label      "BG-VRC20 Kozloduy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV12  ramon:name  "Kaloyanovo"@en ;
+        ramon:name      "Калояново"@bg ;
+        ramon:code      "BG-PDV12" ;
+        rdfs:label      "BG-PDV12 Kaloyanovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV13  ramon:name  "Karlovo"@en ;
+        ramon:name      "Карлово"@bg ;
+        ramon:code      "BG-PDV13" ;
+        rdfs:label      "BG-PDV13 Karlovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML09  ramon:name  "Devin"@en ;
+        ramon:name      "Девин"@bg ;
+        ramon:code      "BG-SML09" ;
+        rdfs:label      "BG-SML09 Devin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV15  ramon:name  "Laki"@en ;
+        ramon:name      "Лъки"@bg ;
+        ramon:code      "BG-PDV15" ;
+        rdfs:label      "BG-PDV15 Laki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR22  ramon:name  "Maglizh"@en ;
+        ramon:name      "Мъглиж"@bg ;
+        ramon:code      "BG-SZR22" ;
+        rdfs:label      "BG-SZR22 Maglizh" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR23  ramon:name  "Yastrebovo"@en ;
+        ramon:name      "Ястребово"@bg ;
+        ramon:code      "BG-SZR23" ;
+        rdfs:label      "BG-SZR23 Yastrebovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO10  ramon:name  "Gorna Malina"@en ;
+        ramon:name      "Горна Малина"@bg ;
+        ramon:code      "BG-SFO10" ;
+        rdfs:label      "BG-SFO10 Gorna Malina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON02  ramon:name  "Berkovitsa"@en ;
+        ramon:name      "Берковица"@bg ;
+        ramon:code      "BG-MON02" ;
+        rdfs:label      "BG-MON02 Berkovitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PER51  ramon:name  "Tran"@en ;
+        ramon:name      "Трън"@bg ;
+        ramon:code      "BG-PER51" ;
+        rdfs:label      "BG-PER51 Tran" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV40  ramon:name  "Perushtitsa"@en ;
+        ramon:name      "Перущица"@bg ;
+        ramon:code      "BG-PDV40" ;
+        rdfs:label      "BG-PDV40 Perushtitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON07  ramon:name  "Vasilovtsi"@en ;
+        ramon:name      "Василовци"@bg ;
+        ramon:code      "BG-MON07" ;
+        rdfs:label      "BG-MON07 Vasilovtsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC08  ramon:name  "Byala Slatina"@en ;
+        ramon:name      "Бяла Слатина"@bg ;
+        ramon:code      "BG-VRC08" ;
+        rdfs:label      "BG-VRC08 Byala Slatina" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB12  ramon:name  "General Toshevo"@en ;
+        ramon:name      "Генерал Тошево"@bg ;
+        ramon:code      "BG-DOB12" ;
+        rdfs:label      "BG-DOB12 General Toshevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO18  ramon:name  "Etropole"@en ;
+        ramon:name      "Етрополе"@bg ;
+        ramon:code      "BG-SFO18" ;
+        rdfs:label      "BG-SFO18 Etropole" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLV11  ramon:name  "Kotel"@en ;
+        ramon:name      "Котел"@bg ;
+        ramon:code      "BG-SLV11" ;
+        rdfs:label      "BG-SLV11 Kotel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC05  ramon:name  "Borovan"@en ;
+        ramon:name      "Борован"@bg ;
+        ramon:code      "BG-VRC05" ;
+        rdfs:label      "BG-VRC05 Borovan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLV16  ramon:name  "Nova Zagora"@en ;
+        ramon:name      "Нова Загора"@bg ;
+        ramon:code      "BG-SLV16" ;
+        rdfs:label      "BG-SLV16 Nova Zagora" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ20  ramon:name  "Panagyurishte"@en ;
+        ramon:name      "Панагюрище"@bg ;
+        ramon:code      "BG-PAZ20" ;
+        rdfs:label      "BG-PAZ20 Panagyurishte" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON11  ramon:name  "Valchedram"@en ;
+        ramon:name      "Вълчедръм"@bg ;
+        ramon:code      "BG-MON11" ;
+        rdfs:label      "BG-MON11 Valchedram" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE33  ramon:name  "Slivo pole"@en ;
+        ramon:name      "Сливо поле"@bg ;
+        ramon:code      "BG-RSE33" ;
+        rdfs:label      "BG-RSE33 Slivo pole" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE37  ramon:name  "Tsenovo"@en ;
+        ramon:name      "Ценово"@bg ;
+        ramon:code      "BG-RSE37" ;
+        rdfs:label      "BG-RSE37 Tsenovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL48  ramon:name  "Dupnitsa"@en ;
+        ramon:name      "Дупница"@bg ;
+        ramon:code      "BG-KNL48" ;
+        rdfs:label      "BG-KNL48 Dupnitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG11  ramon:name  "Gotse Delchev"@en ;
+        ramon:name      "Гоце Делчев"@bg ;
+        ramon:code      "BG-BLG11" ;
+        rdfs:label      "BG-BLG11 Gotse Delchev" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-TGV22  ramon:name  "Omurtag"@en ;
+        ramon:name      "Омуртаг"@bg ;
+        ramon:code      "BG-TGV22" ;
+        rdfs:label      "BG-TGV22 Omurtag" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR27  ramon:name  "Radnevo"@en ;
+        ramon:name      "Раднево"@bg ;
+        ramon:code      "BG-SZR27" ;
+        rdfs:label      "BG-SZR27 Radnevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-TGV24  ramon:name  "Popovo"@en ;
+        ramon:name      "Попово"@bg ;
+        ramon:code      "BG-TGV24" ;
+        rdfs:label      "BG-TGV24 Popovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN37  ramon:name  "Cherven bryag"@en ;
+        ramon:name      "Червен бряг"@bg ;
+        ramon:code      "BG-PVN37" ;
+        rdfs:label      "BG-PVN37 Cherven bryag" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV02  ramon:name  "Apriltsi"@en ;
+        ramon:name      "Априлци"@bg ;
+        ramon:code      "BG-LOV02" ;
+        rdfs:label      "BG-LOV02 Apriltsi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ08  ramon:name  "Velingrad"@en ;
+        ramon:name      "Велинград"@bg ;
+        ramon:code      "BG-PAZ08" ;
+        rdfs:label      "BG-PAZ08 Velingrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV41  ramon:name  "Stamboliyski"@en ;
+        ramon:name      "Стамболийски"@bg ;
+        ramon:code      "BG-PDV41" ;
+        rdfs:label      "BG-PDV41 Stamboliyski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BGS08  ramon:name  "Kameno"@en ;
+        ramon:name      "Камено"@bg ;
+        ramon:code      "BG-BGS08" ;
+        rdfs:label      "BG-BGS08 Kameno" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML16  ramon:name  "Madan"@en ;
+        ramon:name      "Мадан"@bg ;
+        ramon:code      "BG-SML16" ;
+        rdfs:label      "BG-SML16 Madan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR04  ramon:name  "Veliko Tarnovo"@en ;
+        ramon:name      "Велико Търново"@bg ;
+        ramon:code      "BG-VTR04" ;
+        rdfs:label      "BG-VTR04 Veliko Tarnovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV34  ramon:name  "Troyan"@en ;
+        ramon:name      "Троян"@bg ;
+        ramon:code      "BG-LOV34" ;
+        rdfs:label      "BG-LOV34 Troyan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML10  ramon:name  "Dospat"@en ;
+        ramon:name      "Доспат"@bg ;
+        ramon:code      "BG-SML10" ;
+        rdfs:label      "BG-SML10 Dospat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML11  ramon:name  "Zlatograd"@en ;
+        ramon:name      "Златоград"@bg ;
+        ramon:code      "BG-SML11" ;
+        rdfs:label      "BG-SML11 Zlatograd" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU21  ramon:name  "Valnari"@en ;
+        ramon:name      "Вълнари"@bg ;
+        ramon:code      "BG-SHU21" ;
+        rdfs:label      "BG-SHU21 Valnari" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV17  ramon:name  "Trud"@en ;
+        ramon:name      "Труд"@bg ;
+        ramon:code      "BG-PDV17" ;
+        rdfs:label      "BG-PDV17 Trud" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML18  ramon:name  "Nedelino"@en ;
+        ramon:name      "Неделино"@bg ;
+        ramon:code      "BG-SML18" ;
+        rdfs:label      "BG-SML18 Nedelino" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB15  ramon:name  "Stozher"@en ;
+        ramon:name      "Стожер"@bg ;
+        ramon:code      "BG-DOB15" ;
+        rdfs:label      "BG-DOB15 Stozher" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ19  ramon:name  "Pazardzhik"@en ;
+        ramon:name      "Пазарджик"@bg ;
+        ramon:code      "BG-PAZ19" ;
+        rdfs:label      "BG-PAZ19 Pazardzhik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB03  ramon:name  "Balchik"@en ;
+        ramon:name      "Балчик"@bg ;
+        ramon:code      "BG-DOB03" ;
+        rdfs:label      "BG-DOB03 Balchik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG02  ramon:name  "Belitsa"@en ;
+        ramon:name      "Белица"@bg ;
+        ramon:code      "BG-BLG02" ;
+        rdfs:label      "BG-BLG02 Belitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-BLG03  ramon:name  "Blagoevgrad"@en ;
+        ramon:name      "Благоевград"@bg ;
+        ramon:code      "BG-BLG03" ;
+        rdfs:label      "BG-BLG03 Blagoevgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV43  ramon:name  "Sopot"@en ;
+        ramon:name      "Сопот"@bg ;
+        ramon:code      "BG-PDV43" ;
+        rdfs:label      "BG-PDV43 Sopot" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PDV42  ramon:name  "Kuklen"@en ;
+        ramon:name      "Куклен"@bg ;
+        ramon:code      "BG-PDV42" ;
+        rdfs:label      "BG-PDV42 Kuklen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC31  ramon:name  "Oryahovo"@en ;
+        ramon:name      "Оряхово"@bg ;
+        ramon:code      "BG-VRC31" ;
+        rdfs:label      "BG-VRC31 Oryahovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU22  ramon:name  "Novi pazar"@en ;
+        ramon:name      "Нови пазар"@bg ;
+        ramon:code      "BG-SHU22" ;
+        rdfs:label      "BG-SHU22 Novi pazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-DOB17  ramon:name  "Kavarna"@en ;
+        ramon:name      "Каварна"@bg ;
+        ramon:code      "BG-DOB17" ;
+        rdfs:label      "BG-DOB17 Kavarna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VRC35  ramon:name  "Hayredin"@en ;
+        ramon:name      "Хайредин"@bg ;
+        ramon:code      "BG-VRC35" ;
+        rdfs:label      "BG-VRC35 Hayredin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ14  ramon:name  "Kalugerovo"@en ;
+        ramon:name      "Калугерово"@bg ;
+        ramon:code      "BG-PAZ14" ;
+        rdfs:label      "BG-PAZ14 Kalugerovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU25  ramon:name  "Smyadovo"@en ;
+        ramon:name      "Смядово"@bg ;
+        ramon:code      "BG-SHU25" ;
+        rdfs:label      "BG-SHU25 Smyadovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV36  ramon:name  "Ugarchin"@en ;
+        ramon:name      "Угърчин"@bg ;
+        ramon:code      "BG-LOV36" ;
+        rdfs:label      "BG-LOV36 Ugarchin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR16  ramon:name  "Dalgopol"@en ;
+        ramon:name      "Дългопол"@bg ;
+        ramon:code      "BG-VAR16" ;
+        rdfs:label      "BG-VAR16 Dalgopol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV33  ramon:name  "Teteven"@en ;
+        ramon:name      "Тетевен"@bg ;
+        ramon:code      "BG-LOV33" ;
+        rdfs:label      "BG-LOV33 Teteven" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR13  ramon:name  "Dolni chiflik"@en ;
+        ramon:name      "Долни чифлик"@bg ;
+        ramon:code      "BG-VAR13" ;
+        rdfs:label      "BG-VAR13 Dolni chiflik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE08  ramon:name  "Dve mogili"@en ;
+        ramon:name      "Две могили"@bg ;
+        ramon:code      "BG-RSE08" ;
+        rdfs:label      "BG-RSE08 Dve mogili" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE05  ramon:name  "Vetovo"@en ;
+        ramon:name      "Ветово"@bg ;
+        ramon:code      "BG-RSE05" ;
+        rdfs:label      "BG-RSE05 Vetovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE04  ramon:name  "Byala"@en ;
+        ramon:name      "Бяла"@bg ;
+        ramon:code      "BG-RSE04" ;
+        rdfs:label      "BG-RSE04 Byala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE03  ramon:name  "Borovo"@en ;
+        ramon:name      "Борово"@bg ;
+        ramon:code      "BG-RSE03" ;
+        rdfs:label      "BG-RSE03 Borovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-LOV38  ramon:name  "Yablanitsa"@en ;
+        ramon:name      "Ябланица"@bg ;
+        ramon:code      "BG-LOV38" ;
+        rdfs:label      "BG-LOV38 Yablanitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON38  ramon:name  "Yakimovo"@en ;
+        ramon:name      "Якимово"@bg ;
+        ramon:code      "BG-MON38" ;
+        rdfs:label      "BG-MON38 Yakimovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-GAB29  ramon:name  "Sevlievo"@en ;
+        ramon:name      "Севлиево"@bg ;
+        ramon:code      "BG-GAB29" ;
+        rdfs:label      "BG-GAB29 Sevlievo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO16  ramon:name  "Dragoman"@en ;
+        ramon:name      "Драгоман"@bg ;
+        ramon:code      "BG-SFO16" ;
+        rdfs:label      "BG-SFO16 Dragoman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS31  ramon:name  "Silistra"@en ;
+        ramon:name      "Силистра"@bg ;
+        ramon:code      "BG-SLS31" ;
+        rdfs:label      "BG-SLS31 Silistra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-MON04  ramon:name  "Lehchevo"@en ;
+        ramon:name      "Лехчево"@bg ;
+        ramon:code      "BG-MON04" ;
+        rdfs:label      "BG-MON04 Lehchevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS32  ramon:name  "Iskra"@en ;
+        ramon:name      "Искра"@bg ;
+        ramon:code      "BG-SLS32" ;
+        rdfs:label      "BG-SLS32 Iskra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR14  ramon:name  "Zlataritsa"@en ;
+        ramon:name      "Златарица"@bg ;
+        ramon:code      "BG-VTR14" ;
+        rdfs:label      "BG-VTR14 Zlataritsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML27  ramon:name  "Rudozem"@en ;
+        ramon:name      "Рудозем"@bg ;
+        ramon:code      "BG-SML27" ;
+        rdfs:label      "BG-SML27 Rudozem" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR13  ramon:name  "Elena"@en ;
+        ramon:name      "Елена"@bg ;
+        ramon:code      "BG-VTR13" ;
+        rdfs:label      "BG-VTR13 Elena" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR37  ramon:name  "Gurkovo"@en ;
+        ramon:name      "Гурково"@bg ;
+        ramon:code      "BG-SZR37" ;
+        rdfs:label      "BG-SZR37 Gurkovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SOF46  ramon:name  "Sofia"@en ;
+        ramon:name      "София"@bg ;
+        ramon:code      "BG-SOF46" ;
+        rdfs:label      "BG-SOF46 Sofia" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ24  ramon:name  "Rakitovo"@en ;
+        ramon:name      "Ракитово"@bg ;
+        ramon:code      "BG-PAZ24" ;
+        rdfs:label      "BG-PAZ24 Rakitovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ26  ramon:name  "Razgrad"@en ;
+        ramon:name      "Разград"@bg ;
+        ramon:code      "BG-RAZ26" ;
+        rdfs:label      "BG-RAZ26 Razgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-JAM26  ramon:name  "Yambol"@en ;
+        ramon:name      "Ямбол"@bg ;
+        ramon:code      "BG-JAM26" ;
+        rdfs:label      "BG-JAM26 Yambol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PAZ29  ramon:name  "Septemvri"@en ;
+        ramon:name      "Септември"@bg ;
+        ramon:code      "BG-PAZ29" ;
+        rdfs:label      "BG-PAZ29 Septemvri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR06  ramon:name  "Varna"@en ;
+        ramon:name      "Варна"@bg ;
+        ramon:code      "BG-VAR06" ;
+        rdfs:label      "BG-VAR06 Varna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS01  ramon:name  "Alfatar"@en ;
+        ramon:name      "Алфатар"@bg ;
+        ramon:code      "BG-SLS01" ;
+        rdfs:label      "BG-SLS01 Alfatar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PER32  ramon:name  "Pernik"@en ;
+        ramon:name      "Перник"@bg ;
+        ramon:code      "BG-PER32" ;
+        rdfs:label      "BG-PER32 Pernik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SLS07  ramon:name  "Glavinitsa"@en ;
+        ramon:name      "Главиница"@bg ;
+        ramon:code      "BG-SLS07" ;
+        rdfs:label      "BG-SLS07 Glavinitsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PER36  ramon:name  "Radomir"@en ;
+        ramon:name      "Радомир"@bg ;
+        ramon:code      "BG-PER36" ;
+        rdfs:label      "BG-PER36 Radomir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ11  ramon:name  "Zavet"@en ;
+        ramon:name      "Завет"@bg ;
+        ramon:code      "BG-RAZ11" ;
+        rdfs:label      "BG-RAZ11 Zavet" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PER08  ramon:name  "Breznik"@en ;
+        ramon:name      "Брезник"@bg ;
+        ramon:code      "BG-PER08" ;
+        rdfs:label      "BG-PER08 Breznik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR04  ramon:name  "Beloslav"@en ;
+        ramon:name      "Белослав"@bg ;
+        ramon:code      "BG-VAR04" ;
+        rdfs:label      "BG-VAR04 Beloslav" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR05  ramon:name  "Byala"@en ;
+        ramon:name      "Бяла"@bg ;
+        ramon:code      "BG-VAR05" ;
+        rdfs:label      "BG-VAR05 Byala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR02  ramon:name  "Aksakovo"@en ;
+        ramon:name      "Аксаково"@bg ;
+        ramon:code      "BG-VAR02" ;
+        rdfs:label      "BG-VAR02 Aksakovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RAZ14  ramon:name  "Isperih"@en ;
+        ramon:name      "Исперих"@bg ;
+        ramon:code      "BG-RAZ14" ;
+        rdfs:label      "BG-RAZ14 Isperih" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU30  ramon:name  "Shumen"@en ;
+        ramon:name      "Шумен"@bg ;
+        ramon:code      "BG-SHU30" ;
+        rdfs:label      "BG-SHU30 Shumen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR01  ramon:name  "Dabravino"@en ;
+        ramon:name      "Дъбравино"@bg ;
+        ramon:code      "BG-VAR01" ;
+        rdfs:label      "BG-VAR01 Dabravino" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR24  ramon:name  "Provadia"@en ;
+        ramon:name      "Провадия"@bg ;
+        ramon:code      "BG-VAR24" ;
+        rdfs:label      "BG-VAR24 Provadia" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL31  ramon:name  "Nevestino"@en ;
+        ramon:name      "Невестино"@bg ;
+        ramon:code      "BG-KNL31" ;
+        rdfs:label      "BG-KNL31 Nevestino" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL38  ramon:name  "Rila"@en ;
+        ramon:name      "Рила"@bg ;
+        ramon:code      "BG-KNL38" ;
+        rdfs:label      "BG-KNL38 Rila" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-RSE13  ramon:name  "Shtraklevo"@en ;
+        ramon:name      "Щръклево"@bg ;
+        ramon:code      "BG-RSE13" ;
+        rdfs:label      "BG-RSE13 Shtraklevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR08  ramon:name  "Belogradets"@en ;
+        ramon:name      "Белоградец"@bg ;
+        ramon:code      "BG-VAR08" ;
+        rdfs:label      "BG-VAR08 Belogradets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VAR09  ramon:name  "Valchi dol"@en ;
+        ramon:name      "Вълчи дол"@bg ;
+        ramon:code      "BG-VAR09" ;
+        rdfs:label      "BG-VAR09 Valchi dol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL27  ramon:name  "Kocherinovo"@en ;
+        ramon:name      "Кочериново"@bg ;
+        ramon:code      "BG-KNL27" ;
+        rdfs:label      "BG-KNL27 Kocherinovo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SZR38  ramon:name  "Nikolaevo"@en ;
+        ramon:name      "Николаево"@bg ;
+        ramon:code      "BG-SZR38" ;
+        rdfs:label      "BG-SZR38 Nikolaevo" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL41  ramon:name  "Sapareva banya"@en ;
+        ramon:name      "Сапарева баня"@bg ;
+        ramon:code      "BG-KNL41" ;
+        rdfs:label      "BG-KNL41 Sapareva banya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-GAB35  ramon:name  "Tryavna"@en ;
+        ramon:name      "Трявна"@bg ;
+        ramon:code      "BG-GAB35" ;
+        rdfs:label      "BG-GAB35 Tryavna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-KNL29  ramon:name  "Kyustendil"@en ;
+        ramon:name      "Кюстендил"@bg ;
+        ramon:code      "BG-KNL29" ;
+        rdfs:label      "BG-KNL29 Kyustendil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR22  ramon:name  "Pavlikeni"@en ;
+        ramon:name      "Павликени"@bg ;
+        ramon:code      "BG-VTR22" ;
+        rdfs:label      "BG-VTR22 Pavlikeni" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR20  ramon:name  "Lyaskovets"@en ;
+        ramon:name      "Лясковец"@bg ;
+        ramon:code      "BG-VTR20" ;
+        rdfs:label      "BG-VTR20 Lyaskovets" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML38  ramon:name  "Chepelare"@en ;
+        ramon:name      "Чепеларе"@bg ;
+        ramon:code      "BG-SML38" ;
+        rdfs:label      "BG-SML38 Chepelare" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR26  ramon:name  "Polski Trambesh"@en ;
+        ramon:name      "Полски Тръмбеш"@bg ;
+        ramon:code      "BG-VTR26" ;
+        rdfs:label      "BG-VTR26 Polski Trambesh" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-PVN39  ramon:name  "Knezha"@en ;
+        ramon:name      "Кнежа"@bg ;
+        ramon:code      "BG-PVN39" ;
+        rdfs:label      "BG-PVN39 Knezha" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SFO58  ramon:name  "Chelopech"@en ;
+        ramon:name      "Челопеч"@bg ;
+        ramon:code      "BG-SFO58" ;
+        rdfs:label      "BG-SFO58 Chelopech" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-VTR28  ramon:name  "Svishtov"@en ;
+        ramon:name      "Свищов"@bg ;
+        ramon:code      "BG-VTR28" ;
+        rdfs:label      "BG-VTR28 Svishtov" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SML31  ramon:name  "Smolyan"@en ;
+        ramon:name      "Смолян"@bg ;
+        ramon:code      "BG-SML31" ;
+        rdfs:label      "BG-SML31 Smolyan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:BG-SHU19  ramon:name  "Kaspichan"@en ;
+        ramon:name      "Каспичан"@bg ;
+        ramon:code      "BG-SHU19" ;
+        rdfs:label      "BG-SHU19 Kaspichan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

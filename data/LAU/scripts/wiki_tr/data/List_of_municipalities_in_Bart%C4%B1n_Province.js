@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Bart%C4%B1n_Province": {"Kuruca\u015file": ["Kuruca\u015file"], "Amasra": ["Amasra"], "Ulus": ["Abdipa\u015fa", "Kumluca", "Ulus"], "Bart\u0131n": ["Ar\u0131t", "Bart\u0131n", "Hasankad\u0131", "Kozca\u011f\u0131z"]}}

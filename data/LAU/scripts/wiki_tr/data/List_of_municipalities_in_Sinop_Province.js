@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Sinop_Province": {"T\u00fcrkeli": ["G\u00fczelkent", "T\u00fcrkeli"], "Ayanc\u0131k": ["Ayanc\u0131k"], "Erfelek": ["Erfelek"], "Sinop": ["Sinop"], "Sarayd\u00fcz\u00fc": ["Sarayd\u00fcz\u00fc"], "Dura\u011fan": ["Dura\u011fan"], "Gerze": ["Gerze", "Yenikent"], "Dikmen": ["Dikmen"], "Boyabat": ["Boyabat"]}}

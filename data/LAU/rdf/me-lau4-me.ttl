@@ -1,0 +1,170 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:ME-1  ramon:name    "Andrijevica"@me ;
+        ramon:code      "ME-1" ;
+        rdfs:label      "ME-1 Andrijevica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-2  ramon:name    "Bar"@me ;
+        ramon:code      "ME-2" ;
+        rdfs:label      "ME-2 Bar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-3  ramon:name    "Berane"@me ;
+        ramon:code      "ME-3" ;
+        rdfs:label      "ME-3 Berane" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-4  ramon:name    "Bijelo Polje"@me ;
+        ramon:code      "ME-4" ;
+        rdfs:label      "ME-4 Bijelo Polje" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-5  ramon:name    "Budva"@me ;
+        ramon:code      "ME-5" ;
+        rdfs:label      "ME-5 Budva" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-6  ramon:name    "Cetinje"@me ;
+        ramon:code      "ME-6" ;
+        rdfs:label      "ME-6 Cetinje" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-7  ramon:name    "Danilovgrad"@me ;
+        ramon:code      "ME-7" ;
+        rdfs:label      "ME-7 Danilovgrad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-22  ramon:name   "Gusinje"@me ;
+        ramon:code      "ME-22" ;
+        rdfs:label      "ME-22 Gusinje" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-8  ramon:name    "Herceg-Novi"@me ;
+        ramon:code      "ME-8" ;
+        rdfs:label      "ME-8 Herceg-Novi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-9  ramon:name    "Kolašin"@me ;
+        ramon:code      "ME-9" ;
+        rdfs:label      "ME-9 Kolašin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-10  ramon:name   "Kotor"@me ;
+        ramon:code      "ME-10" ;
+        rdfs:label      "ME-10 Kotor" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-11  ramon:name   "Mojkovac"@me ;
+        ramon:code      "ME-11" ;
+        rdfs:label      "ME-11 Mojkovac" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-12  ramon:name   "Nikšić"@me ;
+        ramon:code      "ME-12" ;
+        rdfs:label      "ME-12 Nikšić" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-23  ramon:name   "Petnjica"@me ;
+        ramon:code      "ME-23" ;
+        rdfs:label      "ME-23 Petnjica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-13  ramon:name   "Plav"@me ;
+        ramon:code      "ME-13" ;
+        rdfs:label      "ME-13 Plav" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-15  ramon:name   "Plužine"@me ;
+        ramon:code      "ME-15" ;
+        rdfs:label      "ME-15 Plužine" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-14  ramon:name   "Pljevlja"@me ;
+        ramon:code      "ME-14" ;
+        rdfs:label      "ME-14 Pljevlja" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-16  ramon:name   "Podgorica"@me ;
+        ramon:code      "ME-16" ;
+        rdfs:label      "ME-16 Podgorica" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-17  ramon:name   "Rožaje"@me ;
+        ramon:code      "ME-17" ;
+        rdfs:label      "ME-17 Rožaje" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-18  ramon:name   "Šavnik"@me ;
+        ramon:code      "ME-18" ;
+        rdfs:label      "ME-18 Šavnik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-19  ramon:name   "Tivat"@me ;
+        ramon:code      "ME-19" ;
+        rdfs:label      "ME-19 Tivat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-20  ramon:name   "Ulcinj"@me ;
+        ramon:code      "ME-20" ;
+        rdfs:label      "ME-20 Ulcinj" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .
+
+lau:ME-21  ramon:name   "Žabljak"@me ;
+        ramon:code      "ME-21" ;
+        rdfs:label      "ME-21 Žabljak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: ;
+        spatial:PP      lau:ME000 .

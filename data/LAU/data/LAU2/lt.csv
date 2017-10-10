@@ -1,0 +1,528 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+LT001,11,1100,no,Alytaus miesto savivaldybė,Alytaus miesto savivaldybė,54431,39432200
+LT001,15,1500,no,Druskininkų savivaldybė,Druskininkų savivaldybė,20400,453020600
+LT001,33,3301,no,Alytaus seniūnija,Alytaus seniūnija,n.a.,n.a.
+LT001,33,3302,no,Alovės seniūnija,Alovės seniūnija,n.a.,n.a.
+LT001,33,3310,no,Butrimonių seniūnija,Butrimonių seniūnija,n.a.,n.a.
+LT001,33,3317,no,Daugų seniūnija,Daugų seniūnija,n.a.,n.a.
+LT001,33,3330,no,Krokialaukio seniūnija,Krokialaukio seniūnija,n.a.,n.a.
+LT001,33,3338,no,Miroslavo seniūnija,Miroslavo seniūnija,n.a.,n.a.
+LT001,33,3342,no,Nemunaičio seniūnija,Nemunaičio seniūnija,n.a.,n.a.
+LT001,33,3348,no,Pivašiūnų seniūnija,Pivašiūnų seniūnija,n.a.,n.a.
+LT001,33,3353,no,Punios seniūnija,Punios seniūnija,n.a.,n.a.
+LT001,33,3359,no,Raitininkų seniūnija,Raitininkų seniūnija,n.a.,n.a.
+LT001,33,3380,no,Simno seniūnija,Simno seniūnija,n.a.,n.a.
+LT001,38,3805,no,Valkininkų seniūnija,Valkininkų seniūnija,n.a.,n.a.
+LT001,38,3808,no,Varėnos seniūnija,Varėnos seniūnija,n.a.,n.a.
+LT001,38,3813,no,Vydenių seniūnija,Vydenių seniūnija,n.a.,n.a.
+LT001,38,3826,no,Kaniavos seniūnija,Kaniavos seniūnija,n.a.,n.a.
+LT001,38,3838,no,Marcinkonių seniūnija,Marcinkonių seniūnija,n.a.,n.a.
+LT001,38,3842,no,Matuizų seniūnija,Matuizų seniūnija,n.a.,n.a.
+LT001,38,3847,no,Merkinės seniūnija,Merkinės seniūnija,n.a.,n.a.
+LT001,38,3879,no,Jakėnų seniūnija,Jakėnų seniūnija,n.a.,n.a.
+LT001,59,5901,no,Lazdijų miesto seniūnija,Lazdijų miesto seniūnija,n.a.,n.a.
+LT001,59,5908,no,Būdviečio seniūnija,Būdviečio seniūnija,n.a.,n.a.
+LT001,59,5925,no,Kapčiamiesčio seniūnija,Kapčiamiesčio seniūnija,n.a.,n.a.
+LT001,59,5930,no,Krosnos seniūnija,Krosnos seniūnija,n.a.,n.a.
+LT001,59,5937,no,Kučiūnų seniūnija,Kučiūnų seniūnija,n.a.,n.a.
+LT001,59,5940,no,Lazdijų seniūnija,Lazdijų seniūnija,n.a.,n.a.
+LT001,59,5950,no,Noragėlių seniūnija,Noragėlių seniūnija,n.a.,n.a.
+LT001,59,5969,no,Seirijų seniūnija,Seirijų seniūnija,n.a.,n.a.
+LT001,59,5974,no,Teizų seniūnija,Teizų seniūnija,n.a.,n.a.
+LT001,59,5979,no,Šventežerio seniūnija,Šventežerio seniūnija,n.a.,n.a.
+LT001,59,5984,no,Šlavantų seniūnija,Šlavantų seniūnija,n.a.,n.a.
+LT001,59,5990,no,Šeštokų seniūnija,Šeštokų seniūnija,n.a.,n.a.
+LT001,59,9498,no,Veisiejų seniūnija,Veisiejų seniūnija,n.a.,n.a.
+LT002,12,1200,no,Birštono savivaldybė,Birštono savivaldybė,4330,121719300
+LT002,19,1901,no,Centro seniūnija,Centro seniūnija,n.a.,n.a.
+LT002,19,1902,no,Žaliakalnio seniūnija,Žaliakalnio seniūnija,n.a.,n.a.
+LT002,19,1903,no,Šančių seniūnija,Šančių seniūnija,n.a.,n.a.
+LT002,19,1904,no,Dainavos seniūnija,Dainavos seniūnija,n.a.,n.a.
+LT002,19,1905,no,Gričiupio seniūnija,Gričiupio seniūnija,n.a.,n.a.
+LT002,19,1906,no,Petrašiūnų seniūnija,Petrašiūnų seniūnija,n.a.,n.a.
+LT002,19,1907,no,Panemunės seniūnija,Panemunės seniūnija,n.a.,n.a.
+LT002,19,1908,no,Aleksoto seniūnija,Aleksoto seniūnija,n.a.,n.a.
+LT002,19,1909,no,Eigulių seniūnija,Eigulių seniūnija,n.a.,n.a.
+LT002,19,1910,no,Vilijampolės seniūnija,Vilijampolės seniūnija,n.a.,n.a.
+LT002,19,1911,no,Šilainių seniūnija,Šilainių seniūnija,n.a.,n.a.
+LT002,46,4601,no,Jonavos miesto seniūnija,Jonavos miesto seniūnija,n.a.,n.a.
+LT002,46,4607,no,Bukonių seniūnija,Bukonių seniūnija,n.a.,n.a.
+LT002,46,4613,no,Dumsių seniūnija,Dumsių seniūnija,n.a.,n.a.
+LT002,46,4620,no,Ruklos seniūnija,Ruklos seniūnija,n.a.,n.a.
+LT002,46,4624,no,Žeimių seniūnija,Žeimių seniūnija,n.a.,n.a.
+LT002,46,4635,no,Kulvos seniūnija,Kulvos seniūnija,n.a.,n.a.
+LT002,46,4657,no,Upninkų seniūnija,Upninkų seniūnija,n.a.,n.a.
+LT002,46,4668,no,Užusalių seniūnija,Užusalių seniūnija,n.a.,n.a.
+LT002,46,4677,no,Šilų seniūnija,Šilų seniūnija,n.a.,n.a.
+LT002,49,4909,no,Žąslių seniūnija,Žąslių seniūnija,n.a.,n.a.
+LT002,49,4913,no,Žiežmarių apylinkės seniūnija,Žiežmarių apylinkės seniūnija,n.a.,n.a.
+LT002,49,4915,no,Žiežmarių seniūnija,Žiežmarių seniūnija,n.a.,n.a.
+LT002,49,4917,no,Kaišiadorių miesto seniūnija,Kaišiadorių miesto seniūnija,n.a.,n.a.
+LT002,49,4921,no,Kaišiadorių apylinkės seniūnija,Kaišiadorių apylinkės seniūnija,n.a.,n.a.
+LT002,49,4937,no,Kruonio seniūnija,Kruonio seniūnija,n.a.,n.a.
+LT002,49,4940,no,Nemaitonių seniūnija,Nemaitonių seniūnija,n.a.,n.a.
+LT002,49,4942,no,Palomenės seniūnija,Palomenės seniūnija,n.a.,n.a.
+LT002,49,4946,no,Paparčių seniūnija,Paparčių seniūnija,n.a.,n.a.
+LT002,49,4952,no,Rumšiškių seniūnija,Rumšiškių seniūnija,n.a.,n.a.
+LT002,49,4953,no,Pravieniškių seniūnija,Pravieniškių seniūnija,n.a.,n.a.
+LT002,52,5203,no,Alšėnų seniūnija,Alšėnų seniūnija,n.a.,n.a.
+LT002,52,5207,no,Babtų seniūnija,Babtų seniūnija,n.a.,n.a.
+LT002,52,5209,no,Ežerėlio seniūnija,Ežerėlio seniūnija,n.a.,n.a.
+LT002,52,5210,no,Batniavos seniūnija,Batniavos seniūnija,n.a.,n.a.
+LT002,52,5215,no,Vandžiogalos seniūnija,Vandžiogalos seniūnija,n.a.,n.a.
+LT002,52,5218,no,Vilkijos apylinkių seniūnija,Vilkijos apylinkių seniūnija,n.a.,n.a.
+LT002,52,5219,no,Vilkijos seniūnija,Vilkijos seniūnija,n.a.,n.a.
+LT002,52,5221,no,Garliavos apylinkių seniūnija,Garliavos apylinkių seniūnija,n.a.,n.a.
+LT002,52,5223,no,Garliavos seniūnija,Garliavos seniūnija,n.a.,n.a.
+LT002,52,5226,no,Domeikavos seniūnija,Domeikavos seniūnija,n.a.,n.a.
+LT002,52,5229,no,Zapyškio seniūnija,Zapyškio seniūnija,n.a.,n.a.
+LT002,52,5233,no,Karmėlavos seniūnija,Karmėlavos seniūnija,n.a.,n.a.
+LT002,52,5236,no,Kačerginės seniūnija,Kačerginės seniūnija,n.a.,n.a.
+LT002,52,5241,no,Kulautuvos seniūnija,Kulautuvos seniūnija,n.a.,n.a.
+LT002,52,5243,no,Linksmakalnio seniūnija,Linksmakalnio seniūnija,n.a.,n.a.
+LT002,52,5245,no,Ringaudų seniūnija,Ringaudų seniūnija,n.a.,n.a.
+LT002,52,5247,no,Neveronių seniūnija,Neveronių seniūnija,n.a.,n.a.
+LT002,52,5257,no,Lapių seniūnija,Lapių seniūnija,n.a.,n.a.
+LT002,52,5259,no,Raudondvario seniūnija,Raudondvario seniūnija,n.a.,n.a.
+LT002,52,5262,no,Rokų seniūnija,Rokų seniūnija,n.a.,n.a.
+LT002,52,5267,no,Samylų seniūnija,Samylų seniūnija,n.a.,n.a.
+LT002,52,5272,no,Taurakiemio seniūnija,Taurakiemio seniūnija,n.a.,n.a.
+LT002,52,5277,no,Užliedžių seniūnija,Užliedžių seniūnija,n.a.,n.a.
+LT002,52,5282,no,Čekiškės seniūnija,Čekiškės seniūnija,n.a.,n.a.
+LT002,52,5290,no,Akademijos seniūnija,Akademijos seniūnija,n.a.,n.a.
+LT002,53,5301,no,Kėdainių miesto seniūnija,Kėdainių miesto seniūnija,n.a.,n.a.
+LT002,53,5302,no,Vilainių seniūnija,Vilainių seniūnija,n.a.,n.a.
+LT002,53,5305,no,Gudžiūnų seniūnija,Gudžiūnų seniūnija,n.a.,n.a.
+LT002,53,5313,no,Dotnuvos seniūnija,Dotnuvos seniūnija,n.a.,n.a.
+LT002,53,5317,no,Josvainių seniūnija,Josvainių seniūnija,n.a.,n.a.
+LT002,53,5325,no,Krakių seniūnija,Krakių seniūnija,n.a.,n.a.
+LT002,53,5349,no,Pelėdnagių seniūnija,Pelėdnagių seniūnija,n.a.,n.a.
+LT002,53,5352,no,Pernaravos seniūnija,Pernaravos seniūnija,n.a.,n.a.
+LT002,53,5355,no,Surviliškio seniūnija,Surviliškio seniūnija,n.a.,n.a.
+LT002,53,5370,no,Truskavos seniūnija,Truskavos seniūnija,n.a.,n.a.
+LT002,53,5377,no,Šėtos seniūnija,Šėtos seniūnija,n.a.,n.a.
+LT002,69,6901,no,Prienų seniūnija,Prienų seniūnija,n.a.,n.a.
+LT002,69,6904,no,Ašmintos seniūnija,Ašmintos seniūnija,n.a.,n.a.
+LT002,69,6908,no,Balbieriškio seniūnija,Balbieriškio seniūnija,n.a.,n.a.
+LT002,69,6925,no,Veiverių seniūnija,Veiverių seniūnija,n.a.,n.a.
+LT002,69,6930,no,Jiezno seniūnija,Jiezno seniūnija,n.a.,n.a.
+LT002,69,6935,no,Išlaužo seniūnija,Išlaužo seniūnija,n.a.,n.a.
+LT002,69,6950,no,Naujosios Ūtos seniūnija,Naujosios Ūtos seniūnija,n.a.,n.a.
+LT002,69,6961,no,Pakuonio seniūnija,Pakuonio seniūnija,n.a.,n.a.
+LT002,69,6973,no,Stakliškių seniūnija,Stakliškių seniūnija,n.a.,n.a.
+LT002,69,6984,no,Šilavoto seniūnija,Šilavoto seniūnija,n.a.,n.a.
+LT002,72,7201,no,Raseinių miesto seniūnija,Raseinių miesto seniūnija,n.a.,n.a.
+LT002,72,7205,no,Ariogalos miesto seniūnija,Ariogalos miesto seniūnija,n.a.,n.a.
+LT002,72,7209,no,Ariogalos seniūnija,Ariogalos seniūnija,n.a.,n.a.
+LT002,72,7213,no,Betygalos seniūnija,Betygalos seniūnija,n.a.,n.a.
+LT002,72,7219,no,Viduklės seniūnija,Viduklės seniūnija,n.a.,n.a.
+LT002,72,7226,no,Girkalnio seniūnija,Girkalnio seniūnija,n.a.,n.a.
+LT002,72,7245,no,Kalnujų seniūnija,Kalnujų seniūnija,n.a.,n.a.
+LT002,72,7251,no,Nemakščių seniūnija,Nemakščių seniūnija,n.a.,n.a.
+LT002,72,7262,no,Pagojukų seniūnija,Pagojukų seniūnija,n.a.,n.a.
+LT002,72,7273,no,Paliepių seniūnija,Paliepių seniūnija,n.a.,n.a.
+LT002,72,7284,no,Raseinių seniūnija,Raseinių seniūnija,n.a.,n.a.
+LT002,72,7295,no,Šiluvos seniūnija,Šiluvos seniūnija,n.a.,n.a.
+LT003,21,2100,no,Klaipėdos miesto savivaldybė,Klaipėdos miesto savivaldybė,154326,98146400
+LT003,23,2300,no,Neringos savivaldybė,Neringos savivaldybė,3020,139344600
+LT003,25,2500,no,Palangos miesto savivaldybė,Palangos miesto savivaldybė,15542,79330200
+LT003,55,5501,no,Gargždų seniūnija,Gargždų seniūnija,n.a.,n.a.
+LT003,55,5504,no,Agluonėnų seniūnija,Agluonėnų seniūnija,n.a.,n.a.
+LT003,55,5510,no,Judrėnų seniūnija,Judrėnų seniūnija,n.a.,n.a.
+LT003,55,5513,no,Vėžaičių seniūnija,Vėžaičių seniūnija,n.a.,n.a.
+LT003,55,5518,no,Veiviržėnų seniūnija,Veiviržėnų seniūnija,n.a.,n.a.
+LT003,55,5525,no,Dauparų - Kvietinių seniūnija,Dauparų - Kvietinių seniūnija,n.a.,n.a.
+LT003,55,5536,no,Dovilų seniūnija,Dovilų seniūnija,n.a.,n.a.
+LT003,55,5547,no,Kretingalės seniūnija,Kretingalės seniūnija,n.a.,n.a.
+LT003,55,5566,no,Priekulės seniūnija,Priekulės seniūnija,n.a.,n.a.
+LT003,55,5570,no,Sendvario seniūnija,Sendvario seniūnija,n.a.,n.a.
+LT003,55,5581,no,Endriejavo seniūnija,Endriejavo seniūnija,n.a.,n.a.
+LT003,56,5601,no,Kretingos miesto seniūnija,Kretingos miesto seniūnija,n.a.,n.a.
+LT003,56,5610,no,Salantų miesto seniūnija,Salantų miesto seniūnija,n.a.,n.a.
+LT003,56,5618,no,Darbėnų seniūnija,Darbėnų seniūnija,n.a.,n.a.
+LT003,56,5623,no,Žalgirio seniūnija,Žalgirio seniūnija,n.a.,n.a.
+LT003,56,5634,no,Imbarės seniūnija,Imbarės seniūnija,n.a.,n.a.
+LT003,56,5645,no,Kartenos seniūnija,Kartenos seniūnija,n.a.,n.a.
+LT003,56,5651,no,Kretingos seniūnija,Kretingos seniūnija,n.a.,n.a.
+LT003,56,5656,no,Kūlupėnų seniūnija,Kūlupėnų seniūnija,n.a.,n.a.
+LT003,75,7501,no,Skuodo miesto seniūnija,Skuodo miesto seniūnija,n.a.,n.a.
+LT003,75,7508,no,Aleksandrijos seniūnija,Aleksandrijos seniūnija,n.a.,n.a.
+LT003,75,7512,no,Barstyčių seniūnija,Barstyčių seniūnija,n.a.,n.a.
+LT003,75,7524,no,Ylakių seniūnija,Ylakių seniūnija,n.a.,n.a.
+LT003,75,7535,no,Lenkimų seniūnija,Lenkimų seniūnija,n.a.,n.a.
+LT003,75,7546,no,Mosėdžio seniūnija,Mosėdžio seniūnija,n.a.,n.a.
+LT003,75,7557,no,Notėnų seniūnija,Notėnų seniūnija,n.a.,n.a.
+LT003,75,7579,no,Skuodo seniūnija,Skuodo seniūnija,n.a.,n.a.
+LT003,75,7580,no,Šačių seniūnija,Šačių seniūnija,n.a.,n.a.
+LT003,88,8801,no,Šilutės seniūnija,Šilutės seniūnija,n.a.,n.a.
+LT003,88,8806,no,Vainuto seniūnija,Vainuto seniūnija,n.a.,n.a.
+LT003,88,8813,no,Gardamo seniūnija,Gardamo seniūnija,n.a.,n.a.
+LT003,88,8820,no,Žemaičių Naumiesčio seniūnija,Žemaičių Naumiesčio seniūnija,n.a.,n.a.
+LT003,88,8840,no,Katyčių seniūnija,Katyčių seniūnija,n.a.,n.a.
+LT003,88,8850,no,Kintų seniūnija,Kintų seniūnija,n.a.,n.a.
+LT003,88,8866,no,Rusnės seniūnija,Rusnės seniūnija,n.a.,n.a.
+LT003,88,8872,no,Saugų seniūnija,Saugų seniūnija,n.a.,n.a.
+LT003,88,8884,no,Usėnų seniūnija,Usėnų seniūnija,n.a.,n.a.
+LT003,88,8888,no,Švėkšnos seniūnija,Švėkšnos seniūnija,n.a.,n.a.
+LT003,88,8897,no,Juknaičių seniūnija,Juknaičių seniūnija,n.a.,n.a.
+LT004,18,1801,no,Degučių seniūnija,Degučių seniūnija,n.a.,n.a.
+LT004,18,1802,no,Mokolų seniūnija,Mokolų seniūnija,n.a.,n.a.
+LT004,18,1803,no,Narto seniūnija,Narto seniūnija,n.a.,n.a.
+LT004,18,1820,no,Gudelių seniūnija,Gudelių seniūnija,n.a.,n.a.
+LT004,18,1830,no,Igliaukos seniūnija,Igliaukos seniūnija,n.a.,n.a.
+LT004,18,1842,no,Liudvinavo seniūnija,Liudvinavo seniūnija,n.a.,n.a.
+LT004,18,1847,no,Marijampolės seniūnija,Marijampolės seniūnija,n.a.,n.a.
+LT004,18,1867,no,Sasnavos seniūnija,Sasnavos seniūnija,n.a.,n.a.
+LT004,18,1876,no,Šunskų seniūnija,Šunskų seniūnija,n.a.,n.a.
+LT004,39,3910,no,Vilkaviškio miesto seniūnija,Vilkaviškio miesto seniūnija,n.a.,n.a.
+LT004,39,3914,no,Bartninkų seniūnija,Bartninkų seniūnija,n.a.,n.a.
+LT004,39,3920,no,Vištyčio seniūnija,Vištyčio seniūnija,n.a.,n.a.
+LT004,39,3926,no,Gižų seniūnija,Gižų seniūnija,n.a.,n.a.
+LT004,39,3930,no,Gražiškių seniūnija,Gražiškių seniūnija,n.a.,n.a.
+LT004,39,3935,no,Klausučių seniūnija,Klausučių seniūnija,n.a.,n.a.
+LT004,39,3938,no,Keturvalakių seniūnija,Keturvalakių seniūnija,n.a.,n.a.
+LT004,39,3942,no,Kybartų seniūnija,Kybartų seniūnija,n.a.,n.a.
+LT004,39,3956,no,Pajevonio seniūnija,Pajevonio seniūnija,n.a.,n.a.
+LT004,39,3960,no,Pilviškių seniūnija,Pilviškių seniūnija,n.a.,n.a.
+LT004,39,3977,no,Šeimenos seniūnija,Šeimenos seniūnija,n.a.,n.a.
+LT004,39,3979,no,Virbalio seniūnija,Virbalio seniūnija,n.a.,n.a.
+LT004,48,4814,no,Akmenynų seniūnija,Akmenynų seniūnija,n.a.,n.a.
+LT004,48,4834,no,Kalvarijos seniūnija,Kalvarijos seniūnija,n.a.,n.a.
+LT004,48,4839,no,Liubavo seniūnija,Liubavo seniūnija,n.a.,n.a.
+LT004,48,4862,no,Sangrūdos seniūnija,Sangrūdos seniūnija,n.a.,n.a.
+LT004,58,5800,no,Kazlų Rūdos savivaldybė,Kazlų Rūdos savivaldybė,12379,554542400
+LT004,84,8405,no,Barzdų seniūnija,Barzdų seniūnija,n.a.,n.a.
+LT004,84,8409,no,Kudirkos Naumiesčio seniūnija,Kudirkos Naumiesčio seniūnija,n.a.,n.a.
+LT004,84,8413,no,Gelgaudiškio seniūnija,Gelgaudiškio seniūnija,n.a.,n.a.
+LT004,84,8417,no,Griškabūdžio seniūnija,Griškabūdžio seniūnija,n.a.,n.a.
+LT004,84,8430,no,Kidulių seniūnija,Kidulių seniūnija,n.a.,n.a.
+LT004,84,8435,no,Kriūkų seniūnija,Kriūkų seniūnija,n.a.,n.a.
+LT004,84,8443,no,Lukšių seniūnija,Lukšių seniūnija,n.a.,n.a.
+LT004,84,8449,no,Lekėčių seniūnija,Lekėčių seniūnija,n.a.,n.a.
+LT004,84,8455,no,Plokščių seniūnija,Plokščių seniūnija,n.a.,n.a.
+LT004,84,8471,no,Sintautų seniūnija,Sintautų seniūnija,n.a.,n.a.
+LT004,84,8475,no,Slavikų seniūnija,Slavikų seniūnija,n.a.,n.a.
+LT004,84,8479,no,Sudargo seniūnija,Sudargo seniūnija,n.a.,n.a.
+LT004,84,8483,no,Šakių seniūnija,Šakių seniūnija,n.a.,n.a.
+LT004,84,8497,no,Žvirgždaičių seniūnija,Žvirgždaičių seniūnija,n.a.,n.a.
+LT005,27,2700,no,Panevėžio miesto savivaldybė,Panevėžio miesto savivaldybė,93598,50112800
+LT005,36,3601,no,Biržų miesto seniūnija,Biržų miesto seniūnija,n.a.,n.a.
+LT005,36,3604,no,Širvėnos seniūnija,Širvėnos seniūnija,n.a.,n.a.
+LT005,36,3609,no,Vabalninko seniūnija,Vabalninko seniūnija,n.a.,n.a.
+LT005,36,3640,no,Nemunėlio Radviliškio seniūnija,Nemunėlio Radviliškio seniūnija,n.a.,n.a.
+LT005,36,3648,no,Pabiržės seniūnija,Pabiržės seniūnija,n.a.,n.a.
+LT005,36,3649,no,Pačeriaukštės seniūnija,Pačeriaukštės seniūnija,n.a.,n.a.
+LT005,36,3651,no,Papilio seniūnija,Papilio seniūnija,n.a.,n.a.
+LT005,36,3654,no,Parovėjos seniūnija,Parovėjos seniūnija,n.a.,n.a.
+LT005,57,5700,no,Kupiškio rajono savivaldybė,Kupiškio rajono savivaldybė,18225,1080100100
+LT005,66,6608,no,Vadoklių seniūnija,Vadoklių seniūnija,n.a.,n.a.
+LT005,66,6616,no,Velžio seniūnija,Velžio seniūnija,n.a.,n.a.
+LT005,66,6625,no,Karsakiškio seniūnija,Karsakiškio seniūnija,n.a.,n.a.
+LT005,66,6630,no,Krekenavos seniūnija,Krekenavos seniūnija,n.a.,n.a.
+LT005,66,6637,no,Miežiškių seniūnija,Miežiškių seniūnija,n.a.,n.a.
+LT005,66,6642,no,Naujamiesčio seniūnija,Naujamiesčio seniūnija,n.a.,n.a.
+LT005,66,6647,no,Panevėžio seniūnija,Panevėžio seniūnija,n.a.,n.a.
+LT005,66,6661,no,Raguvos seniūnija,Raguvos seniūnija,n.a.,n.a.
+LT005,66,6664,no,Ramygalos seniūnija,Ramygalos seniūnija,n.a.,n.a.
+LT005,66,6679,no,Smilgių seniūnija,Smilgių seniūnija,n.a.,n.a.
+LT005,66,6690,no,Upytės seniūnija,Upytės seniūnija,n.a.,n.a.
+LT005,66,6695,no,Paįstrio seniūnija,Paįstrio seniūnija,n.a.,n.a.
+LT005,67,6701,no,Pasvalio miesto seniūnija,Pasvalio miesto seniūnija,n.a.,n.a.
+LT005,67,6704,no,Joniškėlio miesto seniūnija,Joniškėlio miesto seniūnija,n.a.,n.a.
+LT005,67,6706,no,Vaškų seniūnija,Vaškų seniūnija,n.a.,n.a.
+LT005,67,6715,no,Daujėnų seniūnija,Daujėnų seniūnija,n.a.,n.a.
+LT005,67,6724,no,Joniškėlio apylinkių seniūnija,Joniškėlio apylinkių seniūnija,n.a.,n.a.
+LT005,67,6738,no,Krinčino seniūnija,Krinčino seniūnija,n.a.,n.a.
+LT005,67,6749,no,Pasvalio apylinkių seniūnija,Pasvalio apylinkių seniūnija,n.a.,n.a.
+LT005,67,6752,no,Pumpėnų seniūnija,Pumpėnų seniūnija,n.a.,n.a.
+LT005,67,6754,no,Pušaloto seniūnija,Pušaloto seniūnija,n.a.,n.a.
+LT005,67,6773,no,Saločių seniūnija,Saločių seniūnija,n.a.,n.a.
+LT005,67,6780,no,Namišių seniūnija,Namišių seniūnija,n.a.,n.a.
+LT005,73,7301,no,Rokiškio miesto seniūnija,Rokiškio miesto seniūnija,n.a.,n.a.
+LT005,73,7312,no,Kazliškio seniūnija,Kazliškio seniūnija,n.a.,n.a.
+LT005,73,7315,no,Kamajų seniūnija,Kamajų seniūnija,n.a.,n.a.
+LT005,73,7319,no,Kriaunų seniūnija,Kriaunų seniūnija,n.a.,n.a.
+LT005,73,7326,no,Obelių seniūnija,Obelių seniūnija,n.a.,n.a.
+LT005,73,7329,no,Pandėlio seniūnija,Pandėlio seniūnija,n.a.,n.a.
+LT005,73,7331,no,Panemunėlio seniūnija,Panemunėlio seniūnija,n.a.,n.a.
+LT005,73,7345,no,Rokiškio kaimiškoji seniūnija,Rokiškio kaimiškoji seniūnija,n.a.,n.a.
+LT005,73,7375,no,Jūžintų seniūnija,Jūžintų seniūnija,n.a.,n.a.
+LT005,73,7386,no,Juodupės seniūnija,Juodupės seniūnija,n.a.,n.a.
+LT006,29,2900,no,Šiaulių miesto savivaldybė,Šiaulių miesto savivaldybė,102981,81097500
+LT006,32,3204,no,Akmenės seniūnija,Akmenės seniūnija,n.a.,n.a.
+LT006,32,3242,no,Kruopių seniūnija,Kruopių seniūnija,n.a.,n.a.
+LT006,32,3245,no,Naujosios Akmenės kaimiškoji seniūnija,Naujosios Akmenės kaimiškoji seniūnija,n.a.,n.a.
+LT006,32,3249,no,Papilės seniūnija,Papilės seniūnija,n.a.,n.a.
+LT006,32,3252,no,Ventos seniūnija,Ventos seniūnija,n.a.,n.a.
+LT006,32,3260,no,Naujosios Akmenės miesto seniūnija,Naujosios Akmenės miesto seniūnija,n.a.,n.a.
+LT006,47,4713,no,Gataučių seniūnija,Gataučių seniūnija,n.a.,n.a.
+LT006,47,4720,no,Gaižaičių seniūnija,Gaižaičių seniūnija,n.a.,n.a.
+LT006,47,4726,no,Žagarės seniūnija,Žagarės seniūnija,n.a.,n.a.
+LT006,47,4731,no,Kriukų seniūnija,Kriukų seniūnija,n.a.,n.a.
+LT006,47,4735,no,Kepalių seniūnija,Kepalių seniūnija,n.a.,n.a.
+LT006,47,4744,no,Rudiškių seniūnija,Rudiškių seniūnija,n.a.,n.a.
+LT006,47,4747,no,Satkūnų seniūnija,Satkūnų seniūnija,n.a.,n.a.
+LT006,47,4751,no,Saugėlaukio seniūnija,Saugėlaukio seniūnija,n.a.,n.a.
+LT006,47,4756,no,Skaistgirio seniūnija,Skaistgirio seniūnija,n.a.,n.a.
+LT006,47,4760,no,Joniškio seniūnija,Joniškio seniūnija,n.a.,n.a.
+LT006,54,5401,no,Kelmės seniūnija,Kelmės seniūnija,n.a.,n.a.
+LT006,54,5405,no,Vaiguvos seniūnija,Vaiguvos seniūnija,n.a.,n.a.
+LT006,54,5409,no,Kukečių seniūnija,Kukečių seniūnija,n.a.,n.a.
+LT006,54,5419,no,Kelmės apylinkių seniūnija,Kelmės apylinkių seniūnija,n.a.,n.a.
+LT006,54,5425,no,Kražių seniūnija,Kražių seniūnija,n.a.,n.a.
+LT006,54,5437,no,Liolių seniūnija,Liolių seniūnija,n.a.,n.a.
+LT006,54,5456,no,Pakražančio seniūnija,Pakražančio seniūnija,n.a.,n.a.
+LT006,54,5473,no,Tytuvėnų seniūnija,Tytuvėnų seniūnija,n.a.,n.a.
+LT006,54,5475,no,Tytuvėnų apylinkių seniūnija,Tytuvėnų apylinkių seniūnija,n.a.,n.a.
+LT006,54,5477,no,Užvenčio seniūnija,Užvenčio seniūnija,n.a.,n.a.
+LT006,54,5480,no,Šaukėnų seniūnija,Šaukėnų seniūnija,n.a.,n.a.
+LT006,65,6504,no,Guostagalio seniūnija,Guostagalio seniūnija,n.a.,n.a.
+LT006,65,6512,no,Žeimelio seniūnija,Žeimelio seniūnija,n.a.,n.a.
+LT006,65,6518,no,Klovainių seniūnija,Klovainių seniūnija,n.a.,n.a.
+LT006,65,6529,no,Lygumų seniūnija,Lygumų seniūnija,n.a.,n.a.
+LT006,65,6536,no,Linkuvos seniūnija,Linkuvos seniūnija,n.a.,n.a.
+LT006,65,6546,no,Pakruojo seniūnija,Pakruojo seniūnija,n.a.,n.a.
+LT006,65,6558,no,Pašvitinio seniūnija,Pašvitinio seniūnija,n.a.,n.a.
+LT006,65,6568,no,Rozalimo seniūnija,Rozalimo seniūnija,n.a.,n.a.
+LT006,71,7108,no,Aukštelkų seniūnija,Aukštelkų seniūnija,n.a.,n.a.
+LT006,71,7113,no,Baisogalos seniūnija,Baisogalos seniūnija,n.a.,n.a.
+LT006,71,7115,no,Grinkiškio seniūnija,Grinkiškio seniūnija,n.a.,n.a.
+LT006,71,7127,no,Pakalniškių seniūnija,Pakalniškių seniūnija,n.a.,n.a.
+LT006,71,7135,no,Radviliškio seniūnija,Radviliškio seniūnija,n.a.,n.a.
+LT006,71,7149,no,Sidabravo seniūnija,Sidabravo seniūnija,n.a.,n.a.
+LT006,71,7154,no,Skėmių seniūnija,Skėmių seniūnija,n.a.,n.a.
+LT006,71,7160,no,Radviliškio miesto seniūnija,Radviliškio miesto seniūnija,n.a.,n.a.
+LT006,71,7161,no,Šeduvos miesto seniūnija,Šeduvos miesto seniūnija,n.a.,n.a.
+LT006,71,7172,no,Šaukoto seniūnija,Šaukoto seniūnija,n.a.,n.a.
+LT006,71,7184,no,Šiaulėnų seniūnija,Šiaulėnų seniūnija,n.a.,n.a.
+LT006,71,7187,no,Tyrulių seniūnija,Tyrulių seniūnija,n.a.,n.a.
+LT006,91,9101,no,Kuršėnų miesto seniūnija,Kuršėnų miesto seniūnija,n.a.,n.a.
+LT006,91,9107,no,Bubių seniūnija,Bubių seniūnija,n.a.,n.a.
+LT006,91,9108,no,Ginkūnų seniūnija,Ginkūnų seniūnija,n.a.,n.a.
+LT006,91,9109,no,Gruzdžių seniūnija,Gruzdžių seniūnija,n.a.,n.a.
+LT006,91,9113,no,Kairių seniūnija,Kairių seniūnija,n.a.,n.a.
+LT006,91,9120,no,Kužių seniūnija,Kužių seniūnija,n.a.,n.a.
+LT006,91,9132,no,Kuršėnų kaimiškoji seniūnija,Kuršėnų kaimiškoji seniūnija,n.a.,n.a.
+LT006,91,9148,no,Meškuičių seniūnija,Meškuičių seniūnija,n.a.,n.a.
+LT006,91,9164,no,Raudėnų seniūnija,Raudėnų seniūnija,n.a.,n.a.
+LT006,91,9182,no,Šakynos seniūnija,Šakynos seniūnija,n.a.,n.a.
+LT006,91,9193,no,Šiaulių kaimiškoji seniūnija,Šiaulių kaimiškoji seniūnija,n.a.,n.a.
+LT007,63,6308,no,Lumpėnų seniūnija,Lumpėnų seniūnija,n.a.,n.a.
+LT007,63,6309,no,Vilkyškių seniūnija,Vilkyškių seniūnija,n.a.,n.a.
+LT007,63,6360,no,Pagėgių seniūnija,Pagėgių seniūnija,n.a.,n.a.
+LT007,63,6361,no,Natkiškių seniūnija,Natkiškių seniūnija,n.a.,n.a.
+LT007,63,6378,no,Stoniškių seniūnija,Stoniškių seniūnija,n.a.,n.a.
+LT007,77,7701,no,Tauragės miesto seniūnija,Tauragės miesto seniūnija,n.a.,n.a.
+LT007,77,7712,no,Batakių seniūnija,Batakių seniūnija,n.a.,n.a.
+LT007,77,7724,no,Gaurės seniūnija,Gaurės seniūnija,n.a.,n.a.
+LT007,77,7737,no,Žygaičių seniūnija,Žygaičių seniūnija,n.a.,n.a.
+LT007,77,7748,no,Lauksargių seniūnija,Lauksargių seniūnija,n.a.,n.a.
+LT007,77,7757,no,Mažonų seniūnija,Mažonų seniūnija,n.a.,n.a.
+LT007,77,7778,no,Skaudvilės seniūnija,Skaudvilės seniūnija,n.a.,n.a.
+LT007,77,7794,no,Tauragės seniūnija,Tauragės seniūnija,n.a.,n.a.
+LT007,87,8701,no,Šilalės miesto seniūnija,Šilalės miesto seniūnija,n.a.,n.a.
+LT007,87,8703,no,Bijotų seniūnija,Bijotų seniūnija,n.a.,n.a.
+LT007,87,8705,no,Bilionių seniūnija,Bilionių seniūnija,n.a.,n.a.
+LT007,87,8707,no,Didkiemio seniūnija,Didkiemio seniūnija,n.a.,n.a.
+LT007,87,8711,no,Kaltinėnų seniūnija,Kaltinėnų seniūnija,n.a.,n.a.
+LT007,87,8715,no,Kvėdarnos seniūnija,Kvėdarnos seniūnija,n.a.,n.a.
+LT007,87,8719,no,Laukuvos seniūnija,Laukuvos seniūnija,n.a.,n.a.
+LT007,87,8736,no,Pajūrio seniūnija,Pajūrio seniūnija,n.a.,n.a.
+LT007,87,8741,no,Palentinio seniūnija,Palentinio seniūnija,n.a.,n.a.
+LT007,87,8749,no,Tenenių seniūnija,Tenenių seniūnija,n.a.,n.a.
+LT007,87,8769,no,Upynos seniūnija,Upynos seniūnija,n.a.,n.a.
+LT007,87,8770,no,Šilalės kaimiškoji seniūnija,Šilalės kaimiškoji seniūnija,n.a.,n.a.
+LT007,87,8771,no,Traksėdžio seniūnija,Traksėdžio seniūnija,n.a.,n.a.
+LT007,87,8777,no,Žadeikių seniūnija,Žadeikių seniūnija,n.a.,n.a.
+LT007,94,9418,no,Veliuonos seniūnija,Veliuonos seniūnija,n.a.,n.a.
+LT007,94,9422,no,Viešvilės seniūnija,Viešvilės seniūnija,n.a.,n.a.
+LT007,94,9435,no,Girdžių seniūnija,Girdžių seniūnija,n.a.,n.a.
+LT007,94,9450,no,Raudonės seniūnija,Raudonės seniūnija,n.a.,n.a.
+LT007,94,9460,no,Skirsnemunės seniūnija,Skirsnemunės seniūnija,n.a.,n.a.
+LT007,94,9469,no,Seredžiaus seniūnija,Seredžiaus seniūnija,n.a.,n.a.
+LT007,94,9475,no,Smalininkų seniūnija,Smalininkų seniūnija,n.a.,n.a.
+LT007,94,9480,no,Šimkaičių seniūnija,Šimkaičių seniūnija,n.a.,n.a.
+LT007,94,9485,no,Eržvilko seniūnija,Eržvilko seniūnija,n.a.,n.a.
+LT007,94,9490,no,Juodaičių seniūnija,Juodaičių seniūnija,n.a.,n.a.
+LT007,94,9494,no,Jurbarko miesto seniūnija,Jurbarko miesto seniūnija,n.a.,n.a.
+LT007,94,9497,no,Jurbarkų seniūnija,Jurbarkų seniūnija,n.a.,n.a.
+LT008,61,6107,no,Židikų seniūnija,Židikų seniūnija,n.a.,n.a.
+LT008,61,6111,no,Mažeikių seniūnija,Mažeikių seniūnija,n.a.,n.a.
+LT008,61,6112,no,Laižuvos seniūnija,Laižuvos seniūnija,n.a.,n.a.
+LT008,61,6119,no,Mažeikių apylinkės seniūnija,Mažeikių apylinkės seniūnija,n.a.,n.a.
+LT008,61,6120,no,Viekšnių seniūnija,Viekšnių seniūnija,n.a.,n.a.
+LT008,61,6124,no,Reivyčių seniūnija,Reivyčių seniūnija,n.a.,n.a.
+LT008,61,6135,no,Sedos seniūnija,Sedos seniūnija,n.a.,n.a.
+LT008,61,6146,no,Tirkšlių seniūnija,Tirkšlių seniūnija,n.a.,n.a.
+LT008,61,6168,no,Šerkšnėnų seniūnija,Šerkšnėnų seniūnija,n.a.,n.a.
+LT008,68,6801,no,Plungės miesto seniūnija,Plungės miesto seniūnija,n.a.,n.a.
+LT008,68,6807,no,Alsėdžių seniūnija,Alsėdžių seniūnija,n.a.,n.a.
+LT008,68,6809,no,Babrungo seniūnija,Babrungo seniūnija,n.a.,n.a.
+LT008,68,6819,no,Žemaičių Kalvarijos seniūnija,Žemaičių Kalvarijos seniūnija,n.a.,n.a.
+LT008,68,6826,no,Žlibinų seniūnija,Žlibinų seniūnija,n.a.,n.a.
+LT008,68,6837,no,Kulių seniūnija,Kulių seniūnija,n.a.,n.a.
+LT008,68,6855,no,Nausodžio seniūnija,Nausodžio seniūnija,n.a.,n.a.
+LT008,68,6860,no,Paukštakių seniūnija,Paukštakių seniūnija,n.a.,n.a.
+LT008,68,6866,no,Platelių seniūnija,Platelių seniūnija,n.a.,n.a.
+LT008,68,6883,no,Stalgėnų seniūnija,Stalgėnų seniūnija,n.a.,n.a.
+LT008,68,6895,no,Šateikių seniūnija,Šateikių seniūnija,n.a.,n.a.
+LT008,74,7401,no,Rietavo miesto seniūnija,Rietavo miesto seniūnija,n.a.,n.a.
+LT008,74,7440,no,Medingėnų seniūnija,Medingėnų seniūnija,n.a.,n.a.
+LT008,74,7475,no,Rietavo seniūnija,Rietavo seniūnija,n.a.,n.a.
+LT008,74,7483,no,Daugėdų seniūnija,Daugėdų seniūnija,n.a.,n.a.
+LT008,74,7489,no,Tverų seniūnija,Tverų seniūnija,n.a.,n.a.
+LT008,78,7810,no,Telšių miesto seniūnija,Telšių miesto seniūnija,n.a.,n.a.
+LT008,78,7811,no,Varnių seniūnija,Varnių seniūnija,n.a.,n.a.
+LT008,78,7815,no,Viešvėnų seniūnija,Viešvėnų seniūnija,n.a.,n.a.
+LT008,78,7819,no,Gadūnavo seniūnija,Gadūnavo seniūnija,n.a.,n.a.
+LT008,78,7824,no,Degaičių seniūnija,Degaičių seniūnija,n.a.,n.a.
+LT008,78,7829,no,Žarėnų seniūnija,Žarėnų seniūnija,n.a.,n.a.
+LT008,78,7836,no,Luokės seniūnija,Luokės seniūnija,n.a.,n.a.
+LT008,78,7847,no,Nevarėnų seniūnija,Nevarėnų seniūnija,n.a.,n.a.
+LT008,78,7869,no,Ryškėnų seniūnija,Ryškėnų seniūnija,n.a.,n.a.
+LT008,78,7874,no,Tryškių seniūnija,Tryškių seniūnija,n.a.,n.a.
+LT008,78,7881,no,Upynos seniūnija,Upynos seniūnija,n.a.,n.a.
+LT009,30,3000,no,Visagino savivaldybė,Visagino savivaldybė,19774,58075800
+LT009,34,3408,no,Anykščių seniūnija,Anykščių seniūnija,n.a.,n.a.
+LT009,34,3410,no,Andrioniškio seniūnija,Andrioniškio seniūnija,n.a.,n.a.
+LT009,34,3413,no,Viešintų seniūnija,Viešintų seniūnija,n.a.,n.a.
+LT009,34,3418,no,Debeikių seniūnija,Debeikių seniūnija,n.a.,n.a.
+LT009,34,3422,no,Kavarsko seniūnija,Kavarsko seniūnija,n.a.,n.a.
+LT009,34,3426,no,Kurklių seniūnija,Kurklių seniūnija,n.a.,n.a.
+LT009,34,3442,no,Svėdasų seniūnija,Svėdasų seniūnija,n.a.,n.a.
+LT009,34,3449,no,Skiemonių seniūnija,Skiemonių seniūnija,n.a.,n.a.
+LT009,34,3462,no,Traupio seniūnija,Traupio seniūnija,n.a.,n.a.
+LT009,34,3469,no,Troškūnų seniūnija,Troškūnų seniūnija,n.a.,n.a.
+LT009,43,4307,no,Antazavės seniūnija,Antazavės seniūnija,n.a.,n.a.
+LT009,43,4310,no,Antalieptės seniūnija,Antalieptės seniūnija,n.a.,n.a.
+LT009,43,4326,no,Degučių seniūnija,Degučių seniūnija,n.a.,n.a.
+LT009,43,4328,no,Dusetų seniūnija,Dusetų seniūnija,n.a.,n.a.
+LT009,43,4330,no,Zarasų seniūnija,Zarasų seniūnija,n.a.,n.a.
+LT009,43,4332,no,Imbrado seniūnija,Imbrado seniūnija,n.a.,n.a.
+LT009,43,4348,no,Salako seniūnija,Salako seniūnija,n.a.,n.a.
+LT009,43,4350,no,Zarasų miesto seniūnija,Zarasų miesto seniūnija,n.a.,n.a.
+LT009,43,4362,no,Suvieko seniūnija,Suvieko seniūnija,n.a.,n.a.
+LT009,43,4371,no,Turmanto seniūnija,Turmanto seniūnija,n.a.,n.a.
+LT009,45,4501,no,Ignalinos miesto seniūnija,Ignalinos miesto seniūnija,n.a.,n.a.
+LT009,45,4504,no,Vidiškių seniūnija,Vidiškių seniūnija,n.a.,n.a.
+LT009,45,4520,no,Didžiasalio seniūnija,Didžiasalio seniūnija,n.a.,n.a.
+LT009,45,4522,no,Dūkšto seniūnija,Dūkšto seniūnija,n.a.,n.a.
+LT009,45,4525,no,Ignalinos seniūnija,Ignalinos seniūnija,n.a.,n.a.
+LT009,45,4528,no,Kazitiškio seniūnija,Kazitiškio seniūnija,n.a.,n.a.
+LT009,45,4534,no,Linkmenų seniūnija,Linkmenų seniūnija,n.a.,n.a.
+LT009,45,4537,no,Mielagėnų seniūnija,Mielagėnų seniūnija,n.a.,n.a.
+LT009,45,4542,no,Naujojo Daugėliškio seniūnija,Naujojo Daugėliškio seniūnija,n.a.,n.a.
+LT009,45,4549,no,Rimšės seniūnija,Rimšės seniūnija,n.a.,n.a.
+LT009,45,4559,no,Tverečiaus  seniūnija,Tverečiaus  seniūnija,n.a.,n.a.
+LT009,45,4562,no,Ceikinių seniūnija,Ceikinių seniūnija,n.a.,n.a.
+LT009,62,6200,no,Molėtų rajono savivaldybė,Molėtų rajono savivaldybė,18877,1366825100
+LT009,82,8201,no,Utenos miesto seniūnija,Utenos miesto seniūnija,n.a.,n.a.
+LT009,82,8206,no,Vyžuonų seniūnija,Vyžuonų seniūnija,n.a.,n.a.
+LT009,82,8212,no,Daugailių seniūnija,Daugailių seniūnija,n.a.,n.a.
+LT009,82,8223,no,Kuktiškių seniūnija,Kuktiškių seniūnija,n.a.,n.a.
+LT009,82,8226,no,Leliūnų seniūnija,Leliūnų seniūnija,n.a.,n.a.
+LT009,82,8248,no,Saldutiškio seniūnija,Saldutiškio seniūnija,n.a.,n.a.
+LT009,82,8260,no,Sudeikių seniūnija,Sudeikių seniūnija,n.a.,n.a.
+LT009,82,8271,no,Tauragnų seniūnija,Tauragnų seniūnija,n.a.,n.a.
+LT009,82,8274,no,Utenos seniūnija,Utenos seniūnija,n.a.,n.a.
+LT009,82,8276,no,Užpalių seniūnija,Užpalių seniūnija,n.a.,n.a.
+LT00A,13,1301,no,Antakalnio seniūnija,Antakalnio seniūnija,n.a.,n.a.
+LT00A,13,1302,no,Fabijoniškių seniūnija,Fabijoniškių seniūnija,n.a.,n.a.
+LT00A,13,1303,no,Justiniškių seniūnija,Justiniškių seniūnija,n.a.,n.a.
+LT00A,13,1304,no,Karoliniškių seniūnija,Karoliniškių seniūnija,n.a.,n.a.
+LT00A,13,1305,no,Lazdynų seniūnija,Lazdynų seniūnija,n.a.,n.a.
+LT00A,13,1306,no,Naujamiesčio seniūnija,Naujamiesčio seniūnija,n.a.,n.a.
+LT00A,13,1307,no,Naujininkų seniūnija,Naujininkų seniūnija,n.a.,n.a.
+LT00A,13,1308,no,Naujosios Vilnios seniūnija,Naujosios Vilnios seniūnija,n.a.,n.a.
+LT00A,13,1309,no,Panerių seniūnija,Panerių seniūnija,n.a.,n.a.
+LT00A,13,1310,no,Pašilaičių seniūnija,Pašilaičių seniūnija,n.a.,n.a.
+LT00A,13,1311,no,Pilaitės seniūnija,Pilaitės seniūnija,n.a.,n.a.
+LT00A,13,1312,no,Rasų seniūnija,Rasų seniūnija,n.a.,n.a.
+LT00A,13,1313,no,Verkių seniūnija,Verkių seniūnija,n.a.,n.a.
+LT00A,13,1314,no,Senamiesčio seniūnija,Senamiesčio seniūnija,n.a.,n.a.
+LT00A,13,1315,no,Šeškinės seniūnija,Šeškinės seniūnija,n.a.,n.a.
+LT00A,13,1316,no,Šnipiškių seniūnija,Šnipiškių seniūnija,n.a.,n.a.
+LT00A,13,1317,no,Vilkpėdės seniūnija,Vilkpėdės seniūnija,n.a.,n.a.
+LT00A,13,1318,no,Viršuliškių seniūnija,Viršuliškių seniūnija,n.a.,n.a.
+LT00A,13,1319,no,Žirmūnų seniūnija,Žirmūnų seniūnija,n.a.,n.a.
+LT00A,13,1320,no,Žvėryno seniūnija,Žvėryno seniūnija,n.a.,n.a.
+LT00A,13,1321,no,Grigiškių seniūnija,Grigiškių seniūnija,n.a.,n.a.
+LT00A,41,4101,no,Nemenčinės miesto seniūnija,Nemenčinės miesto seniūnija,n.a.,n.a.
+LT00A,41,4102,no,Avižienių seniūnija,Avižienių seniūnija,n.a.,n.a.
+LT00A,41,4107,no,Buivydžių seniūnija,Buivydžių seniūnija,n.a.,n.a.
+LT00A,41,4110,no,Bezdonių seniūnija,Bezdonių seniūnija,n.a.,n.a.
+LT00A,41,4112,no,Zujūnų seniūnija,Zujūnų seniūnija,n.a.,n.a.
+LT00A,41,4115,no,Pagirių seniūnija,Pagirių seniūnija,n.a.,n.a.
+LT00A,41,4122,no,Šatrininkų seniūnija,Šatrininkų seniūnija,n.a.,n.a.
+LT00A,41,4128,no,Dūkštų seniūnija,Dūkštų seniūnija,n.a.,n.a.
+LT00A,41,4139,no,Kalvelių seniūnija,Kalvelių seniūnija,n.a.,n.a.
+LT00A,41,4142,no,Lavoriškių seniūnija,Lavoriškių seniūnija,n.a.,n.a.
+LT00A,41,4145,no,Maišiagalos seniūnija,Maišiagalos seniūnija,n.a.,n.a.
+LT00A,41,4146,no,Marijampolio seniūnija,Marijampolio seniūnija,n.a.,n.a.
+LT00A,41,4148,no,Mickūnų seniūnija,Mickūnų seniūnija,n.a.,n.a.
+LT00A,41,4151,no,Medininkų seniūnija,Medininkų seniūnija,n.a.,n.a.
+LT00A,41,4154,no,Nemenčinės seniūnija,Nemenčinės seniūnija,n.a.,n.a.
+LT00A,41,4157,no,Nemėžio seniūnija,Nemėžio seniūnija,n.a.,n.a.
+LT00A,41,4160,no,Paberžės seniūnija,Paberžės seniūnija,n.a.,n.a.
+LT00A,41,4168,no,Riešės seniūnija,Riešės seniūnija,n.a.,n.a.
+LT00A,41,4171,no,Rudaminos seniūnija,Rudaminos seniūnija,n.a.,n.a.
+LT00A,41,4174,no,Rukainių seniūnija,Rukainių seniūnija,n.a.,n.a.
+LT00A,41,4178,no,Sudervės seniūnija,Sudervės seniūnija,n.a.,n.a.
+LT00A,41,4181,no,Sužionių seniūnija,Sužionių seniūnija,n.a.,n.a.
+LT00A,41,4194,no,Juodšilių seniūnija,Juodšilių seniūnija,n.a.,n.a.
+LT00A,42,4209,no,Gilučių seniūnija,Gilučių seniūnija,n.a.,n.a.
+LT00A,42,4215,no,Elektrėnų seniūnija,Elektrėnų seniūnija,n.a.,n.a.
+LT00A,42,4216,no,Pastrėvio seniūnija,Pastrėvio seniūnija,n.a.,n.a.
+LT00A,42,4218,no,Vievio seniūnija,Vievio seniūnija,n.a.,n.a.
+LT00A,42,4219,no,Kazokiškių seniūnija,Kazokiškių seniūnija,n.a.,n.a.
+LT00A,42,4230,no,Kietaviškių seniūnija,Kietaviškių seniūnija,n.a.,n.a.
+LT00A,42,4287,no,Semeliškių seniūnija,Semeliškių seniūnija,n.a.,n.a.
+LT00A,42,4288,no,Beižionių seniūnija,Beižionių seniūnija,n.a.,n.a.
+LT00A,79,7904,no,Aukštadvario seniūnija,Aukštadvario seniūnija,n.a.,n.a.
+LT00A,79,7910,no,Lentvario seniūnija,Lentvario seniūnija,n.a.,n.a.
+LT00A,79,7927,no,Grendavės seniūnija,Grendavės seniūnija,n.a.,n.a.
+LT00A,79,7969,no,Onuškio seniūnija,Onuškio seniūnija,n.a.,n.a.
+LT00A,79,7973,no,Paluknio seniūnija,Paluknio seniūnija,n.a.,n.a.
+LT00A,79,7981,no,Rūdiškių seniūnija,Rūdiškių seniūnija,n.a.,n.a.
+LT00A,79,7990,no,Senųjų Trakų seniūnija,Senųjų Trakų seniūnija,n.a.,n.a.
+LT00A,79,7994,no,Trakų seniūnija,Trakų seniūnija,n.a.,n.a.
+LT00A,81,8101,no,Ukmergės miesto seniūnija,Ukmergės miesto seniūnija,n.a.,n.a.
+LT00A,81,8112,no,Vidiškių seniūnija,Vidiškių seniūnija,n.a.,n.a.
+LT00A,81,8118,no,Veprių seniūnija,Veprių seniūnija,n.a.,n.a.
+LT00A,81,8124,no,Deltuvos seniūnija,Deltuvos seniūnija,n.a.,n.a.
+LT00A,81,8129,no,Želvos seniūnija,Želvos seniūnija,n.a.,n.a.
+LT00A,81,8133,no,Žemaitkiemio seniūnija,Žemaitkiemio seniūnija,n.a.,n.a.
+LT00A,81,8150,no,Lyduokių seniūnija,Lyduokių seniūnija,n.a.,n.a.
+LT00A,81,8161,no,Pabaisko seniūnija,Pabaisko seniūnija,n.a.,n.a.
+LT00A,81,8172,no,Siesikų seniūnija,Siesikų seniūnija,n.a.,n.a.
+LT00A,81,8177,no,Taujėnų seniūnija,Taujėnų seniūnija,n.a.,n.a.
+LT00A,81,8185,no,Pivonijos seniūnija,Pivonijos seniūnija,n.a.,n.a.
+LT00A,81,8190,no,Šešuolių seniūnija,Šešuolių seniūnija,n.a.,n.a.
+LT00A,85,8503,no,Baltosios Vokės seniūnija,Baltosios Vokės seniūnija,n.a.,n.a.
+LT00A,85,8505,no,Akmenynės seniūnija,Akmenynės seniūnija,n.a.,n.a.
+LT00A,85,8509,no,Butrimonių seniūnija,Butrimonių seniūnija,n.a.,n.a.
+LT00A,85,8514,no,Gerviškių seniūnija,Gerviškių seniūnija,n.a.,n.a.
+LT00A,85,8519,no,Dainavos seniūnija,Dainavos seniūnija,n.a.,n.a.
+LT00A,85,8527,no,Dieveniškių seniūnija,Dieveniškių seniūnija,n.a.,n.a.
+LT00A,85,8534,no,Kalesninkų seniūnija,Kalesninkų seniūnija,n.a.,n.a.
+LT00A,85,8550,no,Pabarės seniūnija,Pabarės seniūnija,n.a.,n.a.
+LT00A,85,8554,no,Poškonių seniūnija,Poškonių seniūnija,n.a.,n.a.
+LT00A,85,8563,no,Turgelių seniūnija,Turgelių seniūnija,n.a.,n.a.
+LT00A,85,8575,no,Šalčininkų seniūnija,Šalčininkų seniūnija,n.a.,n.a.
+LT00A,85,8580,no,Eišiškių seniūnija,Eišiškių seniūnija,n.a.,n.a.
+LT00A,85,8593,no,Jašiūnų seniūnija,Jašiūnų seniūnija,n.a.,n.a.
+LT00A,86,8601,no,Švenčionių miesto seniūnija,Švenčionių miesto seniūnija,n.a.,n.a.
+LT00A,86,8602,no,Švenčionėlių miesto seniūnija,Švenčionėlių miesto seniūnija,n.a.,n.a.
+LT00A,86,8603,no,Pabradės miesto seniūnija,Pabradės miesto seniūnija,n.a.,n.a.
+LT00A,86,8604,no,Adutiškio seniūnija,Adutiškio seniūnija,n.a.,n.a.
+LT00A,86,8613,no,Kaltanėnų seniūnija,Kaltanėnų seniūnija,n.a.,n.a.
+LT00A,86,8615,no,Labanoro seniūnija,Labanoro seniūnija,n.a.,n.a.
+LT00A,86,8629,no,Magūnų seniūnija,Magūnų seniūnija,n.a.,n.a.
+LT00A,86,8644,no,Pabradės seniūnija,Pabradės seniūnija,n.a.,n.a.
+LT00A,86,8657,no,Sarių seniūnija,Sarių seniūnija,n.a.,n.a.
+LT00A,86,8659,no,Svirkų seniūnija,Svirkų seniūnija,n.a.,n.a.
+LT00A,86,8662,no,Strūnaičio seniūnija,Strūnaičio seniūnija,n.a.,n.a.
+LT00A,86,8669,no,Cirkliškio seniūnija,Cirkliškio seniūnija,n.a.,n.a.
+LT00A,86,8671,no,Švenčionėlių seniūnija,Švenčionėlių seniūnija,n.a.,n.a.
+LT00A,86,8682,no,Švenčionių seniūnija,Švenčionių seniūnija,n.a.,n.a.
+LT00A,89,8900,no,Širvintų rajono savivaldybė,Širvintų rajono savivaldybė,16074,905424200

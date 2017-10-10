@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_I%C4%9Fd%C4%B1r_Province": {"Aral\u0131k": ["Aral\u0131k"], "Karakoyunlu": ["Karakoyunlu", "Ta\u015fburun"], "I\u011fd\u0131r": ["Halfeli", "Ho\u015fhaber", "I\u011fd\u0131r", "Melekli"], "Tuzluca": ["Tuzluca"]}}

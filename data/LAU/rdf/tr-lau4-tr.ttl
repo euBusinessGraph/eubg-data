@@ -1,0 +1,5139 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:TR-2005  ramon:name  "Bahçelievler"@tr ;
+        ramon:code      "TR-2005" ;
+        rdfs:label      "TR-2005 Bahçelievler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1140  ramon:name  "Araç"@tr ;
+        ramon:code      "TR-1140" ;
+        rdfs:label      "TR-1140 Araç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1960  ramon:name  "Kestel"@tr ;
+        ramon:code      "TR-1960" ;
+        rdfs:label      "TR-1960 Kestel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1604  ramon:name  "Sarıyer"@tr ;
+        ramon:code      "TR-1604" ;
+        rdfs:label      "TR-1604 Sarıyer" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1818  ramon:name  "Kocaali"@tr ;
+        ramon:code      "TR-1818" ;
+        rdfs:label      "TR-1818 Kocaali" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9991  ramon:name  "Yenişehir"@tr ;
+        ramon:code      "TR-9991" ;
+        rdfs:label      "TR-9991 Yenişehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1342  ramon:name  "Gemerek"@tr ;
+        ramon:code      "TR-1342" ;
+        rdfs:label      "TR-1342 Gemerek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1160  ramon:name  "Ayvacık"@tr ;
+        ramon:code      "TR-1160" ;
+        rdfs:label      "TR-1160 Ayvacık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1849  ramon:name  "Tekkeköy"@tr ;
+        ramon:code      "TR-1849" ;
+        rdfs:label      "TR-1849 Tekkeköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1146  ramon:name  "Ardeşen"@tr ;
+        ramon:code      "TR-1146" ;
+        rdfs:label      "TR-1146 Ardeşen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1304  ramon:name  "Emet"@tr ;
+        ramon:code      "TR-1304" ;
+        rdfs:label      "TR-1304 Emet" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1189  ramon:name  "Beytüşşebap"@tr ;
+        ramon:code      "TR-1189" ;
+        rdfs:label      "TR-1189 Beytüşşebap" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1576  ramon:name  "Pınarbaşı"@tr ;
+        ramon:code      "TR-1576" ;
+        rdfs:label      "TR-1576 Pınarbaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1630  ramon:name  "Siverek"@tr ;
+        ramon:code      "TR-1630" ;
+        rdfs:label      "TR-1630 Siverek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1739  ramon:name  "Zeytinburnu"@tr ;
+        ramon:code      "TR-1739" ;
+        rdfs:label      "TR-1739 Zeytinburnu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1762  ramon:name  "Arıcak"@tr ;
+        ramon:code      "TR-1762" ;
+        rdfs:label      "TR-1762 Arıcak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1972  ramon:name  "Laçin"@tr ;
+        ramon:code      "TR-1972" ;
+        rdfs:label      "TR-1972 Laçin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1495  ramon:name  "Kurtalan"@tr ;
+        ramon:code      "TR-1495" ;
+        rdfs:label      "TR-1495 Kurtalan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1362  ramon:name  "Gördes"@tr ;
+        ramon:code      "TR-1362" ;
+        rdfs:label      "TR-1362 Gördes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1579  ramon:name  "Posof"@tr ;
+        ramon:code      "TR-1579" ;
+        rdfs:label      "TR-1579 Posof" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1959  ramon:name  "Kemer"@tr ;
+        ramon:code      "TR-1959" ;
+        rdfs:label      "TR-1959 Kemer" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1772  ramon:name  "Battalgazi"@tr ;
+        ramon:code      "TR-1772" ;
+        rdfs:label      "TR-1772 Battalgazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1425  ramon:name  "Kahta"@tr ;
+        ramon:code      "TR-1425" ;
+        rdfs:label      "TR-1425 Kahta" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1376  ramon:name  "Hafik"@tr ;
+        ramon:code      "TR-1376" ;
+        rdfs:label      "TR-1376 Hafik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1349  ramon:name  "Gerze"@tr ;
+        ramon:code      "TR-1349" ;
+        rdfs:label      "TR-1349 Gerze" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1378  ramon:name  "Halfeti"@tr ;
+        ramon:code      "TR-1378" ;
+        rdfs:label      "TR-1378 Halfeti" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1828  ramon:name  "Murgul"@tr ;
+        ramon:code      "TR-1828" ;
+        rdfs:label      "TR-1828 Murgul" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1501  ramon:name  "Ladik"@tr ;
+        ramon:code      "TR-1501" ;
+        rdfs:label      "TR-1501 Ladik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1244  ramon:name  "Çaykara"@tr ;
+        ramon:code      "TR-1244" ;
+        rdfs:label      "TR-1244 Çaykara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1717  ramon:name  "Yalvaç"@tr ;
+        ramon:code      "TR-1717" ;
+        rdfs:label      "TR-1717 Yalvaç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1332  ramon:name  "Fındıklı"@tr ;
+        ramon:code      "TR-1332" ;
+        rdfs:label      "TR-1332 Fındıklı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1480  ramon:name  "Kofçaz"@tr ;
+        ramon:code      "TR-1480" ;
+        rdfs:label      "TR-1480 Kofçaz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1278  ramon:name  "Dicle"@tr ;
+        ramon:code      "TR-1278" ;
+        rdfs:label      "TR-1278 Dicle" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9969  ramon:name  "Niğde"@tr ;
+        ramon:code      "TR-9969" ;
+        rdfs:label      "TR-9969 Niğde" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1787  ramon:name  "Dargeçit"@tr ;
+        ramon:code      "TR-1787" ;
+        rdfs:label      "TR-1787 Dargeçit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1786  ramon:name  "Çaldıran"@tr ;
+        ramon:code      "TR-1786" ;
+        rdfs:label      "TR-1786 Çaldıran" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1245  ramon:name  "Çekerek"@tr ;
+        ramon:code      "TR-1245" ;
+        rdfs:label      "TR-1245 Çekerek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1339  ramon:name  "Gediz"@tr ;
+        ramon:code      "TR-1339" ;
+        rdfs:label      "TR-1339 Gediz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1961  ramon:name  "Kızılören"@tr ;
+        ramon:code      "TR-1961" ;
+        rdfs:label      "TR-1961 Kızılören" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1559  ramon:name  "Osmaneli"@tr ;
+        ramon:code      "TR-1559" ;
+        rdfs:label      "TR-1559 Osmaneli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2019  ramon:name  "Altınova"@tr ;
+        ramon:code      "TR-2019" ;
+        rdfs:label      "TR-2019 Altınova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1909  ramon:name  "Dernekpazarı"@tr ;
+        ramon:code      "TR-1909" ;
+        rdfs:label      "TR-1909 Dernekpazarı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1106  ramon:name  "Adilcevaz"@tr ;
+        ramon:code      "TR-1106" ;
+        rdfs:label      "TR-1106 Adilcevaz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1470  ramon:name  "Kırkağaç"@tr ;
+        ramon:code      "TR-1470" ;
+        rdfs:label      "TR-1470 Kırkağaç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1141  ramon:name  "Araklı"@tr ;
+        ramon:code      "TR-1141" ;
+        rdfs:label      "TR-1141 Araklı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1343  ramon:name  "Gemlik"@tr ;
+        ramon:code      "TR-1343" ;
+        rdfs:label      "TR-1343 Gemlik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1701  ramon:name  "Ulus"@tr ;
+        ramon:code      "TR-1701" ;
+        rdfs:label      "TR-1701 Ulus" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1639  ramon:name  "Sultandağı"@tr ;
+        ramon:code      "TR-1639" ;
+        rdfs:label      "TR-1639 Sultandağı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1615  ramon:name  "Senirkent"@tr ;
+        ramon:code      "TR-1615" ;
+        rdfs:label      "TR-1615 Senirkent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1490  ramon:name  "Kulp"@tr ;
+        ramon:code      "TR-1490" ;
+        rdfs:label      "TR-1490 Kulp" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1113  ramon:name  "Akçaabat"@tr ;
+        ramon:code      "TR-1113" ;
+        rdfs:label      "TR-1113 Akçaabat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9958  ramon:name  "Kazımpaşa"@tr ;
+        ramon:code      "TR-9958" ;
+        rdfs:label      "TR-9958 Kazımpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1663  ramon:name  "Şişli"@tr ;
+        ramon:code      "TR-1663" ;
+        rdfs:label      "TR-1663 Şişli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1709  ramon:name  "Vakfıkebir"@tr ;
+        ramon:code      "TR-1709" ;
+        rdfs:label      "TR-1709 Vakfıkebir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1428  ramon:name  "Kalkandere"@tr ;
+        ramon:code      "TR-1428" ;
+        rdfs:label      "TR-1428 Kalkandere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1519  ramon:name  "Mazıdağı"@tr ;
+        ramon:code      "TR-1519" ;
+        rdfs:label      "TR-1519 Mazıdağı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1591  ramon:name  "Samandağ"@tr ;
+        ramon:code      "TR-1591" ;
+        rdfs:label      "TR-1591 Samandağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1131  ramon:name  "Altınözü"@tr ;
+        ramon:code      "TR-1131" ;
+        rdfs:label      "TR-1131 Altınözü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1656  ramon:name  "Şemdinli"@tr ;
+        ramon:code      "TR-1656" ;
+        rdfs:label      "TR-1656 Şemdinli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1955  ramon:name  "Karapürçek"@tr ;
+        ramon:code      "TR-1955" ;
+        rdfs:label      "TR-1955 Karapürçek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1241  ramon:name  "Çayeli"@tr ;
+        ramon:code      "TR-1241" ;
+        rdfs:label      "TR-1241 Çayeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1935  ramon:name  "Gürsu"@tr ;
+        ramon:code      "TR-1935" ;
+        rdfs:label      "TR-1935 Gürsu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1355  ramon:name  "Gölcük"@tr ;
+        ramon:code      "TR-1355" ;
+        rdfs:label      "TR-1355 Gölcük" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1261  ramon:name  "Çukurca"@tr ;
+        ramon:code      "TR-1261" ;
+        rdfs:label      "TR-1261 Çukurca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1699  ramon:name  "Uluborlu"@tr ;
+        ramon:code      "TR-1699" ;
+        rdfs:label      "TR-1699 Uluborlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1272  ramon:name  "Dereli"@tr ;
+        ramon:code      "TR-1272" ;
+        rdfs:label      "TR-1272 Dereli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1985  ramon:name  "Sincik"@tr ;
+        ramon:code      "TR-1985" ;
+        rdfs:label      "TR-1985 Sincik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1316  ramon:name  "Ermenek"@tr ;
+        ramon:code      "TR-1316" ;
+        rdfs:label      "TR-1316 Ermenek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1891  ramon:name  "Çamaş"@tr ;
+        ramon:code      "TR-1891" ;
+        rdfs:label      "TR-1891 Çamaş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1181  ramon:name  "Bergama"@tr ;
+        ramon:code      "TR-1181" ;
+        rdfs:label      "TR-1181 Bergama" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1605  ramon:name  "Sarız"@tr ;
+        ramon:code      "TR-1605" ;
+        rdfs:label      "TR-1605 Sarız" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1650  ramon:name  "Şarkışla"@tr ;
+        ramon:code      "TR-1650" ;
+        rdfs:label      "TR-1650 Şarkışla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1771  ramon:name  "Başmakçı"@tr ;
+        ramon:code      "TR-1771" ;
+        rdfs:label      "TR-1771 Başmakçı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1512  ramon:name  "Manavgat"@tr ;
+        ramon:code      "TR-1512" ;
+        rdfs:label      "TR-1512 Manavgat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1407  ramon:name  "İmranlı"@tr ;
+        ramon:code      "TR-1407" ;
+        rdfs:label      "TR-1407 İmranlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2072  ramon:name  "Atakum"@tr ;
+        ramon:code      "TR-2072" ;
+        rdfs:label      "TR-2072 Atakum" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1165  ramon:name  "Bahçe"@tr ;
+        ramon:code      "TR-1165" ;
+        rdfs:label      "TR-1165 Bahçe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2013  ramon:name  "Narlıdere"@tr ;
+        ramon:code      "TR-2013" ;
+        rdfs:label      "TR-2013 Narlıdere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1601  ramon:name  "Sarıkamış"@tr ;
+        ramon:code      "TR-1601" ;
+        rdfs:label      "TR-1601 Sarıkamış" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1444  ramon:name  "Karayazı"@tr ;
+        ramon:code      "TR-1444" ;
+        rdfs:label      "TR-1444 Karayazı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1350  ramon:name  "Gevaş"@tr ;
+        ramon:code      "TR-1350" ;
+        rdfs:label      "TR-1350 Gevaş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1458  ramon:name  "Kelkit"@tr ;
+        ramon:code      "TR-1458" ;
+        rdfs:label      "TR-1458 Kelkit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1597  ramon:name  "Sarayköy"@tr ;
+        ramon:code      "TR-1597" ;
+        rdfs:label      "TR-1597 Sarayköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1616  ramon:name  "Serik"@tr ;
+        ramon:code      "TR-1616" ;
+        rdfs:label      "TR-1616 Serik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1474  ramon:name  "Kızıltepe"@tr ;
+        ramon:code      "TR-1474" ;
+        rdfs:label      "TR-1474 Kızıltepe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1740  ramon:name  "Zile"@tr ;
+        ramon:code      "TR-1740" ;
+        rdfs:label      "TR-1740 Zile" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1434  ramon:name  "Karacabey"@tr ;
+        ramon:code      "TR-1434" ;
+        rdfs:label      "TR-1434 Karacabey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1888  ramon:name  "Beyağaç"@tr ;
+        ramon:code      "TR-1888" ;
+        rdfs:label      "TR-1888 Beyağaç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1102  ramon:name  "Acıpayam"@tr ;
+        ramon:code      "TR-1102" ;
+        rdfs:label      "TR-1102 Acıpayam" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9971  ramon:name  "Osmaniye"@tr ;
+        ramon:code      "TR-9971" ;
+        rdfs:label      "TR-9971 Osmaniye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1185  ramon:name  "Beykoz"@tr ;
+        ramon:code      "TR-1185" ;
+        rdfs:label      "TR-1185 Beykoz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1410  ramon:name  "İnebolu"@tr ;
+        ramon:code      "TR-1410" ;
+        rdfs:label      "TR-1410 İnebolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9966  ramon:name  "Mardin"@tr ;
+        ramon:code      "TR-9966" ;
+        rdfs:label      "TR-9966 Mardin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1973  ramon:name  "Mihalgazi"@tr ;
+        ramon:code      "TR-1973" ;
+        rdfs:label      "TR-1973 Mihalgazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1649  ramon:name  "Şabanözü"@tr ;
+        ramon:code      "TR-1649" ;
+        rdfs:label      "TR-1649 Şabanözü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9929  ramon:name  "Diyarbakır"@tr ;
+        ramon:code      "TR-9929" ;
+        rdfs:label      "TR-9929 Diyarbakır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1554  ramon:name  "Orhangazi"@tr ;
+        ramon:code      "TR-1554" ;
+        rdfs:label      "TR-1554 Orhangazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2026  ramon:name  "Termal"@tr ;
+        ramon:code      "TR-2026" ;
+        rdfs:label      "TR-2026 Termal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9936  ramon:name  "Erzurum"@tr ;
+        ramon:code      "TR-9936" ;
+        rdfs:label      "TR-9936 Erzurum" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1718  ramon:name  "Yapraklı"@tr ;
+        ramon:code      "TR-1718" ;
+        rdfs:label      "TR-1718 Yapraklı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1648  ramon:name  "Sütçüler"@tr ;
+        ramon:code      "TR-1648" ;
+        rdfs:label      "TR-1648 Sütçüler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9922  ramon:name  "Bursa"@tr ;
+        ramon:code      "TR-9922" ;
+        rdfs:label      "TR-9922 Bursa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1265  ramon:name  "Darende"@tr ;
+        ramon:code      "TR-1265" ;
+        rdfs:label      "TR-1265 Darende" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1607  ramon:name  "Sason"@tr ;
+        ramon:code      "TR-1607" ;
+        rdfs:label      "TR-1607 Sason" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1609  ramon:name  "Savur"@tr ;
+        ramon:code      "TR-1609" ;
+        rdfs:label      "TR-1609 Savur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1293  ramon:name  "Eceabat"@tr ;
+        ramon:code      "TR-1293" ;
+        rdfs:label      "TR-1293 Eceabat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1712  ramon:name  "Vezirköprü"@tr ;
+        ramon:code      "TR-1712" ;
+        rdfs:label      "TR-1712 Vezirköprü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1805  ramon:name  "İhsangazi"@tr ;
+        ramon:code      "TR-1805" ;
+        rdfs:label      "TR-1805 İhsangazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1662  ramon:name  "Şirvan"@tr ;
+        ramon:code      "TR-1662" ;
+        rdfs:label      "TR-1662 Şirvan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1984  ramon:name  "Seydiler"@tr ;
+        ramon:code      "TR-1984" ;
+        rdfs:label      "TR-1984 Seydiler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1182  ramon:name  "Besni"@tr ;
+        ramon:code      "TR-1182" ;
+        rdfs:label      "TR-1182 Besni" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1859  ramon:name  "Yıldırım"@tr ;
+        ramon:code      "TR-1859" ;
+        rdfs:label      "TR-1859 Yıldırım" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1868  ramon:name  "Ahırlı"@tr ;
+        ramon:code      "TR-1868" ;
+        rdfs:label      "TR-1868 Ahırlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1551  ramon:name  "Olur"@tr ;
+        ramon:code      "TR-1551" ;
+        rdfs:label      "TR-1551 Olur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1388  ramon:name  "Hayrabolu"@tr ;
+        ramon:code      "TR-1388" ;
+        rdfs:label      "TR-1388 Hayrabolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9987  ramon:name  "Yalova"@tr ;
+        ramon:code      "TR-9987" ;
+        rdfs:label      "TR-9987 Yalova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1220  ramon:name  "Ceylanpınar"@tr ;
+        ramon:code      "TR-1220" ;
+        rdfs:label      "TR-1220 Ceylanpınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9990  ramon:name  "Yenipazar"@tr ;
+        ramon:code      "TR-9990" ;
+        rdfs:label      "TR-9990 Yenipazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1626  ramon:name  "Sinanpaşa"@tr ;
+        ramon:code      "TR-1626" ;
+        rdfs:label      "TR-1626 Sinanpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1250  ramon:name  "Çerkezköy"@tr ;
+        ramon:code      "TR-1250" ;
+        rdfs:label      "TR-1250 Çerkezköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9984  ramon:name  "Tunceli"@tr ;
+        ramon:code      "TR-9984" ;
+        rdfs:label      "TR-9984 Tunceli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1392  ramon:name  "Hınıs"@tr ;
+        ramon:code      "TR-1392" ;
+        rdfs:label      "TR-1392 Hınıs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1331  ramon:name  "Fethiye"@tr ;
+        ramon:code      "TR-1331" ;
+        rdfs:label      "TR-1331 Fethiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1214  ramon:name  "Buldan"@tr ;
+        ramon:code      "TR-1214" ;
+        rdfs:label      "TR-1214 Buldan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1581  ramon:name  "Pülümür"@tr ;
+        ramon:code      "TR-1581" ;
+        rdfs:label      "TR-1581 Pülümür" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2073  ramon:name  "Canik"@tr ;
+        ramon:code      "TR-2073" ;
+        rdfs:label      "TR-2073 Canik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1296  ramon:name  "Eflani"@tr ;
+        ramon:code      "TR-1296" ;
+        rdfs:label      "TR-1296 Eflani" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1889  ramon:name  "Bozkurt"@tr ;
+        ramon:code      "TR-1889" ;
+        rdfs:label      "TR-1889 Bozkurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1682  ramon:name  "Torbalı"@tr ;
+        ramon:code      "TR-1682" ;
+        rdfs:label      "TR-1682 Torbalı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9932  ramon:name  "Elazığ"@tr ;
+        ramon:code      "TR-9932" ;
+        rdfs:label      "TR-9932 Elazığ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1218  ramon:name  "Bünyan"@tr ;
+        ramon:code      "TR-1218" ;
+        rdfs:label      "TR-1218 Bünyan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1358  ramon:name  "Gölköy"@tr ;
+        ramon:code      "TR-1358" ;
+        rdfs:label      "TR-1358 Gölköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1810  ramon:name  "Kağıthane"@tr ;
+        ramon:code      "TR-1810" ;
+        rdfs:label      "TR-1810 Kağıthane" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1207  ramon:name  "Bozkır"@tr ;
+        ramon:code      "TR-1207" ;
+        rdfs:label      "TR-1207 Bozkır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1356  ramon:name  "Göle"@tr ;
+        ramon:code      "TR-1356" ;
+        rdfs:label      "TR-1356 Göle" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1288  ramon:name  "Domaniç"@tr ;
+        ramon:code      "TR-1288" ;
+        rdfs:label      "TR-1288 Domaniç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9939  ramon:name  "Giresun"@tr ;
+        ramon:code      "TR-9939" ;
+        rdfs:label      "TR-9939 Giresun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1731  ramon:name  "Yıldızeli"@tr ;
+        ramon:code      "TR-1731" ;
+        rdfs:label      "TR-1731 Yıldızeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9954  ramon:name  "Kargamış"@tr ;
+        ramon:code      "TR-9954" ;
+        rdfs:label      "TR-9954 Kargamış" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1432  ramon:name  "Karaburun"@tr ;
+        ramon:code      "TR-1432" ;
+        rdfs:label      "TR-1432 Karaburun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1574  ramon:name  "Pertek"@tr ;
+        ramon:code      "TR-1574" ;
+        rdfs:label      "TR-1574 Pertek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1326  ramon:name  "Ezine"@tr ;
+        ramon:code      "TR-1326" ;
+        rdfs:label      "TR-1326 Ezine" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1681  ramon:name  "Tonya"@tr ;
+        ramon:code      "TR-1681" ;
+        rdfs:label      "TR-1681 Tonya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9920  ramon:name  "Burdur"@tr ;
+        ramon:code      "TR-9920" ;
+        rdfs:label      "TR-9920 Burdur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1976  ramon:name  "Oğuzlar"@tr ;
+        ramon:code      "TR-1976" ;
+        rdfs:label      "TR-1976 Oğuzlar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1453  ramon:name  "Kaynarca"@tr ;
+        ramon:code      "TR-1453" ;
+        rdfs:label      "TR-1453 Kaynarca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1770  ramon:name  "Bahçesaray"@tr ;
+        ramon:code      "TR-1770" ;
+        rdfs:label      "TR-1770 Bahçesaray" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1555  ramon:name  "Orta"@tr ;
+        ramon:code      "TR-1555" ;
+        rdfs:label      "TR-1555 Orta" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1188  ramon:name  "Beyşehir"@tr ;
+        ramon:code      "TR-1188" ;
+        rdfs:label      "TR-1188 Beyşehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1789  ramon:name  "Derebucak"@tr ;
+        ramon:code      "TR-1789" ;
+        rdfs:label      "TR-1789 Derebucak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2010  ramon:name  "Güngören"@tr ;
+        ramon:code      "TR-2010" ;
+        rdfs:label      "TR-2010 Güngören" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1440  ramon:name  "Karamürsel"@tr ;
+        ramon:code      "TR-1440" ;
+        rdfs:label      "TR-1440 Karamürsel" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2038  ramon:name  "Konyaaltı"@tr ;
+        ramon:code      "TR-2038" ;
+        rdfs:label      "TR-2038 Konyaaltı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1161  ramon:name  "Ayvalık"@tr ;
+        ramon:code      "TR-1161" ;
+        rdfs:label      "TR-1161 Ayvalık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1813  ramon:name  "Karamanlı"@tr ;
+        ramon:code      "TR-1813" ;
+        rdfs:label      "TR-1813 Karamanlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1921  ramon:name  "Eskil"@tr ;
+        ramon:code      "TR-1921" ;
+        rdfs:label      "TR-1921 Eskil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1708  ramon:name  "Üsküdar"@tr ;
+        ramon:code      "TR-1708" ;
+        rdfs:label      "TR-1708 Üsküdar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1183  ramon:name  "Beşiktaş"@tr ;
+        ramon:code      "TR-1183" ;
+        rdfs:label      "TR-1183 Beşiktaş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1107  ramon:name  "Afşin"@tr ;
+        ramon:code      "TR-1107" ;
+        rdfs:label      "TR-1107 Afşin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1572  ramon:name  "Pehlivanköy"@tr ;
+        ramon:code      "TR-1572" ;
+        rdfs:label      "TR-1572 Pehlivanköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1776  ramon:name  "Beydağ"@tr ;
+        ramon:code      "TR-1776" ;
+        rdfs:label      "TR-1776 Beydağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1948  ramon:name  "İnhisar"@tr ;
+        ramon:code      "TR-1948" ;
+        rdfs:label      "TR-1948 İnhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1647  ramon:name  "Sürmene"@tr ;
+        ramon:code      "TR-1647" ;
+        rdfs:label      "TR-1647 Sürmene" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1548  ramon:name  "Of"@tr ;
+        ramon:code      "TR-1548" ;
+        rdfs:label      "TR-1548 Of" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9960  ramon:name  "Kırıkkale"@tr ;
+        ramon:code      "TR-9960" ;
+        rdfs:label      "TR-9960 Kırıkkale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1380  ramon:name  "Hanak"@tr ;
+        ramon:code      "TR-1380" ;
+        rdfs:label      "TR-1380 Hanak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9942  ramon:name  "Hakkari"@tr ;
+        ramon:code      "TR-9942" ;
+        rdfs:label      "TR-9942 Hakkari" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1466  ramon:name  "Kıbrıscık"@tr ;
+        ramon:code      "TR-1466" ;
+        rdfs:label      "TR-1466 Kıbrıscık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1811  ramon:name  "Demre"@tr ;
+        ramon:code      "TR-1811" ;
+        rdfs:label      "TR-1811 Demre" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1576  ramon:name  "Pınarbaşı"@tr ;
+        ramon:code      "TR-1576" ;
+        rdfs:label      "TR-1576 Pınarbaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9988  ramon:name  "Yazlık"@tr ;
+        ramon:code      "TR-9988" ;
+        rdfs:label      "TR-9988 Yazlık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1981  ramon:name  "Saraydüzü"@tr ;
+        ramon:code      "TR-1981" ;
+        rdfs:label      "TR-1981 Saraydüzü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1416  ramon:name  "İspir"@tr ;
+        ramon:code      "TR-1416" ;
+        rdfs:label      "TR-1416 İspir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1934  ramon:name  "Günyüzü"@tr ;
+        ramon:code      "TR-1934" ;
+        rdfs:label      "TR-1934 Günyüzü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9978  ramon:name  "Sinop"@tr ;
+        ramon:code      "TR-9978" ;
+        rdfs:label      "TR-9978 Sinop" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1537  ramon:name  "Mutki"@tr ;
+        ramon:code      "TR-1537" ;
+        rdfs:label      "TR-1537 Mutki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1943  ramon:name  "Hemşin"@tr ;
+        ramon:code      "TR-1943" ;
+        rdfs:label      "TR-1943 Hemşin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1706  ramon:name  "Ünye"@tr ;
+        ramon:code      "TR-1706" ;
+        rdfs:label      "TR-1706 Ünye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1127  ramon:name  "Alaşehir"@tr ;
+        ramon:code      "TR-1127" ;
+        rdfs:label      "TR-1127 Alaşehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9919  ramon:name  "Bolu"@tr ;
+        ramon:code      "TR-9919" ;
+        rdfs:label      "TR-9919 Bolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1234  ramon:name  "Çarşamba"@tr ;
+        ramon:code      "TR-1234" ;
+        rdfs:label      "TR-1234 Çarşamba" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1373  ramon:name  "Gürün"@tr ;
+        ramon:code      "TR-1373" ;
+        rdfs:label      "TR-1373 Gürün" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1549  ramon:name  "Oğuzeli"@tr ;
+        ramon:code      "TR-1549" ;
+        rdfs:label      "TR-1549 Oğuzeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1497  ramon:name  "Kuşadası"@tr ;
+        ramon:code      "TR-1497" ;
+        rdfs:label      "TR-1497 Kuşadası" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1359  ramon:name  "Gölpazarı"@tr ;
+        ramon:code      "TR-1359" ;
+        rdfs:label      "TR-1359 Gölpazarı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1334  ramon:name  "Foça"@tr ;
+        ramon:code      "TR-1334" ;
+        rdfs:label      "TR-1334 Foça" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1910  ramon:name  "Dikmen"@tr ;
+        ramon:code      "TR-1910" ;
+        rdfs:label      "TR-1910 Dikmen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1479  ramon:name  "Koçarlı"@tr ;
+        ramon:code      "TR-1479" ;
+        rdfs:label      "TR-1479 Koçarlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1610  ramon:name  "Seben"@tr ;
+        ramon:code      "TR-1610" ;
+        rdfs:label      "TR-1610 Seben" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1112  ramon:name  "Ahlat"@tr ;
+        ramon:code      "TR-1112" ;
+        rdfs:label      "TR-1112 Ahlat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1287  ramon:name  "Doğubayazıt"@tr ;
+        ramon:code      "TR-1287" ;
+        rdfs:label      "TR-1287 Doğubayazıt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9945  ramon:name  "Ilıca"@tr ;
+        ramon:code      "TR-9945" ;
+        rdfs:label      "TR-9945 Ilıca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9964  ramon:name  "Malatya"@tr ;
+        ramon:code      "TR-9964" ;
+        rdfs:label      "TR-9964 Malatya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9967  ramon:name  "Muğla"@tr ;
+        ramon:code      "TR-9967" ;
+        rdfs:label      "TR-9967 Muğla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1890  ramon:name  "Boztepe"@tr ;
+        ramon:code      "TR-1890" ;
+        rdfs:label      "TR-1890 Boztepe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1798  ramon:name  "Güroymak"@tr ;
+        ramon:code      "TR-1798" ;
+        rdfs:label      "TR-1798 Güroymak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1499  ramon:name  "Küre"@tr ;
+        ramon:code      "TR-1499" ;
+        rdfs:label      "TR-1499 Küre" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1557  ramon:name  "Ortaköy"@tr ;
+        ramon:code      "TR-1557" ;
+        rdfs:label      "TR-1557 Ortaköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1975  ramon:name  "Nurhak"@tr ;
+        ramon:code      "TR-1975" ;
+        rdfs:label      "TR-1975 Nurhak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1451  ramon:name  "Kaş"@tr ;
+        ramon:code      "TR-1451" ;
+        rdfs:label      "TR-1451 Kaş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1698  ramon:name  "Uludere"@tr ;
+        ramon:code      "TR-1698" ;
+        rdfs:label      "TR-1698 Uludere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9946  ramon:name  "Isparta"@tr ;
+        ramon:code      "TR-9946" ;
+        rdfs:label      "TR-9946 Isparta" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1531  ramon:name  "Mudurnu"@tr ;
+        ramon:code      "TR-1531" ;
+        rdfs:label      "TR-1531 Mudurnu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1341  ramon:name  "Gelendost"@tr ;
+        ramon:code      "TR-1341" ;
+        rdfs:label      "TR-1341 Gelendost" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1441  ramon:name  "Karapınar"@tr ;
+        ramon:code      "TR-1441" ;
+        rdfs:label      "TR-1441 Karapınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1406  ramon:name  "İliç"@tr ;
+        ramon:code      "TR-1406" ;
+        rdfs:label      "TR-1406 İliç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1308  ramon:name  "Erbaa"@tr ;
+        ramon:code      "TR-1308" ;
+        rdfs:label      "TR-1308 Erbaa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1726  ramon:name  "Yerköy"@tr ;
+        ramon:code      "TR-1726" ;
+        rdfs:label      "TR-1726 Yerköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1415  ramon:name  "İslahiye"@tr ;
+        ramon:code      "TR-1415" ;
+        rdfs:label      "TR-1415 İslahiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1190  ramon:name  "Biga"@tr ;
+        ramon:code      "TR-1190" ;
+        rdfs:label      "TR-1190 Biga" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1689  ramon:name  "Turgutlu"@tr ;
+        ramon:code      "TR-1689" ;
+        rdfs:label      "TR-1689 Turgutlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1644  ramon:name  "Susurluk"@tr ;
+        ramon:code      "TR-1644" ;
+        rdfs:label      "TR-1644 Susurluk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1847  ramon:name  "Taraklı"@tr ;
+        ramon:code      "TR-1847" ;
+        rdfs:label      "TR-1847 Taraklı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2074  ramon:name  "İlkadım"@tr ;
+        ramon:code      "TR-2074" ;
+        rdfs:label      "TR-2074 İlkadım" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1194  ramon:name  "Birecik"@tr ;
+        ramon:code      "TR-1194" ;
+        rdfs:label      "TR-1194 Birecik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1496  ramon:name  "Kurucaşile"@tr ;
+        ramon:code      "TR-1496" ;
+        rdfs:label      "TR-1496 Kurucaşile" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9938  ramon:name  "Gazi"@tr ;
+        ramon:code      "TR-9938" ;
+        rdfs:label      "TR-9938 Gazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1526  ramon:name  "Midyat"@tr ;
+        ramon:code      "TR-1526" ;
+        rdfs:label      "TR-1526 Midyat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1511  ramon:name  "Malkara"@tr ;
+        ramon:code      "TR-1511" ;
+        rdfs:label      "TR-1511 Malkara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1594  ramon:name  "Sandıklı"@tr ;
+        ramon:code      "TR-1594" ;
+        rdfs:label      "TR-1594 Sandıklı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1915  ramon:name  "Doğanyurt"@tr ;
+        ramon:code      "TR-1915" ;
+        rdfs:label      "TR-1915 Doğanyurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1916  ramon:name  "Dörtdivan"@tr ;
+        ramon:code      "TR-1916" ;
+        rdfs:label      "TR-1916 Dörtdivan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9990  ramon:name  "Yenipazar"@tr ;
+        ramon:code      "TR-9990" ;
+        rdfs:label      "TR-9990 Yenipazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1991  ramon:name  "Ulaş"@tr ;
+        ramon:code      "TR-1991" ;
+        rdfs:label      "TR-1991 Ulaş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1122  ramon:name  "Akşehir"@tr ;
+        ramon:code      "TR-1122" ;
+        rdfs:label      "TR-1122 Akşehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1484  ramon:name  "Koyulhisar"@tr ;
+        ramon:code      "TR-1484" ;
+        rdfs:label      "TR-1484 Koyulhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9989  ramon:name  "Yenice"@tr ;
+        ramon:code      "TR-9989" ;
+        rdfs:label      "TR-9989 Yenice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1382  ramon:name  "Hassa"@tr ;
+        ramon:code      "TR-1382" ;
+        rdfs:label      "TR-1382 Hassa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1143  ramon:name  "Arapkir"@tr ;
+        ramon:code      "TR-1143" ;
+        rdfs:label      "TR-1143 Arapkir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1913  ramon:name  "Doğanşar"@tr ;
+        ramon:code      "TR-1913" ;
+        rdfs:label      "TR-1913 Doğanşar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1252  ramon:name  "Çıldır"@tr ;
+        ramon:code      "TR-1252" ;
+        rdfs:label      "TR-1252 Çıldır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1542  ramon:name  "Nazilli"@tr ;
+        ramon:code      "TR-1542" ;
+        rdfs:label      "TR-1542 Nazilli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1286  ramon:name  "Doğanşehir"@tr ;
+        ramon:code      "TR-1286" ;
+        rdfs:label      "TR-1286 Doğanşehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1486  ramon:name  "Kozan"@tr ;
+        ramon:code      "TR-1486" ;
+        rdfs:label      "TR-1486 Kozan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1247  ramon:name  "Çemişgezek"@tr ;
+        ramon:code      "TR-1247" ;
+        rdfs:label      "TR-1247 Çemişgezek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1992  ramon:name  "Yahşihan"@tr ;
+        ramon:code      "TR-1992" ;
+        rdfs:label      "TR-1992 Yahşihan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1275  ramon:name  "Develi"@tr ;
+        ramon:code      "TR-1275" ;
+        rdfs:label      "TR-1275 Develi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9961  ramon:name  "Kırklareli"@tr ;
+        ramon:code      "TR-9961" ;
+        rdfs:label      "TR-9961 Kırklareli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1672  ramon:name  "Tefenni"@tr ;
+        ramon:code      "TR-1672" ;
+        rdfs:label      "TR-1672 Tefenni" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9944  ramon:name  "Iğdır"@tr ;
+        ramon:code      "TR-9944" ;
+        rdfs:label      "TR-9944 Iğdır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1590  ramon:name  "Salihli"@tr ;
+        ramon:code      "TR-1590" ;
+        rdfs:label      "TR-1590 Salihli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1987  ramon:name  "Sulusaray"@tr ;
+        ramon:code      "TR-1987" ;
+        rdfs:label      "TR-1987 Sulusaray" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2039  ramon:name  "Muratpaşa"@tr ;
+        ramon:code      "TR-2039" ;
+        rdfs:label      "TR-2039 Muratpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1236  ramon:name  "Çatak"@tr ;
+        ramon:code      "TR-1236" ;
+        rdfs:label      "TR-1236 Çatak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1962  ramon:name  "Kocaköy"@tr ;
+        ramon:code      "TR-1962" ;
+        rdfs:label      "TR-1962 Kocaköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1904  ramon:name  "Çiftlik"@tr ;
+        ramon:code      "TR-1904" ;
+        rdfs:label      "TR-1904 Çiftlik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1784  ramon:name  "Cumayeri"@tr ;
+        ramon:code      "TR-1784" ;
+        rdfs:label      "TR-1784 Cumayeri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1518  ramon:name  "Mazgirt"@tr ;
+        ramon:code      "TR-1518" ;
+        rdfs:label      "TR-1518 Mazgirt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9910  ramon:name  "Artvin"@tr ;
+        ramon:code      "TR-9910" ;
+        rdfs:label      "TR-9910 Artvin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1149  ramon:name  "Arpaçay"@tr ;
+        ramon:code      "TR-1149" ;
+        rdfs:label      "TR-1149 Arpaçay" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1570  ramon:name  "Pazarcık"@tr ;
+        ramon:code      "TR-1570" ;
+        rdfs:label      "TR-1570 Pazarcık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1430  ramon:name  "Kandıra"@tr ;
+        ramon:code      "TR-1430" ;
+        rdfs:label      "TR-1430 Kandıra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1280  ramon:name  "Dikili"@tr ;
+        ramon:code      "TR-1280" ;
+        rdfs:label      "TR-1280 Dikili" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1951  ramon:name  "Kabataş"@tr ;
+        ramon:code      "TR-1951" ;
+        rdfs:label      "TR-1951 Kabataş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1634  ramon:name  "Soma"@tr ;
+        ramon:code      "TR-1634" ;
+        rdfs:label      "TR-1634 Soma" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1633  ramon:name  "Solhan"@tr ;
+        ramon:code      "TR-1633" ;
+        rdfs:label      "TR-1633 Solhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1240  ramon:name  "Çaycuma"@tr ;
+        ramon:code      "TR-1240" ;
+        rdfs:label      "TR-1240 Çaycuma" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1763  ramon:name  "Asarcık"@tr ;
+        ramon:code      "TR-1763" ;
+        rdfs:label      "TR-1763 Asarcık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1871  ramon:name  "Akköy"@tr ;
+        ramon:code      "TR-1871" ;
+        rdfs:label      "TR-1871 Akköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1623  ramon:name  "Silopi"@tr ;
+        ramon:code      "TR-1623" ;
+        rdfs:label      "TR-1623 Silopi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1947  ramon:name  "İkizce"@tr ;
+        ramon:code      "TR-1947" ;
+        rdfs:label      "TR-1947 İkizce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1340  ramon:name  "Gelibolu"@tr ;
+        ramon:code      "TR-1340" ;
+        rdfs:label      "TR-1340 Gelibolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1246  ramon:name  "Çelikhan"@tr ;
+        ramon:code      "TR-1246" ;
+        rdfs:label      "TR-1246 Çelikhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1535  ramon:name  "Mustafakemalpaşa"@tr ;
+        ramon:code      "TR-1535" ;
+        rdfs:label      "TR-1535 Mustafakemalpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1315  ramon:name  "Ergani"@tr ;
+        ramon:code      "TR-1315" ;
+        rdfs:label      "TR-1315 Ergani" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9981  ramon:name  "Tekirdağ"@tr ;
+        ramon:code      "TR-9981" ;
+        rdfs:label      "TR-9981 Tekirdağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1959  ramon:name  "Kemer"@tr ;
+        ramon:code      "TR-1959" ;
+        rdfs:label      "TR-1959 Kemer" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1253  ramon:name  "Çınar"@tr ;
+        ramon:code      "TR-1253" ;
+        rdfs:label      "TR-1253 Çınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1142  ramon:name  "Aralık"@tr ;
+        ramon:code      "TR-1142" ;
+        rdfs:label      "TR-1142 Aralık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1774  ramon:name  "Bekilli"@tr ;
+        ramon:code      "TR-1774" ;
+        rdfs:label      "TR-1774 Bekilli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1624  ramon:name  "Silvan"@tr ;
+        ramon:code      "TR-1624" ;
+        rdfs:label      "TR-1624 Silvan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1446  ramon:name  "Karlıova"@tr ;
+        ramon:code      "TR-1446" ;
+        rdfs:label      "TR-1446 Karlıova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1669  ramon:name  "Tatvan"@tr ;
+        ramon:code      "TR-1669" ;
+        rdfs:label      "TR-1669 Tatvan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1169  ramon:name  "Balya"@tr ;
+        ramon:code      "TR-1169" ;
+        rdfs:label      "TR-1169 Balya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1659  ramon:name  "Şile"@tr ;
+        ramon:code      "TR-1659" ;
+        rdfs:label      "TR-1659 Şile" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9918  ramon:name  "Bitlis"@tr ;
+        ramon:code      "TR-9918" ;
+        rdfs:label      "TR-9918 Bitlis" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1926  ramon:name  "Gökçebey"@tr ;
+        ramon:code      "TR-1926" ;
+        rdfs:label      "TR-1926 Gökçebey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1435  ramon:name  "Karacasu"@tr ;
+        ramon:code      "TR-1435" ;
+        rdfs:label      "TR-1435 Karacasu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2009  ramon:name  "Gaziemir"@tr ;
+        ramon:code      "TR-2009" ;
+        rdfs:label      "TR-2009 Gaziemir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9902  ramon:name  "Afyonkarahisar"@tr ;
+        ramon:code      "TR-9902" ;
+        rdfs:label      "TR-9902 Afyonkarahisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1602  ramon:name  "Sarıkaya"@tr ;
+        ramon:code      "TR-1602" ;
+        rdfs:label      "TR-1602 Sarıkaya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1944  ramon:name  "Hocalar"@tr ;
+        ramon:code      "TR-1944" ;
+        rdfs:label      "TR-1944 Hocalar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9935  ramon:name  "Erzincan"@tr ;
+        ramon:code      "TR-9935" ;
+        rdfs:label      "TR-9935 Erzincan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1197  ramon:name  "Bodrum"@tr ;
+        ramon:code      "TR-1197" ;
+        rdfs:label      "TR-1197 Bodrum" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1598  ramon:name  "Sarayönü"@tr ;
+        ramon:code      "TR-1598" ;
+        rdfs:label      "TR-1598 Sarayönü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9976  ramon:name  "Saraybahçe"@tr ;
+        ramon:code      "TR-9976" ;
+        rdfs:label      "TR-9976 Saraybahçe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1794  ramon:name  "Gölyaka"@tr ;
+        ramon:code      "TR-1794" ;
+        rdfs:label      "TR-1794 Gölyaka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1809  ramon:name  "İscehisar"@tr ;
+        ramon:code      "TR-1809" ;
+        rdfs:label      "TR-1809 İscehisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1617  ramon:name  "Seydişehir"@tr ;
+        ramon:code      "TR-1617" ;
+        rdfs:label      "TR-1617 Seydişehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9905  ramon:name  "Amasya"@tr ;
+        ramon:code      "TR-9905" ;
+        rdfs:label      "TR-9905 Amasya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1917  ramon:name  "Düzköy"@tr ;
+        ramon:code      "TR-1917" ;
+        rdfs:label      "TR-1917 Düzköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1558  ramon:name  "Osmancık"@tr ;
+        ramon:code      "TR-1558" ;
+        rdfs:label      "TR-1558 Osmancık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1353  ramon:name  "Göksun"@tr ;
+        ramon:code      "TR-1353" ;
+        rdfs:label      "TR-1353 Göksun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9947  ramon:name  "İstanbul"@tr ;
+        ramon:code      "TR-9947" ;
+        rdfs:label      "TR-9947 İstanbul" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1873  ramon:name  "Alacakaya"@tr ;
+        ramon:code      "TR-1873" ;
+        rdfs:label      "TR-1873 Alacakaya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1110  ramon:name  "Ağın"@tr ;
+        ramon:code      "TR-1110" ;
+        rdfs:label      "TR-1110 Ağın" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1831  ramon:name  "Ortaca"@tr ;
+        ramon:code      "TR-1831" ;
+        rdfs:label      "TR-1831 Ortaca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1546  ramon:name  "Nizip"@tr ;
+        ramon:code      "TR-1546" ;
+        rdfs:label      "TR-1546 Nizip" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2030  ramon:name  "Derince"@tr ;
+        ramon:code      "TR-2030" ;
+        rdfs:label      "TR-2030 Derince" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9930  ramon:name  "Düzce"@tr ;
+        ramon:code      "TR-9930" ;
+        rdfs:label      "TR-9930 Düzce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1599  ramon:name  "Sarıcakaya"@tr ;
+        ramon:code      "TR-1599" ;
+        rdfs:label      "TR-1599 Sarıcakaya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1405  ramon:name  "İkizdere"@tr ;
+        ramon:code      "TR-1405" ;
+        rdfs:label      "TR-1405 İkizdere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1595  ramon:name  "Sapanca"@tr ;
+        ramon:code      "TR-1595" ;
+        rdfs:label      "TR-1595 Sapanca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1781  ramon:name  "Buharkent"@tr ;
+        ramon:code      "TR-1781" ;
+        rdfs:label      "TR-1781 Buharkent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1714  ramon:name  "Vize"@tr ;
+        ramon:code      "TR-1714" ;
+        rdfs:label      "TR-1714 Vize" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1845  ramon:name  "Şenpazar"@tr ;
+        ramon:code      "TR-1845" ;
+        rdfs:label      "TR-1845 Şenpazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1611  ramon:name  "Seferihisar"@tr ;
+        ramon:code      "TR-1611" ;
+        rdfs:label      "TR-1611 Seferihisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1848  ramon:name  "Taşkent"@tr ;
+        ramon:code      "TR-1848" ;
+        rdfs:label      "TR-1848 Taşkent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1571  ramon:name  "Pazaryeri"@tr ;
+        ramon:code      "TR-1571" ;
+        rdfs:label      "TR-1571 Pazaryeri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1841  ramon:name  "Şahinbey"@tr ;
+        ramon:code      "TR-1841" ;
+        rdfs:label      "TR-1841 Şahinbey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1204  ramon:name  "Boyabat"@tr ;
+        ramon:code      "TR-1204" ;
+        rdfs:label      "TR-1204 Boyabat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1799  ramon:name  "Harmancık"@tr ;
+        ramon:code      "TR-1799" ;
+        rdfs:label      "TR-1799 Harmancık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1258  ramon:name  "Çorlu"@tr ;
+        ramon:code      "TR-1258" ;
+        rdfs:label      "TR-1258 Çorlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1902  ramon:name  "Çeltik"@tr ;
+        ramon:code      "TR-1902" ;
+        rdfs:label      "TR-1902 Çeltik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1212  ramon:name  "Bulancak"@tr ;
+        ramon:code      "TR-1212" ;
+        rdfs:label      "TR-1212 Bulancak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1452  ramon:name  "Kavak"@tr ;
+        ramon:code      "TR-1452" ;
+        rdfs:label      "TR-1452 Kavak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1900  ramon:name  "Çaybaşı"@tr ;
+        ramon:code      "TR-1900" ;
+        rdfs:label      "TR-1900 Çaybaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1123  ramon:name  "Akyazı"@tr ;
+        ramon:code      "TR-1123" ;
+        rdfs:label      "TR-1123 Akyazı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1769  ramon:name  "Babadağ"@tr ;
+        ramon:code      "TR-1769" ;
+        rdfs:label      "TR-1769 Babadağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1243  ramon:name  "Çayırlı"@tr ;
+        ramon:code      "TR-1243" ;
+        rdfs:label      "TR-1243 Çayırlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2001  ramon:name  "Yenişarbademli"@tr ;
+        ramon:code      "TR-2001" ;
+        rdfs:label      "TR-2001 Yenişarbademli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1414  ramon:name  "İskilip"@tr ;
+        ramon:code      "TR-1414" ;
+        rdfs:label      "TR-1414 İskilip" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1488  ramon:name  "Köyceğiz"@tr ;
+        ramon:code      "TR-1488" ;
+        rdfs:label      "TR-1488 Köyceğiz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1645  ramon:name  "Susuz"@tr ;
+        ramon:code      "TR-1645" ;
+        rdfs:label      "TR-1645 Susuz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1657  ramon:name  "Şenkaya"@tr ;
+        ramon:code      "TR-1657" ;
+        rdfs:label      "TR-1657 Şenkaya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1489  ramon:name  "Kula"@tr ;
+        ramon:code      "TR-1489" ;
+        rdfs:label      "TR-1489 Kula" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1600  ramon:name  "Sarıgöl"@tr ;
+        ramon:code      "TR-1600" ;
+        rdfs:label      "TR-1600 Sarıgöl" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1357  ramon:name  "Gölhisar"@tr ;
+        ramon:code      "TR-1357" ;
+        rdfs:label      "TR-1357 Gölhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1967  ramon:name  "Köprüköy"@tr ;
+        ramon:code      "TR-1967" ;
+        rdfs:label      "TR-1967 Köprüköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1968  ramon:name  "Köşk"@tr ;
+        ramon:code      "TR-1968" ;
+        rdfs:label      "TR-1968 Köşk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1145  ramon:name  "Ardanuç"@tr ;
+        ramon:code      "TR-1145" ;
+        rdfs:label      "TR-1145 Ardanuç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1505  ramon:name  "Lüleburgaz"@tr ;
+        ramon:code      "TR-1505" ;
+        rdfs:label      "TR-1505 Lüleburgaz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1678  ramon:name  "Tirebolu"@tr ;
+        ramon:code      "TR-1678" ;
+        rdfs:label      "TR-1678 Tirebolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1153  ramon:name  "Aşkale"@tr ;
+        ramon:code      "TR-1153" ;
+        rdfs:label      "TR-1153 Aşkale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9963  ramon:name  "Kütahya"@tr ;
+        ramon:code      "TR-9963" ;
+        rdfs:label      "TR-9963 Kütahya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2002  ramon:name  "Yeşilli"@tr ;
+        ramon:code      "TR-2002" ;
+        rdfs:label      "TR-2002 Yeşilli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9977  ramon:name  "Siirt"@tr ;
+        ramon:code      "TR-9977" ;
+        rdfs:label      "TR-9977 Siirt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1965  ramon:name  "Köprübaşı"@tr ;
+        ramon:code      "TR-1965" ;
+        rdfs:label      "TR-1965 Köprübaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1477  ramon:name  "Kiraz"@tr ;
+        ramon:code      "TR-1477" ;
+        rdfs:label      "TR-1477 Kiraz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1124  ramon:name  "Alaca"@tr ;
+        ramon:code      "TR-1124" ;
+        rdfs:label      "TR-1124 Alaca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1693  ramon:name  "Türkeli"@tr ;
+        ramon:code      "TR-1693" ;
+        rdfs:label      "TR-1693 Türkeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1279  ramon:name  "Digor"@tr ;
+        ramon:code      "TR-1279" ;
+        rdfs:label      "TR-1279 Digor" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1132  ramon:name  "Altıntaş"@tr ;
+        ramon:code      "TR-1132" ;
+        rdfs:label      "TR-1132 Altıntaş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1423  ramon:name  "Kadirli"@tr ;
+        ramon:code      "TR-1423" ;
+        rdfs:label      "TR-1423 Kadirli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9928  ramon:name  "Denizli"@tr ;
+        ramon:code      "TR-9928" ;
+        rdfs:label      "TR-9928 Denizli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9917  ramon:name  "Bingöl"@tr ;
+        ramon:code      "TR-9917" ;
+        rdfs:label      "TR-9917 Bingöl" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1694  ramon:name  "Türkoğlu"@tr ;
+        ramon:code      "TR-1694" ;
+        rdfs:label      "TR-1694 Türkoğlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9913  ramon:name  "Batman"@tr ;
+        ramon:code      "TR-9913" ;
+        rdfs:label      "TR-9913 Batman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9972  ramon:name  "Pasinler"@tr ;
+        ramon:code      "TR-9972" ;
+        rdfs:label      "TR-9972 Pasinler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1203  ramon:name  "Bornova"@tr ;
+        ramon:code      "TR-1203" ;
+        rdfs:label      "TR-1203 Bornova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1221  ramon:name  "Cide"@tr ;
+        ramon:code      "TR-1221" ;
+        rdfs:label      "TR-1221 Cide" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1277  ramon:name  "Devrekani"@tr ;
+        ramon:code      "TR-1277" ;
+        rdfs:label      "TR-1277 Devrekani" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1874  ramon:name  "Altınyayla"@tr ;
+        ramon:code      "TR-1874" ;
+        rdfs:label      "TR-1874 Altınyayla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1980  ramon:name  "Saray"@tr ;
+        ramon:code      "TR-1980" ;
+        rdfs:label      "TR-1980 Saray" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1306  ramon:name  "Eminönü"@tr ;
+        ramon:code      "TR-1306" ;
+        rdfs:label      "TR-1306 Eminönü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1838  ramon:name  "Salıpazarı"@tr ;
+        ramon:code      "TR-1838" ;
+        rdfs:label      "TR-1838 Salıpazarı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1837  ramon:name  "Piraziz"@tr ;
+        ramon:code      "TR-1837" ;
+        rdfs:label      "TR-1837 Piraziz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1431  ramon:name  "Kangal"@tr ;
+        ramon:code      "TR-1431" ;
+        rdfs:label      "TR-1431 Kangal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2008  ramon:name  "Damal"@tr ;
+        ramon:code      "TR-2008" ;
+        rdfs:label      "TR-2008 Damal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1186  ramon:name  "Beyoğlu"@tr ;
+        ramon:code      "TR-1186" ;
+        rdfs:label      "TR-1186 Beyoğlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1818  ramon:name  "Kocaeli"@tr ;
+        ramon:code      "TR-1818" ;
+        rdfs:label      "TR-1818 Kocaeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1420  ramon:name  "İznik"@tr ;
+        ramon:code      "TR-1420" ;
+        rdfs:label      "TR-1420 İznik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1154  ramon:name  "Atabey"@tr ;
+        ramon:code      "TR-1154" ;
+        rdfs:label      "TR-1154 Atabey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1834  ramon:name  "Pazar"@tr ;
+        ramon:code      "TR-1834" ;
+        rdfs:label      "TR-1834 Pazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2031  ramon:name  "Kaynaşlı"@tr ;
+        ramon:code      "TR-2031" ;
+        rdfs:label      "TR-2031 Kaynaşlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1996  ramon:name  "Yedisu"@tr ;
+        ramon:code      "TR-1996" ;
+        rdfs:label      "TR-1996 Yedisu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1998  ramon:name  "Yenifakılı"@tr ;
+        ramon:code      "TR-1998" ;
+        rdfs:label      "TR-1998 Yenifakılı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1790  ramon:name  "Dumlupınar"@tr ;
+        ramon:code      "TR-1790" ;
+        rdfs:label      "TR-1790 Dumlupınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1475  ramon:name  "Kığı"@tr ;
+        ramon:code      "TR-1475" ;
+        rdfs:label      "TR-1475 Kığı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1354  ramon:name  "Gölbaşı"@tr ;
+        ramon:code      "TR-1354" ;
+        rdfs:label      "TR-1354 Gölbaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1520  ramon:name  "Mecitözü"@tr ;
+        ramon:code      "TR-1520" ;
+        rdfs:label      "TR-1520 Mecitözü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2027  ramon:name  "Hasanbeyli"@tr ;
+        ramon:code      "TR-2027" ;
+        rdfs:label      "TR-2027 Hasanbeyli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1325  ramon:name  "Eyüp"@tr ;
+        ramon:code      "TR-1325" ;
+        rdfs:label      "TR-1325 Eyüp" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1874  ramon:name  "Altınyayla"@tr ;
+        ramon:code      "TR-1874" ;
+        rdfs:label      "TR-1874 Altınyayla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1666  ramon:name  "Taşköprü"@tr ;
+        ramon:code      "TR-1666" ;
+        rdfs:label      "TR-1666 Taşköprü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2023  ramon:name  "Elbeyli"@tr ;
+        ramon:code      "TR-2023" ;
+        rdfs:label      "TR-2023 Elbeyli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1139  ramon:name  "Araban"@tr ;
+        ramon:code      "TR-1139" ;
+        rdfs:label      "TR-1139 Araban" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1309  ramon:name  "Erciş"@tr ;
+        ramon:code      "TR-1309" ;
+        rdfs:label      "TR-1309 Erciş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1690  ramon:name  "Turhal"@tr ;
+        ramon:code      "TR-1690" ;
+        rdfs:label      "TR-1690 Turhal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1908  ramon:name  "Derepazarı"@tr ;
+        ramon:code      "TR-1908" ;
+        rdfs:label      "TR-1908 Derepazarı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1438  ramon:name  "Karakoçan"@tr ;
+        ramon:code      "TR-1438" ;
+        rdfs:label      "TR-1438 Karakoçan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1737  ramon:name  "Yüksekova"@tr ;
+        ramon:code      "TR-1737" ;
+        rdfs:label      "TR-1737 Yüksekova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1442  ramon:name  "Karasu"@tr ;
+        ramon:code      "TR-1442" ;
+        rdfs:label      "TR-1442 Karasu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1344  ramon:name  "Genç"@tr ;
+        ramon:code      "TR-1344" ;
+        rdfs:label      "TR-1344 Genç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1697  ramon:name  "Ulubey"@tr ;
+        ramon:code      "TR-1697" ;
+        rdfs:label      "TR-1697 Ulubey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1832  ramon:name  "Osmangazi"@tr ;
+        ramon:code      "TR-1832" ;
+        rdfs:label      "TR-1832 Osmangazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1767  ramon:name  "Aydıntepe"@tr ;
+        ramon:code      "TR-1767" ;
+        rdfs:label      "TR-1767 Aydıntepe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1700  ramon:name  "Ulukışla"@tr ;
+        ramon:code      "TR-1700" ;
+        rdfs:label      "TR-1700 Ulukışla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9934  ramon:name  "Erzin"@tr ;
+        ramon:code      "TR-9934" ;
+        rdfs:label      "TR-9934 Erzin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1641  ramon:name  "Suluova"@tr ;
+        ramon:code      "TR-1641" ;
+        rdfs:label      "TR-1641 Suluova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1445  ramon:name  "Kargı"@tr ;
+        ramon:code      "TR-1445" ;
+        rdfs:label      "TR-1445 Kargı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1936  ramon:name  "Hacılar"@tr ;
+        ramon:code      "TR-1936" ;
+        rdfs:label      "TR-1936 Hacılar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9992  ramon:name  "Yeşilhisar"@tr ;
+        ramon:code      "TR-9992" ;
+        rdfs:label      "TR-9992 Yeşilhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1235  ramon:name  "Çat"@tr ;
+        ramon:code      "TR-1235" ;
+        rdfs:label      "TR-1235 Çat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2012  ramon:name  "Maltepe"@tr ;
+        ramon:code      "TR-2012" ;
+        rdfs:label      "TR-2012 Maltepe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1795  ramon:name  "Gülyalı"@tr ;
+        ramon:code      "TR-1795" ;
+        rdfs:label      "TR-1795 Gülyalı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1840  ramon:name  "Serinhisar"@tr ;
+        ramon:code      "TR-1840" ;
+        rdfs:label      "TR-1840 Serinhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2017  ramon:name  "Gümüşova"@tr ;
+        ramon:code      "TR-2017" ;
+        rdfs:label      "TR-2017 Gümüşova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1752  ramon:name  "Akkışla"@tr ;
+        ramon:code      "TR-1752" ;
+        rdfs:label      "TR-1752 Akkışla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1371  ramon:name  "Güney"@tr ;
+        ramon:code      "TR-1371" ;
+        rdfs:label      "TR-1371 Güney" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1429  ramon:name  "Kaman"@tr ;
+        ramon:code      "TR-1429" ;
+        rdfs:label      "TR-1429 Kaman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1671  ramon:name  "Tavşanlı"@tr ;
+        ramon:code      "TR-1671" ;
+        rdfs:label      "TR-1671 Tavşanlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1525  ramon:name  "Mesudiye"@tr ;
+        ramon:code      "TR-1525" ;
+        rdfs:label      "TR-1525 Mesudiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1397  ramon:name  "Hozat"@tr ;
+        ramon:code      "TR-1397" ;
+        rdfs:label      "TR-1397 Hozat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1880  ramon:name  "Bahşılı"@tr ;
+        ramon:code      "TR-1880" ;
+        rdfs:label      "TR-1880 Bahşılı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9995  ramon:name  "Zonguldak"@tr ;
+        ramon:code      "TR-9995" ;
+        rdfs:label      "TR-9995 Zonguldak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1389  ramon:name  "Hazro"@tr ;
+        ramon:code      "TR-1389" ;
+        rdfs:label      "TR-1389 Hazro" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1867  ramon:name  "Ağlı"@tr ;
+        ramon:code      "TR-1867" ;
+        rdfs:label      "TR-1867 Ağlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1592  ramon:name  "Samsat"@tr ;
+        ramon:code      "TR-1592" ;
+        rdfs:label      "TR-1592 Samsat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1528  ramon:name  "Milas"@tr ;
+        ramon:code      "TR-1528" ;
+        rdfs:label      "TR-1528 Milas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1281  ramon:name  "Dinar"@tr ;
+        ramon:code      "TR-1281" ;
+        rdfs:label      "TR-1281 Dinar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9982  ramon:name  "Tokat"@tr ;
+        ramon:code      "TR-9982" ;
+        rdfs:label      "TR-9982 Tokat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1928  ramon:name  "Gömeç"@tr ;
+        ramon:code      "TR-1928" ;
+        rdfs:label      "TR-1928 Gömeç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1345  ramon:name  "Gercüş"@tr ;
+        ramon:code      "TR-1345" ;
+        rdfs:label      "TR-1345 Gercüş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1625  ramon:name  "Simav"@tr ;
+        ramon:code      "TR-1625" ;
+        rdfs:label      "TR-1625 Simav" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1381  ramon:name  "Hani"@tr ;
+        ramon:code      "TR-1381" ;
+        rdfs:label      "TR-1381 Hani" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1923  ramon:name  "Evciler"@tr ;
+        ramon:code      "TR-1923" ;
+        rdfs:label      "TR-1923 Evciler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1482  ramon:name  "Korgan"@tr ;
+        ramon:code      "TR-1482" ;
+        rdfs:label      "TR-1482 Korgan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1869  ramon:name  "Akçakent"@tr ;
+        ramon:code      "TR-1869" ;
+        rdfs:label      "TR-1869 Akçakent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1997  ramon:name  "Yeniçağa"@tr ;
+        ramon:code      "TR-1997" ;
+        rdfs:label      "TR-1997 Yeniçağa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1614  ramon:name  "Selim"@tr ;
+        ramon:code      "TR-1614" ;
+        rdfs:label      "TR-1614 Selim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1793  ramon:name  "Gölmarmara"@tr ;
+        ramon:code      "TR-1793" ;
+        rdfs:label      "TR-1793 Gölmarmara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1379  ramon:name  "Hamur"@tr ;
+        ramon:code      "TR-1379" ;
+        rdfs:label      "TR-1379 Hamur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9924  ramon:name  "Çerkezmüsellim"@tr ;
+        ramon:code      "TR-9924" ;
+        rdfs:label      "TR-9924 Çerkezmüsellim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9989  ramon:name  "Yenice"@tr ;
+        ramon:code      "TR-9989" ;
+        rdfs:label      "TR-9989 Yenice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1940  ramon:name  "Hanönü"@tr ;
+        ramon:code      "TR-1940" ;
+        rdfs:label      "TR-1940 Hanönü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1483  ramon:name  "Korkuteli"@tr ;
+        ramon:code      "TR-1483" ;
+        rdfs:label      "TR-1483 Korkuteli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1775  ramon:name  "Beşikdüzü"@tr ;
+        ramon:code      "TR-1775" ;
+        rdfs:label      "TR-1775 Beşikdüzü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1860  ramon:name  "Ağaçören"@tr ;
+        ramon:code      "TR-1860" ;
+        rdfs:label      "TR-1860 Ağaçören" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1982  ramon:name  "Saraykent"@tr ;
+        ramon:code      "TR-1982" ;
+        rdfs:label      "TR-1982 Saraykent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2011  ramon:name  "Karakoyunlu"@tr ;
+        ramon:code      "TR-2011" ;
+        rdfs:label      "TR-2011 Karakoyunlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1291  ramon:name  "Dursunbey"@tr ;
+        ramon:code      "TR-1291" ;
+        rdfs:label      "TR-1291 Dursunbey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1504  ramon:name  "Lice"@tr ;
+        ramon:code      "TR-1504" ;
+        rdfs:label      "TR-1504 Lice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9965  ramon:name  "Manisa"@tr ;
+        ramon:code      "TR-9965" ;
+        rdfs:label      "TR-9965 Manisa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1850  ramon:name  "Uğurludağ"@tr ;
+        ramon:code      "TR-1850" ;
+        rdfs:label      "TR-1850 Uğurludağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9927  ramon:name  "Dedeli"@tr ;
+        ramon:code      "TR-9927" ;
+        rdfs:label      "TR-9927 Dedeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1158  ramon:name  "Aybastı"@tr ;
+        ramon:code      "TR-1158" ;
+        rdfs:label      "TR-1158 Aybastı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1683  ramon:name  "Tortum"@tr ;
+        ramon:code      "TR-1683" ;
+        rdfs:label      "TR-1683 Tortum" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1823  ramon:name  "Küçükçekmece"@tr ;
+        ramon:code      "TR-1823" ;
+        rdfs:label      "TR-1823 Küçükçekmece" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1854  ramon:name  "Yağlıdere"@tr ;
+        ramon:code      "TR-1854" ;
+        rdfs:label      "TR-1854 Yağlıdere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9921  ramon:name  "Burhaniye"@tr ;
+        ramon:code      "TR-9921" ;
+        rdfs:label      "TR-9921 Burhaniye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1457  ramon:name  "Keles"@tr ;
+        ramon:code      "TR-1457" ;
+        rdfs:label      "TR-1457 Keles" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2000  ramon:name  "Didim"@tr ;
+        ramon:code      "TR-2000" ;
+        rdfs:label      "TR-2000 Didim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1173  ramon:name  "Baskil"@tr ;
+        ramon:code      "TR-1173" ;
+        rdfs:label      "TR-1173 Baskil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1257  ramon:name  "Çivril"@tr ;
+        ramon:code      "TR-1257" ;
+        rdfs:label      "TR-1257 Çivril" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1568  ramon:name  "Patnos"@tr ;
+        ramon:code      "TR-1568" ;
+        rdfs:label      "TR-1568 Patnos" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1133  ramon:name  "Alucra"@tr ;
+        ramon:code      "TR-1133" ;
+        rdfs:label      "TR-1133 Alucra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1541  ramon:name  "Nazimiye"@tr ;
+        ramon:code      "TR-1541" ;
+        rdfs:label      "TR-1541 Nazimiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1927  ramon:name  "Gölova"@tr ;
+        ramon:code      "TR-1927" ;
+        rdfs:label      "TR-1927 Gölova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1756  ramon:name  "Akyaka"@tr ;
+        ramon:code      "TR-1756" ;
+        rdfs:label      "TR-1756 Akyaka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1974  ramon:name  "Nurdağı"@tr ;
+        ramon:code      "TR-1974" ;
+        rdfs:label      "TR-1974 Nurdağı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2035  ramon:name  "Aksu"@tr ;
+        ramon:code      "TR-2035" ;
+        rdfs:label      "TR-2035 Aksu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1796  ramon:name  "Güneysu"@tr ;
+        ramon:code      "TR-1796" ;
+        rdfs:label      "TR-1796 Güneysu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1211  ramon:name  "Bucak"@tr ;
+        ramon:code      "TR-1211" ;
+        rdfs:label      "TR-1211 Bucak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1829  ramon:name  "Nilüfer"@tr ;
+        ramon:code      "TR-1829" ;
+        rdfs:label      "TR-1829 Nilüfer" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1162  ramon:name  "Azdavay"@tr ;
+        ramon:code      "TR-1162" ;
+        rdfs:label      "TR-1162 Azdavay" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9926  ramon:name  "Dadaşkent"@tr ;
+        ramon:code      "TR-9926" ;
+        rdfs:label      "TR-9926 Dadaşkent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1751  ramon:name  "Ahmetli"@tr ;
+        ramon:code      "TR-1751" ;
+        rdfs:label      "TR-1751 Ahmetli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1584  ramon:name  "Refahiye"@tr ;
+        ramon:code      "TR-1584" ;
+        rdfs:label      "TR-1584 Refahiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1564  ramon:name  "Ömerli"@tr ;
+        ramon:code      "TR-1564" ;
+        rdfs:label      "TR-1564 Ömerli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1550  ramon:name  "Oltu"@tr ;
+        ramon:code      "TR-1550" ;
+        rdfs:label      "TR-1550 Oltu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1953  ramon:name  "Kale"@tr ;
+        ramon:code      "TR-1953" ;
+        rdfs:label      "TR-1953 Kale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1166  ramon:name  "Bakırköy"@tr ;
+        ramon:code      "TR-1166" ;
+        rdfs:label      "TR-1166 Bakırköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1443  ramon:name  "Karataş"@tr ;
+        ramon:code      "TR-1443" ;
+        rdfs:label      "TR-1443 Karataş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1800  ramon:name  "Harran"@tr ;
+        ramon:code      "TR-1800" ;
+        rdfs:label      "TR-1800 Harran" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1347  ramon:name  "Gerger"@tr ;
+        ramon:code      "TR-1347" ;
+        rdfs:label      "TR-1347 Gerger" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1780  ramon:name  "Buca"@tr ;
+        ramon:code      "TR-1780" ;
+        rdfs:label      "TR-1780 Buca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1865  ramon:name  "Pazaryolu"@tr ;
+        ramon:code      "TR-1865" ;
+        rdfs:label      "TR-1865 Pazaryolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1372  ramon:name  "Gürpınar"@tr ;
+        ramon:code      "TR-1372" ;
+        rdfs:label      "TR-1372 Gürpınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1846  ramon:name  "Talas"@tr ;
+        ramon:code      "TR-1846" ;
+        rdfs:label      "TR-1846 Talas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1766  ramon:name  "Aydıncık"@tr ;
+        ramon:code      "TR-1766" ;
+        rdfs:label      "TR-1766 Aydıncık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1283  ramon:name  "Diyadin"@tr ;
+        ramon:code      "TR-1283" ;
+        rdfs:label      "TR-1283 Diyadin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1421  ramon:name  "Kadıköy"@tr ;
+        ramon:code      "TR-1421" ;
+        rdfs:label      "TR-1421 Kadıköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1830  ramon:name  "Ondokuzmayıs"@tr ;
+        ramon:code      "TR-1830" ;
+        rdfs:label      "TR-1830 Ondokuzmayıs" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1684  ramon:name  "Torul"@tr ;
+        ramon:code      "TR-1684" ;
+        rdfs:label      "TR-1684 Torul" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1409  ramon:name  "İncesu"@tr ;
+        ramon:code      "TR-1409" ;
+        rdfs:label      "TR-1409 İncesu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2062  ramon:name  "İzmit"@tr ;
+        ramon:code      "TR-2062" ;
+        rdfs:label      "TR-2062 İzmit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1522  ramon:name  "Mengen"@tr ;
+        ramon:code      "TR-1522" ;
+        rdfs:label      "TR-1522 Mengen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1691  ramon:name  "Tutak"@tr ;
+        ramon:code      "TR-1691" ;
+        rdfs:label      "TR-1691 Tutak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1736  ramon:name  "Yusufeli"@tr ;
+        ramon:code      "TR-1736" ;
+        rdfs:label      "TR-1736 Yusufeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1754  ramon:name  "Akpınar"@tr ;
+        ramon:code      "TR-1754" ;
+        rdfs:label      "TR-1754 Akpınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1202  ramon:name  "Borçka"@tr ;
+        ramon:code      "TR-1202" ;
+        rdfs:label      "TR-1202 Borçka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1210  ramon:name  "Bozüyük"@tr ;
+        ramon:code      "TR-1210" ;
+        rdfs:label      "TR-1210 Bozüyük" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1734  ramon:name  "Yumurtalık"@tr ;
+        ramon:code      "TR-1734" ;
+        rdfs:label      "TR-1734 Yumurtalık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1128  ramon:name  "Aliağa"@tr ;
+        ramon:code      "TR-1128" ;
+        rdfs:label      "TR-1128 Aliağa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2014  ramon:name  "Sultanbeyli"@tr ;
+        ramon:code      "TR-2014" ;
+        rdfs:label      "TR-2014 Sultanbeyli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1664  ramon:name  "Şuhut"@tr ;
+        ramon:code      "TR-1664" ;
+        rdfs:label      "TR-1664 Şuhut" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1797  ramon:name  "Gürgentepe"@tr ;
+        ramon:code      "TR-1797" ;
+        rdfs:label      "TR-1797 Gürgentepe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1565  ramon:name  "Özalp"@tr ;
+        ramon:code      "TR-1565" ;
+        rdfs:label      "TR-1565 Özalp" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1953  ramon:name  "Kale"@tr ;
+        ramon:code      "TR-1953" ;
+        rdfs:label      "TR-1953 Kale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1629  ramon:name  "Sivaslı"@tr ;
+        ramon:code      "TR-1629" ;
+        rdfs:label      "TR-1629 Sivaslı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1912  ramon:name  "Doğankent"@tr ;
+        ramon:code      "TR-1912" ;
+        rdfs:label      "TR-1912 Doğankent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1494  ramon:name  "Kurşunlu"@tr ;
+        ramon:code      "TR-1494" ;
+        rdfs:label      "TR-1494 Kurşunlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9925  ramon:name  "Çorum"@tr ;
+        ramon:code      "TR-9925" ;
+        rdfs:label      "TR-9925 Çorum" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1346  ramon:name  "Gerede"@tr ;
+        ramon:code      "TR-1346" ;
+        rdfs:label      "TR-1346 Gerede" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2025  ramon:name  "Polateli"@tr ;
+        ramon:code      "TR-2025" ;
+        rdfs:label      "TR-2025 Polateli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1209  ramon:name  "Bozova"@tr ;
+        ramon:code      "TR-1209" ;
+        rdfs:label      "TR-1209 Bozova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9957  ramon:name  "Kayseri"@tr ;
+        ramon:code      "TR-9957" ;
+        rdfs:label      "TR-9957 Kayseri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1853  ramon:name  "Üzümlü"@tr ;
+        ramon:code      "TR-1853" ;
+        rdfs:label      "TR-1853 Üzümlü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1563  ramon:name  "Ödemiş"@tr ;
+        ramon:code      "TR-1563" ;
+        rdfs:label      "TR-1563 Ödemiş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1328  ramon:name  "Fatsa"@tr ;
+        ramon:code      "TR-1328" ;
+        rdfs:label      "TR-1328 Fatsa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9970  ramon:name  "Ordu"@tr ;
+        ramon:code      "TR-9970" ;
+        rdfs:label      "TR-9970 Ordu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1323  ramon:name  "Eşme"@tr ;
+        ramon:code      "TR-1323" ;
+        rdfs:label      "TR-1323 Eşme" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1254  ramon:name  "Çiçekdağı"@tr ;
+        ramon:code      "TR-1254" ;
+        rdfs:label      "TR-1254 Çiçekdağı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2069  ramon:name  "Arifiye"@tr ;
+        ramon:code      "TR-2069" ;
+        rdfs:label      "TR-2069 Arifiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1262  ramon:name  "Çumra"@tr ;
+        ramon:code      "TR-1262" ;
+        rdfs:label      "TR-1262 Çumra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2029  ramon:name  "Toprakkale"@tr ;
+        ramon:code      "TR-2029" ;
+        rdfs:label      "TR-2029 Toprakkale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1653  ramon:name  "Şavşat"@tr ;
+        ramon:code      "TR-1653" ;
+        rdfs:label      "TR-1653 Şavşat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1533  ramon:name  "Muradiye"@tr ;
+        ramon:code      "TR-1533" ;
+        rdfs:label      "TR-1533 Muradiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1121  ramon:name  "Akseki"@tr ;
+        ramon:code      "TR-1121" ;
+        rdfs:label      "TR-1121 Akseki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1396  ramon:name  "Horasan"@tr ;
+        ramon:code      "TR-1396" ;
+        rdfs:label      "TR-1396 Horasan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1198  ramon:name  "Boğazlıyan"@tr ;
+        ramon:code      "TR-1198" ;
+        rdfs:label      "TR-1198 Boğazlıyan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1685  ramon:name  "Tosya"@tr ;
+        ramon:code      "TR-1685" ;
+        rdfs:label      "TR-1685 Tosya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1907  ramon:name  "Derbent"@tr ;
+        ramon:code      "TR-1907" ;
+        rdfs:label      "TR-1907 Derbent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1129  ramon:name  "Almus"@tr ;
+        ramon:code      "TR-1129" ;
+        rdfs:label      "TR-1129 Almus" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9906  ramon:name  "Ankara"@tr ;
+        ramon:code      "TR-9906" ;
+        rdfs:label      "TR-9906 Ankara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9940  ramon:name  "Gümüşhane"@tr ;
+        ramon:code      "TR-9940" ;
+        rdfs:label      "TR-9940 Gümüşhane" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1273  ramon:name  "Derik"@tr ;
+        ramon:code      "TR-1273" ;
+        rdfs:label      "TR-1273 Derik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9933  ramon:name  "Ereğli"@tr ;
+        ramon:code      "TR-9933" ;
+        rdfs:label      "TR-9933 Ereğli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1640  ramon:name  "Sultanhisar"@tr ;
+        ramon:code      "TR-1640" ;
+        rdfs:label      "TR-1640 Sultanhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1553  ramon:name  "Orhaneli"@tr ;
+        ramon:code      "TR-1553" ;
+        rdfs:label      "TR-1553 Orhaneli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1728  ramon:name  "Yeşilova"@tr ;
+        ramon:code      "TR-1728" ;
+        rdfs:label      "TR-1728 Yeşilova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1517  ramon:name  "Marmaris"@tr ;
+        ramon:code      "TR-1517" ;
+        rdfs:label      "TR-1517 Marmaris" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1898  ramon:name  "Çavdarhisar"@tr ;
+        ramon:code      "TR-1898" ;
+        rdfs:label      "TR-1898 Çavdarhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1540  ramon:name  "Narman"@tr ;
+        ramon:code      "TR-1540" ;
+        rdfs:label      "TR-1540 Narman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1566  ramon:name  "Palu"@tr ;
+        ramon:code      "TR-1566" ;
+        rdfs:label      "TR-1566 Palu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1290  ramon:name  "Durağan"@tr ;
+        ramon:code      "TR-1290" ;
+        rdfs:label      "TR-1290 Durağan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1150  ramon:name  "Arsin"@tr ;
+        ramon:code      "TR-1150" ;
+        rdfs:label      "TR-1150 Arsin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1587  ramon:name  "Safranbolu"@tr ;
+        ramon:code      "TR-1587" ;
+        rdfs:label      "TR-1587 Safranbolu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1219  ramon:name  "Ceyhan"@tr ;
+        ramon:code      "TR-1219" ;
+        rdfs:label      "TR-1219 Ceyhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1932  ramon:name  "Gülağaç"@tr ;
+        ramon:code      "TR-1932" ;
+        rdfs:label      "TR-1932 Gülağaç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1179  ramon:name  "Baykan"@tr ;
+        ramon:code      "TR-1179" ;
+        rdfs:label      "TR-1179 Baykan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1390  ramon:name  "Hekimhan"@tr ;
+        ramon:code      "TR-1390" ;
+        rdfs:label      "TR-1390 Hekimhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1785  ramon:name  "Çağlayancerit"@tr ;
+        ramon:code      "TR-1785" ;
+        rdfs:label      "TR-1785 Çağlayancerit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1862  ramon:name  "Kazımkarabekir"@tr ;
+        ramon:code      "TR-1862" ;
+        rdfs:label      "TR-1862 Kazımkarabekir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1821  ramon:name  "Körfez"@tr ;
+        ramon:code      "TR-1821" ;
+        rdfs:label      "TR-1821 Körfez" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1782  ramon:name  "Büyükçekmece"@tr ;
+        ramon:code      "TR-1782" ;
+        rdfs:label      "TR-1782 Büyükçekmece" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2021  ramon:name  "Çınarcık"@tr ;
+        ramon:code      "TR-2021" ;
+        rdfs:label      "TR-2021 Çınarcık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2016  ramon:name  "Esenler"@tr ;
+        ramon:code      "TR-2016" ;
+        rdfs:label      "TR-2016 Esenler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1895  ramon:name  "Çandır"@tr ;
+        ramon:code      "TR-1895" ;
+        rdfs:label      "TR-1895 Çandır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1695  ramon:name  "Ula"@tr ;
+        ramon:code      "TR-1695" ;
+        rdfs:label      "TR-1695 Ula" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9953  ramon:name  "Karaman"@tr ;
+        ramon:code      "TR-9953" ;
+        rdfs:label      "TR-9953 Karaman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1930  ramon:name  "Güce"@tr ;
+        ramon:code      "TR-1930" ;
+        rdfs:label      "TR-1930 Güce" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1577  ramon:name  "Pınarhisar"@tr ;
+        ramon:code      "TR-1577" ;
+        rdfs:label      "TR-1577 Pınarhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9975  ramon:name  "Şanlıurfa"@tr ;
+        ramon:code      "TR-9975" ;
+        rdfs:label      "TR-9975 Şanlıurfa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9983  ramon:name  "Trabzon"@tr ;
+        ramon:code      "TR-9983" ;
+        rdfs:label      "TR-9983 Trabzon" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1914  ramon:name  "Doğanyol"@tr ;
+        ramon:code      "TR-1914" ;
+        rdfs:label      "TR-1914 Doğanyol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1971  ramon:name  "Kürtün"@tr ;
+        ramon:code      "TR-1971" ;
+        rdfs:label      "TR-1971 Kürtün" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1674  ramon:name  "Tekman"@tr ;
+        ramon:code      "TR-1674" ;
+        rdfs:label      "TR-1674 Tekman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1825  ramon:name  "Marmara Ereğlisi"@tr ;
+        ramon:code      "TR-1825" ;
+        rdfs:label      "TR-1825 Marmara Ereğlisi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1773  ramon:name  "Bayat"@tr ;
+        ramon:code      "TR-1773" ;
+        rdfs:label      "TR-1773 Bayat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9941  ramon:name  "Güneşler"@tr ;
+        ramon:code      "TR-9941" ;
+        rdfs:label      "TR-9941 Güneşler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1668  ramon:name  "Taşova"@tr ;
+        ramon:code      "TR-1668" ;
+        rdfs:label      "TR-1668 Taşova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1861  ramon:name  "Güzelyurt"@tr ;
+        ramon:code      "TR-1861" ;
+        rdfs:label      "TR-1861 Güzelyurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1370  ramon:name  "Gündoğmuş"@tr ;
+        ramon:code      "TR-1370" ;
+        rdfs:label      "TR-1370 Gündoğmuş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1270  ramon:name  "Demirköy"@tr ;
+        ramon:code      "TR-1270" ;
+        rdfs:label      "TR-1270 Demirköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1115  ramon:name  "Akçakale"@tr ;
+        ramon:code      "TR-1115" ;
+        rdfs:label      "TR-1115 Akçakale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1491  ramon:name  "Kulu"@tr ;
+        ramon:code      "TR-1491" ;
+        rdfs:label      "TR-1491 Kulu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1735  ramon:name  "Yunak"@tr ;
+        ramon:code      "TR-1735" ;
+        rdfs:label      "TR-1735 Yunak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1646  ramon:name  "Suşehri"@tr ;
+        ramon:code      "TR-1646" ;
+        rdfs:label      "TR-1646 Suşehri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1788  ramon:name  "Demirözü"@tr ;
+        ramon:code      "TR-1788" ;
+        rdfs:label      "TR-1788 Demirözü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1160  ramon:name  "Ayvacık"@tr ;
+        ramon:code      "TR-1160" ;
+        rdfs:label      "TR-1160 Ayvacık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1750  ramon:name  "Adaklı"@tr ;
+        ramon:code      "TR-1750" ;
+        rdfs:label      "TR-1750 Adaklı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1946  ramon:name  "İbradı"@tr ;
+        ramon:code      "TR-1946" ;
+        rdfs:label      "TR-1946 İbradı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1839  ramon:name  "Selçuklu"@tr ;
+        ramon:code      "TR-1839" ;
+        rdfs:label      "TR-1839 Selçuklu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1101  ramon:name  "Abana"@tr ;
+        ramon:code      "TR-1101" ;
+        rdfs:label      "TR-1101 Abana" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2028  ramon:name  "Sumbas"@tr ;
+        ramon:code      "TR-2028" ;
+        rdfs:label      "TR-2028 Sumbas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1993  ramon:name  "Yakakent"@tr ;
+        ramon:code      "TR-1993" ;
+        rdfs:label      "TR-1993 Yakakent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1418  ramon:name  "İvrindi"@tr ;
+        ramon:code      "TR-1418" ;
+        rdfs:label      "TR-1418 İvrindi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1206  ramon:name  "Bozdoğan"@tr ;
+        ramon:code      "TR-1206" ;
+        rdfs:label      "TR-1206 Bozdoğan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1116  ramon:name  "Akçakoca"@tr ;
+        ramon:code      "TR-1116" ;
+        rdfs:label      "TR-1116 Akçakoca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1492  ramon:name  "Kumluca"@tr ;
+        ramon:code      "TR-1492" ;
+        rdfs:label      "TR-1492 Kumluca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9993  ramon:name  "Yeşilyurt"@tr ;
+        ramon:code      "TR-9993" ;
+        rdfs:label      "TR-9993 Yeşilyurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1676  ramon:name  "Terme"@tr ;
+        ramon:code      "TR-1676" ;
+        rdfs:label      "TR-1676 Terme" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1950  ramon:name  "Kabadüz"@tr ;
+        ramon:code      "TR-1950" ;
+        rdfs:label      "TR-1950 Kabadüz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1147  ramon:name  "Arhavi"@tr ;
+        ramon:code      "TR-1147" ;
+        rdfs:label      "TR-1147 Arhavi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1125  ramon:name  "Alaçam"@tr ;
+        ramon:code      "TR-1125" ;
+        rdfs:label      "TR-1125 Alaçam" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2007  ramon:name  "Çiğli"@tr ;
+        ramon:code      "TR-2007" ;
+        rdfs:label      "TR-2007 Çiğli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1547  ramon:name  "Nusaybin"@tr ;
+        ramon:code      "TR-1547" ;
+        rdfs:label      "TR-1547 Nusaybin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1758  ramon:name  "Alaplı"@tr ;
+        ramon:code      "TR-1758" ;
+        rdfs:label      "TR-1758 Alaplı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1863  ramon:name  "Kocasinan"@tr ;
+        ramon:code      "TR-1863" ;
+        rdfs:label      "TR-1863 Kocasinan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1896  ramon:name  "Çarşıbaşı"@tr ;
+        ramon:code      "TR-1896" ;
+        rdfs:label      "TR-1896 Çarşıbaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1899  ramon:name  "Çavdır"@tr ;
+        ramon:code      "TR-1899" ;
+        rdfs:label      "TR-1899 Çavdır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1327  ramon:name  "Fatih"@tr ;
+        ramon:code      "TR-1327" ;
+        rdfs:label      "TR-1327 Fatih" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9915  ramon:name  "Bekirpaşa"@tr ;
+        ramon:code      "TR-9915" ;
+        rdfs:label      "TR-9915 Bekirpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1375  ramon:name  "Hadim"@tr ;
+        ramon:code      "TR-1375" ;
+        rdfs:label      "TR-1375 Hadim" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1980  ramon:name  "Saray"@tr ;
+        ramon:code      "TR-1980" ;
+        rdfs:label      "TR-1980 Saray" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1783  ramon:name  "Büyükorhan"@tr ;
+        ramon:code      "TR-1783" ;
+        rdfs:label      "TR-1783 Büyükorhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9949  ramon:name  "Kahramanmaraş"@tr ;
+        ramon:code      "TR-9949" ;
+        rdfs:label      "TR-9949 Kahramanmaraş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1151  ramon:name  "Artova"@tr ;
+        ramon:code      "TR-1151" ;
+        rdfs:label      "TR-1151 Artova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1820  ramon:name  "Kovancılar"@tr ;
+        ramon:code      "TR-1820" ;
+        rdfs:label      "TR-1820 Kovancılar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2044  ramon:name  "Palandöken"@tr ;
+        ramon:code      "TR-2044" ;
+        rdfs:label      "TR-2044 Palandöken" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1883  ramon:name  "Başçiftlik"@tr ;
+        ramon:code      "TR-1883" ;
+        rdfs:label      "TR-1883 Başçiftlik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1498  ramon:name  "Kuyucak"@tr ;
+        ramon:code      "TR-1498" ;
+        rdfs:label      "TR-1498 Kuyucak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1721  ramon:name  "Yayladağı"@tr ;
+        ramon:code      "TR-1721" ;
+        rdfs:label      "TR-1721 Yayladağı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1855  ramon:name  "Yayladere"@tr ;
+        ramon:code      "TR-1855" ;
+        rdfs:label      "TR-1855 Yayladere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1468  ramon:name  "Kırıkhan"@tr ;
+        ramon:code      "TR-1468" ;
+        rdfs:label      "TR-1468 Kırıkhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9903  ramon:name  "Ağrı"@tr ;
+        ramon:code      "TR-9903" ;
+        rdfs:label      "TR-9903 Ağrı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1503  ramon:name  "Lapseki"@tr ;
+        ramon:code      "TR-1503" ;
+        rdfs:label      "TR-1503 Lapseki" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2018  ramon:name  "Güzelbahçe"@tr ;
+        ramon:code      "TR-2018" ;
+        rdfs:label      "TR-2018 Güzelbahçe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1301  ramon:name  "Eleşkirt"@tr ;
+        ramon:code      "TR-1301" ;
+        rdfs:label      "TR-1301 Eleşkirt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1360  ramon:name  "Gönen"@tr ;
+        ramon:code      "TR-1360" ;
+        rdfs:label      "TR-1360 Gönen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1759  ramon:name  "Alpu"@tr ;
+        ramon:code      "TR-1759" ;
+        rdfs:label      "TR-1759 Alpu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1866  ramon:name  "Sarıyahşi"@tr ;
+        ramon:code      "TR-1866" ;
+        rdfs:label      "TR-1866 Sarıyahşi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1778  ramon:name  "Boğazkale"@tr ;
+        ramon:code      "TR-1778" ;
+        rdfs:label      "TR-1778 Boğazkale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1870  ramon:name  "Akıncılar"@tr ;
+        ramon:code      "TR-1870" ;
+        rdfs:label      "TR-1870 Akıncılar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1906  ramon:name  "Çobanlar"@tr ;
+        ramon:code      "TR-1906" ;
+        rdfs:label      "TR-1906 Çobanlar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9986  ramon:name  "Viranşehir"@tr ;
+        ramon:code      "TR-9986" ;
+        rdfs:label      "TR-9986 Viranşehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1320  ramon:name  "Espiye"@tr ;
+        ramon:code      "TR-1320" ;
+        rdfs:label      "TR-1320 Espiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9943  ramon:name  "Hanlı"@tr ;
+        ramon:code      "TR-9943" ;
+        rdfs:label      "TR-9943 Hanlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1613  ramon:name  "Selendi"@tr ;
+        ramon:code      "TR-1613" ;
+        rdfs:label      "TR-1613 Selendi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1715  ramon:name  "Yahyalı"@tr ;
+        ramon:code      "TR-1715" ;
+        rdfs:label      "TR-1715 Yahyalı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9901  ramon:name  "Adıyaman"@tr ;
+        ramon:code      "TR-9901" ;
+        rdfs:label      "TR-9901 Adıyaman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1455  ramon:name  "Keban"@tr ;
+        ramon:code      "TR-1455" ;
+        rdfs:label      "TR-1455 Keban" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1400  ramon:name  "Ilgın"@tr ;
+        ramon:code      "TR-1400" ;
+        rdfs:label      "TR-1400 Ilgın" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2068  ramon:name  "Adapazarı"@tr ;
+        ramon:code      "TR-2068" ;
+        rdfs:label      "TR-2068 Adapazarı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1697  ramon:name  "Ulubey"@tr ;
+        ramon:code      "TR-1697" ;
+        rdfs:label      "TR-1697 Ulubey" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9923  ramon:name  "��anakkale"@tr ;
+        ramon:code      "TR-9923" ;
+        rdfs:label      "TR-9923 ��anakkale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1264  ramon:name  "Daday"@tr ;
+        ramon:code      "TR-1264" ;
+        rdfs:label      "TR-1264 Daday" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1184  ramon:name  "Beşiri"@tr ;
+        ramon:code      "TR-1184" ;
+        rdfs:label      "TR-1184 Beşiri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9968  ramon:name  "Nehirkent"@tr ;
+        ramon:code      "TR-9968" ;
+        rdfs:label      "TR-9968 Nehirkent" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1920  ramon:name  "Emirgazi"@tr ;
+        ramon:code      "TR-1920" ;
+        rdfs:label      "TR-1920 Emirgazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1289  ramon:name  "Dörtyol"@tr ;
+        ramon:code      "TR-1289" ;
+        rdfs:label      "TR-1289 Dörtyol" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2045  ramon:name  "Yakutiye"@tr ;
+        ramon:code      "TR-2045" ;
+        rdfs:label      "TR-2045 Yakutiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1584  ramon:name  "Reşadiye"@tr ;
+        ramon:code      "TR-1584" ;
+        rdfs:label      "TR-1584 Reşadiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1804  ramon:name  "Hüyük"@tr ;
+        ramon:code      "TR-1804" ;
+        rdfs:label      "TR-1804 Hüyük" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1619  ramon:name  "Sındırgı"@tr ;
+        ramon:code      "TR-1619" ;
+        rdfs:label      "TR-1619 Sındırgı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1911  ramon:name  "Dodurga"@tr ;
+        ramon:code      "TR-1911" ;
+        rdfs:label      "TR-1911 Dodurga" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9955  ramon:name  "Kars"@tr ;
+        ramon:code      "TR-9955" ;
+        rdfs:label      "TR-9955 Kars" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1753  ramon:name  "Akören"@tr ;
+        ramon:code      "TR-1753" ;
+        rdfs:label      "TR-1753 Akören" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9951  ramon:name  "Karadeniz Ereğli"@tr ;
+        ramon:code      "TR-9951" ;
+        rdfs:label      "TR-9951 Karadeniz Ereğli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1635  ramon:name  "Sorgun"@tr ;
+        ramon:code      "TR-1635" ;
+        rdfs:label      "TR-1635 Sorgun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9979  ramon:name  "Şırnak"@tr ;
+        ramon:code      "TR-9979" ;
+        rdfs:label      "TR-9979 Şırnak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1205  ramon:name  "Bozcaada"@tr ;
+        ramon:code      "TR-1205" ;
+        rdfs:label      "TR-1205 Bozcaada" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1764  ramon:name  "Aslanapa"@tr ;
+        ramon:code      "TR-1764" ;
+        rdfs:label      "TR-1764 Aslanapa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1459  ramon:name  "Kemah"@tr ;
+        ramon:code      "TR-1459" ;
+        rdfs:label      "TR-1459 Kemah" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1282  ramon:name  "Divriği"@tr ;
+        ramon:code      "TR-1282" ;
+        rdfs:label      "TR-1282 Divriği" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1773  ramon:name  "Bayat"@tr ;
+        ramon:code      "TR-1773" ;
+        rdfs:label      "TR-1773 Bayat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1894  ramon:name  "Çanakçı"@tr ;
+        ramon:code      "TR-1894" ;
+        rdfs:label      "TR-1894 Çanakçı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1493  ramon:name  "Kumru"@tr ;
+        ramon:code      "TR-1493" ;
+        rdfs:label      "TR-1493 Kumru" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1949  ramon:name  "İyidere"@tr ;
+        ramon:code      "TR-1949" ;
+        rdfs:label      "TR-1949 İyidere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1238  ramon:name  "Çatalzeytin"@tr ;
+        ramon:code      "TR-1238" ;
+        rdfs:label      "TR-1238 Çatalzeytin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1651  ramon:name  "Şarkikaraağaç"@tr ;
+        ramon:code      "TR-1651" ;
+        rdfs:label      "TR-1651 Şarkikaraağaç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1738  ramon:name  "Zara"@tr ;
+        ramon:code      "TR-1738" ;
+        rdfs:label      "TR-1738 Zara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1263  ramon:name  "Çüngüş"@tr ;
+        ramon:code      "TR-1263" ;
+        rdfs:label      "TR-1263 Çüngüş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1368  ramon:name  "Gümüşhacıköy"@tr ;
+        ramon:code      "TR-1368" ;
+        rdfs:label      "TR-1368 Gümüşhacıköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1251  ramon:name  "Çeşme"@tr ;
+        ramon:code      "TR-1251" ;
+        rdfs:label      "TR-1251 Çeşme" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2022  ramon:name  "Çiftlikköy"@tr ;
+        ramon:code      "TR-2022" ;
+        rdfs:label      "TR-2022 Çiftlikköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1337  ramon:name  "Gazipaşa"@tr ;
+        ramon:code      "TR-1337" ;
+        rdfs:label      "TR-1337 Gazipaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1384  ramon:name  "Havran"@tr ;
+        ramon:code      "TR-1384" ;
+        rdfs:label      "TR-1384 Havran" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1575  ramon:name  "Pervari"@tr ;
+        ramon:code      "TR-1575" ;
+        rdfs:label      "TR-1575 Pervari" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1314  ramon:name  "Erfelek"@tr ;
+        ramon:code      "TR-1314" ;
+        rdfs:label      "TR-1314 Erfelek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1958  ramon:name  "Kavaklıdere"@tr ;
+        ramon:code      "TR-1958" ;
+        rdfs:label      "TR-1958 Kavaklıdere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1487  ramon:name  "Kozluk"@tr ;
+        ramon:code      "TR-1487" ;
+        rdfs:label      "TR-1487 Kozluk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1822  ramon:name  "Köse"@tr ;
+        ramon:code      "TR-1822" ;
+        rdfs:label      "TR-1822 Köse" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9973  ramon:name  "Rize"@tr ;
+        ramon:code      "TR-9973" ;
+        rdfs:label      "TR-9973 Rize" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2006  ramon:name  "Balçova"@tr ;
+        ramon:code      "TR-2006" ;
+        rdfs:label      "TR-2006 Balçova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1757  ramon:name  "Aladağ"@tr ;
+        ramon:code      "TR-1757" ;
+        rdfs:label      "TR-1757 Aladağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1807  ramon:name  "İncirliova"@tr ;
+        ramon:code      "TR-1807" ;
+        rdfs:label      "TR-1807 İncirliova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1413  ramon:name  "İskenderun"@tr ;
+        ramon:code      "TR-1413" ;
+        rdfs:label      "TR-1413 İskenderun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1317  ramon:name  "Eruh"@tr ;
+        ramon:code      "TR-1317" ;
+        rdfs:label      "TR-1317 Eruh" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1905  ramon:name  "Çilimli"@tr ;
+        ramon:code      "TR-1905" ;
+        rdfs:label      "TR-1905 Çilimli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1538  ramon:name  "Muratlı"@tr ;
+        ramon:code      "TR-1538" ;
+        rdfs:label      "TR-1538 Muratlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1164  ramon:name  "Bafra"@tr ;
+        ramon:code      "TR-1164" ;
+        rdfs:label      "TR-1164 Bafra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1760  ramon:name  "Altınekin"@tr ;
+        ramon:code      "TR-1760" ;
+        rdfs:label      "TR-1760 Altınekin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1643  ramon:name  "Suruç"@tr ;
+        ramon:code      "TR-1643" ;
+        rdfs:label      "TR-1643 Suruç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1882  ramon:name  "Balışeyh"@tr ;
+        ramon:code      "TR-1882" ;
+        rdfs:label      "TR-1882 Balışeyh" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1655  ramon:name  "Şefaatli"@tr ;
+        ramon:code      "TR-1655" ;
+        rdfs:label      "TR-1655 Şefaatli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1743  ramon:name  "Düziçi"@tr ;
+        ramon:code      "TR-1743" ;
+        rdfs:label      "TR-1743 Düziçi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9916  ramon:name  "Bilecik"@tr ;
+        ramon:code      "TR-9916" ;
+        rdfs:label      "TR-9916 Bilecik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1814  ramon:name  "Karatay"@tr ;
+        ramon:code      "TR-1814" ;
+        rdfs:label      "TR-1814 Karatay" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1660  ramon:name  "Şiran"@tr ;
+        ramon:code      "TR-1660" ;
+        rdfs:label      "TR-1660 Şiran" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1642  ramon:name  "Sungurlu"@tr ;
+        ramon:code      "TR-1642" ;
+        rdfs:label      "TR-1642 Sungurlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1603  ramon:name  "Sarıoğlan"@tr ;
+        ramon:code      "TR-1603" ;
+        rdfs:label      "TR-1603 Sarıoğlan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1237  ramon:name  "Çatalca"@tr ;
+        ramon:code      "TR-1237" ;
+        rdfs:label      "TR-1237 Çatalca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1606  ramon:name  "Saruhanlı"@tr ;
+        ramon:code      "TR-1606" ;
+        rdfs:label      "TR-1606 Saruhanlı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1338  ramon:name  "Gebze"@tr ;
+        ramon:code      "TR-1338" ;
+        rdfs:label      "TR-1338 Gebze" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1819  ramon:name  "Konak"@tr ;
+        ramon:code      "TR-1819" ;
+        rdfs:label      "TR-1819 Konak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9962  ramon:name  "Kırşehir"@tr ;
+        ramon:code      "TR-9962" ;
+        rdfs:label      "TR-9962 Kırşehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1422  ramon:name  "Kadınhanı"@tr ;
+        ramon:code      "TR-1422" ;
+        rdfs:label      "TR-1422 Kadınhanı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1285  ramon:name  "Doğanhisar"@tr ;
+        ramon:code      "TR-1285" ;
+        rdfs:label      "TR-1285 Doğanhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1562  ramon:name  "Ovacık"@tr ;
+        ramon:code      "TR-1562" ;
+        rdfs:label      "TR-1562 Ovacık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1411  ramon:name  "İnegöl"@tr ;
+        ramon:code      "TR-1411" ;
+        rdfs:label      "TR-1411 İnegöl" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1524  ramon:name  "Merzifon"@tr ;
+        ramon:code      "TR-1524" ;
+        rdfs:label      "TR-1524 Merzifon" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1941  ramon:name  "Hasankeyf"@tr ;
+        ramon:code      "TR-1941" ;
+        rdfs:label      "TR-1941 Hasankeyf" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1562  ramon:name  "Ovacık"@tr ;
+        ramon:code      "TR-1562" ;
+        rdfs:label      "TR-1562 Ovacık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9952  ramon:name  "Karakeçili"@tr ;
+        ramon:code      "TR-9952" ;
+        rdfs:label      "TR-9952 Karakeçili" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1297  ramon:name  "Eğirdir"@tr ;
+        ramon:code      "TR-1297" ;
+        rdfs:label      "TR-1297 Eğirdir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1812  ramon:name  "Karaçoban"@tr ;
+        ramon:code      "TR-1812" ;
+        rdfs:label      "TR-1812 Karaçoban" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1321  ramon:name  "Eskipazar"@tr ;
+        ramon:code      "TR-1321" ;
+        rdfs:label      "TR-1321 Eskipazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1719  ramon:name  "Yatağan"@tr ;
+        ramon:code      "TR-1719" ;
+        rdfs:label      "TR-1719 Yatağan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1126  ramon:name  "Alanya"@tr ;
+        ramon:code      "TR-1126" ;
+        rdfs:label      "TR-1126 Alanya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1925  ramon:name  "Ferizli"@tr ;
+        ramon:code      "TR-1925" ;
+        rdfs:label      "TR-1925 Ferizli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1842  ramon:name  "Şalpazarı"@tr ;
+        ramon:code      "TR-1842" ;
+        rdfs:label      "TR-1842 Şalpazarı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1636  ramon:name  "Söğüt"@tr ;
+        ramon:code      "TR-1636" ;
+        rdfs:label      "TR-1636 Söğüt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1654  ramon:name  "Şebinkarahisar"@tr ;
+        ramon:code      "TR-1654" ;
+        rdfs:label      "TR-1654 Şebinkarahisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1612  ramon:name  "Selçuk"@tr ;
+        ramon:code      "TR-1612" ;
+        rdfs:label      "TR-1612 Selçuk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1200  ramon:name  "Bolvadin"@tr ;
+        ramon:code      "TR-1200" ;
+        rdfs:label      "TR-1200 Bolvadin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1333  ramon:name  "Finike"@tr ;
+        ramon:code      "TR-1333" ;
+        rdfs:label      "TR-1333 Finike" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1521  ramon:name  "Menemen"@tr ;
+        ramon:code      "TR-1521" ;
+        rdfs:label      "TR-1521 Menemen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1573  ramon:name  "Perşembe"@tr ;
+        ramon:code      "TR-1573" ;
+        rdfs:label      "TR-1573 Perşembe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1876  ramon:name  "Altunhisar"@tr ;
+        ramon:code      "TR-1876" ;
+        rdfs:label      "TR-1876 Altunhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1675  ramon:name  "Tercan"@tr ;
+        ramon:code      "TR-1675" ;
+        rdfs:label      "TR-1675 Tercan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2070  ramon:name  "Erenler"@tr ;
+        ramon:code      "TR-2070" ;
+        rdfs:label      "TR-2070 Erenler" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1467  ramon:name  "Kınık"@tr ;
+        ramon:code      "TR-1467" ;
+        rdfs:label      "TR-1467 Kınık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1424  ramon:name  "Kağızman"@tr ;
+        ramon:code      "TR-1424" ;
+        rdfs:label      "TR-1424 Kağızman" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1226  ramon:name  "Çameli"@tr ;
+        ramon:code      "TR-1226" ;
+        rdfs:label      "TR-1226 Çameli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9948  ramon:name  "İzmir"@tr ;
+        ramon:code      "TR-9948" ;
+        rdfs:label      "TR-9948 İzmir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1833  ramon:name  "Pamukova"@tr ;
+        ramon:code      "TR-1833" ;
+        rdfs:label      "TR-1833 Pamukova" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1824  ramon:name  "Marmara"@tr ;
+        ramon:code      "TR-1824" ;
+        rdfs:label      "TR-1824 Marmara" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1667  ramon:name  "Taşlıçay"@tr ;
+        ramon:code      "TR-1667" ;
+        rdfs:label      "TR-1667 Taşlıçay" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1670  ramon:name  "Tavas"@tr ;
+        ramon:code      "TR-1670" ;
+        rdfs:label      "TR-1670 Tavas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1703  ramon:name  "Urla"@tr ;
+        ramon:code      "TR-1703" ;
+        rdfs:label      "TR-1703 Urla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1222  ramon:name  "Cihanbeyli"@tr ;
+        ramon:code      "TR-1222" ;
+        rdfs:label      "TR-1222 Cihanbeyli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2040  ramon:name  "Bağlar"@tr ;
+        ramon:code      "TR-2040" ;
+        rdfs:label      "TR-2040 Bağlar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1506  ramon:name  "Maden"@tr ;
+        ramon:code      "TR-1506" ;
+        rdfs:label      "TR-1506 Maden" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1324  ramon:name  "Eynesil"@tr ;
+        ramon:code      "TR-1324" ;
+        rdfs:label      "TR-1324 Eynesil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1268  ramon:name  "Delice"@tr ;
+        ramon:code      "TR-1268" ;
+        rdfs:label      "TR-1268 Delice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1557  ramon:name  "Ortaköy"@tr ;
+        ramon:code      "TR-1557" ;
+        rdfs:label      "TR-1557 Ortaköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2015  ramon:name  "Tuzla"@tr ;
+        ramon:code      "TR-2015" ;
+        rdfs:label      "TR-2015 Tuzla" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1171  ramon:name  "Bandırma"@tr ;
+        ramon:code      "TR-1171" ;
+        rdfs:label      "TR-1171 Bandırma" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1851  ramon:name  "Uzundere"@tr ;
+        ramon:code      "TR-1851" ;
+        rdfs:label      "TR-1851 Uzundere" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1901  ramon:name  "Çelebi"@tr ;
+        ramon:code      "TR-1901" ;
+        rdfs:label      "TR-1901 Çelebi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1395  ramon:name  "Hopa"@tr ;
+        ramon:code      "TR-1395" ;
+        rdfs:label      "TR-1395 Hopa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1889  ramon:name  "Bozkurt"@tr ;
+        ramon:code      "TR-1889" ;
+        rdfs:label      "TR-1889 Bozkurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1969  ramon:name  "Kuluncak"@tr ;
+        ramon:code      "TR-1969" ;
+        rdfs:label      "TR-1969 Kuluncak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1460  ramon:name  "Kemaliye"@tr ;
+        ramon:code      "TR-1460" ;
+        rdfs:label      "TR-1460 Kemaliye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1986  ramon:name  "Söğütlü"@tr ;
+        ramon:code      "TR-1986" ;
+        rdfs:label      "TR-1986 Söğütlü" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1632  ramon:name  "Sivrihisar"@tr ;
+        ramon:code      "TR-1632" ;
+        rdfs:label      "TR-1632 Sivrihisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9950  ramon:name  "Karabük"@tr ;
+        ramon:code      "TR-9950" ;
+        rdfs:label      "TR-9950 Karabük" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1677  ramon:name  "Tire"@tr ;
+        ramon:code      "TR-1677" ;
+        rdfs:label      "TR-1677 Tire" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1391  ramon:name  "Hendek"@tr ;
+        ramon:code      "TR-1391" ;
+        rdfs:label      "TR-1391 Hendek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9994  ramon:name  "Yozgat"@tr ;
+        ramon:code      "TR-9994" ;
+        rdfs:label      "TR-9994 Yozgat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1977  ramon:name  "Otlukbeli"@tr ;
+        ramon:code      "TR-1977" ;
+        rdfs:label      "TR-1977 Otlukbeli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1462  ramon:name  "Kepsut"@tr ;
+        ramon:code      "TR-1462" ;
+        rdfs:label      "TR-1462 Kepsut" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1652  ramon:name  "Şarköy"@tr ;
+        ramon:code      "TR-1652" ;
+        rdfs:label      "TR-1652 Şarköy" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9931  ramon:name  "Edremit"@tr ;
+        ramon:code      "TR-9931" ;
+        rdfs:label      "TR-9931 Edremit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9985  ramon:name  "Van"@tr ;
+        ramon:code      "TR-9985" ;
+        rdfs:label      "TR-9985 Van" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9980  ramon:name  "Sivas"@tr ;
+        ramon:code      "TR-9980" ;
+        rdfs:label      "TR-9980 Sivas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1242  ramon:name  "Çayıralan"@tr ;
+        ramon:code      "TR-1242" ;
+        rdfs:label      "TR-1242 Çayıralan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1276  ramon:name  "Devrek"@tr ;
+        ramon:code      "TR-1276" ;
+        rdfs:label      "TR-1276 Devrek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1156  ramon:name  "Ayancık"@tr ;
+        ramon:code      "TR-1156" ;
+        rdfs:label      "TR-1156 Ayancık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9904  ramon:name  "Aksaray"@tr ;
+        ramon:code      "TR-9904" ;
+        rdfs:label      "TR-9904 Aksaray" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1530  ramon:name  "Mudanya"@tr ;
+        ramon:code      "TR-1530" ;
+        rdfs:label      "TR-1530 Mudanya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1267  ramon:name  "Dazkırı"@tr ;
+        ramon:code      "TR-1267" ;
+        rdfs:label      "TR-1267 Dazkırı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1692  ramon:name  "Tuzluca"@tr ;
+        ramon:code      "TR-1692" ;
+        rdfs:label      "TR-1692 Tuzluca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1826  ramon:name  "Menderes"@tr ;
+        ramon:code      "TR-1826" ;
+        rdfs:label      "TR-1826 Menderes" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1394  ramon:name  "Hizan"@tr ;
+        ramon:code      "TR-1394" ;
+        rdfs:label      "TR-1394 Hizan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1386  ramon:name  "Havza"@tr ;
+        ramon:code      "TR-1386" ;
+        rdfs:label      "TR-1386 Havza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1336  ramon:name  "Gaziosmanpaşa"@tr ;
+        ramon:code      "TR-1336" ;
+        rdfs:label      "TR-1336 Gaziosmanpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9909  ramon:name  "Ardahan"@tr ;
+        ramon:code      "TR-9909" ;
+        rdfs:label      "TR-9909 Ardahan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1228  ramon:name  "Çamlıhemşin"@tr ;
+        ramon:code      "TR-1228" ;
+        rdfs:label      "TR-1228 Çamlıhemşin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1802  ramon:name  "Hisarcık"@tr ;
+        ramon:code      "TR-1802" ;
+        rdfs:label      "TR-1802 Hisarcık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1239  ramon:name  "Çay"@tr ;
+        ramon:code      "TR-1239" ;
+        rdfs:label      "TR-1239 Çay" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2020  ramon:name  "Armutlu"@tr ;
+        ramon:code      "TR-2020" ;
+        rdfs:label      "TR-2020 Armutlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1303  ramon:name  "Elmalı"@tr ;
+        ramon:code      "TR-1303" ;
+        rdfs:label      "TR-1303 Elmalı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1529  ramon:name  "Mucur"@tr ;
+        ramon:code      "TR-1529" ;
+        rdfs:label      "TR-1529 Mucur" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1233  ramon:name  "Çardak"@tr ;
+        ramon:code      "TR-1233" ;
+        rdfs:label      "TR-1233 Çardak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9937  ramon:name  "Eskişehir"@tr ;
+        ramon:code      "TR-9937" ;
+        rdfs:label      "TR-9937 Eskişehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1952  ramon:name  "Kadışehri"@tr ;
+        ramon:code      "TR-1952" ;
+        rdfs:label      "TR-1952 Kadışehri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1637  ramon:name  "Söke"@tr ;
+        ramon:code      "TR-1637" ;
+        rdfs:label      "TR-1637 Söke" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1103  ramon:name  "Adalar"@tr ;
+        ramon:code      "TR-1103" ;
+        rdfs:label      "TR-1103 Adalar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9993  ramon:name  "Yeşilyurt"@tr ;
+        ramon:code      "TR-9993" ;
+        rdfs:label      "TR-9993 Yeşilyurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1114  ramon:name  "Akçadağ"@tr ;
+        ramon:code      "TR-1114" ;
+        rdfs:label      "TR-1114 Akçadağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1835  ramon:name  "Pendik"@tr ;
+        ramon:code      "TR-1835" ;
+        rdfs:label      "TR-1835 Pendik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1527  ramon:name  "Mihalıçcık"@tr ;
+        ramon:code      "TR-1527" ;
+        rdfs:label      "TR-1527 Mihalıçcık" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1761  ramon:name  "Amasra"@tr ;
+        ramon:code      "TR-1761" ;
+        rdfs:label      "TR-1761 Amasra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9991  ramon:name  "Yenişehir"@tr ;
+        ramon:code      "TR-9991" ;
+        rdfs:label      "TR-9991 Yenişehir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1449  ramon:name  "Kartal"@tr ;
+        ramon:code      "TR-1449" ;
+        rdfs:label      "TR-1449 Kartal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9912  ramon:name  "Bartın"@tr ;
+        ramon:code      "TR-9912" ;
+        rdfs:label      "TR-9912 Bartın" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1942  ramon:name  "Hayrat"@tr ;
+        ramon:code      "TR-1942" ;
+        rdfs:label      "TR-1942 Hayrat" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1545  ramon:name  "Niksar"@tr ;
+        ramon:code      "TR-1545" ;
+        rdfs:label      "TR-1545 Niksar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1364  ramon:name  "Göynük"@tr ;
+        ramon:code      "TR-1364" ;
+        rdfs:label      "TR-1364 Göynük" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1201  ramon:name  "Bor"@tr ;
+        ramon:code      "TR-1201" ;
+        rdfs:label      "TR-1201 Bor" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1256  ramon:name  "Çine"@tr ;
+        ramon:code      "TR-1256" ;
+        rdfs:label      "TR-1256 Çine" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1582  ramon:name  "Pütürge"@tr ;
+        ramon:code      "TR-1582" ;
+        rdfs:label      "TR-1582 Pütürge" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1843  ramon:name  "Şaphane"@tr ;
+        ramon:code      "TR-1843" ;
+        rdfs:label      "TR-1843 Şaphane" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2004  ramon:name  "Bağcılar"@tr ;
+        ramon:code      "TR-2004" ;
+        rdfs:label      "TR-2004 Bağcılar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1348  ramon:name  "Germencik"@tr ;
+        ramon:code      "TR-1348" ;
+        rdfs:label      "TR-1348 Germencik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2003  ramon:name  "Avcılar"@tr ;
+        ramon:code      "TR-2003" ;
+        rdfs:label      "TR-2003 Avcılar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1448  ramon:name  "Karşıyaka"@tr ;
+        ramon:code      "TR-1448" ;
+        rdfs:label      "TR-1448 Karşıyaka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1330  ramon:name  "Felahiye"@tr ;
+        ramon:code      "TR-1330" ;
+        rdfs:label      "TR-1330 Felahiye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9974  ramon:name  "Samsun"@tr ;
+        ramon:code      "TR-9974" ;
+        rdfs:label      "TR-9974 Samsun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1404  ramon:name  "İhsaniye"@tr ;
+        ramon:code      "TR-1404" ;
+        rdfs:label      "TR-1404 İhsaniye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1834  ramon:name  "Pazar"@tr ;
+        ramon:code      "TR-1834" ;
+        rdfs:label      "TR-1834 Pazar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1119  ramon:name  "Akkuş"@tr ;
+        ramon:code      "TR-1119" ;
+        rdfs:label      "TR-1119 Akkuş" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1732  ramon:name  "Yomra"@tr ;
+        ramon:code      "TR-1732" ;
+        rdfs:label      "TR-1732 Yomra" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1118  ramon:name  "Akhisar"@tr ;
+        ramon:code      "TR-1118" ;
+        rdfs:label      "TR-1118 Akhisar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1224  ramon:name  "Çal"@tr ;
+        ramon:code      "TR-1224" ;
+        rdfs:label      "TR-1224 Çal" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1897  ramon:name  "Çatalpınar"@tr ;
+        ramon:code      "TR-1897" ;
+        rdfs:label      "TR-1897 Çatalpınar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1933  ramon:name  "Güneysınır"@tr ;
+        ramon:code      "TR-1933" ;
+        rdfs:label      "TR-1933 Güneysınır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1608  ramon:name  "Savaştepe"@tr ;
+        ramon:code      "TR-1608" ;
+        rdfs:label      "TR-1608 Savaştepe" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1864  ramon:name  "Melikgazi"@tr ;
+        ramon:code      "TR-1864" ;
+        rdfs:label      "TR-1864 Melikgazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1979  ramon:name  "Pazarlar"@tr ;
+        ramon:code      "TR-1979" ;
+        rdfs:label      "TR-1979 Pazarlar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1180  ramon:name  "Bayramiç"@tr ;
+        ramon:code      "TR-1180" ;
+        rdfs:label      "TR-1180 Bayramiç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1136  ramon:name  "Andırın"@tr ;
+        ramon:code      "TR-1136" ;
+        rdfs:label      "TR-1136 Andırın" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1195  ramon:name  "Bismil"@tr ;
+        ramon:code      "TR-1195" ;
+        rdfs:label      "TR-1195 Bismil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1408  ramon:name  "Gökçeada"@tr ;
+        ramon:code      "TR-1408" ;
+        rdfs:label      "TR-1408 Gökçeada" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1803  ramon:name  "Honaz"@tr ;
+        ramon:code      "TR-1803" ;
+        rdfs:label      "TR-1803 Honaz" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1363  ramon:name  "Göynücek"@tr ;
+        ramon:code      "TR-1363" ;
+        rdfs:label      "TR-1363 Göynücek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1310  ramon:name  "Erdek"@tr ;
+        ramon:code      "TR-1310" ;
+        rdfs:label      "TR-1310 Erdek" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1306  ramon:name  "Emirdağ"@tr ;
+        ramon:code      "TR-1306" ;
+        rdfs:label      "TR-1306 Emirdağ" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1622  ramon:name  "Silivri"@tr ;
+        ramon:code      "TR-1622" ;
+        rdfs:label      "TR-1622 Silivri" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1791  ramon:name  "Eğil"@tr ;
+        ramon:code      "TR-1791" ;
+        rdfs:label      "TR-1791 Eğil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9914  ramon:name  "Bayburt"@tr ;
+        ramon:code      "TR-9914" ;
+        rdfs:label      "TR-9914 Bayburt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1225  ramon:name  "Çamardı"@tr ;
+        ramon:code      "TR-1225" ;
+        rdfs:label      "TR-1225 Çamardı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1931  ramon:name  "Güçlükonak"@tr ;
+        ramon:code      "TR-1931" ;
+        rdfs:label      "TR-1931 Güçlükonak" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1299  ramon:name  "Elbistan"@tr ;
+        ramon:code      "TR-1299" ;
+        rdfs:label      "TR-1299 Elbistan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1893  ramon:name  "Çamoluk"@tr ;
+        ramon:code      "TR-1893" ;
+        rdfs:label      "TR-1893 Çamoluk" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1618  ramon:name  "Seyitgazi"@tr ;
+        ramon:code      "TR-1618" ;
+        rdfs:label      "TR-1618 Seyitgazi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1886  ramon:name  "Bayrampaşa"@tr ;
+        ramon:code      "TR-1886" ;
+        rdfs:label      "TR-1886 Bayrampaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1269  ramon:name  "Demirci"@tr ;
+        ramon:code      "TR-1269" ;
+        rdfs:label      "TR-1269 Demirci" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1878  ramon:name  "Aydınlar"@tr ;
+        ramon:code      "TR-1878" ;
+        rdfs:label      "TR-1878 Aydınlar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1403  ramon:name  "İdil"@tr ;
+        ramon:code      "TR-1403" ;
+        rdfs:label      "TR-1403 İdil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1393  ramon:name  "Hilvan"@tr ;
+        ramon:code      "TR-1393" ;
+        rdfs:label      "TR-1393 Hilvan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1995  ramon:name  "Yazıhan"@tr ;
+        ramon:code      "TR-1995" ;
+        rdfs:label      "TR-1995 Yazıhan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2024  ramon:name  "Musabeyli"@tr ;
+        ramon:code      "TR-2024" ;
+        rdfs:label      "TR-2024 Musabeyli" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1965  ramon:name  "Köprübaşı"@tr ;
+        ramon:code      "TR-1965" ;
+        rdfs:label      "TR-1965 Köprübaşı" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1680  ramon:name  "Tomarza"@tr ;
+        ramon:code      "TR-1680" ;
+        rdfs:label      "TR-1680 Tomarza" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1361  ramon:name  "Görele"@tr ;
+        ramon:code      "TR-1361" ;
+        rdfs:label      "TR-1361 Görele" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1117  ramon:name  "Akdağmadeni"@tr ;
+        ramon:code      "TR-1117" ;
+        rdfs:label      "TR-1117 Akdağmadeni" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9956  ramon:name  "Kastamonu"@tr ;
+        ramon:code      "TR-9956" ;
+        rdfs:label      "TR-9956 Kastamonu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1611  ramon:name  "Şehitkamil"@tr ;
+        ramon:code      "TR-1611" ;
+        rdfs:label      "TR-1611 Şehitkamil" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1175  ramon:name  "Başkale"@tr ;
+        ramon:code      "TR-1175" ;
+        rdfs:label      "TR-1175 Başkale" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1903  ramon:name  "Çeltikçi"@tr ;
+        ramon:code      "TR-1903" ;
+        rdfs:label      "TR-1903 Çeltikçi" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1881  ramon:name  "Baklan"@tr ;
+        ramon:code      "TR-1881" ;
+        rdfs:label      "TR-1881 Baklan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-2071  ramon:name  "Serdivan"@tr ;
+        ramon:code      "TR-2071" ;
+        rdfs:label      "TR-2071 Serdivan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1465  ramon:name  "Keşap"@tr ;
+        ramon:code      "TR-1465" ;
+        rdfs:label      "TR-1465 Keşap" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9911  ramon:name  "Balıkesir"@tr ;
+        ramon:code      "TR-9911" ;
+        rdfs:label      "TR-9911 Balıkesir" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9908  ramon:name  "Antalya"@tr ;
+        ramon:code      "TR-9908" ;
+        rdfs:label      "TR-9908 Antalya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9959  ramon:name  "Kilis"@tr ;
+        ramon:code      "TR-9959" ;
+        rdfs:label      "TR-9959 Kilis" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1463  ramon:name  "Keskin"@tr ;
+        ramon:code      "TR-1463" ;
+        rdfs:label      "TR-1463 Keskin" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1456  ramon:name  "Keçiborlu"@tr ;
+        ramon:code      "TR-1456" ;
+        rdfs:label      "TR-1456 Keçiborlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1191  ramon:name  "Bigadiç"@tr ;
+        ramon:code      "TR-1191" ;
+        rdfs:label      "TR-1191 Bigadiç" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1351  ramon:name  "Geyve"@tr ;
+        ramon:code      "TR-1351" ;
+        rdfs:label      "TR-1351 Geyve" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1827  ramon:name  "Meram"@tr ;
+        ramon:code      "TR-1827" ;
+        rdfs:label      "TR-1827 Meram" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1461  ramon:name  "Kemalpaşa"@tr ;
+        ramon:code      "TR-1461" ;
+        rdfs:label      "TR-1461 Kemalpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9907  ramon:name  "Antakya"@tr ;
+        ramon:code      "TR-9907" ;
+        rdfs:label      "TR-9907 Antakya" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9931  ramon:name  "Edremit"@tr ;
+        ramon:code      "TR-9931" ;
+        rdfs:label      "TR-9931 Edremit" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1229  ramon:name  "Çan"@tr ;
+        ramon:code      "TR-1229" ;
+        rdfs:label      "TR-1229 Çan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1163  ramon:name  "Babaeski"@tr ;
+        ramon:code      "TR-1163" ;
+        rdfs:label      "TR-1163 Babaeski" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1249  ramon:name  "Çermik"@tr ;
+        ramon:code      "TR-1249" ;
+        rdfs:label      "TR-1249 Çermik" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1978  ramon:name  "Özvatan"@tr ;
+        ramon:code      "TR-1978" ;
+        rdfs:label      "TR-1978 Özvatan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1109  ramon:name  "Ağlasun"@tr ;
+        ramon:code      "TR-1109" ;
+        rdfs:label      "TR-1109 Ağlasun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1957  ramon:name  "Karpuzlu"@tr ;
+        ramon:code      "TR-1957" ;
+        rdfs:label      "TR-1957 Karpuzlu" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1638  ramon:name  "Sulakyurt"@tr ;
+        ramon:code      "TR-1638" ;
+        rdfs:label      "TR-1638 Sulakyurt" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1178  ramon:name  "Bayındır"@tr ;
+        ramon:code      "TR-1178" ;
+        rdfs:label      "TR-1178 Bayındır" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-9915  ramon:name  "Bekirpaşa"@tr ;
+        ramon:code      "TR-9915" ;
+        rdfs:label      "TR-9915 Bekirpaşa" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1852  ramon:name  "Ümraniye"@tr ;
+        ramon:code      "TR-1852" ;
+        rdfs:label      "TR-1852 Ümraniye" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1514  ramon:name  "Manyas"@tr ;
+        ramon:code      "TR-1514" ;
+        rdfs:label      "TR-1514 Manyas" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1360  ramon:name  "Gönen"@tr ;
+        ramon:code      "TR-1360" ;
+        rdfs:label      "TR-1360 Gönen" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1631  ramon:name  "Sivrice"@tr ;
+        ramon:code      "TR-1631" ;
+        rdfs:label      "TR-1631 Sivrice" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1730  ramon:name  "Yığılca"@tr ;
+        ramon:code      "TR-1730" ;
+        rdfs:label      "TR-1730 Yığılca" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1148  ramon:name  "Arguvan"@tr ;
+        ramon:code      "TR-1148" ;
+        rdfs:label      "TR-1148 Arguvan" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:TR-1507  ramon:name  "Maçka"@tr ;
+        ramon:code      "TR-1507" ;
+        rdfs:label      "TR-1507 Maçka" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

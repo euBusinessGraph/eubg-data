@@ -1,0 +1,156 @@
+@prefix lau:  <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ebg:  <http://data.eubusinessgraph.eu/ontology#> .
+@prefix xs:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+
+lau:SE-24  ramon:name   "Umeå"@en ;
+        ramon:name      "Umeå"@sv ;
+        ramon:code      "SE-24" ;
+        rdfs:label      "SE-24 Umeå" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-03  ramon:name   "Uppsala"@en ;
+        ramon:name      "Uppsala"@sv ;
+        ramon:code      "SE-03" ;
+        rdfs:label      "SE-03 Uppsala" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-13  ramon:name   "Halmstad"@en ;
+        ramon:name      "Halmstad"@sv ;
+        ramon:code      "SE-13" ;
+        rdfs:label      "SE-13 Halmstad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-01  ramon:name   "Stockholm"@en ;
+        ramon:name      "Stockholm"@sv ;
+        ramon:code      "SE-01" ;
+        rdfs:label      "SE-01 Stockholm" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-06  ramon:name   "Jönköping"@en ;
+        ramon:name      "Jönköping"@sv ;
+        ramon:code      "SE-06" ;
+        rdfs:label      "SE-06 Jönköping" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-07  ramon:name   "Växjö"@en ;
+        ramon:name      "Växjö"@sv ;
+        ramon:code      "SE-07" ;
+        rdfs:label      "SE-07 Växjö" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-04  ramon:name   "Eskilstuna"@en ;
+        ramon:name      "Eskilstuna"@sv ;
+        ramon:code      "SE-04" ;
+        rdfs:label      "SE-04 Eskilstuna" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-05  ramon:name   "Linköping"@en ;
+        ramon:name      "Linköping"@sv ;
+        ramon:code      "SE-05" ;
+        rdfs:label      "SE-05 Linköping" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-19  ramon:name   "Västerås"@en ;
+        ramon:name      "Västerås"@sv ;
+        ramon:code      "SE-19" ;
+        rdfs:label      "SE-19 Västerås" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-18  ramon:name   "Örebro"@en ;
+        ramon:name      "Örebro"@sv ;
+        ramon:code      "SE-18" ;
+        rdfs:label      "SE-18 Örebro" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-08  ramon:name   "Kalmar"@en ;
+        ramon:name      "Kalmar"@sv ;
+        ramon:code      "SE-08" ;
+        rdfs:label      "SE-08 Kalmar" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-09  ramon:name   "Gotland"@en ;
+        ramon:name      "Gotland"@sv ;
+        ramon:code      "SE-09" ;
+        rdfs:label      "SE-09 Gotland" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-22  ramon:name   "Sundsvall"@en ;
+        ramon:name      "Sundsvall"@sv ;
+        ramon:code      "SE-22" ;
+        rdfs:label      "SE-22 Sundsvall" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-21  ramon:name   "Gävle"@en ;
+        ramon:name      "Gävle"@sv ;
+        ramon:code      "SE-21" ;
+        rdfs:label      "SE-21 Gävle" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-23  ramon:name   "Östersund"@en ;
+        ramon:name      "Östersund"@sv ;
+        ramon:code      "SE-23" ;
+        rdfs:label      "SE-23 Östersund" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-12  ramon:name   "Malmö"@en ;
+        ramon:name      "Malmö"@sv ;
+        ramon:code      "SE-12" ;
+        rdfs:label      "SE-12 Malmö" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-17  ramon:name   "Karlstad"@en ;
+        ramon:name      "Karlstad"@sv ;
+        ramon:code      "SE-17" ;
+        rdfs:label      "SE-17 Karlstad" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-14  ramon:name   "Göteborg"@en ;
+        ramon:name      "Göteborg"@sv ;
+        ramon:code      "SE-14" ;
+        rdfs:label      "SE-14 Göteborg" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-20  ramon:name   "Falun"@en ;
+        ramon:name      "Falun"@sv ;
+        ramon:code      "SE-20" ;
+        rdfs:label      "SE-20 Falun" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-25  ramon:name   "Luleå"@en ;
+        ramon:name      "Luleå"@sv ;
+        ramon:code      "SE-25" ;
+        rdfs:label      "SE-25 Luleå" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .
+
+lau:SE-10  ramon:name   "Karlskrona"@en ;
+        ramon:name      "Karlskrona"@sv ;
+        ramon:code      "SE-10" ;
+        rdfs:label      "SE-10 Karlskrona" ;
+        ramon:level     4 ;
+        void:inDataset  lau: .

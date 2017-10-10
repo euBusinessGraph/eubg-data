@@ -1,0 +1,3182 @@
+NUTS_3,LAU1_NAT_CODE,LAU2_NAT_CODE,CHANGE,NAME_1,NAME_2_LAT,POP,AREA
+RO121,n.a.,1017,no,Municipiul Alba Iulia,Municipiul Alba Iulia,74233,102484303
+RO121,n.a.,1071,no,Ciugud,Ciugud,2982,43899674
+RO121,n.a.,1151,no,Oraş Abrud,Oras Abrud,5506,39531538
+RO121,n.a.,1213,no,Municipiul Aiud,Municipiul Aiud,26296,138100490
+RO121,n.a.,1348,no,Municipiul Blaj,Municipiul Blaj,20978,98878263
+RO121,n.a.,1455,no,Oraş Câmpeni,Oras Campeni,7629,88088825
+RO121,n.a.,1696,no,Oraş Cugir,Oras Cugir,26744,327296461
+RO121,n.a.,1794,no,Oraş Ocna Mureş,Oras Ocna Mures,14634,67673917
+RO121,n.a.,1874,no,Municipiul Sebeş,Municipiul Sebes,32531,113855665
+RO121,n.a.,1936,no,Oraş Zlatna,Oras Zlatna,7972,266831397
+RO121,n.a.,2130,no,Albac,Albac,2126,53381520
+RO121,n.a.,2309,no,Almaşu Mare,Almasu Mare,1287,95959757
+RO121,n.a.,2381,no,Arieşeni,Arieseni,1722,99532159
+RO121,n.a.,2577,no,Avram Iancu,Avram Iancu,1560,96448225
+RO121,n.a.,2915,no,Oraş Baia de Arieş,Oras Baia de Aries,4074,82145121
+RO121,n.a.,2988,no,Berghin,Berghin,2055,75514090
+RO121,n.a.,3039,no,Bistra,Bistra,4836,127111574
+RO121,n.a.,3397,no,Blandiana,Blandiana,948,74482318
+RO121,n.a.,3459,no,Bucium,Bucium,1530,84666681
+RO121,n.a.,3761,no,Cenade,Cenade,982,44569439
+RO121,n.a.,3805,no,Cergău,Cergau,1626,47835251
+RO121,n.a.,3841,no,Ceru-Băcăinţi,Ceru-Bacainti,257,47218779
+RO121,n.a.,3958,no,Cetatea de Baltă,Cetatea de Balta,3173,64545680
+RO121,n.a.,4008,no,Ciuruleasa,Ciuruleasa,1198,55009220
+RO121,n.a.,4106,no,Câlnic,Calnic,1880,44457435
+RO121,n.a.,4142,no,Cricău,Cricau,2110,50630972
+RO121,n.a.,4188,no,Crăciunelu de Jos,Craciunelu de Jos,2148,25224292
+RO121,n.a.,4240,no,Daia Română,Daia Romana,3148,41365548
+RO121,n.a.,4268,no,Doştat,Dostat,999,43049504
+RO121,n.a.,4302,no,Fărău,Farau,1623,81878741
+RO121,n.a.,4366,no,Galda de Jos,Galda de Jos,4408,101255763
+RO121,n.a.,4482,no,Gârbova,Garbova,2117,57791011
+RO121,n.a.,4525,no,Gârda de Sus,Garda de Sus,1695,78048116
+RO121,n.a.,4703,no,Hopârta,Hoparta,1194,59472080
+RO121,n.a.,4767,no,Horea,Horea,2102,58567040
+RO121,n.a.,4927,no,Ighiu,Ighiu,6864,129515762
+RO121,n.a.,4981,no,Întregalde,intregalde,625,81953551
+RO121,n.a.,5103,no,Jidvei,Jidvei,5309,104393957
+RO121,n.a.,5167,no,Livezile,Livezile,1271,69140121
+RO121,n.a.,5210,no,Lopadea Nouă,Lopadea Noua,2716,92754008
+RO121,n.a.,5309,no,Lunca Mureşului,Lunca Muresului,2550,31492685
+RO121,n.a.,5336,no,Lupşa,Lupsa,3174,121403959
+RO121,n.a.,5577,no,Meteş,Metes,2833,143569467
+RO121,n.a.,5700,no,Mihalţ,Mihalt,3279,65142932
+RO121,n.a.,5755,no,Mirăslău,Miraslau,2122,66655360
+RO121,n.a.,5826,no,Mogoş,Mogos,812,102646262
+RO121,n.a.,6048,no,Noşlac,Noslac,1816,51790257
+RO121,n.a.,6119,no,Ocoliş,Ocolis,590,91954581
+RO121,n.a.,6164,no,Ohaba,Ohaba,675,40128954
+RO121,n.a.,6217,no,Pianu,Pianu,3611,122671464
+RO121,n.a.,6271,no,Poiana Vadului,Poiana Vadului,1110,32400067
+RO121,n.a.,6397,no,Ponor,Ponor,576,51286519
+RO121,n.a.,6468,no,Poşaga,Posaga,1065,133689664
+RO121,n.a.,6547,no,Rădeşti,Radesti,1327,33047098
+RO121,n.a.,6592,no,Râmetea,Rametea,1051,56525469
+RO121,n.a.,6627,no,Râmeţ,Ramet,542,82345158
+RO121,n.a.,6761,no,Roşia Montană,Rosia Montana,2871,42740137
+RO121,n.a.,6930,no,Roşia de Secaş,Rosia de Secas,1601,52335546
+RO121,n.a.,6976,no,Sălciua,Salciua,1549,78986993
+RO121,n.a.,7044,no,Săliştea,Salistea,2353,60122594
+RO121,n.a.,7099,no,Săsciori,Sasciori,6415,117088601
+RO121,n.a.,7197,no,Scărişoara,Scarisoara,1682,55622215
+RO121,n.a.,7348,no,Sâncel,Sancel,2703,51980872
+RO121,n.a.,7384,no,Sântimbru,Santimbru,3018,44854577
+RO121,n.a.,7446,no,Sohodol,Sohodol,1797,50435938
+RO121,n.a.,7767,no,Stremţ,Stremt,2479,68930046
+RO121,n.a.,7810,no,Şibot,sibot,2463,44059698
+RO121,n.a.,7865,no,Şona,sona,4433,105625624
+RO121,n.a.,7945,no,Şpring,spring,2590,88026060
+RO121,n.a.,8014,no,Şugag,sugag,2908,243570958
+RO121,n.a.,8096,no,Oraş Teiuş,Oras Teius,7512,44070335
+RO121,n.a.,8158,no,Unirea,Unirea,5068,98534159
+RO121,n.a.,8229,no,Vadu Moţilor,Vadu Motilor,1375,28600906
+RO121,n.a.,8354,no,Valea Lungă,Valea Lunga,3134,74707978
+RO121,n.a.,8425,no,Vidra,Vidra,1658,60286828
+RO121,n.a.,8826,no,Vinţu de Jos,Vintu de Jos,5472,88623543
+RO121,n.a.,9019,no,Cut,Cut,1269,27435407
+RO121,n.a.,9026,no,Bucerdea Grânoasă,Bucerdea Granoasa,2405,41799035
+RO421,n.a.,9262,no,Municipiul Arad,Municipiul Arad,179045,239574922
+RO421,n.a.,9280,no,Fântânele,Fantanele,3708,40460414
+RO421,n.a.,9333,no,Livada,Livada,3471,20071392
+RO421,n.a.,9360,no,Şofronea,Sofronea,2750,34890003
+RO421,n.a.,9397,no,Vladimirescu,Vladimirescu,12970,122452256
+RO421,n.a.,9459,no,Oraş Chişineu-Criş,Oras Chisineu-Cris,8434,117554026
+RO421,n.a.,9495,no,Oraş Curtici,Oras Curtici,8683,72603994
+RO421,n.a.,9538,no,Oraş Ineu,Oras Ineu,9579,116872932
+RO421,n.a.,9574,no,Oraş Lipova,Oras Lipova,11396,134152522
+RO421,n.a.,9627,no,Oraş Nădlac,Oras Nadlac,7997,132608787
+RO421,n.a.,9654,no,Oraş Pâncota,Oras Pancota,8126,64534107
+RO421,n.a.,9690,no,Oraş Sebiş,Oras Sebis,6436,67600530
+RO421,n.a.,9743,no,Almaş,Almas,2619,81178117
+RO421,n.a.,9798,no,Apateu,Apateu,3430,90656423
+RO421,n.a.,9832,no,Archiş,Archis,1545,67667185
+RO421,n.a.,9887,no,Bata,Bata,1057,78267806
+RO421,n.a.,9930,no,Beliu,Beliu,3024,92631835
+RO421,n.a.,10006,no,Birchis,Birchis,1886,103918647
+RO421,n.a.,10051,no,Bârsa,Barsa,1833,50779121
+RO421,n.a.,10104,no,Bârzava,Barzava,2542,256370334
+RO421,n.a.,10195,no,Bocsig,Bocsig,3396,81395956
+RO421,n.a.,10239,no,Brazii,Brazii,1226,118768192
+RO421,n.a.,10293,no,Buteni,Buteni,3408,95759527
+RO421,n.a.,10346,no,Cărand,Carand,1159,38201181
+RO421,n.a.,10373,no,Cermei,Cermei,2740,115419826
+RO421,n.a.,10417,no,Chisindia,Chisindia,1314,128697232
+RO421,n.a.,10453,no,Conop,Conop,2279,191463287
+RO421,n.a.,10514,no,Covăsinţ,Covasint,2702,37488027
+RO421,n.a.,10532,no,Craiva,Craiva,2892,114681086
+RO421,n.a.,10649,no,Dezna,Dezna,1206,83080086
+RO421,n.a.,10701,no,Dieci,Dieci,1490,83727553
+RO421,n.a.,10765,no,Ususau,Ususau,1419,135569606
+RO421,n.a.,10827,no,Felnac,Felnac,3143,50009686
+RO421,n.a.,10872,no,Ghioroc,Ghioroc,4084,48610122
+RO421,n.a.,10916,no,Grăniceri,Graniceri,2543,78466647
+RO421,n.a.,10943,no,Gurahonţ,Gurahont,3898,170810529
+RO421,n.a.,11058,no,Hălmagiu,Halmagiu,2766,97069937
+RO421,n.a.,11174,no,Hălmăgel,Halmagel,1226,83693510
+RO421,n.a.,11236,no,Hăşmaş,Hasmas,1268,88353504
+RO421,n.a.,11307,no,Igneşti,Ignesti,721,51693687
+RO421,n.a.,11352,no,Iratoşu,Iratosu,2555,46411785
+RO421,n.a.,11398,no,Macea,Macea,7161,72816149
+RO421,n.a.,11423,no,Mişca,Misca,3786,104241170
+RO421,n.a.,11478,no,Moneasa,Moneasa,919,68878994
+RO421,n.a.,11502,no,Olari,Olari,2004,50141573
+RO421,n.a.,11539,no,Păuliş,Paulis,4339,128279552
+RO421,n.a.,11584,no,Oraş Pecica,Oras Pecica,14097,235795393
+RO421,n.a.,11637,no,Peregu Mare,Peregu Mare,1806,33054088
+RO421,n.a.,11664,no,Petriş,Petris,1381,129841835
+RO421,n.a.,11735,no,Pilu,Pilu,2180,71885844
+RO421,n.a.,11762,no,Pleşcuţa,Plescuta,1161,75427110
+RO421,n.a.,11842,no,Săvârşin,Savarsin,2925,206860516
+RO421,n.a.,11940,no,Secusigiu,Secusigiu,6205,141863939
+RO421,n.a.,11995,no,Seleuş,Seleus,2986,60180899
+RO421,n.a.,12037,no,Semlac,Semlac,4234,82110156
+RO421,n.a.,12055,no,Sintea Mare,Sintea Mare,3842,108892385
+RO421,n.a.,12091,no,Oraş Sântana,Oras Santana,15601,107293560
+RO421,n.a.,12126,no,Socodor,Socodor,2277,119436246
+RO421,n.a.,12144,no,Şagu,Sagu,4157,102782078
+RO421,n.a.,12206,no,Şeitin,Seitin,3090,65930647
+RO421,n.a.,12224,no,Şepreuş,Sepreus,2906,58040499
+RO421,n.a.,12242,no,Şicula,Sicula,4277,131181614
+RO421,n.a.,12288,no,Şilindia,Silindia,875,69352709
+RO421,n.a.,12340,no,Şimand,Simand,4422,100688320
+RO421,n.a.,12368,no,Şiria,Siria,9035,136569277
+RO421,n.a.,12402,no,Şiştarovăţ,Sistarovat,319,122672189
+RO421,n.a.,12457,no,Tauţ,Taut,1665,204631610
+RO421,n.a.,12509,no,Târnova,Tarnova,6199,209898522
+RO421,n.a.,12572,no,Vărădia de Mureş,Varadia de Mures,1685,119457147
+RO421,n.a.,12643,no,Vinga,Vinga,6861,141429945
+RO421,n.a.,12689,no,Vârfurile,Varfurile,2680,134310348
+RO421,n.a.,12778,no,Zăbrani,Zabrani,4607,117884439
+RO421,n.a.,12812,no,Zărand,Zarand,2743,75222747
+RO421,n.a.,12849,no,Zerind,Zerind,1442,62545793
+RO421,n.a.,12876,no,Zimandu Nou,Zimandu Nou,4899,74118767
+RO421,n.a.,12912,no,Dorobanţi,Dorobanti,1610,28111408
+RO421,n.a.,12920,no,Frumuşeni,Frumuseni,2766,44507200
+RO421,n.a.,12938,no,Zădăreni,Zadareni,2838,25263153
+RO311,n.a.,13169,no,Municipiul Piteşti,Municipiul Pitesti,176747,40943206
+RO311,n.a.,13187,no,Bascov,Bascov,10519,40951273
+RO311,n.a.,13276,no,Bradu,Bradu,7714,41655873
+RO311,n.a.,13301,no,Oraş Mioveni,Oras Mioveni,34550,50605418
+RO311,n.a.,13365,no,Mărăcineni,Maracineni,5246,21736717
+RO311,n.a.,13392,no,Oraş Ştefăneşti,Oras stefanesti,15237,56661446
+RO311,n.a.,13490,no,Municipiul Câmpulung,Municipiul Campulung,36944,35493690
+RO311,n.a.,13524,no,Valea Mare Pravăţ,Valea Mare Pravat,4276,60676026
+RO311,n.a.,13622,no,Municipiul Curtea de Arges,Municipiul Curtea de Arges,33418,69270519
+RO311,n.a.,13668,no,Oraş Costeşti,Oras Costesti,10639,108342372
+RO311,n.a.,13757,no,Oraş Topoloveni,Oras Topoloveni,9437,36060012
+RO311,n.a.,13819,no,Albeştii de Argeş,Albestii de Arges,6054,42788046
+RO311,n.a.,13891,no,Albeştii de Muscel,Albestii de Muscel,1574,121398650
+RO311,n.a.,13935,no,Albota,Albota,3928,57146254
+RO311,n.a.,13999,no,Aninoasa,Aninoasa,3349,58530344
+RO311,n.a.,14049,no,Arefu,Arefu,2464,418271259
+RO311,n.a.,14085,no,Băbana,Babana,2899,39485702
+RO311,n.a.,14165,no,Băiculeşti,Baiculesti,6105,76033060
+RO311,n.a.,14272,no,Bălileşti,Balilesti,4069,59777394
+RO311,n.a.,14352,no,Beleţi-Negreşti,Beleti-Negresti,1878,48411613
+RO311,n.a.,14405,no,Berevoeşti,Berevoesti,3508,100231102
+RO311,n.a.,14450,no,Bârla,Barla,4629,103732254
+RO311,n.a.,14584,no,Bogaţi,Bogati,4497,70740622
+RO311,n.a.,14673,no,Boteni,Boteni,2429,24466367
+RO311,n.a.,14726,no,Boţeşti,Botesti,1133,35928220
+RO311,n.a.,14753,no,Brăduleţ,Bradulet,1816,45107278
+RO311,n.a.,14851,no,Budeasa,Budeasa,4127,41318185
+RO311,n.a.,14922,no,Bughea de Jos,Bughea de Jos,3083,18341456
+RO311,n.a.,14940,no,Buzoeşti,Buzoesti,5655,140017334
+RO311,n.a.,15064,no,Căldăraru,Caldararu,2367,60074299
+RO311,n.a.,15108,no,Călineşti,Calinesti,11157,106818666
+RO311,n.a.,15233,no,Căteasca,Cateasca,3721,78874295
+RO311,n.a.,15313,no,Cepari,Cepari,2236,37264872
+RO311,n.a.,15402,no,Cetăţeni,Cetateni,3006,29033319
+RO311,n.a.,15448,no,Cicăneşti,Cicanesti,2105,34159460
+RO311,n.a.,15493,no,Ciofrângeni,Ciofrangeni,2349,43629811
+RO311,n.a.,15554,no,Ciomăgeşti,Ciomagesti,1147,38683329
+RO311,n.a.,15652,no,Cocu,Cocu,2313,58596318
+RO311,n.a.,15741,no,Corbeni,Corbeni,5873,61134579
+RO311,n.a.,15830,no,Corbi,Corbi,4095,56898357
+RO311,n.a.,15901,no,Coşeşti,Cosesti,5279,62339359
+RO311,n.a.,15983,no,Cotmeana,Cotmeana,1909,73358834
+RO311,n.a.,16132,no,Cuca,Cuca,2102,51589313
+RO311,n.a.,16285,no,Davideşti,Davidesti,3110,41693807
+RO311,n.a.,16329,no,Dâmbovicioara,Dambovicioara,925,62834524
+RO311,n.a.,16365,no,Dârmăneşti,Darmanesti,3552,34617606
+RO311,n.a.,16427,no,Dobreşti,Dobresti,1783,38817559
+RO311,n.a.,16454,no,Domneşti,Domnesti,3156,18519751
+RO311,n.a.,16472,no,Dragoslavele,Dragoslavele,2628,111543644
+RO311,n.a.,16506,no,Drăganu,Draganu,1955,35247992
+RO311,n.a.,16551,no,Godeni,Godeni,3002,31026406
+RO311,n.a.,16613,no,Hârseşti,Harsesti,2286,55119658
+RO311,n.a.,16659,no,Hârtieşti,Hartiesti,2290,48327108
+RO311,n.a.,16739,no,Izvoru,Izvoru,2197,60951668
+RO311,n.a.,16757,no,Leordeni,Leordeni,5704,62924079
+RO311,n.a.,16908,no,Lereşti,Leresti,4642,141803317
+RO311,n.a.,16944,no,Lunca Corbului,Lunca Corbului,2700,90003225
+RO311,n.a.,17049,no,Mălureni,Malureni,4685,108249373
+RO311,n.a.,17101,no,Merişani,Merisani,4643,64279672
+RO311,n.a.,17209,no,Miceşti,Micesti,4624,43514816
+RO311,n.a.,17254,no,Mihăeşti,Mihaesti,6124,64200150
+RO311,n.a.,17334,no,Mioarele,Mioarele,1601,32962982
+RO311,n.a.,17398,no,Miroşi,Mirosi,2367,47890531
+RO311,n.a.,17423,no,Morăreşti,Moraresti,1857,47624009
+RO311,n.a.,17496,no,Moşoaia,Mosoaia,5707,44935026
+RO311,n.a.,17575,no,Mozăceni,Mozaceni,2142,71026999
+RO311,n.a.,17619,no,Muşăteşti,Musatesti,3684,97888882
+RO311,n.a.,17726,no,Negraşi,Negrasi,2047,77657391
+RO311,n.a.,17771,no,Nucşoara,Nucsoara,1446,450808077
+RO311,n.a.,17824,no,Oarja,Oarja,2834,37635795
+RO311,n.a.,17851,no,Pietroşani,Pietrosani,5667,48972448
+RO311,n.a.,17913,no,Poienarii de Argeş,Poienarii de Arges,999,21074444
+RO311,n.a.,17968,no,Poienarii de Muscel,Poienarii de Muscel,3409,38605723
+RO311,n.a.,18028,no,Poiana Lacului,Poiana Lacului,6513,55823967
+RO311,n.a.,18162,no,Popeşti,Popesti,2013,45672669
+RO311,n.a.,18242,no,Priboieni,Priboieni,3530,22100065
+RO311,n.a.,18331,no,Răteşti,Ratesti,3064,79014144
+RO311,n.a.,18411,no,Recea,Recea,2767,71046308
+RO311,n.a.,18475,no,Rociu,Rociu,2503,79526110
+RO311,n.a.,18527,no,Rucăr,Rucar,6045,283235013
+RO311,n.a.,18554,no,Sălătrucu,Salatrucu,2226,135623630
+RO311,n.a.,18581,no,Săpata,Sapata,1626,47301472
+RO311,n.a.,18670,no,Schitu Goleşti,Schitu Golesti,5075,25883891
+RO311,n.a.,18741,no,Slobozia,Slobozia,4773,60335222
+RO311,n.a.,18778,no,Stâlpeni,Stalpeni,5024,36041032
+RO311,n.a.,18858,no,Stoeneşti,Stoenesti,4579,128270783
+RO311,n.a.,18938,no,Stolnici,Stolnici,3065,78546455
+RO311,n.a.,19007,no,Suseni,Suseni,3067,52110517
+RO311,n.a.,19114,no,Ştefan cel Mare,stefan cel Mare,2366,35400996
+RO311,n.a.,19141,no,Şuici,suici,2451,34165436
+RO311,n.a.,19212,no,Teiu,Teiu,1357,44420038
+RO311,n.a.,19249,no,Tigveni,Tigveni,3493,49407588
+RO311,n.a.,19338,no,Ţiţeşti,titesti,5127,23661836
+RO311,n.a.,19392,no,Uda,Uda,1959,79918053
+RO311,n.a.,19560,no,Ungheni,Ungheni,2798,74961695
+RO311,n.a.,19631,no,Valea Danului,Valea Danului,3022,32050359
+RO311,n.a.,19695,no,Valea Iaşului,Valea Iasului,2767,21850826
+RO311,n.a.,19793,no,Vedea,Vedea,3612,68355021
+RO311,n.a.,19999,no,Vlădeşti,Vladesti,3223,38873651
+RO311,n.a.,20048,no,Raca,Raca,1128,49074842
+RO311,n.a.,20055,no,Vultureşti,Vulturesti,2809,48740332
+RO311,n.a.,20063,no,Bughea de Sus,Bughea de Sus,3002,32900506
+RO211,n.a.,20297,no,Municipiul Bacău,Municipiul Bacau,196883,43069367
+RO211,n.a.,20313,no,Hemeiuş,Hemeius,5510,27954100
+RO211,n.a.,20359,no,Letea Veche,Letea Veche,6896,42356047
+RO211,n.a.,20411,no,Măgura,Magura,5098,23713933
+RO211,n.a.,20466,no,Mărgineni,Margineni,9847,83778460
+RO211,n.a.,20563,no,Municipiul Oneşti,Municipiul Onesti,52573,52474842
+RO211,n.a.,20607,no,Gura Văii,Gura Vaii,5282,70105186
+RO211,n.a.,20670,no,Ştefan cel Mare,stefan cel Mare,5250,70218298
+RO211,n.a.,20778,no,Oraş Buhuşi,Oras Buhusi,20808,39346137
+RO211,n.a.,20821,no,Oraş Comăneşti,Oras Comanesti,24037,63774964
+RO211,n.a.,20876,no,Municipiul Moineşti,Municipiul Moinesti,24684,45969854
+RO211,n.a.,20910,no,Oraş Slănic Moldova,Oras Slanic Moldova,5163,114844466
+RO211,n.a.,20965,no,Oraş Târgu Ocna,Oras Targu Ocna,13124,49046716
+RO211,n.a.,21007,no,Agăş,Agas,6233,210347110
+RO211,n.a.,21098,no,Ardeoani,Ardeoani,2491,27572400
+RO211,n.a.,21123,no,Asău,Asau,7145,307476939
+RO211,n.a.,21196,no,Balcani,Balcani,8109,113285405
+RO211,n.a.,21249,no,Bereşti-Bistriţa,Beresti-Bistrita,2242,37659854
+RO211,n.a.,21338,no,Bereşti-Tazlău,Beresti-Tazlau,5728,66741768
+RO211,n.a.,21418,no,Berzunţi,Berzunti,5360,56053920
+RO211,n.a.,21454,no,Bârsăneşti,Barsanesti,4838,70162886
+RO211,n.a.,21506,no,Blăgeşti,Blagesti,7640,96632814
+RO211,n.a.,21560,no,Bogdăneşti,Bogdanesti,2868,32017222
+RO211,n.a.,21597,no,Brusturoasa,Brusturoasa,3508,109863800
+RO211,n.a.,21668,no,Buhoci,Buhoci,5158,51104493
+RO211,n.a.,21720,no,Caşin,Casin,3968,36531655
+RO211,n.a.,21757,no,Căiuţi,Caiuti,5416,134794847
+RO211,n.a.,21855,no,Cleja,Cleja,7184,54733274
+RO211,n.a.,21891,no,Coloneşti,Colonesti,2299,44800195
+RO211,n.a.,21971,no,Corbasca,Corbasca,5558,63852105
+RO211,n.a.,22059,no,Coţofăneşti,Cotofanesti,3623,66364005
+RO211,n.a.,22111,no,Dămieneşti,Damienesti,1937,39070379
+RO211,n.a.,22166,no,Oraş Dărmăneşti,Oras Darmanesti,14753,271977313
+RO211,n.a.,22237,no,Dealu Morii,Dealu Morii,2828,70413131
+RO211,n.a.,22380,no,Dofteana,Dofteana,11296,173825510
+RO211,n.a.,22460,no,Faraoani,Faraoani,5561,38680046
+RO211,n.a.,22488,no,Filipeni,Filipeni,2278,73676764
+RO211,n.a.,22576,no,Filipeşti,Filipesti,4681,68934036
+RO211,n.a.,22665,no,Găiceana,Gaiceana,2894,73782526
+RO211,n.a.,22718,no,Ghimeş-Făget,Ghimes-Faget,4910,164317552
+RO211,n.a.,22781,no,Gârleni,Garleni,7088,35750327
+RO211,n.a.,22834,no,Glăvăneşti,Glavanesti,3381,67206979
+RO211,n.a.,22898,no,Helegiu,Helegiu,6761,78535562
+RO211,n.a.,22941,no,Horgeşti,Horgesti,5577,59295761
+RO211,n.a.,23047,no,Huruieşti,Huruiesti,2435,55377311
+RO211,n.a.,23127,no,Izvoru Berheciului,Izvoru Berheciului,1688,57552190
+RO211,n.a.,23207,no,Lipova,Lipova,3176,54188778
+RO211,n.a.,23289,no,Livezi,Livezi,5587,58023977
+RO211,n.a.,23350,no,Luizi-Călugăra,Luizi-Calugara,5346,31674824
+RO211,n.a.,23387,no,Măgireşti,Magiresti,4358,33176141
+RO211,n.a.,23449,no,Mănăstirea Caşin,Manastirea Casin,5518,245968444
+RO211,n.a.,23494,no,Motoşeni,Motoseni,3462,104600216
+RO211,n.a.,23644,no,Negri,Negri,2919,39028580
+RO211,n.a.,23715,no,Nicolae Bălcescu,Nicolae Balcescu,10074,58023006
+RO211,n.a.,23797,no,Oituz,Oituz,9508,202886392
+RO211,n.a.,23868,no,Onceşti,Oncesti,1667,47526952
+RO211,n.a.,23948,no,Orbeni,Orbeni,3955,57111789
+RO211,n.a.,23975,no,Palanca,Palanca,3470,92958082
+RO211,n.a.,24034,no,Parava,Parava,3390,45368925
+RO211,n.a.,24089,no,Parincea,Parincea,3903,65221044
+RO211,n.a.,24187,no,Pânceşti,Pancesti,4428,70465145
+RO211,n.a.,24276,no,Pârgăreşti,Pargaresti,4869,21323776
+RO211,n.a.,24338,no,Pârjol,Parjol,6540,53796751
+RO211,n.a.,24427,no,Plopana,Plopana,3403,57266446
+RO211,n.a.,24524,no,Podu Turcului,Podu Turcului,5124,89318018
+RO211,n.a.,24631,no,Poduri,Poduri,8132,72643040
+RO211,n.a.,24711,no,Racova,Racova,3578,34110291
+RO211,n.a.,24766,no,Răcăciuni,Racaciuni,8364,82011948
+RO211,n.a.,24837,no,Răchitoasa,Rachitoasa,4900,117217100
+RO211,n.a.,24999,no,Roşiori,Rosiori,2379,46587417
+RO211,n.a.,25068,no,Sascut,Sascut,10039,108198240
+RO211,n.a.,25148,no,Sănduleni,Sanduleni,4671,43243130
+RO211,n.a.,25228,no,Săuceşti,Saucesti,5419,53450217
+RO211,n.a.,25291,no,Scorţeni,Scorteni,3085,44368295
+RO211,n.a.,25362,no,Secuieni,Secuieni,2305,48712845
+RO211,n.a.,25488,no,Solonţ,Solont,3674,52276369
+RO211,n.a.,25521,no,Stănişeşti,Stanisesti,4741,81058267
+RO211,n.a.,25629,no,Strugari,Strugari,2573,59319717
+RO211,n.a.,25692,no,Tamaşi,Tamasi,3096,46439112
+RO211,n.a.,25745,no,Tătărăşti,Tatarasti,2482,54626725
+RO211,n.a.,25825,no,Târgu Trotuş,Targu Trotus,5712,32045647
+RO211,n.a.,25861,no,Traian,Traian,3164,35781992
+RO211,n.a.,25932,no,Ungureni,Ungureni,3913,86721573
+RO211,n.a.,26029,no,Urecheşti,Urechesti,3761,61760164
+RO211,n.a.,26083,no,Valea Seacă,Valea Seaca,4322,46683253
+RO211,n.a.,26118,no,Vultureni,Vultureni,2099,72474821
+RO211,n.a.,26289,no,Zemeş,Zemes,4927,106862225
+RO211,n.a.,26320,no,Sărata,Sarata,2220,21184011
+RO211,n.a.,26338,no,Buciumi,Buciumi,3240,29372236
+RO211,n.a.,26346,no,Gioseni,Gioseni,4194,29317694
+RO211,n.a.,26353,no,Odobesti,Odobesti,2456,43638517
+RO211,n.a.,26361,no,Prajesti,Prajesti,2333,18699732
+RO211,n.a.,26379,no,Iteşti,Itesti,1499,30229528
+RO111,n.a.,26564,no,Municipiul Oradea,Municipiul Oradea,222736,115244550
+RO111,n.a.,26582,no,Sânmartin,Sanmartin,10802,61691511
+RO111,n.a.,26653,no,Sântandrei,Santandrei,5726,26336190
+RO111,n.a.,26699,no,Oraş Aleşd,Oras Alesd,11290,72515703
+RO111,n.a.,26742,no,Aştileu,Astileu,3717,56037543
+RO111,n.a.,26804,no,Municipiul Beiuş,Municipiul Beius,11472,24940861
+RO111,n.a.,26840,no,Oraş Ştei,Oras stei,7430,6542275
+RO111,n.a.,26877,no,Municipiul Marghita,Municipiul Marghita,18235,84134464
+RO111,n.a.,26920,no,Oraş Nucet,Oras Nucet,2131,40937317
+RO111,n.a.,26975,no,Municipiul Salonta,Municipiul Salonta,19390,172829099
+RO111,n.a.,27007,no,Oraş Vaşcău,Oras Vascau,2428,64311649
+RO111,n.a.,27070,no,Abram,Abram,3109,67656726
+RO111,n.a.,27169,no,Abrămuţ,Abramut,3136,45625264
+RO111,n.a.,27212,no,Auşeu,Auseu,2982,72517078
+RO111,n.a.,27285,no,Avram Iancu,Avram Iancu,3465,79664499
+RO111,n.a.,27329,no,Balc,Balc,3339,78098576
+RO111,n.a.,27383,no,Batăr,Batar,5633,126734146
+RO111,n.a.,27436,no,Biharia,Biharia,4439,58525754
+RO111,n.a.,27506,no,Boianu Mare,Boianu Mare,1330,41683464
+RO111,n.a.,27560,no,Borod,Borod,4003,105837951
+RO111,n.a.,27631,no,Borş,Bors,4167,43449230
+RO111,n.a.,27686,no,Bratca,Bratca,4980,134189982
+RO111,n.a.,27757,no,Brusturi,Brusturi,3663,103449441
+RO111,n.a.,27846,no,Budureasa,Budureasa,2701,318185808
+RO111,n.a.,27908,no,Buduslău,Buduslau,2069,43637537
+RO111,n.a.,27935,no,Bulz,Bulz,2138,143478126
+RO111,n.a.,27971,no,Bunteşti,Buntesti,4457,72191065
+RO111,n.a.,28077,no,Căbeşti,Cabesti,1853,71661981
+RO111,n.a.,28139,no,Căpâlna,Capalna,1482,54295558
+RO111,n.a.,28193,no,Cărpinet,Carpinet,1834,68917393
+RO111,n.a.,28246,no,Cefa,Cefa,2363,76924147
+RO111,n.a.,28335,no,Ceica,Ceica,3544,81838263
+RO111,n.a.,28415,no,Cetariu,Cetariu,2168,68791104
+RO111,n.a.,28497,no,Cherechiu,Cherechiu,2489,54199236
+RO111,n.a.,28530,no,Chişlaz,Chislaz,3169,78302174
+RO111,n.a.,28610,no,Sâniob,Saniob,2275,57125509
+RO111,n.a.,28665,no,Ciumeghiu,Ciumeghiu,4591,109045464
+RO111,n.a.,28709,no,Câmpani,Campani,2409,45893129
+RO111,n.a.,28763,no,Cociuba Mare,Cociuba Mare,2923,72879081
+RO111,n.a.,28816,no,Copăcel,Copacel,2158,75923116
+RO111,n.a.,28889,no,Criştioru de Jos,Cristioru de Jos,1338,105764771
+RO111,n.a.,28941,no,Curăţele,Curatele,2451,90899534
+RO111,n.a.,29001,no,Curtuişeni,Curtuiseni,3999,69293866
+RO111,n.a.,29038,no,Derna,Derna,2659,49050352
+RO111,n.a.,29092,no,Diosig,Diosig,7063,91782381
+RO111,n.a.,29154,no,Dobreşti,Dobresti,5453,132359857
+RO111,n.a.,29243,no,Drăgăneşti,Draganesti,2932,37697332
+RO111,n.a.,29341,no,Drăgeşti,Dragesti,2605,52428223
+RO111,n.a.,29403,no,Finiş,Finis,3639,103844023
+RO111,n.a.,29467,1/7/2015,Girişu de Criş,Girisu de Cris,3861,44786220
+RO111,n.a.,29519,no,Hidişelu de Sus,Hidiselu de Sus,3111,90789767
+RO111,n.a.,29573,no,Holod,Holod,3202,67203239
+RO111,n.a.,29662,no,Husasău de Tinca,Husasau de Tinca,2325,119460150
+RO111,n.a.,29724,no,Ineu,Ineu,4772,50268231
+RO111,n.a.,29760,no,Lazuri de Beiuş,Lazuri de Beius,1580,59352214
+RO111,n.a.,29813,no,Lăzăreni,Lazareni,3205,79831785
+RO111,n.a.,29902,no,Lugaşu de Jos,Lugasu de Jos,3650,56995932
+RO111,n.a.,29948,no,Lunca,Lunca,2744,70024937
+RO111,n.a.,30014,no,Mădăras,Madaras,2799,94678779
+RO111,n.a.,30069,no,Măgeşti,Magesti,2724,51355628
+RO111,n.a.,30149,no,Nojorid,Nojorid,5376,122851955
+RO111,n.a.,30229,no,Olcea,Olcea,2762,88251596
+RO111,n.a.,30274,no,Oşorhei,Osorhei,6806,65028802
+RO111,n.a.,30336,no,Pietroasa,Pietroasa,3184,168050929
+RO111,n.a.,30416,no,Pocola,Pocola,1459,24034975
+RO111,n.a.,30470,no,Pomezeu,Pomezeu,2798,54657171
+RO111,n.a.,30568,no,Popeşti,Popesti,7990,109833959
+RO111,n.a.,30648,no,Răbăgani,Rabagani,2000,36463678
+RO111,n.a.,30719,no,Remetea,Remetea,2879,66571544
+RO111,n.a.,30773,no,Rieni,Rieni,3036,67633839
+RO111,n.a.,30844,no,Roşia,Rosia,2456,74144253
+RO111,n.a.,30871,no,Săcădat,Sacadat,1800,43390833
+RO111,n.a.,30915,no,Oraş Săcueni,Oras Sacueni,12678,150704503
+RO111,n.a.,30988,no,Sălacea,Salacea,3110,64157702
+RO111,n.a.,31011,no,Sălard,Salard,4498,70497588
+RO111,n.a.,31057,no,Sâmbăta,Sambata,1366,29920171
+RO111,n.a.,31128,no,Sârbi,Sarbi,2490,63079153
+RO111,n.a.,31208,no,Spinuş,Spinus,1165,29975501
+RO111,n.a.,31262,no,Suplacu de Barcău,Suplacu de Barcau,4557,43594926
+RO111,n.a.,31333,no,Şimian,Simian,4079,92142643
+RO111,n.a.,31379,no,Şinteu,Sinteu,1129,49352426
+RO111,n.a.,31422,no,Şoimi,Soimi,2521,101571584
+RO111,n.a.,31510,no,Şuncuiuş,Suncuius,3223,85043763
+RO111,n.a.,31565,no,Tarcea,Tarcea,2748,64569926
+RO111,n.a.,31609,no,Tărcaia,Tarcaia,2058,77219819
+RO111,n.a.,31654,no,Tăuteu,Tauteu,4552,64505770
+RO111,n.a.,31716,no,Tileagd,Tileagd,7063,69507973
+RO111,n.a.,31789,no,Tinca,Tinca,8351,139753260
+RO111,n.a.,31841,no,Tulca,Tulca,2729,57517804
+RO111,n.a.,31878,no,Ţeţchea,tetchea,3245,49588158
+RO111,n.a.,31921,no,Uileacu de Beiuş,Uileacu de Beius,2056,44252077
+RO111,n.a.,31976,no,Vadu Crişului,Vadu Crisului,4042,74856231
+RO111,n.a.,32027,no,Oraş Valea Lui Mihai,Oras Valea Lui Mihai,11049,73348224
+RO111,n.a.,32045,no,Viişoara,Viisoara,1329,43059367
+RO111,n.a.,32090,no,Vârciorog,Varciorog,2094,80869975
+RO111,n.a.,32153,no,Tămăşeu,Tamaseu,2064,48356892
+RO111,n.a.,32161,no,Paleu,Paleu,2788,49281067
+RO111,n.a.,32179,no,Sannicolau Roman,Sannicolau Roman,2264,74443486
+RO111,n.a.,32187,no,Rosiori,Rosiori,3022,47489853
+RO111,n.a.,32195,no,Gepiu,Gepiu,1852,42379868
+RO111,n.a.,32201,1/7/2015,Toboliu,Toboliu,2096,43237283
+RO112,n.a.,32394,no,Municipiul Bistriţa,Municipiul Bistrita,93336,145823648
+RO112,n.a.,32483,no,Oraş Beclean,Oras Beclean,12322,58604781
+RO112,n.a.,32544,no,Oraş Năsăud,Oras Nasaud,11787,43527766
+RO112,n.a.,32599,no,Oraş Sângeorz-Băi,Oras Sangeorz-Bai,11662,144020470
+RO112,n.a.,32633,no,Bistriţa Bârgăului,Bistrita Bargaului,4453,200072537
+RO112,n.a.,32660,no,Braniştea,Branistea,3159,42530840
+RO112,n.a.,32704,no,Budacu de Jos,Budacu de Jos,3254,60583173
+RO112,n.a.,32768,no,Budeşti,Budesti,1960,52408803
+RO112,n.a.,32811,no,Căianu Mic,Caianu Mic,4307,58272488
+RO112,n.a.,32884,no,Cetate,Cetate,2895,63934138
+RO112,n.a.,32955,no,Ciceu-Giurgeşti,Ciceu-Giurgesti,1569,53790690
+RO112,n.a.,33015,no,Chiochis,Chiochis,2939,92294879
+RO112,n.a.,33122,no,Chiuza,Chiuza,2218,43909908
+RO112,n.a.,33177,no,Coşbuc,Cosbuc,2031,30047534
+RO112,n.a.,33202,no,Dumitra,Dumitra,5442,85344341
+RO112,n.a.,33248,no,Feldru,Feldru,7952,123028014
+RO112,n.a.,33275,no,Galaţii Bistriţei,Galatii Bistritei,2523,70949934
+RO112,n.a.,33337,no,Ilva Mare,Ilva Mare,2519,67258711
+RO112,n.a.,33364,no,Ilva Mică,Ilva Mica,3497,53633728
+RO112,n.a.,33382,no,Josenii Bârgăului,Josenii Bargaului,5366,48794920
+RO112,n.a.,33435,no,Lechinţa,Lechinta,6247,133598245
+RO112,n.a.,33514,no,Leşu,Lesu,2943,90142965
+RO112,n.a.,33541,no,Livezile,Livezile,5097,93436803
+RO112,n.a.,33603,no,Lunca Ilvei,Lunca Ilvei,3333,110080719
+RO112,n.a.,33621,no,Maieru,Maieru,8103,149146432
+RO112,n.a.,33658,no,Matei,Matei,2621,83829852
+RO112,n.a.,33729,no,Măgura Ilvei,Magura Ilvei,2175,27037364
+RO112,n.a.,33765,no,Mărişelu,Mariselu,2570,77642390
+RO112,n.a.,33845,no,Miceştii de Câmpie,Micestii de Campie,1134,44104214
+RO112,n.a.,33881,no,Milaş,Milas,1283,49850440
+RO112,n.a.,33952,no,Monor,Monor,1420,52498578
+RO112,n.a.,33989,no,Nimigea,Nimigea,5415,99122165
+RO112,n.a.,34075,no,Nuşeni,Nuseni,2856,92285127
+RO112,n.a.,34155,no,Parva,Parva,2593,73097652
+RO112,n.a.,34173,no,Petru Rareş,Petru Rares,3807,29240976
+RO112,n.a.,34235,no,Prundu Bârgăului,Prundu Bargaului,6448,41960724
+RO112,n.a.,34262,no,Rebra,Rebra,2762,47445713
+RO112,n.a.,34280,no,Rebrişoara,Rebrisoara,4966,147860460
+RO112,n.a.,34333,no,Rodna,Rodna,6445,139154640
+RO112,n.a.,34360,no,Romuli,Romuli,1798,98439384
+RO112,n.a.,34397,no,Salva,Salva,2828,26323897
+RO112,n.a.,34422,no,Silivaşu de Câmpie,Silivasu de Campie,1015,31034891
+RO112,n.a.,34477,no,Sânmihaiu de Câmpie,Sanmihaiu de Campie,1420,65433573
+RO112,n.a.,34547,no,Spermezeu,Spermezeu,3773,82350400
+RO112,n.a.,34618,no,Şanţ,Sant,3509,267688004
+RO112,n.a.,34645,no,Şieu,Sieu,2992,72303692
+RO112,n.a.,34690,no,Şieu-Măgheruş,Sieu-Magherus,4530,59513461
+RO112,n.a.,34770,no,Şieu-Odorhei,Sieu-Odorhei,2365,52394449
+RO112,n.a.,34850,no,Şieuţ,Sieut,2651,72886343
+RO112,n.a.,34903,no,Şintereag,Sintereag,3672,72730538
+RO112,n.a.,34985,no,Teaca,Teaca,5882,139808241
+RO112,n.a.,35054,no,Telciu,Telciu,6117,285371719
+RO112,n.a.,35090,no,Tiha Bârgăului,Tiha Bargaului,6637,239905344
+RO112,n.a.,35152,no,Târlişua,Tarlisua,3473,158079979
+RO112,n.a.,35269,no,Uriu,Uriu,3714,48825119
+RO112,n.a.,35312,no,Urmeniş,Urmenis,1954,58350038
+RO112,n.a.,35429,no,Zagra,Zagra,3607,151238309
+RO212,n.a.,35731,no,Municipiul Botoşani,Municipiul Botosani,122311,41275391
+RO212,n.a.,35759,no,Curteşti,Curtesti,5379,57740869
+RO212,n.a.,35839,no,Răchiţi,Rachiti,4865,71548462
+RO212,n.a.,35884,no,Stăuceni,Stauceni,3634,43442197
+RO212,n.a.,35946,no,Oraş Darabani,Oras Darabani,12755,100836225
+RO212,n.a.,36006,no,Municipiul Dorohoi,Municipiul Dorohoi,31312,60738946
+RO212,n.a.,36060,no,Oraş Săveni,Oras Saveni,8097,58959381
+RO212,n.a.,36131,no,Albeşti,Albesti,6957,96120973
+RO212,n.a.,36202,no,Avrămeni,Avrameni,3881,78770564
+RO212,n.a.,36300,no,Băluşeni,Baluseni,5067,70448709
+RO212,n.a.,36373,no,Brăeşti,Braesti,2114,52173978
+RO212,n.a.,36426,no,Broscăuţi,Broscauti,3494,39508415
+RO212,n.a.,36453,no,Oraş Bucecea,Oras Bucecea,5415,46668163
+RO212,n.a.,36499,no,Călăraşi,Calarasi,3617,58583801
+RO212,n.a.,36532,no,Conceşti,Concesti,1885,25342374
+RO212,n.a.,36569,no,Copălău,Copalau,4380,52395490
+RO212,n.a.,36649,no,Cordăreni,Cordareni,1851,41560291
+RO212,n.a.,36676,no,Corlăteni,Corlateni,2194,50561257
+RO212,n.a.,36756,no,Corni,Corni,6756,71125802
+RO212,n.a.,36809,no,Coţuşca,Cotusca,4930,123727543
+RO212,n.a.,36907,no,Cristeşti,Cristesti,4941,78117673
+RO212,n.a.,36952,no,Cristineşti,Cristinesti,3946,62013696
+RO212,n.a.,37011,no,Dersca,Dersca,3230,38608216
+RO212,n.a.,37057,no,Dângeni,Dangeni,3038,82174008
+RO212,n.a.,37100,no,Dobârceni,Dobarceni,2643,60113318
+RO212,n.a.,37173,no,Drăguşeni,Draguseni,2688,57163105
+RO212,n.a.,37217,no,Durneşti,Durnesti,4050,74807332
+RO212,n.a.,37280,no,Oraş Flămânzi,Oras Flamanzi,11931,108503727
+RO212,n.a.,37324,no,Frumuşica,Frumusica,6092,85056740
+RO212,n.a.,37397,no,George Enescu,George Enescu,3255,59684712
+RO212,n.a.,37459,no,Gorbăneşti,Gorbanesti,3531,81981744
+RO212,n.a.,37547,no,Havârna,Havarna,4657,95583990
+RO212,n.a.,37618,no,Hăneşti,Hanesti,2194,59728374
+RO212,n.a.,37672,no,Hilişeu-Horia,Hiliseu-Horia,3601,58470843
+RO212,n.a.,37734,no,Hlipiceni,Hlipiceni,3674,69380661
+RO212,n.a.,37770,no,Hudeşti,Hudesti,6276,102828743
+RO212,n.a.,37823,no,Ibaneşti,Ibanesti,3973,46807727
+RO212,n.a.,37850,no,Leorda,Leorda,2556,41671102
+RO212,n.a.,37912,no,Lunca,Lunca,4373,73712407
+RO212,n.a.,37958,no,Manoleasa,Manoleasa,3406,93915050
+RO212,n.a.,38063,no,Mihai Eminescu,Mihai Eminescu,7871,87014458
+RO212,n.a.,38161,no,Mihăileni,Mihaileni,2654,29147471
+RO212,n.a.,38241,no,Mihălăşeni,Mihalaseni,2298,63128506
+RO212,n.a.,38321,no,Mileanca,Mileanca,2778,58965429
+RO212,n.a.,38376,no,Mitoc,Mitoc,1905,45038472
+RO212,n.a.,38456,no,Nicşeni,Nicseni,2683,45363767
+RO212,n.a.,38492,no,Păltiniş,Paltinis,3055,75526708
+RO212,n.a.,38544,no,Pomârla,Pomarla,2690,54560597
+RO212,n.a.,38580,no,Prăjeni,Prajeni,3436,35151588
+RO212,n.a.,38633,no,Rădăuţi-Prut,Radauti-Prut,3653,79553817
+RO212,n.a.,38679,no,Răuseni,Rauseni,2748,51044239
+RO212,n.a.,38731,no,Ripiceni,Ripiceni,2071,56022246
+RO212,n.a.,38811,no,Roma,Roma,3419,47146403
+RO212,n.a.,38848,no,Româneşti,Romanesti,2110,39266593
+RO212,n.a.,38893,no,Santa Mare,Santa Mare,2818,63425960
+RO212,n.a.,38982,no,Suharău,Suharau,4727,107806038
+RO212,n.a.,39051,no,Suliţa,Sulita,3132,64497457
+RO212,n.a.,39122,no,Şendriceni,sendriceni,4208,63087391
+RO212,n.a.,39168,no,Oraş Ştefăneşti,Oras stefanesti,5884,96659444
+RO212,n.a.,39220,no,Ştiubieni,stiubieni,2801,48022425
+RO212,n.a.,39266,no,Todireni,Todireni,3634,53439226
+RO212,n.a.,39328,no,Truşeşti,Trusesti,5556,100273796
+RO212,n.a.,39391,no,Tudora,Tudora,5177,74255691
+RO212,n.a.,39417,no,Ungureni,Ungureni,6708,136482823
+RO212,n.a.,39532,no,Unţeni,Unteni,2873,64530963
+RO212,n.a.,39612,no,Văculeşti,Vaculesti,2053,60439804
+RO212,n.a.,39658,no,Viişoara,Viisoara,2005,48034718
+RO212,n.a.,39694,no,Vârfu Câmpului,Varfu Campului,3443,71921662
+RO212,n.a.,39738,no,Vlădeni,Vladeni,4978,61413927
+RO212,n.a.,39792,no,Vlăsineşti,Vlasinesti,2986,67952943
+RO212,n.a.,39836,no,Vorniceni,Vorniceni,4431,60080506
+RO212,n.a.,39872,no,Vorona,Vorona,7935,82757341
+RO212,n.a.,39942,no,Lozna,Lozna,2073,25157665
+RO212,n.a.,39959,no,Dimacheni,Dimacheni,1428,37725355
+RO212,n.a.,39967,no,Cândesti,Candesti,2099,34204102
+RO212,n.a.,39975,no,Coşula,Cosula,3139,48515122
+RO212,n.a.,39983,no,Blândesti,Blandesti,2099,47200717
+RO212,n.a.,40035,no,Adăşeni,Adaseni,1466,30009106
+RO122,n.a.,40198,no,Municipiul Braşov,Municipiul Brasov,290743,186941899
+RO122,n.a.,40214,no,Oraş Ghimbav,Oras Ghimbav,5972,27072538
+RO122,n.a.,40241,no,Municipiul Codlea,Municipiul Codlea,26068,125057676
+RO122,n.a.,40278,no,Municipiul Făgăraş,Municipiul Fagaras,39953,35438837
+RO122,n.a.,40303,no,Oraş Predeal,Oras Predeal,5176,63311002
+RO122,n.a.,40367,no,Oraş Râşnov,Oras Rasnov,17698,152450015
+RO122,n.a.,40394,no,Oraş Rupea,Oras Rupea,6161,75498246
+RO122,n.a.,40438,no,Municipiul Săcele,Municipiul Sacele,36028,321365684
+RO122,n.a.,40465,no,Oraş Victoria,Oras Victoria,8831,1850326
+RO122,n.a.,40492,no,Oraş Zărneşti,Oras Zarnesti,26611,198231969
+RO122,n.a.,40526,no,Apaţa,Apata,3545,53428269
+RO122,n.a.,40544,no,Beclean,Beclean,1709,72996271
+RO122,n.a.,40606,no,Bod,Bod,4714,32333623
+RO122,n.a.,40633,no,Bran,Bran,5308,79169287
+RO122,n.a.,40688,no,Budila,Budila,4611,60985292
+RO122,n.a.,40704,no,Buneşti,Bunesti,2686,143448498
+RO122,n.a.,40768,no,Caţa,Cata,2766,119672946
+RO122,n.a.,40820,no,Cincu,Cincu,1993,116941641
+RO122,n.a.,40857,no,Comana,Comana,3067,97814216
+RO122,n.a.,40900,no,Cristian,Cristian,5007,24169982
+RO122,n.a.,40928,no,Dumbrăviţa,Dumbravita,5200,102802659
+RO122,n.a.,40955,no,Feldioara,Feldioara,7401,75868213
+RO122,n.a.,40991,no,Fundata,Fundata,785,32657748
+RO122,n.a.,41033,no,Hălchiu,Halchiu,4806,54859100
+RO122,n.a.,41088,no,Hărman,Harman,6197,54916101
+RO122,n.a.,41113,no,Hârseni,Harseni,2258,151171327
+RO122,n.a.,41177,no,Hoghiz,Hoghiz,5217,178301070
+RO122,n.a.,41248,no,Homorod,Homorod,2587,118391316
+RO122,n.a.,41284,no,Jibert,Jibert,2730,166182706
+RO122,n.a.,41346,no,Lisa,Lisa,1806,89050307
+RO122,n.a.,41382,no,Măieruş,Maierus,3205,64854207
+RO122,n.a.,41417,no,Mândra,Mandra,2959,88007195
+RO122,n.a.,41471,no,Moieciu,Moieciu,4671,109995587
+RO122,n.a.,41541,no,Ormeniş,Ormenis,2108,32377632
+RO122,n.a.,41578,no,Părău,Parau,2217,116521509
+RO122,n.a.,41621,no,Poiana Mărului,Poiana Marului,3367,63042604
+RO122,n.a.,41667,no,Prejmer,Prejmer,9600,58622014
+RO122,n.a.,41701,no,Racoş,Racos,3486,74704649
+RO122,n.a.,41738,no,Recea,Recea,3243,161792551
+RO122,n.a.,41818,no,Şercaia,Sercaia,2919,92484693
+RO122,n.a.,41854,no,Şinca,Sinca,3662,180469498
+RO122,n.a.,41925,no,Sânpetru,Sanpetru,5762,28432116
+RO122,n.a.,41943,no,Şoarş,Soars,2149,169848446
+RO122,n.a.,42003,no,Tărlungeni,Tarlungeni,9290,131202842
+RO122,n.a.,42058,no,Teliu,Teliu,4455,54930895
+RO122,n.a.,42076,no,Ticuşu,Ticusu,1076,69507606
+RO122,n.a.,42101,no,Ucea,Ucea,2358,102999133
+RO122,n.a.,42156,no,Ungra,Ungra,2282,68461070
+RO122,n.a.,42183,no,Vama Buzăului,Vama Buzaului,3544,161039849
+RO122,n.a.,42236,no,Viştea,Vistea,2218,100022534
+RO122,n.a.,42307,no,Voila,Voila,3146,84096169
+RO122,n.a.,42398,no,Vulcan,Vulcan,5002,44268354
+RO122,n.a.,42449,no,Şinca Nouă,Sinca Noua,1595,81453568
+RO122,n.a.,42456,no,Crizbav,Crizbav,2784,53093201
+RO122,n.a.,42464,no,Sambata de Sus,Sambata de Sus,1527,69757410
+RO122,n.a.,42472,no,Holbav,Holbav,1428,29037198
+RO122,n.a.,42480,no,Drăgus,Dragus,1102,42144724
+RO122,n.a.,42498,no,Augustin,Augustin,2018,15457250
+RO221,n.a.,42682,no,Municipiul Brăila,Municipiul Braila,210602,43657263
+RO221,n.a.,42708,no,Chişcani,Chiscani,5789,101845109
+RO221,n.a.,42753,no,Oraş Făurei,Oras Faurei,4074,18904368
+RO221,n.a.,42771,no,Surdila-Greci,Surdila-Greci,1518,90002964
+RO221,n.a.,42824,no,Bărăganul,Baraganul,3194,72868660
+RO221,n.a.,42842,no,Berteştii de Jos,Bertestii de Jos,3113,135428867
+RO221,n.a.,42913,no,Bordei Verde,Bordei Verde,2696,86536666
+RO221,n.a.,42968,no,Ciocile,Ciocile,2629,77329855
+RO221,n.a.,43019,no,Cireşu,Ciresu,3087,109104381
+RO221,n.a.,43073,no,Dudeşti,Dudesti,3734,117568516
+RO221,n.a.,43117,no,Frecăţei,Frecatei,1416,429772522
+RO221,n.a.,43180,no,Galbenu,Galbenu,3165,83576976
+RO221,n.a.,43242,no,Gemenele,Gemenele,1836,44917024
+RO221,n.a.,43279,no,Gradiştea,Gradistea,2229,64556745
+RO221,n.a.,43313,no,Gropeni,Gropeni,3412,118473654
+RO221,n.a.,43331,no,Oraş Ianca,Oras Ianca,11087,185888289
+RO221,n.a.,43411,no,Oraş Însurăţei,Oras insuratei,7130,212703697
+RO221,n.a.,43466,no,Jirlău,Jirlau,3221,52232821
+RO221,n.a.,43493,no,Măraşu,Marasu,2891,371516626
+RO221,n.a.,43563,no,Măxineni,Maxineni,3483,134169055
+RO221,n.a.,43625,no,Mircea Voda,Mircea Voda,3318,106435503
+RO221,n.a.,43652,no,Movila Miresii,Movila Miresii,4219,85913607
+RO221,n.a.,43698,no,Racoviţa,Racovita,1116,50285646
+RO221,n.a.,43732,no,Râmnicelu,Ramnicelu,2029,78968887
+RO221,n.a.,43787,no,Romanu,Romanu,1840,70895165
+RO221,n.a.,43812,no,Roşiori,Rosiori,2725,73331092
+RO221,n.a.,43867,no,Salcia Tudor,Salcia Tudor,2600,107084493
+RO221,n.a.,43929,no,Scorţaru Nou,Scortaru Nou,1356,98150382
+RO221,n.a.,43992,no,Siliştea,Silistea,1875,119193386
+RO221,n.a.,44060,no,Stăncuţa,Stancuta,3460,217080901
+RO221,n.a.,44113,no,Surdila-Găiseanca,Surdila-Gaiseanca,2457,61638152
+RO221,n.a.,44140,no,Şuţeşti,sutesti,4678,67982286
+RO221,n.a.,44177,no,Tichileşti,Tichilesti,3702,63479424
+RO221,n.a.,44202,no,Traian,Traian,3381,164193195
+RO221,n.a.,44257,no,Tudor Vladimirescu,Tudor Vladimirescu,2183,78888159
+RO221,n.a.,44300,no,Tufeşti,Tufesti,5217,72170842
+RO221,n.a.,44328,no,Ulmu,Ulmu,3798,101505296
+RO221,n.a.,44355,no,Unirea,Unirea,2491,68192385
+RO221,n.a.,44391,no,Vădeni,Vadeni,4121,155822544
+RO221,n.a.,44435,no,Victoria,Victoria,3714,75240404
+RO221,n.a.,44462,no,Vişani,Visani,2474,76779954
+RO221,n.a.,44505,no,Viziru,Viziru,6493,105650523
+RO221,n.a.,44532,no,Zăvoaia,Zavoaia,3218,88557143
+RO221,n.a.,44560,no,Cazasu,Cazasu,3425,27231408
+RO222,n.a.,44818,no,Municipiul Buzău,Municipiul Buzau,135601,81786524
+RO222,n.a.,44845,no,Municipiul Râmnicu Sărat,Municipiul Ramnicu Sarat,40821,52464710
+RO222,n.a.,44863,no,Amaru,Amaru,2417,67669658
+RO222,n.a.,44934,no,Balta Albă,Balta Alba,2487,84714927
+RO222,n.a.,44989,no,Bălăceanu,Balaceanu,1641,31474703
+RO222,n.a.,45003,no,Beceni,Beceni,4429,76430889
+RO222,n.a.,45101,no,Berca,Berca,8754,74313265
+RO222,n.a.,45245,no,Bisoca,Bisoca,2767,72716718
+RO222,n.a.,45334,no,Blăjani,Blajani,1036,22806279
+RO222,n.a.,45361,no,Boldu,Boldu,2268,71775253
+RO222,n.a.,45389,no,Bozioru,Bozioru,1085,36689481
+RO222,n.a.,45496,no,Brădeanu,Bradeanu,2479,75407791
+RO222,n.a.,45539,no,Braesti,Braesti,2470,46584858
+RO222,n.a.,45619,no,Breaza,Breaza,2713,50061744
+RO222,n.a.,45673,no,Buda,Buda,3059,44005092
+RO222,n.a.,45753,no,Calvini,Calvini,4732,59164160
+RO222,n.a.,45815,no,C.A. Rosetti,C.A. Rosetti,3665,111346818
+RO222,n.a.,45888,no,Căneşti,Canesti,810,31004969
+RO222,n.a.,45959,no,Cătina,Catina,2500,38035769
+RO222,n.a.,46019,no,Cernăteşti,Cernatesti,3723,50428081
+RO222,n.a.,46108,no,Chiliile,Chiliile,567,35675437
+RO222,n.a.,46180,no,Chiojdu,Chiojdu,3448,128657179
+RO222,n.a.,46251,no,Cilibia,Cilibia,1878,49721229
+RO222,n.a.,46313,no,Cislău,Cislau,4773,61991174
+RO222,n.a.,46377,no,Cochirleanca,Cochirleanca,5502,78467444
+RO222,n.a.,46439,no,Colţi,Colti,1047,34935303
+RO222,n.a.,46484,no,Costeşti,Costesti,4953,60821561
+RO222,n.a.,46554,no,Cozieni,Cozieni,2009,55587407
+RO222,n.a.,46769,no,Gălbinaşi,Galbinasi,4263,76853233
+RO222,n.a.,46803,no,Gherăseni,Gheraseni,3409,51425718
+RO222,n.a.,46830,no,Ghergheasa,Ghergheasa,2281,55828555
+RO222,n.a.,46867,no,Glodeanu Sărat,Glodeanu Sarat,4237,58835833
+RO222,n.a.,46910,no,Glodeanu-Siliştea,Glodeanu-Silistea,3746,98224239
+RO222,n.a.,47006,no,Grebănu,Grebanu,5416,57515651
+RO222,n.a.,47079,no,Gura Teghii,Gura Teghii,3469,460431907
+RO222,n.a.,47159,no,Largu,Largu,1565,41935069
+RO222,n.a.,47186,no,Lopătari,Lopatari,3951,102398128
+RO222,n.a.,47300,no,Luciu,Luciu,2855,86714989
+RO222,n.a.,47337,no,Măgura,Magura,2152,26420516
+RO222,n.a.,47373,no,Mărăcineni,Maracineni,8829,30032481
+RO222,n.a.,47417,no,Mărgăriteşti,Margaritesti,647,23005118
+RO222,n.a.,47453,no,Merei,Merei,6772,99151545
+RO222,n.a.,47578,no,Mihăileşti,Mihailesti,2116,28715102
+RO222,n.a.,47630,no,Mânzăleşti,Manzalesti,2474,94944188
+RO222,n.a.,47774,no,Movila Banului,Movila Banului,2587,67310793
+RO222,n.a.,47818,no,Murgeşti,Murgesti,897,29315960
+RO222,n.a.,47854,no,Năeni,Naeni,1779,44177540
+RO222,n.a.,47916,no,Oraş Nehoiu,Oras Nehoiu,11208,112779388
+RO222,n.a.,48021,no,Odăile,Odaile,854,35960690
+RO222,n.a.,48138,no,Padina,Padina,4105,188841022
+RO222,n.a.,48165,no,Pardoşi,Pardosi,400,22716704
+RO222,n.a.,48227,no,Pănătău,Panatau,2418,50109764
+RO222,n.a.,48325,no,Oraş Patârlagele,Oras Patarlagele,7749,80292042
+RO222,n.a.,48487,no,Pietroasele,Pietroasele,3296,55860337
+RO222,n.a.,48557,no,Pârscov,Parscov,5640,58411328
+RO222,n.a.,48682,no,Podgoria,Podgoria,3206,51514972
+RO222,n.a.,48744,no,Oraş Pogoanele,Oras Pogoanele,7552,124144776
+RO222,n.a.,48771,no,Poşta Câlnău,Posta Calnau,6144,81266385
+RO222,n.a.,48842,no,Puieşti,Puiesti,3887,100489992
+RO222,n.a.,48922,no,Racoviţeni,Racoviteni,1315,33067034
+RO222,n.a.,48968,no,Râmnicelu,Ramnicelu,4892,48469410
+RO222,n.a.,49019,no,Robeasca,Robeasca,1093,26670486
+RO222,n.a.,49046,no,Ruşeţu,Rusetu,3833,101836183
+RO222,n.a.,49073,no,Săgeata,Sageata,4773,102441789
+RO222,n.a.,49153,no,Săhăteni,Sahateni,3394,70460728
+RO222,n.a.,49206,no,Săpoca,Sapoca,3425,26610905
+RO222,n.a.,49233,no,Săruleşti,Sarulesti,1363,33654208
+RO222,n.a.,49313,no,Scorţoasa,Scortoasa,2820,95953181
+RO222,n.a.,49439,no,Scutelnici,Scutelnici,2322,67650841
+RO222,n.a.,49484,no,Siriu,Siriu,3232,222310961
+RO222,n.a.,49545,no,Smeeni,Smeeni,6632,104770868
+RO222,n.a.,49625,no,Stâlpu,Stalpu,3127,42378227
+RO222,n.a.,49643,no,Tisău,Tisau,4599,101752204
+RO222,n.a.,49769,no,Topliceni,Topliceni,4365,67248342
+RO222,n.a.,49849,no,Ţinteşti,tintesti,4535,71792212
+RO222,n.a.,49894,no,Ulmeni,Ulmeni,3153,36528806
+RO222,n.a.,49956,no,Vadu Paşii,Vadu Pasii,9711,81903145
+RO222,n.a.,50022,no,Valea Râmnicului,Valea Ramnicului,5681,56251544
+RO222,n.a.,50068,no,Valea Salciei,Valea Salciei,746,32466018
+RO222,n.a.,50102,no,Verneşti,Vernesti,9101,91739535
+RO222,n.a.,50228,no,Vintilă Vodă,Vintila Voda,2983,68066346
+RO222,n.a.,50326,no,Vipereşti,Viperesti,3536,65774198
+RO222,n.a.,50399,no,Vâlcelele,Valcelele,1494,47865817
+RO222,n.a.,50415,no,Zărneşti,Zarnesti,5074,78191028
+RO222,n.a.,50479,no,Ziduri,Ziduri,4422,86151961
+RO222,n.a.,50549,no,Unguriu,Unguriu,2301,16076313
+RO222,n.a.,50564,no,Florica,Florica,1351,42090977
+RO422,n.a.,50790,no,Municipiul Reşiţa,Municipiul Resita,88533,198337305
+RO422,n.a.,50889,no,Oraş Anina,Oras Anina,9331,147050795
+RO422,n.a.,50923,no,Oraş Băile Herculane,Oras Baile Herculane,5167,70418938
+RO422,n.a.,50969,no,Oraş Bocşa,Oras Bocsa,19124,121086575
+RO422,n.a.,50987,no,Ocna de Fier,Ocna de Fier,723,21937128
+RO422,n.a.,51010,no,Municipiul Caransebeş,Municipiul Caransebes,30495,67716187
+RO422,n.a.,51056,no,Oraş Moldova Nouă,Oras Moldova Noua,13548,118521982
+RO422,n.a.,51118,no,Oraş Oraviţa,Oras Oravita,13353,160803954
+RO422,n.a.,51207,no,Oraş Oţelu Roşu,Oras Otelu Rosu,12684,61024873
+RO422,n.a.,51243,no,Armeniş,Armenis,2433,142729990
+RO422,n.a.,51305,no,Bănia,Bania,1747,195377139
+RO422,n.a.,51332,no,Băuţar,Bautar,2573,188941269
+RO422,n.a.,51387,no,Berlişte,Berliste,1257,60928749
+RO422,n.a.,51449,no,Berzasca,Berzasca,2771,266884536
+RO422,n.a.,51500,no,Berzovia,Berzovia,3940,118988125
+RO422,n.a.,51546,no,Bolvaşniţa,Bolvasnita,1390,89259609
+RO422,n.a.,51573,no,Bozovici,Bozovici,3016,195053760
+RO422,n.a.,51626,no,Brebu,Brebu,1155,75155893
+RO422,n.a.,51662,no,Brebu Nou,Brebu Nou,298,28897804
+RO422,n.a.,51699,no,Buchin,Buchin,2032,88452252
+RO422,n.a.,51751,no,Bucoşniţa,Bucosnita,2791,97692072
+RO422,n.a.,51804,no,Caraşova,Carasova,2976,143510025
+RO422,n.a.,51840,no,Cărbunari,Carbunari,982,67971724
+RO422,n.a.,51877,no,Constantin Daicoviciu,Constantin Daicoviciu,2789,105147388
+RO422,n.a.,51948,no,Ciclova Română,Ciclova Romana,1606,115956503
+RO422,n.a.,51984,no,Ciuchici,Ciuchici,1056,61158746
+RO422,n.a.,52035,no,Ciudanoviţa,Ciudanovita,680,56103578
+RO422,n.a.,52062,no,Copăcele,Copacele,1136,53682148
+RO422,n.a.,52115,no,Cornea,Cornea,1766,43946490
+RO422,n.a.,52160,no,Cornereva,Cornereva,2965,260231075
+RO422,n.a.,52570,no,Dalboşeţ,Dalboset,1675,105043325
+RO422,n.a.,52650,no,Doclin,Doclin,1940,121234078
+RO422,n.a.,52696,no,Dognecea,Dognecea,2151,74989242
+RO422,n.a.,52721,no,Domaşnea,Domasnea,1310,51800412
+RO422,n.a.,52758,no,Ezeriş,Ezeris,1303,75964236
+RO422,n.a.,52785,no,Fârliug,Farliug,1739,140020307
+RO422,n.a.,52856,no,Forotic,Forotic,1783,104874052
+RO422,n.a.,52909,no,Gârnic,Garnic,1447,46429130
+RO422,n.a.,52936,no,Glimboca,Glimboca,1871,47113736
+RO422,n.a.,52954,no,Goruia,Goruia,790,62237551
+RO422,n.a.,52990,no,Grădinari,Gradinari,2056,45553600
+RO422,n.a.,53023,no,Iablaniţa,Iablanita,2141,118823520
+RO422,n.a.,53069,no,Lăpuşnicel,Lapusnicel,993,74170981
+RO422,n.a.,53103,no,Lăpuşnicu Mare,Lapusnicu Mare,1695,127751572
+RO422,n.a.,53130,no,Luncaviţa,Luncavita,2441,51485109
+RO422,n.a.,53167,no,Lupac,Lupac,2664,66941735
+RO422,n.a.,53210,no,Marga,Marga,1095,54155122
+RO422,n.a.,53247,no,Măureni,Maureni,2940,90004759
+RO422,n.a.,53274,no,Mehadia,Mehadia,4139,203227723
+RO422,n.a.,53327,no,Mehadica,Mehadica,696,117045548
+RO422,n.a.,53345,no,Naidăş,Naidas,1083,63991938
+RO422,n.a.,53372,no,Obreja,Obreja,3434,123054277
+RO422,n.a.,53425,no,Păltiniş,Paltinis,2453,100755929
+RO422,n.a.,53489,no,Coronini,Coronini,1978,35056707
+RO422,n.a.,53513,no,Pojejena,Pojejena,2861,133735850
+RO422,n.a.,53577,no,Prigor,Prigor,2483,301240631
+RO422,n.a.,53639,no,Ramna,Ramna,1601,100184462
+RO422,n.a.,53675,no,Răcăşdia,Racasdia,2116,62375305
+RO422,n.a.,53700,no,Eftimie Murgu,Eftimie Murgu,1602,92502996
+RO422,n.a.,53728,no,Rusca Montană,Rusca Montana,1944,153839263
+RO422,n.a.,53755,no,Sacu,Sacu,1604,60809929
+RO422,n.a.,53791,no,Sasca Montană,Sasca Montana,1498,129232811
+RO422,n.a.,53853,no,Sicheviţa,Sichevita,2131,126260491
+RO422,n.a.,54056,no,Slatina-Timiş,Slatina-Timis,3018,149674255
+RO422,n.a.,54109,no,Socol,Socol,2171,69751007
+RO422,n.a.,54163,no,Şopotu Nou,sopotu Nou,1164,72308567
+RO422,n.a.,54270,no,Teregova,Teregova,4059,336318522
+RO422,n.a.,54305,no,Ticvaniu Mare,Ticvaniu Mare,1996,120597463
+RO422,n.a.,54350,no,Târnova,Tarnova,1670,50008309
+RO422,n.a.,54387,no,Topleţ,Toplet,2611,93091234
+RO422,n.a.,54412,no,Turnu Ruieni,Turnu Ruieni,3481,150048507
+RO422,n.a.,54485,no,Văliug,Valiug,769,97987446
+RO422,n.a.,54500,no,Vărădia,Varadia,1420,87343000
+RO422,n.a.,54537,no,Vermeş,Vermes,1534,114358977
+RO422,n.a.,54573,no,Vrani,Vrani,1169,43827816
+RO422,n.a.,54617,no,Zăvoi,Zavoi,4143,391295485
+RO422,n.a.,54699,no,Zorlenţu Mare,Zorlentu Mare,868,70560598
+RO113,n.a.,54975,no,Municipiul Cluj-Napoca,Municipiul Cluj-Napoca,321687,179225347
+RO113,n.a.,55008,no,Municipiul Dej,Municipiul Dej,38970,108889743
+RO113,n.a.,55062,no,Cuzdrioara,Cuzdrioara,2986,23877303
+RO113,n.a.,55106,no,Jichişu de Jos,Jichisu de Jos,1151,43434033
+RO113,n.a.,55160,no,Mica,Mica,3616,64823515
+RO113,n.a.,55259,no,Municipiul Turda,Municipiul Turda,57304,91523465
+RO113,n.a.,55277,no,Mihai Viteazu,Mihai Viteazu,5791,47624102
+RO113,n.a.,55311,no,Sănduleşti,Sandulesti,2008,22322697
+RO113,n.a.,55357,no,Municipiul Câmpia Turzii,Municipiul Campia Turzii,28284,23768546
+RO113,n.a.,55384,no,Municipiul Gherla,Municipiul Gherla,23235,36273723
+RO113,n.a.,55446,no,Oraş Huedin,Oras Huedin,9598,61229870
+RO113,n.a.,55473,no,Aghireşu,Aghiresu,6785,105783268
+RO113,n.a.,55598,no,Aiton,Aiton,1042,45258029
+RO113,n.a.,55623,no,Aluniş,Alunis,1210,56522543
+RO113,n.a.,55687,no,Apahida,Apahida,11921,106016875
+RO113,n.a.,55776,no,Aşchileu,Aschileu,1602,64518631
+RO113,n.a.,55838,no,Baciu,Baciu,10810,87527255
+RO113,n.a.,55918,no,Băişoara,Baisoara,2059,110745216
+RO113,n.a.,56014,no,Beliş,Belis,1327,205438769
+RO113,n.a.,56096,no,Bobâlna,Bobalna,1495,97473682
+RO113,n.a.,56210,no,Bonţida,Bontida,4878,81369746
+RO113,n.a.,56265,no,Borşa,Borsa,1380,61586732
+RO113,n.a.,56327,no,Buza,Buza,1281,29744743
+RO113,n.a.,56354,no,Căianu,Caianu,2384,54881896
+RO113,n.a.,56425,no,Călăraşi,Calarasi,2437,37822346
+RO113,n.a.,56461,no,Călăţele,Calatele,2455,75052378
+RO113,n.a.,56522,no,Cămăraşu,Camarasu,2777,48179841
+RO113,n.a.,56568,no,Căpuşu Mare,Capusu Mare,3109,134397746
+RO113,n.a.,56666,no,Căşeiu,Caseiu,4780,83265515
+RO113,n.a.,56773,no,Cătina,Catina,1871,53086380
+RO113,n.a.,56844,no,Ceanu Mare,Ceanu Mare,3926,95034271
+RO113,n.a.,56988,no,Chinteni,Chinteni,3143,96487865
+RO113,n.a.,57083,no,Chiuieşti,Chiuiesti,2530,112360017
+RO113,n.a.,57163,no,Ciucea,Ciucea,1569,48639720
+RO113,n.a.,57225,no,Ciurila,Ciurila,1460,72331885
+RO113,n.a.,57314,no,Câţcău,Catcau,2315,37567360
+RO113,n.a.,57350,no,Cojocna,Cojocna,4187,138591211
+RO113,n.a.,57449,no,Corneşti,Cornesti,1381,82956897
+RO113,n.a.,57546,no,Dăbâca,Dabaca,1445,50229981
+RO113,n.a.,57582,no,Feleacu,Feleacu,3765,61941118
+RO113,n.a.,57644,no,Fizeşu Gherlii,Fizesu Gherlii,2674,67217424
+RO113,n.a.,57706,no,Floreşti,Floresti,28144,60860489
+RO113,n.a.,57742,no,Frata,Frata,4085,72873913
+RO113,n.a.,57831,no,Geaca,Geaca,1554,68196559
+RO113,n.a.,57902,no,Gilău,Gilau,8701,117219717
+RO113,n.a.,57948,no,Gârbău,Garbau,2315,72103256
+RO113,n.a.,58008,no,Iara,Iara,4061,143736052
+RO113,n.a.,58142,no,Iclod,Iclod,4359,67892752
+RO113,n.a.,58204,no,Izvoru Crişului,Izvoru Crisului,1555,41393237
+RO113,n.a.,58259,no,Jucu,Jucu,4319,84134510
+RO113,n.a.,58311,no,Luna,Luna,4681,53180520
+RO113,n.a.,58357,no,Măguri-Răcătău,Maguri-Racatau,2376,268330740
+RO113,n.a.,58393,no,Mănăstireni,Manastireni,1448,62694555
+RO113,n.a.,58464,no,Mărgău,Margau,1586,211927663
+RO113,n.a.,58534,no,Mărişel,Marisel,1570,85669125
+RO113,n.a.,58552,no,Mintiu Gherlii,Mintiu Gherlii,3829,78502959
+RO113,n.a.,58623,no,Mociu,Mociu,3330,72513993
+RO113,n.a.,58721,no,Moldoveneşti,Moldovenesti,3228,139018697
+RO113,n.a.,58794,no,Pălatca,Palatca,1123,50129962
+RO113,n.a.,58856,no,Panticeu,Panticeu,1733,90441951
+RO113,n.a.,58918,no,Petreştii de Jos,Petrestii de Jos,1541,72696063
+RO113,n.a.,58990,no,Ploscoş,Ploscos,690,41649335
+RO113,n.a.,59041,no,Poieni,Poieni,5051,186388784
+RO113,n.a.,59130,no,Recea-Cristur,Recea-Cristur,1380,76149660
+RO113,n.a.,59238,no,Rişca,Risca,1494,65783797
+RO113,n.a.,59283,no,Săcuieu,Sacuieu,1494,120965911
+RO113,n.a.,59327,no,Săvădisla,Savadisla,4174,110049436
+RO113,n.a.,59416,no,Sic,Sic,2405,56245617
+RO113,n.a.,59434,no,Sâncraiu,Sancraiu,1572,57139958
+RO113,n.a.,59498,no,Sânmărtin,Sanmartin,1384,71702087
+RO113,n.a.,59586,no,Sânpaul,Sanpaul,2272,93211166
+RO113,n.a.,59657,no,Suatu,Suatu,1667,53071646
+RO113,n.a.,59693,no,Tritenii de Jos,Tritenii de Jos,4693,59439646
+RO113,n.a.,59764,no,Tureni,Tureni,2235,73967143
+RO113,n.a.,59826,no,Ţaga,taga,1820,99978725
+RO113,n.a.,59880,no,Unguraş,Unguras,2737,63621290
+RO113,n.a.,59942,no,Vad,Vad,2026,77218898
+RO113,n.a.,60026,no,Valea Ierii,Valea Ierii,937,148445857
+RO113,n.a.,60062,no,Viişoara,Viisoara,5997,61526572
+RO113,n.a.,60099,no,Vultureni,Vultureni,1368,71573438
+RO113,n.a.,60169,no,Negreni,Negreni,2393,65491074
+RO223,n.a.,60419,no,Municipiul Constanţa,Municipiul Constanta,317832,116196723
+RO223,n.a.,60455,no,Oraş Eforie,Oras Eforie,10978,7923476
+RO223,n.a.,60482,no,Municipiul Mangalia,Municipiul Mangalia,42208,52911348
+RO223,n.a.,60507,no,Oraş Năvodari,Oras Navodari,41660,67702817
+RO223,n.a.,60534,no,Oraş Techirghiol,Oras Techirghiol,8073,37915538
+RO223,n.a.,60570,no,Agigea,Agigea,7932,53814465
+RO223,n.a.,60598,no,23 August,23 August,5751,77948417
+RO223,n.a.,60632,no,Limanu,Limanu,6553,85343833
+RO223,n.a.,60687,no,Oraş Ovidiu,Oras Ovidiu,15613,83983385
+RO223,n.a.,60721,no,Tuzla,Tuzla,7115,50802487
+RO223,n.a.,60776,no,Oraş Cernavoda,Oras Cernavoda,19401,43716503
+RO223,n.a.,60801,no,Oraş Hârşova,Oras Harsova,11228,101815147
+RO223,n.a.,60847,no,Municipiul Medgidia,Municipiul Medgidia,46045,82432470
+RO223,n.a.,60883,no,Adamclisi,Adamclisi,2388,138003866
+RO223,n.a.,60945,no,Albeşti,Albesti,3755,129836922
+RO223,n.a.,61005,no,Aliman,Aliman,2888,129779759
+RO223,n.a.,61069,no,Oraş Baneasa,Oras Baneasa,5830,111749454
+RO223,n.a.,61121,no,Castelu,Castelu,5408,58442981
+RO223,n.a.,61167,no,Cerchezu,Cerchezu,1436,83665874
+RO223,n.a.,61210,no,Chirnogeni,Chirnogeni,3403,121057165
+RO223,n.a.,61256,no,Ciobanu,Ciobanu,3523,85025367
+RO223,n.a.,61283,no,Ciocârlia,Ciocarlia,3141,139310012
+RO223,n.a.,61318,no,Cobadin,Cobadin,9493,185773382
+RO223,n.a.,61372,no,Cogealac,Cogealac,5597,169394330
+RO223,n.a.,61452,no,Comana,Comana,2018,82486033
+RO223,n.a.,61513,no,Corbu,Corbu,6289,154028417
+RO223,n.a.,61559,no,Crucea,Crucea,3253,201144506
+RO223,n.a.,61620,no,Cumpăna,Cumpana,14209,44905887
+RO223,n.a.,61675,no,Deleni,Deleni,2488,170697087
+RO223,n.a.,61737,no,Dobromir,Dobromir,3501,140962281
+RO223,n.a.,61808,no,Gârliciu,Garliciu,1739,65934099
+RO223,n.a.,61826,no,Ghindăreşti,Ghindaresti,2724,19177826
+RO223,n.a.,61871,no,Independenţa,Independenta,3054,191930790
+RO223,n.a.,61951,no,Ion Corvin,Ion Corvin,2090,105499860
+RO223,n.a.,62020,no,Istria,Istria,2588,174762899
+RO223,n.a.,62057,no,Lipniţa,Lipnita,3233,173727835
+RO223,n.a.,62137,no,Mereni,Mereni,2471,76324504
+RO223,n.a.,62191,no,Mihail Kogălniceanu,Mihail Kogalniceanu,10300,161416528
+RO223,n.a.,62253,no,Mihai Viteazu,Mihai Viteazu,3722,201699252
+RO223,n.a.,62280,no,Mircea Vodă,Mircea Voda,5366,70844678
+RO223,n.a.,62360,no,Oraş Murfatlar,Oras Murfatlar,11633,66665206
+RO223,n.a.,62397,no,Oraş Negru Vodă,Oras Negru Voda,5778,157177439
+RO223,n.a.,62440,no,Nicolae Bălcescu,Nicolae Balcescu,5501,140352469
+RO223,n.a.,62486,no,Oltina,Oltina,2696,117869508
+RO223,n.a.,62538,no,Ostrov,Ostrov,5034,177079294
+RO223,n.a.,62609,no,Pantelimon,Pantelimon,1839,142213297
+RO223,n.a.,62672,no,Pecineaga,Pecineaga,3416,79626553
+RO223,n.a.,62707,no,Peştera,Pestera,3562,210550423
+RO223,n.a.,62761,no,Poarta Albă,Poarta Alba,5625,61867814
+RO223,n.a.,62798,no,Rasova,Rasova,3900,113974267
+RO223,n.a.,62823,no,Saraiu,Saraiu,1334,124597565
+RO223,n.a.,62878,no,Săcele,Sacele,2405,144116995
+RO223,n.a.,62903,no,Seimeni,Seimeni,2231,106659130
+RO223,n.a.,62949,no,Siliştea,Silistea,1519,76959079
+RO223,n.a.,62985,no,Târguşor,Targusor,1680,105585494
+RO223,n.a.,63045,no,Topalu,Topalu,1816,92042977
+RO223,n.a.,63072,no,Topraisar,Topraisar,6182,146998860
+RO223,n.a.,63125,no,Valu Lui Traian,Valu Lui Traian,14715,64488074
+RO223,n.a.,63152,no,Lumina,Lumina,10603,41598735
+RO223,n.a.,63161,no,Dumbrăveni,Dumbraveni,562,33621923
+RO223,n.a.,63170,no,Vulturu,Vulturu,748,68232090
+RO223,n.a.,63189,no,Tortoman,Tortoman,1925,80098172
+RO223,n.a.,63198,no,Amzacea,Amzacea,2853,109122204
+RO223,n.a.,63278,no,Horia,Horia,1172,70228936
+RO223,n.a.,63286,no,Costineşti,Costinesti,3170,19230478
+RO223,n.a.,63294,no,Bărăganu,Baraganu,2148,65323097
+RO223,n.a.,63300,no,Cuza Voda,Cuza Voda,4356,46644292
+RO223,n.a.,63318,no,Saligny,Saligny,2283,37601268
+RO223,n.a.,63326,no,Grădina,Gradina,1154,96308207
+RO223,n.a.,63334,no,Fântânele,Fantanele,1632,56672180
+RO123,n.a.,63394,no,Municipiul Sfântul Gheorghe,Municipiul Sfantul Gheorghe,65080,72641514
+RO123,n.a.,63447,no,Oraş Baraolt,Oras Baraolt,9362,133085273
+RO123,n.a.,63526,no,Oraş Covasna,Oras Covasna,11339,154855027
+RO123,n.a.,63553,no,Comandău,Comandau,1011,31528244
+RO123,n.a.,63580,no,Oraş Întorsura Buzăului,Oras intorsura Buzaului,9357,60250441
+RO123,n.a.,63633,no,Barcani,Barcani,4018,65657666
+RO123,n.a.,63688,no,Sita Buzăului,Sita Buzaului,4877,131333352
+RO123,n.a.,63740,no,Municipiul Târgu Secuiesc,Municipiul Targu Secuiesc,20275,48628553
+RO123,n.a.,63777,no,Aita Mare,Aita Mare,1671,66058313
+RO123,n.a.,63802,no,Băţani,Batani,4680,221647979
+RO123,n.a.,63866,no,Belin,Belin,3030,69525598
+RO123,n.a.,63893,no,Bodoc,Bodoc,2579,77513361
+RO123,n.a.,63937,no,Boroşneu Mare,Borosneu Mare,3292,64793689
+RO123,n.a.,64005,no,Brateş,Brates,1496,33963421
+RO123,n.a.,64041,no,Brăduţ,Bradut,5102,169247283
+RO123,n.a.,64096,no,Breţcu,Bretcu,3703,112752018
+RO123,n.a.,64130,no,Catalina,Catalina,3391,55045808
+RO123,n.a.,64194,no,Cernat,Cernat,4034,114611197
+RO123,n.a.,64238,no,Chichiş,Chichis,1583,21077232
+RO123,n.a.,64265,no,Dobârlău,Dobarlau,2195,51737310
+RO123,n.a.,64318,no,Ghelinţa,Ghelinta,5172,110280116
+RO123,n.a.,64345,no,Ghidfalău,Ghidfalau,2673,68090418
+RO123,n.a.,64390,no,Hăghig,Haghig,2327,46859006
+RO123,n.a.,64425,no,Ilieni,Ilieni,2014,54303549
+RO123,n.a.,64461,no,Lemnia,Lemnia,1929,95260116
+RO123,n.a.,64504,no,Malnaş,Malnas,1066,40869305
+RO123,n.a.,64568,no,Moacşa,Moacsa,1216,33334533
+RO123,n.a.,64602,no,Ojdula,Ojdula,3586,112728068
+RO123,n.a.,64639,no,Ozun,Ozun,4652,84499347
+RO123,n.a.,64719,no,Poian,Poian,1772,58973759
+RO123,n.a.,64773,no,Reci,Reci,2299,55608584
+RO123,n.a.,64826,no,Sânzieni,Sanzieni,4677,99864167
+RO123,n.a.,64871,no,Turia,Turia,3894,147173906
+RO123,n.a.,64906,no,Valea Crişului,Valea Crisului,2428,52897418
+RO123,n.a.,64942,no,Vâlcele,Valcele,5020,57941721
+RO123,n.a.,64997,no,Vârghiş,Varghis,1849,70510631
+RO123,n.a.,65011,no,Zagon,Zagon,5348,290654942
+RO123,n.a.,65048,no,Zăbala,Zabala,4869,126080315
+RO123,n.a.,65099,no,Valea Mare,Valea Mare,1154,17422133
+RO123,n.a.,65105,no,Mereni,Mereni,1318,51349057
+RO123,n.a.,65113,no,Arcuş,Arcus,1600,36535384
+RO123,n.a.,65121,no,Bixad,Bixad,1820,60401042
+RO123,n.a.,65139,no,Micfalau,Micfalau,1852,37633087
+RO123,n.a.,65147,no,Dalnic,Dalnic,967,54071972
+RO123,n.a.,65154,no,Estelnic,Estelnic,1155,87691562
+RO313,n.a.,65342,no,Municipiul Târgovişte,Municipiul Targoviste,93563,52676099
+RO313,n.a.,65379,no,Aninoasa,Aninoasa,6208,27698230
+RO313,n.a.,65413,no,Doiceşti,Doicesti,4787,11202153
+RO313,n.a.,65431,no,Răzvad,Razvad,8768,40326422
+RO313,n.a.,65477,no,Şotânga,sotanga,7202,35005012
+RO313,n.a.,65501,no,Ulmi,Ulmi,4409,33265425
+RO313,n.a.,65609,no,Oraş Fieni,Oras Fieni,7646,18249620
+RO313,n.a.,65645,no,Moţăieni,Motaieni,2091,11779032
+RO313,n.a.,65681,no,Oraş Găeşti,Oras Gaesti,15341,22924126
+RO313,n.a.,65707,no,Gura Foii,Gura Foii,2220,24148087
+RO313,n.a.,65752,no,Petreşti,Petresti,5623,70646144
+RO313,n.a.,65841,no,Municipiul Moreni,Municipiul Moreni,20513,37724370
+RO313,n.a.,65869,no,Iedera,Iedera,3954,53182647
+RO313,n.a.,65921,no,Oraş Pucioasa,Oras Pucioasa,15386,40844252
+RO313,n.a.,66009,no,Brăneşti,Branesti,4330,17819269
+RO313,n.a.,66081,no,Oraş Titu,Oras Titu,10362,40609142
+RO313,n.a.,66152,no,Braniştea,Branistea,4183,21014381
+RO313,n.a.,66198,no,Băleni,Baleni,8782,61535283
+RO313,n.a.,66223,no,Bărbuleţu,Barbuletu,2204,24252148
+RO313,n.a.,66330,no,Bezdead,Bezdead,4554,57608572
+RO313,n.a.,66401,no,Bilciureşti,Bilciuresti,1847,33230678
+RO313,n.a.,66438,no,Buciumeni,Buciumeni,4522,28339896
+RO313,n.a.,66474,no,Bucşani,Bucsani,6920,57960208
+RO313,n.a.,66526,no,Cândeşti,Candesti,2803,52571741
+RO313,n.a.,66580,no,Cobia,Cobia,3060,52649402
+RO313,n.a.,66697,no,Cojasca,Cojasca,8405,25951287
+RO313,n.a.,66731,no,Comişani,Comisani,5182,35050879
+RO313,n.a.,66768,no,Conţeşti,Contesti,4324,47497670
+RO313,n.a.,66857,no,Corbii Mari,Corbii Mari,8063,106329486
+RO313,n.a.,66955,no,Cornăţelu,Cornatelu,1426,65743423
+RO313,n.a.,67014,no,Corneşti,Cornesti,6265,66489052
+RO313,n.a.,67121,no,Costeştii din Vale,Costestii din Vale,3545,27425135
+RO313,n.a.,67167,no,Crângurile,Crangurile,3443,51576835
+RO313,n.a.,67256,no,Dărmăneşti,Darmanesti,4884,28407250
+RO313,n.a.,67292,no,Dobra,Dobra,3629,47837775
+RO313,n.a.,67327,no,Dragodana,Dragodana,6699,65674100
+RO313,n.a.,67407,no,Dragomireşti,Dragomiresti,8778,39057885
+RO313,n.a.,67470,no,Finta,Finta,4148,49879586
+RO313,n.a.,67522,no,Glodeni,Glodeni,4355,30923791
+RO313,n.a.,67595,no,Gura Ocniţei,Gura Ocnitei,7309,46076003
+RO313,n.a.,67648,no,Gura Şuţii,Gura sutii,5387,36775010
+RO313,n.a.,67675,no,Hulubeşti,Hulubesti,3236,64257443
+RO313,n.a.,67737,no,I. L. Caragiale,I. L. Caragiale,6802,61922484
+RO313,n.a.,67773,no,Lucieni,Lucieni,3009,44443195
+RO313,n.a.,67835,no,Ludeşti,Ludesti,5145,85973871
+RO313,n.a.,67906,no,Lunguleţu,Lunguletu,5513,37511111
+RO313,n.a.,67942,no,Malu Cu Flori,Malu Cu Flori,2301,22784486
+RO313,n.a.,68002,no,Măneşti,Manesti,5211,37819134
+RO313,n.a.,68048,no,Mătăsaru,Matasaru,5245,52126016
+RO313,n.a.,68128,no,Mogoşani,Mogosani,4341,32506386
+RO313,n.a.,68182,no,Moroeni,Moroeni,5154,289387530
+RO313,n.a.,68253,no,Morteni,Morteni,2838,53287597
+RO313,n.a.,68280,no,Nucet,Nucet,4285,33182739
+RO313,n.a.,68324,no,Ocniţa,Ocnita,4457,38174541
+RO313,n.a.,68342,no,Odobeşti,Odobesti,5108,39524519
+RO313,n.a.,68404,no,Pietroşiţa,Pietrosita,3194,27030586
+RO313,n.a.,68431,no,Poiana,Poiana,3606,27157629
+RO313,n.a.,68468,no,Potlogi,Potlogi,8985,51889872
+RO313,n.a.,68529,no,Produleşti,Produlesti,3430,29546583
+RO313,n.a.,68565,no,Pucheni,Pucheni,1856,35479549
+RO313,n.a.,68627,no,Oraş Răcari,Oras Racari,6522,83559322
+RO313,n.a.,68716,no,Runcu,Runcu,4435,79463416
+RO313,n.a.,68789,no,Sălcioara,Salcioara,3911,54946244
+RO313,n.a.,68887,no,Şelaru,selaru,3164,82014724
+RO313,n.a.,68921,no,Tătărani,Tatarani,5195,63995551
+RO313,n.a.,68976,no,Ulieşti,Uliesti,4131,60462259
+RO313,n.a.,69063,no,Valea Lungă,Valea Lunga,4769,66589276
+RO313,n.a.,69170,no,Valea Mare,Valea Mare,2204,32588808
+RO313,n.a.,69250,no,Văcăreşti,Vacaresti,5213,39060971
+RO313,n.a.,69303,no,Văleni-Dâmboviţa,Valeni-Dambovita,2614,27870916
+RO313,n.a.,69330,no,Vişina,Visina,4006,68171318
+RO313,n.a.,69394,no,Vişineşti,Visinesti,1889,35652760
+RO313,n.a.,69447,no,Vârfuri,Varfuri,1891,22214571
+RO313,n.a.,69526,no,Voineşti,Voinesti,6018,79974715
+RO313,n.a.,69615,no,Vulcana-Băi,Vulcana-Bai,3035,27205486
+RO411,n.a.,69900,no,Municipiul Craiova,Municipiul Craiova,305689,81969285
+RO411,n.a.,69964,no,Bucovăţ,Bucovat,4158,83576957
+RO411,n.a.,70094,no,Işalniţa,Isalnita,4006,31824980
+RO411,n.a.,70110,no,Podari,Podari,6695,67128361
+RO411,n.a.,70174,no,Şimnicu de Sus,simnicu de Sus,4670,81152781
+RO411,n.a.,70316,no,Municipiul Băileşti,Municipiul Bailesti,19993,163632855
+RO411,n.a.,70352,no,Municipiul Calafat,Municipiul Calafat,18507,138046462
+RO411,n.a.,70414,no,Oraş Filiaşi,Oras Filiasi,18426,100078596
+RO411,n.a.,70502,no,Oraş Şegarcea,Oras segarcea,8013,120017450
+RO411,n.a.,70520,no,Afumaţi,Afumati,2693,69526505
+RO411,n.a.,70566,no,Almăj,Almaj,1904,27496403
+RO411,n.a.,70637,no,Amărăştii de Jos,Amarastii de Jos,5581,62208543
+RO411,n.a.,70673,no,Amărăştii de Sus,Amarastii de Sus,1653,34882837
+RO411,n.a.,70726,no,Apele Vii,Apele Vii,2072,64769113
+RO411,n.a.,70744,no,Argetoaia,Argetoaia,4577,84336335
+RO411,n.a.,70879,no,Oraş Bechet,Oras Bechet,4348,29266674
+RO411,n.a.,70897,no,Bistret,Bistret,4297,122201777
+RO411,n.a.,70940,no,Bîrca,Birca,4075,88252402
+RO411,n.a.,70968,no,Botoşeşti-Paia,Botosesti-Paia,711,39976446
+RO411,n.a.,70986,no,Brabova,Brabova,1315,79650642
+RO411,n.a.,71055,no,Brădeşti,Bradesti,4495,63392404
+RO411,n.a.,71126,no,Braloştiţa,Bralostita,3749,40429981
+RO411,n.a.,71199,no,Bratovoeşti,Bratovoesti,3186,65062200
+RO411,n.a.,71260,no,Breasta,Breasta,4176,44284484
+RO411,n.a.,71340,no,Bulzeşti,Bulzesti,1414,62744331
+RO411,n.a.,71457,no,Calopăr,Calopar,3886,92174298
+RO411,n.a.,71518,no,Caraula,Caraula,2515,35914328
+RO411,n.a.,71536,no,Carpen,Carpen,2309,62681046
+RO411,n.a.,71572,no,Castranova,Castranova,3221,68071167
+RO411,n.a.,71607,no,Călăraşi,Calarasi,5899,87509073
+RO411,n.a.,71634,no,Celaru,Celaru,4433,95249300
+RO411,n.a.,71698,no,Cerăt,Cerat,4175,41928831
+RO411,n.a.,71723,no,Cernăteşti,Cernatesti,1785,57354686
+RO411,n.a.,71787,no,Cetate,Cetate,5455,86771024
+RO411,n.a.,71812,no,Cioroiaşi,Cioroiasi,1518,45345055
+RO411,n.a.,71858,no,Ciupercenii Noi,Ciupercenii Noi,5235,106224457
+RO411,n.a.,71885,no,Coşoveni,Cosoveni,3267,43950653
+RO411,n.a.,71910,no,Coţofenii din Dos,Cotofenii din Dos,2323,45568979
+RO411,n.a.,71956,no,Daneţi,Daneti,5900,103170903
+RO411,n.a.,72007,no,Oraş Dăbuleni,Oras Dabuleni,12175,183038773
+RO411,n.a.,72034,no,Desa,Desa,4916,76313272
+RO411,n.a.,72052,no,Dioşti,Diosti,2999,62831858
+RO411,n.a.,72098,no,Dobreşti,Dobresti,2394,56301593
+RO411,n.a.,72150,no,Drăgoteşti,Dragotesti,2136,58819440
+RO411,n.a.,72221,no,Drănic,Dranic,2434,80534678
+RO411,n.a.,72276,no,Fărcaş,Farcas,2090,47563986
+RO411,n.a.,72383,no,Galicea Mare,Galicea Mare,4096,58852763
+RO411,n.a.,72409,no,Gherceşti,Ghercesti,1663,50055203
+RO411,n.a.,72463,no,Gighera,Gighera,2876,130908542
+RO411,n.a.,72506,no,Giubega,Giubega,2039,53986280
+RO411,n.a.,72533,no,Giurgiţa,Giurgita,2987,73155778
+RO411,n.a.,72579,no,Gângiova,Gangiova,2619,58244469
+RO411,n.a.,72604,no,Gogoşu,Gogosu,608,43104033
+RO411,n.a.,72640,no,Goicea,Goicea,2605,58699741
+RO411,n.a.,72677,no,Goieşti,Goiesti,3030,78430687
+RO411,n.a.,72819,no,Greceşti,Grecesti,1632,48247272
+RO411,n.a.,72882,no,Izvoare,Izvoare,1573,51591347
+RO411,n.a.,72926,no,Leu,Leu,4674,113423805
+RO411,n.a.,72953,no,Lipovu,Lipovu,3250,40670819
+RO411,n.a.,72980,no,Măceşu de Jos,Macesu de Jos,1272,57845976
+RO411,n.a.,73013,no,Măceşu de Sus,Macesu de Sus,1257,36110334
+RO411,n.a.,73031,no,Maglavit,Maglavit,4745,98943013
+RO411,n.a.,73068,no,Malu Mare,Malu Mare,4395,30905167
+RO411,n.a.,73102,no,Melineşti,Melinesti,3977,89268918
+RO411,n.a.,73246,no,Mischii,Mischii,1651,51916123
+RO411,n.a.,73317,no,Mârşani,Marsani,4650,66196880
+RO411,n.a.,73335,no,Moţăţei,Motatei,7146,128580788
+RO411,n.a.,73371,no,Murgaşi,Murgasi,2366,99881305
+RO411,n.a.,73460,no,Negoi,Negoi,2382,50509264
+RO411,n.a.,73503,no,Orodel,Orodel,2643,90902080
+RO411,n.a.,73567,no,Ostroveni,Ostroveni,5015,82079505
+RO411,n.a.,73594,no,Perişor,Perisor,1680,69560460
+RO411,n.a.,73629,no,Pieleşti,Pielesti,3631,65686860
+RO411,n.a.,73665,no,Piscu Vechi,Piscu Vechi,2750,57576110
+RO411,n.a.,73709,no,Pleniţa,Plenita,4618,88892297
+RO411,n.a.,73736,no,Poiana Mare,Poiana Mare,10668,164350708
+RO411,n.a.,73772,no,Predeşti,Predesti,2085,43019759
+RO411,n.a.,73852,no,Radovan,Radovan,1344,49141648
+RO411,n.a.,73905,no,Rast,Rast,3562,81568871
+RO411,n.a.,73923,no,Robăneşti,Robanesti,2293,59585999
+RO411,n.a.,73996,no,Sadova,Sadova,8690,111902916
+RO411,n.a.,74028,no,Sălcuţa,Salcuta,2153,75754066
+RO411,n.a.,74073,no,Scăeşti,Scaesti,2093,39354933
+RO411,n.a.,74108,no,Seaca de Câmp,Seaca de Camp,1856,36438107
+RO411,n.a.,74135,no,Seaca de Pădure,Seaca de Padure,975,57440191
+RO411,n.a.,74171,no,Secu,Secu,1057,29170448
+RO411,n.a.,74224,no,Siliştea Crucii,Silistea Crucii,1467,34790854
+RO411,n.a.,74242,no,Sopot,Sopot,1743,55385599
+RO411,n.a.,74322,no,Teasc,Teasc,3058,48460612
+RO411,n.a.,74359,no,Terpeziţa,Terpezita,1556,66652341
+RO411,n.a.,74411,no,Teslui,Teslui,2311,74272343
+RO411,n.a.,74509,no,Ţuglui,tuglui,2886,38229628
+RO411,n.a.,74536,no,Unirea,Unirea,3786,47808235
+RO411,n.a.,74554,no,Urzicuţa,Urzicuta,3045,60935334
+RO411,n.a.,74581,no,Valea Stanciului,Valea Stanciului,5435,110727538
+RO411,n.a.,74616,no,Vela,Vela,1860,82521175
+RO411,n.a.,74705,no,Verbiţa,Verbita,1282,45109827
+RO411,n.a.,74732,no,Vârtop,Vartop,1701,32842270
+RO411,n.a.,74750,no,Vârvoru de Jos,Varvoru de Jos,2531,108006358
+RO411,n.a.,74842,no,Catane,Catane,1986,46674098
+RO411,n.a.,74859,no,Cârcea,Carcea,2306,32522307
+RO411,n.a.,74867,no,Cârna,Carna,1379,84187601
+RO411,n.a.,74875,no,Coţofenii din Faţa,Cotofenii din Fata,1968,24385197
+RO411,n.a.,74883,no,Dobroteşti,Dobrotesti,1648,33259710
+RO411,n.a.,74891,no,Galiciuica,Galiciuica,1365,24865268
+RO411,n.a.,74907,no,Ghidici,Ghidici,2388,45198018
+RO411,n.a.,74915,no,Ghindeni,Ghindeni,1814,30009762
+RO411,n.a.,74923,no,Întorsura,intorsura,1491,31604431
+RO411,n.a.,74931,no,Plesoi,Plesoi,1343,40322565
+RO411,n.a.,74949,no,Rojişte,Rojiste,2436,33033457
+RO411,n.a.,74956,no,Tălpaş,Talpas,1258,38299265
+RO224,n.a.,75098,no,Municipiul Galaţi,Municipiul Galati,304340,243633229
+RO224,n.a.,75114,no,Şendreni,sendreni,4526,47320893
+RO224,n.a.,75150,no,Vânatori,Vanatori,5625,43986321
+RO224,n.a.,75203,no,Municipiul Tecuci,Municipiul Tecuci,45432,86699618
+RO224,n.a.,75221,no,Drăgăneşti,Draganesti,6598,66124639
+RO224,n.a.,75258,no,Munteni,Munteni,7781,97079698
+RO224,n.a.,75338,no,Oraş Bereşti,Oras Beresti,3404,46212023
+RO224,n.a.,75356,no,Bereşti-Meria,Beresti-Meria,3846,108124363
+RO224,n.a.,75472,no,Oraş Târgu Bujor,Oras Targu Bujor,7387,81258592
+RO224,n.a.,75515,no,Barcea,Barcea,6451,61272602
+RO224,n.a.,75542,no,Bălăbăneşti,Balabanesti,2061,59916612
+RO224,n.a.,75613,no,Bălăşeşti,Balasesti,2348,60600119
+RO224,n.a.,75668,no,Băleni,Baleni,2439,67546957
+RO224,n.a.,75686,no,Băneasa,Baneasa,2147,72864248
+RO224,n.a.,75711,no,Braniştea,Branistea,4361,62330425
+RO224,n.a.,75766,no,Brăhăşeşti,Brahasesti,9777,44600391
+RO224,n.a.,75819,no,Buciumeni,Buciumeni,2549,42441869
+RO224,n.a.,75864,no,Cavadineşti,Cavadinesti,3047,110995674
+RO224,n.a.,75917,no,Cerţeşti,Certesti,2400,63601092
+RO224,n.a.,75953,no,Corod,Corod,7739,105609659
+RO224,n.a.,76004,no,Corni,Corni,2240,54170559
+RO224,n.a.,76040,no,Cosmeşti,Cosmesti,6743,45703636
+RO224,n.a.,76111,no,Costache Negri,Costache Negri,2755,28339669
+RO224,n.a.,76139,no,Cuca,Cuca,2266,44545608
+RO224,n.a.,76157,no,Cudalbi,Cudalbi,7613,143527141
+RO224,n.a.,76175,no,Drăguşeni,Draguseni,5849,93657017
+RO224,n.a.,76255,no,Fârţăneşti,Fartanesti,5215,88550237
+RO224,n.a.,76282,no,Folteşti,Foltesti,3322,68989727
+RO224,n.a.,76317,no,Frumuşiţa,Frumusita,5571,108547263
+RO224,n.a.,76353,no,Fundeni,Fundeni,3908,41903994
+RO224,n.a.,76406,no,Ghidigeni,Ghidigeni,6861,69663449
+RO224,n.a.,76497,no,Gohor,Gohor,3405,51089313
+RO224,n.a.,76558,no,Griviţa,Grivita,3845,38377439
+RO224,n.a.,76585,no,Independenţa,Independenta,4775,69030478
+RO224,n.a.,76601,no,Iveşti,Ivesti,10195,90263447
+RO224,n.a.,76638,no,Jorăşti,Jorasti,1845,68221358
+RO224,n.a.,76674,no,Lieşti,Liesti,10973,88831578
+RO224,n.a.,76692,no,Matca,Matca,12535,86034297
+RO224,n.a.,76718,no,Măstăcani,Mastacani,5041,65107922
+RO224,n.a.,76745,no,Movileni,Movileni,3381,39734061
+RO224,n.a.,76763,no,Nămoloasa,Namoloasa,2171,69522927
+RO224,n.a.,76807,no,Nicoreşti,Nicoresti,4119,65690863
+RO224,n.a.,76932,no,Oancea,Oancea,1418,52251028
+RO224,n.a.,76969,no,Pechea,Pechea,11372,115020112
+RO224,n.a.,76996,no,Piscu,Piscu,4926,62081592
+RO224,n.a.,77028,no,Priponeşti,Priponesti,2250,55312773
+RO224,n.a.,77082,5/16/2015,Rediu,Rediu,2212,44022697
+RO224,n.a.,77126,no,Scânteieşti,Scanteiesti,2527,50240663
+RO224,n.a.,77153,no,Schela,Schela,3836,44285941
+RO224,n.a.,77180,no,Slobozia Conachi,Slobozia Conachi,4394,62569180
+RO224,n.a.,77224,no,Smârdan,Smardan,5536,145899535
+RO224,n.a.,77260,no,Smulţi,Smulti,1473,55744393
+RO224,n.a.,77288,no,Suceveni,Suceveni,1796,70322434
+RO224,n.a.,77313,no,Tudor Vladimirescu,Tudor Vladimirescu,5305,56168474
+RO224,n.a.,77331,no,Tuluceşti,Tulucesti,7729,72243305
+RO224,n.a.,77377,no,Ţepu,tepu,2537,36138849
+RO224,n.a.,77402,no,Umbrăreşti,Umbraresti,7286,80758467
+RO224,n.a.,77475,no,Valea Mărului,Valea Marului,3684,53579785
+RO224,n.a.,77509,no,Vârlezi,Varlezi,2061,91853238
+RO224,n.a.,77536,no,Vlădeşti,Vladesti,2313,60883019
+RO224,n.a.,77561,no,Rădesti,Radesti,1572,38376132
+RO224,n.a.,77579,no,Negrilesti,Negrilesti,2557,43998421
+RO224,n.a.,77587,no,Poiana,Poiana,1765,37019049
+RO224,n.a.,77595,no,Cuza Voda,Cuza Voda,2804,25645958
+RO224,n.a.,77601,5/16/2015,Suhurului,Suhurului,1430,18665973
+RO412,n.a.,77812,no,Municipiul Târgu Jiu,Municipiul Targu Jiu,96852,103810328
+RO412,n.a.,77910,no,Băleşti,Balesti,7412,78748175
+RO412,n.a.,78016,no,Drăguţeşti,Dragutesti,4995,62206227
+RO412,n.a.,78089,no,Turcineşti,Turcinesti,2110,30189707
+RO412,n.a.,78141,no,Municipiul Motru,Municipiul Motru,22936,49796883
+RO412,n.a.,78258,no,Oraş Novaci,Oras Novaci,5747,169355840
+RO412,n.a.,78329,no,Oraş Tîrgu Cărbuneşti,Oras Tirgu Carbunesti,8706,129561794
+RO412,n.a.,78454,no,Oraş Ţicleni,Oras ticleni,4824,72122355
+RO412,n.a.,78472,no,Albeni,Albeni,2900,45490456
+RO412,n.a.,78542,no,Alimpeşti,Alimpesti,1817,34995575
+RO412,n.a.,78604,no,Aninoasa,Aninoasa,3905,92502666
+RO412,n.a.,78668,no,Arcani,Arcani,1241,27160242
+RO412,n.a.,78711,no,Baia de Fier,Baia de Fier,4291,125134615
+RO412,n.a.,78748,no,Bălăneşti,Balanesti,2096,61770877
+RO412,n.a.,78828,no,Bărbăteşti,Barbatesti,1657,37786921
+RO412,n.a.,78873,no,Bengeşti-Ciocadia,Bengesti-Ciocadia,3239,63274066
+RO412,n.a.,78926,no,Berleşti,Berlesti,2074,57682012
+RO412,n.a.,79004,no,Bâlteni,Balteni,7699,91606572
+RO412,n.a.,79077,no,Bolboşi,Bolbosi,3308,41947903
+RO412,n.a.,79157,no,Borăscu,Borascu,3340,72668373
+RO412,n.a.,79237,no,Brăneşti,Branesti,2312,45750436
+RO412,n.a.,79308,no,Oraş Bumbeşti-Jiu,Oras Bumbesti-Jiu,10084,212917323
+RO412,n.a.,79362,no,Bumbeşti-Piţic,Bumbesti-Pitic,2130,36824418
+RO412,n.a.,79406,no,Bustuchin,Bustuchin,3337,59512847
+RO412,n.a.,79497,no,Căpreni,Capreni,2093,57281622
+RO412,n.a.,79585,no,Cătunele,Catunele,2689,32230789
+RO412,n.a.,79656,no,Ciuperceni,Ciuperceni,1531,69754562
+RO412,n.a.,79736,no,Câlnic,Calnic,2213,64220071
+RO412,n.a.,79834,no,Crasna,Crasna,4895,209047122
+RO412,n.a.,79932,no,Cruşeţ,Cruset,3238,86772428
+RO412,n.a.,80043,no,Dănciuleşti,Danciulesti,2055,58998056
+RO412,n.a.,80123,no,Dăneşti,Danesti,3667,80988381
+RO412,n.a.,80249,no,Drăgoteşti,Dragotesti,2567,28654536
+RO412,n.a.,80285,no,Fărcăşeşti,Farcasesti,3261,84020887
+RO412,n.a.,80365,no,Glogova,Glogova,1960,42384080
+RO412,n.a.,80427,no,Godineşti,Godinesti,1958,51992481
+RO412,n.a.,80506,no,Hurezani,Hurezani,1651,38264982
+RO412,n.a.,80560,no,Ioneşti,Ionesti,2330,41198694
+RO412,n.a.,80613,no,Jupâneşti,Jupanesti,2139,57744581
+RO412,n.a.,80677,no,Leleşti,Lelesti,1730,30183858
+RO412,n.a.,80711,no,Licurici,Licurici,2214,58710387
+RO412,n.a.,80766,no,Logreşti,Logresti,2643,68246173
+RO412,n.a.,80846,no,Mătăsari,Matasari,5328,46365924
+RO412,n.a.,80908,no,Muşeteşti,Musetesti,1973,93357756
+RO412,n.a.,80980,no,Negomir,Negomir,3615,53998407
+RO412,n.a.,81095,no,Padeş,Pades,4928,383747053
+RO412,n.a.,81184,no,Peştişani,Pestisani,3795,204986300
+RO412,n.a.,81264,no,Plopşoru,Plopsoru,6680,80019380
+RO412,n.a.,81380,no,Polovragi,Polovragi,2743,85472630
+RO412,n.a.,81415,no,Prigoria,Prigoria,2999,67033390
+RO412,n.a.,81497,no,Roşia de Amaradia,Rosia de Amaradia,3145,42030414
+RO412,n.a.,81576,no,Runcu,Runcu,5082,268258417
+RO412,n.a.,81656,no,Samarineşti,Samarinesti,1769,32330617
+RO412,n.a.,81754,no,Săcelu,Sacelu,1453,42056222
+RO412,n.a.,81816,no,Săuleşti,Saulesti,2252,55746807
+RO412,n.a.,81861,no,Scoarţa,Scoarta,4599,86002093
+RO412,n.a.,81987,no,Schela,Schela,1731,87068150
+RO412,n.a.,82047,no,Slivileşti,Slivilesti,3326,61388315
+RO412,n.a.,82136,no,Stăneşti,Stanesti,2230,100270224
+RO412,n.a.,82243,no,Stejari,Stejari,2410,74393065
+RO412,n.a.,82314,no,Stoina,Stoina,2315,41805164
+RO412,n.a.,82396,no,Teleşti,Telesti,2755,45794873
+RO412,n.a.,82430,no,Oraş Tismana,Oras Tismana,7131,297867772
+RO412,n.a.,82555,no,Turburea,Turburea,4235,67526847
+RO412,n.a.,82617,no,Oraş Turceni,Oras Turceni,8114,78280030
+RO412,n.a.,82680,no,Ţânţăreni,Tantareni,5644,44787249
+RO412,n.a.,82733,no,Urdari,Urdari,3161,34321808
+RO412,n.a.,82779,no,Văgiuleşti,Vagiulesti,2567,48142305
+RO412,n.a.,82831,no,Vladimir,Vladimir,2780,58979467
+RO412,n.a.,82895,no,Oraş Rovinari,Oras Rovinari,13655,26528319
+RO124,n.a.,83133,no,Municipiul Odorheiu Secuiesc,Municipiul Odorheiu Secuiesc,38575,47118574
+RO124,n.a.,83151,no,Brădeşti,Bradesti,2023,31508765
+RO124,n.a.,83197,no,Feliceni,Feliceni,3335,76489241
+RO124,n.a.,83320,no,Municipiul Miercurea Ciuc,Municipiul Miercurea Ciuc,42120,118855122
+RO124,n.a.,83375,no,Păuleni-Ciuc,Pauleni-Ciuc,1922,47237112
+RO124,n.a.,83428,no,Oraş Băile Tuşnad,Oras Baile Tusnad,1684,1890020
+RO124,n.a.,83464,no,Oraş Bălan,Oras Balan,7920,1413889
+RO124,n.a.,83491,no,Oraş Borsec,Oras Borsec,2771,61430522
+RO124,n.a.,83525,no,Oraş Cristuru Secuiesc,Oras Cristuru Secuiesc,10796,53837747
+RO124,n.a.,83561,no,Municipiul Gheorgheni,Municipiul Gheorgheni,20022,220507685
+RO124,n.a.,83632,no,Municipiul Topliţa,Municipiul Toplita,16031,337696261
+RO124,n.a.,83749,no,Oraş Vlăhiţa,Oras Vlahita,7649,75253364
+RO124,n.a.,83785,no,Atid,Atid,3071,136824524
+RO124,n.a.,83847,no,Avrămeşti,Avramesti,2785,58140034
+RO124,n.a.,83936,no,Bilbor,Bilbor,2678,226856244
+RO124,n.a.,83963,no,Căpâlniţa,Capalnita,2124,74968885
+RO124,n.a.,83981,no,Ciucsângeorgiu,Ciucsangeorgiu,5029,242229946
+RO124,n.a.,84086,no,Ciumani,Ciumani,4440,95414899
+RO124,n.a.,84102,no,Cârţa,Carta,2779,79940657
+RO124,n.a.,84148,no,Corbu,Corbu,1482,170733141
+RO124,n.a.,84175,no,Corund,Corund,6503,114364777
+RO124,n.a.,84237,no,Dăneşti,Danesti,2218,63365567
+RO124,n.a.,84264,no,Dealu,Dealu,4105,94951657
+RO124,n.a.,84344,no,Ditrău,Ditrau,5902,113682361
+RO124,n.a.,84380,no,Dârjiu,Darjiu,1067,42060668
+RO124,n.a.,84415,no,Frumoasa,Frumoasa,3784,84265892
+RO124,n.a.,84460,no,Gălăuţaş,Galautas,2508,30423497
+RO124,n.a.,84558,no,Joseni,Joseni,5828,223206099
+RO124,n.a.,84594,no,Lăzarea,Lazarea,3599,81564802
+RO124,n.a.,84629,no,Lueta,Lueta,3701,102273236
+RO124,n.a.,84656,no,Lunca de Jos,Lunca de Jos,5674,138786161
+RO124,n.a.,84754,no,Lunca de Sus,Lunca de Sus,3424,82617802
+RO124,n.a.,84825,no,Lupeni,Lupeni,4687,125346357
+RO124,n.a.,84923,no,Mărtiniş,Martinis,2928,141624182
+RO124,n.a.,85056,no,Mereşti,Meresti,1364,108493268
+RO124,n.a.,85074,no,Mihăileni,Mihaileni,2739,82714568
+RO124,n.a.,85127,no,Mugeni,Mugeni,3600,64420864
+RO124,n.a.,85243,no,Ocland,Ocland,1330,61100383
+RO124,n.a.,85289,no,Plăieşii de Jos,Plaiesii de Jos,2855,295693753
+RO124,n.a.,85341,no,Praid,Praid,6950,180460436
+RO124,n.a.,85412,no,Remetea,Remetea,6386,107728147
+RO124,n.a.,85467,no,Săcel,Sacel,1251,72960488
+RO124,n.a.,85528,no,Sărmaş,Sarmas,3996,69301663
+RO124,n.a.,85582,no,Secuieni,Secuieni,2818,39823663
+RO124,n.a.,85626,no,Siculeni,Siculeni,2866,40311867
+RO124,n.a.,85680,no,Sâncrăieni,Sancraieni,2619,52226663
+RO124,n.a.,85760,no,Sândominic,Sandominic,6363,151289464
+RO124,n.a.,85788,no,Sânmartin,Sanmartin,2401,48609444
+RO124,n.a.,85840,no,Sânsimion,Sansimion,3637,66445213
+RO124,n.a.,85877,no,Subcetate,Subcetate,1874,51659279
+RO124,n.a.,85920,no,Suseni,Suseni,5277,222940772
+RO124,n.a.,85984,no,Şimoneşti,Simonesti,3941,116178220
+RO124,n.a.,86133,no,Tulgheş,Tulghes,3230,243963592
+RO124,n.a.,86188,no,Tuşnad,Tusnad,2216,76456710
+RO124,n.a.,86222,no,Ulieş,Ulies,1178,68678342
+RO124,n.a.,86311,no,Vărşag,Varsag,1676,77915613
+RO124,n.a.,86339,no,Voşlăbeni,Voslabeni,1989,56275493
+RO124,n.a.,86366,no,Zetea,Zetea,6017,189659606
+RO124,n.a.,86438,no,Mădăraş,Madaras,2243,65876321
+RO124,n.a.,86446,no,Cozmeni,Cozmeni,2260,69983914
+RO124,n.a.,86453,no,Tomeşti,Tomesti,2667,67772167
+RO124,n.a.,86461,no,Ciceu,Ciceu,2796,70163013
+RO124,n.a.,86479,no,Leliceni,Leliceni,2141,36293751
+RO124,n.a.,86487,no,Porumbeni,Porumbeni,1887,41889282
+RO124,n.a.,86495,no,Racu,Racu,1639,46534127
+RO124,n.a.,86501,no,Satu Mare,Satu Mare,2117,41125809
+RO124,n.a.,86519,no,Sântimbru,Santimbru,2187,55016863
+RO423,n.a.,86687,no,Municipiul Deva,Municipiul Deva,70407,58780383
+RO423,n.a.,86749,no,Cârjiţi,Carjiti,680,45339180
+RO423,n.a.,86810,no,Municipiul Hunedoara,Municipiul Hunedoara,74142,97838426
+RO423,n.a.,86883,no,Ghelari,Ghelari,2097,46549315
+RO423,n.a.,86936,no,Teliucu Inferior,Teliucu Inferior,2545,39942294
+RO423,n.a.,86990,no,Municipiul Petroşani,Municipiul Petrosani,43190,210807765
+RO423,n.a.,87059,no,Municipiul Lupeni,Municipiul Lupeni,27155,77452921
+RO423,n.a.,87077,no,Oraş Petrila,Oras Petrila,25119,315353436
+RO423,n.a.,87139,no,Oraş Uricani,Oras Uricani,9847,244416695
+RO423,n.a.,87175,no,Municipiul Vulcan,Municipiul Vulcan,28927,86755660
+RO423,n.a.,87219,no,Oraş Aninoasa,Oras Aninoasa,4748,30937168
+RO423,n.a.,87246,no,Băniţa,Banita,1153,80982646
+RO423,n.a.,87291,no,Municipiul Brad,Municipiul Brad,15927,79762500
+RO423,n.a.,87362,no,Crişcior,Criscior,3898,40189582
+RO423,n.a.,87424,no,Oraş Călan,Oras Calan,13341,102732308
+RO423,n.a.,87576,no,Oraş Haţeg,Oras Hateg,10895,62905667
+RO423,n.a.,87638,no,Municipiul Orăştie,Municipiul Orastie,22583,40371516
+RO423,n.a.,87665,no,Oraş Simeria,Oras Simeria,13934,50667983
+RO423,n.a.,87745,no,Baia de Criş,Baia de Cris,2559,88610766
+RO423,n.a.,87843,no,Balşa,Balsa,856,151900318
+RO423,n.a.,87996,no,Baru,Baru,2778,140793946
+RO423,n.a.,88047,no,Băcia,Bacia,1844,29337094
+RO423,n.a.,88092,no,Băiţa,Baita,3493,111917847
+RO423,n.a.,88216,no,Bătrâna,Batrana,122,49336691
+RO423,n.a.,88261,no,Beriu,Beriu,3401,197050191
+RO423,n.a.,88350,no,Blăjeni,Blajeni,1089,85902682
+RO423,n.a.,88449,no,Boşorod,Bosorod,1980,132209921
+RO423,n.a.,88546,no,Brănişca,Branisca,1576,77036927
+RO423,n.a.,88644,no,Bretea Română,Bretea Romana,2826,100202576
+RO423,n.a.,88788,no,Buceş,Buces,1890,122166091
+RO423,n.a.,88868,no,Bucureşci,Bucuresci,1562,69374696
+RO423,n.a.,88920,no,Bulzeştii de Sus,Bulzestii de Sus,282,110440531
+RO423,n.a.,89026,no,Bunila,Bunila,323,61540887
+RO423,n.a.,89080,no,Burjuc,Burjuc,819,64964296
+RO423,n.a.,89151,no,Cerbăl,Cerbal,462,128459136
+RO423,n.a.,89240,no,Certeju de Sus,Certeju de Sus,3034,88893251
+RO423,n.a.,89348,no,Densuş,Densus,1472,135727226
+RO423,n.a.,89428,no,Dobra,Dobra,3356,119657494
+RO423,n.a.,89561,no,Oraş Geoagiu,Oras Geoagiu,5637,155442052
+RO423,n.a.,89687,no,Gurasada,Gurasada,1416,93556781
+RO423,n.a.,89801,no,Hărău,Harau,2098,49369776
+RO423,n.a.,89856,no,Ilia,Ilia,3674,91755145
+RO423,n.a.,89954,no,Lăpugiu de Jos,Lapugiu de Jos,1427,102417089
+RO423,n.a.,90066,no,Lelese,Lelese,393,75989083
+RO423,n.a.,90119,no,Lunca Cernii de Jos,Lunca Cernii de Jos,887,151302287
+RO423,n.a.,90208,no,Luncoiu de Jos,Luncoiu de Jos,1772,49653011
+RO423,n.a.,90262,no,Mărtineşti,Martinesti,1005,60625922
+RO423,n.a.,90342,no,Orăştioara de Sus,Orastioara de Sus,2158,227262299
+RO423,n.a.,90431,no,Pestişu Mic,Pestisu Mic,1149,50498496
+RO423,n.a.,90538,no,Pui,Pui,4276,224674290
+RO423,n.a.,90663,no,Rapoltu Mare,Rapoltu Mare,1982,80948068
+RO423,n.a.,90725,no,Răchitova,Rachitova,1330,69216281
+RO423,n.a.,90805,no,Ribiţa,Ribita,1290,73752283
+RO423,n.a.,90878,no,Râu de Mori,Rau de Mori,3235,385994141
+RO423,n.a.,90994,no,Romos,Romos,2735,98570174
+RO423,n.a.,91054,no,Sarmizegetusa,Sarmizegetusa,1189,72447373
+RO423,n.a.,91116,no,Sălaşu de Sus,Salasu de Sus,2307,222070007
+RO423,n.a.,91232,no,Sântămăria-Orlea,Santamaria-Orlea,3194,68735624
+RO423,n.a.,91330,no,Şoimuş,soimus,3500,70077190
+RO423,n.a.,91447,no,Tomeşti,Tomesti,1042,59809386
+RO423,n.a.,91535,no,Topliţa,Toplita,770,55118342
+RO423,n.a.,91624,no,Toteşti,Totesti,1906,22916828
+RO423,n.a.,91688,no,Turdaş,Turdas,2092,32684923
+RO423,n.a.,91731,no,General Berthelot,General Berthelot,918,30826183
+RO423,n.a.,91795,no,Vaţa de Jos,Vata de Jos,3626,202095535
+RO423,n.a.,91937,no,Vălişoara,Valisoara,1211,34235451
+RO423,n.a.,91982,no,Veţel,Vetel,2849,117000069
+RO423,n.a.,92097,no,Vorţa,Vorta,793,102562104
+RO423,n.a.,92177,no,Zam,Zam,1680,163424035
+RO312,n.a.,92569,no,Municipiul Călăraşi,Municipiul Calarasi,77576,133222671
+RO312,n.a.,92587,no,Modelu,Modelu,10582,111399471
+RO315,n.a.,92658,no,Municipiul Slobozia,Municipiul Slobozia,53085,127349527
+RO315,n.a.,92701,no,Municipiul Feteşti,Municipiul Fetesti,35535,102777839
+RO315,n.a.,92765,no,Oraş Ţăndărei,Oras tandarei,16894,113383624
+RO315,n.a.,92783,no,Albeşti,Albesti,1282,59014386
+RO315,n.a.,92836,no,Oraş Amara,Oras Amara,7998,69296286
+RO315,n.a.,92872,no,Andrăşeşti,Andrasesti,2235,45929434
+RO315,n.a.,92907,no,Balaciu,Balaciu,1632,89262650
+RO312,n.a.,92961,no,Borcea,Borcea,8281,387364528
+RO315,n.a.,92989,no,Borduşani,Bordusani,5135,223532864
+RO315,n.a.,93021,no,Bucu,Bucu,2470,42617453
+RO315,n.a.,93067,no,Oraş Căzăneşti,Oras Cazanesti,3580,54245856
+RO312,n.a.,93085,no,Ciocăneşti,Ciocanesti,4117,132387817
+RO315,n.a.,93101,no,Ciochina,Ciochina,3184,95234881
+RO315,n.a.,93156,no,Ciulniţa,Ciulnita,2493,68676584
+RO315,n.a.,93209,no,Cocora,Cocora,2127,51504283
+RO315,n.a.,93236,no,Cosâmbeşti,Cosambesti,1846,48643183
+RO312,n.a.,93281,no,Cuza Vodă,Cuza Voda,3954,132905067
+RO312,n.a.,93325,no,Dichiseni,Dichiseni,1787,92774952
+RO312,n.a.,93370,no,Dor Mărunt,Dor Marunt,6805,158499446
+RO312,n.a.,93441,no,Dorobanţu,Dorobantu,2821,102647080
+RO312,n.a.,93487,no,Dragalina,Dragalina,8748,178773485
+RO312,n.a.,93539,no,Dragoş Vodă,Dragos Voda,2929,127318564
+RO315,n.a.,93575,no,Făcăeni,Facaeni,5562,238601228
+RO315,n.a.,93600,no,Gheorghe Doja,Gheorghe Doja,2638,72219997
+RO315,n.a.,93628,no,Gheorghe Lazăr,Gheorghe Lazar,2315,50631481
+RO315,n.a.,93646,no,Giurgeni,Giurgeni,1474,124949081
+RO312,n.a.,93664,no,Grădiştea,Gradistea,4787,182442990
+RO315,n.a.,93717,no,Grindu,Grindu,2109,53334256
+RO315,n.a.,93735,no,Griviţa,Grivita,3446,81961965
+RO312,n.a.,93771,no,Independenţa,Independenta,3545,57459137
+RO312,n.a.,93815,no,Jegălia,Jegalia,4292,127602193
+RO312,n.a.,93851,no,Lehliu,Lehliu,2592,56825245
+RO312,n.a.,93888,no,Oraş Lehliu Gară,Oras Lehliu Gara,6708,81557542
+RO312,n.a.,93931,no,Lupşanu,Lupsanu,3197,94333307
+RO315,n.a.,93995,no,Mihail Kogălniceanu,Mihail Kogalniceanu,3279,88377961
+RO315,n.a.,94045,no,Miloşeşti,Milosesti,2671,51055744
+RO315,n.a.,94081,no,Movila,Movila,1994,81854614
+RO315,n.a.,94107,no,Munteni-Buzău,Munteni-Buzau,3509,53968248
+RO312,n.a.,94125,no,Alexandru Odobescu,Alexandru Odobescu,2735,60867486
+RO315,n.a.,94161,no,Perieţi,Perieti,3737,80077440
+RO312,n.a.,94223,no,Perişoru,Perisoru,5298,213553142
+RO315,n.a.,94269,no,Reviga,Reviga,2826,87843738
+RO312,n.a.,94312,no,Roseti,Roseti,6482,85021985
+RO315,n.a.,94330,no,Sălcioara,Salcioara,2250,58964488
+RO315,n.a.,94376,no,Săveni,Saveni,3523,93636361
+RO315,n.a.,94429,no,Scânteia,Scanteia,3881,82855643
+RO315,n.a.,94456,no,Sfântu Gheorghe,Sfantu Gheorghe,1922,71479881
+RO315,n.a.,94492,no,Stelnica,Stelnica,1906,134539915
+RO315,n.a.,94535,no,Sudiţi,Suditi,2127,58604459
+RO312,n.a.,94562,no,Ştefan cel Mare,stefan cel Mare,3284,23388035
+RO312,n.a.,94580,no,Ştefan Vodă,stefan Voda,2358,71496501
+RO312,n.a.,94606,no,Ulmu,Ulmu,1365,69667274
+RO312,n.a.,94651,no,Unirea,Unirea,2778,93039995
+RO315,n.a.,94688,no,Valea Ciorii,Valea Ciorii,1876,52346364
+RO312,n.a.,94731,no,Vâlcelele,Valcelele,1742,68028961
+RO312,n.a.,94768,no,Vlad Ţepeş,Vlad tepes,2105,74640756
+RO315,n.a.,94795,no,Vlădeni,Vladeni,2176,134257488
+RO213,n.a.,95060,no,Municipiul Iaşi,Municipiul Iasi,362142,91510397
+RO213,n.a.,95088,no,Bârnova,Barnova,6292,41192393
+RO213,n.a.,95159,no,Holboca,Holboca,14865,50020657
+RO213,n.a.,95239,no,Rediu,Rediu,6098,45079825
+RO213,n.a.,95293,no,Tomeşti,Tomesti,13913,39258014
+RO213,n.a.,95355,no,Oraş Hârlau,Oras Harlau,12414,35178642
+RO213,n.a.,95391,no,Municipiul Paşcani,Municipiul Pascani,43346,75320893
+RO213,n.a.,95471,no,Oraş Târgu Frumos,Oras Targu Frumos,14573,26878224
+RO213,n.a.,95499,no,Ion Neculce,Ion Neculce,5814,73846667
+RO213,n.a.,95612,no,Alexandru I. Cuza,Alexandru I. Cuza,2913,49531549
+RO213,n.a.,95667,no,Andrieşeni,Andrieseni,4417,92024647
+RO213,n.a.,95747,no,Aroneanu,Aroneanu,3807,39285786
+RO213,n.a.,95792,no,Bălţaţi,Baltati,5623,46228947
+RO213,n.a.,95872,no,Belceşti,Belcesti,11506,103526891
+RO213,n.a.,95943,no,Bivolari,Bivolari,4333,73972254
+RO213,n.a.,96003,no,Ungheni,Ungheni,4423,46137333
+RO213,n.a.,96058,no,Brăeşti,Braesti,3210,53591047
+RO213,n.a.,96110,no,Butea,Butea,4317,37152997
+RO213,n.a.,96147,no,Cepleniţa,Ceplenita,4430,45201998
+RO213,n.a.,96192,no,Ciorteşti,Ciortesti,4268,67195838
+RO213,n.a.,96254,no,Ciurea,Ciurea,14470,47695775
+RO213,n.a.,96334,no,Coarnele Caprei,Coarnele Caprei,3054,44318515
+RO213,n.a.,96370,no,Comarna,Comarna,5613,47197037
+RO213,n.a.,96423,no,Costuleni,Costuleni,5463,69909032
+RO213,n.a.,96478,no,Cotnari,Cotnari,7976,103332431
+RO213,n.a.,96593,no,Cozmeşti,Cozmesti,2884,43603358
+RO213,n.a.,96637,no,Cristeşti,Cristesti,4079,54106879
+RO213,n.a.,96664,no,Cucuteni,Cucuteni,1315,28437155
+RO213,n.a.,96717,no,Dagâţa,Dagata,4937,46075288
+RO213,n.a.,96815,no,Deleni,Deleni,10506,151152665
+RO213,n.a.,96888,no,Dobrovăţ,Dobrovat,2414,92593106
+RO213,n.a.,96904,no,Dolheşti,Dolhesti,2832,57676270
+RO213,n.a.,96940,no,Dumeşti,Dumesti,5082,71818961
+RO213,n.a.,97009,no,Erbiceni,Erbiceni,5778,81439816
+RO213,n.a.,97063,no,Focuri,Focuri,4097,60502327
+RO213,n.a.,97090,no,Golăieşti,Golaiesti,3993,53968994
+RO213,n.a.,97189,no,Gorban,Gorban,3050,57273058
+RO213,n.a.,97241,no,Grajduri,Grajduri,8358,41258016
+RO213,n.a.,97321,no,Gropniţa,Gropnita,3385,81744201
+RO213,n.a.,97394,no,Grozeşti,Grozesti,1755,28740049
+RO213,n.a.,97438,no,Hălăuceşti,Halaucesti,5846,47025063
+RO213,n.a.,97465,no,Heleşteni,Helesteni,2755,34080633
+RO213,n.a.,97517,no,Horleşti,Horlesti,3116,51416833
+RO213,n.a.,97553,no,Ipatele,Ipatele,1828,48366944
+RO213,n.a.,97606,no,Lespezi,Lespezi,5995,51232416
+RO213,n.a.,97679,no,Leţcani,Letcani,7673,58629555
+RO213,n.a.,97722,no,Lungani,Lungani,6317,63564306
+RO213,n.a.,97777,no,Mădârjac,Madarjac,1675,52567978
+RO213,n.a.,97811,no,Mirceşti,Mircesti,3960,19186242
+RO213,n.a.,97875,no,Mironeasa,Mironeasa,5779,46674064
+RO213,n.a.,97919,no,Miroslava,Miroslava,15666,83001611
+RO213,n.a.,98051,no,Mirosloveşti,Miroslovesti,4492,54601351
+RO213,n.a.,98113,no,Mogoşeşti,Mogosesti,5318,67381195
+RO213,n.a.,98168,no,Mogoşeşti-Siret,Mogosesti-Siret,3855,38425599
+RO213,n.a.,98202,no,Moşna,Mosna,6735,28327462
+RO213,n.a.,98220,no,Motca,Motca,5477,35966372
+RO213,n.a.,98257,no,Movileni,Movileni,3163,79437056
+RO213,n.a.,98300,no,Oţeleni,Oteleni,3768,44041697
+RO213,n.a.,98337,no,Plugari,Plugari,3535,54474214
+RO213,n.a.,98373,no,Oraş Podu Iloaiei,Oras Podu Iloaiei,11018,44358302
+RO213,n.a.,98435,no,Popeşti,Popesti,5542,73306828
+RO213,n.a.,98505,no,Popricani,Popricani,8279,69827169
+RO213,n.a.,98603,no,Prisăcani,Prisacani,3470,59871652
+RO213,n.a.,98649,no,Probota,Probota,3754,78742057
+RO213,n.a.,98685,no,Răducăneni,Raducaneni,9237,86457444
+RO213,n.a.,98738,no,Româneşti,Romanesti,1856,39056004
+RO213,n.a.,98774,no,Ruginoasa,Ruginoasa,6452,57848475
+RO213,n.a.,98827,no,Schitu Duca,Schitu Duca,4111,116585636
+RO213,n.a.,98916,no,Scânteia,Scanteia,5413,41756139
+RO213,n.a.,98998,no,Scobinţi,Scobinti,7663,71304615
+RO213,n.a.,99058,no,Sineşti,Sinesti,4586,83355138
+RO213,n.a.,99101,no,Sireţel,Siretel,4372,56532412
+RO213,n.a.,99165,no,Stolniceni-Prăjescu,Stolniceni-Prajescu,5506,62996401
+RO213,n.a.,99209,no,Strunga,Strunga,4443,71561243
+RO213,n.a.,99290,no,Şcheia,Scheia,3359,40706852
+RO213,n.a.,99370,no,Şipote,sipote,5342,90284302
+RO213,n.a.,99441,no,Tansa,Tansa,2587,35685649
+RO213,n.a.,99478,no,Tătăruşi,Tatarusi,5639,65738685
+RO213,n.a.,99539,no,Todireşti,Todiresti,5329,43814284
+RO213,n.a.,99600,no,Trifeşti,Trifesti,4009,56933407
+RO213,n.a.,99673,no,Ţibana,tibana,8154,73178020
+RO213,n.a.,99780,no,Ţibăneşti,tibanesti,8290,91013833
+RO213,n.a.,99879,no,Ţigănaşi,tiganasi,4802,64529980
+RO213,n.a.,99922,no,Ţuţora,tutora,2153,37781595
+RO213,n.a.,99968,no,Valea Seacă,Valea Seaca,6168,35850472
+RO213,n.a.,100004,no,Victoria,Victoria,4530,61540260
+RO213,n.a.,100086,no,Vânători,Vanatori,4701,51726370
+RO213,n.a.,100148,no,Vlădeni,Vladeni,4431,79334620
+RO213,n.a.,100219,no,Voineşti,Voinesti,8085,62897109
+RO213,n.a.,100273,no,Balş,Bals,3647,28181065
+RO213,n.a.,100282,no,Costeşti,Costesti,1831,26256408
+RO213,n.a.,100308,no,Draguşeni,Draguseni,1513,22493175
+RO213,n.a.,100317,no,Fântânele,Fantanele,2108,33179236
+RO213,n.a.,100326,no,Hărmăneşti,Harmanesti,2493,27826213
+RO213,n.a.,100335,no,Rachiţeni,Rachiteni,3433,16506605
+RO213,n.a.,100344,no,Roşcani,Roscani,1557,37915257
+RO213,n.a.,100353,no,Valea Lupului,Valea Lupului,6464,10641575
+RO213,n.a.,100362,no,Ciohorani,Ciohorani,2024,16473056
+RO314,n.a.,100521,no,Municipiul Giurgiu,Municipiul Giurgiu,69051,53884226
+RO314,n.a.,100549,no,Slobozia,Slobozia,2378,57833447
+RO322,n.a.,100576,no,Oraş Buftea,Oras Buftea,22122,54795703
+RO312,n.a.,100610,no,Municipiul Olteniţa,Municipiul Oltenita,28309,103479872
+RO312,n.a.,100638,no,Mitreni,Mitreni,4207,52188181
+RO315,n.a.,100683,no,Municipiul Urziceni,Municipiul Urziceni,17493,54044741
+RO315,n.a.,100709,no,Ciocârlia,Ciocarlia,781,15505010
+RO315,n.a.,100736,no,Manasia,Manasia,4681,33592381
+RO315,n.a.,100754,no,Adâncata,Adancata,2474,46926395
+RO314,n.a.,100781,no,Adunaţii-Copăceni,Adunatii-Copaceni,6143,77959858
+RO322,n.a.,100834,no,Afumaţi,Afumati,7908,60487622
+RO315,n.a.,100852,no,Alexeni,Alexeni,2398,43595607
+RO315,n.a.,100870,no,Armăşeşti,Armasesti,2329,47411649
+RO315,n.a.,100923,no,Axintele,Axintele,2435,121891984
+RO322,n.a.,100969,no,Baloteşti,Balotesti,8262,50320219
+RO314,n.a.,101001,no,Băneasa,Baneasa,4976,112513894
+RO315,n.a.,101056,no,Bărcăneşti,Barcanesti,3629,112141537
+RO312,n.a.,101083,no,Belciugatele,Belciugatele,2150,78919927
+RO322,n.a.,101145,no,Berceni,Berceni,5827,27329931
+RO314,n.a.,101163,no,Bolintin-Deal,Bolintin-Deal,6259,28482990
+RO314,n.a.,101190,no,Oraş Bolintin-Vale,Oras Bolintin-Vale,13694,37998378
+RO315,n.a.,101243,7/7/2015,Radulesti,Radulesti,1201,22479930
+RO322,n.a.,101298,no,Brăneşti,Branesti,8975,53310693
+RO313,n.a.,101341,no,Brezoaele,Brezoaele,3597,36641443
+RO314,n.a.,101378,no,Bucşani,Bucsani,3618,87108389
+RO312,n.a.,101458,no,Oraş Budeşti,Oras Budesti,7733,79196212
+RO314,n.a.,101519,no,Bulbucata,Bulbucata,1366,28000474
+RO313,n.a.,101564,no,Butimanu,Butimanu,2289,46962730
+RO314,n.a.,101617,no,Buturugeni,Buturugeni,4007,44647512
+RO314,n.a.,101662,no,Calugăreni,Calugareni,5580,122588804
+RO312,n.a.,101724,no,Căscioarele,Cascioarele,1825,26390645
+RO322,n.a.,101742,no,Cernica,Cernica,10331,38759130
+RO312,n.a.,101804,no,Chirnogi,Chirnogi,7395,197639087
+RO312,n.a.,101822,no,Chiselet,Chiselet,3321,85571454
+RO313,n.a.,101840,no,Ciocăneşti,Ciocanesti,5250,46159973
+RO322,n.a.,101902,no,Ciolpani,Ciolpani,5117,41868206
+RO322,n.a.,101957,no,Ciorogârla,Ciorogarla,5816,30787088
+RO314,n.a.,101984,no,Clejani,Clejani,3569,77033400
+RO322,n.a.,102035,no,Clinceni,Clinceni,6411,23263525
+RO314,n.a.,102071,no,Colibaşi,Colibasi,3264,28455941
+RO314,n.a.,102106,no,Comana,Comana,6784,104749809
+RO322,n.a.,102160,no,Corbeanca,Corbeanca,6642,30058835
+RO322,n.a.,102213,no,Cornetu,Cornetu,5823,15347622
+RO315,n.a.,102240,no,Coşereni,Cosereni,4557,44334887
+RO313,n.a.,102286,no,Crevedia,Crevedia,5821,55799201
+RO314,n.a.,102348,no,Crevedia Mare,Crevedia Mare,4869,63615185
+RO312,n.a.,102419,no,Curcani,Curcani,5466,53622750
+RO314,n.a.,102446,no,Daia,Daia,2587,59368395
+RO322,n.a.,102473,no,Dascălu,Dascalu,2881,38895844
+RO322,n.a.,102525,no,Dărăşti-Ilfov,Darasti-Ilfov,2658,14781414
+RO322,n.a.,102543,no,1 Decembrie,1 Decembrie,8014,17038623
+RO322,n.a.,102570,no,Domneşti,Domnesti,8480,37416372
+RO322,n.a.,102605,no,Dragomireşti-Vale,Dragomiresti-Vale,4889,31387846
+RO315,n.a.,102641,no,Drăgoeşti,Dragoesti,938,47367854
+RO315,n.a.,102703,no,Dridu,Dridu,3324,56725211
+RO315,n.a.,102749,no,Oraş Fierbinţi-Târg,Oras Fierbinti-Targ,4642,57652964
+RO314,n.a.,102794,no,Floreşti-Stoeneşti,Floresti-Stoenesti,8599,41078178
+RO312,n.a.,102838,no,Frăsinet,Frasinet,1713,86810226
+RO314,n.a.,102909,no,Frăteşti,Fratesti,5266,91398407
+RO312,n.a.,102945,no,Frumuşani,Frumusani,4960,72380488
+RO312,n.a.,103014,no,Fundeni,Fundeni,4866,69846121
+RO312,n.a.,103032,no,Oraş Fundulea,Oras Fundulea,6764,106783475
+RO314,n.a.,103087,no,Găiseni,Gaiseni,5509,52992552
+RO322,n.a.,103130,no,Găneasa,Ganeasa,5135,46409459
+RO314,n.a.,103194,no,Găujani,Gaujani,2352,81507044
+RO314,n.a.,103238,no,Ghimpaţi,Ghimpati,5711,123246108
+RO315,n.a.,103283,no,Gârbovi,Garbovi,3868,78302537
+RO314,n.a.,103309,no,Gogoşari,Gogosari,1789,121820310
+RO314,n.a.,103354,no,Gostinu,Gostinu,1913,51611342
+RO314,n.a.,103372,no,Gostinari,Gostinari,2326,34089375
+RO314,n.a.,103407,no,Grădinari,Gradinari,3275,32314327
+RO322,n.a.,103443,no,Grădiştea,Gradistea,3132,31226910
+RO314,n.a.,103470,no,Greaca,Greaca,2307,32395407
+RO322,n.a.,103513,no,Gruiu,Gruiu,6872,65500420
+RO312,n.a.,103568,no,Gurbănesti,Gurbanesti,1189,75149012
+RO314,n.a.,103639,no,Hotarele,Hotarele,3535,47617427
+RO314,n.a.,103693,no,Iepureşti,Iepuresti,1930,54479097
+RO312,n.a.,103764,no,Ileana,Ileana,3232,140427068
+RO315,n.a.,103862,no,Ion Roată,Ion Roata,3749,43816868
+RO314,n.a.,103899,no,Izvoarele,Izvoarele,3501,136685248
+RO315,n.a.,103960,no,Jilavele,Jilavele,3459,52361428
+RO314,n.a.,103997,no,Joiţa,Joita,3502,23676401
+RO314,n.a.,104047,no,Letca Nouă,Letca Noua,3403,86697292
+RO312,n.a.,104083,no,Luica,Luica,2133,37949310
+RO314,n.a.,104118,no,Mihai Bravu,Mihai Bravu,2450,65497828
+RO314,n.a.,104136,no,Oraş Mihăileşti,Oras Mihailesti,7603,68489050
+RO312,n.a.,104181,no,Mânăstirea,Manastirea,5550,122407466
+RO314,n.a.,104225,no,Mârşa,Marsa,2758,70030791
+RO322,n.a.,104243,no,Moara Vlăsiei,Moara Vlasiei,6183,63006006
+RO315,n.a.,104270,no,Moviliţa,Movilita,2556,37886121
+RO312,n.a.,104323,no,Nana,Nana,2403,77369788
+RO312,n.a.,104341,no,Nicolae Bălcescu,Nicolae Balcescu,1627,34824320
+RO313,n.a.,104387,no,Niculeşti,Niculesti,4319,27252457
+RO322,n.a.,104421,no,Nuci,Nuci,2821,52362183
+RO314,n.a.,104485,no,Ogrezeni,Ogrezeni,4711,37658704
+RO314,n.a.,104519,no,Oinacu,Oinacu,3296,48799896
+RO322,n.a.,104546,no,Periş,Peris,7246,77575924
+RO322,n.a.,104582,no,Petrăchioaia,Petrachioaia,3306,56281800
+RO312,n.a.,104635,no,Plătăreşti,Plataresti,3529,57044213
+RO314,n.a.,104680,no,Prundu,Prundu,4268,187452368
+RO314,n.a.,104715,no,Putineiu,Putineiu,2349,89753073
+RO312,n.a.,104751,no,Radovanu,Radovanu,4074,59744463
+RO314,n.a.,104788,no,Răsuceni,Rasuceni,2323,89049815
+RO314,n.a.,104831,no,Roata de Jos,Roata de Jos,8055,84300012
+RO312,n.a.,104886,no,Săruleşti,Sarulesti,2960,68355724
+RO314,n.a.,104975,no,Schitu,Schitu,1708,73692134
+RO315,n.a.,105026,no,Sineşti,Sinesti,2719,66099463
+RO314,n.a.,105106,no,Singureni,Singureni,3032,59374512
+RO313,n.a.,105142,no,Slobozia Moară,Slobozia Moara,2021,16626384
+RO322,n.a.,105160,no,Snagov,Snagov,7447,90296496
+RO312,n.a.,105222,no,Sohatu,Sohatu,2698,83153458
+RO312,n.a.,105259,no,Spanţov,Spantov,4753,64968579
+RO314,n.a.,105295,no,Stăneşti,Stanesti,2637,100351421
+RO314,n.a.,105348,no,Stoeneşti,Stoenesti,1993,47370677
+RO312,n.a.,105384,no,Şoldanu,soldanu,3417,42221485
+RO322,n.a.,105419,no,Ştefăneştii de Jos,stefanestii de Jos,6767,29286262
+RO312,n.a.,105455,no,Tămădău Mare,Tamadau Mare,2501,41200766
+RO313,n.a.,105534,no,Tărtăşeşti,Tartasesti,5117,58339088
+RO322,n.a.,105570,no,Tunari,Tunari,5497,29755790
+RO312,n.a.,105605,no,Ulmeni,Ulmeni,5056,55539490
+RO314,n.a.,105623,no,Ulmi,Ulmi,7443,43701652
+RO312,n.a.,105712,no,Valea Argovei,Valea Argovei,2472,85798039
+RO314,n.a.,105776,no,Valea Dragului,Valea Dragului,2867,37742997
+RO315,n.a.,105794,no,Valea Măcrişului,Valea Macrisului,1791,49902858
+RO312,n.a.,105829,no,Vasilaţi,Vasilati,4404,65245109
+RO314,n.a.,105874,no,Vărăşti,Varasti,5920,47682269
+RO314,n.a.,105909,no,Vedea,Vedea,2726,81354403
+RO322,n.a.,105936,no,Vidra,Vidra,8400,66965814
+RO314,n.a.,105972,no,Vânătorii Mici,Vanatorii Mici,4676,58114135
+RO114,n.a.,106318,no,Municipiul Baia Mare,Municipiul Baia Mare,147801,233637456
+RO114,n.a.,106363,no,Groşi,Grosi,2800,22525372
+RO114,n.a.,106407,no,Recea,Recea,6151,43797481
+RO114,n.a.,106461,no,Oraş Tăuţii-Măgherăuş,Oras Tautii-Magheraus,8048,121180394
+RO114,n.a.,106559,no,Municipiul Sighetu Marmaţiei,Municipiul Sighetu Marmatiei,44097,136679494
+RO114,n.a.,106620,no,Sarasău,Sarasau,2751,19291009
+RO114,n.a.,106648,no,Vadu Izei,Vadu Izei,2877,16939484
+RO114,n.a.,106684,no,Oraş Baia Sprie,Oras Baia Sprie,17076,93093853
+RO114,n.a.,106746,no,Oraş Borşa,Oras Borsa,29822,419132727
+RO114,n.a.,106782,no,Oraş Cavnic,Oras Cavnic,5249,24394950
+RO114,n.a.,106817,no,Oraş Târgu Lăpuş,Oras Targu Lapus,13207,246950691
+RO114,n.a.,106979,no,Oraş Vişeu de Sus,Oras Viseu de Sus,18159,440946086
+RO114,n.a.,107001,no,Ardusat,Ardusat,2761,31289001
+RO114,n.a.,107047,no,Ariniş,Arinis,1035,27029702
+RO114,n.a.,107083,no,Asuaju de Sus,Asuaju de Sus,1323,59183249
+RO114,n.a.,107118,no,Băiţa de sub Codru,Baita de sub Codru,1872,48815971
+RO114,n.a.,107154,no,Băiuţ,Baiut,2426,114321644
+RO114,n.a.,107190,no,Băseşti,Basesti,1407,54266142
+RO114,n.a.,107234,no,Bicaz,Bicaz,1052,39092646
+RO114,n.a.,107270,no,Bistra,Bistra,4355,128373437
+RO114,n.a.,107314,no,Bârsana,Barsana,4719,72063088
+RO114,n.a.,107350,no,Bocicoiu Mare,Bocicoiu Mare,4503,27205731
+RO114,n.a.,107403,no,Bogdan Vodă,Bogdan Voda,3051,34287944
+RO114,n.a.,107430,no,Boiu Mare,Boiu Mare,1126,59204708
+RO114,n.a.,107485,no,Botiza,Botiza,2588,74199183
+RO114,n.a.,107519,no,Budeşti,Budesti,3084,85273700
+RO114,n.a.,107546,no,Călineşti,Calinesti,3159,66098772
+RO114,n.a.,107582,no,Cerneşti,Cernesti,3668,95935234
+RO114,n.a.,107662,no,Cicârlău,Cicarlau,4185,74758442
+RO114,n.a.,107715,no,Câmpulung la Tisa,Campulung la Tisa,2509,34056837
+RO114,n.a.,107733,no,Copalnic-Mănăştur,Copalnic-Manastur,5664,117492110
+RO114,n.a.,107868,no,Coroieni,Coroieni,2395,66974239
+RO114,n.a.,107920,no,Cupşeni,Cupseni,3483,82098412
+RO114,n.a.,107975,no,Deseşti,Desesti,2370,142427144
+RO114,n.a.,108017,no,Oraş Dragomiresti,Oras Dragomiresti,3256,100970376
+RO114,n.a.,108035,no,Dumbrăviţa,Dumbravita,4330,51870301
+RO114,n.a.,108106,no,Fărcaşa,Farcasa,3919,49133569
+RO114,n.a.,108151,no,Giuleşti,Giulesti,3210,78373657
+RO114,n.a.,108204,no,Ieud,Ieud,4390,75794754
+RO114,n.a.,108222,no,Lăpuş,Lapus,3699,94601075
+RO114,n.a.,108240,no,Leordina,Leordina,2434,29723833
+RO114,n.a.,108268,no,Mireşu Mare,Miresu Mare,4810,73278485
+RO114,n.a.,108348,no,Moisei,Moisei,9293,118318864
+RO114,n.a.,108366,no,Oarţa de Jos,Oarta de Jos,1179,31857812
+RO114,n.a.,108400,no,Ocna Şugatag,Ocna sugatag,4186,90874643
+RO114,n.a.,108455,no,Petrova,Petrova,2493,41650788
+RO114,n.a.,108473,no,Poienile de Sub Munte,Poienile de Sub Munte,10243,289679799
+RO114,n.a.,108491,no,Remetea Chioarului,Remetea Chioarului,2878,53377933
+RO114,n.a.,108552,no,Remeţi,Remeti,3213,68217418
+RO114,n.a.,108598,no,Repedea,Repedea,4955,117175494
+RO114,n.a.,108614,no,Rona de Jos,Rona de Jos,2044,23018765
+RO114,n.a.,108632,no,Rona de Sus,Rona de Sus,4606,63825123
+RO114,n.a.,108669,no,Rozavlea,Rozavlea,3196,42783791
+RO114,n.a.,108696,no,Ruscova,Ruscova,5612,40867434
+RO114,n.a.,108712,no,Satulung,Satulung,5921,68928267
+RO114,n.a.,108794,no,Săcălăşeni,Sacalaseni,2291,28744103
+RO114,n.a.,108874,no,Săcel,Sacel,3486,83221327
+RO114,n.a.,108892,no,Oraş Săliştea de Sus,Oras Salistea de Sus,5136,68599186
+RO114,n.a.,108918,no,Sălsig,Salsig,1648,20047166
+RO114,n.a.,108945,no,Săpânţa,Sapanta,3178,139388388
+RO114,n.a.,108963,no,Oraş Seini,Oras Seini,9599,58589877
+RO114,n.a.,109005,no,Strâmtura,Stramtura,3692,91653454
+RO114,n.a.,109041,no,Suciu de Sus,Suciu de Sus,4012,111659770
+RO114,n.a.,109096,no,Şişeşti,sisesti,5457,90455094
+RO114,n.a.,109176,no,Oraş Şomcuţa Mare,Oras somcuta Mare,7993,118294252
+RO114,n.a.,109265,no,Oraş Ulmeni,Oras Ulmeni,7551,80512341
+RO114,n.a.,109354,no,Valea Chioarului,Valea Chioarului,2078,79027733
+RO114,n.a.,109425,no,Vima Mică,Vima Mica,1467,76341999
+RO114,n.a.,109504,no,Vişeu de Jos,Viseu de Jos,5168,55900344
+RO413,n.a.,109773,no,Municipiul Drobeta-Turnu Sever,Municipiul Drobeta-Turnu Sever,109647,59614231
+RO413,n.a.,109826,no,Şimian,simian,10266,64450513
+RO413,n.a.,109924,no,Oraş Baia de Aramă,Oras Baia de Arama,5592,87298968
+RO413,n.a.,110027,no,Obârşia-Cloşani,Obarsia-Closani,1033,66498090
+RO413,n.a.,110063,no,Municipiul Orşova,Municipiul Orsova,12923,48879874
+RO413,n.a.,110116,no,Oraş Strehaia,Oras Strehaia,11398,108651569
+RO413,n.a.,110232,no,Oraş Vânju Mare,Oras Vanju Mare,5877,97114650
+RO413,n.a.,110296,no,Bala,Bala,3817,114532385
+RO413,n.a.,110456,no,Balta,Balta,1037,106815301
+RO413,n.a.,110535,no,Bălăciţa,Balacita,2755,98168275
+RO413,n.a.,110571,no,Bâcleş,Bacles,1886,99754904
+RO413,n.a.,110688,no,Bâlvăneşti,Balvanesti,913,49330620
+RO413,n.a.,110740,no,Brezniţa-Motru,Breznita-Motru,1436,51729146
+RO413,n.a.,110820,no,Brezniţa-Ocol,Breznita-Ocol,3997,81587488
+RO413,n.a.,110875,no,Broşteni,Brosteni,2782,45822767
+RO413,n.a.,110946,no,Burila Mare,Burila Mare,2101,123806804
+RO413,n.a.,111006,no,Butoieşti,Butoiesti,3244,68080473
+RO413,n.a.,111097,no,Căzăneşti,Cazanesti,2135,83133035
+RO413,n.a.,111220,no,Cireşu,Ciresu,491,51400268
+RO413,n.a.,111275,no,Corcova,Corcova,6074,76702067
+RO413,n.a.,111417,no,Corlăţel,Corlatel,1283,44146780
+RO413,n.a.,111444,no,Cujmir,Cujmir,3347,44101187
+RO413,n.a.,111480,no,Devesel,Devesel,2978,103858070
+RO413,n.a.,111550,no,Dârvari,Darvari,2606,64120059
+RO413,n.a.,111587,no,Dumbrava,Dumbrava,1392,81566058
+RO413,n.a.,111685,no,Floreşti,Floresti,2585,50966288
+RO413,n.a.,111783,no,Gârla Mare,Garla Mare,3594,64194461
+RO413,n.a.,111818,no,Godeanu,Godeanu,582,47303277
+RO413,n.a.,111863,no,Gogoşu,Gogosu,4223,121254103
+RO413,n.a.,111916,no,Greci,Greci,1233,38478279
+RO413,n.a.,111989,no,Grozeşti,Grozesti,2039,43306079
+RO413,n.a.,112030,no,Gruia,Gruia,3033,69562875
+RO413,n.a.,112076,no,Hinova,Hinova,2883,70584438
+RO413,n.a.,112129,no,Husnicioara,Husnicioara,1280,74161550
+RO413,n.a.,112245,no,Eşelniţa,Eselnita,2899,180727585
+RO413,n.a.,112263,no,Ilovăţ,Ilovat,1216,77251324
+RO413,n.a.,112334,no,Iloviţa,Ilovita,1320,74181538
+RO413,n.a.,112370,no,Isverna,Isverna,2141,132569022
+RO413,n.a.,112469,no,Izvoru Bârzii,Izvoru Barzii,2773,68845660
+RO413,n.a.,112548,no,Jiana,Jiana,4639,100734091
+RO413,n.a.,112600,no,Livezile,Livezile,1463,67193988
+RO413,n.a.,112664,no,Malovăţ,Malovat,2628,78404436
+RO413,n.a.,112744,no,Obârşia de Câmp,Obarsia de Camp,1777,39831102
+RO413,n.a.,112771,no,Oprişor,Oprisor,2238,74934125
+RO413,n.a.,112806,no,Pădina,Padina,1241,80313369
+RO413,n.a.,112879,no,Pătulele,Patulele,3708,105856916
+RO413,n.a.,112904,no,Dubova,Dubova,933,181664745
+RO413,n.a.,112959,no,Podeni,Podeni,845,83549241
+RO413,n.a.,112995,no,Ponoarele,Ponoarele,2450,60469432
+RO413,n.a.,113153,no,Poroina Mare,Poroina Mare,977,55301870
+RO413,n.a.,113206,no,Pristol,Pristol,1448,31719722
+RO413,n.a.,113233,no,Prunişor,Prunisor,1920,122537707
+RO413,n.a.,113395,no,Punghina,Punghina,3259,77851939
+RO413,n.a.,113466,no,Rogova,Rogova,1382,33171340
+RO413,n.a.,113493,no,Salcia,Salcia,2801,58990392
+RO413,n.a.,113518,no,Stângăceaua,Stangaceaua,1296,39916856
+RO413,n.a.,113607,no,Sviniţa,Svinita,961,104489232
+RO413,n.a.,113625,no,Şişeşti,sisesti,2622,76364966
+RO413,n.a.,113698,no,Şovarna,sovarna,1122,37335480
+RO413,n.a.,113732,no,Tâmna,Tamna,3289,95835423
+RO413,n.a.,113849,no,Vânători,Vanatori,1921,51817625
+RO413,n.a.,113894,no,Vânjuleţ,Vanjulet,1836,39316762
+RO413,n.a.,113929,no,Vlădaia,Vladaia,1630,78960821
+RO413,n.a.,113974,no,Voloiac,Voloiac,1695,48045677
+RO413,n.a.,114060,no,Braniştea,Branistea,1866,33069132
+RO413,n.a.,114079,no,Vrata,Vrata,1920,50106749
+RO125,n.a.,114319,no,Municipiul Târgu Mureş,Municipiul Targu Mures,150191,49217531
+RO125,n.a.,114355,no,Cristeşti,Cristesti,6330,13235711
+RO125,n.a.,114382,no,Sâncraiu de Mureş,Sancraiu de Mures,8424,20571385
+RO125,n.a.,114417,no,Sângeorgiu de Mureş,Sangeorgiu de Mures,10135,28657585
+RO125,n.a.,114453,no,Sântana de Mureş,Santana de Mures,5726,25964104
+RO125,n.a.,114514,no,Municipiul Sighişoara,Municipiul Sighisoara,34217,95925405
+RO125,n.a.,114603,no,Albeşti,Albesti,6120,82652594
+RO125,n.a.,114710,no,Oraş Luduş,Oras Ludus,17599,64769239
+RO125,n.a.,114809,no,Municipiul Reghin,Municipiul Reghin,38223,55892950
+RO125,n.a.,114854,no,Oraş Sovata,Oras Sovata,10551,159602129
+RO125,n.a.,114925,no,Municipiul Târnăveni,Municipiul Tarnaveni,26479,60615588
+RO125,n.a.,114970,no,Acăţari,Acatari,4813,74627171
+RO125,n.a.,115076,no,Adămuş,Adamus,5610,80820349
+RO125,n.a.,115147,no,Aluniş,Alunis,3172,40602526
+RO125,n.a.,115183,no,Apold,Apold,3194,125361791
+RO125,n.a.,115236,no,Aţintiş,Atintis,1577,48370215
+RO125,n.a.,115307,no,Bahnea,Bahnea,3738,91614230
+RO125,n.a.,115389,no,Band,Band,6564,89909135
+RO125,n.a.,115520,no,Batoş,Batos,4256,82315204
+RO125,n.a.,115575,no,Băgaciu,Bagaciu,2599,37269384
+RO125,n.a.,115600,no,Băla,Bala,704,28165519
+RO125,n.a.,115637,no,Bălăuşeri,Balauseri,5139,78015852
+RO125,n.a.,115708,no,Beica de Jos,Beica de Jos,2219,45461172
+RO125,n.a.,115771,no,Bichiş,Bichis,862,46277412
+RO125,n.a.,115824,no,Bogata,Bogata,1932,30518585
+RO125,n.a.,115851,no,Breaza,Breaza,2527,41487182
+RO125,n.a.,115897,no,Brâncoveneşti,Brancovenesti,4010,87220358
+RO125,n.a.,115959,no,Ceuaşu de Câmpie,Ceuasu de Campie,6095,83432162
+RO125,n.a.,116046,no,Cheţani,Chetani,2623,57832754
+RO125,n.a.,116126,no,Chiheru de Jos,Chiheru de Jos,1567,115188289
+RO125,n.a.,116171,no,Coroisânmărtin,Coroisanmartin,1518,27399939
+RO125,n.a.,116224,no,Cozma,Cozma,537,29606807
+RO125,n.a.,116288,no,Crăciuneşti,Craciunesti,4349,48385668
+RO125,n.a.,116340,no,Crăieşti,Craiesti,907,23471651
+RO125,n.a.,116395,no,Cucerdea,Cucerdea,1414,35971110
+RO125,n.a.,116439,no,Cuci,Cuci,1982,42132926
+RO125,n.a.,116493,no,Daneş,Danes,5702,114694377
+RO125,n.a.,116545,no,Deda,Deda,4349,77454874
+RO125,n.a.,116590,no,Eremitu,Eremitu,4095,82923904
+RO125,n.a.,116652,no,Ernei,Ernei,5963,67300511
+RO125,n.a.,116723,no,Fărăgău,Faragau,1738,39872899
+RO125,n.a.,116796,no,Fântânele,Fantanele,4969,64261635
+RO125,n.a.,116867,no,Găleşti,Galesti,2613,57254302
+RO125,n.a.,116938,no,Găneşti,Ganesti,3640,49641297
+RO125,n.a.,116983,no,Gheorghe Doja,Gheorghe Doja,2909,37440832
+RO125,n.a.,117042,no,Ghindari,Ghindari,3388,80237273
+RO125,n.a.,117113,no,Glodeni,Glodeni,3739,54351768
+RO125,n.a.,117177,no,Gorneşti,Gornesti,5734,85247992
+RO125,n.a.,117275,no,Grebenişu de Câmpie,Grebenisu de Campie,1747,28002628
+RO125,n.a.,117319,no,Gurghiu,Gurghiu,6212,126433774
+RO125,n.a.,117426,no,Hodac,Hodac,5155,97732789
+RO125,n.a.,117505,no,Hodoşa,Hodosa,1227,39761101
+RO125,n.a.,117550,no,Ibăneşti,Ibanesti,4283,312800587
+RO125,n.a.,117667,no,Iclănzel,Iclanzel,2143,61575927
+RO125,n.a.,117783,no,Ideciu de Jos,Ideciu de Jos,2128,42485714
+RO125,n.a.,117827,no,Oraş Iernut,Oras Iernut,9764,106238274
+RO125,n.a.,117925,no,Livezeni,Livezeni,3270,24855179
+RO125,n.a.,117998,no,Lunca,Lunca,2492,82291798
+RO125,n.a.,118058,no,Lunca Bradului,Lunca Bradului,2076,310151978
+RO125,n.a.,118094,no,Măgherani,Magherani,1354,58056431
+RO125,n.a.,118209,no,Mica,Mica,4772,63842862
+RO125,n.a.,118281,no,Oraş Miercurea Nirajului,Oras Miercurea Nirajului,6101,55812807
+RO125,n.a.,118370,no,Miheşu de Câmpie,Mihesu de Campie,2495,53383589
+RO125,n.a.,118469,no,Nadeş,Nades,2986,68732739
+RO125,n.a.,118511,no,Neaua,Neaua,1413,39978322
+RO125,n.a.,118575,no,Ogra,Ogra,2626,50365087
+RO125,n.a.,118637,no,Papiu Ilarian,Papiu Ilarian,894,26095394
+RO125,n.a.,118691,no,Pănet,Panet,6113,72370316
+RO125,n.a.,118753,no,Păsăreni,Pasareni,1787,30300595
+RO125,n.a.,118799,no,Petelea,Petelea,3037,43710855
+RO125,n.a.,118824,no,Pogăceaua,Pogaceaua,2023,37977425
+RO125,n.a.,118931,no,Răstoliţa,Rastolita,1846,265818339
+RO125,n.a.,118995,no,Rîciu,Riciu,3647,73515817
+RO125,n.a.,119153,no,Ruşii-Munţi,Rusii-Munti,2190,42752916
+RO125,n.a.,119206,no,Saschiz,Saschiz,2279,98167580
+RO125,n.a.,119242,no,Oraş Sărmaşu,Oras Sarmasu,7182,76127821
+RO125,n.a.,119331,no,Oraş Sângeorgiu de Pădure,Oras Sangeorgiu de Padure,5468,71112598
+RO125,n.a.,119386,no,Sânger,Sanger,2443,51450334
+RO125,n.a.,119466,no,Sânpaul,Sanpaul,4410,55388311
+RO125,n.a.,119527,no,Sânpetru de Câmpie,Sanpetru de Campie,2837,63853922
+RO125,n.a.,119590,no,Solovăstru,Solovastru,2877,29907662
+RO125,n.a.,119625,no,Stânceni,Stanceni,1472,124760399
+RO125,n.a.,119661,no,Suplac,Suplac,2315,48646126
+RO125,n.a.,119723,no,Suseni,Suseni,2346,30775269
+RO125,n.a.,119750,no,Şăulia,Saulia,2061,26270587
+RO125,n.a.,119803,no,Şincai,Sincai,1619,33750076
+RO125,n.a.,119858,no,Tăureni,Taureni,983,20705195
+RO125,n.a.,119894,no,Oraş Ungheni,Oras Ungheni,7523,63583516
+RO125,n.a.,119974,no,Valea Largă,Valea Larga,3061,33522426
+RO125,n.a.,120076,no,Vărgata,Vargata,1952,39799378
+RO125,n.a.,120138,no,Vătava,Vatava,1985,168801726
+RO125,n.a.,120174,no,Veţca,Vetca,790,37436754
+RO125,n.a.,120218,no,Viişoara,Viisoara,1886,66824973
+RO125,n.a.,120254,no,Vânători,Vanatori,4328,111847169
+RO125,n.a.,120316,no,Voivodeni,Voivodeni,1800,34036371
+RO125,n.a.,120343,no,Zagăr,Zagar,1302,38988657
+RO125,n.a.,120370,no,Zau de Câmpie,Zau de Campie,3332,50141757
+RO125,n.a.,120478,no,Chibed,Chibed,1767,37477483
+RO125,n.a.,120487,no,Corunca,Corunca,3037,17123490
+RO125,n.a.,120496,no,Sărăţeni,Sarateni,1483,37151059
+RO125,n.a.,120502,no,Madaraş,Madaras,1641,23049361
+RO125,n.a.,120511,no,Bereni,Bereni,1246,40460860
+RO214,n.a.,120726,no,Municipiul Piatra Neamţ,Municipiul Piatra Neamt,115273,76898353
+RO214,n.a.,120771,no,Dumbrava Roşie,Dumbrava Rosie,8313,52570284
+RO214,n.a.,120824,no,Săvineşti,Savinesti,6746,20143517
+RO214,n.a.,120860,no,Municipiul Roman,Municipiul Roman,70665,29461240
+RO214,n.a.,120888,no,Cordun,Cordun,7918,41754134
+RO214,n.a.,120922,no,Horia,Horia,7354,39764599
+RO214,n.a.,120968,no,Oraş Bicaz,Oras Bicaz,8626,133707315
+RO214,n.a.,121055,no,Oraş Târgu Neamţ,Oras Targu Neamt,22042,42966576
+RO214,n.a.,121108,no,Agapia,Agapia,4310,60372767
+RO214,n.a.,121153,no,Bahna,Bahna,3526,57063609
+RO214,n.a.,121242,no,Bălţăteşti,Baltatesti,4253,35023431
+RO214,n.a.,121297,no,Bicaz-Chei,Bicaz-Chei,4656,97718572
+RO214,n.a.,121340,no,Bicazu Ardelean,Bicazu Ardelean,3876,112412558
+RO214,n.a.,121386,no,Bira,Bira,2011,23987036
+RO214,n.a.,121466,no,Bârgăuani,Bargauani,3835,74533389
+RO214,n.a.,121607,no,Bodeşti,Bodesti,4783,63150445
+RO214,n.a.,121652,no,Borca,Borca,6658,204217543
+RO214,n.a.,121732,no,Borleşti,Borlesti,9541,107363757
+RO214,n.a.,121796,no,Boteşti,Botesti,5176,35279251
+RO214,n.a.,121876,no,Bozieni,Bozieni,2977,44916287
+RO214,n.a.,121938,no,Brusturi,Brusturi,4024,50149343
+RO214,n.a.,122025,no,Ceahlău,Ceahlau,2459,96748553
+RO214,n.a.,122061,no,Cândeşti,Candesti,4261,37996160
+RO214,n.a.,122132,no,Costişa,Costisa,3534,27391130
+RO214,n.a.,122187,no,Crăcăoani,Cracaoani,4421,131785919
+RO214,n.a.,122249,no,Dămuc,Damuc,3068,180691080
+RO214,n.a.,122285,no,Dobreni,Dobreni,1805,24196200
+RO214,n.a.,122347,no,Doljeşti,Doljesti,7635,34705912
+RO214,n.a.,122392,no,Dragomireşti,Dragomiresti,2240,40587021
+RO214,n.a.,122463,no,Dulceşti,Dulcesti,2632,50431186
+RO214,n.a.,122551,no,Farcaşa,Farcasa,3213,92371067
+RO214,n.a.,122613,no,Făurei,Faurei,2193,51435042
+RO214,n.a.,122668,no,Gherăeşti,Gheraesti,6742,29062027
+RO214,n.a.,122702,no,Girov,Girov,5181,68727292
+RO214,n.a.,122828,no,Gârcina,Garcina,4935,122082608
+RO214,n.a.,122864,no,Grinţieş,Grinties,2502,141561709
+RO214,n.a.,122908,no,Grumăzeşti,Grumazesti,5487,40792703
+RO214,n.a.,122953,no,Hangu,Hangu,3942,129323019
+RO214,n.a.,123013,no,Icuşeşti,Icusesti,4842,61957931
+RO214,n.a.,123102,no,Ion Creanga,Ion Creanga,5788,75894177
+RO214,n.a.,123175,no,Mărgineni,Margineni,3879,59828314
+RO214,n.a.,123228,no,Moldoveni,Moldoveni,2171,40761763
+RO214,n.a.,123255,no,Oniceni,Oniceni,3728,44858420
+RO214,n.a.,123371,no,Păstrăveni,Pastraveni,4072,37578396
+RO214,n.a.,123424,no,Petricani,Petricani,6113,75575032
+RO214,n.a.,123479,no,Piatra Şoimului,Piatra Soimului,8615,147633316
+RO214,n.a.,123521,no,Pipirig,Pipirig,9045,194518119
+RO214,n.a.,123601,no,Pângăraţi,Pangarati,5500,121663659
+RO214,n.a.,123674,no,Podoleni,Podoleni,5772,40296948
+RO214,n.a.,123709,no,Poienari,Poienari,1637,34613928
+RO214,n.a.,123790,no,Poiana Teiului,Poiana Teiului,4958,165534114
+RO214,n.a.,123914,no,Răuceşti,Raucesti,8592,77669868
+RO214,n.a.,123969,no,Războieni,Razboieni,2301,36037949
+RO214,n.a.,124028,no,Rediu,Rediu,5423,36107258
+RO214,n.a.,124073,no,Români,Romani,4306,53582484
+RO214,n.a.,124117,no,Oraş Roznov,Oras Roznov,10314,40391766
+RO214,n.a.,124153,no,Sagna,Sagna,5333,53226361
+RO214,n.a.,124206,no,Săbăoani,Sabaoani,11863,33412259
+RO214,n.a.,124233,no,Secuieni,Secuieni,3240,74031985
+RO214,n.a.,124331,no,Stăniţa,Stanita,2189,87748969
+RO214,n.a.,124411,no,Ştefan cel Mare,stefan cel Mare,3126,50140479
+RO214,n.a.,124493,no,Tarcău,Tarcau,3492,397429065
+RO214,n.a.,124563,no,Taşca,Tasca,2619,95726397
+RO214,n.a.,124616,no,Tazlău,Tazlau,2808,161854887
+RO214,n.a.,124634,no,Tămăşeni,Tamaseni,9910,23483119
+RO214,n.a.,124661,no,Timişeşti,Timisesti,4102,48851460
+RO214,n.a.,124723,no,Trifeşti,Trifesti,5055,60235327
+RO214,n.a.,124750,no,Tupilaţi,Tupilati,2194,32448967
+RO214,n.a.,124803,no,Tibucani,Tibucani,4120,49063382
+RO214,n.a.,124849,no,Urecheni,Urecheni,4147,30568984
+RO214,n.a.,124885,no,Valea Ursului,Valea Ursului,4282,64665156
+RO214,n.a.,124938,no,Alexandru cel Bun,Alexandru cel Bun,6033,84169550
+RO214,n.a.,125016,no,Vânători-Neamţ,Vanatori-Neamt,8718,166719795
+RO214,n.a.,125061,no,Zăneşti,Zanesti,6135,33466640
+RO214,n.a.,125098,no,Dochia,Dochia,2557,31070165
+RO214,n.a.,125105,no,Ruginoasa,Ruginoasa,1916,30234696
+RO214,n.a.,125114,no,Ghindăoani,Ghindaoani,2051,22982250
+RO214,n.a.,125123,no,Văleni,Valeni,1531,35013404
+RO214,n.a.,125132,no,Drăgăneşti,Draganesti,1557,26736420
+RO214,n.a.,125141,no,Pânceşti,Pancesti,1538,37259177
+RO214,n.a.,125150,no,Gadinţi,Gadinti,2481,44306399
+RO214,n.a.,125169,no,Negreşti,Negresti,1859,34607378
+RO214,n.a.,125178,no,Boghicea,Boghicea,2634,39869855
+RO414,n.a.,125347,no,Municipiul Slatina,Municipiul Slatina,84546,50742354
+RO414,n.a.,125374,no,Slătioara,Slatioara,2433,21326611
+RO414,n.a.,125418,no,Oraş Balş,Oras Bals,21170,41686908
+RO414,n.a.,125472,no,Municipiul Caracal,Municipiul Caracal,35207,70953925
+RO414,n.a.,125490,no,Drăghiceni,Draghiceni,1782,30305552
+RO414,n.a.,125542,no,Oraş Corabia,Oras Corabia,18239,126845629
+RO414,n.a.,125588,no,Gârcov,Garcov,2371,34068640
+RO414,n.a.,125622,no,Oraş Drăgăneşti-Olt,Oras Draganesti-Olt,12015,80032992
+RO414,n.a.,125659,no,Băbiciu,Babiciu,2091,38876476
+RO414,n.a.,125677,no,Baldovineşti,Baldovinesti,1069,21490150
+RO414,n.a.,125757,no,Bărăşti,Barasti,1379,57120299
+RO414,n.a.,125846,no,Bârza,Barza,2629,23166931
+RO414,n.a.,125873,no,Bobiceşti,Bobicesti,3046,51537554
+RO414,n.a.,125962,no,Brastavăţu,Brastavatu,4484,70572606
+RO414,n.a.,125999,no,Brebeni,Brebeni,2671,93495389
+RO414,n.a.,126022,no,Brâncoveni,Brancoveni,2634,42542885
+RO414,n.a.,126077,no,Bucinişu,Bucinisu,1974,27289289
+RO414,n.a.,126102,no,Cezieni,Cezieni,1703,38000957
+RO414,n.a.,126148,no,Cilieni,Cilieni,3233,57365505
+RO414,n.a.,126166,no,Cârlogani,Carlogani,2347,42091401
+RO414,n.a.,126228,no,Coloneşti,Colonesti,1668,49021628
+RO414,n.a.,126326,no,Corbu,Corbu,2271,49835381
+RO414,n.a.,126380,no,Coteana,Coteana,2245,44780662
+RO414,n.a.,126406,no,Crâmpoia,Crampoia,3601,38559184
+RO414,n.a.,126433,no,Curtişoara,Curtisoara,4309,52950353
+RO414,n.a.,126503,no,Cungrea,Cungrea,1965,66573006
+RO414,n.a.,126585,no,Dăneasa,Daneasa,3665,57797261
+RO414,n.a.,126647,no,Deveselu,Deveselu,3208,55999827
+RO414,n.a.,126674,no,Dobreţu,Dobretu,1252,37507488
+RO414,n.a.,126718,no,Dobrosloveni,Dobrosloveni,3754,56745724
+RO414,n.a.,126772,no,Dobroteasa,Dobroteasa,1608,37366439
+RO414,n.a.,126825,no,Dobrun,Dobrun,1494,37962578
+RO414,n.a.,126905,no,Făgeţelu,Fagetelu,863,44637532
+RO414,n.a.,126978,no,Fălcoiu,Falcoiu,3818,49463508
+RO414,n.a.,127019,no,Fărcaşele,Farcasele,4825,47378596
+RO414,n.a.,127064,no,Găneasa,Ganeasa,3589,57237965
+RO414,n.a.,127126,no,Giuvărăşti,Giuvarasti,2295,32228528
+RO414,n.a.,127144,no,Gostavăţu,Gostavatu,2864,46620679
+RO414,n.a.,127171,no,Grădinari,Gradinari,2457,20279357
+RO414,n.a.,127224,no,Grojdibodu,Grojdibodu,2802,64787965
+RO414,n.a.,127251,no,Ianca,Ianca,3690,107213840
+RO414,n.a.,127288,no,Iancu Jianu,Iancu Jianu,4341,47432841
+RO414,n.a.,127322,no,Icoana,Icoana,1820,55902610
+RO414,n.a.,127368,no,Izbiceni,Izbiceni,4641,51151363
+RO414,n.a.,127386,no,Izvoarele,Izvoarele,3579,48196386
+RO414,n.a.,127411,no,Leleasca,Leleasca,1405,58220147
+RO414,n.a.,127493,no,Mărunţei,Maruntei,4007,60249579
+RO414,n.a.,127536,no,Mihăeşti,Mihaesti,1523,54358374
+RO414,n.a.,127563,no,Milcov,Milcov,1471,23882749
+RO414,n.a.,127625,no,Morunglav,Morunglav,2450,62144352
+RO414,n.a.,127689,no,Movileni,Movileni,3427,50545127
+RO414,n.a.,127714,no,Nicolae Titulescu,Nicolae Titulescu,1261,24397406
+RO414,n.a.,127750,no,Obârşia,Obarsia,2630,41574011
+RO414,n.a.,127812,no,Oboga,Oboga,1688,17622553
+RO414,n.a.,127858,no,Oporelu,Oporelu,1087,64574250
+RO414,n.a.,127901,no,Optaşi-Măgura,Optasi-Magura,1210,30172463
+RO414,n.a.,127938,no,Orlea,Orlea,2247,51792940
+RO414,n.a.,127983,no,Osica de Sus,Osica de Sus,4804,46520803
+RO414,n.a.,128052,no,Perieţi,Perieti,2049,34140562
+RO414,n.a.,128105,no,Oraş Piatra-Olt,Oras Piatra-Olt,6576,77477578
+RO414,n.a.,128178,no,Pârşcoveni,Parscoveni,3008,28733820
+RO414,n.a.,128221,no,Pleşoiu,Plesoiu,2852,50148234
+RO414,n.a.,128301,no,Poboru,Poboru,1977,68805704
+RO414,n.a.,128374,no,Oraş Potcoava,Oras Potcoava,5849,65285674
+RO414,n.a.,128436,no,Priseaca,Priseaca,1615,37433610
+RO414,n.a.,128472,no,Radomireşti,Radomiresti,3240,102177934
+RO414,n.a.,128524,no,Redea,Redea,2801,124166696
+RO414,n.a.,128560,no,Rotunda,Rotunda,2744,34984151
+RO414,n.a.,128588,no,Rusăneşti,Rusanesti,4282,60886609
+RO414,n.a.,128613,no,Scărişoara,Scarisoara,3137,44951194
+RO414,n.a.,128659,no,Schitu,Schitu,2638,46984139
+RO414,n.a.,128711,no,Oraş Scorniceşti,Oras Scornicesti,12067,168407738
+RO414,n.a.,128864,no,Seaca,Seaca,1883,39727266
+RO414,n.a.,128882,no,Sâmbureşti,Samburesti,1041,30853434
+RO414,n.a.,128962,no,Spineni,Spineni,1655,74091113
+RO414,n.a.,129040,no,Sprâncenata,Sprancenata,2474,63606258
+RO414,n.a.,129095,no,Stoeneşti,Stoenesti,2314,35226848
+RO414,n.a.,129111,no,Stoicăneşti,Stoicanesti,2716,100406722
+RO414,n.a.,129139,no,Strejeşti,Strejesti,3023,47063983
+RO414,n.a.,129184,no,Studina,Studina,2696,37914149
+RO414,n.a.,129246,no,Şerbăneşti,Serbanesti,2856,40929005
+RO414,n.a.,129282,no,Ştefan cel Mare,stefan cel Mare,1770,26539234
+RO414,n.a.,129317,no,Tătuleşti,Tatulesti,869,44924367
+RO414,n.a.,129380,no,Teslui,Teslui,2464,58432250
+RO414,n.a.,129460,no,Tia Mare,Tia Mare,4284,58156532
+RO414,n.a.,129503,no,Topana,Topana,706,34628131
+RO414,n.a.,129567,no,Traian,Traian,3078,27441279
+RO414,n.a.,129585,no,Tufeni,Tufeni,2800,71178391
+RO414,n.a.,129629,no,Urzica,Urzica,2175,28746705
+RO414,n.a.,129656,no,Valea Mare,Valea Mare,3699,62413969
+RO414,n.a.,129718,no,Vădastra,Vadastra,1392,21472735
+RO414,n.a.,129745,no,Vădăstriţa,Vadastrita,3266,41966526
+RO414,n.a.,129763,no,Văleni,Valeni,2714,67069284
+RO414,n.a.,129816,no,Verguleasa,Verguleasa,2787,58680292
+RO414,n.a.,129898,no,Vişina,Visina,2865,35409286
+RO414,n.a.,129914,no,Vitomireşti,Vitomiresti,2035,45694889
+RO414,n.a.,129987,no,Vâlcele,Valcele,2377,53112925
+RO414,n.a.,130026,no,Vlădila,Vladila,2076,25218107
+RO414,n.a.,130062,no,Voineasa,Voineasa,2133,45274893
+RO414,n.a.,130124,no,Vulpeni,Vulpeni,2207,46375347
+RO414,n.a.,130231,no,Vultureşti,Vulturesti,2338,45373274
+RO414,n.a.,130286,no,Bălţeni,Balteni,1616,33321025
+RO414,n.a.,130295,no,Calui,Calui,1541,26064960
+RO414,n.a.,130302,no,Găvăneşti,Gavanesti,1914,34405126
+RO414,n.a.,130311,no,Ghimpeţeni,Ghimpeteni,1478,25360898
+RO414,n.a.,130320,no,Grădinile,Gradinile,1467,28617900
+RO414,n.a.,130339,no,Gura Padinii,Gura Padinii,1722,54225766
+RO414,n.a.,130348,no,Ipoteşti,Ipotesti,1561,20318877
+RO414,n.a.,130357,no,Osica de Jos,Osica de Jos,1556,22047879
+RO414,n.a.,130366,no,Sârbii - Măgura,Sarbii - Magura,1896,42811920
+RO414,n.a.,130375,no,Vişina Nouă,Visina Noua,1732,20614340
+RO414,n.a.,130384,no,Sopârliţa,Soparlita,1226,19254457
+RO316,n.a.,130534,no,Municipiul Ploieşti,Municipiul Ploiesti,233663,58255292
+RO316,n.a.,130552,no,Bărcăneşti,Barcanesti,9693,37246835
+RO316,n.a.,130614,no,Berceni,Berceni,6376,31008259
+RO316,n.a.,130678,no,Blejoi,Blejoi,8811,20175417
+RO316,n.a.,130712,no,Brazi,Brazi,8289,45456347
+RO316,n.a.,130785,no,Bucov,Bucov,11217,48987288
+RO316,n.a.,130847,no,Păuleşti,Paulesti,6074,51322886
+RO316,n.a.,130892,no,Târgşoru Vechi,Targsoru Vechi,10220,48484182
+RO316,n.a.,130954,no,Oraş Azuga,Oras Azuga,4850,82889541
+RO316,n.a.,130981,no,Oraş Băicoi,Oras Baicoi,19070,67984752
+RO316,n.a.,131069,no,Oraş Boldeşti-Scăeni,Oras Boldesti-Scaeni,11593,34916430
+RO316,n.a.,131103,no,Oraş Breaza,Oras Breaza,16763,50479761
+RO316,n.a.,131210,no,Oraş Buşteni,Oras Busteni,9908,75459284
+RO316,n.a.,131256,no,Municipiul Câmpina,Municipiul Campina,37553,24225626
+RO316,n.a.,131274,no,Poiana Câmpina,Poiana Campina,5095,15478691
+RO316,n.a.,131336,no,Oraş Comarnic,Oras Comarnic,12476,90107280
+RO316,n.a.,131407,no,Oraş Mizil,Oras Mizil,16472,19189735
+RO316,n.a.,131443,no,Oraş Plopeni,Oras Plopeni,9074,4752953
+RO316,n.a.,131461,no,Dumbrăveşti,Dumbravesti,3702,29528934
+RO316,n.a.,131540,no,Oraş Sinaia,Oras Sinaia,11537,88554330
+RO316,n.a.,131577,no,Oraş Slănic,Oras Slanic,5939,39837290
+RO316,n.a.,131620,no,Oraş Urlaţi,Oras Urlati,11632,43833020
+RO316,n.a.,131817,no,Oraş Vălenii de Munte,Oras Valenii de Munte,13622,21641207
+RO316,n.a.,131835,no,Gura Vitioarei,Gura Vitioarei,6077,32773505
+RO316,n.a.,131899,no,Adunaţi,Adunati,2082,22715940
+RO316,n.a.,131933,no,Albeşti-Paleologu,Albesti-Paleologu,5581,49725906
+RO316,n.a.,131988,no,Aluniş,Alunis,3397,26796735
+RO316,n.a.,132011,no,Apostolache,Apostolache,2107,20228872
+RO316,n.a.,132075,no,Ariceştii Rahtivani,Aricestii Rahtivani,8119,81479682
+RO316,n.a.,132137,no,Ariceştii Zeletin,Aricestii Zeletin,1226,20671237
+RO316,n.a.,132164,no,Baba Ana,Baba Ana,4146,78664603
+RO316,n.a.,132226,no,Balta Doamnei,Balta Doamnei,2392,35365610
+RO316,n.a.,132271,no,Bălţeşti,Baltesti,3782,36657122
+RO316,n.a.,132315,no,Băneşti,Banesti,5638,21395856
+RO316,n.a.,132342,no,Bertea,Bertea,3182,52316501
+RO316,n.a.,132379,no,Boldeşti-Gradiştea,Boldesti-Gradistea,1774,39462076
+RO316,n.a.,132404,no,Brebu,Brebu,7156,58449416
+RO316,n.a.,132459,no,Călugăreni,Calugareni,1206,19897038
+RO316,n.a.,132486,no,Cărbuneşti,Carbunesti,1741,21324765
+RO316,n.a.,132510,no,Ceptura,Ceptura,4645,46998519
+RO316,n.a.,132574,no,Ceraşu,Cerasu,4645,120632380
+RO316,n.a.,132645,no,Chiojdeanca,Chiojdeanca,1591,31485382
+RO316,n.a.,132681,no,Ciorani,Ciorani,6751,80451306
+RO316,n.a.,132716,no,Cocorăştii Mislii,Cocorastii Mislii,3377,34345969
+RO316,n.a.,132752,no,Colceag,Colceag,4780,59230808
+RO316,n.a.,132805,no,Cornu,Cornu,4286,15112597
+RO316,n.a.,132841,no,Cosminele,Cosminele,1025,25006379
+RO316,n.a.,132896,no,Drajna,Drajna,5416,55609102
+RO316,n.a.,133018,no,Drăgăneşti,Draganesti,4876,87607785
+RO316,n.a.,133090,no,Dumbrava,Dumbrava,4472,63470071
+RO316,n.a.,133161,no,Filipeştii de Pădure,Filipestii de Padure,10532,48639068
+RO316,n.a.,133214,no,Filipeştii de Târg,Filipestii de Targ,8324,36690269
+RO316,n.a.,133278,no,Fântânele,Fantanele,2041,17719046
+RO316,n.a.,133330,no,Floreşti,Floresti,7886,29816772
+RO316,n.a.,133394,no,Fulga,Fulga,3266,74563918
+RO316,n.a.,133429,no,Gherghiţa,Gherghita,1999,34824321
+RO316,n.a.,133508,no,Gorgota,Gorgota,5146,32500903
+RO316,n.a.,133562,no,Gornet,Gornet,2902,21788719
+RO316,n.a.,133615,no,Gornet-Cricov,Gornet-Cricov,2267,27955523
+RO316,n.a.,133688,no,Gura Vadului,Gura Vadului,2257,35662455
+RO316,n.a.,133722,no,Iordăcheanu,Iordacheanu,5363,54912345
+RO316,n.a.,133795,no,Izvoarele,Izvoarele,6685,73705406
+RO316,n.a.,133866,no,Jugureni,Jugureni,540,26868733
+RO316,n.a.,133919,no,Lapoş,Lapos,1206,29872166
+RO316,n.a.,133964,no,Lipăneşti,Lipanesti,5261,17919990
+RO316,n.a.,134014,no,Măgurele,Magurele,4720,26559092
+RO316,n.a.,134050,no,Măgureni,Magureni,6444,48141780
+RO316,n.a.,134096,no,Măneciu,Maneciu,10675,236417443
+RO316,n.a.,134194,no,Măneşti,Manesti,3971,48330427
+RO316,n.a.,134336,no,Păcureţi,Pacureti,2107,27168256
+RO316,n.a.,134390,no,Plopu,Plopu,2381,45373833
+RO316,n.a.,134443,no,Podenii Noi,Podenii Noi,4862,37568839
+RO316,n.a.,134559,no,Poienarii Burchii,Poienarii Burchii,4834,49059528
+RO316,n.a.,134648,no,Poseşti,Posesti,3979,54988213
+RO316,n.a.,134755,no,Predeal-Sărari,Predeal-Sarari,2319,24327103
+RO316,n.a.,134853,no,Proviţa de Jos,Provita de Jos,2277,25250766
+RO316,n.a.,134899,no,Proviţa de Sus,Provita de Sus,2021,20046760
+RO316,n.a.,134942,no,Puchenii Mari,Puchenii Mari,8421,55016014
+RO316,n.a.,135020,no,Râfov,Rafov,5395,41749566
+RO316,n.a.,135128,no,Salcia,Salcia,1043,21570669
+RO316,n.a.,135146,no,Sălciile,Salciile,1843,39730842
+RO316,n.a.,135164,no,Scorţeni,Scorteni,5751,39846453
+RO316,n.a.,135226,no,Secăria,Secaria,1222,45237291
+RO316,n.a.,135244,no,Sângeru,Sangeru,5536,39915521
+RO316,n.a.,135315,no,Starchiojd,Starchiojd,3815,84123717
+RO316,n.a.,135404,no,Surani,Surani,1869,16151204
+RO316,n.a.,135431,no,Şirna,sirna,4864,49996393
+RO316,n.a.,135501,no,Şoimari,soimari,3120,38391374
+RO316,n.a.,135547,no,Şotrile,sotrile,3350,29553333
+RO316,n.a.,135618,no,Ştefeşti,stefesti,2380,43685612
+RO316,n.a.,135654,no,Talea,Talea,1045,24824192
+RO316,n.a.,135681,no,Tătaru,Tataru,891,20418356
+RO316,n.a.,135725,no,Teişani,Teisani,3697,30224779
+RO316,n.a.,135789,no,Telega,Telega,5559,40066388
+RO316,n.a.,135850,no,Tinosu,Tinosu,2417,18129856
+RO316,n.a.,135896,no,Tomşani,Tomsani,4407,43342869
+RO316,n.a.,135949,no,Valea Călugărească,Valea Calugareasca,10917,52172196
+RO316,n.a.,136107,no,Valea Doftanei,Valea Doftanei,6692,285944957
+RO316,n.a.,136134,no,Vărbilău,Varbilau,6877,41691915
+RO316,n.a.,136198,no,Vâlcăneşti,Valcanesti,3845,28377609
+RO316,n.a.,136241,no,Cocoraştii Colt,Cocorastii Colt,2984,26316693
+RO316,n.a.,136250,no,Olari,Olari,1910,18077328
+RO316,n.a.,136269,no,Vadu Săpat,Vadu Sapat,1726,20007249
+RO316,n.a.,136278,no,Bătrâni,Batrani,2112,45919867
+RO115,n.a.,136483,no,Municipiul Satu Mare,Municipiul Satu Mare,122504,148846863
+RO115,n.a.,136526,no,Municipiul Carei,Municipiul Carei,24590,102545990
+RO115,n.a.,136553,no,Căpleni,Capleni,3223,30938087
+RO115,n.a.,136599,no,Oraş Negreşti-Oaş,Oras Negresti-Oas,16864,130166535
+RO115,n.a.,136642,no,Oraş Tăşnad,Oras Tasnad,9514,96682917
+RO115,n.a.,136713,no,Acâş,Acas,3017,64012518
+RO115,n.a.,136768,no,Andrid,Andrid,2678,62406694
+RO115,n.a.,136802,no,Apa,Apa,2756,44517982
+RO115,n.a.,136848,no,Oraş Ardud,Oras Ardud,7453,142008796
+RO115,n.a.,136919,no,Bătarci,Batarci,3849,59925033
+RO115,n.a.,136964,no,Beltiug,Beltiug,3440,117578671
+RO115,n.a.,137032,no,Berveni,Berveni,3682,47859140
+RO115,n.a.,137069,no,Bixad,Bixad,7539,77535044
+RO115,n.a.,137103,no,Bârsău,Barsau,2329,52155967
+RO115,n.a.,137130,no,Bogdand,Bogdand,2853,83083717
+RO115,n.a.,137185,no,Botiz,Botiz,3835,29553875
+RO115,n.a.,137229,no,Călineşti-Oaş,Calinesti-Oas,5133,42063419
+RO115,n.a.,137274,no,Cămărzana,Camarzana,2430,49472585
+RO115,n.a.,137292,no,Căuaş,Cauas,2539,95308835
+RO115,n.a.,137363,no,Cehal,Cehal,1645,65527965
+RO115,n.a.,137407,no,Certeze,Certeze,5847,101448145
+RO115,n.a.,137443,no,Craidorolţ,Craidorolt,2249,93400689
+RO115,n.a.,137504,no,Crucişor,Crucisor,2669,40952487
+RO115,n.a.,137540,no,Culciu,Culciu,4161,79438692
+RO115,n.a.,137611,no,Doba,Doba,2986,70677426
+RO115,n.a.,137675,no,Dorolţ,Dorolt,4093,35130759
+RO115,n.a.,137728,no,Foieni,Foieni,1939,40448328
+RO115,n.a.,137746,no,Gherţa Mică,Gherta Mica,3697,38899449
+RO115,n.a.,137764,no,Halmeu,Halmeu,5339,52649091
+RO115,n.a.,137844,no,Hodod,Hodod,3025,76879428
+RO115,n.a.,137899,no,Homoroade,Homoroade,1826,105718655
+RO115,n.a.,137960,no,Lazuri,Lazuri,6249,70889161
+RO115,n.a.,138039,no,Oraş Livada,Oras Livada,7335,116867815
+RO115,n.a.,138084,no,Medieşu Aurit,Mediesu Aurit,6837,102786414
+RO115,n.a.,138164,no,Micula,Micula,4166,37722717
+RO115,n.a.,138208,no,Moftin,Moftin,4509,128035408
+RO115,n.a.,138280,no,Odoreu,Odoreu,5909,47720537
+RO115,n.a.,138351,no,Oraşu Nou,Orasu Nou,3871,63131684
+RO115,n.a.,138431,no,Păuleşti,Paulesti,5809,60104464
+RO115,n.a.,138501,no,Petreşti,Petresti,1925,29523698
+RO115,n.a.,138538,no,Pir,Pir,1595,41118168
+RO115,n.a.,138574,no,Pişcolt,Piscolt,3202,71096307
+RO115,n.a.,138618,no,Pomi,Pomi,1925,58056484
+RO115,n.a.,138663,no,Sanislău,Sanislau,3746,74778395
+RO115,n.a.,138734,no,Santău,Santau,2609,82797098
+RO115,n.a.,138770,no,Săcăşeni,Sacaseni,1256,82636449
+RO115,n.a.,138805,no,Săuca,Sauca,1533,52681824
+RO115,n.a.,138869,no,Socond,Socond,2945,88791172
+RO115,n.a.,138921,no,Supur,Supur,4194,121400491
+RO115,n.a.,139009,no,Tarna Mare,Tarna Mare,4000,51483946
+RO115,n.a.,139054,no,Terebeşti,Terebesti,1897,55448556
+RO115,n.a.,139107,no,Tiream,Tiream,2424,54020442
+RO115,n.a.,139143,no,Târşolţ,Tarsolt,3077,32038120
+RO115,n.a.,139170,no,Turţ,Turt,8281,81514547
+RO115,n.a.,139214,no,Turulung,Turulung,4333,57649859
+RO115,n.a.,139250,no,Urziceni,Urziceni,1481,32230402
+RO115,n.a.,139287,no,Valea Vinului,Valea Vinului,2001,89084361
+RO115,n.a.,139330,no,Vama,Vama,4094,51063646
+RO115,n.a.,139358,no,Vetiş,Vetis,5412,54292847
+RO115,n.a.,139394,no,Viile Satu Mare,Viile Satu Mare,3798,81444126
+RO116,n.a.,139704,no,Municipiul Zalău,Municipiul Zalau,69799,90304552
+RO116,n.a.,139740,no,Oraş Cehu Silvaniei,Oras Cehu Silvaniei,7751,68313552
+RO116,n.a.,139811,no,Oraş Jibou,Oras Jibou,11948,64584762
+RO116,n.a.,139884,no,Oraş Şimleu Silvaniei,Oras simleu Silvaniei,17409,63511236
+RO116,n.a.,139937,no,Agrij,Agrij,1415,32865570
+RO116,n.a.,139982,no,Almaşu,Almasu,2147,161528778
+RO116,n.a.,140084,no,Băbeni,Babeni,1612,52443563
+RO116,n.a.,140146,no,Bălan,Balan,3852,92464893
+RO116,n.a.,140208,no,Bănişor,Banisor,2022,31958772
+RO116,n.a.,140244,no,Benesat,Benesat,1497,29191252
+RO116,n.a.,140280,no,Bobota,Bobota,3996,65609755
+RO116,n.a.,140324,no,Bocşa,Bocsa,3471,47015261
+RO116,n.a.,140379,no,Buciumi,Buciumi,2607,96223295
+RO116,n.a.,140440,no,Camăr,Camar,1702,37752134
+RO116,n.a.,140477,no,Carastelec,Carastelec,1062,39179695
+RO116,n.a.,140501,no,Chieşd,Chiesd,2600,46488008
+RO116,n.a.,140547,no,Cizer,Cizer,2235,70130494
+RO116,n.a.,140583,no,Coşeiu,Coseiu,1178,34914437
+RO116,n.a.,140627,no,Crasna,Crasna,6720,67164122
+RO116,n.a.,140672,no,Creaca,Creaca,2779,74164949
+RO116,n.a.,140770,no,Cristolţ,Cristolt,1254,45238336
+RO116,n.a.,140823,no,Crişeni,Criseni,3053,33011791
+RO116,n.a.,140869,no,Cuzăplac,Cuzaplac,1711,108026784
+RO116,n.a.,140958,no,Dobrin,Dobrin,1677,39925635
+RO116,n.a.,141027,no,Dragu,Dragu,1354,89817770
+RO116,n.a.,141081,no,Fildu de Jos,Fildu de Jos,1372,64514527
+RO116,n.a.,141134,no,Gâlgău,Galgau,2422,76590491
+RO116,n.a.,141232,no,Gârbou,Garbou,2161,98608119
+RO116,n.a.,141312,no,Halmăşd,Halmasd,2425,60073251
+RO116,n.a.,141376,no,Hereclean,Hereclean,3809,71122054
+RO116,n.a.,141447,no,Hida,Hida,2736,107805335
+RO116,n.a.,141535,no,Horoatu Crasnei,Horoatu Crasnei,2594,84624537
+RO116,n.a.,141580,no,Ileanda,Ileanda,2431,87331593
+RO116,n.a.,141722,no,Ip,Ip,3782,59886455
+RO116,n.a.,141786,no,Letca,Letca,1811,60667397
+RO116,n.a.,141884,no,Lozna,Lozna,966,60959107
+RO116,n.a.,141946,no,Marca,Marca,2716,48917975
+RO116,n.a.,142006,no,Măerişte,Maeriste,2980,75268613
+RO116,n.a.,142079,no,Meseşenii de Jos,Mesesenii de Jos,3118,62318017
+RO116,n.a.,142122,no,Mirşid,Mirsid,2405,53408393
+RO116,n.a.,142177,no,Năpradea,Napradea,2763,69301419
+RO116,n.a.,142239,no,Nuşfalău,Nusfalau,3920,51837523
+RO116,n.a.,142284,no,Pericei,Pericei,3872,58463305
+RO116,n.a.,142337,no,Plopiş,Plopis,2587,79911694
+RO116,n.a.,142373,no,Poiana Blenchii,Poiana Blenchii,1227,52546079
+RO116,n.a.,142426,no,Românaşi,Romanasi,3133,66203771
+RO116,n.a.,142499,no,Rus,Rus,1084,50618071
+RO116,n.a.,142550,no,Sălăţig,Salatig,2741,57698872
+RO116,n.a.,142612,no,Sâg,Sag,3330,87851900
+RO116,n.a.,142676,no,Sânmihaiu Almaşului,Sanmihaiu Almasului,1683,64916163
+RO116,n.a.,142710,no,Someş-Odorhei,Somes-Odorhei,2777,77879593
+RO116,n.a.,142774,no,Surduc,Surduc,3732,70741110
+RO116,n.a.,142854,no,Şamşud,Samsud,1834,29319363
+RO116,n.a.,142881,no,Şărmăşag,Sarmasag,6661,62167947
+RO116,n.a.,142952,no,Valcău de Jos,Valcau de Jos,3237,62514524
+RO116,n.a.,143021,no,Vârşolţ,Varsolt,2301,32115661
+RO116,n.a.,143067,no,Zalha,Zalha,908,51056047
+RO116,n.a.,143147,no,Zimbor,Zimbor,1004,74552515
+RO126,n.a.,143450,no,Municipiul Sibiu,Municipiul Sibiu,169786,121649646
+RO126,n.a.,143487,no,Cristian,Cristian,4188,71034094
+RO126,n.a.,143502,no,Poplaca,Poplaca,1814,32891576
+RO126,n.a.,143520,no,Răşinari,Rasinari,5746,127657848
+RO126,n.a.,143557,no,Şelimbăr,selimbar,9246,72311799
+RO126,n.a.,143619,no,Municipiul Mediaş,Municipiul Medias,58571,62586285
+RO126,n.a.,143646,no,Târnava,Tarnava,3363,28304201
+RO126,n.a.,143682,no,Oraş Agnita,Oras Agnita,12067,96173759
+RO126,n.a.,143735,no,Oraş Cisnădie,Oras Cisnadie,19309,138583064
+RO126,n.a.,143771,no,Oraş Copşa Mică,Oras Copsa Mica,6062,25778773
+RO126,n.a.,143806,no,Oraş Dumbrăveni,Oras Dumbraveni,8678,55748805
+RO126,n.a.,143851,no,Oraş Ocna Sibiului,Oras Ocna Sibiului,4331,85183154
+RO126,n.a.,143888,no,Alţina,Altina,1850,80195089
+RO126,n.a.,143922,no,Apoldu de Jos,Apoldu de Jos,1321,48802753
+RO126,n.a.,143959,no,Arpaşu de Jos,Arpasu de Jos,2841,111281206
+RO126,n.a.,143995,no,Aţel,Atel,1703,38899870
+RO126,n.a.,144054,no,Oraş Avrig,Oras Avrig,15666,168335106
+RO126,n.a.,144116,no,Axente Sever,Axente Sever,4309,72310934
+RO126,n.a.,144152,no,Bazna,Bazna,4238,82475707
+RO126,n.a.,144198,no,Biertan,Biertan,3095,97223206
+RO126,n.a.,144232,no,Bîrghiş,Birghis,2237,99789585
+RO126,n.a.,144303,no,Blăjel,Blajel,2425,33998927
+RO126,n.a.,144349,no,Brateiu,Brateiu,4026,35099540
+RO126,n.a.,144376,no,Brădeni,Bradeni,1635,81363397
+RO126,n.a.,144410,no,Bruiu,Bruiu,928,97069883
+RO126,n.a.,144456,no,Chirpăr,Chirpar,1906,100802836
+RO126,n.a.,144508,no,Cârţa,Carta,1160,28803280
+RO126,n.a.,144535,no,Cârţişoara,Cartisoara,1328,85679819
+RO126,n.a.,144553,no,Dârlos,Darlos,3565,40092973
+RO126,n.a.,144599,no,Gura Râului,Gura Raului,3731,105237688
+RO126,n.a.,144615,no,Hoghilag,Hoghilag,2427,52126249
+RO126,n.a.,144651,no,Iacobeni,Iacobeni,3346,103389183
+RO126,n.a.,144713,no,Jina,Jina,3992,325226703
+RO126,n.a.,144731,no,Laslea,Laslea,4179,115142179
+RO126,n.a.,144795,no,Loamneş,Loamnes,2918,100840634
+RO126,n.a.,144866,no,Ludoş,Ludos,745,43198109
+RO126,n.a.,144893,no,Marpod,Marpod,929,44022313
+RO126,n.a.,144928,no,Oraş Miercurea Sibiului,Oras Miercurea Sibiului,4809,85052231
+RO126,n.a.,144964,no,Merghindeal,Merghindeal,1581,66511815
+RO126,n.a.,144991,no,Micăsasa,Micasasa,2244,71361616
+RO126,n.a.,145042,no,Mihăileni,Mihaileni,1110,77635126
+RO126,n.a.,145104,no,Moşna,Mosna,3699,59281711
+RO126,n.a.,145140,no,Nocrich,Nocrich,3332,115817331
+RO126,n.a.,145202,no,Orlat,Orlat,3332,59099177
+RO126,n.a.,145220,no,Păuca,Pauca,2090,74048694
+RO126,n.a.,145275,no,Poiana Sibiului,Poiana Sibiului,2248,23467827
+RO126,n.a.,145293,no,Porumbacu de Jos,Porumbacu de Jos,3248,184845236
+RO126,n.a.,145355,no,Racoviţa,Racovita,2957,56064814
+RO126,n.a.,145382,no,Râu Sadului,Rau Sadului,612,30937014
+RO126,n.a.,145408,no,Roşia,Rosia,5769,162464468
+RO126,n.a.,145471,no,Sadu,Sadu,2548,47036737
+RO126,n.a.,145499,no,Oraş Sălişte,Oras Saliste,5938,226561023
+RO126,n.a.,145603,no,Slimnic,Slimnic,3924,107318559
+RO126,n.a.,145667,no,Şeica Mare,seica Mare,4757,120168190
+RO126,n.a.,145738,no,Şeica Mica,seica Mica,1853,62830729
+RO126,n.a.,145765,no,Şura Mare,sura Mare,4556,74800633
+RO126,n.a.,145792,no,Şura Mica,sura Mica,3046,49455077
+RO126,n.a.,145827,no,Oraş Tălmaciu,Oras Talmaciu,8164,184683922
+RO126,n.a.,145907,no,Tilişca,Tilisca,1509,52787785
+RO126,n.a.,145934,no,Turnu Roşu,Turnu Rosu,2423,77992994
+RO126,n.a.,145961,no,Valea Viilor,Valea Viilor,2251,44143971
+RO126,n.a.,145998,no,Vurpăr,Vurpar,2878,70392399
+RO126,n.a.,146012,no,Alma,Alma,1982,37687645
+RO126,n.a.,146021,no,Boita,Boita,1681,100397358
+RO215,n.a.,146263,no,Municipiul Suceava,Municipiul Suceava,116404,52230529
+RO215,n.a.,146281,no,Ipoteşti,Ipotesti,7229,23129155
+RO215,n.a.,146325,no,Mitocu Dragomirnei,Mitocu Dragomirnei,5132,53089419
+RO215,n.a.,146370,no,Oraş Salcea,Oras Salcea,10468,55424917
+RO215,n.a.,146432,no,Şcheia,scheia,10944,57518184
+RO215,n.a.,146502,no,Municipiul Câmpulung Moldovene,Municipiul Campulung Moldovene,20139,137657759
+RO215,n.a.,146539,no,Municipiul Fălticeni,Municipiul Falticeni,31573,28817813
+RO215,n.a.,146584,no,Oraş Gura Humorului,Oras Gura Humorului,17047,70469658
+RO215,n.a.,146628,no,Municipiul Rădăuţi,Municipiul Radauti,33169,32479759
+RO215,n.a.,146655,no,Oraş Siret,Oras Siret,9720,43735321
+RO215,n.a.,146708,no,Oraş Solca,Oras Solca,2626,47923230
+RO215,n.a.,146744,no,Municipiul Vatra Dornei,Municipiul Vatra Dornei,17176,99828655
+RO215,n.a.,146799,no,Adâncata,Adancata,4355,36243157
+RO215,n.a.,146860,no,Arbore,Arbore,7541,69119330
+RO215,n.a.,146904,no,Baia,Baia,7475,41289710
+RO215,n.a.,146931,no,Oraş Milişăuţi,Oras Milisauti,5453,36227229
+RO215,n.a.,146995,no,Bălcăuţi,Balcauti,3162,37006457
+RO215,n.a.,147036,no,Bilca,Bilca,3880,24473416
+RO215,n.a.,147054,no,Bogdăneşti,Bogdanesti,4158,24377886
+RO215,n.a.,147072,no,Boroaia,Boroaia,4790,73723472
+RO215,n.a.,147134,no,Bosanci,Bosanci,7772,49595739
+RO215,n.a.,147161,no,Botoşana,Botosana,2620,17660611
+RO215,n.a.,147205,no,Breaza,Breaza,1604,84317666
+RO215,n.a.,147241,no,Brodina,Brodina,3976,191687564
+RO215,n.a.,147358,no,Oraş Broşteni,Oras Brosteni,6503,431372194
+RO215,n.a.,147465,no,Buneşti,Bunesti,2762,28997299
+RO215,n.a.,147526,no,Cacica,Cacica,4391,55113332
+RO215,n.a.,147580,no,Calafindeşti,Calafindesti,2979,24194745
+RO215,n.a.,147633,no,Oraş Cajvana,Oras Cajvana,9428,25200047
+RO215,n.a.,147660,no,Ilişesti,Ilisesti,2906,33200299
+RO215,n.a.,147713,no,Cârlibaba,Carlibaba,1934,300717217
+RO215,n.a.,147786,no,Cornu Luncii,Cornu Luncii,7373,84283705
+RO215,n.a.,147884,no,Crucea,Crucea,2099,147140289
+RO215,n.a.,147937,no,Dărmăneşti,Darmanesti,5892,51416267
+RO215,n.a.,148006,no,Oraş Dolhasca,Oras Dolhasca,11439,110580871
+RO215,n.a.,148097,no,Dolheşti,Dolhesti,3833,42486446
+RO215,n.a.,148131,no,Dorna-Arini,Dorna-Arini,2908,135150209
+RO215,n.a.,148202,no,Dorna Candrenilor,Dorna Candrenilor,3067,147665339
+RO215,n.a.,148293,no,Dorneşti,Dornesti,4828,32012469
+RO215,n.a.,148328,no,Drăgoieşti,Dragoiesti,2596,32262617
+RO215,n.a.,148382,no,Drăguşeni,Draguseni,2626,28871381
+RO215,n.a.,148426,no,Dumbrăveni,Dumbraveni,9640,47162317
+RO215,n.a.,148453,no,Fântânele,Fantanele,4764,41047148
+RO215,n.a.,148514,no,Forăşti,Forasti,4696,65786147
+RO215,n.a.,148612,no,Oraş Frasin,Oras Frasin,6628,83594199
+RO215,n.a.,148667,no,Frătăuţii Noi,Fratautii Noi,5856,54794367
+RO215,n.a.,148694,no,Frătăuţii Vechi,Fratautii Vechi,5314,36436046
+RO215,n.a.,148729,no,Frumosu,Frumosu,3490,104382932
+RO215,n.a.,148765,no,Fundu Moldovei,Fundu Moldovei,4050,152481922
+RO215,n.a.,148872,no,Gălăneşti,Galanesti,2849,20193452
+RO215,n.a.,148916,no,Grămeşti,Gramesti,2988,32866988
+RO215,n.a.,148970,no,Grăniceşti,Granicesti,5635,47883721
+RO215,n.a.,149049,no,Horodniceni,Horodniceni,3683,57075550
+RO215,n.a.,149101,no,Horodnic de Jos,Horodnic de Jos,2453,26003367
+RO215,n.a.,149138,no,Iacobeni,Iacobeni,2153,54635200
+RO215,n.a.,149183,no,Izvoarele Sucevei,Izvoarele Sucevei,2234,145677431
+RO215,n.a.,149227,no,Oraş Liteni,Oras Liteni,10348,72664545
+RO215,n.a.,149290,no,Marginea,Marginea,11058,73214197
+RO215,n.a.,149316,no,Mălini,Malini,7830,153254332
+RO215,n.a.,149370,no,Mănăstirea Humorului,Manastirea Humorului,3731,99074314
+RO215,n.a.,149414,no,Moara,Moara,5540,41892863
+RO215,n.a.,149502,no,Moldova-Suliţa,Moldova-Sulita,2073,139884271
+RO215,n.a.,149539,no,Moldoviţa,Moldovita,5249,294151446
+RO215,n.a.,149584,no,Muşeniţa,Musenita,1886,39130491
+RO215,n.a.,149655,no,Ostra,Ostra,3168,103023302
+RO215,n.a.,149682,no,Panaci,Panaci,2293,138023148
+RO215,n.a.,149753,no,Păltinoasa,Paltinoasa,6010,36271422
+RO215,n.a.,149780,no,Pârteştii de Jos,Partestii de Jos,2793,51261364
+RO215,n.a.,149833,no,Pătrăuţi,Patrauti,5372,36115728
+RO215,n.a.,149851,no,Poiana Stampei,Poiana Stampei,2305,211659900
+RO215,n.a.,149931,no,Pojorâta,Pojorata,3006,134394205
+RO215,n.a.,149968,no,Preuteşti,Preutesti,7108,67151265
+RO215,n.a.,150043,no,Putna,Putna,3890,132096438
+RO215,n.a.,150070,no,Rădăşeni,Radaseni,4219,40374124
+RO215,n.a.,150114,no,Râşca,Rasca,5167,208777954
+RO215,n.a.,150178,no,Sadova,Sadova,2505,67163656
+RO215,n.a.,150196,no,Satu Mare,Satu Mare,4606,25418833
+RO215,n.a.,150221,no,Siminicea,Siminicea,2973,40348041
+RO215,n.a.,150258,no,Slatina,Slatina,5595,119657950
+RO215,n.a.,150294,no,Straja,Straja,5907,46558216
+RO215,n.a.,150310,no,Stroieşti,Stroiesti,3352,36784415
+RO215,n.a.,150356,no,Stulpicani,Stulpicani,6088,201524061
+RO215,n.a.,150418,no,Suceviţa,Sucevita,3171,92812762
+RO215,n.a.,150445,no,Saru Dornei,Saru Dornei,4238,235319726
+RO215,n.a.,150524,no,Todireşti,Todiresti,5362,61597120
+RO215,n.a.,150588,no,Udeşti,Udesti,7963,75892525
+RO215,n.a.,150702,no,Ulma,Ulma,2282,77400241
+RO215,n.a.,150766,no,Vadu Moldovei,Vadu Moldovei,4560,47537396
+RO215,n.a.,150891,no,Valea Moldovei,Valea Moldovei,4455,26504750
+RO215,n.a.,150935,no,Vama,Vama,6175,135995625
+RO215,n.a.,150980,no,Vatra Moldoviţei,Vatra Moldovitei,4458,135485760
+RO215,n.a.,151022,no,Vereşti,Veresti,7419,36342171
+RO215,n.a.,151077,no,Vicovu de Jos,Vicovu de Jos,6510,40911627
+RO215,n.a.,151095,no,Oraş Vicovu de Sus,Oras Vicovu de Sus,16141,41149262
+RO215,n.a.,151120,no,Volovăţ,Volovat,5690,22112078
+RO215,n.a.,151157,no,Vultureşti,Vulturesti,3590,52007833
+RO215,n.a.,151246,no,Zamostea,Zamostea,3105,50789036
+RO215,n.a.,151344,no,Zvoriştea,Zvoristea,6123,66329488
+RO215,n.a.,151433,no,Comăneşti,Comanesti,2376,19356855
+RO215,n.a.,151442,no,Iaslovăţ,Iaslovat,4383,18117782
+RO215,n.a.,151451,no,Ciocaneşti,Ciocanesti,1448,106090668
+RO215,n.a.,151460,no,Serbăuţi,Serbauti,3270,34304986
+RO215,n.a.,151479,no,Horodnic de Sus,Horodnic de Sus,5240,56997892
+RO215,n.a.,151488,no,Fântâna Mare,Fantana Mare,2609,30732582
+RO215,n.a.,151497,no,Cosna,Cosna,1499,167929835
+RO215,n.a.,151503,no,Capu Câmpului,Capu Campului,2489,52845254
+RO215,n.a.,151512,no,Hânţeşti,Hantesti,3963,41410656
+RO215,n.a.,151521,no,Burla,Burla,2348,18928768
+RO215,n.a.,151530,no,Bălăceana,Balaceana,1542,25285547
+RO215,n.a.,151549,no,Hartop,Hartop,2607,18337348
+RO215,n.a.,151558,no,Voitinel,Voitinel,4913,21120143
+RO215,n.a.,151567,no,Ciprian Porumbescu,Ciprian Porumbescu,2162,29545738
+RO215,n.a.,151576,no,Berchisesti,Berchisesti,2946,19062661
+RO215,n.a.,151585,no,Poieni-Solca,Poieni-Solca,2126,16177004
+RO317,n.a.,151683,no,Municipiul Turnu Măgurele,Municipiul Turnu Magurele,29974,109350989
+RO317,n.a.,151709,no,Ciuperceni,Ciuperceni,1549,33775932
+RO317,n.a.,151736,no,Islaz,Islaz,5294,97311451
+RO317,n.a.,151763,no,Lita,Lita,2613,48867908
+RO317,n.a.,151790,no,Municipiul Alexandria,Municipiul Alexandria,52101,97819207
+RO317,n.a.,151816,no,Nanov,Nanov,3573,65322736
+RO317,n.a.,151834,no,Poroschia,Poroschia,4534,45556140
+RO317,n.a.,151870,no,Municipiul Roşiori de Vede,Municipiul Rosiori de Vede,32582,74140985
+RO317,n.a.,151905,no,Oraş Videle,Oras Videle,11752,77842476
+RO317,n.a.,151932,no,Crevenicu,Crevenicu,1469,27556111
+RO317,n.a.,151978,no,Oraş Zimnicea,Oras Zimnicea,15441,136472271
+RO317,n.a.,151996,no,Balaci,Balaci,1699,63138964
+RO317,n.a.,152038,no,Băbăiţa,Babaita,2961,56275037
+RO317,n.a.,152083,no,Blejeşti,Blejesti,3842,86599195
+RO317,n.a.,152127,no,Bogdana,Bogdana,2214,67912347
+RO317,n.a.,152172,no,Botoroaga,Botoroaga,5100,101992959
+RO317,n.a.,152234,no,Bragadiru,Bragadiru,3847,83235082
+RO317,n.a.,152252,no,Brânceni,Branceni,2775,36709907
+RO317,n.a.,152270,no,Bujoreni,Bujoreni,1012,36447077
+RO317,n.a.,152314,no,Bujoru,Bujoru,1951,31405793
+RO317,n.a.,152332,no,Buzescu,Buzescu,4397,35047453
+RO317,n.a.,152350,no,Călineşti,Calinesti,3151,79765099
+RO317,n.a.,152412,no,Călmăţuiu,Calmatuiu,1892,76058408
+RO317,n.a.,152467,no,Călmăţuiu de Sus,Calmatuiu de Sus,2181,62446566
+RO317,n.a.,152500,no,Cervenia,Cervenia,2937,58807724
+RO317,n.a.,152528,no,Ciolăneşti,Ciolanesti,2731,77310945
+RO317,n.a.,152564,no,Conţeşti,Contesti,3217,44812951
+RO317,n.a.,152582,no,Cosmeşti,Cosmesti,2590,63248030
+RO317,n.a.,152617,no,Crângeni,Crangeni,2809,75492405
+RO317,n.a.,152662,no,Crângu,Crangu,1457,39032071
+RO317,n.a.,152724,no,Dideşti,Didesti,1213,23601512
+RO317,n.a.,152760,no,Dobroteşti,Dobrotesti,4444,105143588
+RO317,n.a.,152797,no,Drăcşenei,Dracsenei,1773,38089746
+RO317,n.a.,152868,no,Drăgăneşti de Vede,Draganesti de Vede,2131,30634445
+RO317,n.a.,152902,no,Drăgăneşti-Vlaşca,Draganesti-Vlasca,4174,104896752
+RO317,n.a.,152948,no,Furculeşti,Furculesti,3394,78562389
+RO317,n.a.,152993,no,Frumoasa,Frumoasa,1996,47555897
+RO317,n.a.,153026,no,Gălăteni,Galateni,2704,67964057
+RO317,n.a.,153062,no,Gratia,Gratia,2673,38169804
+RO317,n.a.,153106,no,Izvoarele,Izvoarele,2440,41205082
+RO317,n.a.,153124,no,Lisa,Lisa,2267,79253710
+RO317,n.a.,153151,no,Lunca,Lunca,3471,29564494
+RO317,n.a.,153204,no,Mavrodin,Mavrodin,2441,51879871
+RO317,n.a.,153240,no,Măgura,Magura,2686,67420041
+RO317,n.a.,153277,no,Măldăeni,Maldaeni,4216,77678964
+RO317,n.a.,153295,no,Mereni,Mereni,2859,80152426
+RO317,n.a.,153339,no,Mârzăneşti,Marzanesti,3707,87019165
+RO317,n.a.,153384,no,Moşteni,Mosteni,1485,28533907
+RO317,n.a.,153400,no,Năsturelu,Nasturelu,2654,62836788
+RO317,n.a.,153437,no,Necşeşti,Necsesti,1113,40911428
+RO317,n.a.,153473,no,Olteni,Olteni,3170,38562649
+RO317,n.a.,153507,no,Orbeasca,Orbeasca,7501,114119234
+RO317,n.a.,153543,no,Peretu,Peretu,7125,70638671
+RO317,n.a.,153561,no,Piatra,Piatra,3125,77923436
+RO317,n.a.,153589,no,Pietroşani,Pietrosani,2777,105271735
+RO317,n.a.,153605,no,Plosca,Plosca,5745,52321141
+RO317,n.a.,153623,no,Plopii-Slăviteşti,Plopii-Slavitesti,2487,57211985
+RO317,n.a.,153696,no,Poeni,Poeni,2947,45176274
+RO317,n.a.,153776,no,Vităneşti,Vitanesti,2803,74949411
+RO317,n.a.,153829,no,Putineiu,Putineiu,2090,79946483
+RO317,n.a.,153865,no,Rădoieşti,Radoiesti,2041,39185419
+RO317,n.a.,153909,no,Răsmireşti,Rasmiresti,843,30830308
+RO317,n.a.,153936,no,Salcia,Salcia,2666,61476443
+RO317,n.a.,153972,no,Săceni,Saceni,1233,71883442
+RO317,n.a.,154013,no,Scrioaştea,Scrioastea,3879,57984166
+RO317,n.a.,154068,no,Scurtu Mare,Scurtu Mare,1655,60148729
+RO317,n.a.,154139,no,Seaca,Seaca,2380,94040374
+RO317,n.a.,154166,no,Sfinţeşti,Sfintesti,1165,40288429
+RO317,n.a.,154184,no,Segarcea-Vale,Segarcea-Vale,3042,72957049
+RO317,n.a.,154228,no,Siliştea,Silistea,2335,32710742
+RO317,n.a.,154282,no,Siliştea-Gumeşti,Silistea-Gumesti,2487,44569747
+RO317,n.a.,154308,no,Sârbeni,Sarbeni,1422,31227685
+RO317,n.a.,154344,no,Slobozia Mândra,Slobozia Mandra,1673,49547455
+RO317,n.a.,154380,no,Smârdioasa,Smardioasa,2426,34650688
+RO317,n.a.,154415,no,Stejaru,Stejaru,1792,60586991
+RO317,n.a.,154460,no,Suhaia,Suhaia,2224,70149724
+RO317,n.a.,154497,no,Ştorobăneasa,storobaneasa,3146,86487438
+RO317,n.a.,154521,no,Talpa,Talpa,1870,43055284
+RO317,n.a.,154585,no,Tătărăştii de Jos,Tatarastii de Jos,3459,97706520
+RO317,n.a.,154665,no,Tătărăştii de Sus,Tatarastii de Sus,3039,43149193
+RO314,n.a.,154709,no,Toporu,Toporu,1924,89693942
+RO317,n.a.,154736,no,Traian,Traian,1823,52842318
+RO317,n.a.,154754,no,Trivalea-Moşteni,Trivalea-Mosteni,2661,91107234
+RO317,n.a.,154790,no,Troianul,Troianul,2886,70411159
+RO317,n.a.,154834,no,Ţigăneşti,tiganesti,5005,60307146
+RO317,n.a.,154852,no,Vedea,Vedea,2901,48701995
+RO317,n.a.,154914,no,Viişoara,Viisoara,1691,37063585
+RO317,n.a.,154932,no,Vârtoape,Vartoape,2751,57548971
+RO317,n.a.,154978,no,Zâmbreasca,Zambreasca,1410,30057077
+RO317,n.a.,154996,no,Nenciulesti,Nenciulesti,2370,41158975
+RO317,n.a.,155083,no,Beciu,Beciu,1630,36439504
+RO317,n.a.,155092,no,Beuca,Beuca,1324,24669689
+RO317,n.a.,155109,no,Dracea,Dracea,1619,42665501
+RO317,n.a.,155118,no,Fântânele,Fantanele,1578,46909500
+RO317,n.a.,155127,no,Frăsinet,Frasinet,2443,37510140
+RO317,n.a.,155136,no,Purani,Purani,1473,22561331
+RO317,n.a.,155145,no,Saelele,Saelele,2264,37243747
+RO317,n.a.,155154,no,Uda-Clocociov,Uda-Clocociov,1571,41066339
+RO424,n.a.,155243,no,Municipiul Timişoara,Municipiul Timisoara,332983,129326047
+RO424,n.a.,155261,no,Dumbrăviţa,Dumbravita,8382,18937970
+RO424,n.a.,155289,no,Ghiroda,Ghiroda,6690,34132392
+RO424,n.a.,155314,no,Giroc,Giroc,11145,51999566
+RO424,n.a.,155350,no,Municipiul Lugoj,Municipiul Lugoj,47702,98711360
+RO424,n.a.,155403,no,Oraş Buziaş,Oras Buzias,8358,106046821
+RO424,n.a.,155458,no,Oraş Deta,Oras Deta,7630,32778530
+RO424,n.a.,155494,no,Oraş Jimbolia,Oras Jimbolia,13597,108717193
+RO424,n.a.,155528,no,Oraş Sânnicolau Mare,Oras Sannicolau Mare,14682,139260512
+RO424,n.a.,155546,no,Balint,Balint,1600,55627983
+RO424,n.a.,155591,no,Banloc,Banloc,3062,117922411
+RO424,n.a.,155662,no,Bara,Bara,323,70396918
+RO424,n.a.,155724,no,Beba Veche,Beba Veche,1592,94146347
+RO424,n.a.,155760,no,Becicherecu Mic,Becicherecu Mic,3163,46825023
+RO424,n.a.,155797,no,Belinţ,Belint,2598,63118602
+RO424,n.a.,155840,no,Bethausen,Bethausen,2803,90305247
+RO424,n.a.,155911,no,Biled,Biled,4041,56685010
+RO424,n.a.,155957,no,Bârna,Barna,1567,78670735
+RO424,n.a.,156035,no,Bogda,Bogda,466,78741146
+RO424,n.a.,156106,no,Boldur,Boldur,2321,84812868
+RO424,n.a.,156151,no,Brestovăţ,Brestovat,696,103151454
+RO424,n.a.,156213,no,Cărpiniş,Carpinis,5647,45881805
+RO424,n.a.,156259,no,Cenad,Cenad,4859,85003343
+RO424,n.a.,156277,no,Cenei,Cenei,3092,68077925
+RO424,n.a.,156311,no,Chevereşu Mare,Cheveresu Mare,2242,81183426
+RO424,n.a.,156357,no,Oraş Ciacova,Oras Ciacova,5367,139855963
+RO424,n.a.,156437,no,Comloşu Mare,Comlosu Mare,5455,94926716
+RO424,n.a.,156473,no,Coşteiu,Costeiu,3860,83606557
+RO424,n.a.,156534,no,Criciova,Criciova,1608,50548523
+RO424,n.a.,156589,no,Curtea,Curtea,1259,44373645
+RO424,n.a.,156623,no,Darova,Darova,3338,104688630
+RO424,n.a.,156669,no,Denta,Denta,3161,91293899
+RO424,n.a.,156712,no,Dudeştii Vechi,Dudestii Vechi,4421,143495919
+RO424,n.a.,156767,no,Dumbrava,Dumbrava,2778,56685717
+RO424,n.a.,156801,no,Oraş Făget,Oras Faget,7576,150885839
+RO424,n.a.,156927,no,Fârdea,Fardea,1742,131117068
+RO424,n.a.,157004,no,Foeni,Foeni,1801,64161274
+RO424,n.a.,157031,no,Gavojdia,Gavojdia,2948,75055194
+RO424,n.a.,157086,no,Oraş Gătaia,Oras Gataia,6489,157943435
+RO424,n.a.,157193,no,Ghizela,Ghizela,1179,92083256
+RO424,n.a.,157246,no,Giarmata,Giarmata,7217,71692300
+RO424,n.a.,157273,no,Giera,Giera,1457,91951381
+RO424,n.a.,157317,no,Giulvăz,Giulvaz,3211,103038916
+RO424,n.a.,157362,no,Jamu Mare,Jamu Mare,3081,188946096
+RO424,n.a.,157424,no,Jebel,Jebel,3594,67846751
+RO424,n.a.,157451,no,Lenauheim,Lenauheim,6378,112738754
+RO424,n.a.,157497,no,Liebling,Liebling,4073,82217729
+RO424,n.a.,157530,no,Lovrin,Lovrin,4225,43095347
+RO424,n.a.,157585,no,Margina,Margina,2285,133068508
+RO424,n.a.,157683,no,Maşloc,Masloc,2475,83052350
+RO424,n.a.,157736,no,Mănăştiur,Manastiur,1731,41876568
+RO424,n.a.,157781,no,Moraviţa,Moravita,2709,85144173
+RO424,n.a.,157834,no,Moşniţa Nouă,Mosnita Noua,7513,69132170
+RO424,n.a.,157898,no,Nădrag,Nadrag,2923,136485320
+RO424,n.a.,157923,no,Niţchidorf,Nitchidorf,1678,64176803
+RO424,n.a.,157969,no,Ohaba Lungă,Ohaba Lunga,1016,104797500
+RO424,n.a.,158010,no,Orţişoara,Ortisoara,4590,145673525
+RO424,n.a.,158065,no,Peciu Nou,Peciu Nou,5509,128778940
+RO424,n.a.,158109,no,Periam,Periam,5047,58014252
+RO424,n.a.,158136,no,Pietroasa,Pietroasa,1062,156404638
+RO424,n.a.,158181,no,Pişchia,Pischia,3132,123605917
+RO424,n.a.,158243,no,Racoviţa,Racovita,2893,117293534
+RO424,n.a.,158314,no,Oraş Recaş,Oras Recas,9519,229935390
+RO424,n.a.,158396,1/7/2015,Remetea Mare,Remetea Mare,2571,72862692
+RO424,n.a.,158449,no,Sacoşu Turcesc,Sacosu Turcesc,3152,124764961
+RO424,n.a.,158528,no,Satchinez,Satchinez,5028,99854795
+RO424,n.a.,158564,no,Săcălaz,Sacalaz,8666,119568764
+RO424,n.a.,158608,no,Secaş,Secas,376,58110562
+RO424,n.a.,158653,no,Sânandrei,Sanandrei,6831,92531503
+RO424,n.a.,158699,no,Sânmihaiu Român,Sanmihaiu Roman,7134,75307272
+RO424,n.a.,158733,no,Sânpetru Mare,Sanpetru Mare,3579,102876666
+RO424,n.a.,158779,no,Şag,Sag,3380,34951479
+RO424,n.a.,158804,no,Ştiuca,Stiuca,2125,94528072
+RO424,n.a.,158859,no,Teremia Mare,Teremia Mare,4836,83682142
+RO424,n.a.,158895,no,Tomeşti,Tomesti,2087,140743490
+RO424,n.a.,158966,no,Topolovăţu Mare,Topolovatu Mare,2535,99767465
+RO424,n.a.,159035,no,Tormac,Tormac,2829,128979756
+RO424,n.a.,159071,no,Traian Vuia,Traian Vuia,2146,69760528
+RO424,n.a.,159142,5/16/2015,Uivar,Uivar,3049,112385419
+RO424,n.a.,159213,no,Variaş,Varias,6371,116618082
+RO424,n.a.,159259,no,Victor Vlad Delamarina,Victor Vlad Delamarina,2841,133616807
+RO424,n.a.,159339,no,Voiteg,Voiteg,2389,70625694
+RO424,n.a.,159366,no,Birda,Birda,2065,67138627
+RO424,n.a.,159375,no,Checea,Checea,2127,57304906
+RO424,n.a.,159384,no,Dudeştii Noi,Dudestii Noi,3301,53802802
+RO424,n.a.,159393,no,Fibis,Fibis,1659,53220003
+RO424,n.a.,159400,no,Ghilad,Ghilad,2048,113238930
+RO424,n.a.,159419,no,Gottlob,Gottlob,2644,44313999
+RO424,n.a.,159428,no,Iecea Mare,Iecea Mare,2693,35163720
+RO424,n.a.,159437,no,Parta,Parta,2327,61210230
+RO424,n.a.,159446,no,Pădureni,Padureni,1733,52962447
+RO424,n.a.,159455,no,Saravale,Saravale,2950,101019831
+RO424,n.a.,159464,no,Şandra,sandra,3089,52215641
+RO424,n.a.,159473,no,Tomnatic,Tomnatic,3783,40112417
+RO424,n.a.,159482,no,Valcani,Valcani,1393,62305980
+RO424,n.a.,159491,no,Livezile,Livezile,1753,55874881
+RO424,n.a.,159507,no,Pesac,Pesac,2286,33839406
+RO424,n.a.,159516,1/7/2015,Bucovăţ,Bucovat,1717,32880708
+RO424,n.a.,159525,5/16/2015,Otelec,Otelec,1852,83212468
+RO424,n.a.,159614,no,Municipiul Tulcea,Municipiul Tulcea,89696,199991282
+RO225,n.a.,159650,no,Oraş Babadag,Oras Babadag,10648,115870536
+RO225,n.a.,159687,no,Oraş Isaccea,Oras Isaccea,5315,102073179
+RO225,n.a.,159730,no,Oraş Măcin,Oras Macin,11096,57678248
+RO225,n.a.,159767,no,Oraş Sulina,Oras Sulina,4104,328337453
+RO225,n.a.,159785,no,Baia,Baia,4567,214097084
+RO225,n.a.,159847,no,Beidaud,Beidaud,1656,128440498
+RO225,n.a.,159883,no,C.A. Rosetti,C.A. Rosetti,866,265788471
+RO225,n.a.,159945,no,Carcaliu,Carcaliu,3013,29317423
+RO225,n.a.,159963,no,Casimcea,Casimcea,3008,268057771
+RO225,n.a.,160047,no,Ceatalchioi,Ceatalchioi,690,82680401
+RO225,n.a.,160092,no,Ceamurlia de Jos,Ceamurlia de Jos,2507,159997633
+RO225,n.a.,160127,no,Cerna,Cerna,3854,223028849
+RO225,n.a.,160172,no,Chilia Veche,Chilia Veche,2129,533176814
+RO225,n.a.,160225,no,Ciucurova,Ciucurova,2243,154432759
+RO225,n.a.,160261,no,Crişan,Crisan,1234,383338483
+RO225,n.a.,160305,no,Dăeni,Daeni,2064,104578929
+RO225,n.a.,160323,no,Dorobanţu,Dorobantu,1515,118985341
+RO225,n.a.,160387,no,Frecăţei,Frecatei,3645,108106106
+RO225,n.a.,160430,no,Greci,Greci,5288,88640916
+RO225,n.a.,160458,no,Grindu,Grindu,1409,86100661
+RO225,n.a.,160476,no,Hamcearca,Hamcearca,1347,121222869
+RO225,n.a.,160528,no,Horia,Horia,1458,41027598
+RO225,n.a.,160564,no,Izvoarele,Izvoarele,2134,94629785
+RO225,n.a.,160617,no,Jijila,Jijila,5647,102500959
+RO225,n.a.,160644,no,Jurilovca,Jurilovca,4625,299489549
+RO225,n.a.,160680,no,Luncaviţa,Luncavita,4321,151016541
+RO225,n.a.,160724,no,Mahmudia,Mahmudia,2747,61213193
+RO225,n.a.,160779,no,Maliuc,Maliuc,952,259725634
+RO225,n.a.,160831,no,Mihai Bravu,Mihai Bravu,2695,74750877
+RO225,n.a.,160877,no,Mihail Kogălniceanu,Mihail Kogalniceanu,3285,139017787
+RO225,n.a.,160911,no,Murighiol,Murighiol,3529,814624935
+RO225,n.a.,160993,no,Nalbant,Nalbant,2841,128349743
+RO225,n.a.,161035,no,Niculiţel,Niculitel,4844,88144047
+RO225,n.a.,161053,no,Nufăru,Nufaru,2680,65555643
+RO225,n.a.,161106,no,Ostrov,Ostrov,2098,53576504
+RO225,n.a.,161133,no,Pardina,Pardina,583,299668463
+RO225,n.a.,161151,no,Peceneaga,Peceneaga,1793,54777903
+RO225,n.a.,161179,no,Sarichioi,Sarichioi,6846,285279854
+RO225,n.a.,161231,no,Sfântu Gheorghe,Sfantu Gheorghe,836,615532309
+RO225,n.a.,161259,no,Slava Cercheză,Slava Cercheza,2379,105605642
+RO225,n.a.,161286,no,Smârdan,Smardan,1153,90964837
+RO225,n.a.,161302,no,Somova,Somova,4892,142372092
+RO225,n.a.,161348,no,Stejaru,Stejaru,1582,46857142
+RO225,n.a.,161384,no,Topolog,Topolog,4691,184755988
+RO225,n.a.,161464,no,Turcoaia,Turcoaia,3472,48818919
+RO225,n.a.,161482,no,Valea Nucarilor,Valea Nucarilor,3513,149921791
+RO225,n.a.,161525,no,I.C.Brătianu,I.C.Bratianu,1195,45002062
+RO225,n.a.,161543,no,Văcăreni,Vacareni,2219,50577431
+RO225,n.a.,161552,no,Bestepe,Bestepe,1824,63166272
+RO225,n.a.,161561,no,Valea Teilor,Valea Teilor,1521,52739257
+RO216,n.a.,161794,no,Municipiul Bîrlad,Municipiul Birlad,72860,20419425
+RO216,n.a.,161829,no,Municipiul Huşi,Municipiul Husi,30484,64368547
+RO216,n.a.,161856,no,Oraş Negreşti,Oras Negresti,10455,61148948
+RO225,n.a.,161945,no,Municipiul Vaslui,Municipiul Vaslui,97067,68009420
+RO216,n.a.,162014,no,Albeşti,Albesti,3085,58352486
+RO216,n.a.,162069,no,Alexandru Vlahuţă,Alexandru Vlahuta,1593,41140738
+RO216,n.a.,162149,no,Arsura,Arsura,1634,40467347
+RO216,n.a.,162194,no,Banca,Banca,5833,104489894
+RO216,n.a.,162327,no,Băcani,Bacani,3093,49504221
+RO216,n.a.,162381,no,Băceşti,Bacesti,4794,47708988
+RO216,n.a.,162452,no,Bălteni,Balteni,1549,31938309
+RO216,n.a.,162498,no,Berezeni,Berezeni,5146,111820854
+RO216,n.a.,162559,no,Blăgeşti,Blagesti,1418,48522728
+RO216,n.a.,162595,no,Bogdana,Bogdana,1621,49491959
+RO216,n.a.,162693,no,Bogdăneşti,Bogdanesti,3338,72260066
+RO216,n.a.,162791,no,Bogdăniţa,Bogdanita,1574,48299107
+RO216,n.a.,162871,no,Boţeşti,Botesti,2094,54606805
+RO216,n.a.,162924,no,Buneşti-Avereşti,Bunesti-Averesti,2655,67272004
+RO216,n.a.,163002,no,Codăeşti,Codaesti,4548,64713729
+RO216,n.a.,163057,no,Coroieşti,Coroiesti,2142,74516754
+RO216,n.a.,163137,no,Costeşti,Costesti,2942,73016674
+RO216,n.a.,163208,no,Creţeşti,Cretesti,1791,54409712
+RO216,n.a.,163253,no,Dăneşti,Danesti,2226,57956919
+RO216,n.a.,163324,no,Deleni,Deleni,2372,41714958
+RO216,n.a.,163379,no,Deleşti,Delesti,2349,40297615
+RO216,n.a.,163486,no,Dragomireşti,Dragomiresti,5154,73908220
+RO216,n.a.,163618,no,Drânceni,Dranceni,4750,63227779
+RO216,n.a.,163681,no,Duda-Epureni,Duda-Epureni,4638,72781323
+RO216,n.a.,163734,no,Dumeşti,Dumesti,3841,55932589
+RO216,n.a.,163789,no,Epureni,Epureni,3049,63467295
+RO216,n.a.,163832,no,Fălciu,Falciu,5705,148422638
+RO216,n.a.,163903,no,Găgeşti,Gagesti,2005,64727295
+RO216,n.a.,163967,no,Ghergheşti,Gherghesti,2807,69509150
+RO216,n.a.,164062,no,Gârceni,Garceni,2570,57754715
+RO216,n.a.,164133,no,Griviţa,Grivita,3672,62149709
+RO216,n.a.,164197,no,Hoceni,Hoceni,2838,93776935
+RO216,n.a.,164277,no,Dimitrie Cantemir,Dimitrie Cantemir,2623,91012874
+RO216,n.a.,164339,no,Iana,Iana,4264,44697277
+RO216,n.a.,164393,no,Ivăneşti,Ivanesti,4464,81623772
+RO216,n.a.,164543,no,Iveşti,Ivesti,2774,34589451
+RO216,n.a.,164598,no,Laza,Laza,3349,29091782
+RO216,n.a.,164687,no,Lipovăţ,Lipovat,4210,71333278
+RO216,n.a.,164749,no,Lunca Banului,Lunca Banului,3734,82968399
+RO216,n.a.,164829,no,Măluşteni,Malusteni,2350,55471463
+RO216,n.a.,164892,no,Micleşti,Miclesti,2779,43254387
+RO216,n.a.,164936,no,Muntenii de Jos,Muntenii de Jos,4270,56969271
+RO216,n.a.,164981,no,Oraş Murgeni,Oras Murgeni,8249,134861728
+RO216,n.a.,165069,no,Olteneşti,Oltenesti,2711,82240876
+RO216,n.a.,165130,no,Oşeşti,Osesti,3440,50745294
+RO216,n.a.,165185,no,Pădureni,Padureni,4067,89102627
+RO216,n.a.,165274,no,Perieni,Perieni,3746,64049431
+RO216,n.a.,165336,no,Poieneşti,Poienesti,2934,70049281
+RO216,n.a.,165416,no,Pogana,Pogana,3339,60206441
+RO216,n.a.,165470,no,Puieşti,Puiesti,4963,118010271
+RO216,n.a.,165611,no,Pungeşti,Pungesti,3365,71361070
+RO216,n.a.,165719,no,Rebricea,Rebricea,3757,56230816
+RO216,n.a.,165817,no,Roşieşti,Rosiesti,3268,75653062
+RO216,n.a.,165899,no,Soleşti,Solesti,3836,67584235
+RO216,n.a.,165979,no,Stănileşti,Stanilesti,5571,89730512
+RO216,n.a.,166057,no,Ştefan cel Mare,stefan cel Mare,3502,51054969
+RO216,n.a.,166137,no,Şuletea,suletea,2378,49544593
+RO216,n.a.,166182,no,Tanacu,Tanacu,2078,62612828
+RO216,n.a.,166235,no,Tăcuta,Tacuta,3374,60246008
+RO216,n.a.,166315,no,Tătărăni,Tatarani,2230,78020975
+RO216,n.a.,166413,no,Todireşti,Todiresti,3356,41039128
+RO216,n.a.,166529,no,Tutova,Tutova,3886,50674010
+RO216,n.a.,166636,no,Văleni,Valeni,5052,39817882
+RO216,n.a.,166672,no,Vetrişoaia,Vetrisoaia,3193,75257239
+RO216,n.a.,166707,no,Viişoara,Viisoara,1815,49937568
+RO216,n.a.,166770,no,Vinderei,Vinderei,4179,74986677
+RO216,n.a.,166869,no,Voineşti,Voinesti,4059,87669067
+RO216,n.a.,166985,no,Vultureşti,Vulturesti,2221,39069472
+RO216,n.a.,167035,no,Vutcani,Vutcani,2003,70783217
+RO216,n.a.,167071,no,Zăpodeni,Zapodeni,3826,97217283
+RO216,n.a.,167179,no,Zorleni,Zorleni,9878,129794045
+RO216,n.a.,167222,no,Ibaneşti,Ibanesti,1589,43236849
+RO216,n.a.,167231,no,Fruntişeni,Fruntiseni,1894,35894888
+RO216,n.a.,167240,no,Rafaila,Rafaila,2071,27579617
+RO216,n.a.,167259,no,Pogoneşti,Pogonesti,1746,28075149
+RO216,n.a.,167268,no,Ciocani,Ciocani,1710,39203161
+RO216,n.a.,167277,no,Cozmeşti,Cozmesti,2372,42042227
+RO216,n.a.,167286,no,Dodeşti,Dodesti,1795,31328224
+RO216,n.a.,167295,no,Fereşti,Feresti,2172,24660866
+RO216,n.a.,167302,no,Muntenii de Sus,Muntenii de Sus,4289,22257367
+RO216,n.a.,167311,no,Pochidia,Pochidia,1721,42194035
+RO216,n.a.,167320,no,Puşcasi,Puscasi,3671,29749336
+RO216,n.a.,167473,no,Municipiul Râmnicu Vâlcea,Municipiul Ramnicu Valcea,118775,85208654
+RO415,n.a.,167641,no,Oraş Băile Govora,Oras Baile Govora,2868,13467351
+RO415,n.a.,167696,no,Oraş Băile Olăneşti,Oras Baile Olanesti,4562,164352190
+RO415,n.a.,167794,no,Oraş Brezoi,Oras Brezoi,7213,226822519
+RO415,n.a.,167909,no,Oraş Călimăneşti,Oras Calimanesti,8852,104185330
+RO415,n.a.,167981,no,Municipiul Drăgăşani,Municipiul Dragasani,20976,45819440
+RO415,n.a.,168041,no,Oraş Horezu,Oras Horezu,7016,116302801
+RO415,n.a.,168130,no,Oraş Ocnele Mari,Oras Ocnele Mari,3499,26283485
+RO415,n.a.,168229,no,Alunu,Alunu,4408,62546046
+RO415,n.a.,168309,no,Amărăşti,Amarasti,1812,28405438
+RO415,n.a.,168372,no,Oraş Băbeni,Oras Babeni,9394,36888306
+RO415,n.a.,168452,no,Oraş Bălceşti,Oras Balcesti,5202,98043100
+RO415,n.a.,168559,no,Bărbăteşti,Barbatesti,3380,41981338
+RO415,n.a.,168602,no,Oraş Berbeşti,Oras Berbesti,5566,53299027
+RO415,n.a.,168675,no,Berislăveşti,Berislavesti,2769,66793541
+RO415,n.a.,168755,no,Boişoara,Boisoara,1313,77189561
+RO415,n.a.,168791,no,Budeşti,Budesti,5963,59332197
+RO415,n.a.,168880,no,Bujoreni,Bujoreni,4897,32700638
+RO415,n.a.,168960,no,Buneşti,Bunesti,2806,22973459
+RO415,n.a.,169039,no,Cernişoara,Cernisoara,3688,60521309
+RO415,n.a.,169119,no,Câineni,Caineni,2512,252595461
+RO415,n.a.,169182,no,Copăceni,Copaceni,2774,62891898
+RO415,n.a.,169253,no,Costeşti,Costesti,3236,109609748
+RO415,n.a.,169306,no,Creţeni,Creteni,2221,25821560
+RO415,n.a.,169351,no,Dăeşti,Daesti,3059,36768517
+RO415,n.a.,169404,no,Dănicei,Danicei,2046,57131729
+RO415,n.a.,169547,no,Drăgoeşti,Dragoesti,2007,29155188
+RO415,n.a.,169583,no,Făureşti,Fauresti,1463,29695623
+RO415,n.a.,169681,no,Fârtăţeşti,Fartatesti,3872,78273598
+RO415,n.a.,169896,no,Frânceşti,Francesti,5349,61843623
+RO415,n.a.,169994,no,Galicea,Galicea,3843,53988233
+RO415,n.a.,170097,no,Ghioroiu,Ghioroiu,1556,77481476
+RO415,n.a.,170168,no,Glăvile,Glavile,1967,49986079
+RO415,n.a.,170220,no,Goleşti,Golesti,2571,62068392
+RO415,n.a.,170346,no,Grădiştea,Gradistea,2669,48158742
+RO415,n.a.,170444,no,Guşoeni,Gusoeni,1469,36885085
+RO415,n.a.,170514,no,Ioneşti,Ionesti,4203,53942023
+RO415,n.a.,170612,no,Laloşu,Lalosu,2485,44982790
+RO415,n.a.,170685,no,Lădeşti,Ladesti,1767,50040821
+RO415,n.a.,170792,no,Lăpuşata,Lapusata,2089,47420109
+RO415,n.a.,170872,no,Livezi,Livezi,2322,59800325
+RO415,n.a.,170952,no,Lungeşti,Lungesti,3152,59337687
+RO415,n.a.,171021,no,Malaia,Malaia,1823,392409451
+RO415,n.a.,171067,no,Mateeşti,Mateesti,3178,39379514
+RO415,n.a.,171101,no,Măciuca,Maciuca,1756,46206146
+RO415,n.a.,171209,no,Mădulari,Madulari,1442,33885383
+RO415,n.a.,171272,no,Măldăreşti,Maldaresti,1990,30788306
+RO415,n.a.,171325,no,Mihăeşti,Mihaesti,6755,54397515
+RO415,n.a.,171469,no,Milcoiu,Milcoiu,1228,30098085
+RO415,n.a.,171539,no,Muereasca,Muereasca,2629,43007890
+RO415,n.a.,171628,no,Nicolae Bălcescu,Nicolae Balcescu,3392,76941169
+RO415,n.a.,171806,no,Olanu,Olanu,2978,33372535
+RO415,n.a.,171879,no,Orleşti,Orlesti,2883,37354603
+RO415,n.a.,171931,no,Oteşani,Otesani,2700,33601745
+RO415,n.a.,171995,no,Păuşeşti,Pausesti,2611,25637907
+RO415,n.a.,172082,no,Păuşeşti-Măglaşi,Pausesti-Maglasi,4013,30357281
+RO415,n.a.,172153,no,Perişani,Perisani,2269,156598873
+RO415,n.a.,172279,no,Pesceana,Pesceana,1641,28525143
+RO415,n.a.,172340,no,Pietrari,Pietrari,2954,20320741
+RO415,n.a.,172377,no,Popeşti,Popesti,3037,52702204
+RO415,n.a.,172457,no,Prundeni,Prundeni,4128,40881571
+RO415,n.a.,172509,no,Racoviţa,Racovita,1802,59972458
+RO415,n.a.,172581,no,Roeşti,Roesti,2143,28269280
+RO415,n.a.,172698,no,Roşiile,Rosiile,2521,70712712
+RO415,n.a.,172812,no,Runcu,Runcu,935,45278683
+RO415,n.a.,172894,no,Sălătrucel,Salatrucel,2149,40044831
+RO415,n.a.,172947,no,Scundu,Scundu,1981,32908984
+RO415,n.a.,172992,no,Sineşti,Sinesti,2484,41418790
+RO415,n.a.,173061,no,Slătioara,Slatioara,3378,47850954
+RO415,n.a.,173132,no,Stăneşti,Stanesti,1204,32702124
+RO415,n.a.,173230,no,Stoeneşti,Stoenesti,3479,47026335
+RO415,n.a.,173374,no,Stoileşti,Stoilesti,3822,63625948
+RO415,n.a.,173533,no,Stroeşti,Stroesti,2760,40475478
+RO415,n.a.,173597,no,Suteşti,Sutesti,2171,26094710
+RO415,n.a.,173686,no,Şirineasa,sirineasa,2360,47460347
+RO415,n.a.,173748,no,Ştefăneşti,stefanesti,3266,35260581
+RO415,n.a.,173793,no,Şuşani,susani,3221,66082249
+RO415,n.a.,173855,no,Tetoiu,Tetoiu,2464,62950920
+RO415,n.a.,173935,no,Tomşani,Tomsani,3733,37610442
+RO415,n.a.,174021,no,Vaideeni,Vaideeni,3988,159155712
+RO415,n.a.,174085,no,Valea Mare,Valea Mare,2616,74193861
+RO415,n.a.,174156,no,Vlădeşti,Vladesti,3123,20348430
+RO415,n.a.,174218,no,Voiceşti,Voicesti,1576,23541491
+RO415,n.a.,174254,no,Voineasa,Voineasa,1566,461919769
+RO415,n.a.,174290,no,Zătreni,Zatreni,2326,69556329
+RO415,n.a.,174496,no,Titeşti,Titesti,804,29079946
+RO415,n.a.,174502,no,Diculeşti,Diculesti,1941,34275750
+RO415,n.a.,174511,no,Lacusteni,Lacusteni,1416,31151808
+RO415,n.a.,174520,no,Mitrofani,Mitrofani,944,17366129
+RO415,n.a.,174744,no,Municipiul Focşani,Municipiul Focsani,94408,47297796
+RO226,n.a.,174780,no,Câmpineanca,Campineanca,4008,24369093
+RO226,n.a.,174824,no,Goleşti,Golesti,4528,13125286
+RO226,n.a.,174860,no,Municipiul Adjud,Municipiul Adjud,20509,62218775
+RO226,n.a.,174922,no,Oraş Mărăşeşti,Oras Marasesti,13424,87274357
+RO226,n.a.,175019,no,Oraş Odobeşti,Oras Odobesti,9640,53451983
+RO226,n.a.,175055,no,Oraş Panciu,Oras Panciu,9284,52951383
+RO226,n.a.,175126,no,Andreiaşu de Jos,Andreiasu de Jos,1908,103056264
+RO226,n.a.,175206,no,Băleşti,Balesti,2004,39684972
+RO226,n.a.,175224,no,Bârseşti,Barsesti,1434,26314913
+RO226,n.a.,175260,no,Bogheşti,Boghesti,1597,50206025
+RO226,n.a.,175368,no,Boloteşti,Bolotesti,4833,96062780
+RO226,n.a.,175439,no,Bordeşti,Bordesti,1772,16540181
+RO226,n.a.,175466,no,Broşteni,Brosteni,2269,27638399
+RO226,n.a.,175509,no,Chiojdeni,Chiojdeni,2499,71273412
+RO226,n.a.,175590,no,Ciorăşti,Ciorasti,3043,95246919
+RO226,n.a.,175670,no,Câmpuri,Campuri,3822,85851743
+RO226,n.a.,175732,no,Cârligele,Carligele,2959,40740885
+RO226,n.a.,175787,no,Corbiţa,Corbita,1822,57910175
+RO226,n.a.,175885,no,Coteşti,Cotesti,4861,50670293
+RO226,n.a.,175938,no,Dumbrăveni,Dumbraveni,4462,32592910
+RO226,n.a.,175983,no,Dumitreşti,Dumitresti,4667,87873304
+RO226,n.a.,176150,no,Fitioneşti,Fitionesti,2707,79209127
+RO226,n.a.,176212,no,Garoafa,Garoafa,4774,71327912
+RO226,n.a.,176301,no,Gugeşti,Gugesti,6728,35892037
+RO226,n.a.,176338,no,Gura Caliţei,Gura Calitei,2723,113745621
+RO226,n.a.,176445,no,Homocea,Homocea,7758,44885242
+RO226,n.a.,176506,no,Jariştea,Jaristea,4228,38829101
+RO226,n.a.,176551,no,Jitia,Jitia,1646,45704835
+RO226,n.a.,176613,no,Măicăneşti,Maicanesti,4697,156096575
+RO226,n.a.,176686,no,Mera,Mera,4157,94396900
+RO226,n.a.,176748,no,Milcovul,Milcovul,3604,28695792
+RO226,n.a.,176793,no,Moviliţa,Movilita,3873,69651871
+RO226,n.a.,176855,no,Năneşti,Nanesti,2419,47807863
+RO226,n.a.,176891,no,Năruja,Naruja,1934,32853170
+RO226,n.a.,176944,no,Nereju,Nereju,4611,182159271
+RO226,n.a.,177003,no,Nistoreşti,Nistoresti,2274,250761574
+RO226,n.a.,177101,no,Paltin,Paltin,2065,46369428
+RO226,n.a.,177236,no,Păuneşti,Paunesti,6764,82654109
+RO226,n.a.,177263,no,Poiana Cristei,Poiana Cristei,2771,53706299
+RO226,n.a.,177352,no,Pufeşti,Pufesti,4301,48547180
+RO226,n.a.,177405,no,Răcoasa,Racoasa,3288,90441748
+RO226,n.a.,177469,no,Reghiu,Reghiu,2353,66294428
+RO226,n.a.,177557,no,Rugineşti,Ruginesti,4293,83689772
+RO226,n.a.,177600,no,Sihlea,Sihlea,5333,90902960
+RO226,n.a.,177655,no,Slobozia Bradului,Slobozia Bradului,7939,28889464
+RO226,n.a.,177726,no,Slobozia Ciorăşti,Slobozia Ciorasti,2060,71659263
+RO226,n.a.,177762,no,Soveja,Soveja,2256,95421353
+RO226,n.a.,177799,no,Străoane,Straoane,3666,54241903
+RO226,n.a.,177842,no,Suraia,Suraia,6120,49079021
+RO226,n.a.,177879,no,Tănăsoaia,Tanasoaia,2162,45984470
+RO226,n.a.,177986,no,Tătăranu,Tataranu,4593,95748128
+RO226,n.a.,178046,no,Tâmboeşti,Tamboesti,3281,25503113
+RO226,n.a.,178117,no,Tulnici,Tulnici,4168,234069931
+RO226,n.a.,178180,no,Ţifeşti,tifesti,5160,78869750
+RO226,n.a.,178279,no,Urecheşti,Urechesti,2743,32958438
+RO226,n.a.,178313,no,Valea Sării,Valea Sarii,1983,53810682
+RO226,n.a.,178377,no,Vidra,Vidra,7368,121141643
+RO226,n.a.,178475,no,Vintileasca,Vintileasca,2073,63271934
+RO226,n.a.,178545,no,Vizantea-Livezi,Vizantea-Livezi,4116,75122023
+RO226,n.a.,178607,no,Vânători,Vanatori,6562,82826498
+RO226,n.a.,178689,no,Vârteşcoiu,Vartescoiu,3538,38796466
+RO226,n.a.,178750,no,Vrâncioaia,Vrancioaia,2807,55650309
+RO226,n.a.,178821,no,Vulturu,Vulturu,8659,103104701
+RO226,n.a.,178885,no,Negrileşti,Negrilesti,1676,34024641
+RO226,n.a.,178894,no,Ploscuţeni,Ploscuteni,3208,24702821
+RO226,n.a.,178901,no,Popeşti,Popesti,3030,15547947
+RO226,n.a.,178910,no,Pauleşti,Paulesti,1970,168485328
+RO226,n.a.,178929,no,Bilieşti,Biliesti,2498,21404228
+RO226,n.a.,178938,no,Gologanu,Gologanu,3081,38402385
+RO226,n.a.,178947,no,Obrejiţa,Obrejita,1598,16374972
+RO226,n.a.,178956,no,Răstoaca,Rastoaca,2453,23349981
+RO226,n.a.,178965,no,Spulber,Spulber,1347,28545141
+RO226,n.a.,179132,no,Municipiul Bucureşti,Municipiul Bucuresti,2106144,240440717
+RO322,n.a.,179221,no,Oraş Bragadiru,Oras Bragadiru,17181,21597556
+RO322,n.a.,179249,no,Chiajna,Chiajna,17108,16313854
+RO322,n.a.,179285,no,Oraş Chitila,Oras Chitila,15023,11849985
+RO322,n.a.,179310,no,Dobroieşti,Dobroiesti,8883,11308268
+RO322,n.a.,179347,no,Glina,Glina,8080,28931525
+RO322,n.a.,179383,no,Jilava,Jilava,10390,25811965
+RO322,n.a.,179409,no,Oraş Măgurele,Oras Magurele,10361,44335338
+RO322,n.a.,179463,no,Mogoşoaia,Mogosoaia,7798,26204238
+RO322,n.a.,179481,no,Oraş Otopeni,Oras Otopeni,15060,31840385
+RO322,n.a.,179515,no,Oraş Pantelimon,Oras Pantelimon,26837,68724892
+RO322,n.a.,179533,no,Oraş Popeşti Leordeni,Oras Popesti Leordeni,27872,51915275
+RO322,n.a.,179551,no,Oraş Voluntari,Oras Voluntari,40522,37895027
+RO322,n.a.,179588,no,Copăceni,Copaceni,2674,12543423
+RO114,n.a.,179604,no,Poienile Izei,Poienile Izei,884,16167612
+RO114,n.a.,179613,no,Şieu,sieu,2367,21303999
+RO114,n.a.,179622,no,Groşii Ţibleşului,Grosii tiblesului,2103,125948469
+RO116,n.a.,179631,no,Treznea,Treznea,1035,37045292
+RO313,n.a.,179640,no,Vulcana-Pandele,Vulcana-Pandele,5116,24807344
+RO112,n.a.,179659,no,Negrileşti,Negrilesti,2469,60602176
+RO115,n.a.,179677,no,Camin,Camin,1402,19020916
+RO112,n.a.,179686,no,Dumitriţa,Dumitrita,3260,105244796
+RO116,n.a.,179695,no,Şimişna,Simisna,1207,45838812
+RO315,n.a.,179702,no,Traian,Traian,3245,46946444
+RO313,n.a.,179711,no,Vlădeni,Vladeni,2889,28865285
+RO112,n.a.,179720,no,Poiana  Ilvei,Poiana  Ilvei,1567,23147472
+RO314,n.a.,179739,no,Malu,Malu,2198,73171034
+RO314,n.a.,179748,no,Cosoba,Cosoba,2648,13987412
+RO314,n.a.,179757,no,Herăşti,Herasti,2003,29663310
+RO314,n.a.,179766,no,Isvoarele,Isvoarele,1545,28666880
+RO314,n.a.,179775,no,Săbăreni,Sabareni,2585,22989321
+RO315,n.a.,179784,no,Boraneşti,Boranesti,2426,33991298
+RO315,n.a.,179793,no,Bueşti,Buesti,1043,26062127
+RO315,n.a.,179800,no,Maia,Maia,1651,25705328
+RO315,n.a.,179819,no,Ograda,Ograda,2902,62462236
+RO315,n.a.,179828,no,Roşiori,Rosiori,2000,22507870
+RO114,n.a.,179837,no,Coas,Coas,1413,26947577
+RO114,n.a.,179846,no,Coltău,Coltau,2759,14062725
+RO114,n.a.,179855,no,Gărdani,Gardani,1324,17948973
+RO114,n.a.,179864,no,Onceşti,Oncesti,1519,20807535
+RO115,n.a.,179873,no,Agriş,Agris,2132,30453314
+RO115,n.a.,179882,no,Ciumeşti,Ciumesti,1360,45329809
+RO313,n.a.,179891,no,Raciu,Raciu,3269,24949820
+RO313,n.a.,179908,no,Pietrari,Pietrari,2417,26838253
+RO313,n.a.,179917,no,Râu Alb,Rau Alb,1409,25042539
+RO313,n.a.,179926,no,Răscăeţi,Rascaeti,2259,36120549
+RO313,n.a.,179935,no,Perşinari,Persinari,2820,15956460
+RO112,n.a.,179944,no,Runcu Salvei,Runcu Salvei,1343,31649421
+RO112,n.a.,179953,no,Ciceu - Mihaieşti,Ciceu - Mihaiesti,1203,34801972
+RO312,n.a.,179962,no,Gălbinaşi,Galbinasi,3661,19474072
+RO315,n.a.,179971,no,Colelia,Colelia,1157,37756863
+RO315,n.a.,179980,no,Mărculeşti,Marculesti,1596,43277344
+RO315,n.a.,179999,no,Moldoveni,Moldoveni,1109,25753258
+RO315,n.a.,180000,no,Platoneşti,Platonesti,1929,41941527
+RO315,n.a.,180019,no,Sărateni,Sarateni,1255,31301417
+RO115,n.a.,180028,no,Porumbeşti,Porumbesti,2652,33250718
+RO116,n.a.,180037,no,Boghis,Boghis,1922,30568987
+RO315,n.a.,180046,no,Gura Ialomiţei,Gura Ialomitei,2623,68044060
+RO312,n.a.,180055,no,Crivăţ,Crivat,2057,25693889
+RO315,n.a.,180064,no,Bărbuleşti,Barbulesti,6981,14610710
+RO115,n.a.,180091,5/21/2015,Racşa,Racsa,2976,43589445

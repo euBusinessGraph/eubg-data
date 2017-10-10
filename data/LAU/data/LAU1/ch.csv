@@ -1,0 +1,149 @@
+GDEKT	NUTS_3	LAU1	NAME1	NAME_DE	NAME_FR	NAME_IT
+ZH	CH040	101	Bezirk Affoltern	Bezirk Affoltern	Bezirk Affoltern	Bezirk Affoltern
+ZH	CH040	102	Bezirk Andelfingen	Bezirk Andelfingen	Bezirk Andelfingen	Bezirk Andelfingen
+ZH	CH040	103	Bezirk Bülach	Bezirk Bülach	Bezirk Bülach	Bezirk Bülach
+ZH	CH040	104	Bezirk Dielsdorf	Bezirk Dielsdorf	Bezirk Dielsdorf	Bezirk Dielsdorf
+ZH	CH040	105	Bezirk Hinwil	Bezirk Hinwil	Bezirk Hinwil	Bezirk Hinwil
+ZH	CH040	106	Bezirk Horgen	Bezirk Horgen	Bezirk Horgen	Bezirk Horgen
+ZH	CH040	107	Bezirk Meilen	Bezirk Meilen	Bezirk Meilen	Bezirk Meilen
+ZH	CH040	108	Bezirk Pfäffikon	Bezirk Pfäffikon	Bezirk Pfäffikon	Bezirk Pfäffikon
+ZH	CH040	109	Bezirk Uster	Bezirk Uster	Bezirk Uster	Bezirk Uster
+ZH	CH040	110	Bezirk Winterthur	Bezirk Winterthur	Bezirk Winterthour	Bezirk Winterthur
+ZH	CH040	111	Bezirk Dietikon	Bezirk Dietikon	Bezirk Dietikon	Bezirk Dietikon
+ZH	CH040	112	Bezirk Zürich	Bezirk Zürich	Bezirk Zurich	Bezirk Zurigo
+BE	CH021	241	Arrondissement administratif Jura bernois	Arrondissement administratif Jura bernois	Arrondissement administratif Jura bernois	Arrondissement administratif Jura bernois
+BE	CH021	242	Verwaltungskreis Biel/Bienne	Verwaltungskreis Biel (BE)	Verwaltungskreis Bienne	Verwaltungskreis Biel/Bienne
+BE	CH021	243	Verwaltungskreis Seeland	Verwaltungskreis Seeland	Verwaltungskreis Seeland	Verwaltungskreis Seeland
+BE	CH021	244	Verwaltungskreis Oberaargau	Verwaltungskreis Oberaargau	Verwaltungskreis Oberaargau	Verwaltungskreis Oberaargau
+BE	CH021	245	Verwaltungskreis Emmental	Verwaltungskreis Emmental	Verwaltungskreis Emmental	Verwaltungskreis Emmental
+BE	CH021	246	Verwaltungskreis Bern-Mittelland	Verwaltungskreis Bern-Mittelland	Verwaltungskreis Berne-Mittelland	Verwaltungskreis Berna-Mittelland
+BE	CH021	247	Verwaltungskreis Thun	Verwaltungskreis Thun	Verwaltungskreis Thoune	Verwaltungskreis Thun
+BE	CH021	248	Verwaltungskreis Obersimmental-Saanen	Verwaltungskreis Obersimmental-Saanen	Verwaltungskreis Obersimmental-Gessenay	Verwaltungskreis Obersimmental-Saanen
+BE	CH021	249	Verwaltungskreis Frutigen-Niedersimmental	Verwaltungskreis Frutigen-Niedersimmental	Verwaltungskreis Frutigen-Niedersimmental	Verwaltungskreis Frutigen-Niedersimmental
+BE	CH021	250	Verwaltungskreis Interlaken-Oberhasli	Verwaltungskreis Interlaken-Oberhasli	Verwaltungskreis Interlaken-Oberhasli	Verwaltungskreis Interlaken-Oberhasli
+LU	CH061	311	Wahlkreis Luzern-Stadt	Wahlkreis Luzern-Stadt	Wahlkreis Lucerne-Stadt	Wahlkreis Lucerna-Stadt
+LU	CH061	312	Wahlkreis Luzern-Land	Wahlkreis Luzern-Land	Wahlkreis Lucerne-Land	Wahlkreis Lucerna-Land
+LU	CH061	313	Wahlkreis Hochdorf	Wahlkreis Hochdorf	Wahlkreis Hochdorf	Wahlkreis Hochdorf
+LU	CH061	314	Wahlkreis Sursee	Wahlkreis Sursee	Wahlkreis Sursee	Wahlkreis Sursee
+LU	CH061	315	Wahlkreis Willisau	Wahlkreis Willisau	Wahlkreis Willisau	Wahlkreis Willisau
+LU	CH061	316	Wahlkreis Entlebuch	Wahlkreis Entlebuch	Wahlkreis Entlebuch	Wahlkreis Entlebuch
+UR	CH062	400	Kanton Uri	Kanton Uri	Kanton Uri	Kanton Uri
+SZ	CH063	501	Bezirk Einsiedeln	Bezirk Einsiedeln	Bezirk Einsiedeln	Bezirk Einsiedeln
+SZ	CH063	502	Bezirk Gersau	Bezirk Gersau	Bezirk Gersau	Bezirk Gersau
+SZ	CH063	503	Bezirk Höfe	Bezirk Höfe	Bezirk Höfe	Bezirk Höfe
+SZ	CH063	504	Bezirk Küssnacht (SZ)	Bezirk Küssnacht (SZ)	Bezirk Küssnacht (SZ)	Bezirk Küssnacht (SZ)
+SZ	CH063	505	Bezirk March	Bezirk March	Bezirk March	Bezirk March
+SZ	CH063	506	Bezirk Schwyz	Bezirk Schwyz	Bezirk Schwytz	Bezirk Svitto
+OW	CH064	600	Kanton Obwalden	Kanton Obwalden	Kanton Obwalden	Kanton Obwalden
+NW	CH065	700	Kanton Nidwalden	Kanton Nidwalden	Kanton Nidwalden	Kanton Nidwalden
+GL	CH051	800	Kanton Glarus	Kanton Glarus	Kanton Glaris	Kanton Glarona
+ZG	CH066	900	Kanton Zug	Kanton Zug	Kanton Zoug	Kanton Zugo
+FR	CH022	1001	District de la Broye	District de la Broye	District de la Broye	District de la Broye
+FR	CH022	1002	District de la Glâne	District de la Glâne	District de la Glâne	District de la Glâne
+FR	CH022	1003	District de la Gruyère	District de la Gruyère	District de la Gruyère	District de la Gruyère
+FR	CH022	1004	District de la Sarine	District de la Sarine	District de la Sarine	District de la Sarine
+FR	CH022	1005	Bezirk See / District du Lac	Bezirk See / District du Lac	Bezirk See / District du Lac	Bezirk See / District du Lac
+FR	CH022	1006	Bezirk Sense	Bezirk Sense	Bezirk Sense	Bezirk Sense
+FR	CH022	1007	District de la Veveyse	District de la Veveyse	District de la Veveyse	District de la Veveyse
+SO	CH023	1101	Bezirk Gäu	Bezirk Gäu	Bezirk Gäu	Bezirk Gäu
+SO	CH023	1102	Bezirk Thal	Bezirk Thal	Bezirk Thal	Bezirk Thal
+SO	CH023	1103	Bezirk Bucheggberg	Bezirk Bucheggberg	Bezirk Bucheggberg	Bezirk Bucheggberg
+SO	CH023	1104	Bezirk Dorneck	Bezirk Dorneck	Bezirk Dorneck	Bezirk Dorneck
+SO	CH023	1105	Bezirk Gösgen	Bezirk Gösgen	Bezirk Gösgen	Bezirk Gösgen
+SO	CH023	1106	Bezirk Wasseramt	Bezirk Wasseramt	Bezirk Wasseramt	Bezirk Wasseramt
+SO	CH023	1107	Bezirk Lebern	Bezirk Lebern	Bezirk Lebern	Bezirk Lebern
+SO	CH023	1108	Bezirk Olten	Bezirk Olten	Bezirk Olten	Bezirk Olten
+SO	CH023	1109	Bezirk Solothurn	Bezirk Solothurn	Bezirk Soleure	Bezirk Soletta
+SO	CH023	1110	Bezirk Thierstein	Bezirk Thierstein	Bezirk Thierstein	Bezirk Thierstein
+BS	CH031	1200	Kanton Basel-Stadt	Kanton Basel-Stadt	Kanton Bâle-Stadt	Kanton Basilea-Stadt
+BL	CH032	1301	Bezirk Arlesheim	Bezirk Arlesheim	Bezirk Arlesheim	Bezirk Arlesheim
+BL	CH032	1302	Bezirk Laufen	Bezirk Laufen	Bezirk Laufon	Bezirk Laufen
+BL	CH032	1303	Bezirk Liestal	Bezirk Liestal	Bezirk Liestal	Bezirk Liestal
+BL	CH032	1304	Bezirk Sissach	Bezirk Sissach	Bezirk Sissach	Bezirk Sissach
+BL	CH032	1305	Bezirk Waldenburg	Bezirk Waldenburg	Bezirk Waldenburg	Bezirk Waldenburg
+SH	CH052	1401	Bezirk Oberklettgau	Bezirk Oberklettgau	Bezirk Oberklettgau	Bezirk Oberklettgau
+SH	CH052	1402	Bezirk Reiat	Bezirk Reiat	Bezirk Reiat	Bezirk Reiat
+SH	CH052	1403	Bezirk Schaffhausen	Bezirk Schaffhausen	Bezirk Schaffhouse	Bezirk Sciaffusa
+SH	CH052	1404	Bezirk Schleitheim	Bezirk Schleitheim	Bezirk Schleitheim	Bezirk Schleitheim
+SH	CH052	1405	Bezirk Stein	Bezirk Stein	Bezirk Stein	Bezirk Stein
+SH	CH052	1406	Bezirk Unterklettgau	Bezirk Unterklettgau	Bezirk Unterklettgau	Bezirk Unterklettgau
+AR	CH053	1501	Bezirk Hinterland	Bezirk Hinterland	Bezirk Hinterland	Bezirk Hinterland
+AR	CH053	1502	Bezirk Mittelland	Bezirk Mittelland	Bezirk Mittelland	Bezirk Mittelland
+AR	CH053	1503	Bezirk Vorderland	Bezirk Vorderland	Bezirk Vorderland	Bezirk Vorderland
+AI	CH054	1600	Kanton Appenzell Innerrhoden	Kanton Appenzell Innerrhoden	Kanton Appenzell Innerrhoden	Kanton Appenzello Innerrhoden
+SG	CH055	1721	Wahlkreis St. Gallen	Wahlkreis St. Gallen	Wahlkreis Saint-Gall	Wahlkreis San Gallo
+SG	CH055	1722	Wahlkreis Rorschach	Wahlkreis Rorschach	Wahlkreis Rorschach	Wahlkreis Rorschach
+SG	CH055	1723	Wahlkreis Rheintal	Wahlkreis Rheintal	Wahlkreis Rheintal	Wahlkreis Rheintal
+SG	CH055	1724	Wahlkreis Werdenberg	Wahlkreis Werdenberg	Wahlkreis Werdenberg	Wahlkreis Werdenberg
+SG	CH055	1725	Wahlkreis Sarganserland	Wahlkreis Sarganserland	Wahlkreis Sarganserland	Wahlkreis Sarganserland
+SG	CH055	1726	Wahlkreis See-Gaster	Wahlkreis See-Gaster	Wahlkreis See-Gaster	Wahlkreis See-Gaster
+SG	CH055	1727	Wahlkreis Toggenburg	Wahlkreis Toggenburg	Wahlkreis Toggenburg	Wahlkreis Toggenburg
+SG	CH055	1728	Wahlkreis Wil	Wahlkreis Wil	Wahlkreis Wil	Wahlkreis Wil
+GR	CH056	1841	Region Albula	Region Albula	Region Albula	Region Albula
+GR	CH056	1842	Region Bernina	Region Bernina	Region Berneina	Region Bernaina
+GR	CH056	1843	Region Engiadina Bassa / Val Müstair	Region Engiadina Bassa / Val Müstair	Region Engiadina Bassa / Val Müstair	Region Engiadina Bassa / Val Müstair
+GR	CH056	1844	Region Imboden	Region Imboden	Region Imboden	Region Imboden
+GR	CH056	1845	Region Landquart	Region Landquart	Region Landquart	Region Landquart
+GR	CH056	1846	Region Maloja	Region Maloja	Region Maloja	Region Maloja
+GR	CH056	1847	Region Moesa	Region Moesa	Region Moesa	Region Moesa
+GR	CH056	1848	Region Plessur	Region Plessur	Region Plessur	Region Plessur
+GR	CH056	1849	Region Prättigau / Davos	Region Prättigau / Davos	Region Prättigau / Davos	Region Prättigau / Davos
+GR	CH056	1850	Region Surselva	Region Surselva	Region Surselva	Region Surselva
+GR	CH056	1851	Region Viamala	Region Viamala	Region Viamala	Region Viamala
+AG	CH033	1901	Bezirk Aarau	Bezirk Aarau	Bezirk Aarau	Bezirk Aarau
+AG	CH033	1902	Bezirk Baden	Bezirk Baden	Bezirk Baden	Bezirk Baden
+AG	CH033	1903	Bezirk Bremgarten	Bezirk Bremgarten	Bezirk Bremgarten	Bezirk Bremgarten
+AG	CH033	1904	Bezirk Brugg	Bezirk Brugg	Bezirk Brugg	Bezirk Brugg
+AG	CH033	1905	Bezirk Kulm	Bezirk Kulm	Bezirk Kulm	Bezirk Kulm
+AG	CH033	1906	Bezirk Laufenburg	Bezirk Laufenburg	Bezirk Laufonburg	Bezirk Laufenburg
+AG	CH033	1907	Bezirk Lenzburg	Bezirk Lenzburg	Bezirk Lenzburg	Bezirk Lenzburg
+AG	CH033	1908	Bezirk Muri	Bezirk Muri	Bezirk Muri	Bezirk Muri
+AG	CH033	1909	Bezirk Rheinfelden	Bezirk Rheinfelden	Bezirk Rheinfelden	Bezirk Rheinfelden
+AG	CH033	1910	Bezirk Zofingen	Bezirk Zofingen	Bezirk Zofingue	Bezirk Zofingen
+AG	CH033	1911	Bezirk Zurzach	Bezirk Zurzach	Bezirk Zurzach	Bezirk Zurzach
+TG	CH057	2011	Bezirk Arbon	Bezirk Arbon	Bezirk Arbon	Bezirk Arbon
+TG	CH057	2012	Bezirk Frauenfeld	Bezirk Frauenfeld	Bezirk Frauenfeld	Bezirk Frauenfeld
+TG	CH057	2013	Bezirk Kreuzlingen	Bezirk Kreuzlingen	Bezirk Kreuzlingen	Bezirk Kreuzlingen
+TG	CH057	2014	Bezirk Münchwilen	Bezirk Münchwilen	Bezirk Münchwilen	Bezirk Münchwilen
+TG	CH057	2015	Bezirk Weinfelden	Bezirk Weinfelden	Bezirk Weinfelden	Bezirk Weinfelden
+TI	CH070	2101	Distretto di Bellinzona	Distretto di Bellinzona	Distretto di Bellinzone	Distretto di Bellinzona
+TI	CH070	2102	Distretto di Blenio	Distretto di Blenio	Distretto di Blenio	Distretto di Blenio
+TI	CH070	2103	Distretto di Leventina	Distretto di Leventina	Distretto di Leventina	Distretto di Leventina
+TI	CH070	2104	Distretto di Locarno	Distretto di Locarno	Distretto di Locarno	Distretto di Locarno
+TI	CH070	2105	Distretto di Lugano	Distretto di Lugano	Distretto di Lugano	Distretto di Lugano
+TI	CH070	2106	Distretto di Mendrisio	Distretto di Mendrisio	Distretto di Mendrisio	Distretto di Mendrisio
+TI	CH070	2107	Distretto di Riviera	Distretto di Riviera	Distretto di Riviera	Distretto di Riviera
+TI	CH070	2108	Distretto di Vallemaggia	Distretto di Vallemaggia	Distretto di Vallemaggia	Distretto di Vallemaggia
+VD	CH011	2221	District d'Aigle	District d'Aigle	District d'Aigle	District d'Aigle
+VD	CH011	2222	District de la Broye-Vully	District de la Broye-Vully	District de la Broye-Vully	District de la Broye-Vully
+VD	CH011	2223	District du Gros-de-Vaud	District du Gros-de-Vaud	District du Gros-de-Vaud	District du Gros-de-Vaud
+VD	CH011	2224	District du Jura-Nord vaudois	District du Jura-Nord vaudois	District du Jura-Nord vaudois	District du Jura-Nord vaudois
+VD	CH011	2225	District de Lausanne	District de Lausanne	District de Lausanne	District de Losanna
+VD	CH011	2226	District de Lavaux-Oron	District de Lavaux-Oron	District de Lavaux-Oron	District de Lavaux-Oron
+VD	CH011	2227	District de Morges	District de Morges	District de Morges	District de Morges
+VD	CH011	2228	District de Nyon	District de Nyon	District de Nyon	District de Nyon
+VD	CH011	2229	District de l'Ouest lausannois	District de l'Ouest lausannois	District de l'Ouest lausannois	District de l'Ouest lausannois
+VD	CH011	2230	District de la Riviera-Pays-d'Enhaut	District de la Riviera-Pays-d'Enhaut	District de la Riviera-Pays-d'Enhaut	District de la Riviera-Pays-d'Enhaut
+VS	CH012	2301	Bezirk Brig	Bezirk Brig	Bezirk Brig	Bezirk Brig
+VS	CH012	2302	District de Conthey	District de Conthey	District de Conthey	District de Conthey
+VS	CH012	2303	District d'Entremont	District d'Entremont	District d'Entremont	District d'Entremont
+VS	CH012	2304	Bezirk Goms	Bezirk Goms	Bezirk Goms	Bezirk Goms
+VS	CH012	2305	District d'Hérens	District d'Hérens	District d'Hérens	District d'Hérens
+VS	CH012	2306	Bezirk Leuk	Bezirk Leuk	Bezirk Loèche-Ville	Bezirk Leuk
+VS	CH012	2307	District de Martigny	District de Martigny	District de Martigny	District de Martigny
+VS	CH012	2308	District de Monthey	District de Monthey	District de Monthey	District de Monthey
+VS	CH012	2309	Bezirk Raron	Bezirk Raron	Bezirk Rarogne	Bezirk Raron
+VS	CH012	2310	District de Saint-Maurice	District de Saint-Maurice	District de Saint-Maurice	District de Saint-Maurice
+VS	CH012	2311	District de Sierre	District de Siders	District de Sierre	District de Sierre
+VS	CH012	2312	District de Sion	District de Sitten	District de Sion	District de Sion
+VS	CH012	2313	Bezirk Visp	Bezirk Visp	Bezirk Viège	Bezirk Visp
+NE	CH024	2401	District de Boudry	District de Boudry	District de Boudry	District de Boudry
+NE	CH024	2402	District de la Chaux-de-Fonds	District de la Chaux-de-Fonds	District de la Chaux-de-Fonds	District de la Chaux-de-Fonds
+NE	CH024	2403	District du Locle	District du Locle	District du Locle	District du Locle
+NE	CH024	2404	District de Neuchâtel	District de Neuenburg	District de Neuchâtel	District de Neuchâtel
+NE	CH024	2405	District du Val-de-Ruz	District du Val-de-Ruz	District du Val-de-Ruz	District du Val-de-Ruz
+NE	CH024	2406	District du Val-de-Travers	District du Val-de-Travers	District du Val-de-Travers	District du Val-de-Travers
+GE	CH013	2500	Canton de Genève	Canton de Genf	Canton de Genève	Canton de Ginevra
+JU	CH025	2601	District de Delémont	District de Delsberg	District de Delémont	District de Delémont
+JU	CH025	2602	District des Franches-Montagnes	District des Franches-Montagnes	District des Franches-Montagnes	District des Franches-Montagnes
+JU	CH025	2603	District de Porrentruy	District de Pruntrut	District de Porrentruy	District de Porrentruy

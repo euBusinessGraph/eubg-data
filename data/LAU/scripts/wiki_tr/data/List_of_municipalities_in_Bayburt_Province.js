@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Bayburt_Province": {"Demir\u00f6z\u00fc": ["Be\u015fp\u0131nar", "Demir\u00f6z\u00fc", "G\u00f6k\u00e7edere"], "Bayburt": ["Ak\u015far", "Arpal\u0131", "Bayburt", "\u00c7ay\u0131ryolu", "Konursu"], "Ayd\u0131ntepe": ["Ayd\u0131ntepe"]}}

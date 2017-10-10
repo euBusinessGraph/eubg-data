@@ -1,0 +1,1 @@
+{"List_of_municipalities_in_Hakkari_Province": {"Hakkari": ["Durankaya", "Hakkari"], "\u015eemdinli": ["Derecik", "\u015eemdinli"], "\u00c7ukurca": ["\u00c7ukurca"], "Y\u00fcksekova": ["B\u00fcy\u00fck\u00e7iftlik", "Esendere", "Y\u00fcksekova"]}}
