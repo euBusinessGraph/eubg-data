@@ -9,7 +9,7 @@
   ebg:isPubliclyTraded "(is_publicly_traded)"^^xsd:boolean;
   rov:orgStatus <status/(provider)/(status)>;
   ebg:orgStatusText "(status)"@lang;
-  rov:orgActivity <http://data.businessgraph.io/nace/(nace1)>, <http://data.businessgraph.io/nace/(nace5)>;
+  rov:orgActivity <nace/(nace1)>, <nace/(nace5)>;
   ebg:orgActivityText "(activity)"@lang;
   schema:foundingDate "(founding_date)"^^xsd:date;
   schema:dissolutionDate "(dissolution_date)"^^xsd:date;
@@ -31,8 +31,8 @@
   locn:adminUnitL2       <http://nuts.geovocab.org/id/(co)(macro)>;
   ebg:adminUnitL3        <http://nuts.geovocab.org/id/(co)(macro)(reg)>;
   ebg:adminUnitL4        <http://nuts.geovocab.org/id/(co)(macro)(reg)(prov)>;
-  ebg:adminUnitL5        <lau/(co)/(lau1)>;
-  ebg:adminUnitL6        <lau/(co)/(lau2)>;                                    
+  ebg:adminUnitL5        <lau/(co)-(lau1)>;
+  ebg:adminUnitL6        <lau/(co)-(lau2)>;                                    
   locn:postName          "(settlement)";
   locn:addressArea       "(neighbourhood)";
   locn:thoroughfare      "(street_address)";
@@ -60,10 +60,10 @@
   org:siteAddress <company/(co)/(id)/address/(n)>;
   puml:label "Same data as registered site/address".
 
-<http://data.businessgraph.io/nace/(nace1)>
+<nace/(nace1)>
   puml:label "Top-level NACE classification\nMandatory if available".
 
-<http://data.businessgraph.io/nace/(nace5)>
+<nace/(nace5)>
   puml:label "Detailed NACE classification\n (down to national level). Optional".
 
 <register/(co)> a ebg:Register;
@@ -81,7 +81,7 @@
   dct:creator <register/RAL>.
 
 ####################
-<company/(co)/(id)> puml:dashed-up <http://data.businessgraph.io/nace/(nace5)>.
+<company/(co)/(id)> puml:dashed-up <nace/(nace5)>.
 rov:orgActivity puml:arrow puml:up.
 
 <http://news_blog_feed>                               a puml:Inline.
@@ -91,10 +91,10 @@ rov:orgActivity puml:arrow puml:up.
 <http://nuts.geovocab.org/id/(co)>                    a puml:Inline.
 <http://wikipedia>                                    a puml:Inline.
 <http://website>                                      a puml:Inline.
-<lau/(co)/(lau1)>                                     a puml:Inline.
-<lau/(co)/(lau2)>                                     a puml:Inline.
+<lau/(co)-(lau1)>                                     a puml:Inline.
+<lau/(co)-(lau2)>                                     a puml:Inline.
 <mailto:certified_email>                              a puml:Inline.
-<resolution/(level)>                                  a puml:Inline.
-<status/(co)/(type)>                                  a puml:Inline.
-<status/(provider)/(status)>                          a puml:Inline.
 <register/RAL>                                        a puml:Inline.
+<resolution/(level)>                                  a puml:Inline.
+<status/(provider)/(status)>                          a puml:Inline.
+<type/(co)/(type)>                                    a puml:Inline.
