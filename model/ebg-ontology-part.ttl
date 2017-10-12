@@ -166,3 +166,16 @@ ebg:exclusionNote a owl:DatatypeProperty;
   schema:domainIncludes skos:Concept;
   schema:rangeIncludes rdf:langString.
 
+ebg:adminUnit a owl:ObjectProperty;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "Admin unit";
+  schema:domainIncludes locn:Address;
+  schema:rangeIncludes ramon:NUTSRegion, ebg:LAURegion;
+  rdfs:comment "All administrative units related to an address. Union of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place".
+
+locn:adminUnitL1 rdfs:subPropertyOf ebg:adminUnit.
+locn:adminUnitL2 rdfs:subPropertyOf ebg:adminUnit.
+ebg:adminUnitL3  rdfs:subPropertyOf ebg:adminUnit.
+ebg:adminUnitL4  rdfs:subPropertyOf ebg:adminUnit.
+ebg:adminUnitL5  rdfs:subPropertyOf ebg:adminUnit.
+ebg:adminUnitL6  rdfs:subPropertyOf ebg:adminUnit.
