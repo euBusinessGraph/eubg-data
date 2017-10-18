@@ -78,7 +78,6 @@ Evaluation:
 * FR - Use of wikidata. 3515 Results of 3785
 ```sparql
 prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/>
-prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/>
 construct
 {
   ?lau1 ramon:name ?label;
