@@ -42,9 +42,9 @@ do
        sed -i "s/{language}/$langs_code/g" .temp.tarql
 
         if [[ $delimiter != "" ]];then
-            tarql -d ${delimiter} .temp.tarql $file > ${out_folder}/${country}-${suffix}-${langs_code}.ttl
+            tarql -d ${delimiter} .temp.tarql $file > ${out_folder}/${country}-${suffix}.ttl
         else
-            tarql -t .temp.tarql $file > ${out_folder}/${country}-${suffix}-${langs_code}.ttl
+            tarql -t .temp.tarql $file > ${out_folder}/${country}-${suffix}.ttl
         fi
     done < $langs
 done
