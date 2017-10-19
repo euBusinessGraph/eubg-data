@@ -1,4 +1,4 @@
-<company/BG/123456> a rov:RegisteredOrganization;
+<company/BG/200356710> a rov:RegisteredOrganization;
   rov:legalName "Онтотекст АД"@bg;
   skos:altLabel "Ontotext"@en;
   schema:url <http://ontotext.com>;
@@ -7,12 +7,12 @@
 
 <company/BG/200356710/id> a adms:Identifier;
   puml:label "official registration of ONTO in BGTR";
-  skos:notation "123456";
+  skos:notation "200356710";
   dct:creator <register/BG>.
 
 <company/BG/200356710/id/OCORP> a adms:Identifier;
   puml:label "Registration of ONTO in OCORP\n(when it ingests BG TR)";
-  skos:notation "bg/123456";
+  skos:notation "bg/200356710";
   dct:creator <company/GB/07444723>. # OCORP  
 
 <register/BG> a ebg:Register;

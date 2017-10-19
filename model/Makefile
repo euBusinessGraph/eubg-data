@@ -1,8 +1,8 @@
-TTL    = identifiers.ttl identifiers2.ttl company.ttl
+TTL    = identifiers.ttl identifiers2.ttl identifier-GUID.ttl company.ttl
 PUML   = $(patsubst %.ttl, %.puml, $(TTL))
 PNG    = $(patsubst %.ttl, %.png, $(TTL))
 
-all : $(PNG) ebg-ontology.ttl
+all : $(PUML) $(PNG) ebg-ontology.ttl
 
 %.puml : %.ttl
 	rdfpuml.bat $<

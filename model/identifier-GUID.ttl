@@ -1,0 +1,29 @@
+<company/BG/204060254> a rov:RegisteredOrganization;
+  rov:registration <company/BG/204060254/id>;
+  adms:identifier <company/BG/204060254/GUID>.
+
+<company/BG/204060254/id> a adms:Identifier;
+  puml:label "Official ID";
+  skos:notation "204060254";
+  dct:creator <register/BG>.
+
+<company/BG/204060254/GUID> a adms:Identifier;
+  puml:label "GUID used to reach company page in register";
+  skos:notation "617f4edf8c154f4296efdf146513de21";
+  dct:creator <register/BG/GUID>.
+
+<register/BG> a ebg:Register;
+  dc:identifier "BG";
+  rov:legalName "Търговски регистър"@bg;
+  skos:prefLabel "BG Commercial Register"@en;
+  schema:url <http://www.brra.bg/Default.ra>.
+
+<register/BG/GUID> a ebg:Register;
+  rdfs:comment "Use to reach the official register page of a company";
+  dct:isPartOf <register/BG>;
+  dc:identifier "BG/GUID";
+  rov:legalName "Търговски регистър - GUID"@bg;
+  skos:prefLabel "BG Commercial Register - GUID"@en;
+  ebg:urlTemplate "https://public.brra.bg/CheckUps/Verifications/ActiveCondition.ra?guid={}".
+
+schema:url a puml:InlineProperty.
