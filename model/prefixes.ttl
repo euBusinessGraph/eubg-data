@@ -26,6 +26,7 @@
 @prefix sioc:    <http://rdfs.org/sioc/ns#> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix spatial: <http://geovocab.org/spatial#> .
+@prefix time:    <http://www.w3.org/2006/time#>.
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
