@@ -40,11 +40,6 @@
             "type" : "string",
             "enum": ["person", "org", "loc", "wiki"]
           },
-          "id": {
-            "description":  "EventRegistry's internal concept identifier",
-            "type": "string",
-            "pattern": "^[1-9][0-9]*$"
-          },
           "image": {
             "description": "Image URL of the concept",
             "type": [
@@ -75,7 +70,7 @@
             ],
             "properties": {
               "area": {
-                "description": "Geographical area identifier",
+                "description": "Geographical area surface measure",
                 "type": "number"
               },
               "code2": {
@@ -200,11 +195,6 @@
           "description": {
             "description": "Textual description of the concept",
             "type": "string"
-          },
-          "details": {
-            "description": "Concept details",
-            "type": "object",
-            "additionalProperties": true
           }
         }
       }
@@ -235,11 +225,6 @@
               "description": "Child category URI",
               "type": "string"
             }
-          },
-          "id": {
-            "description": "EventRegistry's internal category identifier",
-            "type": "number",
-            "minimum": 1
           },
           "trendingHistory": {
             "description": "Mentions of the category in articles in previous days",
@@ -356,7 +341,7 @@
           "type": "object",
           "properties": {
             "area": {
-              "description": "Geographical area identifier",
+              "description": "Country geographical surface measure",
               "type": "number"
             },
             "code2": {
@@ -400,7 +385,7 @@
               "type": "number"
             },
             "population": {
-              "description": "Area population",
+              "description": "Country's population",
               "type": "number"
             },
             "type": {
@@ -421,7 +406,7 @@
           }
         },
         "featureCode": {
-          "description": "Feature code",
+          "description": "geonames.org feature code",
           "type": "string"
         },
         "geoNamesId": {
@@ -466,16 +451,6 @@
       "items": {
         "description": "Story - a news article cluster",
         "type": "object"
-      }
-    },
-    "details": {
-      "description": "Event details",
-      "type": "object",
-      "properties": {
-        "geoSpread": {
-          "description": "geoSpread",
-          "type": "number"
-        }
       }
     },
     "wgt": {
