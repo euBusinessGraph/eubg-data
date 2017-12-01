@@ -1,0 +1,1152 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Article data model in EventRegistry",
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "uri": {
+      "description": "URI to identify a specific Article instance",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "description": "URL address from where the article was fetched",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "description": "Article title",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "body": {
+      "description": "Article full text body",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "description": "Publish date of the article",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "time": {
+      "description": "Publish time of the article",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "eventUri": {
+      "description": "Event instance URI to which this article is assigned to, if any",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "clusterUri": {
+      "description": "Story URI to which this article is assigned to, if any",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "description": "Detailed information about the news source Source instance",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "uri": {
+          "description": "News source URI",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "description": "News source title",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "articleCount": {
+          "description": "Total number of articles fetched from this news source",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "description": {
+          "description": "News source description",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ranking": {
+          "description": "A collection of this news source's rankings",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "importanceRank": {
+              "description": "EventRegistry's news source ranking; lower value means higher importance",
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "alexaGlobalRank": {
+              "description": "Global ranking of the news source's website based on Amazon Alexa; lower value means higher importance",
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 1
+            },
+            "alexaCountryRank": {
+              "description": "Country-level ranking of the news source's website based on Amazon Alexa; lower value means higher importance",
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 1
+            }
+          }
+        },
+        "location": {
+          "description": "Geographical location of the news source",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "country": {
+              "description": "Country information",
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "area": {
+                  "description": "Country geographical surface measure",
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "code2": {
+                  "description": "ISO 3166-1 alpha-2 country code",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "code3": {
+                  "description": "ISO 3166-1 alpha-3 country code",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "continent": {
+                  "description": "Continent name",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "currencyCode": {
+                  "description": "ISO 4217 currency code",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "currencyName": {
+                  "description": "Currency name",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "geoNamesId": {
+                  "description": "geonames.org identifier",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "pattern": "^[0-9]+$"
+                },
+                "label": {
+                  "description": "Country labels in requested languages",
+                  "patternProperties": {
+                    "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "lat": {
+                  "description": "Approximate location lattitude",
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "long": {
+                  "description": "Approximate location longitude",
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "population": {
+                  "description": "Country's population",
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "type": {
+                  "description": "Location type",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "enum": [
+                    "country",
+                    "place"
+                  ]
+                },
+                "webExt": {
+                  "description": "IANA's territorial top-level domain for this location",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "pattern": ".[a-zA-Z]+$"
+                },
+                "wikiUri": {
+                  "description": "Location Wikipedia URI",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "minLength": 1
+                }
+              }
+            },
+            "featureCode": {
+              "description": "geonames.org feature code",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "geoNamesId": {
+              "description": "geonames.org identifier",
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[0-9]+$"
+            },
+            "label": {
+              "description": "Location names in requested languages",
+              "patternProperties": {
+                "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "lat": {
+              "description": "Approximate location lattitude",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "long": {
+              "description": "Approximate location longitude",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "population": {
+              "description": "Area population",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "type": {
+              "description": "Location type",
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "country",
+                "place"
+              ]
+            },
+            "wikiUri": {
+              "description": "Location Wikipedia URI",
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          }
+        },
+        "image": {
+          "description": "Image URL associated with this news source",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "thumbImage": {
+          "description": "Thumbnail of the image URL associated with this news source",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "categories": {
+      "description": "List of Category instances",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "description": "Category information",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "uri": {
+            "description": "Category URI",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "parentUri": {
+            "description": "URI of the parent category",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "label": {
+            "description": "Category label",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "childrenUris": {
+            "description": "URIs of child categories",
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "description": "Child category URI",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "trendingHistory": {
+            "description": "Mentions of the category in articles in previous days",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "latestArticleTimestamp": {
+                "description": "Timestamp of the latest article, which contains this category",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "news": {
+                "description": "Daily counts of articles, in which this category was found; last item represents counts for today, the array sorted in ascending date order",
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "description": "Article count for one day, in which this concept was found",
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          "trendingScore": {
+            "description": "Score information of how strongly the category is currently trending",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "news": {
+                "description": "A score of how strongly is the category currently trending in news articles",
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "nullPopFq": {
+                    "description": "Null population frequency",
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "score": {
+                    "description": "Concept trending score",
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "testPopFq": {
+                    "description": "Test population frequency",
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "concepts": {
+      "description": "List of Concept instances",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "description": "A Concept data model in EventRegistry",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "uri": {
+            "description": "URI to identify a specific Concept instance",
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "type": {
+            "description": "A concept's type",
+            "type": "string",
+            "enum": [
+              "person",
+              "org",
+              "loc",
+              "wiki"
+            ]
+          },
+          "image": {
+            "description": "Image URL of the concept",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "label": {
+            "description": "Concept labels in requested languages",
+            "patternProperties": {
+              "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "conceptClassMembership": {
+            "description": "List of classes this concept belongs to",
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "description": "Class name",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "location": {
+            "description": "Location details if concept is a Location",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "area": {
+                "description": "Geographical area surface measure",
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "code2": {
+                "description": "ISO 3166-1 alpha-2 country code",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "code3": {
+                "description": "ISO 3166-1 alpha-3 country code",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "continent": {
+                "description": "Continent name",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "currencyCode": {
+                "description": "ISO 4217 currency code",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "currencyName": {
+                "description": "Currency name",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "geoNamesId": {
+                "description": "geonames.org identifier",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^[0-9]+$"
+              },
+              "label": {
+                "description": "Location names in requested languages",
+                "patternProperties": {
+                  "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "lat": {
+                "description": "Approximate location lattitude",
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "long": {
+                "description": "Approximate location longitude",
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "population": {
+                "description": "Area population",
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "type": {
+                "description": "Location type",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "country",
+                  "place"
+                ]
+              },
+              "webExt": {
+                "description": "IANA's territorial top-level domain for this location",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": ".[a-zA-Z]+$"
+              },
+              "wikiUri": {
+                "description": "Location Wikipedia URI",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              }
+            }
+          },
+          "synonyms": {
+            "description": "Synonyms for the concept in requested languages, if any",
+            "type": [
+              "object",
+              "null"
+            ],
+            "patternProperties": {
+              "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "description": "Synonym name for the concept in this language",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "trendingHistory": {
+            "description": "Mentions of the concept in articles in previous days",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "latestArticleTimestamp": {
+                "description": "Timestamp of the latest article, which contains this concept",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "news": {
+                "description": "Daily counts of articles, in which this concept was found; last item represents counts for today, the array sorted in ascending date order",
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "description": "Article count for one day, in which this concept was found",
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          "trendingScore": {
+            "description": "Score information of how strongly the concept is currently trending",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "news": {
+                "description": "A score of how strongly is the concept currently trending in news articles",
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "nullPopFq": {
+                    "description": "Null population frequency",
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "score": {
+                    "description": "Concept trending score",
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "testPopFq": {
+                    "description": "Test population frequency",
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          },
+          "description": {
+            "description": "Textual description of the concept",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "videos": {
+      "description": "List of videos that were attributed to this Event instance",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "description": "Video information",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "uri": {
+            "description": "Video URI, usually a World Wide Web URL",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "label": {
+            "description": "Video label",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "extractedDates": {
+      "description": "Dates that were extracted from the article",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "description": "Date information that was extracted from the article",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "amb": {
+            "description": "Whether the date mention in text is ambiguous",
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "date": {
+            "description": "Normalized date value",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "dateEnd": {
+            "description": "Normalized end date value",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "detectedDate": {
+            "description": "Detected date string",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "imp": {
+            "description": "Whether the year value was input",
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "posInText": {
+            "description": "Detected date string's starting character location in text body",
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "textSnippet": {
+            "description": "Text snippet of detected date string's neighborhood",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "image": {
+      "description": "Image URL attributed to this article",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "isDuplicate": {
+      "description": "Whether the article is a duplicate of another article",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "lang": {
+      "description": "Main language detected in the article",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "eng",
+        "deu",
+        "spa",
+        "cat",
+        "por",
+        "ita",
+        "fra",
+        "rus",
+        "ara",
+        "tur",
+        "zho",
+        "slv",
+        "hrv",
+        "srp",
+        "ind"
+      ]
+    },
+    "location": {
+      "description": "Location object, if there was an explicit location extracted from the dateline",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "country": {
+          "description": "Country information",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "area": {
+              "description": "Country geographical surface measure",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "code2": {
+              "description": "ISO 3166-1 alpha-2 country code",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "code3": {
+              "description": "ISO 3166-1 alpha-3 country code",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "continent": {
+              "description": "Continent name",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "currencyCode": {
+              "description": "ISO 4217 currency code",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "currencyName": {
+              "description": "Currency name",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "geoNamesId": {
+              "description": "geonames.org identifier",
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[0-9]+$"
+            },
+            "label": {
+              "description": "Country labels in requested languages",
+              "patternProperties": {
+                "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "lat": {
+              "description": "Approximate location lattitude",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "long": {
+              "description": "Approximate location longitude",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "population": {
+              "description": "Country's population",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "type": {
+              "description": "Location type",
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "country",
+                "place"
+              ]
+            },
+            "webExt": {
+              "description": "IANA's territorial top-level domain for this location",
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": ".[a-zA-Z]+$"
+            },
+            "wikiUri": {
+              "description": "Location Wikipedia URI",
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          }
+        },
+        "featureCode": {
+          "description": "geonames.org feature code",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "geoNamesId": {
+          "description": "geonames.org identifier",
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]+$"
+        },
+        "label": {
+          "description": "Location names in requested languages",
+          "patternProperties": {
+            "^eng|deu|spa|cat|por|ita|fra|rus|ara|tur|zho|slv|hrv|srp|ind$": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "lat": {
+          "description": "Approximate location lattitude",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "long": {
+          "description": "Approximate location longitude",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "population": {
+          "description": "Area population",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "type": {
+          "description": "Location type",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "country",
+            "place"
+          ]
+        },
+        "wikiUri": {
+          "description": "Location Wikipedia URI",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "originalArticle": {
+      "description": "The original article's object, if this article is recognized as a duplicate",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {}
+    },
+    "sim": {
+      "description": "Cosine similarity of article text to the centroid of its Story cluster",
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "shares": {
+      "description": "Count of social media shares",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "facebook": {
+          "description": "Number of shares on Facebook",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "twitter": {
+          "description": "Number of shares on Twitter",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "googlePlus": {
+          "description": "Number of shares on Google+",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "pinterest": {
+          "description": "Number of shares on Pinterest",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "linkedIn": {
+          "description": "Number of shares on LinkedIn",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
