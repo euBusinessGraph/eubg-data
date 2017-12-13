@@ -1,5 +1,5 @@
 # NUTS
-We downloaded NUTS data in RDF from [http://nuts.geovocab.org/].
+We downloaded NUTS data in RDF from http://nuts.geovocab.org/.
 
 Example for Finland:
 
@@ -51,8 +51,9 @@ We used the official Eurostat excel [EU-28_LAU_2016.xlsx](./data/EU-28_LAU_2016.
 We couldnt' find LAU1 data that has both region name and code.
 LAU2 doesn't have that defect, so we decided to use the name of the largest LAU2 region in terms of population as name for the LAU1 name.
 Examples with BG:
+
 NUTS3 | LAU1  |  LAU2 | name BG | name EN | population |      area | comment
-------+-------+-------+---------+---------+------------+-----------+--------------------------------------------------------------------------------
+------|-------|-------|---------|---------|------------|-----------|--------------------------------------------------------------------------------
 BG341 | BGS01 | 00151 | Айтос   | Aytos   |      19462 |  79033000 | the largest LAU2 in that LAU1, and indeed Aytos should be the name of the LAU1
 BG341 | BGS04 | 07079 | Бургас  | Burgas  |     203017 | 284442000 | the largest LAU2 in that LAU1, and indeed Burgas should be the name of the LAU1
 
@@ -169,8 +170,9 @@ We'll use NUTS3_13 as latest present identificator.
 * LAU1_NAT_CODE - blanks are: "n.a.", "", "no" - not unique between countries
 * LAU2_NAT_CODE - has duplicates for DK - not unique between countries.
 We use the following URLs for DK LAU2 to make them unique: `lau:DK-<lau1>-<lau2>`
+
 LAU2_NAT_CODE | count
----------------------
+--------------|-------
 7964        | 2
 8190        | 2
 8981        | 2
