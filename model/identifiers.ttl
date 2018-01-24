@@ -30,13 +30,13 @@
   schema:name "OpenCorporates companies";
   ebg:urlTemplate "https://opencorporates.com/id/companies/{}".
 
-<company/ATOKA/6da785b3adf2>
+<company/ATOKA/6da785>
   a rov:RegisteredOrganization;
   puml:label "Company we don't know the official ID of";
-  adms:identifier <company/ATOKA/6da785b3adf2/id>;
-  adms:identifier <company/ATOKA/6da785b3adf2/id/REA>.
+  adms:identifier <company/ATOKA/6da785/id>;
+  adms:identifier <company/ATOKA/6da785/id/REA>.
 
-<company/ATOKA/6da785b3adf2/id/REA>
+<company/ATOKA/6da785/id/REA>
   a adms:Identifier;
   skos:notation "TN210089"^^<register/IT/REA/TN>;
   dct:creator <register/IT/REA/TN>.
@@ -51,9 +51,9 @@
   schema:name "Repertorio Economico Amministrativo"@it;
   dbo:jurisdiction "it".
 
-<company/ATOKA/6da785b3adf2/id>
+<company/ATOKA/6da785/id>
   a adms:Identifier;
-  skos:notation "6da785b3adf2"^^<register/ATOKA>;
+  skos:notation "6da785"^^<register/ATOKA>;
   dct:creator <register/ATOKA>.
 
 <register/ATOKA>

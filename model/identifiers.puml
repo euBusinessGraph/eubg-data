@@ -3,17 +3,18 @@ hide empty methods
 hide empty attributes
 hide circle
 skinparam classAttributeIconSize 0
-class ebg_comp_ATOKA_6da785b3adf2 as "ebg-comp:ATOKA/6da785b3adf2"
-ebg_comp_ATOKA_6da785b3adf2 : a rov:RegisteredOrganization
-class ebg_comp_ATOKA_6da785b3adf2_id as "ebg-comp:ATOKA/6da785b3adf2/id"
-ebg_comp_ATOKA_6da785b3adf2 --> ebg_comp_ATOKA_6da785b3adf2_id : adms:identifier
-class ebg_comp_ATOKA_6da785b3adf2_id_REA as "ebg-comp:ATOKA/6da785b3adf2/id/REA"
-ebg_comp_ATOKA_6da785b3adf2 --> ebg_comp_ATOKA_6da785b3adf2_id_REA : adms:identifier
-ebg_comp_ATOKA_6da785b3adf2 :  "Company we don't know the official ID of"
-class ebg_reg_IT_REA as "ebg-reg:IT/REA"
-ebg_reg_IT_REA : a ebg:Register
-ebg_reg_IT_REA : dbo:jurisdiction "it"
-ebg_reg_IT_REA : schema:name "Repertorio Economico Amministrativo"@it
+class ebg_reg_ATOKA as "ebg-reg:ATOKA"
+ebg_reg_ATOKA : a ebg:Register
+ebg_reg_ATOKA : ebg:urlTemplate "https://atoka.io/en/azienda/-/{}/"
+ebg_reg_ATOKA : schema:name "atoka.io company information"
+ebg_reg_ATOKA : schema:url <http://atoka.io>
+class ebg_comp_ATOKA_6da785 as "ebg-comp:ATOKA/6da785"
+ebg_comp_ATOKA_6da785 : a rov:RegisteredOrganization
+class ebg_comp_ATOKA_6da785_id_REA as "ebg-comp:ATOKA/6da785/id/REA"
+ebg_comp_ATOKA_6da785 --> ebg_comp_ATOKA_6da785_id_REA : adms:identifier
+class ebg_comp_ATOKA_6da785_id as "ebg-comp:ATOKA/6da785/id"
+ebg_comp_ATOKA_6da785 --> ebg_comp_ATOKA_6da785_id : adms:identifier
+ebg_comp_ATOKA_6da785 :  "Company we don't know the official ID of"
 class ebg_reg_NO as "ebg-reg:NO"
 ebg_reg_NO : a ebg:Register
 ebg_reg_NO : dbo:jurisdiction "NO"
@@ -21,7 +22,47 @@ ebg_reg_NO : ebg:dataUrlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}
 ebg_reg_NO : ebg:urlTemplate "http://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}"
 ebg_reg_NO : schema:name "NO Brønnøysundregistrene - companies"@no
 ebg_reg_NO : schema:url <http://data.brreg.no>
+class ebg_comp_NO_974760673_id as "ebg-comp:NO/974760673/id"
+ebg_comp_NO_974760673_id : a adms:Identifier
+ebg_comp_NO_974760673_id --> ebg_reg_NO : dct:creator
+ebg_comp_NO_974760673_id : skos:notation "974760673"^^ebg-reg:NO
+class ebg_reg_OCORP as "ebg-reg:OCORP"
+ebg_reg_OCORP : a ebg:Register
+ebg_reg_OCORP : ebg:urlTemplate "https://opencorporates.com/id/companies/{}"
+ebg_reg_OCORP : schema:name "OpenCorporates companies"
+ebg_comp_ATOKA_6da785_id_REA : a adms:Identifier
+class ebg_reg_IT_REA_TN as "ebg-reg:IT/REA/TN"
+ebg_comp_ATOKA_6da785_id_REA --> ebg_reg_IT_REA_TN : dct:creator
+ebg_comp_ATOKA_6da785_id_REA : skos:notation "TN210089"^^ebg-reg:IT/REA/TN
+class ebg_comp_UK_2176594_id_OCORP as "ebg-comp:UK/2176594/id/OCORP"
+ebg_comp_UK_2176594_id_OCORP : a adms:Identifier
+ebg_comp_UK_2176594_id_OCORP --> ebg_reg_OCORP : dct:creator
+ebg_comp_UK_2176594_id_OCORP : skos:notation "gb/07444723"^^ebg-reg:OCORP
+class ebg_comp_NO_974760673 as "ebg-comp:NO/974760673"
+ebg_comp_NO_974760673 : a rov:RegisteredOrganization
+class ebg_comp_no_974760673_id as "ebg-comp:no/974760673/id"
+ebg_comp_NO_974760673 --> ebg_comp_no_974760673_id : rov:registration
+ebg_comp_NO_974760673 :  "Company with official NO ID"
+class ebg_reg_IT_REA as "ebg-reg:IT/REA"
+ebg_reg_IT_REA : a ebg:Register
+ebg_reg_IT_REA : dbo:jurisdiction "it"
+ebg_reg_IT_REA : schema:name "Repertorio Economico Amministrativo"@it
+class ebg_comp_UK_2176594 as "ebg-comp:UK/2176594"
+ebg_comp_UK_2176594 : a rov:RegisteredOrganization
+class ebg_comp_UK_2176594_id as "ebg-comp:UK/2176594/id"
+ebg_comp_UK_2176594 --> ebg_comp_UK_2176594_id : rov:registration
+ebg_comp_UK_2176594 --> ebg_comp_UK_2176594_id_OCORP : adms:identifier
+ebg_comp_UK_2176594 :  "Company with official UK ID"
+ebg_comp_UK_2176594_id : a adms:Identifier
 class ebg_reg_UK as "ebg-reg:UK"
+ebg_comp_UK_2176594_id --> ebg_reg_UK : dct:creator
+ebg_comp_UK_2176594_id : skos:notation "7444723"^^ebg-reg:UK
+ebg_comp_ATOKA_6da785_id : a adms:Identifier
+ebg_comp_ATOKA_6da785_id --> ebg_reg_ATOKA : dct:creator
+ebg_comp_ATOKA_6da785_id : skos:notation "6da785"^^ebg-reg:ATOKA
+ebg_reg_IT_REA_TN : a ebg:Register
+ebg_reg_IT_REA_TN --> ebg_reg_IT_REA : dct:isPartOf
+ebg_reg_IT_REA_TN : schema:name "Repertorio Economico Amministrativo - TN"@it
 ebg_reg_UK : a ebg:Register
 ebg_reg_UK : dbo:jurisdiction "UK"
 ebg_reg_UK : ebg:dataUrlTemplate "http://data.companieshouse.gov.uk/doc/company/{}"
@@ -29,45 +70,4 @@ ebg_reg_UK : ebg:semanticUrlTemplate "http://business.data.gov.uk/id/company/{}"
 ebg_reg_UK : ebg:urlTemplate "https://beta.companieshouse.gov.uk/company/{}"
 ebg_reg_UK : schema:name "UK Companies House"@en
 ebg_reg_UK : schema:url <http://companieshouse.gov.uk>
-class ebg_comp_NO_974760673_id as "ebg-comp:NO/974760673/id"
-ebg_comp_NO_974760673_id : a adms:Identifier
-ebg_comp_NO_974760673_id --> ebg_reg_NO : dct:creator
-ebg_comp_NO_974760673_id : skos:notation "974760673"^^ebg-reg:NO
-class ebg_comp_NO_974760673 as "ebg-comp:NO/974760673"
-ebg_comp_NO_974760673 : a rov:RegisteredOrganization
-class ebg_comp_no_974760673_id as "ebg-comp:no/974760673/id"
-ebg_comp_NO_974760673 --> ebg_comp_no_974760673_id : rov:registration
-ebg_comp_NO_974760673 :  "Company with official NO ID"
-class ebg_comp_UK_2176594 as "ebg-comp:UK/2176594"
-ebg_comp_UK_2176594 : a rov:RegisteredOrganization
-class ebg_comp_UK_2176594_id as "ebg-comp:UK/2176594/id"
-ebg_comp_UK_2176594 --> ebg_comp_UK_2176594_id : rov:registration
-class ebg_comp_UK_2176594_id_OCORP as "ebg-comp:UK/2176594/id/OCORP"
-ebg_comp_UK_2176594 --> ebg_comp_UK_2176594_id_OCORP : adms:identifier
-ebg_comp_UK_2176594 :  "Company with official UK ID"
-class ebg_reg_ATOKA as "ebg-reg:ATOKA"
-ebg_reg_ATOKA : a ebg:Register
-ebg_reg_ATOKA : ebg:urlTemplate "https://atoka.io/en/azienda/-/{}/"
-ebg_reg_ATOKA : schema:name "atoka.io company information"
-ebg_reg_ATOKA : schema:url <http://atoka.io>
-ebg_comp_ATOKA_6da785b3adf2_id_REA : a adms:Identifier
-class ebg_reg_IT_REA_TN as "ebg-reg:IT/REA/TN"
-ebg_comp_ATOKA_6da785b3adf2_id_REA --> ebg_reg_IT_REA_TN : dct:creator
-ebg_comp_ATOKA_6da785b3adf2_id_REA : skos:notation "TN210089"^^ebg-reg:IT/REA/TN
-ebg_comp_UK_2176594_id_OCORP : a adms:Identifier
-class ebg_reg_OCORP as "ebg-reg:OCORP"
-ebg_comp_UK_2176594_id_OCORP --> ebg_reg_OCORP : dct:creator
-ebg_comp_UK_2176594_id_OCORP : skos:notation "gb/07444723"^^ebg-reg:OCORP
-ebg_reg_OCORP : a ebg:Register
-ebg_reg_OCORP : ebg:urlTemplate "https://opencorporates.com/id/companies/{}"
-ebg_reg_OCORP : schema:name "OpenCorporates companies"
-ebg_comp_UK_2176594_id : a adms:Identifier
-ebg_comp_UK_2176594_id --> ebg_reg_UK : dct:creator
-ebg_comp_UK_2176594_id : skos:notation "7444723"^^ebg-reg:UK
-ebg_reg_IT_REA_TN : a ebg:Register
-ebg_reg_IT_REA_TN --> ebg_reg_IT_REA : dct:isPartOf
-ebg_reg_IT_REA_TN : schema:name "Repertorio Economico Amministrativo - TN"@it
-ebg_comp_ATOKA_6da785b3adf2_id : a adms:Identifier
-ebg_comp_ATOKA_6da785b3adf2_id --> ebg_reg_ATOKA : dct:creator
-ebg_comp_ATOKA_6da785b3adf2_id : skos:notation "6da785b3adf2"^^ebg-reg:ATOKA
 @enduml

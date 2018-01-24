@@ -3,25 +3,29 @@ hide empty methods
 hide empty attributes
 hide circle
 skinparam classAttributeIconSize 0
-class ebg_comp_co_id_id as "ebg-comp:(co)/(id)/id"
-ebg_comp_co_id_id : a adms:Identifier
 class ebg_reg_co_ as "ebg-reg:(co)"
-ebg_comp_co_id_id --> ebg_reg_co_ : dct:creator
-ebg_comp_co_id_id : dct:issued "[reg_date]"^^xsd:date
-ebg_comp_co_id_id : skos:notation "[id]"
+ebg_reg_co_ : a ebg:Register
+class ebg_reg_co_id_RAL_RA_code_ as "ebg-reg:(co)/id/RAL/(RA_code)"
+ebg_reg_co_ --> ebg_reg_co_id_RAL_RA_code_ : adms:identifier
+ebg_reg_co_ :  "Official national register"
+ebg_reg_co_ : skos:prefLabel "[register_name]"
+ebg_reg_co_id_RAL_RA_code_ : a adms:Identifier
+ebg_reg_co_id_RAL_RA_code_ : dct:creator ebg-reg:RAL
+ebg_reg_co_id_RAL_RA_code_ : skos:notation "[RA_code]"
 class ebg_comp_co_id_ as "ebg-comp:(co)/(id)"
 ebg_comp_co_id_ : a rov:RegisteredOrganization
-class nace_nace1_ as "nace:(nace1)"
-ebg_comp_co_id_ -up-> nace_nace1_ : rov:orgActivity
-class nace_nace5_ as "nace:(nace5)"
-ebg_comp_co_id_ .up.> nace_nace5_ : rov:orgActivity
 class ebg_comp_co_id_address_n_ as "ebg-comp:(co)/(id)/address/(n)"
 ebg_comp_co_id_ --> ebg_comp_co_id_address_n_ : org:hasSite
-class ebg_comp_co_id_address as "ebg-comp:(co)/(id)/address"
-ebg_comp_co_id_ --> ebg_comp_co_id_address : org:hasRegisteredSite
-ebg_comp_co_id_ --> ebg_comp_co_id_id : rov:registration
+class nace_nace5_ as "nace:(nace5)"
+ebg_comp_co_id_ .up.> nace_nace5_ : rov:orgActivity
 class ebg_comp_co_id_id_provider_ as "ebg-comp:(co)/(id)/id/(provider)"
 ebg_comp_co_id_ --> ebg_comp_co_id_id_provider_ : adms:identifier
+class ebg_comp_co_id_id as "ebg-comp:(co)/(id)/id"
+ebg_comp_co_id_ --> ebg_comp_co_id_id : rov:registration
+class ebg_comp_co_id_address as "ebg-comp:(co)/(id)/address"
+ebg_comp_co_id_ --> ebg_comp_co_id_address : org:hasRegisteredSite
+class nace_nace1_ as "nace:(nace1)"
+ebg_comp_co_id_ -up-> nace_nace1_ : rov:orgActivity
 ebg_comp_co_id_ : dbo:jurisdiction "[co]"
 ebg_comp_co_id_ : ebg:isPubliclyTraded "[is_publicly_traded]"^^xsd:boolean
 ebg_comp_co_id_ : ebg:isStartup "[is_startup]"^^xsd:boolean
@@ -41,21 +45,24 @@ ebg_comp_co_id_ : schema:url <http://website>
 ebg_comp_co_id_ : sioc:feed <http://news_blog_feed>
 ebg_comp_co_id_ : skos:altLabel "[trade_name]"@lang
 ebg_comp_co_id_ : skos:prefLabel "[legal_name]"@lang
-class ebg_reg_provider_ as "ebg-reg:(provider)"
-ebg_reg_provider_ : a ebg:Register
-ebg_reg_provider_ :  "Other identifier issuer"
-ebg_reg_provider_ : dc:identifier "[provider]"
-ebg_reg_provider_ : skos:prefLabel "[provider_name]"
-nace_nace1_ :  "Top-level NACE classification\nMandatory if available"
-nace_nace5_ :  "Detailed NACE classification\n [down to national level]. Optional"
+ebg_comp_co_id_id : a adms:Identifier
+ebg_comp_co_id_id --> ebg_reg_co_ : dct:creator
+ebg_comp_co_id_id : dct:issued "[reg_date]"^^xsd:date
+ebg_comp_co_id_id : skos:notation "[id]"
+class ebg_comp_co_id_address_geo as "ebg-comp:(co)/(id)/address/geo"
+ebg_comp_co_id_address_geo : a schema:GeoCoordinates
+ebg_comp_co_id_address_geo : ebg:geoResolution <resolution/[level]>
+ebg_comp_co_id_address_geo : schema:latitude "[lat]"^^xsd:decimal
+ebg_comp_co_id_address_geo : schema:longitude "[lon]"^^xsd:decimal
 ebg_comp_co_id_id_provider_ : a adms:Identifier
+class ebg_reg_provider_ as "ebg-reg:(provider)"
 ebg_comp_co_id_id_provider_ --> ebg_reg_provider_ : dct:creator
 ebg_comp_co_id_id_provider_ : dct:issued "[reg1_date]"^^xsd:date
 ebg_comp_co_id_id_provider_ : skos:notation "[id1]"
+nace_nace1_ :  "Top-level NACE classification\nMandatory if available"
 ebg_comp_co_id_address : a org:Site, locn:Address
-ebg_comp_co_id_address --> ebg_comp_co_id_address : org:siteAddress
-class ebg_comp_co_id_address_geo as "ebg-comp:(co)/(id)/address/geo"
 ebg_comp_co_id_address --> ebg_comp_co_id_address_geo : schema:geo
+ebg_comp_co_id_address --> ebg_comp_co_id_address : org:siteAddress
 ebg_comp_co_id_address : ebg:adminUnitL3 nuts:[co][macro][reg]
 ebg_comp_co_id_address : ebg:adminUnitL4 nuts:[co][macro][reg][prov]
 ebg_comp_co_id_address : ebg:adminUnitL5 lau:[co]-[lau1]
@@ -69,19 +76,12 @@ ebg_comp_co_id_address : locn:poBox "[postal_office_box]"
 ebg_comp_co_id_address : locn:postCode "[postal_code]"
 ebg_comp_co_id_address : locn:postName "[settlement]"
 ebg_comp_co_id_address : locn:thoroughfare "[street_address]"
-ebg_comp_co_id_address_n_ : a locn:Address, org:Site
+nace_nace5_ :  "Detailed NACE classification\n [down to national level]. Optional"
+ebg_reg_provider_ : a ebg:Register
+ebg_reg_provider_ :  "Other identifier issuer"
+ebg_reg_provider_ : dc:identifier "[provider]"
+ebg_reg_provider_ : skos:prefLabel "[provider_name]"
+ebg_comp_co_id_address_n_ : a org:Site, locn:Address
 ebg_comp_co_id_address_n_ --> ebg_comp_co_id_address_n_ : org:siteAddress
 ebg_comp_co_id_address_n_ :  "Same data as registered site/address"
-ebg_reg_co_ : a ebg:Register
-class ebg_reg_co_id_RAL_RA_code_ as "ebg-reg:(co)/id/RAL/(RA_code)"
-ebg_reg_co_ --> ebg_reg_co_id_RAL_RA_code_ : adms:identifier
-ebg_reg_co_ :  "Official national register"
-ebg_reg_co_ : skos:prefLabel "[register_name]"
-ebg_comp_co_id_address_geo : a schema:GeoCoordinates
-ebg_comp_co_id_address_geo : ebg:geoResolution <resolution/[level]>
-ebg_comp_co_id_address_geo : schema:latitude "[lat]"^^xsd:decimal
-ebg_comp_co_id_address_geo : schema:longitude "[lon]"^^xsd:decimal
-ebg_reg_co_id_RAL_RA_code_ : a adms:Identifier
-ebg_reg_co_id_RAL_RA_code_ : dct:creator ebg-reg:RAL
-ebg_reg_co_id_RAL_RA_code_ : skos:notation "[RA_code]"
 @enduml
