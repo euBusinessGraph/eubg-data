@@ -5,6 +5,10 @@ adms:Identifier a rdfs:Class ;
   rdfs:label "Identifier" ;
   skos:definition "Identifier (skos:notation) of a company by some issuing agency/register (dct:creator)." .
 
+dct:creator a rdfs:Class ;
+  rdfs:label "Issuer" ;
+  skos:definition "Agent that issues identifiers and then keeps them in a database (register)." .
+
 ebg:CompanyDataProperty a rdfs:Class ;
   rdfs:label "Company data property" ;
   rdfs:isDefinedBy ebg: ;
@@ -15,6 +19,14 @@ ebg:DataProperty a rdfs:Class ;
   rdfs:isDefinedBy ebg: ;
   skos:definition "A potential data property which may be provided about a company by a business register." .
 
+ebg:IdentifierSystem a rdfs:Class ;
+  rdfs:label "Identifier system" ;
+  skos:definition "We consider identifiers that share the same specification, characteristics and origin to be organized in an Identifier System." .
+
+ebg:IdentifierWebResource a rdfs:Class ;
+  rdfs:label "Identifier web resource" ;
+  skos:definition "URL template complemented with name, language and MIME type(s) to specify what the URL is about. Substitute the identifier value into the template." .
+
 ebg:LAURegion a rdfs:Class .
 
 ebg:Register a rdfs:Class ;
@@ -24,6 +36,14 @@ ebg:Register a rdfs:Class ;
   skos:scopeNote "Since registers are also Registered Organizations, we can use the same URLs and can/should record similar descriptive information, eg label, website, identifiers, etc." ;
   rdfs:label "Register" ;
   skos:definition "A business or other company register, and the associated agency." .
+
+ebg:WebResource a rdfs:Class ;
+  rdfs:label "Web resource" ;
+  skos:definition "URL complemented with name, language and MIME type(s) to specify what the URL is about." .
+
+ebg:validationRule a rdfs:Class ;
+  rdfs:label "Validation rules" ;
+  skos:definition "URL providing human or machine-readable rule(s) for validating identifiers in the system." .
 
 locn:Address a rdfs:Class ;
   skos:label "Address" ;
@@ -48,6 +68,14 @@ schema:GeoCoordinates a rdfs:Class ;
   rdfs:label "Geographic coordinates" ;
   skos:definition "Geographic coordinates, eg of a geo-located address." .
 
+schema:author a rdfs:Class ;
+  rdfs:label "Author" ;
+  skos:definition "Agent who specified the rules and organization of the system." .
+
+schema:publisher a rdfs:Class ;
+  rdfs:label "Publisher" ;
+  skos:definition "Any agent that publishes the identifier database (register) in some form (e.g. paper, CD, online)." .
+
 
 #### Generated Properties
 
@@ -58,12 +86,24 @@ dct:creator a owl:ObjectProperty ;
   skos:definition "Agency that issued the identifier, and register that holds it." ;
   skos:scopeNote "Scope note: In many countries there is a single registry although in others, such as Spain and Germany, multiple registries exist. [rov:]" .
 
+schema:Organization a owl:ObjectProperty ;
+  schema:domainIncludes adms:Identifier ;
+  schema:rangeIncludes dct:creator .
+
+schema:expires a owl:DatatypeProperty ;
+  schema:domainIncludes adms:Identifier ;
+  schema:rangeIncludes xsd:date .
+
 skos:notation a owl:DatatypeProperty ;
   schema:domainIncludes adms:Identifier ;
-  schema:rangeIncludes rdfs:Literal ;
+  schema:rangeIncludes xsd:string ;
   rdfs:label "Identifier value" ;
   skos:definition "Literal value of the identifier." ;
   skos:scopeNote "Should not include leading, trailing and consecutive spaces, to facilitate exact match." .
+
+schema:name a owl:DatatypeProperty ;
+  schema:domainIncludes dct:creator ;
+  schema:rangeIncludes xsd:string .
 
 ebg:dataProperty a owl:ObjectProperty ;
   schema:domainIncludes ebg:CompanyDataProperty ;
@@ -72,12 +112,34 @@ ebg:dataProperty a owl:ObjectProperty ;
   rdfs:isDefinedBy ebg: ;
   skos:definition "The name of the data property which is provided by a compny data provider." .
 
+ebg:propertyDescription a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:DataProperty ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "Data property description" ;
+  rdfs:isDefinedBy ebg: ;
+  skos:definition "The description of the data property (about a company) which is provided by a business register." .
+
+ebg:propertyName a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:DataProperty ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "Data property name" ;
+  rdfs:isDefinedBy ebg: ;
+  skos:definition "The name of the data property (about a company) which is provided by a business register." .
+
 dct:issued a owl:DatatypeProperty ;
   schema:domainIncludes adms:Identifier ;
   schema:rangeIncludes xsd:date ;
   rdfs:label "Issued on" ;
   skos:definition "When was the identifier issued." ;
   skos:scopeNote "This may or may not be the same as the Incorporation Date. Even for the official registration, the two dates may differ, depending on business rules." .
+
+dct:issued a owl:DatatypeProperty ;
+  schema:domainIncludes adms:Identifier ;
+  schema:rangeIncludes xsd:date .
+
+ebg:identifierSystem a owl:ObjectProperty ;
+  schema:domainIncludes adms:Identifier ;
+  schema:rangeIncludes ebg:IdentifierSystem .
 
 ebg:about a owl:ObjectProperty ;
   schema:domainIncludes ebg:CompanyDataProperty ;
@@ -93,42 +155,112 @@ ebg:license a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
   skos:definition "The license under which the data property is provided by the company data provider." .
 
-ebg:propertyDescription a owl:ObjectProperty ;
-  schema:domainIncludes ebg:DataProperty ;
-  rdfs:label "Data property description" ;
-  rdfs:isDefinedBy ebg: ;
-  skos:definition "The description of the data property (about a company) which is provided by a business register." .
+dbo:jurisdiction a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:string .
 
-ebg:propertyName a owl:ObjectProperty ;
-  schema:domainIncludes ebg:DataProperty ;
-  rdfs:label "Data property name" ;
-  rdfs:isDefinedBy ebg: ;
-  skos:definition "The name of the data property (about a company) which is provided by a business register." .
+ebg:identifierWebResource a owl:ObjectProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes ebg:IdentifierWebResource .
+
+ebg:replacementPattern a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:string .
+
+ebg:validationRegex a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:string .
+
+ebg:validationRule a owl:ObjectProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes ebg:validationRule .
+
+ebg:webResource a owl:ObjectProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes ebg:WebResource .
+
+schema:Organization a owl:ObjectProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes schema:author .
+
+schema:Organization a owl:ObjectProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes dct:creator .
+
+schema:license a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:string .
+
+schema:name a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:string .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+xsd:boolean a owl:DatatypeProperty;
+  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:rangeIncludes xsd:boolean .
+
+dc:format a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierWebResource ;
+  schema:rangeIncludes xsd:string .
+
+schema:inLanguage a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierWebResource ;
+  schema:rangeIncludes xsd:string .
+
+schema:name a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:IdentifierWebResource ;
+  schema:rangeIncludes xsd:string .
 
 dc:identifier a owl:DatatypeProperty ;
   schema:domainIncludes ebg:Register ;
-  schema:rangeIncludes rdfs:Literal ;
+  schema:rangeIncludes xsd:string ;
   rdfs:label "Register identifier" ;
   skos:definition "Short code identifying the register. Used as the last URL part for identifiers issued by this register." ;
   skos:scopeNote "For official registers, we use the jurisdiction code (e.g. 'BG', 'GB'). For others, we use a short mnemonic code: upper-case for company registers (e.g. 'OCORP', 'SDATI', 'RAL', 'EU', 'BRIS'), mixed-case for social network registers (eg 'Twitter', 'Facebook')." .
 
-ebg:companyDataProperties a owl:ObjectProperty ;
-  schema:domainIncludes ebg:Register ;
-  schema:rangeIncludes ebg:CompanyDataProperty ;
-  rdfs:label "Provided company data property" ;
-  rdfs:isDefinedBy ebg: ;
-  skos:definition "All company data properties about specific companies that are provided by a business register." .
-
-ebg:dataProperties a owl:ObjectProperty ;
-  schema:domainIncludes ebg:Register ;
-  schema:rangeIncludes ebg:DataProperty ;
-  rdfs:label "Provided data properties" ;
-  rdfs:isDefinedBy ebg: ;
-  skos:definition "All potential company data properties about companies that are provided by a business register." .
-
 skos:prefLabel a owl:DatatypeProperty ;
   schema:domainIncludes ebg:Register ;
-  schema:rangeIncludes rdfs:Literal .
+  schema:rangeIncludes xsd:string .
+
+dc:format a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:WebResource ;
+  schema:rangeIncludes xsd:string .
+
+schema:inLanguage a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:WebResource ;
+  schema:rangeIncludes xsd:string .
+
+schema:name a owl:DatatypeProperty ;
+  schema:domainIncludes ebg:WebResource ;
+  schema:rangeIncludes xsd:string .
 
 ebg:adminUnitL3 a owl:ObjectProperty ;
   schema:domainIncludes locn:Address ;
@@ -165,7 +297,7 @@ ebg:adminUnitL6 a owl:ObjectProperty ;
 
 locn:addressArea a owl:DatatypeProperty ;
   schema:domainIncludes locn:Address ;
-  schema:rangeIncludes rdfs:Literal ;
+  schema:rangeIncludes xsd:string ;
   rdfs:label "Neighbourhood/Quarter" ;
   skos:definition "Part of a city, village or neighborhood." ;
   skos:scopeNote "Not likely to appear, but we have Coordinate resolution corresponding to this field." .
@@ -194,7 +326,7 @@ locn:fullAddress a owl:DatatypeProperty ;
 
 locn:locatorDesignator a owl:DatatypeProperty ;
   schema:domainIncludes locn:Address ;
-  schema:rangeIncludes rdfs:Literal ;
+  schema:rangeIncludes xsd:string ;
   skos:scopeNote "Not likely to appear separately, but we have Coordinate resolution corresponding to this field." ;
   rdfs:label "Street number" ;
   skos:definition "Street number and/or building name." ;
@@ -203,7 +335,7 @@ locn:locatorDesignator a owl:DatatypeProperty ;
 
 locn:poBox a owl:DatatypeProperty ;
   schema:domainIncludes locn:Address ;
-  schema:rangeIncludes rdfs:Literal ;
+  schema:rangeIncludes xsd:string ;
   rdfs:label "Postal office box" ;
   skos:definition "Some addresses are associated with a PO box instead of a street address." .
 
@@ -237,6 +369,14 @@ schema:geo a owl:ObjectProperty ;
   schema:rangeIncludes schema:GeoCoordinates ;
   rdfs:label "Geographic coordinates" ;
   skos:definition "Geographic coordinates, eg of a geo-located address." .
+
+adms:Identifier a owl:ObjectProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes adms:Identifier .
+
+adms:Identifier a owl:ObjectProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes adms:Identifier .
 
 adms:identifier a owl:ObjectProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -277,6 +417,10 @@ ebg:isStateOwned a owl:DatatypeProperty;
   skos:example "False for Spaziodati (a private company)." ;
   skos:example "True Autonomous Province of Trento (local government)." ;
   skos:example "True for the Norwegian company Statkraft (Norwegian state-owned company)." .
+
+ebg:orgStatusText a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:langString .
 
 ebg:orgStatusText a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -383,7 +527,7 @@ schema:dissolutionDate a owl:DatatypeProperty ;
 
 schema:email a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes rdfs:Literal ;
+  schema:rangeIncludes xsd:string ;
   skos:scopeNote "EBG does not record other company emails, so there is no need to distinguish between different kinds. The value should be a mailto: URL." ;
   rdfs:label "Certified email" ;
   skos:defintion "Email that is officially registered and with the same validity as certified (snail) mail." ;
@@ -412,8 +556,9 @@ schema:url a owl:DatatypeProperty ;
   skos:definition "Website pertaining to the company" ;
   skos:example <http://www.comune.trento.it> .
 
-sioc:feed a owl:ObjectProperty ;
+sioc:feed a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
   rdfs:label "News/blog feed" ;
   skos:definition "URL of RSS/Atom feed pertaining to the company." .
 
@@ -458,3 +603,15 @@ schema:longitude a owl:DatatypeProperty ;
   rdfs:label "Longitude" ;
   skos:scopeNote "Coordinates must be expressed in the WGS 84 system." ;
   skos:scopeNote "If you don't have coordinates, do not make a schema:GeoCoordinates node." .
+
+schema:name a owl:DatatypeProperty ;
+  schema:domainIncludes schema:author ;
+  schema:rangeIncludes xsd:string .
+
+schema:Organization a owl:ObjectProperty ;
+  schema:domainIncludes schema:publisher ;
+  schema:rangeIncludes ebg:IdentifierSystem .
+
+schema:name a owl:DatatypeProperty ;
+  schema:domainIncludes schema:publisher ;
+  schema:rangeIncludes xsd:string .
