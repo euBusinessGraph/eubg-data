@@ -3,29 +3,20 @@ hide empty methods
 hide empty attributes
 hide circle
 skinparam classAttributeIconSize 0
-class ebg_reg_co_ as "ebg-reg:(co)"
-ebg_reg_co_ : a ebg:Register
-class ebg_reg_co_id_RAL_RA_code_ as "ebg-reg:(co)/id/RAL/(RA_code)"
-ebg_reg_co_ --> ebg_reg_co_id_RAL_RA_code_ : adms:identifier
-ebg_reg_co_ :  "Official national register"
-ebg_reg_co_ : skos:prefLabel "[register_name]"
-ebg_reg_co_id_RAL_RA_code_ : a adms:Identifier
-ebg_reg_co_id_RAL_RA_code_ : dct:creator ebg-reg:RAL
-ebg_reg_co_id_RAL_RA_code_ : skos:notation "[RA_code]"
 class ebg_comp_co_id_ as "ebg-comp:(co)/(id)"
 ebg_comp_co_id_ : a rov:RegisteredOrganization
-class ebg_comp_co_id_address_n_ as "ebg-comp:(co)/(id)/address/(n)"
-ebg_comp_co_id_ --> ebg_comp_co_id_address_n_ : org:hasSite
-class nace_nace5_ as "nace:(nace5)"
-ebg_comp_co_id_ .up.> nace_nace5_ : rov:orgActivity
-class ebg_comp_co_id_id_provider_ as "ebg-comp:(co)/(id)/id/(provider)"
-ebg_comp_co_id_ --> ebg_comp_co_id_id_provider_ : adms:identifier
-class ebg_comp_co_id_id as "ebg-comp:(co)/(id)/id"
-ebg_comp_co_id_ --> ebg_comp_co_id_id : rov:registration
 class ebg_comp_co_id_address as "ebg-comp:(co)/(id)/address"
 ebg_comp_co_id_ --> ebg_comp_co_id_address : org:hasRegisteredSite
 class nace_nace1_ as "nace:(nace1)"
 ebg_comp_co_id_ -up-> nace_nace1_ : rov:orgActivity
+class ebg_comp_co_id_id as "ebg-comp:(co)/(id)/id"
+ebg_comp_co_id_ --> ebg_comp_co_id_id : rov:registration
+class ebg_comp_co_id_id_provider_ as "ebg-comp:(co)/(id)/id/(provider)"
+ebg_comp_co_id_ --> ebg_comp_co_id_id_provider_ : adms:identifier
+class ebg_comp_co_id_address_n_ as "ebg-comp:(co)/(id)/address/(n)"
+ebg_comp_co_id_ --> ebg_comp_co_id_address_n_ : org:hasSite
+class nace_nace5_ as "nace:(nace5)"
+ebg_comp_co_id_ .up.> nace_nace5_ : rov:orgActivity
 ebg_comp_co_id_ : dbo:jurisdiction "[co]"
 ebg_comp_co_id_ : ebg:isPubliclyTraded "[is_publicly_traded]"^^xsd:boolean
 ebg_comp_co_id_ : ebg:isStartup "[is_startup]"^^xsd:boolean
@@ -45,21 +36,62 @@ ebg_comp_co_id_ : schema:url <http://website>
 ebg_comp_co_id_ : sioc:feed <http://news_blog_feed>
 ebg_comp_co_id_ : skos:altLabel "[trade_name]"@lang
 ebg_comp_co_id_ : skos:prefLabel "[legal_name]"@lang
+class _identifier_co_resource_2_ as "<identifier/(co)/resource/2>"
+_identifier_co_resource_2_ : a ebg:WebResource
+_identifier_co_resource_2_ : dc:format "[MIME_type2]"
+_identifier_co_resource_2_ : schema:inLanguage "[resouce2_lang]"
+_identifier_co_resource_2_ : schema:name "[resource2_name]"
+_identifier_co_resource_2_ : schema:url <http://[per_company_url_$1]>
+nace_nace5_ :  "Detailed NACE classification\n [down to national level]. Optional"
+class _identifier_provider_issuer_ as "<identifier/(provider)/issuer>"
+_identifier_provider_issuer_ : a schema:Organization
+_identifier_provider_issuer_ : schema:name "[provider_name]"
+class _identifier_provider_resource_2_ as "<identifier/(provider)/resource/2>"
+_identifier_provider_resource_2_ : a ebg:WebResource
+_identifier_provider_resource_2_ : dc:format "[MIME_type2]"
+_identifier_provider_resource_2_ : schema:inLanguage "[resouce2_lang]"
+_identifier_provider_resource_2_ : schema:name "[resource2_name]"
+_identifier_provider_resource_2_ : schema:url <http://[per_company_url2_$1]>
 ebg_comp_co_id_id : a adms:Identifier
-ebg_comp_co_id_id --> ebg_reg_co_ : dct:creator
+class _identifier_co_issuer_ as "<identifier/(co)/issuer>"
+ebg_comp_co_id_id --> _identifier_co_issuer_ : dct:creator
+class _identifier_co_ as "<identifier/(co)>"
+ebg_comp_co_id_id --> _identifier_co_ : dct:isPartOf
 ebg_comp_co_id_id : dct:issued "[reg_date]"^^xsd:date
+ebg_comp_co_id_id : schema:expires "[exp_date]"^^xsd:date
 ebg_comp_co_id_id : skos:notation "[id]"
+_identifier_co_ : a ebg:IdentifierSystem
+class _identifier_co_resource_1_ as "<identifier/(co)/resource/1>"
+_identifier_co_ --> _identifier_co_resource_1_ : ebg:webResource
+_identifier_co_ --> _identifier_co_resource_2_ : ebg:identifierWebResource
+_identifier_co_ --> _identifier_co_issuer_ : dct:creator
+_identifier_co_ : dbo:jurisdiction "[co]"
+_identifier_co_ : ebg:isEnumerated true
+_identifier_co_ : ebg:isImmutable true
+_identifier_co_ : ebg:isOfficial true
+_identifier_co_ : ebg:isPersistent true
+_identifier_co_ : ebg:isPublic true
+_identifier_co_ : ebg:isSingleValued true
+_identifier_co_ : ebg:isUnique true
+_identifier_co_ : ebg:ralCode "[RA_code]"
+_identifier_co_ : ebg:replacementPattern "[ebg:replacementPattern]"
+_identifier_co_ : ebg:validationRegex "[validation_regex]"
+_identifier_co_ : ebg:validationRule <http://[validation_rule]>
+_identifier_co_ : schema:license <https://creativecommons.org/[license]>
+_identifier_co_ : schema:name "Official [co] register"
+_identifier_co_ : schema:url <http://[register_homepage]>
+_identifier_co_ : skos:notation "[co]"
 class ebg_comp_co_id_address_geo as "ebg-comp:(co)/(id)/address/geo"
 ebg_comp_co_id_address_geo : a schema:GeoCoordinates
 ebg_comp_co_id_address_geo : ebg:geoResolution <resolution/[level]>
 ebg_comp_co_id_address_geo : schema:latitude "[lat]"^^xsd:decimal
 ebg_comp_co_id_address_geo : schema:longitude "[lon]"^^xsd:decimal
-ebg_comp_co_id_id_provider_ : a adms:Identifier
-class ebg_reg_provider_ as "ebg-reg:(provider)"
-ebg_comp_co_id_id_provider_ --> ebg_reg_provider_ : dct:creator
-ebg_comp_co_id_id_provider_ : dct:issued "[reg1_date]"^^xsd:date
-ebg_comp_co_id_id_provider_ : skos:notation "[id1]"
-nace_nace1_ :  "Top-level NACE classification\nMandatory if available"
+class _identifier_provider_resource_1_ as "<identifier/(provider)/resource/1>"
+_identifier_provider_resource_1_ : a ebg:WebResource
+_identifier_provider_resource_1_ : dc:format "[MIME_type]"
+_identifier_provider_resource_1_ : schema:inLanguage "[resouce_lang]"
+_identifier_provider_resource_1_ : schema:name "[resource_name]"
+_identifier_provider_resource_1_ : schema:url <http://[resource2_url]>
 ebg_comp_co_id_address : a org:Site, locn:Address
 ebg_comp_co_id_address --> ebg_comp_co_id_address_geo : schema:geo
 ebg_comp_co_id_address --> ebg_comp_co_id_address : org:siteAddress
@@ -76,12 +108,40 @@ ebg_comp_co_id_address : locn:poBox "[postal_office_box]"
 ebg_comp_co_id_address : locn:postCode "[postal_code]"
 ebg_comp_co_id_address : locn:postName "[settlement]"
 ebg_comp_co_id_address : locn:thoroughfare "[street_address]"
-nace_nace5_ :  "Detailed NACE classification\n [down to national level]. Optional"
-ebg_reg_provider_ : a ebg:Register
-ebg_reg_provider_ :  "Other identifier issuer"
-ebg_reg_provider_ : dc:identifier "[provider]"
-ebg_reg_provider_ : skos:prefLabel "[provider_name]"
+ebg_comp_co_id_id_provider_ : a adms:Identifier
+class _identifier_provider_ as "<identifier/(provider)>"
+ebg_comp_co_id_id_provider_ --> _identifier_provider_ : dct:isPartOf
+ebg_comp_co_id_id_provider_ --> _identifier_provider_issuer_ : dct:creator
+ebg_comp_co_id_id_provider_ : dct:issued "[reg1_date]"^^xsd:date
+ebg_comp_co_id_id_provider_ : schema:expires "[exp1_date]"^^xsd:date
+ebg_comp_co_id_id_provider_ : skos:notation "[id1]"
+_identifier_provider_ : a ebg:IdentifierSystem
+_identifier_provider_ --> _identifier_provider_issuer_ : dct:creator
+_identifier_provider_ --> _identifier_provider_resource_2_ : ebg:identifierWebResource
+_identifier_provider_ --> _identifier_provider_resource_1_ : ebg:webResource
+_identifier_provider_ : ebg:isEnumerated true
+_identifier_provider_ : ebg:isImmutable true
+_identifier_provider_ : ebg:isOfficial false
+_identifier_provider_ : ebg:isPersistent true
+_identifier_provider_ : ebg:isPublic true
+_identifier_provider_ : ebg:isSingleValued true
+_identifier_provider_ : ebg:isUnique true
+_identifier_provider_ : ebg:replacementPattern "[ebg:replacementPattern2]"
+_identifier_provider_ : ebg:validationRegex "[validation_regex2]"
+_identifier_provider_ : ebg:validationRule <http://[validation_rule2]>
+_identifier_provider_ : schema:license <https://creativecommons.org/[license2]>
+_identifier_provider_ : schema:name "[provider] register"
+_identifier_provider_ : schema:url <http://[register2_homepage]>
+_identifier_provider_ : skos:notation "[provider]"
+_identifier_co_issuer_ : a schema:Organization
+_identifier_co_issuer_ : schema:name "[co] Registry Agency"
+nace_nace1_ :  "Top-level NACE classification\nMandatory if available"
 ebg_comp_co_id_address_n_ : a org:Site, locn:Address
 ebg_comp_co_id_address_n_ --> ebg_comp_co_id_address_n_ : org:siteAddress
 ebg_comp_co_id_address_n_ :  "Same data as registered site/address"
+_identifier_co_resource_1_ : a ebg:WebResource
+_identifier_co_resource_1_ : dc:format "[MIME_type]"
+_identifier_co_resource_1_ : schema:inLanguage "[resouce_lang]"
+_identifier_co_resource_1_ : schema:name "[resource_name]"
+_identifier_co_resource_1_ : schema:url <http://[resource_url]>
 @enduml

@@ -43,13 +43,17 @@
 
 <company/(co)/(id)/id> a adms:Identifier;
   skos:notation "(id)";
-  dct:creator <register/(co)>;
-  dct:issued "(reg_date)"^^xsd:date.
+  dct:isPartOf <identifier/(co)>;
+  dct:creator <identifier/(co)/issuer>;
+  dct:issued "(reg_date)"^^xsd:date;
+  schema:expires "(exp_date)"^^xsd:date.
 
 <company/(co)/(id)/id/(provider)> a adms:Identifier;
   skos:notation "(id1)";
-  dct:creator <register/(provider)>;
-  dct:issued "(reg1_date)"^^xsd:date.
+  dct:isPartOf <identifier/(provider)>;
+  dct:creator <identifier/(provider)/issuer>;
+  dct:issued "(reg1_date)"^^xsd:date;
+  schema:expires "(exp1_date)"^^xsd:date.
 
 <company/(co)/(id)/address/geo> a schema:GeoCoordinates;
   schema:latitude "(lat)"^^xsd:decimal;
@@ -66,31 +70,97 @@
 <nace/(nace5)>
   puml:label "Detailed NACE classification\n (down to national level). Optional".
 
-<register/(co)> a ebg:Register;
-  skos:prefLabel "(register_name)";
-  puml:label "Official national register";
-  adms:identifier <register/(co)/id/RAL/(RA_code)>.
+<identifier/(co)> a ebg:IdentifierSystem;
+  dct:creator <identifier/(co)/issuer>;
+  skos:notation "(co)";
+  dbo:jurisdiction "(co)";
+  schema:name "Official (co) register";
+  ebg:ralCode "(RA_code)";
+  schema:url <http://(register_homepage)>;
+  schema:license <https://creativecommons.org/(license)>;
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;
+  ebg:validationRule <http://(validation_rule)>;
+  ebg:validationRegex "(validation_regex)";
+  ebg:replacementPattern "(ebg:replacementPattern)";
+  ebg:webResource <identifier/(co)/resource/1>;
+  ebg:identifierWebResource <identifier/(co)/resource/2>.
+  
+<identifier/(co)/resource/1> a ebg:WebResource;
+  schema:name "(resource_name)";
+  dc:format "(MIME_type)";
+  schema:inLanguage "(resouce_lang)";
+  schema:url <http://(resource_url)>.
 
-<register/(provider)> a ebg:Register;
-  dc:identifier "(provider)";
-  skos:prefLabel "(provider_name)";
-  puml:label "Other identifier issuer".
+<identifier/(co)/resource/2> a ebg:WebResource;
+  schema:name "(resource2_name)";
+  dc:format "(MIME_type2)";
+  schema:inLanguage "(resouce2_lang)";
+  schema:url <http://(per_company_url_$1)>.
 
-<register/(co)/id/RAL/(RA_code)> a adms:Identifier;
-  skos:notation "(RA_code)";
-  dct:creator <register/RAL>.
+<identifier/(co)/issuer> a schema:Organization;
+  schema:name "(co) Registry Agency".
+
+<identifier/(provider)> a ebg:IdentifierSystem;
+  dct:creator <identifier/(provider)/issuer>;
+  skos:notation "(provider)";
+  schema:name "(provider) register";
+  schema:url <http://(register2_homepage)>;
+  schema:license <https://creativecommons.org/(license2)>;
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false;
+  ebg:validationRule <http://(validation_rule2)>;
+  ebg:validationRegex "(validation_regex2)";
+  ebg:replacementPattern "(ebg:replacementPattern2)";
+  ebg:webResource <identifier/(provider)/resource/1>;
+  ebg:identifierWebResource <identifier/(provider)/resource/2>.
+  
+<identifier/(provider)/resource/1> a ebg:WebResource;
+  schema:name "(resource_name)";
+  dc:format "(MIME_type)";
+  schema:inLanguage "(resouce_lang)";
+  schema:url <http://(resource2_url)>.
+
+<identifier/(provider)/resource/2> a ebg:WebResource;
+  schema:name "(resource2_name)";
+  dc:format "(MIME_type2)";
+  schema:inLanguage "(resouce2_lang)";
+  schema:url <http://(per_company_url2_$1)>.
+
+<identifier/(provider)/issuer> a schema:Organization;
+  schema:name "(provider_name)".
 
 ####################
 <company/(co)/(id)> puml:dashed-up <nace/(nace5)>.
 rov:orgActivity puml:arrow puml:up.
 
+<http://(per_company_url2_$1)>                        a puml:Inline.
+<http://(per_company_url_$1)>                         a puml:Inline.
+<http://(register2_homepage)>                         a puml:Inline.
+<http://(register_homepage)>                          a puml:Inline.
+<http://(resource2_url)>                              a puml:Inline.
+<http://(resource_url)>                               a puml:Inline.
+<http://(validation_rule)>                            a puml:Inline.
+<http://(validation_rule2)>                           a puml:Inline.
 <http://news_blog_feed>                               a puml:Inline.
 <http://nuts.geovocab.org/id/(co)(macro)(reg)(prov)>  a puml:Inline.
 <http://nuts.geovocab.org/id/(co)(macro)(reg)>        a puml:Inline.
 <http://nuts.geovocab.org/id/(co)(macro)>             a puml:Inline.
 <http://nuts.geovocab.org/id/(co)>                    a puml:Inline.
-<http://wikipedia>                                    a puml:Inline.
 <http://website>                                      a puml:Inline.
+<http://wikipedia>                                    a puml:Inline.
+<https://creativecommons.org/(license)>               a puml:Inline.
+<https://creativecommons.org/(license2)>              a puml:Inline.
 <lau/(co)-(lau1)>                                     a puml:Inline.
 <lau/(co)-(lau2)>                                     a puml:Inline.
 <mailto:certified_email>                              a puml:Inline.
