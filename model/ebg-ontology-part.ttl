@@ -3,14 +3,15 @@
 ebg: a owl:Ontology;
   dct:title "euBusinessGraph ontology";
   dct:created "2017-07-11"^^xsd:date;
-  dct:modified "2017-08-07"^^xsd:date;
-  vann:preferredNamespaceUri "http://data.businessgraph.eu/ontology#";
+  dct:modified "2018-02-21"^^xsd:date;
+  vann:preferredNamespaceUri "http://data.businessgraph.io/ontology#";
   vann:preferredNamespacePrefix "ebg";
   foaf:homepage <http://businessgraph.io>;
   dct:type <http://purl.org/adms/assettype/Ontology>;
   dct:status <http://purl.org/adms/status/UnderDevelopment>;
-  dct:creator <http://businessgraph.io>;
-  dct:publisher <http://businessgraph.io>.
+  dct:creator <http://businessgraph.io>, <http://ontotext.com>, <mailto:vladimir.alexiev@ontotext.com>;
+  dct:publisher <http://businessgraph.io>;
+  rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>.
 
 
 #### Concept Schemes
@@ -20,7 +21,7 @@ nace: a skos:ConceptScheme;
   rdfs:label "NACE 2 classification";
   rdfs:comment "Statistical Classification of Economic Activities in the European Community, Rev. 2 (2008)";
   dct:source <http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2&StrLanguageCode=EN&StrLayoutCode=HIERARCHIC#>;
-  dct:creator <mailto:vladimir.alexiev@ontotext.com>, <http://ontotext.com>, <http://businessgraph.io>;
+  dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>;
   dct:created "2017-07-28"^^xsd:date;
   dct:issued  "2017-07-28"^^xsd:date.
@@ -29,7 +30,11 @@ lau: a void:Dataset;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "LAU Regions";
   rdfs:comment "Local Administrative Units";
-  dct:source <http://ec.europa.eu/eurostat/web/nuts/local-administrative-units>.
+  dct:source <http://ec.europa.eu/eurostat/web/nuts/local-administrative-units>;
+  dct:creator <http://businessgraph.io>;
+  dct:publisher <http://businessgraph.io>;
+  dct:created "2017-07-28"^^xsd:date;
+  dct:issued  "2017-07-28"^^xsd:date.
 
 <type/> a skos:ConceptScheme;
   rdfs:isDefinedBy ebg: ;
