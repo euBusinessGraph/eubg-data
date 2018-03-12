@@ -1,0 +1,83 @@
+swagger: '2.0'
+info:
+  description: >-
+    Relation extraction API developed by JSI.
+  version: 1.0.0
+  title: JSI-relex
+  contact:
+    email: miha.jenko@ijs.si
+host: relex.ijs.si
+basePath: /
+schemes:
+  - http
+paths:
+  /extractRelations:
+    post:
+      summary: Extract relations from a given text
+      description: 'Extract relations from a given text.'
+      operationId: extractRelations
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Text and expected relation info
+          required: true
+          schema:
+            type: object
+      responses:
+        '200':
+          description: successful operation
+  /getEntityLabelInfo:
+    get:
+      summary: Get data attributed to an entity label
+      description: Can return multiple Entity instances, because Entities can have the same entity label
+      operationId: getEntityLabelInfo
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Entity info
+          required: true
+          schema:
+            type: object
+      responses:
+        '200':
+          description: successful operation
+  /getEntityNews:
+    get:
+      summary: Search EventRegistry news by Entity URI
+      description: Search EventRegistry news by Entity URI
+      operationId: getEntityNews
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Entity info
+          required: true
+          schema:
+            type: object
+      responses:
+        '200':
+          description: successful operation
+  /getEntityRelations:
+    get:
+      summary: Get relation instances including this Entity URI
+      description: Get relation instances including this Entity URI
+      operationId: getEntityRelations
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Entity info
+          required: true
+          schema:
+            type: object
+      responses:
+        '200':
+          description: successful operation

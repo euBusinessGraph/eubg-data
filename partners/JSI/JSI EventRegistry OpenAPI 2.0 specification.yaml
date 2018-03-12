@@ -1,0 +1,47 @@
+swagger: '2.0'
+info:
+  description: >-
+    Relation extraction API developed by JSI.
+  version: 1.0.0
+  title: JSI EventRegistry
+  contact:
+    email: gregor.leban@ijs.si
+host: analytics.eventregistry.org
+basePath: /api/v1
+schemes:
+  - http
+paths:
+  /categorize:
+    post:
+      summary: Categorize text by taxonomy
+      description: 'Categorize text by a categorization taxonomy: 1. DMOZ taxonomy; 2. News taxonomy (Business, Politics, Technology, Arts and Entertainment, Sports, Health, Science, Environment).'
+      operationId: categorize
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Annotation parameters
+          required: true
+          schema:
+            $ref: '#/definitions/ERCategorizationInput'
+      responses:
+        '200':
+          description: successful operation
+definitions:
+  ERCategorizationInput:
+    type: object
+    properties:
+      text:
+        type: string
+      taxonomy:
+        type: string
+        enum: [
+          "mediaTopics",
+          "eventTypes"
+        ]
+externalDocs:
+  description: More EventRegistry Event Types details
+  url: 'http://eventregistry.org/documentation?tab=categorize'
