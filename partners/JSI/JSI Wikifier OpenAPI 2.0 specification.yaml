@@ -1,0 +1,69 @@
+swagger: '2.0'
+info:
+  description: >-
+    Wikifier API developed by JSI.
+  version: 1.0.0
+  title: JSI Wikifier
+  contact:
+    email: janez.brank@ijs.si
+host: www.wikifier.org
+basePath: /
+schemes:
+  - http
+paths:
+  /annotate-article:
+    post:
+      summary: Wikify and annotate a given text
+      description: 'Wikify and annotate a given text.'
+      operationId: annotate-article
+      consumes:
+        - application/x-www-form-urlencoded
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Annotation parameters
+          required: true
+          schema:
+            $ref: '#/definitions/WikifierInput'
+      responses:
+        '200':
+          description: successful operation
+definitions:
+  WikifierInput:
+    type: object
+    properties:
+      userKey:
+        type: string
+      text:
+        type: string
+      lang:
+        type: string
+      extraVocabularies:
+        type: string
+        default: 'angellist,australia,canada,jobsadzuna,panamapapers,slovenia,uk,usa'
+        pattern: '^(angellist|australia|canada|jobsadzuna|panamapapers|slovenia|uk|usa)(,(angellist|australia|canada|jobsadzuna|panamapapers|slovenia|uk|usa))*$'
+      wikiDataClasses:
+        type: string
+      wikiDataClassIds:
+        type: string
+      support:
+        type: string
+      ranges:
+        type: string
+      includeCosines:
+        type: string
+      maxMentionEntropy:
+        type: string
+      maxTargetsPerMention:
+        type: string
+      pageRankSqThreshold:
+        type: string
+      partsOfSpeech:
+        type: string
+      verbs:
+        type: string
+externalDocs:
+  description: More Wikifier details
+  url: 'http://wikifier.org/info.html'
