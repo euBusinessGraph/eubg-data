@@ -16,8 +16,10 @@ dct:creator                <identifier/(co)/issuer>
 IDENTIFIER SYSTEM
 ebg:IdentifierSystem       <identifier/(co)> or <identifier/(provider)>
 dct:creator                <identifier/(co)/issuer>
-ebg:webResource            <identifier/(co)/resource/(n)>
+ebg:webResource            <identifier/(co)/resource/(m)>
+schema:url                 <http://(resource(m)>
 ebg:identifierWebResource  <identifier/(co)/resource/(n)>
+schema:url                 <http://(per_company_url(n)_$1)>
 
 ADDRESS                    
 locn:Address               <company/(co)/(id)/address> or <.../(n)>
