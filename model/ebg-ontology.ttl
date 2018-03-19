@@ -11,6 +11,7 @@
 @prefix dbo:     <http://dbpedia.org/ontology/>.
 @prefix dc:      <http://purl.org/dc/elements/1.1/>.
 @prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
 @prefix locn:    <http://www.w3.org/ns/locn#>.
 @prefix ngeo:    <http://geovocab.org/geometry#> .
 @prefix nuts:    <http://nuts.geovocab.org/id/>.
@@ -35,7 +36,6 @@
 # @prefix fibo-be-le-lp:     <http://www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LegalPersons/> .
 # @prefix fibo-fbc-fct-breg: <http://www.omg.org/spec/EDMC-FIBO/FBC/FunctionalEntities/BusinessRegistries/> .
 # @prefix fibo-fnd-law-jur:  <http://www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/> .
-# @prefix foaf:              <http://xmlns.com/foaf/0.1/> .
 # @prefix gr:                <http://purl.org/goodrelations/v1#> .
 # @prefix lcc-cr:            <http://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
 # @prefix loted:             <http://www.loted.eu/ontology#> .

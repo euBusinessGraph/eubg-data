@@ -31,3 +31,13 @@ ebg:adminUnitL5            <lau/(co)-(lau1)>
 ebg:adminUnitL6            <lau/(co)-(lau2)>
 schema:geo                 <company/(co)/(id)/address/geo>
 ebg:geoResolution          <resolution/(level)>
+
+WHERE we use the following abbreviations:
+(co)        country
+(id)        company official identifier
+(provider)  code of IdentifierSystem issuer
+(macro)     macro-region (NUTS1)
+(reg)       region (NUTS2)
+(prov)      province (NUTS3)
+(lau1)      municipality (LAU1)
+(lau1)      settlement (LAU2)
