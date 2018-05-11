@@ -1,4 +1,4 @@
-#### Own prefixes
+﻿#### Own prefixes
 @base                      <http://data.businessgraph.io/>.
 @prefix ebg:               <http://data.businessgraph.io/ontology#> .
 @prefix nace:              <http://data.businessgraph.io/nace/>.
@@ -262,11 +262,12 @@ ebg:Register a rdfs:Class ;
   skos:definition "A business or other company register, and the associated agency." .
 
 locn:Address a rdfs:Class ;
-  skos:label "Address" ;
+  rdfs:label "Address" ;
   skos:definition "Mailing or physical address." ;
   skos:scopeNote "When used for company, should be linked as registered address (one) or other address (multiple)." .
 
-ramon:NUTSRegion a rdfs:Class .
+ramon:NUTSRegion a rdfs:Class ;
+  rdfs:label "NUTS Region" .
 
 rov:RegisteredOrganization a rdfs:Class ;
   skos:scopeNote "Registered organizations are the main entities that EBG works with (the project is not concerned with  unregistered informal groups). The borderline between public organizations and commercial companies is not always clear-cut (a company may be partially owned by government, and e.g.  Public-Private-Partnerships are a prime example), so the project may deal with some organizations that are not companies. But for brevity and convenience we often call  them Companies [ebg:]." ;
