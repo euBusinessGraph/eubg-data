@@ -1,0 +1,50 @@
+# Own prefixes
+@base                      <http://data.businessgraph.io/>.
+@prefix ebg:               <http://data.businessgraph.io/ontology#> .
+@prefix nace:              <http://data.businessgraph.io/nace/>.
+@prefix lau:               <http://data.businessgraph.io/lau/>.
+
+#@prefix ebg-reg:           <http://data.businessgraph.io/register/> .
+#@prefix ebg-comp:          <http://data.businessgraph.io/company/>  .
+
+# External prefixes
+@prefix adms:    <http://www.w3.org/ns/adms#> .
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix ngeo:    <http://geovocab.org/geometry#> .
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix puml:    <http://plantuml.com/ontology#>.
+@prefix ramon:   <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix spatial: <http://geovocab.org/spatial#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+# Unused prefixes
+@prefix c4n:               <http://vocab.deri.ie/c4n#> .
+@prefix fibo-be-le-lp:     <http://www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LegalPersons/> .
+@prefix fibo-fbc-fct-breg: <http://www.omg.org/spec/EDMC-FIBO/FBC/FunctionalEntities/BusinessRegistries/> .
+@prefix fibo-fnd-law-jur:  <http://www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/> .
+@prefix foaf:              <http://xmlns.com/foaf/0.1/> .
+@prefix gr:                <http://purl.org/goodrelations/v1#> .
+@prefix lcc-cr:            <http://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix loted:             <http://www.loted.eu/ontology#> .
+@prefix payment:           <http://reference.data.gov.uk/def/payment#> .
+@prefix pc-act:            <http://purl.org/procurement/public-contracts-activities#> .
+@prefix pc-authKind:       <http://purl.org/procurement/public-contracts-authority-kinds#> .
+@prefix pc-crit:           <http://purl.org/procurement/public-contracts-criteria#> .
+@prefix pc-dt:             <http://purl.org/procurement/public-contracts-datatypes#> .
+@prefix pc-kind:           <http://purl.org/procurement/public-contracts-kinds#> .
+@prefix pc-proc:           <http://purl.org/procurement/public-contracts-procedure-types#> .
+@prefix pc:                <http://purl.org/procurement/public-contracts#> .
+@prefix qb:                <http://purl.org/linked-data/cube#> .
+@prefix vann:              <http://purl.org/vocab/vann/> .
