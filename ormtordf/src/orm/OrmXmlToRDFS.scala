@@ -13,7 +13,7 @@ import java.nio.file.{Files, Paths}
 
 object OrmXmlToRDFS {
 
-	var inputXmlOrmFile      = "orm/ebg-ontology.orm"
+	var inputXmlOrmFile      = "../model/ebg-ontology.orm"
   var outputTurtleRdfsFile = "../model/ebg-ontology-gen.ttl"
  
   //-------------------------------------------------------------------------------------------|
