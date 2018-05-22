@@ -111,6 +111,11 @@ object Log {
         tTaskTime = totalTimeMin + " mins";
       
       println( "[TASK] Task finished in " + taskTime + ". Total time: " + tTaskTime + ". " + msg );
+      /*if( shouldLog ){
+        log( "[TASK] Task finished in " + taskTime + ". Total time: " + tTaskTime + "." );
+        if( shouldStoreLogOften )
+          storeLog();
+      }*/
     }
   }
   
@@ -121,10 +126,13 @@ object Log {
     var input = "";
     try {
       reader.read()
+      //input = reader.read()
+      //input = reader.readLine();
     }
     catch {
       case e : Exception => e.printStackTrace()
     }
   }
+  
   
 }
