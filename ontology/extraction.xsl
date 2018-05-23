@@ -448,7 +448,6 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
             </xsl:call-template>
             <xsl:call-template name="get.entity.metadata" />
             <xsl:apply-templates select="rdfs:comment|skos:definition" />
-            <xsl:apply-templates select="skos:scopeNote" />
             <xsl:call-template name="skos.scopeNotes" />
             <xsl:call-template name="skos.examples" />
             <xsl:call-template name="dcterms.sources" />
@@ -465,7 +464,6 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
             </xsl:call-template>
             <xsl:call-template name="get.entity.metadata" />
             <xsl:apply-templates select="rdfs:comment|skos:definition" />
-            <xsl:apply-templates select="skos:scopeNote" />
             <xsl:call-template name="skos.scopeNotes" />
             <xsl:call-template name="skos.examples" />
             <xsl:call-template name="dcterms.sources" />
