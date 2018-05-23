@@ -5,11 +5,15 @@
     <visualisation>Altre visualizzazioni</visualisation>
     <visualiseitwith>Visualizzala con</visualiseitwith>
     <date>Data</date>
+    <datemodified>Last modified</datemodified>
     <currentversion>Versione corrente</currentversion>
     <previousversion>Versione precedente</previousversion>
     <disjointclasses>Classi Disgiunte</disjointclasses>
     <backwardcompatiblewith>Retro-compatibile con</backwardcompatiblewith>
     <incompatibleWith>Incompatibile con</incompatibleWith>
+    <seealso>See Also</seealso>
+    <source>Source</source>
+    <homepage>Home Page</homepage>>
     <subclassdefinition>Definizione Generale di Sottoclasse</subclassdefinition>
     <equivalentdefinition>Definizione Generale di Classe Equivalente</equivalentdefinition>
     <issubclassof>è sottoclasse di</issubclassof>
@@ -46,6 +50,8 @@
     <publisher>Editore</publisher>
     <abstract>Sommario</abstract>
     <introduction>Introduzione</introduction>
+    <scopeNotes>Scope Notes</scopeNotes>
+    <examples>Examples</examples>
     <toc>Indice</toc>
     <tocabbr>indice</tocabbr>
     <backto>torna all'</backto>

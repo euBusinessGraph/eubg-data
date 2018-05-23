@@ -15,11 +15,13 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs xd dc rdfs schema swrl owl2xml owl xsd swrlb rdf f dcterms"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs xd dc rdfs schema skos swrl owl2xml owl xsd swrlb rdf f dcterms"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" version="2.0"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:schema="http://schema.org/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -50,6 +52,13 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
     <xsl:variable name="labels" select="document(concat($lang,'.xml'))" />
     <xsl:variable name="possible-ontology-urls" select="($ontology-url,concat($ontology-url,'/'),concat($ontology-url,'#'))" as="xs:string+" />
     <xsl:variable name="mime-types" select="('jpg','image/jpg','jpeg','image/jpg','png','image/png')" as="xs:string+" />
+
+    <xsl:function name="f:isPrefixeable" as="xs:boolean">
+      <!-- Don't prefixize links to Google Docs eg https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit
+           to avoid ugly Namespace Declarations eg random-prefix -> https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/ -->
+      <xsl:param name="item" as="item()"/>
+      <xsl:value-of select="not(matches($item,'(docs|drive).google.com'))"/>
+    </xsl:function>
     
     <xsl:variable name="prefixes-uris" as="xs:string*">
         <xsl:variable name="declared-prefixes" select="in-scope-prefixes($rdf)" as="xs:string*" />
@@ -59,7 +68,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
         
         <xsl:variable name="non-declared-uris" as="xs:string*">
             <xsl:variable name="temp-non-declared" as="xs:string*">
-                <xsl:for-each select="$existing-uri">
+                <xsl:for-each select="$existing-uri[f:isPrefixeable(.)]">
                     <xsl:variable name="index" select="if (contains(.,'#')) then f:string-first-index-of(.,'#') else f:string-last-index-of(replace(.,'://','---'),'/')" as="xs:integer?" />
                     <xsl:if test="exists($index) and substring(.,$index + 1) != ''">
                         <xsl:variable name="ns" select="substring(.,1,$index)" as="xs:string?" />
@@ -236,12 +245,58 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
         <xsl:call-template name="get.content" />
     </xsl:template>
     
-    <xsl:template match="rdfs:comment[f:isInLanguage(.)]">
+    <xsl:template match="rdfs:comment   [f:isInLanguage(.)] |
+                         skos:definition[f:isInLanguage(.)]">
         <div class="comment">
             <xsl:call-template name="get.content" />
         </div>
     </xsl:template>
-    
+
+    <!-- TODO f:isInLanguage(.) returns only the first item compatible with the current language, but we want all -->
+    <xsl:template name="skos.scopeNotes">
+      <xsl:if test="skos:scopeNote">
+        <p><strong><xsl:value-of select="f:getDescriptionLabel('scopeNotes')" /></strong>:</p>
+        <ul>
+          <xsl:for-each select="skos:scopeNote">
+            <xsl:sort select="text()" />
+            <li>
+    	      <xsl:value-of select="text()" />
+            </li>
+          </xsl:for-each>
+        </ul>
+      </xsl:if>
+    </xsl:template>
+
+    <!-- TODO f:isInLanguage(.) returns only the first item compatible with the current language, but we want all -->
+    <xsl:template name="skos.examples">
+      <xsl:if test="skos:example">
+        <p><strong><xsl:value-of select="f:getDescriptionLabel('examples')" /></strong>:</p>
+        <ul>
+          <xsl:for-each select="skos:example">
+            <xsl:sort select="text()|@*:resource" />
+            <li>
+              <!-- skos:example could be a text, or a URL -->
+    	      <xsl:value-of select="text()" />
+              <a href="{@*:resource}"> <xsl:value-of select="@*:resource" /></a>
+            </li>
+        </xsl:for-each>
+        </ul>
+      </xsl:if>
+    </xsl:template>
+
+    <xsl:template name="dcterms.sources">
+      <xsl:if test="dcterms:source" >
+        <p><strong><xsl:value-of select="f:getDescriptionLabel('source')" /></strong>:</p>
+        <ul>
+          <xsl:for-each select="dcterms:source">
+            <li> 
+              <a href="{@*:resource}"> <xsl:value-of select="@*:resource" /></a>
+            </li>
+          </xsl:for-each>
+        </ul>
+      </xsl:if>
+    </xsl:template>
+
     <xsl:template match="dc:rights[f:isInLanguage(.)]|dcterms:rights[ancestor::owl:Ontology][f:isInLanguage(.)]">
         <div class="copyright">
             <xsl:call-template name="get.content" />
@@ -275,8 +330,23 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
         <xsl:call-template name="get.title" />
     </xsl:template>
     
-    <xsl:template match="dc:date|dcterms:date[ancestor::owl:Ontology]">
+    <xsl:template match="dc:date|dcterms:date|dcterms:created[ancestor::owl:Ontology]">
         <dt><xsl:value-of select="f:getDescriptionLabel('date')" />:</dt>
+        <dd>
+            <xsl:choose>
+                <xsl:when test="matches(.,'\d\d\d\d-\d\d-\d\d')">
+                    <xsl:variable name="tokens" select="tokenize(.,'-')" />
+                    <xsl:value-of select="$tokens[3],$tokens[2],$tokens[1]" separator="/" />
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates />
+                </xsl:otherwise>
+            </xsl:choose>
+        </dd>
+    </xsl:template>
+
+        <xsl:template match="dcterms:modified[ancestor::owl:Ontology]">
+        <dt><xsl:value-of select="f:getDescriptionLabel('datemodified')" />:</dt>
         <dd>
             <xsl:choose>
                 <xsl:when test="matches(.,'\d\d\d\d-\d\d-\d\d')">
@@ -313,6 +383,16 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
                 </xsl:otherwise>
             </xsl:choose>
         </dd>
+    </xsl:template>
+
+    <xsl:template match="rdfs:seeAlso[ancestor::owl:Ontology]">
+      <dt><xsl:value-of select="f:getDescriptionLabel('seealso')" />:</dt>
+      <dd><a href="{@*:resource}"> <xsl:value-of select="@*:resource" /></a></dd>
+    </xsl:template>
+    
+    <xsl:template match="foaf:homepage[ancestor::owl:Ontology]">
+      <dt><xsl:value-of select="f:getDescriptionLabel('homepage')" />:</dt>
+      <dd><a href="{@*:resource}"> <xsl:value-of select="@*:resource" /></a></dd>
     </xsl:template>
     
     <xsl:template match="dc:creator|dc:contributor|dcterms:creator[ancestor::owl:Ontology]|dcterms:contributor[ancestor::owl:Ontology]|dc:publisher[ancestor::owl:Ontology]|dcterms:publisher[ancestor::owl:Ontology]">
@@ -351,7 +431,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
                 <xsl:with-param name="toc.string" select="f:getDescriptionLabel('classtoc')" tunnel="yes" as="xs:string" />
             </xsl:call-template>
             <xsl:call-template name="get.entity.metadata" />
-            <xsl:apply-templates select="rdfs:comment" />
+            <xsl:apply-templates select="rdfs:comment|skos:definition" />
+            <xsl:call-template name="skos.scopeNotes" />
+            <xsl:call-template name="skos.examples" />
+            <xsl:call-template name="dcterms.sources" />
             <xsl:call-template name="get.class.description" />
             <xsl:apply-templates select="dc:description[normalize-space() != ''] , dc:description[@*:resource]" />
         </div>
@@ -364,7 +447,11 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
                 <xsl:with-param name="toc.string" select="f:getDescriptionLabel('namedindividualtoc')" tunnel="yes" as="xs:string" />
             </xsl:call-template>
             <xsl:call-template name="get.entity.metadata" />
-            <xsl:apply-templates select="rdfs:comment" />
+            <xsl:apply-templates select="rdfs:comment|skos:definition" />
+            <xsl:apply-templates select="skos:scopeNote" />
+            <xsl:call-template name="skos.scopeNotes" />
+            <xsl:call-template name="skos.examples" />
+            <xsl:call-template name="dcterms.sources" />
             <xsl:call-template name="get.individual.description" />
             <xsl:apply-templates select="dc:description[normalize-space() != ''] , dc:description[@*:resource]" />
         </div>
@@ -377,7 +464,11 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
                 <xsl:with-param name="toc.string" select="if (self::owl:ObjectProperty) then f:getDescriptionLabel('objectpropertytoc') else if (self::owl:AnnotationProperty) then f:getDescriptionLabel('annotationpropertytoc') else f:getDescriptionLabel('datapropertytoc')" tunnel="yes" as="xs:string" />
             </xsl:call-template>
             <xsl:call-template name="get.entity.metadata" />
-            <xsl:apply-templates select="rdfs:comment" />
+            <xsl:apply-templates select="rdfs:comment|skos:definition" />
+            <xsl:apply-templates select="skos:scopeNote" />
+            <xsl:call-template name="skos.scopeNotes" />
+            <xsl:call-template name="skos.examples" />
+            <xsl:call-template name="dcterms.sources" />
             <xsl:call-template name="get.property.description" />
             <xsl:apply-templates select="dc:description[normalize-space() != ''] , dc:description[@*:resource]" />
         </div>
@@ -1327,15 +1418,19 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
     </xsl:template>
     
     <xsl:template name="get.version">
-        <xsl:if test="exists(owl:versionInfo | owl:priorVersion | owl:backwardCompatibleWith | owl:incompatibleWith | dc:date | dcterms:date)">
+      <xsl:if test="exists(owl:versionInfo | owl:priorVersion | owl:backwardCompatibleWith | owl:incompatibleWith |
+                    dc:date | dcterms:date | dcterms:created | dcterms:modified | rdfs:seeAlso | foaf:homepage)">
             <dl>
-                <xsl:apply-templates select="dc:date | dcterms:date" />
+                <xsl:apply-templates select="dc:date | dcterms:date | dcterms:created" />
+                <xsl:apply-templates select="dcterms:modified" />
                 <xsl:apply-templates select="owl:versionInfo" />
                 <xsl:apply-templates select="owl:priorVersion" />
                 <xsl:apply-templates select="owl:backwardCompatibleWith" />
                 <xsl:apply-templates select="owl:incompatibleWith" />
+                <xsl:apply-templates select="rdfs:seeAlso" />
+                <xsl:apply-templates select="foaf:homepage" />
             </dl>
-        </xsl:if>
+      </xsl:if>
     </xsl:template>
     
     <xsl:template name="get.imports">

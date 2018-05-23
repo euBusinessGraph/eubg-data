@@ -5,12 +5,18 @@
     <visualisation>Other visualisation</visualisation>
     <visualiseitwith>visualise it with</visualiseitwith>
     <date>Date</date>
+    <datemodified>Last modified</datemodified>
     <currentversion>Current version</currentversion>
     <previousversion>Previous version</previousversion>
     <backwardcompatiblewith>Backward compatible with</backwardcompatiblewith>
     <incompatibleWith>Incompatible with</incompatibleWith>
+    <seealso>See Also</seealso>
+    <source>Source</source>
+    <homepage>Home Page</homepage>>
     <abstract>Abstract</abstract>
     <introduction>Introduction</introduction>
+    <scopeNotes>Scope Notes</scopeNotes>
+    <examples>Examples</examples>
     <disjointclasses>All Disjoint Classes</disjointclasses>
     <subclassdefinition>General Subclass Definition</subclassdefinition>
     <equivalentdefinition>General Equivalent Definition</equivalentdefinition>
