@@ -54,6 +54,7 @@ ebg: a owl:Ontology;
   dct:title "euBusinessGraph ontology";
   dct:created "2017-07-11"^^xsd:date;
   dct:modified "2018-02-21"^^xsd:date;
+  owl:versionInfo "1.0";
   vann:preferredNamespaceUri "http://data.businessgraph.io/ontology#";
   vann:preferredNamespacePrefix "ebg";
   foaf:homepage <http://businessgraph.io>;
@@ -61,12 +62,22 @@ ebg: a owl:Ontology;
   dct:status <http://purl.org/adms/status/UnderDevelopment>;
   dct:creator <http://businessgraph.io>, <http://ontotext.com>, <mailto:vladimir.alexiev@ontotext.com>;
   dct:publisher <http://businessgraph.io>;
-  rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>.
+  rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>;
+  rdfs:comment # this below is markdown, which is used by LODE
+  """The euBusinessGraph (ebg:) ontology represents companies, type/status/economic classification, addresses, identifiers, (and soon) directors and CEOs, dataset offerings. 
+This is only a reference. See more detail in the [EBG Semantic Model](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit) google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams. A couple of illustrations follow.
+
+#### Company
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/company.png)
+
+#### Identifier System
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/Identifiers-ORM.png)""".
 
 
-#### Concept Schemes
+#### Individuals: Concept Schemes, Datasets
+# Currently can't be documented by LODE because of https://github.com/essepuntato/LODE/issues/14
 
-nace: a skos:ConceptScheme;
+nace: a skos:ConceptScheme; # , owl:NamedIndividual
   rdfs:isDefinedBy ebg: ;
   rdfs:label "NACE 2 classification";
   rdfs:comment "Statistical Classification of Economic Activities in the European Community, Rev. 2 (2008)";
@@ -76,7 +87,7 @@ nace: a skos:ConceptScheme;
   dct:created "2017-07-28"^^xsd:date;
   dct:issued  "2017-07-28"^^xsd:date.
 
-lau: a void:Dataset;
+lau: a void:Dataset; # , owl:NamedIndividual
   rdfs:isDefinedBy ebg: ;
   rdfs:label "LAU Regions";
   rdfs:comment "Local Administrative Units";
@@ -86,26 +97,34 @@ lau: a void:Dataset;
   dct:created "2017-07-28"^^xsd:date;
   dct:issued  "2017-07-28"^^xsd:date.
 
-<type/> a skos:ConceptScheme;
+<type/> a skos:ConceptScheme; # , owl:NamedIndividual
   rdfs:isDefinedBy ebg: ;
   rdfs:label "Company type";
   rdfs:comment "Company type (legal form) per jurisdiction";
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>.
 
-<status/> a skos:ConceptScheme;
+<status/> a skos:ConceptScheme; # , owl:NamedIndividual
   rdfs:isDefinedBy ebg: ;
   rdfs:label "Company status";
   rdfs:comment "Company status, e.g. active, inactive. Unfortunately different providers use different definitions";
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>.
 
-<resolution/> a skos:ConceptScheme;
+<resolution/> a skos:ConceptScheme; # , owl:NamedIndividual
   rdfs:isDefinedBy ebg: ;
   rdfs:label "Geo Coordinate Resolution";
   rdfs:comment "Resolution of a geographic coordinate location: from continent (least precise) to individual house number (most precise)";
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>.
+
+#### External Classes
+
+skos:Concept    a rdfs:Class;    rdfs:label "Concept".
+rdfs:langString a rdfs:Datatype; rdfs:label "Language-Tagged String".
+xsd:string      a rdfs:Datatype; rdfs:label "String".
+xsd:date        a rdfs:Datatype; rdfs:label "Date".
+xsd:anyURI      a rdfs:Datatype; rdfs:label "Any URI".
 
 #### Classes
 
@@ -115,70 +134,70 @@ ebg:LAURegion a rdfs:Class;
   rdfs:comment "Local Administrative Unit";
   dct:source <http://ec.europa.eu/eurostat/web/nuts/national-structures-eu>,
     <http://ec.europa.eu/eurostat/web/nuts/correspondence-tables/national-structures-non-eu>;
-  skos:example """---- LAU1:
-BG: Общини (Obshtini)
-CH: Bezirke Districts Disretti
-CY: Επαρχίες (Eparchies)
-CZ: Okresy
-DE: Verwaltungs- gemeinschaften
-DK: Kommuner
-EE: Maakond
-EL: Δήμοι, Κοινότητες (Demoi, Koinotites)
-FI: Seutukunnat / Ekonomiska regioner
-FR: Cantons de rattachement
-HU: Statisztikai kistérségek
-IE: Counties, Cities
-IS: Landsvædi
-LI: Landschaften
-LT: Savivaldybės
-LU: Cantons
-ME: Општине (Opštine)
-MK: Општини (Opštini)
-MT: Distretti
-NO: Økonomiske regioner
-PL: Powiaty i miasta na prawach powiatu
-PT: Concelhos - Munícipios
-SI: Upravne enote
-SK: Okresy
-TR: Ilceler
-UK: Lower tier authorities (districts) or individual unitary authorities;  Individual unitary authorities or LECs (or parts thereof); Districts""";
-  skos:example """---- LAU2:
-AL: Bashki / Komunë
-AT: Gemeinden
-BE: Gemeenten / Communes
-BG: Населени места (Naseleni mesta)
-CH: Gemeinden Communes Comuni
-CY: Δήμοι, Κοινότητες (Dimoi, koinotites)
-CZ: Obce
-DE: Gemeinden
-DK: Sogne
-EE: Linn, vald
-EL: Δημοτικές / Τοπικές Κοινότητες (Dimotikes / Topikes Koinotites - Municipal  / Local Communes)
-ES: Municipios
-FI: Kunnat / Kommuner
-FR: Communes
-HR: Gradovi i općine
-HU: Települések
-IE: Electoral Districts
-IS: Sveitarfélög
-IT: Comuni
-LI: Gemeinden
-LT: Seniūnijos
-LU: Communes
-LV: Republikas pilsētas, novadi
-ME: Насеља (Naselja)
-MK: Населени места (Naseleni mesta)
-MT: Kunsilli
-NL: Gemeenten
-NO: Kommuner
-PL: Gminy
-PT: Freguesias
-RO: Comuni + Municipiu + Orase
-SE: Kommuner
-SI: Občine
-SK: Obce
-TR: Köy
-UK: Wards (or parts thereof)""".
+  skos:example
+    "LAU1 BG: Общини (Obshtini)",
+    "LAU1 CH: Bezirke Districts Disretti",
+    "LAU1 CY: Επαρχίες (Eparchies)",
+    "LAU1 CZ: Okresy",
+    "LAU1 DE: Verwaltungs- gemeinschaften",
+    "LAU1 DK: Kommuner",
+    "LAU1 EE: Maakond",
+    "LAU1 EL: Δήμοι, Κοινότητες (Demoi, Koinotites)",
+    "LAU1 FI: Seutukunnat / Ekonomiska regioner",
+    "LAU1 FR: Cantons de rattachement",
+    "LAU1 HU: Statisztikai kistérségek",
+    "LAU1 IE: Counties, Cities",
+    "LAU1 IS: Landsvædi",
+    "LAU1 LI: Landschaften",
+    "LAU1 LT: Savivaldybės",
+    "LAU1 LU: Cantons",
+    "LAU1 ME: Општине (Opštine)",
+    "LAU1 MK: Општини (Opštini)",
+    "LAU1 MT: Distretti",
+    "LAU1 NO: Økonomiske regioner",
+    "LAU1 PL: Powiaty i miasta na prawach powiatu",
+    "LAU1 PT: Concelhos - Munícipios",
+    "LAU1 SI: Upravne enote",
+    "LAU1 SK: Okresy",
+    "LAU1 TR: Ilceler",
+    "LAU1 UK: Lower tier authorities (districts) or individual unitary authorities;  Individual unitary authorities or LECs (or parts thereof); Districts";
+  skos:example
+    "LAU2 AL: Bashki / Komunë",
+    "LAU2 AT: Gemeinden",
+    "LAU2 BE: Gemeenten / Communes",
+    "LAU2 BG: Населени места (Naseleni mesta)",
+    "LAU2 CH: Gemeinden Communes Comuni",
+    "LAU2 CY: Δήμοι, Κοινότητες (Dimoi, koinotites)",
+    "LAU2 CZ: Obce",
+    "LAU2 DE: Gemeinden",
+    "LAU2 DK: Sogne",
+    "LAU2 EE: Linn, vald",
+    "LAU2 EL: Δημοτικές / Τοπικές Κοινότητες (Dimotikes / Topikes Koinotites - Municipal  / Local Communes)",
+    "LAU2 ES: Municipios",
+    "LAU2 FI: Kunnat / Kommuner",
+    "LAU2 FR: Communes",
+    "LAU2 HR: Gradovi i općine",
+    "LAU2 HU: Települések",
+    "LAU2 IE: Electoral Districts",
+    "LAU2 IS: Sveitarfélög",
+    "LAU2 IT: Comuni",
+    "LAU2 LI: Gemeinden",
+    "LAU2 LT: Seniūnijos",
+    "LAU2 LU: Communes",
+    "LAU2 LV: Republikas pilsētas, novadi",
+    "LAU2 ME: Насеља (Naselja)",
+    "LAU2 MK: Населени места (Naseleni mesta)",
+    "LAU2 MT: Kunsilli",
+    "LAU2 NL: Gemeenten",
+    "LAU2 NO: Kommuner",
+    "LAU2 PL: Gminy",
+    "LAU2 PT: Freguesias",
+    "LAU2 RO: Comuni + Municipiu + Orase",
+    "LAU2 SE: Kommuner",
+    "LAU2 SI: Občine",
+    "LAU2 SK: Obce",
+    "LAU2 TR: Köy",
+    "LAU2 UK: Wards (or parts thereof)".
 
 #### Properties
 
@@ -284,7 +303,6 @@ rov:RegisteredOrganization a rdfs:Class ;
 schema:GeoCoordinates a rdfs:Class ;
   rdfs:label "Geographic coordinates" ;
   skos:definition "Geographic coordinates, eg of a geo-located address." .
-
 
 #### Generated Properties
 
