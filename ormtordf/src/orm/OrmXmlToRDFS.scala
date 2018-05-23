@@ -13,21 +13,23 @@ import java.nio.file.{Files, Paths}
 
 object OrmXmlToRDFS {
 
-	var exampleXmlOrmInfile      = "example/ebg-ontology.orm"
-  var exampleTurtleRdfsOutFile = "example/ebg-ontology.ttl"
+	var inputXmlOrmFile      = "../model/ebg-ontology.orm"
+  var outputTurtleRdfsFile = "../model/ebg-ontology-gen.ttl"
  
   //-------------------------------------------------------------------------------------------|
   def main( args : Array[String] ) = {
-   if( args.size == 2 ){
+     xmlORMtoTurtle( inputXmlOrmFile, outputTurtleRdfsFile )
+   /*
+   if( args.size == 2 ){ 
 	   xmlORMtoTurtle( args(0), args(1) )         
    } else{
      println( "Expecting two input arguments of the form <infile> <outfile>, where <infile> is " + 
        " the input XML ORM model, and <outfile> is the file containing the converted RDFS " +
        "specifiction (in Turtle format)."  )
    }   
-    //println( "args: " + (args mkString( " " ) ) )        
+    //println( "args: " + (args mkString( " " ) ) )
+   */        
   }
-  
   
   
   //-------------------------------------------------------------------------------------------|
