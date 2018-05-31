@@ -35,6 +35,15 @@
     <dct:type rdf:resource="http://purl.org/adms/assettype/Ontology"/>
     <dct:creator rdf:resource="mailto:vladimir.alexiev@ontotext.com"/>
     <foaf:homepage rdf:resource="http://businessgraph.io"/>
+    <rdfs:comment>The euBusinessGraph (ebg:) ontology represents companies, type/status/economic classification, addresses, identifiers, (and soon) directors and CEOs, dataset offerings. &#xD;
+This is only a reference. See more detail in the [EBG Semantic Model](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit) google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams. A couple of illustrations follow.&#xD;
+&#xD;
+#### Company&#xD;
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/company.png)&#xD;
+&#xD;
+#### Identifier System&#xD;
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/Identifiers-ORM.png)</rdfs:comment>
+    <owl:versionInfo>1.0</owl:versionInfo>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
     >2018-02-21</dct:modified>
     <dct:title>euBusinessGraph ontology</dct:title>
@@ -44,9 +53,24 @@
     <vann:preferredNamespaceUri>http://data.businessgraph.io/ontology#</vann:preferredNamespaceUri>
     <dct:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
   </owl:Ontology>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string">
+    <rdfs:label>String</rdfs:label>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdfs:label>Date</rdfs:label>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
+    <rdfs:label>Any URI</rdfs:label>
+  </rdfs:Datatype>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#langString">
+    <rdfs:label>Language-Tagged String</rdfs:label>
+  </rdfs:Datatype>
   <rdfs:Class rdf:about="http://schema.org/GeoCoordinates">
     <skos:definition>Geographic coordinates, eg of a geo-located address.</skos:definition>
     <rdfs:label>Geographic coordinates</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdfs:label>Concept</rdfs:label>
   </rdfs:Class>
   <rdfs:Class rdf:about="http://data.businessgraph.io/ontology#Register">
     <skos:definition>A business or other company register, and the associated agency.</skos:definition>
@@ -81,75 +105,73 @@
     <rdfs:label>NUTS Region</rdfs:label>
   </rdfs:Class>
   <rdfs:Class rdf:about="http://data.businessgraph.io/ontology#LAURegion">
-    <skos:example>---- LAU2:&#xD;
-AL: Bashki / Komunë&#xD;
-AT: Gemeinden&#xD;
-BE: Gemeenten / Communes&#xD;
-BG: Населени места (Naseleni mesta)&#xD;
-CH: Gemeinden Communes Comuni&#xD;
-CY: Δήμοι, Κοινότητες (Dimoi, koinotites)&#xD;
-CZ: Obce&#xD;
-DE: Gemeinden&#xD;
-DK: Sogne&#xD;
-EE: Linn, vald&#xD;
-EL: Δημοτικές / Τοπικές Κοινότητες (Dimotikes / Topikes Koinotites - Municipal  / Local Communes)&#xD;
-ES: Municipios&#xD;
-FI: Kunnat / Kommuner&#xD;
-FR: Communes&#xD;
-HR: Gradovi i općine&#xD;
-HU: Települések&#xD;
-IE: Electoral Districts&#xD;
-IS: Sveitarfélög&#xD;
-IT: Comuni&#xD;
-LI: Gemeinden&#xD;
-LT: Seniūnijos&#xD;
-LU: Communes&#xD;
-LV: Republikas pilsētas, novadi&#xD;
-ME: Насеља (Naselja)&#xD;
-MK: Населени места (Naseleni mesta)&#xD;
-MT: Kunsilli&#xD;
-NL: Gemeenten&#xD;
-NO: Kommuner&#xD;
-PL: Gminy&#xD;
-PT: Freguesias&#xD;
-RO: Comuni + Municipiu + Orase&#xD;
-SE: Kommuner&#xD;
-SI: Občine&#xD;
-SK: Obce&#xD;
-TR: Köy&#xD;
-UK: Wards (or parts thereof)</skos:example>
-    <skos:example>---- LAU1:&#xD;
-BG: Общини (Obshtini)&#xD;
-CH: Bezirke Districts Disretti&#xD;
-CY: Επαρχίες (Eparchies)&#xD;
-CZ: Okresy&#xD;
-DE: Verwaltungs- gemeinschaften&#xD;
-DK: Kommuner&#xD;
-EE: Maakond&#xD;
-EL: Δήμοι, Κοινότητες (Demoi, Koinotites)&#xD;
-FI: Seutukunnat / Ekonomiska regioner&#xD;
-FR: Cantons de rattachement&#xD;
-HU: Statisztikai kistérségek&#xD;
-IE: Counties, Cities&#xD;
-IS: Landsvædi&#xD;
-LI: Landschaften&#xD;
-LT: Savivaldybės&#xD;
-LU: Cantons&#xD;
-ME: Општине (Opštine)&#xD;
-MK: Општини (Opštini)&#xD;
-MT: Distretti&#xD;
-NO: Økonomiske regioner&#xD;
-PL: Powiaty i miasta na prawach powiatu&#xD;
-PT: Concelhos - Munícipios&#xD;
-SI: Upravne enote&#xD;
-SK: Okresy&#xD;
-TR: Ilceler&#xD;
-UK: Lower tier authorities (districts) or individual unitary authorities;  Individual unitary authorities or LECs (or parts thereof); Districts</skos:example>
+    <skos:example>LAU2 BG: Населени места (Naseleni mesta)</skos:example>
+    <skos:example>LAU2 ME: Насеља (Naselja)</skos:example>
+    <skos:example>LAU1 DK: Kommuner</skos:example>
+    <skos:example>LAU1 CY: Επαρχίες (Eparchies)</skos:example>
     <dct:source rdf:resource="http://ec.europa.eu/eurostat/web/nuts/correspondence-tables/national-structures-non-eu"/>
+    <skos:example>LAU1 CZ: Okresy</skos:example>
+    <skos:example>LAU1 TR: Ilceler</skos:example>
+    <skos:example>LAU1 SI: Upravne enote</skos:example>
+    <skos:example>LAU2 TR: Köy</skos:example>
+    <skos:example>LAU2 SE: Kommuner</skos:example>
+    <skos:example>LAU1 LT: Savivaldybės</skos:example>
+    <skos:example>LAU1 MK: Општини (Opštini)</skos:example>
+    <skos:example>LAU2 IS: Sveitarfélög</skos:example>
+    <skos:example>LAU2 FR: Communes</skos:example>
+    <skos:example>LAU2 NL: Gemeenten</skos:example>
+    <skos:example>LAU2 AL: Bashki / Komunë</skos:example>
+    <skos:example>LAU2 LU: Communes</skos:example>
+    <skos:example>LAU1 UK: Lower tier authorities (districts) or individual unitary authorities;  Individual unitary authorities or LECs (or parts thereof); Districts</skos:example>
+    <skos:example>LAU1 IS: Landsvædi</skos:example>
+    <skos:example>LAU2 PT: Freguesias</skos:example>
+    <skos:example>LAU1 EE: Maakond</skos:example>
+    <skos:example>LAU2 LV: Republikas pilsētas, novadi</skos:example>
+    <skos:example>LAU1 ME: Општине (Opštine)</skos:example>
+    <skos:example>LAU2 SK: Obce</skos:example>
+    <skos:example>LAU2 EE: Linn, vald</skos:example>
+    <skos:example>LAU1 FR: Cantons de rattachement</skos:example>
     <dct:source rdf:resource="http://ec.europa.eu/eurostat/web/nuts/national-structures-eu"/>
-    <rdfs:comment>Local Administrative Unit</rdfs:comment>
-    <rdfs:label>LAU Region</rdfs:label>
+    <skos:example>LAU1 NO: Økonomiske regioner</skos:example>
+    <skos:example>LAU2 ES: Municipios</skos:example>
+    <skos:example>LAU2 BE: Gemeenten / Communes</skos:example>
+    <skos:example>LAU1 DE: Verwaltungs- gemeinschaften</skos:example>
+    <skos:example>LAU2 LI: Gemeinden</skos:example>
+    <skos:example>LAU2 FI: Kunnat / Kommuner</skos:example>
+    <skos:example>LAU1 BG: Общини (Obshtini)</skos:example>
+    <skos:example>LAU2 CY: Δήμοι, Κοινότητες (Dimoi, koinotites)</skos:example>
+    <skos:example>LAU2 RO: Comuni + Municipiu + Orase</skos:example>
+    <skos:example>LAU2 SI: Občine</skos:example>
+    <skos:example>LAU1 HU: Statisztikai kistérségek</skos:example>
+    <skos:example>LAU2 IE: Electoral Districts</skos:example>
+    <skos:example>LAU2 EL: Δημοτικές / Τοπικές Κοινότητες (Dimotikes / Topikes Koinotites - Municipal  / Local Communes)</skos:example>
+    <skos:example>LAU2 UK: Wards (or parts thereof)</skos:example>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
+    <skos:example>LAU1 CH: Bezirke Districts Disretti</skos:example>
+    <skos:example>LAU2 MK: Населени места (Naseleni mesta)</skos:example>
+    <skos:example>LAU2 CZ: Obce</skos:example>
+    <skos:example>LAU1 LI: Landschaften</skos:example>
+    <skos:example>LAU2 DK: Sogne</skos:example>
+    <skos:example>LAU2 IT: Comuni</skos:example>
+    <skos:example>LAU1 MT: Distretti</skos:example>
+    <skos:example>LAU2 HR: Gradovi i općine</skos:example>
+    <skos:example>LAU2 LT: Seniūnijos</skos:example>
+    <skos:example>LAU2 CH: Gemeinden Communes Comuni</skos:example>
+    <rdfs:comment>Local Administrative Unit</rdfs:comment>
+    <skos:example>LAU1 PL: Powiaty i miasta na prawach powiatu</skos:example>
+    <rdfs:label>LAU Region</rdfs:label>
+    <skos:example>LAU1 LU: Cantons</skos:example>
+    <skos:example>LAU1 FI: Seutukunnat / Ekonomiska regioner</skos:example>
+    <skos:example>LAU2 AT: Gemeinden</skos:example>
+    <skos:example>LAU1 IE: Counties, Cities</skos:example>
+    <skos:example>LAU2 NO: Kommuner</skos:example>
+    <skos:example>LAU2 PL: Gminy</skos:example>
+    <skos:example>LAU2 MT: Kunsilli</skos:example>
+    <skos:example>LAU2 DE: Gemeinden</skos:example>
+    <skos:example>LAU1 EL: Δήμοι, Κοινότητες (Demoi, Koinotites)</skos:example>
+    <skos:example>LAU1 PT: Concelhos - Munícipios</skos:example>
+    <skos:example>LAU2 HU: Települések</skos:example>
+    <skos:example>LAU1 SK: Okresy</skos:example>
   </rdfs:Class>
   <rdfs:Class rdf:about="http://www.w3.org/ns/regorg#RegisteredOrganization">
     <skos:example>Banks and finance companies.</skos:example>

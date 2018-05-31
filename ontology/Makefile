@@ -1,4 +1,4 @@
-index.html: ebg-ontology.rdf
+index.html: ebg-ontology.rdf extraction.xsl
 	transform -xsl:extraction.xsl -s:ebg-ontology.rdf -o:index.html
 
 ebg-ontology.rdf: ../model/ebg-ontology.ttl

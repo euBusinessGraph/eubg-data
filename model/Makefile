@@ -10,5 +10,5 @@ all : $(PUML) $(PNG) ebg-ontology.ttl
 %.png : %.puml
 	puml.bat $<
 
-ebg-ontology.ttl : prefixes.ttl ebg-ontology-part.ttl ebg-ontology-gen.ttl
-	cat prefixes.ttl ebg-ontology-part.ttl ebg-ontology-gen.ttl > ebg-ontology.ttl
+#ebg-ontology.ttl : prefixes.ttl ebg-ontology-part.ttl ebg-ontology-gen.ttl
+#	cat prefixes.ttl ebg-ontology-part.ttl ebg-ontology-gen.ttl > ebg-ontology.ttl
