@@ -206,7 +206,8 @@ schema:sameAs rdf:type owl:ObjectProperty .
 
 
 ###  http://schema.org/url
-schema:url rdf:type owl:ObjectProperty .
+schema:url rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf schema:url .
 
 
 ###  http://www.w3.org/ns/adms#identifier
@@ -763,8 +764,7 @@ schema:sameAs rdf:type owl:DatatypeProperty .
 
 
 ###  http://schema.org/url
-schema:url rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf schema:url .
+schema:url rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -881,16 +881,16 @@ locn:postName rdf:type owl:DatatypeProperty ;
                            "Тренто"@bg .
 
 
-###  http://www.w3.org/ns/locn#throughfare
-locn:throughfare rdf:type owl:DatatypeProperty ;
-                 schema:domainIncludes locn:Address ;
-                 schema:rangeIncludes rdf:langString ,
-                                      xsd:string ;
-                 rdfs:label "street address" ;
-                 skos:definition "Street name (and optionally number)." ;
-                 skos:example "Polygraphia Office Center, floor 4 \\n 47A Tsarigradsko Shosse" ,
-                              "Via Belenzani 19" ;
-                 skos:scopeNote "It is ok if the street number is also here, because many systems do not enter the number separately. There may be several concatenated lines, separated with newlines (\\n)" .
+###  http://www.w3.org/ns/locn#thoroughfare
+locn:thoroughfare rdf:type owl:DatatypeProperty ;
+                  schema:domainIncludes locn:Address ;
+                  schema:rangeIncludes rdf:langString ,
+                                       xsd:string ;
+                  rdfs:label "street address" ;
+                  skos:definition "Street name (and optionally number)." ;
+                  skos:example "Polygraphia Office Center, floor 4 \\n 47A Tsarigradsko Shosse" ,
+                               "Via Belenzani 19" ;
+                  skos:scopeNote "It is ok if the street number is also here, because many systems do not enter the number separately. There may be several concatenated lines, separated with newlines (\\n)" .
 
 
 ###  http://www.w3.org/ns/regorg#legalName
@@ -1155,8 +1155,8 @@ dct:creator schema:rangeIncludes xsd:anyURI ;
             skos:scopeNote """Many agencies keep several registries. E.g., http://www.registryagency.bg  keeps:
 • Trade Register http://brra.bg for companies
 • Bulstat Register http://www.bulstat.bg/ for other entities""" ;
-            skos:definition "Agent that issues identifiers and then keeps them in a database (register)" ,
-                            "Agency that issued the identifier, and register that holds it." ;
+            skos:definition "Agency that issued the identifier, and register that holds it." ,
+                            "Agent that issues identifiers and then keeps them in a database (register)" ;
             schema:domainIncludes adms:Identifier .
 
 
