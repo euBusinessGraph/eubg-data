@@ -521,6 +521,11 @@ ebg:validationRule a owl:ObjectProperty ;
     "http://www.nsi.bg/sites/default/files/konkursi/RGP_OPAK_2014_Annex_6.pdf describes the BG EIK checksum algorithm in PDF. It is by an official source, but is less convenient" ;
   skos:scopeNote "Can be in the form of webpage, PDF document, RDF shape, etc. Multiple values about the same validation rule are ok." .
 
+ebg:WebResource a rdfs:Class;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "Web Resource";
+  skos:definition "URL complemented with name, language and MIME type(s) to specify what the URL is about".
+
 ebg:webResource a owl:ObjectProperty ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "web resource" ;
@@ -530,6 +535,34 @@ ebg:webResource a owl:ObjectProperty ;
   skos:example "https://brra.bg is the homepage of BG TR.",
     "http://opendata.government.bg/dataset/tbprobckn-pernctbp is the open data download site for BG TR.",
     "https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html is the search URL for BE Banque-Carrefour des Entreprises." .
+
+schema:name a owl:DatatypeProperty;
+  rdfs:label "name";
+  schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource;
+  schema:rangeIncludes xsd:string, rdf:langString;
+  skos:definition "Name or short (generic) description of the resource";
+  skos:scopeNote "Provide this since it's useful to the user. Can provide it in several languages, in which case the language tag should be specified";
+  skos:example "Homepage", "Search", "Download", "Company data".
+
+dc:format a owl:DatatypeProperty;
+  rdfs:label "MIME Type";
+  schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource;
+  schema:rangeIncludes xsd:string, rdf:Resource;
+  skos:definition "MIME type of the resource. If several are provided, the server must provide all these resource types using Content Negotiation";
+  skos:example "text/html", "application/xml", "application/rdf+xml", "text/turtle", "text/csv", "text/tab-separated-values",
+    'For a search page, use the custom type "application/x-search"',
+    'For a Description document supporting the OpenSearch standard, use <http://a9.com/-/spec/opensearch/1.1/>'.
+
+schema:inLanguage a owl:DatatypeProperty;
+  rdfs:label "language";
+  skos:definition "Language of the web resource";
+  skos:scopeNote "Use a valid [iana:] language code from the IETF BCP 47 standard".
+
+ebg:IdentifierWebResource a rdfs:Class;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "Identifier Web Resource";
+  skos:definition "URL template complemented with name, language and MIME type(s) to specify what the URL is about. Substitute the identifier value into the template";
+  skos:scopeNote "This class has ebg:urlTemplate, and the same general properties as Web Resource: name, MIME type, language".
 
 ebg:identifierWebResource a owl:ObjectProperty ;
   rdfs:isDefinedBy ebg: ;
@@ -543,6 +576,24 @@ ebg:identifierWebResource a owl:ObjectProperty ;
     "'https://opencorporates.com/companies/{}.xml'  with MIME type 'application/xml'",
     "'https://opencorporates.com/companies/{}.json' with MIME type 'application/json'",
     "'https://opencorporates.com/companies/{}.rdf'  with MIME type 'application/rdf+xml'".
+
+  
+ebg:urlTemplate a owl:DatatypeProperty;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "URL template";
+  schema:domainIncludes ebg:IdentifierWebResource;
+  schema:rangeIncludes xsd:string;
+  skos:definition """URL template of an identifier web resource. 
+If it has a placeholder {}, substitute the identifier value there
+If it has placeholders like $1, $2… substitute the groups extracted by ebg:validationRegex""";
+  skos:example
+    'For BE Banque-Carrefour des Entreprises, "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={}" with MIME type "text/html" shows a web page for the company.',
+    'For the EU Value Added Tax (VIES) register, "http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=$1&number=$2" with MIME type "text/html" shows a web page for an identifier that can be parsed with ebg:validationRegex "([A-Z]{2})/(\\d+)". Here $1 is the member state code, and $2 is the national company id',
+    "For OCORP, 'https://opencorporates.com/companies/{}'      returns company data with MIME type 'text/html'",
+    "For OCORP, 'https://opencorporates.com/companies/{}.xml'  returns company data with MIME type 'application/xml'",
+    "For OCORP, 'https://opencorporates.com/companies/{}.json' returns company data with MIME type 'application/json'",
+    "For OCORP, 'https://opencorporates.com/companies/{}.rdf'  returns company data with MIME type 'application/rdf+xml'",
+    'For BR, "http://data.brreg.no/enhetsregisteret/enhet/{}" with either "application/xml" or "application/json" returns the respective MIME type using Content Negotiation'.
 
 locn:Address a rdfs:Class ;
   rdfs:label "Address" ;
@@ -824,11 +875,14 @@ schema:sameAs a owl:ObjectProperty ;
   skos:example <https://it.wikipedia.org/wiki/Trento> .
 
 schema:url a owl:ObjectProperty ;
-  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:domainIncludes rov:RegisteredOrganization, ebg:WebResource ;
   schema:rangeIncludes rdf:Resource ;
   rdfs:label "website" ;
-  skos:definition "Website pertaining to the company" ;
-  skos:example <http://www.comune.trento.it> .
+  skos:definition "Website pertaining to the company or URL of a web resource" ;
+  skos:example <http://www.comune.trento.it>,
+    'For system BG TR, <https://brra.bg> with language "bg" and MIME type "text/html" is the homepage',
+    'For system BG TR, <http://opendata.government.bg/dataset/tbprobckn-pernctbp> with language "bg" and MIME type "application/xml" is open data download in XML',
+    'For system BE Banque-Carrefour des Entreprises, <https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html> with MIME type "application/x-search" is the search URL'.
 
 sioc:feed a owl:ObjectProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;

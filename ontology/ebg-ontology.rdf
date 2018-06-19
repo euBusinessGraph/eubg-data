@@ -86,11 +86,10 @@ This is only a reference. See more detail in the [EBG Semantic Model](https://do
     <skos:definition>Mailing or physical address of a company</skos:definition>
     <rdfs:label>Address</rdfs:label>
   </rdfs:Class>
-  <rdfs:Class rdf:about="http://data.businessgraph.io/ontology#IdentifierSystem">
-    <skos:example>http://www.registryagency.bg keeps the systems used by The Trade Register http://brra.bg for companies, and The Bulstat Register http://www.bulstat.bg/ for other entities</skos:example>
-    <skos:scopeNote>Some agencies/registers keep several identifier systems; this ontology doesn't distinguish between an identifier system and its register(s)</skos:scopeNote>
-    <skos:definition>A system managed by a publisher (e.g., a register or agency) that is used to issue identifiers to entities (companies, persons, etc).</skos:definition>
-    <rdfs:label>Identifier System</rdfs:label>
+  <rdfs:Class rdf:about="http://data.businessgraph.io/ontology#IdentifierWebResource">
+    <skos:scopeNote>This class has ebg:urlTemplate, and the same general properties as Web Resource: name, MIME type, language</skos:scopeNote>
+    <skos:definition>URL template complemented with name, language and MIME type(s) to specify what the URL is about. Substitute the identifier value into the template</skos:definition>
+    <rdfs:label>Identifier Web Resource</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </rdfs:Class>
   <rdfs:Class rdf:about="http://www.w3.org/ns/org#Site">
@@ -99,6 +98,13 @@ This is only a reference. See more detail in the [EBG Semantic Model](https://do
 Many organizations are spread across multiple sites and many sites will host multiple locations. &#xD;
 In most cases a Site will be a physical location. However, we don't exclude the possibility of non-physical sites such as a virtual office with an associated post box and phone reception service [org:]</skos:definition>
     <rdfs:label>Site</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://data.businessgraph.io/ontology#IdentifierSystem">
+    <skos:example>http://www.registryagency.bg keeps the systems used by The Trade Register http://brra.bg for companies, and The Bulstat Register http://www.bulstat.bg/ for other entities</skos:example>
+    <skos:scopeNote>Some agencies/registers keep several identifier systems; this ontology doesn't distinguish between an identifier system and its register(s)</skos:scopeNote>
+    <skos:definition>A system managed by a publisher (e.g., a register or agency) that is used to issue identifiers to entities (companies, persons, etc).</skos:definition>
+    <rdfs:label>Identifier System</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </rdfs:Class>
   <rdfs:Class rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">
     <rdfs:label>NUTS Region</rdfs:label>
@@ -186,6 +192,11 @@ In most cases a Site will be a physical location. However, we don't exclude the 
     <skos:example>All entities that issue equity, debt or other securities for other capital structures.</skos:example>
     <rdfs:label>Registered Organization</rdfs:label>
     <skos:example>All entities under the purview of a financial regulator and their affiliates, subsidiaries and holding companies.</skos:example>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://data.businessgraph.io/ontology#WebResource">
+    <skos:definition>URL complemented with name, language and MIME type(s) to specify what the URL is about</skos:definition>
+    <rdfs:label>Web Resource</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </rdfs:Class>
   <owl:ObjectProperty rdf:about="http://www.w3.org/ns/adms#identifier">
     <skos:example>Indirect: BG GUID 617f4edf8c154f4296efdf146513de21, which corresponds to official id 204060254 and can be used to reach the official register page for that company</skos:example>
@@ -284,6 +295,16 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <schema:rangeIncludes rdf:resource="http://www.w3.org/ns/org#Site"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/regorg#RegisteredOrganization"/>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/ns/locn#adminUnitL2">
+    <skos:example>nuts:ITC NORD-OVEST (Nord-est).</skos:example>
+    <skos:definition>NUTS1 (Macroregion) of the address.</skos:definition>
+    <rdfs:label>admin unit level 2</rdfs:label>
+    <schema:rangeIncludes rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>
+    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="http://data.businessgraph.io/ontology#adminUnit"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/creator">
     <skos:example>Dun and Bradstreet issues DUNS numbers.</skos:example>
     <skos:example>http://www.registryagency.bg keeps both Trade Register http://brra.bg for companies, and Bulstat Register http://www.bulstat.bg/ for other entities</skos:example>
@@ -298,16 +319,6 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <skos:example>Companies House is the issuer for the official UK identifier system.</skos:example>
     <rdfs:label>issuer</rdfs:label>
     <skos:scopeNote>In many countries there is a single registry although in others, such as Spain and Germany, multiple registries exist. [rov:].</skos:scopeNote>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.w3.org/ns/locn#adminUnitL2">
-    <skos:example>nuts:ITC NORD-OVEST (Nord-est).</skos:example>
-    <skos:definition>NUTS1 (Macroregion) of the address.</skos:definition>
-    <rdfs:label>admin unit level 2</rdfs:label>
-    <schema:rangeIncludes rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>
-    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://data.businessgraph.io/ontology#adminUnit"/>
-    </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://schema.org/email">
     <skos:example rdf:resource="mailto:elettorale@pec.comune.trento.it"/>
@@ -362,11 +373,15 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/regorg#RegisteredOrganization"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://schema.org/url">
+    <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#WebResource"/>
+    <skos:definition>Website pertaining to the company or URL of a web resource</skos:definition>
+    <skos:example>For system BG TR, &lt;https://brra.bg&gt; with language "bg" and MIME type "text/html" is the homepage</skos:example>
     <skos:example rdf:resource="http://www.comune.trento.it"/>
-    <skos:definition>Website pertaining to the company</skos:definition>
+    <skos:example>For system BE Banque-Carrefour des Entreprises, &lt;https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html&gt; with MIME type "application/x-search" is the search URL</skos:example>
     <rdfs:label>website</rdfs:label>
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/regorg#RegisteredOrganization"/>
+    <skos:example>For system BG TR, &lt;http://opendata.government.bg/dataset/tbprobckn-pernctbp&gt; with language "bg" and MIME type "application/xml" is open data download in XML</skos:example>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://data.businessgraph.io/ontology#adminUnitL5">
     <skos:definition>LAU1 (Municipality/Commune/Settlement) of the address.</skos:definition>
@@ -431,6 +446,13 @@ This code is used as the last URL part for identifiers issued in that system.</s
       <owl:ObjectProperty rdf:about="http://data.businessgraph.io/ontology#adminUnit"/>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasRegisteredSite">
+    <skos:scopeNote>org:hasRegisteredSite leads to a node with types org:Site and locn:Address that has self-link org:siteAddress.</skos:scopeNote>
+    <skos:definition>Public legal address where legal papers can be served.</skos:definition>
+    <rdfs:label>registered site/address</rdfs:label>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
+    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/org#Site"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://data.businessgraph.io/ontology#geoResolution">
     <skos:scopeNote>Values must be mapped to the &lt;resolution/&gt; ConceptScheme (lookup list).</skos:scopeNote>
     <skos:scopeNote>If geo coordinates are present, resolution must be present too, even if it's a guess. There is no default value.</skos:scopeNote>
@@ -438,13 +460,6 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
     <rdfs:label>geocoordinate resolution</rdfs:label>
     <schema:domainIncludes rdf:resource="http://schema.org/GeoCoordinates"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasRegisteredSite">
-    <skos:scopeNote>org:hasRegisteredSite leads to a node with types org:Site and locn:Address that has self-link org:siteAddress.</skos:scopeNote>
-    <skos:definition>Public legal address where legal papers can be served.</skos:definition>
-    <rdfs:label>registered site/address</rdfs:label>
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
-    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/org#Site"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://data.businessgraph.io/ontology#adminUnit">
     <skos:scopeNote>Union of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.</skos:scopeNote>
@@ -455,6 +470,22 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <rdfs:label>admin unit</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/format">
+    <skos:example>For a Description document supporting the OpenSearch standard, use &lt;http://a9.com/-/spec/opensearch/1.1/&gt;</skos:example>
+    <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#IdentifierWebResource"/>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:definition>MIME type of the resource. If several are provided, the server must provide all these resource types using Content Negotiation</skos:definition>
+    <rdfs:label>MIME Type</rdfs:label>
+    <skos:example>For a search page, use the custom type "application/x-search"</skos:example>
+    <skos:example>application/rdf+xml</skos:example>
+    <skos:example>application/xml</skos:example>
+    <skos:example>text/turtle</skos:example>
+    <skos:example>text/tab-separated-values</skos:example>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"/>
+    <skos:example>text/html</skos:example>
+    <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#WebResource"/>
+    <skos:example>text/csv</skos:example>
+  </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.businessgraph.io/ontology#exclusionNote">
     <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -545,6 +576,22 @@ For identifier systems published by the sole or preferred official register in a
     <rdfs:label>identifier system RAL code</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://data.businessgraph.io/ontology#urlTemplate">
+    <skos:example>For OCORP, 'https://opencorporates.com/companies/{}.rdf'  returns company data with MIME type 'application/rdf+xml'</skos:example>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:example>For OCORP, 'https://opencorporates.com/companies/{}.json' returns company data with MIME type 'application/json'</skos:example>
+    <skos:example>For the EU Value Added Tax (VIES) register, "http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=$1&amp;number=$2" with MIME type "text/html" shows a web page for an identifier that can be parsed with ebg:validationRegex "([A-Z]{2})/(\d+)". Here $1 is the member state code, and $2 is the national company id</skos:example>
+    <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#IdentifierWebResource"/>
+    <skos:example>For BR, "http://data.brreg.no/enhetsregisteret/enhet/{}" with either "application/xml" or "application/json" returns the respective MIME type using Content Negotiation</skos:example>
+    <skos:example>For BE Banque-Carrefour des Entreprises, "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={}" with MIME type "text/html" shows a web page for the company.</skos:example>
+    <skos:example>For OCORP, 'https://opencorporates.com/companies/{}.xml'  returns company data with MIME type 'application/xml'</skos:example>
+    <skos:example>For OCORP, 'https://opencorporates.com/companies/{}'      returns company data with MIME type 'text/html'</skos:example>
+    <rdfs:label>URL template</rdfs:label>
+    <skos:definition>URL template of an identifier web resource. &#xD;
+If it has a placeholder {}, substitute the identifier value there&#xD;
+If it has placeholders like $1, $2… substitute the groups extracted by ebg:validationRegex</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
+  </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://schema.org/foundingDate">
     <skos:example rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
     >2010-11-18</skos:example>
@@ -559,6 +606,11 @@ For identifier systems published by the sole or preferred official register in a
     <rdfs:label>founding date</rdfs:label>
     <skos:example rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
     >2010</skos:example>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://schema.org/inLanguage">
+    <skos:scopeNote>Use a valid [iana:] language code from the IETF BCP 47 standard</skos:scopeNote>
+    <skos:definition>Language of the web resource</skos:definition>
+    <rdfs:label>language</rdfs:label>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/code">
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -681,6 +733,13 @@ For identifier systems published by the sole or preferred official register in a
     <rdfs:label>economic activity text</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://schema.org/longitude">
+    <skos:scopeNote>If no coordinates are available, do not make a schema:GeoCoordinates node.</skos:scopeNote>
+    <skos:scopeNote>Coordinates must be expressed in the WGS 84 system.</skos:scopeNote>
+    <rdfs:label>longitude</rdfs:label>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <schema:domainIncludes rdf:resource="http://schema.org/GeoCoordinates"/>
+  </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.businessgraph.io/ontology#isSingleValued">
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#IdentifierSystem"/>
     <skos:definition>Whether each entity has only one identifier in the system</skos:definition>
@@ -693,13 +752,6 @@ For identifier systems published by the sole or preferred official register in a
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <skos:scopeNote>Similar to owl:FunctionalProperty, and Wikidata Single Value constraint</skos:scopeNote>
   </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://schema.org/longitude">
-    <skos:scopeNote>If no coordinates are available, do not make a schema:GeoCoordinates node.</skos:scopeNote>
-    <skos:scopeNote>Coordinates must be expressed in the WGS 84 system.</skos:scopeNote>
-    <rdfs:label>longitude</rdfs:label>
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    <schema:domainIncludes rdf:resource="http://schema.org/GeoCoordinates"/>
-  </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
     <skos:scopeNote>Used as a display name of the company or identifier system. For companies we usually pick one of the Registered Names (English if present, else at random). For identifier systems, we use a commonly used English name.</skos:scopeNote>
     <skos:definition>A single preferred name of a company or identifier system (preferably English).</skos:definition>
@@ -708,22 +760,6 @@ For identifier systems published by the sole or preferred official register in a
     <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/regorg#RegisteredOrganization"/>
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#IdentifierSystem"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/locn#locatorDesignator">
-    <skos:example>Polygraphia Office Center, floor 4</skos:example>
-    <skos:example>47A</skos:example>
-    <skos:definition>Street number and/or building name.</skos:definition>
-    <rdfs:label>locator designator (street number)</rdfs:label>
-    <skos:scopeNote>Not likely to appear separately, but we have Coordinate resolution corresponding to this field.</skos:scopeNote>
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/issued">
-    <skos:scopeNote>This may or may not be the same as the Incorporation Date of the company. Even for the official registration, the two dates may differ, depending on business rules.</skos:scopeNote>
-    <skos:definition>When was the identifier was issued (start date).</skos:definition>
-    <rdfs:label>issued on</rdfs:label>
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/jurisdiction">
     <skos:example>BG has many types, including a number of European companies.</skos:example>
@@ -748,6 +784,22 @@ For identifier systems published by the sole or preferred official register in a
     <skos:scopeNote>Currently this data is provided by SDATI, for matching company entities only.</skos:scopeNote>
     <skos:definition>Languages used by the organization.</skos:definition>
   </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/locn#locatorDesignator">
+    <skos:example>Polygraphia Office Center, floor 4</skos:example>
+    <skos:example>47A</skos:example>
+    <skos:definition>Street number and/or building name.</skos:definition>
+    <rdfs:label>locator designator (street number)</rdfs:label>
+    <skos:scopeNote>Not likely to appear separately, but we have Coordinate resolution corresponding to this field.</skos:scopeNote>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/issued">
+    <skos:scopeNote>This may or may not be the same as the Incorporation Date of the company. Even for the official registration, the two dates may differ, depending on business rules.</skos:scopeNote>
+    <skos:definition>When was the identifier was issued (start date).</skos:definition>
+    <rdfs:label>issued on</rdfs:label>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <schema:domainIncludes rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
+  </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/name">
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2000/01/rdf-schema#langString"/>
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#LAURegion"/>
@@ -769,6 +821,19 @@ For identifier systems published by the sole or preferred official register in a
     <rdfs:label>post office box</rdfs:label>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://schema.org/name">
+    <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#WebResource"/>
+    <skos:example>Company data</skos:example>
+    <skos:definition>Name or short (generic) description of the resource</skos:definition>
+    <skos:example>Homepage</skos:example>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+    <skos:scopeNote>Provide this since it's useful to the user. Can provide it in several languages, in which case the language tag should be specified</skos:scopeNote>
+    <skos:example>Search</skos:example>
+    <rdfs:label>name</rdfs:label>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#IdentifierWebResource"/>
+    <skos:example>Download</skos:example>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/locn#fullAddress">
     <skos:example>Via Belenzani 19, 38122, Trento</skos:example>
@@ -883,13 +948,6 @@ For identifier systems published by the sole or preferred official register in a
     <rdfs:label>Geo Coordinate Resolution</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </skos:ConceptScheme>
-  <skos:ConceptScheme rdf:about="http://data.businessgraph.io/status/">
-    <dct:publisher rdf:resource="http://businessgraph.io"/>
-    <dct:creator rdf:resource="http://businessgraph.io"/>
-    <rdfs:comment>Company status, e.g. active, inactive. Unfortunately different providers use different definitions</rdfs:comment>
-    <rdfs:label>Company status</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
-  </skos:ConceptScheme>
   <skos:ConceptScheme rdf:about="http://data.businessgraph.io/nace/">
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
     >2017-07-28</dct:issued>
@@ -900,6 +958,13 @@ For identifier systems published by the sole or preferred official register in a
     <dct:source rdf:resource="http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&amp;StrNom=NACE_REV2&amp;StrLanguageCode=EN&amp;StrLayoutCode=HIERARCHIC#"/>
     <rdfs:comment>Statistical Classification of Economic Activities in the European Community, Rev. 2 (2008)</rdfs:comment>
     <rdfs:label>NACE 2 classification</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
+  </skos:ConceptScheme>
+  <skos:ConceptScheme rdf:about="http://data.businessgraph.io/status/">
+    <dct:publisher rdf:resource="http://businessgraph.io"/>
+    <dct:creator rdf:resource="http://businessgraph.io"/>
+    <rdfs:comment>Company status, e.g. active, inactive. Unfortunately different providers use different definitions</rdfs:comment>
+    <rdfs:label>Company status</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.businessgraph.io/ontology#"/>
   </skos:ConceptScheme>
 </rdf:RDF>
