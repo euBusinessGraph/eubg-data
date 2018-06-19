@@ -53,6 +53,9 @@ This is only a reference. See more detail in the [EBG Semantic Model](https://do
     <vann:preferredNamespaceUri>http://data.businessgraph.io/ontology#</vann:preferredNamespaceUri>
     <dct:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
   </owl:Ontology>
+  <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">
+    <rdfs:label>Language-Tagged String</rdfs:label>
+  </rdfs:Datatype>
   <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
     <rdfs:label>Year</rdfs:label>
   </rdfs:Datatype>
@@ -64,9 +67,6 @@ This is only a reference. See more detail in the [EBG Semantic Model](https://do
   </rdfs:Datatype>
   <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonth">
     <rdfs:label>Year-Month</rdfs:label>
-  </rdfs:Datatype>
-  <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#langString">
-    <rdfs:label>Language-Tagged String</rdfs:label>
   </rdfs:Datatype>
   <rdfs:Class rdf:about="http://schema.org/GeoCoordinates">
     <skos:definition>Geographic coordinates, eg of a geo-located address.</skos:definition>
@@ -556,7 +556,7 @@ For identifier systems published by the sole or preferred official register in a
     <skos:definition>Street name and optionally number.</skos:definition>
     <rdfs:label>thoroughfare (street address)</rdfs:label>
     <skos:scopeNote>It is ok if the street number is also here, because many systems do not enter the number separately. There may be several concatenated lines, separated with newlines.</skos:scopeNote>
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/2000/01/rdf-schema#langString"/>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/locn#Address"/>
   </owl:DatatypeProperty>
@@ -801,7 +801,7 @@ If it has placeholders like $1, $2… substitute the groups extracted by ebg:val
     <schema:domainIncludes rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/name">
-    <schema:rangeIncludes rdf:resource="http://www.w3.org/2000/01/rdf-schema#langString"/>
+    <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#LAURegion"/>
     <schema:domainIncludes rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>
     <rdfs:comment>Name of an administrative region or settlement</rdfs:comment>

@@ -121,7 +121,7 @@ lau: a void:Dataset; # , owl:NamedIndividual
 
 skos:Concept       a rdfs:Class;    rdfs:label "Concept".
 skos:ConceptScheme a rdfs:Class;    rdfs:label "Concept Scheme".
-rdfs:langString    a rdfs:Datatype; rdfs:label "Language-Tagged String".
+rdf:langString     a rdfs:Datatype; rdfs:label "Language-Tagged String".
 xsd:string         a rdfs:Datatype; rdfs:label "String".
 xsd:date           a rdfs:Datatype; rdfs:label "Date".
 xsd:gYear          a rdfs:Datatype; rdfs:label "Year".
@@ -663,7 +663,7 @@ locn:postName a owl:DatatypeProperty ;
 
 locn:thoroughfare a owl:DatatypeProperty ;
   schema:domainIncludes locn:Address ;
-  schema:rangeIncludes xsd:string, rdfs:langString ;
+  schema:rangeIncludes xsd:string, rdf:langString ;
   skos:scopeNote "It is ok if the street number is also here, because many systems do not enter the number separately. There may be several concatenated lines, separated with newlines." ;
   rdfs:label "thoroughfare (street address)" ;
   skos:definition "Street name and optionally number." ;
@@ -723,7 +723,7 @@ ramon:name a owl:DatatypeProperty;
   rdfs:label "admin region name";
   rdfs:comment "Name of an administrative region or settlement";
   schema:domainIncludes ramon:NUTSRegion, ebg:LAURegion;
-  schema:rangeIncludes rdfs:langString.
+  schema:rangeIncludes rdf:langString.
 
 rov:RegisteredOrganization a rdfs:Class ;
   skos:scopeNote "Registered organizations are the main entities that euBusinessGraph works with (the project is not concerned with  unregistered informal groups). The borderline between public organizations and commercial companies is not always clear-cut (a company may be partially owned by government, and e.g.  Public-Private-Partnerships are a prime example), so the project may deal with some organizations that are not companies. But for brevity and convenience we often call  them Companies [ebg:].";
