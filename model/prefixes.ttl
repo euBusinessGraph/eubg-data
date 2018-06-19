@@ -12,6 +12,7 @@
 @prefix dc:      <http://purl.org/dc/elements/1.1/>.
 @prefix dct:     <http://purl.org/dc/terms/> .
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix format:  <http://www.w3.org/ns/formats/> .
 @prefix locn:    <http://www.w3.org/ns/locn#>.
 @prefix ngeo:    <http://geovocab.org/geometry#> .
 @prefix nuts:    <http://nuts.geovocab.org/id/>.
