@@ -1,0 +1,11 @@
+<dataset/paid/SDATI/IT>
+  void:propertyParition [dct:type <dataset/partition>; void:property ebg:isStartup;
+    vext:objectPartition [dct:type <dataset/partition>; void:object true;
+      void:triples 10000]].
+
+
+####################
+
+dct:type      a puml:InlineProperty.
+void:property a puml:InlineProperty.
+vext:object   a puml:InlineProperty.

@@ -76,46 +76,71 @@ This is only a reference. See more detail in the [EBG Semantic Model](https://do
 #### Individuals: Concept Schemes, Datasets
 # Currently can't be documented by LODE because of https://github.com/essepuntato/LODE/issues/14
 
-nace: a skos:ConceptScheme; # , owl:NamedIndividual
+nace: a skos:ConceptScheme;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "NACE 2 classification";
   rdfs:comment "Statistical Classification of Economic Activities in the European Community, Rev. 2 (2008)";
   dct:source <http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2&StrLanguageCode=EN&StrLayoutCode=HIERARCHIC#>;
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
   dct:created "2017-07-28"^^xsd:date;
   dct:issued  "2017-07-28"^^xsd:date.
 
-lau: a void:Dataset; # , owl:NamedIndividual
+lau: a void:Dataset;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "LAU Regions";
   rdfs:comment "Local Administrative Units";
   dct:source <http://ec.europa.eu/eurostat/web/nuts/local-administrative-units>;
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
   dct:created "2017-07-28"^^xsd:date;
   dct:issued "2017-07-28"^^xsd:date.
 
-<type/> a skos:ConceptScheme; # , owl:NamedIndividual
+<type/> a skos:ConceptScheme;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "Company type";
   rdfs:comment "Company type (legal form) per jurisdiction";
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>.
 
-<status/> a skos:ConceptScheme; # , owl:NamedIndividual
+<status/> a skos:ConceptScheme;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "Company status";
   rdfs:comment "Company status, e.g. active, inactive. Unfortunately different providers use different definitions";
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>.
 
-<resolution/> a skos:ConceptScheme; # , owl:NamedIndividual
+<resolution/> a skos:ConceptScheme;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "Geo Coordinate Resolution";
   rdfs:comment "Resolution of a geographic coordinate location: from continent (least precise) to individual house number (most precise)";
   dct:creator <http://businessgraph.io>;
   dct:publisher <http://businessgraph.io>.
+
+<dataset/> a skos:ConceptScheme;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "Dataset type";
+  rdfs:comment "Company dataset type: freely avaialable, paid (advertised only), partition";
+  dct:creator <http://businessgraph.io>;
+  dct:publisher <http://businessgraph.io>.
+
+<dataset/free-available> a skos:Concept;
+  rdfs:isDefinedBy ebg: ;
+  skos:inScheme <dataset/>;
+  skos:prefLabel "Freely available".
+
+<dataset/paid-advertised> a skos:Concept;
+  rdfs:isDefinedBy ebg: ;
+  skos:inScheme <dataset/>;
+  skos:prefLabel "Paid (advertised only)".
+  
+<dataset/partition> a skos:Concept;
+  rdfs:isDefinedBy ebg: ;
+  skos:inScheme <dataset/>;
+  skos:prefLabel "Partition";
+  skos:scopeNote "Used to describe dataset statistics. Not downloadable separately.".
 
 #### External Classes
 
@@ -529,7 +554,7 @@ ebg:WebResource a rdfs:Class;
 ebg:webResource a owl:ObjectProperty ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "web resource" ;
-  schema:domainIncludes ebg:IdentifierSystem ;
+  schema:domainIncludes ebg:IdentifierSystem, void:Dataset ;
   schema:rangeIncludes ebg:WebResource ;
   skos:definition "Web resource associated with an identifier system." ;
   skos:example "https://brra.bg is the homepage of BG TR.",
@@ -918,3 +943,4 @@ skos:prefLabel a owl:DatatypeProperty ;
   rdfs:label "preferred name" ;
   skos:definition "A single preferred name of a company or identifier system (preferably English)." ;
   skos:scopeNote "Used as a display name of the company or identifier system. For companies we usually pick one of the Registered Names (English if present, else at random). For identifier systems, we use a commonly used English name." .
+

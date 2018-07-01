@@ -1,0 +1,65 @@
+################ Overall euBusinessGraph dataset
+
+<dataset> a void:Dataset;
+  dct:title "euBusinessGraph free Dataset"@en;
+  dct:publisher <http://businessgraph.io>;
+  dct:type <dataset/free-available>, <dataset/aggregation>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  void:subset <dataset/ONTO/BG>, <dataset/OCORP>, <dataset/SDATI/IT>, <dataset/BRC/NO>.
+
+################ Free datasets by providers
+
+<dataset/ONTO/BG> a void:Dataset;
+  dct:title "Ontotext free dataset of BG companies";
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <http://ontotext.com>.
+
+<dataset/OCORP> a void:Dataset;
+  dct:title "OpenCorporates free dataset of European companies";
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <http://opencorporates.com>;
+  void:subset <dataset/OCORP/UK>, <dataset/OCORP/HR>.
+
+<dataset/OCORP/UK> a void:Dataset;
+  dct:title "OpenCorporates free dataset of UK companies";
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>.
+
+<dataset/OCORP/HR> a void:Dataset;
+  dct:title "OpenCorporates free dataset of HR companies";
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>.
+
+<dataset/SDATI/IT> a void:Dataset;
+  dct:title "SpazioDati free dataset of IT companies";
+  dct:publisher <https://spaziodati.eu>;
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>.
+
+<dataset/BRC/NO> a void:Dataset;
+  dct:title "Official BRC free dataset of NO companies";
+  dct:publisher <https://www.brreg.no>;
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>.
+
+############# paid datasets
+
+<dataset/paid/SDATI/IT> a void:Dataset;
+  dct:title "SpazioDati paid dataset of IT companies";
+  dct:type <dataset/paid-advertised>;
+  dct:description "euBusinessGraph only provides info about extra fields in this dataset.\nContact the publisher for commercial information";
+  void:subset <dataset/SDATI/IT>.
+
+<dataset/paid/OCORP> a void:Dataset;
+  dct:title "OpenCorporates paid dataset of 147M companies from 128 jurisdictions";
+  dct:type <dataset/paid-advertised>;
+  dct:description "euBusinessGraph only provides info about extra fields in this dataset.\nContact the publisher for commercial information";
+  void:subset <dataset/OCORP>.
+
+####################
+
+dct:type      a puml:InlineProperty.
+dct:publisher a puml:InlineProperty.
+dct:license   a puml:InlineProperty.

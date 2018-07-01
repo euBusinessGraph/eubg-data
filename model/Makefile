@@ -1,8 +1,8 @@
-TTL    = identifiers.ttl identifiers2.ttl identifier-GUID.ttl company.ttl
-PUML   = $(patsubst %.ttl, %.puml, $(TTL))
+IGNORE = prefixes.ttl ebg-ontology.ttl
+TTL    = $(filter-out $(IGNORE), $(wildcard *.ttl))
 PNG    = $(patsubst %.ttl, %.png, $(TTL))
 
-all : $(PUML) $(PNG) ebg-ontology.ttl
+all : $(PNG) 
 
 %.puml : %.ttl
 	rdfpuml.bat $<

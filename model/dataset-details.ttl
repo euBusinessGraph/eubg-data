@@ -1,0 +1,29 @@
+<dataset> a void:Dataset;
+  dct:description "Data about European companies, addresses, economic classifications, officers, etc"@en;
+  dct:subject <http://dbpedia.org/resource/Company>, <https://www.wikidata.org/entity/Q783794>, <http://vocab.getty.edu/aat/300160084>, <http://eurovoc.europa.eu/4189>;
+  dct:creator <http://businessgraph.io>; # TODO or sub-page about the consortium?
+  dct:publisher <http://businessgraph.io>;
+  dct:date "2018-06-30"^^xsd:date; # don't think we'll need the created/published/modified distiction for now
+  dct:accrualPeriodicity freq:irregular;
+  foaf:homepage <>; # TODO is the Workbench home page the best page for the datasets?
+  foaf:page <http://businessgraph.io>; # TODO more specifically?
+  void:sparqlEndpoint <sparql>;
+  # TODO void:dataDump # produce and describe dumps in various formats, if desired
+  void:exampleResource <company/BG/200356710>; # ONTO. TODO add OCORP, SDATI
+  void:uriSpace "http://data.businessgraph.io/company/", "http://data.businessgraph.io/person/"; # TODO this is for the main entities only; should we describe subsets for other entities?
+  void:features format:N-Triples, format:RDF_XML, format:Turtle;
+  void:vocabulary ebg:, foaf:, locn:, ngeo:, org:, ramon:, rov:, schema:, sioc:, time: .
+
+<http://businessgraph.io> a foaf:Agent;
+  rdfs:label "euBusinessGraph Project"@en.
+
+####################
+
+dct:accrualPeriodicity a puml:InlineProperty.
+dct:subject            a puml:InlineProperty.
+foaf:homepage          a puml:InlineProperty.
+#foaf:page              a puml:InlineProperty.
+void:exampleResource   a puml:InlineProperty.
+void:features          a puml:InlineProperty.
+void:sparqlEndpoint    a puml:InlineProperty.
+void:vocabulary        a puml:InlineProperty.

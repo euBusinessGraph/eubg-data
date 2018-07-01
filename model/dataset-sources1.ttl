@@ -1,0 +1,21 @@
+<dataset/ONTO/BG> a void:Dataset;
+  dct:source <http://brra.bg/>, <http://www.registryagency.bg/bg/registri/targovski-registar/>, <http://opendata.government.bg/dataset/tbprobckn-pernctbp>;
+  ebg:webResource
+    [a ebg:WebResource;
+       schema:url <http://brra.bg/>;
+       schema:name "BG Registry Agency: homepage"@en, "Агенция по вписванията"@bg;
+       dc:format "text/html";
+       schema:inLanguage "bg"],
+    [a ebg:WebResource;
+       schema:url <http://www.registryagency.bg/bg/registri/targovski-registar/>;
+       schema:name "BG Trade Register: homepage"@en, "Търговски регистър"@bg;
+       dc:format "text/html";
+       schema:inLanguage "bg"],
+   [a ebg:WebResource;
+      schema:url <http://opendata.government.bg/dataset/tbprobckn-pernctbp>;
+      schema:name "BG Trade Register: open data"@en, "Търговски регистър: отворени данни"@bg;
+      dc:format "application/xml";
+      schema:inLanguage "bg"].
+
+####################
+# <dataset/ONTO/BG> puml:up <http://opendata.government.bg/dataset/tbprobckn-pernctbp>.

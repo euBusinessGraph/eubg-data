@@ -1,0 +1,90 @@
+<dataset> a void:Dataset;
+  void:entities 16000000;
+  dct:spatial nuts:BG, nuts:GB, nuts:HR, nuts:IT, nuts:NO;
+  void:subset <dataset/ONTO/BG>, <dataset/OCORP>, <dataset/SDATI/IT>, <dataset/BRC/NO>;
+  void:classPartition <dataset/persons>, <dataset/companies>, <dataset/addresses>;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgTypeText, rov:orgType,
+    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4,
+    locn:postName, locn:thoroughfare, locn:postCode
+  ].
+
+<dataset/persons>   dct:type <dataset/partition>; void:class schema:Person;              void:entities 17000000.
+<dataset/companies> dct:type <dataset/partition>; void:class rov:RegisteredOrganization; void:entities 16000000.
+<dataset/addresses> dct:type <dataset/partition>; void:class locn:Address;               void:entities 14000000.
+
+<dataset/ONTO/BG>
+  void:entities 2000000;
+  dct:spatial nuts:BG;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgTypeText, rov:orgType,
+    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
+  ].
+
+<dataset/paid/OCORP>
+  void:subset <dataset/OCORP>;
+  void:entities 147000000;
+  dct:spatial nuts:GB, nuts:HR, "US-CA";
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, rov:orgType, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1
+  ].
+  
+<dataset/OCORP>
+  void:entities 13500000;
+  dct:spatial nuts:GB, nuts:HR;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1
+  ];
+  void:subset <dataset/OCORP/UK>, <dataset/OCORP/HR>.
+
+<dataset/OCORP/UK>
+  void:entities 6000000;
+  dct:spatial nuts:GB;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1
+  ].
+
+<dataset/OCORP/HR>
+  void:entities 100000;
+  dct:spatial nuts:HR;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgType,
+    locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
+  ].
+
+<dataset/paid/SDATI/IT>
+  void:subset <dataset/SDATI/IT>;
+  void:entities 6000000;
+  dct:spatial nuts:IT;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4,
+    locn:postName, locn:thoroughfare, locn:postCode,
+    ebg:isStartup, ebg:isStateOwned, ebg:isPubliclyTraded
+  ].
+  
+<dataset/SDATI/IT>
+  void:entities 6000000;
+  dct:spatial nuts:IT;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
+  ].
+
+<dataset/BRC/NO>
+  void:entities 500000;
+  dct:spatial nuts:NO;
+  void:propertyPartition [dct:type <dataset/partition>; void:property
+    rov:legalName, ebg:orgType,
+    locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
+  ].
+
+####################
+
+dct:spatial   a puml:InlineProperty.
+dct:type      a puml:InlineProperty.
+void:class    a puml:InlineProperty.
+void:property a puml:InlineProperty.
+void:subset   puml:arrow puml:down-2.
