@@ -534,7 +534,10 @@ ebg:validationRegex a owl:DatatypeProperty ;
   schema:domainIncludes ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Regular expression for validating identifier values within the system" ;
-  skos:example "• \"([A-Z]{2})/(\\d+)\" is a regex for the EU Value Added Tax (VIES) register, which consists of a member state code followed by slash and a national numeric identifier\r\n• \"\\d{9}\" is a simple regex for validating DUNS numbers\r\n• \"(\\d{2})-?(\\d{3})-?(\\d{4})\" is a regex for validating DUNS numbers that may include optional dashes in the indicated positions (e.g. \"36-032-1459\")" .
+  skos:example
+    "\"([A-Z]{2})/(\\d+)\" is a regex for the EU Value Added Tax (VIES) register, which consists of a member state code followed by slash and a national numeric identifier",
+    "\"\\d{9}\" is a simple regex for validating DUNS numbers",
+    "\"(\\d{2})-?(\\d{3})-?(\\d{4})\" is a regex for validating DUNS numbers that may include optional dashes in the indicated positions (e.g. \"36-032-1459\")" .
 
 ebg:validationRule a owl:ObjectProperty ;
   rdfs:isDefinedBy ebg: ;
@@ -824,6 +827,15 @@ rov:registration a owl:ObjectProperty ;
 schema:GeoCoordinates a rdfs:Class ;
   rdfs:label "Geographic coordinates" ;
   skos:definition "Geographic coordinates, eg of a geo-located address." .
+
+schema:author a owl:ObjectProperty ;
+  rdfs:label "author";
+  schema:rangeIncludes schema:Person, schema:Organization;
+  skos:definition "Agent who specified the rules and organization of the identifier system",
+  skos:example
+    "W3C or TimBL specified web URLs",
+    "GLEIF specified GLEI",
+    "Dun and Bradstreet specified DUNS numbers".
 
 schema:availableLanguage a owl:DatatypeProperty ;
   rdfs:label "language" ;
