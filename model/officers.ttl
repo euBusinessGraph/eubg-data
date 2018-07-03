@@ -1,0 +1,70 @@
+  
+<company/GB/08716467> a rov:RegisteredOrganization;
+  rov:legalName "LINKED DATA BENCHMARK COUNCIL".
+
+<officer/OCORP/193379729> a person:Person;
+  person:birthName "ATANAS KOSTADINOV KIRYAKOV";
+  locn:address <officer/OCORP/193379729/address>;
+  person:citizenship nuts:BG;
+  ebg:occupation "COMPANY DIRECTOR".
+
+<officer/OCORP/193379729/address> a locn:Address;
+  locn:fullAddress "47A Tsarigradsko Shosse, Sofia, Bulgaria".
+
+<officer/OCORP/193379729/membership> a org:Membership;
+  org:organization <company/GB/08716467>;
+  org:member <officer/OCORP/193379729>;
+  org:role <role/director>;
+  ebg:status <officer/status/active>;
+  org:memberDuring <officer/OCORP/193379729/interval>.
+      
+<officer/OCORP/193379729/interval> a time:Interval; 
+  time:hasBeginning <officer/OCORP/193379729/beginning>.
+
+<officer/OCORP/193379729/beginning> a time:Instant;
+  time:inXSDDateTime "2014-01-01T00:00:00"^^xsd:dateTime.
+
+####################
+
+<company/BG/200356710> a rov:RegisteredOrganization;
+  rov:legalName "Онтотекст"@bg.
+
+<officer/BG/927542697493467> a person:Person;
+  person:birthName "Атанас Костадинов Киряков".
+
+<officer/BG/503827460204097> a person:Person;
+  person:birthName "Васил Иванов Момчев".
+
+<company/BG/200356710/executive> a org:Membership;
+  org:organization <company/BG/200356710>;
+  org:member <officer/BG/927542697493467>;
+  org:role <role/executive>;
+  ebg:status <officer/status/active>;
+  org:memberDuring <company/BG/200356710/executive/interval>.
+
+<company/BG/200356710/executive/interval> a time:Interval; 
+  time:hasBeginning <company/BG/200356710/executive/beginning>.
+
+<company/BG/200356710/executive/beginning> a time:Instant;
+  time:inXSDDateTime "2012-06-29T17:23:16"^^xsd:dateTime.
+
+<company/BG/200356710/directors> a org:Membership;
+  org:organization <company/BG/200356710>;
+  org:member <officer/BG/927542697493467>, <officer/BG/503827460204097>;
+  org:role <role/director>;
+  ebg:status <officer/status/active>;
+  org:memberDuring <company/BG/200356710/directors/interval>.
+
+<company/BG/200356710/directors/interval> a time:Interval; 
+  time:hasBeginning <company/BG/200356710/directors/beginning>.
+
+<company/BG/200356710/directors/beginning> a time:Instant;
+  time:inXSDDateTime "2017-07-11T14:53:27"^^xsd:dateTime.
+
+####################
+
+org:role           a puml:InlineProperty.
+person:citizenship a puml:InlineProperty.
+ebg:status         a puml:InlineProperty.
+org:organization puml:arrow puml:up.
+org:member       puml:arrow puml:up.

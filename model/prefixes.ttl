@@ -3,8 +3,8 @@
 @prefix ebg:               <http://data.businessgraph.io/ontology#> .
 @prefix nace:              <http://data.businessgraph.io/nace/>.
 @prefix lau:               <http://data.businessgraph.io/lau/>.
-@prefix ebg-id:            <http://data.businessgraph.io/identifier/> .
-@prefix ebg-comp:          <http://data.businessgraph.io/company/>  .
+#@prefix ebg-comp:          <http://data.businessgraph.io/company/>  .   # looks bad in examples, but maybe useful to have in the repo?
+#@prefix ebg-id:            <http://data.businessgraph.io/identifier/> .
 
 ##### External prefixes
 @prefix adms:    <http://www.w3.org/ns/adms#> .
@@ -19,6 +19,7 @@
 @prefix nuts:    <http://nuts.geovocab.org/id/>.
 @prefix org:     <http://www.w3.org/ns/org#>.
 @prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix person:  <http://www.w3.org/ns/person#>.
 @prefix puml:    <http://plantuml.com/ontology#>.
 @prefix ramon:   <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
