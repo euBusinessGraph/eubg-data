@@ -831,7 +831,7 @@ schema:GeoCoordinates a rdfs:Class ;
 schema:author a owl:ObjectProperty ;
   rdfs:label "author";
   schema:rangeIncludes schema:Person, schema:Organization;
-  skos:definition "Agent who specified the rules and organization of the identifier system",
+  skos:definition "Agent who specified the rules and organization of the identifier system";
   skos:example
     "W3C or TimBL specified web URLs",
     "GLEIF specified GLEI",
