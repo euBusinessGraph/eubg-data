@@ -62,7 +62,9 @@ The example below shows the following Officer records:
 - one director from OCORP UK (Kiryakov at LDBC)
 - one executive from BG (Kiryakov at ONTO)
 - two directors from BG (Kiryakov and Momtchev at ONTO).
-  - The shared `org:Membership` will work only if the whole board of directors
-  - The chosen `org:Membership` URLs (1:1 with company) will work only if only the most recent officer records are RDFized. Otherwise a GUID should be used.
+  - The shared `org:Membership` will work only if the whole board of directors is appointed and discharged at once (as it is at AGMs).
+    To reflect individual directors coming and going, individual Membership records are needed.
+  - The chosen `org:Membership` URLs (1:1 with company) will work only if the most recent officer records are RDFized (i.e. we have a single Executive and Board of Directors per company).
+    In the general case each Membership depends on person (org:member), organization (org:organization), and interval (org:memberDuring), so a GUID should be used.
 
-![](officers.png)
+![](images/officers.png)

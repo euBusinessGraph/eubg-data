@@ -68,10 +68,34 @@ ebg: a owl:Ontology;
 This is only a reference. See more detail in the [EBG Semantic Model](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit) google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams. A couple of illustrations follow.
 
 #### Company
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/company.png)
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/company.png)
 
 #### Identifier System
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/Identifiers-ORM.png)""".
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/Identifiers-ORM.png)
+
+#### Dataset Descriptions
+Dataset Hierarchy
+
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-hierarchy.png)
+
+Dataset Metadata Details
+
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-details.png)
+
+Dataset Sources
+
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-sources.png)
+
+Dataset Statistics
+
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-stats.png)
+
+#### Officers
+In development. Below are 5 examples from 2 datasets (OCORP GB and ONTO BG). See [officers.md](https://github.com/euBusinessGraph/eubg-data/blob/master/model/officers.md) for some notes.
+
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/officers.png)
+
+""".
 
 #### Individuals: Concept Schemes, Datasets
 # Currently can't be documented by LODE because of https://github.com/essepuntato/LODE/issues/14
