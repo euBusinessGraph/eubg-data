@@ -26,7 +26,7 @@ In developing the company data model we have reused from appropriate ontologies 
 * schema.org: widely used, some relevant properties (e.g., dates)
 * ADMS: datasets and identifiers
 
-Figure 1: Towards a common semantic model for company data
+![Figure 1: Towards a common semantic model for company data](http://www.eubusinessgraph.eu/wp-content/uploads/2018/06/ontology-approach.png)
 
 Since none of the existing ontologies covers the complete scope we need, we reuse where possible and extend and compose by:
 
@@ -38,7 +38,7 @@ In addition we define RDF Shapes (SHACL and ShEx) to validate incoming data.
 ### Company data
 In its first release, the model focuses on capturing key company information present in official registers such as legal name, registered address and economic classification, and also information coming from online resources related to the company such as company websites, blogs and social media accounts. These aspects are explicitly incorporated into the model and describe company information that is shared across data providers and directly accessible through the graph. Additionally, the model supports advertising other company related information available from data providers directly.
 
-Figure 2: Company data attributes that are covered by the model
+![Figure 2: Company data attributes that are covered by the model](http://www.eubusinessgraph.eu/wp-content/uploads/2018/06/ontology-company.png)
 
 ### Identifier System
 We have performed a thorough analysis of identifiers in the context of euBusinessGraph. From the analysis of the different identifier systems and the requirements of the business cases of the project, we singled out key aspects about identifiers and addressed them in the common semantic model.
@@ -47,11 +47,11 @@ Achieving matching and reconciliation across jurisdictions and registers require
 
 We model expectations of a particular system that should help determine to which extent an indicator can be used for matching and reconciliation. Additionally, we model web resources that are frequently found for identifier systems such as search endpoints, templates for building identifier URLs through which company information can be reached and other resources that describe the system’s rules. Finally, the model supports the representation of the different agents that are in charge of setting and maintaining rules, issuing identifiers and publishing identifier databases.
 
-Figure 3: Identifier System attributes that is covered by the modelFurther information
+![Figure 3: Identifier System attributes that is covered by the modelFurther information](http://www.eubusinessgraph.eu/wp-content/uploads/2018/06/ontology-identifier-system.png)
 
 # GitHub Repository
-
 This repository contains the sources for the euBusinessGraph Semantic Model for representing company-related data. Here we will keep:
+
 * Prefixes file
 * Instance model file in Turtle format
 * Instance model files for diagrams
@@ -59,8 +59,7 @@ This repository contains the sources for the euBusinessGraph Semantic Model for 
 * Generated online documentation using LODE
 * RDF shapes for validation
 * RDF data (e.g. NACE csv sheet), conversion scripts and resulting RDF
-
-Please copy diagrams to the gdoc, and provide links to full-size diagrams and source files here.
+* Diagrams for the master document (links to full-size diagrams and source files here)
 
 # References
 For further details about the euBusinessGraph ontology:
