@@ -805,13 +805,21 @@ rov:legalName a owl:DatatypeProperty ;
 
 rov:orgActivity a owl:ObjectProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes skos:Concept;
   rdfs:label "economic activity" ;
   skos:definition "Economic activity of the organization (NACE code)" ;
-  skos:scopeNote "Recorded using a controlled vocabulary: EC NACE 2.",
+  skos:scopeNote "Recorded using a controlled vocabulary: EC NACE 2. Values should be like nace:A, nace:42.50, etc",
     "More detailed national classifications could also useful (e.g. IT ATECO, UK SIC, BG NKID) but are not supported for now. Providers should drop eventual NACE National Extensions trailing digits.",
     "Values are taken from the euBusinessGraph NACE ConceptScheme. URL template: nace:([A-Z]|[0-9]{2}|[0-9]{2}\\.[0-9]{1,2}). Providers must use exact codes of the specified form",
     "Only the most specific classification code(s) should be provided since we have a skos:broader hierarchy.".
 
+ebg:orgActivityTransitive a owl:ObjectProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes skos:Concept;
+  rdfs:label "economic activity transitive" ;
+  skos:definition "Economic activity of the organization (all hierarchical NACE codes)" ;
+  skos:scopeNote "Transive closure of rov:orgActivity along the skos:broader hierarchy".
+  
 ebg:orgActivityText a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "economic activity text" ;

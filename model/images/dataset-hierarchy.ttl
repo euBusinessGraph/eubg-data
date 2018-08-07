@@ -20,10 +20,10 @@
   dct:type <dataset/free-available>;
   dct:license <https://opendatacommons.org/licenses/by/>;
   dct:publisher <http://opencorporates.com>;
-  void:subset <dataset/OCORP/UK>, <dataset/OCORP/HR>.
+  void:subset <dataset/OCORP/GB>, <dataset/OCORP/HR>.
 
-<dataset/OCORP/UK> a void:Dataset;
-  dct:title "OpenCorporates free dataset of UK companies";
+<dataset/OCORP/GB> a void:Dataset;
+  dct:title "OpenCorporates free dataset of GB (UK) companies";
   dct:type <dataset/free-available>;
   dct:license <https://opendatacommons.org/licenses/by/>.
 
