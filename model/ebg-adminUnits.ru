@@ -1,8 +1,8 @@
-# Addresses: transitively add higher adminUnitL* based on filled lower levels
 prefix ebg:     <http://data.businessgraph.io/ontology#>
 prefix locn:    <http://www.w3.org/ns/locn#>
 prefix spatial: <http://geovocab.org/spatial#>
 
+# Transitively add higher adminUnitLm based on filled lower levels adminUnitLn (where m<n)
 # We need these queries executed in order:
 # L5 <- L6
 # L4 <- L5
@@ -35,4 +35,11 @@ where {bind(locn:adminUnitL1 as ?level1)  bind(locn:adminUnitL2 as ?level2)
   ?adr ?level2 ?child.
   ?child spatial:PP ?parent. filter not exists {?adr ?level1 []}};
 
+# Put the most specific adminUnitLn (max n) in ebg:adminUnit, used for faceting
 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL6  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL5  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL4  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL3  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr locn:adminUnitL2 ?adm filter not exists {?adr ebg:adminUnit ?adm}};
+insert {?adr ebg:adminUnit ?adm} where  {?adr locn:adminUnitL1 ?adm filter not exists {?adr ebg:adminUnit ?adm}};

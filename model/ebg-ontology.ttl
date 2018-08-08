@@ -348,15 +348,17 @@ ebg:adminUnit a owl:ObjectProperty;
   rdfs:label "admin unit";
   schema:domainIncludes locn:Address;
   schema:rangeIncludes ramon:NUTSRegion, ebg:LAURegion;
-  skos:definition "All administrative units related to an address.";
-  skos:scopeNote "Union of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.".
+  skos:definition "Most specific administrative unit related to an address.";
+  skos:scopeNote "The lowest-level property of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.".
 
-locn:adminUnitL1 rdfs:subPropertyOf ebg:adminUnit.
-locn:adminUnitL2 rdfs:subPropertyOf ebg:adminUnit.
-ebg:adminUnitL3  rdfs:subPropertyOf ebg:adminUnit.
-ebg:adminUnitL4  rdfs:subPropertyOf ebg:adminUnit.
-ebg:adminUnitL5  rdfs:subPropertyOf ebg:adminUnit.
-ebg:adminUnitL6  rdfs:subPropertyOf ebg:adminUnit.
+  # skos:definition "All administrative units related to an address.";
+  # skos:scopeNote "Union of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.".
+# locn:adminUnitL1 rdfs:subPropertyOf ebg:adminUnit.
+# locn:adminUnitL2 rdfs:subPropertyOf ebg:adminUnit.
+# ebg:adminUnitL3  rdfs:subPropertyOf ebg:adminUnit.
+# ebg:adminUnitL4  rdfs:subPropertyOf ebg:adminUnit.
+# ebg:adminUnitL5  rdfs:subPropertyOf ebg:adminUnit.
+# ebg:adminUnitL6  rdfs:subPropertyOf ebg:adminUnit.
 
 ebg:adminUnitL3 a owl:ObjectProperty ;
   schema:domainIncludes locn:Address ;
