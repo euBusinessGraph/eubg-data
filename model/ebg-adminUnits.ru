@@ -37,9 +37,9 @@ where {bind(locn:adminUnitL1 as ?level1)  bind(locn:adminUnitL2 as ?level2)
 
 # Put the most specific adminUnitLn (max n) in ebg:adminUnit, used for faceting
 
-insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL6  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
-insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL5  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
-insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL4  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
-insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL3  ?adm filter not exists {?adr ebg:adminUnit ?adm}}; 
-insert {?adr ebg:adminUnit ?adm} where  {?adr locn:adminUnitL2 ?adm filter not exists {?adr ebg:adminUnit ?adm}};
-insert {?adr ebg:adminUnit ?adm} where  {?adr locn:adminUnitL1 ?adm filter not exists {?adr ebg:adminUnit ?adm}};
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL6  ?adm filter not exists {?adr ebg:adminUnit []}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL5  ?adm filter not exists {?adr ebg:adminUnit []}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL4  ?adm filter not exists {?adr ebg:adminUnit []}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr ebg:adminUnitL3  ?adm filter not exists {?adr ebg:adminUnit []}}; 
+insert {?adr ebg:adminUnit ?adm} where  {?adr locn:adminUnitL2 ?adm filter not exists {?adr ebg:adminUnit []}};
+insert {?adr ebg:adminUnit ?adm} where  {?adr locn:adminUnitL1 ?adm filter not exists {?adr ebg:adminUnit []}};
