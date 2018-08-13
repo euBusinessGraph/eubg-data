@@ -891,6 +891,13 @@ schema:dissolutionDate a owl:DatatypeProperty ;
   skos:example "2010-11"^^xsd:gYearMonth ;
   skos:example "2010"^^xsd:gYear .
 
+ebg:dissolutionYear a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:integer ;
+  rdfs:label "dissolution year" ;
+  skos:definition "Year the organization was dissolved or deregistered, as integer." ;
+  skos:scopeNote "Used for faceting." .
+
 schema:foundingDate a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:date, xsd:gYearMonth, xsd:gYear  ;
@@ -900,6 +907,13 @@ schema:foundingDate a owl:DatatypeProperty ;
   skos:example "2010-11-18"^^xsd:date ;
   skos:example "2010-11"^^xsd:gYearMonth ;
   skos:example "2010"^^xsd:gYear .
+
+ebg:foundingYear a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:integer ;
+  rdfs:label "founding year" ;
+  skos:definition "Year the organization was created, as integer." ;
+  skos:scopeNote "Used for faceting." .
 
 schema:email a owl:ObjectProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
