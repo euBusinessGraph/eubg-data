@@ -5,7 +5,7 @@
   dct:publisher <http://businessgraph.io>;
   dct:type <dataset/free-available>, <dataset/aggregation>;
   dct:license <https://opendatacommons.org/licenses/by/>;
-  void:subset <dataset/ONTO/BG>, <dataset/OCORP>, <dataset/SDATI/IT>, <dataset/BRC/NO>.
+  void:subset <dataset/ONTO/BG>, <dataset/OCORP>, <dataset/SDATI>, <dataset/BRC/NO>.
 
 ################ Free datasets by providers
 
@@ -32,9 +32,20 @@
   dct:type <dataset/free-available>;
   dct:license <https://opendatacommons.org/licenses/by/>.
 
+<dataset/SDATI> a void:Dataset;
+  dct:title "SpazioDati free dataset of IT and GB companies";
+  dct:publisher <https://spaziodati.eu>;
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  void:subset <dataset/SDATI/IT>, <dataset/SDATI/GB>.
+
 <dataset/SDATI/IT> a void:Dataset;
   dct:title "SpazioDati free dataset of IT companies";
-  dct:publisher <https://spaziodati.eu>;
+  dct:type <dataset/free-available>;
+  dct:license <https://opendatacommons.org/licenses/by/>.
+
+<dataset/SDATI/GB> a void:Dataset;
+  dct:title "SpazioDati free dataset of GB companies";
   dct:type <dataset/free-available>;
   dct:license <https://opendatacommons.org/licenses/by/>.
 
@@ -46,11 +57,11 @@
 
 ############# paid datasets
 
-<dataset/paid/SDATI/IT> a void:Dataset;
-  dct:title "SpazioDati paid dataset of IT companies";
+<dataset/paid/SDATI> a void:Dataset;
+  dct:title "SpazioDati paid dataset of IT and GB companies";
   dct:type <dataset/paid-advertised>;
   dct:description "euBusinessGraph only provides info about extra fields in this dataset.\nContact the publisher for commercial information";
-  void:subset <dataset/SDATI/IT>.
+  void:subset <dataset/SDATI>.
 
 <dataset/paid/OCORP> a void:Dataset;
   dct:title "OpenCorporates paid dataset of 147M companies from 128 jurisdictions";
