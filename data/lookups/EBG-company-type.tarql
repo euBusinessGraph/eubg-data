@@ -1,0 +1,21 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+prefix ebg:  <http://data.businessgraph.io/ontology#> 
+
+construct {
+  ?typeUrl a skos:Concept;
+    skos:inScheme ?schemeUrl;
+    skos:notation ?Code; # alphabetic: MANDATORY
+    ebg:order ?Notation; # numeric: OPTIONAL
+    skos:prefLabel ?English_Name, ?Local_name1
+} where {
+  filter(?Jurisd="BG") # only BG is ready for now
+  bind(<http://data.businessgraph.io/type/> as ?schemeUrl)
+  bind(uri(concat(str(?schemeUrl),?Jurisd,"/",?Code))) as ?typeUrl)
+  bind(strlang(?Local_name,?Lang) as ?Local_name1)
+}
+
+#Unused fields:
+# ?Count
+# ?Register
+# ?Parent_code -> skos:broader
+

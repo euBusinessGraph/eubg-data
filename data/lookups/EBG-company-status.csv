@@ -1,0 +1,8 @@
+﻿status,labelEn,descrEn,lang,labelLocal,descrLocal
+OCORP/inactive,inactive,"A variety of company statuses (e.g. ""Dissolved"", ""Inactive"", ""Revoked"") are mapped to ""Inactive"". In jurisdictions that do not provide company status information, ""Inactive"" is also inferred from dissolution dates that are in the past, where they exist."
+SDATI/inactive,inactive,"If the company has not filed a balance sheet for a long time, we assume it is Inactive (dormant)"
+BRC/inactive,inactive,Limited to companies under bankruptcy.
+LEI/active,active,"As of the last report or update, the legal entity reported that it was legally registered and operating."
+LEI/inactive,inactive,"It has been determined that the entity that was assigned the LEI is no longer legally registered and/or operating, whether as a result of business closure, acquisition by or merger with another (or new) entity, or determination of illegitimacy."
+BG/active,active,The company is active,bg,Активен търговец,Компанията е действаща
+BG/inactive,inactive,The company is closed for a variety of reasons or has failed to re-register in 2008 according to the law,bg,Заличен търговец,"Компанията е заличена поради различни причини, или не се е пререгистирала през 2008г според закона"

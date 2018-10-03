@@ -1,0 +1,13 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+
+construct {
+  ?statusUrl a skos:Concept;
+    skos:inScheme ?schemeUrl;
+    skos:prefLabel ?labelEn, ?labelLocal1;
+    skos:description ?descrEn, ?descrLocal1
+} where {
+  bind(<http://data.businessgraph.io/status/> as ?schemeUrl)
+  bind(uri(concat(str(?schemeUrl),?status)) as ?statusUrl)
+  bind(strlang(?labelLocal,?lang) as ?labelLocal1)
+  bind(strdescr(?labelLocal,?descr) as ?labelLocal1)
+}
