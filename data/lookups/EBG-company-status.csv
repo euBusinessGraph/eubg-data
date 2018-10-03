@@ -1,4 +1,4 @@
-﻿status,labelEn,descrEn,lang,labelLocal,descrLocal
+status,labelEn,descrEn,lang,labelLocal,descrLocal
 OCORP/inactive,inactive,"A variety of company statuses (e.g. ""Dissolved"", ""Inactive"", ""Revoked"") are mapped to ""Inactive"". In jurisdictions that do not provide company status information, ""Inactive"" is also inferred from dissolution dates that are in the past, where they exist."
 SDATI/inactive,inactive,"If the company has not filed a balance sheet for a long time, we assume it is Inactive (dormant)"
 BRC/inactive,inactive,Limited to companies under bankruptcy.

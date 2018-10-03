@@ -1,0 +1,46 @@
+@base          <http://data.businessgraph.io/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<status/OCORP/inactive>
+        rdf:type          skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:description  "A variety of company statuses (e.g. \"Dissolved\", \"Inactive\", \"Revoked\") are mapped to \"Inactive\". In jurisdictions that do not provide company status information, \"Inactive\" is also inferred from dissolution dates that are in the past, where they exist."@en .
+
+<status/SDATI/inactive>
+        rdf:type          skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:description  "If the company has not filed a balance sheet for a long time, we assume it is Inactive (dormant)"@en .
+
+<status/BRC/inactive>
+        rdf:type          skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:description  "Limited to companies under bankruptcy."@en .
+
+<status/LEI/active>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "active"@en ;
+        skos:description  "As of the last report or update, the legal entity reported that it was legally registered and operating."@en .
+
+<status/LEI/inactive>
+        rdf:type          skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:description  "It has been determined that the entity that was assigned the LEI is no longer legally registered and/or operating, whether as a result of business closure, acquisition by or merger with another (or new) entity, or determination of illegitimacy."@en .
+
+<status/BG/active>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "active"@en ;
+        skos:prefLabel    "Активен търговец"@bg ;
+        skos:description  "The company is active"@en ;
+        skos:description  "Компанията е действаща"@bg .
+
+<status/BG/inactive>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:prefLabel    "Заличен търговец"@bg ;
+        skos:description  "The company is closed for a variety of reasons or has failed to re-register in 2008 according to the law"@en ;
+        skos:description  "Компанията е заличена поради различни причини, или не се е пререгистирала през 2008г според закона"@bg .

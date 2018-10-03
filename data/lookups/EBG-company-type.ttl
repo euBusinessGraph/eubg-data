@@ -1,0 +1,162 @@
+@base          <http://data.businessgraph.io/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ebg:  <http://data.businessgraph.io/ontology#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<type/BG/ET>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "ET" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Sole Trader"@en ;
+        skos:prefLabel  "Едноличен търговец"@bg .
+
+<type/BG/SD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "SD" ;
+        ebg:order       "2" ;
+        skos:prefLabel  "General Partnership"@en ;
+        skos:prefLabel  "Събирателно дружество"@bg .
+
+<type/BG/KD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "KD" ;
+        ebg:order       "3" ;
+        skos:prefLabel  "Limited Partnership"@en ;
+        skos:prefLabel  "Командитно дружество"@bg .
+
+<type/BG/OOD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "OOD" ;
+        ebg:order       "4" ;
+        skos:prefLabel  "Limited Liability Company"@en ;
+        skos:prefLabel  "Дружество с ограничена отговорност"@bg .
+
+<type/BG/AD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "AD" ;
+        ebg:order       "5" ;
+        skos:prefLabel  "Joint-Stock Company"@en ;
+        skos:prefLabel  "Акционерно дружество"@bg .
+
+<type/BG/KDA>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "KDA" ;
+        ebg:order       "6" ;
+        skos:prefLabel  "Limited Partnership by shares"@en ;
+        skos:prefLabel  "Командитно дружество с акции"@bg .
+
+<type/BG/K>  rdf:type   skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "K" ;
+        ebg:order       "7" ;
+        skos:prefLabel  "Cooperative"@en ;
+        skos:prefLabel  "Кооперация"@bg .
+
+<type/BG/KCHT>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "KCHT" ;
+        ebg:order       "8" ;
+        skos:prefLabel  "Branch of a Foreign Trader"@en ;
+        skos:prefLabel  "Клон на чуждестранен търговец"@bg .
+
+<type/BG/TPP>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "TPP" ;
+        ebg:order       "9" ;
+        skos:prefLabel  "State Owned Enterprise"@en ;
+        skos:prefLabel  "Търговец публично предприятие"@bg .
+
+<type/BG/EOOD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "EOOD" ;
+        ebg:order       "10" ;
+        skos:prefLabel  "Single Limited Liability Company"@en ;
+        skos:prefLabel  "Еднолично Дружество с ограничена отговорност"@bg .
+
+<type/BG/EAD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "EAD" ;
+        ebg:order       "11" ;
+        skos:prefLabel  "Single Joint-Stock Company"@en ;
+        skos:prefLabel  "Еднолично Акционерно дружество"@bg .
+
+<type/BG/IAD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "IAD" ;
+        ebg:order       "12" ;
+        skos:prefLabel  "Joint-Stock Company with special investment purpose"@en ;
+        skos:prefLabel  "Акционерно дружество със специално инвестиционна цел"@bg .
+
+<type/BG/TPPD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "TPPD" ;
+        ebg:order       "13" ;
+        skos:prefLabel  "State Owned Enterprise - National"@en ;
+        skos:prefLabel  "Търговец публично предприятие -държавно"@bg .
+
+<type/BG/TPPO>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "TPPO" ;
+        ebg:order       "14" ;
+        skos:prefLabel  "State Owned Enterprise - Municipal"@en ;
+        skos:prefLabel  "Търговец публично предприятие -общинско"@bg .
+
+<type/BG/IEAD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "IEAD" ;
+        ebg:order       "15" ;
+        skos:prefLabel  "Single Joint-Stock Company with special investment purpose"@en ;
+        skos:prefLabel  "Еднолично Акционерно дружество със специално инвестиционна цел"@bg .
+
+<type/BG/EUIE>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "EUIE" ;
+        ebg:order       "16" ;
+        skos:prefLabel  "European Economic Interest Grouping (EEIG)"@en ;
+        skos:prefLabel  "Европейско обединение по икономически интереси ЕОИИ"@bg .
+
+<type/BG/DEUIE>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "DEUIE" ;
+        ebg:order       "17" ;
+        skos:prefLabel  "Division of European Economic Interest Grouping (EEIG)"@en ;
+        skos:prefLabel  "Поделение на ЕОИИ"@bg .
+
+<type/BG/ED>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "ED" ;
+        ebg:order       "18" ;
+        skos:prefLabel  "European Company"@en ;
+        skos:prefLabel  "Европейско дружество"@bg .
+
+<type/BG/EKD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "EKD" ;
+        ebg:order       "19" ;
+        skos:prefLabel  "European Cooperative Company"@en ;
+        skos:prefLabel  "Европейско кооперативно дружество"@bg .
+
+<type/BG/LEKD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "LEKD" ;
+        ebg:order       "20" ;
+        skos:prefLabel  "European Limited Cooperative Company"@en ;
+        skos:prefLabel  "Европейско кооперативно дружество с ограничена отговорност"@bg .
+
+<type/BG/CHD>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "CHD" ;
+        skos:prefLabel  "Company registered in a jurisdiction with preferential tax regime"@en ;
+        skos:prefLabel  "Дружество регистрирано в юрисдикция с преференциален данъчен режим"@bg .
+
+<type/BG/CHDF>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "CHDF" ;
+        skos:prefLabel  "Foreign sole trader"@en ;
+        skos:prefLabel  "Чуждестранно дружество - физическо лице"@bg .
+
+<type/BG/CHDU>  rdf:type  skos:Concept ;
+        skos:inScheme   <type> ;
+        skos:notation   "CHDU" ;
+        skos:prefLabel  "Foreign trader"@en ;
+        skos:prefLabel  "Чуждестранно дружество - юридическо лице"@bg .
