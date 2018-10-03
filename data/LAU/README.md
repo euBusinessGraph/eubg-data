@@ -34,13 +34,14 @@ bash loop.sh convert-lau1.tarql ../codes.tsv ../data/LAU1/ ../rdf/ lau4
 bash loop.sh convert.tarql ../codes.tsv ../data/LAU2/ ../rdf/ lau5 ","
 ```
 # LAU 1
-LAU1 is the same as NUTS3 for these countries:
+LAU1 is not used (it's the same as NUTS3) for these countries:
 * AT
 * BE
 * HR
 * ES
 * IT
 * NL
+* NO
 * RO
 * SE
 For all other countries the LAU1 codes is different from NUTS3 and should be extracted.
@@ -48,9 +49,9 @@ For all other countries the LAU1 codes is different from NUTS3 and should be ext
 We used the official Eurostat excel [EU-28_LAU_2016.xlsx](./data/EU-28_LAU_2016.xlsx)
 
 ## Extraction Based on LAU2 With Largest Population
-We couldnt' find LAU1 data that has both region name and code.
-LAU2 doesn't have that defect, so we decided to use the name of the largest LAU2 region in terms of population as name for the LAU1 name.
-Examples with BG:
+We couldn't find LAU1 data that has both region name and code.
+LAU2 doesn't have that defect, so we decided to use the name of the largest LAU2 region in terms of population as LAU1 name too.
+Examples for BG:
 
 NUTS3 | LAU1  |  LAU2 | name BG | name EN | population |      area | comment
 ------|-------|-------|---------|---------|------------|-----------|--------------------------------------------------------------------------------
@@ -88,8 +89,9 @@ Evaluation:
 * UK - 406 / 443
 
 ## Seeking of different sources
-* CY - Match by hand (DONE)
-* FR - Use of wikidata. 3515 Results of 3785. See query below
+* CH - We used the official [CH register](https://www.bfs.admin.ch/bfs/fr/home/bases-statistiques/repertoire-officiel-communes-suisse.assetdetail.2245009.html)
+* CY - Match by hand
+* FR - Used wikidata. 3515 Results of 3785. See query below:
 
 ```sparql
 prefix ramon:  <http://rdfdata.eionet.europa.eu/ramon/ontology/>
@@ -105,23 +107,21 @@ construct
   filter(lang(?label) = 'en' || lang(?label) = 'fr')
 }
 ```
-* IE - Match by hand. According to [wikipedia](https://en.wikipedia.org/wiki/Local_administrative_unit)
-there should be 34 LAU1 codes. In Eurostat data there are only 6 LAU1 codes.
+* IE - Match by hand. According to [wikipedia](https://en.wikipedia.org/wiki/Local_administrative_unit) there should be 34 LAU1 codes. In Eurostat data there are only 6 LAU1 codes.
 There are 8 NUTS3 codes. This leads to the conclusion that LAU1 isn't a subregion of NUTS3.
 Probably should bypass it. Also see [IE LAU](https://en.wikipedia.org/wiki/Local_government_in_the_Republic_of_Ireland).
+* IS - used Wikipedia: [LAU1](https://en.wikipedia.org/wiki/Regions_of_Iceland), [LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Iceland)
+* LI - used Wikipedia: [LAU1+LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein)
 * LT - Skipped
-* IS - [LAU1](https://en.wikipedia.org/wiki/Regions_of_Iceland), [LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Iceland)
-* ME - [NUTS](https://en.wikipedia.org/wiki/NUTS_of_Montenegro), [LAU1](https://en.wikipedia.org/wiki/Municipalities_of_Montenegro)
+* ME - used Wikipedia: [NUTS](https://en.wikipedia.org/wiki/NUTS_of_Montenegro), [LAU1](https://en.wikipedia.org/wiki/Municipalities_of_Montenegro)
+* NO - used Wikipedia: [LAU2](https://en.wikipedia.org/wiki/List_of_municipalities_of_Norway); [cleaned data](https://docs.google.com/spreadsheets/d/14_dAPjSz1Rarwi1JZDDZ2Q9dSIHSXd2ede5wwqKOPlE/edit#gid=0)
 * TR - We weren't able to find structured LAU data for Turkey.
-Thus we crawled [TR Municipalities](https://en.wikipedia.org/wiki/List_of_municipalities_in_Turkey) (LAU1) and it's subpages from wikipedia.
+  Thus we crawled [TR Municipalities](https://en.wikipedia.org/wiki/List_of_municipalities_in_Turkey) (LAU1) and it's subpages from wikipedia.
 From them we extracted the hierarchy.
 The official file [IBBS_2010.xls](https://biruni.tuik.gov.tr/DIESS/FileDownload/Yayinlar/Siniflamalar/IBBS_2010.xls) includes NUTS+LAU1.
 The LAU1 extracted from wikipedia were mapped to the excel above and the LAU1 ID was used. 737 Districts were mapped to the LAU code.
 The others were given incremental ids from 9901 to 9995.
 As we couldn't find LAU2 IDs we applied incremental ids from 99901 to 102644.
-* LI - [LAU1+LAU2](https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein)
-* NO - [LAU2](https://en.wikipedia.org/wiki/List_of_municipalities_of_Norway); [cleanded data](https://docs.google.com/spreadsheets/d/14_dAPjSz1Rarwi1JZDDZ2Q9dSIHSXd2ede5wwqKOPlE/edit#gid=0)
-* CH -  We used the official [register](https://www.bfs.admin.ch/bfs/fr/home/bases-statistiques/repertoire-officiel-communes-suisse.assetdetail.2245009.html)
 
 # LAU 2
 Countries:

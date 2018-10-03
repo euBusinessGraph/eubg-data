@@ -1,0 +1,12 @@
+concept,notation,label,scopeNote,description
+resolution/L0,10,continent,,coordinate corresponds to not even country (least precise)
+resolution/L1,20,country,,coordinate corresponds to locn:adminUnitL1
+resolution/L2,30,macroregion,NUTS1,coordinate corresponds to locn:adminUnitL2
+resolution/L3,40,region,NUTS2,coordinate corresponds to ebg:adminUnitL3
+resolution/L4,50,province,NUTS3,coordinate corresponds to ebg:adminUnitL4
+resolution/L5,60,municipality,LAU1,coordinate corresponds to ebg:adminUnitL5
+resolution/L6,65,settlement,LAU2,coordinate corresponds to ebg:adminUnitL6 and/or locn:postName
+resolution/L7,70,neighborhood,,coordinate corresponds to locn:addressArea
+resolution/L8,80,street,,coordinate corresponds to locn:thoroughfare
+resolution/L9,90,building,,coordinate corresponds to locn:locatorDesignator
+resolution/L10,100,precise point,,coordinate corresponds to locn:locatorDesignator (most precise)
