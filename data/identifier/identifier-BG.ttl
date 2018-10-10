@@ -59,7 +59,7 @@ Also used in BG BULSTAT Register (other organizations)""";
   ebg:identifierWebResource <identifier/BG/GUID/resource>.
 
 <identifier/BG/GUID/resource> a ebg:IdentifierWebResource;
-  schema:name "BG TR company page"
+  schema:name "BG TR company page";
   dc:format "text/html";
   schema:inLanguage "bg";
   ebg:urlTemplate "https://public.brra.bg/CheckUps/Verifications/ActiveCondition.ra?guid={}".
