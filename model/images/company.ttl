@@ -131,11 +131,11 @@
   schema:inLanguage "(resouce_lang)";
   schema:url <http://(resource2_url)>.
 
-<identifier/(provider)/resource/2> a ebg:WebResource;
+<identifier/(provider)/resource/2> a ebg:IdentifierWebResource;
   schema:name "(resource2_name)";
   dc:format "(MIME_type2)";
   schema:inLanguage "(resouce2_lang)";
-  schema:url <http://(per_company_url2_$1)>.
+  ebg:urlTemplate "http://(per_company_url2_$1)".
 
 <identifier/(provider)/issuer> a schema:Organization;
   schema:name "(provider_name)".

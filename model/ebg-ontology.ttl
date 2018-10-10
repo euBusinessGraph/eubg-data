@@ -538,6 +538,7 @@ ebg:orgTypeText a owl:DatatypeProperty ;
   skos:example "Private Limited Company"@en ;
   skos:example "Дружество с ограничена отговорност"@bg ;
   skos:example "Società a responsabilità limitata"@it .
+
 ebg:ralCode a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "identifier system RAL code" ;

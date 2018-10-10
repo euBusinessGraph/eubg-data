@@ -1,0 +1,69 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <http://schema.org/> .
+
+<identifier/BG> a ebg:IdentifierSystem;
+  dct:creator <https://www.registryagency.bg>;
+  schema:author <https://www.registryagency.bg>;
+  schema:publisher <https://www.registryagency.bg>;
+  skos:notation "BG";
+  dbo:jurisdiction "BG";
+  schema:name "BG EIK/BULSTAT";
+  schema:description """Official identifier of companies in BG Trade Register (EIK). 
+Also used in BG BULSTAT Register (other organizations)""";
+  ebg:ralCode "RA000065";
+  schema:url <https://www.registryagency.bg/bg/registri/targovski-registar/>, <http://brra.bg/>;
+  schema:license <http://opendefinition.org/licenses/cc-zero/>;
+    # Pertains to opendata export.
+    # For other renditions: <https://www.registryagency.bg/bg/registri/targovski-registar/predostavyane-sreshtu-zaplashtane-na-cyalata-baza-danni/>
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;
+  ebg:validationRule <https://www.kik-info.com/proverki/proverka-na-bulstat.php>;
+  ebg:validationRegex "\\d{9}(\\d{4})?";
+  ebg:webResource <identifier/BG/xml>.
+
+<identifier/BG/xml> a ebg:WebResource;
+  schema:name "BG Trade Register open data";
+  dc:format "application/xml";
+  schema:license <http://opendefinition.org/licenses/cc-zero/>;
+  schema:description "All company filings from 2008 to 2018-06.\nPeriodic updates every 3-8 months.";
+  schema:inLanguage "bg";
+  schema:url <https://opendata.government.bg/dataset/tbprobckn-pernctbp>.
+
+<identifier/BG/GUID> a ebg:IdentifierSystem;
+  dct:creator <https://www.registryagency.bg>;
+  schema:author <https://www.registryagency.bg>;
+  schema:publisher <https://www.registryagency.bg>;
+  skos:notation "BG/GUID";
+  dbo:jurisdiction "BG";
+  schema:name "BG GUID";
+  schema:description "GUID that allows access to per-company page. Requires entering a captcha";
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false;
+  ebg:validationRegex "\\w+";
+  ebg:identifierWebResource <identifier/BG/GUID/resource>.
+
+<identifier/BG/GUID/resource> a ebg:IdentifierWebResource;
+  schema:name "BG TR company page"
+  dc:format "text/html";
+  schema:inLanguage "bg";
+  ebg:urlTemplate "https://public.brra.bg/CheckUps/Verifications/ActiveCondition.ra?guid={}".
+
+<https://www.registryagency.bg> a schema:Organization;
+  schema:name "BG Registry Agency"@en, "Агенция по вписванията"@bg;
+  schema:description "Issues BG EIK to companies and BG BULSTAT to other organizations".

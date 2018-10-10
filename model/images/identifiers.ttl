@@ -1,34 +1,91 @@
-<company/UK/2176594>
+<company/GB/2176594>
   a rov:RegisteredOrganization;
-  puml:label "Company with official UK ID";
-  rov:registration <company/UK/2176594/id>;
-  adms:identifier <company/UK/2176594/id/OCORP>.
+  puml:label "Company with official GB ID";
+  rov:registration <company/GB/2176594/id>;
+  adms:identifier <company/GB/2176594/id/OCORP>.
 
-<company/UK/2176594/id>
+<company/GB/2176594/id>
   a adms:Identifier;
-  skos:notation "7444723"^^<register/UK>;
-  dct:creator <register/UK>.
+  skos:notation "7444723";
+  dct:creator <http://companieshouse.gov.uk>;
+  dct:isPartOf <identifier/GB>.
 
-<register/UK>
-  a ebg:Register;
-  schema:name "UK Companies House"@en;
-  schema:url <http://companieshouse.gov.uk>;
-  ebg:urlTemplate "https://beta.companieshouse.gov.uk/company/{}";
-  ebg:dataUrlTemplate "http://data.companieshouse.gov.uk/doc/company/{}";
-  ebg:semanticUrlTemplate "http://business.data.gov.uk/id/company/{}";
-  dbo:jurisdiction "UK".
-# TODO: model all mime-types: rdf json xml html csv yaml
-# eg see http://data.companieshouse.gov.uk/doc/company/06368740
+<http://companieshouse.gov.uk> a schema:Organization;
+  schema:name "GB Companies House"@en.
 
-<company/UK/2176594/id/OCORP>
-  a adms:Identifier;
-  skos:notation "gb/07444723"^^<register/OCORP>;
-  dct:creator <register/OCORP>.
+<identifier/GB> a ebg:IdentifierSystem;
+  dct:creator <http://companieshouse.gov.uk>;
+  schema:author <http://companieshouse.gov.uk>;
+  schema:issuer <http://companieshouse.gov.uk>;
+  dbo:jurisdiction "GB";
+  ebg:isOfficial true;
+  ebg:ralCode "RA000586", "RA000587"; # TODO two more
+  ebg:identifierWebResource <identifier/GB/semantic>, <identifier/GB/web>, <identifier/GB/html>, <identifier/GB/rdf>.
 
-<register/OCORP>
-  a ebg:Register;
-  schema:name "OpenCorporates companies";
+<identifier/GB/web> a ebg:IdentifierWebResource;
+  schema:name "GB company page";
+  dc:format "text/html";
+  schema:inLanguage "en";
+  ebg:urlTemplate "https://beta.companieshouse.gov.uk/company/{}".
+
+<identifier/GB/semantic> a ebg:IdentifierWebResource;
+  schema:name "GB company semantic URL";
+  schema:description "Provides data in RDF, JSON, XML, HTML, CSV, YAML using content negotiation";
+  dc:format "application/rdf+xml", "application/json", "application/xml", "text/html", "text/csv", "text/vnd.yaml";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}".
+# TODO: describe direct URLs for all mime-types, eg see http://data.companieshouse.gov.uk/doc/company/06368740, and see 2 examples below.
+
+<identifier/GB/html> a ebg:IdentifierWebResource;
+  schema:name "GB company data page";
+  dc:format "text/html";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.html".
+  
+<identifier/GB/rdf> a ebg:IdentifierWebResource;
+  schema:name "GB company RDF data";
+  dc:format "application/rdf+xml";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.rdf".
+
+<company/GB/2176594/id/OCORP> a adms:Identifier;
+  skos:notation "gb/07444723";
+  dct:creator <https://opencorporates.com>;
+  dct:isPartOf <identifier/OCORP>.
+
+####################
+
+<https://opencorporates.com> a schema:Organization;
+  schema:name "OpenCorporates".
+
+<identifier/OCORP> a ebg:IdentifierSystem;
+  schema:name "OCORP company identifier";
+  schema:author <https://opencorporates.com>;
+  schema:description "Aggregation of official register identifiers by OpenCorporates.\nIdentifiers are issued by official registers, not OpenCorporates";
+  skos:example "gb/123456";
+  ebg:identifierWebResource <identifier/OCORP/web>, <identifier/OCORP/json>, <identifier/OCORP/xml>, <identifier/OCORP/rdf>.
+
+<identifier/OCORP/web> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company page";
+  dc:format "text/html";
   ebg:urlTemplate "https://opencorporates.com/id/companies/{}".
+
+<identifier/OCORP/json> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company JSON";
+  dc:format "application/json";
+  ebg:urlTemplate "https://api.opencorporates.com/companies/{}".
+  
+<identifier/OCORP/xml> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company XML";
+  dc:format "application/xml";
+  ebg:urlTemplate "https://api.opencorporates.com/companies/{}?format=xml".
+  
+<identifier/OCORP/rdf> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company RDF";
+  dc:format "application/rdf+xml";
+  ebg:urlTemplate "https://opencorporates.com/companies/bg/{}.rdf".
+
+####################
 
 <company/ATOKA/6da785>
   a rov:RegisteredOrganization;
@@ -38,48 +95,84 @@
 
 <company/ATOKA/6da785/id/REA>
   a adms:Identifier;
-  skos:notation "TN210089"^^<register/IT/REA/TN>;
+  skos:notation "TN210089";
+  dct:isPartOf <identifier/IT/REA>;
   dct:creator <register/IT/REA/TN>.
 
-<register/IT/REA/TN>
-  a ebg:Register;
-  schema:name "Repertorio Economico Amministrativo - TN"@it;
+<identifier/IT/REA> a ebg:IdentifierSystem;
+  dbo:jurisdiction "IT";
+  dct:creator <register/IT/REA>;
+  schema:issuer <register/IT/REA>.
+  
+<register/IT/REA/TN> a schema:Organization;
+  schema:name "Repertorio Economico Amministrativo - Trento"@it;
   dct:isPartOf <register/IT/REA>.
 
-<register/IT/REA>
-  a ebg:Register;
+<register/IT/REA> a schema:Organization;
   schema:name "Repertorio Economico Amministrativo"@it;
-  dbo:jurisdiction "it".
+  dbo:jurisdiction "IT".
 
-<company/ATOKA/6da785/id>
-  a adms:Identifier;
-  skos:notation "6da785"^^<register/ATOKA>;
-  dct:creator <register/ATOKA>.
+<company/ATOKA/6da785/id> a adms:Identifier;
+  skos:notation "6da785";
+  dct:isPartOf <identifier/ATOKA>;
+  dct:creator <https://atoka.io>.
 
-<register/ATOKA>
-  a ebg:Register;
-  schema:name "atoka.io company information";
-  schema:url <http://atoka.io>;
+<identifier/ATOKA> a ebg:IdentifierSystem;
+  schema:name "atoka.io company identifier";
+  dct:creator <https://atoka.io>;
+  schema:author <https://atoka.io>;
+  schema:issuer <https://atoka.io>;
+  ebg:identifierWebResource <identifier/ATOKA/web>.
+
+<identifier/ATOKA/web> a ebg:IdentifierWebResource;
+  schema:name "atoka.io company page";
+  dc:format "text/html";
   ebg:urlTemplate "https://atoka.io/en/azienda/-/{}/".
+
+####################
 
 <company/NO/974760673>
   a rov:RegisteredOrganization;
   puml:label "Company with official NO ID";
-  rov:registration <company/no/974760673/id>.
+  rov:registration <company/NO/974760673/id>.
 
 <company/NO/974760673/id>
   a adms:Identifier;
-  skos:notation "974760673"^^<register/NO>;
-  dct:creator <register/NO>.
+  skos:notation "974760673";
+  dct:creator <http://brreg.no>;
+  dct:isPartOf <identifier/NO>.
 
-<register/NO>
-  a ebg:Register;
-  schema:name "NO Brønnøysundregistrene - companies"@no;
+<http://brreg.no> a schema:Organization;
+  schema:name "NO Brønnøysundregistrene"@no.
+  
+<identifier/NO> a ebg:IdentifierSystem;
+  schema:name "NO Brønnøysundregistrene company id";
+  dct:creator <http://brreg.no>;
+  schema:author <http://brreg.no>;
+  schema:issuer <http://brreg.no>;
   schema:url <http://data.brreg.no>;
-  ebg:urlTemplate "http://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}";
-  ebg:dataUrlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}";
-  dbo:jurisdiction "NO".
+  dbo:jurisdiction "NO";
+  ebg:identifierWebResource <identifier/NO/web>, <identifier/NO/data>.
 
-## TODO: use http://iatistandard.org/202/codelists/OrganisationRegistrationAgency/, and extend it (email of 20 May 2017)
+<identifier/NO/web> a ebg:IdentifierWebResource;
+  schema:name "NO company page";
+  schema:inLanguage "no";
+  dc:format "text/html";
+  ebg:urlTemplate "http://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}".
 
-schema:url a puml:InlineProperty.
+<identifier/NO/data> a ebg:IdentifierWebResource;
+  schema:name "NO company RDF";
+  schema:inLanguage "no";
+  dc:format "application/rdf+xml";
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
+
+####################
+
+schema:url         a puml:InlineProperty.
+<identifier/OCORP> puml:up     <identifier/OCORP/rdf>.
+<identifier/OCORP> puml:down-2 <identifier/OCORP/json>.
+<identifier/OCORP> puml:down-3 <identifier/OCORP/xml>.
+<identifier/GB>    puml:up     <identifier/GB/html>.
+<identifier/GB>    puml:down-2 <identifier/GB/web>.
+<identifier/GB>    puml:down-3 <identifier/GB/rdf>.
+<identifier/NO>    puml:up     <identifier/NO/web>.
