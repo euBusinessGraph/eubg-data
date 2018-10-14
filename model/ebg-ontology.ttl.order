@@ -1,0 +1,124 @@
+# Company (schema:domainIncludes rov:RegisteredOrganization)
+rov:legalName
+skos:prefLabel
+skos:altLabel
+rov:orgType
+ebg:orgTypeText
+ebg:isStartup
+ebg:isStateOwned
+ebg:isPubliclyTraded
+rov:orgStatus
+ebg:orgStatusText
+rov:orgActivity
+ebg:orgActivityText
+ebg:orgActivityTransitive
+schema:foundingDate
+ebg:foundingYear
+schema:dissolutionDate
+ebg:dissolutionYear
+schema:availableLanguage
+schema:url  # also ebg:WebResource
+schema:sameAs
+schema:email
+sioc:feed
+dbo:jurisdiction
+org:hasRegisteredSite
+org:hasSite
+rov:registration
+adms:identifier
+
+# Site (schema:domainIncludes org:Site)
+org:siteAddress
+
+# Address (schema:domainIncludes locn:Address)
+locn:fullAddress
+# ebg:adminUnit
+locn:adminUnitL1
+locn:adminUnitL2
+ebg:adminUnitL3
+ebg:adminUnitL4
+ebg:adminUnitL5
+ebg:adminUnitL6
+locn:postName
+locn:addressArea
+locn:thoroughfare
+locn:locatorDesignator
+locn:postCode
+locn:poBox
+schema:geo
+
+# GeoCoordinates (schema:domainIncludes schema:GeoCoordinates)
+schema:latitude
+schema:longitude
+ebg:geoResolution
+
+# Identifier System (schema:domainIncludes ebg:IdentifierSystem)
+schema:author
+dct:creator
+schema:publisher
+dbo:jurisdiction  # and here we have kind of a problem: ordering is for ebgIdentifierSystem or for rov:RegisteredOrganization?
+skos:notation  # also adms:Identifier
+ebg:ralCode
+schema:license  # also void:Dataset
+ebg:isUnique
+ebg:isSingleValued
+ebg:isPersistent
+ebg:isImmutable
+ebg:isPublic
+ebg:isDumb
+ebg:isEnumerated
+ebg:isOfficial
+ebg:validationRule
+ebg:validationRegex
+ebg:replacementPattern
+ebg:identifierWebResource
+ebg:webResource  # also void:Dataset
+
+# Web Resource (schema:domainIncludes ebg:WebResource)
+schema:url  # also rov:RegisteredOrganization
+schema:name
+dc:format
+schema:inLanguage
+
+# Identifier Web Resource schema:domainIncludes ebg:IdentifierWebResource
+# (extends ebg:WebResource)
+ebg:urlTemplate
+
+# Identifier (schema:domainIncludes adms:Identifier)
+skos:notation  # also ebg:IdentifierSystem
+dct:isPartOf
+dct:creator
+dct:issued
+schema:expires
+
+# Datasets (schema:domainIncludes void:Dataset)
+dct:type
+dct:license
+dct:publisher
+dct:creator
+# source info
+  ebg:webResource
+  dct:source
+# ebg:IdentifierSystem  # TODO
+# statistical/partition info
+  dct:type
+  dct:spatial
+  void:entities
+  void:classPartition
+  void:propertyPartition
+dct:title
+dct:description
+dct:subject
+dct:date
+dct:created
+dct:published
+dct:modified
+dct:accrualPeriodicity
+foaf:homepage
+foaf:page
+void:sparqlEndpoint
+void:dataDump
+void:exampleResource
+void:uriSpace
+void:features
+void:vocabulary
