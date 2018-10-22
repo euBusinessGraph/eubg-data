@@ -1,4 +1,4 @@
-  
+
 <company/GB/08716467> a rov:RegisteredOrganization;
   rov:legalName "LINKED DATA BENCHMARK COUNCIL".
 
@@ -17,8 +17,8 @@
   org:role <role/director>;
   ebg:status <officer/status/active>;
   org:memberDuring <officer/OCORP/193379729/interval>.
-      
-<officer/OCORP/193379729/interval> a time:Interval; 
+
+<officer/OCORP/193379729/interval> a time:Interval;
   time:hasBeginning <officer/OCORP/193379729/beginning>.
 
 <officer/OCORP/193379729/beginning> a time:Instant;
@@ -42,7 +42,7 @@
   ebg:status <officer/status/active>;
   org:memberDuring <company/BG/200356710/executive/interval>.
 
-<company/BG/200356710/executive/interval> a time:Interval; 
+<company/BG/200356710/executive/interval> a time:Interval;
   time:hasBeginning <company/BG/200356710/executive/beginning>.
 
 <company/BG/200356710/executive/beginning> a time:Instant;
@@ -55,13 +55,49 @@
   ebg:status <officer/status/active>;
   org:memberDuring <company/BG/200356710/directors/interval>.
 
-<company/BG/200356710/directors/interval> a time:Interval; 
+<company/BG/200356710/directors/interval> a time:Interval;
   time:hasBeginning <company/BG/200356710/directors/beginning>.
 
 <company/BG/200356710/directors/beginning> a time:Instant;
   time:inXSDDateTime "2017-07-11T14:53:27"^^xsd:dateTime.
 
 ####################
+
+<company/ATOKA/6da785b3adf2> a rov:RegisteredOrganization;
+  puml:label "SPAZIODATI S.R.L.".
+
+<officer/ATOKA/pBeekyKq7HIT4RfwU7> a person:Person;
+  person:birthName "Michele Barbera".
+
+<role/ATOKA/consigliere> a org:Role;
+  rdfs:label "Consigliere"@it .
+
+<company/ATOKA/6da785b3adf2/officers/1> a org:Membership;
+  org:member <person/ATOKA/pBeekyKq7HIT4RfwU7>;
+  org:organization <company/ATOKA/6da785b3adf2>;
+  org:role <role/ATOKA/consigliere>;
+  org:memberSince [
+    a owlTime:Interval;
+    owlTime:hasBeginning [
+      owlTime:inXSDDateTime "2012/12/20T00:00:00Z"^^xsd:dateTime
+    ]
+  ] .
+
+<role/ATOKA/amministratore-delegato> a org:Role;
+  rdfs:label "Amministratore Delegato"@it .
+
+<company/ATOKA/6da785b3adf2/officers/2> a org:Membership;
+  org:member <person/ATOKA/pBeekyKq7HIT4RfwU7>;
+  org:organization <company/ATOKA/6da785b3adf2>;
+  org:role <role/ATOKA/amministratore-delegato>;
+  org:memberSince [
+    a owlTime:Interval;
+    owlTime:hasBeginning [
+        owlTime:inXSDDateTime "2017/04/20T00:00:00Z"^^xsd:dateTime
+    ]
+  ] .
+
+############
 
 org:role           a puml:InlineProperty.
 person:citizenship a puml:InlineProperty.
