@@ -1,0 +1,70 @@
+<register/IT/REA> a ebg:Register;  # identifies company sites
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;  # in cases of fusion, a company's site can have more than one
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb false;  # they also encode the province of the issuer
+  ebg:isEnumerated true;  # the local chamber of commerce keeps track of all of them
+  ebg:isOfficial true.  # official identifier of company sites in Italy
+  # validation
+  ebg:validationRule
+    <http://www.registroimprese.it/codice-fiscale-p.iva-rea>;  # some details of the rule
+  ebg:validationRegex "\\d{11}".
+
+<register/IT> a ebg:Register;  # identifies companies
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;
+  ebg:isPersistent true;
+  ebg:isImmutable true;  # homocodes again...
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true.  # official identifier of Italian companies
+  # validation
+  ebg:validationRule
+    <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # some details of the rule
+  ebg:validationRegex "\\d{11}".
+
+<register/ATOKA> a ebg:Register;  # company identifiers within the Atoka Company Database
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false.
+  # validation
+  ebg:validationRegex "[a-f0-9]{12}".
+
+<register/people/ATOKA> a ebg:Register;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false.
+  # validation
+  ebg:validationRegex "p[A-Za-z0-9]{17}".
+
+<register/people/IT> a ebg:Register;
+  # characteristics
+  ebg:isUnique true;  # although there were homocodes for single-person companies, so historical records could still present this
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;  # homocodes again...
+  ebg:isPublic true;
+  ebg:isDumb false;  # encodes place and date of birth
+  ebg:isEnumerated true;
+  ebg:isOfficial true.  # for econocmic/taxation/health purposes
+  # validation
+  ebg:validationRule
+    <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # natural language spec of the rule
+  ebg:validationRegex "[A-Z]{6}\\d{2}[ABCDEHLMPRST]\\d{2}[A-Z]\\d{3}[A-Z]".  # eg: PNGDDJ78L30Z610V
