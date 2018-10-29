@@ -11,6 +11,7 @@ where {
   ?x dct:creator <register/BG>
 };
 
+base        <http://data.businessgraph.io/>
 delete {
   ?x dct:creator <register/BG/GUID>
 }

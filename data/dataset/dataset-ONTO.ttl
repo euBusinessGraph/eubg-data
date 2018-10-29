@@ -1,0 +1,94 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<dataset/ONTO> a void:Dataset;
+  dct:title "Ontotext dataset, fully provided to EBG";
+  dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <http://ontotext.com>;
+  void:subset <dataset/ONTO/BG>.
+
+<dataset/ONTO/BG> a void:Dataset;
+  dct:title "Ontotext dataset of BG companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:BG;
+  void:entities 950486;
+  void:classPartition <dataset/ONTO/BG/address>, <dataset/ONTO/BG/person>, <dataset/ONTO/BG/membership>;
+  void:property
+    adms:identifier,
+    dbo:jurisdiction,
+    dct:creator ,
+    dct:isPartOf ,
+    ebg:adminUnit,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    ebg:foundingYear,
+    ebg:orgActivityText,
+    ebg:orgStatusText,
+    ebg:orgTypeText,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    locn:locatorDesignator,
+    locn:postCode,
+    locn:postName,
+    locn:thoroughfare,
+    org:hasRegisteredSite,
+    org:hasSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    rov:orgActivity,
+    rov:orgStatus,
+    rov:orgType,
+    rov:registration,
+    schema:availableLanguage,
+    schema:dissolutionDate,
+    schema:foundingDate,
+    schema:url,
+    skos:altLabel,
+    skos:notation,
+    skos:prefLabel;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:source <http://brra.bg/>, <http://www.registryagency.bg/bg/registri/targovski-registar/>, <http://opendata.government.bg/dataset/tbprobckn-pernctbp>.
+
+<dataset/ONTO/BG/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 1031043.
+<dataset/ONTO/BG/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  659166.
+<dataset/ONTO/BG/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 1476681.
+
+<http://brra.bg/> a ebg:WebResource;
+  schema:url <http://brra.bg/>;
+  schema:name "BG Registry Agency: homepage"@en, "Агенция по вписванията"@bg;
+  dc:format "text/html";
+  schema:inLanguage "bg".
+  
+<http://www.registryagency.bg/bg/registri/targovski-registar/> a ebg:WebResource;
+  schema:url <http://www.registryagency.bg/bg/registri/targovski-registar/>;
+  schema:name "BG Trade Register: homepage"@en, "Търговски регистър"@bg;
+  dc:format "text/html";
+  schema:inLanguage "bg".
+
+<http://opendata.government.bg/dataset/tbprobckn-pernctbp> a ebg:WebResource;
+  schema:url <http://opendata.government.bg/dataset/tbprobckn-pernctbp>;
+  schema:name "BG Trade Register: open data"@en, "Търговски регистър: отворени данни"@bg;
+  dc:format "application/xml";
+  schema:inLanguage "bg".
+

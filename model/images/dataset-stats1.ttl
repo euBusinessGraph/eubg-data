@@ -1,7 +1,7 @@
-<dataset/paid/SDATI/IT>
-  void:propertyParition [dct:type <dataset/partition>; void:property ebg:isStartup;
-    vext:objectPartition [dct:type <dataset/partition>; void:object true;
-      void:triples 10000]].
+<dataset/SDATI/IT>
+  void:propertyParition [dct:type <dataset/type/partition>; void:property ebg:isStartup;
+    vext:objectPartition [dct:type <dataset/type/partition>; void:object true;
+      void:triples 9000]].
 
 
 ####################

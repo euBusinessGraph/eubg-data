@@ -14,7 +14,7 @@
 <officer/OCORP/193379729/membership> a org:Membership;
   org:organization <company/GB/08716467>;
   org:member <officer/OCORP/193379729>;
-  org:role <role/director>;
+  org:role <role/BG/director>;
   ebg:status <officer/status/active>;
   org:memberDuring <officer/OCORP/193379729/interval>.
 
@@ -22,7 +22,7 @@
   time:hasBeginning <officer/OCORP/193379729/beginning>.
 
 <officer/OCORP/193379729/beginning> a time:Instant;
-  time:inXSDDateTime "2014-01-01T00:00:00"^^xsd:dateTime.
+  time:inXSDDateTime "2014-01-01"^^xsd:date.
 
 ####################
 
@@ -38,7 +38,7 @@
 <company/BG/200356710/executive> a org:Membership;
   org:organization <company/BG/200356710>;
   org:member <officer/BG/927542697493467>;
-  org:role <role/executive>;
+  org:role <role/BG/executive>;
   ebg:status <officer/status/active>;
   org:memberDuring <company/BG/200356710/executive/interval>.
 
@@ -51,7 +51,7 @@
 <company/BG/200356710/directors> a org:Membership;
   org:organization <company/BG/200356710>;
   org:member <officer/BG/927542697493467>, <officer/BG/503827460204097>;
-  org:role <role/director>;
+  org:role <role/BG/director>;
   ebg:status <officer/status/active>;
   org:memberDuring <company/BG/200356710/directors/interval>.
 
@@ -66,36 +66,39 @@
 <company/ATOKA/6da785b3adf2> a rov:RegisteredOrganization;
   puml:label "SPAZIODATI S.R.L.".
 
-<officer/ATOKA/pBeekyKq7HIT4RfwU7> a person:Person;
+<person/ATOKA/pBeekyKq7HIT4RfwU7> a person:Person;
   person:birthName "Michele Barbera".
 
-<role/ATOKA/consigliere> a org:Role;
-  rdfs:label "Consigliere"@it .
-
-<company/ATOKA/6da785b3adf2/officers/1> a org:Membership;
+<company/ATOKA/6da785b3adf2/officer/1> a org:Membership;
   org:member <person/ATOKA/pBeekyKq7HIT4RfwU7>;
   org:organization <company/ATOKA/6da785b3adf2>;
   org:role <role/ATOKA/consigliere>;
-  org:memberSince [
-    a owlTime:Interval;
-    owlTime:hasBeginning [
-      owlTime:inXSDDateTime "2012/12/20T00:00:00Z"^^xsd:dateTime
-    ]
-  ] .
+  org:memberDuring <company/ATOKA/6da785b3adf2/officer/1/interval>.
 
-<role/ATOKA/amministratore-delegato> a org:Role;
-  rdfs:label "Amministratore Delegato"@it .
+<company/ATOKA/6da785b3adf2/officer/1/interval> a time:Interval;
+    time:hasBeginning <company/ATOKA/6da785b3adf2/officer/1/interval/beginning>.
 
-<company/ATOKA/6da785b3adf2/officers/2> a org:Membership;
+<company/ATOKA/6da785b3adf2/officer/1/interval/beginning> a time:Instant;
+  time:inXSDDateTime "2012-12-20"^^xsd:date.
+
+<company/ATOKA/6da785b3adf2/officer/2> a org:Membership;
   org:member <person/ATOKA/pBeekyKq7HIT4RfwU7>;
   org:organization <company/ATOKA/6da785b3adf2>;
   org:role <role/ATOKA/amministratore-delegato>;
-  org:memberSince [
-    a owlTime:Interval;
-    owlTime:hasBeginning [
-        owlTime:inXSDDateTime "2017/04/20T00:00:00Z"^^xsd:dateTime
-    ]
-  ] .
+  org:memberSince <company/ATOKA/6da785b3adf2/officer/2/interval>.
+
+<company/ATOKA/6da785b3adf2/officer/2/interval> a time:Interval;
+  time:hasBeginning <company/ATOKA/6da785b3adf2/officer/2/interval/beginning>.
+
+<company/ATOKA/6da785b3adf2/officer/2/interval/beginning> a time:Instant;
+  time:inXSDDateTime "2017-04-20"^^xsd:date.
+
+##########
+
+<role/BG/director>                    a org:Role; rdfs:label "Член на управителния съвет"@bg.
+<role/BG/executive>                   a org:Role; rdfs:label "Изпълнителен директор"@bg.
+<role/ATOKA/consigliere>              a org:Role; rdfs:label "Consigliere"@it .
+<role/ATOKA/amministratore-delegato>  a org:Role; rdfs:label "Amministratore Delegato"@it.
 
 ############
 

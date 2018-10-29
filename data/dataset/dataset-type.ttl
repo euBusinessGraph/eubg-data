@@ -1,0 +1,17 @@
+@base            <http://data.businessgraph.io/>.
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://schema.org/> .
+
+#################### dataset types
+
+<dataset/type/> a skos:ConceptScheme; rdfs:label "Dataset Type".
+
+<dataset/type/provider>         a skos:Concept; skos:inScheme <dataset/type/>; skos:prefLabel "Provider Dataset".
+<dataset/type/provided-to-EBG>  a skos:Concept; skos:inScheme <dataset/type/>; skos:prefLabel "Subset provided to EBG".
+<dataset/type/EBG>              a skos:Concept; skos:inScheme <dataset/type/>; skos:prefLabel "Root EBG dataset (aggregation)".
+<dataset/type/partition>        a skos:Concept; skos:inScheme <dataset/type/>; skos:prefLabel "Jurisdiction/Property Partition".
+
+#################### license logos
+
+<https://opendatacommons.org/licenses/by/> schema:image <https://assets.okfn.org/web/images/header-logox2.png>.

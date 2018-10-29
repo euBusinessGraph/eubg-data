@@ -1,85 +1,75 @@
-<dataset> a void:Dataset;
+<dataset/EBG> dct:type <dataset/type/EBG>;
   void:entities 16000000;
-  dct:spatial nuts:BG, nuts:GB, nuts:HR, nuts:IT, nuts:NO;
-  void:subset <dataset/ONTO/BG>, <dataset/OCORP>, <dataset/SDATI/IT>, <dataset/BRC/NO>;
-  void:classPartition <dataset/persons>, <dataset/companies>, <dataset/addresses>;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgTypeText, rov:orgType,
+  void:subset <dataset/ONTO>, <dataset/OCORP/EBG>, <dataset/SDATI/EBG>;
+  void:classPartition <dataset/EBG/persons>, <dataset/EBG/addresses>; #  <dataset/EBG/companies>
+  void:property rov:legalName, ebg:orgTypeText, rov:orgType,
     locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4,
-    locn:postName, locn:thoroughfare, locn:postCode
-  ].
+    locn:postName, locn:thoroughfare, locn:postCode.
 
-<dataset/persons>   dct:type <dataset/partition>; void:class schema:Person;              void:entities 17000000.
-<dataset/companies> dct:type <dataset/partition>; void:class rov:RegisteredOrganization; void:entities 16000000.
-<dataset/addresses> dct:type <dataset/partition>; void:class locn:Address;               void:entities 14000000.
+#<dataset/EBG/companies> dct:type <dataset/type/partition>; void:class rov:RegisteredOrganization; void:entities 16000000. # Already expressed above
+<dataset/EBG/persons>   dct:type <dataset/type/partition>; void:class schema:Person;              void:entities 17000000.
+<dataset/EBG/addresses> dct:type <dataset/type/partition>; void:class locn:Address;               void:entities 14000000.
 
-<dataset/ONTO/BG>
+<dataset/ONTO> dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
+  void:subset <dataset/ONTO/BG>; void:propertyPartition <dataset/ONTO/BG>.
+
+<dataset/ONTO/BG> dct:type <dataset/type/partition>;
   void:entities 2000000;
   dct:spatial nuts:BG;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgTypeText, rov:orgType,
-    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
-  ].
+  void:property rov:legalName, ebg:orgTypeText, rov:orgType,
+    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4.
 
-<dataset/paid/OCORP>
-  void:subset <dataset/OCORP>;
+<dataset/OCORP> dct:type <dataset/type/provider>;
+  void:subset <dataset/OCORP/EBG>, <dataset/OCORP/GB>, <dataset/OCORP/HR>;
+  void:propertyPartition <dataset/OCORP/GB>, <dataset/OCORP/HR>;
   void:entities 147000000;
   dct:spatial nuts:GB, nuts:HR, "US-CA";
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, rov:orgType, ebg:orgTypeText,
-    locn:fullAddres, locn:adminUnitL1
-  ].
-  
-<dataset/OCORP>
-  void:entities 13500000;
-  dct:spatial nuts:GB, nuts:HR;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgTypeText,
-    locn:fullAddres, locn:adminUnitL1
-  ];
-  void:subset <dataset/OCORP/UK>, <dataset/OCORP/HR>.
+  void:property rov:legalName, rov:orgType, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1.
 
-<dataset/OCORP/UK>
+<dataset/OCORP/GB> dct:type <dataset/type/partition>;
+  void:entities 13500000;
+  dct:spatial nuts:GB;
+  void:property rov:legalName, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1.
+  
+<dataset/OCORP/EBG> dct:type <dataset/type/provided-to-EBG>;
+  void:subset <dataset/OCORP/EBG/GB>; void:propertyPartition <dataset/OCORP/EBG/GB>.
+
+<dataset/OCORP/EBG/GB> dct:type <dataset/type/partition>;
   void:entities 6000000;
   dct:spatial nuts:GB;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgTypeText,
-    locn:fullAddres, locn:adminUnitL1
-  ].
+  void:property rov:legalName, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1.
 
-<dataset/OCORP/HR>
+<dataset/OCORP/HR> dct:type <dataset/type/partition>;
   void:entities 100000;
   dct:spatial nuts:HR;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgType,
-    locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
-  ].
+  void:property rov:legalName, ebg:orgType,
+    locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4.
 
-<dataset/paid/SDATI/IT>
-  void:subset <dataset/SDATI/IT>;
+<dataset/SDATI> dct:type <dataset/type/provider>;
+  void:entities 11000000;
+  dct:spatial nuts:GB, nuts:IT;
+  void:subset <dataset/SDATI/EBG>;
+  void:subset <dataset/SDATI/IT>; void:propertyPartition <dataset/SDATI/IT>.
+
+<dataset/SDATI/IT> dct:type <dataset/type/partition>;
   void:entities 6000000;
   dct:spatial nuts:IT;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
+  void:property
     locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4,
     locn:postName, locn:thoroughfare, locn:postCode,
-    ebg:isStartup, ebg:isStateOwned, ebg:isPubliclyTraded
-  ].
+    ebg:isStartup, ebg:isStateOwned, ebg:isPubliclyTraded.
+
+<dataset/SDATI/EBG> dct:type <dataset/type/provided-to-EBG>;
+  void:subset <dataset/SDATI/EBG/IT>; void:propertyPartition <dataset/SDATI/EBG/IT>.
   
-<dataset/SDATI/IT>
+<dataset/SDATI/EBG/IT> dct:type <dataset/type/partition>;
   void:entities 6000000;
   dct:spatial nuts:IT;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgTypeText,
-    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
-  ].
-
-<dataset/BRC/NO>
-  void:entities 500000;
-  dct:spatial nuts:NO;
-  void:propertyPartition [dct:type <dataset/partition>; void:property
-    rov:legalName, ebg:orgType,
-    locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4
-  ].
+  void:property rov:legalName, ebg:orgTypeText,
+    locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4.
 
 ####################
 
@@ -87,4 +77,5 @@ dct:spatial   a puml:InlineProperty.
 dct:type      a puml:InlineProperty.
 void:class    a puml:InlineProperty.
 void:property a puml:InlineProperty.
-void:subset   puml:arrow puml:down-2.
+void:classPartition puml:arrow puml:up.
+#void:subset         puml:arrow puml:down-2.

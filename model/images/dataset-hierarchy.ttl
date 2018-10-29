@@ -1,76 +1,105 @@
-################ Overall euBusinessGraph dataset
+################ Root euBusinessGraph dataset
 
-<dataset> a void:Dataset;
+<dataset/EBG> a void:Dataset;
   dct:title "euBusinessGraph free Dataset"@en;
   dct:publisher <http://businessgraph.io>;
-  dct:type <dataset/free-available>, <dataset/aggregation>;
+  dct:type <dataset/type/EBG>;
   dct:license <https://opendatacommons.org/licenses/by/>;
-  void:subset <dataset/ONTO/BG>, <dataset/OCORP>, <dataset/SDATI>, <dataset/BRC/NO>.
+  dct:spatial nuts:BG, nuts:GB, nuts:IT, nuts:NO;
+  void:subset <dataset/ONTO>, <dataset/OCORP/EBG>, <dataset/SDATI/EBG>, <dataset/BRC>.
 
-################ Free datasets by providers
-
-<dataset/ONTO/BG> a void:Dataset;
-  dct:title "Ontotext free dataset of BG companies";
-  dct:type <dataset/free-available>;
-  dct:license <https://opendatacommons.org/licenses/by/>;
-  dct:publisher <http://ontotext.com>.
+############# Provider datasets
 
 <dataset/OCORP> a void:Dataset;
-  dct:title "OpenCorporates free dataset of European companies";
-  dct:type <dataset/free-available>;
-  dct:license <https://opendatacommons.org/licenses/by/>;
-  dct:publisher <http://opencorporates.com>;
-  void:subset <dataset/OCORP/GB>, <dataset/OCORP/HR>.
+  dct:title "OpenCorporates full dataset of\n 147M companies from 128 jurisdictions";
+  dct:type <dataset/type/provider>;
+  dct:description "euBusinessGraph only provides\n info about jurisdictions and fields in this dataset.\n Contact the publisher for commercial information";
+  void:subset <dataset/OCORP/EBG>, <dataset/OCORP/GB>, <dataset/OCORP/HR>.
 
 <dataset/OCORP/GB> a void:Dataset;
-  dct:title "OpenCorporates free dataset of GB (UK) companies";
-  dct:type <dataset/free-available>;
-  dct:license <https://opendatacommons.org/licenses/by/>.
+  dct:title "OpenCorporates full dataset of GB (UK) companies";
+  dct:type <dataset/type/partition>;
+  void:subset <dataset/OCORP/EBG/GB>;
+  dct:spatial nuts:GB.
 
 <dataset/OCORP/HR> a void:Dataset;
-  dct:title "OpenCorporates free dataset of HR companies";
-  dct:type <dataset/free-available>;
-  dct:license <https://opendatacommons.org/licenses/by/>.
+  dct:title "OpenCorporates full dataset of HR companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:HR.
 
 <dataset/SDATI> a void:Dataset;
-  dct:title "SpazioDati free dataset of IT and GB companies";
-  dct:publisher <https://spaziodati.eu>;
-  dct:type <dataset/free-available>;
-  dct:license <https://opendatacommons.org/licenses/by/>;
-  void:subset <dataset/SDATI/IT>, <dataset/SDATI/GB>.
+  dct:title "SpazioDati full dataset";
+  dct:type <dataset/type/provider>;
+  dct:description "euBusinessGraph only provides\n info about jurisdictions and fields in this dataset.\n Contact the publisher for commercial information";
+  void:subset <dataset/SDATI/EBG>, <dataset/SDATI/IT>, <dataset/SDATI/GB>.
 
 <dataset/SDATI/IT> a void:Dataset;
-  dct:title "SpazioDati free dataset of IT companies";
-  dct:type <dataset/free-available>;
-  dct:license <https://opendatacommons.org/licenses/by/>.
+  dct:title "SpazioDati full dataset of IT companies";
+  dct:type <dataset/type/partition>;
+  void:subset <dataset/SDATI/EBG/IT>;
+  dct:spatial nuts:IT.
 
 <dataset/SDATI/GB> a void:Dataset;
-  dct:title "SpazioDati free dataset of GB companies";
-  dct:type <dataset/free-available>;
+  dct:title "SpazioDati full dataset of GB companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:GB.
+
+################ Datasets provided to EBG
+
+<dataset/ONTO> a void:Dataset;
+  dct:title "Ontotext dataset, fully provided to EBG";
+  dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <http://ontotext.com>;
+  void:subset <dataset/ONTO/BG>.
+
+<dataset/ONTO/BG> a void:Dataset;
+  dct:title "Ontotext dataset of BG companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:BG;
   dct:license <https://opendatacommons.org/licenses/by/>.
 
-<dataset/BRC/NO> a void:Dataset;
-  dct:title "Official BRC free dataset of NO companies";
+<dataset/BRC> a void:Dataset;
+  dct:title "BRC dataset, fully provided to EBG";
   dct:publisher <https://www.brreg.no>;
-  dct:type <dataset/free-available>;
+  dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  void:subset <dataset/BRC/NO>.
+  
+<dataset/BRC/NO> a void:Dataset;
+  dct:title "BRC official dataset of NO companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:NO;
+  dct:license <https://opendatacommons.org/licenses/by/>.  
+
+<dataset/OCORP/EBG> a void:Dataset;
+  dct:title "OpenCorporates dataset provided to EBG";
+  dct:type <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <http://opencorporates.com>;
+  void:subset <dataset/OCORP/EBG/GB>.
+
+<dataset/OCORP/EBG/GB> a void:Dataset;
+  dct:title "OpenCorporates dataset of GB (UK) companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:GB.
+
+<dataset/SDATI/EBG> a void:Dataset;
+  dct:title "SpazioDati dataset provided to EBG";
+  dct:publisher <https://spaziodati.eu>;
+  dct:type <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  void:subset <dataset/SDATI/EBG/IT>.
+
+<dataset/SDATI/EBG/IT> a void:Dataset;
+  dct:title "SpazioDati dataset of IT companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:IT;
   dct:license <https://opendatacommons.org/licenses/by/>.
-
-############# paid datasets
-
-<dataset/paid/SDATI> a void:Dataset;
-  dct:title "SpazioDati paid dataset of IT and GB companies";
-  dct:type <dataset/paid-advertised>;
-  dct:description "euBusinessGraph only provides info about extra fields in this dataset.\nContact the publisher for commercial information";
-  void:subset <dataset/SDATI>.
-
-<dataset/paid/OCORP> a void:Dataset;
-  dct:title "OpenCorporates paid dataset of 147M companies from 128 jurisdictions";
-  dct:type <dataset/paid-advertised>;
-  dct:description "euBusinessGraph only provides info about extra fields in this dataset.\nContact the publisher for commercial information";
-  void:subset <dataset/OCORP>.
 
 ####################
 
 dct:type      a puml:InlineProperty.
 dct:publisher a puml:InlineProperty.
 dct:license   a puml:InlineProperty.
+dct:spatial   a puml:InlineProperty.

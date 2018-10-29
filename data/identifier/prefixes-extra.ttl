@@ -1,0 +1,3 @@
+# These look bad in examples, but are useful to have in the repo since they shorten URLs in results
+@prefix ebg-comp: <http://data.businessgraph.io/company/> .   
+@prefix ebg-id:   <http://data.businessgraph.io/identifier/> .
