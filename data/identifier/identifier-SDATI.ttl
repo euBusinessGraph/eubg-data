@@ -70,9 +70,16 @@
   ebg:isPublic true;
   ebg:isDumb true;
   ebg:isEnumerated true;
-  ebg:isOfficial false.
+  ebg:isOfficial false;
   # validation
-  ebg:validationRegex "[a-f0-9]{12}".
+  ebg:validationRegex "[a-f0-9]{12}";
+  ebg:identifierWebResource <identifier/ATOKA/resource>.
+
+<identifier/ATOKA/resource> a ebg:IdentifierWebResource;
+  schema:name "Atoka company page";
+  dc:format "text/html";
+  schema:inLanguage "en";
+  ebg:urlTemplate "https://atoka.io/en/companies/-/{}/".
 
 <identifier/people/ATOKA> a ebg:Register;
   dct:creator <https://spaziodati.eu>;
@@ -92,7 +99,7 @@
   ebg:isPublic true;
   ebg:isDumb true;
   ebg:isEnumerated true;
-  ebg:isOfficial false.
+  ebg:isOfficial false;
   # validation
   ebg:validationRegex "p[A-Za-z0-9]{17}".
 
@@ -114,7 +121,7 @@
   ebg:isPublic true;
   ebg:isDumb false;  # encodes place and date of birth
   ebg:isEnumerated true;
-  ebg:isOfficial true.  # for econocmic/taxation/health purposes
+  ebg:isOfficial true;  # for economic/taxation/health purposes
   # validation
   ebg:validationRule
     <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # natural language spec of the rule
