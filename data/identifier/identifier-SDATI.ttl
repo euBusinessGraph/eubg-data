@@ -1,5 +1,10 @@
-@base            <http://data.businessgraph.io/>.
+@base            <http://data.businessgraph.io/> .
 @prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <http://schema.org/> .
 
 <identifier/IT/REA> a ebg:IdentifierSystem;  # identifies company sites
   dct:creator <http://www.unioncamere.gov.it>;
@@ -21,7 +26,7 @@
   ebg:isPublic true;
   ebg:isDumb false;  # they also encode the province of the issuer
   ebg:isEnumerated true;  # the local chamber of commerce keeps track of all of them
-  ebg:isOfficial true.  # official identifier of company sites in Italy
+  ebg:isOfficial true;  # official identifier of company sites in Italy
   # validation
   ebg:validationRule
     <http://www.registroimprese.it/codice-fiscale-p.iva-rea>;  # some details of the rule
@@ -46,7 +51,7 @@
   ebg:isPublic true;
   ebg:isDumb true;
   ebg:isEnumerated true;
-  ebg:isOfficial true.  # official identifier of Italian companies
+  ebg:isOfficial true;   # official identifier of Italian companies
   # validation
   ebg:validationRule
     <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # some details of the rule
