@@ -1010,7 +1010,7 @@ person:Person a rdfs:Class ;
   skos:definition "An officer is a natural person (as opposed to a legal person) [person:] that has a high-level management role in a Company (e.g., the CEO, treasurer and chief financial officer). Despite their high status, they typically serve at the will of the corporate directors, who can fire or replace them. Officers can also be shareholders and directors but don't necessarily have to be. They have the authority to act on behalf of the corporation, including contract authority." .
 
 person:birthName a owl:DatatypeProperty;
-  schema:domainIncludes personPerson ;
+  schema:domainIncludes person:Person ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "birth name" ;
   skos:definition "The legal name of the person which is usually determined at or around birth, usually persistent and for this reason usually recorded by some official registers. Although birth names tend to be persistent we do not assume this has to be the case." ;
@@ -1037,13 +1037,13 @@ org:memberDuring a owl:ObjectProperty ;
   rdfs:label "duration" ;
   schema:domainIncludes org:Membership ;
   schema:rangeIncludes time:Interval ;
-  skos:definition "Interval (beginning and end) of the membership relation. May be an open interval." .
+  skos:definition "Interval (beginning and end) of the membership relation. May be an open interval." ;
   skos:scopeNote "for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg \"<date>T00:00:00Z\"^xsd:dateTime." .
 
 org:Role a rdfs:Class ;
   rdfs:label "Role" ;
   skos:definition "Denotes a role that a Person can take in an organization." ;
-  skos:scopeNote: "Instances of this class describe the abstract role; to denote a specific instance of a person playing that role in a specific organization use an instance of org:Membership." .
+  skos:scopeNote "Instances of this class describe the abstract role; to denote a specific instance of a person playing that role in a specific organization use an instance of org:Membership." .
 
 org:role a owl:ObjectProperty ;
   rdfs:label "role" ;
