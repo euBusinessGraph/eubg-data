@@ -85,7 +85,7 @@
   org:member <person/ATOKA/pBeekyKq7HIT4RfwU7>;
   org:organization <company/ATOKA/6da785b3adf2>;
   org:role <role/ATOKA/amministratore-delegato>;
-  org:memberSince <company/ATOKA/6da785b3adf2/officer/2/interval>.
+  org:memberDuring <company/ATOKA/6da785b3adf2/officer/2/interval>.
 
 <company/ATOKA/6da785b3adf2/officer/2/interval> a time:Interval;
   time:hasBeginning <company/ATOKA/6da785b3adf2/officer/2/interval/beginning>.

@@ -1,4 +1,18 @@
-<register/IT/REA> a ebg:Register;  # identifies company sites
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+
+<identifier/IT/REA> a ebg:IdentifierSystem;  # identifies company sites
+  dct:creator <http://www.unioncamere.gov.it>;
+  schema:author <http://www.unioncamere.gov.it>;
+  schema:publisher <http://www.registroimprese.it/>;
+  skos:notation "IT/REA";
+  dbo:jurisdiction "IT";
+  schema:name "Economic and Administrative Index"@en, "Repertorio Economico Amministrativo"@it;
+  schema:description """Official register of economic and statistical information of company sites"""@en,
+    """Registro di notizie di carattere statistico-economico amministrativo relative a unità locali"""@it;
+  ebg:ralCode "RA000407";
+  schema:url <http://www.registroimprese.it/sede-legale-e-unita-locali>;
+  schema:license <http://www.registroimprese.it/en/registrazione>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued false;  # in cases of fusion, a company's site can have more than one
@@ -13,7 +27,17 @@
     <http://www.registroimprese.it/codice-fiscale-p.iva-rea>;  # some details of the rule
   ebg:validationRegex "\\d{11}".
 
-<register/IT> a ebg:Register;  # identifies companies
+<identifier/IT> a ebg:IdentifierSystem;  # identifies companies
+  dct:creator <https://www.agenziaentrate.gov.it>;
+  schema:author <https://www.agenziaentrate.gov.it>;
+  schema:publisher <http://www.registroimprese.it/>;
+  skos:notation "IT";
+  dbo:jurisdiction "IT";
+  schema:name "Italian Tax IDs";
+  schema:description """Official company tax identifiers in the Italian Revenue Agency""";
+  ebg:ralCode "RA000407";  # have to see if it's for TaxID or VatID
+  schema:url <http://www.registroimprese.it/l-anagrafe-nazionale-delle-imprese>;
+  schema:license <http://www.registroimprese.it/en/registrazione>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued false;
@@ -28,7 +52,16 @@
     <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # some details of the rule
   ebg:validationRegex "\\d{11}".
 
-<register/ATOKA> a ebg:Register;  # company identifiers within the Atoka Company Database
+<identifier/ATOKA> a ebg:IdentifierSystem;  # company identifiers within the Atoka Company Database
+  dct:creator <https://spaziodati.eu>;
+  schema:author <https://spaziodati.eu>;
+  schema:publisher <http://spaziodati.eu>;
+  skos:notation "ATOKA";
+  dbo:jurisdiction "IT", "GB";
+  schema:name "Atoka company identifiers";
+  schema:description """Company identifiers within the Atoka company database""";
+  schema:url <https://atoka.io/en/search>;
+  schema:license <https://atoka.io/en/terms-use/>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued false;
@@ -41,7 +74,16 @@
   # validation
   ebg:validationRegex "[a-f0-9]{12}".
 
-<register/people/ATOKA> a ebg:Register;
+<identifier/people/ATOKA> a ebg:Register;
+  dct:creator <https://spaziodati.eu>;
+  schema:author <https://spaziodati.eu>;
+  schema:publisher <http://spaziodati.eu>;
+  skos:notation "people/ATOKA";
+  dbo:jurisdiction "IT", "GB";
+  schema:name "Atoka officer identifiers";
+  schema:description """Officer identifiers within the Atoka company database""";
+  schema:url <https://atoka.io/en/search>;
+  schema:license <https://atoka.io/en/terms-use/>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued false;
@@ -54,7 +96,16 @@
   # validation
   ebg:validationRegex "p[A-Za-z0-9]{17}".
 
-<register/people/IT> a ebg:Register;
+<identifier/people/IT> a ebg:IdentifierSystem;
+  dct:creator <https://www.agenziaentrate.gov.it>;
+  schema:author <https://www.agenziaentrate.gov.it>;
+  schema:publisher <https://www.agenziaentrate.gov.it>;
+  skos:notation "people/IT";
+  dbo:jurisdiction "IT";
+  schema:name "Italian Personal Tax IDs";
+  schema:description """Official personal tax identifiers in the Italian Revenue Agency""";
+  schema:url <https://telematici.agenziaentrate.gov.it/VerificaCF/>;
+  schema:license <https://www.agenziaentrate.gov.it/wps/portal/english/legalnotes>;
   # characteristics
   ebg:isUnique true;  # although there were homocodes for single-person companies, so historical records could still present this
   ebg:isSingleValued true;
