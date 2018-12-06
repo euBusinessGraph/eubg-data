@@ -1,0 +1,56 @@
+@base            <http://data.businessgraph.io/> .
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <http://schema.org/> .
+
+<identifier/GB> a ebg:IdentifierSystem;
+  dct:creator <https://www.gov.uk/government/organisations/companies-house/>;
+  schema:author <https://www.gov.uk/government/organisations/companies-house/>;
+  schema:publisher <https://www.gov.uk/government/organisations/companies-house/>;
+  skos:notation "GB";
+  dbo:jurisdiction "GB";
+  schema:name "Companies House Companies Register";
+  schema:description """Official identifiers of UK legal entities or branches of entities""";
+  ebg:ralCode "RA000585";
+  schema:url <https://beta.companieshouse.gov.uk/>;
+  schema:license <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;
+  # validation
+  ebg:validationRegex "\\d{8}".
+  ebg:identifierWebResource <identifier/GB/semantic>, <identifier/GB/web>, <identifier/GB/html>, <identifier/GB/rdf>.
+
+  <identifier/GB/semantic> a ebg:IdentifierWebResource;
+  schema:name "GB company semantic URL";
+  dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv", "text/html", "text/vnd.yaml";
+  schema:description "Provides data in XML, RDF, JSON, HTML, YAML, and CSV using content negotiation";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}".
+
+  <identifier/GB/web> a ebg:IdentifierWebResource;
+  schema:name "GB company page";
+  dc:format "text/html";
+  schema:inLanguage "en";
+  ebg:urlTemplate "https://beta.companieshouse.gov.uk/company/{}".
+
+  <identifier/GB/html> a ebg:IdentifierWebResource;
+  schema:name "GB company data page";
+  dc:format "text/html";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.html".
+
+  <identifier/GB/rdf> a ebg:IdentifierWebResource;
+  schema:name "GB company data RDF";
+  dc:format "application/rdf+xml";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.rdf".
