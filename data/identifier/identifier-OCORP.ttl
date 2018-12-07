@@ -25,25 +25,34 @@
   ebg:isEnumerated true;
   ebg:isOfficial false;
   # validation
-  ebg:validationRegex "\\[a-z_]+\/\w+".
-  ebg:identifierWebResource <identifier/OCORP/web>, <identifier/OCORP/xml>, <identifier/OCORP/rdf>, <identifier/OCORP/json>.
+  ebg:validationRegex "[a-z_]+/\\w+";
+  ebg:identifierWebResource <identifier/OCORP/semantic>, <identifier/OCORP/web>, <identifier/OCORP/xml>, <identifier/OCORP/rdf>, <identifier/OCORP/json>.
 
-  <identifier/OCORP/web> a ebg:IdentifierWebResource;
+<identifier/OCORP/web> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company semantic URL";
+  dc:format "application/xml", "application/json", "text/html";
+  schema:description "Provides data in RDF, JSON, and HTML using content negotiation";
+  ebg:urlTemplate "https://opencorporates.com/companies/{}".
+  # TODO: "application/xml" doesn't work and returns JSON instead
+# curl -LHaccept:application/xml https://opencorporates.com/companies/gb/11220640
+
+<identifier/OCORP/web> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company page";
   dc:format "text/html";
-  ebg:urlTemplate "https://opencorporates.com/id/companies/{}".
+  ebg:urlTemplate "https://opencorporates.com/companies/{}".
 
-  <identifier/OCORP/xml> a ebg:IdentifierWebResource;
+<identifier/OCORP/xml> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company data XML";
   dc:format "application/xml";
-  ebg:urlTemplate "https://api.opencorporates.com/companies/gb/{}?format=xml".
+  ebg:urlTemplate "https://opencorporates.com/companies/{}.xml".
 
-  <identifier/OCORP/rdf> a ebg:IdentifierWebResource;
+<identifier/OCORP/rdf> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company data RDF";
   dc:format "application/rdf+xml";
-  ebg:urlTemplate "https://opencorporates.com/companies/gb/{}.rdf".
+  ebg:urlTemplate "https://opencorporates.com/companies/{}.rdf".
 
-  <identifier/OCORP/json> a ebg:IdentifierWebResource;
+<identifier/OCORP/json> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company data JSON";
   dc:format "application/json";
-  ebg:urlTemplate "https://api.opencorporates.com/companies/{}".
+  ebg:urlTemplate "https://opencorporates.com/companies/{}.json".
+

@@ -13,7 +13,7 @@
   skos:notation "NO";
   dbo:jurisdiction "NO";
   schema:name "Norwegian Central Coordinating Register for Legal Entities at Brønnøysund Register Centre";
-  schema:description """Official identifiers of Norwegian legal entities or branches of entities""";
+  schema:description "Official identifiers of Norwegian legal entities or branches of entities";
   ebg:ralCode "RA000473";  # ral code for Enhetsregisteret
   schema:url <https://data.brreg.no>;
   schema:license <https://data.norge.no/nlod/en/1.0>;
@@ -29,41 +29,54 @@
   # validation
   ebg:validationRule
     <https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/>;
-  ebg:validationRegex "\\d{9}".
+  ebg:validationRegex "\\d{9}";
   ebg:identifierWebResource <identifier/NO/semantic>, <identifier/NO/web>, <identifier/NO/xml>, <identifier/NO/rdf>, <identifier/NO/json>, <identifier/NO/csv>.
 
-  <identifier/NO/semantic> a ebg:IdentifierWebResource;
+<identifier/NO/semantic> a ebg:IdentifierWebResource;
   schema:name "NO company semantic URL";
   dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv";
   schema:description "Provides data in XML, RDF, JSON, and CSV using content negotiation";
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
 
-  <identifier/NO/web> a ebg:IdentifierWebResource;
+# TODO: the content negotiation is broken. Both of these
+# curl -vL -Haccept:application/rdf+xml http://data.brreg.no/enhetsregisteret/enhet/974760673
+# curl -vL -Haccept:text/turtle http://data.brreg.no/enhetsregisteret/enhet/974760673
+# return HTTP/1.0 406 Not Acceptable
+
+<identifier/NO/web> a ebg:IdentifierWebResource;
   schema:name "NO company page";
   dc:format "text/html";
   schema:inLanguage "no";
   ebg:urlTemplate "https://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}".
 
-  <identifier/NO/xml> a ebg:IdentifierWebResource;
+<identifier/NO/xml> a ebg:IdentifierWebResource;
   schema:name "NO company data XML";
   dc:format "application/xml";
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
 
-  <identifier/NO/rdf> a ebg:IdentifierWebResource;
+<identifier/NO/rdf> a ebg:IdentifierWebResource;
   schema:name "NO company data RDF";
-  dc:format "application/rdf+xml";
+  dc:format "application/rdf+xml"; # TODO that's text/turtle
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.ttl".
 
-  <identifier/NO/json> a ebg:IdentifierWebResource;
+# TODO: Is there http://data.brreg.no/enhetsregisteret/enhet/{}.rdf with format application/rdf+xml?
+
+# TODO: I tested with different extensions, and .ttl/.rdf both return json (only .csv returns csv)
+# curl -L http://data.brreg.no/enhetsregisteret/enhet/974760673.ttl
+# curl -L http://data.brreg.no/enhetsregisteret/enhet/974760673.rdf
+
+# TODO: all these links redirect to https: so it's better to just declare them https and avoid the redirect
+
+<identifier/NO/json> a ebg:IdentifierWebResource;
   schema:name "NO company data JSON";
   dc:format "application/json";
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.json".
 
-  <identifier/NO/csv> a ebg:IdentifierWebResource;
+<identifier/NO/csv> a ebg:IdentifierWebResource;
   schema:name "NO company data CSV";
   dc:format "text/csv";
   schema:inLanguage "no";
