@@ -207,9 +207,9 @@ adms:identifier a owl:ObjectProperty ;
   rdfs:label "identifier" ;
   skos:definition "An identifier of a Company (the official identifier is rov:registration) or Identifier System / Register";
   skos:scopeNote """This includes, but is not limited to:
-● Direct: Identifier in some aggregated dataset, where the official ID is part of the aggregation ID.
-● Indirect: Identifier in some aggregated dataset or for a website, where the aggregation ID bears no resemblance to the official ID
-● Multiple: Identifier that has a many-to-many relation with the company, i.e., a company may have several identifiers of the same kind, and the same identifier can be used by several companies.""" ;
+- Direct: Identifier in some aggregated dataset, where the official ID is part of the aggregation ID.
+- Indirect: Identifier in some aggregated dataset or for a website, where the aggregation ID bears no resemblance to the official ID
+- Multiple: Identifier that has a many-to-many relation with the company, i.e., a company may have several identifiers of the same kind, and the same identifier can be used by several companies.""" ;
   skos:example "Direct: EU VAT number (in those jurisdictions where it is used as the primary company identifier), BRIS id, OCORP id." ,
     "Indirect: GLEI LEI, SDATI Atoka ID.",
     "Indirect: BG GUID 617f4edf8c154f4296efdf146513de21, which corresponds to official id 204060254 and can be used to reach the official register page for that company",
@@ -217,8 +217,8 @@ adms:identifier a owl:ObjectProperty ;
   skos:scopeNote """For Identifier Systems, we use codes issued by euBusinessGraph.
 For official Identifier Systems (country registers), we use the jurisdiction code (e.g. 'BG', 'GB').
 For other identifier systems, we use a short mnemonic code:
-● upper-case for company registers (e.g. 'OCORP', 'SDATI', 'RAL', 'EU', 'BRIS'),
-● mixed-case for social network registers (eg 'Twitter', 'Facebook').
+- upper-case for company registers (e.g. 'OCORP', 'SDATI', 'RAL', 'EU', 'BRIS'),
+- mixed-case for social network registers (eg 'Twitter', 'Facebook').
 This code is used as the last URL part for identifiers issued in that system.""" .
 
 dbo:jurisdiction a owl:DatatypeProperty ;
@@ -740,7 +740,7 @@ locn:thoroughfare a owl:DatatypeProperty ;
   rdfs:label "thoroughfare (street address)" ;
   skos:definition "Street name and optionally number." ;
   skos:example "Via Belenzani 19" ;
-  skos:example "Polygraphia Office Center, floor 4\r\n47A Tsarigradsko Shosse" .
+  skos:example "Polygraphia Office Center, floor 4\n47A Tsarigradsko Shosse" .
 
 org:hasRegisteredSite a owl:ObjectProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -1012,8 +1012,14 @@ skos:notation a owl:DatatypeProperty ;
   rdfs:label "notation (identifier value)";
   skos:definition "Literal value of the identifier." ;
   skos:scopeNote "Should not include leading, trailing and consecutive spaces, to facilitate exact match.",
-    "adms:Identifier recommends that this value should be \"datatyped with the identifier scheme (including the version number if appropriate)\". However, we decided not to do this because:\r\n● One cannot search by exact literal value unless one also knows the datatype URL\r\n● Currently we do not plan to maintain different identifier system versions" ,
-    "Codes for Identifier Systems are issued locally by euBusinessGraph.\r\nFor identifier systems published by the sole or preferred official register in a jurisdiction, we use the jurisdiction code (e.g. \"BG\", \"GB\"). For others, if the identifier system has no explicit name, we use a short mnemonic code of the publisher: upper-case for company registers (e.g. \"OCORP\", \"SDATI\", \"RAL\", \"EU\", \"BRIS\"), mixed-case for social network registers (e.g. \"Twitter\", \"Facebook\")." .
+    """adms:Identifier recommends that this value should be "datatyped with the identifier scheme (including the version number if appropriate)". However, we decided not to do this because:
+- One cannot search by exact literal value unless one also knows the datatype URL
+- Currently we do not plan to maintain different identifier system versions""" ,
+    """Codes for Identifier Systems are issued locally by euBusinessGraph.
+For identifier systems published by the sole or preferred official register in a jurisdiction, we use the jurisdiction code (e.g. "BG", "GB"). 
+For others, if the identifier system has no explicit name, we use a short mnemonic code of the publisher:
+- upper-case for company registers (e.g. "OCORP", "SDATI", "RAL", "EU", "BRIS"),
+- mixed-case for social network registers (e.g. "Twitter", "Facebook").""" .
 
 skos:prefLabel a owl:DatatypeProperty ;
   schema:domainIncludes ebg:IdentifierSystem , rov:RegisteredOrganization ;
@@ -1055,7 +1061,7 @@ org:memberDuring a owl:ObjectProperty ;
   schema:domainIncludes org:Membership ;
   schema:rangeIncludes time:Interval ;
   skos:definition "Interval (beginning and end) of the membership relation. May be an open interval." ;
-  skos:scopeNote "for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg \"<date>T00:00:00Z\"^xsd:dateTime." .
+  skos:scopeNote "for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg \"<date>T00:00:00Z\"^^xsd:dateTime." .
 
 org:Role a rdfs:Class ;
   rdfs:label "Role" ;
