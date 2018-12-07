@@ -64,8 +64,25 @@ ebg: a owl:Ontology;
   dct:publisher <http://businessgraph.io>;
   rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>;
   rdfs:comment # this below is markdown, which is used by LODE
-  """The euBusinessGraph (ebg:) ontology represents companies, type/status/economic classification, addresses, identifiers, (and soon) directors and CEOs, dataset offerings.
-This is only a reference. See more detail in the [EBG Semantic Model](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit) google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams. A couple of illustrations follow.
+  """The euBusinessGraph (`ebg:`) ontology represents companies, type/status/economic classification, addresses, identifiers, (and soon) directors and CEOs, dataset offerings.
+
+It uses `schema:domain/rangeIncludes` (which are polymorphic) to describe which properties are applicable to a class, 
+rather than `rdfs:domain/rainge` (which are monomorphic) to prescribe what classes must be applied to each node using a property.
+We find that this enables more flexible reuse and combination of different ontologies.
+We reuse the following ontologies and nomenclatures, and extend them where appropriate with classes and properties:
+- W3C Org, W3C RegOrg (basic company data), 
+- W3C Time (officer membership), 
+- W3C Locn (addresses),
+- schema.org (domain/rangeIncludes and various properties)
+- DBpedia ontology (jurisdiction)
+- NGEO and Spatial (NUTS administrative divisions)
+- ADMS (identifiers), 
+- FOAF, SIOC (blog posts),
+- RAMON, SKOS (NACE economic classifications and various nomenclatures),
+- VOID (dataset descriptions).
+This is only a reference. See more detail in the [EBG Semantic Model](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit) google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams.
+
+A couple of illustrations follow.
 
 #### Company
 ![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/company.png)
