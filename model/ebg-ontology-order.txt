@@ -122,3 +122,12 @@ void:exampleResource
 void:uriSpace
 void:features
 void:vocabulary
+
+# officers (schema:domainIncludes person:Person)
+person:birthName
+
+# Memberships (schema:domainIncludes org:Membership)
+org:organization
+org:member
+org:memberDuring
+org:role

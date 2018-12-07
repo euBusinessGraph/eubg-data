@@ -1,0 +1,70 @@
+@base            <http://data.businessgraph.io/> .
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <http://schema.org/> .
+
+<identifier/NO> a ebg:IdentifierSystem;
+  dct:creator <https://www.brreg.no/>;
+  schema:author <https://www.brreg.no/>;
+  schema:publisher <https://www.brreg.no/>;
+  skos:notation "NO";
+  dbo:jurisdiction "NO";
+  schema:name "Norwegian Central Coordinating Register for Legal Entities at Brønnøysund Register Centre";
+  schema:description """Official identifiers of Norwegian legal entities or branches of entities""";
+  ebg:ralCode "RA000473";  # ral code for Enhetsregisteret
+  schema:url <https://data.brreg.no>;
+  schema:license <https://data.norge.no/nlod/en/1.0>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;
+  # validation
+  ebg:validationRule
+    <https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/>;
+  ebg:validationRegex "\\d{9}".
+  ebg:identifierWebResource <identifier/NO/semantic>, <identifier/NO/web>, <identifier/NO/xml>, <identifier/NO/rdf>, <identifier/NO/json>, <identifier/NO/csv>.
+
+  <identifier/NO/semantic> a ebg:IdentifierWebResource;
+  schema:name "NO company semantic URL";
+  dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv";
+  schema:description "Provides data in XML, RDF, JSON, and CSV using content negotiation";
+  schema:inLanguage "no";
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
+
+  <identifier/NO/web> a ebg:IdentifierWebResource;
+  schema:name "NO company page";
+  dc:format "text/html";
+  schema:inLanguage "no";
+  ebg:urlTemplate "https://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}".
+
+  <identifier/NO/xml> a ebg:IdentifierWebResource;
+  schema:name "NO company data XML";
+  dc:format "application/xml";
+  schema:inLanguage "no";
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
+
+  <identifier/NO/rdf> a ebg:IdentifierWebResource;
+  schema:name "NO company data RDF";
+  dc:format "application/rdf+xml";
+  schema:inLanguage "no";
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.ttl".
+
+  <identifier/NO/json> a ebg:IdentifierWebResource;
+  schema:name "NO company data JSON";
+  dc:format "application/json";
+  schema:inLanguage "no";
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.json".
+
+  <identifier/NO/csv> a ebg:IdentifierWebResource;
+  schema:name "NO company data CSV";
+  dc:format "text/csv";
+  schema:inLanguage "no";
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.csv".

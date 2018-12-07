@@ -30,6 +30,7 @@
 @prefix vann:    <http://purl.org/vocab/vann/> .
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix person: <http://www.w3.org/ns/person#> .
 
 #### Unused prefixes
 # @prefix c4n:               <http://vocab.deri.ie/c4n#> .
@@ -201,7 +202,6 @@ adms:Identifier a rdfs:Class ;
   skos:scopeNote "The identifier value is recorded in skos:notation and the issuer/register in dct:creator." .
 
 adms:identifier a owl:ObjectProperty ;
-  ebg:order 26 ;
   schema:domainIncludes rov:RegisteredOrganization, ebg:IdentifierSystem ;
   schema:rangeIncludes adms:Identifier ;
   rdfs:label "identifier" ;
@@ -222,7 +222,6 @@ For other identifier systems, we use a short mnemonic code:
 This code is used as the last URL part for identifiers issued in that system.""" .
 
 dbo:jurisdiction a owl:DatatypeProperty ;
-  ebg:order 22 ;
   schema:domainIncludes rov:RegisteredOrganization, ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "jurisdiction" ;
@@ -233,7 +232,6 @@ dbo:jurisdiction a owl:DatatypeProperty ;
   skos:example "BG has many types, including a number of European companies." .
 
 schema:author a owl:ObjectProperty ;
-  ebg:order 45 ;
   rdfs:label "author" ;
   schema:domainIncludes ebg:IdentifierSystem ;
   schema:rangeIncludes schema:Person, schema:Organization ;
@@ -243,7 +241,6 @@ schema:author a owl:ObjectProperty ;
     "Dun and Bradstreet specified DUNS numbers" .
 
 dct:creator  a owl:ObjectProperty ;
-  ebg:order 46 ;
   rdfs:label "issuer" ;
   schema:domainIncludes ebg:IdentifierSystem, adms:Identifier ;
   schema:rangeIncludes schema:Person, schema:Organization ;
@@ -257,7 +254,6 @@ dct:creator  a owl:ObjectProperty ;
   skos:example "http://www.registryagency.bg keeps both Trade Register http://brra.bg for companies, and Bulstat Register http://www.bulstat.bg/ for other entities" .
 
 schema:publisher a owl:DatatypeProperty ;
-  ebg:order 47 ;
   rdfs:label "identifier system publisher" ;
   schema:domainIncludes ebg:IdentifierSystem ;
   schema:rangeIncludes schema:Person, schema:Organization ;
@@ -268,14 +264,12 @@ schema:publisher a owl:DatatypeProperty ;
   skos:scopeNote "Different functions and distributions can be considered (e.g. search or other query, per-company web resources, full download). Often but not always the issuer is also the publisher." .
 
 dct:isPartOf  a owl:ObjectProperty ;
-  ebg:order 71 ;
   rdfs:label "is part of" ;
   schema:domainIncludes adms:Identifier ;
   schema:rangeIncludes ebg:IdentifierSystem ;
   skos:definition "The Identifier System this identifier is part of" .
 
 dct:issued a owl:DatatypeProperty ;
-  ebg:order 73 ;
   schema:domainIncludes adms:Identifier ;
   schema:rangeIncludes xsd:date ;
   rdfs:label "issued on" ;
@@ -283,7 +277,6 @@ dct:issued a owl:DatatypeProperty ;
   skos:scopeNote "This may or may not be the same as the Incorporation Date of the company. Even for the official registration, the two dates may differ, depending on business rules." .
 
 schema:expires a owl:DatatypeProperty ;
-  ebg:order 74 ;
   rdfs:label "expires" ;
   schema:domainIncludes adms:Identifier ;
   schema:rangeIncludes xsd:date ;
@@ -386,7 +379,6 @@ ebg:adminUnit a owl:ObjectProperty;
 # ebg:adminUnitL6  rdfs:subPropertyOf ebg:adminUnit.
 
 ebg:adminUnitL3 a owl:ObjectProperty ;
-  ebg:order 31 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ramon:NUTSRegion ;
   rdfs:isDefinedBy ebg: ;
@@ -397,7 +389,6 @@ ebg:adminUnitL3 a owl:ObjectProperty ;
   skos:example "nuts:ITH2 Provincia Autonoma di Trento" .
 
 ebg:adminUnitL4 a owl:ObjectProperty ;
-  ebg:order 32 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ramon:NUTSRegion ;
   rdfs:isDefinedBy ebg: ;
@@ -406,7 +397,6 @@ ebg:adminUnitL4 a owl:ObjectProperty ;
   skos:example "nuts:ITH31 Verona", "nuts:ITC20 Aosta" .
 
 ebg:adminUnitL5 a owl:ObjectProperty ;
-  ebg:order 33 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ebg:LAURegion ;
   rdfs:isDefinedBy ebg: ;
@@ -415,7 +405,6 @@ ebg:adminUnitL5 a owl:ObjectProperty ;
   skos:definition "LAU1 (Municipality/Commune/Settlement) of the address." .
 
 ebg:adminUnitL6 a owl:ObjectProperty ;
-  ebg:order 34 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ebg:LAURegion ;
   rdfs:label "admin unit level 6" ;
@@ -431,7 +420,6 @@ ebg:exclusionNote a owl:DatatypeProperty;
   schema:rangeIncludes rdf:langString.
 
 ebg:geoResolution a owl:ObjectProperty ;
-  ebg:order 44 ;
   schema:domainIncludes schema:GeoCoordinates ;
   rdfs:label "geocoordinate resolution" ;
   rdfs:isDefinedBy ebg: ;
@@ -440,7 +428,6 @@ ebg:geoResolution a owl:ObjectProperty ;
   skos:scopeNote "Values must be mapped to the <resolution/> ConceptScheme (lookup list)." .
 
 ebg:isEnumerated a owl:DatatypeProperty ;
-  ebg:order 58 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "has enumerated identifiers" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -449,7 +436,6 @@ ebg:isEnumerated a owl:DatatypeProperty ;
   skos:example "Every official register is enumerated", "Websites are not enumerated" .
 
 ebg:isImmutable a owl:DatatypeProperty ;
-  ebg:order 55 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "has immutable identifiers" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -458,7 +444,6 @@ ebg:isImmutable a owl:DatatypeProperty ;
   skos:example "Some registers encode additional information within the identifier (e.g., some identifiers encode the economic sector of the company). In these cases the identifier changes when the extra information that is encoded changes (see “Dumb vs. Intelligent Identifiers” in Section 3.1.2.5)." .
 
 ebg:isOfficial a owl:DatatypeProperty ;
-  ebg:order 59 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "is official in jurisdiction" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -470,7 +455,6 @@ ebg:isOfficial a owl:DatatypeProperty ;
     "False for SDATI identifiers since the SDATI system is not official in Italy." .
 
 ebg:isPersistent a owl:DatatypeProperty ;
-  ebg:order 54 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "has persistent identifiers" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -479,7 +463,6 @@ ebg:isPersistent a owl:DatatypeProperty ;
   skos:scopeNote "Some registers “remove” identifiers when the object they relate to is no longer active, whereas the best practice is to make such identifiers Obsolete.".
 
 ebg:isPublic a owl:DatatypeProperty ;
-  ebg:order 56 ;
  rdfs:isDefinedBy ebg: ;
  rdfs:label "is public" ;
  schema:domainIncludes ebg:IdentifierSystem ;
@@ -490,7 +473,6 @@ ebg:isPublic a owl:DatatypeProperty ;
  skos:scopeNote "Most public systems (but not all) will have some Publishers, and preferably some web resources." .
 
 ebg:isPubliclyTraded a owl:DatatypeProperty;
-  ebg:order 7 ;
   rdfs:isDefinedBy ebg: ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:boolean;
@@ -498,7 +480,6 @@ ebg:isPubliclyTraded a owl:DatatypeProperty;
   skos:definition "Whether the company is publicly traded (listed at a stock exchange) [ebg:]." .
 
 ebg:isStartup a owl:DatatypeProperty;
-  ebg:order 5 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "is startup" ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -507,7 +488,6 @@ ebg:isStartup a owl:DatatypeProperty;
   skos:example "A special section of the IT Business Register http://startup.registroimprese.it/ includes pitch, sectors and business model of startups and innovative SMEs".
 
 ebg:isSingleValued a owl:DatatypeProperty ;
-  ebg:order 53 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "is single-valued" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -520,7 +500,6 @@ ebg:isSingleValued a owl:DatatypeProperty ;
   skos:scopeNote "Similar to owl:FunctionalProperty, and Wikidata Single Value constraint" .
 
 ebg:isStateOwned a owl:DatatypeProperty;
-  ebg:order 6 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "is state owned" ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -532,7 +511,6 @@ ebg:isStateOwned a owl:DatatypeProperty;
   skos:example "True for the Norwegian company Statkraft (Norwegian state-owned company)." .
 
 ebg:isUnique a owl:DatatypeProperty ;
-  ebg:order 52 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "has unique identifiers" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -552,7 +530,6 @@ ebg:order a owl:DatatypeProperty;
   schema:rangeIncludes xsd:integer.
 
 ebg:orgStatusText a owl:DatatypeProperty ;
-  ebg:order 9 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:langString ;
   rdfs:isDefinedBy ebg: ;
@@ -568,7 +545,6 @@ ebg:orgStatusText a owl:DatatypeProperty ;
   skos:example "Πτώχευση"@el .
 
 ebg:orgTypeText a owl:DatatypeProperty ;
-  ebg:order 4 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:langString ;
   rdfs:isDefinedBy ebg: ;
@@ -582,7 +558,6 @@ ebg:orgTypeText a owl:DatatypeProperty ;
   skos:example "Società a responsabilità limitata"@it .
 
 ebg:ralCode a owl:DatatypeProperty ;
-  ebg:order 50 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "identifier system RAL code" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -591,7 +566,6 @@ ebg:ralCode a owl:DatatypeProperty ;
   skos:scopeNote "Used only for official registers." .
 
 ebg:replacementPattern a owl:DatatypeProperty ;
-  ebg:order 62 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "replacement pattern" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -600,7 +574,6 @@ ebg:replacementPattern a owl:DatatypeProperty ;
   skos:example "\"$1$2$3\" can be used together with the validationRegex \"(\\d{2})-?(\\d{3})-?(\\d{4})\" to extract the pure digits from a DUNS number spelled with optional dashes (e.g. \"36-032-1459\" -> \"360321459\")" .
 
 ebg:validationRegex a owl:DatatypeProperty ;
-  ebg:order 61 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "validation regex" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -612,7 +585,6 @@ ebg:validationRegex a owl:DatatypeProperty ;
     "\"(\\d{2})-?(\\d{3})-?(\\d{4})\" is a regex for validating DUNS numbers that may include optional dashes in the indicated positions (e.g. \"36-032-1459\")" .
 
 ebg:validationRule a owl:ObjectProperty ;
-  ebg:order 60 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "validation rule" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -628,7 +600,6 @@ ebg:WebResource a rdfs:Class;
   skos:definition "URL complemented with name, language and MIME type(s) to specify what the URL is about".
 
 ebg:webResource a owl:ObjectProperty ;
-  ebg:order 64 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "web resource" ;
   schema:domainIncludes ebg:IdentifierSystem, void:Dataset ;
@@ -639,7 +610,6 @@ ebg:webResource a owl:ObjectProperty ;
     "https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html is the search URL for BE Banque-Carrefour des Entreprises." .
 
 schema:name a owl:DatatypeProperty;
-  ebg:order 66 ;
   rdfs:label "name";
   schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource;
   schema:rangeIncludes xsd:string, rdf:langString;
@@ -648,7 +618,6 @@ schema:name a owl:DatatypeProperty;
   skos:example "Homepage", "Search", "Download", "Company data".
 
 dc:format a owl:DatatypeProperty;
-  ebg:order 67 ;
   rdfs:label "MIME Type";
   schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource;
   schema:rangeIncludes xsd:string, rdf:Resource;
@@ -658,7 +627,6 @@ dc:format a owl:DatatypeProperty;
     'For a Description document supporting the OpenSearch standard, use <http://a9.com/-/spec/opensearch/1.1/>'.
 
 schema:inLanguage a owl:DatatypeProperty;
-  ebg:order 68 ;
   rdfs:label "language";
   skos:definition "Language of the web resource";
   skos:scopeNote "Use a valid [iana:] language code from the IETF BCP 47 standard".
@@ -670,7 +638,6 @@ ebg:IdentifierWebResource a rdfs:Class;
   skos:scopeNote "This class has ebg:urlTemplate, and the same general properties as Web Resource: name, MIME type, language".
 
 ebg:identifierWebResource a owl:ObjectProperty ;
-  ebg:order 63 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "identifier web resource" ;
   schema:domainIncludes ebg:IdentifierSystem ;
@@ -684,7 +651,6 @@ ebg:identifierWebResource a owl:ObjectProperty ;
     "'https://opencorporates.com/companies/{}.rdf'  with MIME type 'application/rdf+xml'".
 
 ebg:urlTemplate a owl:DatatypeProperty;
-  ebg:order 69 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "URL template";
   schema:domainIncludes ebg:IdentifierWebResource;
@@ -708,7 +674,6 @@ locn:Address a rdfs:Class ;
     "Every data provider should strive to provide NUTS3 for each address. This can be done in cooperation, using the techniques described in Address Calculations above." .
 
 locn:addressArea a owl:DatatypeProperty ;
-  ebg:order 36 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string , rdf:langString ;
   rdfs:label "address area (neighbourhood/quarter)" ;
@@ -716,7 +681,6 @@ locn:addressArea a owl:DatatypeProperty ;
   skos:scopeNote "Not likely to appear, but we have Coordinate resolution corresponding to this field." .
 
 locn:adminUnitL1 a owl:ObjectProperty ;
-  ebg:order 29 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ramon:NUTSRegion ;
   rdfs:label "admin unit level 1" ;
@@ -724,7 +688,6 @@ locn:adminUnitL1 a owl:ObjectProperty ;
   skos:example "nuts:IT (Italy)." .
 
 locn:adminUnitL2 a owl:ObjectProperty ;
-  ebg:order 30 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ramon:NUTSRegion ;
   rdfs:label "admin unit level 2" ;
@@ -732,7 +695,6 @@ locn:adminUnitL2 a owl:ObjectProperty ;
   skos:example "nuts:ITC NORD-OVEST (Nord-est)." .
 
 locn:fullAddress a owl:DatatypeProperty ;
-  ebg:order 28 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string, rdf:langString ;
   rdfs:label "full address" ;
@@ -741,7 +703,6 @@ locn:fullAddress a owl:DatatypeProperty ;
   skos:example "Via Belenzani 19, 38122, Trento" .
 
 locn:locatorDesignator a owl:DatatypeProperty ;
-  ebg:order 38 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string ;
   skos:scopeNote "Not likely to appear separately, but we have Coordinate resolution corresponding to this field." ;
@@ -751,14 +712,12 @@ locn:locatorDesignator a owl:DatatypeProperty ;
   skos:example "Polygraphia Office Center, floor 4" .
 
 locn:poBox a owl:DatatypeProperty ;
-  ebg:order 40 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "post office box" ;
   skos:definition "Some addresses are associated with a PO box instead of a street address." .
 
 locn:postCode a owl:DatatypeProperty ;
-  ebg:order 39 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "post code" ;
@@ -766,7 +725,6 @@ locn:postCode a owl:DatatypeProperty ;
   skos:scopeNote "If possible, a European postal code should correspond to the fixed values given in NUTS Downloads, so we can correlate it to a NUTS region." .
 
 locn:postName a owl:DatatypeProperty ;
-  ebg:order 35 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string, rdf:langString ;
   skos:scopeNote "Provide a language tag if possible. If both ebg:adminUnitL6 and locn:postName are specified, they should correspond to each other." ;
@@ -776,7 +734,6 @@ locn:postName a owl:DatatypeProperty ;
   skos:example "Тренто"@bg .
 
 locn:thoroughfare a owl:DatatypeProperty ;
-  ebg:order 37 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes xsd:string, rdf:langString ;
   skos:scopeNote "It is ok if the street number is also here, because many systems do not enter the number separately. There may be several concatenated lines, separated with newlines." ;
@@ -786,7 +743,6 @@ locn:thoroughfare a owl:DatatypeProperty ;
   skos:example "Polygraphia Office Center, floor 4\r\n47A Tsarigradsko Shosse" .
 
 org:hasRegisteredSite a owl:ObjectProperty ;
-  ebg:order 23 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes locn:Address ;
   rdfs:label "registered site/address" ;
@@ -794,7 +750,6 @@ org:hasRegisteredSite a owl:ObjectProperty ;
   skos:scopeNote "org:hasRegisteredSite leads to a node with types org:Site and locn:Address that has self-link org:siteAddress." .
 
 org:hasSite a owl:ObjectProperty ;
-  ebg:order 24 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes org:Site ;
   rdfs:label "site/address" ;
@@ -802,7 +757,6 @@ org:hasSite a owl:ObjectProperty ;
   skos:definition "Other address/location associated to an organisation." .
 
 org:siteAddress a owl:ObjectProperty ;
-  ebg:order 27 ;
   rdfs:label "site's address" ;
   schema:domainIncludes org:Site ;
   schema:rangeIncludes locn:Address ;
@@ -856,7 +810,6 @@ rov:RegisteredOrganization a rdfs:Class ;
   skos:example "Counterparties to financial transactions." .
 
 rov:legalName a owl:DatatypeProperty ;
-  ebg:order 0 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:langString ;
   skos:scopeNote "A business may have more than one legal name, particularly in jurisdictions with more than one official language (e.g. Belgium). Some registries also treat a transliterated name as official (e.g. Онтотекст vs Ontotext) [ebg:]" ;
@@ -871,7 +824,6 @@ rov:legalName a owl:DatatypeProperty ;
   skos:example "Ontotext"@en .
 
 rov:orgActivity a owl:ObjectProperty ;
-  ebg:order 10 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes skos:Concept;
   rdfs:label "economic activity" ;
@@ -882,7 +834,6 @@ rov:orgActivity a owl:ObjectProperty ;
     "Only the most specific classification code(s) should be provided since we have a skos:broader hierarchy.".
 
 ebg:orgActivityTransitive a owl:ObjectProperty ;
-  ebg:order 12 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes skos:Concept;
   rdfs:label "economic activity transitive" ;
@@ -890,7 +841,6 @@ ebg:orgActivityTransitive a owl:ObjectProperty ;
   skos:scopeNote "Transive closure of rov:orgActivity along the skos:broader hierarchy".
 
 ebg:orgActivityText a owl:DatatypeProperty ;
-  ebg:order 11 ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "economic activity text" ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -901,7 +851,6 @@ ebg:orgActivityText a owl:DatatypeProperty ;
    "Free text = Development, exploration and production of opto-electronic systems for analogue and digital holographic recording, interferometric measurement of mechanical characteristics and biological objects at micro and macro level, refractometers, light-sensitive materials for holographic recording, blueprints of museum exhibits, artworks and collection surveys, production of holographic illustrations for students, albums, advertising, souvenirs and others, design and manufacture of holographic optical elements with a wide spectrum of applications, marketing and sale of holographic products, consulting, training and promotion of holographic methods and technologies, mediation, brokerage, and **any other activity not prohibited** by Bulgarian legislation." .
 
 rov:orgStatus a owl:ObjectProperty ;
-  ebg:order 8 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   skos:scopeNote "There is no globally accepted list of company states. For Inactive, some look at hard evidence (the company has been deregistered), others at a long period of inactivity (dormant). Because of this, a user cannot assume that Active and Inactive are opposites." ;
   skos:scopeNote "A Best Practice for recording status levels is to use the relevant jurisdiction's terms and to encode these in a SKOS Concept Scheme [rov:]." ;
@@ -912,7 +861,6 @@ rov:orgStatus a owl:ObjectProperty ;
   skos:example "'Actively trading' vs 'Dormant' vs 'Unregistered' could be considered the 3 main divisions of Status." .
 
 rov:orgType a owl:ObjectProperty ;
-  ebg:order 3 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   rdfs:label "type" ;
   skos:definition "Company Type (Legal Form of the entity)" ;
@@ -921,7 +869,6 @@ rov:orgType a owl:ObjectProperty ;
     "In addition or alternatively to this field, ebg:orgTypeText may be used.".
 
 rov:registration a owl:ObjectProperty ;
-  ebg:order 25 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes adms:Identifier ;
   rdfs:label "official registration" ;
@@ -934,7 +881,6 @@ schema:GeoCoordinates a rdfs:Class ;
   skos:definition "Geographic coordinates, eg of a geo-located address." .
 
 schema:author a owl:ObjectProperty ;
-  ebg:order 45 ;
   rdfs:label "author";
   schema:rangeIncludes schema:Person, schema:Organization;
   skos:definition "Agent who specified the rules and organization of the identifier system";
@@ -944,7 +890,6 @@ schema:author a owl:ObjectProperty ;
     "Dun and Bradstreet specified DUNS numbers".
 
 schema:availableLanguage a owl:DatatypeProperty ;
-  ebg:order 17 ;
   rdfs:label "language" ;
   skos:definition "Languages used by the organization." ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -955,7 +900,6 @@ schema:availableLanguage a owl:DatatypeProperty ;
   skos:example "en", "it", "zh-CN" .
 
 schema:dissolutionDate a owl:DatatypeProperty ;
-  ebg:order 15 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:date, xsd:gYearMonth, xsd:gYear ;
   rdfs:label "dissolution date" ;
@@ -966,7 +910,6 @@ schema:dissolutionDate a owl:DatatypeProperty ;
   skos:example "2010"^^xsd:gYear .
 
 ebg:dissolutionYear a owl:DatatypeProperty ;
-  ebg:order 16 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:integer ;
   rdfs:label "dissolution year" ;
@@ -974,7 +917,6 @@ ebg:dissolutionYear a owl:DatatypeProperty ;
   skos:scopeNote "Used for faceting." .
 
 schema:foundingDate a owl:DatatypeProperty ;
-  ebg:order 13 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:date, xsd:gYearMonth, xsd:gYear  ;
   rdfs:label "founding date" ;
@@ -985,7 +927,6 @@ schema:foundingDate a owl:DatatypeProperty ;
   skos:example "2010"^^xsd:gYear .
 
 ebg:foundingYear a owl:DatatypeProperty ;
-  ebg:order 14 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:integer ;
   rdfs:label "founding year" ;
@@ -993,7 +934,6 @@ ebg:foundingYear a owl:DatatypeProperty ;
   skos:scopeNote "Used for faceting." .
 
 schema:email a owl:ObjectProperty ;
-  ebg:order 20 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:Resource ;
   skos:scopeNote "euBusinessGraph does not record other company emails, so there is no need to distinguish between different kinds",
@@ -1003,7 +943,6 @@ schema:email a owl:ObjectProperty ;
   skos:example <mailto:elettorale@pec.comune.trento.it> .
 
 schema:geo a owl:ObjectProperty ;
-  ebg:order 41 ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes schema:GeoCoordinates ;
   rdfs:label "geographic coordinates" ;
@@ -1011,7 +950,6 @@ schema:geo a owl:ObjectProperty ;
   skos:scopeNote "If data is integrated from several providers, we may end up with multiple coordinate pairs in that node, which will need to be resolved into one." .
 
 schema:latitude a owl:DatatypeProperty ;
-  ebg:order 42 ;
   schema:domainIncludes schema:GeoCoordinates ;
   schema:rangeIncludes xsd:decimal ;
   rdfs:label "latitude" ;
@@ -1019,7 +957,6 @@ schema:latitude a owl:DatatypeProperty ;
   skos:scopeNote "If no coordinates are available, do not make a schema:GeoCoordinates node." .
 
 schema:longitude a owl:DatatypeProperty ;
-  ebg:order 43 ;
   schema:domainIncludes schema:GeoCoordinates ;
   schema:rangeIncludes xsd:decimal ;
   rdfs:label "longitude" ;
@@ -1027,7 +964,6 @@ schema:longitude a owl:DatatypeProperty ;
   skos:scopeNote "If no coordinates are available, do not make a schema:GeoCoordinates node." .
 
 schema:license a owl:ObjectProperty ;
-  ebg:order 51 ;
   rdfs:label "license" ;
   schema:domainIncludes ebg:IdentifierSystem, void:Dataset ;
   schema:rangeIncludes rdf:Resource ;
@@ -1035,7 +971,6 @@ schema:license a owl:ObjectProperty ;
   skos:scopeNote "If possible, use established license URLs, e.g. from https://creativecommons.org/ or http://rightsstatements.org/" .
 
 schema:sameAs a owl:ObjectProperty ;
-  ebg:order 19 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:Resource ;
   rdfs:label "wikipedia page" ;
@@ -1043,7 +978,6 @@ schema:sameAs a owl:ObjectProperty ;
   skos:example <https://it.wikipedia.org/wiki/Trento> .
 
 schema:url a owl:ObjectProperty ;
-  ebg:order 18 ;
   schema:domainIncludes rov:RegisteredOrganization, ebg:WebResource ;
   schema:rangeIncludes rdf:Resource ;
   rdfs:label "website" ;
@@ -1054,7 +988,6 @@ schema:url a owl:ObjectProperty ;
     'For system BE Banque-Carrefour des Entreprises, <https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html> with MIME type "application/x-search" is the search URL'.
 
 sioc:feed a owl:ObjectProperty ;
-  ebg:order 21 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:Resource ;
   rdfs:label "news/blog feed" ;
@@ -1062,7 +995,6 @@ sioc:feed a owl:ObjectProperty ;
   skos:example <http://www.comune.ancona.gov.it/ankonline/anconaentrate/feed/>.
 
 skos:altLabel a owl:DatatypeProperty ;
-  ebg:order 2 ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:langString, xsd:string ;
   skos:definition "Informal/popular name of the company (also called Trading As) [ebg:]. Sometimes (e.g., when the legal name is very long) people refer to a company using a different, informal version [ebg:]. Some jurisdictions recognize concepts such as a trading name or alternative forms of a legal entity's name [rov:]." ;
@@ -1075,7 +1007,6 @@ skos:altLabel a owl:DatatypeProperty ;
   skos:example "OpenCorporates"@en .
 
 skos:notation a owl:DatatypeProperty ;
-  ebg:order 49 ;
   schema:domainIncludes adms:Identifier, ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "notation (identifier value)";
@@ -1085,9 +1016,131 @@ skos:notation a owl:DatatypeProperty ;
     "Codes for Identifier Systems are issued locally by euBusinessGraph.\r\nFor identifier systems published by the sole or preferred official register in a jurisdiction, we use the jurisdiction code (e.g. \"BG\", \"GB\"). For others, if the identifier system has no explicit name, we use a short mnemonic code of the publisher: upper-case for company registers (e.g. \"OCORP\", \"SDATI\", \"RAL\", \"EU\", \"BRIS\"), mixed-case for social network registers (e.g. \"Twitter\", \"Facebook\")." .
 
 skos:prefLabel a owl:DatatypeProperty ;
-  ebg:order 1 ;
   schema:domainIncludes ebg:IdentifierSystem , rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:langString, xsd:string ;
   rdfs:label "preferred name" ;
   skos:definition "A single preferred name of a company or identifier system (preferably English)." ;
   skos:scopeNote "Used as a display name of the company or identifier system. For companies we usually pick one of the Registered Names (English if present, else at random). For identifier systems, we use a commonly used English name." .
+
+person:Person a rdfs:Class ;
+  rdfs:label "Officer" ;
+  skos:definition "An officer is a natural person (as opposed to a legal person) [person:] that has a high-level management role in a Company (e.g., the CEO, treasurer and chief financial officer). Despite their high status, they typically serve at the will of the corporate directors, who can fire or replace them. Officers can also be shareholders and directors but don't necessarily have to be. They have the authority to act on behalf of the corporation, including contract authority." .
+
+person:birthName a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "birth name" ;
+  skos:definition "The legal name of the person which is usually determined at or around birth, usually persistent and for this reason usually recorded by some official registers. Although birth names tend to be persistent we do not assume this has to be the case." ;
+  skos:example "Michele Barbera" .
+
+org:Membership a rdfs:Class ;
+  rdfs:label "Membership" ;
+  skos:definition "represents the relation between an organisation and a member of that organisation." ;
+  skos:scopeNote "it is acceptable to use the same Membership node for several officers, if they had exactly the same role and membership interval (e.g. in many countries the Board is appointed and discharged at the same interval, namely between AGMs of the company)" .
+
+org:organization a owl:ObjectProperty ;
+  schema:domainIncludes org:Membership ;
+  schema:rangeIncludes org:Organization ;
+  rdfs:label "company" ;
+  skos:definition "Points to the company the membership is about" .
+
+org:member a owl:ObjectProperty ;
+  rdfs:label "member" ;
+  schema:domainIncludes org:Membership ;
+  schema:rangeIncludes person:Person ;
+  skos:definition "The officer that the membership is about" .
+
+org:memberDuring a owl:ObjectProperty ;
+  rdfs:label "duration" ;
+  schema:domainIncludes org:Membership ;
+  schema:rangeIncludes time:Interval ;
+  skos:definition "Interval (beginning and end) of the membership relation. May be an open interval." ;
+  skos:scopeNote "for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg \"<date>T00:00:00Z\"^xsd:dateTime." .
+
+org:Role a rdfs:Class ;
+  rdfs:label "Role" ;
+  skos:definition "Denotes a role that a Person can take in an organization." ;
+  skos:scopeNote "Instances of this class describe the abstract role; to denote a specific instance of a person playing that role in a specific organization use an instance of org:Membership." .
+
+org:role a owl:ObjectProperty ;
+  rdfs:label "role" ;
+  schema:domainIncludes org:Membership ;
+  schema:rangeIncludes org:Role ;
+  skos:definition "The role played by the officer in the membership" .
+
+rov:legalName ebg:order 0.
+skos:prefLabel ebg:order 1.
+skos:altLabel ebg:order 2.
+rov:orgType ebg:order 3.
+ebg:orgTypeText ebg:order 4.
+ebg:isStartup ebg:order 5.
+ebg:isStateOwned ebg:order 6.
+ebg:isPubliclyTraded ebg:order 7.
+rov:orgStatus ebg:order 8.
+ebg:orgStatusText ebg:order 9.
+rov:orgActivity ebg:order 10.
+ebg:orgActivityText ebg:order 11.
+ebg:orgActivityTransitive ebg:order 12.
+schema:foundingDate ebg:order 13.
+ebg:foundingYear ebg:order 14.
+schema:dissolutionDate ebg:order 15.
+ebg:dissolutionYear ebg:order 16.
+schema:availableLanguage ebg:order 17.
+schema:url ebg:order 18.
+schema:sameAs ebg:order 19.
+schema:email ebg:order 20.
+sioc:feed ebg:order 21.
+dbo:jurisdiction ebg:order 22.
+org:hasRegisteredSite ebg:order 23.
+org:hasSite ebg:order 24.
+rov:registration ebg:order 25.
+adms:identifier ebg:order 26.
+org:siteAddress ebg:order 27.
+locn:fullAddress ebg:order 28.
+locn:adminUnitL1 ebg:order 29.
+locn:adminUnitL2 ebg:order 30.
+ebg:adminUnitL3 ebg:order 31.
+ebg:adminUnitL4 ebg:order 32.
+ebg:adminUnitL5 ebg:order 33.
+ebg:adminUnitL6 ebg:order 34.
+locn:postName ebg:order 35.
+locn:addressArea ebg:order 36.
+locn:thoroughfare ebg:order 37.
+locn:locatorDesignator ebg:order 38.
+locn:postCode ebg:order 39.
+locn:poBox ebg:order 40.
+schema:geo ebg:order 41.
+schema:latitude ebg:order 42.
+schema:longitude ebg:order 43.
+ebg:geoResolution ebg:order 44.
+schema:author ebg:order 45.
+schema:author ebg:order 45.
+dct:creator ebg:order 46.
+schema:publisher ebg:order 47.
+skos:notation ebg:order 49.
+ebg:ralCode ebg:order 50.
+schema:license ebg:order 51.
+ebg:isUnique ebg:order 52.
+ebg:isSingleValued ebg:order 53.
+ebg:isPersistent ebg:order 54.
+ebg:isImmutable ebg:order 55.
+ebg:isPublic ebg:order 56.
+ebg:isEnumerated ebg:order 58.
+ebg:isOfficial ebg:order 59.
+ebg:validationRule ebg:order 60.
+ebg:validationRegex ebg:order 61.
+ebg:replacementPattern ebg:order 62.
+ebg:identifierWebResource ebg:order 63.
+ebg:webResource ebg:order 64.
+schema:name ebg:order 66.
+dc:format ebg:order 67.
+schema:inLanguage ebg:order 68.
+ebg:urlTemplate ebg:order 69.
+dct:isPartOf ebg:order 71.
+dct:issued ebg:order 73.
+schema:expires ebg:order 74.
+person:birthName ebg:order 102.
+org:organization ebg:order 103.
+org:member ebg:order 104.
+org:memberDuring ebg:order 105.
+org:role ebg:order 106.

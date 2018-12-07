@@ -24,8 +24,8 @@ Status: active               (because there's no End Date)
 ## BG TR
 https://public.brra.bg/CheckUps/Verifications/ActiveCondition.ra?guid=617f4edf8c154f4296efdf146513de21 and enter the captcha (or may need to paste EIK=200356710)
 ```
-10. Представители        20120629172316 (Company Representative, i.e. CEO; date) 
-Атанас Костадинов Киряков 
+10. Представители        20120629172316 (Company Representative, i.e. CEO; date)
+Атанас Костадинов Киряков
 12. Съвет на директорите 20170711145327 (Board of Directors; date)
 Васил Иванов Момчев
 Цветан Борисов Алексиев
@@ -41,14 +41,40 @@ https://public.brra.bg/CheckUps/Verifications/ActiveCondition.ra?guid=617f4edf8c
 - Person identities are kept: BG TR includes a hashed version of the official person ID, so you can tell which companies a certain person is related to
 - all Directors (item 12) are listed as a group, so we could use one Membership record for all (as a shortcut)
 
+## SDATI
+```
+Name: Michele Barbera
+Nationality: Italian
+Gender: M
+AcheneID: 6da785b3adf219770c9eed00219c595f69dc2fde
+Company: SpazioDati S.R.L.
+Roles:
+1.  Position: "Amministratore delegato"
+    From: 20170420 To: ---
+1.  Position: "Consigliere"
+    From: 20121220 To: ---
+1.  Position: "Chief Executive Officer"
+    From: --- To: ---
+Company: Sunny Solutions S.R.L.
+1.  Position: "Marketing Manager"
+    From: --- To: ---
+```
+
+Person identities are kept. The AcheneID is a hashed version of the Italian Tax ID. About Italian Tax ID: the happy path of the algorithm is public and can indeed produce homocodes (people with same name/last name, birthday and birthplace). The problem is avoided by having the Tax Agency explicitly issue new tax IDs, meaning that these are enumerated and whenever there is a clash, the algorithm follows a "special case" path to avoid the clash.
+
+From an inspection of the data, `status` can be inferred as follows:
+- `Inactive` when there's a value for `To` (there are no cases of values for `To` in the future)
+- `Active` when there's a value for `From`, but no value for `To`
+- `UNKNOWN` when there's neither `From` nor `To`
+
 # Mapping notes/questions
 - https://www.w3.org/ns/person is very basic, doesn't even include birth/death dates. So we may use schema:Person
 - Standard data requirements:
   - Id (also used in URL)
   - Names (one field)
-  - Status: active/passive (if available). Confirm we can use a standard lookup
+  - Status: active/passive (if available). Confirm we can use a standard lookup. In SDATI's case it can also be unknown.
   - Role (position): Can we make a standard lookup list for Role: CEO/Manager/Representative (typically one), Director (many).
-    In OCORP this looks like free text.
+    In OCORP this looks like free text. For SDATI there's an enumerated set of positions
     if not, we can use a free text but...
 - Extra data requirements:
   - Occupation (in addition to role)?

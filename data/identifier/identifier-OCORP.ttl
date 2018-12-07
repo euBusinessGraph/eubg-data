@@ -1,0 +1,49 @@
+@base            <http://data.businessgraph.io/> .
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <http://schema.org/> .
+
+<identifier/OCORP> a ebg:IdentifierSystem;
+  dct:creator <https://opencorporates.com/>;
+  schema:author <https://opencorporates.com/>;
+  schema:publisher <https://opencorporates.com/>;
+  skos:notation "OCORP";
+  schema:name "OCORP company identifiers";
+  schema:description """Aggregation of official register identifiers by OpenCorporates. Identifiers are issued by official registers, not OpenCorporates""";
+  schema:url <https://opencorporates.com/registers>;
+  schema:license <https://opencorporates.com/info/licence>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false;
+  # validation
+  ebg:validationRegex "\\[a-z_]+\/\w+".
+  ebg:identifierWebResource <identifier/OCORP/web>, <identifier/OCORP/xml>, <identifier/OCORP/rdf>, <identifier/OCORP/json>.
+
+  <identifier/OCORP/web> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company page";
+  dc:format "text/html";
+  ebg:urlTemplate "https://opencorporates.com/id/companies/{}".
+
+  <identifier/OCORP/xml> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company data XML";
+  dc:format "application/xml";
+  ebg:urlTemplate "https://api.opencorporates.com/companies/gb/{}?format=xml".
+
+  <identifier/OCORP/rdf> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company data RDF";
+  dc:format "application/rdf+xml";
+  ebg:urlTemplate "https://opencorporates.com/companies/gb/{}.rdf".
+
+  <identifier/OCORP/json> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company data JSON";
+  dc:format "application/json";
+  ebg:urlTemplate "https://api.opencorporates.com/companies/{}".
