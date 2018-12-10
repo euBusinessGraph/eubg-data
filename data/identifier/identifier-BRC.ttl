@@ -16,7 +16,7 @@
   schema:description "Official identifiers of Norwegian legal entities or branches of entities";
   ebg:ralCode "RA000473";  # ral code for Enhetsregisteret
   schema:url <https://data.brreg.no>;
-  schema:license <https://data.norge.no/nlod/en/1.0>;
+  schema:license <https://data.norge.no/nlod/en/2.0;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued true;
