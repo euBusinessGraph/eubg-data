@@ -48,7 +48,7 @@
   schema:name "NO company page";
   dc:format "text/html";
   schema:inLanguage "no";
-  ebg:urlTemplate "https://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}".
+  ebg:urlTemplate "https://data.brreg.no/enhetsregisteret/oppslag/enheter/{}".
 
 <identifier/NO/xml> a ebg:IdentifierWebResource;
   schema:name "NO company data XML";
