@@ -54,7 +54,7 @@
   schema:name "NO company data XML";
   dc:format "application/xml";
   schema:inLanguage "no";
-  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
+  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.xml".
 
 <identifier/NO/rdf> a ebg:IdentifierWebResource;
   schema:name "NO company data RDF";
@@ -74,10 +74,10 @@
   schema:name "NO company data JSON";
   dc:format "application/json";
   schema:inLanguage "no";
-  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.json".
+  ebg:urlTemplate "https://data.brreg.no/enhetsregisteret/api/enheter/{}".
 
 <identifier/NO/csv> a ebg:IdentifierWebResource;
   schema:name "NO company data CSV";
   dc:format "text/csv";
   schema:inLanguage "no";
-  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.csv".
+  ebg:urlTemplate "https://data.brreg.no/enhetsregisteret/enhet/{}.csv".
