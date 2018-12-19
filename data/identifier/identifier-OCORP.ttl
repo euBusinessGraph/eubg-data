@@ -30,7 +30,7 @@
 
 <identifier/OCORP/web> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company semantic URL";
-  dc:format "application/xml", "application/json", "text/html";
+  dc:format "application/rdf+xml", "application/json", "text/html";
   schema:description "Provides data in RDF, JSON, and HTML using content negotiation";
   ebg:urlTemplate "https://opencorporates.com/companies/{}".
   # TODO: "application/xml" doesn't work and returns JSON instead
