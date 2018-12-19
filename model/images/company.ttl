@@ -97,11 +97,11 @@
   schema:inLanguage "(resouce_lang)";
   schema:url <http://(resource_url)>.
 
-<identifier/(co)/resource/2> a ebg:WebResource;
+<identifier/(co)/resource/2> a ebg:IdentifierWebResource;
   schema:name "(resource2_name)";
   dc:format "(MIME_type2)";
   schema:inLanguage "(resouce2_lang)";
-  schema:url <http://(per_company_url_$1)>.
+  ebg:urlTemplate "http://(per_company_url)_{}".
 
 <identifier/(co)/issuer> a schema:Organization;
   schema:name "(co) Registry Agency".
@@ -135,7 +135,7 @@
   schema:name "(resource2_name)";
   dc:format "(MIME_type2)";
   schema:inLanguage "(resouce2_lang)";
-  ebg:urlTemplate "http://(per_company_url2_$1)".
+  ebg:urlTemplate "http://(per_company_url2)_{}".
 
 <identifier/(provider)/issuer> a schema:Organization;
   schema:name "(provider_name)".
