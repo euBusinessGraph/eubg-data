@@ -15,6 +15,10 @@
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
+<http://ontotext.com> a schema:Organization;
+  schema:name "Ontotext Corp";
+  skos:notation "ONTO".
+
 <dataset/ONTO> a void:Dataset;
   dct:title "Ontotext dataset, fully provided to EBG";
   dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;

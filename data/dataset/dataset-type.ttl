@@ -1,4 +1,6 @@
 @base            <http://data.businessgraph.io/>.
+@prefix cc:      <http://creativecommons.org/ns#>.
+@prefix dct:     <http://purl.org/dc/terms/> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:  <http://schema.org/> .
@@ -14,4 +16,9 @@
 
 #################### license logos
 
-<https://opendatacommons.org/licenses/by/> schema:image <https://assets.okfn.org/web/images/header-logox2.png>.
+<https://opendatacommons.org/licenses/by/> a dct:LicenseDocument;
+  dct:type <http://purl.org/adms/licencetype/Attribution>;
+  cc:requires cc:Attribution;
+  schema:name "Open Data Commons Attribution License";
+  schema:description "Acknowledge as: this {DATABASE-NAME} is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/";
+  schema:image <https://assets.okfn.org/web/images/header-logox2.png>.
