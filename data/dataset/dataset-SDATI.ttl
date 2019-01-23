@@ -1,0 +1,85 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://spaziodati.eu/en/> a schema:Organization;
+  schema:name "SpazioDati";
+  skos:notation "SDATI".
+
+<dataset/SDATI> a void:Dataset;
+  dct:description "euBusinessGraph only provides info about jurisdictions and fields in this dataset. Contact the publisher for commercial information.";
+  dct:title "SpazioDati full dataset";
+  dct:type <dataset/type/provider>;
+  dct:publisher <https://spaziodati.eu/en/>;
+  void:subset <dataset/SDATI/GB>, <dataset/SDATI/EBG>.
+
+<dataset/SDATI/EBG> a void:Dataset;
+  dct:title "SpazioDati dataset provided to EBG";
+  dct:publisher <https://spaziodati.eu>;
+  dct:type <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  void:subset <dataset/SDATI/EBG/IT>.
+
+<dataset/SDATI/GB> a void:Dataset;
+  dct:title "SpazioDati full dataset of GB companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:GB;
+  void:entities 1000001;
+  void:classPartition <dataset/SDATI/GB/address>, <dataset/SDATI/GB/person>, <dataset/SDATI/GB/membership>;
+  void:property
+    adms:identifier,
+    dbo:jurisdiction,
+    dct:creator,
+    dct:isPartOf,
+    ebg:orgTypeText,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    locn:postCode,
+    locn:postName,
+    locn:fullAddress,
+    locn:thoroughfare,
+    org:hasRegisteredSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    rov:orgActivity,
+    ebg:isStartup,
+    schema:url,
+    skos:notation,
+    skos:altLabel,
+    skos:prefLabel;
+  dct:license <https://atoka.io/en/terms-use/>;
+  dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/>.
+
+<dataset/SDATI/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 1144245.
+<dataset/SDATI/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
+<dataset/SDATI/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<https://spaziodati.eu/en/> a ebg:WebResource;
+  schema:url <https://spaziodati.eu/en/>;
+  schema:name "SpazioDati: home page"@en;
+  dc:format "text/html";
+  schema:inLanguage "en".
+
+<https://atoka.io/en/> a ebg:WebResource;
+  schema:url <https://atoka.io/en/>;
+  schema:name "Atoka: All of the italian and british companies in a unique database"@en;
+  dc:format "text/html";
+  schema:inLanguage "en".
+  

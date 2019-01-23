@@ -1,0 +1,115 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://opencorporates.com/> a schema:Organization;
+  schema:name "OpenCorporates";
+  skos:notation "OCORP".
+
+<dataset/OCORP> a void:Dataset;
+  dct:description "euBusinessGraph only provides info about jurisdictions and fields in this dataset. Contact the publisher for commercial information.";
+  dct:title "OpenCorporates full dataset of 147M companies from 128 jurisdictions";
+  dct:type <dataset/type/provider>;
+  dct:publisher <https://opencorporates.com/>;
+  void:subset <dataset/OCORP/GB>, <dataset/OCORP/EBG>.
+
+<dataset/OCORP/GB> a void:Dataset;
+  dct:title "OpenCorporates full dataset of GB companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:GB;
+  void:entities 10861646;
+  void:classPartition <dataset/OCORP/GB/address>, <dataset/OCORP/GB/person>, <dataset/OCORP/GB/membership>;
+  void:property
+    adms:identifier,
+    dbo:jurisdiction,
+    dct:creator,
+    dct:isPartOf,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    locn:postCode,
+    locn:postName,
+    locn:fullAddress,
+    locn:thoroughfare,
+    org:hasRegisteredSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    schema:dissolutionDate,
+    schema:foundingDate,
+    ebg:orgStatusText,
+    skos:notation,
+    skos:altLabel,
+    skos:prefLabel;
+  dct:license <https://opencorporates.com/info/licence>;
+  dct:source <https://opencorporates.com/>.
+  void:subset <dataset/OCORP/EBG/GB>.
+
+<dataset/OCORP/EBG> a void:Dataset;
+  dct:title "OpenCorporates dataset provided to EBG";
+  dct:type <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <https://opencorporates.com/>;
+  void:subset <dataset/OCORP/EBG/GB>.
+
+<dataset/OCORP/EBG/GB> a void:Dataset;
+  dct:title "OpenCorporates dataset of GB companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:GB;
+  void:entities 10861646;
+  void:classPartition <dataset/OCORP/EBG/GB/address>, <dataset/OCORP/EBG/GB/person>, <dataset/OCORP/EBG/GB/membership>;
+  void:property
+    adms:identifier,
+    dbo:jurisdiction,
+    dct:creator,
+    dct:isPartOf,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    locn:postCode,
+    locn:postName,
+    locn:fullAddress,
+    locn:thoroughfare,
+    org:hasRegisteredSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    schema:dissolutionDate,
+    schema:foundingDate,
+    ebg:orgStatusText,
+    skos:notation,
+    skos:altLabel,
+    skos:prefLabel;
+  dct:license <https://opencorporates.com/info/licence>;
+  dct:source <https://opencorporates.com/>.
+
+<dataset/OCORP/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 9976005.
+<dataset/OCORP/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
+<dataset/OCORP/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<dataset/OCORP/EBG/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 9976005.
+<dataset/OCORP/EBG/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
+<dataset/OCORP/EBG/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<https://opencorporates.com/> a ebg:WebResource;
+  schema:url <https://opencorporates.com/registers>;
+  schema:name "OpenCorporates: home page"@en;
+  dc:format "text/html";
+  schema:inLanguage "en".
