@@ -1,0 +1,70 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.brreg.no/> a schema:Organization;
+  schema:name "Brønnøysundregistrene";
+  skos:notation "BRC".
+
+<dataset/BRC> a void:Dataset;
+  dct:title "BRC dataset, fully provided to EBG";
+  dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:publisher <https://www.brreg.no/>;
+  void:subset <dataset/BRC/NO>.
+
+<dataset/BRC/NO> a void:Dataset;
+  dct:title "BRC official dataset of NO companies provided to EBG";
+  dct:type <dataset/type/partition>;
+  dct:spatial nuts:NO;
+  void:entities 1087892;
+  void:classPartition <dataset/BRC/NO/address>, <dataset/BRC/NO/person>, <dataset/BRC/NO/membership>;
+  void:property
+    adms:identifier,
+    dbo:jurisdiction,
+    dct:creator,
+    dct:isPartOf,
+    ebg:orgTypeText,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    locn:postCode,
+    locn:postName,
+    locn:thoroughfare,
+    org:hasRegisteredSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    rov:orgActivity,
+    rov:orgType,
+    rov:registration,
+    schema:foundingDate,
+    skos:notation,
+    skos:prefLabel;
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:source <https://www.brreg.no/>.
+
+<dataset/BRC/NO/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 1145803.
+<dataset/BRC/NO/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
+<dataset/BRC/NO/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<https://data.brreg.no/oppslag/enhetsregisteret/enheter.xhtml> a ebg:WebResource;
+  schema:url <https://data.brreg.no/oppslag/enhetsregisteret/enheter.xhtml>;
+  schema:name "Brønnøysundregistrene: Enhetregisteret for (open) company data"@no;
+  dc:format "text/html";
+  schema:inLanguage "no".
