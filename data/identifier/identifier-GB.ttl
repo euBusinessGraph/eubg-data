@@ -30,20 +30,23 @@
   ebg:validationRegex "\\d{8}";
   ebg:identifierWebResource <identifier/GB/semantic>, <identifier/GB/web>, <identifier/GB/html>, <identifier/GB/rdf>.
 
+################## Get content by file extension:
 <identifier/GB/semantic> a ebg:IdentifierWebResource;
   schema:name "GB company semantic URL";
-  dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv", "text/html", "text/vnd.yaml";
+  dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv", "text/html", "application/yaml";
   schema:description "Provides data in XML, RDF, JSON, CSV, HTML, YAML using content negotiation";
   schema:inLanguage "en";
   ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}".
 
-# TODO: All of these return 404 Not Found. Also checked https://data.companieshouse.gov.uk/company/11220640
-# curl -LHaccept:application/xml     https://data.companieshouse.gov.uk/doc/company/11220640
-# curl -LHaccept:application/rdf+xml https://data.companieshouse.gov.uk/doc/company/11220640
-# curl -LHaccept:application/json    https://data.companieshouse.gov.uk/doc/company/11220640
-# curl -LHaccept:text/csv            https://data.companieshouse.gov.uk/doc/company/11220640
-# curl -LHaccept:text/html           https://data.companieshouse.gov.uk/doc/company/11220640
-# curl -LHaccept:text/vnd.yaml       https://data.companieshouse.gov.uk/doc/company/11220640
+# For example:
+# curl -LHaccept:application/xml     http://data.companieshouse.gov.uk/doc/company/11220640
+# curl -LHaccept:application/rdf+xml http://data.companieshouse.gov.uk/doc/company/11220640
+# curl -LHaccept:application/json    http://data.companieshouse.gov.uk/doc/company/11220640
+# curl -LHaccept:text/csv            http://data.companieshouse.gov.uk/doc/company/11220640
+# curl -LHaccept:text/html           http://data.companieshouse.gov.uk/doc/company/11220640
+# curl -LHaccept:application/yaml    http://data.companieshouse.gov.uk/doc/company/11220640
+
+################## The same content can be obtained by file extension:
 
 <identifier/GB/web> a ebg:IdentifierWebResource;
   schema:name "GB company page";
@@ -57,8 +60,44 @@
   schema:inLanguage "en";
   ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.html".
 
+<identifier/GB/xml> a ebg:IdentifierWebResource;
+  schema:name "GB company data XML";
+  dc:format "application/xml";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.xml".
+
 <identifier/GB/rdf> a ebg:IdentifierWebResource;
   schema:name "GB company data RDF";
   dc:format "application/rdf+xml";
   schema:inLanguage "en";
   ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.rdf".
+
+<identifier/GB/json> a ebg:IdentifierWebResource;
+  schema:name "GB company data JSON";
+  dc:format "application/json";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.json".
+
+<identifier/GB/csv> a ebg:IdentifierWebResource;
+  schema:name "GB company data CSV";
+  dc:format "application/csv";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.csv".
+
+<identifier/GB/yaml> a ebg:IdentifierWebResource;
+  schema:name "GB company data YAML";
+  dc:format "application/yaml";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.yaml".
+
+# For example:
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.xml
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.rdf
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.json
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.csv
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.html
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.yaml
+
+# This doesn't work:
+# curl -LHaccept:text/turtle         http://data.companieshouse.gov.uk/doc/company/11220640
+# curl http://data.companieshouse.gov.uk/doc/company/11220640.ttl

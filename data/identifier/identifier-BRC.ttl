@@ -81,3 +81,6 @@
   dc:format "text/csv";
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.csv".
+
+# TODO Bjørn Grøva 10 Dec 2018: I  fixed some of the information for BRC, but was not allowed to push the changes back to github.
+# Regarding content negotiation for the various forms of rdf: None of those are implemented yet, so it would probably be best to remove those entries from the identifier-BRC.ttl file.
