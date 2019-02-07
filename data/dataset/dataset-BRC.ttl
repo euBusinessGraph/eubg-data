@@ -63,8 +63,8 @@
 <dataset/BRC/NO/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
 <dataset/BRC/NO/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
 
-<https://data.brreg.no/oppslag/enhetsregisteret/enheter.xhtml> a ebg:WebResource;
-  schema:url <https://data.brreg.no/oppslag/enhetsregisteret/enheter.xhtml>;
+<https://data.brreg.no/enhetsregisteret/oppslag/enheter> a ebg:WebResource;
+  schema:url <https://data.brreg.no/enhetsregisteret/oppslag/enheter>;
   schema:name "Brønnøysundregistrene: Enhetregisteret for (open) company data"@no;
   dc:format "text/html";
   schema:inLanguage "no".
