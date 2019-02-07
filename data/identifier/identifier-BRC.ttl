@@ -16,7 +16,7 @@
   schema:description "Official identifiers of Norwegian legal entities or branches of entities";
   ebg:ralCode "RA000473";  # ral code for Enhetsregisteret
   schema:url <https://data.brreg.no>;
-  schema:license <https://data.norge.no/nlod/en/1.0>;
+  schema:license <https://data.norge.no/nlod/en/2.0>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued true;
@@ -28,16 +28,17 @@
   ebg:isOfficial true;
   # validation
   ebg:validationRule
-    <https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/>;
+    <https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/organisasjonsnummeret/>;
   ebg:validationRegex "\\d{9}";
   ebg:identifierWebResource <identifier/NO/semantic>, <identifier/NO/web>, <identifier/NO/xml>, <identifier/NO/rdf>, <identifier/NO/json>, <identifier/NO/csv>.
 
+# Bjorn: New service currently only supplies application/json
 <identifier/NO/semantic> a ebg:IdentifierWebResource;
   schema:name "NO company semantic URL";
-  dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv";
+  dc:format "application/json";
   schema:description "Provides data in XML, RDF, JSON, and CSV using content negotiation";
   schema:inLanguage "no";
-  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
+  ebg:urlTemplate "https://data.brreg.no/enhetsregisteret/api/enheter/{}".
 
 # TODO: the content negotiation is broken. Both of these
 # curl -vL -Haccept:application/rdf+xml http://data.brreg.no/enhetsregisteret/enhet/974760673
@@ -48,7 +49,7 @@
   schema:name "NO company page";
   dc:format "text/html";
   schema:inLanguage "no";
-  ebg:urlTemplate "https://data.brreg.no/oppslag/enhetsregisteret/enhet.xhtml?orgnr={}".
+  ebg:urlTemplate "https://data.brreg.no/enhetsregisteret/oppslag/enheter/{}".
 
 <identifier/NO/xml> a ebg:IdentifierWebResource;
   schema:name "NO company data XML";
@@ -56,13 +57,12 @@
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
 
-<identifier/NO/rdf> a ebg:IdentifierWebResource;
-  schema:name "NO company data RDF";
-  dc:format "application/rdf+xml"; # TODO that's text/turtle
-  schema:inLanguage "no";
-  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.ttl".
 
 # TODO: Is there http://data.brreg.no/enhetsregisteret/enhet/{}.rdf with format application/rdf+xml?
+# Bjørn: further formats (like various flavours of rdf) will be implemented on the endpoint
+# https://data.brreg.no/enhetsregisteret/api/enheter/{} with content negotioation
+# but at the moment, only application/json exists.
+# application/xml is served at the old service, as specified above http://data.brreg.no/enhetsregisteret/enhet/{}
 
 # TODO: I tested with different extensions, and .ttl/.rdf both return json (only .csv returns csv)
 # curl -L http://data.brreg.no/enhetsregisteret/enhet/974760673.ttl
@@ -74,13 +74,15 @@
   schema:name "NO company data JSON";
   dc:format "application/json";
   schema:inLanguage "no";
-  ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.json".
+  ebg:urlTemplate "https://data.brreg.no/enhetsregisteret/api/enheter/{}".
 
 <identifier/NO/csv> a ebg:IdentifierWebResource;
   schema:name "NO company data CSV";
   dc:format "text/csv";
   schema:inLanguage "no";
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}.csv".
+
+
 
 # TODO Bjørn Grøva 10 Dec 2018: I  fixed some of the information for BRC, but was not allowed to push the changes back to github.
 # Regarding content negotiation for the various forms of rdf: None of those are implemented yet, so it would probably be best to remove those entries from the identifier-BRC.ttl file.
