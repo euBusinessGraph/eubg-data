@@ -1,0 +1,79 @@
+@base           <http://data.businessgraph.io/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ebg:    <http://data.businessgraph.io/ontology#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+
+<resolution> a skos:ConceptScheme; 
+        rdfs:label "Geo-coordinate resolution"@en.
+
+<resolution/L0> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "10" ;
+        skos:prefLabel  "Continent"@en ;
+        skos:description  "Coordinate corresponds to not even country (least precise)"@en .
+
+<resolution/L1> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "20" ;
+        skos:prefLabel  "Country"@en ;
+        skos:description  "coordinate corresponds to locn:adminUnitL1"@en .
+
+<resolution/L2> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "30" ;
+        skos:scopeNote  "NUTS1"
+        skos:prefLabel  "Macroregion"@en ;
+        skos:description  "Coordinate corresponds to locn:adminUnitL2"@en .
+
+<resolution/L3> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "40" ;
+        skos:scopeNote  "NUTS2"
+        skos:prefLabel  "Region"@en ;
+        skos:description  "Coordinate corresponds to locn:adminUnitL3"@en .
+
+<resolution/L4> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "50" ;
+        skos:scopeNote  "NUTS3"
+        skos:prefLabel  "Province"@en ;
+        skos:description  "Coordinate corresponds to locn:adminUnitL4"@en .
+
+<resolution/L5> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "60" ;
+        skos:scopeNote  "LAU1"
+        skos:prefLabel  "Municipality"@en ;
+        skos:description  "Coordinate corresponds to locn:adminUnitL5"@en .
+
+<resolution/L6> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "65" ;
+        skos:scopeNote  "LAU2"
+        skos:prefLabel  "Settlement"@en ;
+        skos:description  "Coordinate corresponds to ebg:adminUnitL6 and/or locn:postName"@en .
+
+<resolution/L7> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "70" ;
+        skos:prefLabel  "Neighborhood"@en ;
+        skos:description  "Coordinate corresponds to locn:addressArea"@en .
+
+<resolution/L8> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "80" ;
+        skos:prefLabel  "Street"@en ;
+        skos:description  "Coordinate corresponds to locn:thoroughfare"@en .
+
+<resolution/L9> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "90" ;
+        skos:prefLabel  "Building"@en ;
+        skos:description  "Coordinate corresponds to locn:locatorDesignator"@en .
+
+<resolution/L10> a skos:Concept ;
+        skos:inScheme   <resolution> ;
+        skos:notation   "100" ;
+        skos:prefLabel  "Precise point"@en ;
+        skos:description  "Coordinate corresponds to locn:locatorDesignator (most precise)"@en .

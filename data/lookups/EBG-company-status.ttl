@@ -2,31 +2,40 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 
-<status/OCORP/inactive>
-        rdf:type          skos:Concept ;
+<status/OCORP/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "inactive"@en ;
         skos:description  "A variety of company statuses (e.g. \"Dissolved\", \"Inactive\", \"Revoked\") are mapped to \"Inactive\". In jurisdictions that do not provide company status information, \"Inactive\" is also inferred from dissolution dates that are in the past, where they exist."@en .
 
-<status/SDATI/inactive>
-        rdf:type          skos:Concept ;
+<status/OCORP/active>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:description  "The company is active"@en .
+
+<status/SDATI/active>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "active"@en ;
+        skos:description  "The company is active"@en ;
+
+<status/SDATI/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "inactive"@en ;
         skos:description  "If the company has not filed a balance sheet for a long time, we assume it is Inactive (dormant)"@en .
 
-<status/BRC/inactive>
-        rdf:type          skos:Concept ;
+# konkurs/ underAvvikling / underTvangsavviklingEllerTvangsopplosning 
+<status/BRC/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
+        skos:prefLabel    "inaktiv"@no ;
         skos:prefLabel    "inactive"@en ;
-        skos:description  "Limited to companies under bankruptcy."@en .
+        skos:description  "Selskaper som er konkurs"@no .
+        skos:description  "Limited to companies under bankruptcy"@en .
 
 <status/LEI/active>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "active"@en ;
         skos:description  "As of the last report or update, the legal entity reported that it was legally registered and operating."@en .
 
-<status/LEI/inactive>
-        rdf:type          skos:Concept ;
+<status/LEI/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "inactive"@en ;
         skos:description  "It has been determined that the entity that was assigned the LEI is no longer legally registered and/or operating, whether as a result of business closure, acquisition by or merger with another (or new) entity, or determination of illegitimacy."@en .

@@ -1,0 +1,106 @@
+@base           <http://data.businessgraph.io/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ebg:    <http://data.businessgraph.io/ontology#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+
+<type/NO> a skos:ConceptScheme; 
+        rdfs:label "NO company types"@en, "NO organisasjonsform"@no .
+
+<type/NO/NUF> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "NUF" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Norskregistrert utenlandsk foretak"@no ;
+        skos:prefLabel  "Norwegian registered foreign business"@en .
+
+<type/NO/FLI> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "FLI" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Enkeltpersonforetak"@no ;
+        skos:prefLabel  "Sole proprietorship"@en .
+
+<type/NO/ENK> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "ENK" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Forening/lag/innretning"@no ;
+        skos:prefLabel  "Association/club/organization"@en .
+
+<type/NO/ESEK> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "ESEK" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Eierseksjonssameie"@no ;
+        skos:prefLabel  "Condominium flat owner"@en .
+
+<type/NO/ANS> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "ANS" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Ansvarlig selskap med solidarisk ansvar"@no ;
+        skos:prefLabel  "General Partnership"@en .
+
+<type/NO/DA> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "DA" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Ansvarlig selskap med delt ansvar"@no ;
+        skos:prefLabel  "General Partnership with shared liability"@en .
+
+<type/NO/AS> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "AS" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Aksjeselskap"@no ;
+        skos:prefLabel  "Limited company"@en .
+
+<type/NO/BA> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "BA" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Selskap med begrenset ansvar"@no ;
+        skos:prefLabel  "Company with limited liability"@en .
+
+<type/NO/STI> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "STI" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Stiftelse"@no ;
+        skos:prefLabel  "Foundation"@en .
+
+<type/NO/SAM> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "SAM" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Tingsrettslig sameie"@no ;
+        skos:prefLabel  "Joint ownership according to the law of property"@en .
+
+<type/NO/BRL> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "BRL" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Borettslag"@no ;
+        skos:prefLabel  "Housing cooperative"@en .
+
+<type/NO/SA> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "SA" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Samvirkeforetak"@no ;
+        skos:prefLabel  "Co-operative"@en .
+
+<type/NO/IKS> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "IKS" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Interkommunalt selskap"@no ;
+        skos:prefLabel  "Inter-municipal company"@en .
+
+<type/NO/ANNA> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "IKS" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Annen juridisk person"@no ;
+        skos:prefLabel  "Other body corporate"@en .

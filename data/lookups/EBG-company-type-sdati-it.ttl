@@ -1,0 +1,188 @@
+@base           <http://data.businessgraph.io/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ebg:    <http://data.businessgraph.io/ontology#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+
+<type/IT> a skos:ConceptScheme; 
+        rdfs:label "IT company types"@en.
+
+<type/IT/SR> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SR" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Company with limited liability"@en ;
+        skos:prefLabel  "Società A Responsabilità Limitata"@it .
+
+<type/IT/DI> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "DI" ;
+        ebg:order       "2" ;
+        skos:prefLabel  "Sole Trader"@en ;
+        skos:prefLabel  "Impresa Individuale"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XA> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XA" ;
+        ebg:order       "3" ;
+        skos:prefLabel  "Società In Accomandita Semplice"@it .
+
+<type/IT/SNC> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SNC" ;
+        ebg:order       "4" ;
+        skos:prefLabel  "Società In Nome Collettivo"@it .
+
+<type/IT/SU> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SU" ;
+        ebg:order       "5" ;
+        skos:prefLabel  "Company with limited liability with a sole shareholder"@en ;
+        skos:prefLabel  "Società A Responsabilità Limitata Con Unico Socio"@it .
+
+<type/IT/RS> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "RS" ;
+        ebg:order       "6" ;
+        skos:prefLabel  "Simplified limited liability company"@en ;
+        skos:prefLabel  "Società A Responsabilità Limitata Semplificata"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XB> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XB" ;
+        ebg:order       "7" ;
+        skos:prefLabel  "Soggetto non iscritto al Registro Imprese"@it .
+
+<type/IT/SC> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SC" ;
+        ebg:order       "8" ;
+        skos:prefLabel  "Cooperative"@en ;
+        skos:prefLabel  "Società Cooperativa"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XC> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XC" ;
+        ebg:order       "9" ;
+        skos:prefLabel  "Associazione"@it .
+
+<type/IT/SE> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SE" ;
+        ebg:order       "10" ;
+        skos:prefLabel  "Società Semplice"@it .
+
+<type/IT/SP> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SP" ;
+        ebg:order       "11" ;
+        skos:prefLabel  "Joint-stock company"@en ;
+        skos:prefLabel  "Società Per Azioni"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list. Is Ente the same as Ente company with code EI?
+<type/IT/XD> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XD" ;
+        ebg:order       "12" ;
+        skos:prefLabel  "Company"@en ;
+        skos:prefLabel  "Ente"@it .
+
+<type/IT/CO> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "CO" ;
+        ebg:order       "13" ;
+        skos:prefLabel  "Consortium"@en ;
+        skos:prefLabel  "Consorzio"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XE> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XE" ;
+        ebg:order       "14" ;
+        skos:prefLabel  "Ente Ecclesiastico Civilmente Riconosciuto"@it .
+
+<type/IT/FI> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "FI" ;
+        ebg:order       "15" ;
+        skos:prefLabel  "Fondazione"@it .
+
+<type/IT/SL> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "SL" ;
+        ebg:order       "16" ;
+        skos:prefLabel  "Consortium company with limited liability"@en ;
+        skos:prefLabel  "Società Consortile A Responsabilità Limitata"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XF> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XF" ;
+        ebg:order       "17" ;
+        skos:prefLabel  "Associazione Impresa"@it .
+
+<type/IT/OO> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "OO" ;
+        ebg:order       "18" ;
+        skos:prefLabel  "Social cooperative"@en ;
+        skos:prefLabel  "Cooperativa Sociale"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XG> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XG" ;
+        ebg:order       "19" ;
+        skos:prefLabel  "Ente Ecclesiastico"@it .
+
+<type/IT/CL> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "CL" ;
+        ebg:order       "20" ;
+        skos:prefLabel  "Cooperative with limited liability"@en ;
+        skos:prefLabel  "Società Cooperativa A Responsabilita Limitata"@it .
+
+<type/IT/LL> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "LL" ;
+        ebg:order       "21" ;
+        skos:prefLabel  "Special company governed by the Legislative Decree 267/200"@en ;
+        skos:prefLabel  "Azienda Speciale Di Cui Al Dlgs 267/2000"@it .
+
+<type/IT/CC> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "CC" ;
+        ebg:order       "22" ;
+        skos:prefLabel  "Consortium with external activities"@en ;
+        skos:prefLabel  "Consorzio Con Attività Esterna"@it .
+
+<type/IT/AU> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "AU" ;
+        ebg:order       "23" ;
+        skos:prefLabel  "Joint-stock company with a sole shareholder"@en ;
+        skos:prefLabel  "Società Per Azioni Con Socio Unico"@it .
+
+<type/IT/AL> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "AL" ;
+        ebg:order       "24" ;
+        skos:prefLabel  "Local specialy company"@en ;
+        skos:prefLabel  "Azienda Speciale Di Ente Locale"@it .
+
+<type/IT/RC> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "RC" ;
+        ebg:order       "25" ;
+        skos:prefLabel  "Networked contract of legal subjectivity"@en ;
+        skos:prefLabel  "Contratto Di Rete Dotato Di Soggettività Giuridica"@it .
+
+# Needs to be checked by data provider. Not found in ebg company type doc or ELF code list
+<type/IT/XH> a skos:Concept ;
+        skos:inScheme   <type/IT> ;
+        skos:notation   "XH" ;
+        ebg:order       "26" ;
+        skos:prefLabel  "Ente Morale"@it .
