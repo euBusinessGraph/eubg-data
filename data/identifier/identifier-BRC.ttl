@@ -53,10 +53,6 @@
   ebg:urlTemplate "http://data.brreg.no/enhetsregisteret/enhet/{}".
 
 
-# TODO: Is there http://data.brreg.no/enhetsregisteret/enhet/{}.rdf with format application/rdf+xml?
-# Bjørn: further formats (like various flavours of rdf) will be implemented on the endpoint
-# https://data.brreg.no/enhetsregisteret/api/enheter/{} with content negotioation
-# but at the moment, only application/json exists.
 # application/xml is served at the old service, as specified above http://data.brreg.no/enhetsregisteret/enhet/{}
 
 <identifier/NO/json> a ebg:IdentifierWebResource;
