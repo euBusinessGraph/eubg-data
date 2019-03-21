@@ -54,7 +54,7 @@
     # "http://data.businessgraph.io/person/"; 
   void:features format:N-Triples, format:RDF_XML, format:Turtle;
   void:vocabulary ebg:, foaf:, locn:, ngeo:, org:, ramon:, spatial:, rov:, schema:, sioc:, time: ;
-  dct:spatial nuts:BG, nuts:GB, nuts:IT, nuts:NO; # TODO update with other OCORP jurisdictions
+  dct:spatial "BG", "GB", "IT", "NO", "DE";
   void:subset <dataset/ONTO>, <dataset/OCORP/EBG>, <dataset/SDATI/EBG>, <dataset/BRC>, <dataset/NACE>, lau:.
 
 <dataset/NACE> a void:Dataset;

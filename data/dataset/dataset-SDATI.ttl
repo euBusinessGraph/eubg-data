@@ -31,12 +31,12 @@
   dct:publisher <https://spaziodati.eu>;
   dct:type <dataset/type/provided-to-EBG>;
   dct:license <https://opendatacommons.org/licenses/by/>;
-  void:subset <dataset/SDATI/EBG/IT>.
+  void:subset <dataset/SDATI/EBG/IT>, <dataset/SDATI/EBG/GB>.
 
 <dataset/SDATI/GB> a void:Dataset;
   dct:title "SpazioDati full dataset of GB companies";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:GB;
+  dct:spatial "GB";
   void:entities 1000001;
   void:classPartition <dataset/SDATI/GB/address>, <dataset/SDATI/GB/person>, <dataset/SDATI/GB/membership>;
   void:property

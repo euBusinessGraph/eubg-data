@@ -15,7 +15,7 @@
 
 <dataset/ONTO/BG> dct:type <dataset/type/partition>;
   void:entities 2000000;
-  dct:spatial nuts:BG;
+  dct:spatial "BG";
   void:property rov:legalName, ebg:orgTypeText, rov:orgType,
     locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4.
 
@@ -23,13 +23,13 @@
   void:subset <dataset/OCORP/EBG>, <dataset/OCORP/GB>, <dataset/OCORP/HR>;
   void:propertyPartition <dataset/OCORP/GB>, <dataset/OCORP/HR>;
   void:entities 147000000;
-  dct:spatial nuts:GB, nuts:HR, "US-CA";
+  dct:spatial "GB", "HR", "US-CA";
   void:property rov:legalName, rov:orgType, ebg:orgTypeText,
     locn:fullAddres, locn:adminUnitL1.
 
 <dataset/OCORP/GB> dct:type <dataset/type/partition>;
   void:entities 13500000;
-  dct:spatial nuts:GB;
+  dct:spatial "GB";
   void:property rov:legalName, ebg:orgTypeText,
     locn:fullAddres, locn:adminUnitL1.
   
@@ -38,25 +38,25 @@
 
 <dataset/OCORP/EBG/GB> dct:type <dataset/type/partition>;
   void:entities 6000000;
-  dct:spatial nuts:GB;
+  dct:spatial "GB";
   void:property rov:legalName, ebg:orgTypeText,
     locn:fullAddres, locn:adminUnitL1.
 
 <dataset/OCORP/HR> dct:type <dataset/type/partition>;
   void:entities 100000;
-  dct:spatial nuts:HR;
+  dct:spatial "HR";
   void:property rov:legalName, ebg:orgType,
     locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4.
 
 <dataset/SDATI> dct:type <dataset/type/provider>;
   void:entities 11000000;
-  dct:spatial nuts:GB, nuts:IT;
+  dct:spatial "GB", "IT";
   void:subset <dataset/SDATI/EBG>;
   void:subset <dataset/SDATI/IT>; void:propertyPartition <dataset/SDATI/IT>.
 
 <dataset/SDATI/IT> dct:type <dataset/type/partition>;
   void:entities 6000000;
-  dct:spatial nuts:IT;
+  dct:spatial "IT";
   void:property
     locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4,
     locn:postName, locn:thoroughfare, locn:postCode,
@@ -67,7 +67,7 @@
   
 <dataset/SDATI/EBG/IT> dct:type <dataset/type/partition>;
   void:entities 6000000;
-  dct:spatial nuts:IT;
+  dct:spatial "IT";
   void:property rov:legalName, ebg:orgTypeText,
     locn:fullAddres, locn:adminUnitL1, locn:adminUnitL2, ebg:adminUnitL3, ebg:adminUnitL4.
 

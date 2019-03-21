@@ -5,7 +5,7 @@
   dct:publisher <http://businessgraph.io>;
   dct:type <dataset/type/EBG>;
   dct:license <https://opendatacommons.org/licenses/by/>;
-  dct:spatial nuts:BG, nuts:GB, nuts:IT, nuts:NO;
+  dct:spatial "BG", "GB", "IT", "NO", "DE";
   void:subset <dataset/ONTO>, <dataset/OCORP/EBG>, <dataset/SDATI/EBG>, <dataset/BRC>.
 
 ############# Provider datasets
@@ -20,12 +20,12 @@
   dct:title "OpenCorporates full dataset of GB (UK) companies";
   dct:type <dataset/type/partition>;
   void:subset <dataset/OCORP/EBG/GB>;
-  dct:spatial nuts:GB.
+  dct:spatial "GB".
 
 <dataset/OCORP/HR> a void:Dataset;
   dct:title "OpenCorporates full dataset of HR companies";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:HR.
+  dct:spatial "HR".
 
 <dataset/SDATI> a void:Dataset;
   dct:title "SpazioDati full dataset";
@@ -37,12 +37,12 @@
   dct:title "SpazioDati full dataset of IT companies";
   dct:type <dataset/type/partition>;
   void:subset <dataset/SDATI/EBG/IT>;
-  dct:spatial nuts:IT.
+  dct:spatial "IT".
 
 <dataset/SDATI/GB> a void:Dataset;
   dct:title "SpazioDati full dataset of GB companies";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:GB.
+  dct:spatial "GB".
 
 ################ Datasets provided to EBG
 
@@ -56,7 +56,7 @@
 <dataset/ONTO/BG> a void:Dataset;
   dct:title "Ontotext dataset of BG companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:BG;
+  dct:spatial "BG";
   dct:license <https://opendatacommons.org/licenses/by/>.
 
 <dataset/BRC> a void:Dataset;
@@ -69,7 +69,7 @@
 <dataset/BRC/NO> a void:Dataset;
   dct:title "BRC official dataset of NO companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:NO;
+  dct:spatial "NO";
   dct:license <https://opendatacommons.org/licenses/by/>.  
 
 <dataset/OCORP/EBG> a void:Dataset;
@@ -82,7 +82,7 @@
 <dataset/OCORP/EBG/GB> a void:Dataset;
   dct:title "OpenCorporates dataset of GB (UK) companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:GB.
+  dct:spatial "GB".
 
 <dataset/SDATI/EBG> a void:Dataset;
   dct:title "SpazioDati dataset provided to EBG";
@@ -94,7 +94,7 @@
 <dataset/SDATI/EBG/IT> a void:Dataset;
   dct:title "SpazioDati dataset of IT companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:IT;
+  dct:spatial "IT";
   dct:license <https://opendatacommons.org/licenses/by/>.
 
 ####################
