@@ -39,6 +39,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.businessgraph.io/ontology#exclusionNote">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</ebg:order>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:comment>Exclusion note of a NACE classification concept</rdfs:comment>
@@ -178,6 +179,7 @@ If it has placeholders like $1, $2… substitute the groups extracted by ebg:val
     <skos:example xml:lang="en">Inactive</skos:example>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.businessgraph.io/ontology#level">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</ebg:order>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:comment>Hierarchical level of a thesaurus concept</rdfs:comment>
@@ -493,6 +495,7 @@ In development. Below are 5 examples from 2 datasets (OCORP GB and ONTO BG). See
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/code">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</ebg:order>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#LAURegion"/>
     <schema:domainIncludes rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>
@@ -712,6 +715,7 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.businessgraph.io/ontology#order">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</ebg:order>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     <schema:domainIncludes rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:comment>Global order of a thesaurus concept respecting the hierarchical structure (depth-first traversal)</rdfs:comment>
@@ -851,6 +855,7 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/name">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</ebg:order>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#LAURegion"/>
     <schema:domainIncludes rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>
@@ -897,6 +902,7 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.businessgraph.io/ontology#adminUnit">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</ebg:order>
     <skos:scopeNote>The lowest-level property of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.</skos:scopeNote>
     <skos:definition>Most specific administrative unit related to an address.</skos:definition>
     <schema:rangeIncludes rdf:resource="http://data.businessgraph.io/ontology#LAURegion"/>
@@ -907,6 +913,7 @@ This code is used as the last URL part for identifiers issued in that system.</s
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdfdata.eionet.europa.eu/ramon/ontology/level">
+    <ebg:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</ebg:order>
     <schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     <schema:domainIncludes rdf:resource="http://data.businessgraph.io/ontology#LAURegion"/>
     <schema:domainIncludes rdf:resource="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion"/>

@@ -29,7 +29,7 @@
 <dataset/BRC/NO> a void:Dataset;
   dct:title "BRC official dataset of NO companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:NO;
+  dct:spatial "NO";
   void:entities 1087892;
   void:classPartition <dataset/BRC/NO/address>, <dataset/BRC/NO/person>, <dataset/BRC/NO/membership>;
     dbo:jurisdiction,

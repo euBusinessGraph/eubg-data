@@ -29,7 +29,7 @@
 <dataset/ONTO/BG> a void:Dataset;
   dct:title "Ontotext dataset of BG companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:BG;
+  dct:spatial "BG";
   void:entities 950486;
   void:classPartition <dataset/ONTO/BG/address>, <dataset/ONTO/BG/person>, <dataset/ONTO/BG/membership>;
   void:property

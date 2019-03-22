@@ -29,7 +29,7 @@
 <dataset/OCORP/GB> a void:Dataset;
   dct:title "OpenCorporates full dataset of GB companies";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:GB;
+  dct:spatial "GB";
   void:entities 10861646;
   void:classPartition <dataset/OCORP/GB/address>, <dataset/OCORP/GB/person>, <dataset/OCORP/GB/membership>;
   void:property
@@ -70,7 +70,7 @@
 <dataset/OCORP/EBG/GB> a void:Dataset;
   dct:title "OpenCorporates dataset of GB companies provided to EBG";
   dct:type <dataset/type/partition>;
-  dct:spatial nuts:GB;
+  dct:spatial "GB";
   void:entities 10861646;
   void:classPartition <dataset/OCORP/EBG/GB/address>, <dataset/OCORP/EBG/GB/person>, <dataset/OCORP/EBG/GB/membership>;
   void:property
