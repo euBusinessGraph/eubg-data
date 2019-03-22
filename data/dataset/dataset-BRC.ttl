@@ -30,7 +30,7 @@
   dct:title "BRC official dataset of NO companies provided to EBG";
   dct:type <dataset/type/partition>;
   dct:spatial "NO";
-  void:entities 1087892;
+  void:entities 0;
   void:classPartition <dataset/BRC/NO/address>, <dataset/BRC/NO/person>, <dataset/BRC/NO/membership>;
     dbo:jurisdiction,
     dct:creator,
@@ -64,8 +64,8 @@
   dct:license <https://opendatacommons.org/licenses/by/>;
   dct:source <https://www.brreg.no/>.
 
-<dataset/BRC/NO/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 1145803.
-<dataset/BRC/NO/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
+<dataset/BRC/NO/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
+<dataset/BRC/NO/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
 <dataset/BRC/NO/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
 
 <https://data.brreg.no/enhetsregisteret/oppslag/enheter> a ebg:WebResource;

@@ -24,7 +24,7 @@
   dct:title "SpazioDati full dataset";
   dct:type <dataset/type/provider>;
   dct:publisher <https://spaziodati.eu/en/>;
-  void:subset <dataset/SDATI/GB>, <dataset/SDATI/EBG>.
+  void:subset <dataset/SDATI/GB>, <dataset/SDATI/IT>, <dataset/SDATI/EBG>.
 
 <dataset/SDATI/EBG> a void:Dataset;
   dct:title "SpazioDati dataset provided to EBG";
@@ -37,20 +37,21 @@
   dct:title "SpazioDati full dataset of GB companies";
   dct:type <dataset/type/partition>;
   dct:spatial "GB";
-  void:entities 1000001;
+  void:entities 0;
   void:classPartition <dataset/SDATI/GB/address>, <dataset/SDATI/GB/person>, <dataset/SDATI/GB/membership>;
   void:property
     adms:identifier,
     dbo:jurisdiction,
     dct:creator,
     dct:isPartOf,
-    ebg:orgTypeText,
     locn:adminUnitL1,
     locn:adminUnitL2,
-    locn:postCode,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    ebg:foundingYear,
     locn:postName,
-    locn:fullAddress,
-    locn:thoroughfare,
     org:hasRegisteredSite,
     org:member,
     org:memberDuring,
@@ -59,17 +60,66 @@
     org:siteAddress,
     rov:legalName,
     rov:orgActivity,
-    ebg:isStartup,
-    schema:url,
+    ebg:orgActivityText,
+    rov:registration,
     skos:notation,
-    skos:altLabel,
     skos:prefLabel;
   dct:license <https://atoka.io/en/terms-use/>;
   dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/>.
 
-<dataset/SDATI/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 1144245.
-<dataset/SDATI/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities  0.
+<dataset/SDATI/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
+<dataset/SDATI/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
 <dataset/SDATI/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<dataset/SDATI/IT> a void:Dataset;
+  dct:title "SpazioDati full dataset of IT companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial "IT";
+  void:entities 0;
+  void:classPartition <dataset/SDATI/IT/address>, <dataset/SDATI/IT/person>, <dataset/SDATI/IT/membership>;
+  void:property
+    adms:identifier,
+    dbo:jurisdiction,
+    dct:creator,
+    dct:isPartOf,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    locn:postName,
+    locn:postCode,
+    locn:fullAddress,
+    locn:thoroughfare,
+    schema:geo,
+    schema:latitude,
+    schema:longitude,
+    ebg:geoResolution,
+    locn:locatorDesignator,
+    org:hasRegisteredSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    schema:availableLanguage,
+    schema:url,
+    schema:email,
+    rov:orgType,
+    ebg:orgTypeText,
+    ebg:isStartup,
+    rov:orgActivity,
+    ebg:orgActivityText,
+    rov:orgStatus,
+    rov:registration,
+    skos:notation,
+    skos:prefLabel;
+  dct:license <https://atoka.io/en/terms-use/>;
+  dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/>.
+
+<dataset/SDATI/IT/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
+<dataset/SDATI/IT/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
+<dataset/SDATI/IT/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
 
 <https://spaziodati.eu/en/> a ebg:WebResource;
   schema:url <https://spaziodati.eu/en/>;
