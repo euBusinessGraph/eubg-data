@@ -67,3 +67,7 @@
   dc:format "application/json";
   ebg:urlTemplate "https://opencorporates.com/companies/{}.json".
 
+<https://opencorporates.com/> a schema:Organization;
+  schema:name "Open database for corporate data"@en;
+  schema:description "OpenCorporates is the largest open database of companies and company data in the world, with in excess of 100 million companies in a similarly large number of jurisdictions. Identifiers are issued by official registers, not OpenCorporates".
+

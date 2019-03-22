@@ -32,14 +32,18 @@
   dct:spatial nuts:NO;
   void:entities 1087892;
   void:classPartition <dataset/BRC/NO/address>, <dataset/BRC/NO/person>, <dataset/BRC/NO/membership>;
-  void:property
-    adms:identifier,
     dbo:jurisdiction,
     dct:creator,
     dct:isPartOf,
-    ebg:orgTypeText,
+    dct:issued,
     locn:adminUnitL1,
     locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    ebg:orgActivityText,
+    ebg:orgTypeText,
     locn:postCode,
     locn:postName,
     locn:thoroughfare,
@@ -53,6 +57,7 @@
     rov:orgActivity,
     rov:orgType,
     rov:registration,
+    schema:availableLanguage,
     schema:foundingDate,
     skos:notation,
     skos:prefLabel;

@@ -90,6 +90,10 @@
   schema:inLanguage "en";
   ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.yaml".
 
+<https://www.gov.uk/government/organisations/companies-house/> a schema:Organization;
+  schema:name "Companies House Companies Register"@en;
+  schema:description "Companies House is an executive agency that issues official identifiers of companies. Companies House incorporates and dissolves limited companies, and registers company information and make it available to the public.".
+
 # For example:
 # curl http://data.companieshouse.gov.uk/doc/company/11220640.xml
 # curl http://data.companieshouse.gov.uk/doc/company/11220640.rdf
