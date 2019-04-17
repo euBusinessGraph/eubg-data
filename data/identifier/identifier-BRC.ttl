@@ -7,9 +7,9 @@
 @prefix schema:  <http://schema.org/> .
 
 <identifier/NO> a ebg:IdentifierSystem;
-  dct:creator <https://www.brreg.no/>;
-  schema:author <https://www.brreg.no/>;
-  schema:publisher <https://www.brreg.no/>;
+  dct:creator <https://www.brreg.no>;
+  schema:author <https://www.brreg.no>;
+  schema:publisher <https://www.brreg.no>;
   skos:notation "NO";
   dbo:jurisdiction "NO";
   schema:name "Norwegian Central Coordinating Register for Legal Entities at Brønnøysund Register Centre";

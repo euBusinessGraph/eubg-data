@@ -4,143 +4,143 @@
 @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 
-<type/UK> a skos:ConceptScheme; 
+<type/GB> a skos:ConceptScheme; 
         rdfs:label "UK company types"@en .
 
-<type/UK/XA> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XA> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XA" ;
         ebg:order       "1" ;
         skos:prefLabel  "Private Limited Company"@en .
 
-<type/UK/XB> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XB> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XB" ;
         ebg:order       "2" ;
         skos:prefLabel  "Private limited by guarantee without share capital"@en .
 
-<type/UK/XC> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XC> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XC" ;
         ebg:order       "3" ;
         skos:prefLabel  "Limited Liability Partnership"@en .
 
-<type/UK/XD> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XD> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XD" ;
         ebg:order       "4" ;
         skos:prefLabel  "Private limited by guarantee without share capital, use of 'Limited' exemption"@en .
 
-<type/UK/XE> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XE> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XE" ;
         ebg:order       "5" ;
         skos:prefLabel  "Limited Partnership"@en .
 
-<type/UK/XF> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XF> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XF" ;
         ebg:order       "6" ;
         skos:prefLabel  "PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"@en .
 
-<type/UK/XG> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XG> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XG" ;
         ebg:order       "7" ;
         skos:prefLabel  "Other company type"@en .
 
-<type/UK/XH> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XH> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XH" ;
         ebg:order       "8" ;
         skos:prefLabel  "Overseas company"@en .
 
-<type/UK/XI> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XI> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XI" ;
         ebg:order       "9" ;
         skos:prefLabel  "Charitable incorporated organisation"@en .
 
-<type/UK/XJ> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XJ> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XJ" ;
         ebg:order       "10" ;
         skos:prefLabel  "PRI/LBG/NSC (Private, Limited by guarantee, no share capital, use of 'Limited' exemption)"@en .
 
-<type/UK/XK> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XK> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XK" ;
         ebg:order       "11" ;
         skos:prefLabel  "Industrial and Provident Society"@en .
 
-<type/UK/XL> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XL> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XL" ;
         ebg:order       "12" ;
         skos:prefLabel  "Private Unlimited Company"@en .
 
-<type/UK/XM> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XM> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XM" ;
         ebg:order       "13" ;
         skos:prefLabel  "Converted/Closed"@en .
 
-<type/UK/XN> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XN> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XN" ;
         ebg:order       "14" ;
         skos:prefLabel  "Scottish charitable incorporated organisation"@en .
 
-<type/UK/XO> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XO> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XO" ;
         ebg:order       "15" ;
         skos:prefLabel  "Assurance Company"@en .
 
-<type/UK/XP> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XP> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XP" ;
         ebg:order       "16" ;
         skos:prefLabel  "Investment company with variable capital"@en .
 
-<type/UK/XQ> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XQ> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XQ" ;
         ebg:order       "17" ;
         skos:prefLabel  "Scottish qualifying partnership"@en .
 
-<type/UK/XR> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XR> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XR" ;
         ebg:order       "18" ;
         skos:prefLabel  "Community Interest Company"@en .
 
-<type/UK/XS> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XS> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XS" ;
         ebg:order       "19" ;
         skos:prefLabel  "Registered society"@en .
 
-<type/UK/XT> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XT> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XT" ;
         ebg:order       "20" ;
         skos:prefLabel  "Private unlimited company without share capital"@en .
 
-<type/UK/XU> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XU> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XU" ;
         ebg:order       "21" ;
         skos:prefLabel  "European Economic Interest Grouping (EEIG)"@en .
 
-<type/UK/XV> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XV> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XV" ;
         ebg:order       "22" ;
         skos:prefLabel  "Old Public Company"@en .
 
-<type/UK/XW> a skos:Concept ;
-        skos:inScheme   <type/UK> ;
+<type/GB/XW> a skos:Concept ;
+        skos:inScheme   <type/GB> ;
         skos:notation   "XW" ;
         ebg:order       "23" ;
         skos:prefLabel  "European Public Limited-Liability Company (SE)"@en .

@@ -5,11 +5,35 @@
 <status/OCORP/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "inactive"@en ;
-        skos:description  "A variety of company statuses (e.g. \"Dissolved\", \"Inactive\", \"Revoked\") are mapped to \"Inactive\". In jurisdictions that do not provide company status information, \"Inactive\" is also inferred from dissolution dates that are in the past, where they exist."@en .
+        skos:description  "The company is inactive. In jurisdictions that do not provide company status information, \"Inactive\" is also inferred from dissolution dates that are in the past, where they exist."@en .
+
+<status/OCORP/inactive/dissolved>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/OCORP/inactive>;
+        skos:prefLabel    "dissolved"@en ;
+        skos:description  "The company is dissolved and inactive"@en .
+
+<status/OCORP/inactive/closed>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/OCORP/inactive>;
+        skos:prefLabel    "converted or closed"@en ;
+        skos:description  "The company is removed from register (Converted/Closed)"@en .
+
+<status/OCORP/inactive/removed>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/OCORP/inactive>;
+        skos:prefLabel    "removed"@en ;
+        skos:description  "The company is removed from register"@en .
+
+<status/OCORP/liquidation>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/OCORP/inactive>;
+        skos:prefLabel    "in liquidation"@en ;
+        skos:description  "The company is in a liquidation process"@en .        
 
 <status/OCORP/active>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
-        skos:prefLabel    "inactive"@en ;
+        skos:prefLabel    "active"@en ;
         skos:description  "The company is active"@en .
 
 <status/SDATI/active>  rdf:type  skos:Concept ;
@@ -22,23 +46,71 @@
         skos:prefLabel    "inactive"@en ;
         skos:description  "If the company has not filed a balance sheet for a long time, we assume it is Inactive (dormant)"@en .
 
-# konkurs/ underAvvikling / underTvangsavviklingEllerTvangsopplosning 
+<status/GB/inactive>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:prefLabel    "inactive"@en ;
+        skos:description  "The company is inactive for a number of reasons"@en .
+
+<status/GB/inactive/dormant>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/GB/inactive>;
+        skos:prefLabel    "dormant"@en ;
+        skos:description  "The company is currently dormant"@en .
+
+<status/GB/inactive/nontrading>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/GB/inactive>;
+        skos:prefLabel    "non-trading"@en ;
+        skos:description  "The company is currently not trading"@en .
+
 <status/BRC/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "inaktiv"@no ;
         skos:prefLabel    "inactive"@en ;
-        skos:description  "Selskaper som er konkurs"@no .
-        skos:description  "Limited to companies under bankruptcy"@en .
+        skos:description  "Selskapet er inaktivt av ulike grunner: f.eks. konkurs, under avvikling, avvivklet"@no .
+        skos:description  "The company is inactive for any number of reasons: bankrupt, in liquidation, dormant"@en .
+
+<status/BRC/inactive/dormant>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/BRC/inactive>;
+        skos:prefLabel    "inaktiv"@no ;
+        skos:prefLabel    "dormant"@en ;
+        skos:description  "Selskapet har ikke levert årsregnskap de siste 5 årene"@no .
+        skos:description  "The company has not filed financial returns for 5 years"@en .
+
+<status/BRC/inactive/bankrupt>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/BRC/inactive>;
+        skos:prefLabel    "konkurs"@no ;
+        skos:prefLabel    "bankrupt"@en ;
+        skos:description  "Selskapet er konkurs"@no .
+        skos:description  "The company is bankrupt"@en .
+
+<status/BRC/inactive/liquidation>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/BRC/inactive>;
+        skos:prefLabel    "under avvikling"@no ;
+        skos:prefLabel    "in liquidation"@en ;
+        skos:description  "Selskapet er under avvikling"@no .
+        skos:description  "The company is in a liquidation process"@en .
+
+<status/BRC/inactive/forced>  rdf:type  skos:Concept ;
+        skos:inScheme     <status> ;
+        skos:broader      <status/BRC/inactive>;
+        skos:prefLabel    "under tvangsavvikling eller tvangsoppløsning"@no ;
+        skos:prefLabel    "in forced settlement or forced resolution"@en ;
+        skos:description  "Selskapet er under tvangsavvikling eller tvangsoppløsning"@no .
+        skos:description  "The company is in forced settlement or forced resolution"@en .
 
 <status/LEI/active>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "active"@en ;
-        skos:description  "As of the last report or update, the legal entity reported that it was legally registered and operating."@en .
+        skos:description  "As of the last report or update, the legal entity reported that it was legally registered and operating"@en .
 
 <status/LEI/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "inactive"@en ;
-        skos:description  "It has been determined that the entity that was assigned the LEI is no longer legally registered and/or operating, whether as a result of business closure, acquisition by or merger with another (or new) entity, or determination of illegitimacy."@en .
+        skos:description  "It has been determined that the entity that was assigned the LEI is no longer legally registered and/or operating, whether as a result of business closure, acquisition by or merger with another (or new) entity, or determination of illegitimacy"@en .
 
 <status/BG/active>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;

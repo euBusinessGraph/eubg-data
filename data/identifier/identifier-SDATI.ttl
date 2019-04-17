@@ -9,7 +9,7 @@
 <identifier/IT/REA> a ebg:IdentifierSystem;  # identifies company sites
   dct:creator <http://www.unioncamere.gov.it>;
   schema:author <http://www.unioncamere.gov.it>;
-  schema:publisher <http://www.registroimprese.it/>;
+  schema:publisher <http://www.registroimprese.it>;
   skos:notation "IT/REA";
   dbo:jurisdiction "IT";
   schema:name "Economic and Administrative Index"@en, "Repertorio Economico Amministrativo"@it;
@@ -35,7 +35,7 @@
 <identifier/IT> a ebg:IdentifierSystem;  # identifies companies
   dct:creator <https://www.agenziaentrate.gov.it>;
   schema:author <https://www.agenziaentrate.gov.it>;
-  schema:publisher <http://www.registroimprese.it/>;
+  schema:publisher <http://www.registroimprese.it>;
   skos:notation "IT";
   dbo:jurisdiction "IT";
   schema:name "Italian Tax IDs";
@@ -58,15 +58,15 @@
   ebg:validationRegex "\\d{11}".
 
 <identifier/ATOKA> a ebg:IdentifierSystem;  # company identifiers within the Atoka Company Database
-  dct:creator <https://spaziodati.eu>;
-  schema:author <https://spaziodati.eu>;
-  schema:publisher <http://spaziodati.eu>;
+  dct:creator <https://atoka.io>;
+  schema:author <https://atoka.io>;
+  schema:publisher <https://atoka.io>;
   skos:notation "ATOKA";
   dbo:jurisdiction "IT", "GB";
   schema:name "Atoka company identifiers";
   schema:description """Company identifiers within the Atoka company database""";
   schema:url <https://atoka.io/en/search>;
-  schema:license <https://atoka.io/en/terms-use/>;
+  schema:license <https://atoka.io/en/terms-use>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued false;
@@ -87,15 +87,15 @@
   ebg:urlTemplate "https://atoka.io/en/companies/-/{}/".
 
 <identifier/people/ATOKA> a ebg:Register;
-  dct:creator <https://spaziodati.eu>;
-  schema:author <https://spaziodati.eu>;
-  schema:publisher <http://spaziodati.eu>;
+  dct:creator <https://atoka.io>;
+  schema:author <https://atoka.io>;
+  schema:publisher <https://atoka.io>;
   skos:notation "people/ATOKA";
   dbo:jurisdiction "IT", "GB";
   schema:name "Atoka officer identifiers";
   schema:description """Officer identifiers within the Atoka company database""";
   schema:url <https://atoka.io/en/search>;
-  schema:license <https://atoka.io/en/terms-use/>;
+  schema:license <https://atoka.io/en/terms-use>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued false;
@@ -116,7 +116,7 @@
   dbo:jurisdiction "IT";
   schema:name "Italian Personal Tax IDs";
   schema:description """Official personal tax identifiers in the Italian Revenue Agency""";
-  schema:url <https://telematici.agenziaentrate.gov.it/VerificaCF/>;
+  schema:url <https://telematici.agenziaentrate.gov.it/VerificaCF>;
   schema:license <https://www.agenziaentrate.gov.it/wps/portal/english/legalnotes>;
   # characteristics
   ebg:isUnique true;  # although there were homocodes for single-person companies, so historical records could still present this
@@ -131,3 +131,7 @@
   ebg:validationRule
     <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # natural language spec of the rule
   ebg:validationRegex "[A-Z]{6}\\d{2}[ABCDEHLMPRST]\\d{2}[A-Z]\\d{3}[A-Z]".  # eg: PNGDDJ78L30Z610V
+
+<https://atoka.io> a schema:Organization;
+  schema:name "B2B Lead Generation on over 6 million companies and more than 10 million people"@en, "Lead Generation B2B e Sales Intelligence su oltre 6 milioni di aziende italiane"@it;
+  schema:description "Issues company identifiers within the Atoka company database".

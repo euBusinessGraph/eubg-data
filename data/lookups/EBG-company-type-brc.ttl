@@ -100,7 +100,35 @@
 
 <type/NO/ANNA> a skos:Concept ;
         skos:inScheme   <type/NO> ;
-        skos:notation   "IKS" ;
+        skos:notation   "ANNA" ;
         ebg:order       "1" ;
         skos:prefLabel  "Annen juridisk person"@no ;
         skos:prefLabel  "Other body corporate"@en .
+
+<type/NO/MVA> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "MVA" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "MVA-registrert selskap"@no ;
+        skos:prefLabel  "VAT registered company"@en .  
+
+<type/NO/FORETAK> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "FORETAK" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Foretak"@no ;
+        skos:prefLabel  "Enterprise"@en .    
+
+<type/NO/STIFTELSE> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "STIFTELSE" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Stiftelse"@no ;
+        skos:prefLabel  "Foundation"@en .  
+
+<type/NO/FRIVILLIG> a skos:Concept ;
+        skos:inScheme   <type/NO> ;
+        skos:notation   "FRIVILLIG" ;
+        ebg:order       "1" ;
+        skos:prefLabel  "Frivillig organisasjon"@no ;
+        skos:prefLabel  "Volunteer organization"@en .  

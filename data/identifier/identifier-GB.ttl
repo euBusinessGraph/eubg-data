@@ -7,9 +7,9 @@
 @prefix schema:  <http://schema.org/> .
 
 <identifier/GB> a ebg:IdentifierSystem;
-  dct:creator <https://www.gov.uk/government/organisations/companies-house/>;
-  schema:author <https://www.gov.uk/government/organisations/companies-house/>;
-  schema:publisher <https://www.gov.uk/government/organisations/companies-house/>;
+  dct:creator <http://companieshouse.gov.uk>;
+  schema:author <http://companieshouse.gov.uk>;
+  schema:publisher <http://companieshouse.gov.uk>;
   skos:notation "GB";
   dbo:jurisdiction "GB";
   schema:name "Companies House Companies Register";
@@ -90,7 +90,7 @@
   schema:inLanguage "en";
   ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}.yaml".
 
-<https://www.gov.uk/government/organisations/companies-house/> a schema:Organization;
+<http://companieshouse.gov.uk> a schema:Organization;
   schema:name "Companies House Companies Register"@en;
   schema:description "Companies House is an executive agency that issues official identifiers of companies. Companies House incorporates and dissolves limited companies, and registers company information and make it available to the public.".
 
