@@ -38,9 +38,31 @@
   schema:publisher <http://www.registroimprese.it>;
   skos:notation "IT";
   dbo:jurisdiction "IT";
+  schema:name "Italian VAT IDs";
+  schema:description """Official VAT identifiers in the Italian Revenue Agency""";
+  ebg:ralCode "RA000407";
+  schema:url <http://www.registroimprese.it/l-anagrafe-nazionale-delle-imprese>;
+  schema:license <http://www.registroimprese.it/en/registrazione>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;   # official identifier of Italian companies
+  # validation
+  ebg:validationRegex "\\d{11}".
+
+<identifier/IT/Tax> a ebg:IdentifierSystem;  # identifies companies
+  dct:creator <https://www.agenziaentrate.gov.it>;
+  schema:author <https://www.agenziaentrate.gov.it>;
+  schema:publisher <http://www.registroimprese.it>;
+  skos:notation "IT";
+  dbo:jurisdiction "IT";
   schema:name "Italian Tax IDs";
   schema:description """Official company tax identifiers in the Italian Revenue Agency""";
-  ebg:ralCode "RA000407";  # have to see if it's for TaxID or VatID
   schema:url <http://www.registroimprese.it/l-anagrafe-nazionale-delle-imprese>;
   schema:license <http://www.registroimprese.it/en/registrazione>;
   # characteristics
@@ -51,11 +73,13 @@
   ebg:isPublic true;
   ebg:isDumb true;
   ebg:isEnumerated true;
-  ebg:isOfficial true;   # official identifier of Italian companies
+  ebg:isOfficial true;
   # validation
   ebg:validationRule
     <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # some details of the rule
-  ebg:validationRegex "\\d{11}".
+  ebg:validationRegex "\\d{11}", "[A-Z]{6}\\d{2}[ABCDEHLMPRST]\\d{2}[A-Z]\\d{3}[A-Z]";
+  skos:scopeNote """Tax IDs for single-person companies are the same as the tax ID of the sole owner of the company (regex: \"[A-Z]{6}\\d{2}[ABCDEHLMPRST]\\d{2}[A-Z]\\d{3}[A-Z]\"), 
+  while tax IDs of other types of company are all digits (regex: \"\\d{11}\") and in most cases the code is the same as the VAT ID""".
 
 <identifier/ATOKA> a ebg:IdentifierSystem;  # company identifiers within the Atoka Company Database
   dct:creator <https://atoka.io>;
