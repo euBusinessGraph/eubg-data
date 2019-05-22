@@ -15,7 +15,7 @@
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rov:     <http://www.w3.org/ns/regorg#>.
 @prefix schema:  <http://schema.org/> .
-@prefix sdati:   <http://ontologies.spaziodati.eu/> .
+@prefix sdatke:  <http://ontologies.spaziodati.eu/atoka-ebg#> .
 @prefix sioc:    <http://rdfs.org/sioc/ns#> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
@@ -56,273 +56,273 @@ dbo:rating a owl:DatatypeProperty ;
   skos:definition "An evaluation or assessment of something, in terms of quality, quantity, or some combination of both." ;
   rdfs:label "rating value" .
 
-sdati:percentileRank a owl:DatatypeProperty ;
+sdatke:percentileRank a owl:DatatypeProperty ;
   schema:rangeIncludes xsd:double ;
   skos:definition "The percentage of scores in a frequency distribution that are equal to or lower than a score." ;
   rdfs:label "percentile rank" .
 
 #### Root fields
 #### Atoka Indicators
-sdati:AtokaInnovationScore a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:AtokaInnovationScore a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "A score given to the company based on the content of its website that measures the innovation factors of a company." ;
   skos:scopeNote <https://developers.atoka.io/v2/glossary.html#innovationScore> ;
   rdfs:label "Atoka Innovation Score" .
-dbo:updated schema:domainIncludes sdati:AtokaInnovationScore .
-dbo:percentileRank schema:domainIncludes sdati:AtokaInnovationScore .
+dbo:updated schema:domainIncludes sdatke:AtokaInnovationScore .
+dbo:percentileRank schema:domainIncludes sdatke:AtokaInnovationScore .
 
-sdati:atokaInnovationScore a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:atokaInnovationScore a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Atoka innovation score" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AtokaInnovationScore ;
+  schema:rangeIncludes sdatke:AtokaInnovationScore ;
   skos:definition "The Atoka Innovation Score of a Registered Organisation." .
 
-sdati:AtokaInnovationScoreBySector a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:AtokaInnovationScoreBySector a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "A score given to the company based on the content of its website that measures the innovation factors of a company within its prevalent economic sector." ;
   skos:scopeNote <https://developers.atoka.io/v2/glossary.html#innovationCategoryScore> ;
   rdfs:label "Atoka Innovation Score by sector" .
-dbo:updated schema:domainIncludes sdati:AtokaInnovationScoreBySector .
-dbo:percentileRank schema:domainIncludes sdati:AtokaInnovationScoreBySector .
+dbo:updated schema:domainIncludes sdatke:AtokaInnovationScoreBySector .
+dbo:percentileRank schema:domainIncludes sdatke:AtokaInnovationScoreBySector .
 
-sdati:atokaInnovationScoreBySector a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:atokaInnovationScoreBySector a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Atoka innovation score by sector" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AtokaInnovationScoreBySector ;
+  schema:rangeIncludes sdatke:AtokaInnovationScoreBySector ;
   skos:definition "The Atoka Innovation Score of a Registered Organisation in its prevalent economic sector." .
 
-sdati:IstatIDE a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:IstatIDE a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "A score comparing the state of degradation of buildings in an urban area with the national average value." ;
   skos:scopeNote <https://developers.atoka.io/v2/glossary.html#territorialScoreIDE> ;
   rdfs:label "Istat Building Degradation Index" .
-dbo:updated schema:domainIncludes sdati:IstatIDE .
-dbo:score schema:domainIncludes sdati:IstatIDE .
+dbo:updated schema:domainIncludes sdatke:IstatIDE .
+dbo:score schema:domainIncludes sdatke:IstatIDE .
 
-sdati:istatIDE a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:istatIDE a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Istat building degradation index" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AtokaInnovationScoreBySector ;
+  schema:rangeIncludes sdatke:AtokaInnovationScoreBySector ;
   skos:definition "The Istat Building Degradation Index of a Registered Organisation's headquarters area." .
 
-sdati:IstatIDS a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:IstatIDS a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "A score measuring unemployment rate, scholarisation and the average age of the population in an urban area." ;
   skos:scopeNote <https://developers.atoka.io/v2/glossary.html#territorialScoreIDS> ;
   rdfs:label "Istat Social Distress Index" .
-dbo:updated schema:domainIncludes sdati:IstatIDS .
-dbo:score schema:domainIncludes sdati:IstatIDS .
+dbo:updated schema:domainIncludes sdatke:IstatIDS .
+dbo:score schema:domainIncludes sdatke:IstatIDS .
 
-sdati:istatIDS a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:istatIDS a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Istat social distress index" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AtokaInnovationScoreBySector ;
+  schema:rangeIncludes sdatke:AtokaInnovationScoreBySector ;
   skos:definition "The Istat Social Distress Index of a Registered Organisation's headquarters area." .
 
-sdati:AtokaWebCentrality a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:AtokaWebCentrality a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "A score that measures how central the webpage of that company is in the Corporate Web." ;
   skos:scopeNote <https://developers.atoka.io/v2/glossary.html#webCentralityScore> ;
   rdfs:label "Atoka Web Centrality" .
-dbo:updated schema:domainIncludes sdati:AtokaWebCentrality .
-dbo:percentileRank schema:domainIncludes sdati:AtokaWebCentrality .
+dbo:updated schema:domainIncludes sdatke:AtokaWebCentrality .
+dbo:percentileRank schema:domainIncludes sdatke:AtokaWebCentrality .
 
-sdati:atokaWebCentrality a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:atokaWebCentrality a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Atoka web centrality" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AtokaWebCentrality ;
+  schema:rangeIncludes sdatke:AtokaWebCentrality ;
   skos:definition "The Atoka Web Centrality of a Registered Organisation." .
 
-sdati:AtokaWebCentralityBySector a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:AtokaWebCentralityBySector a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "A score that measures how central the webpage of that company is in the Corporate Web, within its prevalent economic sector." ;
   skos:scopeNote <https://developers.atoka.io/v2/glossary.html#webCentralityCategoryScore> ;
   rdfs:label "Atoka Web Centrality by sector" .
-dbo:updated schema:domainIncludes sdati:AtokaWebCentralityBySector .
-dbo:percentileRank schema:domainIncludes sdati:AtokaWebCentralityBySector .
+dbo:updated schema:domainIncludes sdatke:AtokaWebCentralityBySector .
+dbo:percentileRank schema:domainIncludes sdatke:AtokaWebCentralityBySector .
 
-sdati:atokaWebCentralityBySector a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:atokaWebCentralityBySector a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Atoka web centrality by sector" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AtokaWebCentralityBySector ;
+  schema:rangeIncludes sdatke:AtokaWebCentralityBySector ;
   skos:definition "The Atoka Innovation Score of a Registered Organisation in its prevalent economic sector." .
 
 #### Balance Sheets
-sdati:BalanceSheet a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:BalanceSheet a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Balance Sheet" ;
   skos:definition "A statement of the assets, liabilities, and capital of a business or other organization at a particular point in time, detailing the balance of income and expenditure over the preceding period." .
   
 dbo:assets a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:BalanceSheet, rov:RegisteredOrganization ;
+  schema:domainIncludes sdatke:BalanceSheet, rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Anything tangible or intangible that is capable of being owned or controlled to produce value and that is held to have positive economic value." ;
   rdfs:label "assets" .
 
-sdati:capitalStock a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet, rov:RegisteredOrganization ;
+sdatke:capitalStock a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet, rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:double ;
   skos:definition "The nominal (or authorised) capital that the company is authorised to issue to shareholders." ;
   rdfs:label "capital stock" .
 
-sdati:costs a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:costs a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "The sum of purchases, personnel costs and charges for services and third-party goods, from which the variations in raw materials are detracted." ;
   rdfs:label "costs" .
 
-sdati:ebitda a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:ebitda a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Earnings Before Interest, taxes, depreciation and amortization." ;
   rdfs:label "ebitda" .
 
-sdati:grossOperatingMargin a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:grossOperatingMargin a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Profit from selling goods or services in a particular period after costs directly related to producing them are subtracted." ;
   rdfs:label "gross operating margin" .
 
-sdati:netFinancialPosition a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:netFinancialPosition a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Financial liabilities minus cash and cash equivalents." ;
   rdfs:label "net financial position" .
 
-sdati:costOfSales a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:costOfSales a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "For a manufacturer is the cost of its finished goods in its beginning inventory plus the cost of goods manufactured during the accounting period minus the cost of finished goods in ending inventory.",
     "For a retailer is the cost of merchandise in its beginning inventory plus the net cost of merchandise purchased during the accounting period minus the cost of merchandise in its ending inventory." ;
   rdfs:label "cost of sales" .
 
-sdati:operatingProfit a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:operatingProfit a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "A profit from business operations (gross profit minus operating expenses) before deduction of interest and taxes." ;
   rdfs:label "operating profit" .
 
-sdati:purchases a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:purchases a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "A general ledger account in which is recorded the inventory purchases of a business." ;
   rdfs:label "purchases" .
 
-sdati:inventoryChangeInRawMaterials a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:inventoryChangeInRawMaterials a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "The difference between the inventory totals regarding raw materials for the last reporting period and the current reporting period." ;
   rdfs:label "inventory change in raw materials" .
 
 dbo:revenue a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:BalanceSheet, rov:RegisteredOrganization ;
+  schema:domainIncludes sdatke:BalanceSheet, rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:double ;
   skos:definition "The amount of money that a company actually receives during a specific period, including discounts and deductions for returned merchandise." ;
   rdfs:label "revenue" .
 
-sdati:revenueTrend a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:revenueTrend a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Percentage of increase of revenue since the last report." ;
   rdfs:label "revenue trend" .
 
-sdati:costOfMaterials a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:costOfMaterials a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Percentage of increase of revenue since the last report." ;
   rdfs:label "revenue trend" .
 
-sdati:leasesAndRentalExpenses a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:leasesAndRentalExpenses a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Total expenses for lease and rental of third-party goods and services." ;
   rdfs:label "leases and rental expenses" .
 
-sdati:personnelCosts a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:BalanceSheet ;
+sdatke:personnelCosts a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:double ;
   skos:definition "Wages and salaries and employer's social security costs." ;
   rdfs:label "personnel costs" .
 
 dbo:closingDate a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:BalanceSheet ;
+  schema:domainIncludes sdatke:BalanceSheet ;
   schema:rangeIncludes xsd:date ;
   skos:definition "Balance sheet closing date." ;
   rdfs:label "closing date" .
 
-sdati:balanceSheet a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:balanceSheet a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "balance sheet" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:BalanceSheet ;
+  schema:rangeIncludes sdatke:BalanceSheet ;
   skos:definition "Balance Sheet report of a Registered Organisation." .
 
 #### Base fields
-sdati:AGCMLegalityRating a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:AGCMLegalityRating a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "Measure of compliance with legality protocols, transparent traceability systems and certified compliance checks." ;
   skos:scopeNote <https://en.agcm.it/en/scope-of-activity/legality-rating/> ;
   rdfs:label "AGCM Legality Rating" .
 
 schema:expires a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:AGCMLegalityRating ;
+  schema:domainIncludes sdatke:AGCMLegalityRating ;
   schema:rangeIncludes xsd:date ;
   skos:definition "The AGCM Legality Rating expiration date" ;
   rdfs:label "expiration date" .
 
-dbo:rating schema:domainIncludes sdati:AGCMLegalityRating ;
+dbo:rating schema:domainIncludes sdatke:AGCMLegalityRating ;
   schema:rangeIncludes xsd:string .
 
-sdati:agcmLegalityRating a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:agcmLegalityRating a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "AGCM legality rating" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:AGCMLegalityRating ;
+  schema:rangeIncludes sdatke:AGCMLegalityRating ;
   skos:definition "The AGCM Legality Rating for a Registered Organisation." .
 
 
-sdati:businessDescription a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:businessDescription a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "business description" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:langString ;
   skos:definition "Description of the main business activity of the company." .
 
 
-sdati:italianPublicSectorOrganizationCode a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:italianPublicSectorOrganizationCode a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "italian PSO code" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:string ;
   skos:definition "Identifier issued by the Italian government for public sector organizations." ;
-  skos:scopeNone <https://developers-u.atoka.io/v2/glossary.html#govtypes> .
+  skos:scopeNone <https://developers.atoka.io/v2/glossary.html#govtypes> .
 
-sdati:italianPublicSectorOrganizationType a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:italianPublicSectorOrganizationType a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "type of italian PSO" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:string ;
   skos:definition "The type of Italian public sector organization." ;
-  skos:scopeNone <https://developers-u.atoka.io/v2/glossary.html#govtypes> .
+  skos:scopeNone <https://developers.atoka.io/v2/glossary.html#govtypes> .
 
 #### Certifications
 acrt:Certification a owl:Class ;
@@ -340,174 +340,174 @@ acrt:has-certification a owl:ObjectProperty ;
 
 
 #### Contact Phone
-sdati:ContactPhone a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:ContactPhone a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "Contact phone of a given type." ;
   rdfs:label "Contact Phone" .
 
 foaf:phone a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:ContactPhone ;
+  schema:domainIncludes sdatke:ContactPhone ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Number for the Contact Phone." ;
   rdfs:label "number" .
 
-sdati:contactPhone a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:contactPhone a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   schema:domainIncludes org:Site ;
-  schema:rangeIncludes sdati:ContactPhone ;
+  schema:rangeIncludes sdatke:ContactPhone ;
   skos:definition "Contact Phone of a Site." ;
   rdfs:label "phone" .
 
 #### Contact Email
-sdati:ContactEmail a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:ContactEmail a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   skos:definition "An email contact of a given type." ;
   rdfs:label "Contact Email" .
 
 schema:email a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:ContactEmail ;
+  schema:domainIncludes sdatke:ContactEmail ;
   schema:rangeIncludes rdf:Resource ;
   skos:definition "Email address for the Contact Email." ;
   rdfs:label "email address" .
 
-sdati:contactEmail a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:contactEmail a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:ContactEmail ;
+  schema:rangeIncludes sdatke:ContactEmail ;
   skos:definition "A Contact Email of a Registered Organisation." ;
   rdfs:label "email address" .
 
-sdati:contactType a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:ContactEmail, sdati:ContactPhone ;
+sdatke:contactType a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:ContactEmail, sdatke:ContactPhone ;
   schema:rangeIncludes rdf:langString ;
   skos:definition "Type of contact" ;
   skos:scopeNote "Most frequent values are \"administration\", \"info\", \"management\", \"marketing\", \"purchases\", \"sales\", \"support\", \"technician\", \"personal\", \"other\"." ;
   rdfs:label "contact type" .
 
-sdati:faxNumber a owl:DatatypeProperty ;
+sdatke:faxNumber a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Fax number associated to a company." ;
   rdfs:label "fax number" .
 
 #### Employee Count Report
-sdati:EmployeeCountReport a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:EmployeeCountReport a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Employee Count Report" ;
   skos:definition "A report of the number of employees in an organisation at a given date." .
   
-sdati:employeeCount a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
-  schema:domainIncludes sdati:EmployeeCountReport ;
+sdatke:employeeCount a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
+  schema:domainIncludes sdatke:EmployeeCountReport ;
   schema:rangeIncludes xsd:nonNegativeInteger ;
   skos:definition "Number of employees in an organisation." ;
   rdfs:label "employee count" .
 
 dct:dateSubmitted a owl:DatatypeProperty ;
-  schema:domainIncludes sdati:EmployeeCountReport ;
+  schema:domainIncludes sdatke:EmployeeCountReport ;
   schema:rangeIncludes xsd:date ;
   skos:definition "Employee count report submission date." ;
   rdfs:label "date submitted" .
 
-sdati:employeeCountReport a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:employeeCountReport a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "employee count report" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:EmployeeCountReport ;
+  schema:rangeIncludes sdatke:EmployeeCountReport ;
   skos:definition "The number of employees of a Registered Organisation at a given point in time." .
 
 #### Related Entities
-sdati:hasEntity a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:hasEntity a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "related entity" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:Resource ;
   skos:definition "Relation of an Entity to a Registered Organisation." .
 
 #### Shares (Shareholders and Owned Shares)
-sdati:Share a rdfs:Class ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:Share a rdfs:Class ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "Share Ownership" ;
   skos:definition "Ownership of company shares." .
 
-sdati:ownershipType a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:ownershipType a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "ownership type" ;
-  schema:domainIncludes sdati:Share ;
+  schema:domainIncludes sdatke:Share ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Type of share ownership (free text)." .
 
 dbo:ratio a owl:DatatypeProperty ;
   rdfs:label "amount" ;
-  schema:domainIncludes sdati:Share ;
+  schema:domainIncludes sdatke:Share ;
   schema:rangeIncludes xsd:float ;
   skos:definition "Ratio of this share ownership to total shares." .
 
 dbo:owner a owl:ObjectProperty ;
   rdfs:label "owned by" ;
-  schema:domainIncludes sdati:Share ;
+  schema:domainIncludes sdatke:Share ;
   schema:rangeIncludes rov:RegisteredOrganization, person:Person ;
   skos:definition "Ownership of company shares by a company or a person." .
 
 dbo:owns a owl:ObjectProperty ;
   rdfs:label "owned shares" ;
   schema:domainIncludes rov:RegisteredOrganization, person:Person ;
-  schema:rangeIncludes sdati:Share ;
+  schema:rangeIncludes sdatke:Share ;
   skos:definition "Shares owned by the company." .
 
-sdati:share a owl:ObjectProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:share a owl:ObjectProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "shares" ;
   schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes sdati:Share ;
+  schema:rangeIncludes sdatke:Share ;
   skos:definition "Share of the company owned by a person or another company." .
 
 #### Web technologies
-sdati:analyticsTechUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:analyticsTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "analytics technology used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Analytics technology used by the company on its websites." .
 
-sdati:smartphoneAppUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:smartphoneAppUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "smartphone application used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes rdf:Resource ;
   skos:definition "Link to the store page of the smartphone application used by the company on its websites." .
 
-sdati:blogTechUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:blogTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "blogging technology used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Name of the blog-related technology used by the company on its websites." .
 
-sdati:cmsTechUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:cmsTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "CMS technology used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Name of the CMS-related technology used by the company on its websites." .
 
-sdati:eCommerceTechUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:eCommerceTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "E-commerce technology used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Name of the E-commerce -related technology used by the company on its websites." .
 
-sdati:marketingToolUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:marketingToolUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "marketing tool used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
   skos:definition "Name of the marketing tool used by the company on its websites." .
 
-sdati:paymentsPlatformUsed a owl:DatatypeProperty ;
-  rdfs:isDefinedBy sdati: ;
+sdatke:paymentsPlatformUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy sdatke: ;
   rdfs:label "payments platform used" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:string ;
@@ -519,7 +519,7 @@ dbo:logo a owl:ObjectProperty ;
   schema:rangeIncludes rdf:Resource ;
   skos:definition "Logo image associated to the company." .
 
-sdati:isStartup a owl:DatatypeProperty;
+sdatke:isStartup a owl:DatatypeProperty;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "is startup" ;
   schema:domainIncludes rov:RegisteredOrganization ;
@@ -568,14 +568,14 @@ sdati:isStartup a owl:DatatypeProperty;
     # atokaindicators
     # balance sheets
     dbo:assets,
-    sdati:capitalStock,
+    sdatke:capitalStock,
     dbo:revenue,
-    sdati:balanceSheet,
+    sdatke:balanceSheet,
     # base
     skos:altLabel,
     rov:orgActivity,
     rov:orgActivityText,
-    sdati:businessDescription,
+    sdatke:businessDescription,
     rov:registration,
     ebg:foundingYear,
     schema:foundingDate,
@@ -588,23 +588,23 @@ sdati:isStartup a owl:DatatypeProperty;
     adms:identifier,
     # certifications
     # contacts
-    sdati:contactPhone,
-    sdati:contactEmail,
+    sdatke:contactPhone,
+    sdatke:contactEmail,
     # economics
     ebg:isPubliclyTraded,
     # related entities
-    sdati:hasEntity,
+    sdatke:hasEntity,
     # locations
     org:hasSite,
     # shares
     # web technologies
-    sdati:analyticsTechUsed,
-    sdati:smartphoneAppUsed,
-    sdati:blogTechUsed,
-    sdati:cmsTechUsed,
-    sdati:eCommerceTechUsed,
-    sdati:marketingToolUsed,
-    sdati:paymentsPlatformUsed,
+    sdatke:analyticsTechUsed,
+    sdatke:smartphoneAppUsed,
+    sdatke:blogTechUsed,
+    sdatke:cmsTechUsed,
+    sdatke:eCommerceTechUsed,
+    sdatke:marketingToolUsed,
+    sdatke:paymentsPlatformUsed,
     dbo:logo,
     sioc:feed ;
   dct:license <https://atoka.io/en/terms-use/>;
@@ -651,30 +651,30 @@ sdati:isStartup a owl:DatatypeProperty;
     locn:locatorDesignator,
     skos:prefLabel,
     # atokaindicators
-    sdati:atokaInnovationScore,
-    sdati:atokaInnovationScoreBySector,
-    sdati:istatIDE,
-    sdati:istatIDS,
-    sdati:atokaWebCentrality,
-    sdati:atokaWebCentralityBySector,
-    sdati:agcmLegalityRating,
+    sdatke:atokaInnovationScore,
+    sdatke:atokaInnovationScoreBySector,
+    sdatke:istatIDE,
+    sdatke:istatIDS,
+    sdatke:atokaWebCentrality,
+    sdatke:atokaWebCentralityBySector,
+    sdatke:agcmLegalityRating,
     # balance sheets
     dbo:assets,
-    sdati:capitalStock,
+    sdatke:capitalStock,
     dbo:revenue,
-    sdati:balanceSheet,
+    sdatke:balanceSheet,
     # base
-    sdati:agcmLegalityRating,
+    sdatke:agcmLegalityRating,
     skos:altLabel,
     rov:orgActivity,
     rov:orgActivityText,
-    sdati:businessDescription,
+    sdatke:businessDescription,
     rov:registration,
     ebg:foundingYear,
     schema:foundingDate,
     ebg:isStateOwned,
-    sdati:italianPublicSectorOrganizationCode,
-    sdati:italianPublicSectorOrganizationType,
+    sdatke:italianPublicSectorOrganizationCode,
+    sdatke:italianPublicSectorOrganizationType,
     rov:orgType,
     ebg:orgTypeText,
     rov:orgType,
@@ -686,27 +686,27 @@ sdati:isStartup a owl:DatatypeProperty;
     # certifications
     acrt:has-certification,
     # contacts
-    sdati:contactPhone,
-    sdati:contactEmail,
-    sdati:faxNumber,
+    sdatke:contactPhone,
+    sdatke:contactEmail,
+    sdatke:faxNumber,
     # economics
-    sdati:employeeCountReport,
+    sdatke:employeeCountReport,
     ebg:isPubliclyTraded,
     # related entities
-    sdati:hasEntity,
+    sdatke:hasEntity,
     # locations
     org:hasSite,
     # shares
-    sdati:share,
+    sdatke:share,
     dbo:owns,
     # web technologies
-    sdati:analyticsTechUsed,
-    sdati:smartphoneAppUsed,
-    sdati:blogTechUsed,
-    sdati:cmsTechUsed,
-    sdati:eCommerceTechUsed,
-    sdati:marketingToolUsed,
-    sdati:paymentsPlatformUsed,
+    sdatke:analyticsTechUsed,
+    sdatke:smartphoneAppUsed,
+    sdatke:blogTechUsed,
+    sdatke:cmsTechUsed,
+    sdatke:eCommerceTechUsed,
+    sdatke:marketingToolUsed,
+    sdatke:paymentsPlatformUsed,
     dbo:logo,
     sioc:feed ;
   dct:license <https://atoka.io/en/terms-use/> ;
