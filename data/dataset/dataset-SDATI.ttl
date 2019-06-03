@@ -37,7 +37,7 @@
   dct:title "SpazioDati dataset provided to EBG" ;
   dct:publisher <https://spaziodati.eu/> ;
   dct:type <dataset/type/provided-to-EBG> ;
-  dct:license <https://opendatacommons.org/licenses/by/> ;
+  dct:license <https://atoka.io/en/terms-use/> ;
   void:subset <dataset/SDATI/EBG/IT>, <dataset/SDATI/EBG/GB> .
 
 ## Extra classes and properties ---------------------------------------------------------------------------------------
