@@ -22,7 +22,7 @@
 <dataset/BRC> a void:Dataset;
   dct:title "BRC dataset, fully provided to EBG";
   dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
-  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:license <https://data.norge.no/nlod/en/2.0>;
   dct:publisher <https://www.brreg.no/>;
   void:subset <dataset/BRC/NO>.
 
@@ -61,7 +61,7 @@
     schema:foundingDate,
     skos:notation,
     skos:prefLabel;
-  dct:license <https://opendatacommons.org/licenses/by/>;
+  dct:license <https://data.norge.no/nlod/en/2.0>;
   dct:source <https://www.brreg.no/>.
 
 <dataset/BRC/NO/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.

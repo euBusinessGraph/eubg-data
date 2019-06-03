@@ -25,27 +25,14 @@
   ebg:isEnumerated true;
   ebg:isOfficial false;
   # validation
-  ebg:validationRegex "[a-z_]+/\\w+";
+  ebg:validationRegex "([a-z]{2}|[a-z]{2}_[a-z\d]{2})\/.{1,128}";
   ebg:identifierWebResource <identifier/OCORP/semantic>, <identifier/OCORP/web>, <identifier/OCORP/xml>, <identifier/OCORP/rdf>, <identifier/OCORP/json>.
 
-<identifier/OCORP/web> a ebg:IdentifierWebResource;
+<identifier/OCORP/semantic> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company semantic URL";
-  dc:format "application/rdf+xml", "application/json", "text/html";
+  dc:format "application/rdf+xml","application/json", "application/xml", "text/html";
   schema:description "Provides data in RDF, JSON, and HTML using content negotiation";
   ebg:urlTemplate "https://opencorporates.com/companies/{}".
-
-# TODO: OCORP seem to have closed their data. API requests don't work (neither negotiation nor ?format=) and return "Incapsula incident", eg:
-
-# curl -LHaccept:application/xml https://opencorporates.com/companies/gb/11220640
-# <script src="/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3">
-
-# curl -LHaccept:application/xml https://opencorporates.com/companies/gb/11220640?format=xml
-# <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script>
-# Request unsuccessful. Incapsula incident ID: 728000781048872274-2071414820843291885
-
-# curl -LHaccept:application/json https://opencorporates.com/companies/gb/11220640?format=json
-#<iframe src="/_Incapsula_Resource?SWUDNSAI=28&xinfo=5-295748794-0%200NNN%20RT%281548668331478%2081%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B12%284%2c315%2c0%29%20U18&incident_id=728000781048872274-1128339774731977957&edet=12&cinfo=04000000
-# Request unsuccessful. Incapsula incident ID: 728000781048872274-1128339774731977957
 
 <identifier/OCORP/web> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company page";
@@ -55,7 +42,7 @@
 <identifier/OCORP/xml> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company data XML";
   dc:format "application/xml";
-  ebg:urlTemplate "https://opencorporates.com/companies/{}.xml".
+  ebg:urlTemplate "https://api.opencorporates.com/companies/{}?format=xml".
 
 <identifier/OCORP/rdf> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company data RDF";
@@ -65,9 +52,9 @@
 <identifier/OCORP/json> a ebg:IdentifierWebResource;
   schema:name "OpenCorporates company data JSON";
   dc:format "application/json";
-  ebg:urlTemplate "https://opencorporates.com/companies/{}.json".
+  ebg:urlTemplate "https://api.opencorporates.com/companies/{}?format=json".
 
 <https://opencorporates.com/> a schema:Organization;
   schema:name "Open database for corporate data"@en;
-  schema:description "OpenCorporates is the largest open database of companies and company data in the world, with in excess of 100 million companies in a similarly large number of jurisdictions. Identifiers are issued by official registers, not OpenCorporates".
+  schema:description "OpenCorporates is the largest open database of companies and company data in the world, with in excess of 160 million companies in a similarly large number of jurisdictions. Identifiers are issued by official registers, not OpenCorporates".
 

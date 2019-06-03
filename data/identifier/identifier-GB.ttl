@@ -13,10 +13,10 @@
   skos:notation "GB";
   dbo:jurisdiction "GB";
   schema:name "Companies House Companies Register";
-  schema:description """Official identifiers of UK legal entities or branches of entities""";
+  schema:description ""Official identifiers of UK legal entities or branches of entities"";
   ebg:ralCode "RA000585";
   schema:url <https://beta.companieshouse.gov.uk/>;
-  schema:license <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>;
+  schema:license <https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright>;
   # characteristics
   ebg:isUnique true;
   ebg:isSingleValued true;
@@ -27,7 +27,7 @@
   ebg:isEnumerated true;
   ebg:isOfficial true;
   # validation
-  ebg:validationRegex "\\d{8}";
+  ebg:validationRegex "[A-Z0-9]{8}";
   ebg:identifierWebResource <identifier/GB/semantic>, <identifier/GB/web>, <identifier/GB/html>, <identifier/GB/rdf>.
 
 ################## Get content by file extension:
@@ -52,7 +52,7 @@
   schema:name "GB company page";
   dc:format "text/html";
   schema:inLanguage "en";
-  ebg:urlTemplate "https://beta.companieshouse.gov.uk/company/{}".
+  ebg:urlTemplate "https://beta.companieshouse.gov.uk/doc/company/{}".
 
 <identifier/GB/html> a ebg:IdentifierWebResource;
   schema:name "GB company data page";
@@ -92,7 +92,7 @@
 
 <http://companieshouse.gov.uk> a schema:Organization;
   schema:name "Companies House Companies Register"@en;
-  schema:description "Companies House is an executive agency that issues official identifiers of companies. Companies House incorporates and dissolves limited companies, and registers company information and make it available to the public.".
+  schema:description "Companies House is an executive agency that issues official identifiers to companies registered in the United Kingdom. Companies House incorporates and dissolves limited companies, registers company information, and makes it available to the public.".
 
 # For example:
 # curl http://data.companieshouse.gov.uk/doc/company/11220640.xml
