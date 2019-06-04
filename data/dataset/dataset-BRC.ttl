@@ -32,6 +32,7 @@
   dct:spatial "NO";
   void:entities 0;
   void:classPartition <dataset/BRC/NO/address>, <dataset/BRC/NO/person>, <dataset/BRC/NO/membership>;
+  void:property
     dbo:jurisdiction,
     dct:creator,
     dct:isPartOf,
