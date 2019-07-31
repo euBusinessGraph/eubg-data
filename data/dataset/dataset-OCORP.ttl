@@ -24,57 +24,14 @@
   dct:title "OpenCorporates full dataset of 147M companies from 128 jurisdictions";
   dct:type <dataset/type/provider>;
   dct:publisher <https://opencorporates.com/>;
-  void:subset <dataset/OCORP/GB>, <dataset/OCORP/EBG>.
-
-<dataset/OCORP/GB> a void:Dataset;
-  dct:title "OpenCorporates full dataset of GB companies";
-  dct:type <dataset/type/partition>;
-  dct:spatial "GB";
-  void:entities 0;
-  void:classPartition <dataset/OCORP/GB/address>, <dataset/OCORP/GB/person>, <dataset/OCORP/GB/membership>;
-  void:property
-    adms:identifier,
-    dbo:jurisdiction,
-    dct:creator,
-    dct:isPartOf,
-    locn:adminUnitL1,
-    locn:adminUnitL2,
-    ebg:adminUnitL3,
-    ebg:adminUnitL4,
-    ebg:adminUnitL5,
-    ebg:adminUnitL6,
-    ebg:foundingYear,
-    ebg:orgStatusText,
-    ebg:orgTypeText,
-    locn:postCode,
-    locn:postName,
-    locn:thoroughfare,
-    locn:fullAddress,
-    org:hasRegisteredSite,
-    org:member,
-    org:memberDuring,
-    org:organization,
-    org:role,
-    org:siteAddress,
-    rov:legalName,
-    rov:orgActivity,
-    rov:orgStatus,
-    rov:orgType,
-    rov:registration,
-    schema:dissolutionDate,
-    schema:foundingDate,
-    skos:notation,
-    skos:prefLabel;
-  dct:license <https://opencorporates.com/info/licence>;
-  dct:source <https://opencorporates.com/>.
-  void:subset <dataset/OCORP/EBG/GB>.
+  void:subset <dataset/OCORP/GB>, <dataset/OCORP/FR>, <dataset/OCORP/ES>, <dataset/OCORP/DE>, <dataset/OCORP/IE>, <dataset/OCORP/DK>, <dataset/OCORP/NL>, <dataset/OCORP/BE>, <dataset/OCORP/BG>, <dataset/OCORP/GR>, <dataset/OCORP/GG>, <dataset/OCORP/GL>, <dataset/OCORP/IS>, <dataset/OCORP/JE>, <dataset/OCORP/LV>, <dataset/OCORP/LI>, <dataset/OCORP/LU>, <dataset/OCORP/MT>, <dataset/OCORP/NO>, <dataset/OCORP/PL>, <dataset/OCORP/RO>, <dataset/OCORP/SK>, <dataset/OCORP/SI>, <dataset/OCORP/SE>, <dataset/OCORP/CH>, <dataset/OCORP/EBG>.
 
 <dataset/OCORP/EBG> a void:Dataset;
   dct:title "OpenCorporates dataset provided to EBG";
   dct:type <dataset/type/provided-to-EBG>;
   dct:license <https://opendatacommons.org/licenses/by/>;
   dct:publisher <https://opencorporates.com/>;
-  void:subset <dataset/OCORP/EBG/GB>.
+  void:subset <dataset/OCORP/EBG/GB>, <dataset/OCORP/EBG/FR>.
 
 <dataset/OCORP/EBG/GB> a void:Dataset;
   dct:title "OpenCorporates dataset of GB companies provided to EBG";
@@ -118,6 +75,836 @@
   dct:license <https://opencorporates.com/info/licence>;
   dct:source <https://opencorporates.com/>.
 
+<dataset/OCORP/GB>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of GB companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "GB" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/GB/address> ;
+        void:classPartition  <dataset/OCORP/GB/person> ;
+        void:classPartition  <dataset/OCORP/GB/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        org:role ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        void:property        skos:website ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/GB> .
+
+<dataset/OCORP/FR>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of FR companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "FR" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/FR/address> ;
+        void:classPartition  <dataset/OCORP/FR/person> ;
+        void:classPartition  <dataset/OCORP/FR/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/FR> .
+
+<dataset/OCORP/EBG/FR>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of FR companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "FR" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/EBG/FR/address> ;
+        void:classPartition  <dataset/OCORP/EBG/FR/person> ;
+        void:classPartition  <dataset/OCORP/EBG/FR/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> .
+
+<dataset/OCORP/ES>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of ES companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "ES" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/ES/address> ;
+        void:classPartition  <dataset/OCORP/ES/person> ;
+        void:classPartition  <dataset/OCORP/ES/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/ES> .
+
+<dataset/OCORP/DE>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of DE companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "DE" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/DE/address> ;
+        void:classPartition  <dataset/OCORP/DE/person> ;
+        void:classPartition  <dataset/OCORP/DE/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:orgStatusText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:role ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/DE> .
+
+<dataset/OCORP/IE>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of IE companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "IE" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/IE/address> ;
+        void:classPartition  <dataset/OCORP/IE/person> ;
+        void:classPartition  <dataset/OCORP/IE/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/IE> .
+
+<dataset/OCORP/DK>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of DK companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "DK" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/DK/address> ;
+        void:classPartition  <dataset/OCORP/DK/person> ;
+        void:classPartition  <dataset/OCORP/DK/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        org:role ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        void:property        skos:website ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/DK> .
+
+<dataset/OCORP/NL>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of NL companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "NL" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/NL/address> ;
+        void:classPartition  <dataset/OCORP/NL/person> ;
+        void:classPartition  <dataset/OCORP/NL/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/NL> .
+
+<dataset/OCORP/BE>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of BE companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "BE" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/BE/address> ;
+        void:classPartition  <dataset/OCORP/BE/person> ;
+        void:classPartition  <dataset/OCORP/BE/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/BE> .
+
+<dataset/OCORP/BG>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of BG companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "BG" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/BG/address> ;
+        void:classPartition  <dataset/OCORP/BG/person> ;
+        void:classPartition  <dataset/OCORP/BG/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        org:role ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/BG> .
+
+<dataset/OCORP/GR>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of GR companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "GR" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/GR/address> ;
+        void:classPartition  <dataset/OCORP/GR/person> ;
+        void:classPartition  <dataset/OCORP/GR/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        org:role ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:foundingDate ;
+        void:property        skos:notation ;
+        void:property        skos:tradeName ;
+        void:property        skos:website ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/GR> .
+
+<dataset/OCORP/GG>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of GG companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "GG" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/GG/address> ;
+        void:classPartition  <dataset/OCORP/GG/person> ;
+        void:classPartition  <dataset/OCORP/GG/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/GG> .
+
+<dataset/OCORP/GL>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of GL companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "GL" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/GL/address> ;
+        void:classPartition  <dataset/OCORP/GL/person> ;
+        void:classPartition  <dataset/OCORP/GL/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/GL> .
+
+<dataset/OCORP/IS>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of IS companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "IS" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/IS/address> ;
+        void:classPartition  <dataset/OCORP/IS/person> ;
+        void:classPartition  <dataset/OCORP/IS/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/IS> .
+
+<dataset/OCORP/JE>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of JE companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "JE" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/JE/address> ;
+        void:classPartition  <dataset/OCORP/JE/person> ;
+        void:classPartition  <dataset/OCORP/JE/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/JE> .
+
+<dataset/OCORP/LV>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of LV companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "LV" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/LV/address> ;
+        void:classPartition  <dataset/OCORP/LV/person> ;
+        void:classPartition  <dataset/OCORP/LV/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/LV> .
+
+<dataset/OCORP/LI>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of LI companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "LI" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/LI/address> ;
+        void:classPartition  <dataset/OCORP/LI/person> ;
+        void:classPartition  <dataset/OCORP/LI/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgTypeText ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/LI> .
+
+<dataset/OCORP/LU>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of LU companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "LU" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/LU/address> ;
+        void:classPartition  <dataset/OCORP/LU/person> ;
+        void:classPartition  <dataset/OCORP/LU/membership> ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        rov:registration ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/LU> .
+
+<dataset/OCORP/MT>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of MT companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "MT" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/MT/address> ;
+        void:classPartition  <dataset/OCORP/MT/person> ;
+        void:classPartition  <dataset/OCORP/MT/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/MT> .
+
+<dataset/OCORP/NO>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of NO companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "NO" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/NO/address> ;
+        void:classPartition  <dataset/OCORP/NO/person> ;
+        void:classPartition  <dataset/OCORP/NO/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgActivityText ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgActivity ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        void:property        skos:website ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/NO> .
+
+<dataset/OCORP/PL>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of PL companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "PL" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/PL/address> ;
+        void:classPartition  <dataset/OCORP/PL/person> ;
+        void:classPartition  <dataset/OCORP/PL/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgTypeText ;
+        void:property        org:hasRegisteredSite ;
+        void:property        org:role ;
+        void:property        rov:legalName ;
+        void:property        rov:orgType ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/PL> .
+
+<dataset/OCORP/RO>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of RO companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "RO" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/RO/address> ;
+        void:classPartition  <dataset/OCORP/RO/person> ;
+        void:classPartition  <dataset/OCORP/RO/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/RO> .
+
+<dataset/OCORP/SK>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of SK companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "SK" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/SK/address> ;
+        void:classPartition  <dataset/OCORP/SK/person> ;
+        void:classPartition  <dataset/OCORP/SK/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:foundingYear ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        org:hasRegisteredSite ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        schema:foundingDate ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/SK> .
+
+<dataset/OCORP/SI>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of SI companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "SI" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/SI/address> ;
+        void:classPartition  <dataset/OCORP/SI/person> ;
+        void:classPartition  <dataset/OCORP/SI/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        skos:notation ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/SI> .
+
+<dataset/OCORP/SE>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of SE companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "SE" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/SE/address> ;
+        void:classPartition  <dataset/OCORP/SE/person> ;
+        void:classPartition  <dataset/OCORP/SE/membership> ;
+        void:property        adms:identifier ;
+        void:property        dct:creator ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/SE> .
+
+<dataset/OCORP/CH>  rdf:type  void:Dataset ;
+        dct:title            "OpenCorporates full dataset of CH companies" ;
+        dct:type             <dataset/type/partition> ;
+        dct:spatial          "CH" ;
+        void:entities        0 ;
+        void:classPartition  <dataset/OCORP/CH/address> ;
+        void:classPartition  <dataset/OCORP/CH/person> ;
+        void:classPartition  <dataset/OCORP/CH/membership> ;
+        void:property        adms:identifier ;
+        void:property        dbo:jurisdiction ;
+        void:property        dct:creator ;
+        void:property        locn:adminUnitL1 ;
+        void:property        locn:adminUnitL2 ;
+        void:property        ebg:adminUnitL3 ;
+        void:property        ebg:adminUnitL4 ;
+        void:property        ebg:adminUnitL5 ;
+        void:property        ebg:adminUnitL6 ;
+        void:property        ebg:orgStatusText ;
+        void:property        ebg:orgTypeText ;
+        void:property        locn:postCode ;
+        void:property        locn:postName ;
+        void:property        locn:thoroughfare ;
+        void:property        locn:fullAddress ;
+        void:property        rov:legalName ;
+        void:property        rov:orgStatus ;
+        void:property        rov:orgType ;
+        void:property        schema:dissolutionDate ;
+        void:property        skos:notation ;
+        void:property        skos:tradeName ;
+        dct:license          <https://opencorporates.com/info/licence> ;
+        dct:source           <https://opencorporates.com/> ;
+        void:subset          <dataset/OCORP/EBG/CH> .
+
 <dataset/OCORP/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
 <dataset/OCORP/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
 <dataset/OCORP/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
@@ -125,6 +912,14 @@
 <dataset/OCORP/EBG/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
 <dataset/OCORP/EBG/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
 <dataset/OCORP/EBG/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<dataset/OCORP/FR/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
+<dataset/OCORP/FR/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
+<dataset/OCORP/FR/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<dataset/OCORP/EBG/FR/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
+<dataset/OCORP/EBG/FR/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
+<dataset/OCORP/EBG/FR/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
 
 <https://opencorporates.com/> a ebg:WebResource;
   schema:url <https://opencorporates.com/registers>;
