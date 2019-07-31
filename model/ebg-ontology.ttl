@@ -939,7 +939,7 @@ schema:email a owl:ObjectProperty ;
   skos:scopeNote "euBusinessGraph does not record other company emails, so there is no need to distinguish between different kinds",
     "The value should be a mailto: URL." ;
   rdfs:label "certified email address" ;
-  skos:defintion "Email that is officially registered and with the same validity as certified (snail) mail." ;
+  skos:definition "Email that is officially registered and with the same validity as certified (snail) mail." ;
   skos:example <mailto:elettorale@pec.comune.trento.it> .
 
 schema:geo a owl:ObjectProperty ;

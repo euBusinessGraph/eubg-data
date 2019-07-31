@@ -1,101 +1,542 @@
 @base            <http://data.businessgraph.io/>.
 @prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix acrt:    <https://privatealpha.com/ontology/certification/1#> .
 @prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix atkebg:  <http://ontologies.spaziodati.eu/atoka-ebg/#> .
 @prefix dbo:     <http://dbpedia.org/ontology/>.
 @prefix dc:      <http://purl.org/dc/elements/1.1/>.
 @prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
 @prefix locn:    <http://www.w3.org/ns/locn#>.
 @prefix nuts:    <http://nuts.geovocab.org/id/>.
 @prefix org:     <http://www.w3.org/ns/org#>.
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
 @prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rov:     <http://www.w3.org/ns/regorg#>.
 @prefix schema:  <http://schema.org/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
-<https://spaziodati.eu/en/> a schema:Organization;
+
+<https://spaziodati.eu/> a schema:Organization;
   schema:name "SpazioDati";
   skos:notation "SDATI".
 
-<dataset/SDATI> a void:Dataset;
-  dct:description "euBusinessGraph only provides info about jurisdictions and fields in this dataset. Contact the publisher for commercial information.";
-  dct:title "SpazioDati full dataset";
-  dct:type <dataset/type/provider>;
-  dct:publisher <https://spaziodati.eu/en/>;
-  void:subset <dataset/SDATI/GB>, <dataset/SDATI/IT>, <dataset/SDATI/EBG>.
+<dataset/SDATI> a void:Dataset ;
+  dct:description "euBusinessGraph only provides info about jurisdictions and fields in this dataset. Contact the publisher for commercial information." ;
+  dct:title "SpazioDati full dataset" ;
+  dct:type <dataset/type/provider> ;
+  dct:publisher <https://spaziodati.eu/en/> ;
+  void:subset <dataset/SDATI/GB>, <dataset/SDATI/IT>, <dataset/SDATI/EBG> .
 
-<dataset/SDATI/EBG> a void:Dataset;
-  dct:title "SpazioDati dataset provided to EBG";
-  dct:publisher <https://spaziodati.eu>;
-  dct:type <dataset/type/provided-to-EBG>;
-  dct:license <https://opendatacommons.org/licenses/by/>;
-  void:subset <dataset/SDATI/EBG/IT>, <dataset/SDATI/EBG/GB>.
+<dataset/SDATI/EBG> a void:Dataset ;
+  dct:title "SpazioDati dataset provided to EBG" ;
+  dct:publisher <https://spaziodati.eu/> ;
+  dct:type <dataset/type/provided-to-EBG> ;
+  dct:license <https://atoka.io/en/terms-use/> ;
+  void:subset <dataset/SDATI/EBG/IT>, <dataset/SDATI/EBG/GB> .
+
+## Extra classes and properties ---------------------------------------------------------------------------------------
+dbo:updated a owl:DatatypeProperty ;
+  schema:rangeIncludes xsd:date ;
+  skos:definition "The last update date of a resource." ;
+  rdfs:label "last updated" .
+
+dbo:score a owl:DatatypeProperty ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Score or points of something." ;
+  rdfs:label "score value" .
+
+dbo:rating a owl:DatatypeProperty ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "An evaluation or assessment of something, in terms of quality, quantity, or some combination of both." ;
+  rdfs:label "rating value" .
+
+atkebg:percentileRank a owl:DatatypeProperty ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "The percentage of scores in a frequency distribution that are equal to or lower than a score." ;
+  rdfs:label "percentile rank" .
+
+#### Root fields
+#### Atoka Indicators
+atkebg:AtokaInnovationScore a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "A score given to the company based on the content of its website that measures the innovation factors of a company." ;
+  skos:scopeNote <https://developers.atoka.io/v2/glossary.html#innovationScore> ;
+  rdfs:label "Atoka Innovation Score" .
+dbo:updated schema:domainIncludes atkebg:AtokaInnovationScore .
+dbo:percentileRank schema:domainIncludes atkebg:AtokaInnovationScore .
+
+atkebg:atokaInnovationScore a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Atoka innovation score" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AtokaInnovationScore ;
+  skos:definition "The Atoka Innovation Score of a Registered Organisation." .
+
+atkebg:AtokaInnovationScoreBySector a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "A score given to the company based on the content of its website that measures the innovation factors of a company within its prevalent economic sector." ;
+  skos:scopeNote <https://developers.atoka.io/v2/glossary.html#innovationCategoryScore> ;
+  rdfs:label "Atoka Innovation Score by sector" .
+dbo:updated schema:domainIncludes atkebg:AtokaInnovationScoreBySector .
+dbo:percentileRank schema:domainIncludes atkebg:AtokaInnovationScoreBySector .
+
+atkebg:atokaInnovationScoreBySector a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Atoka innovation score by sector" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AtokaInnovationScoreBySector ;
+  skos:definition "The Atoka Innovation Score of a Registered Organisation in its prevalent economic sector." .
+
+atkebg:IstatIDE a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "A score comparing the state of degradation of buildings in an urban area with the national average value." ;
+  skos:scopeNote <https://developers.atoka.io/v2/glossary.html#territorialScoreIDE> ;
+  rdfs:label "Istat Building Degradation Index" .
+dbo:updated schema:domainIncludes atkebg:IstatIDE .
+dbo:score schema:domainIncludes atkebg:IstatIDE .
+
+atkebg:istatIDE a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Istat building degradation index" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AtokaInnovationScoreBySector ;
+  skos:definition "The Istat Building Degradation Index of a Registered Organisation's headquarters area." .
+
+atkebg:IstatIDS a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "A score measuring unemployment rate, scholarisation and the average age of the population in an urban area." ;
+  skos:scopeNote <https://developers.atoka.io/v2/glossary.html#territorialScoreIDS> ;
+  rdfs:label "Istat Social Distress Index" .
+dbo:updated schema:domainIncludes atkebg:IstatIDS .
+dbo:score schema:domainIncludes atkebg:IstatIDS .
+
+atkebg:istatIDS a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Istat social distress index" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AtokaInnovationScoreBySector ;
+  skos:definition "The Istat Social Distress Index of a Registered Organisation's headquarters area." .
+
+atkebg:AtokaWebCentrality a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "A score that measures how central the webpage of that company is in the Corporate Web." ;
+  skos:scopeNote <https://developers.atoka.io/v2/glossary.html#webCentralityScore> ;
+  rdfs:label "Atoka Web Centrality" .
+dbo:updated schema:domainIncludes atkebg:AtokaWebCentrality .
+dbo:percentileRank schema:domainIncludes atkebg:AtokaWebCentrality .
+
+atkebg:atokaWebCentrality a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Atoka web centrality" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AtokaWebCentrality ;
+  skos:definition "The Atoka Web Centrality of a Registered Organisation." .
+
+atkebg:AtokaWebCentralityBySector a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "A score that measures how central the webpage of that company is in the Corporate Web, within its prevalent economic sector." ;
+  skos:scopeNote <https://developers.atoka.io/v2/glossary.html#webCentralityCategoryScore> ;
+  rdfs:label "Atoka Web Centrality by sector" .
+dbo:updated schema:domainIncludes atkebg:AtokaWebCentralityBySector .
+dbo:percentileRank schema:domainIncludes atkebg:AtokaWebCentralityBySector .
+
+atkebg:atokaWebCentralityBySector a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Atoka web centrality by sector" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AtokaWebCentralityBySector ;
+  skos:definition "The Atoka Innovation Score of a Registered Organisation in its prevalent economic sector." .
+
+#### Balance Sheets
+atkebg:BalanceSheet a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Balance Sheet" ;
+  skos:definition "A statement of the assets, liabilities, and capital of a business or other organization at a particular point in time, detailing the balance of income and expenditure over the preceding period." .
+  
+dbo:assets a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:BalanceSheet, rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Anything tangible or intangible that is capable of being owned or controlled to produce value and that is held to have positive economic value." ;
+  rdfs:label "assets" .
+
+atkebg:capitalStock a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet, rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "The nominal (or authorised) capital that the company is authorised to issue to shareholders." ;
+  rdfs:label "capital stock" .
+
+atkebg:costs a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "The sum of purchases, personnel costs and charges for services and third-party goods, from which the variations in raw materials are detracted." ;
+  rdfs:label "costs" .
+
+atkebg:ebitda a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Earnings Before Interest, taxes, depreciation and amortization." ;
+  rdfs:label "ebitda" .
+
+atkebg:grossOperatingMargin a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Profit from selling goods or services in a particular period after costs directly related to producing them are subtracted." ;
+  rdfs:label "gross operating margin" .
+
+atkebg:netFinancialPosition a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Financial liabilities minus cash and cash equivalents." ;
+  rdfs:label "net financial position" .
+
+atkebg:costOfSales a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "For a manufacturer is the cost of its finished goods in its beginning inventory plus the cost of goods manufactured during the accounting period minus the cost of finished goods in ending inventory.",
+    "For a retailer is the cost of merchandise in its beginning inventory plus the net cost of merchandise purchased during the accounting period minus the cost of merchandise in its ending inventory." ;
+  rdfs:label "cost of sales" .
+
+atkebg:operatingProfit a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "A profit from business operations (gross profit minus operating expenses) before deduction of interest and taxes." ;
+  rdfs:label "operating profit" .
+
+atkebg:purchases a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "A general ledger account in which is recorded the inventory purchases of a business." ;
+  rdfs:label "purchases" .
+
+atkebg:inventoryChangeInRawMaterials a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "The difference between the inventory totals regarding raw materials for the last reporting period and the current reporting period." ;
+  rdfs:label "inventory change in raw materials" .
+
+dbo:revenue a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:BalanceSheet, rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "The amount of money that a company actually receives during a specific period, including discounts and deductions for returned merchandise." ;
+  rdfs:label "revenue" .
+
+atkebg:revenueTrend a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Percentage of increase of revenue since the last report." ;
+  rdfs:label "revenue trend" .
+
+atkebg:costOfMaterials a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Percentage of increase of revenue since the last report." ;
+  rdfs:label "revenue trend" .
+
+atkebg:leasesAndRentalExpenses a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Total expenses for lease and rental of third-party goods and services." ;
+  rdfs:label "leases and rental expenses" .
+
+atkebg:personnelCosts a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:double ;
+  skos:definition "Wages and salaries and employer's social security costs." ;
+  rdfs:label "personnel costs" .
+
+dbo:closingDate a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:BalanceSheet ;
+  schema:rangeIncludes xsd:date ;
+  skos:definition "Balance sheet closing date." ;
+  rdfs:label "closing date" .
+
+atkebg:balanceSheet a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "balance sheet" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:BalanceSheet ;
+  skos:definition "Balance Sheet report of a Registered Organisation." .
+
+#### Base fields
+atkebg:AGCMLegalityRating a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "Measure of compliance with legality protocols, transparent traceability systems and certified compliance checks." ;
+  skos:scopeNote <https://en.agcm.it/en/scope-of-activity/legality-rating/> ;
+  rdfs:label "AGCM Legality Rating" .
+
+schema:expires a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:AGCMLegalityRating ;
+  schema:rangeIncludes xsd:date ;
+  skos:definition "The AGCM Legality Rating expiration date" ;
+  rdfs:label "expiration date" .
+
+dbo:rating schema:domainIncludes atkebg:AGCMLegalityRating ;
+  schema:rangeIncludes xsd:string .
+
+atkebg:agcmLegalityRating a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "AGCM legality rating" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:AGCMLegalityRating ;
+  skos:definition "The AGCM Legality Rating for a Registered Organisation." .
+
+
+atkebg:businessDescription a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "business description" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:langString ;
+  skos:definition "Description of the main business activity of the company." .
+
+
+atkebg:italianPublicSectorOrganizationCode a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "italian PSO code" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:string ;
+  skos:definition "Identifier issued by the Italian government for public sector organizations." ;
+  skos:scopeNone <https://developers.atoka.io/v2/glossary.html#govtypes> .
+
+atkebg:italianPublicSectorOrganizationType a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "type of italian PSO" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:string ;
+  skos:definition "The type of Italian public sector organization." ;
+  skos:scopeNone <https://developers.atoka.io/v2/glossary.html#govtypes> .
+
+#### Certifications
+acrt:Certification a owl:Class ;
+  skos:definition """Represents the abstract notion of certification, of an agent, by another agent,
+that the first agent possesses some property or set of properties implied by the certification,
+potentially within some spatiotemporal scope.""" ;
+  skos:scopeNote <https://privatealpha.com/ontology/certification/1#Certification> ;
+  rdfs:label "Certification" .
+
+acrt:has-certification a owl:ObjectProperty ;
+  rdfs:label "certification" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes acrt:Certification ;
+  skos:definition "This property specifies that a Registered Organization has a given Certification." .
+
+
+#### Contact Phone
+atkebg:ContactPhone a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "Contact phone of a given type." ;
+  rdfs:label "Contact Phone" .
+
+foaf:phone a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:ContactPhone ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Number for the Contact Phone." ;
+  rdfs:label "number" .
+
+atkebg:contactPhone a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes org:Site ;
+  schema:rangeIncludes atkebg:ContactPhone ;
+  skos:definition "Contact Phone of a Site." ;
+  rdfs:label "phone" .
+
+#### Contact Email
+atkebg:ContactEmail a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  skos:definition "An email contact of a given type." ;
+  rdfs:label "Contact Email" .
+
+schema:email a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:ContactEmail ;
+  schema:rangeIncludes rdf:Resource ;
+  skos:definition "Email address for the Contact Email." ;
+  rdfs:label "email address" .
+
+atkebg:contactEmail a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:ContactEmail ;
+  skos:definition "A Contact Email of a Registered Organisation." ;
+  rdfs:label "email address" .
+
+atkebg:contactType a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:ContactEmail, atkebg:ContactPhone ;
+  schema:rangeIncludes rdf:langString ;
+  skos:definition "Type of contact" ;
+  skos:scopeNote "Most frequent values are \"administration\", \"info\", \"management\", \"marketing\", \"purchases\", \"sales\", \"support\", \"technician\", \"personal\", \"other\"." ;
+  rdfs:label "contact type" .
+
+atkebg:faxNumber a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Fax number associated to a company." ;
+  rdfs:label "fax number" .
+
+#### Employee Count Report
+atkebg:EmployeeCountReport a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Employee Count Report" ;
+  skos:definition "A report of the number of employees in an organisation at a given date." .
+  
+atkebg:employeeCount a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  schema:domainIncludes atkebg:EmployeeCountReport ;
+  schema:rangeIncludes xsd:nonNegativeInteger ;
+  skos:definition "Number of employees in an organisation." ;
+  rdfs:label "employee count" .
+
+dct:dateSubmitted a owl:DatatypeProperty ;
+  schema:domainIncludes atkebg:EmployeeCountReport ;
+  schema:rangeIncludes xsd:date ;
+  skos:definition "Employee count report submission date." ;
+  rdfs:label "date submitted" .
+
+atkebg:employeeCountReport a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "employee count report" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:EmployeeCountReport ;
+  skos:definition "The number of employees of a Registered Organisation at a given point in time." .
+
+#### Related Entities
+atkebg:hasEntity a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "related entity" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:Resource ;
+  skos:definition "Relation of an Entity to a Registered Organisation." .
+
+#### Shares (Shareholders and Owned Shares)
+atkebg:Share a rdfs:Class ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "Share Ownership" ;
+  skos:definition "Ownership of company shares." .
+
+atkebg:ownershipType a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "ownership type" ;
+  schema:domainIncludes atkebg:Share ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Type of share ownership (free text)." .
+
+dbo:ratio a owl:DatatypeProperty ;
+  rdfs:label "amount" ;
+  schema:domainIncludes atkebg:Share ;
+  schema:rangeIncludes xsd:float ;
+  skos:definition "Ratio of this share ownership to total shares." .
+
+dbo:owner a owl:ObjectProperty ;
+  rdfs:label "owned by" ;
+  schema:domainIncludes atkebg:Share ;
+  schema:rangeIncludes rov:RegisteredOrganization, person:Person ;
+  skos:definition "Ownership of company shares by a company or a person." .
+
+dbo:owns a owl:ObjectProperty ;
+  rdfs:label "owned shares" ;
+  schema:domainIncludes rov:RegisteredOrganization, person:Person ;
+  schema:rangeIncludes atkebg:Share ;
+  skos:definition "Shares owned by the company." .
+
+atkebg:share a owl:ObjectProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "shares" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes atkebg:Share ;
+  skos:definition "Share of the company owned by a person or another company." .
+
+#### Web technologies
+atkebg:analyticsTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "analytics technology used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Analytics technology used by the company on its websites." .
+
+atkebg:smartphoneAppUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "smartphone application used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:Resource ;
+  skos:definition "Link to the store page of the smartphone application used by the company on its websites." .
+
+atkebg:blogTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "blogging technology used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Name of the blog-related technology used by the company on its websites." .
+
+atkebg:cmsTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "CMS technology used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Name of the CMS-related technology used by the company on its websites." .
+
+atkebg:eCommerceTechUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "E-commerce technology used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Name of the E-commerce -related technology used by the company on its websites." .
+
+atkebg:marketingToolUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "marketing tool used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Name of the marketing tool used by the company on its websites." .
+
+atkebg:paymentsPlatformUsed a owl:DatatypeProperty ;
+  rdfs:isDefinedBy atkebg: ;
+  rdfs:label "payments platform used" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  skos:definition "Name of the payments platform used by the company on its websites." .
+
+dbo:logo a owl:ObjectProperty ;
+  rdfs:label "logo" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rdf:Resource ;
+  skos:definition "Logo image associated to the company." .
+
+ebg:isStartup a owl:DatatypeProperty;
+  rdfs:label "is startup" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:boolean;
+  skos:definition "Whether the company is a startup [ebg:]";
+  skos:example "A special section of the IT Business Register http://startup.registroimprese.it/ includes pitch, sectors and business model of startups and innovative SMEs".
+
+## --------------------------------------------------------------------------------------------------------------------
 
 <dataset/SDATI/GB> a void:Dataset;
-  dct:title "SpazioDati full dataset of GB companies";
-  dct:type <dataset/type/partition>;
-  dct:spatial "GB";
-  void:entities 0;
+  dct:title "SpazioDati full dataset of GB companies" ;
+  dct:type <dataset/type/partition> ;
+  dct:spatial "GB" ;
+  void:entities 4276471 ;
   void:classPartition <dataset/SDATI/GB/address>, <dataset/SDATI/GB/person>, <dataset/SDATI/GB/membership>;
   void:property
-    adms:identifier,
-    dbo:jurisdiction,
     dct:creator,
     dct:isPartOf,
-    locn:adminUnitL1,
-    locn:adminUnitL2,
-    ebg:adminUnitL3,
-    ebg:adminUnitL4,
-    ebg:adminUnitL5,
-    ebg:adminUnitL6,
-    ebg:foundingYear,
-    locn:postName,
-    org:hasRegisteredSite,
-    org:member,
-    org:memberDuring,
-    org:organization,
-    org:role,
-    org:siteAddress,
-    rov:legalName,
-    rov:orgActivity,
-    ebg:orgActivityText,
-    rov:registration,
-    skos:notation,
-    skos:prefLabel;
-  dct:license <https://atoka.io/en/terms-use/>;
-  dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/>.
-
-<dataset/SDATI/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
-<dataset/SDATI/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
-<dataset/SDATI/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
-
-<dataset/SDATI/IT> a void:Dataset;
-  dct:title "SpazioDati full dataset of IT companies";
-  dct:type <dataset/type/partition>;
-  dct:spatial "IT";
-  void:entities 0;
-  void:classPartition <dataset/SDATI/IT/address>, <dataset/SDATI/IT/person>, <dataset/SDATI/IT/membership>;
-  void:property
-    adms:identifier,
-    dbo:jurisdiction,
-    dct:creator,
-    dct:isPartOf,
-    locn:adminUnitL1,
-    locn:adminUnitL2,
-    ebg:adminUnitL3,
-    ebg:adminUnitL4,
-    locn:postName,
-    locn:postCode,
-    locn:fullAddress,
-    locn:thoroughfare,
-    schema:geo,
-    schema:latitude,
-    schema:longitude,
-    ebg:geoResolution,
-    locn:locatorDesignator,
-    org:hasRegisteredSite,
     org:member,
     org:memberDuring,
     org:organization,
@@ -104,22 +545,175 @@
     rov:legalName,
     schema:availableLanguage,
     schema:url,
-    schema:email,
+    # root fields
+    rov:orgStatus,
+    dbo:jurisdiction,
+    org:hasRegisteredSite,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    locn:postName,
+    locn:postCode,
+    locn:thoroughfare,
+    schema:geo,
+    schema:latitude,
+    schema:longitude,
+    ebg:geoResolution,
+    locn:locatorDesignator,
+    skos:prefLabel,
+    # atokaindicators
+    # balance sheets
+    dbo:assets,
+    atkebg:capitalStock,
+    dbo:revenue,
+    atkebg:balanceSheet,
+    # base
+    skos:altLabel,
+    rov:orgActivity,
+    rov:orgActivityText,
+    atkebg:businessDescription,
+    rov:registration,
+    ebg:foundingYear,
+    schema:foundingDate,
     rov:orgType,
     ebg:orgTypeText,
-    ebg:isStartup,
-    rov:orgActivity,
-    ebg:orgActivityText,
-    rov:orgStatus,
-    rov:registration,
-    skos:notation,
-    skos:prefLabel;
+    rov:orgType,
+    rov:orgTypeText,
+    rov:legalName,
+    schema:email,
+    adms:identifier,
+    # certifications
+    # contacts
+    atkebg:contactPhone,
+    atkebg:contactEmail,
+    # economics
+    ebg:isPubliclyTraded,
+    # related entities
+    atkebg:hasEntity,
+    # locations
+    org:hasSite,
+    # shares
+    # web technologies
+    atkebg:analyticsTechUsed,
+    atkebg:smartphoneAppUsed,
+    atkebg:blogTechUsed,
+    atkebg:cmsTechUsed,
+    atkebg:eCommerceTechUsed,
+    atkebg:marketingToolUsed,
+    atkebg:paymentsPlatformUsed,
+    dbo:logo,
+    sioc:feed ;
   dct:license <https://atoka.io/en/terms-use/>;
   dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/>.
 
-<dataset/SDATI/IT/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
-<dataset/SDATI/IT/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
-<dataset/SDATI/IT/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+<dataset/SDATI/GB/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 4417147.
+<dataset/SDATI/GB/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 6900513.
+<dataset/SDATI/GB/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 8531141.
+
+<dataset/SDATI/IT> a void:Dataset;
+  dct:title "SpazioDati full dataset of IT companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial "IT";
+  void:entities 6067546;
+  void:classPartition <dataset/SDATI/IT/address>, <dataset/SDATI/IT/person>, <dataset/SDATI/IT/membership>;
+  void:property
+    dct:creator,
+    dct:isPartOf,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    schema:availableLanguage,
+    schema:url,
+    # root fields
+    rov:orgStatus,
+    dbo:jurisdiction,
+    org:hasRegisteredSite,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    locn:postName,
+    locn:postCode,
+    locn:thoroughfare,
+    schema:geo,
+    schema:latitude,
+    schema:longitude,
+    ebg:geoResolution,
+    locn:locatorDesignator,
+    skos:prefLabel,
+    # atokaindicators
+    atkebg:atokaInnovationScore,
+    atkebg:atokaInnovationScoreBySector,
+    atkebg:istatIDE,
+    atkebg:istatIDS,
+    atkebg:atokaWebCentrality,
+    atkebg:atokaWebCentralityBySector,
+    atkebg:agcmLegalityRating,
+    # balance sheets
+    dbo:assets,
+    atkebg:capitalStock,
+    dbo:revenue,
+    atkebg:balanceSheet,
+    # base
+    atkebg:agcmLegalityRating,
+    skos:altLabel,
+    rov:orgActivity,
+    rov:orgActivityText,
+    atkebg:businessDescription,
+    rov:registration,
+    ebg:foundingYear,
+    schema:foundingDate,
+    ebg:isStateOwned,
+    atkebg:italianPublicSectorOrganizationCode,
+    atkebg:italianPublicSectorOrganizationType,
+    rov:orgType,
+    ebg:orgTypeText,
+    rov:orgType,
+    rov:orgTypeText,
+    rov:legalName,
+    schema:email,
+    ebg:isStartup,
+    adms:identifier,
+    # certifications
+    acrt:has-certification,
+    # contacts
+    atkebg:contactPhone,
+    atkebg:contactEmail,
+    atkebg:faxNumber,
+    # economics
+    atkebg:employeeCountReport,
+    ebg:isPubliclyTraded,
+    # related entities
+    atkebg:hasEntity,
+    # locations
+    org:hasSite,
+    # shares
+    atkebg:share,
+    dbo:owns,
+    # web technologies
+    atkebg:analyticsTechUsed,
+    atkebg:smartphoneAppUsed,
+    atkebg:blogTechUsed,
+    atkebg:cmsTechUsed,
+    atkebg:eCommerceTechUsed,
+    atkebg:marketingToolUsed,
+    atkebg:paymentsPlatformUsed,
+    dbo:logo,
+    sioc:feed ;
+  dct:license <https://atoka.io/en/terms-use/> ;
+  dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/> .
+
+<dataset/SDATI/IT/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 12107304.
+<dataset/SDATI/IT/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 14589257.
+<dataset/SDATI/IT/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 17647023.
 
 <https://spaziodati.eu/en/> a ebg:WebResource;
   schema:url <https://spaziodati.eu/en/>;
@@ -132,4 +726,3 @@
   schema:name "Atoka: All of the italian and british companies in a unique database"@en;
   dc:format "text/html";
   schema:inLanguage "en".
-  
