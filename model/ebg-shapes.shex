@@ -30,7 +30,7 @@ ebgsh:Company CLOSED {
 ebgsh:Address CLOSED {
   IRI /^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?/
   a [org:Site]; a [locn:Address];
-  org:siteAddress          ebg:AddressShape;
+  org:siteAddress          ebgsh:Address;
   locn:fullAddress         (xsd:string OR rdf:langString) ?;
   locn:adminUnitL1         IRI nuts:~ @ebgsh:NUTS0 {1};
   locn:adminUnitL2         IRI nuts:~ @ebgsh:NUTS1 ?;
