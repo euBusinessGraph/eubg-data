@@ -25,7 +25,7 @@
   ebg:isEnumerated true;
   ebg:isOfficial false;
   # validation
-  ebg:validationRegex "([a-z]{2}|[a-z]{2}_[a-z\d]{2})\/.{1,128}";
+  ebg:validationRegex "([a-z]{2}|[a-z]{2}_[a-z\\d]{2})\\/.{1,128}";
   ebg:identifierWebResource <identifier/OCORP/semantic>, <identifier/OCORP/web>, <identifier/OCORP/xml>, <identifier/OCORP/rdf>, <identifier/OCORP/json>.
 
 <identifier/OCORP/semantic> a ebg:IdentifierWebResource;

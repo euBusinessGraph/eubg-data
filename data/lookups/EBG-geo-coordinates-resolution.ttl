@@ -22,35 +22,35 @@
 <resolution/L2> a skos:Concept ;
         skos:inScheme   <resolution> ;
         skos:notation   "30" ;
-        skos:scopeNote  "NUTS1"
+        skos:scopeNote  "NUTS1" ;
         skos:prefLabel  "Macroregion"@en ;
         skos:description  "Coordinate corresponds to locn:adminUnitL2"@en .
 
 <resolution/L3> a skos:Concept ;
         skos:inScheme   <resolution> ;
         skos:notation   "40" ;
-        skos:scopeNote  "NUTS2"
+        skos:scopeNote  "NUTS2" ;
         skos:prefLabel  "Region"@en ;
         skos:description  "Coordinate corresponds to locn:adminUnitL3"@en .
 
 <resolution/L4> a skos:Concept ;
         skos:inScheme   <resolution> ;
         skos:notation   "50" ;
-        skos:scopeNote  "NUTS3"
+        skos:scopeNote  "NUTS3" ;
         skos:prefLabel  "Province"@en ;
         skos:description  "Coordinate corresponds to locn:adminUnitL4"@en .
 
 <resolution/L5> a skos:Concept ;
         skos:inScheme   <resolution> ;
         skos:notation   "60" ;
-        skos:scopeNote  "LAU1"
+        skos:scopeNote  "LAU1" ;
         skos:prefLabel  "Municipality"@en ;
         skos:description  "Coordinate corresponds to locn:adminUnitL5"@en .
 
 <resolution/L6> a skos:Concept ;
         skos:inScheme   <resolution> ;
         skos:notation   "65" ;
-        skos:scopeNote  "LAU2"
+        skos:scopeNote  "LAU2" ;
         skos:prefLabel  "Settlement"@en ;
         skos:description  "Coordinate corresponds to ebg:adminUnitL6 and/or locn:postName"@en .
 

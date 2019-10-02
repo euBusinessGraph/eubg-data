@@ -13,7 +13,7 @@
   skos:notation "GB";
   dbo:jurisdiction "GB";
   schema:name "Companies House Companies Register";
-  schema:description ""Official identifiers of UK legal entities or branches of entities"";
+  schema:description "Official identifiers of UK legal entities or branches of entities";
   ebg:ralCode "RA000585";
   schema:url <https://beta.companieshouse.gov.uk/>;
   schema:license <https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright>;

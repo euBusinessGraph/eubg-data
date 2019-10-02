@@ -30,7 +30,8 @@
 @prefix vann:    <http://purl.org/vocab/vann/> .
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
-@prefix person: <http://www.w3.org/ns/person#> .
+@prefix person:  <http://www.w3.org/ns/person#> .
+@prefix sem:     <http://semanticweb.cs.vu.nl/2009/11/sem/>
 
 #### Unused prefixes
 # @prefix c4n:               <http://vocab.deri.ie/c4n#> .
@@ -916,6 +917,57 @@ ebg:dissolutionYear a owl:DatatypeProperty ;
   skos:definition "Year the organization was dissolved or deregistered, as integer." ;
   skos:scopeNote "Used for faceting." .
 
+ebg:probabilityOfDefault a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "probability of default (%)" ;
+  skos:definition "Probability of a company going into default" ;
+  skos:scopeNote "Only applicable for companies of jurisdiction NO" .
+
+sem:Event a rdfs:Class ;
+  rdfs:label "Event" ;
+  skos:definition "Hierarchical relationships and historical events that have occured to the organization and organizational sub-units" ;
+  skos:scopeNote "Events are things that happen. This comprises everything from historical events to web site sessions and mythical journeys. In the case of Ebg model Events are things that happen to a company or a site".
+
+ebg:hasEvent a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization, rov:OrganizationalUnit ;
+  schema:rangeIncludes sem:Event ;
+  rdfs:label "historical event" ;
+  skos:definition "Historical event that has occured to the organization" .
+
+ebg:eventValue a owl:DatatypeProperty ;
+  schema:domainIncludes sem:Event ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "event type value" ;
+  skos:definition "Value linked to an eventType that occurs to a company or a site" .
+  skos:example "C" .
+
+sem:eventType a owl:DatatypeProperty ;
+  schema:domainIncludes sem:Event ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "event type" ;
+  skos:definition "Type of historical event that has occured to the organization" .
+  skos:example "change_administrative_state"@en .
+
+sem:hasTime a owl:DatatypeProperty ;
+  schema:domainIncludes sem:Event ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "time of event" ;
+  skos:definition "Has time is used to indicate at which time an Event took place" .
+  skos:example "2010-11-18"^^xsd:date ;
+
+ebg:isUnitOf a owl:DatatypeProperty ;
+  schema:domainIncludes rov:OrganizationalUnit ;
+  schema:rangeIncludes rov:RegisteredOrganization ;
+  rdfs:label "is unit of organization" ;
+  skos:definition "Indicates that an entity is a sub-unit of a larger organization" .
+
+ebg:hasHQUnit a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes rov:OrganizationalUnit ;
+  rdfs:label "headquarter unit" ;
+  skos:definition "Indicates that an entity is a headquarter of an organization" .
+
 schema:foundingDate a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:date, xsd:gYearMonth, xsd:gYear  ;
@@ -1159,3 +1211,6 @@ ebg:order                  ebg:order 110.
 ramon:code                 ebg:order 111.
 ramon:level                ebg:order 112.
 ramon:name                 ebg:order 113.
+
+# Proprietary EVRY attribute
+ebg:probabilityOfDefault   ebg:order 114.

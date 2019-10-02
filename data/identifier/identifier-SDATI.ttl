@@ -130,7 +130,7 @@
   ebg:isEnumerated true;
   ebg:isOfficial false;
   # validation
-  ebg:validationRegex "p[A-Za-z0-9\-=]{17}".
+  ebg:validationRegex "p[A-Za-z0-9\\-=]{17}".
 
 <identifier/people/IT> a ebg:IdentifierSystem;
   dct:creator <https://www.agenziaentrate.gov.it>;

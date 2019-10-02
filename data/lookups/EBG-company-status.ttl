@@ -39,7 +39,7 @@
 <status/SDATI/active>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
         skos:prefLabel    "active"@en ;
-        skos:description  "The company is active"@en ;
+        skos:description  "The company is active"@en .
 
 <status/SDATI/inactive>  rdf:type  skos:Concept ;
         skos:inScheme     <status> ;
@@ -67,7 +67,7 @@
         skos:inScheme     <status> ;
         skos:prefLabel    "inaktiv"@no ;
         skos:prefLabel    "inactive"@en ;
-        skos:description  "Selskapet er inaktivt av ulike grunner: f.eks. konkurs, under avvikling, avvivklet"@no .
+        skos:description  "Selskapet er inaktivt av ulike grunner: f.eks. konkurs, under avvikling, avvivklet"@no ;
         skos:description  "The company is inactive for any number of reasons: bankrupt, in liquidation, dormant"@en .
 
 <status/BRC/inactive/dormant>  rdf:type  skos:Concept ;
@@ -75,7 +75,7 @@
         skos:broader      <status/BRC/inactive>;
         skos:prefLabel    "inaktiv"@no ;
         skos:prefLabel    "dormant"@en ;
-        skos:description  "Selskapet har ikke levert årsregnskap de siste 5 årene"@no .
+        skos:description  "Selskapet har ikke levert årsregnskap de siste 5 årene"@no ;
         skos:description  "The company has not filed financial returns for 5 years"@en .
 
 <status/BRC/inactive/bankrupt>  rdf:type  skos:Concept ;
@@ -83,7 +83,7 @@
         skos:broader      <status/BRC/inactive>;
         skos:prefLabel    "konkurs"@no ;
         skos:prefLabel    "bankrupt"@en ;
-        skos:description  "Selskapet er konkurs"@no .
+        skos:description  "Selskapet er konkurs"@no ;
         skos:description  "The company is bankrupt"@en .
 
 <status/BRC/inactive/liquidation>  rdf:type  skos:Concept ;
@@ -91,7 +91,7 @@
         skos:broader      <status/BRC/inactive>;
         skos:prefLabel    "under avvikling"@no ;
         skos:prefLabel    "in liquidation"@en ;
-        skos:description  "Selskapet er under avvikling"@no .
+        skos:description  "Selskapet er under avvikling"@no ;
         skos:description  "The company is in a liquidation process"@en .
 
 <status/BRC/inactive/forced>  rdf:type  skos:Concept ;
@@ -99,7 +99,7 @@
         skos:broader      <status/BRC/inactive>;
         skos:prefLabel    "under tvangsavvikling eller tvangsoppløsning"@no ;
         skos:prefLabel    "in forced settlement or forced resolution"@en ;
-        skos:description  "Selskapet er under tvangsavvikling eller tvangsoppløsning"@no .
+        skos:description  "Selskapet er under tvangsavvikling eller tvangsoppløsning"@no ;
         skos:description  "The company is in forced settlement or forced resolution"@en .
 
 <status/LEI/active>  rdf:type  skos:Concept ;

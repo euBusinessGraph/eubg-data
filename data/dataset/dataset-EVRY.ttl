@@ -1,0 +1,77 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.evry.com/no/> a schema:Organization;
+  schema:name "EVRY";
+  skos:notation "EVRY".
+
+<dataset/EVRY> a void:Dataset;
+  dct:title "EVRY dataset, fully provided to EBG";
+  dct:type <dataset/type/provider>, <dataset/type/provided-to-EBG>;
+  dct:license <https://data.norge.no/nlod/en/2.0>;
+  dct:publisher <https://www.evry.com/no/>;
+  void:subset <dataset/EVRY/NO>.
+
+<dataset/EVRY/NO> a void:Dataset;
+  dct:title "EVRY dataset of NO companies provided to EBG, based on official BRC dataset - including values indicating probability of default of companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial "NO";
+  void:entities 0;
+  void:classPartition <dataset/EVRY/NO/address>, <dataset/EVRY/NO/person>, <dataset/EVRY/NO/membership>;
+  void:property
+    dbo:jurisdiction,
+    dct:creator,
+    dct:isPartOf,
+    dct:issued,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    ebg:orgActivityText,
+    ebg:orgTypeText,
+    locn:postCode,
+    locn:postName,
+    locn:thoroughfare,
+    org:hasRegisteredSite,
+    org:member,
+    org:memberDuring,
+    org:organization,
+    org:role,
+    org:siteAddress,
+    rov:legalName,
+    rov:orgActivity,
+    rov:orgType,
+    rov:registration,
+    schema:availableLanguage,
+    schema:foundingDate,
+    skos:notation,
+    skos:prefLabel,
+    ebg:probabilityOfDefault;
+  dct:license <https://data.norge.no/nlod/en/2.0>;
+  dct:source <https://www.brreg.no/>, <https://www.evry.com/no/> .
+
+<dataset/EVRY/NO/address>    a void:Dataset; dct:type <dataset/type/partition>; void:class locn:Address;   void:entities 0.
+<dataset/EVRY/NO/person>     a void:Dataset; dct:type <dataset/type/partition>; void:class person:Person;  void:entities 0.
+<dataset/EVRY/NO/membership> a void:Dataset; dct:type <dataset/type/partition>; void:class org:Membership; void:entities 0.
+
+<https://data.brreg.no/enhetsregisteret/oppslag/enheter> a ebg:WebResource;
+  schema:url <https://data.brreg.no/enhetsregisteret/oppslag/enheter>;
+  schema:name "Brønnøysundregistrene: Enhetregisteret for (open) company data"@no;
+  dc:format "text/html";
+  schema:inLanguage "no".
