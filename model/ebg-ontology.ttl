@@ -511,6 +511,13 @@ ebg:isStateOwned a owl:DatatypeProperty;
   skos:example "True for the Autonomous Province of Trento (local government)." ;
   skos:example "True for the Norwegian company Statkraft (Norwegian state-owned company)." .
 
+ebg:numberOfEmployees a owl:DatatypeProperty;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "number of employees" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:integer;
+  skos:definition "The number of employees in the company." ;
+
 ebg:isUnique a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "has unique identifiers" ;
