@@ -31,7 +31,7 @@
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 @prefix person:  <http://www.w3.org/ns/person#> .
-@prefix sem:     <http://semanticweb.cs.vu.nl/2009/11/sem/>
+@prefix sem:     <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 
 #### Unused prefixes
 # @prefix c4n:               <http://vocab.deri.ie/c4n#> .
@@ -516,7 +516,7 @@ ebg:numberOfEmployees a owl:DatatypeProperty;
   rdfs:label "number of employees" ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:integer;
-  skos:definition "The number of employees in the company." ;
+  skos:definition "The number of employees in the company." .
 
 ebg:isUnique a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
@@ -631,8 +631,8 @@ dc:format a owl:DatatypeProperty;
   schema:rangeIncludes xsd:string, rdf:Resource;
   skos:definition "MIME type of the resource. If several are provided, the server must provide all these resource types using Content Negotiation";
   skos:example "text/html", "application/xml", "application/rdf+xml", "text/turtle", "text/csv", "text/tab-separated-values",
-    'For a search page, use the custom type "application/x-search"',
-    'For a Description document supporting the OpenSearch standard, use <http://a9.com/-/spec/opensearch/1.1/>'.
+    "'For a search page, use the custom type 'application/x-search''",
+    "'For a Description document supporting the OpenSearch standard, use '<http://a9.com/-/spec/opensearch/1.1/>''".
 
 schema:inLanguage a owl:DatatypeProperty;
   rdfs:label "language";
@@ -667,13 +667,13 @@ ebg:urlTemplate a owl:DatatypeProperty;
 If it has a placeholder {}, substitute the identifier value there.
 If it has placeholders like $1, $2… substitute the groups extracted by ebg:validationRegex""";
   skos:example
-    'For BE Banque-Carrefour des Entreprises, "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={}" with MIME type "text/html" shows a web page for the company.',
-    'For the EU Value Added Tax (VIES) register, "http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=$1&number=$2" with MIME type "text/html" shows a web page for an identifier that can be parsed with ebg:validationRegex "([A-Z]{2})/(\\d+)". Here $1 is the member state code, and $2 is the national company id',
+    "'For BE Banque-Carrefour des Entreprises, 'https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={}' with MIME type 'text/html' shows a web page for the company.'",
+    "'For the EU Value Added Tax (VIES) register, 'http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=$1&number=$2' with MIME type 'text/html' shows a web page for an identifier that can be parsed with ebg:validationRegex '([A-Z]{2})/(\\d+)'. Here $1 is the member state code, and $2 is the national company id'",
     "For OCORP, 'https://opencorporates.com/companies/{}'      returns company data with MIME type 'text/html'",
     "For OCORP, 'https://opencorporates.com/companies/{}.xml'  returns company data with MIME type 'application/xml'",
     "For OCORP, 'https://opencorporates.com/companies/{}.json' returns company data with MIME type 'application/json'",
     "For OCORP, 'https://opencorporates.com/companies/{}.rdf'  returns company data with MIME type 'application/rdf+xml'",
-    'For BR, "http://data.brreg.no/enhetsregisteret/enhet/{}" with either "application/xml" or "application/json" returns the respective MIME type using Content Negotiation'.
+    "'For BR, 'http://data.brreg.no/enhetsregisteret/enhet/{}' with either 'application/xml' or 'application/json' returns the respective MIME type using Content Negotiation'".
 
 locn:Address a rdfs:Class ;
   rdfs:label "Address" ;
@@ -946,22 +946,22 @@ ebg:eventValue a owl:DatatypeProperty ;
   schema:domainIncludes sem:Event ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "event type value" ;
-  skos:definition "Value linked to an eventType that occurs to a company or a site" .
+  skos:definition "Value linked to an eventType that occurs to a company or a site" ;
   skos:example "C" .
 
 sem:eventType a owl:DatatypeProperty ;
   schema:domainIncludes sem:Event ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "event type" ;
-  skos:definition "Type of historical event that has occured to the organization" .
+  skos:definition "Type of historical event that has occured to the organization" ;
   skos:example "change_administrative_state"@en .
 
 sem:hasTime a owl:DatatypeProperty ;
   schema:domainIncludes sem:Event ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "time of event" ;
-  skos:definition "Has time is used to indicate at which time an Event took place" .
-  skos:example "2010-11-18"^^xsd:date ;
+  skos:definition "Has time is used to indicate at which time an Event took place" ;
+  skos:example "2010-11-18"^^xsd:date .
 
 ebg:isUnitOf a owl:DatatypeProperty ;
   schema:domainIncludes rov:OrganizationalUnit ;
