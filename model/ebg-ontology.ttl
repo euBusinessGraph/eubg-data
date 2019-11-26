@@ -33,36 +33,22 @@
 @prefix person:  <http://www.w3.org/ns/person#> .
 @prefix sem:     <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 
-#### Unused prefixes
-# @prefix c4n:               <http://vocab.deri.ie/c4n#> .
-# @prefix fibo-be-le-lp:     <http://www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LegalPersons/> .
-# @prefix fibo-fbc-fct-breg: <http://www.omg.org/spec/EDMC-FIBO/FBC/FunctionalEntities/BusinessRegistries/> .
-# @prefix fibo-fnd-law-jur:  <http://www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/> .
-# @prefix gr:                <http://purl.org/goodrelations/v1#> .
-# @prefix lcc-cr:            <http://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
-# @prefix loted:             <http://www.loted.eu/ontology#> .
-# @prefix payment:           <http://reference.data.gov.uk/def/payment#> .
-# @prefix pc-act:            <http://purl.org/procurement/public-contracts-activities#> .
-# @prefix pc-authKind:       <http://purl.org/procurement/public-contracts-authority-kinds#> .
-# @prefix pc-crit:           <http://purl.org/procurement/public-contracts-criteria#> .
-# @prefix pc-dt:             <http://purl.org/procurement/public-contracts-datatypes#> .
-# @prefix pc-kind:           <http://purl.org/procurement/public-contracts-kinds#> .
-# @prefix pc-proc:           <http://purl.org/procurement/public-contracts-procedure-types#> .
-# @prefix pc:                <http://purl.org/procurement/public-contracts#> .
-# @prefix qb:                <http://purl.org/linked-data/cube#> .
 #### Ontology
-
 ebg: a owl:Ontology;
   dct:title "euBusinessGraph ontology";
   dct:created "2017-07-11"^^xsd:date;
-  dct:modified "2018-02-21"^^xsd:date;
-  owl:versionInfo "1.0";
+  dct:modified "2019-11-26"^^xsd:date;
+  owl:versionInfo "1.1.0";
   vann:preferredNamespaceUri "http://data.businessgraph.io/ontology#";
   vann:preferredNamespacePrefix "ebg";
   foaf:homepage <http://businessgraph.io>;
   dct:type <http://purl.org/adms/assettype/Ontology>;
   dct:status <http://purl.org/adms/status/UnderDevelopment>;
   dct:creator <http://businessgraph.io>, <http://ontotext.com>, <mailto:vladimir.alexiev@ontotext.com>;
+  dct:contributor <http://businessgraph.io>, <http://spaziodati.eu>, <mailto:paniagua@spaziodati.eu>;
+  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:Dumitru.Roman@sintef.no>;
+  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:BjornMarius.vonZernichow@sintef.no>;
+  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:Brian.Elvesater@sintef.no>;
   dct:publisher <http://businessgraph.io>;
   rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>;
   rdfs:comment # this below is markdown, which is used by LODE
