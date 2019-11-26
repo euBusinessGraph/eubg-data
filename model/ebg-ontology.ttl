@@ -1132,6 +1132,32 @@ org:memberDuring a owl:ObjectProperty ;
   skos:definition "Interval (beginning and end) of the membership relation. May be an open interval." ;
   skos:scopeNote "for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg \"<date>T00:00:00Z\"^^xsd:dateTime." .
 
+time:Interval a rdfs:Class ;
+  rdfs:label "Interval" ;
+  skos:definition "represents a time interval." .
+
+time:hasBeginning a owl:ObjectProperty ;
+  rdfs:label "start time" ;
+  schema:domainIncludes org:Interval ;
+  schema:rangeIncludes time:Instance ;
+  skos:definition "Beginning of the membership relation" .
+
+time:hasEnd a owl:ObjectProperty ;
+  rdfs:label "end time" ;
+  schema:domainIncludes org:Interval ;
+  schema:rangeIncludes time:Instance ;
+  skos:definition "End of the membership relation" .
+
+time:Instant a rdfs:Class ;
+  rdfs:label "Instant" ;
+  skos:definition "A temporal entity with zero extent or duration." .
+
+time:inXSDDate a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "date" ;
+  skos:definition "Position of an instant, expressed using xsd:date." .
+
 org:Role a rdfs:Class ;
   rdfs:label "Role" ;
   skos:definition "Denotes a role that a Person can take in an organization." ;
@@ -1143,11 +1169,17 @@ org:role a owl:ObjectProperty ;
   schema:rangeIncludes org:Role ;
   skos:definition "The role played by the officer in the membership" .
 
-ebg:roleText a owl:DatatypeProperty;
+ebg:rolePositionText a owl:DatatypeProperty;
   schema:domainIncludes org:Role ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "role text" ;
-  skos:definition "The role of the person (in free text)." .
+  skos:definition "The (hierarchical) position of the person within a company (in free text), e.g., director." .
+
+ebg:roleTitleText a owl:DatatypeProperty;
+  schema:domainIncludes org:Role ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "role text" ;
+  skos:definition "The job title of the person within a company (in free text), e.g.m chief technology officer." .
 
 rov:legalName              ebg:order 0.
 skos:prefLabel             ebg:order 1.
