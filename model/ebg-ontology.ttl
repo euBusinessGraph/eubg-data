@@ -1077,12 +1077,36 @@ person:Person a rdfs:Class ;
   rdfs:label "Officer" ;
   skos:definition "An officer is a natural person (as opposed to a legal person) [person:] that has a high-level management role in a Company (e.g., the CEO, treasurer and chief financial officer). Despite their high status, they typically serve at the will of the corporate directors, who can fire or replace them. Officers can also be shareholders and directors but don't necessarily have to be. They have the authority to act on behalf of the corporation, including contract authority." .
 
+schema:identifier a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person id" ;
+  skos:definition "An identifier for the person." .
+
 person:birthName a owl:DatatypeProperty;
   schema:domainIncludes person:Person ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "birth name" ;
   skos:definition "The legal name of the person which is usually determined at or around birth, usually persistent and for this reason usually recorded by some official registers. Although birth names tend to be persistent we do not assume this has to be the case." ;
   skos:example "Michele Barbera" .
+
+schema:gender a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person gender" ;
+  skos:definition "The gender of the person." .
+
+schema:gender a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person birth date" ;
+  skos:definition "The birth date of the person." .
+
+schema:nationality a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person nationality" ;
+  skos:definition "The nationality of the person." .
 
 org:Membership a rdfs:Class ;
   rdfs:label "Membership" ;
@@ -1118,6 +1142,12 @@ org:role a owl:ObjectProperty ;
   schema:domainIncludes org:Membership ;
   schema:rangeIncludes org:Role ;
   skos:definition "The role played by the officer in the membership" .
+
+ebg:roleText a owl:DatatypeProperty;
+  schema:domainIncludes org:Role ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "role text" ;
+  skos:definition "The role of the person (in free text)." .
 
 rov:legalName              ebg:order 0.
 skos:prefLabel             ebg:order 1.
