@@ -804,7 +804,7 @@ rov:RegisteredOrganization a rdfs:Class ;
   skos:example "Counterparties to financial transactions." .
 
 rov:legalName a owl:DatatypeProperty ;
-  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:domainIncludes rov:RegisteredOrganization , schema:Organization ;
   schema:rangeIncludes rdf:langString ;
   skos:scopeNote "A business may have more than one legal name, particularly in jurisdictions with more than one official language (e.g. Belgium). Some registries also treat a transliterated name as official (e.g. Онтотекст vs Ontotext) [ebg:]" ;
   skos:scopeNote "Provide a legal language tag (see [iana:] for a list) if possible." ;
@@ -1073,15 +1073,21 @@ skos:prefLabel a owl:DatatypeProperty ;
   skos:definition "A single preferred name of a company or identifier system (preferably English)." ;
   skos:scopeNote "Used as a display name of the company or identifier system. For companies we usually pick one of the Registered Names (English if present, else at random). For identifier systems, we use a commonly used English name." .
 
+schema:Organization a rdfs:Class ;
+  rdfs:label "Organization" ;
+  skos:definition "An organization." ;
+  skos:scopeNote "Used to represent the creator, publisher and author of an IdentifierSystem, and the creator of an Identifier" .
+
 person:Person a rdfs:Class ;
   rdfs:label "Officer" ;
   skos:definition "An officer is a natural person (as opposed to a legal person) [person:] that has a high-level management role in a Company (e.g., the CEO, treasurer and chief financial officer). Despite their high status, they typically serve at the will of the corporate directors, who can fire or replace them. Officers can also be shareholders and directors but don't necessarily have to be. They have the authority to act on behalf of the corporation, including contract authority." .
 
 schema:identifier a owl:DatatypeProperty;
-  schema:domainIncludes person:Person ;
+  schema:domainIncludes person:Person , schema:Organization;
   schema:rangeIncludes xsd:string ;
-  rdfs:label "person id" ;
-  skos:definition "An identifier for the person." .
+  rdfs:label "identifier" ;
+  skos:definition "An identifier for a resource." ;
+  skos:scopeNote "Used to represent the identifier (e.g. URL) of a Person or Organization related to an IdentifierSystem or an Identifier." .
 
 person:birthName a owl:DatatypeProperty;
   schema:domainIncludes person:Person ;
