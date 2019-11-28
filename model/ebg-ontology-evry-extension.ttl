@@ -1,0 +1,43 @@
+#### Own prefixes
+@base             <http://data.businessgraph.io/> .
+@prefix ebg:      <http://data.businessgraph.io/ontology#> .
+@prefix ebg-evry: <http://data.businessgraph.io/ontology-sem#/> .
+
+##### External prefixes
+@prefix adms:     <http://www.w3.org/ns/adms#> .
+@prefix dbo:      <http://dbpedia.org/ontology/>.
+@prefix dc:       <http://purl.org/dc/elements/1.1/>.
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix locn:     <http://www.w3.org/ns/locn#>.
+@prefix ngeo:     <http://geovocab.org/geometry#> .
+@prefix nuts:     <http://nuts.geovocab.org/id/>.
+@prefix org:      <http://www.w3.org/ns/org#>.
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix puml:     <http://plantuml.com/ontology#>.
+@prefix ramon:    <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:      <http://www.w3.org/ns/regorg#>.
+@prefix schema:   <http://schema.org/> .
+@prefix sioc:     <http://rdfs.org/sioc/ns#> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix spatial:  <http://geovocab.org/spatial#> .
+@prefix time:     <http://www.w3.org/2006/time#>.
+@prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix void:     <http://rdfs.org/ns/void#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix person:   <http://www.w3.org/ns/person#> .
+@prefix sem:      <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+
+#### Imports
+ebg-evry: a owl:Ontology ;
+  owl:imports <http://data.businessgraph.io/ontology#> .
+
+#### Ontology extension for Evry
+ebg:probabilityOfDefault a owl:DatatypeProperty ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "probability of default (%)" ;
+  skos:definition "Probability of a company going into default" ;
+  skos:scopeNote "Only applicable for companies of jurisdiction NO" .

@@ -909,13 +909,6 @@ ebg:dissolutionYear a owl:DatatypeProperty ;
   skos:definition "Year the organization was dissolved or deregistered, as integer." ;
   skos:scopeNote "Used for faceting." .
 
-ebg:probabilityOfDefault a owl:DatatypeProperty ;
-  schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes xsd:string ;
-  rdfs:label "probability of default (%)" ;
-  skos:definition "Probability of a company going into default" ;
-  skos:scopeNote "Only applicable for companies of jurisdiction NO" .
-
 schema:foundingDate a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization ;
   schema:rangeIncludes xsd:date, xsd:gYearMonth, xsd:gYear  ;
