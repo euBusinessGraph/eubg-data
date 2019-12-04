@@ -174,6 +174,7 @@ lau: a void:Dataset;
 
 skos:Concept       a rdfs:Class;    rdfs:label "Concept".
 skos:ConceptScheme a rdfs:Class;    rdfs:label "Concept Scheme".
+rdf:Resource       a rdfs:Class;    rdfs:label "Resource".
 rdf:langString     a rdfs:Datatype; rdfs:label "Language-Tagged String".
 xsd:string         a rdfs:Datatype; rdfs:label "String".
 xsd:date           a rdfs:Datatype; rdfs:label "Date".
@@ -587,11 +588,17 @@ ebg:webResource a owl:ObjectProperty ;
 
 schema:name a owl:DatatypeProperty;
   rdfs:label "name";
-  schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource;
+  schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource, ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:string, rdf:langString;
   skos:definition "Name or short (generic) description of the resource";
   skos:scopeNote "Provide this since it's useful to the user. Can provide it in several languages, in which case the language tag should be specified";
   skos:example "Homepage", "Search", "Download", "Company data".
+
+schema:description a owl:DatatypeProperty;
+  rdfs:label "description";
+  schema:domainIncludes ebg:IdentifierSystem, schema:Organization ;
+  schema:rangeIncludes xsd:string, rdf:langString ;
+  skos:definition "Description of the resource" .
 
 dc:format a owl:DatatypeProperty;
   rdfs:label "MIME Type";
@@ -1109,7 +1116,7 @@ ebg:roleTitleText a owl:DatatypeProperty;
   schema:domainIncludes org:Role ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "role text" ;
-  skos:definition "The job title of the person within a company (in free text), e.g.m chief technology officer." .
+  skos:definition "The job title of the person within a company (in free text), e.g., chief technology officer." .
 
 rov:legalName              ebg:order 0.
 skos:prefLabel             ebg:order 1.
