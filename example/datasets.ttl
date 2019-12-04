@@ -1,0 +1,45 @@
+# Own prefixes
+@base           <http://data.businessgraph.io> .
+@prefix ebg:    <http://data.businessgraph.io/ontology#> .
+
+# External prefixes
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+
+# OpenCorporates identifier system
+<identifierSystem/OpenCorporates> a ebg:IdentifierSystem;
+  dct:creator <https://opencorporates.com>;
+  schema:author <https://opencorporates.com>;
+  schema:publisher <https://opencorporates.com>;
+  skos:notation "OCORP";
+  schema:name "OpenCorporates company identifiers";
+  schema:description "Aggregation of official register identifiers by OpenCorporates. Identifiers are issued by official registers, not OpenCorporates.";
+  schema:url <https://opencorporates.com/registers>;
+  schema:license <https://opencorporates.com/info/licence>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false;
+  # validation
+  ebg:validationRegex "([a-z]{2}|[a-z]{2}_[a-z\\d]{2})\\/.{1,128}";
+  ebg:identifierWebResource <https://opencorporates.com/companies>, <https://api.opencorporates.com>.
+
+<https://opencorporates.com/companies> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company data page";
+  dc:format "text/html";
+  ebg:urlTemplate "https://opencorporates.com/companies/{}".
+  
+<https://api.opencorporates.com> a ebg:IdentifierWebResource;
+  schema:name "OpenCorporates company data API (JSON)";
+  dc:format "application/json";
+  ebg:urlTemplate "https://api.opencorporates.com/companies/{}?format=json".
+
+<https://opencorporates.com> a schema:Organization;
+  schema:name "Open database for corporate data"@en;
+  schema:description "OpenCorporates is the largest open database of companies and company data in the world, with in excess of 160 million companies in a similarly large number of jurisdictions. Identifiers are issued by official registers, not OpenCorporates.".
