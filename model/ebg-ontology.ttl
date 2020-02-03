@@ -30,38 +30,24 @@
 @prefix vann:    <http://purl.org/vocab/vann/> .
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
-@prefix person: <http://www.w3.org/ns/person#> .
+@prefix person:  <http://www.w3.org/ns/person#> .
 
-#### Unused prefixes
-# @prefix c4n:               <http://vocab.deri.ie/c4n#> .
-# @prefix fibo-be-le-lp:     <http://www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LegalPersons/> .
-# @prefix fibo-fbc-fct-breg: <http://www.omg.org/spec/EDMC-FIBO/FBC/FunctionalEntities/BusinessRegistries/> .
-# @prefix fibo-fnd-law-jur:  <http://www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/> .
-# @prefix gr:                <http://purl.org/goodrelations/v1#> .
-# @prefix lcc-cr:            <http://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
-# @prefix loted:             <http://www.loted.eu/ontology#> .
-# @prefix payment:           <http://reference.data.gov.uk/def/payment#> .
-# @prefix pc-act:            <http://purl.org/procurement/public-contracts-activities#> .
-# @prefix pc-authKind:       <http://purl.org/procurement/public-contracts-authority-kinds#> .
-# @prefix pc-crit:           <http://purl.org/procurement/public-contracts-criteria#> .
-# @prefix pc-dt:             <http://purl.org/procurement/public-contracts-datatypes#> .
-# @prefix pc-kind:           <http://purl.org/procurement/public-contracts-kinds#> .
-# @prefix pc-proc:           <http://purl.org/procurement/public-contracts-procedure-types#> .
-# @prefix pc:                <http://purl.org/procurement/public-contracts#> .
-# @prefix qb:                <http://purl.org/linked-data/cube#> .
 #### Ontology
-
 ebg: a owl:Ontology;
   dct:title "euBusinessGraph ontology";
   dct:created "2017-07-11"^^xsd:date;
-  dct:modified "2018-02-21"^^xsd:date;
-  owl:versionInfo "1.0";
+  dct:modified "2019-11-26"^^xsd:date;
+  owl:versionInfo "1.1.0";
   vann:preferredNamespaceUri "http://data.businessgraph.io/ontology#";
   vann:preferredNamespacePrefix "ebg";
   foaf:homepage <http://businessgraph.io>;
   dct:type <http://purl.org/adms/assettype/Ontology>;
   dct:status <http://purl.org/adms/status/UnderDevelopment>;
   dct:creator <http://businessgraph.io>, <http://ontotext.com>, <mailto:vladimir.alexiev@ontotext.com>;
+  dct:contributor <http://businessgraph.io>, <http://spaziodati.eu>, <mailto:paniagua@spaziodati.eu>;
+  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:Dumitru.Roman@sintef.no>;
+  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:BjornMarius.vonZernichow@sintef.no>;
+  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:Brian.Elvesater@sintef.no>;
   dct:publisher <http://businessgraph.io>;
   rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>;
   rdfs:comment # this below is markdown, which is used by LODE
@@ -188,6 +174,7 @@ lau: a void:Dataset;
 
 skos:Concept       a rdfs:Class;    rdfs:label "Concept".
 skos:ConceptScheme a rdfs:Class;    rdfs:label "Concept Scheme".
+rdf:Resource       a rdfs:Class;    rdfs:label "Resource".
 rdf:langString     a rdfs:Datatype; rdfs:label "Language-Tagged String".
 xsd:string         a rdfs:Datatype; rdfs:label "String".
 xsd:date           a rdfs:Datatype; rdfs:label "Date".
@@ -361,23 +348,6 @@ ebg:LAURegion a rdfs:Class;
     "LAU2 TR: Köy",
     "LAU2 UK: Wards (or parts thereof)".
 
-ebg:adminUnit a owl:ObjectProperty;
-  rdfs:isDefinedBy ebg: ;
-  rdfs:label "admin unit";
-  schema:domainIncludes locn:Address;
-  schema:rangeIncludes ramon:NUTSRegion, ebg:LAURegion;
-  skos:definition "Most specific administrative unit related to an address.";
-  skos:scopeNote "The lowest-level property of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.".
-
-  # skos:definition "All administrative units related to an address.";
-  # skos:scopeNote "Union of locn:adminUnitL1..2 and ebg:adminUnitL3..6. Used for faceting by place.".
-# locn:adminUnitL1 rdfs:subPropertyOf ebg:adminUnit.
-# locn:adminUnitL2 rdfs:subPropertyOf ebg:adminUnit.
-# ebg:adminUnitL3  rdfs:subPropertyOf ebg:adminUnit.
-# ebg:adminUnitL4  rdfs:subPropertyOf ebg:adminUnit.
-# ebg:adminUnitL5  rdfs:subPropertyOf ebg:adminUnit.
-# ebg:adminUnitL6  rdfs:subPropertyOf ebg:adminUnit.
-
 ebg:adminUnitL3 a owl:ObjectProperty ;
   schema:domainIncludes locn:Address ;
   schema:rangeIncludes ramon:NUTSRegion ;
@@ -510,6 +480,13 @@ ebg:isStateOwned a owl:DatatypeProperty;
   skos:example "True for the Autonomous Province of Trento (local government)." ;
   skos:example "True for the Norwegian company Statkraft (Norwegian state-owned company)." .
 
+ebg:numberOfEmployees a owl:DatatypeProperty;
+  rdfs:isDefinedBy ebg: ;
+  rdfs:label "number of employees" ;
+  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:rangeIncludes xsd:integer;
+  skos:definition "The number of employees in the company." .
+
 ebg:isUnique a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
   rdfs:label "has unique identifiers" ;
@@ -611,11 +588,17 @@ ebg:webResource a owl:ObjectProperty ;
 
 schema:name a owl:DatatypeProperty;
   rdfs:label "name";
-  schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource;
+  schema:domainIncludes ebg:WebResource, ebg:IdentifierWebResource, ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:string, rdf:langString;
   skos:definition "Name or short (generic) description of the resource";
   skos:scopeNote "Provide this since it's useful to the user. Can provide it in several languages, in which case the language tag should be specified";
   skos:example "Homepage", "Search", "Download", "Company data".
+
+schema:description a owl:DatatypeProperty;
+  rdfs:label "description";
+  schema:domainIncludes ebg:IdentifierSystem, schema:Organization ;
+  schema:rangeIncludes xsd:string, rdf:langString ;
+  skos:definition "Description of the resource" .
 
 dc:format a owl:DatatypeProperty;
   rdfs:label "MIME Type";
@@ -623,8 +606,8 @@ dc:format a owl:DatatypeProperty;
   schema:rangeIncludes xsd:string, rdf:Resource;
   skos:definition "MIME type of the resource. If several are provided, the server must provide all these resource types using Content Negotiation";
   skos:example "text/html", "application/xml", "application/rdf+xml", "text/turtle", "text/csv", "text/tab-separated-values",
-    'For a search page, use the custom type "application/x-search"',
-    'For a Description document supporting the OpenSearch standard, use <http://a9.com/-/spec/opensearch/1.1/>'.
+    "'For a search page, use the custom type 'application/x-search''",
+    "'For a Description document supporting the OpenSearch standard, use '<http://a9.com/-/spec/opensearch/1.1/>''".
 
 schema:inLanguage a owl:DatatypeProperty;
   rdfs:label "language";
@@ -659,13 +642,13 @@ ebg:urlTemplate a owl:DatatypeProperty;
 If it has a placeholder {}, substitute the identifier value there.
 If it has placeholders like $1, $2… substitute the groups extracted by ebg:validationRegex""";
   skos:example
-    'For BE Banque-Carrefour des Entreprises, "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={}" with MIME type "text/html" shows a web page for the company.',
-    'For the EU Value Added Tax (VIES) register, "http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=$1&number=$2" with MIME type "text/html" shows a web page for an identifier that can be parsed with ebg:validationRegex "([A-Z]{2})/(\\d+)". Here $1 is the member state code, and $2 is the national company id',
+    "'For BE Banque-Carrefour des Entreprises, 'https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={}' with MIME type 'text/html' shows a web page for the company.'",
+    "'For the EU Value Added Tax (VIES) register, 'http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=$1&number=$2' with MIME type 'text/html' shows a web page for an identifier that can be parsed with ebg:validationRegex '([A-Z]{2})/(\\d+)'. Here $1 is the member state code, and $2 is the national company id'",
     "For OCORP, 'https://opencorporates.com/companies/{}'      returns company data with MIME type 'text/html'",
     "For OCORP, 'https://opencorporates.com/companies/{}.xml'  returns company data with MIME type 'application/xml'",
     "For OCORP, 'https://opencorporates.com/companies/{}.json' returns company data with MIME type 'application/json'",
     "For OCORP, 'https://opencorporates.com/companies/{}.rdf'  returns company data with MIME type 'application/rdf+xml'",
-    'For BR, "http://data.brreg.no/enhetsregisteret/enhet/{}" with either "application/xml" or "application/json" returns the respective MIME type using Content Negotiation'.
+    "'For BR, 'http://data.brreg.no/enhetsregisteret/enhet/{}' with either 'application/xml' or 'application/json' returns the respective MIME type using Content Negotiation'".
 
 locn:Address a rdfs:Class ;
   rdfs:label "Address" ;
@@ -810,7 +793,7 @@ rov:RegisteredOrganization a rdfs:Class ;
   skos:example "Counterparties to financial transactions." .
 
 rov:legalName a owl:DatatypeProperty ;
-  schema:domainIncludes rov:RegisteredOrganization ;
+  schema:domainIncludes rov:RegisteredOrganization , schema:Organization ;
   schema:rangeIncludes rdf:langString ;
   skos:scopeNote "A business may have more than one legal name, particularly in jurisdictions with more than one official language (e.g. Belgium). Some registries also treat a transliterated name as official (e.g. Онтотекст vs Ontotext) [ebg:]" ;
   skos:scopeNote "Provide a legal language tag (see [iana:] for a list) if possible." ;
@@ -832,13 +815,6 @@ rov:orgActivity a owl:ObjectProperty ;
     "More detailed national classifications could also useful (e.g. IT ATECO, UK SIC, BG NKID) but are not supported for now. Providers should drop eventual NACE National Extensions trailing digits.",
     "Values are taken from the euBusinessGraph NACE ConceptScheme. URL template: nace:([A-Z]|[0-9]{2}|[0-9]{2}\\.[0-9]{1,2}). Providers must use exact codes of the specified form",
     "Only the most specific classification code(s) should be provided since we have a skos:broader hierarchy.".
-
-ebg:orgActivityTransitive a owl:ObjectProperty ;
-  schema:domainIncludes rov:RegisteredOrganization ;
-  schema:rangeIncludes skos:Concept;
-  rdfs:label "economic activity transitive" ;
-  skos:definition "Economic activity of the organization (all hierarchical NACE codes)" ;
-  skos:scopeNote "Transive closure of rov:orgActivity along the skos:broader hierarchy".
 
 ebg:orgActivityText a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
@@ -1028,9 +1004,21 @@ skos:prefLabel a owl:DatatypeProperty ;
   skos:definition "A single preferred name of a company or identifier system (preferably English)." ;
   skos:scopeNote "Used as a display name of the company or identifier system. For companies we usually pick one of the Registered Names (English if present, else at random). For identifier systems, we use a commonly used English name." .
 
+schema:Organization a rdfs:Class ;
+  rdfs:label "Organization" ;
+  skos:definition "An organization." ;
+  skos:scopeNote "Used to represent the creator, publisher and author of an IdentifierSystem, and the creator of an Identifier" .
+
 person:Person a rdfs:Class ;
   rdfs:label "Officer" ;
   skos:definition "An officer is a natural person (as opposed to a legal person) [person:] that has a high-level management role in a Company (e.g., the CEO, treasurer and chief financial officer). Despite their high status, they typically serve at the will of the corporate directors, who can fire or replace them. Officers can also be shareholders and directors but don't necessarily have to be. They have the authority to act on behalf of the corporation, including contract authority." .
+
+schema:identifier a owl:DatatypeProperty;
+  schema:domainIncludes person:Person , schema:Organization;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "identifier" ;
+  skos:definition "An identifier for a resource." ;
+  skos:scopeNote "Used to represent the identifier (e.g. URL) of a Person or Organization related to an IdentifierSystem or an Identifier." .
 
 person:birthName a owl:DatatypeProperty;
   schema:domainIncludes person:Person ;
@@ -1038,6 +1026,24 @@ person:birthName a owl:DatatypeProperty;
   rdfs:label "birth name" ;
   skos:definition "The legal name of the person which is usually determined at or around birth, usually persistent and for this reason usually recorded by some official registers. Although birth names tend to be persistent we do not assume this has to be the case." ;
   skos:example "Michele Barbera" .
+
+schema:gender a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person gender" ;
+  skos:definition "The gender of the person." .
+
+schema:gender a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person birth date" ;
+  skos:definition "The birth date of the person." .
+
+schema:nationality a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "person nationality" ;
+  skos:definition "The nationality of the person." .
 
 org:Membership a rdfs:Class ;
   rdfs:label "Membership" ;
@@ -1063,6 +1069,32 @@ org:memberDuring a owl:ObjectProperty ;
   skos:definition "Interval (beginning and end) of the membership relation. May be an open interval." ;
   skos:scopeNote "for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg \"<date>T00:00:00Z\"^^xsd:dateTime." .
 
+time:Interval a rdfs:Class ;
+  rdfs:label "Interval" ;
+  skos:definition "represents a time interval." .
+
+time:hasBeginning a owl:ObjectProperty ;
+  rdfs:label "start time" ;
+  schema:domainIncludes org:Interval ;
+  schema:rangeIncludes time:Instance ;
+  skos:definition "Beginning of the membership relation" .
+
+time:hasEnd a owl:ObjectProperty ;
+  rdfs:label "end time" ;
+  schema:domainIncludes org:Interval ;
+  schema:rangeIncludes time:Instance ;
+  skos:definition "End of the membership relation" .
+
+time:Instant a rdfs:Class ;
+  rdfs:label "Instant" ;
+  skos:definition "A temporal entity with zero extent or duration." .
+
+time:inXSDDate a owl:DatatypeProperty;
+  schema:domainIncludes person:Person ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "date" ;
+  skos:definition "Position of an instant, expressed using xsd:date." .
+
 org:Role a rdfs:Class ;
   rdfs:label "Role" ;
   skos:definition "Denotes a role that a Person can take in an organization." ;
@@ -1073,6 +1105,18 @@ org:role a owl:ObjectProperty ;
   schema:domainIncludes org:Membership ;
   schema:rangeIncludes org:Role ;
   skos:definition "The role played by the officer in the membership" .
+
+ebg:rolePositionText a owl:DatatypeProperty;
+  schema:domainIncludes org:Role ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "role text" ;
+  skos:definition "The (hierarchical) position of the person within a company (in free text), e.g., director." .
+
+ebg:roleTitleText a owl:DatatypeProperty;
+  schema:domainIncludes org:Role ;
+  schema:rangeIncludes xsd:string ;
+  rdfs:label "role text" ;
+  skos:definition "The job title of the person within a company (in free text), e.g., chief technology officer." .
 
 rov:legalName              ebg:order 0.
 skos:prefLabel             ebg:order 1.
@@ -1159,3 +1203,6 @@ ebg:order                  ebg:order 110.
 ramon:code                 ebg:order 111.
 ramon:level                ebg:order 112.
 ramon:name                 ebg:order 113.
+
+# Proprietary EVRY attribute
+ebg:probabilityOfDefault   ebg:order 114.
