@@ -83,3 +83,39 @@
 <https://opencorporates.com> a schema:Organization;
   schema:name "Open database for corporate data"@en;
   schema:description "OpenCorporates is the largest open database of companies and company data in the world, with in excess of 160 million companies in a similarly large number of jurisdictions. Identifiers are issued by official registers, not OpenCorporates.".
+
+# Companies House identifier system
+<identifierSystem/GB> a ebg:IdentifierSystem;
+  dct:creator <http://companieshouse.gov.uk>;
+  schema:author <http://companieshouse.gov.uk>;
+  schema:publisher <http://companieshouse.gov.uk>;
+  skos:notation "GB";
+  dbo:jurisdiction "GB";
+  schema:name "Companies House Companies Register";
+  schema:description "Official identifiers of UK legal entities or branches of entities";
+  ebg:ralCode "RA000585";
+  schema:url <https://beta.companieshouse.gov.uk/>;
+  schema:license <https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;
+  # validation
+  ebg:validationRegex "[A-Z0-9]{8}";
+  ebg:identifierWebResource <identifier/GB/semantic>, <identifier/GB/web>, <identifier/GB/html>, <identifier/GB/rdf>.
+
+<identifierSystem/GB/semantic> a ebg:IdentifierWebResource;
+  schema:name "GB company semantic URL";
+  dc:format "application/xml", "application/rdf+xml", "application/json", "text/csv", "text/html", "application/yaml";
+  schema:description "Provides data in XML, RDF, JSON, CSV, HTML, YAML using content negotiation";
+  schema:inLanguage "en";
+  ebg:urlTemplate "http://data.companieshouse.gov.uk/doc/company/{}".
+
+<http://companieshouse.gov.uk> a schema:Organization;
+  schema:name "Companies House Companies Register"@en;
+  schema:description "Companies House is an executive agency that issues official identifiers to companies registered in the United Kingdom. Companies House incorporates and dissolves limited companies, registers company information, and makes it available to the public.".
