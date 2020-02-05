@@ -1096,6 +1096,7 @@ time:inXSDDate a owl:DatatypeProperty;
   skos:definition "Position of an instant, expressed using xsd:date." .
 
 org:Role a rdfs:Class ;
+  rdfs:subClassOf skos:Concept ;
   rdfs:label "Role" ;
   skos:definition "Denotes a role that a Person can take in an organization." ;
   skos:scopeNote "Instances of this class describe the abstract role; to denote a specific instance of a person playing that role in a specific organization use an instance of org:Membership." .
@@ -1107,16 +1108,10 @@ org:role a owl:ObjectProperty ;
   skos:definition "The role played by the officer in the membership" .
 
 ebg:rolePositionText a owl:DatatypeProperty;
-  schema:domainIncludes org:Role ;
+  schema:domainIncludes org:Membership ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "role text" ;
   skos:definition "The (hierarchical) position of the person within a company (in free text), e.g., director." .
-
-ebg:roleTitleText a owl:DatatypeProperty;
-  schema:domainIncludes org:Role ;
-  schema:rangeIncludes xsd:string ;
-  rdfs:label "role text" ;
-  skos:definition "The job title of the person within a company (in free text), e.g., chief technology officer." .
 
 rov:legalName              ebg:order 0.
 skos:prefLabel             ebg:order 1.
