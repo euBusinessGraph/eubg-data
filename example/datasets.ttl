@@ -7,6 +7,46 @@
 @prefix dct:    <http://purl.org/dc/terms/> .
 @prefix schema: <http://schema.org/> .
 
+# ATOKA identifier system
+<identifierSystem/ATOKA> a ebg:IdentifierSystem;
+  dct:creator <https://atoka.io>;
+  schema:author <https://atoka.io>;
+  schema:publisher <https://atoka.io>;
+  skos:notation "ATOKA";
+  dbo:jurisdiction "IT", "GB";
+  schema:name "Atoka company identifiers";
+  schema:description "Company identifiers within the Atoka company database.";
+  schema:url <https://atoka.io>;
+  schema:license <https://atoka.io/en/terms-use>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial false;
+  # validation
+  ebg:validationRegex "[a-f0-9]{12}";
+  ebg:identifierWebResource <identifier/ATOKA/resource>.
+
+<identifierSystem/ATOKA/resource> a ebg:IdentifierWebResource;
+  schema:name "Atoka company page";
+  dc:format "text/html";
+  schema:inLanguage "en";
+  ebg:urlTemplate "https://atoka.io/en/companies/-/{}/".
+
+<<https://atoka.io/en/search>> a ebg:WebResource;
+  schema:url <https://atoka.io/en/search>;
+  schema:name "Atoka company search page";
+  dc:format "text/html";
+  schema:inLanguage "en".
+
+<https://atoka.io> a schema:Organization;
+  schema:name "B2B Lead Generation on over 6 million companies and more than 10 million people"@en, "Lead Generation B2B e Sales Intelligence su oltre 6 milioni di aziende italiane"@it;
+  schema:description "Issues company identifiers within the Atoka company database".
+
 # OpenCorporates identifier system
 <identifierSystem/OpenCorporates> a ebg:IdentifierSystem;
   dct:creator <https://opencorporates.com>;
