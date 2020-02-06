@@ -47,6 +47,84 @@
   schema:name "B2B Lead Generation on over 6 million companies and more than 10 million people"@en, "Lead Generation B2B e Sales Intelligence su oltre 6 milioni di aziende italiane"@it;
   schema:description "Issues company identifiers within the Atoka company database".
 
+# IT REA identifier system
+<identifierSystem/IT/REA> a ebg:IdentifierSystem;  # identifies company sites
+  dct:creator <http://www.unioncamere.gov.it>;
+  schema:author <http://www.unioncamere.gov.it>;
+  schema:publisher <http://www.registroimprese.it>;
+  skos:notation "IT/REA";
+  dbo:jurisdiction "IT";
+  schema:name "Economic and Administrative Index"@en, "Repertorio Economico Amministrativo"@it;
+  schema:description """Official register of economic and statistical information of company sites"""@en,
+    """Registro di notizie di carattere statistico-economico amministrativo relative a unità locali"""@it;
+  ebg:ralCode "RA000407";
+  schema:url <http://www.registroimprese.it/sede-legale-e-unita-locali>;
+  schema:license <http://www.registroimprese.it/en/registrazione>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;  # in cases of fusion, a company's site can have more than one
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb false;  # they also encode the province of the issuer
+  ebg:isEnumerated true;  # the local chamber of commerce keeps track of all of them
+  ebg:isOfficial true;  # official identifier of company sites in Italy
+  # validation
+  ebg:validationRule
+    <http://www.registroimprese.it/codice-fiscale-p.iva-rea>;  # some details of the rule
+  ebg:validationRegex "\\d{11}".
+
+# IT Tax identifier system
+<identifierSystem/IT/Tax> a ebg:IdentifierSystem;  # identifies companies
+  dct:creator <https://www.agenziaentrate.gov.it>;
+  schema:author <https://www.agenziaentrate.gov.it>;
+  schema:publisher <http://www.registroimprese.it>;
+  skos:notation "IT/Tax";
+  dbo:jurisdiction "IT";
+  schema:name "Italian Tax IDs";
+  schema:description """Official company tax identifiers in the Italian Revenue Agency""";
+  schema:url <http://www.registroimprese.it/l-anagrafe-nazionale-delle-imprese>;
+  schema:license <http://www.registroimprese.it/en/registrazione>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued false;
+  ebg:isPersistent true;
+  ebg:isImmutable true;  # homocodes again...
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;
+  # validation
+  ebg:validationRule
+    <https://en.wikipedia.org/wiki/Italian_fiscal_code_card>;  # some details of the rule
+  ebg:validationRegex "\\d{11}", "[A-Z]{6}\\d{2}[ABCDEHLMPRST]\\d{2}[A-Z]\\d{3}[A-Z]";
+  skos:scopeNote "Tax IDs for single-person companies are the same as the tax ID of the sole owner of the company (regex: \"[A-Z]{6}\\d{2}[ABCDEHLMPRST]\\d{2}[A-Z]\\d{3}[A-Z]\"), 
+  while tax IDs of other types of company are all digits (regex: \"\\d{11}\") and in most cases the code is the same as the VAT ID".
+
+# IT VAT identifier system
+<identifierSystem/IT/VAT> a ebg:IdentifierSystem;  # identifies companies
+  dct:creator <https://www.agenziaentrate.gov.it>;
+  schema:author <https://www.agenziaentrate.gov.it>;
+  schema:publisher <http://www.registroimprese.it>;
+  skos:notation "IT/VAT";
+  dbo:jurisdiction "IT";
+  schema:name "Italian VAT IDs";
+  schema:description """Official VAT identifiers in the Italian Revenue Agency""";
+  ebg:ralCode "RA000407";
+  schema:url <http://www.registroimprese.it/l-anagrafe-nazionale-delle-imprese>;
+  schema:license <http://www.registroimprese.it/en/registrazione>;
+  # characteristics
+  ebg:isUnique true;
+  ebg:isSingleValued true;
+  ebg:isPersistent true;
+  ebg:isImmutable true;
+  ebg:isPublic true;
+  ebg:isDumb true;
+  ebg:isEnumerated true;
+  ebg:isOfficial true;   # official identifier of Italian companies
+  # validation
+  ebg:validationRegex "\\d{11}".
+
 # OpenCorporates identifier system
 <identifierSystem/OpenCorporates> a ebg:IdentifierSystem;
   dct:creator <https://opencorporates.com>;
