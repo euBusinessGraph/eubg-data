@@ -1,0 +1,65 @@
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/regorg#RegisteredOrganization>.
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/ns/regorg#legalName> "OPENCORPORATES LTD".
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/2004/02/skos/core#prefLabel> "OPENCORPORATES LTD".
+<http://data.businessgraph.io/company/gb/07444723> <http://dbpedia.org/ontology/jurisdiction> "gb".
+<http://data.businessgraph.io/company/gb/07444723> <http://schema.org/foundingDate> "2010-11-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.businessgraph.io/company/gb/07444723> <http://schema.org/dissolutionDate> ""^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.businessgraph.io/company/gb/07444723> <http://data.businessgraph.io/ontology#numberOfEmployees> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://data.businessgraph.io/company/gb/07444723> <http://data.businessgraph.io/ontology#orgTypeText> "Private Limited Company".
+<http://data.businessgraph.io/company/gb/07444723> <http://data.businessgraph.io/ontology#orgStatusText> "Active".
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/ns/regorg#hasSite> <http://data.businessgraph.io/company/gb/07444723/registeredSite/address>.
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/ns/regorg#hasRegisteredSite> <http://data.businessgraph.io/company/gb/07444723/registeredSite/address>.
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/company/gb/07444723/id>.
+<http://data.businessgraph.io/company/gb/07444723> <http://www.w3.org/ns/adms#identifier> <http://data.businessgraph.io/company/gb/07444723/id/OpenCorporates>.
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Site>.
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address>.
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/ns/org#siteAddress> <http://data.businessgraph.io/company/gb/07444723/registeredSite/address>.
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/ns/locn#fullAddress> "Aston House\nCornwall Avenue, London, N3 1LF".
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/ns/locn#postCode> "N3 1LF".
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/ns/locn#postName> "London".
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/ns/locn#thoroughfare> "Aston House\nCornwall Avenue".
+<http://data.businessgraph.io/company/gb/07444723/registeredSite/address> <http://www.w3.org/ns/locn#adminUnitL1> <http://nuts.geovocab.org/id/UK>.
+<http://data.businessgraph.io/company/gb/07444723/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier>.
+<http://data.businessgraph.io/company/gb/07444723/id> <http://www.w3.org/2004/02/skos/core#notation> "07444723".
+<http://data.businessgraph.io/company/gb/07444723/id> <http://purl.org/dc/terms/isPartOf> <http://data.tbfy.eu/identifierSystem/xmlgw.companieshouse.gov.uk>.
+<http://data.businessgraph.io/company/gb/07444723/id> <http://purl.org/dc/terms/creator> <http://xmlgw.companieshouse.gov.uk>.
+<http://data.businessgraph.io/identifierSystem/xmlgw.companieshouse.gov.uk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.businessgraph.io/ontology#IdentifierSystem>.
+<http://data.businessgraph.io/identifierSystem/xmlgw.companieshouse.gov.uk> <http://www.w3.org/2004/02/skos/core#notation> "gb".
+<http://data.businessgraph.io/identifierSystem/xmlgw.companieshouse.gov.uk> <http://purl.org/dc/terms/creator> <http://xmlgw.companieshouse.gov.uk>.
+<http://xmlgw.companieshouse.gov.uk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization>.
+<http://data.businessgraph.io/company/gb/07444723/id/OpenCorporates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier>.
+<http://data.businessgraph.io/company/gb/07444723/id/OpenCorporates> <http://www.w3.org/2004/02/skos/core#notation> "gb/07444723".
+<http://data.businessgraph.io/company/gb/07444723/id/OpenCorporates> <http://purl.org/dc/terms/creator> <https://opencorporates.com>.
+<http://data.businessgraph.io/company/gb/07444723/id/OpenCorporates> <http://purl.org/dc/terms/isPartOf> <http://data.tbfy.eu/identifierSystem/OpenCorporates>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968> <http://data.businessgraph.io/ontology#rolePositionText> "director".
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968> <http://www.w3.org/ns/org#memberDuring> <http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968> <http://www.w3.org/ns/org#organization> <http://data.businessgraph.io/company/gb/07444723>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968> <http://www.w3.org/ns/org#member> <http://data.tbfy.eu/officer/OpenCorporates/206814968>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999> <http://data.businessgraph.io/ontology#rolePositionText> "director".
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999> <http://www.w3.org/ns/org#memberDuring> <http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999> <http://www.w3.org/ns/org#organization> <http://data.businessgraph.io/company/gb/07444723>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999> <http://www.w3.org/ns/org#member> <http://data.tbfy.eu/officer/OpenCorporates/206814999>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval> <http://www.w3.org/2006/time#hasBeginning> <http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval/beginning>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval> <http://www.w3.org/2006/time#hasEnd> <http://data.businessgraph.io/company/gb/07444723/officer/206814968/end>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval> <http://www.w3.org/2006/time#hasBeginning> <http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval/beginning>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval> <http://www.w3.org/2006/time#hasEnd> <http://data.businessgraph.io/company/gb/07444723/officer/206814999/end>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval/beginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval/beginning> <http://www.w3.org/2006/time#inXSDDate> "2010-11-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval/beginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval/beginning> <http://www.w3.org/2006/time#inXSDDate> "2010-11-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval/end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814968/interval/end> <http://www.w3.org/2006/time#inXSDDate> "2011-03-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval/end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant>.
+<http://data.businessgraph.io/company/gb/07444723/officer/206814999/interval/end> <http://www.w3.org/2006/time#inXSDDate> ""^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.businessgraph.io/officer/OpenCorporates/206814968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person>.
+<http://data.businessgraph.io/officer/OpenCorporates/206814968> <http://schema.org/identifier> "206814968".
+<http://data.businessgraph.io/officer/OpenCorporates/206814968> <http://www.w3.org/ns/person#birthName> "ROBERT MURRAY MCKINNON".
+<http://data.businessgraph.io/officer/OpenCorporates/206814968> <http://schema.org/nationality> "BRITISH".
+<http://data.businessgraph.io/officer/OpenCorporates/206814999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person>.
+<http://data.businessgraph.io/officer/OpenCorporates/206814999> <http://schema.org/identifier> "206814999".
+<http://data.businessgraph.io/officer/OpenCorporates/206814999> <http://www.w3.org/ns/person#birthName> "CHRISTOPHER TAGGART".
+<http://data.businessgraph.io/officer/OpenCorporates/206814999> <http://schema.org/nationality> "BRITISH".
