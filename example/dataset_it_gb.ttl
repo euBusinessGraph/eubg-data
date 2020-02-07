@@ -1,0 +1,134 @@
+@base            <http://data.businessgraph.io/>.
+@prefix ebg:     <http://data.businessgraph.io/ontology#> .
+@prefix acrt:    <https://privatealpha.com/ontology/certification/1#> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix atkebg:  <http://ontologies.spaziodati.eu/atoka-ebg/#> .
+@prefix dbo:     <http://dbpedia.org/ontology/>.
+@prefix dc:      <http://purl.org/dc/elements/1.1/>.
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix nuts:    <http://nuts.geovocab.org/id/>.
+@prefix org:     <http://www.w3.org/ns/org#>.
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix person:  <http://www.w3.org/ns/person#>.
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rov:     <http://www.w3.org/ns/regorg#>.
+@prefix schema:  <http://schema.org/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://spaziodati.eu/> a schema:Organization;
+  schema:name "SpazioDati";
+  skos:notation "SDATI".
+
+<https://spaziodati.eu/en/> a schema:Organization;
+  schema:name "SpazioDati";
+  skos:notation "SDATI".
+
+<dataset/SDATI> a void:Dataset ;
+  dct:description "euBusinessGraph only provides info about jurisdictions and fields in this dataset. Contact the publisher for commercial information." ;
+  dct:title "SpazioDati full dataset" ;
+  dct:type <dataset/type/provider> ;
+  dct:publisher <https://spaziodati.eu/en/> ;
+  void:subset <dataset/SDATI/GB>, <dataset/SDATI/IT> .
+
+<dataset/SDATI/GB> a void:Dataset;
+  dct:title "SpazioDati full dataset of GB companies" ;
+  dct:type <dataset/type/partition> ;
+  dct:spatial "GB" ;
+  void:entities 4276471 ;
+  void:property
+    dct:creator,
+    dct:isPartOf,
+    org:organization,
+    org:siteAddress,
+    rov:legalName,
+    schema:availableLanguage,
+    schema:url,
+    rov:orgStatus,
+    dbo:jurisdiction,
+    org:hasRegisteredSite,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    locn:postName,
+    locn:postCode,
+    locn:thoroughfare,
+    locn:locatorDesignator,
+    skos:prefLabel,
+    rov:orgActivity,
+    rov:orgActivityText,
+    rov:registration,
+    ebg:foundingYear,
+    schema:foundingDate,
+    rov:orgType,
+    ebg:orgTypeText,
+    rov:legalName,
+    adms:identifier;
+  dct:license <https://atoka.io/en/terms-use/>;
+  dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/> .
+
+<dataset/SDATI/IT> a void:Dataset;
+  dct:title "SpazioDati full dataset of IT companies";
+  dct:type <dataset/type/partition>;
+  dct:spatial "IT";
+  void:entities 6067546;
+  void:property
+    dct:creator,
+    dct:isPartOf,
+    org:organization,
+    org:siteAddress,
+    rov:legalName,
+    schema:availableLanguage,
+    schema:url,
+    rov:orgStatus,
+    dbo:jurisdiction,
+    org:hasRegisteredSite,
+    locn:adminUnitL1,
+    locn:adminUnitL2,
+    ebg:adminUnitL3,
+    ebg:adminUnitL4,
+    ebg:adminUnitL5,
+    ebg:adminUnitL6,
+    locn:postName,
+    locn:postCode,
+    locn:thoroughfare,
+    schema:geo,
+    schema:latitude,
+    schema:longitude,
+    ebg:geoResolution,
+    locn:locatorDesignator,
+    skos:prefLabel,
+    rov:orgActivity,
+    rov:orgActivityText,
+    rov:registration,
+    ebg:foundingYear,
+    schema:foundingDate,
+    rov:orgType,
+    ebg:orgTypeText,
+    rov:legalName,
+    schema:email,
+    ebg:isStartup,
+    adms:identifier;
+  dct:license <https://atoka.io/en/terms-use/> ;
+  dct:source <https://spaziodati.eu/en/>, <https://atoka.io/en/> .
+
+<https://spaziodati.eu/en/> a ebg:WebResource;
+  schema:url <https://spaziodati.eu/en/>;
+  schema:name "SpazioDati: home page"@en;
+  dc:format "text/html";
+  schema:inLanguage "en".
+
+<https://atoka.io/en/> a ebg:WebResource;
+  schema:url <https://atoka.io/en/>;
+  schema:name "Atoka: All of the italian and british companies in a unique database"@en;
+  dc:format "text/html";
+  schema:inLanguage "en".
