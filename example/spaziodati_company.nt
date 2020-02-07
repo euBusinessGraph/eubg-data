@@ -1,0 +1,77 @@
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/regorg#legalName> "SPAZIODATI S.R.L."@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/2004/02/skos/core#prefLabel> "SPAZIODATI S.R.L."@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/2004/02/skos/core#altLabel> "SPAZIODATI SRL"@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/2004/02/skos/core#altLabel> "SPAZIODATI"@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/2004/02/skos/core#altLabel> "SPAZIODATI SOCIETA' A RESPONSABILITA' LIMITATA"@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/regorg#orgType> <http://data.businessgraph.io/type/IT/SR> .
+<http://data.businessgraph.io/company/IT/361163703> <http://data.businessgraph.io/ontology#orgTypeText> "Società A Responsabilità Limitata"@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://data.businessgraph.io/ontology#orgTypeText> "Company with limited liability"@en .
+<http://data.businessgraph.io/company/BG/200109489> <http://schema.org/foundingDate> "2012-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.businessgraph.io/company/IT/361163703> <http://data.businessgraph.io/ontology#isStartup> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/regorg#orgStatus> <http://data.businessgraph.io/status/SDATI/active> .
+<http://data.businessgraph.io/company/IT/361163703> <http://data.businessgraph.io/ontology#orgStatusText> "Attiva"@it .
+<http://data.businessgraph.io/company/IT/361163703> <http://data.businessgraph.io/ontology#orgStatusText> "Active"@en .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/regorg#orgActivity> <http://data.businessgraph.io/nace/62.01> .
+<http://data.businessgraph.io/company/IT/361163703> <http://data.businessgraph.io/ontology#orgActivityText> "Produzione di software non connesso all'edizione" .
+<http://data.businessgraph.io/company/IT/361163703> <http://schema.org/availableLanguage> "it" .
+<http://data.businessgraph.io/company/IT/361163703> <http://dbpedia.org/ontology/jurisdiction> "IT" .
+
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/adms#identifier> <http://data.businessgraph.io/company/IT/361163703/id/ATOKA> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/adms#identifier> <http://data.businessgraph.io/company/IT/361163703/id/REA> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/adms#identifier> <http://data.businessgraph.io/company/IT/361163703/id/Tax> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/adms#identifier> <http://data.businessgraph.io/company/IT/361163703/id/Vat> .
+
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Membership> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7> <http://www.w3.org/ns/org#organization> <http://data.businessgraph.io/company/IT/361163703> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7> <http://www.w3.org/ns/org#role> <http://data.businessgraph.io/role/IT/CEO> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7> <http://www.w3.org/ns/org#member> <http://data.businessgraph.io/person/ATOKA/pBeekyKq7HIT4RfwU7> .
+<http://data.businessgraph.io/person/ATOKA/pBeekyKq7HIT4RfwU7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person> .
+<http://data.businessgraph.io/person/ATOKA/pBeekyKq7HIT4RfwU7> <http://www.w3.org/ns/person#birthName> "Michele Barbera" .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7> <http://www.w3.org/ns/org#memberDuring> <http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7/interval> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7/interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7/interval> <http://www.w3.org/2006/time#hasBeginning> <http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7/interval/beginning> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7/interval/beginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+<http://data.businessgraph.io/company/IT/361163703/officer/pBeekyKq7HIT4RfwU7/interval/beginning> <http://www.w3.org/2006/time#inXSDDateTime> "2017-04-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/company/IT/361163703/registeredSite/address> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/org#hasSite> <http://data.businessgraph.io/company/IT/361163703/registeredSite/address> .
+<http://data.businessgraph.io/company/IT/361163703> <http://www.w3.org/ns/org#hasSite> <http://data.businessgraph.io/company/IT/361163703/site/0ef76064b441/address> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Site> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/org#siteAddress> <http://data.businessgraph.io/company/IT/361163703/registeredSite/address> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#fullAddress> "Via Adriano Olivetti, 13, 38122, Trento (TN)"@it .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#adminUnitL1> <http://nuts.geovocab.org/id/IT> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#adminUnitL2> <http://nuts.geovocab.org/id/ITD> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://data.businessgraph.io/ontology#adminUnitL3> <http://nuts.geovocab.org/id/ITD2> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://data.businessgraph.io/ontology#adminUnitL4> <http://nuts.geovocab.org/id/ITD20> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://data.businessgraph.io/ontology#adminUnitL5> <http://data.businessgraph.io/lau/IT-022205> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#postName> "Trento"@it .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#thoroughfare> "Adriano Olivetti"@it .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#locatorDesignator> "13" .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://www.w3.org/ns/locn#postCode> "38122" .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address> <http://schema.org/geo> <http://data.businessgraph.io/company/IT/361163703/registeredSite/address/geo> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address/geo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GeoCoordinates> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address/geo> <http://schema.org/latitude> "46.06248902"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address/geo> <http://schema.org/longitude> "11.10780205"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.businessgraph.io/company/IT/361163703/registeredSite/address/geo> <http://data.businessgraph.io/ontology#geoResolution> <http://data.businessgraph.io/resolution/L5> .
+
+<http://data.businessgraph.io/company/IT/361163703/id/ATOKA> <http://purl.org/dc/terms/isPartOf> <http://data.businessgraph.io/identifier/ATOKA> .
+<http://data.businessgraph.io/company/IT/361163703/id/ATOKA> <http://www.w3.org/2004/02/skos/core#notation> "6da785b3adf2" .
+<http://data.businessgraph.io/company/IT/361163703/id/ATOKA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<http://data.businessgraph.io/company/IT/361163703/id/ATOKA> <http://purl.org/dc/terms/creator> <https://atoka.io> .
+
+<http://data.businessgraph.io/company/IT/361163703/id/REA> <http://purl.org/dc/terms/isPartOf> <http://data.businessgraph.io/identifier/IT/REA> .
+<http://data.businessgraph.io/company/IT/361163703/id/REA> <http://www.w3.org/2004/02/skos/core#notation> "TN-210089" .
+<http://data.businessgraph.io/company/IT/361163703/id/REA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<http://data.businessgraph.io/company/IT/361163703/id/REA> <http://purl.org/dc/terms/creator> <http://www.unioncamere.gov.it> .
+
+<http://data.businessgraph.io/company/IT/361163703/id/Tax> <http://purl.org/dc/terms/isPartOf> <http://data.businessgraph.io/identifier/IT/Tax> .
+<http://data.businessgraph.io/company/IT/361163703/id/Tax> <http://www.w3.org/2004/02/skos/core#notation> "02241890223" .
+<http://data.businessgraph.io/company/IT/361163703/id/Tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<http://data.businessgraph.io/company/IT/361163703/id/Tax> <http://purl.org/dc/terms/creator> <https://www.agenziaentrate.gov.it> .
+
+<http://data.businessgraph.io/company/IT/361163703/id/Vat> <http://purl.org/dc/terms/isPartOf> <http://data.businessgraph.io/identifier/IT> .
+<http://data.businessgraph.io/company/IT/361163703/id/Vat> <http://www.w3.org/2004/02/skos/core#notation> "02241890223" .
+<http://data.businessgraph.io/company/IT/361163703/id/Vat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<http://data.businessgraph.io/company/IT/361163703/id/Vat> <http://purl.org/dc/terms/creator> <https://www.agenziaentrate.gov.it> .
