@@ -36,19 +36,25 @@
 ebg: a owl:Ontology;
   dct:title "euBusinessGraph ontology";
   dct:created "2017-07-11"^^xsd:date;
-  dct:modified "2019-11-26"^^xsd:date;
-  owl:versionInfo "1.1.0";
+  dct:modified "2020-02-10"^^xsd:date;
+  owl:versionInfo "1.4.1";
   vann:preferredNamespaceUri "http://data.businessgraph.io/ontology#";
   vann:preferredNamespacePrefix "ebg";
   foaf:homepage <http://businessgraph.io>;
   dct:type <http://purl.org/adms/assettype/Ontology>;
   dct:status <http://purl.org/adms/status/UnderDevelopment>;
-  dct:creator <http://businessgraph.io>, <http://ontotext.com>, <mailto:vladimir.alexiev@ontotext.com>;
-  dct:contributor <http://businessgraph.io>, <http://spaziodati.eu>, <mailto:paniagua@spaziodati.eu>;
-  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:Dumitru.Roman@sintef.no>;
-  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:BjornMarius.vonZernichow@sintef.no>;
-  dct:contributor <http://businessgraph.io>, <http://sintef.no>, <mailto:Brian.Elvesater@sintef.no>;
-  dct:publisher <http://businessgraph.io>;
+  dct:creator <http://eubusinessgraph.eu>, "Vladimir Alexiev", <mailto:vladimir.alexiev@ontotext.com>;
+  dct:contributor "Javier Paniagua", <mailto:paniagua@spaziodati.eu>;
+  dct:contributor "Tatiana Tarasova", <mailto:tarasova@spaziodati.eu>;
+  dct:contributor "Dumitru Roman", <mailto:dumitru.roman@sintef.no>;
+  dct:contributor "Bjørn Marius von Zernichow", <mailto:BjornMarius.vonZernichow@sintef.no>;
+  dct:contributor "Brian Elvesæter", <mailto:brian.elvesater@sintef.no>;
+  dct:contributor "Boyan Simeonov", <mailto:boyan.simeonov@ontotext.com>;
+  dct:contributor "Ahmet Soylu", <mailto:ahmet.soylu@sintef.no>;
+  dct:contributor "Fredrik Seehusen", <mailto:fredrik.seehusen@sintef.no>;
+  dct:contributor "Chris Taggart", <mailto:chris.taggart@opencorporates.com>;
+  dct:contributor "David Norheim", <mailto:david.norheim@brreg.no>;
+  dct:publisher <http://eubusinessgraph.eu>;
   rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>;
   rdfs:comment # this below is markdown, which is used by LODE
   """The euBusinessGraph (`ebg:`) ontology represents companies, type/status/economic classification, addresses, identifiers, (and soon) directors and CEOs, dataset offerings.
