@@ -11,6 +11,7 @@
 @prefix dbo:     <http://dbpedia.org/ontology/>.
 @prefix dc:      <http://purl.org/dc/elements/1.1/>.
 @prefix dct:     <http://purl.org/dc/terms/> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
 @prefix locn:    <http://www.w3.org/ns/locn#>.
 @prefix ngeo:    <http://geovocab.org/geometry#> .
@@ -18,6 +19,7 @@
 @prefix org:     <http://www.w3.org/ns/org#>.
 @prefix owl:     <http://www.w3.org/2002/07/owl#> .
 @prefix puml:    <http://plantuml.com/ontology#>.
+@prefix prov:    <http://www.w3.org/ns/prov#> .
 @prefix ramon:   <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
@@ -36,74 +38,118 @@
 ebg: a owl:Ontology;
   dct:title "euBusinessGraph ontology";
   dct:created "2017-07-11"^^xsd:date;
-  dct:modified "2020-02-10"^^xsd:date;
+  dct:modified "2020-02-11"^^xsd:date;
   owl:versionInfo "1.4.1";
   vann:preferredNamespaceUri "http://data.businessgraph.io/ontology#";
   vann:preferredNamespacePrefix "ebg";
   foaf:homepage <http://businessgraph.io>;
   dct:type <http://purl.org/adms/assettype/Ontology>;
   dct:status <http://purl.org/adms/status/UnderDevelopment>;
-  dct:creator <http://eubusinessgraph.eu>, "Vladimir Alexiev", <mailto:vladimir.alexiev@ontotext.com>;
-  dct:contributor "Javier Paniagua", <mailto:paniagua@spaziodati.eu>;
-  dct:contributor "Tatiana Tarasova", <mailto:tarasova@spaziodati.eu>;
-  dct:contributor "Dumitru Roman", <mailto:dumitru.roman@sintef.no>;
-  dct:contributor "Bjørn Marius von Zernichow", <mailto:BjornMarius.vonZernichow@sintef.no>;
-  dct:contributor "Brian Elvesæter", <mailto:brian.elvesater@sintef.no>;
-  dct:contributor "Boyan Simeonov", <mailto:boyan.simeonov@ontotext.com>;
-  dct:contributor "Ahmet Soylu", <mailto:ahmet.soylu@sintef.no>;
-  dct:contributor "Fredrik Seehusen", <mailto:fredrik.seehusen@sintef.no>;
-  dct:contributor "Chris Taggart", <mailto:chris.taggart@opencorporates.com>;
-  dct:contributor "David Norheim", <mailto:david.norheim@brreg.no>;
-  dct:publisher <http://eubusinessgraph.eu>;
+  dct:publisher [
+    foaf:name "The euBusinessGraph Project";
+    foaf:homepage <http://eubusinessgraph.eu> ];
+  dct:creator [
+    foaf:name "Vladimir Alexiev";
+    foaf:mbox <mailto:vladimir.alexiev@ontotext.com> ];
+  dct:creator [
+    foaf:name "Brian Elvesæter";
+    foaf:mbox <mailto:brian.elvesater@sintef.no> ];
+  dct:creator [
+    foaf:name "David Norheim";
+    foaf:mbox <mailto:david.norheim@brreg.no> ];
+  dct:creator [
+    foaf:name "Javier Paniagua";
+    foaf:mbox <mailto:paniagua@spaziodati.eu> ];
+  dct:creator [
+    foaf:name "Dumitru Roman";
+    foaf:mbox <mailto:dumitru.roman@sintef.no> ];
+  dct:creator [
+    foaf:name "Fredrik Seehusen" ];
+  dct:creator [
+    foaf:name "Boyan Simeonov";
+    foaf:mbox <mailto:boyan.simeonov@ontotext.com> ];
+  dct:creator [
+    foaf:name "Ahmet Soylu";
+    foaf:mbox <mailto:ahmet.soylu@sintef.no> ];
+  dct:creator [
+    foaf:name "Chris Taggart";
+    foaf:mbox <mailto:chris.taggart@opencorporates.com> ];
+  dct:creator [
+    foaf:name "Tatiana Tarasova" ];
+  dct:creator [
+    foaf:name "Bjørn Marius von Zernichow";
+    foaf:mbox <mailto:BjornMarius.vonZernichow@sintef.no> ];
+  dct:contributor [
+    foaf:name "The euBusinessGraph Consortium";
+    foaf:homepage <http://eubusinessgraph.eu/partners/> ];
+  dct:license <https://opendatacommons.org/licenses/by/>;
+  prov:wasGeneratedBy [
+    a doap:Project ;
+    a prov:Activity ;
+    doap:repository <https://github.com/euBusinessGraph/eubg-data> ];
   rdfs:seeAlso <https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit>;
   rdfs:comment # this below is markdown, which is used by LODE
-  """The euBusinessGraph (`ebg:`) ontology represents companies, type/status/economic classification, addresses, identifiers, (and soon) directors and CEOs, dataset offerings.
+  """The euBusinessGraph (`ebg:`) ontology represents companies, type/status/economic classification, addresses, identifiers, company officers (e.g., directors and CEOs), and dataset offerings.
 
-It uses `schema:domain/rangeIncludes` (which are polymorphic) to describe which properties are applicable to a class, 
-rather than `rdfs:domain/rainge` (which are monomorphic) to prescribe what classes must be applied to each node using a property.
+It uses `schema:domainIncludes/rangeIncludes` (which are polymorphic) to describe which properties are applicable to a class, 
+rather than `rdfs:domain/range` (which are monomorphic) to prescribe what classes must be applied to each node using a property.
 We find that this enables more flexible reuse and combination of different ontologies.
 We reuse the following ontologies and nomenclatures, and extend them where appropriate with classes and properties:
+
 - W3C Org, W3C RegOrg (basic company data), 
+
 - W3C Time (officer membership), 
+
 - W3C Locn (addresses),
+
 - schema.org (domain/rangeIncludes and various properties)
+
 - DBpedia ontology (jurisdiction)
+
 - NGEO and Spatial (NUTS administrative divisions)
+
 - ADMS (identifiers), 
+
 - FOAF, SIOC (blog posts),
+
 - RAMON, SKOS (NACE economic classifications and various nomenclatures),
+
 - VOID (dataset descriptions).
+
 This is only a reference. See more detail in the [EBG Semantic Model](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit) google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams.
 
-A couple of illustrations follow.
+## Overview
+The figure below gives an overview of the ontology, depicting the main classes and their relationships (i.e., object properties). The ontology covers the following areas:
 
-#### Company
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/company.png)
+- Registered Organization: To represent a legal company.
 
-#### Identifier System
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/Identifiers-ORM.png)
+- Identifier System: To represent Identifier Systems. A company can have several Identifiers belonging to different Identifier Systems.
 
-#### Dataset Descriptions
-Dataset Hierarchy
+- Officer: To represent associated company officers, e.g., directors.
 
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-hierarchy.png)
+- Dataset: To represent information about datasets that are offered by company data providers.
 
-Dataset Metadata Details
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-overview.png)
 
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-details.png)
+### Registered Organization (company)
+Registered organizations are the main entities for which information is captured in the euBusinessGraph ontology. The ontology is not concerned with unregistered informal groups. Registered organizations gain legal entity status by the act of registration and are distinct from the broader concept of organizations, groups or, in some jurisdictions, sole traders. The figure below shows the classes and properties for representing core data about a registered organization.
 
-Dataset Sources
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-company-classes.png)
 
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-sources.png)
+### Identifier System
+Mechanisms to identify companies in various data sources are essential in integration of data about companies across data sources. A proper understanding of what kind of systems of identifiers can be used for companies is thus necessary in this context. We analyzed various types of identifiers commonly used for companies and collected various properties of the systems they are part of. We modelled identifiers and identifier systems explicitly in the ontology as shown in thew figure below.
 
-Dataset Statistics
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-identifier-classes.png)
 
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/dataset-stats.png)
+### Officer
+We use the membership model of the W3C Organization Ontology in a straightforward way to represent officer data as shown in the figure below.
 
-#### Officers
-In development. Below are 5 examples from 2 datasets (OCORP GB and ONTO BG). See [officers.md](https://github.com/euBusinessGraph/eubg-data/blob/master/model/officers.md) for some notes.
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-officer-classes.png)
 
-![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/officers.png)
+### Dataset Descriptions
+Data consumers need to know how many companies are included in a data provider dataset, from which jurisdictions, and what depth of data is included (e.g., which properties, addresses with what geo resolution, etc.). We thus need to express both metadata about the dataset itself, and fine-grained statistics about the content of a dataset, as shown in the figure below.
+
+![](https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-dataset-classes.png)
 
 """.
 
@@ -292,7 +338,7 @@ ebg:LAURegion a rdfs:Class;
   skos:example
     "LAU1 BG: Общини (Obshtini)",
     "LAU1 CH: Bezirke Districts Distretti",
-    "LAU1 CY: Επαρχίες (Eparchies)",
+    "LAU1 CY: Επαpχίες (Eparchies)",
     "LAU1 CZ: Okresy",
     "LAU1 DE: Verwaltungs- gemeinschaften",
     "LAU1 DK: Kommuner",
@@ -320,7 +366,7 @@ ebg:LAURegion a rdfs:Class;
     "LAU2 AL: Bashki / Komunë",
     "LAU2 AT: Gemeinden",
     "LAU2 BE: Gemeenten / Communes",
-    "LAU2 BG: Населени места (Naseleni mesta)",
+    "LAU2 BG: Naseleni mesta",
     "LAU2 CH: Gemeinden Communes Comuni",
     "LAU2 CY: Δήμοι, Κοινότητες (Dimoi, koinotites)",
     "LAU2 CZ: Obce",
@@ -340,8 +386,8 @@ ebg:LAURegion a rdfs:Class;
     "LAU2 LT: Seniūnijos",
     "LAU2 LU: Communes",
     "LAU2 LV: Republikas pilsētas, novadi",
-    "LAU2 ME: Насеља (Naselja)",
-    "LAU2 MK: Населени места (Naseleni mesta)",
+    "LAU2 ME: Naselja",
+    "LAU2 MK: Naseleni mesta",
     "LAU2 MT: Kunsilli",
     "LAU2 NL: Gemeenten",
     "LAU2 NO: Kommuner",
@@ -349,7 +395,7 @@ ebg:LAURegion a rdfs:Class;
     "LAU2 PT: Freguesias",
     "LAU2 RO: Comuni + Municipiu + Orase",
     "LAU2 SE: Kommuner",
-    "LAU2 SI: Občine",
+    "LAU2 SI: Obcine",
     "LAU2 SK: Obce",
     "LAU2 TR: Köy",
     "LAU2 UK: Wards (or parts thereof)".
@@ -417,7 +463,7 @@ ebg:isImmutable a owl:DatatypeProperty ;
   schema:domainIncludes ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:boolean ;
   skos:definition "whether identifiers can change" ;
-  skos:example "Some registers encode additional information within the identifier (e.g., some identifiers encode the economic sector of the company). In these cases the identifier changes when the extra information that is encoded changes (see “Dumb vs. Intelligent Identifiers” in Section 3.1.2.5)." .
+  skos:example "Some registers encode additional information within the identifier (e.g., some identifiers encode the economic sector of the company). In these cases the identifier changes when the extra information that is encoded changes (see 'Dumb vs. Intelligent Identifiers' in Section 3.1.2.5)." .
 
 ebg:isOfficial a owl:DatatypeProperty ;
   rdfs:isDefinedBy ebg: ;
@@ -436,7 +482,7 @@ ebg:isPersistent a owl:DatatypeProperty ;
   schema:domainIncludes ebg:IdentifierSystem ;
   schema:rangeIncludes xsd:boolean ;
   skos:definition "Whether identifiers can be removed from the register (e.g., when a company is dissolved): such are not persistent" ;
-  skos:scopeNote "Some registers “remove” identifiers when the object they relate to is no longer active, whereas the best practice is to make such identifiers Obsolete.".
+  skos:scopeNote "Some registers 'remove' identifiers when the object they relate to is no longer active, whereas the best practice is to make such identifiers Obsolete.".
 
 ebg:isPublic a owl:DatatypeProperty ;
  rdfs:isDefinedBy ebg: ;
@@ -537,7 +583,6 @@ ebg:orgTypeText a owl:DatatypeProperty ;
   rdfs:label "type text" ;
   skos:definition "Company Type (Entity Legal Form) as reported by a national company registe (free text)." ;
   skos:example "Private Limited Company"@en ;
-  skos:example "Дружество с ограничена отговорност"@bg ;
   skos:example "Società a responsabilità limitata"@it .
 
 ebg:ralCode a owl:DatatypeProperty ;
@@ -573,7 +618,7 @@ ebg:validationRule a owl:ObjectProperty ;
   schema:domainIncludes ebg:IdentifierSystem ;
   schema:rangeIncludes rdf:Resource ;
   skos:definition "URL providing human or machine-readable rule(s) for validating identifiers in the system" ;
-  skos:example "http://bsv-bg.com/контролни-цифри-ползвани-в-българия/ describes the BG EIK checksum algorithm in HTML",
+  skos:example "http://bsv-bg.com/ describes the BG EIK checksum algorithm in HTML",
     "http://www.nsi.bg/sites/default/files/konkursi/RGP_OPAK_2014_Annex_6.pdf describes the BG EIK checksum algorithm in PDF. It is by an official source, but is less convenient" ;
   skos:scopeNote "Can be in the form of webpage, PDF document, RDF shape, etc. Multiple values about the same validation rule are ok." .
 
@@ -801,7 +846,7 @@ rov:RegisteredOrganization a rdfs:Class ;
 rov:legalName a owl:DatatypeProperty ;
   schema:domainIncludes rov:RegisteredOrganization , schema:Organization ;
   schema:rangeIncludes rdf:langString ;
-  skos:scopeNote "A business may have more than one legal name, particularly in jurisdictions with more than one official language (e.g. Belgium). Some registries also treat a transliterated name as official (e.g. Онтотекст vs Ontotext) [ebg:]" ;
+  skos:scopeNote "A business may have more than one legal name, particularly in jurisdictions with more than one official language (e.g. Belgium). Some registries also treat a transliterated name as official [ebg:]" ;
   skos:scopeNote "Provide a legal language tag (see [iana:] for a list) if possible." ;
   skos:scopeNote "Don't allow leading, trailing and two consecutive spaces." ;
   rdfs:label "legal name" ;
@@ -809,7 +854,6 @@ rov:legalName a owl:DatatypeProperty ;
   skos:example "Ontotext"@en ;
   skos:example "PROGIENE 2.000 I PROFESSIONISTI DELL'IGIENE S.R.L. ENUNCIABILE ANCHE: PROGIENE 2.000 S.R.L."@it ;
   skos:example "CHRINON LTD" ;
-  skos:example "Онтотекст"@bg ;
   skos:example "Ontotext"@en .
 
 rov:orgActivity a owl:ObjectProperty ;
