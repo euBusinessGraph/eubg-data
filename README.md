@@ -65,5 +65,5 @@ This repository contains the sources for the euBusinessGraph Semantic Model for 
 For further details about the euBusinessGraph ontology:
 
 * [Semantic Data Model master document on Google Docs](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit)
-* [Ontology documentation generated using LODE](https://rawgit.com/euBusinessGraph/eubg-data/master/ontology/index.html)
+* [Ontology documentation generated using pyLODE](https://rawcdn.githack.com/euBusinessGraph/eubg-data/master/ontology/doc.html)
 * [Ontology introduction on the euBusinessGraph project website](http://www.eubusinessgraph.eu/eubusinessgraph-ontology-for-company-data)
