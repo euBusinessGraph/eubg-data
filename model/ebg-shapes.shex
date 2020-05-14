@@ -52,7 +52,7 @@ ebgsh:NUTS0 CLOSED {
   a [ramon:NUTSRegion] ;
   rdfs:label               xsd:string;
   ramon:name               xsd:string;
-  ramon:code               xsd:string /[A-Z]{2}/;
+  ramon:code               xsd:string /^[A-Z]{2}$/;
   ramon:level              [0];
 }
 

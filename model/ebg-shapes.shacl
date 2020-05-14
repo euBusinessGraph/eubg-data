@@ -1,58 +1,504 @@
-ebgsh:Company a sh:NodeShape;
-  sh:targetClass rov:RegisteredOrganization;
-  sh:class       rov:RegisteredOrganization; # check class: needed if this shape is entered NOT through sh:targetClass
-  sh:closed true;
-  sh:nodeKind sh:IRI;
-  sh:pattern "^http://data.businessgraph.io/company/[A-Z]{2}/.+/";
-  sh:property [sh:path rov:legalName;
-    sh:or ([sh:datatype xsd:string] [sh:datatype rdf:langString]);
-    sh:not ([sh:pattern "^ | $| {2}"]); sh:minCount 1];
-  sh:property [sh:path skos:prefLabel;
-    sh:or ([sh:datatype xsd:string] [sh:datatype rdf:langString]);
-    sh:not (sh:pattern "^ | $| {2}"); sh:minCount 1; sh:maxCount 1];
-  sh:property [sh:path skos:altLabel;
-    sh:or ([sh:datatype xsd:string] [sh:datatype rdf:langString]);
-    sh:not (sh:pattern "^ | $| {2}")];
-  sh:property [sh:path rov:orgType;
-    sh:nodeKind sh:IRI; sh:pattern "^http://data.businessgraph.io/type/.+"; sh:maxCount 1];
-  sh:property [sh:path ebg:orgTypeText;
-    sh:datatype rdfs:langString; sh:maxCount 1];
-  sh:property [sh:path ebg:isStartup;
-    sh:datatype xsd:boolean; sh:maxCount 1];
-  sh:property [sh:path ebg:isStateOwned;
-    sh:datatype xsd:boolean; sh:maxCount 1];
-  sh:property [sh:path ebg:isPubliclyTraded;
-    sh:datatype xsd:boolean; sh:maxCount 1];
-  sh:property [sh:path rov:orgStatus;
-    sh:nodeKind sh:IRI; sh:pattern "^http://data.businessgraph.io/status/.+"; sh:maxCount 1];
-  sh:property [sh:path ebg:orgStatusText;
-    sh:datatype rdfs:langString; sh:maxCount 1];
-  sh:property [sh:path rov:orgActivity;
-    sh:nodeKind sh:IRI; sh:pattern "^http://data.businessgraph.io/nace/.+"];
-  sh:property [sh:path ebg:orgActivityText;
-    sh:datatype rdfs:langString; sh:maxCount 1];
-  sh:property [sh:path schema:foundingDate;
-    sh:or ([sh:datatype xsd:date] [sh:datatype xsd:gYearMonth] [sh:datatype xsd:gYear]); sh:maxCount 1];
-  sh:property [sh:path schema:dissolutionDate;
-    sh:or ([sh:datatype xsd:date] [sh:datatype xsd:gYearMonth] [sh:datatype xsd:gYear]); sh:maxCount 1];
-  sh:property [sh:path schema:availableLanguage;
-    sh:datatype xsd:string; sh:maxCount 1];
-  sh:property [sh:path schema:url;
-    sh:nodeKind sh:IRI; ];
-  sh:property [sh:path schema:sameAs;
-    sh:nodeKind sh:IRI; ];
-  sh:property [sh:path schema:email;
-    sh:nodeKind sh:IRI; sh:pattern "^mailto:.+"];
-  sh:property [sh:path sioc:feed;
-    sh:nodeKind sh:IRI; ];
-  sh:property [sh:path dbo:jurisdiction;
-    sh:datatype xsd:string; sh:pattern "^[A-Z]{2}$"];
-  sh:property [sh:path org:hasRegisteredSite;
-    sh:node ebgsh:Address; sh:maxCount 1];
-  sh:property [sh:path org:hasSite;
-    sh:node ebgsh:Address];
-  sh:property [sh:path rov:registration;
-    sh:node ebgsh:Identifier; sh:minCount 1; sh:maxCount 1];
-  sh:property [sh:path adms:identifier;
-    sh:node ebgsh:Identifier];
-}
+@prefix schema: <http://schema.org/> .
+@prefix ebgsh: <http://data.businessgraph.io/shape#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix ramon: <http://rdfdata.eionet.europa.eu/ramon/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ngeo:  <http://geovocab.org/geometry#> .
+@prefix puml:  <http://plantuml.com/ontology#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rov:   <http://www.w3.org/ns/regorg#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix spatial: <http://geovocab.org/spatial#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:  <http://rdfs.org/sioc/ns#> .
+@prefix lau:   <http://data.businessgraph.io/lau/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix nace:  <http://data.businessgraph.io/nace/> .
+@prefix ebg:   <http://data.businessgraph.io/ontology#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix ebg-id: <http://data.businessgraph.io/identifier/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix nuts:  <http://nuts.geovocab.org/id/> .
+@prefix person: <http://www.w3.org/ns/person#> .
+@prefix ebg-comp: <http://data.businessgraph.io/company/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+ebgsh:NUTS1  a          sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "http://nuts.geovocab.org/id/[A-Z]{2}[0-9]$" ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:NUTS0 ;
+                          sh:path      spatial:PP
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      rdfs:label
+                        ] ;
+        sh:property     [ sh:hasValue  ramon:NUTSRegion ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:code ;
+                          sh:pattern   "^[A-Z]{2}[0-9]$"
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:name
+                        ] ;
+        sh:property     [ sh:hasValue  1 ;
+                          sh:path      ramon:level
+                        ] ;
+        sh:targetClass  ramon:NUTSRegion .
+
+ebgsh:Company  a        sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "^http://data.businessgraph.io/company/[A-Z]{2}/.+/" ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:Address ;
+                          sh:path      org:hasRegisteredSite
+                        ] ;
+        sh:property     [ sh:nodeKind  sh:IRI ;
+                          sh:path      sioc:feed
+                        ] ;
+        sh:property     [ sh:class     rdfs:langString ;
+                          sh:maxCount  1 ;
+                          sh:path      ebg:orgActivityText
+                        ] ;
+        sh:property     [ sh:datatype  xsd:boolean ;
+                          sh:maxCount  1 ;
+                          sh:path      ebg:isPubliclyTraded
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:path      dbo:jurisdiction ;
+                          sh:pattern   "^[A-Z]{2}$"
+                        ] ;
+        sh:property     [ sh:nodeKind  sh:IRI ;
+                          sh:path      rov:orgActivity ;
+                          sh:pattern   "^http://data.businessgraph.io/nace/.+"
+                        ] ;
+        sh:property     [ sh:datatype  xsd:boolean ;
+                          sh:maxCount  1 ;
+                          sh:path      ebg:isStateOwned
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:or        ( [ sh:datatype  xsd:date ]
+                                         [ sh:datatype  xsd:gYearMonth ]
+                                         [ sh:datatype  xsd:gYear ]
+                                       ) ;
+                          sh:path      schema:dissolutionDate
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:Identifier ;
+                          sh:path      rov:registration
+                        ] ;
+        sh:property     [ sh:not   [ sh:pattern  "^ | $| {2}" ] ;
+                          sh:or    ( [ sh:datatype  xsd:string ]
+                                     [ sh:datatype  rdf:langString ]
+                                   ) ;
+                          sh:path  skos:altLabel
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:path      schema:availableLanguage
+                        ] ;
+        sh:property     [ sh:nodeKind  sh:IRI ;
+                          sh:path      schema:url
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      rov:orgStatus ;
+                          sh:pattern   "^http://data.businessgraph.io/status/.+"
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      rov:orgType ;
+                          sh:pattern   "^http://data.businessgraph.io/type/.+"
+                        ] ;
+        sh:property     [ sh:nodeKind  sh:IRI ;
+                          sh:path      schema:email ;
+                          sh:pattern   "^mailto:.+"
+                        ] ;
+        sh:property     [ sh:class     rdfs:langString ;
+                          sh:maxCount  1 ;
+                          sh:path      ebg:orgTypeText
+                        ] ;
+        sh:property     [ sh:class     rdfs:langString ;
+                          sh:maxCount  1 ;
+                          sh:path      ebg:orgStatusText
+                        ] ;
+        sh:property     [ sh:datatype  xsd:boolean ;
+                          sh:maxCount  1 ;
+                          sh:path      ebg:isStartup
+                        ] ;
+        sh:property     [ sh:minCount  1 ;
+                          sh:not       [ sh:pattern  "^ | $| {2}" ] ;
+                          sh:or        ( [ sh:datatype  xsd:string ]
+                                         [ sh:datatype  rdf:langString ]
+                                       ) ;
+                          sh:path      rov:legalName
+                        ] ;
+        sh:property     [ sh:node  ebgsh:Identifier ;
+                          sh:path  adms:identifier
+                        ] ;
+        sh:property     [ sh:nodeKind  sh:IRI ;
+                          sh:path      schema:sameAs
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:not       [ sh:pattern  "^ | $| {2}" ] ;
+                          sh:or        ( [ sh:datatype  xsd:string ]
+                                         [ sh:datatype  rdf:langString ]
+                                       ) ;
+                          sh:path      skos:prefLabel
+                        ] ;
+        sh:property     [ sh:node  ebgsh:Address ;
+                          sh:path  org:hasSite
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:or        ( [ sh:datatype  xsd:date ]
+                                         [ sh:datatype  xsd:gYearMonth ]
+                                         [ sh:datatype  xsd:gYear ]
+                                       ) ;
+                          sh:path      schema:foundingDate
+                        ] ;
+        sh:property     [ sh:hasValue  rov:RegisteredOrganization ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:targetClass  rov:RegisteredOrganization .
+
+ebgsh:Address  a        sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?" ;
+        sh:property     [ sh:hasValue  org:Site ;
+                          sh:maxCount  2 ;
+                          sh:minCount  2 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:NUTS0 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      locn:adminUnitL1
+                        ] ;
+        sh:property     [ sh:hasValue  locn:Address ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:path      locn:locatorDesignator
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:or        ( [ sh:datatype  xsd:string ]
+                                         [ sh:datatype  rdf:langString ]
+                                       ) ;
+                          sh:path      locn:fullAddress
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:path      locn:poBox
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:NUTS1 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      locn:adminUnitL2
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:GeoCoordinates ;
+                          sh:path      schema:geo
+                        ] ;
+        sh:property     [ sh:class  locn:Address ;
+                          sh:path   org:siteAddress
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:LAU1 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      ebg:adminUnitL5
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:NUTS2 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      ebg:adminUnitL3
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:or        ( [ sh:datatype  rdf:langString ]
+                                         [ sh:datatype  xsd:string ]
+                                       ) ;
+                          sh:path      locn:postName
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:path      locn:postCode
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:or        ( [ sh:datatype  rdf:langString ]
+                                         [ sh:datatype  xsd:string ]
+                                       ) ;
+                          sh:path      locn:addressArea
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:or        ( [ sh:datatype  rdf:langString ]
+                                         [ sh:datatype  xsd:string ]
+                                       ) ;
+                          sh:path      locn:thoroughfare
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:NUTS3 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      ebg:adminUnitL4
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:node      ebgsh:LAU2 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      ebg:adminUnitL6
+                        ] ;
+        sh:targetClass  locn:Address .
+
+ebgsh:GeoCoordinates  a  sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?/geo$" ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      ebg:geoResolution ;
+                          sh:pattern   "^http://data.businessgraph.io/resolution/"
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:or        ( [ sh:datatype  xsd:decimal ]
+                                         [ sh:datatype  xsd:string ]
+                                       ) ;
+                          sh:path      schema:longitude
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:or        ( [ sh:datatype  xsd:decimal ]
+                                         [ sh:datatype  xsd:string ]
+                                       ) ;
+                          sh:path      schema:latitude
+                        ] ;
+        sh:property     [ sh:hasValue  schema:GeoCoordinates ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:targetClass  schema:GeoCoordinates .
+
+ebgsh:NUTS0  a          sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "http://nuts.geovocab.org/id/[A-Z]{2}$" ;
+        sh:property     [ sh:hasValue  0 ;
+                          sh:path      ramon:level
+                        ] ;
+        sh:property     [ sh:hasValue  ramon:NUTSRegion ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:code ;
+                          sh:pattern   "^[A-Z]{2}$"
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      rdfs:label
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:name
+                        ] ;
+        sh:targetClass  ramon:NUTSRegion .
+
+ebgsh:Identifier  a     sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "^http://data.businessgraph.io/company/[A-Z]{2}/.+/id(/[A-Z]+)?" ;
+        sh:property     []  ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:nodeKind  sh:IRI ;
+                          sh:path      dct:creator ;
+                          sh:pattern   "^http://data.businessgraph.io/register/"
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      skos:notation
+                        ] ;
+        sh:property     [ sh:hasValue  adms:Identifier ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:targetClass  adms:Identifier .
+
+ebgsh:LAU2  a           sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "^http://data.businessgraph.io/lau/[A-Z]{2}-.+/" ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      rdfs:label
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:LAU1 ;
+                          sh:path      spatial:PP
+                        ] ;
+        sh:property     [ sh:hasValue  lau: ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      void:inDataset
+                        ] ;
+        sh:property     [ sh:hasValue  5 ;
+                          sh:path      ramon:level
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:code ;
+                          sh:pattern   "^[A-Z]{2}-.+"
+                        ] ;
+        sh:property     [ sh:datatype  xsd:integer ;
+                          sh:maxCount  1 ;
+                          sh:path      dbo:populationTotal
+                        ] ;
+        sh:property     [ sh:datatype  xsd:integer ;
+                          sh:maxCount  1 ;
+                          sh:path      dbo:areaTotal
+                        ] ;
+        sh:property     [ sh:hasValue  ebg:LAURegion ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:datatype  rdf:langString ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:name
+                        ] ;
+        sh:targetClass  ebg:LAURegion .
+
+ebgsh:LAU1  a           sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "^http://data.businessgraph.io/lau/[A-Z]{2}-.+" ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:code ;
+                          sh:pattern   "^[A-Z]{2}-.+"
+                        ] ;
+        sh:property     [ sh:hasValue  4 ;
+                          sh:path      ramon:level
+                        ] ;
+        sh:property     [ sh:datatype  rdf:langString ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:name
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      rdfs:label
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:NUTS3 ;
+                          sh:path      spatial:PP
+                        ] ;
+        sh:property     [ sh:hasValue  ebg:LAURegion ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:hasValue  lau: ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      void:inDataset
+                        ] ;
+        sh:targetClass  ebg:LAURegion .
+
+ebgsh:NUTS3  a          sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "http://nuts.geovocab.org/id/[A-Z]{2}[0-9]{3}$" ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      rdfs:label
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:NUTS2 ;
+                          sh:path      spatial:PP
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:code ;
+                          sh:pattern   "^[A-Z]{2}[0-9]{3}$"
+                        ] ;
+        sh:property     [ sh:hasValue  3 ;
+                          sh:path      ramon:level
+                        ] ;
+        sh:property     [ sh:hasValue  ramon:NUTSRegion ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:name
+                        ] ;
+        sh:targetClass  ramon:NUTSRegion .
+
+ebgsh:NUTS2  a          sh:NodeShape ;
+        sh:closed       true ;
+        sh:nodeKind     sh:IRI ;
+        sh:pattern      "http://nuts.geovocab.org/id/[A-Z]{2}[0-9]{2}$" ;
+        sh:property     [ sh:hasValue  2 ;
+                          sh:path      ramon:level
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      rdfs:label
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:name
+                        ] ;
+        sh:property     [ sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:node      ebgsh:NUTS1 ;
+                          sh:path      spatial:PP
+                        ] ;
+        sh:property     [ sh:datatype  xsd:string ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      ramon:code ;
+                          sh:pattern   "^[A-Z]{2}[0-9]{2}$"
+                        ] ;
+        sh:property     [ sh:hasValue  ramon:NUTSRegion ;
+                          sh:maxCount  1 ;
+                          sh:minCount  1 ;
+                          sh:path      rdf:type
+                        ] ;
+        sh:targetClass  ramon:NUTSRegion .

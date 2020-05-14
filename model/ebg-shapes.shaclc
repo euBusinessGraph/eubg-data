@@ -1,8 +1,43 @@
+### Own prefixes
+PREFIX ebg:               <http://data.businessgraph.io/ontology#> 
+PREFIX ebgsh:             <http://data.businessgraph.io/shape#> 
+PREFIX nace:              <http://data.businessgraph.io/nace/>
+PREFIX lau:               <http://data.businessgraph.io/lau/>
+PREFIX ebg-id:            <http://data.businessgraph.io/identifier/> 
+PREFIX ebg-comp:          <http://data.businessgraph.io/company/>  
+
+### External prefixes
+PREFIX adms:    <http://www.w3.org/ns/adms#> 
+PREFIX dbo:     <http://dbpedia.org/ontology/>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dct:     <http://purl.org/dc/terms/> 
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/> 
+PREFIX locn:    <http://www.w3.org/ns/locn#>
+PREFIX ngeo:    <http://geovocab.org/geometry#> 
+PREFIX nuts:    <http://nuts.geovocab.org/id/>
+PREFIX org:     <http://www.w3.org/ns/org#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#> 
+PREFIX person:  <http://www.w3.org/ns/person#> 
+PREFIX puml:    <http://plantuml.com/ontology#>
+PREFIX ramon:   <http://rdfdata.eionet.europa.eu/ramon/ontology/> 
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rov:     <http://www.w3.org/ns/regorg#>
+PREFIX schema:  <http://schema.org/> 
+PREFIX sioc:    <http://rdfs.org/sioc/ns#> 
+PREFIX sh:      <http://www.w3.org/ns/shacl#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#> 
+PREFIX spatial: <http://geovocab.org/spatial#> 
+PREFIX time:    <http://www.w3.org/2006/time#>
+PREFIX vann:    <http://purl.org/vocab/vann/> 
+PREFIX void:    <http://rdfs.org/ns/void#> 
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#> 
+
 shape ebgsh:Company -> rov:RegisteredOrganization {
-  closed=true
-  nodeKind=IRI
-  pattern="^http://data.businessgraph.io/company/[A-Z]{2}/.+/"
-  rdf:type                 rov:RegisteredOrganization .
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "^http://data.businessgraph.io/company/[A-Z]{2}/.+/" .
+  rdf:type                 hasValue=rov:RegisteredOrganization [1..1].
   rov:legalName            xsd:string|rdf:langString !pattern="^ | $| {2}" [1..*] .
   skos:prefLabel           xsd:string|rdf:langString !pattern="^ | $| {2}" [1..1] .
   skos:altLabel            xsd:string|rdf:langString !pattern="^ | $| {2}" [0..*] .
@@ -13,19 +48,136 @@ shape ebgsh:Company -> rov:RegisteredOrganization {
   ebg:isPubliclyTraded     xsd:boolean [0..1] .
   rov:orgStatus            IRI pattern="^http://data.businessgraph.io/status/.+" [0..1] .
   ebg:orgStatusText        rdfs:langString [0..1] .
-  rov:orgActivity          IRI pattern="^http://data.businessgraph.io/nace/.+" .
+  rov:orgActivity          IRI pattern="^http://data.businessgraph.io/nace/.+" [0..*].
   ebg:orgActivityText      rdfs:langString [0..1] .
   schema:foundingDate      xsd:date|xsd:gYearMonth|xsd:gYear [0..1] .
   schema:dissolutionDate   xsd:date|xsd:gYearMonth|xsd:gYear [0..1] .
   schema:availableLanguage xsd:string [0..1] .
-  schema:url               IRI .
-  schema:sameAs            IRI .
-  schema:email             IRI pattern="^mailto:.+" .
-  sioc:feed                IRI .
-  dbo:jurisdiction         xsd:string pattern="^[A-Z]{2}$" .
+  schema:url               IRI [0..*].
+  schema:sameAs            IRI [0..*].
+  schema:email             IRI pattern="^mailto:.+" [0..*].
+  sioc:feed                IRI [0..*].
+  dbo:jurisdiction         xsd:string pattern="^[A-Z]{2}$" [0..*].
   org:hasRegisteredSite    @ebgsh:Address [0..1] .
-  org:hasSite              @ebgsh:Address .
+  org:hasSite              @ebgsh:Address [0..*].
   rov:registration         @ebgsh:Identifier [1..1] .
-  adms:identifier          @ebgsh:Identifier .
+  adms:identifier          @ebgsh:Identifier [0..*].
 }
 
+shape ebgsh:Address -> locn:Address{
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?" .
+  rdf:type                 hasValue = org:Site [2..2].
+  rdf:type                 hasValue = locn:Address .
+  org:siteAddress          class=locn:Address .
+  locn:fullAddress         xsd:string|rdf:langString [0..1] .
+  locn:adminUnitL1         IRI @ebgsh:NUTS0 [1..1] .
+  locn:adminUnitL2         IRI @ebgsh:NUTS1 [0..1] .
+  ebg:adminUnitL3          IRI @ebgsh:NUTS2 [0..1] .
+  ebg:adminUnitL4          IRI @ebgsh:NUTS3 [0..1] .
+  ebg:adminUnitL5          IRI @ebgsh:LAU1 [0..1] .
+  ebg:adminUnitL6          IRI @ebgsh:LAU2 [0..1] .
+  locn:postName            rdf:langString|xsd:string [0..1] .
+  locn:addressArea         rdf:langString|xsd:string [0..1] .
+  locn:thoroughfare        rdf:langString|xsd:string [0..1] .
+  locn:locatorDesignator   xsd:string [0..1] .
+  locn:postCode            xsd:string [0..1] .
+  locn:poBox               xsd:string [0..1] .
+  schema:geo               @ebgsh:GeoCoordinates [0..1] .
+}
+
+shape ebgsh:NUTS0 -> ramon:NUTSRegion {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "http://nuts.geovocab.org/id/[A-Z]{2}$" .
+  rdf:type                 hasValue = ramon:NUTSRegion [1..1] .
+  rdfs:label               xsd:string [1..*] .
+  ramon:name               xsd:string [1..*] .
+  ramon:code               xsd:string pattern="^[A-Z]{2}$" [1..1] .
+  ramon:level              hasValue = 0 .
+}
+
+shape ebgsh:NUTS1 -> ramon:NUTSRegion {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "http://nuts.geovocab.org/id/[A-Z]{2}[0-9]$" .
+  rdf:type                 hasValue = ramon:NUTSRegion [1..1] .
+  rdfs:label               xsd:string [1..*] .
+  ramon:name               xsd:string [1..*] .
+  ramon:code               xsd:string pattern="^[A-Z]{2}[0-9]$" [1..1] .
+  ramon:level              hasValue = 1 .
+  spatial:PP               @ebgsh:NUTS0 [1..1] .
+}
+
+shape ebgsh:NUTS2 -> ramon:NUTSRegion {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "http://nuts.geovocab.org/id/[A-Z]{2}[0-9]{2}$" .
+  rdf:type                 hasValue = ramon:NUTSRegion [1..1] .
+  rdfs:label               xsd:string [1..*] .
+  ramon:name               xsd:string [1..*] .
+  ramon:code               xsd:string pattern = "^[A-Z]{2}[0-9]{2}$" [1..1].
+  ramon:level              hasValue = 2 .
+  spatial:PP               @ebgsh:NUTS1 [1..1] .
+}
+
+shape ebgsh:NUTS3 -> ramon:NUTSRegion {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "http://nuts.geovocab.org/id/[A-Z]{2}[0-9]{3}$" .
+  rdf:type                 hasValue = ramon:NUTSRegion [1..1] .
+  rdfs:label               xsd:string [1..*].
+  ramon:name               xsd:string [1..*].
+  ramon:code               xsd:string pattern="^[A-Z]{2}[0-9]{3}$" [1..1].
+  ramon:level              hasValue = 3 .
+  spatial:PP               @ebgsh:NUTS2 [1..1] .
+}
+
+shape ebgsh:LAU1 -> ebg:LAURegion {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "^http://data.businessgraph.io/lau/[A-Z]{2}-.+" .
+  rdf:type                 hasValue = ebg:LAURegion [1..1] .
+  void:inDataset           hasValue = lau: [1..1] .
+  rdfs:label               xsd:string [1..*].
+  ramon:name               rdf:langString [1..*] .
+  ramon:code               xsd:string pattern="^[A-Z]{2}-.+" [1..1] .
+  ramon:level              hasValue = 4 .
+  spatial:PP               @ebgsh:NUTS3 [1..1].
+}
+
+shape ebgsh:LAU2 -> ebg:LAURegion {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "^http://data.businessgraph.io/lau/[A-Z]{2}-.+/" .
+  rdf:type                 hasValue = ebg:LAURegion [1..1] .
+  void:inDataset           hasValue = lau: [1..1] .
+  rdfs:label               xsd:string [1..*] .
+  ramon:name               rdf:langString [1..*] .
+  ramon:code               xsd:string pattern="^[A-Z]{2}-.+" [1..1] .
+  ramon:level              hasValue = 5 .
+  spatial:PP               @ebgsh:LAU1 [1..1].
+  dbo:populationTotal      xsd:integer [0..1] .
+  dbo:areaTotal            xsd:integer [0..1] .
+}
+
+shape ebgsh:GeoCoordinates -> schema:GeoCoordinates {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "^http://data.businessgraph.io/company/[A-Z]{2}/.+/address(/.+)?/geo$" .
+  rdf:type                 hasValue = schema:GeoCoordinates [1..1].
+  schema:latitude          xsd:decimal|xsd:string [1..1] .
+  schema:longitude         xsd:decimal|xsd:string [1..1] .
+  ebg:geoResolution        IRI pattern="^http://data.businessgraph.io/resolution/" [1..1] .
+}
+
+shape ebgsh:Identifier -> adms:Identifier {
+  closed   = true
+  nodeKind = sh:IRI
+  pattern  = "^http://data.businessgraph.io/company/[A-Z]{2}/.+/id(/[A-Z]+)?" .
+  rdf:type                 hasValue = adms:Identifier [1..1].
+  skos:notation            xsd:string [1..1] .
+  dct:creator              IRI pattern="^http://data.businessgraph.io/register/" [1..1] .
+  dct:issued               xsd:date [0..1] .
+}
