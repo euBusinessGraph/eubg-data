@@ -1068,7 +1068,7 @@ schema:identifier a owl:DatatypeProperty;
   schema:rangeIncludes xsd:string ;
   rdfs:label "identifier" ;
   skos:definition "An identifier for a resource." ;
-  skos:scopeNote "Used to represent the identifier (e.g. URL) of a Person or Organization related to an IdentifierSystem or an Identifier." .
+  skos:scopeNote "Used to represent the identifier (e.g. URL) of a Person or Organization." .
 
 person:birthName a owl:DatatypeProperty;
   schema:domainIncludes person:Person ;
@@ -1083,7 +1083,7 @@ schema:gender a owl:DatatypeProperty;
   rdfs:label "person gender" ;
   skos:definition "The gender of the person." .
 
-schema:gender a owl:DatatypeProperty;
+schema:birthDate a owl:DatatypeProperty;
   schema:domainIncludes person:Person ;
   schema:rangeIncludes xsd:string ;
   rdfs:label "person birth date" ;
