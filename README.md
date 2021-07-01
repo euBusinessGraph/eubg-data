@@ -64,7 +64,7 @@ This repository contains the sources for the euBusinessGraph Semantic Model for 
 # References
 For further details about the euBusinessGraph ontology:
 
-* [euBusinessGraph ontology on Linked Open Vocabularies (LOD)](https://lov.linkeddata.es/dataset/lov/vocabs/ebg)
+* [euBusinessGraph ontology on Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/vocabs/ebg)
 * [Semantic Data Model master document on Google Docs](https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit)
 * [Ontology documentation generated using pyLODE](https://rawcdn.githack.com/euBusinessGraph/eubg-data/master/ontology/doc.html)
 * [Ontology introduction on the euBusinessGraph project website](http://www.eubusinessgraph.eu/eubusinessgraph-ontology-for-company-data)
