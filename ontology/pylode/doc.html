@@ -1,0 +1,3740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>euBusinessGraph ontology</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <style>
+#pylode {
+    position: fixed;
+    top: 80px;
+    left: -60px;
+    font-size: small;
+    transform: rotate(-90deg);
+    color: grey;
+}
+#pylode a {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #005A9C;
+}
+#pylode a:hover {
+    color: #333;
+}
+
+.cardinality {
+    font-style: italic;
+    color: #aa00aa;
+}
+
+dt {
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+ul.hlist {
+    list-style-type: none;
+    border: 1px solid navy;
+    padding:5px;
+    background-color: #F4FFFF;
+}
+
+
+ul.hlist li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.entity {
+    border: 1px solid navy;
+    margin:5px 0 5px 0;
+    padding: 5px;
+}
+
+.entity th {
+    width: 150px;
+    vertical-align: top;
+}
+
+.entity th,
+.entity td {
+    padding-bottom: 20px;
+}
+
+.entity table th {
+    text-align: left;
+}
+
+section#overview img {
+    max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left
+}
+h1, h2, h3 {
+    color: #005A9C; background: white
+}
+h1 {
+    font: 170% sans-serif;
+    line-height: 110%;
+}
+h2 {
+    font: 140% sans-serif;
+    margin-top:40px;
+}
+h3 {
+    font: 120% sans-serif;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid navy;
+}
+h4 { font: bold 100% sans-serif }
+h5 { font: italic 100% sans-serif }
+h6 { font: small-caps 100% sans-serif }
+
+
+body {
+    padding: 2em 70px 2em 70px;
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+    background: white;
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+section {
+    max-width: 1500px;
+}
+
+.figure {
+    margin-bottom: 20px;
+}
+
+:link { color: #00C; background: transparent }
+:visited { color: #609; background: transparent }
+a:active { color: #C00; background: transparent }
+
+.sup-c,
+.sup-op,
+.sup-fp,
+.sup-dp,
+.sup-ap,
+.sup-p,
+.sup-ni {
+    cursor:help;
+    margin-left: 3px;
+}
+
+.sup-c {
+    color:orange;
+}
+
+.sup-op {
+    color:navy;
+}
+
+.sup-fp {
+    color:lightskyblue;
+}
+
+.sup-dp {
+    color:green;
+}
+
+.sup-ap {
+    color:darkred;
+}
+
+.sup-p {
+    color:black;
+}
+
+.sup-ni {
+    color:brown;
+}
+
+code {
+    font-size: large;
+    color: darkred;
+}
+
+    </style>
+    
+    <script type="application/ld+json">
+      [
+  {
+    "@id": "http://data.businessgraph.io/ontology#",
+    "@type": [
+      "https://schema.org/DefinedTermSet"
+    ],
+    "https://schema.org/codeRepository": [
+      {
+        "@id": "https://github.com/euBusinessGraph/eubg-data"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "<p>The euBusinessGraph (<code>ebg:</code>) ontology represents companies, type/status/economic classification, addresses, identifiers, company officers (e.g., directors and CEOs), and dataset offerings.</p>\n<p>It uses <code>schema:domainIncludes/rangeIncludes</code> (which are polymorphic) to describe which properties are applicable to a class, \nrather than <code>rdfs:domain/range</code> (which are monomorphic) to prescribe what classes must be applied to each node using a property.\nWe find that this enables more flexible reuse and combination of different ontologies.\nWe reuse the following ontologies and nomenclatures, and extend them where appropriate with classes and properties:</p>\n<ul>\n<li>\n<p>W3C Org, W3C RegOrg (basic company data), </p>\n</li>\n<li>\n<p>W3C Time (officer membership), </p>\n</li>\n<li>\n<p>W3C Locn (addresses),</p>\n</li>\n<li>\n<p>schema.org (domain/rangeIncludes and various properties)</p>\n</li>\n<li>\n<p>DBpedia ontology (jurisdiction)</p>\n</li>\n<li>\n<p>NGEO and Spatial (NUTS administrative divisions)</p>\n</li>\n<li>\n<p>ADMS (identifiers), </p>\n</li>\n<li>\n<p>FOAF, SIOC (blog posts),</p>\n</li>\n<li>\n<p>RAMON, SKOS (NACE economic classifications and various nomenclatures),</p>\n</li>\n<li>\n<p>VOID (dataset descriptions).</p>\n</li>\n</ul>\n<p>This is only a reference. See more detail in the <a href=\"https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit\">EBG Semantic Model</a> google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams.</p>\n<h2>Overview</h2>\n<p>The figure below gives an overview of the ontology, depicting the main classes and their relationships (i.e., object properties). The ontology covers the following areas:</p>\n<ul>\n<li>\n<p>Registered Organization: To represent a legal company.</p>\n</li>\n<li>\n<p>Identifier System: To represent Identifier Systems. A company can have several Identifiers belonging to different Identifier Systems.</p>\n</li>\n<li>\n<p>Officer: To represent associated company officers, e.g., directors.</p>\n</li>\n<li>\n<p>Dataset: To represent information about datasets that are offered by company data providers.</p>\n</li>\n</ul>\n<p><img alt=\"\" src=\"https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-overview.png\" /></p>\n<h3>Registered Organization (company)</h3>\n<p>Registered organizations are the main entities for which information is captured in the euBusinessGraph ontology. The ontology is not concerned with unregistered informal groups. Registered organizations gain legal entity status by the act of registration and are distinct from the broader concept of organizations, groups or, in some jurisdictions, sole traders. The figure below shows the classes and properties for representing core data about a registered organization.</p>\n<p><img alt=\"\" src=\"https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-company-classes.png\" /></p>\n<h3>Identifier System</h3>\n<p>Mechanisms to identify companies in various data sources are essential in integration of data about companies across data sources. A proper understanding of what kind of systems of identifiers can be used for companies is thus necessary in this context. We analyzed various types of identifiers commonly used for companies and collected various properties of the systems they are part of. We modelled identifiers and identifier systems explicitly in the ontology as shown in thew figure below.</p>\n<p><img alt=\"\" src=\"https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-identifier-classes.png\" /></p>\n<h3>Officer</h3>\n<p>We use the membership model of the W3C Organization Ontology in a straightforward way to represent officer data as shown in the figure below.</p>\n<p><img alt=\"\" src=\"https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-officer-classes.png\" /></p>\n<h3>Dataset Descriptions</h3>\n<p>Data consumers need to know how many companies are included in a data provider dataset, from which jurisdictions, and what depth of data is included (e.g., which properties, addresses with what geo resolution, etc.). We thus need to express both metadata about the dataset itself, and fine-grained statistics about the content of a dataset, as shown in the figure below.</p>\n<p><img alt=\"\" src=\"https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-dataset-classes.png\" /></p>"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@id": "<a href=\"https://opendatacommons.org/licenses/by/\">https://opendatacommons.org/licenses/by/</a>"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "euBusinessGraph ontology"
+      }
+    ]
+  }
+]
+    </script>
+</head>
+<body>
+<div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">pyLODE</a></div>
+<h1>euBusinessGraph ontology</h1>
+<section id="metadata">
+    <h2 style="display:none;">Metadata</h2>
+    <dl>
+        <dt>IRI</dt>
+        <dd><code>http://data.businessgraph.io/ontology#</code></dd>
+        <dt>Publisher</dt>
+        <dd>
+            <a href="http://eubusinessgraph.eu">The euBusinessGraph Project</a><br/>
+        </dd>
+        <dt>Creators (alphabetical order by surname)</dt>
+        <dd>
+            <a href="mailto:vladimir.alexiev@ontotext.com">Vladimir Alexiev</a><br/>
+            <a href="mailto:brian.elvesater@sintef.no">Brian Elvesæter</a><br/>
+            <a href="mailto:david.norheim@brreg.no">David Norheim</a><br/>
+            <a href="mailto:paniagua@spaziodati.eu">Javier Paniagua</a><br/>
+            <a href="mailto:dumitru.roman@sintef.no">Dumitru Roman</a><br/>
+            Fredrik Seehusen<br/>
+            <a href="mailto:boyan.simeonov@ontotext.com">Boyan Simeonov</a><br/>
+            <a href="mailto:ahmet.soylu@sintef.no">Ahmet Soylu</a><br/>
+            <a href="mailto:chris.taggart@opencorporates.com">Chris Taggart</a><br/>
+            Tatiana Tarasova<br/>
+            <a href="mailto:BjornMarius.vonZernichow@sintef.no">Bjørn Marius von Zernichow</a><br/>
+        </dd>
+        <dt>Contributors</dt>
+        <dd>
+            <a href="http://eubusinessgraph.eu/partners/">The euBusinessGraph Consortium</a><br/>
+        </dd>
+        <dt>Created</dt>
+        <dd>2017-07-11</dd>
+        <dt>Modified</dt>
+        <dd>2020-02-11</dd>
+        <dt>Version Information</dt>
+        <dd>1.4.1</dd>
+        <dt>License</dt>
+        <dd><a href="https://opendatacommons.org/licenses/by/">https://opendatacommons.org/licenses/by/</a></dd>
+        <dt>Ontology Source</dt>
+        <dd><a href="https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/ebg-ontology.ttl">RDF (turtle)</a></dd>
+        <dt>Code Repository</dt>
+        <dd><a href="https://github.com/euBusinessGraph/eubg-data">https://github.com/euBusinessGraph/eubg-data</a></dd>
+    </dl>
+    <h2>Description</h2>
+    <div id="description">
+        <p>The euBusinessGraph (<code>ebg:</code>) ontology represents companies, type/status/economic classification, addresses, identifiers, company officers (e.g., directors and CEOs), and dataset offerings.</p>
+<p>It uses <code>schema:domainIncludes/rangeIncludes</code> (which are polymorphic) to describe which properties are applicable to a class, 
+rather than <code>rdfs:domain/range</code> (which are monomorphic) to prescribe what classes must be applied to each node using a property.
+We find that this enables more flexible reuse and combination of different ontologies.
+We reuse the following ontologies and nomenclatures, and extend them where appropriate with classes and properties:</p>
+<ul>
+<li>
+<p>W3C Org, W3C RegOrg (basic company data), </p>
+</li>
+<li>
+<p>W3C Time (officer membership), </p>
+</li>
+<li>
+<p>W3C Locn (addresses),</p>
+</li>
+<li>
+<p>schema.org (domain/rangeIncludes and various properties)</p>
+</li>
+<li>
+<p>DBpedia ontology (jurisdiction)</p>
+</li>
+<li>
+<p>NGEO and Spatial (NUTS administrative divisions)</p>
+</li>
+<li>
+<p>ADMS (identifiers), </p>
+</li>
+<li>
+<p>FOAF, SIOC (blog posts),</p>
+</li>
+<li>
+<p>RAMON, SKOS (NACE economic classifications and various nomenclatures),</p>
+</li>
+<li>
+<p>VOID (dataset descriptions).</p>
+</li>
+</ul>
+<p>This is only a reference. See more detail in the <a href="https://docs.google.com/document/d/1dhMOTlIOC6dOK_jksJRX0CB-GIRoiYY6fWtCnZArUhU/edit">EBG Semantic Model</a> google document, which includes an informative description of classes and properties, gives examples and data provider rules, and provides more schema and instance diagrams.</p>
+    </div>
+</section>
+<section id="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#objectproperties">Object Properties</a></li>
+        <li><a href="#datatypeproperties">Datatype Properties</a></li>
+        <li><a href="#namespaces">Namespaces</a></li>
+        <li><a href="#legend">Legend</a></li>
+    </ol>
+</section>
+<section id="overview">
+    <h2>Overview</h2>
+    <p>The figure below gives an overview of the ontology, depicting the main classes and their relationships (i.e., object properties). The ontology covers the following areas:</p>
+    <ul>
+    <li>
+    <p>Registered Organization: To represent a legal company.</p>
+    </li>
+    <li>
+    <p>Identifier System: To represent Identifier Systems. A company can have several Identifiers belonging to different Identifier Systems.</p>
+    </li>
+    <li>
+    <p>Officer: To represent associated company officers, e.g., directors.</p>
+    </li>
+    <li>
+    <p>Dataset: To represent information about datasets that are offered by company data providers.</p>
+    </li>
+    </ul>
+    <p><img alt="" src="https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-overview.png" /></p>
+    <h3>Registered Organization (company)</h3>
+    <p>Registered organizations are the main entities for which information is captured in the euBusinessGraph ontology. The ontology is not concerned with unregistered informal groups. Registered organizations gain legal entity status by the act of registration and are distinct from the broader concept of organizations, groups or, in some jurisdictions, sole traders. The figure below shows the classes and properties for representing core data about a registered organization.</p>
+    <p><img alt="" src="https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-company-classes.png" /></p>
+    <h3>Identifier System</h3>
+    <p>Mechanisms to identify companies in various data sources are essential in integration of data about companies across data sources. A proper understanding of what kind of systems of identifiers can be used for companies is thus necessary in this context. We analyzed various types of identifiers commonly used for companies and collected various properties of the systems they are part of. We modelled identifiers and identifier systems explicitly in the ontology as shown in thew figure below.</p>
+    <p><img alt="" src="https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-identifier-classes.png" /></p>
+    <h3>Officer</h3>
+    <p>We use the membership model of the W3C Organization Ontology in a straightforward way to represent officer data as shown in the figure below.</p>
+    <p><img alt="" src="https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-officer-classes.png" /></p>
+    <h3>Dataset Descriptions</h3>
+    <p>Data consumers need to know how many companies are included in a data provider dataset, from which jurisdictions, and what depth of data is included (e.g., which properties, addresses with what geo resolution, etc.). We thus need to express both metadata about the dataset itself, and fine-grained statistics about the content of a dataset, as shown in the figure below.</p>
+    <p><img alt="" src="https://raw.githubusercontent.com/euBusinessGraph/eubg-data/master/model/images/ontology-dataset-classes.png" /></p>
+        </div>
+</section>
+<section id="classes">
+    <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#Address">Address</a></li>
+        <li><a href="#Concept">Concept</a></li>
+        <li><a href="#ConceptScheme">Concept Scheme</a></li>
+        <li><a href="#Geographiccoordinates">Geographic coordinates</a></li>
+        <li><a href="#Identifier">Identifier</a></li>
+        <li><a href="#IdentifierSystem">Identifier System</a></li>
+        <li><a href="#IdentifierWebResource">Identifier Web Resource</a></li>
+        <li><a href="#Instant">Instant</a></li>
+        <li><a href="#Interval">Interval</a></li>
+        <li><a href="#LAURegion">LAU Region</a></li>
+        <li><a href="#Membership">Membership</a></li>
+        <li><a href="#NUTSRegion">NUTS Region</a></li>
+        <li><a href="#Officer">Officer</a></li>
+        <li><a href="#Organization">Organization</a></li>
+        <li><a href="#RegisteredOrganization">Registered Organization</a></li>
+        <li><a href="#Resource">Resource</a></li>
+        <li><a href="#Role">Role</a></li>
+        <li><a href="#Site">Site</a></li>
+        <li><a href="#WebResource">Web Resource</a></li>
+    </ul>
+    <div class="entity class" id="IdentifierSystem">
+        <h3>Identifier System<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#IdentifierSystem</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    A system managed by a publisher (e.g., a register or agency) that is used to issue identifiers to entities (companies, persons, etc).
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Some agencies/registers keep several identifier systems; this ontology doesn't distinguish between an identifier system and its register(s)
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="IdentifierWebResource">
+        <h3>Identifier Web Resource<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#IdentifierWebResource</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    URL template complemented with name, language and MIME type(s) to specify what the URL is about. Substitute the identifier value into the template
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    This class has ebg:urlTemplate, and the same general properties as Web Resource: name, MIME type, language
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="LAURegion">
+        <h3>LAU Region<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#LAURegion</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Local Administrative Unit
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="WebResource">
+        <h3>Web Resource<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#WebResource</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    URL complemented with name, language and MIME type(s) to specify what the URL is about
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="NUTSRegion">
+        <h3>NUTS Region<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Geographiccoordinates">
+        <h3>Geographic coordinates<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/GeoCoordinates</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Geographic coordinates, eg of a geo-located address.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Organization">
+        <h3>Organization<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/Organization</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    An organization.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Used to represent the creator, publisher and author of an IdentifierSystem, and the creator of an Identifier
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Resource">
+        <h3>Resource<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Concept">
+        <h3>Concept<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2004/02/skos/core#Concept</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="http://www.w3.org/ns/org#Role">org:Role</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="ConceptScheme">
+        <h3>Concept Scheme<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2004/02/skos/core#ConceptScheme</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Instant">
+        <h3>Instant<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2006/time#Instant</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    A temporal entity with zero extent or duration.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Interval">
+        <h3>Interval<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2006/time#Interval</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    represents a time interval.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Identifier">
+        <h3>Identifier<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/adms#Identifier</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Identifier of an entity (company, person) according to some identifier system.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    The identifier value is recorded in skos:notation and the issuer/register in dct:creator.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Address">
+        <h3>Address<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#Address</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Mailing or physical address of a company
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Every data provider should strive to provide NUTS3 for each address. This can be done in cooperation, using the techniques described in Address Calculations above.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Membership">
+        <h3>Membership<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#Membership</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    represents the relation between an organisation and a member of that organisation.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    it is acceptable to use the same Membership node for several officers, if they had exactly the same role and membership interval (e.g. in many countries the Board is appointed and discharged at the same interval, namely between AGMs of the company)
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Role">
+        <h3>Role<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#Role</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Denotes a role that a Person can take in an organization.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Instances of this class describe the abstract role; to denote a specific instance of a person playing that role in a specific organization use an instance of org:Membership.
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Site">
+        <h3>Site<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#Site</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    An office or other premise at which the organization is located.
+Many organizations are spread across multiple sites and many sites will host multiple locations.
+In most cases a Site will be a physical location. However, we don't exclude the possibility of non-physical sites such as a virtual office with an associated post box and phone reception service [org:]
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    EBG doesn't need the distinction between org:Site and locn:Address, so we use one node having both types, and a self link org:siteAddress
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Officer">
+        <h3>Officer<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/person#Person</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    An officer is a natural person (as opposed to a legal person) [person:] that has a high-level management role in a Company (e.g., the CEO, treasurer and chief financial officer). Despite their high status, they typically serve at the will of the corporate directors, who can fire or replace them. Officers can also be shareholders and directors but don't necessarily have to be. They have the authority to act on behalf of the corporation, including contract authority.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="RegisteredOrganization">
+        <h3>Registered Organization<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/regorg#RegisteredOrganization</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    An organization that gains legal entity status by the act of registration. Compare to org:FormalOrganization that applies to any legal entity, including those created by other legal means. Registered organizations are distinct from the broader concept of organizations, groups or, in some jurisdictions, sole traders. Many organizations exist that are not legal entities yet to the outside world they have staff, hierarchies, locations etc. Other organizations exist that are an umbrella for several legal entities (universities are often good examples of this) [rov:].  A legal person or structure that is organized under the laws of any jurisdiction [lei-elf:].
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Registered organizations are the main entities that euBusinessGraph works with (the project is not concerned with  unregistered informal groups). The borderline between public organizations and commercial companies is not always clear-cut (a company may be partially owned by government, and e.g.  Public-Private-Partnerships are a prime example), so the project may deal with some organizations that are not companies. But for brevity and convenience we often call  them Companies [ebg:].
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section id="objectproperties">
+    <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#adminunitlevel3">admin unit level 3</a></li>
+        <li><a href="#adminunitlevel4">admin unit level 4</a></li>
+        <li><a href="#adminunitlevel5">admin unit level 5</a></li>
+        <li><a href="#adminunitlevel6">admin unit level 6</a></li>
+        <li><a href="#geocoordinateresolution">geocoordinate resolution</a></li>
+        <li><a href="#identifierwebresource">identifier web resource</a></li>
+        <li><a href="#validationrule">validation rule</a></li>
+        <li><a href="#webresource">web resource</a></li>
+        <li><a href="#issuer">issuer</a></li>
+        <li><a href="#ispartof">is part of</a></li>
+        <li><a href="#news/blogfeed">news/blog feed</a></li>
+        <li><a href="#author">author</a></li>
+        <li><a href="#certifiedemailaddress">certified email address</a></li>
+        <li><a href="#geographiccoordinates">geographic coordinates</a></li>
+        <li><a href="#license">license</a></li>
+        <li><a href="#wikipediapage">wikipedia page</a></li>
+        <li><a href="#website">website</a></li>
+        <li><a href="#starttime">start time</a></li>
+        <li><a href="#endtime">end time</a></li>
+        <li><a href="#identifier1">identifier</a></li>
+        <li><a href="#adminunitlevel1">admin unit level 1</a></li>
+        <li><a href="#adminunitlevel2">admin unit level 2</a></li>
+        <li><a href="#registeredsite/address">registered site/address</a></li>
+        <li><a href="#site/address">site/address</a></li>
+        <li><a href="#member">member</a></li>
+        <li><a href="#duration">duration</a></li>
+        <li><a href="#company">company</a></li>
+        <li><a href="#role">role</a></li>
+        <li><a href="#site'saddress">site's address</a></li>
+        <li><a href="#economicactivity">economic activity</a></li>
+        <li><a href="#status">status</a></li>
+        <li><a href="#type">type</a></li>
+        <li><a href="#officialregistration">official registration</a></li>
+    </ul>
+    <div class="entity property" id="adminunitlevel3">
+        <h3>admin unit level 3<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#adminUnitL3</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    NUTS2 (administrative region) of the address.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Use a valid NUTS region. Eg Trentino-Alto Adige/Sudtirol (taken from the Geonames hierarchy above) is not a NUTS region.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminunitlevel4">
+        <h3>admin unit level 4<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#adminUnitL4</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    NUTS3 (Province) of the address.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminunitlevel5">
+        <h3>admin unit level 5<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#adminUnitL5</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    LAU1 (Municipality/Commune/Settlement) of the address.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Some countries (e.g. Bulgaria) use both LAU1 and LAU2 levels. Others (e.g. Italy) use only LAU2.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="#LAURegion">ebg:LAURegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminunitlevel6">
+        <h3>admin unit level 6<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#adminUnitL6</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    LAU2 (Municipality/Commune/Settlement) of the address.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Some countries (e.g. Bulgaria) use both LAU1 and LAU2 levels. Others (e.g. Italy) use only LAU2.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="#LAURegion">ebg:LAURegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="geocoordinateresolution">
+        <h3>geocoordinate resolution<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#geoResolution</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Resolution of a geographic coordinate location: from <resolution/L0> continent (least precise) to <resolution/L10> individual house number (most precise).
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Values must be mapped to the <resolution/> ConceptScheme (lookup list).
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://schema.org/GeoCoordinates">schema:GeoCoordinates</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="identifierwebresource">
+        <h3>identifier web resource<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#identifierWebResource</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Web resource associated with an identifier system
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Specifies a template that can be used uniformly to build URLs for all identifiers in the system.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="#IdentifierWebResource">ebg:IdentifierWebResource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="validationrule">
+        <h3>validation rule<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#validationRule</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    URL providing human or machine-readable rule(s) for validating identifiers in the system
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Can be in the form of webpage, PDF document, RDF shape, etc. Multiple values about the same validation rule are ok.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="webresource">
+        <h3>web resource<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#webResource</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Web resource associated with an identifier system.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://rdfs.org/ns/void#Dataset">void:Dataset</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="#WebResource">ebg:WebResource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="issuer">
+        <h3>issuer<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/creator</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Agent that issues identifiers and then keeps them in a database (register), and who issued a specific identifier
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    In many countries there is a single registry although in others, such as Spain and Germany, multiple registries exist. [rov:].
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://schema.org/Person">schema:Person</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://schema.org/Organization">schema:Organization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="ispartof">
+        <h3>is part of<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/isPartOf</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The Identifier System this identifier is part of
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="news/blogfeed">
+        <h3>news/blog feed<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://rdfs.org/sioc/ns#feed</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    RSS/Atom feed pertaining to the company.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="author">
+        <h3>author<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/author</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Agent who specified the rules and organization of the identifier system
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://schema.org/Person">schema:Person</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://schema.org/Organization">schema:Organization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="certifiedemailaddress">
+        <h3>certified email address<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/email</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Email that is officially registered and with the same validity as certified (snail) mail.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    The value should be a mailto: URL.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="geographiccoordinates">
+        <h3>geographic coordinates<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/geo</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Geographic coordinates, eg of a geo-located address.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    If data is integrated from several providers, we may end up with multiple coordinate pairs in that node, which will need to be resolved into one.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://schema.org/GeoCoordinates">schema:GeoCoordinates</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="license">
+        <h3>license<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/license</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    License that applies to an identifier system or dataset
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    If possible, use established license URLs, e.g. from https://creativecommons.org/ or http://rightsstatements.org/
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://rdfs.org/ns/void#Dataset">void:Dataset</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="wikipediapage">
+        <h3>wikipedia page<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/sameAs</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Wikipedia page pertaining to the company.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="website">
+        <h3>website<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/url</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Website pertaining to the company or URL of a web resource
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#WebResource">ebg:WebResource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="starttime">
+        <h3>start time<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2006/time#hasBeginning</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Beginning of the membership relation
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Interval">org:Interval</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2006/time#Instance">time:Instance</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="endtime">
+        <h3>end time<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2006/time#hasEnd</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    End of the membership relation
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Interval">org:Interval</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2006/time#Instance">time:Instance</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="identifier1">
+        <h3>identifier<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/adms#identifier</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    An identifier of a Company (the official identifier is rov:registration) or Identifier System / Register
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    This includes, but is not limited to:
+- Direct: Identifier in some aggregated dataset, where the official ID is part of the aggregation ID.
+- Indirect: Identifier in some aggregated dataset or for a website, where the aggregation ID bears no resemblance to the official ID
+- Multiple: Identifier that has a many-to-many relation with the company, i.e., a company may have several identifiers of the same kind, and the same identifier can be used by several companies.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminunitlevel1">
+        <h3>admin unit level 1<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#adminUnitL1</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Country of the address
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminunitlevel2">
+        <h3>admin unit level 2<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#adminUnitL2</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    NUTS1 (Macroregion) of the address.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="registeredsite/address">
+        <h3>registered site/address<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#hasRegisteredSite</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Public legal address where legal papers can be served.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    org:hasRegisteredSite leads to a node with types org:Site and locn:Address that has self-link org:siteAddress.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="site/address">
+        <h3>site/address<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#hasSite</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Other address/location associated to an organisation.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    org:hasSite leads to a node with types org:Site & locn:Address that has self-link org:siteAddress. org:hasRegisteredSite is declared a sub-property of org:hasSite, so querying by org:hasSite will obtain all addresses.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Site">org:Site</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="member">
+        <h3>member<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#member</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The officer that the membership is about
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Membership">org:Membership</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/person#Person">person:Person</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="duration">
+        <h3>duration<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#memberDuring</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Interval (beginning and end) of the membership relation. May be an open interval.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    for the common case of missing time, we prefer to use xsd:date rather than completing it with a fake null time, eg "<date>T00:00:00Z"^^xsd:dateTime.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Membership">org:Membership</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2006/time#Interval">time:Interval</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="company">
+        <h3>company<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#organization</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Points to the company the membership is about
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Membership">org:Membership</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Organization">org:Organization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="role">
+        <h3>role<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#role</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The role played by the officer in the membership
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Membership">org:Membership</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Role">org:Role</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="site'saddress">
+        <h3>site's address<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/org#siteAddress</code></td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    EBG doesn't need the distinction between org:Site and locn:Address, so we use one node having both types, and a self-link org:siteAddress
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Site">org:Site</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="economicactivity">
+        <h3>economic activity<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/regorg#orgActivity</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Economic activity of the organization (NACE code)
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Only the most specific classification code(s) should be provided since we have a skos:broader hierarchy.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="status">
+        <h3>status<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/regorg#orgStatus</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Flag that identifies whether a company is active or not [ebg:]. The operational and/or legal registration status of the entity [lei:].
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    There is no globally accepted list of company states. For Inactive, some look at hard evidence (the company has been deregistered), others at a long period of inactivity (dormant). Because of this, a user cannot assume that Active and Inactive are opposites.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="type">
+        <h3>type<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/regorg#orgType</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Company Type (Legal Form of the entity)
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    In addition or alternatively to this field, ebg:orgTypeText may be used.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="officialregistration">
+        <h3>official registration<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/regorg#registration</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Identifier that holds the official company registration in its jurisdiction of registration. It establishes the legal existence of the company.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    This is a sub-property of adms:identifier, and should be an adms:Identifier pointing to an official ebg:IdentifierSystem. So it holds redundant information, but this is done for compatibility with the Registered Organization vocabulary.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="datatypeproperties">
+    <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#dissolutionyear">dissolution year</a></li>
+        <li><a href="#exclusionnote">exclusion note</a></li>
+        <li><a href="#foundingyear">founding year</a></li>
+        <li><a href="#hasenumeratedidentifiers">has enumerated identifiers</a></li>
+        <li><a href="#hasimmutableidentifiers">has immutable identifiers</a></li>
+        <li><a href="#isofficialinjurisdiction">is official in jurisdiction</a></li>
+        <li><a href="#haspersistentidentifiers">has persistent identifiers</a></li>
+        <li><a href="#ispublic">is public</a></li>
+        <li><a href="#ispubliclytraded">is publicly traded</a></li>
+        <li><a href="#issingle-valued">is single-valued</a></li>
+        <li><a href="#isstartup">is startup</a></li>
+        <li><a href="#isstateowned">is state owned</a></li>
+        <li><a href="#hasuniqueidentifiers">has unique identifiers</a></li>
+        <li><a href="#conceptlevel">concept level</a></li>
+        <li><a href="#numberofemployees">number of employees</a></li>
+        <li><a href="#order">order</a></li>
+        <li><a href="#economicactivitytext">economic activity text</a></li>
+        <li><a href="#statustext">status text</a></li>
+        <li><a href="#typetext">type text</a></li>
+        <li><a href="#identifiersystemRALcode">identifier system RAL code</a></li>
+        <li><a href="#replacementpattern">replacement pattern</a></li>
+        <li><a href="#roletext">role text</a></li>
+        <li><a href="#URLtemplate">URL template</a></li>
+        <li><a href="#validationregex">validation regex</a></li>
+        <li><a href="#jurisdiction">jurisdiction</a></li>
+        <li><a href="#MIMEType">MIME Type</a></li>
+        <li><a href="#issuedon">issued on</a></li>
+        <li><a href="#code">code</a></li>
+        <li><a href="#adminregionlevel">admin region level</a></li>
+        <li><a href="#adminregionname">admin region name</a></li>
+        <li><a href="#language">language</a></li>
+        <li><a href="#description">description</a></li>
+        <li><a href="#dissolutiondate">dissolution date</a></li>
+        <li><a href="#expires">expires</a></li>
+        <li><a href="#foundingdate">founding date</a></li>
+        <li><a href="#persongender">person gender</a></li>
+        <li><a href="#identifier">identifier</a></li>
+        <li><a href="#inLanguage">language</a></li>
+        <li><a href="#latitude">latitude</a></li>
+        <li><a href="#longitude">longitude</a></li>
+        <li><a href="#name">name</a></li>
+        <li><a href="#personnationality">person nationality</a></li>
+        <li><a href="#identifiersystempublisher">identifier system publisher</a></li>
+        <li><a href="#altlabel(tradename)">alt label (trade name)</a></li>
+        <li><a href="#notation(identifiervalue)">notation (identifier value)</a></li>
+        <li><a href="#preferredname">preferred name</a></li>
+        <li><a href="#date">date</a></li>
+        <li><a href="#addressarea(neighbourhood/quarter)">address area (neighbourhood/quarter)</a></li>
+        <li><a href="#fulladdress">full address</a></li>
+        <li><a href="#locatordesignator(streetnumber)">locator designator (street number)</a></li>
+        <li><a href="#postofficebox">post office box</a></li>
+        <li><a href="#postcode">post code</a></li>
+        <li><a href="#postname(locality/city/settlement)">post name (locality/city/settlement)</a></li>
+        <li><a href="#thoroughfare(streetaddress)">thoroughfare (street address)</a></li>
+        <li><a href="#birthname">birth name</a></li>
+        <li><a href="#legalname">legal name</a></li>
+    </ul>
+    <div class="entity property" id="dissolutionyear">
+        <h3>dissolution year<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#dissolutionYear</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Year the organization was dissolved or deregistered, as integer.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Used for faceting.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="exclusionnote">
+        <h3>exclusion note<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#exclusionNote</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Exclusion note of a NACE classification concept
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="foundingyear">
+        <h3>founding year<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#foundingYear</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Year the organization was created, as integer.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Used for faceting.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasenumeratedidentifiers">
+        <h3>has enumerated identifiers<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isEnumerated</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether the system has an Issuer and issued identifiers are kept in a database (register)
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasimmutableidentifiers">
+        <h3>has immutable identifiers<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isImmutable</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    whether identifiers can change
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="isofficialinjurisdiction">
+        <h3>is official in jurisdiction<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isOfficial</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether the system is considered the official one in all jurisdictions in which it applies.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="haspersistentidentifiers">
+        <h3>has persistent identifiers<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isPersistent</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether identifiers can be removed from the register (e.g., when a company is dissolved): such are not persistent
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Some registers 'remove' identifiers when the object they relate to is no longer active, whereas the best practice is to make such identifiers Obsolete.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="ispublic">
+        <h3>is public<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isPublic</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    whether identifiers from the system are available for public use: consulting, search or download.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Most public systems (but not all) will have some Publishers, and preferably some web resources.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="ispubliclytraded">
+        <h3>is publicly traded<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isPubliclyTraded</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether the company is publicly traded (listed at a stock exchange) [ebg:].
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="issingle-valued">
+        <h3>is single-valued<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isSingleValued</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether each entity has only one identifier in the system
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Similar to owl:FunctionalProperty, and Wikidata Single Value constraint
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="isstartup">
+        <h3>is startup<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isStartup</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether the company is a startup [ebg:]
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="isstateowned">
+        <h3>is state owned<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isStateOwned</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether this organisation is owned by the government, a government agency, community, city or other public entity.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    In many cases it's not possible to compute this attribute without access to the shareholder register, so it may be missing.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasuniqueidentifiers">
+        <h3>has unique identifiers<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#isUnique</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Whether each identifier in the system relates to only one entity
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Similar to: owl:InverseFunctionalProperty, and Wikidata Distinct Values constraint
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="conceptlevel">
+        <h3>concept level<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#level</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Hierarchical level of a thesaurus concept
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="numberofemployees">
+        <h3>number of employees<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#numberOfEmployees</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The number of employees in the company.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="order">
+        <h3>order<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#order</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Global order of a thesaurus concept respecting the hierarchical structure (depth-first traversal)
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="economicactivitytext">
+        <h3>economic activity text<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#orgActivityText</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Economic activity of the organization (free text)
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Such field is widely used in some countries (e.g. BG) and may include much richer info than rov:orgActivity
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="statustext">
+        <h3>status text<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#orgStatusText</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Company status as it comes from the original register (free text).
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    If both Status and Status Text are present, they must express compatible values (Status Text may be a finer-granularity value).
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="typetext">
+        <h3>type text<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#orgTypeText</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Company Type (Entity Legal Form) as reported by a national company registe (free text).
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Include valid language tag (see [iana:] for list).
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="identifiersystemRALcode">
+        <h3>identifier system RAL code<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#ralCode</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    GLEI RAL code for the identifier system.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Used only for official registers.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="replacementpattern">
+        <h3>replacement pattern<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#replacementPattern</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Pattern to use together with the Validation Regex to normalise identifier values by removing optional decorations
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="roletext">
+        <h3>role text<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#rolePositionText</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The (hierarchical) position of the person within a company (in free text), e.g., director.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/org#Membership">org:Membership</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="URLtemplate">
+        <h3>URL template<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#urlTemplate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    URL template of an identifier web resource.
+If it has a placeholder {}, substitute the identifier value there.
+If it has placeholders like $1, $2… substitute the groups extracted by ebg:validationRegex
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierWebResource">ebg:IdentifierWebResource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="validationregex">
+        <h3>validation regex<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://data.businessgraph.io/ontology#validationRegex</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Regular expression for validating identifier values within the system
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="jurisdiction">
+        <h3>jurisdiction<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://dbpedia.org/ontology/jurisdiction</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Jurisdiction in which the company is registered or to which the identifier system applies.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    For Europe, this is a country, even for Germany that has 166 separate registers (see Registration Authorities List).  Many jurisdictions register foreign companies that are incorporated and fully owned in another country. EBG collects all registrations from each register and doesn't attempt to match foreign companies across jurisdictions.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="MIMEType">
+        <h3>MIME Type<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/elements/1.1/format</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    MIME type of the resource. If several are provided, the server must provide all these resource types using Content Negotiation
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierWebResource">ebg:IdentifierWebResource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#WebResource">ebg:WebResource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource">rdf:Resource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="issuedon">
+        <h3>issued on<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/issued</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    When was the identifier was issued (start date).
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    This may or may not be the same as the Incorporation Date of the company. Even for the official registration, the two dates may differ, depending on business rules.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="code">
+        <h3>code<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://rdfdata.eionet.europa.eu/ramon/ontology/code</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    NUTS/LAU Code of an administrative region
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#LAURegion">ebg:LAURegion</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminregionlevel">
+        <h3>admin region level<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://rdfdata.eionet.europa.eu/ramon/ontology/level</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Level of an administrative region: NUTS1..3=1..3, LAU1..2=4..5
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#LAURegion">ebg:LAURegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="adminregionname">
+        <h3>admin region name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://rdfdata.eionet.europa.eu/ramon/ontology/name</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Name of an administrative region or settlement
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion">ramon:NUTSRegion</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#LAURegion">ebg:LAURegion</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="language">
+        <h3>language<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/availableLanguage</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Languages used by the organization.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    The value should be from the [iana:] list: ISO 639-1 codes, optionally followed by region of use.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="description">
+        <h3>description<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/description</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Description of the resource
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://schema.org/Organization">schema:Organization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="dissolutiondate">
+        <h3>dissolution date<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/dissolutionDate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Date when the organization was dissolved or removed from register.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Should have a valid XSD datatype.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#gYearMonth">xsd:gYearMonth</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#gYear">xsd:gYear</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="expires">
+        <h3>expires<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/expires</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Date when the identifier expires (end date)
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    This may or may not be the same as the dissolution date of the company. Even when it is about the official registration, the two dates may differ, depending on business rules.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="foundingdate">
+        <h3>founding date<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/foundingDate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Date when the organization was created.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Should have a valid XSD datatype.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#gYear">xsd:gYear</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#gYearMonth">xsd:gYearMonth</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="persongender">
+        <h3>person gender<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/gender</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The birth date of the person.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/person#Person">person:Person</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="identifier">
+        <h3>identifier<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/identifier</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    An identifier for a resource.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Used to represent the identifier (e.g. URL) of a Person or Organization related to an IdentifierSystem or an Identifier.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/person#Person">person:Person</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://schema.org/Organization">schema:Organization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="inLanguage">
+        <h3>language<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/inLanguage</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Language of the web resource
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Use a valid [iana:] language code from the IETF BCP 47 standard
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="latitude">
+        <h3>latitude<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/latitude</code></td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    If no coordinates are available, do not make a schema:GeoCoordinates node.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://schema.org/GeoCoordinates">schema:GeoCoordinates</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="longitude">
+        <h3>longitude<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/longitude</code></td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    If no coordinates are available, do not make a schema:GeoCoordinates node.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://schema.org/GeoCoordinates">schema:GeoCoordinates</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#decimal">xsd:decimal</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="name">
+        <h3>name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/name</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Name or short (generic) description of the resource
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Provide this since it's useful to the user. Can provide it in several languages, in which case the language tag should be specified
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#WebResource">ebg:WebResource</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierWebResource">ebg:IdentifierWebResource</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="personnationality">
+        <h3>person nationality<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/nationality</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The nationality of the person.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/person#Person">person:Person</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="identifiersystempublisher">
+        <h3>identifier system publisher<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://schema.org/publisher</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Agent that publishes an identifier database (register) in some form (i.e., printed form, online)
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Different functions and distributions can be considered (e.g. search or other query, per-company web resources, full download). Often but not always the issuer is also the publisher.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://schema.org/Organization">schema:Organization</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://schema.org/Person">schema:Person</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="altlabel(tradename)">
+        <h3>alt label (trade name)<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2004/02/skos/core#altLabel</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Informal/popular name of the company (also called Trading As) [ebg:]. Sometimes (e.g., when the legal name is very long) people refer to a company using a different, informal version [ebg:]. Some jurisdictions recognize concepts such as a trading name or alternative forms of a legal entity's name [rov:].
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Provide a valid language tag if possible (see [iana:] for a list).
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="notation(identifiervalue)">
+        <h3>notation (identifier value)<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2004/02/skos/core#notation</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Literal value of the identifier.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Codes for Identifier Systems are issued locally by euBusinessGraph.
+For identifier systems published by the sole or preferred official register in a jurisdiction, we use the jurisdiction code (e.g. "BG", "GB"). 
+For others, if the identifier system has no explicit name, we use a short mnemonic code of the publisher:
+- upper-case for company registers (e.g. "OCORP", "SDATI", "RAL", "EU", "BRIS"),
+- mixed-case for social network registers (e.g. "Twitter", "Facebook").
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/adms#Identifier">adms:Identifier</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="preferredname">
+        <h3>preferred name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2004/02/skos/core#prefLabel</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    A single preferred name of a company or identifier system (preferably English).
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Used as a display name of the company or identifier system. For companies we usually pick one of the Registered Names (English if present, else at random). For identifier systems, we use a commonly used English name.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#IdentifierSystem">ebg:IdentifierSystem</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="date">
+        <h3>date<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/2006/time#inXSDDate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Position of an instant, expressed using xsd:date.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/person#Person">person:Person</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="addressarea(neighbourhood/quarter)">
+        <h3>address area (neighbourhood/quarter)<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#addressArea</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Part of a city, village or neighborhood.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Not likely to appear, but we have Coordinate resolution corresponding to this field.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="fulladdress">
+        <h3>full address<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#fullAddress</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Full address, free text.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="locatordesignator(streetnumber)">
+        <h3>locator designator (street number)<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#locatorDesignator</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Street number and/or building name.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Not likely to appear separately, but we have Coordinate resolution corresponding to this field.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="postofficebox">
+        <h3>post office box<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#poBox</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Some addresses are associated with a PO box instead of a street address.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="postcode">
+        <h3>post code<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#postCode</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Postal code of the address.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    If possible, a European postal code should correspond to the fixed values given in NUTS Downloads, so we can correlate it to a NUTS region.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="postname(locality/city/settlement)">
+        <h3>post name (locality/city/settlement)<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#postName</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Locality/City/Settlement of the address, free text.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Provide a language tag if possible. If both ebg:adminUnitL6 and locn:postName are specified, they should correspond to each other.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="thoroughfare(streetaddress)">
+        <h3>thoroughfare (street address)<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/locn#thoroughfare</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Street name and optionally number.
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    It is ok if the street number is also here, because many systems do not enter the number separately. There may be several concatenated lines, separated with newlines.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/locn#Address">locn:Address</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="birthname">
+        <h3>birth name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/person#birthName</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The legal name of the person which is usually determined at or around birth, usually persistent and for this reason usually recorded by some official registers. Although birth names tend to be persistent we do not assume this has to be the case.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://www.w3.org/ns/person#Person">person:Person</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="legalname">
+        <h3>legal name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://www.w3.org/ns/regorg#legalName</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The legal name of the business, i.e. official name of the company [ebg:]
+                </td>
+            </tr>
+            <tr>
+                <th>Usage Note</th>
+                <td>
+                    Provide a legal language tag (see [iana:] for a list) if possible.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:domainIncludes</a>)
+                    <a href="http://schema.org/Organization">schema:Organization</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/ns/regorg#RegisteredOrganization">rov:RegisteredOrganization</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    (<a href="https://schema.org/domainIncludes">sdo:rangeIncludes</a>)
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="namespaces">
+    <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <dl>
+        <dt><em>default (:)</em></dt>
+        <dd><code>http://data.businessgraph.io/ontology#</code></dd>
+        <dt>adms</dt>
+        <dd><code>http://www.w3.org/ns/adms#</code></dd>
+        <dt>dbo</dt>
+        <dd><code>http://dbpedia.org/ontology/</code></dd>
+        <dt>dc</dt>
+        <dd><code>http://purl.org/dc/elements/1.1/</code></dd>
+        <dt>dct</dt>
+        <dd><code>http://purl.org/dc/terms/</code></dd>
+        <dt>doap</dt>
+        <dd><code>http://usefulinc.com/ns/doap#</code></dd>
+        <dt>ebg</dt>
+        <dd><code>http://data.businessgraph.io/ontology#</code></dd>
+        <dt>ebg-comp</dt>
+        <dd><code>http://data.businessgraph.io/company/</code></dd>
+        <dt>ebg-id</dt>
+        <dd><code>http://data.businessgraph.io/identifier/</code></dd>
+        <dt>foaf</dt>
+        <dd><code>http://xmlns.com/foaf/0.1/</code></dd>
+        <dt>lau</dt>
+        <dd><code>http://data.businessgraph.io/lau/</code></dd>
+        <dt>locn</dt>
+        <dd><code>http://www.w3.org/ns/locn#</code></dd>
+        <dt>nace</dt>
+        <dd><code>http://data.businessgraph.io/nace/</code></dd>
+        <dt>ngeo</dt>
+        <dd><code>http://geovocab.org/geometry#</code></dd>
+        <dt>nuts</dt>
+        <dd><code>http://nuts.geovocab.org/id/</code></dd>
+        <dt>org</dt>
+        <dd><code>http://www.w3.org/ns/org#</code></dd>
+        <dt>owl</dt>
+        <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
+        <dt>person</dt>
+        <dd><code>http://www.w3.org/ns/person#</code></dd>
+        <dt>prov</dt>
+        <dd><code>http://www.w3.org/ns/prov#</code></dd>
+        <dt>puml</dt>
+        <dd><code>http://plantuml.com/ontology#</code></dd>
+        <dt>ramon</dt>
+        <dd><code>http://rdfdata.eionet.europa.eu/ramon/ontology/</code></dd>
+        <dt>rdf</dt>
+        <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
+        <dt>rdfs</dt>
+        <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
+        <dt>rov</dt>
+        <dd><code>http://www.w3.org/ns/regorg#</code></dd>
+        <dt>schema</dt>
+        <dd><code>http://schema.org/</code></dd>
+        <dt>sioc</dt>
+        <dd><code>http://rdfs.org/sioc/ns#</code></dd>
+        <dt>skos</dt>
+        <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
+        <dt>spatial</dt>
+        <dd><code>http://geovocab.org/spatial#</code></dd>
+        <dt>time</dt>
+        <dd><code>http://www.w3.org/2006/time#</code></dd>
+        <dt>vann</dt>
+        <dd><code>http://purl.org/vocab/vann/</code></dd>
+        <dt>void</dt>
+        <dd><code>http://rdfs.org/ns/void#</code></dd>
+        <dt>xml</dt>
+        <dd><code>http://www.w3.org/XML/1998/namespace</code></dd>
+        <dt>xsd</dt>
+        <dd><code>http://www.w3.org/2001/XMLSchema#</code></dd>
+    </dl>
+</section>
+<section id="legend">
+    <h2>Legend</h2>
+    <table class="entity">
+        <tr><td><sup class="sup-c" title="Classes">c</sup></td><td>Classes</td></tr>
+        <tr><td><sup class="sup-op" title="Object Properties">op</sup></td><td>Object Properties</td></tr>
+        <tr><td><sup class="sup-fp" title="Functional Properties">fp</sup></td><td>Functional Properties</td></tr>
+        <tr><td><sup class="sup-dp" title="Data Properties">dp</sup></td><td>Data Properties</td></tr>
+        <tr><td><sup class="sup-ap" title="Annotation Properties">dp</sup></td><td>Annotation Properties</td></tr>
+        <tr><td><sup class="sup-p" title="Properties">p</sup></td><td>Properties</td></tr>
+        <tr><td><sup class="sup-ni" title="Named Individuals">ni</sup></td><td>Named Individuals</td></tr>
+    </table>
+</section>
+</body>
+</html>
