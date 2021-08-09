@@ -42,14 +42,14 @@ shape ebgsh:Company -> rov:RegisteredOrganization {
   skos:prefLabel           xsd:string|rdf:langString !pattern="^ | $| {2}" [1..1] .
   skos:altLabel            xsd:string|rdf:langString !pattern="^ | $| {2}" [0..*] .
   rov:orgType              IRI pattern="^http://data.businessgraph.io/type/.+" [0..1] .
-  ebg:orgTypeText          rdfs:langString [0..1] .
+  ebg:orgTypeText          rdf:langString [0..1] .
   ebg:isStartup            xsd:boolean [0..1] .
   ebg:isStateOwned         xsd:boolean [0..1] .
   ebg:isPubliclyTraded     xsd:boolean [0..1] .
   rov:orgStatus            IRI pattern="^http://data.businessgraph.io/status/.+" [0..1] .
-  ebg:orgStatusText        rdfs:langString [0..1] .
+  ebg:orgStatusText        rdf:langString [0..1] .
   rov:orgActivity          IRI pattern="^http://data.businessgraph.io/nace/.+" [0..*].
-  ebg:orgActivityText      rdfs:langString [0..1] .
+  ebg:orgActivityText      rdf:langString [0..1] .
   schema:foundingDate      xsd:date|xsd:gYearMonth|xsd:gYear [0..1] .
   schema:dissolutionDate   xsd:date|xsd:gYearMonth|xsd:gYear [0..1] .
   schema:availableLanguage xsd:string [0..1] .

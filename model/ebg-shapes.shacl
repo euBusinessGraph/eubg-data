@@ -74,7 +74,7 @@ ebgsh:Company  a        sh:NodeShape ;
         sh:property     [ sh:nodeKind  sh:IRI ;
                           sh:path      sioc:feed
                         ] ;
-        sh:property     [ sh:class     rdfs:langString ;
+        sh:property     [ sh:datatype  rdf:langString ;
                           sh:maxCount  1 ;
                           sh:path      ebg:orgActivityText
                         ] ;
@@ -133,11 +133,11 @@ ebgsh:Company  a        sh:NodeShape ;
                           sh:path      schema:email ;
                           sh:pattern   "^mailto:.+"
                         ] ;
-        sh:property     [ sh:class     rdfs:langString ;
+        sh:property     [ sh:datatype  rdf:langString ;
                           sh:maxCount  1 ;
                           sh:path      ebg:orgTypeText
                         ] ;
-        sh:property     [ sh:class     rdfs:langString ;
+        sh:property     [ sh:datatype  rdf:langString ;
                           sh:maxCount  1 ;
                           sh:path      ebg:orgStatusText
                         ] ;

@@ -5,14 +5,14 @@ ebgsh:Company CLOSED {
   skos:prefLabel           (xsd:string OR rdf:langString) AND NOT (/^ | $| {2}/) {1};
   skos:altLabel            (xsd:string OR rdf:langString) AND NOT (/^ | $| {2}/) *;
   rov:orgType              IRI <type/>~ ?;
-  ebg:orgTypeText          rdfs:langString ?;
+  ebg:orgTypeText          rdf:langString ?;
   ebg:isStartup            xsd:boolean ?;
   ebg:isStateOwned         xsd:boolean ?;
   ebg:isPubliclyTraded     xsd:boolean ?;
   rov:orgStatus            IRI <status/>~ ?;
-  ebg:orgStatusText        rdfs:langString ?;
+  ebg:orgStatusText        rdf:langString ?;
   rov:orgActivity          IRI nace:~ *;
-  ebg:orgActivityText      rdfs:langString ?;
+  ebg:orgActivityText      rdf:langString ?;
   schema:foundingDate      (xsd:date OR xsd:gYearMonth OR xsd:gYear) ?;
   schema:dissolutionDate   (xsd:date OR xsd:gYearMonth OR xsd:gYear) ?;
   schema:availableLanguage xsd:string ?;
