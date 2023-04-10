@@ -334,7 +334,6 @@ ebgsh:Identifier  a     sh:NodeShape ;
         sh:closed       true ;
         sh:nodeKind     sh:IRI ;
         sh:pattern      "^http://data.businessgraph.io/company/[A-Z]{2}/.+/id(/[A-Z]+)?" ;
-        sh:property     []  ;
         sh:property     [ sh:maxCount  1 ;
                           sh:minCount  1 ;
                           sh:nodeKind  sh:IRI ;
