@@ -6,7 +6,7 @@ The euBusinessGraph has drawn on the experience of its data providers and techno
 * Based on project needs and provider datasets
 * Rooted in and reuses existing ontologies and datasets
 * Expressed in comprehensive EBG Semantic Model doc
-* Formalized as ebg: ontology using schema:(domain|range)Includes
+* Formalized as `ebg:` ontology using `schema:(domain|range)Includes`
 * Also defines URL patterns and authorities/lookup lists to use
 * Will be validated with RDF Shapes
 
